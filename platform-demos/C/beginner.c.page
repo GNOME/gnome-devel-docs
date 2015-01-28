@@ -6,7 +6,7 @@
       id="beginner.c">
 
 <info>
-  <title type="text">Tutorial for beginners (C)</title>
+  <title type="text">GTK+ widgets sample code (C)</title>
   <link type="guide" xref="c#code-samples"/>
   <revision version="0.1" date="2012-02-19" status="stub"/>
 
@@ -23,7 +23,7 @@
     </credit>
 </info>
 
-<title>Tutorial for beginners and code samples</title>
+<title>GTK+ widgets sample code</title>
 <synopsis>
  <p>Although these tutorials are designed for beginners, we can't cover all the basics.  Before attempting to follow these tutorials, you are expected to be familiar with the following concepts:</p>
 <list type="numbered">

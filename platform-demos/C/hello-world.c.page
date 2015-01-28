@@ -7,7 +7,7 @@
 
   <info>
   <title type="text">Hello World (C)</title>
-    <link type="guide" xref="beginner.c#tutorials" group="#first"/>
+		<link type="guide" xref="c#tutorial" group="#first"/>
 
     <revision version="0.1" date="2013-06-17" status="review"/>
 

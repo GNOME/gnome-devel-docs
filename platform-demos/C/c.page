@@ -11,14 +11,31 @@
     <name>Tiffany Antopolski</name>
     <email its:translate="no">tiffany.antopolski@gmail.com</email>
   </credit>
+  <credit type="editor">
+  	<name>Marta Maria Casetti</name>
+  	<email>mmcasetti@gmail.com</email>
+  	<years>2013</years>
+	</credit>
+	<credit type="editor">
+  	<name>Mario Lamas</name>
+  	<email>mlamases@gmail.com</email>
+  	<years>2014</years>
+	</credit>
+
 </info>
 
-<title>Tutorials, code samples and plaform demos in C</title>
+<title>Tutorials, code samples and platform demos in C</title>
 
 <links type="section" />
 
+<section id="tutorial">
+<title>Tutorial for beginners</title>
+
+
+</section>
+
 <section id="code-samples">
-<title>Code samples and tutorial</title>
+<title>Code samples</title>
 
 
 </section>
@@ -29,6 +46,5 @@
 
 
 </section>
-
 
 </page>

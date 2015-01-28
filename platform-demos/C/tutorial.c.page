@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide" style="task"
+      id="tutorial.c">
+
+<info>
+  <title type="text">Tutorial for beginners (C)</title>
+  <link type="guide" xref="c#tutorial"/>
+  <revision version="0.1" date="2012-02-19" status="stub"/>
+
+  <desc>A beginner's guide to GUI programming using GTK+, including code samples and practice exercises.</desc>
+  <credit type="author copyright">
+    <name></name>
+    <email></email>
+    <years></years>
+  </credit>
+    <credit type="editor">
+      <name>Marta Maria Casetti</name>
+      <email>mmcasetti@gmail.com</email>
+      <years>2013</years>
+    </credit>
+</info>
+
+<title>Tutorial for beginners</title>
+<synopsis>
+ <p>Although these tutorials are designed for beginners, we can't cover all the basics.  Before attempting to follow these tutorials, you are expected to be familiar with the following concepts:</p>
+<list type="numbered">
+  <item><p>Object oriented programming</p></item>
+  <item><p>The C programming language</p></item>
+</list>
+
+
+<p>By following these tutorials you will learn the basics of GUI programming using GTK+.</p>
+</synopsis>
+
+<links type="section" />	<!-- To generate the navigation widget -->
+
+<section id="samples">
+<title>To run the code samples</title>
+  <p>
+    To run the code samples:
+  </p>
+  <steps>
+    <item><p>Copy and paste the code into <var>filename</var>.c</p></item>
+    <item><p>In the terminal type:</p>
+          <screen>gcc <var>filename</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>filename</var>
+</screen>
+          <screen>./<var>filename</var></screen>
+    </item>
+  </steps>
+ <note>
+  <p>
+    For more information about compiling GTK+ programs see <link href="http://developer.gnome.org/gtk3/3.4/gtk-compiling.html">Compiling GTK+ Applications on UNIX</link>.
+  </p>
+  </note>
+  <p>You can also use the Vala compiler to compile these samples:</p>
+  <steps>
+    <item><p>In the terminal type:</p>
+      <screen>valac --pkg gtk+-3.0 <var>filename</var>.c</screen>
+    </item>
+    <item><p>To run:</p>
+      <screen>./<var>filename</var></screen>
+    </item>
+  </steps>
+</section>
+ 
+<section id="widgets">
+<title>A path through the widgets (with some theory)</title>
+<p>The tutorial will walk you through increasingly complex examples and programming theory, but you can also feel free to just go directly to the tutorial that is most helpful to you.</p>
+<steps>
+  <title>Tutorial</title>
+  <item><steps>
+    <title>Basic windows</title>
+    <item><p><link xref="window.c" /></p></item>
+    <item><p><link xref="GtkApplicationWindow.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Images and labels</title>
+    <item><p><link xref="image.c" /></p></item>
+    <item><p><link xref="strings.c" /></p></item>
+    <item><p><link xref="label.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Introduction to properties</title>
+    <item><p><link xref="properties.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Grid, separator and scrolling</title>
+    <item><p><link xref="grid.c" /></p></item>
+    <item><p><link xref="separator.c" /></p></item>
+    <item><p><link xref="scrolledwindow.c" /></p></item>
+    <item><p><link xref="paned.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Signals, callbacks and buttons</title>   
+    <item><p><link xref="signals-callbacks.c" /></p></item>
+    <item><p><link xref="button.c" /></p></item>
+    <item><p><link xref="linkbutton.c" /></p></item>
+    <item><p><link xref="checkbutton.c" /></p></item>
+    <item><p><link xref="togglebutton.c" /></p></item>
+    <item><p><link xref="switch.c" /></p></item>
+    <item><p><link xref="radiobutton.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>ButtonBox</title>
+    <item><p><link xref="buttonbox.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Other display widgets</title>
+    <item><p><link xref="statusbar.c" /></p></item>
+    <item><p><link xref="spinner.c" /></p></item>
+    <item><p><link xref="progressbar.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Entry widgets</title>
+    <item><p><link xref="spinbutton.c" /></p></item>
+    <item><p><link xref="entry.c" /></p></item>
+    <item><p><link xref="scale.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>A widget to write and display text</title>
+    <item><p><link xref="textview.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Dialogs</title>
+    <item><p><link xref="dialog.c" /></p></item>
+    <item><p><link xref="aboutdialog.c" /></p></item>
+    <item><p><link xref="messagedialog.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Menus, Toolbars and Tooltips (also: using Glade and GtkBuilder)</title>
+    <item><p><link xref="gmenu.c" /></p></item>
+    <item><p><link xref="menubutton.c" /></p></item>
+    <item><p><link xref="toolbar.c" /></p></item>
+    <item><p><link xref="tooltip.c" /></p></item>
+    <item><p><link xref="toolbar_builder.c" /></p></item>
+    <item><p><link xref="menubar.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Selectors</title>
+    <item><p><link xref="colorbutton.c" /></p></item>
+    <item><p><link xref="fontchooserwidget.c" /></p></item>
+    <item><p><link xref="filechooserdialog.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>TreeViews and ComboBoxes (using the M/V/C design)</title>
+    <item><p><link xref="combobox.c" /></p></item>
+    <item><p><link xref="treeview_simple_liststore.c" /></p></item>
+    <item><p><link xref="treeview_treestore.c" /></p></item>
+    <item><p><link xref="model-view-controller.c" /></p></item>
+    <item><p><link xref="combobox_multicolumn.c" /></p></item>
+    <item><p><link xref="treeview_advanced_liststore.c" /></p></item>
+    <item><p><link xref="treeview_cellrenderertoggle.c" /></p></item>
+  </steps></item>
+  <item><steps>
+    <title>Custom widget</title>
+    <item><p><link xref="widget_drawing.c" /></p></item>
+  </steps></item>
+</steps>
+</section>
+
+</page>
