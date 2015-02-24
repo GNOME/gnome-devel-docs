@@ -466,14 +466,18 @@ do_computation (gpointer user_data)
     </p>
 
     <p>
-      Always write things asynchronously internally (using
+      <link xref="async-programming">Write things asynchronously</link>
+      internally (using
       <link xref="#gtask"><code>GTask</code></link> where appropriate), and keep
       synchronous wrappers at the very top level of an API, where they can be
       implemented by calling <code>g_main_context_iteration()</code> on a
       specific <code>GMainContext</code>. Again, this makes future refactoring
       easier. This is demonstrated in the above example: the thread uses
       <code>g_output_stream_write_async()</code> rather than
-      <code>g_output_stream_write()</code>.
+      <code>g_output_stream_write()</code>. A worker thread may be used instead,
+      and this can simplify the callback chain for long series of asynchronous
+      calls; but at the cost of increased complexity in verifying the code is
+      race-free.
     </p>
 
     <p>

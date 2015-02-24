@@ -55,7 +55,7 @@
       When writing projects using GLib, the default approach should be to
       <em style="strong">never use threads</em>. Instead, make proper use of the
       <link xref="main-contexts">GLib main context</link> which, through the use
-      of asynchronous operations,
+      of <link xref="async-programming">asynchronous operations</link>,
       allows most blocking I/O operations to continue in the background while
       the main context continues to process other events. Analysis, review and
       debugging of threaded code becomes very hard, very quickly.

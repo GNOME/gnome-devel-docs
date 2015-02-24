@@ -1,0 +1,1200 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="topic"
+      id="async-programming">
+
+  <info>
+    <link type="guide" xref="index#specific-how-tos"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>
+      Use of GLib-style asynchronous methods in various situations
+    </desc>
+  </info>
+
+  <title>Asynchronous Programming</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <list>
+      <item><p>
+        Use asynchronous calls in preference to synchronous calls or explicit
+        use of threads (<link xref="#concepts"/>)
+      </p></item>
+      <item><p>
+        Learn and follow the GLib pattern for declaring asynchronous APIs
+        (<link xref="#api-pattern"/>)
+      </p></item>
+      <item><p>
+        Place callbacks from asynchronous functions in order down the file, so
+        control flow is easy to follow (<link xref="#single-call"/>)
+      </p></item>
+      <item><p>
+        Use the presence of a
+        <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code></link>
+        or <link href="https://developer.gnome.org/gio/stable/GCancellable.html"><code>GCancellable</code></link>
+        to indicate whether an operation is ongoing
+        (<link xref="#single-call"/>, <link xref="#gtask"/>)
+      </p></item>
+      <item><p>
+        If running operations in parallel, track how many operations are yet to
+        start, and how many are yet to finish — the overall operation is
+        complete once both counts are zero
+        (<link xref="#parallel"/>)
+      </p></item>
+      <item><p>
+        Separate state for operations into ‘task data’ structures for
+        <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code>s</link>,
+        allowing operations to be reused more easily without needing changes to
+        global state handling (<link xref="#gtask"/>)
+      </p></item>
+      <item><p>
+        Consider how asynchronous methods on an object instance interact with
+        finalization of that instance (<link xref="#lifetimes"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="concepts">
+    <title>Concepts</title>
+
+    <p>
+      GLib supports <em>asynchronous</em> programming, where long-running
+      operations can be started, run ‘in the background’, and a callback invoked
+      when they are finished and their results are available. This is in direct
+      contrast to <em>synchronous</em> long-running operations, which are a
+      single function call which blocks program control flow until complete.
+    </p>
+
+    <p>
+      As discussed in <link xref="main-contexts"/> and
+      <link xref="threading#when-to-use-threading"/>, asynchronous operations
+      should be favoured over synchronous ones and over explicit use of
+      threading. They do not block the main context like sychronous operations
+      do; and are easier to use correctly than threads. They often also have a
+      lower performance penalty than spawning a thread and sending work to it.
+    </p>
+  </section>
+
+  <section id="api-pattern">
+    <title>API Pattern</title>
+
+    <p>
+      Asynchronous calls follow a standard pattern in GLib code. For an
+      operation named <code>load_data</code> on the <code>File</code> class in
+      the <code>Foo</code> namespace, there will be:
+    </p>
+    <list>
+      <item>
+        <code mime="text/x-csrc">
+foo_file_load_data_async (FooFile             *self,
+                          …,
+                          GCancellable        *cancellable,
+                          GAsyncReadyCallback  callback,
+                          gpointer             user_data)</code>
+      </item>
+      <item>
+        <code mime="text/x-csrc">
+foo_file_load_data_finish (FooFile       *self,
+                           GAsyncResult  *result,
+                           …,
+                           GError       **error)</code>
+      </item>
+    </list>
+
+    <p>
+      The <code>…</code> parameters to <code>foo_file_load_data_async()</code>
+      are those specific to the operation — in this case, perhaps the size of a
+      buffer to load into. Similarly for
+      <code>foo_file_load_data_finish()</code> they are the operation-specific
+      return values — perhaps a location to return a content type string in this
+      case.
+    </p>
+
+    <p>
+      When <code>foo_file_load_data_async()</code> is called, it schedules the
+      load operation in the background (as a new file descriptor on the
+      <link xref="main-contexts"><code>GMainContext</code></link> or as a worker
+      thread, for example), then returns without blocking.
+    </p>
+
+    <p>
+      When the operation is complete, the <code>callback</code> is executed in
+      the same <code>GMainContext</code> as the original asynchronous call. The
+      callback is invoked <em>exactly</em> once, whether the operation succeeded
+      or failed.
+    </p>
+
+    <p>
+      From the callback, <code>foo_file_load_data_finish()</code> may be called
+      by the user’s code to retrieve return values and error details, passing
+      the <link href="https://developer.gnome.org/gio/stable/GAsyncResult.html"><code>GAsyncResult</code></link>
+      instance which was passed to the callback.
+    </p>
+  </section>
+
+  <section id="lifetimes">
+    <title>Operation Lifetimes</title>
+
+    <p>
+      When writing asynchronous operations, it is common to write them as
+      methods of a class. In this case, it is important to define how ongoing
+      operations on a class instance interact with finalization of that
+      instance. There are two approaches:
+    </p>
+
+    <terms>
+      <item>
+        <title>Strong</title>
+        <p>
+          The ongoing operation keeps a reference to the class instance, forcing
+          it to remain alive for the duration of the operation. The class should
+          provide some kind of ‘close’ or ‘cancel’ method which can be used by
+          other classes to force cancellation of the operation and allow that
+          instance to be finalized.
+        </p>
+      </item>
+
+      <item>
+        <title>Weak</title>
+        <p>
+          The ongoing operation does <em>not</em> keep a reference to the class
+          instance, and the class cancels the operation (using
+          <link href="https://developer.gnome.org/gio/stable/GCancellable.html#g-cancellable-cancel"><code>g_cancellable_cancel()</code></link>)
+          in its dispose function.
+        </p>
+      </item>
+    </terms>
+
+    <p>
+      Which approach is used depends on the class’ design. A class which wraps
+      a particular operation (perhaps a <code>MyFileTransfer</code> class, for
+      example) might want to use the <em style="strong">weak</em> approach.
+      A class which manages multiple network connections and asynchronous
+      operations on them may use the <em style="strong">strong</em> approach
+      instead. Due to incoming network connections, for example, it might not be
+      in complete control of the scheduling of its asynchronous calls, so the
+      weak approach would not be appropriate — any code dropping a reference to
+      the object could not be sure it was not accidentally killing a new network
+      connection.
+    </p>
+  </section>
+
+  <section id="async-examples">
+    <title>Examples of Using Asynchronous Functions</title>
+
+    <p>
+      It is often the case that multiple asynchronous calls need to be used to
+      complete an operation. For example, opening a file for reading, then
+      performing a couple of reads, and then closing the file. Or opening
+      several network sockets in parallel and waiting until they are all open
+      before continuing with other work. Some examples of these situations are
+      given below.
+    </p>
+
+    <section id="single-call">
+      <title>Single Operation</title>
+
+      <p>
+        A single asynchronous call requires two functions: one to start the
+        operation, and one to complete it. In C, the demanding part of
+        performing an asynchronous call is correctly storing state between these
+        two functions, and handling changes to that state in the time between
+        those two functions being called. For example, cancellation of an
+        ongoing asynchronous call is a state change, and if not implemented
+        carefully, any UI updates (for example) made when cancelling an
+        operation will be undone by updates in the operation’s callback.
+      </p>
+
+      <example>
+        <p>
+          This example demonstrates copying a file from one location in the file
+          system to another. The key principles demonstrated here are:
+        </p>
+        <list>
+          <item><p>
+            Placing the <code>copy_button_clicked_cb()</code> (start) and
+            <code>copy_finish_cb()</code> (finish) functions in order by using
+            a forward declaration for <code>copy_finish_cb()</code>. This means
+            the control flow continues linearly down the file, rather than
+            getting to the bottom of <code>copy_button_clicked_cb()</code> and
+            resuming in <code>copy_finish_cb()</code> somewhere else in the
+            file.
+          </p></item>
+          <item><p>
+            Use of a
+            <link href="https://developer.gnome.org/gio/stable/GCancellable.html"><code>GCancellable</code></link>
+            to allow cancelling the operation
+            after it has started. The code in
+            <code>cancel_button_clicked_cb()</code> is very simple: as the
+            <code>copy_finish_cb()</code> callback is <em>guaranteed</em> to be
+            invoked when the operation completes (even when completing early
+            due to cancellation), all the UI and state updates for cancellation
+            can be handled there, rather than in
+            <code>cancel_button_clicked_cb()</code>.
+          </p></item>
+          <item><p>
+            An operation is ongoing exactly while
+            <code>MyObjectPrivate.copy_cancellable</code> is
+            non-<code>NULL</code>, making it easy to track running operations.
+            Note that this means only one file copy operation can be started
+            via <code>copy_button_clicked_cb()</code> at a time. One
+            <code>GCancellable</code> cannot easily be used for multiple
+            operations like this.
+          </p></item>
+        </list>
+
+        <code mime="text/x-csrc" style="valid">
+static void
+copy_finish_cb (GObject      *source_object,
+                GAsyncResult *result,
+                gpointer      user_data);
+
+static void
+copy_button_clicked_cb (GtkButton *button
+                        gpointer   user_data)
+{
+  MyObjectPrivate *priv;
+  GFile *source = NULL, *destination = NULL;  /* owned */
+
+  priv = my_object_get_instance_private (MY_OBJECT (user_data));
+
+  /* Operation already in progress? */
+  if (priv->copy_cancellable != NULL)
+    {
+      g_debug ("Copy already in progress.");
+      return;
+    }
+
+  /* Build source and destination file paths. */
+  source = g_file_new_for_path (/* some path generated from UI */);
+  destination = g_file_new_for_path (/* some other path generated from UI */);
+
+  /* Set up a cancellable. */
+  priv->copy_cancellable = g_cancellable_new ();
+
+  g_file_copy_async (source, destination, G_FILE_COPY_NONE, G_PRIORITY_DEFAULT,
+                     priv->copy_cancellable, NULL, NULL,
+                     copy_finish_cb, user_data);
+
+  g_object_unref (destination);
+  g_object_unref (source);
+
+  /* Update UI to show copy is in progress. */
+  …
+}
+
+static void
+copy_finish_cb (GObject      *source_object,
+                GAsyncResult *result,
+                gpointer      user_data)
+{
+  MyObjectPrivate *priv;
+  GFile *source;  /* unowned */
+  GError *error = NULL;
+
+  source = G_FILE (source_object);
+  priv = my_object_get_instance_private (MY_OBJECT (user_data));
+
+  /* Handle completion of the operation. */
+  g_file_copy_finish (source, result, &amp;error);
+
+  if (error != NULL &amp;&amp;
+      !g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+    {
+      /* Should update the UI to signal failure.
+       * Ignore failure due to cancellation. */
+      g_warning ("Failed to copy file: %s", error->message);
+    }
+
+  g_clear_error (&amp;error);
+
+  /* Clear the cancellable to signify the operation has finished. */
+  g_clear_object (&amp;priv->copy_cancellable);
+
+  /* Update UI to show copy as complete. */
+  …
+}
+
+static void
+cancel_button_clicked_cb (GtkButton *button,
+                          gpointer   user_data)
+{
+  MyObjectPrivate *priv;
+  GFile *source = NULL, *destination = NULL;  /* owned */
+
+  priv = my_object_get_instance_private (MY_OBJECT (user_data));
+
+  /* Operation in progress? No-op if @copy_cancellable is %NULL. */
+  g_cancellable_cancel (priv->copy_cancellable);
+}
+
+static void
+my_object_dispose (GObject *obj)
+{
+  MyObjectPrivate *priv;
+
+  priv = my_object_get_instance_private (MY_OBJECT (obj));
+
+  /* Cancel any ongoing copy operation.
+   *
+   * This ensures that if #MyObject is disposed part-way through a copy, the
+   * callback doesn’t get invoked with an invalid #MyObject pointer. */
+  g_cancellable_cancel (priv->copy_cancellable);
+
+  /* Do other dispose calls here. */
+  …
+
+  /* Chain up. */
+  G_OBJECT_CLASS (my_object_parent_class)->dispose (obj);
+}</code>
+
+        <p>
+          For comparison, here is the same code implemented using the
+          <em>synchronous</em> version of
+          <link href="https://developer.gnome.org/gio/stable/GFile.html#g-file-copy"><code>g_file_copy()</code></link>.
+          Note how the order of statements is almost identical. Cancellation
+          cannot be supported here, as the UI is blocked from receiving ‘click’
+          events on the cancellation button while the copy is ongoing, so
+          <code>NULL</code> is passed to the <code>GCancellable</code>
+          parameter. This is the main reason why this code should <em>not</em>
+          be used in practice.
+        </p>
+
+        <code mime="text/x-csrc" style="invalid">
+static void
+copy_button_clicked_cb (GtkButton *button
+                        gpointer   user_data)
+{
+  MyObjectPrivate *priv;
+  GFile *source = NULL, *destination = NULL;  /* owned */
+
+  priv = my_object_get_instance_private (MY_OBJECT (user_data));
+
+  /* Build source and destination file paths. */
+  source = g_file_new_for_path (/* some path generated from UI */);
+  destination = g_file_new_for_path (/* some other path generated from UI */);
+
+  g_file_copy (source, destination, G_FILE_COPY_NONE,
+               NULL  /* cancellable */, NULL, NULL,
+               &amp;error);
+
+  g_object_unref (destination);
+  g_object_unref (source);
+
+  /* Handle completion of the operation. */
+  if (error != NULL)
+    {
+      /* Should update the UI to signal failure.
+       * Ignore failure due to cancellation. */
+      g_warning ("Failed to copy file: %s", error->message);
+    }
+
+  g_clear_error (&amp;error);
+
+  /* Update UI to show copy as complete. */
+  …
+}</code>
+      </example>
+    </section>
+
+    <section id="series">
+      <title>Operations in Series</title>
+
+      <p>
+        A common situation is to run multiple asynchronous operations in series,
+        when each operation depends on the previous one completing.
+      </p>
+
+      <example>
+        <p>
+          In this example, the application reads a socket address from a file,
+          opens a connection to that address, reads a message, and then
+          finishes.
+        </p>
+
+        <p>
+          Key points in this example are:
+        </p>
+        <list>
+          <item><p>
+            Each callback is numbered consistently, and they are all placed in
+            order in the file so the code follows sequentially.
+          </p></item>
+          <item><p>
+            As in <link xref="#single-call"/>, a single
+            <code>GCancellable</code> indicates that the series of operations is
+            ongoing. Cancelling it aborts the entire sequence.
+          </p></item>
+          <item><p>
+            As in <link xref="#single-call"/>, the pending operation is
+            cancelled if the owning <code>MyObject</code> instance is disposed,
+            to prevent callbacks being called later with an invalid
+            <code>MyObject</code> pointer.
+          </p></item>
+        </list>
+
+        <p>
+          <link xref="#gtask"/> gives a version of this example wrapped in a
+          <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code></link>
+          for convenience.
+        </p>
+
+        <code mime="text/x-csrc" style="valid">
+static void
+connect_to_server_cb1 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data);
+static void
+connect_to_server_cb2 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data);
+static void
+connect_to_server_cb3 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data);
+
+static void
+connect_to_server (MyObject *self)
+{
+  MyObjectPrivate *priv;
+  GFile *address_file = NULL;  /* owned */
+
+  priv = my_object_get_instance_private (self);
+
+  if (priv->connect_cancellable != NULL)
+    {
+      /* Already connecting. */
+      return;
+    }
+
+  /* Set up a cancellable. */
+  priv->connect_cancellable = g_cancellable_new ();
+
+  /* Read the socket address. */
+  address_file = build_address_file ();
+  g_file_load_contents_async (address_file, priv->connect_cancellable,
+                              connect_to_server_cb1, self);
+  g_object_unref (address_file);
+}
+
+static void
+connect_to_server_cb1 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data)
+{
+  MyObject *self;
+  MyObjectPrivate *priv;
+  GFile *address_file;  /* unowned */
+  gchar *address = NULL;  /* owned */
+  gsize address_size = 0;
+  GInetAddress *inet_address = NULL;  /* owned */
+  GInetSocketAddress *inet_socket_address = NULL;  /* owned */
+  guint16 port = 123;
+  GSocketClient *socket_client = NULL;  /* owned */
+  GError *error = NULL;
+
+  address_file = G_FILE (source_object);
+  self = MY_OBJECT (user_data);
+  priv = my_object_get_instance_private (self);
+
+  /* Finish loading the address. */
+  g_file_load_contents_finish (address_file, result, &amp;address,
+                               &amp;address_size, NULL, &amp;error);
+
+  if (error != NULL)
+    {
+      goto done;
+    }
+
+  /* Parse the address. */
+  inet_address = g_inet_address_new_from_string (address);
+
+  if (inet_address == NULL)
+    {
+      /* Error. */
+      g_set_error (&amp;error, G_IO_ERROR, G_IO_ERROR_INVALID_ARGUMENT,
+                   "Invalid address ‘%s’.", address);
+      goto done;
+    }
+
+  inet_socket_address = g_inet_socket_address_new (inet_address, port);
+
+  /* Connect to the given address. */
+  socket_client = g_socket_client_new ();
+
+  g_socket_client_connect_async (socket_client,
+                                 G_SOCKET_CONNECTABLE (inet_socket_address),
+                                 priv->connect_cancellable,
+                                 connect_to_server_cb2,
+                                 self);
+
+done:
+  if (error != NULL)
+    {
+      /* Stop the operation. */
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+        {
+          g_warning ("Failed to load server address: %s", error->message);
+        }
+
+      g_clear_object (&amp;priv->connect_cancellable);
+      g_error_free (error);
+    }
+
+  g_free (address);
+  g_clear_object (&amp;inet_address);
+  g_clear_object (&amp;inet_socket_address);
+  g_clear_object (&amp;socket_client);
+}
+
+static void
+connect_to_server_cb2 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data)
+{
+  MyObject *self;
+  MyObjectPrivate *priv;
+  GSocketClient *socket_client;  /* unowned */
+  GSocketConnection *connection = NULL;  /* owned */
+  GInputStream *input_stream;  /* unowned */
+  GError *error = NULL;
+
+  socket_client = G_SOCKET_CLIENT (source_object);
+  self = MY_OBJECT (user_data);
+  priv = my_object_get_instance_private (self);
+
+  /* Finish connecting to the socket. */
+  connection = g_socket_client_connect_finish (socket_client, result,
+                                               &amp;error);
+
+  if (error != NULL)
+    {
+      goto done;
+    }
+
+  /* Store a reference to the connection so it is kept open while we read from
+   * it: #GInputStream does not keep a reference to a #GIOStream which contains
+   * it. */
+  priv->connection = g_object_ref (connection);
+
+  /* Read a message from the connection. This uses a single buffer stored in
+   * #MyObject, meaning that only one connect_to_server() operation can run at
+   * any time. The buffer could instead be allocated dynamically if this is a
+   * problem. */
+  input_stream = g_io_stream_get_input_stream (G_IO_STREAM (connection));
+
+  g_input_stream_read_async (input_stream,
+                             priv->message_buffer,
+                             sizeof (priv->message_buffer),
+                             G_PRIORITY_DEFAULT, priv->connect_cancellable,
+                             connect_to_server_cb3, self);
+
+done:
+  if (error != NULL)
+    {
+      /* Stop the operation. */
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+        {
+          g_warning ("Failed to connect to server: %s", error->message);
+        }
+
+      g_clear_object (&amp;priv->connect_cancellable);
+      g_clear_object (&amp;priv->connection);
+      g_error_free (error);
+    }
+
+  g_clear_object (&amp;connection);
+}
+
+static void
+connect_to_server_cb3 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data)
+{
+  MyObject *self;
+  MyObjectPrivate *priv;
+  GInputStream *input_stream;  /* unowned */
+  gssize len = 0;
+  GError *error = NULL;
+
+  input_stream = G_INPUT_STREAM (source_object);
+  self = MY_OBJECT (user_data);
+  priv = my_object_get_instance_private (self);
+
+  /* Finish reading from the socket. */
+  len = g_input_stream_read_finish (input_stream, result, &amp;error);
+
+  if (error != NULL)
+    {
+      goto done;
+    }
+
+  /* Handle the message. */
+  g_assert_cmpint (len, >=, 0);
+  g_assert_cmpuint ((gsize) len, &lt;=, sizeof (priv->message_buffer));
+
+  handle_received_message (self, priv->message_buffer, len, &amp;error);
+
+  if (error != NULL)
+    {
+      goto done;
+    }
+
+done:
+  /* Unconditionally mark the operation as finished.
+   *
+   * The streams should automatically close as this
+   * last reference is dropped. */
+  g_clear_object (&amp;priv->connect_cancellable);
+  g_clear_object (&amp;priv->connection);
+
+  if (error != NULL)
+    {
+      /* Warn about the error. */
+      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+        {
+          g_warning ("Failed to read from the server: %s", error->message);
+        }
+
+      g_error_free (error);
+    }
+}
+
+static void
+my_object_dispose (GObject *obj)
+{
+  MyObjectPrivate *priv;
+
+  priv = my_object_get_instance_private (MY_OBJECT (obj));
+
+  /* Cancel any ongoing connection operations.
+   *
+   * This ensures that if #MyObject is disposed part-way through the
+   * connect_to_server() sequence of operations, the sequence gets cancelled and
+   * doesn’t continue with an invalid #MyObject pointer. */
+  g_cancellable_cancel (priv->connect_cancellable);
+
+  /* Do other dispose calls here. */
+  …
+
+  /* Chain up. */
+  G_OBJECT_CLASS (my_object_parent_class)->dispose (obj);
+}</code>
+      </example>
+    </section>
+
+    <section id="parallel">
+      <title>Operations in Parallel</title>
+
+      <p>
+        Another common situation is to run multiple asynchronous operations in
+        parallel, considering the overall operation complete when all its
+        constituents are complete.
+      </p>
+
+      <example>
+        <p>
+          In this example, the application deletes multiple files in parallel.
+        </p>
+
+        <p>
+          Key points in this example are:
+        </p>
+        <list>
+          <item><p>
+            The number of pending asynchronous operations (ones which have
+            started but not yet finished) is tracked as
+            <code>n_deletions_pending</code>. The <code>delete_files_cb()</code>
+            callback only considers the entire operation complete once this
+            reaches zero.
+          </p></item>
+          <item><p>
+            <code>n_deletions_to_start</code> tracks deletion operations being
+            started, in case
+            <link href="https://developer.gnome.org/gio/stable/GFile.html#g-file-delete-async"><code>g_file_delete_async()</code></link>
+            manages to use a fast path and complete synchronously (without
+            blocking).
+          </p></item>
+          <item><p>
+            As in <link xref="#single-call"/>, all pending deletions are
+            cancelled if the owning <code>MyObject</code> instance is disposed,
+            to prevent callbacks being called later with an invalid
+            <code>MyObject</code> pointer.
+          </p></item>
+        </list>
+
+        <code mime="text/x-csrc" style="valid">
+static void
+delete_files_cb (GObject      *source_object,
+                 GAsyncResult *result,
+                 gpointer      user_data);
+
+static void
+delete_files (MyObject *self,
+              GPtrArray/*&lt;owned GFile*&gt;>*/ *files)
+{
+  MyObjectPrivate *priv;
+  GFile *address_file = NULL;  /* owned */
+
+  priv = my_object_get_instance_private (self);
+
+  /* Set up a cancellable if no operation is ongoing already. */
+  if (priv->delete_cancellable == NULL)
+    {
+      priv->delete_cancellable = g_cancellable_new ();
+      priv->n_deletions_pending = 0;
+      priv->n_deletions_total = 0;
+    }
+
+  /* Update internal state, and temporarily set @n_deletions_to_start. This is
+   * used in delete_files_cb() to avoid indicating the overall operation has
+   * completed while deletions are still being started. This can happen if
+   * g_file_delete_async() completes synchronously, for example if there’s a
+   * non-blocking fast path for the given file system. */
+  priv->n_deletions_pending += files->len;
+  priv->n_deletions_total += files->len;
+  priv->n_deletions_to_start = files->len;
+
+  /* Update the UI to indicate the files are being deleted. */
+  update_ui_to_show_progress (self,
+                              priv->n_deletions_pending,
+                              priv->n_deletions_total);
+
+  /* Start all the deletion operations in parallel. They share the same
+   * #GCancellable. */
+  for (i = 0; i &lt; files->len; i++)
+    {
+      GFile *file = files->pdata[i];
+
+      priv->n_deletions_to_start--;
+      g_file_delete_async (file, G_PRIORITY_DEFAULT, priv->delete_cancellable,
+                           delete_files_cb, self);
+    }
+}
+
+static void
+delete_files_cb (GObject      *source_object,
+                 GAsyncResult *result,
+                 gpointer      user_data)
+{
+  MyObject *self;
+  MyObjectPrivate *priv;
+  GFile *file;  /* unowned */
+  GError *error = NULL;
+
+  file = G_FILE (source_object);
+  self = MY_OBJECT (user_data);
+  priv = my_object_get_instance_private (self);
+
+  /* Finish deleting the file. */
+  g_file_delete_finish (file, result, &amp;error);
+
+  if (error != NULL &amp;&amp;
+      !g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+    {
+      g_warning ("Error deleting file: %s", error->message);
+    }
+
+  g_clear_error (&amp;error);
+
+  /* Update the internal state. */
+  g_assert_cmpuint (priv->n_deletions_pending, >, 0);
+  priv->n_deletions_pending--;
+
+  /* Update the UI to show progress. */
+  update_ui_to_show_progress (self,
+                              priv->n_deletions_pending,
+                              priv->n_deletions_total);
+
+  /* If all deletions have completed, and no more are being started,
+   * update the UI to show completion. */
+  if (priv->n_deletions_pending == 0 &amp;&amp; priv->n_deletions_to_start == 0)
+    {
+      update_ui_to_show_completion (self);
+
+      /* Clear the operation state. */
+      g_clear_object (&amp;priv->delete_cancellable);
+      priv->n_deletions_total = 0;
+    }
+}
+
+static void
+my_object_dispose (GObject *obj)
+{
+  MyObjectPrivate *priv;
+
+  priv = my_object_get_instance_private (MY_OBJECT (obj));
+
+  /* Cancel any ongoing deletion operations.
+   *
+   * This ensures that if #MyObject is disposed part-way through the
+   * delete_files() set of operations, the set gets cancelled and
+   * doesn’t continue with an invalid #MyObject pointer. */
+  g_cancellable_cancel (priv->delete_cancellable);
+
+  /* Do other dispose calls here. */
+  …
+
+  /* Chain up. */
+  G_OBJECT_CLASS (my_object_parent_class)->dispose (obj);
+}</code>
+      </example>
+    </section>
+
+    <section id="gtask">
+      <title>Wrapping with <code>GTask</code></title>
+
+      <p>
+        Often when an asynchronous operation (or set of operations) becomes more
+        complex, it needs associated state. This is typically stored in a custom
+        structure — but defining a new structure to store the standard callback,
+        user data and cancellable tuple is laborious.
+        <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code></link>
+        eases this by providing a standardized way to wrap all three, plus extra
+        custom ‘task data’.
+      </p>
+
+      <p>
+        The use of a <code>GTask</code> can replace the use of a
+        <link href="https://developer.gnome.org/gio/stable/GCancellable.html"><code>GCancellable</code></link>
+        for indicating whether an operation is ongoing.
+      </p>
+
+      <example>
+        <p>
+          This example is functionally the same as <link xref="#series"/>, but
+          refactored to use a <code>GTask</code> to wrap the sequence of
+          operations.
+        </p>
+
+        <p>
+          Key points in this example are:
+        </p>
+        <list>
+          <item><p>
+            State which was in <code>MyObjectPrivate</code> in
+            <link xref="#series"/> is now in the
+            <code>ConnectToServerData</code> closure, which is set as the ‘task
+            data’ of the <code>GTask</code> representing the overall operation.
+            This means it’s automatically freed after the operation returns.
+          </p></item>
+          <item><p>
+            Furthermore, this means that manipulations of
+            <code>MyObjectPrivate</code> state are limited to the start and end
+            of the sequence of operations, so reusing the task in different
+            situations becomes easier — for example, it is now a lot easier to
+            support running multiple such tasks in parallel.
+          </p></item>
+          <item><p>
+            As the <code>GTask</code> holds a reference to
+            <code>MyObject</code>, it is impossible for the object to be
+            disposed while the sequence of operations is ongoing, so the
+            <code>my_object_dispose()</code> code has been removed. Instead, a
+            <code>my_object_close()</code> method exists to allow any pending
+            operations can be cancelled so <code>MyObject</code> can be disposed
+            when desired.
+          </p></item>
+        </list>
+
+        <code mime="text/x-csrc" style="valid">
+static void
+connect_to_server_cb1 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data);
+static void
+connect_to_server_cb2 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data);
+static void
+connect_to_server_cb3 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data);
+
+typedef struct {
+  GSocketConnection *connection;  /* nullable; owned */
+  guint8 message_buffer[128];
+} ConnectToServerData;
+
+static void
+connect_to_server_data_free (ConnectToServerData *data)
+{
+  g_clear_object (&amp;data->connection);
+}
+
+void
+my_object_connect_to_server_async (MyObject            *self,
+                                   GCancellable        *cancellable,
+                                   GAsyncReadyCallback  callback,
+                                   gpointer             user_data)
+{
+  MyObjectPrivate *priv;
+  GTask *task = NULL;  /* owned */
+  ConnectToServerData *data = NULL;  /* owned */
+  GFile *address_file = NULL;  /* owned */
+
+  g_return_if_fail (MY_IS_OBJECT (self));
+  g_return_if_fail (cancellable == NULL || G_IS_CANCELLABLE (cancellable));
+
+  priv = my_object_get_instance_private (self);
+
+  if (priv->connect_task != NULL)
+    {
+      g_task_report_new_error (self, callback, user_data, NULL,
+                               G_IO_ERROR, G_IO_ERROR_PENDING,
+                               "Already connecting to the server.");
+      return;
+    }
+
+  /* Set up a cancellable. */
+  if (cancellable != NULL)
+    {
+      g_object_ref (cancellable);
+    }
+  else
+    {
+      cancellable = g_cancellable_new ();
+    }
+
+  /* Set up the task. */
+  task = g_task_new (self, cancellable, callback, user_data);
+  g_task_set_check_cancellable (task, FALSE);
+
+  data = g_malloc0 (sizeof (ConnectToServerData));
+  g_task_set_task_data (task, data,
+                        (GDestroyNotify) connect_to_server_data_free);
+
+  g_object_unref (cancellable);
+
+  priv->connect_task = g_object_ref (task);
+
+  /* Read the socket address. */
+  address_file = build_address_file ();
+  g_file_load_contents_async (address_file, g_task_get_cancellable (task),
+                              connect_to_server_cb1, g_object_ref (task));
+  g_object_unref (address_file);
+
+  g_clear_object (&amp;task);
+}
+
+static void
+connect_to_server_cb1 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data)
+{
+  MyObject *self;
+  MyObjectPrivate *priv;
+  GTask *task = NULL;  /* owned */
+  GFile *address_file;  /* unowned */
+  gchar *address = NULL;  /* owned */
+  gsize address_size = 0;
+  GInetAddress *inet_address = NULL;  /* owned */
+  GInetSocketAddress *inet_socket_address = NULL;  /* owned */
+  guint16 port = 123;
+  GSocketClient *socket_client = NULL;  /* owned */
+  GError *error = NULL;
+
+  address_file = G_FILE (source_object);
+  task = G_TASK (user_data);
+  self = g_task_get_source_object (task);
+  priv = my_object_get_instance_private (self);
+
+  /* Finish loading the address. */
+  g_file_load_contents_finish (address_file, result, &amp;address,
+                               &amp;address_size, NULL, &amp;error);
+
+  if (error != NULL)
+    {
+      goto done;
+    }
+
+  /* Parse the address. */
+  inet_address = g_inet_address_new_from_string (address);
+
+  if (inet_address == NULL)
+    {
+      /* Error. */
+      g_set_error (&amp;error, G_IO_ERROR, G_IO_ERROR_INVALID_ARGUMENT,
+                   "Invalid address ‘%s’.", address);
+      goto done;
+    }
+
+  inet_socket_address = g_inet_socket_address_new (inet_address, port);
+
+  /* Connect to the given address. */
+  socket_client = g_socket_client_new ();
+
+  g_socket_client_connect_async (socket_client,
+                                 G_SOCKET_CONNECTABLE (inet_socket_address),
+                                 g_task_get_cancellable (task),
+                                 connect_to_server_cb2,
+                                 g_object_ref (task));
+
+done:
+  if (error != NULL)
+    {
+      /* Stop the operation and propagate the error. */
+      g_clear_object (&amp;priv->connect_task);
+      g_task_return_error (task, error);
+    }
+
+  g_free (address);
+  g_clear_object (&amp;inet_address);
+  g_clear_object (&amp;inet_socket_address);
+  g_clear_object (&amp;socket_client);
+  g_clear_object (&amp;task);
+}
+
+static void
+connect_to_server_cb2 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data)
+{
+  MyObject *self;
+  MyObjectPrivate *priv;
+  GTask *task = NULL;  /* owned */
+  ConnectToServerData *data;  /* unowned */
+  GSocketClient *socket_client;  /* unowned */
+  GSocketConnection *connection = NULL;  /* owned */
+  GInputStream *input_stream;  /* unowned */
+  GError *error = NULL;
+
+  socket_client = G_SOCKET_CLIENT (source_object);
+  task = G_TASK (user_data);
+  data = g_task_get_task_data (task);
+  self = g_task_get_source_object (task);
+  priv = my_object_get_instance_private (self);
+
+  /* Finish connecting to the socket. */
+  connection = g_socket_client_connect_finish (socket_client, result,
+                                               &amp;error);
+
+  if (error != NULL)
+    {
+      goto done;
+    }
+
+  /* Store a reference to the connection so it is kept open while we read from
+   * it: #GInputStream does not keep a reference to a #GIOStream which contains
+   * it. */
+  data->connection = g_object_ref (connection);
+
+  /* Read a message from the connection. As the buffer is allocated as part of
+   * the per-task @data, multiple tasks can run concurrently. */
+  input_stream = g_io_stream_get_input_stream (G_IO_STREAM (connection));
+
+  g_input_stream_read_async (input_stream,
+                             data->message_buffer,
+                             sizeof (data->message_buffer),
+                             G_PRIORITY_DEFAULT, g_task_get_cancellable (task),
+                             connect_to_server_cb3, g_object_ref (task));
+
+done:
+  if (error != NULL)
+    {
+      /* Stop the operation and propagate the error. */
+      g_clear_object (&amp;priv->connect_task);
+      g_task_return_error (task, error);
+    }
+
+  g_clear_object (&amp;connection);
+  g_clear_object (&amp;task);
+}
+
+static void
+connect_to_server_cb3 (GObject      *source_object,
+                       GAsyncResult *result,
+                       gpointer      user_data)
+{
+  MyObject *self;
+  MyObjectPrivate *priv;
+  GTask *task = NULL;  /* owned */
+  ConnectToServerData *data;  /* unowned */
+  GInputStream *input_stream;  /* unowned */
+  gssize len = 0;
+  GError *error = NULL;
+
+  input_stream = G_INPUT_STREAM (source_object);
+  task = G_TASK (user_data);
+  data = g_task_get_task_data (task);
+  self = g_task_get_source_object (task);
+  priv = my_object_get_instance_private (self);
+
+  /* Finish reading from the socket. */
+  len = g_input_stream_read_finish (input_stream, result, &amp;error);
+
+  if (error != NULL)
+    {
+      goto done;
+    }
+
+  /* Handle the message. */
+  g_assert_cmpint (len, >=, 0);
+  g_assert_cmpuint ((gsize) len, &lt;=, sizeof (data->message_buffer));
+
+  handle_received_message (self, data->message_buffer, len, &amp;error);
+
+  if (error != NULL)
+    {
+      goto done;
+    }
+
+  /* Success! */
+  g_task_return_boolean (task, TRUE);
+
+done:
+  /* Unconditionally mark the operation as finished.
+   *
+   * The streams should automatically close as this
+   * last reference is dropped. */
+  g_clear_object (&amp;priv->connect_task);
+
+  if (error != NULL)
+    {
+      /* Stop the operation and propagate the error. */
+      g_task_return_error (task, error);
+    }
+
+  g_clear_object (&amp;task);
+}
+
+void
+my_object_connect_to_server_finish (MyObject      *self,
+                                    GAsyncResult  *result,
+                                    GError       **error)
+{
+  g_return_if_fail (MY_IS_OBJECT (self));
+  g_return_if_fail (g_task_is_valid (result, self));
+  g_return_if_fail (error == NULL || *error == NULL);
+
+  g_task_propagate_boolean (G_TASK (result), error);
+}
+
+void
+my_object_close (MyObject *self)
+{
+  MyObjectPrivate *priv;
+
+  g_return_if_fail (MY_IS_OBJECT (self));
+
+  priv = my_object_get_instance_private (self);
+
+  if (priv->connect_task != NULL)
+    {
+      GCancellable *cancellable = g_task_get_cancellable (priv->connect_task);
+      g_cancellable_cancel (cancellable);
+    }
+}</code>
+      </example>
+    </section>
+  </section>
+</page>
