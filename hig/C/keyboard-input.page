@@ -182,7 +182,7 @@
 </tr>
 <tr>
 <td><p>Lock</p></td>
-<td><p><keyseq><key>Super</key><key></key></keyseq></p></td>
+<td><p><keyseq><key>Super</key><key>L</key></keyseq></p></td>
 <td><p>None</p></td>
 <td><p>Locks the system by blanking the screen and requiring a password to unlock, if one has been set.</p></td>
 </tr>
@@ -353,7 +353,7 @@
 </tr>
 <tr>
 <td><p><gui>Print Preview</gui></p></td>
-<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Ctrl</key><key>P</key></keyseq></p></td>
+<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq></p></td>
 <td><p>Shows the user what the printed document will look like. Present a new window containing an accurate representation of the appearance of the document as it would be printed.</p></td>
 </tr>
 <tr>
@@ -668,7 +668,7 @@
 <td><p>Navigates to the parent content item, document, page or section.</p></td>
 </tr>
 <tr>
-<td><p><gui>Up</gui></p></td>
+<td><p><gui>Home</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Home</key></keyseq></p></td>
 <td><p>Navigates to a starting page defined by the user or the application.</p></td>
 </tr>
