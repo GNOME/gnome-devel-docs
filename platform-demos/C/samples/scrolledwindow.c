@@ -27,7 +27,7 @@ activate (GtkApplication *app,
   /* Extract our desired image from a file that we have */
   image = gtk_image_new_from_file ("gnome-image.png");
   /* And add it to the scrolled window */
-  gtk_scrolled_window_add_with_viewport (GTK_SCROLLED_WINDOW (scrolled_window), image);
+  gtk_container_add (GTK_CONTAINER (scrolled_window), image);
   /* Set the policy of the horizontal and vertical scrollbars to automatic.
    * What this means is that the scrollbars are only present if needed.
    */
