@@ -1,3 +1,13 @@
+3.20.1
+======
+
+* Coding style improvements for platform demos, #764655 and #764675 (Mohammed
+  Sadik)
+* Updated translations:
+  de      (Mario Blättermann)
+  el      (Tom Tryfonidis)
+  es      (Daniel Mustieles)
+
 3.20.0
 ======
 
