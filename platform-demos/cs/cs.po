@@ -2,13 +2,13 @@
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 #
-# Marek Černocký <marek@manet.cz>, 2015.
+# Marek Černocký <marek@manet.cz>, 2015, 2016.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-09-14 07:06+0000\n"
-"PO-Revision-Date: 2015-09-14 12:04+0200\n"
+"Project-Id-Version: gnome-devel-docs gnome-3.20\n"
+"POT-Creation-Date: 2016-04-13 08:12+0000\n"
+"PO-Revision-Date: 2016-04-13 11:48+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -125,10 +125,10 @@ msgstr ""
 #: C/comboboxtext.js.page:15 C/combobox.js.page:17 C/dialog.js.page:13
 #: C/entry.js.page:13 C/grid.js.page:18 C/hellognome.js.page:12
 #: C/image.js.page:12 C/label.js.page:13 C/linkbutton.js.page:13
-#: C/messagedialog.js.page:16 C/progressbar.js.page:12
-#: C/radiobutton.js.page:13 C/scale.js.page:13 C/set-up-gedit.js.page:12
-#: C/spinbutton.js.page:16 C/spinner.js.page:13 C/statusbar.js.page:13
-#: C/switch.js.page:13 C/textview.js.page:17 C/togglebutton.js.page:13
+#: C/messagedialog.js.page:16 C/progressbar.js.page:12 C/radiobutton.js.page:13
+#: C/scale.js.page:13 C/set-up-gedit.js.page:12 C/spinbutton.js.page:16
+#: C/spinner.js.page:13 C/statusbar.js.page:13 C/switch.js.page:13
+#: C/textview.js.page:17 C/togglebutton.js.page:13
 #: C/treeview_simple_liststore.js.page:16 C/window.js.page:13
 msgid "Taryn Fox"
 msgstr "Taryn Fox"
@@ -139,10 +139,9 @@ msgstr "Taryn Fox"
 #: C/aboutdialog.vala.page:17 C/beginner.js.page:13 C/button.c.page:17
 #: C/button.js.page:15 C/button.py.page:17 C/button.vala.page:16
 #: C/buttonbox.py.page:17 C/checkbutton.c.page:15 C/checkbutton.js.page:15
-#: C/checkbutton.py.page:16 C/checkbutton.vala.page:15
-#: C/colorbutton.py.page:16 C/colorbutton.vala.page:17
-#: C/comboboxtext.js.page:17 C/combobox.c.page:15 C/combobox.js.page:19
-#: C/combobox.py.page:17 C/combobox.vala.page:15
+#: C/checkbutton.py.page:16 C/checkbutton.vala.page:15 C/colorbutton.py.page:16
+#: C/colorbutton.vala.page:17 C/comboboxtext.js.page:17 C/combobox.c.page:15
+#: C/combobox.js.page:19 C/combobox.py.page:17 C/combobox.vala.page:15
 #: C/combobox_multicolumn.py.page:16 C/dialog.c.page:17 C/dialog.js.page:15
 #: C/dialog.py.page:17 C/dialog.vala.page:15 C/entry.c.page:15
 #: C/entry.js.page:15 C/entry.py.page:17 C/entry.vala.page:15
@@ -155,8 +154,8 @@ msgstr "Taryn Fox"
 #: C/GtkApplicationWindow.vala.page:15 C/guitar-tuner.js.page:14
 #: C/hellognome.js.page:14 C/hello-world.c.page:17 C/hello-world.js.page:17
 #: C/hello-world.py.page:17 C/hello-world.vala.page:17 C/image.c.page:15
-#: C/image.js.page:14 C/image.py.page:17 C/image.vala.page:15
-#: C/label.c.page:16 C/label.js.page:15 C/label.py.page:19 C/label.py.page:24
+#: C/image.js.page:14 C/image.py.page:17 C/image.vala.page:15 C/label.c.page:16
+#: C/label.js.page:15 C/label.py.page:19 C/label.py.page:24
 #: C/label.vala.page:15 C/linkbutton.c.page:15 C/linkbutton.js.page:15
 #: C/linkbutton.py.page:16 C/linkbutton.vala.page:15 C/menubar.c.page:17
 #: C/menubar.py.page:17 C/menubar.py.page:22 C/menubar.vala.page:17
@@ -165,11 +164,10 @@ msgstr "Taryn Fox"
 #: C/messagedialog.js.page:18 C/messagedialog.py.page:16
 #: C/messagedialog.vala.page:15 C/model-view-controller.py.page:23
 #: C/paned.c.page:15 C/paned.py.page:16 C/progressbar.c.page:16
-#: C/progressbar.js.page:14 C/progressbar.py.page:16
-#: C/progressbar.vala.page:15 C/properties.py.page:23 C/radiobutton.c.page:17
-#: C/radiobutton.js.page:15 C/radiobutton.py.page:17
-#: C/radiobutton.vala.page:18 C/response-type.page:11 C/scale.c.page:17
-#: C/scale.js.page:15 C/scale.py.page:17 C/scale.vala.page:17
+#: C/progressbar.js.page:14 C/progressbar.py.page:16 C/progressbar.vala.page:15
+#: C/properties.py.page:23 C/radiobutton.c.page:17 C/radiobutton.js.page:15
+#: C/radiobutton.py.page:17 C/radiobutton.vala.page:18 C/response-type.page:11
+#: C/scale.c.page:17 C/scale.js.page:15 C/scale.py.page:17 C/scale.vala.page:17
 #: C/scrolledwindow.c.page:17 C/scrolledwindow.py.page:16
 #: C/scrolledwindow.vala.page:16 C/separator.py.page:17
 #: C/set-up-gedit.js.page:14 C/signals-callbacks.py.page:23
@@ -180,12 +178,11 @@ msgstr "Taryn Fox"
 #: C/strings.py.page:23 C/switch.c.page:15 C/switch.js.page:15
 #: C/switch.py.page:16 C/switch.vala.page:19 C/textview.c.page:15
 #: C/textview.js.page:19 C/textview.py.page:24 C/textview.vala.page:15
-#: C/togglebutton.c.page:19 C/togglebutton.js.page:15
-#: C/togglebutton.py.page:16 C/togglebutton.vala.page:18 C/toolbar.c.page:17
-#: C/toolbar.js.page:15 C/toolbar.py.page:17 C/toolbar.vala.page:16
-#: C/toolbar_builder.py.page:18 C/toolbar_builder.py.page:24
-#: C/toolbar_builder.vala.page:17 C/tooltip.py.page:17
-#: C/treeview_advanced_liststore.py.page:16
+#: C/togglebutton.c.page:19 C/togglebutton.js.page:15 C/togglebutton.py.page:16
+#: C/togglebutton.vala.page:18 C/toolbar.c.page:17 C/toolbar.js.page:15
+#: C/toolbar.py.page:17 C/toolbar.vala.page:16 C/toolbar_builder.py.page:18
+#: C/toolbar_builder.py.page:24 C/toolbar_builder.vala.page:17
+#: C/tooltip.py.page:17 C/treeview_advanced_liststore.py.page:16
 #: C/treeview_cellrenderertoggle.py.page:16
 #: C/treeview_simple_liststore.js.page:18
 #: C/treeview_simple_liststore.py.page:17
@@ -3319,8 +3316,6 @@ msgid ""
 "\n"
 "#include &lt;gtk/gtk.h&gt;\n"
 "\n"
-"\n"
-"\n"
 "/* Callback function in which reacts to the \"response\" signal from the user in\n"
 " * the message dialog window.\n"
 " * This function is used to destroy the dialog window.\n"
@@ -3330,12 +3325,9 @@ msgid ""
 "          gint       response_id,\n"
 "          gpointer   user_data)\n"
 "{\n"
-"  /*This will cause the dialog to be destroyed*/\n"
+"  /* This will cause the dialog to be destroyed */\n"
 "  gtk_widget_destroy (GTK_WIDGET (dialog));\n"
-"\n"
 "}\n"
-"\n"
-"\n"
 "\n"
 "/* Callback function for the response signal \"activate\" related to the SimpleAction\n"
 " * \"about_action\".\n"
@@ -3346,41 +3338,39 @@ msgid ""
 "          GVariant      *parameter,\n"
 "          gpointer       user_data)\n"
 "{\n"
-"   GtkWidget *about_dialog;\n"
+"  GtkWidget *about_dialog;\n"
 "\n"
-"   about_dialog = gtk_about_dialog_new ();\n"
+"  about_dialog = gtk_about_dialog_new ();\n"
 "\n"
-"   /* Lists of authors/ documentators to be used later, they must be initialized\n"
-"    * in a null terminated array of strings.\n"
-"    */\n"
-"   const gchar *authors[] = {\"GNOME Documentation Team\", NULL};\n"
-"   const gchar *documenters[] = {\"GNOME Documentation Team\", NULL};\n"
+"  /* Lists of authors/ documentators to be used later, they must be initialized\n"
+"   * in a null terminated array of strings.\n"
+"   */\n"
+"  const gchar *authors[] = {\"GNOME Documentation Team\", NULL};\n"
+"  const gchar *documenters[] = {\"GNOME Documentation Team\", NULL};\n"
 "\n"
-"   /* We fill in the information for the about dialog */\n"
-"   gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (about_dialog), \"AboutDialog Example\");\n"
-"   gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (about_dialog), \"Copyright \\xc2\\xa9 2012 GNOME Documentation Team\");\n"
-"   gtk_about_dialog_set_authors (GTK_ABOUT_DIALOG (about_dialog), authors);\n"
-"   gtk_about_dialog_set_documenters (GTK_ABOUT_DIALOG (about_dialog), documenters);\n"
-"   gtk_about_dialog_set_website_label (GTK_ABOUT_DIALOG (about_dialog), \"GNOME Developer Website\");\n"
-"   gtk_about_dialog_set_website (GTK_ABOUT_DIALOG (about_dialog), \"http://developer.gnome.org\");\n"
+"  /* We fill in the information for the about dialog */\n"
+"  gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (about_dialog), \"AboutDialog Example\");\n"
+"  gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (about_dialog), \"Copyright \\xc2\\xa9 2012 GNOME Documentation Team\");\n"
+"  gtk_about_dialog_set_authors (GTK_ABOUT_DIALOG (about_dialog), authors);\n"
+"  gtk_about_dialog_set_documenters (GTK_ABOUT_DIALOG (about_dialog), documenters);\n"
+"  gtk_about_dialog_set_website_label (GTK_ABOUT_DIALOG (about_dialog), \"GNOME Developer Website\");\n"
+"  gtk_about_dialog_set_website (GTK_ABOUT_DIALOG (about_dialog), \"http://developer.gnome.org\");\n"
 "\n"
-"  /* We do not wish to show the title, which in this case would be \n"
-"   * \"AboutDialog Example\". We have to reset the title of the messagedialog \n"
+"  /* We do not wish to show the title, which in this case would be\n"
+"   * \"AboutDialog Example\". We have to reset the title of the messagedialog\n"
 "   * window after setting the program name.\n"
 "   */\n"
 "  gtk_window_set_title (GTK_WINDOW (about_dialog), \"\");\n"
 "\n"
-"  /* To close the aboutdialog when \"close\" is clicked we connect the response \n"
+"  /* To close the aboutdialog when \"close\" is clicked we connect the response\n"
 "   * signal to on_close\n"
 "   */\n"
-"  g_signal_connect (GTK_DIALOG (about_dialog), \"response\", \n"
+"  g_signal_connect (GTK_DIALOG (about_dialog), \"response\",\n"
 "                    G_CALLBACK (on_close), NULL);\n"
 "\n"
 "  /* Show the about dialog */\n"
-"  gtk_widget_show (about_dialog); \n"
+"  gtk_widget_show (about_dialog);\n"
 "}\n"
-"\n"
-"\n"
 "\n"
 "static void\n"
 "activate (GtkApplication *app,\n"
@@ -3395,32 +3385,30 @@ msgid ""
 "  gtk_window_set_title (GTK_WINDOW (window), \"AboutDialog Example\");\n"
 "  gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);\n"
 "\n"
-"  /* Create a new simple action, giving it a NULL parameter type. It will \n"
-"   * always be NULL for actions invoked from a menu. (e.g clicking on an \"ok\" \n"
+"  /* Create a new simple action, giving it a NULL parameter type. It will\n"
+"   * always be NULL for actions invoked from a menu. (e.g clicking on an \"ok\"\n"
 "   * or \"cancel\" button)\n"
 "   */\n"
-"  about_action = g_simple_action_new (\"about\", NULL); \n"
+"  about_action = g_simple_action_new (\"about\", NULL);\n"
 "\n"
-"  /* Connect the \"activate\" signal to the appropriate callback function. \n"
+"  /* Connect the \"activate\" signal to the appropriate callback function.\n"
 "   * It will indicate that the action was just activated.\n"
 "   */\n"
-"  g_signal_connect (about_action, \"activate\", G_CALLBACK (about_cb), \n"
+"  g_signal_connect (about_action, \"activate\", G_CALLBACK (about_cb),\n"
 "                    GTK_WINDOW (window));\n"
 "\n"
-"  /* Adds the about_action to the overall action map. An Action map is an \n"
-"   * interface that contains a number of named GAction instances \n"
-"   * (such as about_action) \n"
+"  /* Adds the about_action to the overall action map. An Action map is an\n"
+"   * interface that contains a number of named GAction instances\n"
+"   * (such as about_action)\n"
 "   */\n"
 "  g_action_map_add_action (G_ACTION_MAP (window), G_ACTION (about_action));\n"
 "\n"
 "  gtk_widget_show_all (window);\n"
 "}\n"
 "\n"
-"\n"
-"\n"
-"/* Callback function for the response signal \"activate\" from the \"quit\" action \n"
+"/* Callback function for the response signal \"activate\" from the \"quit\" action\n"
 " * found in the function directly below.\n"
-" */ \n"
+" */\n"
 "static void\n"
 "quit_cb (GSimpleAction *simple,\n"
 "         GVariant      *parameter,\n"
@@ -3431,8 +3419,6 @@ msgid ""
 "  g_application_quit (application);\n"
 "}\n"
 "\n"
-"\n"
-"\n"
 "/* Startup function for the menu we are creating in this sample */\n"
 "static void\n"
 "startup (GApplication *app,\n"
@@ -3441,15 +3427,15 @@ msgid ""
 "  GMenu *menu;\n"
 "  GSimpleAction *quit_action;\n"
 "\n"
-"  /* Initialize the GMenu, and add a menu item with label \"About\" and action \n"
-"   * \"win.about\". Also add another menu item with label \"Quit\" and action \n"
-"   * \"app.quit\" \n"
+"  /* Initialize the GMenu, and add a menu item with label \"About\" and action\n"
+"   * \"win.about\". Also add another menu item with label \"Quit\" and action\n"
+"   * \"app.quit\"\n"
 "   */\n"
 "  menu = g_menu_new ();\n"
 "  g_menu_append (menu, \"About\", \"win.about\");\n"
 "  g_menu_append (menu, \"Quit\", \"app.quit\");\n"
 "\n"
-"  /* Create a new simple action for the application. (In this case it is the \n"
+"  /* Create a new simple action for the application. (In this case it is the\n"
 "   * \"quit\" action.\n"
 "   */\n"
 "  quit_action = g_simple_action_new (\"quit\", NULL);\n"
@@ -3457,16 +3443,13 @@ msgid ""
 "  /* Ensure that the menu we have just created is set for the overall application */\n"
 "  gtk_application_set_app_menu (GTK_APPLICATION (app), G_MENU_MODEL (menu));\n"
 "\n"
-"  g_signal_connect (quit_action, \n"
-"                    \"activate\", \n"
-"                    G_CALLBACK (quit_cb), \n"
+"  g_signal_connect (quit_action,\n"
+"                    \"activate\",\n"
+"                    G_CALLBACK (quit_cb),\n"
 "                    app);\n"
 "\n"
 "  g_action_map_add_action (G_ACTION_MAP (app), G_ACTION (quit_action));\n"
-"\n"
 "}\n"
-"\n"
-"\n"
 "\n"
 "/* Startup function for the application */\n"
 "int\n"
@@ -3487,8 +3470,6 @@ msgstr ""
 "\n"
 "#include &lt;gtk/gtk.h&gt;\n"
 "\n"
-"\n"
-"\n"
 "/* Funkce zpětného volání, ve které se reaguje na signál \"response\" od uživatele\n"
 " * v dialogovém okně se zprávou.\n"
 " * Tato funkce se používá ke zničení dialogového okna.\n"
@@ -3500,10 +3481,7 @@ msgstr ""
 "{\n"
 "  /* Toto způsobí, že dialogové okno bude zničeno */\n"
 "  gtk_widget_destroy (GTK_WIDGET (dialog));\n"
-"\n"
 "}\n"
-"\n"
-"\n"
 "\n"
 "/* Callback function for the response signal \"activate\" related to the SimpleAction\n"
 " * \"about_action\".\n"
@@ -3518,23 +3496,23 @@ msgstr ""
 "          GVariant      *parameter,\n"
 "          gpointer       user_data)\n"
 "{\n"
-"   GtkWidget *about_dialog;\n"
+"  GtkWidget *about_dialog;\n"
 "\n"
 "   about_dialog = gtk_about_dialog_new ();\n"
 "\n"
-"   /* Seznam autorů programu/dokumentace, který bude použit později, musí být inicializován\n"
-"    * polem řetězců zakončených pomocí null.\n"
-"    */\n"
-"   const gchar *authors[] = {\"GNOME Documentation Team\", NULL};\n"
-"   const gchar *documenters[] = {\"GNOME Documentation Team\", NULL};\n"
+"  /* Seznam autorů programu/dokumentace, který bude použit později, musí být inicializován\n"
+"   * polem řetězců zakončených pomocí null.\n"
+"   */\n"
+"  const gchar *authors[] = {\"GNOME Documentation Team\", NULL};\n"
+"  const gchar *documenters[] = {\"GNOME Documentation Team\", NULL};\n"
 "\n"
-"   /* Vyplnění informací pro dialogové okno O aplikaci */\n"
-"   gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (about_dialog), \"AboutDialog Example\");\n"
-"   gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (about_dialog), \"Copyright \\xc2\\xa9 2012 GNOME Documentation Team\");\n"
-"   gtk_about_dialog_set_authors (GTK_ABOUT_DIALOG (about_dialog), authors);\n"
-"   gtk_about_dialog_set_documenters (GTK_ABOUT_DIALOG (about_dialog), documenters);\n"
-"   gtk_about_dialog_set_website_label (GTK_ABOUT_DIALOG (about_dialog), \"GNOME Developer Website\");\n"
-"   gtk_about_dialog_set_website (GTK_ABOUT_DIALOG (about_dialog), \"http://developer.gnome.org\");\n"
+"  /* Vyplnění informací pro dialogové okno O aplikaci */\n"
+"  gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (about_dialog), \"AboutDialog Example\");\n"
+"  gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (about_dialog), \"Copyright \\xc2\\xa9 2012 GNOME Documentation Team\");\n"
+"  gtk_about_dialog_set_authors (GTK_ABOUT_DIALOG (about_dialog), authors);\n"
+"  gtk_about_dialog_set_documenters (GTK_ABOUT_DIALOG (about_dialog), documenters);\n"
+"  gtk_about_dialog_set_website_label (GTK_ABOUT_DIALOG (about_dialog), \"GNOME Developer Website\");\n"
+"  gtk_about_dialog_set_website (GTK_ABOUT_DIALOG (about_dialog), \"http://developer.gnome.org\");\n"
 "\n"
 "  /* Nepřejeme si zobrazení názvu okna, který by v tomto případě byl \n"
 "   * \"AboutDialog Example\". Musíme název dialogového okna se zprávou vymazat \n"
@@ -3551,8 +3529,6 @@ msgstr ""
 "  /* Zobrazení dialogového okna O aplikaci */\n"
 "  gtk_widget_show (about_dialog); \n"
 "}\n"
-"\n"
-"\n"
 "\n"
 "static void\n"
 "activate (GtkApplication *app,\n"
@@ -3587,8 +3563,6 @@ msgstr ""
 "  gtk_widget_show_all (window);\n"
 "}\n"
 "\n"
-"\n"
-"\n"
 "/* Funkce zpětného volání pro reakci na signál \"activate\" od akce „quit“ nacházející \n"
 " * se hned v následující funkci níže.\n"
 " */ \n"
@@ -3601,8 +3575,6 @@ msgstr ""
 "\n"
 "  g_application_quit (application);\n"
 "}\n"
-"\n"
-"\n"
 "\n"
 "/* Spouštěcí funkce pro nabídku vytvořenou v této ukázce */\n"
 "static void\n"
@@ -3636,8 +3608,6 @@ msgstr ""
 "\n"
 "}\n"
 "\n"
-"\n"
-"\n"
 "/* Spouštěcí funkce pro aplikaci */\n"
 "int\n"
 "main (int argc, char **argv)\n"
@@ -3660,33 +3630,33 @@ msgstr ""
 #: C/aboutdialog.vala.page:35 C/button.c.page:30 C/button.js.page:27
 #: C/button.py.page:53 C/buttonbox.js.page:36 C/buttonbox.py.page:47
 #: C/checkbutton.c.page:26 C/checkbutton.py.page:43 C/checkbutton.vala.page:26
-#: C/colorbutton.js.page:34 C/colorbutton.py.page:41
-#: C/colorbutton.vala.page:28 C/comboboxtext.js.page:177 C/combobox.c.page:31
-#: C/combobox.js.page:234 C/combobox.py.page:43 C/combobox.vala.page:26
+#: C/colorbutton.js.page:34 C/colorbutton.py.page:41 C/colorbutton.vala.page:28
+#: C/comboboxtext.js.page:177 C/combobox.c.page:31 C/combobox.js.page:234
+#: C/combobox.py.page:43 C/combobox.vala.page:26
 #: C/combobox_multicolumn.py.page:42 C/combobox_multicolumn.vala.page:36
 #: C/dialog.c.page:30 C/dialog.js.page:26 C/dialog.py.page:47
 #: C/dialog.vala.page:28 C/entry.c.page:28 C/entry.js.page:26
 #: C/entry.py.page:62 C/entry.vala.page:26 C/filechooserdialog.py.page:71
 #: C/filechooserdialog.vala.page:36 C/fontchooserwidget.js.page:35
 #: C/fontchooserwidget.py.page:45 C/fontchooserwidget.vala.page:35
-#: C/gmenu.c.page:28 C/gmenu.js.page:26 C/gmenu.py.page:78
-#: C/gmenu.vala.page:35 C/grid.c.page:28 C/grid.js.page:30 C/grid.py.page:55
-#: C/grid.vala.page:28 C/GtkApplicationWindow.c.page:26
-#: C/GtkApplicationWindow.js.page:27 C/GtkApplicationWindow.py.page:51
-#: C/GtkApplicationWindow.vala.page:27 C/image.c.page:29 C/image.js.page:28
-#: C/image.py.page:128 C/image.vala.page:28 C/label.c.page:33
-#: C/label.js.page:26 C/label.py.page:103 C/label.vala.page:27
-#: C/linkbutton.c.page:28 C/linkbutton.js.page:26 C/linkbutton.py.page:45
-#: C/linkbutton.vala.page:26 C/menubar.c.page:33 C/menubar.py.page:184
-#: C/menubar.vala.page:188 C/menubutton.c.page:36 C/menubutton.js.page:29
-#: C/menubutton.py.page:54 C/menubutton.vala.page:29 C/messagedialog.c.page:32
+#: C/gmenu.c.page:28 C/gmenu.js.page:26 C/gmenu.py.page:78 C/gmenu.vala.page:35
+#: C/grid.c.page:28 C/grid.js.page:30 C/grid.py.page:55 C/grid.vala.page:28
+#: C/GtkApplicationWindow.c.page:26 C/GtkApplicationWindow.js.page:27
+#: C/GtkApplicationWindow.py.page:51 C/GtkApplicationWindow.vala.page:27
+#: C/image.c.page:29 C/image.js.page:28 C/image.py.page:128
+#: C/image.vala.page:28 C/label.c.page:33 C/label.js.page:26
+#: C/label.py.page:103 C/label.vala.page:27 C/linkbutton.c.page:28
+#: C/linkbutton.js.page:26 C/linkbutton.py.page:45 C/linkbutton.vala.page:26
+#: C/menubar.c.page:33 C/menubar.py.page:184 C/menubar.vala.page:188
+#: C/menubutton.c.page:36 C/menubutton.js.page:29 C/menubutton.py.page:54
+#: C/menubutton.vala.page:29 C/messagedialog.c.page:32
 #: C/messagedialog.js.page:190 C/messagedialog.py.page:55
 #: C/messagedialog.vala.page:27 C/paned.c.page:34 C/paned.js.page:34
 #: C/paned.py.page:40 C/paned.vala.page:34 C/progressbar.c.page:29
-#: C/progressbar.js.page:35 C/progressbar.py.page:55
-#: C/progressbar.vala.page:26 C/radiobutton.c.page:30 C/radiobutton.py.page:47
-#: C/radiobutton.vala.page:29 C/scale.c.page:30 C/scale.py.page:55
-#: C/scale.vala.page:28 C/scrolledwindow.c.page:30 C/scrolledwindow.js.page:34
+#: C/progressbar.js.page:35 C/progressbar.py.page:55 C/progressbar.vala.page:26
+#: C/radiobutton.c.page:30 C/radiobutton.py.page:47 C/radiobutton.vala.page:29
+#: C/scale.c.page:30 C/scale.py.page:55 C/scale.vala.page:28
+#: C/scrolledwindow.c.page:30 C/scrolledwindow.js.page:34
 #: C/scrolledwindow.py.page:43 C/scrolledwindow.vala.page:27
 #: C/separator.c.page:36 C/separator.py.page:37 C/separator.vala.page:38
 #: C/spinbutton.c.page:31 C/spinbutton.py.page:47 C/spinbutton.vala.page:28
@@ -3726,11 +3696,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/aboutdialog.c.page:36 C/button.c.page:35 C/combobox.c.page:36
-#: C/dialog.c.page:35 C/entry.c.page:33 C/grid.c.page:33
-#: C/linkbutton.c.page:33 C/messagedialog.c.page:38 C/progressbar.c.page:34
-#: C/radiobutton.c.page:35 C/scale.c.page:35 C/spinbutton.c.page:36
-#: C/spinner.c.page:34 C/statusbar.c.page:37 C/switch.c.page:34
-#: C/textview.c.page:37 C/togglebutton.c.page:37 C/window.c.page:35
+#: C/dialog.c.page:35 C/entry.c.page:33 C/grid.c.page:33 C/linkbutton.c.page:33
+#: C/messagedialog.c.page:38 C/progressbar.c.page:34 C/radiobutton.c.page:35
+#: C/scale.c.page:35 C/spinbutton.c.page:36 C/spinner.c.page:34
+#: C/statusbar.c.page:37 C/switch.c.page:34 C/textview.c.page:37
+#: C/togglebutton.c.page:37 C/window.c.page:35
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/3.4/GtkWindow.html\">GtkWindow</"
 "link>"
@@ -4123,10 +4093,9 @@ msgstr ""
 #: C/scrolledwindow.py.page:29 C/separator.c.page:30 C/separator.py.page:31
 #: C/separator.vala.page:32 C/spinbutton.py.page:30 C/spinner.py.page:29
 #: C/statusbar.py.page:30 C/switch.py.page:31 C/textview.py.page:44
-#: C/togglebutton.py.page:29 C/toolbar.py.page:31
-#: C/toolbar_builder.py.page:164 C/tooltip.c.page:30 C/tooltip.js.page:29
-#: C/tooltip.py.page:31 C/tooltip.vala.page:30
-#: C/treeview_advanced_liststore.py.page:29
+#: C/togglebutton.py.page:29 C/toolbar.py.page:31 C/toolbar_builder.py.page:164
+#: C/tooltip.c.page:30 C/tooltip.js.page:29 C/tooltip.py.page:31
+#: C/tooltip.vala.page:30 C/treeview_advanced_liststore.py.page:29
 #: C/treeview_cellrenderertoggle.py.page:29
 #: C/treeview_simple_liststore.py.page:30 C/treeview_treestore.py.page:30
 #: C/widget_drawing.py.page:28 C/window.py.page:45
@@ -4398,12 +4367,11 @@ msgstr "Ryan Lortie"
 #: C/checkbutton.vala.page:13 C/colorbutton.vala.page:15 C/combobox.c.page:18
 #: C/combobox.vala.page:13 C/combobox_multicolumn.vala.page:14 C/cpp.page:11
 #: C/dialog.vala.page:13 C/entry.vala.page:13 C/filechooserdialog.vala.page:16
-#: C/gmenu.c.page:13 C/gmenu.js.page:13 C/gmenu.py.page:15
-#: C/gmenu.vala.page:20 C/grid.py.page:15 C/grid.vala.page:15
-#: C/GtkApplicationWindow.c.page:13 C/GtkApplicationWindow.js.page:13
-#: C/GtkApplicationWindow.py.page:15 C/GtkApplicationWindow.vala.page:13
-#: C/guitar-tuner.vala.page:22 C/hello-world.c.page:20
-#: C/hello-world.js.page:20 C/hello-world.py.page:20
+#: C/gmenu.c.page:13 C/gmenu.js.page:13 C/gmenu.py.page:15 C/gmenu.vala.page:20
+#: C/grid.py.page:15 C/grid.vala.page:15 C/GtkApplicationWindow.c.page:13
+#: C/GtkApplicationWindow.js.page:13 C/GtkApplicationWindow.py.page:15
+#: C/GtkApplicationWindow.vala.page:13 C/guitar-tuner.vala.page:22
+#: C/hello-world.c.page:20 C/hello-world.js.page:20 C/hello-world.py.page:20
 #: C/hello-world.vala.page:20 C/image.vala.page:13 C/image-viewer.vala.page:27
 #: C/index.page:23 C/js.page:12 C/label.vala.page:13 C/linkbutton.vala.page:13
 #: C/menubar.py.page:15 C/menubar.vala.page:15 C/menubutton.c.page:13
@@ -6857,9 +6825,9 @@ msgid "Libraries to import"
 msgstr "Importované knihovny"
 
 #. (itstool) path: section/code
-#: C/checkbutton.js.page:29 C/messagedialog.js.page:32
-#: C/radiobutton.js.page:29 C/scale.js.page:29 C/spinbutton.js.page:32
-#: C/statusbar.js.page:29 C/switch.js.page:36 C/togglebutton.js.page:29
+#: C/checkbutton.js.page:29 C/messagedialog.js.page:32 C/radiobutton.js.page:29
+#: C/scale.js.page:29 C/spinbutton.js.page:32 C/statusbar.js.page:29
+#: C/switch.js.page:36 C/togglebutton.js.page:29
 #, no-wrap
 msgid ""
 "\n"
@@ -7623,8 +7591,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/colorbutton.js.page:22 C/colorbutton.py.page:23
-#: C/colorbutton.vala.page:24
+#: C/colorbutton.js.page:22 C/colorbutton.py.page:23 C/colorbutton.vala.page:24
 msgctxt "_"
 msgid ""
 "external ref='media/colorbutton.png' md5='904539d26fe367bf99f9a0961cfc9a03'"
@@ -7638,14 +7605,12 @@ msgid "ColorButton (JavaScript)"
 msgstr "ColorButton (JavaScript)"
 
 #. (itstool) path: info/desc
-#: C/colorbutton.js.page:18 C/colorbutton.py.page:19
-#: C/colorbutton.vala.page:20
+#: C/colorbutton.js.page:18 C/colorbutton.py.page:19 C/colorbutton.vala.page:20
 msgid "A button to launch a color selection dialog"
 msgstr "Tlačítko, které zobrazí dialogové okno pro výběr barvy"
 
 #. (itstool) path: page/title
-#: C/colorbutton.js.page:21 C/colorbutton.py.page:22
-#: C/colorbutton.vala.page:23
+#: C/colorbutton.js.page:21 C/colorbutton.py.page:22 C/colorbutton.vala.page:23
 msgid "ColorButton"
 msgstr "ColorButton"
 
@@ -11641,8 +11606,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/entry.c.page:23 C/entry.js.page:22 C/entry.py.page:29
-#: C/entry.vala.page:22
+#: C/entry.c.page:23 C/entry.js.page:22 C/entry.py.page:29 C/entry.vala.page:22
 msgctxt "_"
 msgid "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
 msgstr "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
@@ -11659,8 +11623,7 @@ msgid "A single line text entry field"
 msgstr "Jednořádkové textové vstupní pole"
 
 #. (itstool) path: page/title
-#: C/entry.c.page:21 C/entry.js.page:21 C/entry.py.page:28
-#: C/entry.vala.page:21
+#: C/entry.c.page:21 C/entry.js.page:21 C/entry.py.page:28 C/entry.vala.page:21
 msgid "Entry"
 msgstr "Entry"
 
@@ -14204,14 +14167,12 @@ msgid "A simple implementation of GMenuModel"
 msgstr "Jednoduchá implementace GMenuModel"
 
 #. (itstool) path: page/title
-#: C/gmenu.c.page:21 C/gmenu.js.page:21 C/gmenu.py.page:29
-#: C/gmenu.vala.page:27
+#: C/gmenu.c.page:21 C/gmenu.js.page:21 C/gmenu.py.page:29 C/gmenu.vala.page:27
 msgid "GMenu"
 msgstr "GMenu"
 
 #. (itstool) path: page/p
-#: C/gmenu.c.page:23 C/gmenu.js.page:23 C/gmenu.py.page:31
-#: C/gmenu.vala.page:32
+#: C/gmenu.c.page:23 C/gmenu.js.page:23 C/gmenu.py.page:31 C/gmenu.vala.page:32
 msgid "A GtkApplication with a simple GMenu and SimpleActions"
 msgstr "GtkApplication s jednoduchým widgetem GMenu a objekty SimpleAction"
 
@@ -16372,8 +16333,8 @@ msgstr "Základní znalosti programovacího jazyka C"
 #: C/guitar-tuner.py.page:53 C/image-viewer.c.page:42
 #: C/image-viewer.cpp.page:40 C/image-viewer.js.page:50
 #: C/image-viewer.py.page:49 C/image-viewer.vala.page:57
-#: C/magic-mirror.vala.page:50 C/message-board.c.page:46
-#: C/photo-wall.c.page:52 C/record-collection.js.page:53
+#: C/magic-mirror.vala.page:50 C/message-board.c.page:46 C/photo-wall.c.page:52
+#: C/record-collection.js.page:53
 msgid "Create a project in Anjuta"
 msgstr "Vytvoření projektu ve studiu Anjuta"
 
@@ -16397,8 +16358,8 @@ msgstr ""
 #: C/guitar-tuner.c.page:52 C/guitar-tuner.cpp.page:50
 #: C/guitar-tuner.py.page:57 C/image-viewer.c.page:46
 #: C/image-viewer.cpp.page:44 C/image-viewer.js.page:54
-#: C/image-viewer.py.page:53 C/magic-mirror.vala.page:54
-#: C/photo-wall.c.page:56 C/record-collection.js.page:57
+#: C/image-viewer.py.page:53 C/magic-mirror.vala.page:54 C/photo-wall.c.page:56
+#: C/record-collection.js.page:57
 msgid ""
 "Start Anjuta and click <guiseq><gui>File</gui><gui>New</gui><gui>Project</"
 "gui></guiseq> to open the project wizard."
@@ -16541,9 +16502,9 @@ msgstr ""
 "funkce určují, jak mají překladové nástroje pracovat s vaší aplikací za běhu."
 
 #. (itstool) path: section/p
-#: C/guitar-tuner.c.page:90 C/guitar-tuner.cpp.page:84
-#: C/image-viewer.c.page:85 C/image-viewer.cpp.page:82
-#: C/image-viewer.vala.page:133 C/magic-mirror.vala.page:93
+#: C/guitar-tuner.c.page:90 C/guitar-tuner.cpp.page:84 C/image-viewer.c.page:85
+#: C/image-viewer.cpp.page:82 C/image-viewer.vala.page:133
+#: C/magic-mirror.vala.page:93
 msgid ""
 "This code is ready to be used, so you can compile it by clicking "
 "<guiseq><gui>Build</gui><gui>Build Project</gui></guiseq> (or press "
@@ -16554,8 +16515,8 @@ msgstr ""
 "zmáčknutím <keyseq><key>Shift</key> <key>F7</key></keyseq>)."
 
 #. (itstool) path: section/p
-#: C/guitar-tuner.c.page:91 C/guitar-tuner.cpp.page:85
-#: C/image-viewer.c.page:86 C/image-viewer.cpp.page:83
+#: C/guitar-tuner.c.page:91 C/guitar-tuner.cpp.page:85 C/image-viewer.c.page:86
+#: C/image-viewer.cpp.page:83
 msgid ""
 "Press <gui>Execute</gui> on the next window that appears to configure a "
 "debug build. You only need to do this once, for the first build."
@@ -20611,14 +20572,12 @@ msgid "Hello World (JavaScript)"
 msgstr "Hello World (JavaScript)"
 
 #. (itstool) path: info/desc
-#: C/hello-world.js.page:24 C/hello-world.py.page:24
-#: C/hello-world.vala.page:24
+#: C/hello-world.js.page:24 C/hello-world.py.page:24 C/hello-world.vala.page:24
 msgid "A basic \"hello, world\" application"
 msgstr "Základní aplikace „Hello, world“"
 
 #. (itstool) path: page/title
-#: C/hello-world.js.page:27 C/hello-world.py.page:27
-#: C/hello-world.vala.page:27
+#: C/hello-world.js.page:27 C/hello-world.py.page:27 C/hello-world.vala.page:27
 msgid ""
 "How to build, install and create a <file>tar.xz</file> of a Hello World "
 "program"
@@ -20627,8 +20586,7 @@ msgstr ""
 "balíček <file>tar.xz</file>"
 
 #. (itstool) path: synopsis/p
-#: C/hello-world.js.page:30 C/hello-world.py.page:30
-#: C/hello-world.vala.page:30
+#: C/hello-world.js.page:30 C/hello-world.py.page:30 C/hello-world.vala.page:30
 msgid "This tutorial will demonstrate how to:"
 msgstr "Tato lekce ukazuje jak:"
 
@@ -20638,20 +20596,17 @@ msgid "create a small \"Hello, World\" application using JavaScript and GTK+"
 msgstr "vytvořit malou aplikaci „Hello, World“ pomocí jazyka JavaScript a GTK+"
 
 #. (itstool) path: item/p
-#: C/hello-world.js.page:33 C/hello-world.py.page:33
-#: C/hello-world.vala.page:33
+#: C/hello-world.js.page:33 C/hello-world.py.page:33 C/hello-world.vala.page:33
 msgid "make the <file>.desktop</file> file"
 msgstr "vytvořit soubor <file>.desktop</file>"
 
 #. (itstool) path: item/p
-#: C/hello-world.js.page:34 C/hello-world.py.page:34
-#: C/hello-world.vala.page:34
+#: C/hello-world.js.page:34 C/hello-world.py.page:34 C/hello-world.vala.page:34
 msgid "how to set up the build system"
 msgstr "nastavit sestavovací systém"
 
 #. (itstool) path: section/title
-#: C/hello-world.js.page:42 C/hello-world.py.page:42
-#: C/hello-world.vala.page:40
+#: C/hello-world.js.page:42 C/hello-world.py.page:42 C/hello-world.vala.page:40
 msgid "Create the program"
 msgstr "Vytvoření programu"
 
@@ -20795,8 +20750,7 @@ msgstr ""
 "kódování UTF-8."
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:95 C/hello-world.py.page:74
-#: C/hello-world.vala.page:57
+#: C/hello-world.js.page:95 C/hello-world.py.page:74 C/hello-world.vala.page:57
 msgid ""
 "Now we have a window which has a title and a working \"close\" button. Let's "
 "add the actual \"Hello World\" text."
@@ -20805,8 +20759,7 @@ msgstr ""
 "pořádný text „Hello World“."
 
 #. (itstool) path: section/title
-#: C/hello-world.js.page:98 C/hello-world.py.page:77
-#: C/hello-world.vala.page:60
+#: C/hello-world.js.page:98 C/hello-world.py.page:77 C/hello-world.vala.page:60
 msgid "Label for the window"
 msgstr "Popisek pro okno"
 
@@ -21997,8 +21950,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/image.c.page:22 C/image.js.page:21 C/image.py.page:29
-#: C/image.vala.page:22
+#: C/image.c.page:22 C/image.js.page:21 C/image.py.page:29 C/image.vala.page:22
 msgctxt "_"
 msgid "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
 msgstr "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
@@ -22010,20 +21962,17 @@ msgid "Image (C)"
 msgstr "Image (C)"
 
 #. (itstool) path: info/desc
-#: C/image.c.page:18 C/image.js.page:17 C/image.py.page:25
-#: C/image.vala.page:18
+#: C/image.c.page:18 C/image.js.page:17 C/image.py.page:25 C/image.vala.page:18
 msgid "A widget displaying an image"
 msgstr "Widget zobrazující obrázek"
 
 #. (itstool) path: page/title
-#: C/image.c.page:21 C/image.js.page:20 C/image.py.page:28
-#: C/image.vala.page:21
+#: C/image.c.page:21 C/image.js.page:20 C/image.py.page:28 C/image.vala.page:21
 msgid "Image"
 msgstr "Image"
 
 #. (itstool) path: page/p
-#: C/image.c.page:23 C/image.js.page:22 C/image.py.page:30
-#: C/image.vala.page:23
+#: C/image.c.page:23 C/image.js.page:22 C/image.py.page:30 C/image.vala.page:23
 msgid "This GtkApplication displays an image file from the current directory."
 msgstr "Tato GtkApplication zobrazí soubor s obrázkem z aktuální složky."
 
@@ -25895,8 +25844,7 @@ msgstr "Ukázky kódu a výuka"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/label.c.page:26 C/label.js.page:22 C/label.py.page:31
-#: C/label.vala.page:22
+#: C/label.c.page:26 C/label.js.page:22 C/label.py.page:31 C/label.vala.page:22
 msgctxt "_"
 msgid "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
 msgstr "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
@@ -25914,9 +25862,8 @@ msgstr "Widget, který zobrazuje text."
 
 #. (itstool) path: page/title
 #. (itstool) path: td/p
-#: C/label.c.page:22 C/label.js.page:21 C/label.py.page:30
-#: C/label.vala.page:21 C/toolbar_builder.py.page:98
-#: C/toolbar_builder.vala.page:81
+#: C/label.c.page:22 C/label.js.page:21 C/label.py.page:30 C/label.vala.page:21
+#: C/toolbar_builder.py.page:98 C/toolbar_builder.vala.page:81
 msgid "Label"
 msgstr "Label"
 
@@ -33882,8 +33829,7 @@ msgid "References"
 msgstr "Odkazy"
 
 #. (itstool) path: item/p
-#: C/model-view-controller.py.page:187
-#: C/treeview_advanced_liststore.py.page:45
+#: C/model-view-controller.py.page:187 C/treeview_advanced_liststore.py.page:45
 #: C/treeview_cellrenderertoggle.py.page:45
 #: C/treeview_simple_liststore.py.page:46 C/treeview_treestore.py.page:45
 msgid ""
@@ -33894,8 +33840,7 @@ msgstr ""
 "\">GtkTreeModel</link>"
 
 #. (itstool) path: item/p
-#: C/model-view-controller.py.page:188
-#: C/treeview_advanced_liststore.py.page:44
+#: C/model-view-controller.py.page:188 C/treeview_advanced_liststore.py.page:44
 #: C/treeview_cellrenderertoggle.py.page:44
 #: C/treeview_simple_liststore.py.page:45 C/treeview_treestore.py.page:44
 msgid ""
@@ -33906,8 +33851,7 @@ msgstr ""
 "\">GtkTreeView</link>"
 
 #. (itstool) path: item/p
-#: C/model-view-controller.py.page:189
-#: C/treeview_advanced_liststore.py.page:48
+#: C/model-view-controller.py.page:189 C/treeview_advanced_liststore.py.page:48
 #: C/treeview_cellrenderertoggle.py.page:49
 #: C/treeview_simple_liststore.py.page:49 C/treeview_treestore.py.page:48
 msgid ""
@@ -33931,8 +33875,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/paned.c.page:22 C/paned.js.page:22 C/paned.py.page:23
-#: C/paned.vala.page:22
+#: C/paned.c.page:22 C/paned.js.page:22 C/paned.py.page:23 C/paned.vala.page:22
 msgctxt "_"
 msgid "external ref='media/paned.png' md5='8c7e1df065395c9aafcd65036a293d8a'"
 msgstr "external ref='media/paned.png' md5='8c7e1df065395c9aafcd65036a293d8a'"
@@ -33944,20 +33887,17 @@ msgid "Paned (C)"
 msgstr "Paned (C)"
 
 #. (itstool) path: info/desc
-#: C/paned.c.page:18 C/paned.js.page:18 C/paned.py.page:19
-#: C/paned.vala.page:18
+#: C/paned.c.page:18 C/paned.js.page:18 C/paned.py.page:19 C/paned.vala.page:18
 msgid "A widget with two adjustable panes"
 msgstr "Widget se dvěma přizpůsobitelnými panely"
 
 #. (itstool) path: page/title
-#: C/paned.c.page:21 C/paned.js.page:21 C/paned.py.page:22
-#: C/paned.vala.page:21
+#: C/paned.c.page:21 C/paned.js.page:21 C/paned.py.page:22 C/paned.vala.page:21
 msgid "Paned"
 msgstr "Paned"
 
 #. (itstool) path: page/p
-#: C/paned.c.page:23 C/paned.js.page:23 C/paned.py.page:24
-#: C/paned.vala.page:23
+#: C/paned.c.page:23 C/paned.js.page:23 C/paned.py.page:24 C/paned.vala.page:23
 msgid "Two images in two adjustable panes, horizontally aligned."
 msgstr "Dva obrázky ve dvou přizpůsobitelných panelech, vyrovnaných vodorovně."
 
@@ -34055,8 +33995,7 @@ msgstr ""
 "\">GtkPaned</link>"
 
 #. (itstool) path: item/p
-#: C/paned.c.page:37 C/paned.js.page:37 C/paned.py.page:43
-#: C/paned.vala.page:37
+#: C/paned.c.page:37 C/paned.js.page:37 C/paned.py.page:43 C/paned.vala.page:37
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/gtk3-Standard-"
 "Enumerations.html#GtkOrientation\">Standard Enumerations</link>"
@@ -39031,8 +38970,7 @@ msgid "A slider widget for selecting a value from a range"
 msgstr "Widget stupnice pro výběr hodnoty z nějakého rozsahu"
 
 #. (itstool) path: page/title
-#: C/scale.c.page:23 C/scale.js.page:21 C/scale.py.page:23
-#: C/scale.vala.page:23
+#: C/scale.c.page:23 C/scale.js.page:21 C/scale.py.page:23 C/scale.vala.page:23
 msgid "Scale"
 msgstr "Scale"
 
@@ -48970,8 +48908,8 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/togglebutton.c.page:27 C/togglebutton.js.page:22
-#: C/togglebutton.py.page:23 C/togglebutton.vala.page:25
+#: C/togglebutton.c.page:27 C/togglebutton.js.page:22 C/togglebutton.py.page:23
+#: C/togglebutton.vala.page:25
 msgctxt "_"
 msgid ""
 "external ref='media/togglebutton.png' md5='791e062613d4f9bd5936390b0aa18448'"
@@ -48991,8 +48929,8 @@ msgid "A button which retains state"
 msgstr "Tlačítko, které si ponechává svůj stav"
 
 #. (itstool) path: page/title
-#: C/togglebutton.c.page:25 C/togglebutton.js.page:21
-#: C/togglebutton.py.page:22 C/togglebutton.vala.page:24
+#: C/togglebutton.c.page:25 C/togglebutton.js.page:21 C/togglebutton.py.page:22
+#: C/togglebutton.vala.page:24
 msgid "ToggleButton"
 msgstr "ToggleButton"
 
@@ -49807,8 +49745,8 @@ msgstr ""
 "Podrobnější vysvětlení viz <link xref=\"signals-callbacks.py\"/>."
 
 #. (itstool) path: item/p
-#: C/togglebutton.py.page:45 C/toolbar.py.page:60
-#: C/toolbar_builder.py.page:198 C/widget_drawing.py.page:38
+#: C/togglebutton.py.page:45 C/toolbar.py.page:60 C/toolbar_builder.py.page:198
+#: C/widget_drawing.py.page:38
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkWidget.html"
 "\">GtkWidget</link>"
