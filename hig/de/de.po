@@ -2,13 +2,13 @@
 # Copyright (C) 2014 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Christian Kirbach <christian.kirbach@gmail.com>, 2014.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2015, 2016.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2015-2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-04-07 08:16+0000\n"
-"PO-Revision-Date: 2016-04-07 10:40+0200\n"
+"POT-Creation-Date: 2016-04-13 20:13+0000\n"
+"PO-Revision-Date: 2016-04-14 09:30+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -665,6 +665,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/button-menus.page:39
+#, fuzzy
 msgid ""
 "A menu button can be combined with a small number of other interface "
 "elements, such as buttons, sliders and switches (see example below). This "
@@ -673,6 +674,9 @@ msgid ""
 "However, be careful not to mix too many types of control or make the menu "
 "too complex in the process."
 msgstr ""
+"Ein Menüknopf kann mit einer Reihe von anderen Elementen der "
+"Benutzeroberfläche kombiniert werden, wie beispielsweise anderen Knöpfen, "
+"Schiebereglern und Schaltern (siehe nachfolgendes Beispiel)."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:50
@@ -680,6 +684,9 @@ msgid ""
 "Each context - whether it is a view or delineated area of your interface - "
 "should only include one generic button menu."
 msgstr ""
+"In jedem Kontext - egal ob in einer Ansicht oder in einem abgegrenzten "
+"Bereich der Benutzeroberfläche - sollte nur ein generisches Knopfmenü "
+"enthalten sein."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:51
@@ -689,6 +696,11 @@ msgid ""
 "your users. The <link xref=\"icons-and-artwork\">icon usage guidelines</"
 "link> provide more advice on this."
 msgstr ""
+"Stellen Sie sicher, dass die Menüs von Einzweck-Knöpfen sinnvoll beschriftet "
+"sind. Ein Symbol ist kompakter, verwenden Sie es nur dann, wenn es generell "
+"für Benutzer verständlich ist. In den <link xref=\"icons-and-artwork"
+"\">Richtlinien für die Verwendung von Symbolne</link> finden Sie weitere "
+"Informationen hierzu."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:52
@@ -697,6 +709,9 @@ msgid ""
 "menu items should have an obvious relationship with the overall purpose of "
 "the menu."
 msgstr ""
+"Einzweck-Knöpfe sollten klar und konsistent definiert werden. Die "
+"enthaltenen Menüeinträge sollten eine generelle Beziehung zum allgemeinen "
+"Zweck des Menüs haben."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:53
@@ -1033,6 +1048,10 @@ msgid ""
 "This helps to indicate that the controls are dependent on the state of the "
 "check box."
 msgstr ""
+"Falls die Umschaltung eines Ankreuzfeldes die Sensitivität anderer "
+"Bedienelemente beeinflusst, platzieren Sie das Ankreuzfeld direkt oberhalb "
+"oder neben dem Element, welches dadurch beeinflusst wird. Dies hilft zu "
+"erkennen, dass das Bedienelement vom Status des Ankreuzfeldes abhängig ist."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:42
@@ -1040,6 +1059,9 @@ msgid ""
 "Use <link xref=\"writing-style#capitalization\">sentence capitalization</"
 "link> for check box labels, for example <gui>Use custom font</gui>."
 msgstr ""
+"Verwenden Sie <link xref=\"writing-style#capitalization\">Satz-"
+"Großschreibung</link> für die Beschriftung von Ankreuzfeldern, zum Beispiel "
+"<gui>Use custom font</gui>."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:43
@@ -1049,6 +1071,11 @@ msgid ""
 "states of a check box cannot be clearly communicated, consider using two "
 "radio buttons instead so both states can be given labels."
 msgstr ""
+"Beschriften Sie Ankreuzfelder so, dass die Auswirkung sowohl des aktivierten "
+"als auch des deaktivierten Status klar und deutlich sichtbar sind. Sollte "
+"sich dies auf diese Weise nicht eindeutig vermitteln lassen, sollten Sie in "
+"Betracht ziehen, stattdessen zwei Auswahlknöpfe zu verwenden, die über zwei "
+"Beschriftungen Auskunft über den Status geben."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:44
@@ -1057,6 +1084,9 @@ msgid ""
 "understand. <gui>Play alert sound</gui> is better than <gui>Disable alert "
 "sound</gui>, for example."
 msgstr ""
+"Vermeiden Sie negative Beschriftungen bei Ankreuzfeldern, da diese "
+"möglicherweise verwirrend und schwer zu verstehen sind. Beispielsweise ist "
+"<gui>Play alert sound</gui> besser als <gui>Disable alert sound</gui>."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:45
@@ -1065,6 +1095,10 @@ msgid ""
 "all check box labels that allows the user to set or unset the check box "
 "directly from the keyboard."
 msgstr ""
+"Für alle Beschriftungen von Ankreuzfeldern sollte eine <link xref=\"keyboard-"
+"input#access-keys\">Zugriffstaste</link> zur Verfügung stehen, um dem "
+"Benutzer zu ermöglichen, den Status des Feldes direkt mit der Tastatur zu "
+"ändern."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:46
@@ -2092,7 +2126,7 @@ msgid ""
 "interaction. At the same time, a drop-down list might be a better choice "
 "when:"
 msgstr ""
-"Radioknöpfe oder eine Liste sind häufig einer Auswahlliste vorzuziehen, da "
+"Auswahlknöpfe oder eine Liste sind häufig einer Auswahlliste vorzuziehen, da "
 "diese sämtliche verfügbaren Optionen gleichzeitig ohne weiteren "
 "Benutzereingriff anzeigen. Andererseits kann eine Auswahlliste vorteilhafter "
 "sein, wenn:"
@@ -2820,12 +2854,12 @@ msgstr "Jakub Steiner"
 #. (itstool) path: info/desc
 #: C/icons-and-artwork.page:14
 msgid "Selecting and creating icons."
-msgstr ""
+msgstr "Auswahl und Erstellung von Symbolen."
 
 #. (itstool) path: page/title
 #: C/icons-and-artwork.page:17
 msgid "Icons and artwork"
-msgstr ""
+msgstr "Symbole und grafische Gestaltung"
 
 #. (itstool) path: page/p
 #: C/icons-and-artwork.page:19
@@ -2835,11 +2869,15 @@ msgid ""
 "identifying icon is also an essential part of any application, and is a "
 "crucial part of its identity."
 msgstr ""
+"Symbole spielen eine bedeutende Rolle in der Benutzeroberfläche: Die Auswahl "
+"eines korrekten Symbols ist daher unerlässlich, um dafür zu sorgen, dass "
+"Ihre Anwendung gut benutzbar ist. Ein eindeutiges Symbol ist außerdem ein "
+"essenzieller Teil jeder Anwendung und entscheidend für deren Identität."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:22
 msgid "Using icons in your user interface"
-msgstr ""
+msgstr "Verwendung von Symbolen in Ihrer Benutzeroberfläche"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:24
@@ -2910,6 +2948,8 @@ msgstr ""
 #: C/icons-and-artwork.page:44
 msgid "You can use the GTK+ icon browser to find recommended icons."
 msgstr ""
+"Sie können den Symbolbrowser von GTK+ verwenden, um empfohlene Symbole zu "
+"suchen."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:47
@@ -2927,7 +2967,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:51
 msgid "Full-color icons should be used for:"
-msgstr ""
+msgstr "Farbige Symbole sollten verwendet werden für:"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:54
@@ -3052,6 +3092,8 @@ msgid ""
 "Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
 "view."
 msgstr ""
+"Vermeiden Sie perspektivische Darstellungen in symbolischen Symbolen, "
+"bleiben Sie stattdessen bei einer strikten rechtwinkligen Ansicht."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:99
@@ -3059,6 +3101,8 @@ msgid ""
 "Filled shapes are generally faster to process by the human visual system "
 "than wireframe outlines."
 msgstr ""
+"Ausgefüllte Formen sind in der visuellen Wahrnehmung des Benutzers im "
+"Allgemeinen schneller zu erfassen als einfache Umrandungslinien."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:100
@@ -3189,6 +3233,8 @@ msgid ""
 "<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
 "\">Tango Icon Guidelines</link>"
 msgstr ""
+"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+"\">Tango Icon Guidelines</link>"
 
 #. (itstool) path: page/title
 #: C/index.page:14
@@ -3375,7 +3421,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/index.page:79 C/keyboard-input.page:24
 msgid "Keyboard navigation, access and shortcut keys."
-msgstr ""
+msgstr "Zugriff und Navigation mit der Tastatur, Zugriffstasten."
 
 #. (itstool) path: td/p
 #: C/index.page:82
@@ -4840,8 +4886,8 @@ msgstr "<gui>Icons</gui>"
 #: C/keyboard-input.page:491
 msgid "Shows content as a grid of icons. This is a radio button menu item."
 msgstr ""
-"Zeigt den Inhalt als Symbolgitter an. Dies ist ein Eintrag eines Radioknopf-"
-"Menüs."
+"Zeigt den Inhalt als Symbolgitter an. Dies ist ein Eintrag eines "
+"Auswahlknopf-Menüs."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:494
@@ -4852,7 +4898,7 @@ msgstr "<gui>List</gui>"
 #: C/keyboard-input.page:496
 msgid "Shows content as a list. This is a radio button menu item."
 msgstr ""
-"Zeigt den Inhalt als Liste an. Dies ist ein Eintrag eines Radioknopf-Menüs."
+"Zeigt den Inhalt als Liste an. Dies ist ein Eintrag eines Auswahlknopf-Menüs."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:499
@@ -5124,7 +5170,7 @@ msgstr "<gui>Edit Bookmarks</gui>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:630
 msgid "Allows the user to edit their bookmarks."
-msgstr ""
+msgstr "Ermöglicht dem Benutzer, seine Lesezeichen zu bearbeiten."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:633
@@ -5134,7 +5180,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:635
 msgid "Displays the user’s bookmarks."
-msgstr ""
+msgstr "Zeigt die Lesezeichen des Benutzers an."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:643
@@ -5159,7 +5205,7 @@ msgstr "<keyseq><key>Alt</key><key>←</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:659
 msgid "Navigates to the previous location."
-msgstr ""
+msgstr "Navigiert zum vorherigen Ort."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:662
@@ -5174,7 +5220,7 @@ msgstr "<keyseq><key>Alt</key><key>→</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:664
 msgid "Navigates to the next location in the navigation history."
-msgstr ""
+msgstr "Navigiert zum nächsten Ort in der Navigationschronik."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:667
@@ -5184,12 +5230,13 @@ msgstr "<gui>Up</gui>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:668
 msgid "<keyseq><key>Alt</key><key>Up</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>Hoch</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:669
 msgid "Navigates to the parent content item, document, page or section."
 msgstr ""
+"Navigiert zum übergeordneten Inhaltselement, Dokument, Seite oder Abschnitt."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:672
@@ -5205,6 +5252,7 @@ msgstr "<keyseq><key>Alt</key><key>Pos1</key></keyseq>"
 #: C/keyboard-input.page:674
 msgid "Navigates to a starting page defined by the user or the application."
 msgstr ""
+"Navigiert zu der vom Benutzer oder der Anwendung vorgegebenen Startseite."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:677
@@ -5219,7 +5267,7 @@ msgstr "<keyseq><key>Strg</key><key>L</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:679
 msgid "Allows the user to specify a URI to navigate to."
-msgstr ""
+msgstr "Ermöglicht dem Benutzer, eine URI anzugeben und dorthin zu navigieren."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:682
@@ -5234,7 +5282,7 @@ msgstr "<key>PageUp</key>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:684
 msgid "Navigates to the previous page in the document."
-msgstr ""
+msgstr "Navigiert zur vorherigen Seite im Dokument."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:687
@@ -5249,7 +5297,7 @@ msgstr "<key>PageDown</key>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:689
 msgid "Navigates to the next page in the document."
-msgstr ""
+msgstr "Navigiert zur nächsten Seite im Dokument."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:692
@@ -5302,7 +5350,7 @@ msgstr "Fenster"
 #. (itstool) path: section/p
 #: C/keyboard-input.page:714
 msgid "Standard <gui>Windows</gui> menu items."
-msgstr ""
+msgstr "Standardeinträge des <gui>Windows</gui>-Menüs."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:726
@@ -5316,6 +5364,9 @@ msgid ""
 "for a filename for each one in turn using the standard <gui>Save</gui> "
 "dialog."
 msgstr ""
+"Speichert alle geöffneten Dokumente. Falls für einige Dokumente noch kein "
+"Dateiname vergeben wurde, wird für jedes dieser Dokumente ein <gui>Save</"
+"gui>-Standarddialog geöffnet und um die Eingabe eines Namens gebeten."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:731
@@ -5328,6 +5379,9 @@ msgid ""
 "Closes all open documents. If there are any unsaved changes in any "
 "documents, post a confirmation alert for each one in turn."
 msgstr ""
+"Schließt alle geöffneten Dokumente. Falls Änderungen in den Dokumenten noch "
+"nicht gesichert wurden, wird für jedes der Dokumente ein Bestätigungsdialog "
+"angezeigt."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:736
@@ -5340,6 +5394,8 @@ msgid ""
 "Each menu item raises the corresponding window to the top of the window "
 "stack."
 msgstr ""
+"Jeder Menüeintrag hebt das entsprechende Fenster in die oberste Ebene des "
+"Fensterstapels."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5838,7 +5894,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/menu-bars.page:72
 msgid "Items found on the Format menu are very application-specific."
-msgstr ""
+msgstr "Die Einträge im <gui>Format</gui>-Menü sind sehr anwendungsspezifisch."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:75
@@ -6082,6 +6138,9 @@ msgid ""
 "Do not mix different types of menu item within each group - actions, check "
 "box and radio button items should be kept separate."
 msgstr ""
+"Mischen Sie nicht verschiedene Menüeintragstypen innerhalb einer Gruppe - "
+"Aktionen, Ankreuzfelder und Auswahlknöpfe sollten voneinander getrennt "
+"werden."
 
 #. (itstool) path: item/p
 #: C/menus.page:64
@@ -6335,6 +6394,9 @@ msgid ""
 "It is therefore important to remove notification messages that are no longer "
 "relevant to the user."
 msgstr ""
+"Benachrichtigungen in GNOME 3 bleiben erhalten, nachdem sie erstmals "
+"angezeigt wurden. Daher ist es wichtig, Benachrichtigungen zu löschen, die "
+"für den Benutzer nicht mehr von Bedeutung sind."
 
 #. (itstool) path: item/p
 #: C/notifications.page:97
@@ -6714,6 +6776,11 @@ msgid ""
 "middle and right buttons, so any text or diagrams that refer to those may be "
 "confusing."
 msgstr ""
+"Verweisen Sie in Ihrer Anwendung ausdrücklich auf bestimmte Maustasten, es "
+"sei denn, dies ist absolut notwendig. Bedenken Sie, dass nicht jeder "
+"Benutzer eine konventionelle Maus mit linker, mittlerer und rechter Taste "
+"verwendet. Text oder Diagramme, in denen Sie sich explizit auf die "
+"Tastenanordnung beziehen, können daher verwirrend sein."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:54
@@ -6729,6 +6796,11 @@ msgid ""
 "example, controlling movement in some types of action games, or freehand "
 "painting in an image-editing application."
 msgstr ""
+"Stellen Sie sicher, dass jede Operation, die in Ihrer Anwendung mit der Maus "
+"ausgeführt wird, auch über die Tastatur erreichbar ist. Ausnahmen bilden "
+"lediglich Aktionen, für die feinmotorische Steuerung grundlegender "
+"Bestandteil der Aufgabe ist. Beispiele sind die Bewegungssteuerung in Action-"
+"Spielen oder das Freihandzeichnen in Bildbearbeitungsprogrammen."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:58
@@ -7332,6 +7404,9 @@ msgid ""
 "not rely on dialogs or secondary windows in order to present basic "
 "functionality."
 msgstr ""
+"Primäre Fenster sollten die Hauptfunktionen Ihrer Anwendung bereitstellen. "
+"Verlagern Sie keine grundlegende Funktionalität in Dialoge oder sekundäre "
+"Fenster."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:76
@@ -7339,6 +7414,9 @@ msgid ""
 "Primary windows should be independent - closing one primary window should "
 "not result in other primary windows being closed."
 msgstr ""
+"Primäre Fenster sollten unabhängig sein. Das bedeutet, dass durch das "
+"Schließen eines primären Fensters nicht auch die Schließung eines anderen "
+"primären Fensters ausgelöst werden sollte."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:77
@@ -7346,6 +7424,9 @@ msgid ""
 "Dialog windows should always be dependent on a primary window. See the <link "
 "xref=\"dialogs\">dialogs page</link> guidelines."
 msgstr ""
+"Dialogfenster sollten stets von einem primären Fenster abhängig sein. "
+"Erläuterungen hierzu finden Sie auf der Seite zu <link xref=\"dialogs"
+"\">Dialogen</link>."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:78
@@ -7366,7 +7447,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/primary-windows.page:80
 msgid "<gui>Quit</gui> should close all primary windows."
-msgstr ""
+msgstr "<gui>Quit</gui> sollte alle primären Fenster schließen."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:89
@@ -7418,6 +7499,8 @@ msgid ""
 "Progress bars indicate that a task is being carried out, along with how much "
 "progress has been made through the task."
 msgstr ""
+"Fortschrittsbalken stellen dar, dass eine Aufgabe gerade ausgeführt wird und "
+"wie weit die Ausführung bereits fortgeschritten ist."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:39
@@ -7910,7 +7993,7 @@ msgstr "original"
 #. (itstool) path: info/desc
 #: C/search.page:7
 msgid "Find and filter content by typing"
-msgstr ""
+msgstr "Inhalte bei der Eingabe suchen und filtern"
 
 #. (itstool) path: page/title
 #: C/search.page:15
@@ -8048,6 +8131,8 @@ msgid ""
 "Results should be ordered in a way that ensures that the most relevant items "
 "are displayed first."
 msgstr ""
+"Die Ergebnisse sollten so geordnet werden, dass das relevanteste Ergebnis "
+"zuerst angezeigt wird."
 
 #. (itstool) path: item/p
 #: C/search.page:74 C/text-fields.page:72
@@ -8616,6 +8701,8 @@ msgid ""
 "Tabs provide a way to break down a window into a series of views. They come "
 "in two primary forms: fixed and dynamic."
 msgstr ""
+"Reiter unterteilen ein Fenster in mehrere Ansichten. Es gibt zwei Formen, "
+"feste und dynamische Reiter."
 
 #. (itstool) path: page/p
 #: C/tabs.page:34
@@ -8634,6 +8721,9 @@ msgid ""
 "too many controls (or too much information) to be comfortably presented at "
 "once."
 msgstr ""
+"Verwenden Sie feste Reiter, wenn ein <link xref=\"dialogs\">Dialogfenster</"
+"link> zu viele Bedienelemente enthält (oder zu viele Informationen), die "
+"nicht komfortabel auf einmal angezeigt werden können."
 
 #. (itstool) path: section/p
 #: C/tabs.page:43
@@ -8645,7 +8735,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/tabs.page:48
 msgid "Fixed tabs"
-msgstr ""
+msgstr "Feste Reiter"
 
 #. (itstool) path: item/p
 #: C/tabs.page:51
@@ -8675,6 +8765,8 @@ msgstr ""
 #: C/tabs.page:54
 msgid "If a control affects every tab, place it outside the tabs."
 msgstr ""
+"Wenn ein Bedienelement jeden Reiter beeinflusst, platzieren Sie es außerhalb "
+"der Reiter."
 
 #. (itstool) path: item/p
 #: C/tabs.page:55
@@ -8725,7 +8817,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/tabs.page:71
 msgid "Standard Keyboard Shortcuts"
-msgstr ""
+msgstr "Standard-Tastenkürzel"
 
 #. (itstool) path: section/p
 #: C/tabs.page:73
@@ -8987,6 +9079,9 @@ msgid ""
 "Place only the most commonly-used application functions on your toolbars. "
 "Don’t just add buttons for every menu item."
 msgstr ""
+"Stellen Sie in Ihren Werkzeugleisten nur die am häufigsten genutzten "
+"Anwendungsfunktionen bereit. Fügen Sie nicht für jeden Menüeintrag einen "
+"Knopf hinzu."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:52
@@ -9703,6 +9798,7 @@ msgstr "Das erste und letzte Wort."
 #: C/writing-style.page:72
 msgid "Hyphenated words; for example: “Self-Test” or “Post-Install”."
 msgstr ""
+"Wörtern mit Bindestrichen, zum Beispiel »Self-Test« oder »Post-Install«."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:75
