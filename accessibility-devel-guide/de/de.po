@@ -1,29 +1,28 @@
 # German translation for gnome-devel-docs (accessibility handbook).
 # Copyright (C) 2009 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Mario Blättermann <mariobl@gnome.org>, 2009, 2010.
-# Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2013, 2014.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2010, 2016.
+# Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2013-2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2014-09-02 18:32+0000\n"
-"PO-Revision-Date: 2014-09-15 22:35+0100\n"
-"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
+"POT-Creation-Date: 2016-04-14 09:38+0000\n"
+"PO-Revision-Date: 2016-04-14 11:50+0200\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
-"Language: German\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Mario Blättermann <mariobl@gnome.org>, 2009\n"
+"Mario Blättermann <mario.blaettermann@gmail.com>, 2009, 2016\n"
 "Christian Kirbach <christian.kirbach@gmail.com>, 2014"
 
 #. (itstool) path: imagedata
@@ -32,7 +31,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:72
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/GNOME_desktop_Accessibility.png'; "
 #| "md5=76a706b0a4d4e184d7951fce04ccec59"
@@ -41,8 +39,8 @@ msgid ""
 "external ref='figures/GNOME_desktop_Accessibility.png' "
 "md5='76a706b0a4d4e184d7951fce04ccec59'"
 msgstr ""
-"@@image: 'figures/GNOME_desktop_Accessibility.png'; "
-"md5=76a706b0a4d4e184d7951fce04ccec59"
+"external ref='figures/GNOME_desktop_Accessibility.png' "
+"md5='76a706b0a4d4e184d7951fce04ccec59'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -52,7 +50,7 @@ msgstr ""
 #: C/index.docbook:136
 msgctxt "_"
 msgid "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
-msgstr ""
+msgstr "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -60,11 +58,11 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1012
-#| msgid "@@image: 'figures/nodrop.png'; md5=16b315fbe17b719998a057ba560c22e2"
 msgctxt "_"
 msgid ""
 "external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
-msgstr "original"
+msgstr ""
+"external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -72,13 +70,13 @@ msgstr "original"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1115
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/label_above.png'; md5=5b7a6f236b676802e62807b8d63bbf10"
 msgctxt "_"
 msgid ""
 "external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
-msgstr "x"
+msgstr ""
+"external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -86,12 +84,11 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1126
-#| msgid ""
-#| "@@image: 'figures/label_below.png'; md5=1ab1facdd4ace09c84b415eb0e581891"
 msgctxt "_"
 msgid ""
 "external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
-msgstr "original"
+msgstr ""
+"external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -99,13 +96,13 @@ msgstr "original"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1137
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/label_right.png'; md5=c0d4328a48ec9a6889b4b1ec8e5548d6"
 msgctxt "_"
 msgid ""
 "external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
-msgstr "x"
+msgstr ""
+"external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -113,13 +110,13 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1148
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/label_left.png'; md5=186cae86a97426a6c9034d0c2091b5d9"
 msgctxt "_"
 msgid ""
 "external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
-msgstr "x"
+msgstr ""
+"external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -127,12 +124,12 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1206
-#, fuzzy
 #| msgid "@@image: 'figures/nodrop.png'; md5=16b315fbe17b719998a057ba560c22e2"
 msgctxt "_"
 msgid ""
 "external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
-msgstr "ok"
+msgstr ""
+"external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -140,14 +137,15 @@ msgstr "ok"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1221
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/goodfocus.png'; md5=5f8c020c3d8382bfd3e70448591ec0f4"
 msgctxt "_"
 msgid ""
 "external ref='figures/color_and_arrows.png' "
 "md5='a9a1eb5f1f902f388e717f4ef7882c22'"
-msgstr "x"
+msgstr ""
+"external ref='figures/color_and_arrows.png' "
+"md5='a9a1eb5f1f902f388e717f4ef7882c22'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -155,13 +153,13 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1352
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/badfocus1.png'; md5=48c81ba9110bcbbec7e2664658a8a4ef"
 msgctxt "_"
 msgid ""
 "external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
-msgstr "x"
+msgstr ""
+"external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -169,13 +167,13 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1367
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/badfocus2.png'; md5=5ced4392a665b97154f0b7b220d36351"
 msgctxt "_"
 msgid ""
 "external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
-msgstr "x"
+msgstr ""
+"external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -183,13 +181,13 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1382
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/goodfocus.png'; md5=5f8c020c3d8382bfd3e70448591ec0f4"
 msgctxt "_"
 msgid ""
 "external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
-msgstr "x"
+msgstr ""
+"external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -197,13 +195,13 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1406
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/badfocus3.png'; md5=bb0f9a1309bb05c0d9e9cd719625c8a0"
 msgctxt "_"
 msgid ""
 "external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
-msgstr "x"
+msgstr ""
+"external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -211,13 +209,13 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1421
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/goodfocus3.png'; md5=f95f59dcfb337d2f811ac04025141ae2"
 msgctxt "_"
 msgid ""
 "external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
-msgstr "x"
+msgstr ""
+"external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -225,13 +223,13 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:1436
-#, fuzzy
 #| msgid ""
 #| "@@image: 'figures/goodfocus2.png'; md5=86b2a96f4142edb59a3ef22f433a4504"
 msgctxt "_"
 msgid ""
 "external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
-msgstr "x"
+msgstr ""
+"external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
 
 #. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -239,12 +237,12 @@ msgstr "x"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/index.docbook:786
-#, fuzzy
 #| msgid "@@image: 'figures/at-arch.png'; md5=e429cadb2e11d42d7437e999de175c3f"
 msgctxt "_"
 msgid ""
 "external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
-msgstr "@@image: 'figures/at-arch.png'; md5=e429cadb2e11d42d7437e999de175c3f"
+msgstr ""
+"external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
 
 #. (itstool) path: book/title
 #: C/index.docbook:12
@@ -270,8 +268,6 @@ msgstr "<year>2008</year> <holder>Vincent Alexander</holder>"
 
 #. (itstool) path: bookinfo/copyright
 #: C/index.docbook:23
-#| msgid ""
-#| "Calum Benson, Brian Cameron, Bill Haneman, Padraig O'Briain, Sharon Snider"
 msgid ""
 "<year>2001, 2002</year> <holder>Calum Benson, Brian Cameron, Bill Haneman, "
 "Padraig O'Briain, Sharon Snider</holder>"
@@ -393,10 +389,6 @@ msgstr ""
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:13
-#| msgid ""
-#| "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE "
-#| "TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER "
-#| "UNDERSTANDING THAT: <placeholder-1/>"
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
@@ -682,7 +674,7 @@ msgstr ""
 #: C/index.docbook:57
 msgid ""
 "The implementation for the GTK widgets is in a module called GAIL (GNOME "
-"Accessbility Implementation Library), which is dynamically loadable at "
+"Accessibility Implementation Library), which is dynamically loadable at "
 "runtime by a GTK application. Once loaded, those parts of your application "
 "that use standard GTK widgets will have a basic level of accessibility, "
 "without you having to modify your application at all. If GAIL is not loaded, "
@@ -817,6 +809,15 @@ msgstr ""
 
 #. (itstool) path: section/para
 #: C/index.docbook:86
+#, fuzzy
+#| msgid ""
+#| "You can probably also improve on the default descriptions provided for "
+#| "some of the widgets, and tailor them to that widget's specific purpose in "
+#| "your application. You should add or change the textual descriptions for "
+#| "these widgets with the appropriate ATK function call, so that an "
+#| "assisitive technology can describe their purpose or state to the user. "
+#| "See <link linkend=\"gad-coding-guidelines\">Coding Guidelines for "
+#| "Supporting Accessibility</link> for more information."
 msgid ""
 "Though GNOME's built-in accessibility support provides significant "
 "functionality without any accessibility-specific code changes on the part of "
@@ -825,10 +826,18 @@ msgid ""
 "purpose in your application, via straightforward calls to ATK methods in the "
 "application. For instance, in most cases applications should add or change "
 "the textual descriptions for these widgets with the appropriate ATK function "
-"call, so that an assisitive technology can describe their purpose or state "
-"to the user. See <link linkend=\"gad-coding-guidelines\">Coding Guidelines "
-"for Supporting Accessibility</link> for more information."
+"call, so that an assistive technology can describe their purpose or state to "
+"the user. See <link linkend=\"gad-coding-guidelines\">Coding Guidelines for "
+"Supporting Accessibility</link> for more information."
 msgstr ""
+"Sie könnten vielleicht auch die bereitgestellten Standardbeschreibungen für "
+"einige Widgets verbessern, und sie auf den Widget-spezifischen Zweck Ihres "
+"Programms zuschneiden. Sie sollten Textbeschreibungen für diese Widgets mit "
+"dem geeigneten ATK-Funktionsaufruf hinzufügen oder ändern, so dass "
+"Hilfstechnologien dem Nutzer deren Zweck oder Status beschreiben können. "
+"Lesen Sie dazu auch <link linkend=\"gad-coding-guidelines"
+"\">Programmierrichtlinien zur Unterstützung von Barrierefreiheit</link> für "
+"weitere Informationen."
 
 #. (itstool) path: section/para
 #: C/index.docbook:89
@@ -944,15 +953,6 @@ msgstr ""
 
 #. (itstool) path: section/para
 #: C/index.docbook:145
-#| msgid ""
-#| "ATK is the toolkit that GNOME uses to enable accessibility for users "
-#| "needing extra support to make the most of their computers. ATK is used by "
-#| "tools such as screen readers, magnifiers, and input devices to permit a "
-#| "rich interaction with the desktop through alternative means. See <ulink "
-#| "url=\"http://java-gnome.sourceforge.net/4.0/doc/api/org/gnome/atk/package-"
-#| "summary.html\">the ATK SourceForge Project</ulink> and <ulink url="
-#| "\"http://library.gnome.org/devel/atk/stable/atk.html\">the ATK Library</"
-#| "ulink> for more information."
 msgid ""
 "ATK is the toolkit that GNOME uses to enable accessibility for users needing "
 "extra support to make the most of their computers. ATK is used by tools such "
@@ -1049,7 +1049,7 @@ msgid ""
 "You can probably also improve on the default descriptions provided for some "
 "of the widgets, and tailor them to that widget's specific purpose in your "
 "application. You should add or change the textual descriptions for these "
-"widgets with the appropriate ATK function call, so that an assisitive "
+"widgets with the appropriate ATK function call, so that an assistive "
 "technology can describe their purpose or state to the user. See <link "
 "linkend=\"gad-coding-guidelines\">Coding Guidelines for Supporting "
 "Accessibility</link> for more information."
@@ -1065,15 +1065,6 @@ msgstr ""
 
 #. (itstool) path: section/para
 #: C/index.docbook:171
-#| msgid ""
-#| "If your application uses custom widgets, you may have to do some work to "
-#| "expose those widgets' properties to assistive technologies. See <link "
-#| "linkend=\"gad-custom\">Making Custom Components Accessible</link> and "
-#| "<link linkend=\"gad-api-examples\">Examples that Use the Accessibility "
-#| "API</link> for more information. Additional detailed information can be "
-#| "found in Marc Mulcahy's 2002 GUADEC presentation, <ulink url=\"http://"
-#| "developer.gnome.org/projects/gap/presentations/GUAD3C/making-apps-"
-#| "accessible/start.html\">\"Making GNOME Applications Accessible\".</ulink>"
 msgid ""
 "If your application uses custom widgets, you may have to do some work to "
 "expose those widgets' properties to assistive technologies. See <link "
@@ -1288,7 +1279,6 @@ msgstr "Beschreibung"
 
 #. (itstool) path: entry/para
 #: C/index.docbook:271
-#| msgid "AtkObject* gtk_widget_get_accessible (GtkWidget*)"
 msgid "<function>AtkObject* gtk_widget_get_accessible (GtkWidget*)</function>"
 msgstr "<function>AtkObject* gtk_widget_get_accessible (GtkWidget*)</function>"
 
@@ -1303,7 +1293,6 @@ msgstr ""
 
 #. (itstool) path: entry/para
 #: C/index.docbook:283
-#| msgid "void atk_object_set_name (AtkObject*, const gchar*)"
 msgid ""
 "<function>void atk_object_set_name (AtkObject*, const gchar*)</function>"
 msgstr ""
@@ -1322,7 +1311,6 @@ msgstr ""
 
 #. (itstool) path: entry/para
 #: C/index.docbook:295
-#| msgid "void atk_object_set_description (AtkObject*, const gchar*)"
 msgid ""
 "<function>void atk_object_set_description (AtkObject*, const gchar*)</"
 "function>"
@@ -1343,7 +1331,6 @@ msgstr ""
 
 #. (itstool) path: entry/para
 #: C/index.docbook:307
-#| msgid "AtkRelation* atk_relation_new (AtkObject**, gint, AtkRelationType)"
 msgid ""
 "<function>AtkRelation* atk_relation_new (AtkObject**, gint, "
 "AtkRelationType)</function>"
@@ -1369,7 +1356,6 @@ msgstr ""
 
 #. (itstool) path: entry/para
 #: C/index.docbook:319
-#| msgid "void atk_image_set_description (AtkImage*, const gchar*)"
 msgid ""
 "<function>void atk_image_set_description (AtkImage*, const gchar*)</function>"
 msgstr ""
@@ -1532,7 +1518,6 @@ msgstr ""
 
 #. (itstool) path: section/para
 #: C/index.docbook:396
-#| msgid "setenv GTK_MODULES \"libgail:libtestprops\""
 msgid "<userinput>setenv GTK_MODULES \"libgail:libtestprops\"</userinput>"
 msgstr "<userinput>setenv GTK_MODULES \"libgail:libtestprops\"</userinput>"
 
@@ -1624,7 +1609,7 @@ msgstr "AtkObject *root_obj = atk_get_root();"
 msgid ""
 "This returns an <type>AtkObject</type> which contains all toplevel windows "
 "in the currently running program. The user could then navigate through the "
-"object heirarchy by accessing the root object's children, which corresponds "
+"object hierarchy by accessing the root object's children, which corresponds "
 "to the toplevel windows."
 msgstr ""
 
@@ -1648,13 +1633,11 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:455
-#| msgid "ATK_IS_ACTION(atkobj)"
 msgid "<function>ATK_IS_ACTION(atkobj)</function>"
 msgstr "<function>ATK_IS_ACTION(atkobj)</function>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:460
-#| msgid "ATK_IS_COMPONENT(atkobj)"
 msgid "<function>ATK_IS_COMPONENT(atkobj)</function>"
 msgstr "<function>ATK_IS_COMPONENT(atkobj)</function>"
 
@@ -1691,10 +1674,6 @@ msgstr ""
 #. (itstool) path: section/programlisting
 #: C/index.docbook:487
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "table_column_inserted_id = g_signal_connect_closure_by_id(my_atk_obj, \n"
-#| "g_signal_lookup(\"column_inserted\", G_OBJECT_TYPE(my_atk_obj)),0,g_cclosure_new(G_CALLBACK (_my_table_column_inserted_func),NULL,NULL), FALSE);\n"
 msgid ""
 "\n"
 "table_column_inserted_id = g_signal_connect_closure_by_id (my_atk_obj, \n"
@@ -1726,9 +1705,6 @@ msgstr ""
 #. (itstool) path: section/programlisting
 #: C/index.docbook:497
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "child_added_id = g_signal_connect_closure (my_atk_obj,\"children_changed::add\",   g_cclosure_new (G_CALLBACK(_my_children_changed_func),NULL,NULL),FALSE); \n"
 msgid ""
 "\n"
 "child_added_id = g_signal_connect_closure (my_atk_obj,\"children_changed::add\",\n"
@@ -1808,9 +1784,6 @@ msgstr ""
 #. (itstool) path: listitem/programlisting
 #: C/index.docbook:531
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "atk_registry_set_factory_type (default_registry, GTK_TYPE_MYTYPE, MYATKIMP_TYPE_MYTYPE_FACTORY); \n"
 msgid ""
 "\n"
 "atk_registry_set_factory_type (default_registry, GTK_TYPE_MYTYPE, \n"
@@ -1848,7 +1821,7 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/index.docbook:550
-msgid "ATK Implemetation for a Specific Object"
+msgid "ATK Implementation for a Specific Object"
 msgstr "ATK-Implementierung für ein bestimmtes Objekt"
 
 #. (itstool) path: section/para
@@ -1870,7 +1843,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: C/index.docbook:558
 msgid "Sample <function>get_type()</function> function"
-msgstr ""
+msgstr "Beispiel für eine <function>get_type()</function>-Funktion"
 
 #. (itstool) path: example/programlisting
 #: C/index.docbook:559
@@ -2908,7 +2881,7 @@ msgid ""
 "Even to a user with normal vision, textual output provides the majority of "
 "the information and feedback in most applications. It is therefore critical "
 "to choose and position text carefully on the screen, and leave the choice of "
-"font and size to the user, to ensure that people with vision impaiments can "
+"font and size to the user, to ensure that people with vision impairments can "
 "also use your application effectively."
 msgstr ""
 
@@ -3048,7 +3021,6 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1145
-#| msgid "Spinbox control with label to its left"
 msgid "<_:mediaobject-1/> Spinbox control with label to its left"
 msgstr "<_:mediaobject-1/> Einstellfeld mit Beschriftung an der linken Seite"
 
@@ -3341,7 +3313,7 @@ msgid ""
 "A visual focus indicator is an audio representation of the cursor position "
 "relative to the other objects on the desktop. This allows the user to move "
 "among objects interactively as the focus changes. The visual focus must be "
-"programatically exposed to assistive technologies. Note that in most cases, "
+"programmatically exposed to assistive technologies. Note that in most cases, "
 "this is handled automatically by the ATK, without requiring you to do any "
 "additional work. However, you will need to be aware of this requirement when "
 "writing your own custom widgets, for example."
@@ -4259,16 +4231,12 @@ msgstr "MI.1"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:378
-#, fuzzy
-#| msgid ""
-#| "No operations depend on input from the <placeholder-1/> or <placeholder-2/"
-#| "> mouse buttons."
 msgid ""
 "No operations depend on input from the <mousebutton>right</mousebutton> or "
 "<mousebutton>middle</mousebutton> mouse buttons."
 msgstr ""
-"Keine Operation ist abhängig von der Bedienung der <placeholder-1/> oder "
-"<placeholder-2/> Maustaste."
+"Keine Operation ist abhängig von der Bedienung der <mousebutton>rechten</"
+"mousebutton> oder <mousebutton>mittleren</mousebutton> Maustaste."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:381
@@ -5011,6 +4979,9 @@ msgid ""
 "imageobject> <textobject> <phrase> Accerciser and the GNOME Accessibility "
 "Architecture </phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/at-arch.png\" format=\"PNG\"/> </"
+"imageobject> <textobject> <phrase> Accerciser und die GNOME-"
+"Barrierefreiheits-Architektur </phrase> </textobject>"
 
 #. (itstool) path: section/para
 #: C/index.docbook:796
@@ -5057,522 +5028,3 @@ msgstr ""
 "<application>Accerciser</application> ist ein effektiver Ersatz für das "
 "ältere <application>at-poke</application>-Werkzeug."
 
-#~ msgid "@@image: 'figures/gaa.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "a"
-
-#~ msgid "2008"
-#~ msgstr "2008"
-
-#~ msgid "Vincent Alexander"
-#~ msgstr "Vincent Alexander"
-
-#~ msgid "2001, 2002"
-#~ msgstr "2001, 2002"
-
-#~ msgid "Vincent"
-#~ msgstr "Vincent"
-
-#~ msgid "Alexander"
-#~ msgstr "Alexander"
-
-#~ msgid "Calum"
-#~ msgstr "Calum"
-
-#~ msgid "Benson"
-#~ msgstr "Benson"
-
-#~ msgid "Brian"
-#~ msgstr "Brian"
-
-#~ msgid "Cameron"
-#~ msgstr "Cameron"
-
-#~ msgid "Bill"
-#~ msgstr "Bill"
-
-#~ msgid "Haneman"
-#~ msgstr "Haneman"
-
-#~ msgid "Padraig"
-#~ msgstr "Padraig"
-
-#~ msgid "O'Briain"
-#~ msgstr "O'Briain"
-
-#~ msgid "Sharon"
-#~ msgstr "Sharon"
-
-#~ msgid "Snider"
-#~ msgstr "Snider"
-
-#~ msgid "GNOME 2.24 Accessibility Developers Guide V2.24.0"
-#~ msgstr "GNOME 2.24 Barrierefreiheitshandbuch für Entwickler V2.24.0"
-
-#~ msgid "September 2008"
-#~ msgstr "September 2008"
-
-#~ msgid "Diagram of GNOME's accessibility architecture"
-#~ msgstr "Diagramm der GNOME Barrierefreiheits-Architektur"
-
-#~ msgid "Example of an \"invalid drop target\" pointer shape"
-#~ msgstr "Beispiel für eine »invalid drop target«-Zeigerform"
-
-#~ msgid "Example showing changes in stock price using color only"
-#~ msgstr "Beispiel für die Darstellung von Aktienkursen nur mit Farben"
-
-#~ msgid "Example showing changes in stock price using both color and arrows"
-#~ msgstr ""
-#~ "Beispiel für die Darstellung von Aktienkursen mit sowohl Farben als auch "
-#~ "Pfeilen"
-
-#~ msgid "Preferences"
-#~ msgstr "Einstellungen"
-
-#~ msgid "right"
-#~ msgstr "rechten"
-
-#~ msgid "middle"
-#~ msgstr "mittleren"
-
-#~ msgid "Accerciser and the GNOME Accessibility Architecture"
-#~ msgstr "Accerciser und die GNOME-Barrierefreiheits-Architektur"
-
-#~ msgid "@@image: 'figures/color_only.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "a"
-
-#~ msgid "@@image: 'figures/color_and_arrows.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr "a"
-
-#~ msgid "The Quick Guide to Optimizing GNOME Programs"
-#~ msgstr "Schnelleinführung in die Optimierung von GNOME-Programmen"
-
-#~ msgid ""
-#~ "This is a brief introduction to optimization, both the hows and the whys. "
-#~ "Details of individual tools and techniques are left for later articles, "
-#~ "but a collection of hints and tricks is provided."
-#~ msgstr ""
-#~ "Dies ist eine kurze Einführung in die Optimierung und behandelt sowohl "
-#~ "das Wie als auch das Warum. Details zu individuellen Werkzeugen "
-#~ "verschieben wir auf spätere Artikel, eine Sammlung aus Hinweisen und "
-#~ "Tricks ist jedoch enthalten."
-
-#~ msgid "What are we Optimizing?"
-#~ msgstr "Was optimieren wir?"
-
-#~ msgid ""
-#~ "When we optimize for GNOME the first thing to remember is this: we are "
-#~ "not trying to make the program better, we are trying to make the person "
-#~ "using the computer happier."
-#~ msgstr ""
-#~ "Sie sollten bei der Optimierung für GNOME zunächst eines bedenken: Wir "
-#~ "versuchen nicht, das Programm zu verbessern, sondern wir versuchen, die "
-#~ "Benutzer glücklicher zu machen."
-
-#~ msgid ""
-#~ "Better programs make people happier, but there are some improvements that "
-#~ "will make them a lot happier than others: Responsiveness, start-up time, "
-#~ "easy to access commands and not having the computer go into swap the "
-#~ "moment more than two programs are open."
-#~ msgstr ""
-#~ "Bessere Programme machen die Benutzer glücklicher, aber es gibt "
-#~ "Verbesserungsmöglichkeiten, die sie viel glücklicher machen werden als "
-#~ "Andere: Ansprechzeit, Startzeit, leichter Zugriff auf Befehle. Der "
-#~ "Rechner sollte auch nicht sofort den Auslagerungsspeicher benutzen "
-#~ "müssen, wenn mehr als eine Anwendung geöffnet ist."
-
-#~ msgid ""
-#~ "Traditional optimization tackles concepts like CPU use, code size, the "
-#~ "number of mouse clicks and the memory use of the program. This second "
-#~ "list has been chosen to correlate with the first list, however there is "
-#~ "an important difference: The person using GNOME doesn't care about the "
-#~ "second list, but they care a lot about the first list. When optimizing "
-#~ "GNOME programs we will reduce CPU use, memory use and all those things, "
-#~ "but these are the means to the end, not the final goal. We are optimizing "
-#~ "for people."
-#~ msgstr ""
-#~ "Die traditionelle Optimierung umfasst Konzepte wie Prozessorlast, Umfang "
-#~ "des Codes, die Anzahl der Mausklicks sowie die Speichernutzung des "
-#~ "Programms. Die folgende Auflistung sollte die erste Liste ergänzen, wobei "
-#~ "ein grundlegender Unterschied besteht: Ein GNOME-Benutzer schenkt der "
-#~ "zweiten Liste keine Beachtung, während der ersten Liste sehr wohl "
-#~ "Aufmerksamkeit gewidmet wird. Beim Optimieren von GNOME-Programmen sollen "
-#~ "die Prozessorlast, der Speicherverbrauch und all diese Dinge optimiert "
-#~ "werden, aber das sind die Bedeutungen, nicht das Endziel. Wir optimieren "
-#~ "für Benutzer."
-
-#~ msgid "Doing the Optimization"
-#~ msgstr "Ausführung der Optimierung"
-
-#~ msgid ""
-#~ "The previous section omitted one important qualifier: To optimize "
-#~ "something it has to be measurable. You can't measure happiness. However, "
-#~ "you can measure start-up time so you can tell if you have improved it. "
-#~ "Happiness will then, hopefully, follow."
-#~ msgstr ""
-#~ "Aus dem vorigen Abschnitt wurde deutlich: Um etwas optimieren zu können, "
-#~ "muss es messbar sein. Sie können Zufriedenheit nicht messen, aber Sie "
-#~ "können sehr wohl Startzeiten messen, um sagen zu können, dass Sie sie "
-#~ "verbessert haben. Die Zufriedenheit wird dann - hoffentlich - folgen."
-
-#, fuzzy
-#~ msgid ""
-#~ "Don't forget the big picture. For example, rather than just trying to "
-#~ "speed up a piece of code, ask yourself if it needs to be run at all. "
-#~ "Could it be combined with another piece of code? Can the results of "
-#~ "previous calculations be saved and reused? It won't even need to be "
-#~ "optimized if it is in a place where the user is never going to notice it. "
-#~ "Worse still, the code may already be optimized and is doing the heavy "
-#~ "calculations now to avoid doing them later. Code does not run in "
-#~ "isolation and neither does the optimization process."
-#~ msgstr "Vergessen Sie nicht das Gesamtbild."
-
-#~ msgid "Hints"
-#~ msgstr "Hinweise"
-
-#~ msgid "The Fundamentals"
-#~ msgstr "Die Grundlagen"
-
-#~ msgid ""
-#~ "Make sure your code is correct and bug-free before optimizing it. Check "
-#~ "that it remains correct and bug-free after optimization."
-#~ msgstr ""
-#~ "Stellen Sie sicher, dass Ihr Code korrekt und fehlerfrei ist, bevor Sie "
-#~ "mit der Optimierung beginnen. Überprüfen Sie nach der Optimierung, ob "
-#~ "dies dann auch noch zutrifft."
-
-#~ msgid "Traps for the Unwary"
-#~ msgstr "Fallen für die Unvorsichtigen"
-
-#, fuzzy
-#~ msgid ""
-#~ "Beware of side effects. There can often be strange interactions between "
-#~ "different sections of code, a speed-up in one part can slow another part "
-#~ "down."
-#~ msgstr "Verhindern Sie Nebeneffekte. "
-
-#~ msgid ""
-#~ "Remember the resources on the X server. Your program's memory usage "
-#~ "doesn't include the pixmaps that are stored in the X server's process, "
-#~ "but they are still using up memory. Use xrestop to see what resources "
-#~ "your program is using."
-#~ msgstr ""
-#~ "Vergessen Sie nicht den Ressourcenverbrauch des X-Servers. Der "
-#~ "Speicherverbrauch Ihres Programms enthält nicht die Pixmaps, die vom X-"
-#~ "Server verarbeitet werden, aber sie verbrauchen dennoch Speicher. "
-#~ "Verwenden Sie <command>xrestop</command>, um zu sehen, welche Ressourcen "
-#~ "Ihr Programm beansprucht."
-
-#~ msgid ""
-#~ "Move code out from inside loops. A slightly more complicated piece of "
-#~ "code that is executed once is far quicker than a simple piece of code "
-#~ "executed a thousand times. Avoid calling slow code often."
-#~ msgstr ""
-#~ "Gliedern Sie Code aus Schleifen aus. Ein etwas umfangreicheres Stück "
-#~ "Code, das nur einmal ausgeführt wird, ist um Einiges schneller als ein "
-#~ "simples Stück Code, was dafür tausend Schleifen durchläuft. Vermeiden Sie "
-#~ "es, langsamen Code allzu oft aufzurufen."
-
-#~ msgid ""
-#~ "Give the compiler as many hints as possible. Use the const keyword. Use "
-#~ "<envar>G_INLINE_FUNC</envar> for short, frequently called, functions. "
-#~ "Look up <envar>G_GNUC_PURE</envar>, <envar>G_LIKELY</envar> and the other "
-#~ "glib miscellaneous macros. Use the macros instead of gcc-specific "
-#~ "keywords to ensure portability."
-#~ msgstr ""
-#~ "Geben Sie dem Compiler so viele Hinweise wie möglich. Verwenden Sie das "
-#~ "const-Schlüsselwort. Verwenden Sie <envar>G_INLINE_FUNC</envar> für "
-#~ "kurze, häufig aufgerufene Funktionen. Schauen Sie nach "
-#~ "<envar>G_GNUC_PURE</envar>, <envar>G_LIKELY</envar> und weiteren diversen "
-#~ "glib-Makros. Verwenden Sie diese Makros anstelle der gcc-spezifischen "
-#~ "Schlüsselwörter, um die Portierbarkeit zu erhalten."
-
-#~ msgid ""
-#~ "Don't use assembly language. It is not portable and, while it may be fast "
-#~ "on one processor, it is not even guaranteed to be fast on every processor "
-#~ "that supports that architecture (e.g. Athlon vs. Pentium 4)."
-#~ msgstr ""
-#~ "Verwenden Sie keine Assemblersprachen. Sie sind nicht portierbar. Während "
-#~ "sie auf dem einen Prozessor unglaublich schnell sind, ist nicht unbedingt "
-#~ "garantiert, dass dies auf jedem von der Architektur unterstützten "
-#~ "Prozessor genauso ist (beispielsweise Athlon vs Pentium 4)."
-
-#~ msgid ""
-#~ "Don't rewrite an existing library routine unless you are sure it is "
-#~ "unnecessarily slow. Many CPU-intensive library routines have already been "
-#~ "optimized. Conversely, some library routines are slow, especially ones "
-#~ "that make system calls to the operating system."
-#~ msgstr ""
-#~ "Schreiben Sie eine vorhandene Bibliotheksroutine nicht neu, es sei denn, "
-#~ "Sie sind sich sicher, dass sie unakzeptabel langsam ist. Viele "
-#~ "prozessorintensive Bibliotheksroutinen wurden bereits optimiert. "
-#~ "Andererseits sind einige Routinen tatsächlich langsam, insbesondere "
-#~ "diejenigen, die Systemaufrufe an das Betriebssystem absetzen."
-
-#~ msgid ""
-#~ "Minimize the number of libraries you link to. The fewer libraries to link "
-#~ "in, the faster the program starts. This is a difficult thing to do with "
-#~ "GNOME."
-#~ msgstr ""
-#~ "Halten Sie die Zahl der verlinkten Bibliotheken gering. Je weniger "
-#~ "Bibliotheken gelinkt werden müssen, umso schneller startet das Programm. "
-#~ "Dies ist in GNOME allerdings schwierig."
-
-#~ msgid ""
-#~ "If all else fails, tell the user that the code is going to be slow and "
-#~ "put up a progress bar. They won't be as happy as if you had just "
-#~ "presented the results, but they will at least know the program hasn't "
-#~ "crashed and they can go get a cup of coffee."
-#~ msgstr ""
-#~ "Falls alles Andere scheitern sollte, informieren Sie den Benutzer mit "
-#~ "einem Fortschrittsbalken drüber, dass es derzeit nur langsam voran geht. "
-#~ "Das dürfte ihm lieber sein, als wenn Sie nur die Ergebnisse präsentieren "
-#~ "würden. Er möchte zumindest wissen, dass das Programm nicht abgestürzt "
-#~ "ist und er dann erst einmal eine Tasse Kaffee trinken gehen kann."
-
-#~ msgid ""
-#~ "Using <application>Massif</application> for Profiling Memory Use in GNOME "
-#~ "Software"
-#~ msgstr ""
-#~ "Verwendung von <application>Massif</application> zur Profilierung des "
-#~ "Speicherverbrauchs in GNOME-Software"
-
-#~ msgid "Your command-line should therefore look something like:"
-#~ msgstr "Ihre Befehlszeile sollte daher so aussehen:"
-
-#~ msgid ""
-#~ "\n"
-#~ "valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-"
-#~ "fn=g_realloc --alloc-fn=g_try_malloc \\\n"
-#~ "         --alloc-fn=g_malloc0 --alloc-fn=g_mem_chunk_alloc same-gnome\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ "valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-"
-#~ "fn=g_realloc --alloc-fn=g_try_malloc \\\n"
-#~ "         --alloc-fn=g_malloc0 --alloc-fn=g_mem_chunk_alloc same-gnome\n"
-#~ "        "
-
-#~ msgid ""
-#~ "<application>Same GNOME</application> is the program we will be using as "
-#~ "an example. Be warned that, since valgrind emulates the CPU, it will run "
-#~ "<emphasis>very</emphasis> slowly. You will also need a lot of memory."
-#~ msgstr ""
-#~ "Das Programm <application>Same GNOME</application> werden wir als "
-#~ "Beispiel verwenden. Seien Sie gewarnt: <application>Valgrind</"
-#~ "application> emuliert den Prozessor, wodurch es <emphasis>äußerst</"
-#~ "emphasis> langsam läuft. Außerdem wird sehr viel Speicher benötigt."
-
-#~ msgid "Interpreting the Results"
-#~ msgstr "Interpretieren der Ergebnisse"
-
-#~ msgid ""
-#~ "The graphical output of <application>Massif</application> is largely self "
-#~ "explanatory. Each band represents the memory allocated by one function "
-#~ "over time. Once you identify which bands are using the most memory, "
-#~ "usually the big thick ones at the top you will have to consult the text "
-#~ "file for the details."
-#~ msgstr ""
-#~ "Die grafische Ausgabe von <application>Massif</application> ist "
-#~ "weitgehend selbsterklärend. Jedes Band stellt den einer Funktion "
-#~ "zugewiesenen Speicher nach Zeit dar. Sobald Sie herausgefunden haben, "
-#~ "welche Bänder den meisten Speicher verbrauchen, üblicherweise die "
-#~ "dickeren, oberen, dann schauen Sie sich die Textausgabe für weitere "
-#~ "Details an."
-
-#~ msgid ""
-#~ "The text file is arranged as a hierarchy of sections, at the top is a "
-#~ "list of the worst memory users arranged in order of decreasing spacetime. "
-#~ "Below this are further sections, each breaking the results down into "
-#~ "finer detail as you proceed down the call-stack. To illustrate this we "
-#~ "will use the output of the command above."
-#~ msgstr ""
-#~ "Die Textdatei ist hierarchisch in Abschnitte gegliedert. Am oberen Ende "
-#~ "finden sich die größten Speicherverbraucher, in absteigender Ordnung nach "
-#~ "Speicherzeit. Darunter finden sich weitere Abschnitte, die je nach dem "
-#~ "Platz im Aufruf-Stack feiner detaillierter sind. Um dies zu "
-#~ "verdeutlichen, verwenden wir die Ausgabe des oben stehenden Befehls."
-
-#~ msgid ""
-#~ "\n"
-#~ "Command: ./same-gnome \n"
-#~ "\n"
-#~ "== 0 ===========================\n"
-#~ "Heap allocation functions accounted for 90.4% of measured spacetime\n"
-#~ "\n"
-#~ "Called from:\n"
-#~ "  28.8% : 0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0."
-#~ "so.0.400.9)\n"
-#~ "\n"
-#~ "    6.1% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
-#~ "\n"
-#~ "    5.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
-#~ "\n"
-#~ "    3.5% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ "Command: ./same-gnome \n"
-#~ "\n"
-#~ "== 0 ===========================\n"
-#~ "Heap allocation functions accounted for 90.4% of measured spacetime\n"
-#~ "\n"
-#~ "Called from:\n"
-#~ "  28.8% : 0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0."
-#~ "so.0.400.9)\n"
-#~ "\n"
-#~ "    6.1% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
-#~ "\n"
-#~ "    5.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
-#~ "\n"
-#~ "    3.5% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
-#~ "        "
-
-#~ msgid ""
-#~ "\n"
-#~ "== 4 ===========================\n"
-#~ "Context accounted for 28.8% of measured spacetime\n"
-#~ "  0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
-#~ "  0x3A998998: (within /usr/lib/gtk-2.0/2.4.0/loaders/libpixbufloader-png."
-#~ "so)\n"
-#~ "  0x6C2760: (within /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
-#~ "  0x6C285E: gdk_pixbuf_new_from_file (in /usr/lib/libgdk_pixbuf-2.0."
-#~ "so.0.400.9)\n"
-#~ "\n"
-#~ "Called from:\n"
-#~ "  27.8% : 0x804C1A3: load_scenario (same-gnome.c:463)\n"
-#~ "\n"
-#~ "    0.9% : 0x3E8095E: (within /usr/lib/libgnomeui-2.so.0.792.0)\n"
-#~ "\n"
-#~ "  and 1 other insignificant place\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ "== 4 ===========================\n"
-#~ "Context accounted for 28.8% of measured spacetime\n"
-#~ "  0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
-#~ "  0x3A998998: (within /usr/lib/gtk-2.0/2.4.0/loaders/libpixbufloader-png."
-#~ "so)\n"
-#~ "  0x6C2760: (within /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
-#~ "  0x6C285E: gdk_pixbuf_new_from_file (in /usr/lib/libgdk_pixbuf-2.0."
-#~ "so.0.400.9)\n"
-#~ "\n"
-#~ "Called from:\n"
-#~ "  27.8% : 0x804C1A3: load_scenario (same-gnome.c:463)\n"
-#~ "\n"
-#~ "    0.9% : 0x3E8095E: (within /usr/lib/libgnomeui-2.so.0.792.0)\n"
-#~ "\n"
-#~ "  and 1 other insignificant place\n"
-#~ "        "
-
-#~ msgid "Acting on the Results"
-#~ msgstr "Interpretieren der Ergebnisse"
-
-#~ msgid ""
-#~ "\n"
-#~ "Command: ./same-gnome \n"
-#~ "\n"
-#~ "== 0 ===========================\n"
-#~ "Heap allocation functions accounted for 87.6% of measured spacetime\n"
-#~ "\n"
-#~ "Called from:\n"
-#~ "    7.7% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
-#~ "\n"
-#~ "    7.6% : 0x43BC9F: (within /usr/lib/libgdk-x11-2.0.so.0.400.9)\n"
-#~ "\n"
-#~ "    6.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
-#~ "\n"
-#~ "    5.2% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ "Command: ./same-gnome \n"
-#~ "\n"
-#~ "== 0 ===========================\n"
-#~ "Heap allocation functions accounted for 87.6% of measured spacetime\n"
-#~ "\n"
-#~ "Called from:\n"
-#~ "    7.7% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
-#~ "\n"
-#~ "    7.6% : 0x43BC9F: (within /usr/lib/libgdk-x11-2.0.so.0.400.9)\n"
-#~ "\n"
-#~ "    6.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
-#~ "\n"
-#~ "    5.2% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
-#~ "        "
-
-#~ msgid ""
-#~ "\n"
-#~ "== 1 ===========================\n"
-#~ "Context accounted for  7.7% of measured spacetime\n"
-#~ "  0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
-#~ "\n"
-#~ "Called from:\n"
-#~ "    1.8% : 0x8BF606: gtk_icon_source_copy (in /usr/lib/libgtk-x11-2.0."
-#~ "so.0.400.9)\n"
-#~ "\n"
-#~ "    1.1% : 0x67AF6B: g_param_spec_internal (in /usr/lib/libgobject-2.0."
-#~ "so.0.400.6)\n"
-#~ "\n"
-#~ "    0.9% : 0x91FCFC: (within /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
-#~ "\n"
-#~ "    0.8% : 0x57EEBF: g_quark_from_string (in /usr/lib/libglib-2.0."
-#~ "so.0.400.6)\n"
-#~ "\n"
-#~ "  and 155 other insignificant places\n"
-#~ "        "
-#~ msgstr ""
-#~ "\n"
-#~ "== 1 ===========================\n"
-#~ "Context accounted for  7.7% of measured spacetime\n"
-#~ "  0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
-#~ "\n"
-#~ "Called from:\n"
-#~ "    1.8% : 0x8BF606: gtk_icon_source_copy (in /usr/lib/libgtk-x11-2.0."
-#~ "so.0.400.9)\n"
-#~ "\n"
-#~ "    1.1% : 0x67AF6B: g_param_spec_internal (in /usr/lib/libgobject-2.0."
-#~ "so.0.400.6)\n"
-#~ "\n"
-#~ "    0.9% : 0x91FCFC: (within /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
-#~ "\n"
-#~ "    0.8% : 0x57EEBF: g_quark_from_string (in /usr/lib/libglib-2.0."
-#~ "so.0.400.6)\n"
-#~ "\n"
-#~ "  and 155 other insignificant places\n"
-#~ "        "
-
-#~ msgid "Optimizing GNOME Software"
-#~ msgstr "Optimieren von GNOME-Software"
-
-#~ msgid "Callum McKenzie"
-#~ msgstr "Callum McKenzie"
-
-#~ msgid "Robert Love"
-#~ msgstr "Robert Love"
-
-#~ msgid "McKenzie"
-#~ msgstr "McKenzie"
-
-#~ msgid "Robert"
-#~ msgstr "Robert"
-
-#~ msgid "Love"
-#~ msgstr "Love"
-
-#~ msgid "0.1"
-#~ msgstr "0.1"
-
-#~ msgid "William Johnston"
-#~ msgstr "William Johnston"
-
-#~ msgid "Intial conversion to docbook format."
-#~ msgstr "Erstmalige Umwandlung in das DocBook-Format."
-
-#~ msgid ""
-#~ "Software can be optimized in many ways: for speed, program size, or "
-#~ "memory use. This section contains guides and tutorials for optimizing "
-#~ "your software."
-#~ msgstr ""
-#~ "Die Optimierung von Software kann verschiedene Ziele verfolgen: "
-#~ "Geschwindigkeit, Programmgröße oder Speicherverbrauch. Dieser Abschnitt "
-#~ "enthält Leitfäden und Anleitungen zum Optimieren Ihrer Software."
