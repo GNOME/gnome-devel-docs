@@ -82,6 +82,15 @@
       article</link> on vacuuming for more information; please consider it
       before choosing to use GOM.
     </p>
+
+    <p>
+      GNOME has another database library: GNOME Data Access (GDA). This is
+      targeted at abstracting access to various types of relational database,
+      for use in a database utility program or office program, for example. It
+      is not suitable for storing
+      <link href="https://developer.gnome.org/gio/stable/GSettings.html">user
+      settings</link>.
+    </p>
   </section>
 
   <section id="gom">
