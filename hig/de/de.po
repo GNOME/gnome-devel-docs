@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-04-13 20:13+0000\n"
-"PO-Revision-Date: 2016-04-14 09:30+0200\n"
-"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"POT-Creation-Date: 2016-05-10 06:05+0000\n"
+"PO-Revision-Date: 2016-09-14 00:31+0200\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -608,6 +608,11 @@ msgid ""
 "which cannot be comfortably incorporated into your primary user interface. "
 "There are two primary types of button menu:"
 msgstr ""
+"Ein Menüknopf stellt eine Möglichkeit dar, zusätzliche Aktionen oder "
+"Optionen anzubieten. Er ist sinnvoll, wenn es erforderlich ist, sekundäre "
+"Optionen zur Verfügung zu stellen oder solche, die sich nicht komfortable in "
+"die primäre Benutzerschnittstelle integrieren lassen. Es gibt zwei primäre "
+"Typen eines Knopfmenüs:"
 
 #. (itstool) path: item/p
 #: C/button-menus.page:30
@@ -620,6 +625,15 @@ msgid ""
 "generic button menus can contain a variety of miscellaneous items that "
 "relate to the context of the menu."
 msgstr ""
+"<em style=\"strong\">Überlaufmenüs</em>: Hierbei dient das Knopfmenü als "
+"Erweiterung einer vorhandenen Anzahl von Bedienelementen. Dargestellt wird "
+"ein solches Menü im Beispiel der <link xref=\"header-bar-menus"
+"\">Kopfzeilenmenüs</link>, wobei das Menü als eine Art Fortsetzung der "
+"Bedienelemente angezeigt wird, die in der Kopfzeile selbst erscheinen. "
+"Dieser Ansatz kann auf andere Container angewendet werden, wie "
+"beispielsweise Aktionsleisten. Diese generischen Knopfmenüs können eine "
+"Reihe verschiedener Einträge enthalten, die sich auf den Kontext des Menüs "
+"beziehen."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:31
@@ -630,6 +644,12 @@ msgid ""
 "buttons can present groups of functionality, such as editing, changing the "
 "view, or providing navigation controls."
 msgstr ""
+"<em style=\"strong\">Einzweckmenüs</em>: Diese stellen Aktionen und/oder "
+"Optionen für einen spezifischen Funktionalitätsbereich bereit. Auf die "
+"gleiche Weise, wie eine Menüleiste eine Reihe von Menüs unterschiedlicher "
+"Thematik darstellt, können individuelle Menüknöpfe funktionelle Gruppen "
+"präsentieren, wie Bearbeitung, Ändern der Ansicht oder Anzeigen von "
+"Steuerelementen zur Navigation."
 
 #. (itstool) path: section/p
 #: C/button-menus.page:34
@@ -639,6 +659,11 @@ msgid ""
 "buttons, sliders, spin buttons, lists and text entries, can provide a more "
 "effective interface for many tasks."
 msgstr ""
+"Menüs stellen einen klaren und konsistenten Weg zum Anzeigen verschiedener "
+"Mengen von Aktionen und Einstellungen bereit. Gleichzeitig kann ein "
+"Einblendmenü mit eingebetteten Steuerelementen wie Knöpfen, Schiebereglern, "
+"Listen und Texteinträgen eine effektivere Schnittstelle für zahlreiche "
+"Aufgaben sein."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:37
@@ -652,6 +677,15 @@ msgid ""
 "better represented as icons rather than text - in which case, buttons could "
 "be more appropriate than a menu."
 msgstr ""
+"Überlegen Sie bei jeder Funktion in einem Knopfmenü, ob es vielleicht besser "
+"wäre, ein anderes <link xref=\"ui-elements\">Element der "
+"Benutzerschnittstelle</link> zu verwenden. Einfache Aktionen oder "
+"Einstellungen können durchaus effektiv in Form von Menüeinträgen "
+"dargestellt, andere wiederum nicht. Insbesondere Schieberegler, "
+"Einstellknöpfe, Schalter und Texteinträge können in einem Menü nicht richtig "
+"reproduziert werden. Gleichfalls können einige Einträge besser in Symbolform "
+"statt als Text dargestellt werden, wodurch Knöpfe angemessener wären als ein "
+"Menü."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:38
@@ -662,10 +696,15 @@ msgid ""
 "interface. However, this approach can easily become over-complex for larger "
 "and more diverse button menus."
 msgstr ""
+"Wenn ein Knopfmenü nur wenige Einträge enthält, kann es effektiver sein, es "
+"als eine Gruppe von Bedienelementen darzustellen. Ein Einblendmenü, das "
+"verschiedene Schnittstellenelemente enthält, kann Ihnen eine interessantere "
+"und effizientere Benutzerschnittstelle bringen. Allerdings kann dieser "
+"Ansatz auch zu kompliziert werden, wenn es um größere und differenziertere "
+"Knopfmenüs geht."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:39
-#, fuzzy
 msgid ""
 "A menu button can be combined with a small number of other interface "
 "elements, such as buttons, sliders and switches (see example below). This "
@@ -676,7 +715,11 @@ msgid ""
 msgstr ""
 "Ein Menüknopf kann mit einer Reihe von anderen Elementen der "
 "Benutzeroberfläche kombiniert werden, wie beispielsweise anderen Knöpfen, "
-"Schiebereglern und Schaltern (siehe nachfolgendes Beispiel)."
+"Schiebereglern und Schaltern (siehe nachfolgendes Beispiel). Dadurch können "
+"einige Menüeinträge platzsparender präsentiert werden, oder Interaktionen, "
+"die mit einem herkömmlichen Menü nicht möglich wären. Seien Sie jedoch "
+"vorsichtig beim Mischen verschiedener Bedientypen, um das Menü im "
+"Bedienablauf nicht zu komplex werden zu lassen."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:50
@@ -721,6 +764,11 @@ msgid ""
 "these that you introduce, the harder it will be for users to find the "
 "controls they need, and human error will be increased."
 msgstr ""
+"Zwar sind mehrere Knopfmenüs gleichzeitig verwendbar, doch sollten Sie "
+"Vorsicht beim Einrichten von Eingriffspunkten in Ihre Benutzerschnittstelle "
+"walten lassen. Je mehr Eingriffspunkte vorhanden sind, umso schwieriger wird "
+"es für Benutzer, die nötigen Steuerelemente zu finden. Die Gefahr "
+"menschlicher Fehler wird vergrößert."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -964,6 +1012,10 @@ msgid ""
 "can be given a suggested style. This highlights the button, and helps to "
 "distinguish it from other visible controls."
 msgstr ""
+"In Fällen, wenn ein Knopf eine bestätigende Bedeutung hat, kann er "
+"entsprechend in einem suggestiven Stil dargestellt werden. Dadurch wird der "
+"Knopf hervorgehoben, was die Unterscheidung von anderen sichtbaren "
+"Bedienelementen erleichtert."
 
 #. (itstool) path: section/p
 #: C/buttons.page:82
@@ -1107,6 +1159,11 @@ msgid ""
 "for some objects in the selection and unset for others, show the check box "
 "in its mixed state. When a check box is in its mixed state:"
 msgstr ""
+"Wenn das Ankreuzfeld eine Einstellung in einer Mehrfachauswahl "
+"repräsentiert, die für einige Objekte in der Auswahl gesetzt wird, für "
+"andere hingegen nicht, dann sollte das Ankreuzfeld in einem gemischten "
+"Status dargestellt werden. Folgendes gilt für ein Ankreuzfeld in einem "
+"gemischten Status:"
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:48
@@ -1114,6 +1171,8 @@ msgid ""
 "Clicking the box once should check the box, applying that setting (when "
 "confirmed) to all the selected objects."
 msgstr ""
+"Einmaliges Klicken auf das Ankreuzfeld aktiviert es, wobei die Einstellung "
+"(sofern bestätigt) auf alle gewählten Objekte angewendet wird."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:49
@@ -1121,6 +1180,8 @@ msgid ""
 "Clicking the box a second time should uncheck the box, removing that setting "
 "(when confirmed) to all the selected objects."
 msgstr ""
+"Nochmaliges Klicken auf das Ankreuzfeld deaktiviert es wieder, wobei die "
+"Einstellung (sofern bestätigt) von allen gewählten Objekten entfernt wird."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:50
@@ -1129,6 +1190,9 @@ msgid ""
 "restoring each selected object’s original value for that setting (when "
 "confirmed)."
 msgstr ""
+"Beim dritten Anklicken des Ankreuzfeldes wird dieses in seinen gemischten "
+"Status zurückgeführt, wobei für jedes der gewählten Objekte der Ausgangswert "
+"der Einstellung wiederhergestellt wird (sofern bestätigt)."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:52
@@ -1136,6 +1200,8 @@ msgid ""
 "Label a group of check boxes with a descriptive heading above or to the left "
 "of the group."
 msgstr ""
+"Beschriften Sie eine Gruppe von Ankreuzfeldern mit einer sinnvollen "
+"Beschreibung oberhalb oder links von der Gruppe."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:53
@@ -1146,6 +1212,11 @@ msgid ""
 "instead— but you probably also need to think about how to simplify your user "
 "interface."
 msgstr ""
+"Platzieren Sie nicht mehr als acht Ankreuzfelder unter einer "
+"Gruppenüberschrift. Falls Sie mehr als acht benötigen, sollten Sie Leerraum "
+"oder Überschriften verwenden, um diese in kleinere Gruppen zu unterteilen. "
+"Oder verwenden Sie stattdessen eine Auswahlliste – aber generell sollten Sie "
+"darüber nachdenken, wie Sie Ihre Benutzeroberfläche vereinfachen könnten."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:54
@@ -1209,6 +1280,11 @@ msgid ""
 "design patterns provided in these guidelines can be used in a cross-platform "
 "manner."
 msgstr ""
+"Die Richtlinien für Benutzeroberflächen sind für jene Designmuster und "
+"Oberflächenelemente plattformübergreifend, die bei der Programmierung für "
+"mehrere Plattformen besondere Aufmerksamkeit erfordern. Ansonsten können "
+"alle in diesen Richtlinien besprochenen Designmuster plattformübergreifend "
+"genutzt werden."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:23
@@ -1235,6 +1311,13 @@ msgid ""
 "more focused user experience, and will use modern interpretations of key "
 "functionality, such as search, online integration, or notifications."
 msgstr ""
+"Diese Richtlinien für Benutzeroberflächen sind die Weiterführung jener "
+"Richtlinien für GNOME 2 und stellen eine wesentliche Verbesserung dieser "
+"früheren Version dar. Anwendungen, die der neuen Version der Richtlinien "
+"folgen, sind platzsparender und sind mehr auf das Benutzererlebnis "
+"fokussiert. Moderne Interpretationen von Schlüsselfunktionalitäten werden "
+"angewendet, zum Beispiel Suchvorgänge, Online-Integration und "
+"Benachrichtigungen."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:32
@@ -1245,6 +1328,12 @@ msgid ""
 "<link xref=\"menu-bars\">menu bars</link> with a <link xref=\"header-bars"
 "\">header bar</link> could be a big change for your application."
 msgstr ""
+"Die Umsetzung einiger der Designmuster in diesen Richtlinien kann für "
+"Anwendungen im GNOME-2-Stil weitreichende Designänderungen zur Folge haben, "
+"insbesondere dann, wenn die Anwendungen sehr komplex sind. Speziell die "
+"Ersetzung der Titelleisten und <link xref=\"menu-bars\">Menüleisten</link> "
+"durch eine <link xref=\"header-bars\">Kopfleiste</link> kann für Ihre "
+"Anwendung ein bedeutender Umbruch sein."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:34
@@ -1253,16 +1342,21 @@ msgid ""
 "into GNOME 2 style applications with minimal disruption, and will lead to an "
 "improved experience for users. This includes:"
 msgstr ""
+"Jedoch lassen sich viele der Empfehlungen in diesen Richtlinien mit "
+"minimalen Veränderungen in Anwendungen im GNOME-2-Stil integrieren, was zu "
+"einem verbesserten Benutzererlebnis führt. Dazu gehören:"
 
 #. (itstool) path: item/p
 #: C/compatibility.page:37
 msgid "Utilizing new user interface elements, such as popovers."
 msgstr ""
+"Nutzung neuer Elemente der Benutzerschnittstelle, wie zum Beispiel "
+"Einblendmenüs."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:38
 msgid "Guidance on new GTK+ abilities, like animations."
-msgstr ""
+msgstr "Einführung in neue Fähigkeiten von GTK+, zum Beispiel Animationen."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:39
@@ -1270,6 +1364,8 @@ msgid ""
 "Modernized guidance on subjects such as visual layout, typography and icon "
 "usage."
 msgstr ""
+"Modernisierte Anleitung zu Themen wie visuelles Layout, Typografie und "
+"Verwendung von Symbolen."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:42
@@ -1278,6 +1374,9 @@ msgid ""
 "without requiring a major redesign, and all GTK+ and GNOME applications can "
 "benefit from them."
 msgstr ""
+"Die Integration dieser Elemente kann Ihre Anwendung verbessern, ohne dass "
+"ein völliger Umbau des Designs nötig ist. Alle GTK+- und GNOME-Anwendungen "
+"können davon profitieren."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:44
@@ -1288,6 +1387,12 @@ msgid ""
 "recommend <link xref=\"header-bars\">header bars</link> over <link xref="
 "\"menu-bars\">menu bars</link>, they provide guidance on both approaches."
 msgstr ""
+"Diese Richtlinien für Benutzeroberflächen wurden mit dem Ziel entworfen, Sie "
+"bei der Wahl des besten Designs für Ihre Anwendung zu unterstützen, anstatt "
+"einfach nur eine universelle Vorlage zu liefern, die in allen Anwendungen "
+"genutzt wird. Während <link xref=\"header-bars\">Kopfleisten</link> "
+"gegenüber <link xref=\"menu-bars\">Menüleisten</link> zu bevorzugen sind, "
+"erhalten Sie dennoch Anleitungen zu beiden Ansätzen."
 
 #. (itstool) path: info/desc
 #. (itstool) path: td/p
@@ -1307,6 +1412,9 @@ msgid ""
 "followed, will enable you to produce a high-quality experience for your "
 "users."
 msgstr ""
+"Die folgenden Designprinzipien bilden einen grundlegenden Satz von Regeln. "
+"Wenn Sie diesen folgen, werden Sie in der Lage sein, Ihren Benutzern eine "
+"qualitativ hochwertige Anwendung zu bieten."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:19
@@ -1366,6 +1474,8 @@ msgstr ""
 #: C/design-principles.page:37
 msgid "Use progressive disclosure to show controls when they are needed"
 msgstr ""
+"Nutzen Sie progressives Ausblenden, um Bedienelemente dann anzuzeigen, wenn "
+"sie gebraucht werden"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:39
@@ -1375,6 +1485,11 @@ msgid ""
 "Instead, only show controls when they are needed. This makes applications "
 "simpler to use, even if the same amount of functionality is provided."
 msgstr ""
+"Die ständige Anzeige aller möglichen Bedienelemente erschwert die Benutzung "
+"einer Anwendung, da die Benutzer durch Bedienelemente navigieren müssen, die "
+"oft gar nicht relevant sind. Zeigen Sie stattdessen Bedienelemente dann an, "
+"wenn sie nötig sind. Dies vereinfacht die Benutzung, wobei die "
+"bereitgestellte Funktionalität die gleiche ist."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:41
@@ -1383,11 +1498,15 @@ msgid ""
 "different views or modes, to showing transient or floating controls when "
 "particular content items are selected."
 msgstr ""
+"Es gibt verschiedene Möglichkeiten, Bedienelemente progressiv auszublenden, "
+"zum Beispiel durch andere Ansichten oder Modi oder durch vorübergehende oder "
+"schwebende Bedienelemente, wenn bestimmte Objekte des Inhalts ausgewählt "
+"werden."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:46
 msgid "Require as little work from the user as possible"
-msgstr ""
+msgstr "Halten Sie den Aufwand des Benutzers so gering wie möglich"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:48
@@ -1398,6 +1517,12 @@ msgid ""
 "form of using controls or providing information, ask yourself whether it is "
 "possible to do that work for them."
 msgstr ""
+"Eine Anwendung, die dem Benutzer viel Arbeit abfordert, kann schnell zu "
+"einem Ärgernis werden. Streben Sie danach, Ihre Anwendung für den Benutzer "
+"arbeiten zu lassen, und nicht andersherum. Jedes Mal, wenn eine "
+"Benutzereingabe gefordert wird, sei es als Auslösen eines Bedienelementes "
+"oder als Texteingabe, sollten Sie sich fragen, ob Ihre Anwendung diese "
+"Arbeit nicht selbst für den Benutzer tun kann."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:50
@@ -1436,6 +1561,10 @@ msgid ""
 "<link xref=\"visual-layout\">visual layout</link> guidelines for more "
 "details."
 msgstr ""
+"Positionieren Sie die wichtigsten Bedienelemente oben links in Ihren "
+"Fenstern und platzieren Sie dominierende Elemente vor jenen, die dadurch "
+"beeinflusst werden. In den Richtlinien zum <link xref=\"visual-layout"
+"\">visuellen Layout</link> finden Sie weitere Details hierzu."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:64
@@ -1450,6 +1579,10 @@ msgid ""
 "in, and too many controls or user interface elements will distract from the "
 "focus of their attention."
 msgstr ""
+"Typischerweise werden in Anwendungen Inhalte präsentiert, seien es Bilder, "
+"Texte, Meldungen oder komplexere Daten. Es sind diese Inhalte, die im "
+"Interessenbereich des Benutzers liegen. Zu viele Bedienelemente lenken den "
+"Benutzer zu sehr von den Dingen ab, die seine Aufmerksamkeit erfordern."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:68
@@ -1489,6 +1622,8 @@ msgid ""
 "Automatically correct potentially invalid input, and always make it possible "
 "to undo destructive operations."
 msgstr ""
+"Korrigieren Sie potenziell falsche Eingaben automatisch, und bieten Sie "
+"immer eine Möglichkeit an, destruktive Vorgänge rückgängig zu machen."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:82
@@ -1503,6 +1638,11 @@ msgid ""
 "stays out of the way when it is not in use, and does not surprise when it is "
 "in use."
 msgstr ""
+"Unterbrechungen verursachen Frustration und Ärger und hindern Leute daran, "
+"sich auf das zu konzentrieren, woran sie eigentlich interessiert sind. "
+"Entwerfen Sie Ihre Anwendung so, dass sie nicht im Weg steht, wenn sie "
+"gerade nicht gebraucht wird, und keine Überraschungen bereithält, wenn sie "
+"genutzt wird."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:86
@@ -1511,6 +1651,10 @@ msgid ""
 "avoid spontaneously popping up dialogs without user intent, and avoid "
 "disruptive feedback mechanisms like message dialogs."
 msgstr ""
+"Setzen Sie <link xref=\"notifications\">Benachrichtigungen</link> "
+"zurückhaltend ein, vermeiden Sie stets spontan aufklappende Dialoge, die der "
+"Benutzer nicht beabsichtigt hat, und auch unterbrechende "
+"Rückmeldemechanismen wie Meldungsdialoge."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:91
@@ -1630,6 +1774,7 @@ msgstr "original"
 #: C/dialogs.page:7
 msgid "Secondary windows that appear over primary, parent windows"
 msgstr ""
+"Sekundäre Fenster, die über primären, übergeordneten Fenstern erscheinen"
 
 #. (itstool) path: page/title
 #: C/dialogs.page:27
@@ -1687,6 +1832,7 @@ msgstr "Ordnen Sie neue Nachrichten, Kontakte und Ähnliches eingebettet an."
 #: C/dialogs.page:46
 msgid "In-application notifications are an alternative to message dialogs."
 msgstr ""
+"Eingebettete Benachrichtigungen sind eine Alternative zu Meldungsdialogen."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:47
@@ -2026,6 +2172,9 @@ msgid ""
 "It should be possible for all application windows to fit on the smallest "
 "recommended displays for GNOME 3. Currently, this is 1024×600 pixels."
 msgstr ""
+"Es sollte möglich sein, alle Anwendungsfenster in der kleinsten für GNOME 3 "
+"empfohlenen Bildschirmauflösung darzustellen. Gegenwärtig sind dies 1024x600 "
+"Pixel."
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:25
@@ -2044,6 +2193,9 @@ msgid ""
 "between landscape and portrait mode can be automatically handled by the "
 "window manager."
 msgstr ""
+"Die Größe aller primären Fenster sollte sich ändern lassen. Dies stellt "
+"sicher, dass das Umschwenken zwischen Hoch- und Querformat automatisch von "
+"der Fensterverwaltung geregelt werden kann."
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:27
@@ -2053,6 +2205,11 @@ msgid ""
 "fixed width layouts to ensure that interface elements maintain effective "
 "grouping and alignment."
 msgstr ""
+"Prüfen Sie, ob Ihre Benutzeroberfläche auf großen Bildschirmen gut "
+"funktioniert. Skalieren Sie Inhalte, wo es möglich ist, um den verfügbaren "
+"Platz bestmöglich zu nutzen, oder verwenden Sie Anordnungen fester Breite, "
+"um sicher zu stellen, dass die Bedienelemente sich effektiv anordnen und "
+"gruppieren lassen."
 
 #. (itstool) path: section/title
 #: C/display-compatibility.page:33
@@ -2218,11 +2375,15 @@ msgstr ""
 #: C/drop-down-lists.page:55
 msgid "Allow custom values to be removed from the list."
 msgstr ""
+"Ermöglichen Sie, dass benutzerdefinierte Werte aus der Liste entfernt werden "
+"können."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:56
 msgid "Validate custom values as they are entered, in order to prevent errors."
 msgstr ""
+"Prüfen Sie benutzerdefinierte Werte bereits während der Eingabe, um Fehler "
+"auszuschließen."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:57
@@ -8885,7 +9046,7 @@ msgstr "original"
 #. (itstool) path: page/title
 #: C/text-fields.page:30
 msgid "Text fields"
-msgstr ""
+msgstr "Textfelder"
 
 #. (itstool) path: page/p
 #: C/text-fields.page:32
@@ -9699,6 +9860,9 @@ msgid ""
 "Text plays an important role in user interfaces. Take the time to ensure "
 "that any text you use is clearly written and easy to understand."
 msgstr ""
+"Texte spielen in Benutzeroberflächen eine entscheidende Rolle. Nehmen Sie "
+"sich die Zeit und prüfen Sie, ob jeglicher Text klar und deutlich "
+"geschrieben und leicht verständlich ist."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:44
@@ -9746,7 +9910,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/writing-style.page:51
 msgid "Avoid repetition where possible."
-msgstr ""
+msgstr "Vermeiden Sie Wiederholungen, wenn möglich."
 
 #. (itstool) path: section/title
 #: C/writing-style.page:57
