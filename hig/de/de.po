@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-09-14 14:42+0000\n"
-"PO-Revision-Date: 2016-09-19 11:36+0200\n"
+"POT-Creation-Date: 2016-09-19 09:37+0000\n"
+"PO-Revision-Date: 2016-09-29 17:22+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -1754,6 +1754,12 @@ msgid ""
 "to pick a small number of moments to use emotion, rather than spraying them "
 "throughout your user interface."
 msgstr ""
+"Effektiv verwendet können Gefühl und Humor das von Ihrer Anwendung "
+"vermittelte Benutzererlebnis verbessern und dabei helfen, eine positive "
+"Beziehung zu Ihren Benutzern aufzubauen. Lassen Sie dennoch Vorsicht walten, "
+"um diese Techniken zu überzustrapazieren. Es ist effektiver, an wenigen "
+"Stellen an der Benutzeroberfläche Gefühle zu verwenden, anstatt sie nach dem "
+"Gießkannenprinzip überall zu verteilen."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:118
@@ -1845,6 +1851,10 @@ msgid ""
 "conventions for the different types of dialogs that you might want to use. "
 "The guidelines on each type of dialog provides further information on this."
 msgstr ""
+"Dialoge sind ein häufig verwendetes Designmuster. Es gibt etablierte "
+"Konventionen für den Einsatz der verschiedenen Dialogtypen, die Sie "
+"verwenden können. Die Richtlinien zu jedem der Typen vermitteln weitere "
+"Informationen hierzu."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:40
@@ -1854,6 +1864,11 @@ msgid ""
 "this reason, always question whether a dialog is necessary, and work to "
 "avoid the situations in which they are required."
 msgstr ""
+"Während Dialoge einerseits eine effektive Möglichkeit bieten, zusätzliche "
+"Bedienelemente oder Informationen bereitzustellen, können Sie beim Benutzer "
+"andererseits Unterbrechungen des Arbeitsablaufs verursachen. Stellen Sie "
+"sich deshalb immer die Frage, ob ein Dialog erforderlich ist, und versuchen "
+"Sie solche Situationen zu vermeiden."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:42
@@ -1877,6 +1892,8 @@ msgid ""
 "<link xref=\"popovers\">Popovers</link> can be a way to display additional "
 "controls or options in a less disruptive manner."
 msgstr ""
+"<link xref=\"popovers\">Einblenddialoge</link> können zusätzliche "
+"Bedienelemente oder Optionen auf eine weniger unterbrechende Weise anzeigen."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:53
@@ -1923,6 +1940,9 @@ msgid ""
 "acknowledged, and will not always prevent mistakes from happening. It is "
 "often better to provide undo functionality instead."
 msgstr ""
+"Bestätigungsdialoge werden oft unabsichtlich oder automatisch »abgenickt«, "
+"wodurch Fehler nicht immer vermieden werden. Oft ist es besser, eine Routine "
+"zum Zurücknehmen von Aktionen anzubieten."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:66
@@ -1959,6 +1979,10 @@ msgid ""
 "action) and two primary buttons - one which allows the action to be carried "
 "out and one which cancels it."
 msgstr ""
+"Aktionsdialoge stellen Optionen und Informationen zu einer spezifischen "
+"Aktion bereit, bevor diese ausgeführt wird. Sie haben eine Überschrift (die "
+"typischerweise die Aktion beschreibt) und zwei primäre Knöpfe – einen zum "
+"Ausführen und einen zum Abbrechen der Aktion."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:80
@@ -1967,6 +1991,9 @@ msgid ""
 "be carried out. In these cases, the affirmative dialog button should be "
 "insensitive until the required options have been selected."
 msgstr ""
+"Gelegentlich ist es notwendig, dass der Benutzer Optionen auswählen soll, "
+"bevor eine Aktion ausgeführt wird. In diesen Fällen sollte der bestätigende "
+"Dialogknopf ausgegraut werden, bis die benötigten Optionen ausgewählt wurden."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:85
@@ -2148,6 +2175,8 @@ msgid ""
 "Follow the <link xref=\"visual-layout\">layout guidelines</link> when "
 "designing the content of windows."
 msgstr ""
+"Folgen Sie beim Entwurf von Fensterinhalten den <link xref=\"visual-layout"
+"\">Layout-Richtlinien</link>"
 
 #. (itstool) path: item/p
 #: C/dialogs.page:161
@@ -2172,6 +2201,11 @@ msgid ""
 "you expect users to operate first. This focus is especially important for "
 "users who must use a keyboard to navigate your application."
 msgstr ""
+"Setzen Sie beim Öffnen eines Dialoges den anfänglichen Tastaturfokus auf "
+"jenes Element, von dem Sie erwarten, dass die Benutzer es zuerst benötigen. "
+"Dieser Fokus ist insbesondere für jene Benutzer von Bedeutung, die beim "
+"Navigieren durch Ihre Anwendung auf die ausschließliche Verwendung der "
+"Tastatur angewiesen sind."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:171
@@ -2219,6 +2253,8 @@ msgid ""
 "The size requirements stated on this page should be doubled for high-"
 "resolution displays (those with greater than 96 PPI)."
 msgstr ""
+"Die auf dieser Seite ausgewiesenen Anforderungen an die Größe sollten für "
+"hochauflösende Bildschirme verdoppelt werden (mit mehr als 96 PPI)."
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:24
@@ -2279,6 +2315,12 @@ msgid ""
 "supported on screens that are 1280 pixels or wider, meaning that windows "
 "should have a minimum width of no less than 640 pixels."
 msgstr ""
+"In GNOME 3 können Fenster so eingerastet werden, dass sie die Hälfte des "
+"Bildschirms einnehmen. Dadurch können zwei Fenster nebeneinander verwendet "
+"werden. Das Einrasten im halben Bildschirm ist auf kleinen Anzeigegeräten "
+"nicht praktikabel. Als Faustregel sollten Bildschirme unterstützt werden, "
+"die 1280 Pixel breit oder breiter sind, was bedeutet, dass Fenster eine "
+"minimale Breite von 640 Pixel oder weniger haben sollten."
 
 #. (itstool) path: section/p
 #: C/display-compatibility.page:37
@@ -2365,6 +2407,11 @@ msgid ""
 "“Month:” with the item “January” selected, the user might reasonably infer "
 "that the menu contains the 12 months of the year without having to look."
 msgstr ""
+"der Inhalt des verborgenen Teils des Menüs aus dessen Beschriftung und dem "
+"ausgewählten Eintrag ersichtlich ist. Wenn ein Optionsmenü beispielsweise "
+"mit »Month:« beschriftet ist und »January« ausgewählt ist, kann der Benutzer "
+"sinnvollerweise schlussfolgern, dass das Menü die zwölf Monate des Jahres "
+"enthält, ohne nachschauen zu müssen."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:37
@@ -2462,7 +2509,7 @@ msgstr "original"
 #. (itstool) path: info/desc
 #: C/empty-placeholders.page:8
 msgid "Image and text shown when a grid or list is empty"
-msgstr ""
+msgstr "Angezeigtes Bild und Text, wenn ein Gitter oder eine Liste leer ist"
 
 #. (itstool) path: page/title
 #: C/empty-placeholders.page:16
@@ -2475,6 +2522,8 @@ msgid ""
 "An empty placeholder is an image and text which fills the space in an empty "
 "list or grid."
 msgstr ""
+"Ein leerer Platzhalter ist ein Bild samt Text, das den Raum in einem leeren "
+"Gitter oder einer leeren Liste auffüllt."
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:25
@@ -2490,6 +2539,8 @@ msgstr ""
 msgid ""
 "An empty placeholder should be displayed whenever a list or grid is empty."
 msgstr ""
+"Ein leerer Platzhalter sollte immer dann angezeigt werden, wenn eine Liste "
+"oder ein Gitter leer ist."
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:29
@@ -2507,6 +2558,9 @@ msgid ""
 "labels, so that your application is consistent with other GNOME 3 "
 "applications."
 msgstr ""
+"Folgen Sie dem Standardlayout für die Größe und Platzierung des Bildes und "
+"der Beschriftung, um die Konsistenz Ihrer Anwendung zu anderen GNOME-3-"
+"Anwendungen zu gewährleisten."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:38
@@ -2581,11 +2635,17 @@ msgid ""
 "content. This can be useful if content items have additional metadata "
 "associated with them, such as creation dates or authorship."
 msgstr ""
+"Gitter und Listen können kombiniert werden, um verschiedene Ansichten des "
+"gleichen Inhalts anzubieten. Das kann sinnvoll sein, wenn Elementen "
+"zusätzlich Metadaten zugeordnet sind, wie beispielsweise Erstellungsdaten "
+"oder Besitzrechte."
 
 #. (itstool) path: item/p
 #: C/grids.page:35
 msgid "Wherever possible, each item of content should have a unique thumbnail."
 msgstr ""
+"Wo immer es möglich ist, sollte jedes Element des Inhalts ein eindeutiges "
+"Vorschaubild haben."
 
 #. (itstool) path: item/p
 #: C/grids.page:36
@@ -2594,6 +2654,9 @@ msgid ""
 "using your application. Ordering content according to most recently used is "
 "often the best arrangement."
 msgstr ""
+"Ordnen Sie die Elemente des Gitters so an, dass sie den Anwendern am "
+"nützlichsten sind. Die Anordnung nach den am häufigsten benutzten Elementen "
+"ist oft die beste Wahl."
 
 #. (itstool) path: item/p
 #: C/grids.page:37
@@ -2601,6 +2664,8 @@ msgid ""
 "Selecting an item in the grid will typically switch to a dedicated view of "
 "that item."
 msgstr ""
+"Die Auswahl eines Elements im Gitter führt typischerweise dazu, dass dieses "
+"in der Ansicht hervorgehoben wird."
 
 #. (itstool) path: item/p
 #: C/grids.page:38
@@ -2655,6 +2720,9 @@ msgid ""
 "contains actions and options for the current view. These menus are located "
 "at the far right side of the header bar."
 msgstr ""
+"<link xref=\"header-bars\">Kopfleisten</link> können ein Menü enthalten, "
+"welches Aktionen und Optionen für die aktuelle Ansicht enthält. Diese Menüs "
+"befinden sich an der äußersten rechten Seite der Kopfleiste."
 
 #. (itstool) path: page/p
 #: C/header-bar-menus.page:22
@@ -2779,6 +2847,8 @@ msgid ""
 "Header bars are a common horizontal element which are placed at the top of "
 "windows. They play a number of roles:"
 msgstr ""
+"Kopfleisten sind ein grundlegendes horizontales Element am oberen Rand von "
+"Fenstern. Sie erfüllen eine Reihe von Aufgaben:"
 
 #. (itstool) path: item/p
 #: C/header-bars.page:23
@@ -2787,6 +2857,10 @@ msgid ""
 "window control buttons (typically a single close button), and provide access "
 "to a window controls menu."
 msgstr ""
+"Fenstersteuerung – Kopfzeilen ermöglichen das Verschieben von Fenstern durch "
+"Ziehen mit der Maus, enthalten Knöpfe zur Fenstersteuerung (üblicherweise "
+"ein einzelner Schließen-Knopf) und lassen den Benutzer auf ein Menü zur "
+"Fenstersteuerung zugreifen."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:24
@@ -2794,6 +2868,9 @@ msgid ""
 "Headings - a key role of a header bar is to provide context for the content "
 "of the window, either through a heading or view switcher."
 msgstr ""
+"Überschriften – eine grundlegende Rolle der Kopfleiste ist die "
+"Bereitstellung von Kontext zum Inhalt des Fensters, entweder durch eine "
+"Überschrift oder einen Ansichtswechsler."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:25
@@ -2801,6 +2878,8 @@ msgid ""
 "Controls - header bars provide a place for key controls, typically in the "
 "form of buttons."
 msgstr ""
+"Steuerungslemente – Kopfzeilen bieten Platz für Steuerungen, typischerweise "
+"in der Form von Knöpfen."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:31
@@ -2820,6 +2899,11 @@ msgid ""
 "these guidelines. See the <link xref=\"menu-bars\">menu bar guidelines</"
 "link> for more details on this."
 msgstr ""
+"Kopfzeilen sind zu herkömmlichen Menüleisten nicht kompatibel. Wenn Ihre "
+"Anwendung bereits eine Menüleiste enthält, sollten Sie den Umstieg auf die "
+"in diesen Richtlinien erwähnten Alternativen in Erwägung ziehen. In den "
+"<link xref=\"menu-bars\">Richtlinien zu Menüleisten</link> finden Sie "
+"weitere Details hierzu."
 
 #. (itstool) path: section/title
 #: C/header-bars.page:38
@@ -2850,6 +2934,9 @@ msgid ""
 "within the header bar, additional functionality can be included within a "
 "header bar menu."
 msgstr ""
+"Wenn ein Fenster mehr Bedienelemente benötigt, als komfortabel in der "
+"Kopfleiste untergebracht werden können, kann zusätzliche Funktionalität über "
+"ein Kopfleistenmenü angeboten werden."
 
 #. (itstool) path: section/title
 #: C/header-bars.page:49
@@ -2862,6 +2949,9 @@ msgid ""
 "A header bar can - and should - update along with view or mode changes. This "
 "ensures that header bar controls are always relevant to the current context."
 msgstr ""
+"Eine Kopfleiste kann - und sollte - bei Änderungen der Ansicht oder des "
+"Modus aktualisiert werden. Dies stellt sicher, dass die Bedienelemente der "
+"Kopfleiste stets im aktuellen Kontext relevant sind."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:53
@@ -2915,6 +3005,9 @@ msgid ""
 "Always ensure that there is room for a header bar to be dragged. This is "
 "necessary to enable windows to be moved or resized."
 msgstr ""
+"Achten Sie darauf, dass immer genügend Platz in der Kopfzeile bleibt, um sie "
+"mit der Maus ziehen zu können. Anderenfalls wäre es nicht möglich, Fenster "
+"zu verschieben oder deren Größe zu ändern."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:75
@@ -3110,6 +3203,12 @@ msgid ""
 "incorrect use of an icon can make your interface hard - or even impossible - "
 "to understand."
 msgstr ""
+"Es gibt viele Situationen, in denen Sie zwischen einem Symbol oder einer "
+"Textbeschriftung entscheiden müssen, insbesondere für Knöpfe. Symbole haben "
+"den Vorteil, dass sie kleiner sind und deren Inhalte nicht übersetzt werden "
+"müssen. Gleichzeitig kann die inkorrekte Verwendung eines Symbols dazu "
+"führen, dass Ihre Benutzeroberfläche schwer (oder sogar gar nicht) "
+"verständlich ist."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:27
@@ -3118,6 +3217,9 @@ msgid ""
 "recognized icon is not available, it might be better to use a text label "
 "instead."
 msgstr ""
+"Verwenden Sie Symbole nur, wenn ihre Bedeutung gemeinhin bekannt ist. Falls "
+"ein solches Symbol nicht zur Verfügung steht, sollten Sie besser eine "
+"Textbeschriftung verwenden"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:29
@@ -3157,6 +3259,9 @@ msgid ""
 "appropriate; try to avoid creating custom icons unless they are absolutely "
 "necessary."
 msgstr ""
+"GNOME stellt eine breite Auswahl an Standardsymbolen bereit. Diese sollten "
+"verwendet werden, wo immer es möglich ist. Versuchen Sie, eigene Symbole zu "
+"vermeiden, es sei denn, dies ist unbedingt notwendig."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:42
@@ -3346,7 +3451,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:107
 msgid "Size and grid"
-msgstr "Größe und Raster"
+msgstr "Größe und Gitter"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:109
@@ -3488,7 +3593,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:22
 msgid "Core material"
-msgstr ""
+msgstr "Kernmaterial"
 
 #. (itstool) path: section/p
 #: C/index.page:24
@@ -3906,6 +4011,11 @@ msgid ""
 "predictable order. In Western locales, this is normally left to right and "
 "top to bottom."
 msgstr ""
+"Verwenden Sie eine logische Reihenfolge für die Tastaturnavigation. Beim "
+"Navigieren mit der <key>Tabulatortaste</key> sollte der Fokus in einer "
+"nachvollziehbaren Weise von einem zum nächsten Bedienelement springen. In "
+"westlichen Sprachen ist dies normalerweise von links nach rechts und von "
+"oben nach unten."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:43
@@ -3922,6 +4032,9 @@ msgid ""
 "focus to the first dependent control when it is activated, but instead leave "
 "focus in place."
 msgstr ""
+"Wenn ein Bedienelement weitere Bedienelemente aktiviert, verschieben Sie den "
+"Fokus nicht automatisch auf das erste untergeordnete Bedienelement. Lassen "
+"Sie den Fokus stattdessen auf dem ursprünglichen Element."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:49
@@ -3968,6 +4081,9 @@ msgid ""
 "Moves keyboard focus out of the enclosing widget to the next/previous "
 "control, in those situations where Tab alone has another function"
 msgstr ""
+"Verschiebt den Tastaturfokus aus dem umschließenden Widget zum nächsten "
+"Steuerelement. Dies betrifft solche Situationen, in denen die Tabulatortaste "
+"allein keine weitere Funktion hat."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:69
@@ -4065,6 +4181,8 @@ msgstr "<key>Eingabetaste</key> und <key>Ende</key>"
 #: C/keyboard-input.page:101
 msgid "Select/move to the first item in a selected widget"
 msgstr ""
+"Wählt oder verschiebt den Fokus auf das erste Element in einem ausgewählten "
+"Widget"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:104
@@ -4093,6 +4211,10 @@ msgid ""
 "consistently used for menus, popovers or <link xref=\"dialogs#default-action-"
 "and-escape\">dialogs</link>, or any other temporary mode or UI element."
 msgstr ""
+"Schließt oder beendet den aktuellen Kontext, wenn dieser vorübergehend ist. "
+"Dies sollte konsistent für Menüs, Einblenddialoge oder <link xref="
+"\"dialogs#default-action-and-escape\">Dialoge</link> sowie für jeden "
+"sonstigen temporären Modus oder Bedienelement verwendet werden."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:118
