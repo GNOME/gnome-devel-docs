@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-09-19 09:37+0000\n"
-"PO-Revision-Date: 2016-09-29 17:22+0200\n"
+"POT-Creation-Date: 2016-09-29 15:24+0000\n"
+"PO-Revision-Date: 2016-11-01 16:15+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -2017,6 +2017,10 @@ msgid ""
 "they have a header bar and a subject. However, instead of prefixing an "
 "action, their content relates to an application or content item."
 msgstr ""
+"Präsentationsdialoge stellen Informationen oder Bedienmöglichkeiten bereit. "
+"Wie Aktionsdialoge haben sie eine Kopfleiste und ein ??? Jedoch anstelle "
+"eine Aktion vorzubereiten, bezieht sich ihr Inhalt auf eine Anwendung oder "
+"ein Inhaltselement."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:100
@@ -2038,6 +2042,13 @@ msgid ""
 "Make an effort to ensure that your application design works for everybody "
 "without the need to change its settings."
 msgstr ""
+"Widerstehen Sie der Versuchung, ein Einstellungsfenster für Ihre Anwendung "
+"bereitzustellen. Fragen Sie sich stets, ob zusätzliche Einstellungen "
+"überhaupt notwendig sind. Die meisten Benutzer bemühen sich nicht damit, die "
+"möglichen Einstellungen herauszufinden, außerdem machen "
+"Konfigurationsoptionen Ihre Anwendung komplizierter. Versuchen Sie, Ihr "
+"Anwendungsdesign so zu gestalten, dass jeder ohne Änderungen der "
+"Einstellungen damit arbeiten kann."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:107
@@ -2082,6 +2093,9 @@ msgid ""
 "window. The order of these buttons, as well as the labels used, are a key "
 "part of the dialog."
 msgstr ""
+"Meldungs- und Aktionsdialoge beinhalten primäre Knöpfe, die sich auf das "
+"gesamte Fenster auswirken. Die Anordnung der Knöpfe und deren Beschriftung "
+"nehmen innerhalb des Dialoges eine Schlüsselstellung ein."
 
 #. (itstool) path: section/title
 #. (itstool) path: td/p
@@ -2096,6 +2110,10 @@ msgid ""
 "that the cancel button appears first, before the affirmative button. In left-"
 "to-right locales, this is on the left."
 msgstr ""
+"Wenn ein Dialog einen Knopf zum Bestätigen und einen zum Abbruch enthält, "
+"platzieren Sie den Abbrechen-Knopf stets vor dem Bestätigen-Knopf. Bei "
+"Spracheinstellungen mit Schreibweise von links nach rechts ist dies die "
+"linke Seite."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:128
@@ -2103,6 +2121,9 @@ msgid ""
 "This button order ensures that users become aware of, and are reminded of, "
 "the ability to cancel prior to encountering the affirmative button."
 msgstr ""
+"Diese Reihenfolge stellt sicher, dass dem Benutzer zuerst die Möglichkeit "
+"zum Abbruch signalisiert wird und danach erst die Möglichkeit zum Bestätigen "
+"der Aktion."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:133
@@ -3935,6 +3956,8 @@ msgid ""
 "Only include a longer explanation if it is really needed: a simple heading "
 "can often be sufficient."
 msgstr ""
+"Verwenden Sie nur eine längere Beschreibung, wenn es unbedingt nötig ist: "
+"Eine einfache Überschrift sollte meist ausreichen."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:40
@@ -4228,6 +4251,10 @@ msgid ""
 "key>. They are indicated by an underlined letter within each control label "
 "(this is displayed when <key>Alt</key> is held down)."
 msgstr ""
+"Zugriffstasten ermöglichen dem Benutzer, beschriftete Elemente durch Drücken "
+"der <key>Alt</key>-Taste zu bedienen. Sie werden durch einen unterstrichenen "
+"Buchstaben dargestellt (der durch Gedrückthalten der <key>Alt</key>-Taste "
+"angezeigt wird)."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:123
@@ -4283,6 +4310,10 @@ msgid ""
 "either single keys or combinations of several key presses (typically a "
 "modifier in combination with a regular key)"
 msgstr ""
+"Tastenkombinationen bieten einen bequemen Zugriff auf häufig genutzte "
+"Operationen. Dies können entweder einzelne Tasten oder Kombinationen "
+"mehrerer Tastendrücke sein (typischerweise eine Modifikationstaste in "
+"Verbindung mit einer regulären Taste)."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:138
@@ -4326,6 +4357,10 @@ msgid ""
 "to learn and remember. For example, <keyseq><key>Ctrl</key><key>E</key></"
 "keyseq> would be a good shortcut for a menu item called <gui>Edit Page</gui>."
 msgstr ""
+"Neue Tastenkombinationen sollten so einprägsam wie möglich sein, um leichter "
+"zu merken und erlernbar zu sein. Beispielsweise wäre <keyseq><key>Ctrl</"
+"key><key>E</key></keyseq> eine gute Kombination für den Menüeintrag "
+"<gui>Edit Page</gui>."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:143
@@ -4333,6 +4368,8 @@ msgid ""
 "Shortcuts that can be easily used with one hand are preferable for common "
 "operations."
 msgstr ""
+"Tastenkombinationen, die mit einer Hand ausführbar sind, sind für häufig "
+"vorkommende Operationen zu bevorzugen."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:144
@@ -4340,6 +4377,8 @@ msgid ""
 "Do not use <key>Alt</key> for shortcut keys, as this may conflict with "
 "access keys."
 msgstr ""
+"Verwenden Sie nicht die <key>Alt</key>-Taste für Tastenkombinationen, da "
+"sich diese mit Zugriffstasten überschneiden könnte."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:150
@@ -4361,6 +4400,9 @@ msgid ""
 "key, for system shortcuts. <key>Super</key> should not be used by "
 "applications, therefore."
 msgstr ""
+"GNOME 3 nutzt die <key>Super</key>-Taste, auch als Windows-Taste bekannt, "
+"exklusiv für systemweit gültige Tastenkombinationen. Die <key>Super</key>-"
+"Taste sollte daher nicht in Anwendungen eingesetzt werden."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:161
@@ -4729,6 +4771,10 @@ msgid ""
 "shortcuts should not be reassigned to other actions, even when the "
 "corresponding action is not provided by your application."
 msgstr ""
+"Voreingestellte Tastenkombinationen für Anwendungen und Menüeinträge. Diese "
+"anwendungsgebundenen Tastenkombinationen sollten nicht anderen Aktionen "
+"zugewiesen werden, selbst dann nicht, wenn Ihre Anwendung die entsprechende "
+"Aktion gar nicht anbietet."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:279 C/keyboard-input.page:313
@@ -4906,6 +4952,9 @@ msgid ""
 "dialog allowing the user to set such options as portrait or landscape "
 "format, margins, and so on."
 msgstr ""
+"Ermöglicht dem Benutzer die Steuerung der Druckeinstellungen. In einem "
+"Dialog können beispielsweise die Ausrichtung (Hoch- oder Querformat) oder "
+"die Breite der Ränder eingestellt werden."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:356
@@ -4924,6 +4973,8 @@ msgid ""
 "window containing an accurate representation of the appearance of the "
 "document as it would be printed."
 msgstr ""
+"Zeigt dem Benutzer, wie das gedruckte Dokument aussehen würde. In einem "
+"Dialog wird eine genaue Darstellung des späteren Ausdrucks angezeigt."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:361
@@ -4943,6 +4994,10 @@ msgid ""
 "so on. The dialog must contain a button labelled <gui>Print</gui> that "
 "starts printing and closes the dialog."
 msgstr ""
+"Druckt das aktuelle Dokument. In einem Dialog werden Möglichkeiten zur "
+"Einstellung des zu druckenden Seitenbereichs, des zu verwendenden Druckers "
+"usw. angezeigt. Der Dialog muss einen Knopf mit der Beschriftung <gui>Print</"
+"gui> enthalten, der den Druckvorgang anstößt und den Dialog schließt."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:366
@@ -4998,12 +5053,15 @@ msgid ""
 "Closes the current tab or window. If the window uses tabs and there is only "
 "one open, the shortcut should close the window."
 msgstr ""
+"Schließt das aktuelle Fenster oder den aktuellen Reiter. Falls das Fenster "
+"Reiter anzeigt und nur einer geöffnet ist, sollte durch diese "
+"Tastenkombination auch das Fenster geschlossen werden."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:386
 msgctxt "menu"
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "Edit"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:388
@@ -5013,7 +5071,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:400
 msgid "<gui>Undo <em>action</em></gui>"
-msgstr ""
+msgstr "<gui>Undo-<em>Aktion</em></gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:401
@@ -5023,12 +5081,12 @@ msgstr "<keyseq><key>Strg</key><key>Z</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:402
 msgid "Reverts the effect of the previous action."
-msgstr ""
+msgstr "Kehrt den Effekt der zuvor ausgeführten Aktion um."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:405
 msgid "<gui>Redo <em>action</em></gui>"
-msgstr ""
+msgstr "<gui>Redo-<em>Aktion</em></gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:406
@@ -5058,11 +5116,14 @@ msgid ""
 "Removes the selected content and places it onto the clipboard. Visually, "
 "remove the content from the document in the same manner as <gui>Delete</gui>."
 msgstr ""
+"Entfernt den markierten Inhalt und verschiebt ihn in die Zwischenablage. "
+"Visuell wird der Inhalt auf die gleiche Weise aus dem Dokument entfernt wie "
+"durch <gui>Delete</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:415
 msgid "<gui>Copy</gui>"
-msgstr "<gui>Kopieren</gui>"
+msgstr "<gui>Copy</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:416
@@ -5077,7 +5138,7 @@ msgstr "Kopiert den ausgewählten Inhalt in die Zwischenablage."
 #. (itstool) path: td/p
 #: C/keyboard-input.page:420
 msgid "<gui>Paste</gui>"
-msgstr "<gui>Einfügen</gui>"
+msgstr "<gui>Paste</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:421
@@ -5092,6 +5153,10 @@ msgid ""
 "point. If there is a current selection, replace it with the clipboard "
 "contents."
 msgstr ""
+"Fügt den Inhalt der Zwischenablage in das Inhaltselement ein. Wenn beim "
+"Bearbeiten von Text momentan nichts markiert ist, wird an der Eingabemarke "
+"eingefügt. Falls Text markiert ist, wird dieser durch den Inhalt der "
+"Zwischenablage ersetzt."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:425
@@ -5252,7 +5317,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/keyboard-input.page:475
 msgid "View"
-msgstr "Ansicht"
+msgstr "View"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:477
@@ -5321,7 +5386,7 @@ msgstr "<keyseq><key>Strg</key><key>+</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:511
 msgid "Zooms in, making content appear larger."
-msgstr ""
+msgstr "Zoomt hinein und vergrößert dadurch die Ansicht des Inhalts."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:514
@@ -5336,7 +5401,7 @@ msgstr "<keyseq><key>Strg</key><key>-</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:516
 msgid "Zooms out, making content appear smaller."
-msgstr ""
+msgstr "Zoomt heraus und verkleinert dadurch die Ansicht des Inhalts."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:519
@@ -5380,6 +5445,9 @@ msgid ""
 "changes first. For example, checks the web server for updates to the page "
 "before redrawing it."
 msgstr ""
+"Zeichnet die aktuelle Dokumentenansicht neu, wobei zuerst die Datenquelle "
+"auf Änderungen geprüft wird. Zum Beispiel werden Änderungen vom Webserver "
+"abgefragt, bevor die Seite neu gezeichnet wird."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:539
@@ -5412,6 +5480,8 @@ msgstr "<gui>Font…</gui>"
 #: C/keyboard-input.page:560
 msgid "Sets the font properties of the selected text or objects."
 msgstr ""
+"Legt die Schrifteigenschaften des ausgewählten Texts oder der ausgewählten "
+"Objekte fest."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:563
@@ -5421,7 +5491,7 @@ msgstr "<gui>Paragraph…</gui>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:565
 msgid "Sets the properties of the selected paragraph."
-msgstr ""
+msgstr "Legt die Eigenschaften des ausgewählten Absatzes fest."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:568
@@ -5557,7 +5627,7 @@ msgstr "Ermöglicht dem Benutzer, seine Lesezeichen zu bearbeiten."
 #. (itstool) path: td/p
 #: C/keyboard-input.page:633
 msgid "Bookmark List"
-msgstr ""
+msgstr "Bookmark List"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:635
@@ -5693,6 +5763,10 @@ msgid ""
 "applications may also include a <gui>Go to Line…</gui> menu item, which "
 "allows the user to jump to a specified line number."
 msgstr ""
+"Ermöglicht dem Benutzer die Angabe einer Seitennummer, zu der navigiert "
+"werden soll. In textbezogenen Anwendungen ist auch der Menüeintrag <gui>Go "
+"to Line…</gui> sinnvoll, mit dem der Benutzer zu einer angegebenen "
+"Zeilennummer springen kann."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:697
@@ -5856,6 +5930,8 @@ msgid ""
 "Standard lists are most common list type, and should generally be used in "
 "favor of tables."
 msgstr ""
+"Standardlisten sind der häufigste Listentyp und sollten generell gegenüber "
+"Tabellen bevorzugt werden."
 
 #. (itstool) path: section/p
 #: C/lists.page:37
