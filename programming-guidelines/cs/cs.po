@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-09-14 14:42+0000\n"
-"PO-Revision-Date: 2016-09-14 16:47+0200\n"
+"POT-Creation-Date: 2016-11-23 10:40+0000\n"
+"PO-Revision-Date: 2016-12-17 11:48+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -2478,13 +2478,29 @@ msgstr ""
 "gnome.org/jnelson/2015/01/06/sqlite-vacuum-and-auto_vacuum/\">tomto článku</"
 "link> na dané téma. Popřemýšlejte o něm, než zvolíte použití GOM."
 
+#. (itstool) path: section/p
+#: C/databases.page:86
+msgid ""
+"GNOME has another database library: GNOME Data Access (GDA). This is "
+"targeted at abstracting access to various types of relational database, for "
+"use in a database utility program or office program, for example. It is not "
+"suitable for storing <link href=\"https://developer.gnome.org/gio/stable/"
+"GSettings.html\">user settings</link>."
+msgstr ""
+"GNOME má ještě další databázovou knihovnu: GNOME Data Access (GDA). Je "
+"zaměřená na abstraktní přístup k různým typům relačních databází, pro "
+"použití například v programech pro administrační práci s databázemi nebo v "
+"kancelářských programech. Naopak není vhodná pro ukládání <link href="
+"\"https://developer.gnome.org/gio/stable/GSettings.html\">uživatelských "
+"nastavení</link>."
+
 #. (itstool) path: section/title
-#: C/databases.page:88
+#: C/databases.page:97
 msgid "Using GOM"
 msgstr "Používání GOM"
 
 #. (itstool) path: section/p
-#: C/databases.page:90
+#: C/databases.page:99
 msgid ""
 "Providing a GOM tutorial is beyond the scope of this document, but a <link "
 "href=\"https://developer.gnome.org/gom/\">reference manual is available</"
@@ -2494,12 +2510,12 @@ msgstr ""
 "developer.gnome.org/gom/\">je k dispozici referenční příručka</link>."
 
 #. (itstool) path: section/title
-#: C/databases.page:104
+#: C/databases.page:113
 msgid "SQL Injection"
 msgstr "Injektáž SQL"
 
 #. (itstool) path: section/p
-#: C/databases.page:106
+#: C/databases.page:115
 msgid ""
 "GOM does allow access to the lower level SQLite query APIs. When using them, "
 "queries <em style=\"strong\">must</em> be constructed using SQLite’s <link "
@@ -2522,12 +2538,12 @@ msgstr ""
 "získat přístup k libovolným uživatelským datům v databázi."
 
 #. (itstool) path: section/title
-#: C/databases.page:122
+#: C/databases.page:131
 msgid "Using GVDB"
 msgstr "Používání GVDB"
 
 #. (itstool) path: section/p
-#: C/databases.page:124
+#: C/databases.page:133
 msgid ""
 "GVDB has a simple API which mirrors a conventional hash table. Presently, "
 "GVDB is only available as a copy-and-paste library; fetch the most recent "
@@ -2541,7 +2557,7 @@ msgstr ""
 "LGPLv2.1+."
 
 #. (itstool) path: section/p
-#: C/databases.page:132
+#: C/databases.page:141
 msgid "A full GVDB tutorial is beyond the scope of this document."
 msgstr "Úplná výuka GVDB překračuje rozsah tohoto dokumentu."
 
