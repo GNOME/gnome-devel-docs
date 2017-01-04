@@ -35,7 +35,7 @@
 
 <list>
 <item><p>Beware of info bar overuse: they should be an exceptional presence in your interface.</p></item>
-<item><p>Only one info bar should be visable at any one time.</p></item>
+<item><p>Only one info bar should be visible at any one time.</p></item>
 <item><p>Only include a longer explanation if it is really needed: a simple heading can often be sufficient.</p></item>
 <item><p>Generally speaking, info bars do not require an icon.</p></item>
 </list>

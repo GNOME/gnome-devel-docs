@@ -33,7 +33,7 @@
 
 <list>
 <item><p>Follow the standard layout for the size and placement of the image and labels, so that your application is consistent with other GNOME 3 applications.</p></item>
-<item><p>The imagry used should be rich and colorful.</p></item>
+<item><p>The imagery used should be rich and colorful.</p></item>
 <item><p>The text that accompanies the image should be positive and upbeat. This is a moment where you can sell your application and establish a positive identity for it. It can also be an opportunity to strike up a relationship with the user by addressing them directly.</p></item>
 <item><p>If there are controls that allow items to be added, it can be appropriate to highlight them using a <link xref="buttons#suggested-and-destructive">suggested style</link> while the list/grid is empty.</p></item>
 <item><p>While an application is initially empty, some controls don't serve a purpose (such as those for browsing content, changing view, or searching). Making these controls insensitive will help to avoid the user being disappointed, or trying features that won't work.</p></item>

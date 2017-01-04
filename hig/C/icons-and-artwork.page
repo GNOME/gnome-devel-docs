@@ -46,7 +46,7 @@
 <section id="color-vs-symbolic">
 <title>Color vs. symbolic icons</title>
 
-<p>GNOME 3 provides two types of icon: full-color and monochrome symbolic icons. The guidelines in this HIG indicate when to use which type of icon. The following is a a general guide.</p>
+<p>GNOME 3 provides two types of icons: full-color and monochrome symbolic icons. The guidelines in this document indicate when to use which type of icon. The following is a general guide.</p>
 
 <p>Full-color icons should be used for:</p>
 

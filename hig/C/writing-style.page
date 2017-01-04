@@ -51,7 +51,7 @@
 <item><p>Use the standard GNOME terms when referring to parts of the user interface, such as “pointer” and “window”. The HIG can be used as a reference in this regard.</p></item>
 <item><p>Avoid repetition where possible.</p></item>
 <item><p>Sentences should not be constructed from text in several controls, and each label should be treated as being self-contained. Sentences that run from one control to another will often not make sense when translated into other languages.</p></item>
-<item><p>Latin abbreviations such as “ie” or “eg” should be avoided, since they can't always be easily translated and can be unintelligable when read by screen readers. Instead, use full words like “for example”.</p></item>
+<item><p>Latin abbreviations such as “ie” or “eg” should be avoided, since they can't always be easily translated and can be unintelligible when read by screen readers. Instead, use full words like “for example”.</p></item>
 </list>
 
 </section>
