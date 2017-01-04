@@ -377,7 +377,7 @@ gtk_get_flow (GtkWidget *widget)
     <p>
       gtk-doc comes with support for checking the documentation with some basic
       tests. These check that all version indexes are included in the main
-      <file>*-docs.xml</file> file and that all symbols are documented, amongst
+      <file>*-docs.xml</file> file and that all symbols are documented, among
       other things.
     </p>
 

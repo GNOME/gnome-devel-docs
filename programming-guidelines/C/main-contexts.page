@@ -828,7 +828,7 @@ g_assert (g_main_context_is_owner (expected_main_context));</code>
       If that’s put at the top of each function, any assertion failure will
       highlight a case where a function has been called from the wrong
       thread. It is much easier to write these assertions when initially
-      developing code, rather than debuging race conditions which can easily
+      developing code, rather than debugging race conditions which can easily
       result from a function being called in the wrong thread.
     </p>
 
