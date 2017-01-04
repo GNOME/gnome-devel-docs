@@ -44,7 +44,7 @@
       <item><p><code>get_text()</code> and <code>set_text("some text")</code> can be used to get and set the content for the entry.</p></item>
       <item><p><code>get_text_length()</code> is self-explanatory.</p></item>
       <item><p><code>get_text_area()</code> gets the area where the entry's text is drawn.</p></item>
-      <item><p>If we set <code>set_visibility(False)</code> the characters in the entry are displayed as the invisible char. This is the best available in the current font, but it can be changed with <code>set_invisible_char(ch)</code>, where <code>ch</code> is a Unicode charcater. The latter method is reversed by <code>unset_invisbile_char()</code>.</p></item>
+      <item><p>If we set <code>set_visibility(False)</code> the characters in the entry are displayed as the invisible char. This is the best available in the current font, but it can be changed with <code>set_invisible_char(ch)</code>, where <code>ch</code> is a Unicode character. The latter method is reversed by <code>unset_invisible_char()</code>.</p></item>
       <item><p><code>set_max_length(int)</code>, where <code>int</code> is an integer, truncates every entry longer than <code>int</code> to have the desired maximum length.</p></item>
       <item><p>By default, if you press the Entry key the Gtk.Entry emits the signal <code>"activate"</code>. If you would like to activate the default widget for the window (set using <code>set_default(widget)</code> on the window), then use <code>set_activates_default(True)</code>.</p></item>
       <item><p>To set a frame around the entry: <code>set_has_frame(True)</code>.</p></item>

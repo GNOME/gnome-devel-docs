@@ -92,8 +92,8 @@ class MyApplication(Gtk.Application):
       <code mime="text/x-python"><![CDATA[
 label.set_markup("Text can be <small>small</small>, <big>big</big>, "
                  "<b>bold</b>, <i>italic</i> and even point to somewhere "
-                 "in the <a href=\"http://www.gtk.org\" "
-                 "title=\"Click to find out more\">internets</a>.")]]></code>
+                 "on the <a href=\"http://www.gtk.org\" "
+                 "title=\"Click to find out more\">internet</a>.")]]></code>
     </item>
   </list>
   </section>

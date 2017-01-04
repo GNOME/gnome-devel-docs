@@ -330,7 +330,7 @@ open_button.connect ("clicked", Lang.bind (this, this._openClicked));]]></code>
    </item>
    <item>
    <p>Allow the user to load images from network shares, scanners, and other more complicated sources.</p>
-   <p>You can use <link href="http://library.gnome.org/devel/gio/unstable/">GIO</link> to handle network file tranfers and the like, and <link href="http://library.gnome.org/devel/gnome-scan/unstable/">GNOME Scan</link> to handle scanning.</p>
+   <p>You can use <link href="http://library.gnome.org/devel/gio/unstable/">GIO</link> to handle network file transfers and the like, and <link href="http://library.gnome.org/devel/gnome-scan/unstable/">GNOME Scan</link> to handle scanning.</p>
    </item>
   </list>
 </section>

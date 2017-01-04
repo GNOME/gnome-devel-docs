@@ -61,7 +61,7 @@ True]]></code>
 <section id="python-3">
 <title>Strings in Python 3</title>
 
-<p>Since Python 3.0, all strings are stored as Unicode in an instance of the <code>str</code> type. Encoded strings on the other hand are represented as binary data in the form of instances of the bytes type. Conceptionally, <code>str</code> refers to text, whereas bytes refers to data. Use <code>encode()</code> to go from <code>str</code> to <code>bytes</code>, and <code>decode()</code> to go from <code>bytes</code> to <code>str</code>.</p>
+<p>Since Python 3.0, all strings are stored as Unicode in an instance of the <code>str</code> type. Encoded strings on the other hand are represented as binary data in the form of instances of the bytes type. Conceptually, <code>str</code> refers to text, whereas bytes refers to data. Use <code>encode()</code> to go from <code>str</code> to <code>bytes</code>, and <code>decode()</code> to go from <code>bytes</code> to <code>str</code>.</p>
 
 <p>In addition, it is no longer possible to mix Unicode strings with encoded strings, because it will result in a <code>TypeError</code>:</p>
 

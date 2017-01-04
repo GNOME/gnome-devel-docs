@@ -134,7 +134,7 @@ public class Main : Object
   our use case! With <code>this.camerabin.set_state (Gst.State.PLAYING)</code>
   we tell the GStreamer pipeline we just created to start playing. Easy, no?
   </p>
-  <p>Of course it is also possible to integrate the video more tighly into other
+  <p>Of course it is also possible to integrate the video more tightly into other
   windows but that is an advanced topic that includes some details of the X Window
   System we will omit here.
   </p>

@@ -88,7 +88,7 @@ grid.attach_next_to(entry,label4,1,1,1);
 grid.attach_next_to(button1,entry,1,1,1);
 grid.attach_next_to(weatherIcon,label2,1,1,1)
 ]]></code>
-    <p>In this section we create the grid we are going to use for positioning the widgets. All the buttons, labels and entrys are initialized and placed on the grid. As seen from the placing of the different widgets, they don't need to be related only to one widget. At this point some of the labels don't have any content. The content for those widgets is applied later. If you run the application at this stage, you have the UI ready, but the widgets are not connected to anything. For this we need to first build the weather searching local library, and then get the information we need asynchronously. When we have our local library ready we can connect it to the necessary widgets.</p>
+    <p>In this section we create the grid we are going to use for positioning the widgets. All the buttons, labels and entries are initialized and placed on the grid. As seen from the placing of the different widgets, they don't need to be related only to one widget. At this point some of the labels don't have any content. The content for those widgets is applied later. If you run the application at this stage, you have the UI ready, but the widgets are not connected to anything. For this we need to first build the weather searching local library, and then get the information we need asynchronously. When we have our local library ready we can connect it to the necessary widgets.</p>
   </section>
 
      <section id="asynccall">
