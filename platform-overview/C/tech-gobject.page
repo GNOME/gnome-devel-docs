@@ -33,7 +33,7 @@
   </p>
 
   <p>
-    GObject is <em>introspectible</em>, which means that you can ask the
+    GObject is <em>introspectable</em>, which means that you can ask the
     GObject system for the class types that are defined, the methods they
     support, their signals, etc.  GNOME's language bindings are built on top of
     this introspection information.  Instead of writing wrappers by hand to let
