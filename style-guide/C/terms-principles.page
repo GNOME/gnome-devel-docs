@@ -24,11 +24,11 @@
 <list>
  <item>
   <p>Simple</p>
-  <p>Use non-technical, simple language. Complicated and rarely-used words should be avoided. Terms that are well-known inside the computer industry, but not in everydaylife, should be used with caution.</p>
+  <p>Use non-technical, simple language. Complicated and rarely-used words should be avoided. Terms that are well-known inside the computer industry, but not in everyday life, should be used with caution.</p>
  </item>
  <item>
   <p>Unambiguous</p>
-  <p>It should be obvious what a term refers to. Describe things rather than trying to assign a name to them if a sensible name isn't availble.</p>
+  <p>It should be obvious what a term refers to. Describe things rather than trying to assign a name to them if a sensible name isn't available.</p>
  </item>
  <item>
   <p>Recognizable</p>
@@ -36,7 +36,7 @@
  </item>
  <item>
   <p>Not overly-specific</p>
-  <p>If a general term is appropriate, use that instead of a set of more specific ones. Categorizing things can lead to ambiguity when you must decide how to refer to something which doesn't cleany fit into your pre-defined categories.</p>
+  <p>If a general term is appropriate, use that instead of a set of more specific ones. Categorizing things can lead to ambiguity when you must decide how to refer to something which doesn't cleanly fit into your pre-defined categories.</p>
   <p>Categorizing objects which look or behave in very similar ways can also confuse the user, who may not understand the subtle distinction between the categories. There is no need to choose terms for different types of window, for example.</p>
   <p>If you are defining a terminology guide for your project, think about what it is necessary to define and what can be left up to the writer. Consistency in terminology is important for readers, but specifying too much makes it difficult for writers to follow your guidelines.</p>
  </item>
