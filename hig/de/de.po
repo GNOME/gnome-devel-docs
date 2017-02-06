@@ -2,13 +2,13 @@
 # Copyright (C) 2014 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Christian Kirbach <christian.kirbach@gmail.com>, 2014.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2015-2016.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2015-2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-09-29 15:24+0000\n"
-"PO-Revision-Date: 2016-11-01 16:15+0100\n"
+"POT-Creation-Date: 2016-11-01 15:17+0000\n"
+"PO-Revision-Date: 2017-02-06 13:17+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -2150,7 +2150,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/dialogs.page:142
 msgid "Default action and escape"
-msgstr ""
+msgstr "Vorgabeaktion und Abbruch"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:144
@@ -2170,6 +2170,10 @@ msgid ""
 "button, should either of them be present. Message dialogs with a single "
 "button can have both escape and return bound to the button."
 msgstr ""
+"Sie sollten auch sicherstellen, dass die Escape-Taste den Cancel- oder Close-"
+"Knopf aktiviert, sofern einer davon vorhanden ist. In Meldungsdialogen mit "
+"einem einzelnen Knopf kann diesem sowohl die Escape- als auch die "
+"Eingabetaste zugeordnet werden."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:148
@@ -2177,6 +2181,9 @@ msgid ""
 "Binding return and escape in this way provides a predictable and convenient "
 "way to continue through a dialog, or to go back."
 msgstr ""
+"Die Bindung der Eingabe- und Escape-Taste auf diese Weise stellt einen "
+"voraussehbaren und bequemen Weg zur weiteren Navigation durch einen Dialog "
+"dar oder zurück zu gehen."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:158
@@ -2184,6 +2191,9 @@ msgid ""
 "Dialog windows should never pop up unexpectedly, and should only ever be "
 "displayed in immediate response to a deliberate user action."
 msgstr ""
+"Dialogfenster sollten niemals unerwartet geöffnet werden und wirklich nur "
+"als unmittelbare Reaktion auf eine absichtliche Aktion des Benutzers "
+"erscheinen."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:159
@@ -2267,6 +2277,9 @@ msgid ""
 "convertibles. This requires that applications be compatible with displays "
 "that have different sizes and orientations."
 msgstr ""
+"GNOME 3 unterstützt eine Reihe von Gerätetypen, wie Desktop-Rechner, Laptops "
+"oder Hybrid-Geräte. Das erfordert, dass Anwendungen zu Bildschirmen "
+"verschiedener Größe und Ausrichtung kompatibel sein müssen."
 
 #. (itstool) path: page/p
 #: C/display-compatibility.page:18
@@ -2350,6 +2363,10 @@ msgid ""
 "applications that are used in isolation do not need to support half-screen "
 "snap (a music player is a good example of this)."
 msgstr ""
+"Das Einrasten im halben Bildschirm ist nur sinnvoll, wenn Fenster parallel "
+"genutzt werden. Daher müssen isoliert genutzte Anwendungen diesen Einrasttyp "
+"nicht unterstützen. Ein gutes Beispiel dafür ist ein Programm zur "
+"Musikwiedergabe."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2450,6 +2467,8 @@ msgid ""
 "If the number of items is very large, provide a search function that filters "
 "the list."
 msgstr ""
+"Wenn die Objekte sehr zahlreich sind, sollten Sie eine Suchfunktion "
+"anbieten, über die die Liste gefiltert werden kann."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:39
@@ -2911,6 +2930,11 @@ msgid ""
 "and mode changes (such as with <link xref=\"selection-mode\">selection mode</"
 "link>)."
 msgstr ""
+"Kopfleisten werden für alle Anwendungsfenster empfohlen. Sie haben gegenüber "
+"der traditionellen Kombination aus Titelleiste, Menüleiste und "
+"Werkzeugleiste eine Reihe von Vorzügen. Dazu gehören eine schmalere "
+"vertikale Abbildung, dynamische Navigation und Moduswechsel (wie der <link "
+"xref=\"selection-mode\">Auswahlmodus</link>)."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:33
@@ -10191,6 +10215,8 @@ msgid ""
 "Your main goal should be to ensure that text is easy to understand and quick "
 "to read."
 msgstr ""
+"Ihr Hauptziel sollte es sein, dass Texte leicht zu verstehen und schnell zu "
+"lesen sind."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:47
@@ -10199,6 +10225,10 @@ msgid ""
 "the user. It also reduces the expansion of text when translated (remember "
 "that translated English text can expand up to 30% in some languages)."
 msgstr ""
+"Halten Sie Texte kurz und knapp. So kann ein Benutzer die Information "
+"schneller aufnehmen. Dadurch wird auch die Vergrößerung der übersetzten "
+"Textversionen verringert. Denken Sie daran, dass in manchen Sprachen Texte "
+"30 Prozent größer werden können im Vergleich zum englischen Original."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:48
@@ -10208,10 +10238,14 @@ msgid ""
 "ambiguous or vague. Try to find the fewest possible words to satisfactorily "
 "convey the meaning of your label."
 msgstr ""
+"Kürzen Sie Ihren Text nicht so weit, dass seine Bedeutung nicht klar wird. "
+"Eine Beschriftung aus drei Wörtern liefert klarere Informationen als ein "
+"einziges Wort, das zweideutig oder unklar ist. Versuchen Sie stets, die "
+"Bedeutung einer Beschriftung mit so wenig Wörtern wie möglich und so vielen "
+"wie nötig auszudrücken."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:49
-#, fuzzy
 msgid ""
 "Use words, phrases, and concepts that are familiar to the people who will be "
 "using your application, rather than terms from the underlying system. This "
@@ -10221,7 +10255,12 @@ msgid ""
 "a patient record as a “chart” rather than as a “patient database record”."
 msgstr ""
 "Verwenden Sie Wörter, Phrasen und Konzepte, mit denen die Zielgruppe Ihrer "
-"Anwendung vertraut ist, und keine Begriffe aus dem zugrunde liegenden System."
+"Anwendung vertraut ist, und keine Begriffe aus dem zugrunde liegenden "
+"System. Das beinhaltet Begriffe, die im Umfeld Ihrer Anwendung üblicherweise "
+"verwendet werden. In der Medizin beispielsweise ist der Hefter, der die "
+"Patientendaten enthält, eine »Karte«. Daher sollte in einer Anwendung mit "
+"Zielgruppe in der Medizin natürlich auch dieser Begriff verwendet werden und "
+"nicht etwa »Patienten-Datensatz«."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:50
@@ -10230,6 +10269,10 @@ msgid ""
 "product. Pronouns like “you” or \"my” should therefore be avoided wherever "
 "possible. However, if they are unavoidable “your” is preferable to “my”."
 msgstr ""
+"Texte sollten in einem neutralen Ton verfasst sein und aus der Richtung des "
+"Produkts sprechen. Pronomen wie »you« oder »my« sollten Sie vermeiden, wo "
+"immer es möglich ist. Wenn es gar nicht anders geht, dann sollten Sie »your« "
+"vor »my« den Vorzug geben."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:51
