@@ -23,7 +23,7 @@
   <p>GDK is the low-level library used by <link xref="tech-gtk">GTK+</link> to
   interact with the windowing system for graphics and input devices. Although
   you will rarely use GDK directly in application code, it contains all the
-  necessary functionality to create low-level windows in the the screen and to
+  necessary functionality to create low-level windows in the screen and to
   interact with the user with various input devices. GDK acts as an abstraction
   over various windowing systems, so that GTK+ can be portable to all of them:
   the X Window System (X11), Microsoft Windows, Mac OS X Quartz.</p>
