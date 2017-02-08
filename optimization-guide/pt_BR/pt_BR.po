@@ -1,29 +1,29 @@
 # Brazilian Portuguese translation for gnome-devel-docs.
-# Copyright (C) 2010-2013 gnome-devel-docs's COPYRIGHT HOLDER
+# Copyright (C) 2017 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Enrico Nicoletto <liverig@gmail.com>, 2012.
-# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
-#
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2014-03-25 19:49+0000\n"
-"PO-Revision-Date: 2013-09-26 01:13-0300\n"
-"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"POT-Creation-Date: 2016-08-16 09:26+0000\n"
+"PO-Revision-Date: 2017-02-08 15:33-0200\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
+"X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Enrico Nicoletto <liverig@gmail.com>, 2012\n"
-"Rafael Ferreira <rafael.f.f1@gmail.com>, 2013"
+"Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2014, 2017"
 
 #. (itstool) path: page/title
 #: C/harmful.page:7
@@ -135,6 +135,15 @@ msgstr ""
 
 #. (itstool) path: license/p
 #: C/index.page:7
+#| msgid ""
+#| "Permission is granted to copy, distribute and/or modify this document "
+#| "under the terms of the GNU Free Documentation License, Version 1.1 or any "
+#| "later version published by the Free Software Foundation with no Invariant "
+#| "Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
+#| "copy of the GNU Free Documentation License from the Free Software "
+#| "Foundation by visiting <link href=\"http://www.fsf.org\">their Web site</"
+#| "link> or by writing to: Free Software Foundation, Inc., 59 Temple Place - "
+#| "Suite 330, Boston, MA 02111-1307, USA."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License, Version 1.1 or any later "
@@ -142,17 +151,17 @@ msgid ""
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
 "copy of the GNU Free Documentation License from the Free Software Foundation "
 "by visiting <link href=\"http://www.fsf.org\">their Web site</link> or by "
-"writing to: Free Software Foundation, Inc., 59 Temple Place - Suite 330, "
-"Boston, MA 02111-1307, USA."
+"writing to: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor "
+"Boston, MA 02110-1335, USA."
 msgstr ""
 "Permissão concedida para copiar, distribuir e/ou modificar este documento "
 "sob os termos da Licença de Documentação Livre GNU (GNU Free Documentation "
 "License), versão 1.1 ou qualquer versão mais recente publicada pela Free "
 "Software Foundation; sem Seções Invariantes, Textos de Capa Frontal, e sem "
-"Textos de Contracapa. Você pode encontrar uma cópia da licença GNU Free "
-"Documentation License da Free Software Foundation visitando <link href="
-"\"http://www.fsf.org\">este site</link> ou escrevendo para: Free Software "
-"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+"Textos de Contracapa. Você pode encontrar uma cópia da Licença de "
+"Documentação Livre GNU da Free Software Foundation visitando <link href=\""
+"http://www.fsf.org\">este site</link> ou escrevendo para:  Free Software "
+"Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1335, USA."
 
 #. (itstool) path: license/p
 #: C/index.page:16
@@ -206,8 +215,12 @@ msgstr "Introdução"
 
 #. (itstool) path: section/p
 #: C/index.page:39
+#| msgid ""
+#| "This is a brief introduction to optimization, both the hows and thewhys. "
+#| "Details of individual tools and techniques are left for later articles, "
+#| "but a collection of hints and tricks is provided."
 msgid ""
-"This is a brief introduction to optimization, both the hows and thewhys. "
+"This is a brief introduction to optimization, both the hows and the whys. "
 "Details of individual tools and techniques are left for later articles, but "
 "a collection of hints and tricks is provided."
 msgstr ""
@@ -304,7 +317,7 @@ msgid ""
 "measure start-up time so you can tell if you have improved it. Happiness "
 "will then, hopefully, follow."
 msgstr ""
-"A seção anterior omitiu um importante qualificador: Para otimizar alguma "
+"A seção anterior omitiu um importante qualificador: para otimizar alguma "
 "coisa, esta precisa ser mensurável. Você não pode mensurar a felicidade. "
 "Contudo, você pode medir o tempo de inicialização de um programa, deste modo "
 "você pode dizer se você o melhorou. Assim espero que a felicidade, então, o "
@@ -707,20 +720,22 @@ msgid ""
 "external ref='figures/massif-before.png' "
 "md5='1a6b2ace548e6789ab8bfacb3727b345'"
 msgstr ""
-"@@image: 'figures/massif-before.png'; md5=9619664b823f195ef9227e3d8bb051b1"
+"external ref='figures/massif-before.png' "
+"md5='9619664b823f195ef9227e3d8bb051b1'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/massif.page:125
+#: C/massif.page:124
 msgctxt "_"
 msgid ""
 "external ref='figures/massif-after.png' "
 "md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
 msgstr ""
-"@@image: 'figures/massif-after.png'; md5=a91df704217641ea8fa93d90031121bd"
+"external ref='figures/massif-after.png' "
+"md5='a91df704217641ea8fa93d90031121bd'"
 
 #. (itstool) path: page/title
 #: C/massif.page:7
@@ -737,7 +752,7 @@ msgid ""
 "detailed view of dynamic memory usage during the lifetime of the program. "
 "Specifically it records the memory use of the heap and the stack."
 msgstr ""
-"<app>Massif</app> é um membro da suíte de ferramentas de perfilação de "
+"<app>Massif</app> é um membro da suíte de ferramentas de perfilamento de "
 "memória <link href=\"http://valgrind.org/\">valgrind</link>. Seu propósito é "
 "fornecer uma visão detalhada da utilização de memória dinâmica durante o "
 "tempo de vida do programa. Especificamente, ele grava a utilização de heap e "
@@ -837,7 +852,8 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-fn=g_realloc --alloc-fn=g_try_malloc \\\n"
+"valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-fn=g_realloc "
+"--alloc-fn=g_try_malloc \\\n"
 "         --alloc-fn=g_malloc0 --alloc-fn=g_mem_chunk_alloc swell-foop\n"
 "        "
 
@@ -898,31 +914,43 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:52
+#| msgid ""
+#| "<link xref=\"optimization-massif-FIG-output-unoptimized\"/> shows a "
+#| "typical postscript output from <app>Massif</app>. This is the result you "
+#| "would get from playing a single game of <app>Swell Foop</app> (version "
+#| "2.8.0) and then quitting. The postscript file will have a name like "
+#| "<file>massif.12345.ps</file> and the text file will be called "
+#| "<file>massif.12345.txt</file>. The number in the middle is the process ID "
+#| "of the program that was examined. If you actually try this example you "
+#| "will find two versions of each file, with slightly different numbers, "
+#| "this is because <app>Swell Foop</app> starts a second process and "
+#| "<app>Massif</app> follows that too. We will ignore this second process, "
+#| "it consumes very little memory."
 msgid ""
-"<link xref=\"optimization-massif-FIG-output-unoptimized\"/> shows a typical "
-"postscript output from <app>Massif</app>. This is the result you would get "
-"from playing a single game of <app>Swell Foop</app> (version 2.8.0) and then "
-"quitting. The postscript file will have a name like <file>massif.12345.ps</"
-"file> and the text file will be called <file>massif.12345.txt</file>. The "
-"number in the middle is the process ID of the program that was examined. If "
-"you actually try this example you will find two versions of each file, with "
-"slightly different numbers, this is because <app>Swell Foop</app> starts a "
-"second process and <app>Massif</app> follows that too. We will ignore this "
-"second process, it consumes very little memory."
+"The image above shows a typical postscript output from <app>Massif</app>. "
+"This is the result you would get from playing a single game of <app>Swell "
+"Foop</app> (version 2.8.0) and then quitting. The postscript file will have "
+"a name like <file>massif.12345.ps</file> and the text file will be called "
+"<file>massif.12345.txt</file>. The number in the middle is the process ID of "
+"the program that was examined. If you actually try this example you will "
+"find two versions of each file, with slightly different numbers, this is "
+"because <app>Swell Foop</app> starts a second process and <app>Massif</app> "
+"follows that too. We will ignore this second process, it consumes very "
+"little memory."
 msgstr ""
-"<link xref=\"optimization-massif-FIG-output-unoptimized\"/> mostra uma saída "
-"postscript típica do <app>Massif</app>. Este é o resultado que você obteria "
-"ao jogar um único jogo do <app>Swell Foop</app> (versão 2.8.0) e depois "
-"saindo. O arquivo postscript terá um nome como <file>massif.12345.ps</file> "
-"e o arquivo de texto será chamado <file>massif.12345.txt</file>. O número ao "
-"meio é o ID do processo do programa que foi examinado. Se você realmente "
-"tentar realizar este exemplo, você encontrará duas versões para cada arquivo "
-"com números levemente diferentes, devido o <app>Swell Foop</app> iniciar um "
-"segundo processo e o <app>Massif</app> o seguir também. Nós iremos ignorar "
-"este segundo processo, ele consome muito pouca memória."
+"A imagem acima mostra uma saída postscript típica do <app>Massif</app>. Este "
+"é o resultado que você obteria ao jogar um único jogo do <app>Swell "
+"Foop</app> (versão 2.8.0) e depois saindo. O arquivo postscript terá um nome "
+"como <file>massif.12345.ps</file> e o arquivo de texto será chamado "
+"<file>massif.12345.txt</file>. O número ao meio é o ID do processo do "
+"programa que foi examinado. Se você realmente tentar realizar este exemplo, "
+"você encontrará duas versões para cada arquivo com números levemente "
+"diferentes, devido o <app>Swell Foop</app> iniciar um segundo processo e o "
+"<app>Massif</app> o seguir também. Nós iremos ignorar este segundo processo, "
+"ele consome muito pouca memória."
 
 #. (itstool) path: section/p
-#: C/massif.page:67
+#: C/massif.page:66
 msgid ""
 "At the top of the graph we see a large yellow band labelled gdk_pixbuf_new. "
 "This seems like an ideal candidate for optimization, but we will need to use "
@@ -936,7 +964,7 @@ msgstr ""
 "assim:"
 
 #. (itstool) path: section/code
-#: C/massif.page:70
+#: C/massif.page:69
 #, no-wrap
 msgid ""
 "\n"
@@ -972,7 +1000,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:85
+#: C/massif.page:84
 msgid ""
 "The line with the '=' signs indicates how far down the stack trace we are, "
 "in this case we are at the top. After this it lists the heaviest users of "
@@ -992,7 +1020,7 @@ msgstr ""
 "nós precisamos pesquisar, logo abaixo, o arquivo de texto:"
 
 #. (itstool) path: section/code
-#: C/massif.page:88
+#: C/massif.page:87
 #, no-wrap
 msgid ""
 "\n"
@@ -1015,9 +1043,11 @@ msgstr ""
 "== 4 ===========================\n"
 "Context accounted for 28.8% of measured spacetime\n"
 "  0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
-"  0x3A998998: (within /usr/lib/gtk-2.0/2.4.0/loaders/libpixbufloader-png.so)\n"
+"  0x3A998998: (within /usr/lib/gtk-2.0/2.4.0/loaders/libpixbufloader-png.so)"
+"\n"
 "  0x6C2760: (within /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
-"  0x6C285E: gdk_pixbuf_new_from_file (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x6C285E: gdk_pixbuf_new_from_file (in "
+"/usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
 "\n"
 "Called from:\n"
 "  27.8% : 0x804C1A3: load_scenario (swell-foop.c:463)\n"
@@ -1028,7 +1058,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:103
+#: C/massif.page:102
 msgid ""
 "The first line tells us we are now four levels deep into the stack. Below it "
 "is a listing of the function calls that leads from here to gdk_pixbuf_new. "
@@ -1048,7 +1078,7 @@ msgstr ""
 "load_scenario."
 
 #. (itstool) path: section/p
-#: C/massif.page:106
+#: C/massif.page:105
 msgid ""
 "Now that we know what part of our code is using all the spacetime we can "
 "look at it and find out why. It turns out that the load_scenario is loading "
@@ -1062,12 +1092,12 @@ msgstr ""
 "podemos começar a consertá-lo."
 
 #. (itstool) path: section/title
-#: C/massif.page:111
+#: C/massif.page:110
 msgid "Acting on the Results"
 msgstr "Atuando sobre os resultados"
 
 #. (itstool) path: section/p
-#: C/massif.page:112
+#: C/massif.page:111
 msgid ""
 "Reducing spacetime consumption is good, but there are two ways of reducing "
 "it and they are not equal. You can either reduce the amount of memory "
@@ -1096,34 +1126,43 @@ msgstr ""
 "de memória alocada."
 
 #. (itstool) path: section/p
-#: C/massif.page:115
+#: C/massif.page:114
+#| msgid ""
+#| "Unfortunately, the choice of optimization is also constrained by the "
+#| "needs of the program. The size of the pixbuf data in <app>Swell Foop</"
+#| "app> is determined by the size of the game's graphics and cannot be "
+#| "easily reduced. However, the amount of time it spends loaded into memory "
+#| "can be drastically reduced. <link xref=\"optimization-massif-FIG-output-"
+#| "optimized\"/> shows the <app>Massif</app> analysis of <app>Swell Foop</"
+#| "app> after being altered to dispose of the pixbufs once the images have "
+#| "been loaded into the X server."
 msgid ""
 "Unfortunately, the choice of optimization is also constrained by the needs "
 "of the program. The size of the pixbuf data in <app>Swell Foop</app> is "
 "determined by the size of the game's graphics and cannot be easily reduced. "
 "However, the amount of time it spends loaded into memory can be drastically "
-"reduced. <link xref=\"optimization-massif-FIG-output-optimized\"/> shows the "
-"<app>Massif</app> analysis of <app>Swell Foop</app> after being altered to "
-"dispose of the pixbufs once the images have been loaded into the X server."
+"reduced. The image below shows the <app>Massif</app> analysis of <app>Swell "
+"Foop</app> after being altered to dispose of the pixbufs once the images "
+"have been loaded into the X server."
 msgstr ""
 "Infelizmente, a escolha de otimização também é reprimida pelas necessidades "
 "do programa. O tamanho dos dados do pixbuf no <app>Swell Foop</app> é "
 "determinado pelo tamanho dos gráficos do jogo e não pode ser reduzido "
 "facilmente. Entretanto, a quantidade de tempo que ele gasta sendo carregado "
-"para dentro da memória, pode ser drasticamente reduzido. <link xref="
-"\"optimization-massif-FIG-output-optimized\"/> mostra a análise feita pelo "
-"<app>Massif</app> do <app>Swell Foop</app> após se dispor do pixbufs, uma "
-"vez que as imagens foram carregadas dentro do servidor X."
+"para dentro da memória, pode ser drasticamente reduzido. A imagem abaixo "
+"mostra a análise feita pelo <app>Massif</app> do <app>Swell Foop</app> após "
+"se dispor do pixbufs, uma vez que as imagens foram carregadas dentro do "
+"servidor X."
 
 #. (itstool) path: figure/title
-#: C/massif.page:124
+#: C/massif.page:123
 msgid ""
 "<app>Massif</app> output for the optimized <app>Swell Foop</app> program."
 msgstr ""
 "Saída do <app>Massif</app> para o programa <app>Swell Foop</app> otimizado."
 
 #. (itstool) path: section/p
-#: C/massif.page:127
+#: C/massif.page:126
 msgid ""
 "The spacetime use of gdk_pixbuf_new is now a thin band that only spikes "
 "briefly (it is now the sixteenth band down and shaded magenta). As a bonus, "
@@ -1141,16 +1180,16 @@ msgstr ""
 "seriam bastante baixos."
 
 #. (itstool) path: section/p
-#: C/massif.page:130
+#: C/massif.page:129
 msgid ""
 "Can we do better ? A quick examination of <app>Massif</app>'s text output "
 "reveals: g_strdup to be the new major offender."
 msgstr ""
-"Nós podemos fazer melhor ? Uma verificação rápida na saída de texto do "
+"Nós podemos fazer melhor? Uma verificação rápida na saída de texto do "
 "<app>Massif</app> revela: g_strdup como o novo maior ofensor."
 
 #. (itstool) path: section/code
-#: C/massif.page:133
+#: C/massif.page:132
 #, no-wrap
 msgid ""
 "\n"
@@ -1186,7 +1225,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:148
+#: C/massif.page:147
 msgid ""
 "If we look closer though we see that it is called from many, many, places."
 msgstr ""
@@ -1194,7 +1233,7 @@ msgstr ""
 "lugares."
 
 #. (itstool) path: section/code
-#: C/massif.page:151
+#: C/massif.page:150
 #, no-wrap
 msgid ""
 "\n"
@@ -1232,7 +1271,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:167
+#: C/massif.page:166
 msgid ""
 "We now face diminishing returns for our optimization efforts. The graph "
 "hints at another possible approach: Both the \"other\" and \"heap admin\" "
@@ -1250,12 +1289,12 @@ msgstr ""
 "\"gerenciamento de heap\" poderá ser reduzida."
 
 #. (itstool) path: section/title
-#: C/massif.page:172
+#: C/massif.page:171
 msgid "Caveats"
 msgstr "Advertências"
 
 #. (itstool) path: section/p
-#: C/massif.page:173
+#: C/massif.page:172
 msgid ""
 "There are a couple of things to watch out for: Firstly, spacetime is only "
 "reported as a percentage, you have to compare it to the overall size of the "
@@ -1269,7 +1308,7 @@ msgstr ""
 "para isto."
 
 #. (itstool) path: section/p
-#: C/massif.page:176
+#: C/massif.page:175
 msgid ""
 "Secondly, <app>Massif</app> only takes into account the memory used by your "
 "own program. Resources like pixmaps are stored in the X server and aren't "
@@ -1291,10 +1330,10 @@ msgstr ""
 "trapaceado, ocorreram ganhos de performance. Manter os dados de imagem no "
 "servidor X, faz com que as rotinas dos gráficos fiquem mais rápidas e remove "
 "uma grande quantidade de comunicações entre processos (ipcs). Ademais, os "
-"pixamps serão armazenados em um formato gráfico nativo que geralmente é mais "
+"pixmaps serão armazenados em um formato gráfico nativo que geralmente é mais "
 "compacto que o formato RGBA de 32-bits utilizado pelo gdk_pixbuf. Para medir "
-"o efeito de pixmaps, e outros recursos X, utilize o programa <link href="
-"\"http://www.freedesktop.org/Software/xrestop\">xrestop</link>."
+"o efeito de pixmaps, e outros recursos X, utilize o programa <link href=\""
+"http://www.freedesktop.org/Software/xrestop\">xrestop</link>."
 
 #~ msgid "Optimizing GNOME Software"
 #~ msgstr "Otimizando software do GNOME"
