@@ -35,7 +35,7 @@
   <p>GNOME uses Tracker as a storage for document metadata. A document's
   metadata may include its title, authors, copyright, modification date, and
   keywords. All this metadata is stored as RDF triplets in Tracker, and
-  queried with SPARQL by applications such as Gnome Documents. The
+  queried with SPARQL by applications such as GNOME Documents. The
   <link href="http://developer.gnome.org/ontology/unstable/">ontology
   used</link> is based on various standard sub-ontologies:
   <link href="http://dublincore.org/">Dublin Core</link> for document metadata,

@@ -29,7 +29,7 @@
   </p>
 
   <p>
-    Various Gnome applications use PackageKit in similar situations.  Totem,
+    Various GNOME applications use PackageKit in similar situations.  Totem,
     the media player, uses PackageKit to request installation of codecs when it
     tries to play a media file that it does not recognize.
     System-config-printer, a program to configure printers when they are
