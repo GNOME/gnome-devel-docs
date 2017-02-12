@@ -1,13 +1,13 @@
 # Czech translation of GNOME User Guide.
 #
 # Lucas Lommer <llommer@svn.gnome.org>, 2008, 2009.
-# Marek Černocký <marek@manet.cz>, 2015, 2016.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: user-guide\n"
-"POT-Creation-Date: 2016-03-16 08:56+0000\n"
-"PO-Revision-Date: 2016-03-16 11:20+0100\n"
+"POT-Creation-Date: 2017-02-08 16:40+0000\n"
+"PO-Revision-Date: 2017-02-12 13:16+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -2261,11 +2261,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
-#| msgid ""
-#| "To create <em style=\"strong\">fast, visually rich graphical interfaces</"
-#| "em>, use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
-#| "em>. Animations, effects and fluid layouts are easy with Clutter, and it "
-#| "also supports touch input and gestures."
 msgid ""
 "<em style=\"strong\">Animations, effects and fluid layouts</em> are easy "
 "with <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, "
@@ -3220,7 +3215,7 @@ msgid ""
 "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> to "
 "interact with the windowing system for graphics and input devices. Although "
 "you will rarely use GDK directly in application code, it contains all the "
-"necessary functionality to create low-level windows in the the screen and to "
+"necessary functionality to create low-level windows in the screen and to "
 "interact with the user with various input devices. GDK acts as an "
 "abstraction over various windowing systems, so that GTK+ can be portable to "
 "all of them: the X Window System (X11), Microsoft Windows, Mac OS X Quartz."
@@ -4215,7 +4210,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:31
 msgid ""
-"Various Gnome applications use PackageKit in similar situations. Totem, the "
+"Various GNOME applications use PackageKit in similar situations. Totem, the "
 "media player, uses PackageKit to request installation of codecs when it "
 "tries to play a media file that it does not recognize. System-config-"
 "printer, a program to configure printers when they are plugged in, uses "
@@ -4469,7 +4464,7 @@ msgstr "Poppler"
 #: C/tech-poppler.page:22
 msgid ""
 "Poppler is a specialized library to render PDF documents. This can be used "
-"for various purposes. For example, Evince is GNOME'S PDF viewer, and it uses "
+"for various purposes. For example, Evince is GNOME's PDF viewer, and it uses "
 "Poppler for all its rendering. In addition, the software that creates "
 "thumbnail icons for PDF files also uses Poppler. You could even use it to "
 "create software that lets the user re-arrange or extract pages from PDFs."
@@ -4514,7 +4509,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-pulseaudio.page:29
 msgid ""
-"All the parts of Gnome that produce audio use PulseAudio in one way or "
+"All the parts of GNOME that produce audio use PulseAudio in one way or "
 "another, either directly, or indirectly through higher-level sound "
 "manipulation APIs like <link xref=\"tech-gstreamer\">GStreamer</link>."
 msgstr ""
@@ -4643,7 +4638,7 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/tech-secret.page:66
 msgid ""
-"Gnome used a library called gnome-keyring before version 3.6 was released. "
+"GNOME used a library called gnome-keyring before version 3.6 was released. "
 "In version 3.6 onward, libsecret is used instead. This allows sharing the "
 "keyring service between GNOME and other desktop environments and "
 "applications."
@@ -4810,7 +4805,7 @@ msgid ""
 "GNOME uses Tracker as a storage for document metadata. A document's metadata "
 "may include its title, authors, copyright, modification date, and keywords. "
 "All this metadata is stored as RDF triplets in Tracker, and queried with "
-"SPARQL by applications such as Gnome Documents. The <link href=\"http://"
+"SPARQL by applications such as GNOME Documents. The <link href=\"http://"
 "developer.gnome.org/ontology/unstable/\">ontology used</link> is based on "
 "various standard sub-ontologies: <link href=\"http://dublincore.org/"
 "\">Dublin Core</link> for document metadata, and <link href=\"http://nepomuk."
@@ -5395,3 +5390,4 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
