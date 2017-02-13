@@ -5,16 +5,16 @@
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2006.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010, 2011.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015., 2016.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015., 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-17 08:57+0000\n"
-"PO-Revision-Date: 2016-03-17 13:26+0100\n"
+"POT-Creation-Date: 2017-02-08 16:40+0000\n"
+"PO-Revision-Date: 2017-02-13 13:34+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2016\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2017\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2007-2010\n"
 "Mario Carrión <mario@monouml.org>, 2006"
 
@@ -2289,11 +2289,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
-#| msgid ""
-#| "To create <em style=\"strong\">fast, visually rich graphical interfaces</"
-#| "em>, use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
-#| "em>. Animations, effects and fluid layouts are easy with Clutter, and it "
-#| "also supports touch input and gestures."
 msgid ""
 "<em style=\"strong\">Animations, effects and fluid layouts</em> are easy "
 "with <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, "
@@ -3255,11 +3250,20 @@ msgstr "GDK"
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:23
+#| msgid ""
+#| "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> "
+#| "to interact with the windowing system for graphics and input devices. "
+#| "Although you will rarely use GDK directly in application code, it "
+#| "contains all the necessary functionality to create low-level windows in "
+#| "the the screen and to interact with the user with various input devices. "
+#| "GDK acts as an abstraction over various windowing systems, so that GTK+ "
+#| "can be portable to all of them: the X Window System (X11), Microsoft "
+#| "Windows, Mac OS X Quartz."
 msgid ""
 "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> to "
 "interact with the windowing system for graphics and input devices. Although "
 "you will rarely use GDK directly in application code, it contains all the "
-"necessary functionality to create low-level windows in the the screen and to "
+"necessary functionality to create low-level windows in the screen and to "
 "interact with the user with various input devices. GDK acts as an "
 "abstraction over various windowing systems, so that GTK+ can be portable to "
 "all of them: the X Window System (X11), Microsoft Windows, Mac OS X Quartz."
@@ -3951,15 +3955,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-#| msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
 msgid "<link href=\"http://gtk.org/\">Official web site</link>"
 msgstr "<link href=\"http://gtk.org/\">Página web oficial</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ "
-#| "demo tutorial</link>"
 msgid ""
 "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo "
 "tutorial</link>"
@@ -3969,9 +3969,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference "
-#| "Manual</link>"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</"
 "link>"
@@ -3981,16 +3978,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:54
-#| msgid ""
-#| "<link href=\"https://wiki.gnome.org/Projects/Folks\">Libfolks home page</"
-#| "link>"
 msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
 msgstr ""
 "<link href=\"https://git.gnome.org/browse/gtk+/\">Repositorio Git</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:55
-#| msgid "Mailing Lists"
 msgid "Mailing lists:"
 msgstr "Listas de correo:"
 
@@ -4005,9 +3998,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:58
-#| msgid ""
-#| "<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference "
-#| "Manual</link>"
 msgid ""
 "<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">General "
 "discussion about GTK+</link>"
@@ -4017,9 +4007,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:59
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/accessibility-devel-guide/"
-#| "\">GNOME Accessibility for Developers</link>"
 msgid ""
 "<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list"
 "\">Development of GTK+</link>"
@@ -4288,8 +4275,14 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:31
+#| msgid ""
+#| "Various Gnome applications use PackageKit in similar situations. Totem, "
+#| "the media player, uses PackageKit to request installation of codecs when "
+#| "it tries to play a media file that it does not recognize. System-config-"
+#| "printer, a program to configure printers when they are plugged in, uses "
+#| "PackageKit to download and install printer drivers as needed."
 msgid ""
-"Various Gnome applications use PackageKit in similar situations. Totem, the "
+"Various GNOME applications use PackageKit in similar situations. Totem, the "
 "media player, uses PackageKit to request installation of codecs when it "
 "tries to play a media file that it does not recognize. System-config-"
 "printer, a program to configure printers when they are plugged in, uses "
@@ -4548,9 +4541,16 @@ msgstr "Poppler"
 
 #. (itstool) path: page/p
 #: C/tech-poppler.page:22
+#| msgid ""
+#| "Poppler is a specialized library to render PDF documents. This can be "
+#| "used for various purposes. For example, Evince is GNOME'S PDF viewer, and "
+#| "it uses Poppler for all its rendering. In addition, the software that "
+#| "creates thumbnail icons for PDF files also uses Poppler. You could even "
+#| "use it to create software that lets the user re-arrange or extract pages "
+#| "from PDFs."
 msgid ""
 "Poppler is a specialized library to render PDF documents. This can be used "
-"for various purposes. For example, Evince is GNOME'S PDF viewer, and it uses "
+"for various purposes. For example, Evince is GNOME's PDF viewer, and it uses "
 "Poppler for all its rendering. In addition, the software that creates "
 "thumbnail icons for PDF files also uses Poppler. You could even use it to "
 "create software that lets the user re-arrange or extract pages from PDFs."
@@ -4594,8 +4594,12 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-pulseaudio.page:29
+#| msgid ""
+#| "All the parts of Gnome that produce audio use PulseAudio in one way or "
+#| "another, either directly, or indirectly through higher-level sound "
+#| "manipulation APIs like <link xref=\"tech-gstreamer\">GStreamer</link>."
 msgid ""
-"All the parts of Gnome that produce audio use PulseAudio in one way or "
+"All the parts of GNOME that produce audio use PulseAudio in one way or "
 "another, either directly, or indirectly through higher-level sound "
 "manipulation APIs like <link xref=\"tech-gstreamer\">GStreamer</link>."
 msgstr ""
@@ -4730,8 +4734,13 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/tech-secret.page:66
+#| msgid ""
+#| "Gnome used a library called gnome-keyring before version 3.6 was "
+#| "released. In version 3.6 onward, libsecret is used instead. This allows "
+#| "sharing the keyring service between GNOME and other desktop environments "
+#| "and applications."
 msgid ""
-"Gnome used a library called gnome-keyring before version 3.6 was released. "
+"GNOME used a library called gnome-keyring before version 3.6 was released. "
 "In version 3.6 onward, libsecret is used instead. This allows sharing the "
 "keyring service between GNOME and other desktop environments and "
 "applications."
@@ -4896,11 +4905,21 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:35
+#| msgid ""
+#| "GNOME uses Tracker as a storage for document metadata. A document's "
+#| "metadata may include its title, authors, copyright, modification date, "
+#| "and keywords. All this metadata is stored as RDF triplets in Tracker, and "
+#| "queried with SPARQL by applications such as Gnome Documents. The <link "
+#| "href=\"http://developer.gnome.org/ontology/unstable/\">ontology used</"
+#| "link> is based on various standard sub-ontologies: <link href=\"http://"
+#| "dublincore.org/\">Dublin Core</link> for document metadata, and <link "
+#| "href=\"http://nepomuk.kde.org/\">NEPOMUK</link> for annotations, files, "
+#| "contacts and other items."
 msgid ""
 "GNOME uses Tracker as a storage for document metadata. A document's metadata "
 "may include its title, authors, copyright, modification date, and keywords. "
 "All this metadata is stored as RDF triplets in Tracker, and queried with "
-"SPARQL by applications such as Gnome Documents. The <link href=\"http://"
+"SPARQL by applications such as GNOME Documents. The <link href=\"http://"
 "developer.gnome.org/ontology/unstable/\">ontology used</link> is based on "
 "various standard sub-ontologies: <link href=\"http://dublincore.org/"
 "\">Dublin Core</link> for document metadata, and <link href=\"http://nepomuk."
