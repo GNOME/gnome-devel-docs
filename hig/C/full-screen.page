@@ -1,0 +1,51 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="fullscreen">
+
+  <info>
+    <link type="guide" xref="patterns#secondary"/>
+    <desc>Mode in which a window fills the entire screen</desc>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Fullscreen</title>
+
+<media type="image" mime="image/svg" src="figures/patterns/fullscreen.svg"/>
+
+<p>Fullscreen is a mode in which a window fills the entire screen. When fullscreen is active, controls are typically hidden in order to provide an immersive content view.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>It is appropriate to offer fullscreen when users are likely to want to have an unobstructed view of content, particularly if they are likely to view content items for long periods of time. The classic example of fullscreen is for watching videos, where visible controls would be distracting and result in less screen space for the content. However, fullscreen can be used for other types of content including documents or images.</p>
+
+<p>Fullscreen is typically used in viewing situations. However, in some cases it can be useful for editing tasks. Fullscreen is also typical for many games (how games should use fullscreen is not covered in this page).</p>
+
+</section>
+
+<section id="guidelines">
+<title>Guidelines</title>
+
+<list>
+<item><p>If an application uses different views, it is only necessary to enable fullscreen for those views where it is useful - primarily those that display content items.</p></item>
+<item><p>Fullscreen can be triggered automatically when a content item is opened, or can be offered as a mode that can be activated by the user.</p></item>
+<item><p>If fullscreen is being offered as a mode that users activate, judge how prominent to make the control to enter fullscreen according to how often it will be used. Typically, a fullscreen button should be placed in the <link xref="header-bars">header bar</link> or <link xref="header-bar-menus">header bar menu</link>.</p></item>
+<item><p>When fullscreen is active:</p>
+  <list>
+    <item><p>All controls should be hidden, including the window's header bar, <link xref="action-bars">action bars</link> or <link xref="overlaid-controls">overlaid controls</link>.</p></item>
+    <item><p>Controls, including the header bar, should be revealed when the pointer is moved or the screen is tapped.</p></item>
+    <item><p>The window close button should be replaced with a view restore button, which disables fullscreen mode.</p></item>
+    <item><p>Any controls that don't fit into fullscreen should be hidden or replaced. This includes any navigation controls that would simultaneously exit fullscreen, such as back buttons.</p></item>
+    <item><p>Make an effort not to allow controls or UI to obstruct content. For example, dialog windows that overlap content will be distracting and will detract from the immersive nature of fullscreen.</p></item>
+  </list>
+</item>
+<item><p>The Videos application is a good example of how fullscreen should behave.</p></item>
+</list>
+
+</section>
+
+</page>
