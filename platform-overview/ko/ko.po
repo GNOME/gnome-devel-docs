@@ -1,21 +1,21 @@
 # Korean translation for gnome-devel-docs.
 # Copyright (C) 2016 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Seong-ho Cho <shcho@gnome.org>, 2016.
+# Seong-ho Cho <shcho@gnome.org>, 2016-2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-09-07 21:43+0900\n"
-"PO-Revision-Date: 2016-09-07 21:44+0900\n"
-"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"POT-Creation-Date: 2017-03-02 12:40+0000\n"
+"PO-Revision-Date: 2017-03-04 15:04+0900\n"
+"Last-Translator: Seong-ho Cho <shcho@gnome.org>\n"
 "Language-Team: Korean <gnome-kr@googlegroups.com>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -40,7 +40,7 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "조성호 <shcho@gnome.org>, 2016."
+msgstr "조성호 <shcho@gnome.org>, 2016, 2017."
 
 #. (itstool) path: credit/name
 #: C/dev-help-appmenu.page:11 C/dev-help-build.page:11 C/dev-help.page:14
@@ -1318,16 +1318,6 @@ msgstr ""
 "지스트리머 예제에 관심이 있다면, <link href=\"http://gstreamer.freedesktop.org/"
 "documentation/licensing.html\">GStreamer 라이선스 정보</link>를 살펴보셔도 좋습니다."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/overview-communication.page:35
-msgctxt "_"
-msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-msgstr ""
-
 #. (itstool) path: info/title
 #: C/overview-communication.page:15
 msgctxt "link:trail"
@@ -1372,9 +1362,19 @@ msgid ""
 "lower level APIs too."
 msgstr ""
 "인스턴트 메신저, 소셜 미디어, 전자메일로 사용자가 친구 및 연락처에 연결하고 연락할 수 있"
-"게 하시죠. 그놈의 확장 통신 스택에는 복잡한 인스턴트 메시징 및 전자메일 프로토콜에 대"
-"한 고수준 추상 접근 방식을 제공합니다. 더 특별한 통신 방식이 필요하다면 저수준 API로 안성"
-"맞춤 접근 방식이 있습니다."
+"게 하시죠. 그놈의 확장 통신 스택에는 복잡한 인스턴트 메시징 및 전자메일 프로토콜에 대한 "
+"고수준 추상 접근 방식을 제공합니다. 더 특별한 통신 방식이 필요하다면 저수준 API로 안성맞"
+"춤 접근 방식이 있습니다."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview-communication.page:35
+msgctxt "_"
+msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
+msgstr ""
 
 #. (itstool) path: media/p
 #: C/overview-communication.page:36
@@ -1631,16 +1631,6 @@ msgstr ""
 "\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">스크린샷</link> | <link href="
 "\"https://git.gnome.org/browse/nautilus\">소스 코드</link> )"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/overview-media.page:39
-msgctxt "_"
-msgid "external ref='media/totem-screenshot.png' md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
 msgid ""
@@ -1680,6 +1670,16 @@ msgstr ""
 "프로그램에 멀티미디어 기능을 추가하여 컨텐트를 쉽게 재생할 수 있게 하십시오. 시스템 또는 "
 "원격 네트워크에 연결한 기타 장치로 컨텐트를 즐기고 공유하십시오. 더 세밀하게 통제하려는 "
 "용도의 근본 저수준 API가 있습니다."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview-media.page:39
+msgctxt "_"
+msgid "external ref='media/totem-screenshot.png' md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
+msgstr ""
 
 #. (itstool) path: media/p
 #: C/overview-media.page:40
@@ -1952,9 +1952,9 @@ msgid ""
 "GSettings. Easily override settings defaults as a system administrator. Store a wide "
 "variety of data, such as integers and arrays of strings, with ease."
 msgstr ""
-"GSettings로 사용자 설정을 저장하고 프로그램에서 설정 내용에 따라 자동으로 반응하게 하십"
-"시오. 쉬운 중복 우선 설정 적용은 시스템 관리자에 맞춰서 기본으로 처리합니다. 정수, 문자"
-"열 배열 같은 여러가지 데이터를 쉽게 저장하십시오."
+"GSettings로 사용자 설정을 저장하고 프로그램에서 설정 내용에 따라 자동으로 반응하게 하십시"
+"오. 쉬운 중복 우선 설정 적용은 시스템 관리자에 맞춰서 기본으로 처리합니다. 정수, 문자열 "
+"배열 같은 여러가지 데이터를 쉽게 저장하십시오."
 
 #. (itstool) path: section/p
 #: C/overview-settings.page:43
@@ -1968,7 +1968,8 @@ msgstr ""
 "<em style=\"strong\">프로그램 설정</em>을 읽고 쓰려면 GIO의 <em style=\"strong\" xref="
 "\"tech-gsettings\">GSettings</em> API를 활용하십시오. GSettings는 <em style=\"strong\">플"
 "랫폼 설정 데이터베이스를 정직하게 활용</em>하여, 플랫폼별 설정 도구를 활용할 수 있습니"
-"다. 단일 함수에서 <em style=\"strong\">설정에 따라 UI 컨트롤을 업데이트하게</em> 하십시오."
+"다. 단일 함수에서 <em style=\"strong\">설정에 따라 UI 컨트롤을 업데이트하게</em> 하십시"
+"오."
 
 #. (itstool) path: section/p
 #: C/overview-settings.page:65
@@ -2659,10 +2660,10 @@ msgid ""
 "software that seamlessly integrates with the user's desktop, regardless of which desktop "
 "it is."
 msgstr ""
-"D-Bus는 <link href=\"http://www.freedesktop.org/\">freedesktop.org</link>와 개발하므"
-"로 다른 데스크톱 환경 및 프로그램과 함께 활용할 수 있습니다. D-Bus가 교차 데스크톱 프로젝"
-"트이기 때문에 어떤 데스크톱이냐는 상관 없이 사용자 데스크톱과 감쪽같이 어우러지며, 이식 "
-"가능한 만능 프로그램을 만들 때 활용할 수 있습니다."
+"D-Bus는 <link href=\"http://www.freedesktop.org/\">freedesktop.org</link>와 개발하므로 다"
+"른 데스크톱 환경 및 프로그램과 함께 활용할 수 있습니다. D-Bus가 교차 데스크톱 프로젝트이"
+"기 때문에 어떤 데스크톱이냐는 상관 없이 사용자 데스크톱과 감쪽같이 어우러지며, 이식 가능"
+"한 만능 프로그램을 만들 때 활용할 수 있습니다."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:54
@@ -2904,12 +2905,12 @@ msgid ""
 "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> to interact "
 "with the windowing system for graphics and input devices. Although you will rarely use "
 "GDK directly in application code, it contains all the necessary functionality to create "
-"low-level windows in the the screen and to interact with the user with various input "
+"low-level windows in the screen and to interact with the user with various input "
 "devices. GDK acts as an abstraction over various windowing systems, so that GTK+ can be "
 "portable to all of them: the X Window System (X11), Microsoft Windows, Mac OS X Quartz."
 msgstr ""
 "GDK는 그래픽 및 입력 장치용 윈도우 시스템과 연동하는 <link xref=\"tech-gtk\">GTK+</link>"
-"의 저수준 라이브러리입니다. 프로그램 코드에서 GDK를 직접 쓸 일은 거의 없지만, 화면에 저수"
+"의 하부 라이브러리입니다. 프로그램 코드에서 GDK를 직접 쓸 일은 거의 없지만, 화면에 저수"
 "준 창을 만들고 다양한 입력 장치로 사용자와 소통할 때 필요한 모든 기능이 있습니다. GDK는 "
 "다양한 윈도우 시스템의 추상체처럼 동작하기에 GTK+는 X 윈도우 시스템(X11), 마이크로소프트 "
 "윈도우, Mac OS X 쿼츠 어느곳에든 이식할 수 있습니다."
@@ -2997,8 +2998,8 @@ msgid ""
 "user's geographical position. A mapping application could use this to present a \"where "
 "am I\" view, for example."
 msgstr ""
-"Geoclue2에는 사용자의 위치 정보를 프로그램에서 찾게하는 <em>위치 정보</em> 서비스가 들"
-"어있습니다. 예를 들어, 매핑 프로그램은 \"내 위치\"를 표시할 때 활용할 수 있습니다."
+"Geoclue2에는 사용자의 위치 정보를 프로그램에서 찾게하는 <em>위치 정보</em> 서비스가 들어"
+"있습니다. 예를 들어, 매핑 프로그램은 \"내 위치\"를 표시할 때 활용할 수 있습니다."
 
 #. (itstool) path: page/p
 #: C/tech-geoclue2.page:29
@@ -3782,7 +3783,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:31
 msgid ""
-"Various Gnome applications use PackageKit in similar situations. Totem, the media "
+"Various GNOME applications use PackageKit in similar situations. Totem, the media "
 "player, uses PackageKit to request installation of codecs when it tries to play a media "
 "file that it does not recognize. System-config-printer, a program to configure printers "
 "when they are plugged in, uses PackageKit to download and install printer drivers as "
@@ -4011,15 +4012,15 @@ msgstr "파플러"
 #: C/tech-poppler.page:22
 msgid ""
 "Poppler is a specialized library to render PDF documents. This can be used for various "
-"purposes. For example, Evince is GNOME'S PDF viewer, and it uses Poppler for all its "
+"purposes. For example, Evince is GNOME's PDF viewer, and it uses Poppler for all its "
 "rendering. In addition, the software that creates thumbnail icons for PDF files also "
 "uses Poppler. You could even use it to create software that lets the user re-arrange or "
 "extract pages from PDFs."
 msgstr ""
 "파플러는 PDF 문서를 표현하는 특별한 라이브러리입니다. 다양한 용도로 활용할 수 있습니다. "
-"에빈스는 그놈의 PDF 보기 프로그램이며, PDF 표현시 전적으로 파플러를 활용합니다. 게다가 "
-"PDF 파일의 미리 보기 그림을 만들 때도 파플러를 활용합니다. PDF를 정돈하거나 페이지를 추출"
-"하는 프로그램을 만들 때도 활용할 수 있습니다."
+"에빈스는 그놈의 PDF 보기 프로그램이며, PDF 문서를 화면에 나타낼 때 전적으로 파플러를 활용"
+"합니다. 게다가 PDF 파일의 미리 보기 그림을 만들 때도 파플러를 활용합니다. PDF의 페이지를 "
+"정돈하거나 추출하는 프로그램을 만들 때도 활용할 수 있습니다."
 
 #. (itstool) path: item/p
 #: C/tech-poppler.page:31
@@ -4051,7 +4052,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-pulseaudio.page:29
 msgid ""
-"All the parts of Gnome that produce audio use PulseAudio in one way or another, either "
+"All the parts of GNOME that produce audio use PulseAudio in one way or another, either "
 "directly, or indirectly through higher-level sound manipulation APIs like <link xref="
 "\"tech-gstreamer\">GStreamer</link>."
 msgstr ""
@@ -4170,13 +4171,13 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/tech-secret.page:66
 msgid ""
-"Gnome used a library called gnome-keyring before version 3.6 was released. In version "
+"GNOME used a library called gnome-keyring before version 3.6 was released. In version "
 "3.6 onward, libsecret is used instead. This allows sharing the keyring service between "
 "GNOME and other desktop environments and applications."
 msgstr ""
 "그놈 버전 3.6 전에는 gnome-keyring으로 출시했습니다. 3.6 이후에는 대신 libsecret을 사용합"
-"니다. 이 라이브러리로 하여금 그놈에서 기타 데스크톱 환경, 프로그램과 키 모음 서비스를 공"
-"유할 수 있습니다."
+"니다. 이 라이브러리로 그놈에서 기타 데스크톱 환경, 프로그램과 키 모음 서비스를 공유할 수 "
+"있습니다."
 
 #. (itstool) path: item/p
 #: C/tech-secret.page:75
@@ -4263,9 +4264,9 @@ msgid ""
 "create multi-player games or collaborative editors that integrate with the desktop-wide "
 "instant messaging services."
 msgstr ""
-"텔레파시 튜브 API에서는 통신 프로그램을 만들 때 활용하는 재버 같은 최신 인스턴트 메시징 프"
-"로토콜로 임의 프로토콜을 터널링할 수 있습니다. 멀티 플레이어 게임 또는 데스크톱 영역 인스"
-"턴트 메시징 서비스에 붙이는 협업 편집기를 만들 수 있습니다."
+"텔레파시 튜브 API에서는 통신 프로그램을 만들 때 활용하는 재버 같은 최신 인스턴트 메시징 "
+"프로토콜로 임의 프로토콜을 터널링할 수 있습니다. 멀티 플레이어 게임 또는 데스크톱 영역 인"
+"스턴트 메시징 서비스에 붙이는 협업 편집기를 만들 수 있습니다."
 
 #. (itstool) path: item/p
 #: C/tech-telepathy.page:41
@@ -4315,7 +4316,7 @@ msgstr "트래커는 이런 3컬럼 형식에 맞는 저장소와 SPARQL 질의 
 msgid ""
 "GNOME uses Tracker as a storage for document metadata. A document's metadata may include "
 "its title, authors, copyright, modification date, and keywords. All this metadata is "
-"stored as RDF triplets in Tracker, and queried with SPARQL by applications such as Gnome "
+"stored as RDF triplets in Tracker, and queried with SPARQL by applications such as GNOME "
 "Documents. The <link href=\"http://developer.gnome.org/ontology/unstable/\">ontology "
 "used</link> is based on various standard sub-ontologies: <link href=\"http://dublincore."
 "org/\">Dublin Core</link> for document metadata, and <link href=\"http://nepomuk.kde.org/"
@@ -4398,16 +4399,6 @@ msgstr ""
 msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK+ web site</link>"
 msgstr "<link href=\"http://webkitgtk.org/\">WebKitGTK+ 웹 사이트</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tour-application.page:45
-msgctxt "_"
-msgid "external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
-msgstr ""
-
 #. (itstool) path: credit/name
 #: C/tour-application.page:16 C/tour-events.page:16 C/tour-get_object.page:16
 #: C/tour-gjs.page:16 C/tour-glade.page:16 C/tour.page:17 C/tour-summary.page:15
@@ -4459,6 +4450,16 @@ msgid ""
 msgstr ""
 "스크립트를 <file>helloworld.js</file> 파일 이름을 저장하고, <cmd>chmod +x helloworld.js</"
 "cmd> 명령으로 실행할 수 있게 만든 후 <cmd>./helloworld.js</cmd> 명령으로 실행하십시오."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tour-application.page:45
+msgctxt "_"
+msgid "external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
+msgstr ""
 
 #. (itstool) path: media/p
 #: C/tour-application.page:46
@@ -4689,16 +4690,6 @@ msgstr ""
 "const Lang = imports.lang;\n"
 "const Gtk = imports.gi.Gtk;\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tour-glade.page:43
-msgctxt "_"
-msgid "external ref='media/glade-set-values.png' md5='61c369d5fdd6353694f9fa9e852e207c'"
-msgstr ""
-
 #. (itstool) path: info/desc
 #: C/tour-glade.page:23
 msgid "Use Glade to generate a UI file."
@@ -4736,6 +4727,16 @@ msgid ""
 msgstr ""
 "새 창을 만들고 <gui>Name</gui>을 <code>창 1</code>로, <gui>Window</gui>는 <code>Hello "
 "World</code>로 설정하십시오:"
+
+#. (itstool) path: example/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tour-glade.page:43
+msgctxt "_"
+msgid "external ref='media/glade-set-values.png' md5='61c369d5fdd6353694f9fa9e852e207c'"
+msgstr ""
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
