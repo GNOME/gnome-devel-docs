@@ -1,5 +1,5 @@
 # German translation of the platform-overview documentation.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016-2017.
 # Wolfgang Stöggl <c72578@yahoo.de>, 2011, 2015.
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2011, 2012.
 # Aljosha Papsch <al@papsch.ara.uberspace.de>, 2012.
@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2016-03-27 08:04+0000\n"
-"PO-Revision-Date: 2016-03-27 18:12+0200\n"
+"POT-Creation-Date: 2017-03-02 12:40+0000\n"
+"PO-Revision-Date: 2017-03-06 19:40+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -1365,16 +1365,6 @@ msgstr ""
 "\">GStreamer-Lizenzinformation</link> für Sie interessant, da GStreamer Plugins "
 "verwendet."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/overview-communication.page:35
-msgctxt "_"
-msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-
 #. (itstool) path: info/title
 #: C/overview-communication.page:15
 msgctxt "link:trail"
@@ -1427,6 +1417,16 @@ msgstr ""
 "von GNOME bietet Ihnen auf hohem Niveau abstrakten Zugriff auf die komplizierten Instant-"
 "Messaging- und E-Mail-Protokolle. Für speziellere Anforderungen an die Kommunikation ist "
 "über APIs niederer Ebene außerdem auch Zugriff auf die Interna in diesem Bereich möglich."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview-communication.page:35
+msgctxt "_"
+msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
+msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 
 #. (itstool) path: media/p
 #: C/overview-communication.page:36
@@ -1695,16 +1695,6 @@ msgstr ""
 "\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Bildschirmfotos</link> | <link href="
 "\"https://git.gnome.org/browse/nautilus\">Quellcode</link> )"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/overview-media.page:39
-msgctxt "_"
-msgid "external ref='media/totem-screenshot.png' md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
-msgstr "original"
-
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
 msgid ""
@@ -1751,6 +1741,16 @@ msgstr ""
 "einfach wiedergeben können. Tauschen Sie Inhalte mit anderen Geräten aus, die am System "
 "angeschlossen sind oder auf die über das Netzwerk zugegriffen werden kann. Für mehr "
 "Steuerungsmöglichkeiten ist die darunterliegende Low-Level-API ist ebenfalls verfügbar."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview-media.page:39
+msgctxt "_"
+msgid "external ref='media/totem-screenshot.png' md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
+msgstr "original"
 
 #. (itstool) path: media/p
 #: C/overview-media.page:40
@@ -3055,7 +3055,7 @@ msgid ""
 "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> to interact "
 "with the windowing system for graphics and input devices. Although you will rarely use "
 "GDK directly in application code, it contains all the necessary functionality to create "
-"low-level windows in the the screen and to interact with the user with various input "
+"low-level windows in the screen and to interact with the user with various input "
 "devices. GDK acts as an abstraction over various windowing systems, so that GTK+ can be "
 "portable to all of them: the X Window System (X11), Microsoft Windows, Mac OS X Quartz."
 msgstr ""
@@ -4000,14 +4000,14 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:31
 msgid ""
-"Various Gnome applications use PackageKit in similar situations. Totem, the media "
+"Various GNOME applications use PackageKit in similar situations. Totem, the media "
 "player, uses PackageKit to request installation of codecs when it tries to play a media "
 "file that it does not recognize. System-config-printer, a program to configure printers "
 "when they are plugged in, uses PackageKit to download and install printer drivers as "
 "needed."
 msgstr ""
 "Verschiedene GNOME-Anwendungen nutzen PackageKit in ähnlichen Situationen. Das Medien-"
-"Wiedergabeprogramm Totem fragt über PackageKit die Installtion von Codecs an, wenn es "
+"Wiedergabeprogramm Totem fragt über PackageKit die Installation von Codecs an, wenn es "
 "versucht, eine Mediendatei wiederzugeben, die es nicht erkennt. System-config-printer, "
 "ein Programm zur Einrichtung von Druckern, sobald sie angeschlossen werden, verwendet "
 "PackageKit zum Herunterladen und Installieren von Druckertreibern."
@@ -4247,7 +4247,7 @@ msgstr "Poppler"
 #: C/tech-poppler.page:22
 msgid ""
 "Poppler is a specialized library to render PDF documents. This can be used for various "
-"purposes. For example, Evince is GNOME'S PDF viewer, and it uses Poppler for all its "
+"purposes. For example, Evince is GNOME's PDF viewer, and it uses Poppler for all its "
 "rendering. In addition, the software that creates thumbnail icons for PDF files also "
 "uses Poppler. You could even use it to create software that lets the user re-arrange or "
 "extract pages from PDFs."
@@ -4292,7 +4292,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-pulseaudio.page:29
 msgid ""
-"All the parts of Gnome that produce audio use PulseAudio in one way or another, either "
+"All the parts of GNOME that produce audio use PulseAudio in one way or another, either "
 "directly, or indirectly through higher-level sound manipulation APIs like <link xref="
 "\"tech-gstreamer\">GStreamer</link>."
 msgstr ""
@@ -4422,7 +4422,7 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/tech-secret.page:66
 msgid ""
-"Gnome used a library called gnome-keyring before version 3.6 was released. In version "
+"GNOME used a library called gnome-keyring before version 3.6 was released. In version "
 "3.6 onward, libsecret is used instead. This allows sharing the keyring service between "
 "GNOME and other desktop environments and applications."
 msgstr ""
@@ -4578,7 +4578,7 @@ msgstr ""
 msgid ""
 "GNOME uses Tracker as a storage for document metadata. A document's metadata may include "
 "its title, authors, copyright, modification date, and keywords. All this metadata is "
-"stored as RDF triplets in Tracker, and queried with SPARQL by applications such as Gnome "
+"stored as RDF triplets in Tracker, and queried with SPARQL by applications such as GNOME "
 "Documents. The <link href=\"http://developer.gnome.org/ontology/unstable/\">ontology "
 "used</link> is based on various standard sub-ontologies: <link href=\"http://dublincore."
 "org/\">Dublin Core</link> for document metadata, and <link href=\"http://nepomuk.kde.org/"
@@ -4666,16 +4666,6 @@ msgstr ""
 msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK+ web site</link>"
 msgstr "<link href=\"http://webkitgtk.org/\">Die Webseite von WebKitGTK+</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tour-application.page:45
-msgctxt "_"
-msgid "external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
-msgstr "original"
-
 #. (itstool) path: credit/name
 #: C/tour-application.page:16 C/tour-events.page:16 C/tour-get_object.page:16
 #: C/tour-gjs.page:16 C/tour-glade.page:16 C/tour.page:17 C/tour-summary.page:15
@@ -4728,6 +4718,16 @@ msgstr ""
 "Speichern Sie das Skript unter <file>helloworld.js</file>, führen Sie <cmd>chmod +x "
 "helloworld.js</cmd> aus, um es als ausführbar zu markieren, und führen Sie es mit <cmd>./"
 "helloworld.js</cmd> aus."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tour-application.page:45
+msgctxt "_"
+msgid "external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
+msgstr "original"
 
 #. (itstool) path: media/p
 #: C/tour-application.page:46
@@ -4965,16 +4965,6 @@ msgstr ""
 "const Lang = imports.lang;\n"
 "const Gtk = imports.gi.Gtk;\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tour-glade.page:43
-msgctxt "_"
-msgid "external ref='media/glade-set-values.png' md5='61c369d5fdd6353694f9fa9e852e207c'"
-msgstr "original"
-
 #. (itstool) path: info/desc
 #: C/tour-glade.page:23
 msgid "Use Glade to generate a UI file."
@@ -5013,6 +5003,16 @@ msgid ""
 msgstr ""
 "Erstellen Sie ein neues Fenster und setzen Sie <gui>Name</gui> auf <code>window1</code> "
 "und <gui>Window</gui> auf <code>Hello World</code>:"
+
+#. (itstool) path: example/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tour-glade.page:43
+msgctxt "_"
+msgid "external ref='media/glade-set-values.png' md5='61c369d5fdd6353694f9fa9e852e207c'"
+msgstr "original"
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
