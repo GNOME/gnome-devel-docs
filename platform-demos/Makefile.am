@@ -481,7 +481,7 @@ HELP_FILES =				\
 	window.vala.page		\
 	custom-gsource.c.page
 
-HELP_LINGUAS = ca cs de el es fr gl pt_BR
+HELP_LINGUAS = ca cs de el es fr gl ko pt_BR
 
 # Tooling to compile and run unit tests for example code.
 demo_sources += samples/example-custom-gsource.c
