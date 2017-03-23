@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-03-20 01:06+0000\n"
-"PO-Revision-Date: 2017-03-20 22:25-0200\n"
+"POT-Creation-Date: 2017-03-21 01:53+0000\n"
+"PO-Revision-Date: 2017-03-22 18:22-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -2596,10 +2596,10 @@ msgid ""
 "git</link> and copy it into your project. It is licenced under LGPLv2.1+."
 msgstr ""
 "GVDB possui uma API simples que espelha a tabela de hash convencional. "
-"Atualmente, GVDB está disponível apenas como uma biblioteca de copiar-e-"
-"colar; obtenha a cópia mais recente do código de <link href=\"https://git."
-"gnome.org/browse/gvdb\">GVDB git</link> e copie-o para seu projeto. Ele está "
-"licenciado sob LGPLv2.1+."
+"Atualmente, GVDB está disponível apenas como uma biblioteca de "
+"copiar-e-colar; obtenha a cópia mais recente do código de <link href=\""
+"https://git.gnome.org/browse/gvdb\">GVDB git</link> e copie-o para seu "
+"projeto. Ele está licenciado sob LGPLv2.1+."
 
 #. (itstool) path: section/p
 #: C/databases.page:141
@@ -3395,7 +3395,7 @@ msgstr ""
 "E/S síncrona é aceitável em certas circunstâncias nas quais a sobrecarga de "
 "agendar uma operação assíncrona excede o custo de E/S síncrona local no "
 "Linux. Por exemplo, fazer uma leitura pequena de um arquivo local, ou de um "
-"sistema de arquivos virutal tal como <file>/proc</file>. Para tais leituras, "
+"sistema de arquivos virtual tal como <file>/proc</file>. Para tais leituras, "
 "as funções de baixo nível <code>g_open()</code>, <code>read()</code> e "
 "<code>g_close()</code> devem ser usadas, em vez do GIO."
 
@@ -3581,6 +3581,10 @@ msgid ""
 "for GLib-using code, and can be thought of as a C implementation of an <link "
 "href=\"http://en.wikipedia.org/wiki/Exception_handling\">exception</link>."
 msgstr ""
+"<link href=\"https://developer.gnome.org/glib/stable/glib-Error-Reporting."
+"html\"><code>GError</code></link> é o mecanismo padrão de relatório de erro "
+"para códigos usando GLib e pode ser pensado como uma implementação C de uma <"
+"link href=\"http://en.wikipedia.org/wiki/Exception_handling\">exceção</link>."
 
 #. (itstool) path: section/p
 #: C/gerror.page:33
@@ -3592,6 +3596,12 @@ msgid ""
 "Programmer errors must not be handled using GError: use assertions, pre-"
 "conditions or post-conditions instead."
 msgstr ""
+"Qualquer tipo de falha em tempo de execução (qualquer coisa que não seja um <"
+"link xref=\"preconditions\">erro de programação</link>) deve ser tratado com "
+"a inclusão de um parâmetro <code>GError**</code> na função e definição de um "
+"GError útil e relevante que descreva a falha, antes de retornar a função. Os "
+"erros de programação não devem ser tratados usando GError: use asserções, "
+"pré-condições ou pós-condições."
 
 #. (itstool) path: section/p
 #: C/gerror.page:42
@@ -3602,6 +3612,11 @@ msgid ""
 "automatically detect all GError parameters so that they can be converted to "
 "exceptions in other languages."
 msgstr ""
+"O GError deve ser usado como preferência a um código de retorno simples, "
+"pois ele pode transmitir mais informações e também tem suporte em todas as "
+"ferramentas em GLib. Por exemplo, <link xref=\"introspection\">introspecção "
+"de uma API</link> detectará automaticamente todos os parâmetros de GError de "
+"forma que eles possam ser convertidos para exceções em outros idiomas."
 
 #. (itstool) path: section/p
 #: C/gerror.page:50
@@ -3612,6 +3627,11 @@ msgid ""
 "which prints to the console will be top-level application code, and not "
 "library code."
 msgstr ""
+"A impressão de avisos para o console não deve ser feita no código da "
+"biblioteca: use um GError e o código de chamada pode propagá-lo mais para "
+"cima, decidir tratá-lo ou decidir imprimi-lo para o console. Idealmente, o "
+"único código que imprime para o console será um código de aplicativo topo de "
+"nível, e não um código de biblioteca."
 
 #. (itstool) path: section/p
 #: C/gerror.page:58
@@ -3622,6 +3642,11 @@ msgid ""
 "error by passing <code>NULL</code> to a <code>GError**</code> parameter is "
 "acceptable."
 msgstr ""
+"Qualquer chamada de função que possa levar um <code>GError**</code>, "
+"<em>deve</em> levar tal parâmetro e o GError retornado deve ser tratado "
+"apropriadamente. Há muito poucas situações nas quais ignorar um erro em "
+"potencial passando <code>NULL</code> para um parâmetro <code>GError**</code> "
+"é aceitável."
 
 #. (itstool) path: section/p
 #: C/gerror.page:66
@@ -3630,6 +3655,9 @@ msgid ""
 "org/glib/stable/glib-Error-Reporting.html#glib-Error-Reporting.description"
 "\">full tutorial for using GError</link>."
 msgstr ""
+"A documentação de API do GLib contém um <link href=\""
+"https://developer.gnome.org/glib/stable/glib-Error-Reporting.html#glib-Error-"
+"Reporting.description\">tutorial completo sobre o uso de GError</link>."
 
 #. (itstool) path: info/desc
 #: C/glist.page:18
@@ -3657,6 +3685,15 @@ msgid ""
 "code></link> and <link href=\"https://developer.gnome.org/glib/stable/glib-"
 "Arrays.html\"><code>GArray</code></link>."
 msgstr ""
+"GLib fornece vários tipos contêineres para conjuntos de dados: <link href=\""
+"https://developer.gnome.org/glib/stable/glib-Doubly-Linked-Lists.html\""
+"><code>GList</code></link>, <link href=\""
+"https://developer.gnome.org/glib/stable/glib-Singly-Linked-Lists.html\""
+"><code>GSList</code></link>, <link href=\""
+"https://developer.gnome.org/glib/stable/glib-Pointer-Arrays.html\""
+"><code>GPtrArray</code></link> e <link href=\""
+"https://developer.gnome.org/glib/stable/glib-Arrays.html\""
+"><code>GArray</code></link>."
 
 #. (itstool) path: section/p
 #: C/glist.page:34
@@ -3670,6 +3707,14 @@ msgid ""
 "ordered data, which requires expensive insertions at arbitrary indexes in "
 "the array."
 msgstr ""
+"Foi uma prática comum no passado usar GList e, todas situações nas quais uma "
+"sequência ou conjunto de dados precisa ser armazenada(o). Isso não é "
+"recomendável — na maioria das situações, um GPtrArray deve ser usado. Ele "
+"faz menor uso de memória (um terço a metade de uma lista equivalente), "
+"melhora localidade de cache e a mesma ou menor complexidade algorítmica para "
+"todas as operações comuns. A única situação típica na qual um GList pode ser "
+"mais apropriado é ao lidar com dados ordenados, que requer inserções "
+"custosas em índices arbitrários no vetor."
 
 #. (itstool) path: section/p
 #: C/glist.page:45
@@ -3683,6 +3728,15 @@ msgid ""
 "example, iteration over a GList should be implemented using the linking "
 "pointers, rather than a incrementing index:"
 msgstr ""
+"Se listas vinculadas forem usadas, tenha o cuidado de manter baixa a "
+"complexidade das operações nelas, usando análise padrão de complexidade CS. "
+"Qualquer operação que usa <link href=\"https://developer.gnome.org/glib/2.30"
+"/glib-Doubly-Linked-Lists.html#g-list-nth\"><code>g_list_nth()</code></link> "
+"ou <link href=\"https://developer.gnome.org/glib/2.30/glib-Doubly-Linked-"
+"Lists.html#g-list-nth-data\"><code>g_list_nth_data()</code></link> está "
+"quase certamente errada. Por exemplo, interação por um GList deve ser "
+"implementada usando os ponteiros vinculantes, em vez de um índice "
+"incremental:"
 
 #. (itstool) path: section/code
 #: C/glist.page:54
@@ -3697,6 +3751,14 @@ msgid ""
 "    /* Do something with @element_data. */\n"
 "  }"
 msgstr ""
+"GList *some_list, *l;\n"
+"\n"
+"for (l = some_list; l != NULL; l = l-&gt;next)\n"
+"  {\n"
+"    gpointer element_data = l-&gt;data;\n"
+"\n"
+"    /* Faz alguma coisa com @element_data. */\n"
+"  }"
 
 #. (itstool) path: section/p
 #: C/glist.page:63
@@ -3704,6 +3766,8 @@ msgid ""
 "Using an incrementing index instead results in a quadratic decrease in "
 "performance (<em>O(N^2)</em> rather than <em>O(N)</em>):"
 msgstr ""
+"Usar um índice incremental pode resultar em um decréscimo quadrático no "
+"desempenho (<em>O(N^2)</em> em vez de <em>O(N)</em>):"
 
 #. (itstool) path: section/code
 #: C/glist.page:67
@@ -3720,6 +3784,16 @@ msgid ""
 "    /* Do something with @element_data. */\n"
 "  }"
 msgstr ""
+"GList *some_list;\n"
+"guint i;\n"
+"\n"
+"/* Esse código é ineficiente e não deve ser usado em produção. */\n"
+"for (i = 0; i &lt; g_list_length (some_list); i++)\n"
+"  {\n"
+"    gpointer element_data = g_list_nth_data (some_list, i);\n"
+"\n"
+"    /* Faz alguma coisa com @element_data. */\n"
+"  }"
 
 #. (itstool) path: section/p
 #: C/glist.page:78
@@ -3728,6 +3802,9 @@ msgid ""
 "<code>g_list_nth_data()</code> which both traverse the list (<em>O(N)</em>) "
 "to perform their operations."
 msgstr ""
+"A penalidade no desempenho vem de <code>g_list_length()</code> e de "
+"<code>g_list_nth_data()</code>, os quais percorrem a lista (<em>O(N)</em>) "
+"para realizar suas operações."
 
 #. (itstool) path: section/p
 #: C/glist.page:84
@@ -3736,6 +3813,10 @@ msgid ""
 "(correct) GList implementation, but better cache locality and lower memory "
 "consumption, so will perform better for large numbers of elements:"
 msgstr ""
+"Implementar o código acima com um GPtrArray tem a mesma complexidade que a "
+"primeira (correta) implementação de GList, mas com melhor localidade de "
+"cache e menor consumo de memória, de forma a executar melhor para grandes "
+"números de elementos:"
 
 #. (itstool) path: section/code
 #: C/glist.page:89
@@ -3751,6 +3832,15 @@ msgid ""
 "    /* Do something with @element_data. */\n"
 "  }"
 msgstr ""
+"GPtrArray *some_array;\n"
+"guint i;\n"
+"\n"
+"for (i = 0; i &lt; some_array-&gt;len; i++)\n"
+"  {\n"
+"    gpointer element_data = some_array-&gt;pdata[i];\n"
+"\n"
+"    /* Faz alguma coisa com @element_data. */\n"
+"  }"
 
 #. (itstool) path: credit/name
 #: C/index.page:13 C/writing-good-code.page:15
@@ -9269,7 +9359,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/unit-testing.page:20
 msgid "Unit Testing"
-msgstr "Testando unidades"
+msgstr "Teste de unidade"
 
 #. (itstool) path: synopsis/p
 #: C/unit-testing.page:25
@@ -9278,6 +9368,10 @@ msgid ""
 "written, because a unit test can be written once and run many times — manual "
 "tests have to be planned once and then manually run each time."
 msgstr ""
+"Teste de unidade deve ser o método principal para testar o conjunto de "
+"código escrito porque um teste de unidade pode ser escrito uma vez e "
+"executado muitas outras — testes manuais têm que ser planejados uma vez e, "
+"então, executado manualmente cada vez."
 
 #. (itstool) path: synopsis/p
 #: C/unit-testing.page:31
@@ -9286,6 +9380,10 @@ msgid ""
 "code to be tested: code should be designed to be easily testable, or will "
 "potentially be very difficult to test."
 msgstr ""
+"O desenvolvimento de testes de unidade se inicia com o design de API e "
+"arquitetura do código a ser testado: o código deve ser projetado para ser "
+"facilmente testável, do contrário provavelmente ele será muito difícil de "
+"testar."
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:38
@@ -9293,6 +9391,8 @@ msgid ""
 "Write unit tests to be as small as possible, but no smaller. (<link xref="
 "\"#writing-unit-tests\"/>)"
 msgstr ""
+"Escreva testes de unidade para serem tão pequenos quanto possível, mas não "
+"menores. (<link xref=\"#writing-unit-tests\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:42
@@ -9300,6 +9400,8 @@ msgid ""
 "Use code coverage tools to write tests to get high code coverage. (<link "
 "xref=\"#writing-unit-tests\"/>)"
 msgstr ""
+"Use ferramentas de cobertura de código para escrever testes para obter alta "
+"cobertura de código. (<link xref=\"#writing-unit-tests\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:46
@@ -9307,6 +9409,8 @@ msgid ""
 "Run all unit tests under Valgrind to check for leaks and other problems. "
 "(<link xref=\"#leak-checking\"/>)"
 msgstr ""
+"Execute todos os testes de unidade sob Valgrind para verificar ocorrências "
+"vazamentos e outros problemas. (<link xref=\"#leak-checking\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:50
@@ -9314,6 +9418,8 @@ msgid ""
 "Use appropriate tools to automatically generate unit tests where possible. "
 "(<link xref=\"#test-generation\"/>)"
 msgstr ""
+"Use as ferramentas apropriadas para automaticamente gerar testes de unidade "
+"onde for possível. (<link xref=\"#test-generation\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:54
@@ -9321,12 +9427,13 @@ msgid ""
 "Design code to be testable from the beginning. (<link xref=\"#writing-"
 "testable-code\"/>)"
 msgstr ""
+"Projete o código para ser testável desde o início. (<link xref=\"#writing-"
+"testable-code\"/>)"
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:62
-#, fuzzy
 msgid "Writing Unit Tests"
-msgstr "Testes"
+msgstr "Escrevendo testes de unidade"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:64
@@ -9343,6 +9450,20 @@ msgid ""
 "tests. Overall, coverage levels of over 90% should be aimed for; don’t just "
 "test cases covered by project requirements, test everything."
 msgstr ""
+"Testes de unidade devem ser escritos em conjunto com a análise das <link "
+"xref=\"tooling#gcov-and-lcov\">informações de cobertura de código obtidas "
+"por executar os testes</link>. Geralmente isso significa escrever um "
+"conjunto inicial de testes de unidade, executando-os para obter dados de "
+"cobertura e, então, retrabalhar e expandi-los para aumentar os níveis de "
+"cobertura de código. A cobertura deve primeiro ser aumentada se certificando "
+"de que todas as funções estejam cobertas (pelo menos em parte) e, então, se "
+"certificando de que todas as linhas de código estejam cobertas. Ao cobrir as "
+"funções primeiro, problemas de API que vão evitar testes efetivos serão "
+"localizados rapidamente. Essas geralmente se manifestam como funções "
+"internas que não podem ser facilmente chamadas a partir de testes de "
+"unidade. Em geral, deve-se ter como meta os níveis de cobertura em cerca de "
+"90%; não teste apenas os casos cobertos pelos requerimentos do projeto, "
+"teste tudo."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:79
@@ -9356,6 +9477,15 @@ msgid ""
 "be traced back to a specific API, rather than a generic ‘unit tests failed "
 "somewhere’ message."
 msgstr ""
+"Assim como <link xref=\"version-control\">git commits</link>, os testes de "
+"unidade devem ser “tão pequenos quanto possível, mas não menores”, testando "
+"especificamente uma única API ou um único comportamento. Cada caso de teste "
+"deve ser capaz de executar individualmente, sem depender do estado de outros "
+"casos de teste. Isso é importante para permitir depuração de falha em um "
+"teste, sem ter que também passar por todos os outros códigos de teste. Isso "
+"significa que a falha de um teste pode ser facilmente rastreada a uma API "
+"específica, em vez de uma mensagem genérica “testes de unidade falharam em "
+"algum lugar”."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:90
@@ -9367,12 +9497,18 @@ msgid ""
 "test binary with the <cmd>-p</cmd> argument: <cmd>./test-suite-name -p /path/"
 "to/test/group</cmd>."
 msgstr ""
+"O GLib oferece suporte a testes de unidade com seu <link href=\""
+"https://developer.gnome.org/glib/stable/glib-Testing.html\">framework "
+"GTest</link>, permitindo que os testes sejam organizados em grupos e "
+"hierarquias. Isso significa que os grupos de testes relacionados podem ser "
+"executados juntos para melhorar a depuração também, executando o binário de "
+"teste com o argumento <cmd>-p</cmd>: <cmd>./test-suite-nome -p "
+"/caminho/para/grupo/de/teste</cmd>."
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:101
-#, fuzzy
 msgid "Installed Tests"
-msgstr "Por testes"
+msgstr "Testes instalados"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:103
@@ -9381,6 +9517,9 @@ msgid ""
 "\"https://wiki.gnome.org/Initiatives/GnomeGoals/InstalledTests\">installed-"
 "tests standard</link>."
 msgstr ""
+"Todos os testes de unidade devem ser instalados para todo o sistema, "
+"seguindo o <link href=\"https://wiki.gnome.org/Initiatives/GnomeGoals/"
+"InstalledTests\">padrão de testes instalados</link>."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:109
@@ -9390,6 +9529,11 @@ msgid ""
 "the CI environment, thus testing the interfaces between modules. That is "
 "useful for a highly-coupled set of projects like GNOME."
 msgstr ""
+"Ao instalar os testes de unidade, integração contínua (CI) é facilitada, já "
+"que os testes para um projeto podem ser reexecutados após alterações em "
+"outros projetos no ambiente de CI, de forma a testar as interfaces entre "
+"módulos. Isso é útil para um conjunto altamente encaixado de projetos como o "
+"GNOME."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:116
@@ -9397,6 +9541,8 @@ msgid ""
 "To add support for installed-tests, add the following to <file>configure.ac</"
 "file>:"
 msgstr ""
+"Para adicionar suporte para testes instalados, adicione o seguinte ao "
+"<file>configure.ac</file>:"
 
 #. (itstool) path: section/code
 #: C/unit-testing.page:120
@@ -9416,11 +9562,26 @@ msgid ""
 "                test \"$enable_installed_tests\" = \"yes\"])\n"
 "AM_CONDITIONAL([BUILDOPT_INSTALL_TESTS],[test \"$enable_installed_tests\" = \"yes\"])"
 msgstr ""
+"# Testes instalados\n"
+"AC_ARG_ENABLE([modular_tests],\n"
+"              AS_HELP_STRING([--disable-modular-tests],\n"
+"                             [Disable build of test programs (default: "
+"no)]),,\n"
+"              [enable_modular_tests=yes])\n"
+"AC_ARG_ENABLE([installed_tests],\n"
+"              AS_HELP_STRING([--enable-installed-tests],\n"
+"                             [Install test programs (default: no)]),,\n"
+"              [enable_installed_tests=no])\n"
+"AM_CONDITIONAL([BUILD_MODULAR_TESTS],\n"
+"               [test \"$enable_modular_tests\" = \"yes\" ||\n"
+"                test \"$enable_installed_tests\" = \"yes\"])\n"
+"AM_CONDITIONAL([BUILDOPT_INSTALL_TESTS],[test \"$enable_installed_tests\" = "
+"\"yes\"])"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:134
 msgid "Then in <file>tests/Makefile.am</file>:"
-msgstr ""
+msgstr "Então, em <file>tests/Makefile.am</file>:"
 
 #. (itstool) path: section/code
 #: C/unit-testing.page:137
@@ -9458,6 +9619,37 @@ msgid ""
 "\techo 'Exec=$(insttestdir)/$&lt;' &gt;&gt; $@.tmp; \\\n"
 "\tmv $@.tmp $@)"
 msgstr ""
+"insttestdir = $(libexecdir)/installed-tests/[project]\n"
+"\n"
+"all_test_programs = \\\n"
+"\ttest-program1 \\\n"
+"\ttest-program2 \\\n"
+"\ttest-program3 \\\n"
+"\t$(NULL)\n"
+"if BUILD_MODULAR_TESTS\n"
+"TESTS = $(all_test_programs)\n"
+"noinst_PROGRAMS = $(TESTS)\n"
+"endif\n"
+"\n"
+"if BUILDOPT_INSTALL_TESTS\n"
+"insttest_PROGRAMS = $(all_test_programs)\n"
+"\n"
+"testmetadir = $(datadir)/installed-tests/[project]\n"
+"testmeta_DATA = $(all_test_programs:=.test)\n"
+"\n"
+"testdatadir = $(insttestdir)\n"
+"testdata_DATA = $(test_files)\n"
+"\n"
+"testdata_SCRIPTS = $(test_script_files)\n"
+"endif\n"
+"\n"
+"EXTRA_DIST = $(test_files)\n"
+"\n"
+"%.test: % Makefile\n"
+"\t$(AM_V_GEN) (echo '[Test]' &gt; $@.tmp; \\\n"
+"\techo 'Type=session' &gt;&gt; $@.tmp; \\\n"
+"\techo 'Exec=$(insttestdir)/$&lt;' &gt;&gt; $@.tmp; \\\n"
+"\tmv $@.tmp $@)"
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:171
@@ -9475,6 +9667,14 @@ msgid ""
 "with. See <link xref=\"tooling\"/> for more information, including build "
 "system integration instructions."
 msgstr ""
+"Assim que os testes de unidade com alta cobertura de código forem escritos, "
+"eles podem ser executados sob várias ferramentas de análise dinâmica, tal "
+"como <link xref=\"tooling#valgrind\">Valgrind</link> para verificar por "
+"vazamentos, erros de threading, problemas de alocação, etc. por toda a base "
+"de código. Quanto maior a cobertura de código dos testes unitários, mais "
+"confiança haverá nos resultados do Valgrind. Veja <link xref=\"tooling\"/> "
+"para mais informações, incluindo instruções sobre integração de sistema de "
+"compilação."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:183
@@ -9485,6 +9685,12 @@ msgid ""
 "the actual project code. (False positives which need to be fixed by fixing "
 "the unit tests.)"
 msgstr ""
+"Mais importante de tudo é que isso significa que os testes de unidade não "
+"devem eles mesmos resultar em vazamento de memória ou de outros recursos e, "
+"de forma similar, não devem ter qualquer problemas de threading. Qualquer um "
+"desses problemas seria efetivamente um falso positivo na análise do código "
+"projeto. (Falsos positivos que precisam ser resolvidos corrigindo os testes "
+"de unidade.)"
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:193
@@ -9501,6 +9707,13 @@ msgid ""
 "drastically reduce the time needed for writing unit tests, for code in these "
 "specific domains."
 msgstr ""
+"Certos tipos de códigos são bem repetitivos e exigem muitos testes de "
+"unidade para obter uma boa cobertura de código; mas são apropriados para <"
+"link href=\"http://en.wikipedia.org/wiki/Test_data_generation\">geração de "
+"dados de teste</link>, na qual uma ferramenta é usada para automaticamente "
+"gerar vetores de teste para o código. Isso pode reduzir drasticamente o "
+"tempo necessário para escrever testes de unidade, para código nesses domínio "
+"em específico."
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:205
@@ -9517,6 +9730,12 @@ msgid ""
 "used to generate test vectors for all types of valid and invalid input "
 "according to the schema."
 msgstr ""
+"Um exemplo de um domínio acessível para geração de dados de teste é análise, "
+"na qual exige-se que os dados a serem analisados sigam um esquema estrito — "
+"esse é o caso para documentos XML e JSON. Para JSON, uma ferramenta como <"
+"link href=\"http://people.collabora.com/~pwith/walbottle/\">Walbottle</link> "
+"pode ser usado para gerar vetores de teste para todos tipos de entrada "
+"válida e inválida de acordo com o esquema."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:216
@@ -9525,6 +9744,9 @@ msgid ""
 "org/\">JSON Schema</link> defined for it, which can then be passed to "
 "Walbottle to generate test vectors:"
 msgstr ""
+"Todo tipo de documento JSON deve ter um <link href=\"http://json-schema.org/"
+"\">JSON Schema</link> definido para ele, que pode então ser passado para "
+"Walbottle para gerar vetores de teste:"
 
 #. (itstool) path: section/code
 #: C/unit-testing.page:221
@@ -9534,6 +9756,9 @@ msgid ""
 "json-schema-generate --valid-only schema.json\n"
 "json-schema-generate --invalid-only schema.json"
 msgstr ""
+"\n"
+"json-schema-generate --valid-only schema.json\n"
+"json-schema-generate --invalid-only schema.json"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:225
@@ -9542,12 +9767,15 @@ msgid ""
 "tests. The JSON instances generated by <cmd>--valid-only</cmd> should be "
 "accepted; those from <cmd>--invalid-only</cmd> should be rejected."
 msgstr ""
+"Esses vetores de teste podem, então, ser passados para o código sob teste em "
+"seus testes de unidade. As instâncias JSON geradas por <cmd>--valid-"
+"only</cmd> deve ser aceita; aqueles de <cmd>--invalid-only</cmd> deve ser "
+"rejeitado."
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:234
-#, fuzzy
 msgid "Writing Testable Code"
-msgstr "CÓDIGO[:...]"
+msgstr "Escrevendo código testável"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:236
@@ -9556,6 +9784,9 @@ msgid ""
 "affects API design and architecture in fundamental ways. A few key "
 "principles:"
 msgstr ""
+"O código deve ser escrito com testabilidade em mente desde o estágio de "
+"design, já que isso afeta o design de API e arquitetura em formas "
+"fundamentais. Alguns princípios chaves:"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:242
@@ -9563,6 +9794,9 @@ msgid ""
 "Do not use global state. Singleton objects are usually a bad idea as they "
 "can’t be instantiated separately or controlled in the unit tests."
 msgstr ""
+"Não use um estado global. Objetos “sigleton” são geralmente uma má ideia, "
+"pois eles não podem ser instanciados separadamente ou controlados nos testes "
+"de unidade."
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:246
@@ -9579,11 +9813,24 @@ msgid ""
 "database API; for testing, it would be a mock object which checks the "
 "requests given to it and returns hard-coded responses for various tests."
 msgstr ""
+"Separe o uso de estado externo, tal como banco de dados, conectividade ou "
+"sistema de arquivos. Os testes de unidade podem, então, substituir os "
+"acessos a estado externo com objetos simulados (mock). Uma abordagem comum a "
+"isso é usar injeção de dependência para passar um objeto interfaceador de "
+"sistema de arquivos para o código sob teste. Por exemplo, uma classe não "
+"deve carregar um banco de dados global (de uma localização fixa no sistema "
+"de arquivos) porque os testes de unidade poderiam acabar sobrescrevendo a "
+"cópia do sistema em execução do banco de dados, e nunca poderia ser "
+"executado em paralelo. A eles deve ser passado um objeto que fornece uma "
+"interface para o banco de dados: em um sistema de produção, isso seria um "
+"interfaceador magro em volta da API de banco de dados; para teste, seria um "
+"objeto simulado que verifica as requisições fornecidas a ele e retorna "
+"respostas codificadas para vários testes."
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:260
 msgid "Expose utility functions where they might be generally useful."
-msgstr ""
+msgstr "Exponha funções utilitárias onde geralmente elas podem ser úteis."
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:263
@@ -9592,11 +9839,15 @@ msgid ""
 "then linked together with a minimal amount of glue code into the overall "
 "executable. Each can be tested separately."
 msgstr ""
+"Divida projetos em coleções de bibliotecas pequenas e privadas, que são "
+"então vinculadas com uma quantidade mínima de código colante no executável "
+"global."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:274
 msgid "The topic of software testability is covered in the following articles:"
 msgstr ""
+"O tópico de estabilidade de API é coberto nos seguintes artigos (em inglês):"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:278
@@ -9604,6 +9855,8 @@ msgid ""
 "<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Design "
 "for testability</link>"
 msgstr ""
+"<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Design "
+"por testabilidade</link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:282
@@ -9611,6 +9864,8 @@ msgid ""
 "<link href=\"http://en.wikipedia.org/wiki/Software_testability\">Software "
 "testability</link>"
 msgstr ""
+"<link href=\"http://en.wikipedia.org/wiki/Software_testability\">"
+"testabilidade de software</link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:286
@@ -9618,6 +9873,8 @@ msgid ""
 "<link href=\"http://en.wikipedia.org/wiki/Dependency_injection\">Dependency "
 "injection</link>"
 msgstr ""
+"<link href=\"http://en.wikipedia.org/wiki/Dependency_injection\">Injeção de "
+"dependência</link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:290
@@ -9625,6 +9882,8 @@ msgid ""
 "<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Software "
 "design for testing</link>"
 msgstr ""
+"<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Design de "
+"software para teste</link>"
 
 #. (itstool) path: info/desc
 #: C/version-control.page:17
@@ -9645,6 +9904,12 @@ msgid ""
 "href=\"https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf"
 "\">git cheatsheet is here</link>."
 msgstr ""
+"git é usado para controle de versão para todos os projetos do GNOME. Essa "
+"página presume que tenha um bom conhecimento em trabalhar com git; algum "
+"material introdutório está disponível <link href=\""
+"https://www.atlassian.com/git/tutorials/\">aqui</link> e um <link href=\""
+"https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf\">folha "
+"de dica está aqui</link>."
 
 #. (itstool) path: item/p
 #: C/version-control.page:34
@@ -9652,6 +9917,8 @@ msgid ""
 "Make atomic, revertable commits. (<link xref=\"#guidelines-for-making-commits"
 "\"/>)"
 msgstr ""
+"Faça commits atômicos e reversíveis. (<link xref=\"#guidelines-for-making-"
+"commits\"/>)"
 
 #. (itstool) path: item/p
 #: C/version-control.page:38
@@ -9659,6 +9926,9 @@ msgid ""
 "Include full reasoning in commit messages, plus links to relevant bug "
 "reports or specifications. (<link xref=\"#guidelines-for-making-commits\"/>)"
 msgstr ""
+"Inclua toda a fundamentação nas mensagens de commit, junto com links para "
+"especificações e relatórios de erros relevantes. (<link xref=\"#guidelines-"
+"for-making-commits\"/>)"
 
 #. (itstool) path: item/p
 #: C/version-control.page:43
@@ -9666,6 +9936,8 @@ msgid ""
 "Keep large changes, such as renames, in separate commits. (<link xref="
 "\"#guidelines-for-making-commits\"/>)"
 msgstr ""
+"Mantenha alterações grandes, como renomeações, em commits separados. (<link "
+"xref=\"#guidelines-for-making-commits\"/>)"
 
 #. (itstool) path: item/p
 #: C/version-control.page:47
@@ -9673,19 +9945,18 @@ msgid ""
 "Merge changes from feature branches by rebasing. (<link xref=\"#use-of-git\"/"
 ">)"
 msgstr ""
+"Mescle alterações de ramos de recursos por meio de rebase. (<link xref"
+"=\"#use-of-git\"/>)"
 
 #. (itstool) path: section/title
 #: C/version-control.page:55
-#, fuzzy
 msgid "Use of Git"
-msgstr ""
-"Há várias formas de usar o Git, mas esta é a forma mais simples de se criar "
-"um patch, se você não estiver familiarizado com Git:"
+msgstr "Uso do Git"
 
 #. (itstool) path: section/p
 #: C/version-control.page:57
 msgid "Most GNOME repositories follow these rules:"
-msgstr ""
+msgstr "A maioria dos repositórios do GNOME seguem essas regras:"
 
 #. (itstool) path: item/p
 #: C/version-control.page:61
@@ -9694,6 +9965,9 @@ msgid ""
 "(work-in-progress), the commits’ history must not be modified, as "
 "contributors rely on it."
 msgstr ""
+"Nenhum push forçado. Exceto para ramos com o prefixo <code>wip/</code> ("
+"trabalho em progress), o histórico de commits não deve ser modificado, pois "
+"contribuidores dependem dele."
 
 #. (itstool) path: item/p
 #: C/version-control.page:66
@@ -9701,6 +9975,8 @@ msgid ""
 "Rebase commits rather than merging, to have a linear history (which is "
 "easier to follow)."
 msgstr ""
+"Faça rebase nos commits em vez de merge, para ter um histórico linear (que é "
+"mais fácil de seguir)."
 
 #. (itstool) path: item/p
 #: C/version-control.page:70
@@ -9710,6 +9986,10 @@ msgid ""
 "to also add your nickname to the branch name, as <code>wip/nickname/feature</"
 "code>."
 msgstr ""
+"Trabalhe em ramos de recursos no git do GNOME em ramos <code>wip/</code> e "
+"então aplique rebase no master e merge em fast-foward nas alterações. Também "
+"é uma boa prática adicionar seu apelido ao nome do ramo, como "
+"<code>wip/apelido/recurso</code>."
 
 #. (itstool) path: item/p
 #: C/version-control.page:76
@@ -9717,12 +9997,14 @@ msgid ""
 "Hide <link href=\"https://sethrobertson.github.io/GitBestPractices/#sausage"
 "\">sausage making</link> by squashing commits before merging."
 msgstr ""
+"Oculte “<link href=\"https://sethrobertson.github.io/GitBestPractices/#"
+"sausage\">fazimento de salsicha</link>” (do inglês, “sausage making”) "
+"compactando commits antes de mesclá-los."
 
 #. (itstool) path: section/title
 #: C/version-control.page:84
-#, fuzzy
 msgid "Guidelines for Making Commits"
-msgstr "Commits"
+msgstr "Diretrizes para fazer commits"
 
 #. (itstool) path: section/p
 #: C/version-control.page:86
@@ -9737,6 +10019,16 @@ msgid ""
 "the bug report once the commit has been pushed, so it is easy to find one "
 "from the other."
 msgstr ""
+"Commits devem ser tão pequenos quanto possível, mas não menores. Cada commit "
+"deve resolver um único problema, contendo apenas alterações relacionadas "
+"àquele problema. A mensagem para cada commit deve descrever o problema, "
+"explicar o que o causa e explicar como ele foi corrigido, se isso não foi "
+"óbvio. Se o commit está associado com um relatório de erro, a URI completa "
+"para o relatório de erro deve ser colocado em uma linha dedicada na parte "
+"inferior da mensagem de commit. Similarmente, o ID para o commit do git (do "
+"<cmd>git log --oneline</cmd>) deve ser compiado para o relatório de erro uma "
+"vez que o commit tenha sido enviado, com push, de forma que seja fácil "
+"localizar um por meio do outro."
 
 #. (itstool) path: section/p
 #: C/version-control.page:98
@@ -9747,11 +10039,17 @@ msgid ""
 "commits from modifications to code inside that file or function, so that the "
 "latter changes do not get buried and lost in the former."
 msgstr ""
+"As alterações em cada commit devem ser fáceis de ler. Por exemplo, eles não "
+"devem desnecessariamente alterar espaços em branco e recuo. Alterações "
+"grandes e mecânicas, tal como renomear um arquivo ou função, devem ser "
+"colocadas em commits separados das modificações do código dentro daquele "
+"arquivo ou função, de forma que as alterações posteriores não sejam "
+"enterradas ou perdidas na anterior."
 
 #. (itstool) path: section/p
 #: C/version-control.page:106
 msgid "The following principles give the reasoning for all the advice above:"
-msgstr ""
+msgstr "Os princípios a seguir fundamentam todos os conselhos acima:"
 
 #. (itstool) path: item/p
 #: C/version-control.page:110
@@ -9760,6 +10058,9 @@ msgid ""
 "otherwise <link href=\"http://git-scm.com/book/en/v2/Git-Tools-Debugging-"
 "with-Git#Binary-Search\">bisection</link> is impossible."
 msgstr ""
+"Cada commit deve levar o repositório a partir de um estado de trabalho para "
+"outro, do contrário <link href=\"http://git-scm.com/book/en/v2/Git-Tools-"
+"Debugging-with-Git#Binary-Search\">bissecção</link> é impossível."
 
 #. (itstool) path: item/p
 #: C/version-control.page:116
@@ -9768,6 +10069,9 @@ msgid ""
 "the commit was a bad idea, <cmd>git revert <var>commit ID</var></cmd> should "
 "take the repository from a working state to another working state."
 msgstr ""
+"Cada commit deve ser individualmente reversível. Se posteriormente o commit "
+"acabar sendo uma ideia ruim, <cmd>git revert <var>ID do commit</var></cmd> "
+"deve levar o repositório de um estado de trabalho para outro."
 
 #. (itstool) path: item/p
 #: C/version-control.page:122
@@ -9778,6 +10082,11 @@ msgid ""
 "understandable by a second developer without having to trace through the "
 "changes and work out what they do."
 msgstr ""
+"A fundamentação de cada commit, e sua relação com recursos externos como "
+"especificações e relatórios de erro, deve estar clara de forma que aqueles "
+"commits escritos por um desenvolvedor no passado devem ainda ser entendíveis "
+"por um segundo desenvolvedor sem ter que seguir todo rastro de alterações e "
+"descobrir o que eles fazem."
 
 #. (itstool) path: item/p
 #: C/version-control.page:129
@@ -9785,12 +10094,13 @@ msgid ""
 "Each commit should be written once, and designed to be read many times, by "
 "many reviewers and future programmers."
 msgstr ""
+"Cada commit deve ser escrito uma vez e projetado para ser lido muitas vezes, "
+"por muitos revisores e futuros programadores."
 
 #. (itstool) path: section/title
 #: C/version-control.page:137
-#, fuzzy
 msgid "Merging Procedure"
-msgstr "Procedimento"
+msgstr "Procedimento de mesclagem"
 
 #. (itstool) path: section/p
 #: C/version-control.page:139
@@ -9798,6 +10108,8 @@ msgid ""
 "To merge a feature branch named <code>my-branch</code> into master, use the "
 "following commands:"
 msgstr ""
+"Para mesclar um ramo de recursos chamado <code>meu-ramo</code> no master, "
+"use os seguintes comandos:"
 
 #. (itstool) path: section/code
 #: C/version-control.page:143
@@ -9819,6 +10131,21 @@ msgid ""
 "git push origin :wip/<var>my-branch</var>\n"
 "git branch -D wip/<var>my-branch</var>"
 msgstr ""
+"\n"
+"git checkout master\n"
+"git pull\n"
+"\n"
+"git checkout wip/<var>meu-ramo</var>\n"
+"git rebase --interactive master\n"
+"# Certifique-se que o rebase funcione com sucesso; teste as alterações\n"
+"\n"
+"git checkout master\n"
+"git merge wip/<var>meu-ramo</var>\n"
+"git push\n"
+"\n"
+"# wip/<var>meu-ramo</var> agora pode ser excluído\n"
+"git push origin :wip/<var>meu-ramo</var>\n"
+"git branch -D wip/<var>meu-ramo</var>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:164
@@ -9826,12 +10153,16 @@ msgid ""
 "<link href=\"https://sethrobertson.github.io/GitBestPractices/\">Git best "
 "practices</link>"
 msgstr ""
+"<link href=\"https://sethrobertson.github.io/GitBestPractices/\">Melhores "
+"práticas com git</link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:167
 msgid ""
 "<link href=\"https://help.github.com/categories/using-git/\">Git FAQ</link>"
 msgstr ""
+"<link href=\"https://help.github.com/categories/using-git/\">Perguntas "
+"frequentes do git</link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:170
@@ -9839,6 +10170,8 @@ msgid ""
 "<link href=\"https://www.atlassian.com/git/tutorials/\">Atlassian git "
 "tutorial</link>"
 msgstr ""
+"<link href=\"https://www.atlassian.com/git/tutorials/\">Tutorial de git do "
+"Atlassian</link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:173
@@ -9846,22 +10179,25 @@ msgid ""
 "<link href=\"http://git-scm.com/docs/gittutorial\">Official git tutorial</"
 "link>"
 msgstr ""
+"<link href=\"http://git-scm.com/docs/gittutorial\">Tutorial oficial do "
+"git</link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:176
 msgid "<link href=\"https://try.github.io/\">Interactive git tutorial</link>"
-msgstr ""
+msgstr "<link href=\"https://try.github.io/\">Tutorial interativo de git</link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:179
 msgid ""
 "<link href=\"http://www.git-tower.com/learn/\">git-tower tutorial</link>"
 msgstr ""
+"<link href=\"http://www.git-tower.com/learn/\">Tutorial git-tower</link>"
 
 #. (itstool) path: info/desc
 #: C/versioning.page:17
 msgid "Versioning and releasing libraries and applications"
-msgstr "Versionando e lançando bibliotecas e aplicativos"
+msgstr "Versionamento e lançamento de bibliotecas e aplicativos"
 
 #. (itstool) path: synopsis/p
 #: C/versioning.page:25
@@ -9870,6 +10206,10 @@ msgid ""
 "libtool version specified in addition to their package version. Applications "
 "just have a package version."
 msgstr ""
+"O versionamento é diferente para módulos de bibliotecas e aplicativos: as "
+"bibliotecas precisam de uma versão de libtool especificada junto com a "
+"versão de seu pacote. Por sua vez, aplicativos só possuem uma versão de "
+"pacote."
 
 #. (itstool) path: item/p
 #: C/versioning.page:32
@@ -9877,6 +10217,8 @@ msgid ""
 "Libraries and applications have a package version of the form <em>major."
 "minor.micro</em>. (<link xref=\"#package-versioning\"/>)"
 msgstr ""
+"Bibliotecas e aplicativos possuem uma versão de pacote na forma de "
+"<em>maior.menor.micro</em>. (<link xref=\"#package-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:36
@@ -9884,6 +10226,8 @@ msgid ""
 "Libraries additionally have a libtool version of the form <em>current:"
 "revision:age</em>. (<link xref=\"#libtool-versioning\"/>)"
 msgstr ""
+"Adicionalmente, bibliotecas possuem uma versão de libtool na forma de "
+"<em>atual:revisão:idade</em>. (<link xref=\"#libtool-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:40
@@ -9891,6 +10235,9 @@ msgid ""
 "Version numbers should be updated for each release (using release and post-"
 "release increments). (<link xref=\"#release-process\"/>)"
 msgstr ""
+"Os números de versão devem ser atualizados a cada lançamento (usando "
+"incrementos de lançamento e pós-lançamento). (<link xref=\"#release-process\""
+"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:44
@@ -9898,6 +10245,8 @@ msgid ""
 "Package versions should be incremented for feature changes or additions. "
 "(<link xref=\"#package-versioning\"/>)"
 msgstr ""
+"As versões de pacotes devem ser incrementados por alterações ou adições de "
+"recursos. (<link xref=\"#package-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:48
@@ -9905,6 +10254,8 @@ msgid ""
 "Libtool versions should be updated for API changes or additions. (<link xref="
 "\"#libtool-versioning\"/>)"
 msgstr ""
+"As versões de libtool devem ser atualizadas por alterações ou adições de "
+"API. (<link xref=\"#libtool-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:52
@@ -9912,12 +10263,14 @@ msgid ""
 "Even/odd <em>minor</em> package versions can be used respectively for stable/"
 "unstable releases. (<link xref=\"#stable-unstable-versions\"/>)"
 msgstr ""
+"Versões <em>menores</em> pares/ímpares de pacotes podem ser usadas "
+"respectivamente para lançamentos estáveis/instáveis. (<link xref=\"#stable-"
+"unstable-versions\"/>)"
 
 #. (itstool) path: section/title
 #: C/versioning.page:60
-#, fuzzy
 msgid "Package Versioning"
-msgstr "Versionamento"
+msgstr "Versionamento de pacote"
 
 #. (itstool) path: section/p
 #: C/versioning.page:62
@@ -9925,6 +10278,8 @@ msgid ""
 "Both libraries and applications have a package version of the form <em>major."
 "minor.micro</em>."
 msgstr ""
+"Bibliotecas e aplicativos possuem uma versão de pacote na forma de "
+"<em>maior.menor.micro</em>."
 
 #. (itstool) path: section/p
 #: C/versioning.page:67
@@ -9936,6 +10291,12 @@ msgid ""
 "allow for <link xref=\"parallel-installability\">parallel installability</"
 "link>). Package versions are updated by the following rules:"
 msgstr ""
+"O número de versão de pacote é aquele passado para <code>AC_INIT()</code> e "
+"que geralmente é conhecido como número de versão do projeto. Por exemplo, o "
+"pacote Debian para uma biblioteca vai usar a versão de pacote da biblioteca ("
+"apesar de também poder incluir o número de versão maior no nome de pacote "
+"para permitir <link xref=\"parallel-installability\">instalabilidade "
+"paralela</link>). Versões de pacotes são atualizadas pelas seguintes regras:"
 
 #. (itstool) path: item/p
 #: C/versioning.page:77
@@ -9944,6 +10305,10 @@ msgid ""
 "library, or making a large change to an application which affects everything "
 "(such as a UI redesign), increment major and set minor and micro to 0."
 msgstr ""
+"Se for quebrar a <link xref=\"api-stability\">compatibilidade de API</link> "
+"em uma biblioteca, ou fazer uma alterações a um aplicativo que afeta tudo ("
+"tal como um redesenho da interface gráfica), incremente a versão maior e "
+"defina a menor e micro para 0."
 
 #. (itstool) path: item/p
 #: C/versioning.page:83
@@ -9951,6 +10316,8 @@ msgid ""
 "Otherwise, if changing or adding a feature, or adding any API, increment "
 "minor and set micro to 0."
 msgstr ""
+"Do contrário, se for alterar ou adicionar um recurso, ou adicionar qualquer "
+"API, incremente a versão menor e defina micro para 0."
 
 #. (itstool) path: item/p
 #: C/versioning.page:87
@@ -9958,18 +10325,21 @@ msgid ""
 "Otherwise (if making a release containing only bug fixes and translation "
 "updates), increment micro."
 msgstr ""
+"Do contrário (se for fazer um lançamento contendo apenas correções de erros "
+"e atualizações de tradução), incremente a versão micro."
 
 #. (itstool) path: section/p
 #: C/versioning.page:93
 msgid ""
 "Note that the minor version number should be updated if any API is added."
 msgstr ""
+"Note que o número da versão menor deve ser atualizada se qualquer API for "
+"adicionada."
 
 #. (itstool) path: section/title
 #: C/versioning.page:99
-#, fuzzy
 msgid "Libtool Versioning"
-msgstr "libtool"
+msgstr "Versionamento de libtool"
 
 #. (itstool) path: section/p
 #: C/versioning.page:101
@@ -9982,6 +10352,14 @@ msgid ""
 "Furthermore, the two version numbers have different semantics, and cannot be "
 "automatically generated from each other."
 msgstr ""
+"Bibliotecas possuem dois números de versão: uma versão de libtool que "
+"rastreia a compatibilidade reversa com ABI (veja <link xref=\"api-stability\""
+"/>) e uma versão de pacote que rastreia alterações de recursos. Esses são "
+"normalmente incrementados em sincronização, mas devem ser mantidos separados "
+"por causa de compatibilidade reversa com ABI não está necessariamente "
+"relacionada a alterações de recursos ou correções de erros. Além do mais, os "
+"dois números de versões possuem semânticas diferentes e não podem ser "
+"gerados automaticamente para cada um."
 
 #. (itstool) path: section/p
 #: C/versioning.page:112
@@ -9992,6 +10370,11 @@ msgid ""
 "\"http://www.gnu.org/s/libtool/manual/html_node/Updating-version-info.html"
 "\">libtool manual</link>."
 msgstr ""
+"Uma boa visão geral do versionamento de libtool, e as diferenças para "
+"versionamento de pacote, é fornecida no <link href=\""
+"https://autotools.io/libtool/version.html\">Autotools MythBuster</link>; "
+"outro está no <link href=\"http://www.gnu.org/s/libtool/manual/html_node"
+"/Updating-version-info.html\">manual do libtool</link>."
 
 #. (itstool) path: section/p
 #: C/versioning.page:121
@@ -10000,6 +10383,9 @@ msgid ""
 "below. This is a typical <file>configure.ac</file> snippet for setting up "
 "libtool versioning:"
 msgstr ""
+"Para atualizar a versão do libtool, siga o algoritmo fornecido nos comentários "
+"abaixo. Esse é tipicamente um bloco de código do <file>configure.ac</file> "
+"para configurar versionamento de libtool:"
 
 #. (itstool) path: section/code
 #: C/versioning.page:127
@@ -10018,6 +10404,21 @@ msgid ""
 "#      release, then set age to 0.\n"
 "AC_SUBST([LT_VERSION],[0:0:0])"
 msgstr ""
+"\n"
+"# Before making a release, the LT_VERSION string should be modified. The\n"
+"# string is of the form c:r:a. Follow these instructions sequentially:\n"
+"#   1. If the library source code has changed at all since the last update, "
+"then\n"
+"#      increment revision (‘c:r:a’ becomes ‘c:r+1:a’).\n"
+"#   2. If any interfaces have been added, removed, or changed since the "
+"last\n"
+"#      update, increment current, and set revision to 0.\n"
+"#   3. If any interfaces have been added since the last public release, "
+"then\n"
+"#      increment age.\n"
+"#   4. If any interfaces have been removed or changed since the last public\n"
+"#      release, then set age to 0.\n"
+"AC_SUBST([LT_VERSION],[0:0:0])"
 
 #. (itstool) path: section/p
 #: C/versioning.page:140
@@ -10025,17 +10426,19 @@ msgid ""
 "The following snippet can be used in a <file>Makefile.am</file> to pass that "
 "version info to libtool:"
 msgstr ""
+"O bloco de código a seguir pode ser usado em um <file>Makefile.am</file> "
+"para passar aquela informação de versão para o libtool:"
 
 #. (itstool) path: section/code
 #: C/versioning.page:144
 #, no-wrap
 msgid "my_library_la_LDFLAGS = -version-info $(LT_VERSION)"
-msgstr ""
+msgstr "minha_biblioteca_la_LDFLAGS = -version-info $(LT_VERSION)"
 
 #. (itstool) path: section/title
 #: C/versioning.page:148
 msgid "Stable and Unstable Package Versions"
-msgstr ""
+msgstr "Versões estáveis e instáveis de pacote"
 
 #. (itstool) path: section/p
 #: C/versioning.page:150
@@ -10046,6 +10449,11 @@ msgid ""
 "unstable. The 3.19.* versions can be seen as alpha and beta releases of the "
 "3.20 version."
 msgstr ""
+"A maioria dos módulos do GNOME seguem uma convenção para lançamentos "
+"estáveis e instáveis. A versão menor é par para lançamentos estáveis e é "
+"ímpar para lançamentos instáveis. Por exemplo, as versões 3.20.* são "
+"estáveis, mas as versões 3.19.* são instáveis. As versões 3.19.* podem ser "
+"vistas como lançamentos alfa e beta da versão 3.20."
 
 #. (itstool) path: section/p
 #: C/versioning.page:158
@@ -10056,17 +10464,22 @@ msgid ""
 "change or remove API which was added in a previous micro release in that "
 "minor series."
 msgstr ""
+"Uma nova versão micro <em>estável</em> (ex.: 3.20.0 → 3.20.1) não adiciona "
+"novos recursos, apenas atualizações de tradução e correções de erro. Por "
+"outro lado, lançamentos micro <em>instáveis</em> (ex.: 3.19.1 → 3.19.2) "
+"podem adicionar API, ou alterar ou remover API que foi adicionada em um "
+"lançamento micro anterior naquela séries menores."
 
 #. (itstool) path: section/p
 #: C/versioning.page:166
 msgid "The libtool version should be updated only for stable package versions."
 msgstr ""
+"A versão libtool deve ser atualizada apenas para versões de pacote estável."
 
 #. (itstool) path: section/title
 #: C/versioning.page:172
-#, fuzzy
 msgid "Release Process"
-msgstr "Versão"
+msgstr "Processo de lançamento"
 
 #. (itstool) path: section/p
 #: C/versioning.page:174
@@ -10076,6 +10489,10 @@ msgid ""
 "the package version number immediately afterwards (this is called a post-"
 "release increment)."
 msgstr ""
+"O processo padrão para fazer um lançamento de um módulo incrementa a versão "
+"de libtool (se o módulo é uma biblioteca) em tempo de lançamento e, "
+"imediatamente após, incrementa o número de versão do pacote (isso é chamado "
+"de “incremento pós-lançamento” ou, em inglês, “post-release increment”)"
 
 #. (itstool) path: section/p
 #: C/versioning.page:181
@@ -10086,6 +10503,11 @@ msgid ""
 "not outdated (still equal to the previous release) during the development "
 "cycle."
 msgstr ""
+"Atualizar as versões de libtool em tempo de lançamento significa que eles "
+"são incrementados apenas uma vez para todas as alterações de ABI em um "
+"lançamento. O uso de incremento pós-lançamento para versões de pacotes "
+"significa que o número de versão de pacote não está desatualizado (ainda "
+"igual ao lançamento anterior) durante o ciclo de desenvolvimento."
 
 #. (itstool) path: section/p
 #: C/versioning.page:189
@@ -10093,16 +10515,20 @@ msgid ""
 "The release process (based on the <link href=\"https://wiki.gnome.org/"
 "MaintainersCorner/Releasing\">GNOME release process</link>):"
 msgstr ""
+"O processo de lançamento (baseado no <link href=\""
+"https://wiki.gnome.org/MaintainersCorner/Releasing\">processo de lançamento "
+"do GNOME</link>):"
 
 #. (itstool) path: item/p
 #: C/versioning.page:195
 msgid "Make sure code is up to date: <cmd>git pull</cmd>"
-msgstr ""
+msgstr "Certifique-se de que o código esteja atualizado: <cmd>git pull</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:199
 msgid "Make sure you have no local changes: <cmd>git status</cmd>"
 msgstr ""
+"Certifique-se de que você tenha nenhuma alteração local: <cmd>git status</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:202
@@ -10110,12 +10536,13 @@ msgid ""
 "If the release is for a stable package version, increment the libtool "
 "version number in <file>configure.ac</file> (if it exists)"
 msgstr ""
+"Se o lançamento é para uma versão de pacote estável, incremente o número de "
+"versão de libtool no <file>configure.ac</file> (se ele existir)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:206
-#, fuzzy
 msgid "Add an entry to the <file>NEWS</file> file"
-msgstr "Converte um arquivo AppData para formato NEWS"
+msgstr "Adicione uma entrada ao arquivo <file>NEWS</file>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:210
@@ -10123,12 +10550,16 @@ msgid ""
 "Run <cmd>./autogen.sh &amp;&amp; make &amp;&amp; make install &amp;&amp; "
 "make distcheck</cmd> and ensure it succeeds"
 msgstr ""
+"Execute <cmd>./autogen.sh &amp;&amp; make &amp;&amp; make install &amp;&amp; "
+"make distcheck</cmd> e certifique-se de que foi concluído com sucesso"
 
 #. (itstool) path: item/p
 #: C/versioning.page:216
 msgid ""
 "Fix any issues which come up, commit those changes, and restart at step 3"
 msgstr ""
+"Corrija quaisquer problemas que aparecerem, faça o commit das alterações "
+"e reinicie no passo 3"
 
 #. (itstool) path: item/p
 #: C/versioning.page:222
@@ -10137,11 +10568,14 @@ msgid ""
 "distribution”, run <cmd>git commit -a -m \"Release version x.y.z\"</cmd> "
 "(where ‘x.y.z’ is the package version number)"
 msgstr ""
+"Se <cmd>make distcheck</cmd> finalizar com “[archive] is ready for "
+"distribution”, execute <cmd>git commit -a -m \"Release version x.y.z\"</cmd> "
+"(sendo “x.y.z” o número da versão do pacote)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:228 C/versioning.page:263
 msgid "Run <cmd>git push</cmd>"
-msgstr ""
+msgstr "Execute <cmd>git push</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:232
@@ -10152,6 +10586,12 @@ msgid ""
 "linear Git history (<link xref=\"version-control#use-of-git\"/>). If you "
 "prefer to have a linear history, you need to restart at step 1."
 msgstr ""
+"Se isso falhar em razão de outros commits terem sido enviados (push) neste "
+"meio tempo, execute <cmd>git pull</cmd> para mesclar seu commit no ramo "
+"seguido por um segundo <cmd>git push</cmd>. Isso é uma exceção às diretrizes "
+"do GNOME de ter um histórico de git linear (<link xref=\"version-control#use-"
+"of-git\"/>). Se você prefere ter um histórico linear, você precisa reiniciar "
+"o passo 1."
 
 #. (itstool) path: item/p
 #: C/versioning.page:242
@@ -10159,6 +10599,8 @@ msgid ""
 "Tag the release: <cmd>git tag -s x.y.z</cmd> (where ‘x.y.z’ is the package "
 "version number)"
 msgstr ""
+"Crie uma tag de lançamento: <cmd>git tag -s x.y.z</cmd> (sendo “x.y.z” o "
+"número de versão do pacote)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:246
@@ -10166,6 +10608,8 @@ msgid ""
 "Run <cmd>git push origin x.y.z</cmd> (where ‘x.y.z’ is the package version "
 "number)"
 msgstr ""
+"Execute <cmd>git push origin x.y.z</cmd> (sendo “x.y.z” o número de versão "
+"do pacote)"
 
 #. (itstool) path: section/p
 #: C/versioning.page:252
@@ -10173,16 +10617,18 @@ msgid ""
 "The release is now complete, and the post-release version increment can be "
 "done:"
 msgstr ""
+"O lançamento agora está completo e o incremento de versão pós-lançamento "
+"pode ser feita:"
 
 #. (itstool) path: item/p
 #: C/versioning.page:257
 msgid "Increment the package version number in <file>configure.ac</file>"
-msgstr ""
+msgstr "Incremente o número de versão de pacote no <file>configure.ac</file>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:260
 msgid "Run <cmd>git commit -a -m \"Post-release version increment\"</cmd>"
-msgstr ""
+msgstr "Execute <cmd>git commit -a -m \"Post-release version increment\"</cmd>"
 
 #. (itstool) path: section/p
 #: C/versioning.page:268
@@ -10190,6 +10636,8 @@ msgid ""
 "The package archive generated by <cmd>make distcheck</cmd> can now be "
 "uploaded to download.gnome.org or distributed in other ways."
 msgstr ""
+"O arquivo de pacote gerado por <cmd>make distcheck</cmd> agora pode ser "
+"enviado para download.gnome.org ou distribuído em outras formas."
 
 #. (itstool) path: info/desc
 #: C/writing-good-code.page:25
