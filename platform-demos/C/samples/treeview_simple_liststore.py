@@ -31,7 +31,7 @@ class MyWindow(Gtk.ApplicationWindow):
         # a treeview to see the data stored in the model
         view = Gtk.TreeView(model=listmodel)
         # for each column
-        for i in range(len(columns)):
+        for i, column in enumerate(columns):
             # cellrenderer to render the text
             cell = Gtk.CellRendererText()
             # the text in the first column should be in boldface
@@ -39,7 +39,7 @@ class MyWindow(Gtk.ApplicationWindow):
                 cell.props.weight_set = True
                 cell.props.weight = Pango.Weight.BOLD
             # the column is created
-            col = Gtk.TreeViewColumn(columns[i], cell, text=i)
+            col = Gtk.TreeViewColumn(column, cell, text=i)
             # and it is appended to the treeview
             view.append_column(col)
 
