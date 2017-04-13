@@ -11,29 +11,39 @@
       <email its:translate="no">federico@gnome.org</email>
       <years>2013</years>
     </credit>
+    <credit type="author copyright">
+      <name>Sébastien Wilmet</name>
+      <email its:translate="no">swilmet@gnome.org</email>
+      <years>2017</years>
+    </credit>
 
     <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Real-time spell checking for text widgets</desc>
+    <desc>Spell-checking for text widgets</desc>
   </info>
 
-<title>Enchant</title>
+<title>Spell-checking</title>
 
   <p>
-    Enchant provides an API to do spell-checking related tasks.  You can ask it
-    if a word is misspelled, or ask for suggestions for a misspelled word.  On
-    a higher level, a library such as GtkSpell lets you add "underline
-    squiggles" for misspelled words to text widgets.
+    Several libraries are available to do spell-checking related tasks: Enchant
+    and gspell.
   </p>
 
   <p>
-    In GNOME, Enchant gets used in text-heavy applications like Empathy (an
-    instant messaging client) and Epiphany (a web browser, for text entry in
-    web forms).
+    Enchant provides a low-level API.  You can ask it if a word is misspelled,
+    or ask for suggestions for a misspelled word.  On a higher level, gspell
+    integrates spell-checking for GTK+ text widgets (both <code>GtkEntry</code>
+    and <code>GtkTextView</code>).
+  </p>
+
+  <p>
+    In GNOME, those libraries get used in text-heavy applications like gedit (a
+    text editor) and Epiphany (a web browser, for text entry in web forms).
   </p>
 
   <list style="compact">
-    <item><p><link href="http://www.abisource.com/projects/enchant/">Enchant home page</link></p></item>
+    <item><p><link href="https://www.abisource.com/projects/enchant/">Enchant home page</link></p></item>
+    <item><p><link href="https://wiki.gnome.org/Projects/gspell">gspell home page</link></p></item>
   </list>
 
 </page>
