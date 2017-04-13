@@ -1,10 +1,10 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
-      id="tech-enchant">
+      id="tech-spell-checking">
 
   <info>
-    <link type="guide" xref="tech" group="enchant"/>
+    <link type="guide" xref="tech" group="spell-checking"/>
 
     <credit type="author copyright">
       <name>Federico Mena Quintero</name>
