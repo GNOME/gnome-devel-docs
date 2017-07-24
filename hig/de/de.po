@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-03-02 12:35+0000\n"
-"PO-Revision-Date: 2017-03-06 20:38+0100\n"
+"POT-Creation-Date: 2017-07-01 10:15+0000\n"
+"PO-Revision-Date: 2017-07-24 15:58+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.2\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -2751,7 +2751,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/header-bar-menus.page:8
 msgid "Common menus shown on the right side of a header bar"
-msgstr ""
+msgstr "An der rechten Seite einer Kopfleiste üblicherweise angezeigte Menüs"
 
 #. (itstool) path: page/title
 #: C/header-bar-menus.page:16
@@ -2789,6 +2789,10 @@ msgid ""
 "This ensures that the header bar isn’t overwhelmed with less interesting or "
 "useful controls."
 msgstr ""
+"Während die am häufigsten verwendeten Aktionen direkt in der Kopfleiste "
+"platziert werden sollten, bietet ein Kopfleistenmenü Zugriff auf weniger oft "
+"verwendete Aktionen. Dadurch wird die Kopfleiste nicht mit weniger wichtigen "
+"oder nützlichen Bedienelementen überschwemmt."
 
 #. (itstool) path: page/p
 #: C/header-bar-menus.page:24
@@ -2796,6 +2800,9 @@ msgid ""
 "In this way, the header bar menus help to create focused views that guide "
 "the user towards the most interesting and useful functionality."
 msgstr ""
+"Auf diese Weise helfen Kopfleistenmenüs beim Erstellen fokussierter "
+"Ansichten, die den Benutzer auf die interessantesten und nützlichsten "
+"Funktionen lenken."
 
 #. (itstool) path: section/p
 #: C/header-bar-menus.page:29
@@ -2817,6 +2824,12 @@ msgid ""
 "or <link xref=\"popovers\">popovers</link> are a better choice for this "
 "situation."
 msgstr ""
+"Kopfleistenmenüs sind nicht die beste Wahl zum Anwenden von Aktionen auf "
+"ausgewählte Inhalte: Wenn keine Inhalt ausgewählt ist, enthält das Menü "
+"wenig hilfreiche nicht anklickbare Einträge, und wenn Inhalt ausgewählt ist, "
+"werden mögliche Aktionen nicht angeboten. <link xref=\"selection-mode"
+"\">Auswahlmodus</link> oder <link xref=\"popovers\">Einblendmenüs</link> "
+"sind eine bessere Lösung für solche Situationen."
 
 #. (itstool) path: section/title
 #: C/header-bar-menus.page:36
@@ -2988,6 +3001,10 @@ msgid ""
 "this will help users to understand the primary functionality provided by the "
 "window, and will ensure that the window can be resized to narrow widths."
 msgstr ""
+"Sorgen Sie dafür, dass Ihre Kopfleiste möglichst wenige Bedienelemente "
+"enthält. Das hilft den Benutzern beim besseren Verständnis der primären "
+"Funktionalität des Fensters und stellt außerdem sicher, dass das Fenster auf "
+"eine möglichst geringe Breite reduziert werden kann."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:44
@@ -4962,6 +4979,9 @@ msgid ""
 "standard <gui>Save As</gui> dialog, and save the file with the chosen file "
 "name."
 msgstr ""
+"Speichert den Inhalt unter einem neuen Dateinamen. Dem Benutzer wird der "
+"standardmäßige <gui>Save As</gui>-Dialog angezeigt und die Datei unter dem "
+"gewählten Namen gespeichert."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:345
@@ -6205,6 +6225,8 @@ msgid ""
 "As a rule of thumb, avoid using several lists in the same window, "
 "particularly primary windows."
 msgstr ""
+"Als Faustregel gilt, dass Sie verschiedene Listen im gleichen Fenster "
+"vermeiden sollten, insbesondere in primären Fenstern."
 
 #. (itstool) path: item/p
 #: C/lists.page:139
@@ -6213,6 +6235,9 @@ msgid ""
 "items may increase over time. For options lists, check boxes or radio "
 "buttons can be used as an alternative in this case."
 msgstr ""
+"Verwenden Sie keine Listen mit weniger als fünf Einträgen, es sei denn, die "
+"Anzahl der Einträge wächst mit der Zeit. Für Optionslisten können in diesem "
+"Fall alternativ Ankreuzfelder oder Radioknöpfe verwendet werden."
 
 #. (itstool) path: item/p
 #: C/lists.page:140
@@ -6267,6 +6292,9 @@ msgid ""
 "A menu bar incorporates a strip of drop-down menus. It is typically located "
 "at the top of a primary window, below a window title bar."
 msgstr ""
+"Eine Menüleiste enthält eine Aufreihung von Auswahlmenüs. Sie befindet sich "
+"üblicherweise am oberen Rand eines primären Fenster, unterhalb von dessen "
+"Titelleiste."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -6335,6 +6363,10 @@ msgid ""
 "of object it displays. For example, a music player could have a <gui>Music</"
 "gui> instead of a <gui>File</gui> menu."
 msgstr ""
+"Falls Ihre Anwendung nicht dateibasiert arbeitet, benennen Sie dieses Menü "
+"anhand des Objekttyps um, den es darstellt. Beispielsweise könnte ein "
+"Musikwiedergabeprogramm ein <gui>Music</gui>- anstelle eines <gui>File</gui>-"
+"Menüs haben."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:57
