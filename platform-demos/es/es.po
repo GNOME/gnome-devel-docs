@@ -5,15 +5,15 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
 # Nicolás Satragno <nsatragno@gnome.org>, 2012, 2013.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015., 2016.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015., 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs.platform-demos.master\n"
-"POT-Creation-Date: 2016-04-07 08:16+0000\n"
-"PO-Revision-Date: 2016-04-07 12:49+0200\n"
+"POT-Creation-Date: 2017-07-01 10:15+0000\n"
+"PO-Revision-Date: 2017-07-25 10:14+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,105 +25,9 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2016\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2017\n"
 "Nicolás Satragno <nsatragno@gmail.com>, 2012 - 2013\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2011"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/02_welcome_to_the_grid.js.page:95
-msgctxt "_"
-msgid ""
-"external ref='media/02_jsgrid_01.png' md5='3fdc22d361cf801f71557fdc76ae5b49'"
-msgstr ""
-"external ref='media/02_jsgrid_01.png' md5='3fdc22d361cf801f71557fdc76ae5b49'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/02_welcome_to_the_grid.js.page:150
-msgctxt "_"
-msgid ""
-"external ref='media/02_jsgrid_02.png' md5='07db86b0043ba5c3c24a90d7322bd81e'"
-msgstr ""
-"external ref='media/02_jsgrid_02.png' md5='07db86b0043ba5c3c24a90d7322bd81e'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/02_welcome_to_the_grid.js.page:167
-msgctxt "_"
-msgid ""
-"external ref='media/02_jsgrid_03.png' md5='817351e73c687d47253c56ed06b6629f'"
-msgstr ""
-"external ref='media/02_jsgrid_03.png' md5='817351e73c687d47253c56ed06b6629f'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/02_welcome_to_the_grid.js.page:197
-msgctxt "_"
-msgid ""
-"external ref='media/02_jsgrid_04.png' md5='eeaead27cee2851877fc3cfe66177f07'"
-msgstr ""
-"external ref='media/02_jsgrid_04.png' md5='eeaead27cee2851877fc3cfe66177f07'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/02_welcome_to_the_grid.js.page:206
-msgctxt "_"
-msgid ""
-"external ref='media/02_jsgrid_05.png' md5='a3ad12f432d5977fc1f66302ad5b7498'"
-msgstr ""
-"external ref='media/02_jsgrid_05.png' md5='a3ad12f432d5977fc1f66302ad5b7498'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/02_welcome_to_the_grid.js.page:217
-msgctxt "_"
-msgid ""
-"external ref='media/02_jsgrid_06.png' md5='450e48dbf6b8f5ce1c208e4812e1714b'"
-msgstr ""
-"external ref='media/02_jsgrid_06.png' md5='450e48dbf6b8f5ce1c208e4812e1714b'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/02_welcome_to_the_grid.js.page:227
-msgctxt "_"
-msgid ""
-"external ref='media/02_jsgrid_07.png' md5='0b304d70728903fbb2601d55bf00fdb9'"
-msgstr ""
-"external ref='media/02_jsgrid_07.png' md5='0b304d70728903fbb2601d55bf00fdb9'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/02_welcome_to_the_grid.js.page:249
-msgctxt "_"
-msgid ""
-"external ref='media/02_jsgrid_08.png' md5='78890beb47bd11360154b8ca4d50d1ff'"
-msgstr ""
-"external ref='media/02_jsgrid_08.png' md5='78890beb47bd11360154b8ca4d50d1ff'"
 
 #. (itstool) path: credit/name
 #: C/02_welcome_to_the_grid.js.page:15 C/03_getting_the_signal.js.page:16
@@ -462,6 +366,18 @@ msgstr ""
 "¿Qué widgets deben usarse? Bueno, si quiere escribir una aplicación que se "
 "vea así:"
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/02_welcome_to_the_grid.js.page:95
+msgctxt "_"
+msgid ""
+"external ref='media/02_jsgrid_01.png' md5='3fdc22d361cf801f71557fdc76ae5b49'"
+msgstr ""
+"external ref='media/02_jsgrid_01.png' md5='3fdc22d361cf801f71557fdc76ae5b49'"
+
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:97
 msgid ""
@@ -694,6 +610,18 @@ msgstr ""
 msgid " <output style=\"prompt\">$ </output>gjs welcome_to_the_grid.js "
 msgstr " <output style=\"prompt\">$ </output>gjs welcome_to_the_grid.js "
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/02_welcome_to_the_grid.js.page:150
+msgctxt "_"
+msgid ""
+"external ref='media/02_jsgrid_02.png' md5='07db86b0043ba5c3c24a90d7322bd81e'"
+msgstr ""
+"external ref='media/02_jsgrid_02.png' md5='07db86b0043ba5c3c24a90d7322bd81e'"
+
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:152
 msgid ""
@@ -747,6 +675,18 @@ msgstr ""
 "Por supuesto, si hace eso y después remplaza la etiqueta con otra cosa (o "
 "añade otro widget), entonces tendrá que repetir el «margin_top». De lo "
 "contrario, acabará con algo así:"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/02_welcome_to_the_grid.js.page:167
+msgctxt "_"
+msgid ""
+"external ref='media/02_jsgrid_03.png' md5='817351e73c687d47253c56ed06b6629f'"
+msgstr ""
+"external ref='media/02_jsgrid_03.png' md5='817351e73c687d47253c56ed06b6629f'"
 
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:169
@@ -860,6 +800,18 @@ msgstr ""
 "lo que hace el truco. Ese número indica cuántas columnas ocupa la imagen, "
 "¿recuerda? Entonces, cuando se junta todo, se obtiene algo así:"
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/02_welcome_to_the_grid.js.page:197
+msgctxt "_"
+msgid ""
+"external ref='media/02_jsgrid_04.png' md5='eeaead27cee2851877fc3cfe66177f07'"
+msgstr ""
+"external ref='media/02_jsgrid_04.png' md5='eeaead27cee2851877fc3cfe66177f07'"
+
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:199
 msgid "There are two things you should take note of, here."
@@ -901,6 +853,18 @@ msgstr ""
 "Existen por lo menos tres maneras de solucionar esto último. Primero, se "
 "puede establecer «margin_left» o «margin_right» en una de las etiquetas:"
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/02_welcome_to_the_grid.js.page:206
+msgctxt "_"
+msgid ""
+"external ref='media/02_jsgrid_05.png' md5='a3ad12f432d5977fc1f66302ad5b7498'"
+msgstr ""
+"external ref='media/02_jsgrid_05.png' md5='a3ad12f432d5977fc1f66302ad5b7498'"
+
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:208
 msgid "Second, we can set the Grid's column_homogeneous property to true."
@@ -928,6 +892,18 @@ msgstr ""
 #: C/02_welcome_to_the_grid.js.page:216
 msgid "That makes it look something like this:"
 msgstr "Eso hace que se vea algo así:"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/02_welcome_to_the_grid.js.page:217
+msgctxt "_"
+msgid ""
+"external ref='media/02_jsgrid_06.png' md5='450e48dbf6b8f5ce1c208e4812e1714b'"
+msgstr ""
+"external ref='media/02_jsgrid_06.png' md5='450e48dbf6b8f5ce1c208e4812e1714b'"
 
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:219
@@ -958,6 +934,18 @@ msgstr ""
 #: C/02_welcome_to_the_grid.js.page:226
 msgid "That makes it look like this:"
 msgstr "Esto hace que se vea así:"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/02_welcome_to_the_grid.js.page:227
+msgctxt "_"
+msgid ""
+"external ref='media/02_jsgrid_07.png' md5='0b304d70728903fbb2601d55bf00fdb9'"
+msgstr ""
+"external ref='media/02_jsgrid_07.png' md5='0b304d70728903fbb2601d55bf00fdb9'"
 
 #. (itstool) path: section/title
 #: C/02_welcome_to_the_grid.js.page:231
@@ -1023,6 +1011,18 @@ msgstr ""
 #: C/02_welcome_to_the_grid.js.page:248
 msgid "That gives us this, when we run it:"
 msgstr "Eso da esto, cuando se ejecuta:"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/02_welcome_to_the_grid.js.page:249
+msgctxt "_"
+msgid ""
+"external ref='media/02_jsgrid_08.png' md5='78890beb47bd11360154b8ca4d50d1ff'"
+msgstr ""
+"external ref='media/02_jsgrid_08.png' md5='78890beb47bd11360154b8ca4d50d1ff'"
 
 # Dejo las comillas "" porque así están en la página citada (que no está disponible en castellano, aparentemente).
 # Nicolás.
@@ -1321,62 +1321,6 @@ msgstr ""
 "let app = new WelcomeToTheGrid ();\n"
 "app.application.run (ARGV);\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/03_getting_the_signal.js.page:37 C/03_getting_the_signal.js.page:351
-msgctxt "_"
-msgid ""
-"external ref='media/03_jssignal_01.png' "
-"md5='8d6ecab185f4af4534cc255d62b58b8e'"
-msgstr ""
-"external ref='media/03_jssignal_01.png' "
-"md5='8d6ecab185f4af4534cc255d62b58b8e'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/03_getting_the_signal.js.page:157 C/03_getting_the_signal.js.page:357
-msgctxt "_"
-msgid ""
-"external ref='media/03_jssignal_02.png' "
-"md5='ba941390fbafc4a0f653c8f70bca92c0'"
-msgstr ""
-"external ref='media/03_jssignal_02.png' "
-"md5='ba941390fbafc4a0f653c8f70bca92c0'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/03_getting_the_signal.js.page:231 C/03_getting_the_signal.js.page:363
-msgctxt "_"
-msgid ""
-"external ref='media/03_jssignal_03.png' "
-"md5='49ecf251b0bf57543c8d79a77b6f306d'"
-msgstr ""
-"external ref='media/03_jssignal_03.png' "
-"md5='49ecf251b0bf57543c8d79a77b6f306d'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/03_getting_the_signal.js.page:302 C/03_getting_the_signal.js.page:369
-msgctxt "_"
-msgid ""
-"external ref='media/03_jssignal_04.png' "
-"md5='dfc5221ca15ca9fba7d3c76a73804e2d'"
-msgstr ""
-"external ref='media/03_jssignal_04.png' "
-"md5='dfc5221ca15ca9fba7d3c76a73804e2d'"
-
 #. (itstool) path: info/desc
 #: C/03_getting_the_signal.js.page:21
 msgid "Create Buttons and other widgets that do things when you click on them."
@@ -1435,6 +1379,20 @@ msgstr ""
 #: C/03_getting_the_signal.js.page:35
 msgid "Here is an extremely basic example:"
 msgstr "Aquí hay un ejemplo extremadamente básico:"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/03_getting_the_signal.js.page:37 C/03_getting_the_signal.js.page:351
+msgctxt "_"
+msgid ""
+"external ref='media/03_jssignal_01.png' "
+"md5='8d6ecab185f4af4534cc255d62b58b8e'"
+msgstr ""
+"external ref='media/03_jssignal_01.png' "
+"md5='8d6ecab185f4af4534cc255d62b58b8e'"
 
 #. (itstool) path: section/p
 #: C/03_getting_the_signal.js.page:39
@@ -1833,6 +1791,20 @@ msgstr ""
 "interruptores no tienen una propiedad «label», por lo que hay que crear una "
 "etiqueta separada que diga qué hace a su lado."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/03_getting_the_signal.js.page:157 C/03_getting_the_signal.js.page:357
+msgctxt "_"
+msgid ""
+"external ref='media/03_jssignal_02.png' "
+"md5='ba941390fbafc4a0f653c8f70bca92c0'"
+msgstr ""
+"external ref='media/03_jssignal_02.png' "
+"md5='ba941390fbafc4a0f653c8f70bca92c0'"
+
 #. (itstool) path: section/p
 #: C/03_getting_the_signal.js.page:159
 msgid ""
@@ -2082,6 +2054,20 @@ msgstr ""
 "sintonizarse con una estación a la vez, por lo que cada vez que presionaba "
 "un botón, otro saltaba hacia arriba."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/03_getting_the_signal.js.page:231 C/03_getting_the_signal.js.page:363
+msgctxt "_"
+msgid ""
+"external ref='media/03_jssignal_03.png' "
+"md5='49ecf251b0bf57543c8d79a77b6f306d'"
+msgstr ""
+"external ref='media/03_jssignal_03.png' "
+"md5='49ecf251b0bf57543c8d79a77b6f306d'"
+
 #. (itstool) path: section/p
 #: C/03_getting_the_signal.js.page:233
 msgid ""
@@ -2293,6 +2279,20 @@ msgstr ""
 "Si necesita poder introducir un párrafo entero o más, como si estuviera "
 "construyendo un editor de texto, querrá echar un vistazo al widget <link "
 "xref=\"textview.js\">TextView</link>, mucho más configurable."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/03_getting_the_signal.js.page:302 C/03_getting_the_signal.js.page:369
+msgctxt "_"
+msgid ""
+"external ref='media/03_jssignal_04.png' "
+"md5='dfc5221ca15ca9fba7d3c76a73804e2d'"
+msgstr ""
+"external ref='media/03_jssignal_04.png' "
+"md5='dfc5221ca15ca9fba7d3c76a73804e2d'"
 
 #. (itstool) path: section/p
 #: C/03_getting_the_signal.js.page:304
@@ -3266,21 +3266,6 @@ msgstr ""
 "let app = new GettingTheSignal ();\n"
 "app.application.run (ARGV);\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/aboutdialog.c.page:25 C/aboutdialog.js.page:21 C/aboutdialog.py.page:23
-#: C/aboutdialog.vala.page:30
-msgctxt "_"
-msgid ""
-"external ref='media/aboutdialog_GMenu.png' "
-"md5='a36117a559fa98e25e2f6b3db593639f'"
-msgstr ""
-"external ref='media/aboutdialog_GMenu.png' "
-"md5='a36117a559fa98e25e2f6b3db593639f'"
-
 #. (itstool) path: info/title
 #: C/aboutdialog.c.page:8
 msgctxt "text"
@@ -3309,6 +3294,21 @@ msgstr "Mostrar información acerca de una aplicación"
 msgid "AboutDialog"
 msgstr "AboutDialog"
 
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/aboutdialog.c.page:25 C/aboutdialog.js.page:21 C/aboutdialog.py.page:23
+#: C/aboutdialog.vala.page:30
+msgctxt "_"
+msgid ""
+"external ref='media/aboutdialog_GMenu.png' "
+"md5='a36117a559fa98e25e2f6b3db593639f'"
+msgstr ""
+"external ref='media/aboutdialog_GMenu.png' "
+"md5='a36117a559fa98e25e2f6b3db593639f'"
+
 #. (itstool) path: page/p
 #: C/aboutdialog.c.page:26 C/aboutdialog.vala.page:31
 msgid "An AboutDialog example using Gtk.ApplicationWindow and Menu"
@@ -3326,174 +3326,6 @@ msgstr ""
 #. (itstool) path: page/code
 #: C/aboutdialog.c.page:29
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "#include &lt;gtk/gtk.h&gt;\n"
-#| "\n"
-#| "\n"
-#| "\n"
-#| "/* Callback function in which reacts to the \"response\" signal from the user in\n"
-#| " * the message dialog window.\n"
-#| " * This function is used to destroy the dialog window.\n"
-#| " */\n"
-#| "static void\n"
-#| "on_close (GtkDialog *dialog,\n"
-#| "          gint       response_id,\n"
-#| "          gpointer   user_data)\n"
-#| "{\n"
-#| "  /*This will cause the dialog to be destroyed*/\n"
-#| "  gtk_widget_destroy (GTK_WIDGET (dialog));\n"
-#| "\n"
-#| "}\n"
-#| "\n"
-#| "\n"
-#| "\n"
-#| "/* Callback function for the response signal \"activate\" related to the SimpleAction\n"
-#| " * \"about_action\".\n"
-#| " * This function is used to cause the about dialog window to popup.\n"
-#| " */\n"
-#| "static void\n"
-#| "about_cb (GSimpleAction *simple,\n"
-#| "          GVariant      *parameter,\n"
-#| "          gpointer       user_data)\n"
-#| "{\n"
-#| "   GtkWidget *about_dialog;\n"
-#| "\n"
-#| "   about_dialog = gtk_about_dialog_new ();\n"
-#| "\n"
-#| "   /* Lists of authors/ documentators to be used later, they must be initialized\n"
-#| "    * in a null terminated array of strings.\n"
-#| "    */\n"
-#| "   const gchar *authors[] = {\"GNOME Documentation Team\", NULL};\n"
-#| "   const gchar *documenters[] = {\"GNOME Documentation Team\", NULL};\n"
-#| "\n"
-#| "   /* We fill in the information for the about dialog */\n"
-#| "   gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (about_dialog), \"AboutDialog Example\");\n"
-#| "   gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (about_dialog), \"Copyright \\xc2\\xa9 2012 GNOME Documentation Team\");\n"
-#| "   gtk_about_dialog_set_authors (GTK_ABOUT_DIALOG (about_dialog), authors);\n"
-#| "   gtk_about_dialog_set_documenters (GTK_ABOUT_DIALOG (about_dialog), documenters);\n"
-#| "   gtk_about_dialog_set_website_label (GTK_ABOUT_DIALOG (about_dialog), \"GNOME Developer Website\");\n"
-#| "   gtk_about_dialog_set_website (GTK_ABOUT_DIALOG (about_dialog), \"http://developer.gnome.org\");\n"
-#| "\n"
-#| "  /* We do not wish to show the title, which in this case would be \n"
-#| "   * \"AboutDialog Example\". We have to reset the title of the messagedialog \n"
-#| "   * window after setting the program name.\n"
-#| "   */\n"
-#| "  gtk_window_set_title (GTK_WINDOW (about_dialog), \"\");\n"
-#| "\n"
-#| "  /* To close the aboutdialog when \"close\" is clicked we connect the response \n"
-#| "   * signal to on_close\n"
-#| "   */\n"
-#| "  g_signal_connect (GTK_DIALOG (about_dialog), \"response\", \n"
-#| "                    G_CALLBACK (on_close), NULL);\n"
-#| "\n"
-#| "  /* Show the about dialog */\n"
-#| "  gtk_widget_show (about_dialog); \n"
-#| "}\n"
-#| "\n"
-#| "\n"
-#| "\n"
-#| "static void\n"
-#| "activate (GtkApplication *app,\n"
-#| "          gpointer        user_data)\n"
-#| "{\n"
-#| "  GtkWidget *window;\n"
-#| "\n"
-#| "  GSimpleAction *about_action;\n"
-#| "\n"
-#| "  /* Create a window with a title and a default size */\n"
-#| "  window = gtk_application_window_new (app);\n"
-#| "  gtk_window_set_title (GTK_WINDOW (window), \"AboutDialog Example\");\n"
-#| "  gtk_window_set_default_size (GTK_WINDOW (window), 200, 200);\n"
-#| "\n"
-#| "  /* Create a new simple action, giving it a NULL parameter type. It will \n"
-#| "   * always be NULL for actions invoked from a menu. (e.g clicking on an \"ok\" \n"
-#| "   * or \"cancel\" button)\n"
-#| "   */\n"
-#| "  about_action = g_simple_action_new (\"about\", NULL); \n"
-#| "\n"
-#| "  /* Connect the \"activate\" signal to the appropriate callback function. \n"
-#| "   * It will indicate that the action was just activated.\n"
-#| "   */\n"
-#| "  g_signal_connect (about_action, \"activate\", G_CALLBACK (about_cb), \n"
-#| "                    GTK_WINDOW (window));\n"
-#| "\n"
-#| "  /* Adds the about_action to the overall action map. An Action map is an \n"
-#| "   * interface that contains a number of named GAction instances \n"
-#| "   * (such as about_action) \n"
-#| "   */\n"
-#| "  g_action_map_add_action (G_ACTION_MAP (window), G_ACTION (about_action));\n"
-#| "\n"
-#| "  gtk_widget_show_all (window);\n"
-#| "}\n"
-#| "\n"
-#| "\n"
-#| "\n"
-#| "/* Callback function for the response signal \"activate\" from the \"quit\" action \n"
-#| " * found in the function directly below.\n"
-#| " */ \n"
-#| "static void\n"
-#| "quit_cb (GSimpleAction *simple,\n"
-#| "         GVariant      *parameter,\n"
-#| "         gpointer       user_data)\n"
-#| "{\n"
-#| "  GApplication *application = user_data;\n"
-#| "\n"
-#| "  g_application_quit (application);\n"
-#| "}\n"
-#| "\n"
-#| "\n"
-#| "\n"
-#| "/* Startup function for the menu we are creating in this sample */\n"
-#| "static void\n"
-#| "startup (GApplication *app,\n"
-#| "         gpointer      user_data)\n"
-#| "{\n"
-#| "  GMenu *menu;\n"
-#| "  GSimpleAction *quit_action;\n"
-#| "\n"
-#| "  /* Initialize the GMenu, and add a menu item with label \"About\" and action \n"
-#| "   * \"win.about\". Also add another menu item with label \"Quit\" and action \n"
-#| "   * \"app.quit\" \n"
-#| "   */\n"
-#| "  menu = g_menu_new ();\n"
-#| "  g_menu_append (menu, \"About\", \"win.about\");\n"
-#| "  g_menu_append (menu, \"Quit\", \"app.quit\");\n"
-#| "\n"
-#| "  /* Create a new simple action for the application. (In this case it is the \n"
-#| "   * \"quit\" action.\n"
-#| "   */\n"
-#| "  quit_action = g_simple_action_new (\"quit\", NULL);\n"
-#| "\n"
-#| "  /* Ensure that the menu we have just created is set for the overall application */\n"
-#| "  gtk_application_set_app_menu (GTK_APPLICATION (app), G_MENU_MODEL (menu));\n"
-#| "\n"
-#| "  g_signal_connect (quit_action, \n"
-#| "                    \"activate\", \n"
-#| "                    G_CALLBACK (quit_cb), \n"
-#| "                    app);\n"
-#| "\n"
-#| "  g_action_map_add_action (G_ACTION_MAP (app), G_ACTION (quit_action));\n"
-#| "\n"
-#| "}\n"
-#| "\n"
-#| "\n"
-#| "\n"
-#| "/* Startup function for the application */\n"
-#| "int\n"
-#| "main (int argc, char **argv)\n"
-#| "{\n"
-#| "  GtkApplication *app;\n"
-#| "  int status;\n"
-#| "\n"
-#| "  app = gtk_application_new (\"org.gtk.example\", G_APPLICATION_FLAGS_NONE);\n"
-#| "  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
-#| "  g_signal_connect (app, \"startup\", G_CALLBACK (startup), NULL);\n"
-#| "  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
-#| "  g_object_unref (app);\n"
-#| "\n"
-#| "  return status;\n"
-#| "}\n"
 msgid ""
 "\n"
 "#include &lt;gtk/gtk.h&gt;\n"
@@ -5144,17 +4976,6 @@ msgstr "valac --pkg gtk+-3.0 <var>nombre_archivo</var>.vala"
 msgid "./<var>filename</var>"
 msgstr "./<var>nombre_archivo</var>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/button.c.page:25 C/button.js.page:22 C/button.py.page:25
-#: C/button.vala.page:24
-msgctxt "_"
-msgid "external ref='media/button.png' md5='8d69efbb3a0d3e043af6139b6492171c'"
-msgstr "external ref='media/button.png' md5='8d69efbb3a0d3e043af6139b6492171c'"
-
 #. (itstool) path: info/title
 #: C/button.c.page:8
 msgctxt "text"
@@ -5170,6 +4991,17 @@ msgstr "Un widget de botón que emite una señal cuando se pulsa sobre él"
 #: C/button.c.page:23 C/button.js.page:21 C/button.py.page:23
 msgid "Button"
 msgstr "Button"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/button.c.page:25 C/button.js.page:22 C/button.py.page:25
+#: C/button.vala.page:24
+msgctxt "_"
+msgid "external ref='media/button.png' md5='8d69efbb3a0d3e043af6139b6492171c'"
+msgstr "external ref='media/button.png' md5='8d69efbb3a0d3e043af6139b6492171c'"
 
 #. (itstool) path: page/p
 #: C/button.c.page:26
@@ -5807,20 +5639,6 @@ msgstr ""
 "En este ejemplo se usa el siguiente widget: <link href=\"http://www.valadoc."
 "org/gtk+-3.0/Gtk.Button.html\">Gtk.Button</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/buttonbox.js.page:24 C/buttonbox.py.page:25
-msgctxt "_"
-msgid ""
-"external ref='media/buttonbox_calculator.png' "
-"md5='ce0de08b7ac66f517290e33e6d33d508'"
-msgstr ""
-"external ref='media/buttonbox_calculator.png' "
-"md5='ce0de08b7ac66f517290e33e6d33d508'"
-
 #. (itstool) path: info/title
 #: C/buttonbox.js.page:8
 msgctxt "text"
@@ -5844,6 +5662,20 @@ msgstr "Un contenedor para organizar botones"
 #: C/buttonbox.js.page:22 C/buttonbox.py.page:23 C/tutorial.py.page:92
 msgid "ButtonBox"
 msgstr "Botonera"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/buttonbox.js.page:24 C/buttonbox.py.page:25
+msgctxt "_"
+msgid ""
+"external ref='media/buttonbox_calculator.png' "
+"md5='ce0de08b7ac66f517290e33e6d33d508'"
+msgstr ""
+"external ref='media/buttonbox_calculator.png' "
+"md5='ce0de08b7ac66f517290e33e6d33d508'"
 
 #. (itstool) path: page/p
 #: C/buttonbox.js.page:25 C/buttonbox.py.page:26
@@ -6830,19 +6662,6 @@ msgstr ""
 msgid "Widget Code Examples"
 msgstr "Ejemplos de código de widget"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/checkbutton.c.page:22 C/checkbutton.js.page:22 C/checkbutton.py.page:23
-#: C/checkbutton.vala.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/checkbutton.png' md5='7921a6812c87dd2b3781f4fad241e858'"
-msgstr ""
-"external ref='media/checkbutton.png' md5='7921a6812c87dd2b3781f4fad241e858'"
-
 #. (itstool) path: info/title
 #: C/checkbutton.c.page:8
 msgctxt "text"
@@ -6859,6 +6678,19 @@ msgstr "Crear widgets con un botón ToggleButton discreto"
 #: C/checkbutton.vala.page:21
 msgid "CheckButton"
 msgstr "CheckButton"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/checkbutton.c.page:22 C/checkbutton.js.page:22 C/checkbutton.py.page:23
+#: C/checkbutton.vala.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/checkbutton.png' md5='7921a6812c87dd2b3781f4fad241e858'"
+msgstr ""
+"external ref='media/checkbutton.png' md5='7921a6812c87dd2b3781f4fad241e858'"
 
 #. (itstool) path: page/p
 #: C/checkbutton.c.page:23 C/checkbutton.py.page:24 C/checkbutton.vala.page:23
@@ -7776,19 +7608,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.CheckButton.html\">Gtk."
 "CheckButton</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/colorbutton.js.page:22 C/colorbutton.py.page:23
-#: C/colorbutton.vala.page:24
-msgctxt "_"
-msgid ""
-"external ref='media/colorbutton.png' md5='904539d26fe367bf99f9a0961cfc9a03'"
-msgstr ""
-"external ref='media/colorbutton.png' md5='904539d26fe367bf99f9a0961cfc9a03'"
-
 #. (itstool) path: info/title
 #: C/colorbutton.js.page:8
 msgctxt "text"
@@ -7806,6 +7625,19 @@ msgstr "Un botón para mostrar el diálogo de selección de color"
 #: C/colorbutton.vala.page:23
 msgid "ColorButton"
 msgstr "ColorButton"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/colorbutton.js.page:22 C/colorbutton.py.page:23
+#: C/colorbutton.vala.page:24
+msgctxt "_"
+msgid ""
+"external ref='media/colorbutton.png' md5='904539d26fe367bf99f9a0961cfc9a03'"
+msgstr ""
+"external ref='media/colorbutton.png' md5='904539d26fe367bf99f9a0961cfc9a03'"
 
 #. (itstool) path: page/p
 #: C/colorbutton.js.page:23 C/colorbutton.py.page:24
@@ -8256,19 +8088,6 @@ msgid "<link href=\"http://valadoc.org/gdk-3.0/Gdk.RGBA.html\">Gdk.RGBA</link>"
 msgstr ""
 "<link href=\"http://valadoc.org/gdk-3.0/Gdk.RGBA.html\">Gdk.RGBA</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/comboboxtext.js.page:24 C/combobox.c.page:26 C/combobox.py.page:24
-#: C/combobox.vala.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/combobox.png' md5='ab9e91bc1a58fe866cb00dd52159251d'"
-msgstr ""
-"external ref='media/combobox.png' md5='ab9e91bc1a58fe866cb00dd52159251d'"
-
 #. (itstool) path: info/title
 #: C/comboboxtext.js.page:8
 msgctxt "text"
@@ -8284,6 +8103,19 @@ msgstr "Un menú desplegable de solo texto"
 #: C/comboboxtext.js.page:23
 msgid "ComboBoxText"
 msgstr "ComboBoxText"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/comboboxtext.js.page:24 C/combobox.c.page:26 C/combobox.py.page:24
+#: C/combobox.vala.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/combobox.png' md5='ab9e91bc1a58fe866cb00dd52159251d'"
+msgstr ""
+"external ref='media/combobox.png' md5='ab9e91bc1a58fe866cb00dd52159251d'"
 
 #. (itstool) path: page/p
 #: C/comboboxtext.js.page:25
@@ -9145,7 +8977,18 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkComboBoxText.html"
 "\">GtkComboBoxText</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/combobox.js.page:8
+msgctxt "text"
+msgid "ComboBox (JavaScript)"
+msgstr "ComboBox (JavaScript)"
+
+#. (itstool) path: info/desc
+#: C/combobox.js.page:22
+msgid "A customizable drop-down menu"
+msgstr "Un menú desplegable personalizable."
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -9159,17 +9002,6 @@ msgid ""
 msgstr ""
 "external ref='media/combobox_multicolumn.png' "
 "md5='43f16648fb11ebc7d2f70825ed0f63b3'"
-
-#. (itstool) path: info/title
-#: C/combobox.js.page:8
-msgctxt "text"
-msgid "ComboBox (JavaScript)"
-msgstr "ComboBox (JavaScript)"
-
-#. (itstool) path: info/desc
-#: C/combobox.js.page:22
-msgid "A customizable drop-down menu"
-msgstr "Un menú desplegable personalizable."
 
 #. (itstool) path: page/p
 #: C/combobox.js.page:27
@@ -10922,17 +10754,6 @@ msgstr "Ejemplos de código y demostraciones de la plataforma en C++"
 msgid "Examples of applications"
 msgstr "Ejemplos de aplicaciones"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/dialog.c.page:25 C/dialog.js.page:22 C/dialog.py.page:24
-#: C/dialog.vala.page:22
-msgctxt "_"
-msgid "external ref='media/dialog.png' md5='c90a33386a600e892fe623d4072c8c38'"
-msgstr "external ref='media/dialog.png' md5='c90a33386a600e892fe623d4072c8c38'"
-
 #. (itstool) path: info/title
 #: C/dialog.c.page:8
 msgctxt "text"
@@ -10950,6 +10771,17 @@ msgstr "Una ventana emergente"
 #: C/dialog.vala.page:21
 msgid "Dialog"
 msgstr "Diálogo"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/dialog.c.page:25 C/dialog.js.page:22 C/dialog.py.page:24
+#: C/dialog.vala.page:22
+msgctxt "_"
+msgid "external ref='media/dialog.png' md5='c90a33386a600e892fe623d4072c8c38'"
+msgstr "external ref='media/dialog.png' md5='c90a33386a600e892fe623d4072c8c38'"
 
 #. (itstool) path: page/p
 #: C/dialog.c.page:26
@@ -11807,17 +11639,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Dialog.get_content_area.html"
 "\">get_content_area</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/entry.c.page:23 C/entry.js.page:22 C/entry.py.page:29
-#: C/entry.vala.page:22
-msgctxt "_"
-msgid "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
-msgstr "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
-
 #. (itstool) path: info/title
 #: C/entry.c.page:8
 msgctxt "text"
@@ -11834,6 +11655,17 @@ msgstr "Un campo de entrada de texto de una sola línea"
 #: C/entry.vala.page:21
 msgid "Entry"
 msgstr "Entry"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/entry.c.page:23 C/entry.js.page:22 C/entry.py.page:29
+#: C/entry.vala.page:22
+msgctxt "_"
+msgid "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
+msgstr "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
 
 #. (itstool) path: page/p
 #: C/entry.c.page:24 C/entry.vala.page:23
@@ -12640,34 +12472,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Entry.html\">Gtk.Entry</"
 "link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/filechooserdialog.py.page:26
-msgctxt "_"
-msgid ""
-"external ref='media/filechooserdialog_save.png' "
-"md5='3a7a3b71b9d3a36066857843b68ff27f'"
-msgstr ""
-"external ref='media/filechooserdialog_save.png' "
-"md5='3a7a3b71b9d3a36066857843b68ff27f'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/filechooserdialog.py.page:28
-msgctxt "_"
-msgid ""
-"external ref='media/filechooserdialog_menu.png' "
-"md5='8a75f04127a70eba0ed68a9eb1d3bbca'"
-msgstr ""
-"external ref='media/filechooserdialog_menu.png' "
-"md5='8a75f04127a70eba0ed68a9eb1d3bbca'"
-
 #. (itstool) path: info/title
 #: C/filechooserdialog.py.page:8
 msgctxt "text"
@@ -12684,6 +12488,20 @@ msgstr "Un diálogo adecuado para comandos «Abrir» y «Guardar»"
 msgid "FileChooserDialog"
 msgstr "FileChooserDialog"
 
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/filechooserdialog.py.page:26
+msgctxt "_"
+msgid ""
+"external ref='media/filechooserdialog_save.png' "
+"md5='3a7a3b71b9d3a36066857843b68ff27f'"
+msgstr ""
+"external ref='media/filechooserdialog_save.png' "
+"md5='3a7a3b71b9d3a36066857843b68ff27f'"
+
 #. (itstool) path: page/p
 #: C/filechooserdialog.py.page:27
 msgid ""
@@ -12692,6 +12510,20 @@ msgid ""
 msgstr ""
 "Este «FileChooserDialog» guarda un documento de texto, que puede abrirse o "
 "escribirse desde cero en un «TextView» (vea a continuación)."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/filechooserdialog.py.page:28
+msgctxt "_"
+msgid ""
+"external ref='media/filechooserdialog_menu.png' "
+"md5='8a75f04127a70eba0ed68a9eb1d3bbca'"
+msgstr ""
+"external ref='media/filechooserdialog_menu.png' "
+"md5='8a75f04127a70eba0ed68a9eb1d3bbca'"
 
 #. (itstool) path: page/p
 #: C/filechooserdialog.py.page:29
@@ -13942,21 +13774,6 @@ msgstr ""
 "<link href=\"http://valadoc.org/gio-2.0/GLib.ActionEntry.html\">GLib."
 "ActionEntry</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/fontchooserwidget.js.page:23 C/fontchooserwidget.py.page:25
-#: C/fontchooserwidget.vala.page:23
-msgctxt "_"
-msgid ""
-"external ref='media/fontchooserwidget.png' "
-"md5='9161245e307b432ae1313e9a9941edae'"
-msgstr ""
-"external ref='media/fontchooserwidget.png' "
-"md5='9161245e307b432ae1313e9a9941edae'"
-
 #. (itstool) path: info/title
 #: C/fontchooserwidget.js.page:8
 msgctxt "text"
@@ -13974,6 +13791,21 @@ msgstr "Un widget para elegir la tipografía"
 #: C/fontchooserwidget.vala.page:21
 msgid "FontChooserWidget"
 msgstr "FontChooserWidget"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/fontchooserwidget.js.page:23 C/fontchooserwidget.py.page:25
+#: C/fontchooserwidget.vala.page:23
+msgctxt "_"
+msgid ""
+"external ref='media/fontchooserwidget.png' "
+"md5='9161245e307b432ae1313e9a9941edae'"
+msgstr ""
+"external ref='media/fontchooserwidget.png' "
+"md5='9161245e307b432ae1313e9a9941edae'"
 
 #. (itstool) path: page/p
 #: C/fontchooserwidget.js.page:24 C/fontchooserwidget.py.page:26
@@ -14362,17 +14194,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.FontChooserWidget.html"
 "\">GtkFontChooserWidget</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/gmenu.c.page:22
-msgctxt "_"
-msgid "external ref='media/gmenu.c.png' md5='f305fc3cae8d16d72b734ee53b559e33'"
-msgstr ""
-"external ref='media/gmenu.c.png' md5='f305fc3cae8d16d72b734ee53b559e33'"
-
 #. (itstool) path: info/title
 #: C/gmenu.c.page:8
 msgctxt "text"
@@ -14389,6 +14210,17 @@ msgstr "Una implementación sencilla del GMenuModel"
 #: C/gmenu.vala.page:27
 msgid "GMenu"
 msgstr "GMenu"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gmenu.c.page:22
+msgctxt "_"
+msgid "external ref='media/gmenu.c.png' md5='f305fc3cae8d16d72b734ee53b559e33'"
+msgstr ""
+"external ref='media/gmenu.c.png' md5='f305fc3cae8d16d72b734ee53b559e33'"
 
 #. (itstool) path: page/p
 #: C/gmenu.c.page:23 C/gmenu.js.page:23 C/gmenu.py.page:31
@@ -14538,7 +14370,13 @@ msgstr ""
 "  return status;\n"
 "}\n"
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/gmenu.js.page:8
+msgctxt "text"
+msgid "GMenu (JavaScript)"
+msgstr "GMenu (JavaScript)"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -14549,12 +14387,6 @@ msgid ""
 "external ref='media/gmenu.js.png' md5='16b8bee122197771ec8498dac42f196b'"
 msgstr ""
 "external ref='media/gmenu.js.png' md5='16b8bee122197771ec8498dac42f196b'"
-
-#. (itstool) path: info/title
-#: C/gmenu.js.page:8
-msgctxt "text"
-msgid "GMenu (JavaScript)"
-msgstr "GMenu (JavaScript)"
 
 #. (itstool) path: page/code
 #: C/gmenu.js.page:25
@@ -14740,18 +14572,6 @@ msgstr ""
 "let app = new Application ();\n"
 "app.application.run (ARGV);\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/gmenu.py.page:30
-msgctxt "_"
-msgid ""
-"external ref='media/gmenu.py.png' md5='52c68b34d5d566f37e9f803dedb6353a'"
-msgstr ""
-"external ref='media/gmenu.py.png' md5='52c68b34d5d566f37e9f803dedb6353a'"
-
 #. (itstool) path: info/title
 #: C/gmenu.py.page:8
 msgctxt "text"
@@ -14762,6 +14582,18 @@ msgstr "GMenu (Python)"
 #: C/gmenu.py.page:26
 msgid "A simple implementation of GMenu"
 msgstr "Una implementación sencilla de GMenu"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gmenu.py.page:30
+msgctxt "_"
+msgid ""
+"external ref='media/gmenu.py.png' md5='52c68b34d5d566f37e9f803dedb6353a'"
+msgstr ""
+"external ref='media/gmenu.py.png' md5='52c68b34d5d566f37e9f803dedb6353a'"
 
 #. (itstool) path: section/code
 #: C/gmenu.py.page:37
@@ -15135,7 +14967,13 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/glib/unstable/glib-GVariant.html"
 "\">GVariant</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/gmenu.vala.page:8
+msgctxt "text"
+msgid "GMenu (Vala)"
+msgstr "GMenu (Vala)"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -15146,12 +14984,6 @@ msgid ""
 "external ref='media/gmenu.vala.png' md5='7a9f381fc3ed5bf8d1c50d2acb095400'"
 msgstr ""
 "external ref='media/gmenu.vala.png' md5='7a9f381fc3ed5bf8d1c50d2acb095400'"
-
-#. (itstool) path: info/title
-#: C/gmenu.vala.page:8
-msgctxt "text"
-msgid "GMenu (Vala)"
-msgstr "GMenu (Vala)"
 
 #. (itstool) path: note/p
 #: C/gmenu.vala.page:30
@@ -15322,16 +15154,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gio-2.0/GLib.ActionMap.add_action.html"
 "\">add_action</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/grid.c.page:23 C/grid.js.page:26 C/grid.vala.page:24
-msgctxt "_"
-msgid "external ref='media/grid.png' md5='27d45da115401127456a3b854dcfc5be'"
-msgstr "external ref='media/grid.png' md5='27d45da115401127456a3b854dcfc5be'"
-
 #. (itstool) path: info/title
 #: C/grid.c.page:8
 msgctxt "text"
@@ -15347,6 +15169,16 @@ msgstr "Empaquetar widgets en filas y columnas"
 #: C/grid.c.page:21 C/grid.js.page:25 C/grid.py.page:29
 msgid "Grid"
 msgstr "Rejilla"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/grid.c.page:23 C/grid.js.page:26 C/grid.vala.page:24
+msgctxt "_"
+msgid "external ref='media/grid.png' md5='27d45da115401127456a3b854dcfc5be'"
+msgstr "external ref='media/grid.png' md5='27d45da115401127456a3b854dcfc5be'"
 
 #. (itstool) path: page/p
 #: C/grid.c.page:24 C/grid.vala.page:25
@@ -15689,7 +15521,13 @@ msgstr ""
 "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.ProgressBar."
 "html\">Gtk.ProgressBar</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/grid.py.page:8
+msgctxt "text"
+msgid "Grid (Python)"
+msgstr "Grid (Python)"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -15700,12 +15538,6 @@ msgid ""
 "external ref='media/grid_simple.png' md5='c806f2e69b30373d4d2e08b41d6cc1f6'"
 msgstr ""
 "external ref='media/grid_simple.png' md5='c806f2e69b30373d4d2e08b41d6cc1f6'"
-
-#. (itstool) path: info/title
-#: C/grid.py.page:8
-msgctxt "text"
-msgid "Grid (Python)"
-msgstr "Grid (Python)"
 
 #. (itstool) path: page/p
 #: C/grid.py.page:32
@@ -16015,19 +15847,6 @@ msgid ""
 msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Grid.html\">Gtk.Grid</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/GtkApplicationWindow.c.page:22 C/GtkApplicationWindow.js.page:22
-#: C/GtkApplicationWindow.py.page:29 C/GtkApplicationWindow.vala.page:22
-#: C/window.c.page:22 C/window.js.page:25 C/window.py.page:33
-#: C/window.vala.page:25
-msgctxt "_"
-msgid "external ref='media/window.png' md5='eb0cde3530978619c25bddfaeb453345'"
-msgstr "external ref='media/window.png' md5='eb0cde3530978619c25bddfaeb453345'"
-
 #. (itstool) path: info/title
 #: C/GtkApplicationWindow.c.page:8
 msgctxt "text"
@@ -16046,6 +15865,20 @@ msgstr ""
 #: C/GtkApplicationWindow.py.page:28 C/GtkApplicationWindow.vala.page:21
 msgid "ApplicationWindow"
 msgstr "ApplicationWindow"
+
+#. (itstool) path: page/media
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/GtkApplicationWindow.c.page:22 C/GtkApplicationWindow.js.page:22
+#: C/GtkApplicationWindow.py.page:29 C/GtkApplicationWindow.vala.page:22
+#: C/window.c.page:22 C/window.js.page:25 C/window.py.page:33
+#: C/window.vala.page:25
+msgctxt "_"
+msgid "external ref='media/window.png' md5='eb0cde3530978619c25bddfaeb453345'"
+msgstr "external ref='media/window.png' md5='eb0cde3530978619c25bddfaeb453345'"
 
 #. (itstool) path: page/p
 #: C/GtkApplicationWindow.c.page:23
@@ -16425,51 +16258,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Application.html.content.tpl"
 "\">Gtk.Application</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/guitar-tuner.c.page:45 C/guitar-tuner.cpp.page:43
-#: C/guitar-tuner.js.page:37 C/guitar-tuner.py.page:50
-#: C/guitar-tuner.vala.page:48
-msgctxt "_"
-msgid ""
-"external ref='media/guitar-tuner.png' md5='35e615e0f5e293671d00c5c414ac2f6b'"
-msgstr ""
-"external ref='media/guitar-tuner.png' md5='35e615e0f5e293671d00c5c414ac2f6b'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/guitar-tuner.c.page:100 C/guitar-tuner.cpp.page:94
-#: C/guitar-tuner.py.page:101 C/guitar-tuner.vala.page:101
-msgctxt "_"
-msgid ""
-"external ref='media/guitar-tuner-glade.png' "
-"md5='f6606525443ab2160f53a87a454364d0'"
-msgstr ""
-"external ref='media/guitar-tuner-glade.png' "
-"md5='f6606525443ab2160f53a87a454364d0'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/guitar-tuner.c.page:145 C/guitar-tuner.cpp.page:123
-#: C/guitar-tuner.js.page:43 C/guitar-tuner.py.page:144
-#: C/guitar-tuner.vala.page:135
-msgctxt "_"
-msgid ""
-"external ref='media/guitar-tuner-pipeline.png' "
-"md5='5adc952909d92af5dae6954781b4ad5f'"
-msgstr ""
-"external ref='media/guitar-tuner-pipeline.png' "
-"md5='5adc952909d92af5dae6954781b4ad5f'"
-
 #. (itstool) path: info/title
 #: C/guitar-tuner.c.page:8
 msgctxt "text"
@@ -16549,6 +16337,20 @@ msgstr "Una copia instalada del <link xref=\"getting-ready\">EID Anjuta</link>"
 #: C/guitar-tuner.c.page:41
 msgid "Basic knowledge of the C programming language"
 msgstr "Conocimiento básico del lenguaje de programación C"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/guitar-tuner.c.page:45 C/guitar-tuner.cpp.page:43
+#: C/guitar-tuner.js.page:37 C/guitar-tuner.py.page:50
+#: C/guitar-tuner.vala.page:48
+msgctxt "_"
+msgid ""
+"external ref='media/guitar-tuner.png' md5='35e615e0f5e293671d00c5c414ac2f6b'"
+msgstr ""
+"external ref='media/guitar-tuner.png' md5='35e615e0f5e293671d00c5c414ac2f6b'"
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.c.page:48 C/guitar-tuner.cpp.page:46
@@ -16782,6 +16584,21 @@ msgstr ""
 "Aquí se usará una <gui>GtkButtonBox</gui> vertical para asignar seis "
 "<gui>GtkButtons</gui>, uno para cada una de las cuerdas de la guitarra."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/guitar-tuner.c.page:100 C/guitar-tuner.cpp.page:94
+#: C/guitar-tuner.py.page:101 C/guitar-tuner.vala.page:101
+msgctxt "_"
+msgid ""
+"external ref='media/guitar-tuner-glade.png' "
+"md5='f6606525443ab2160f53a87a454364d0'"
+msgstr ""
+"external ref='media/guitar-tuner-glade.png' "
+"md5='f6606525443ab2160f53a87a454364d0'"
+
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:104 C/guitar-tuner.cpp.page:98
 #: C/guitar-tuner.py.page:105
@@ -16976,6 +16793,22 @@ msgstr ""
 "para manejar efectos, conversiones de formato, etc. Cada elemento de la "
 "tubería tiene propiedades que se pueden usar para cambiar este "
 "comportamiento."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/guitar-tuner.c.page:145 C/guitar-tuner.cpp.page:123
+#: C/guitar-tuner.js.page:43 C/guitar-tuner.py.page:144
+#: C/guitar-tuner.vala.page:135
+msgctxt "_"
+msgid ""
+"external ref='media/guitar-tuner-pipeline.png' "
+"md5='5adc952909d92af5dae6954781b4ad5f'"
+msgstr ""
+"external ref='media/guitar-tuner-pipeline.png' "
+"md5='5adc952909d92af5dae6954781b4ad5f'"
 
 #. (itstool) path: media/p
 #: C/guitar-tuner.c.page:146 C/guitar-tuner.cpp.page:124
@@ -19895,20 +19728,6 @@ msgstr ""
 "\">Tutorial de Vala</link> y la <link href=\"http://valadoc.org/"
 "\">documentación de la API de Vala</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/hellognome.js.page:65
-msgctxt "_"
-msgid ""
-"external ref='media/hellognomewebapp.png' "
-"md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
-msgstr ""
-"external ref='media/hellognomewebapp.png' "
-"md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
-
 #. (itstool) path: info/desc
 #: C/hellognome.js.page:17
 msgid "Your first GNOME application!"
@@ -20026,6 +19845,20 @@ msgid ""
 msgstr ""
 "Guarde esto como <file>hellognome.html</file>, y observe cómo se ve cuando "
 "lo ejecuta."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/hellognome.js.page:65
+msgctxt "_"
+msgid ""
+"external ref='media/hellognomewebapp.png' "
+"md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
+msgstr ""
+"external ref='media/hellognomewebapp.png' "
+"md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:67
@@ -20681,19 +20514,6 @@ msgstr ""
 "let app = new HelloGNOME ();\n"
 "app.application.run (ARGV);\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/hello-world.c.page:51 C/hello-world.js.page:28 C/hello-world.py.page:28
-#: C/hello-world.vala.page:28
-msgctxt "_"
-msgid ""
-"external ref='media/hello-world.png' md5='4c88a27211dfd1b33e504c9f78602f2d'"
-msgstr ""
-"external ref='media/hello-world.png' md5='4c88a27211dfd1b33e504c9f78602f2d'"
-
 #. (itstool) path: info/title
 #: C/hello-world.c.page:10
 msgctxt "link"
@@ -20827,6 +20647,19 @@ msgstr ""
 "de la ventana puede ser la cadena que quiera. Para asegurarse, es mejor usar "
 "la codificación UTF-8. El código anterior creará una ventana de diálogo "
 "similar a la que se ve a continuación:"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/hello-world.c.page:51 C/hello-world.js.page:28 C/hello-world.py.page:28
+#: C/hello-world.vala.page:28
+msgctxt "_"
+msgid ""
+"external ref='media/hello-world.png' md5='4c88a27211dfd1b33e504c9f78602f2d'"
+msgstr ""
+"external ref='media/hello-world.png' md5='4c88a27211dfd1b33e504c9f78602f2d'"
 
 #. (itstool) path: info/title
 #: C/hello-world.js.page:9
@@ -22210,17 +22043,6 @@ msgstr ""
 "Esto creará el archivo hello-world-1.0.tar.xz\n"
 "\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/image.c.page:22 C/image.js.page:21 C/image.py.page:29
-#: C/image.vala.page:22
-msgctxt "_"
-msgid "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
-msgstr "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
-
 #. (itstool) path: info/title
 #: C/image.c.page:8
 msgctxt "text"
@@ -22238,6 +22060,17 @@ msgstr "Un widget que muestra una imagen"
 #: C/image.vala.page:21
 msgid "Image"
 msgstr "Image"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/image.c.page:22 C/image.js.page:21 C/image.py.page:29
+#: C/image.vala.page:22
+msgctxt "_"
+msgid "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
+msgstr "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
 
 #. (itstool) path: page/p
 #: C/image.c.page:23 C/image.js.page:22 C/image.py.page:30
@@ -22862,20 +22695,6 @@ msgid ""
 msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Image.html\">GtkImage</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/image-viewer.c.page:39 C/image-viewer.cpp.page:37
-#: C/image-viewer.js.page:47 C/image-viewer.py.page:46
-#: C/image-viewer.vala.page:54
-msgctxt "_"
-msgid ""
-"external ref='media/image-viewer.png' md5='7720360611243b14283b83527be968c2'"
-msgstr ""
-"external ref='media/image-viewer.png' md5='7720360611243b14283b83527be968c2'"
-
 #. (itstool) path: info/title
 #: C/image-viewer.c.page:8
 msgctxt "text"
@@ -22909,6 +22728,20 @@ msgstr "Algunos conceptos básicos de programación en C/GObject"
 #: C/image-viewer.c.page:35
 msgid "How to write a Gtk application in C"
 msgstr "Cómo escribir una aplicación GTK en C"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/image-viewer.c.page:39 C/image-viewer.cpp.page:37
+#: C/image-viewer.js.page:47 C/image-viewer.py.page:46
+#: C/image-viewer.vala.page:54
+msgctxt "_"
+msgid ""
+"external ref='media/image-viewer.png' md5='7720360611243b14283b83527be968c2'"
+msgstr ""
+"external ref='media/image-viewer.png' md5='7720360611243b14283b83527be968c2'"
 
 #. (itstool) path: item/p
 #: C/image-viewer.c.page:49
@@ -26150,17 +25983,6 @@ msgstr ""
 msgid "Code samples and tutorials"
 msgstr "Código de ejemplo tutoriales"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/label.c.page:26 C/label.js.page:22 C/label.py.page:31
-#: C/label.vala.page:22
-msgctxt "_"
-msgid "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
-msgstr "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
-
 #. (itstool) path: info/title
 #: C/label.c.page:8
 msgctxt "text"
@@ -26179,6 +26001,18 @@ msgstr "Un widget que muestra un texto"
 #: C/toolbar_builder.vala.page:81
 msgid "Label"
 msgstr "Etiqueta"
+
+#. (itstool) path: td/media
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/label.c.page:26 C/label.js.page:22 C/label.py.page:31
+#: C/label.vala.page:22
+msgctxt "_"
+msgid "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
+msgstr "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
 
 #. (itstool) path: td/p
 #. (itstool) path: page/p
@@ -26472,6 +26306,40 @@ msgstr ""
 #. (itstool) path: section/code
 #: C/label.py.page:45
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "# a class to define a window\n"
+#| "class MyWindow(Gtk.ApplicationWindow):\n"
+#| "    def __init__(self, app):\n"
+#| "        Gtk.Window.__init__(self, title=\"Welcome to GNOME\", application=app)\n"
+#| "        self.set_default_size(200, 100)\n"
+#| "\n"
+#| "# a class to define a label\n"
+#| "<hi>\n"
+#| "class MyLabel(Gtk.Label):\n"
+#| "    def __init__(self):\n"
+#| "        Gtk.Label.__init__(self)\n"
+#| "        self.set_text(\"Hello GNOME!\")\n"
+#| "</hi>\n"
+#| "\n"
+#| "class MyApplication(Gtk.Application):\n"
+#| "    def __init__(self):\n"
+#| "        Gtk.Application.__init__(self)\n"
+#| "\n"
+#| "    def do_activate(self):\n"
+#| "        # create an instance of MyWindow\n"
+#| "        win = MyWindow(self)\n"
+#| "\n"
+#| "        # create an instance of MyLabel\n"
+#| "<hi>\n"
+#| "        label = MyLabel()\n"
+#| "</hi>\n"
+#| "        # and add it to the window\n"
+#| "<hi>\n"
+#| "        win.add(label)\n"
+#| "</hi>\n"
+#| "        # show the window and everything on it\n"
+#| "        win.show_all()"
 msgid ""
 "\n"
 "# a class to define a window\n"
@@ -26481,12 +26349,12 @@ msgid ""
 "        self.set_default_size(200, 100)\n"
 "\n"
 "# a class to define a label\n"
-"<hi>\n"
+"<e:hi>\n"
 "class MyLabel(Gtk.Label):\n"
 "    def __init__(self):\n"
 "        Gtk.Label.__init__(self)\n"
 "        self.set_text(\"Hello GNOME!\")\n"
-"</hi>\n"
+"</e:hi>\n"
 "\n"
 "class MyApplication(Gtk.Application):\n"
 "    def __init__(self):\n"
@@ -26497,13 +26365,13 @@ msgid ""
 "        win = MyWindow(self)\n"
 "\n"
 "        # create an instance of MyLabel\n"
-"<hi>\n"
+"<e:hi>\n"
 "        label = MyLabel()\n"
-"</hi>\n"
+"</e:hi>\n"
 "        # and add it to the window\n"
-"<hi>\n"
+"<e:hi>\n"
 "        win.add(label)\n"
-"</hi>\n"
+"</e:hi>\n"
 "        # show the window and everything on it\n"
 "        win.show_all()"
 msgstr ""
@@ -26515,12 +26383,12 @@ msgstr ""
 "        self.set_default_size(200, 100)\n"
 "\n"
 "# a class to define a label\n"
-"<hi>\n"
+"<e:hi>\n"
 "class MyLabel(Gtk.Label):\n"
 "    def __init__(self):\n"
 "        Gtk.Label.__init__(self)\n"
 "        self.set_text(\"Hello GNOME!\")\n"
-"</hi>\n"
+"</e:hi>\n"
 "\n"
 "class MyApplication(Gtk.Application):\n"
 "    def __init__(self):\n"
@@ -26531,13 +26399,13 @@ msgstr ""
 "        win = MyWindow(self)\n"
 "\n"
 "        # create an instance of MyLabel\n"
-"<hi>\n"
+"<e:hi>\n"
 "        label = MyLabel()\n"
-"</hi>\n"
+"</e:hi>\n"
 "        # and add it to the window\n"
-"<hi>\n"
+"<e:hi>\n"
 "        win.add(label)\n"
-"</hi>\n"
+"</e:hi>\n"
 "        # show the window and everything on it\n"
 "        win.show_all()"
 
@@ -26791,19 +26659,6 @@ msgstr ""
 "el permiso de copiar, modificar, y distribuir el código de ejemplo contenido "
 "en esta documentación bajo sus propios términos, sin restricción."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/linkbutton.c.page:23 C/linkbutton.js.page:22 C/linkbutton.py.page:24
-#: C/linkbutton.vala.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/linkbutton.png' md5='3712eae8953e87c65a6aa74503b8e32b'"
-msgstr ""
-"external ref='media/linkbutton.png' md5='3712eae8953e87c65a6aa74503b8e32b'"
-
 #. (itstool) path: info/title
 #: C/linkbutton.c.page:8
 msgctxt "text"
@@ -26820,6 +26675,19 @@ msgstr "Crear botones asociados a un URL"
 #: C/linkbutton.vala.page:21
 msgid "LinkButton"
 msgstr "LinkButton"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/linkbutton.c.page:23 C/linkbutton.js.page:22 C/linkbutton.py.page:24
+#: C/linkbutton.vala.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/linkbutton.png' md5='3712eae8953e87c65a6aa74503b8e32b'"
+msgstr ""
+"external ref='media/linkbutton.png' md5='3712eae8953e87c65a6aa74503b8e32b'"
 
 #. (itstool) path: page/p
 #: C/linkbutton.c.page:24
@@ -27260,18 +27128,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.LinkButton.html\">Gtk."
 "LinkButton</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/magic-mirror.vala.page:47
-msgctxt "_"
-msgid ""
-"external ref='media/magic-mirror.png' md5='8171faea6ed3b6ddac0da084c29e4e22'"
-msgstr ""
-"external ref='media/magic-mirror.png' md5='8171faea6ed3b6ddac0da084c29e4e22'"
-
 #. (itstool) path: info/title
 #: C/magic-mirror.vala.page:8
 msgctxt "text"
@@ -27343,6 +27199,18 @@ msgstr "Copias instaladas de GTK, GStreamer y de un compilador de Vala"
 msgid "Basic knowledge of an object-oriented programming language"
 msgstr ""
 "Conocimientos básico de un lenguaje de programación orientado a objetos"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/magic-mirror.vala.page:47
+msgctxt "_"
+msgid ""
+"external ref='media/magic-mirror.png' md5='8171faea6ed3b6ddac0da084c29e4e22'"
+msgstr ""
+"external ref='media/magic-mirror.png' md5='8171faea6ed3b6ddac0da084c29e4e22'"
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:57
@@ -27587,17 +27455,6 @@ msgstr ""
 "impresionar a sus amigos y colegas con una impresionante aplicación que ha "
 "hecho en 15 minutos."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/menubar.c.page:25 C/menubar.py.page:29 C/menubar.vala.page:24
-msgctxt "_"
-msgid "external ref='media/menubar.png' md5='7b642aaa1628d5e43ab85ac230ac1c78'"
-msgstr ""
-"external ref='media/menubar.png' md5='7b642aaa1628d5e43ab85ac230ac1c78'"
-
 #. (itstool) path: info/title
 #: C/menubar.c.page:8
 msgctxt "text"
@@ -27613,6 +27470,17 @@ msgstr "Un widget que contiene widgets «GtkMenuItem»"
 #: C/menubar.c.page:23 C/menubar.vala.page:23
 msgid "MenuBar"
 msgstr "MenuBar"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/menubar.c.page:25 C/menubar.py.page:29 C/menubar.vala.page:24
+msgctxt "_"
+msgid "external ref='media/menubar.png' md5='7b642aaa1628d5e43ab85ac230ac1c78'"
+msgstr ""
+"external ref='media/menubar.png' md5='7b642aaa1628d5e43ab85ac230ac1c78'"
 
 #. (itstool) path: page/p
 #: C/menubar.c.page:26 C/menubar.py.page:30 C/menubar.vala.page:25
@@ -28291,20 +28159,6 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/glib/stable/glib-GVariantType.html"
 "\">GtkVariantType</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/menubar.py.page:132 C/menubar.vala.page:134
-msgctxt "_"
-msgid ""
-"external ref='media/menubar_choices.png' "
-"md5='47cdfa12caf85ba20dd3e835bd7f893f'"
-msgstr ""
-"external ref='media/menubar_choices.png' "
-"md5='47cdfa12caf85ba20dd3e835bd7f893f'"
-
 #. (itstool) path: info/title
 #: C/menubar.py.page:8
 msgctxt "text"
@@ -28760,6 +28614,20 @@ msgstr ""
 #: C/menubar.py.page:131 C/menubar.vala.page:133
 msgid "Choices submenu and items with state"
 msgstr "Submenú «choices» y elementos con estado"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/menubar.py.page:132 C/menubar.vala.page:134
+msgctxt "_"
+msgid ""
+"external ref='media/menubar_choices.png' "
+"md5='47cdfa12caf85ba20dd3e835bd7f893f'"
+msgstr ""
+"external ref='media/menubar_choices.png' "
+"md5='47cdfa12caf85ba20dd3e835bd7f893f'"
 
 #. (itstool) path: section/p
 #: C/menubar.py.page:133
@@ -30043,19 +29911,6 @@ msgid ""
 msgstr ""
 "<link href=\"http://valadoc.org/gio-2.0/Gtk.Builder.html\">Gtk.Builder</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/menubutton.c.page:22 C/menubutton.js.page:22 C/menubutton.py.page:29
-#: C/menubutton.vala.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/menubutton.png' md5='99eedc5ef2d6c56d32ca9ae7f3f3320f'"
-msgstr ""
-"external ref='media/menubutton.png' md5='99eedc5ef2d6c56d32ca9ae7f3f3320f'"
-
 #. (itstool) path: info/title
 #: C/menubutton.c.page:8 C/menubutton.py.page:8
 msgctxt "text"
@@ -30073,6 +29928,19 @@ msgstr "Un widget que muestra un menú cuando se pulsa"
 #: C/menubutton.vala.page:21
 msgid "MenuButton"
 msgstr "MenuButton"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/menubutton.c.page:22 C/menubutton.js.page:22 C/menubutton.py.page:29
+#: C/menubutton.vala.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/menubutton.png' md5='99eedc5ef2d6c56d32ca9ae7f3f3320f'"
+msgstr ""
+"external ref='media/menubutton.png' md5='99eedc5ef2d6c56d32ca9ae7f3f3320f'"
 
 #. (itstool) path: page/p
 #: C/menubutton.c.page:23 C/menubutton.js.page:23 C/menubutton.py.page:30
@@ -30955,18 +30823,6 @@ msgstr ""
 "\treturn new MyApplication ().run (args);\n"
 "}\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/message-board.c.page:41
-msgctxt "_"
-msgid ""
-"external ref='media/message-board.ogv' md5='beb80c4538776dc2cdd26c95abea5027'"
-msgstr ""
-"external ref='media/message-board.ogv' md5='beb80c4538776dc2cdd26c95abea5027'"
-
 #. (itstool) path: info/title
 #: C/message-board.c.page:8
 msgctxt "text"
@@ -31009,6 +30865,18 @@ msgstr ""
 "crear y colocar widgets y cómo conectar funciones de retorno de retorno de "
 "la llamadas a señales. Consulte la <link xref=\"image-viewer.c\"/> para "
 "aprender las nociones básicas de GTK+."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/message-board.c.page:41
+msgctxt "_"
+msgid ""
+"external ref='media/message-board.ogv' md5='beb80c4538776dc2cdd26c95abea5027'"
+msgstr ""
+"external ref='media/message-board.ogv' md5='beb80c4538776dc2cdd26c95abea5027'"
 
 #. (itstool) path: section/p
 #: C/message-board.c.page:48
@@ -31816,19 +31684,6 @@ msgstr ""
 "pulsa con el botón derecho sobe un mensaje. Esta características implican "
 "explorar más la API del DOM de WebKit."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/messagedialog.c.page:24 C/messagedialog.js.page:25
-#: C/messagedialog.py.page:23 C/messagedialog.vala.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/messagedialog.png' md5='1956288274018e2386d9cba96a2101de'"
-msgstr ""
-"external ref='media/messagedialog.png' md5='1956288274018e2386d9cba96a2101de'"
-
 #. (itstool) path: info/title
 #: C/messagedialog.c.page:8
 msgctxt "text"
@@ -31846,6 +31701,19 @@ msgstr "Una ventana de mensaje"
 #: C/messagedialog.py.page:22 C/messagedialog.vala.page:21
 msgid "MessageDialog"
 msgstr "MessageDialog"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/messagedialog.c.page:24 C/messagedialog.js.page:25
+#: C/messagedialog.py.page:23 C/messagedialog.vala.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/messagedialog.png' md5='1956288274018e2386d9cba96a2101de'"
+msgstr ""
+"external ref='media/messagedialog.png' md5='1956288274018e2386d9cba96a2101de'"
 
 #. (itstool) path: page/p
 #: C/messagedialog.c.page:25 C/messagedialog.vala.page:23
@@ -34211,17 +34079,6 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkCellRenderer.html"
 "\">GtkCellRenderer</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/paned.c.page:22 C/paned.js.page:22 C/paned.py.page:23
-#: C/paned.vala.page:22
-msgctxt "_"
-msgid "external ref='media/paned.png' md5='8c7e1df065395c9aafcd65036a293d8a'"
-msgstr "external ref='media/paned.png' md5='8c7e1df065395c9aafcd65036a293d8a'"
-
 #. (itstool) path: info/title
 #: C/paned.c.page:8
 msgctxt "text"
@@ -34239,6 +34096,17 @@ msgstr "Un widget con dos paneles ajustables"
 #: C/paned.vala.page:21
 msgid "Paned"
 msgstr "Paned"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/paned.c.page:22 C/paned.js.page:22 C/paned.py.page:23
+#: C/paned.vala.page:22
+msgctxt "_"
+msgid "external ref='media/paned.png' md5='8c7e1df065395c9aafcd65036a293d8a'"
+msgstr "external ref='media/paned.png' md5='8c7e1df065395c9aafcd65036a293d8a'"
 
 #. (itstool) path: page/p
 #: C/paned.c.page:23 C/paned.js.page:23 C/paned.py.page:24
@@ -34710,32 +34578,6 @@ msgid ""
 msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Paned.html\">GtkPaned</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/photo-wall.c.page:84
-msgctxt "_"
-msgid ""
-"external ref='media/photo-wall.png' md5='f19590d97e8ec029cda3c44b769c11cd'"
-msgstr ""
-"external ref='media/photo-wall.png' md5='f19590d97e8ec029cda3c44b769c11cd'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/photo-wall.c.page:87
-msgctxt "_"
-msgid ""
-"external ref='media/photo-wall-focused.png' "
-"md5='9f1ceecf3a28c1e468597b093a10cbae'"
-msgstr ""
-"external ref='media/photo-wall-focused.png' "
-"md5='9f1ceecf3a28c1e468597b093a10cbae'"
-
 #. (itstool) path: info/title
 #: C/photo-wall.c.page:7
 msgctxt "text"
@@ -34872,6 +34714,18 @@ msgstr "Un vistazo al mural de fotos"
 msgid "Our image viewer presents the user with a wall of images."
 msgstr "El visor de imágenes muestra al usuario un mural de imágenes."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/photo-wall.c.page:84
+msgctxt "_"
+msgid ""
+"external ref='media/photo-wall.png' md5='f19590d97e8ec029cda3c44b769c11cd'"
+msgstr ""
+"external ref='media/photo-wall.png' md5='f19590d97e8ec029cda3c44b769c11cd'"
+
 #. (itstool) path: section/p
 #: C/photo-wall.c.page:85
 msgid ""
@@ -34882,6 +34736,20 @@ msgstr ""
 "Cuando se pulsa una imagen, esta se anima para que rellene el área de "
 "visualización. Cuando se pulsa la imagen que tiene el foco, vuelve a su "
 "tamaño original usando una animación que dura 500 milisegundos."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/photo-wall.c.page:87
+msgctxt "_"
+msgid ""
+"external ref='media/photo-wall-focused.png' "
+"md5='9f1ceecf3a28c1e468597b093a10cbae'"
+msgstr ""
+"external ref='media/photo-wall-focused.png' "
+"md5='9f1ceecf3a28c1e468597b093a10cbae'"
 
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:91
@@ -35806,20 +35674,6 @@ msgstr ""
 "Si tiene problemas con este tutorial, compare su código con este <link href="
 "\"photo-wall/photo-wall.c\">código de referencia</link>."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/progressbar.c.page:24 C/progressbar.vala.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/progressbar_fill.ogv' "
-"md5='287763d1d3f4a328212ea2243910f5e4'"
-msgstr ""
-"external ref='media/progressbar_fill.ogv' "
-"md5='287763d1d3f4a328212ea2243910f5e4'"
-
 #. (itstool) path: info/title
 #: C/progressbar.c.page:8
 msgctxt "text"
@@ -35836,6 +35690,20 @@ msgstr "Un widget que indica el progreso de manera visual"
 #: C/progressbar.vala.page:21
 msgid "ProgressBar"
 msgstr "ProgressBar"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/progressbar.c.page:24 C/progressbar.vala.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/progressbar_fill.ogv' "
+"md5='287763d1d3f4a328212ea2243910f5e4'"
+msgstr ""
+"external ref='media/progressbar_fill.ogv' "
+"md5='287763d1d3f4a328212ea2243910f5e4'"
 
 #. (itstool) path: page/p
 #: C/progressbar.c.page:25 C/progressbar.vala.page:23
@@ -35998,18 +35866,6 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop."
 "html#g-timeout-add\">G_Timeout</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/progressbar.js.page:21 C/progressbar.py.page:23
-msgctxt "_"
-msgid ""
-"external ref='media/progressbar.ogv' md5='36deab3dd4b5be968828fa2ef416d612'"
-msgstr ""
-"external ref='media/progressbar.ogv' md5='36deab3dd4b5be968828fa2ef416d612'"
-
 #. (itstool) path: info/title
 #: C/progressbar.js.page:7
 msgctxt "text"
@@ -36020,6 +35876,18 @@ msgstr "ProgressBar (JavaScript)"
 #: C/progressbar.js.page:17
 msgid "A bar which animates to indicate progress"
 msgstr "Una barra que indica el progreso de manera visual"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/progressbar.js.page:21 C/progressbar.py.page:23
+msgctxt "_"
+msgid ""
+"external ref='media/progressbar.ogv' md5='36deab3dd4b5be968828fa2ef416d612'"
+msgstr ""
+"external ref='media/progressbar.ogv' md5='36deab3dd4b5be968828fa2ef416d612'"
 
 #. (itstool) path: div/p
 #: C/progressbar.js.page:25 C/progressbar.py.page:27
@@ -36626,18 +36494,6 @@ msgstr ""
 msgid "Tutorial for beginners"
 msgstr "Tutoriales para principiantes"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/radiobutton.c.page:25 C/radiobutton.py.page:24 C/radiobutton.vala.page:25
-msgctxt "_"
-msgid ""
-"external ref='media/radiobutton.png' md5='d115460280d8e41493dd98054b5822a5'"
-msgstr ""
-"external ref='media/radiobutton.png' md5='d115460280d8e41493dd98054b5822a5'"
-
 #. (itstool) path: info/title
 #: C/radiobutton.c.page:8
 msgctxt "text"
@@ -36654,6 +36510,18 @@ msgstr "Una elección desde varios «CheckButton»."
 #: C/radiobutton.vala.page:24
 msgid "RadioButton"
 msgstr "RadioButton"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/radiobutton.c.page:25 C/radiobutton.py.page:24 C/radiobutton.vala.page:25
+msgctxt "_"
+msgid ""
+"external ref='media/radiobutton.png' md5='d115460280d8e41493dd98054b5822a5'"
+msgstr ""
+"external ref='media/radiobutton.png' md5='d115460280d8e41493dd98054b5822a5'"
 
 #. (itstool) path: page/p
 #: C/radiobutton.c.page:26
@@ -36871,7 +36739,18 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkSwitch.html"
 "\">GtkSwitch</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/radiobutton.js.page:8
+msgctxt "text"
+msgid "RadioButton (JavaScript)"
+msgstr "RadioButton (JavaScript)"
+
+#. (itstool) path: info/desc
+#: C/radiobutton.js.page:18
+msgid "Only one can be selected at a time"
+msgstr "Sólo se puede seleccionar uno a la vez"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -36884,17 +36763,6 @@ msgid ""
 msgstr ""
 "external ref='media/radiobuttontravel.png' "
 "md5='0c5f01ee160bb42716ccf5dccbd080c0'"
-
-#. (itstool) path: info/title
-#: C/radiobutton.js.page:8
-msgctxt "text"
-msgid "RadioButton (JavaScript)"
-msgstr "RadioButton (JavaScript)"
-
-#. (itstool) path: info/desc
-#: C/radiobutton.js.page:18
-msgid "Only one can be selected at a time"
-msgstr "Sólo se puede seleccionar uno a la vez"
 
 #. (itstool) path: page/p
 #: C/radiobutton.js.page:23
@@ -38323,20 +38191,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.RadioButton.html\">Gtk."
 "RadioButton</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/record-collection.js.page:70
-msgctxt "_"
-msgid ""
-"external ref='media/record-collection.png' "
-"md5='2d645997687ed5aacd36aafafc16e072'"
-msgstr ""
-"external ref='media/record-collection.png' "
-"md5='2d645997687ed5aacd36aafafc16e072'"
-
 #. (itstool) path: info/title
 #: C/record-collection.js.page:8
 msgctxt "text"
@@ -38436,6 +38290,20 @@ msgstr ""
 #: C/record-collection.js.page:69
 msgid "Program Structure"
 msgstr "Estructura del programa"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/record-collection.js.page:70
+msgctxt "_"
+msgid ""
+"external ref='media/record-collection.png' "
+"md5='2d645997687ed5aacd36aafafc16e072'"
+msgstr ""
+"external ref='media/record-collection.png' "
+"md5='2d645997687ed5aacd36aafafc16e072'"
 
 #. (itstool) path: section/p
 #: C/record-collection.js.page:71
@@ -39314,16 +39182,6 @@ msgstr "ResponseType.HELP = -11"
 msgid "Returned by Help buttons in GTK+ dialogs"
 msgstr "Valor devuelto por los botones «Ayuda» en diálogos de GTK+"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/scale.c.page:25
-msgctxt "_"
-msgid "external ref='media/scale2.png' md5='ae2ba0a6675f3d9cdcd961cdf32f1a5c'"
-msgstr "external ref='media/scale2.png' md5='ae2ba0a6675f3d9cdcd961cdf32f1a5c'"
-
 #. (itstool) path: info/title
 #: C/scale.c.page:8
 msgctxt "text"
@@ -39340,6 +39198,16 @@ msgstr "Un widget deslizador para seleccionar un valor de un rango"
 #: C/scale.vala.page:23
 msgid "Scale"
 msgstr "Escala"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/scale.c.page:25
+msgctxt "_"
+msgid "external ref='media/scale2.png' md5='ae2ba0a6675f3d9cdcd961cdf32f1a5c'"
+msgstr "external ref='media/scale2.png' md5='ae2ba0a6675f3d9cdcd961cdf32f1a5c'"
 
 #. (itstool) path: page/p
 #: C/scale.c.page:26 C/scale.py.page:25 C/scale.vala.page:25
@@ -39702,18 +39570,6 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/glib/stable/glib-String-Utility-"
 "Functions.html#g-strdup-printf\">Funciones útiles de cadenas</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/scale.js.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/scalepenguins.png' md5='2dbe6a833fec86fde71a5ddb421e2cd5'"
-msgstr ""
-"external ref='media/scalepenguins.png' md5='2dbe6a833fec86fde71a5ddb421e2cd5'"
-
 #. (itstool) path: info/title
 #: C/scale.js.page:8
 msgctxt "text"
@@ -39724,6 +39580,18 @@ msgstr "Escala (JavaScript)"
 #: C/scale.js.page:18
 msgid "A slider which corresponds to a numerical value"
 msgstr "Un deslizador que corresponde a un valor numérico"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/scale.js.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/scalepenguins.png' md5='2dbe6a833fec86fde71a5ddb421e2cd5'"
+msgstr ""
+"external ref='media/scalepenguins.png' md5='2dbe6a833fec86fde71a5ddb421e2cd5'"
 
 #. (itstool) path: page/p
 #: C/scale.js.page:23
@@ -40487,7 +40355,13 @@ msgstr ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.Scale.html"
 "\">Gtk.Scale</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/scale.py.page:8
+msgctxt "text"
+msgid "Scale (Python)"
+msgstr "Escala (Python)"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -40496,12 +40370,6 @@ msgstr ""
 msgctxt "_"
 msgid "external ref='media/scale.png' md5='462c52a53b773cb9e8c62c646bf88452'"
 msgstr "external ref='media/scale.png' md5='462c52a53b773cb9e8c62c646bf88452'"
-
-#. (itstool) path: info/title
-#: C/scale.py.page:8
-msgctxt "text"
-msgid "Scale (Python)"
-msgstr "Escala (Python)"
 
 #. (itstool) path: section/code
 #: C/scale.py.page:31
@@ -40972,21 +40840,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Orientation.html\">Gtk."
 "Orientation</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/scrolledwindow.c.page:25 C/scrolledwindow.js.page:22
-#: C/scrolledwindow.py.page:23 C/scrolledwindow.vala.page:23
-msgctxt "_"
-msgid ""
-"external ref='media/scrolledwindow.png' "
-"md5='697bb3205d5c4fb0b4ea8db435843157'"
-msgstr ""
-"external ref='media/scrolledwindow.png' "
-"md5='697bb3205d5c4fb0b4ea8db435843157'"
-
 #. (itstool) path: info/title
 #: C/scrolledwindow.c.page:8
 msgctxt "text"
@@ -41004,6 +40857,21 @@ msgstr "Añade barras de desplazamiento a su widget hijo"
 #: C/scrolledwindow.py.page:22 C/scrolledwindow.vala.page:22
 msgid "ScrolledWindow"
 msgstr "ScrolledWindow"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/scrolledwindow.c.page:25 C/scrolledwindow.js.page:22
+#: C/scrolledwindow.py.page:23 C/scrolledwindow.vala.page:23
+msgctxt "_"
+msgid ""
+"external ref='media/scrolledwindow.png' "
+"md5='697bb3205d5c4fb0b4ea8db435843157'"
+msgstr ""
+"external ref='media/scrolledwindow.png' "
+"md5='697bb3205d5c4fb0b4ea8db435843157'"
 
 #. (itstool) path: page/p
 #: C/scrolledwindow.c.page:26 C/scrolledwindow.js.page:23
@@ -41535,18 +41403,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.PolicyType.html\">Gtk."
 "PolicyType</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/separator.c.page:24 C/separator.py.page:25 C/separator.vala.page:26
-msgctxt "_"
-msgid ""
-"external ref='media/separator.png' md5='8769b27662ce5c77f99e9ce33751a21a'"
-msgstr ""
-"external ref='media/separator.png' md5='8769b27662ce5c77f99e9ce33751a21a'"
-
 #. (itstool) path: info/title
 #: C/separator.c.page:8
 msgctxt "text"
@@ -41562,6 +41418,18 @@ msgstr "Un widget separador"
 #: C/separator.c.page:22 C/separator.py.page:23 C/separator.vala.page:24
 msgid "Separator"
 msgstr "Separador"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/separator.c.page:24 C/separator.py.page:25 C/separator.vala.page:26
+msgctxt "_"
+msgid ""
+"external ref='media/separator.png' md5='8769b27662ce5c77f99e9ce33751a21a'"
+msgstr ""
+"external ref='media/separator.png' md5='8769b27662ce5c77f99e9ce33751a21a'"
 
 #. (itstool) path: page/p
 #: C/separator.c.page:25 C/separator.py.page:26 C/separator.vala.page:27
@@ -41928,30 +41796,6 @@ msgid ""
 msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Label.html\">GtkLabel</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/set-up-gedit.js.page:25
-msgctxt "_"
-msgid ""
-"external ref='media/geditview.png' md5='f1438295662d95f56fcd1d8200efaaf2'"
-msgstr ""
-"external ref='media/geditview.png' md5='f1438295662d95f56fcd1d8200efaaf2'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/set-up-gedit.js.page:37
-msgctxt "_"
-msgid ""
-"external ref='media/gediteditor.png' md5='50db1ee8f2c545744879ee9fba5b4b24'"
-msgstr ""
-"external ref='media/gediteditor.png' md5='50db1ee8f2c545744879ee9fba5b4b24'"
-
 #. (itstool) path: page/title
 #: C/set-up-gedit.js.page:19
 msgid "Set up gedit for JavaScript development"
@@ -41982,6 +41826,18 @@ msgid ""
 msgstr ""
 "Pulse en <gui>Editar</gui> en la barra de menú de gedit, después pulse en "
 "<gui>Preferencias</gui>. Debería ver algo así:"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/set-up-gedit.js.page:25
+msgctxt "_"
+msgid ""
+"external ref='media/geditview.png' md5='f1438295662d95f56fcd1d8200efaaf2'"
+msgstr ""
+"external ref='media/geditview.png' md5='f1438295662d95f56fcd1d8200efaaf2'"
 
 #. (itstool) path: section/p
 #: C/set-up-gedit.js.page:26
@@ -42030,6 +41886,18 @@ msgid ""
 msgstr ""
 "En el diálogo <gui>Preferencias</gui> de gedit, pulse en la pestaña "
 "<gui>Editor</gui>. Debería ver algo así:"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/set-up-gedit.js.page:37
+msgctxt "_"
+msgid ""
+"external ref='media/gediteditor.png' md5='50db1ee8f2c545744879ee9fba5b4b24'"
+msgstr ""
+"external ref='media/gediteditor.png' md5='50db1ee8f2c545744879ee9fba5b4b24'"
 
 #. (itstool) path: section/p
 #: C/set-up-gedit.js.page:38
@@ -42177,18 +42045,6 @@ msgstr ""
 "html\">Conceptos básicos: bucle principal y señales</link> en el tutorial de "
 "GTK+ en Python 3"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/spinbutton.c.page:26 C/spinbutton.py.page:24 C/spinbutton.vala.page:24
-msgctxt "_"
-msgid ""
-"external ref='media/spinbutton.png' md5='993cbb7d9bd271a329727a926195712a'"
-msgstr ""
-"external ref='media/spinbutton.png' md5='993cbb7d9bd271a329727a926195712a'"
-
 #. (itstool) path: info/title
 #: C/spinbutton.c.page:8
 msgctxt "text"
@@ -42205,6 +42061,18 @@ msgstr "Obtener un número entero o en coma flotante"
 #: C/spinbutton.vala.page:23
 msgid "SpinButton"
 msgstr "SpinButton"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/spinbutton.c.page:26 C/spinbutton.py.page:24 C/spinbutton.vala.page:24
+msgctxt "_"
+msgid ""
+"external ref='media/spinbutton.png' md5='993cbb7d9bd271a329727a926195712a'"
+msgstr ""
+"external ref='media/spinbutton.png' md5='993cbb7d9bd271a329727a926195712a'"
 
 #. (itstool) path: page/p
 #: C/spinbutton.c.page:27 C/spinbutton.py.page:25 C/spinbutton.vala.page:25
@@ -42416,7 +42284,18 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkSpinButton.html"
 "\">GtkSpinButton</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/spinbutton.js.page:8
+msgctxt "text"
+msgid "SpinButton (JavaScript)"
+msgstr "SpinButton (JavaScript)"
+
+#. (itstool) path: info/desc
+#: C/spinbutton.js.page:21
+msgid "A number entry field that has + and - buttons"
+msgstr "Un campo de entrada numérico que tiene botones «+» y «-»."
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -42429,17 +42308,6 @@ msgid ""
 msgstr ""
 "external ref='media/spinbuttonkittens.png' "
 "md5='577cce8a902140aacbab73fe8a76a010'"
-
-#. (itstool) path: info/title
-#: C/spinbutton.js.page:8
-msgctxt "text"
-msgid "SpinButton (JavaScript)"
-msgstr "SpinButton (JavaScript)"
-
-#. (itstool) path: info/desc
-#: C/spinbutton.js.page:21
-msgid "A number entry field that has + and - buttons"
-msgstr "Un campo de entrada numérico que tiene botones «+» y «-»."
 
 #. (itstool) path: page/p
 #: C/spinbutton.js.page:26
@@ -43452,18 +43320,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.SpinButton.html\">Gtk."
 "SpinButton</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/spinner.c.page:24 C/spinner.js.page:22 C/spinner.py.page:23
-#: C/spinner.vala.page:22
-msgctxt "_"
-msgid "external ref='media/spinner.png' md5='d04f2d81f1d72c6c2f97e8729947dfed'"
-msgstr ""
-"external ref='media/spinner.png' md5='d04f2d81f1d72c6c2f97e8729947dfed'"
-
 #. (itstool) path: info/title
 #: C/spinner.c.page:8
 msgctxt "text"
@@ -43481,6 +43337,18 @@ msgstr "Una animación giratoria"
 #: C/spinner.vala.page:21
 msgid "Spinner"
 msgstr "Spinner"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/spinner.c.page:24 C/spinner.js.page:22 C/spinner.py.page:23
+#: C/spinner.vala.page:22
+msgctxt "_"
+msgid "external ref='media/spinner.png' md5='d04f2d81f1d72c6c2f97e8729947dfed'"
+msgstr ""
+"external ref='media/spinner.png' md5='d04f2d81f1d72c6c2f97e8729947dfed'"
 
 #. (itstool) path: page/p
 #: C/spinner.c.page:25 C/spinner.js.page:23 C/spinner.py.page:24
@@ -44177,18 +44045,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gdk-3.0/Gdk.keyval_name.html\">Gdk."
 "keyval_name</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/statusbar.c.page:27
-msgctxt "_"
-msgid ""
-"external ref='media/statusbar3.png' md5='60c71604fb44656237ee66dfb39a8689'"
-msgstr ""
-"external ref='media/statusbar3.png' md5='60c71604fb44656237ee66dfb39a8689'"
-
 #. (itstool) path: info/title
 #: C/statusbar.c.page:8
 msgctxt "text"
@@ -44205,6 +44061,18 @@ msgstr "Enviar mensajes de menor importancia al usuario"
 #: C/statusbar.vala.page:24
 msgid "Statusbar"
 msgstr "Statusbar"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/statusbar.c.page:27
+msgctxt "_"
+msgid ""
+"external ref='media/statusbar3.png' md5='60c71604fb44656237ee66dfb39a8689'"
+msgstr ""
+"external ref='media/statusbar3.png' md5='60c71604fb44656237ee66dfb39a8689'"
 
 #. (itstool) path: page/p
 #: C/statusbar.c.page:28
@@ -44445,18 +44313,6 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/glib/stable/glib-String-Utility-"
 "Functions.html#g-snprintf\">Funciones de cadenas útiles</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/statusbar.js.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/statusbar2.png' md5='ff6f7e5b270827ca98b2d5f7087aa766'"
-msgstr ""
-"external ref='media/statusbar2.png' md5='ff6f7e5b270827ca98b2d5f7087aa766'"
-
 #. (itstool) path: info/title
 #: C/statusbar.js.page:8
 msgctxt "text"
@@ -44467,6 +44323,18 @@ msgstr "Statusbar (JavaScript)"
 #: C/statusbar.js.page:18
 msgid "Show notifications in a dedicated statusbar"
 msgstr "Mostrar notificaciones en una barra de estado dedicada"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/statusbar.js.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/statusbar2.png' md5='ff6f7e5b270827ca98b2d5f7087aa766'"
+msgstr ""
+"external ref='media/statusbar2.png' md5='ff6f7e5b270827ca98b2d5f7087aa766'"
 
 #. (itstool) path: page/p
 #: C/statusbar.js.page:23
@@ -45316,7 +45184,13 @@ msgstr ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.Statusbar.html"
 "\">Gtk.Statusbar</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/title
+#: C/statusbar.py.page:8
+msgctxt "text"
+msgid "Statusbar (Python)"
+msgstr "Statusbar (Python)"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -45327,12 +45201,6 @@ msgid ""
 "external ref='media/statusbar.png' md5='eb1aca55315d6cda57b12a5f36058ba8'"
 msgstr ""
 "external ref='media/statusbar.png' md5='eb1aca55315d6cda57b12a5f36058ba8'"
-
-#. (itstool) path: info/title
-#: C/statusbar.py.page:8
-msgctxt "text"
-msgid "Statusbar (Python)"
-msgstr "Statusbar (Python)"
 
 #. (itstool) path: page/p
 #: C/statusbar.py.page:25
@@ -46023,30 +45891,6 @@ msgstr ""
 "<link href=\"http://python-gtk-3-tutorial.readthedocs.org/en/latest/unicode."
 "html\">Cómo manejar cadenas: el tutorial de GTK+ 3 en Python</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/switch.c.page:23 C/switch.py.page:23 C/switch.vala.page:26
-msgctxt "_"
-msgid ""
-"external ref='media/switch_off.png' md5='211a2962708800697ad5373dcc86ad6d'"
-msgstr ""
-"external ref='media/switch_off.png' md5='211a2962708800697ad5373dcc86ad6d'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/switch.c.page:24 C/switch.py.page:24 C/switch.vala.page:27
-msgctxt "_"
-msgid ""
-"external ref='media/switch_on.png' md5='95e8769f758c2d95ace0fa8ecf30b29d'"
-msgstr ""
-"external ref='media/switch_on.png' md5='95e8769f758c2d95ace0fa8ecf30b29d'"
-
 #. (itstool) path: info/title
 #: C/switch.c.page:8
 msgctxt "text"
@@ -46063,6 +45907,30 @@ msgstr "Un interruptor estilo «ligero»"
 #: C/switch.vala.page:25
 msgid "Switch"
 msgstr "Interruptor"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/switch.c.page:23 C/switch.py.page:23 C/switch.vala.page:26
+msgctxt "_"
+msgid ""
+"external ref='media/switch_off.png' md5='211a2962708800697ad5373dcc86ad6d'"
+msgstr ""
+"external ref='media/switch_off.png' md5='211a2962708800697ad5373dcc86ad6d'"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/switch.c.page:24 C/switch.py.page:24 C/switch.vala.page:27
+msgctxt "_"
+msgid ""
+"external ref='media/switch_on.png' md5='95e8769f758c2d95ace0fa8ecf30b29d'"
+msgstr ""
+"external ref='media/switch_on.png' md5='95e8769f758c2d95ace0fa8ecf30b29d'"
 
 #. (itstool) path: page/p
 #: C/switch.c.page:25
@@ -46231,18 +46099,6 @@ msgstr ""
 "  return status;\n"
 "}\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/switch.js.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/switchanimals.png' md5='513ae15dcf68e15eef30b76420b8c714'"
-msgstr ""
-"external ref='media/switchanimals.png' md5='513ae15dcf68e15eef30b76420b8c714'"
-
 #. (itstool) path: info/title
 #: C/switch.js.page:8
 msgctxt "text"
@@ -46253,6 +46109,18 @@ msgstr "Interruptor (JavaScript)"
 #: C/switch.js.page:18
 msgid "A sliding switch that can be flipped on and off"
 msgstr "Un interruptor deslizante que se puede activar y desactivar"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/switch.js.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/switchanimals.png' md5='513ae15dcf68e15eef30b76420b8c714'"
+msgstr ""
+"external ref='media/switchanimals.png' md5='513ae15dcf68e15eef30b76420b8c714'"
 
 #. (itstool) path: page/p
 #: C/switch.js.page:23
@@ -47547,18 +47415,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Switch.html\">Gtk.Switch</"
 "link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/textview.c.page:27 C/textview.py.page:39 C/textview.vala.page:27
-msgctxt "_"
-msgid ""
-"external ref='media/textview.png' md5='049e859ed1af2d7c93d8cb5cfd9f7792'"
-msgstr ""
-"external ref='media/textview.png' md5='049e859ed1af2d7c93d8cb5cfd9f7792'"
-
 #. (itstool) path: info/title
 #: C/textview.c.page:8
 msgctxt "text"
@@ -47605,6 +47461,18 @@ msgid ""
 msgstr ""
 "Si es escribe una palabra laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaarga (eso es "
 "largo), aparecerá una barra de desplazamiento horizontal."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/textview.c.page:27 C/textview.py.page:39 C/textview.vala.page:27
+msgctxt "_"
+msgid ""
+"external ref='media/textview.png' md5='049e859ed1af2d7c93d8cb5cfd9f7792'"
+msgstr ""
+"external ref='media/textview.png' md5='049e859ed1af2d7c93d8cb5cfd9f7792'"
 
 #. (itstool) path: page/p
 #: C/textview.c.page:28 C/textview.vala.page:28
@@ -47770,20 +47638,6 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkContainer.html"
 "\">GtkContainer</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/textview.js.page:26
-msgctxt "_"
-msgid ""
-"external ref='media/textviewpenguinchat.png' "
-"md5='0dd6f6aa44aaeab7901bd90162ed4c9a'"
-msgstr ""
-"external ref='media/textviewpenguinchat.png' "
-"md5='0dd6f6aa44aaeab7901bd90162ed4c9a'"
-
 #. (itstool) path: info/title
 #: C/textview.js.page:8
 msgctxt "text"
@@ -47799,6 +47653,20 @@ msgstr "Un editor de texto multilínea"
 #: C/textview.js.page:25 C/textview.py.page:30
 msgid "TextView"
 msgstr "TextView"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/textview.js.page:26
+msgctxt "_"
+msgid ""
+"external ref='media/textviewpenguinchat.png' "
+"md5='0dd6f6aa44aaeab7901bd90162ed4c9a'"
+msgstr ""
+"external ref='media/textviewpenguinchat.png' "
+"md5='0dd6f6aa44aaeab7901bd90162ed4c9a'"
 
 #. (itstool) path: page/p
 #: C/textview.js.page:27
@@ -49300,19 +49168,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.WrapMode.html\">Gtk."
 "WrapMode</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/togglebutton.c.page:27 C/togglebutton.js.page:22
-#: C/togglebutton.py.page:23 C/togglebutton.vala.page:25
-msgctxt "_"
-msgid ""
-"external ref='media/togglebutton.png' md5='791e062613d4f9bd5936390b0aa18448'"
-msgstr ""
-"external ref='media/togglebutton.png' md5='791e062613d4f9bd5936390b0aa18448'"
-
 #. (itstool) path: info/title
 #: C/togglebutton.c.page:8
 msgctxt "text"
@@ -49330,6 +49185,19 @@ msgstr "Un botón que mantiene su estado"
 #: C/togglebutton.py.page:22 C/togglebutton.vala.page:24
 msgid "ToggleButton"
 msgstr "ToggleButton"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/togglebutton.c.page:27 C/togglebutton.js.page:22
+#: C/togglebutton.py.page:23 C/togglebutton.vala.page:25
+msgctxt "_"
+msgid ""
+"external ref='media/togglebutton.png' md5='791e062613d4f9bd5936390b0aa18448'"
+msgstr ""
+"external ref='media/togglebutton.png' md5='791e062613d4f9bd5936390b0aa18448'"
 
 #. (itstool) path: page/p
 #: C/togglebutton.c.page:28 C/togglebutton.py.page:24
@@ -50283,19 +50151,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.ToggleButton.html\">Gtk."
 "ToggleButton</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbar.c.page:25 C/toolbar.js.page:22 C/toolbar.py.page:25
-#: C/toolbar.vala.page:24 C/toolbar_builder.py.page:38
-#: C/toolbar_builder.vala.page:25
-msgctxt "_"
-msgid "external ref='media/toolbar.png' md5='f0350855eedf6343952b72d6d906f738'"
-msgstr ""
-"external ref='media/toolbar.png' md5='f0350855eedf6343952b72d6d906f738'"
-
 #. (itstool) path: info/title
 #: C/toolbar.c.page:8
 msgctxt "text"
@@ -50312,6 +50167,19 @@ msgstr "Una barra de botones"
 #: C/toolbar.vala.page:22
 msgid "Toolbar"
 msgstr "Barra de herramientas"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbar.c.page:25 C/toolbar.js.page:22 C/toolbar.py.page:25
+#: C/toolbar.vala.page:24 C/toolbar_builder.py.page:38
+#: C/toolbar_builder.vala.page:25
+msgctxt "_"
+msgid "external ref='media/toolbar.png' md5='f0350855eedf6343952b72d6d906f738'"
+msgstr ""
+"external ref='media/toolbar.png' md5='f0350855eedf6343952b72d6d906f738'"
 
 #. (itstool) path: page/p
 #: C/toolbar.c.page:26 C/toolbar.js.page:23 C/toolbar.vala.page:25
@@ -51966,102 +51834,6 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Stock.html\">Gtk.Stock</"
 "link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbar_builder.py.page:50 C/toolbar_builder.vala.page:33
-msgctxt "_"
-msgid ""
-"external ref='media/glade_ui.png' md5='baea74fe213bc12ea934f64f6977215a'"
-msgstr ""
-"external ref='media/glade_ui.png' md5='baea74fe213bc12ea934f64f6977215a'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbar_builder.py.page:56 C/toolbar_builder.vala.page:39
-msgctxt "_"
-msgid ""
-"external ref='media/glade_select_toolbar.png' "
-"md5='f7b5b224050b2e387eb04362fc99df00'"
-msgstr ""
-"external ref='media/glade_select_toolbar.png' "
-"md5='f7b5b224050b2e387eb04362fc99df00'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbar_builder.py.page:62 C/toolbar_builder.vala.page:45
-msgctxt "_"
-msgid ""
-"external ref='media/glade_toolbar_general.png' "
-"md5='e31daba6e8a3e526aca89d5f1622edaa'"
-msgstr ""
-"external ref='media/glade_toolbar_general.png' "
-"md5='e31daba6e8a3e526aca89d5f1622edaa'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbar_builder.py.page:68 C/toolbar_builder.vala.page:51
-msgctxt "_"
-msgid ""
-"external ref='media/glade_toolbar_common.png' "
-"md5='d5ec6cc0218ca98e195dbd033feb9ac5'"
-msgstr ""
-"external ref='media/glade_toolbar_common.png' "
-"md5='d5ec6cc0218ca98e195dbd033feb9ac5'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbar_builder.py.page:74 C/toolbar_builder.vala.page:57
-msgctxt "_"
-msgid ""
-"external ref='media/glade_toolbar_edit.png' "
-"md5='feb1e2b7040d24a4d030f94cf07c81fd'"
-msgstr ""
-"external ref='media/glade_toolbar_edit.png' "
-"md5='feb1e2b7040d24a4d030f94cf07c81fd'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbar_builder.py.page:133 C/toolbar_builder.vala.page:116
-msgctxt "_"
-msgid ""
-"external ref='media/glade_toolbar_editor.png' "
-"md5='8af65241e5ca47d5494a7b36640e6f1c'"
-msgstr ""
-"external ref='media/glade_toolbar_editor.png' "
-"md5='8af65241e5ca47d5494a7b36640e6f1c'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbar_builder.py.page:142 C/toolbar_builder.vala.page:125
-msgctxt "_"
-msgid ""
-"external ref='media/glade_visible_no.png' "
-"md5='dc6c025aa825f4d772fbd283d6330026'"
-msgstr ""
-"external ref='media/glade_visible_no.png' "
-"md5='dc6c025aa825f4d772fbd283d6330026'"
-
 #. (itstool) path: info/title
 #: C/toolbar_builder.py.page:8
 msgctxt "text"
@@ -52102,6 +51874,18 @@ msgstr ""
 msgid "Open Glade, and save the file as <file>toolbar_builder.ui</file>"
 msgstr "Abra Glade y guarde el archivo como <file>toolbar_builder.ui</file>"
 
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbar_builder.py.page:50 C/toolbar_builder.vala.page:33
+msgctxt "_"
+msgid ""
+"external ref='media/glade_ui.png' md5='baea74fe213bc12ea934f64f6977215a'"
+msgstr ""
+"external ref='media/glade_ui.png' md5='baea74fe213bc12ea934f64f6977215a'"
+
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:50 C/toolbar_builder.vala.page:33
 msgid ""
@@ -52120,6 +51904,20 @@ msgstr ""
 "Bajo <gui>Contenedores</gui> en el lado izquierdo, pulse con el botón "
 "derecho en el icono de la barra de herramientas y seleccione <gui>Añadir "
 "widget como nivel superior</gui>."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbar_builder.py.page:56 C/toolbar_builder.vala.page:39
+msgctxt "_"
+msgid ""
+"external ref='media/glade_select_toolbar.png' "
+"md5='f7b5b224050b2e387eb04362fc99df00'"
+msgstr ""
+"external ref='media/glade_select_toolbar.png' "
+"md5='f7b5b224050b2e387eb04362fc99df00'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:56 C/toolbar_builder.vala.page:39
@@ -52140,6 +51938,20 @@ msgstr ""
 "<gui>Nombre</gui> a <input>toolbar</input> y <gui>Mostrar flecha</gui> a "
 "<gui>No</gui>."
 
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbar_builder.py.page:62 C/toolbar_builder.vala.page:45
+msgctxt "_"
+msgid ""
+"external ref='media/glade_toolbar_general.png' "
+"md5='e31daba6e8a3e526aca89d5f1622edaa'"
+msgstr ""
+"external ref='media/glade_toolbar_general.png' "
+"md5='e31daba6e8a3e526aca89d5f1622edaa'"
+
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:62 C/toolbar_builder.vala.page:45
 msgid ""
@@ -52157,6 +51969,20 @@ msgid ""
 msgstr ""
 "Bajo la pestaña <gui>Comunes</gui>, establezca <gui>Expansión horizontal</"
 "gui> a <gui>Sí</gui>."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbar_builder.py.page:68 C/toolbar_builder.vala.page:51
+msgctxt "_"
+msgid ""
+"external ref='media/glade_toolbar_common.png' "
+"md5='d5ec6cc0218ca98e195dbd033feb9ac5'"
+msgstr ""
+"external ref='media/glade_toolbar_common.png' "
+"md5='d5ec6cc0218ca98e195dbd033feb9ac5'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:68 C/toolbar_builder.vala.page:51
@@ -52176,6 +52002,20 @@ msgstr ""
 "Pulse el botón derecho sobre la barra de herramientas en la parte superior "
 "derecha y seleccione <gui>Editar</gui>. La ventana <gui>Editor de barras de "
 "herramientas</gui> aparecerá."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbar_builder.py.page:74 C/toolbar_builder.vala.page:57
+msgctxt "_"
+msgid ""
+"external ref='media/glade_toolbar_edit.png' "
+"md5='feb1e2b7040d24a4d030f94cf07c81fd'"
+msgstr ""
+"external ref='media/glade_toolbar_edit.png' "
+"md5='feb1e2b7040d24a4d030f94cf07c81fd'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:74 C/toolbar_builder.vala.page:57
@@ -52343,6 +52183,20 @@ msgstr "Leave Fullscreen"
 msgid "gtk-leave-fullscreen"
 msgstr "gtk-leave-fullscreen"
 
+#. (itstool) path: item/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbar_builder.py.page:133 C/toolbar_builder.vala.page:116
+msgctxt "_"
+msgid ""
+"external ref='media/glade_toolbar_editor.png' "
+"md5='8af65241e5ca47d5494a7b36640e6f1c'"
+msgstr ""
+"external ref='media/glade_toolbar_editor.png' "
+"md5='8af65241e5ca47d5494a7b36640e6f1c'"
+
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:138 C/toolbar_builder.vala.page:121
 msgid "Close the <gui>Tool Bar Editor</gui>."
@@ -52369,6 +52223,20 @@ msgstr ""
 "el código de su programa. Tenga en cuenta que el método <gui>show_all()</"
 "gui> anularía esta opción, por lo que en el código se tiene que usar "
 "<gui>show()</gui> en todos los elementos por separado."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbar_builder.py.page:142 C/toolbar_builder.vala.page:125
+msgctxt "_"
+msgid ""
+"external ref='media/glade_visible_no.png' "
+"md5='dc6c025aa825f4d772fbd283d6330026'"
+msgstr ""
+"external ref='media/glade_visible_no.png' "
+"md5='dc6c025aa825f4d772fbd283d6330026'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:142 C/toolbar_builder.vala.page:125
@@ -53193,18 +53061,6 @@ msgstr ""
 "\treturn new MyApplication ().run (args);\n"
 "}\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tooltip.c.page:23 C/tooltip.js.page:23 C/tooltip.py.page:24
-#: C/tooltip.vala.page:23
-msgctxt "_"
-msgid "external ref='media/tooltip.png' md5='41e35860a51e39cb48c71e57bb8fb1d0'"
-msgstr ""
-"external ref='media/tooltip.png' md5='41e35860a51e39cb48c71e57bb8fb1d0'"
-
 #. (itstool) path: info/title
 #: C/tooltip.c.page:8
 msgctxt "text"
@@ -53222,6 +53078,18 @@ msgstr "Añadir consejos a sus widgets"
 #: C/tooltip.vala.page:22
 msgid "Tooltip"
 msgstr "Consejo"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tooltip.c.page:23 C/tooltip.js.page:23 C/tooltip.py.page:24
+#: C/tooltip.vala.page:23
+msgctxt "_"
+msgid "external ref='media/tooltip.png' md5='41e35860a51e39cb48c71e57bb8fb1d0'"
+msgstr ""
+"external ref='media/tooltip.png' md5='41e35860a51e39cb48c71e57bb8fb1d0'"
 
 #. (itstool) path: page/p
 #: C/tooltip.c.page:24 C/tooltip.js.page:24 C/tooltip.py.page:25
@@ -54732,20 +54600,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/3.4/gtk3-Stock-Items.html#GTK-"
 "STOCK-UNDO:CAPS\">Stock Items</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/treeview_advanced_liststore.py.page:23
-msgctxt "_"
-msgid ""
-"external ref='media/treeview_advanced_liststore.png' "
-"md5='102b512197fb9aa4ed9a16462f6af911'"
-msgstr ""
-"external ref='media/treeview_advanced_liststore.png' "
-"md5='102b512197fb9aa4ed9a16462f6af911'"
-
 #. (itstool) path: info/title
 #: C/treeview_advanced_liststore.py.page:8
 msgctxt "text"
@@ -54761,6 +54615,20 @@ msgstr "Un TreeView mostrando un ListStore (ejemplo más complejo)"
 #: C/treeview_advanced_liststore.py.page:22
 msgid "More Complex Treeview with ListStore"
 msgstr "Treeview más complejo con ListStore"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/treeview_advanced_liststore.py.page:23
+msgctxt "_"
+msgid ""
+"external ref='media/treeview_advanced_liststore.png' "
+"md5='102b512197fb9aa4ed9a16462f6af911'"
+msgstr ""
+"external ref='media/treeview_advanced_liststore.png' "
+"md5='102b512197fb9aa4ed9a16462f6af911'"
 
 #. (itstool) path: page/p
 #: C/treeview_advanced_liststore.py.page:24
@@ -55090,20 +54958,6 @@ msgstr ""
 "Consulte la <link xref=\"signals-callbacks.py\"/> para una explicación más "
 "detallada."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/treeview_cellrenderertoggle.py.page:23
-msgctxt "_"
-msgid ""
-"external ref='media/treeview_cellrenderertoggle.png' "
-"md5='ade9b9437f8f83150acf37610dab834d'"
-msgstr ""
-"external ref='media/treeview_cellrenderertoggle.png' "
-"md5='ade9b9437f8f83150acf37610dab834d'"
-
 #. (itstool) path: info/title
 #: C/treeview_cellrenderertoggle.py.page:8 C/treeview_treestore.py.page:8
 msgctxt "text"
@@ -55123,6 +54977,20 @@ msgstr ""
 #: C/treeview_cellrenderertoggle.py.page:22
 msgid "More Complex TreeView with TreeStore"
 msgstr "TreeView más complejo con TreeStore"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/treeview_cellrenderertoggle.py.page:23
+msgctxt "_"
+msgid ""
+"external ref='media/treeview_cellrenderertoggle.png' "
+"md5='ade9b9437f8f83150acf37610dab834d'"
+msgstr ""
+"external ref='media/treeview_cellrenderertoggle.png' "
+"md5='ade9b9437f8f83150acf37610dab834d'"
 
 #. (itstool) path: page/p
 #: C/treeview_cellrenderertoggle.py.page:24
@@ -55389,20 +55257,6 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkCellRendererToggle."
 "html\">GtkCellRendererToggle</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/treeview_simple_liststore.js.page:25
-msgctxt "_"
-msgid ""
-"external ref='media/treeview_simple_liststore_penguins.png' "
-"md5='d750a0b9fddf8e508753cc639839871d'"
-msgstr ""
-"external ref='media/treeview_simple_liststore_penguins.png' "
-"md5='d750a0b9fddf8e508753cc639839871d'"
-
 #. (itstool) path: info/title
 #: C/treeview_simple_liststore.js.page:8
 msgctxt "text"
@@ -55418,6 +55272,20 @@ msgstr "Un widget que muestra una lista separada de elementos"
 #: C/treeview_simple_liststore.js.page:24
 msgid "TreeView with ListStore"
 msgstr "TreeView con ListStore"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/treeview_simple_liststore.js.page:25
+msgctxt "_"
+msgid ""
+"external ref='media/treeview_simple_liststore_penguins.png' "
+"md5='d750a0b9fddf8e508753cc639839871d'"
+msgstr ""
+"external ref='media/treeview_simple_liststore_penguins.png' "
+"md5='d750a0b9fddf8e508753cc639839871d'"
 
 #. (itstool) path: page/p
 #: C/treeview_simple_liststore.js.page:26
@@ -56542,21 +56410,6 @@ msgstr ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk."
 "TreeViewColumn.html\">Gtk.TreeViewColumn</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/treeview_simple_liststore.py.page:24
-#: C/treeview_simple_liststore.vala.page:24
-msgctxt "_"
-msgid ""
-"external ref='media/treeview_simple_liststore.png' "
-"md5='2dc501a2b95b094da985d37b66aee90c'"
-msgstr ""
-"external ref='media/treeview_simple_liststore.png' "
-"md5='2dc501a2b95b094da985d37b66aee90c'"
-
 #. (itstool) path: info/title
 #: C/treeview_simple_liststore.py.page:8
 msgctxt "text"
@@ -56573,9 +56426,109 @@ msgstr "Un TreeView mostrando un ListStore (ejemplo más simple)"
 msgid "Simple TreeView with ListStore"
 msgstr "TreeView sencillo con ListStore"
 
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/treeview_simple_liststore.py.page:24
+#: C/treeview_simple_liststore.vala.page:24
+msgctxt "_"
+msgid ""
+"external ref='media/treeview_simple_liststore.png' "
+"md5='2dc501a2b95b094da985d37b66aee90c'"
+msgstr ""
+"external ref='media/treeview_simple_liststore.png' "
+"md5='2dc501a2b95b094da985d37b66aee90c'"
+
 #. (itstool) path: section/code
 #: C/treeview_simple_liststore.py.page:32
 #, no-wrap
+#| msgid ""
+#| "from gi.repository import Gtk\n"
+#| "from gi.repository import Pango\n"
+#| "import sys\n"
+#| "\n"
+#| "columns = [\"First Name\",\n"
+#| "           \"Last Name\",\n"
+#| "           \"Phone Number\"]\n"
+#| "\n"
+#| "phonebook = [[\"Jurg\", \"Billeter\", \"555-0123\"],\n"
+#| "             [\"Johannes\", \"Schmid\", \"555-1234\"],\n"
+#| "             [\"Julita\", \"Inca\", \"555-2345\"],\n"
+#| "             [\"Javier\", \"Jardon\", \"555-3456\"],\n"
+#| "             [\"Jason\", \"Clinton\", \"555-4567\"],\n"
+#| "             [\"Random J.\", \"Hacker\", \"555-5678\"]]\n"
+#| "\n"
+#| "\n"
+#| "class MyWindow(Gtk.ApplicationWindow):\n"
+#| "\n"
+#| "    def __init__(self, app):\n"
+#| "        Gtk.Window.__init__(self, title=\"My Phone Book\", application=app)\n"
+#| "        self.set_default_size(250, 100)\n"
+#| "        self.set_border_width(10)\n"
+#| "\n"
+#| "        # the data in the model (three strings for each row, one for each\n"
+#| "        # column)\n"
+#| "        listmodel = Gtk.ListStore(str, str, str)\n"
+#| "        # append the values in the model\n"
+#| "        for i in range(len(phonebook)):\n"
+#| "            listmodel.append(phonebook[i])\n"
+#| "\n"
+#| "        # a treeview to see the data stored in the model\n"
+#| "        view = Gtk.TreeView(model=listmodel)\n"
+#| "        # for each column\n"
+#| "        for i in range(len(columns)):\n"
+#| "            # cellrenderer to render the text\n"
+#| "            cell = Gtk.CellRendererText()\n"
+#| "            # the text in the first column should be in boldface\n"
+#| "            if i == 0:\n"
+#| "                cell.props.weight_set = True\n"
+#| "                cell.props.weight = Pango.Weight.BOLD\n"
+#| "            # the column is created\n"
+#| "            col = Gtk.TreeViewColumn(columns[i], cell, text=i)\n"
+#| "            # and it is appended to the treeview\n"
+#| "            view.append_column(col)\n"
+#| "\n"
+#| "        # when a row is selected, it emits a signal\n"
+#| "        view.get_selection().connect(\"changed\", self.on_changed)\n"
+#| "\n"
+#| "        # the label we use to show the selection\n"
+#| "        self.label = Gtk.Label()\n"
+#| "        self.label.set_text(\"\")\n"
+#| "\n"
+#| "        # a grid to attach the widgets\n"
+#| "        grid = Gtk.Grid()\n"
+#| "        grid.attach(view, 0, 0, 1, 1)\n"
+#| "        grid.attach(self.label, 0, 1, 1, 1)\n"
+#| "\n"
+#| "        # attach the grid to the window\n"
+#| "        self.add(grid)\n"
+#| "\n"
+#| "    def on_changed(self, selection):\n"
+#| "        # get the model and the iterator that points at the data in the model\n"
+#| "        (model, iter) = selection.get_selected()\n"
+#| "        # set the label to a new value depending on the selection\n"
+#| "        self.label.set_text(\"\\n %s %s %s\" %\n"
+#| "                            (model[iter][0],  model[iter][1], model[iter][2]))\n"
+#| "        return True\n"
+#| "\n"
+#| "\n"
+#| "class MyApplication(Gtk.Application):\n"
+#| "\n"
+#| "    def __init__(self):\n"
+#| "        Gtk.Application.__init__(self)\n"
+#| "\n"
+#| "    def do_activate(self):\n"
+#| "        win = MyWindow(self)\n"
+#| "        win.show_all()\n"
+#| "\n"
+#| "    def do_startup(self):\n"
+#| "        Gtk.Application.do_startup(self)\n"
+#| "\n"
+#| "app = MyApplication()\n"
+#| "exit_status = app.run(sys.argv)\n"
+#| "sys.exit(exit_status)\n"
 msgid ""
 "from gi.repository import Gtk\n"
 "from gi.repository import Pango\n"
@@ -56610,7 +56563,7 @@ msgid ""
 "        # a treeview to see the data stored in the model\n"
 "        view = Gtk.TreeView(model=listmodel)\n"
 "        # for each column\n"
-"        for i in range(len(columns)):\n"
+"        for i, column in enumerate(columns):\n"
 "            # cellrenderer to render the text\n"
 "            cell = Gtk.CellRendererText()\n"
 "            # the text in the first column should be in boldface\n"
@@ -56618,7 +56571,7 @@ msgid ""
 "                cell.props.weight_set = True\n"
 "                cell.props.weight = Pango.Weight.BOLD\n"
 "            # the column is created\n"
-"            col = Gtk.TreeViewColumn(columns[i], cell, text=i)\n"
+"            col = Gtk.TreeViewColumn(column, cell, text=i)\n"
 "            # and it is appended to the treeview\n"
 "            view.append_column(col)\n"
 "\n"
@@ -56695,7 +56648,7 @@ msgstr ""
 "        # a treeview to see the data stored in the model\n"
 "        view = Gtk.TreeView(model=listmodel)\n"
 "        # for each column\n"
-"        for i in range(len(columns)):\n"
+"        for i, column in enumerate(columns):\n"
 "            # cellrenderer to render the text\n"
 "            cell = Gtk.CellRendererText()\n"
 "            # the text in the first column should be in boldface\n"
@@ -56703,7 +56656,7 @@ msgstr ""
 "                cell.props.weight_set = True\n"
 "                cell.props.weight = Pango.Weight.BOLD\n"
 "            # the column is created\n"
-"            col = Gtk.TreeViewColumn(columns[i], cell, text=i)\n"
+"            col = Gtk.TreeViewColumn(column, cell, text=i)\n"
 "            # and it is appended to the treeview\n"
 "            view.append_column(col)\n"
 "\n"
@@ -57089,7 +57042,17 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.TreeSelection.html\">Gtk."
 "TreeSelection</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/treeview_treestore.py.page:20
+msgid "A TreeView displaying a TreeStore (simpler example)"
+msgstr "Un TreeView mostrando un TreeStore (ejemplo más simple)"
+
+#. (itstool) path: page/title
+#: C/treeview_treestore.py.page:23
+msgid "Simpler TreeView with TreeStore"
+msgstr "TreeView más sencillo con ListStore"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -57102,16 +57065,6 @@ msgid ""
 msgstr ""
 "external ref='media/treeview_treestore.png' "
 "md5='5ca87bc4acd55c527b3fb5fd46779d85'"
-
-#. (itstool) path: info/desc
-#: C/treeview_treestore.py.page:20
-msgid "A TreeView displaying a TreeStore (simpler example)"
-msgstr "Un TreeView mostrando un TreeStore (ejemplo más simple)"
-
-#. (itstool) path: page/title
-#: C/treeview_treestore.py.page:23
-msgid "Simpler TreeView with TreeStore"
-msgstr "TreeView más sencillo con ListStore"
 
 #. (itstool) path: page/p
 #: C/treeview_treestore.py.page:25
@@ -57447,18 +57400,6 @@ msgstr ""
 msgid "Code samples and tutorial"
 msgstr "Ejemplos de código y tutorial"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/weatherApp.js.page:41
-msgctxt "_"
-msgid ""
-"external ref='media/weatherAppJs.png' md5='1fe859ac4854273d72ea8fc9203639b2'"
-msgstr ""
-"external ref='media/weatherAppJs.png' md5='1fe859ac4854273d72ea8fc9203639b2'"
-
 #. (itstool) path: info/title
 #: C/weatherApp.js.page:7
 msgctxt "text"
@@ -57525,6 +57466,18 @@ msgstr "<link xref=\"#main\">Biblioteca local GeoNames</link>"
 #: C/weatherApp.js.page:36
 msgid "<link xref=\"#main\">Autotools and Icons</link>"
 msgstr "<link xref=\"#main\">«Autotools» e iconos</link>"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/weatherApp.js.page:41
+msgctxt "_"
+msgid ""
+"external ref='media/weatherAppJs.png' md5='1fe859ac4854273d72ea8fc9203639b2'"
+msgstr ""
+"external ref='media/weatherAppJs.png' md5='1fe859ac4854273d72ea8fc9203639b2'"
 
 #. (itstool) path: section/title
 #: C/weatherApp.js.page:44
@@ -58872,20 +58825,6 @@ msgstr ""
 "}\n"
 "}  "
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/widget_drawing.py.page:22
-msgctxt "_"
-msgid ""
-"external ref='media/widget_drawing.png' "
-"md5='d00abd8cb9e158018c57fd75b81dfe58'"
-msgstr ""
-"external ref='media/widget_drawing.png' "
-"md5='d00abd8cb9e158018c57fd75b81dfe58'"
-
 #. (itstool) path: info/title
 #: C/widget_drawing.py.page:8
 msgctxt "text"
@@ -58901,6 +58840,20 @@ msgstr "Un widget que usa la biblioteca Cairo para dibujar"
 #: C/widget_drawing.py.page:21
 msgid "Widget"
 msgstr "Widget"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/widget_drawing.py.page:22
+msgctxt "_"
+msgid ""
+"external ref='media/widget_drawing.png' "
+"md5='d00abd8cb9e158018c57fd75b81dfe58'"
+msgstr ""
+"external ref='media/widget_drawing.png' "
+"md5='d00abd8cb9e158018c57fd75b81dfe58'"
 
 #. (itstool) path: page/p
 #: C/widget_drawing.py.page:23
