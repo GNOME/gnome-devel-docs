@@ -1,13 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2016 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Marek Černocký <marek@manet.cz>, 2016.
+# Marek Černocký <marek@manet.cz>, 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-01-17 20:12+0000\n"
-"PO-Revision-Date: 2017-02-12 13:16+0100\n"
+"POT-Creation-Date: 2017-08-01 11:33+0000\n"
+"PO-Revision-Date: 2017-08-05 16:22+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -3195,8 +3195,7 @@ msgstr "Udržování dokumentace v aktuálním stavu"
 msgid ""
 "gtk-doc comes with support for checking the documentation with some basic "
 "tests. These check that all version indexes are included in the main <file>*-"
-"docs.xml</file> file and that all symbols are documented, amongst other "
-"things."
+"docs.xml</file> file and that all symbols are documented, among other things."
 msgstr ""
 "gtk-doc obsahuje podporu pro kontrolu dokumentace pomocí pár základních "
 "testů. Mimo jiných věcí se zkontroluje, jestli jsou všechny verze indexů "
@@ -6047,12 +6046,19 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:827
+#, fuzzy
+#| msgid ""
+#| "If that’s put at the top of each function, any assertion failure will "
+#| "highlight a case where a function has been called from the wrong thread. "
+#| "It is much easier to write these assertions when initially developing "
+#| "code, rather than debuging race conditions which can easily result from a "
+#| "function being called in the wrong thread."
 msgid ""
 "If that’s put at the top of each function, any assertion failure will "
 "highlight a case where a function has been called from the wrong thread. It "
 "is much easier to write these assertions when initially developing code, "
-"rather than debuging race conditions which can easily result from a function "
-"being called in the wrong thread."
+"rather than debugging race conditions which can easily result from a "
+"function being called in the wrong thread."
 msgstr ""
 "Když tohle vložíte na začátek každé funkce, selhání aserce zviditelní ty "
 "případy, kdy je funkce volána z nesprávného vlákna. Je mnohem jednodušší "
@@ -12371,4 +12377,3 @@ msgid ""
 msgstr ""
 "<link href=\"http://astore.amazon.com/gnomestore-20/detail/020163385X\"> "
 "Object-Oriented Design Heuristics </link>, Arthur Riel."
-

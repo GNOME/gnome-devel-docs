@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: user-guide\n"
-"POT-Creation-Date: 2017-02-08 16:40+0000\n"
-"PO-Revision-Date: 2017-02-12 13:16+0100\n"
+"POT-Creation-Date: 2017-08-01 11:35+0000\n"
+"PO-Revision-Date: 2017-08-05 16:22+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1402,16 +1402,6 @@ msgstr ""
 "freedesktop.org/documentation/licensing.html\">licenční informace systému "
 "GStreamer</link>."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/overview-communication.page:35
-msgctxt "_"
-msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-
 #. (itstool) path: info/title
 #: C/overview-communication.page:15
 msgctxt "link:trail"
@@ -1470,6 +1460,16 @@ msgstr ""
 "komunikační zásobník GNOME vám poskytne vysokoúrovňový abstraktní přístup k "
 "jinak komplikovaným protokolům rychlé komunikace a e-mailu. Pro potřeby více "
 "specializované komunikace je tu i API pro přístup na nízké úrovni."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview-communication.page:35
+msgctxt "_"
+msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
+msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 
 #. (itstool) path: media/p
 #: C/overview-communication.page:36
@@ -1761,20 +1761,6 @@ msgstr ""
 "obrazovky</link> | <link href=\"https://git.gnome.org/browse/nautilus"
 "\">Zdrojový kód</link> )"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/overview-media.page:39
-msgctxt "_"
-msgid ""
-"external ref='media/totem-screenshot.png' "
-"md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
-msgstr ""
-"external ref='media/totem-screenshot.png' "
-"md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
-
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
 msgid ""
@@ -1827,6 +1813,20 @@ msgstr ""
 "přehrát. Získávejte obsah a sdílejte jej s dalšími zařízeními, ať už "
 "připojenými k systému nebo vzdáleně přes síť. Pokud potřebujete detailnější "
 "kontrolu, je k dispozici i podkladové nízkoúrovňové API."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview-media.page:39
+msgctxt "_"
+msgid ""
+"external ref='media/totem-screenshot.png' "
+"md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
+msgstr ""
+"external ref='media/totem-screenshot.png' "
+"md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
 
 #. (itstool) path: media/p
 #: C/overview-media.page:40
@@ -3586,7 +3586,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-gobject.page:35
 msgid ""
-"GObject is <em>introspectible</em>, which means that you can ask the GObject "
+"GObject is <em>introspectable</em>, which means that you can ask the GObject "
 "system for the class types that are defined, the methods they support, their "
 "signals, etc. GNOME's language bindings are built on top of this "
 "introspection information. Instead of writing wrappers by hand to let GNOME "
@@ -4901,18 +4901,6 @@ msgstr ""
 "<link href=\"http://webkitgtk.org/\">Webové stránky knihovny WebKitGTK+</"
 "link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tour-application.page:45
-msgctxt "_"
-msgid ""
-"external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
-msgstr ""
-"external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
-
 #. (itstool) path: credit/name
 #: C/tour-application.page:16 C/tour-events.page:16 C/tour-get_object.page:16
 #: C/tour-gjs.page:16 C/tour-glade.page:16 C/tour.page:17
@@ -4967,6 +4955,18 @@ msgstr ""
 "Uložte skript jako <file>helloworld.js</file>, spusťte <cmd>chmod +x "
 "helloworld.js</cmd>, aby byl skript spustitelný a nakonec jej spusťte pomocí "
 "<cmd>./helloworld.js</cmd>."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tour-application.page:45
+msgctxt "_"
+msgid ""
+"external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
+msgstr ""
+"external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
 
 #. (itstool) path: media/p
 #: C/tour-application.page:46
@@ -5207,20 +5207,6 @@ msgstr ""
 "const Lang = imports.lang;\n"
 "const Gtk = imports.gi.Gtk;\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tour-glade.page:43
-msgctxt "_"
-msgid ""
-"external ref='media/glade-set-values.png' "
-"md5='61c369d5fdd6353694f9fa9e852e207c'"
-msgstr ""
-"external ref='media/glade-set-values.png' "
-"md5='61c369d5fdd6353694f9fa9e852e207c'"
-
 #. (itstool) path: info/desc
 #: C/tour-glade.page:23
 msgid "Use Glade to generate a UI file."
@@ -5262,6 +5248,20 @@ msgid ""
 msgstr ""
 "Vytvořte nové okno a nastavte mu <gui>Název</gui> na <code>window1</code> a "
 "<gui>Záhlaví</gui> na <code>Hello World</code>:"
+
+#. (itstool) path: example/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tour-glade.page:43
+msgctxt "_"
+msgid ""
+"external ref='media/glade-set-values.png' "
+"md5='61c369d5fdd6353694f9fa9e852e207c'"
+msgstr ""
+"external ref='media/glade-set-values.png' "
+"md5='61c369d5fdd6353694f9fa9e852e207c'"
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
@@ -5390,4 +5390,3 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
-
