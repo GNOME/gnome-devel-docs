@@ -6046,13 +6046,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:827
-#, fuzzy
-#| msgid ""
-#| "If that’s put at the top of each function, any assertion failure will "
-#| "highlight a case where a function has been called from the wrong thread. "
-#| "It is much easier to write these assertions when initially developing "
-#| "code, rather than debuging race conditions which can easily result from a "
-#| "function being called in the wrong thread."
 msgid ""
 "If that’s put at the top of each function, any assertion failure will "
 "highlight a case where a function has been called from the wrong thread. It "
