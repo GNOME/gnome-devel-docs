@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-08 16:40+0000\n"
-"PO-Revision-Date: 2017-02-08 14:41-0200\n"
+"POT-Creation-Date: 2017-08-01 11:35+0000\n"
+"PO-Revision-Date: 2017-08-12 20:01-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -1406,16 +1406,6 @@ msgstr ""
 "\">informações sobre licenciamento do GStreamer</link>, já que o GStreamer "
 "usa plug-ins."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/overview-communication.page:35
-msgctxt "_"
-msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-
 #. (itstool) path: info/title
 #: C/overview-communication.page:15
 msgctxt "link:trail"
@@ -1476,6 +1466,16 @@ msgstr ""
 "abstrato a protocolos complicados de mensagem instantânea e e-mail. Para "
 "necessidades de comunicação mais especializadas, há acesso aos bit-e-bytes "
 "por meio de APIs de baixo nível, também."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview-communication.page:35
+msgctxt "_"
+msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
+msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 
 #. (itstool) path: media/p
 #: C/overview-communication.page:36
@@ -1766,20 +1766,6 @@ msgstr ""
 "link> | <link href=\"https://git.gnome.org/browse/nautilus\">Código-fonte</"
 "link> )"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/overview-media.page:39
-msgctxt "_"
-msgid ""
-"external ref='media/totem-screenshot.png' "
-"md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
-msgstr ""
-"external ref='media/totem-screenshot.png' "
-"md5='98232a4e4a4346fccceee56cf0fe9802'"
-
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
 msgid ""
@@ -1832,6 +1818,20 @@ msgstr ""
 "facilmente seu conteúdo. Consuma e compartilhe conteúdo com outros "
 "dispositivos anexados a um sistema ou remotamente pela rede. A API de baixo "
 "nível subjacente está disponível se você precisar de mais controle."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview-media.page:39
+msgctxt "_"
+msgid ""
+"external ref='media/totem-screenshot.png' "
+"md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
+msgstr ""
+"external ref='media/totem-screenshot.png' "
+"md5='98232a4e4a4346fccceee56cf0fe9802'"
 
 #. (itstool) path: media/p
 #: C/overview-media.page:40
@@ -3624,8 +3624,16 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:35
+#| msgid ""
+#| "GObject is <em>introspectible</em>, which means that you can ask the "
+#| "GObject system for the class types that are defined, the methods they "
+#| "support, their signals, etc. GNOME's language bindings are built on top "
+#| "of this introspection information. Instead of writing wrappers by hand to "
+#| "let GNOME APIs be called from other programming languages, language "
+#| "bindings use the introspection information from GObject to auto-generate "
+#| "those wrappers themselves."
 msgid ""
-"GObject is <em>introspectible</em>, which means that you can ask the GObject "
+"GObject is <em>introspectable</em>, which means that you can ask the GObject "
 "system for the class types that are defined, the methods they support, their "
 "signals, etc. GNOME's language bindings are built on top of this "
 "introspection information. Instead of writing wrappers by hand to let GNOME "
@@ -4961,18 +4969,6 @@ msgstr ""
 msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK+ web site</link>"
 msgstr "<link href=\"http://webkitgtk.org/\">Site do WebKitGTK+</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tour-application.page:45
-msgctxt "_"
-msgid ""
-"external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
-msgstr ""
-"external ref='media/glade-result.png' md5='854ac83cce1afe33c9bc4ce3364d0924'"
-
 #. (itstool) path: credit/name
 #: C/tour-application.page:16 C/tour-events.page:16 C/tour-get_object.page:16
 #: C/tour-gjs.page:16 C/tour-glade.page:16 C/tour.page:17
@@ -5027,6 +5023,18 @@ msgstr ""
 "Salve o script como <file>helloworld.js</file>, execute <cmd>chmod +x "
 "helloworld.js</cmd> para marcá-lo como executável e execute-o com <cmd>./"
 "helloworld.js</cmd>."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tour-application.page:45
+msgctxt "_"
+msgid ""
+"external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
+msgstr ""
+"external ref='media/glade-result.png' md5='854ac83cce1afe33c9bc4ce3364d0924'"
 
 #. (itstool) path: media/p
 #: C/tour-application.page:46
@@ -5269,20 +5277,6 @@ msgstr ""
 "const Lang = imports.lang;\n"
 "const Gtk = imports.gi.Gtk;\n"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tour-glade.page:43
-msgctxt "_"
-msgid ""
-"external ref='media/glade-set-values.png' "
-"md5='61c369d5fdd6353694f9fa9e852e207c'"
-msgstr ""
-"external ref='media/glade-set-values.png' "
-"md5='61c369d5fdd6353694f9fa9e852e207c'"
-
 #. (itstool) path: info/desc
 #: C/tour-glade.page:23
 msgid "Use Glade to generate a UI file."
@@ -5323,6 +5317,20 @@ msgid ""
 msgstr ""
 "Crie uma nova janela e, então, defina <gui>ID</gui> para <code>window1</"
 "code> e <gui>Janela</gui> para <code>Hello World</code>:"
+
+#. (itstool) path: example/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tour-glade.page:43
+msgctxt "_"
+msgid ""
+"external ref='media/glade-set-values.png' "
+"md5='61c369d5fdd6353694f9fa9e852e207c'"
+msgstr ""
+"external ref='media/glade-set-values.png' "
+"md5='61c369d5fdd6353694f9fa9e852e207c'"
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
