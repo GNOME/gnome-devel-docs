@@ -811,12 +811,12 @@ assess a custom widget according to the applicable <link linkend="gad-ui-guideli
 </listitem>
 <listitem>
 <para>
-determine which <ulink url="http://library.gnome.org/devel/atk/stable/atk.html">ATK interfaces</ulink> a custom widget should implement, according to the widget's feature set and function;
+determine which <ulink url="https://developer.gnome.org/atk/stable/interfaces.html">ATK interfaces</ulink> a custom widget should implement, according to the widget's feature set and function;
 </para>
 </listitem>
 <listitem>
 <para>
-assess which <ulink url="http://library.gnome.org/devel/atk/stable/atk.html">ATK interfaces</ulink> can be inherited from the parent widget class;
+assess which <ulink url="https://developer.gnome.org/atk/stable/interfaces.html">ATK interfaces</ulink> can be inherited from the parent widget class;
 </para>
 </listitem>
 <listitem>
