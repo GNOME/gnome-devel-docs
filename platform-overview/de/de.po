@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2017-03-02 12:40+0000\n"
-"PO-Revision-Date: 2017-03-06 19:40+0100\n"
+"POT-Creation-Date: 2017-08-01 11:35+0000\n"
+"PO-Revision-Date: 2017-08-31 21:45+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
-"Language-Team: Deutsch <>\n"
+"Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -3405,7 +3405,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-gobject.page:35
 msgid ""
-"GObject is <em>introspectible</em>, which means that you can ask the GObject system for "
+"GObject is <em>introspectable</em>, which means that you can ask the GObject system for "
 "the class types that are defined, the methods they support, their signals, etc. GNOME's "
 "language bindings are built on top of this introspection information. Instead of writing "
 "wrappers by hand to let GNOME APIs be called from other programming languages, language "
@@ -3416,7 +3416,7 @@ msgstr ""
 "definierten Klassentypen, den unterstützten Methoden, den Signalen usw. fragen können. "
 "GNOMEs Sprachbindungen setzen auf diesen Inspektions-Informationen auf. Anstatt von Hand "
 "Wrapper zu schreiben, um die GNOME-APIs aus anderen Programmiersprachen aufrufen zu "
-"können, verwenden Sprachbindungen diese Informationen von GObject um diese Wrapper "
+"können, verwenden Sprachbindungen diese Informationen von GObject, um diese Wrapper "
 "automatisch selbst zu erzeugen."
 
 #. (itstool) path: page/p
