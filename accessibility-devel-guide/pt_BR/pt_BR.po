@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-08-16 09:26+0000\n"
-"PO-Revision-Date: 2017-05-02 17:31-0200\n"
+"POT-Creation-Date: 2017-05-02 17:52-0300\n"
+"PO-Revision-Date: 2017-08-30 23:36-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -25,200 +25,6 @@ msgid "translator-credits"
 msgstr ""
 "Tatiana Wells <tati.xx@gmail.com>, 2011\n"
 "Rafael Fontenelle <rafaelff@gnome.org>, 2017"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:72
-msgctxt "_"
-msgid ""
-"external ref='figures/GNOME_desktop_Accessibility.png' "
-"md5='76a706b0a4d4e184d7951fce04ccec59'"
-msgstr ""
-"external ref='figures/GNOME_desktop_Accessibility.png' "
-"md5='76a706b0a4d4e184d7951fce04ccec59'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:136
-msgctxt "_"
-msgid "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
-msgstr "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1012
-msgctxt "_"
-msgid ""
-"external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
-msgstr ""
-"external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1115
-msgctxt "_"
-msgid ""
-"external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
-msgstr ""
-"external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1126
-msgctxt "_"
-msgid ""
-"external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
-msgstr ""
-"external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1137
-msgctxt "_"
-msgid ""
-"external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
-msgstr ""
-"external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1148
-msgctxt "_"
-msgid ""
-"external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
-msgstr ""
-"external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1206
-msgctxt "_"
-msgid ""
-"external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
-msgstr ""
-"external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1221
-msgctxt "_"
-msgid ""
-"external ref='figures/color_and_arrows.png' "
-"md5='a9a1eb5f1f902f388e717f4ef7882c22'"
-msgstr ""
-"external ref='figures/color_and_arrows.png' "
-"md5='a9a1eb5f1f902f388e717f4ef7882c22'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1352
-msgctxt "_"
-msgid ""
-"external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
-msgstr ""
-"external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1367
-msgctxt "_"
-msgid ""
-"external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
-msgstr ""
-"external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1382
-msgctxt "_"
-msgid ""
-"external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
-msgstr ""
-"external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1406
-msgctxt "_"
-msgid ""
-"external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
-msgstr ""
-"external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1421
-msgctxt "_"
-msgid ""
-"external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
-msgstr ""
-"external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1436
-msgctxt "_"
-msgid ""
-"external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
-msgstr ""
-"external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
-
-#. (itstool) path: imagedata
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:786
-msgctxt "_"
-msgid ""
-"external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
-msgstr ""
-"external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
 
 #. (itstool) path: book/title
 #: C/index.docbook:12
@@ -244,8 +50,6 @@ msgstr "<year>2008</year> <holder>Vincent Alexander</holder>"
 
 #. (itstool) path: bookinfo/copyright
 #: C/index.docbook:23
-#| msgid ""
-#| "Calum Benson, Brian Cameron, Bill Haneman, Padraig O'Briain, Sharon Snider"
 msgid ""
 "<year>2001, 2002</year> <holder>Calum Benson, Brian Cameron, Bill Haneman, "
 "Padraig O'Briain, Sharon Snider</holder>"
@@ -361,10 +165,6 @@ msgstr ""
 
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:13
-#| msgid ""
-#| "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE "
-#| "TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER "
-#| "UNDERSTANDING THAT: <placeholder-1/>"
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
@@ -474,7 +274,7 @@ msgid ""
 msgstr ""
 "Acessibilidade significa ajudar pessoas com deficiências a participar em "
 "atividades substanciais da vida. Isso inclui trabalho, e o uso de serviços, "
-"produtos e informação. GNOME inclui bibliotecas e uma infraestrutura de "
+"produtos e informações. GNOME inclui bibliotecas e uma infraestrutura de "
 "apoio que permitem que pessoas com deficiências utilizem todas as "
 "funcionalidades do ambiente de usuário GNOME."
 
@@ -513,12 +313,12 @@ msgid ""
 msgstr ""
 "Tecnologias assistivas recebem informações de aplicativos via a API do "
 "Accessibility Toolkit (ATK), ou kit de ferramenta de acessibilidade, a qual "
-"você pode localizar no módulo atk nos repositórios do GNOME. Porque o "
-"suporte para API de acessibilidade é compilada nos widgets do GNOME, seus "
-"programas GNOME deve funcionar razoavelmente bem com tecnologias assistivas "
-"com nenhum esforço extra de sua parte. Por exemplo, tecnologias assistivas "
-"podem ler automaticamente os rótulos dos widgets que você normalmente "
-"definiria em seu programa (ex.: com chamadas de função do GTK, tais como "
+"pode ser encontrada no módulo atk nos repositórios do GNOME. Por o suporte à "
+"API de acessibilidade ser compilado nos widgets do GNOME, seus programas "
+"GNOME deve funcionar razoavelmente bem com tecnologias assistivas com nenhum "
+"esforço extra de sua parte. Por exemplo, tecnologias assistivas podem ler "
+"automaticamente os rótulos dos widgets que você normalmente definiria em seu "
+"programa (ex.: com chamadas de função do GTK, tais como "
 "<function>gtk_label_set_text()</function> ou "
 "<function>gtk_button_new_with_label()</function>). Elas também podem "
 "descobrir se há algum texto de dica de ferramenta associada com um widget e "
@@ -731,6 +531,20 @@ msgstr ""
 msgid "GNOME Accessibility Architecture"
 msgstr "Arquitetura de acessibilidade do GNOME"
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:72
+msgctxt "_"
+msgid ""
+"external ref='figures/GNOME_desktop_Accessibility.png' "
+"md5='76a706b0a4d4e184d7951fce04ccec59'"
+msgstr ""
+"external ref='figures/GNOME_desktop_Accessibility.png' "
+"md5='76a706b0a4d4e184d7951fce04ccec59'"
+
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:70
 msgid ""
@@ -918,6 +732,16 @@ msgstr ""
 #: C/index.docbook:132
 msgid "Introducing ATK, AT-SPI, GAIL and GTK+"
 msgstr "Introdução ao ATK, AT-SPI, GAIL e GTK+"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:136
+msgctxt "_"
+msgid "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
+msgstr "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
 
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:134
@@ -2609,11 +2433,11 @@ msgid ""
 "for all users."
 msgstr ""
 "Todos nós ficamos frustrados se não pudermos encontrar um recurso em um "
-"aplicativo ou se cometemos um erros dos quais leva alguns minutos para "
+"aplicativo ou se cometermos um erros dos quais leva alguns minutos para "
 "recuperar, se for possível recuperar. Se você tem algum tipo de deficiência, "
-"as chances são de as penalidades de esforço e tempo envolvidas serão muitas "
-"vezes pior. Seguir umas diretrizes básicas pode ser útil para evitar esses "
-"tipos de situações para todos os usuários."
+"as chances são de que as penalidades de esforço e tempo envolvidas serão "
+"muitas vezes pior. Seguir umas diretrizes básicas pode ser útil para evitar "
+"esses tipos de situações para todos os usuários."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:861
@@ -2651,9 +2475,9 @@ msgid ""
 "confirmation dialogs or forcing the user to go into a particular mode to "
 "perform potentially destructive actions."
 msgstr ""
-"Ajuda evita de os usuários fazerem coisas erradas. Isso é particularmente "
-"importante para ações que poderia ser feitas por acidente (ex.: ações com o "
-"mouse) ou que não pode ser facilmente desfeitas (ex.: sobrescrever um "
+"Ajude a evitar que os usuários façam coisas erradas. Isso é particularmente "
+"importante para ações que poderiam ser feitas por acidente (ex.: ações com o "
+"mouse) ou que não podem ser facilmente desfeitas (ex.: sobrescrever um "
 "arquivo). Considere usar diálogos de confirmação ou forçar o usuário a ir "
 "para um modo em particular para realizar ações potencialmente destrutivas."
 
@@ -2683,7 +2507,7 @@ msgid ""
 msgstr ""
 "Não faça usuários inserirem discos. Dependendo de uma deficiência específica "
 "do usuário, ele pode achar difícil inserir ou alterar fisicamente um disco "
-"ou identificar o disco correto no primeiro lugar. Se seu aplicativo é "
+"ou identificar o disco correto em primeiro lugar. Se seu aplicativo é "
 "instalado a partir do CD-ROM, forneça uma opção de copiar todos os arquivos "
 "que serão exigidos para o disco rígido do usuário."
 
@@ -2745,9 +2569,9 @@ msgstr ""
 "quando você está projetando um software acessível. Usuários cegos podem "
 "navegar no software com muito mais eficiência usando o teclado porque o uso "
 "do mouse depende de um feedback visual da localização do ponteiro do mouse. "
-"Além disso, comprometimento de mobilidades podem impedir que o usuário "
+"Além disso, o comprometimento de mobilidades pode impedir que o usuário "
 "navegue com sucesso usando o mouse por causa da precisa habilidade de "
-"controle motor que é necessário."
+"controle motor fino que é necessário."
 
 #. (itstool) path: section/para
 #: C/index.docbook:903
@@ -2805,6 +2629,10 @@ msgid ""
 "controls in a predictable order. In Western locales, this is normally left "
 "to right and top to bottom."
 msgstr ""
+"Use uma ordem lógica de navegação de teclado. Ao navegar por uma janela com "
+"a tecla <keycap>Tab</keycap>, o foco do teclado deve mover entre controles "
+"em uma ordem previsível. Em localidades ocidentais, isso normalmente é da "
+"esquerda para direita e de cima para baixo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:921
@@ -2817,6 +2645,10 @@ msgid ""
 "dependent controls, do not automatically give focus to the first dependent "
 "control, but instead leave the focus on the button."
 msgstr ""
+"Garanta a ordem correta de tabulações para controles cujo estado habilitado "
+"é dependente de caixa de seleção, botão de opção ou botão de alternância que "
+"possui controles dependentes, não dê foco automaticamente ao primeiro "
+"controle dependente; em vez disso, deixe o foco no botão."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:926
@@ -2829,6 +2661,14 @@ msgid ""
 "your application that can only be accessed by pressing keys on the keypad, "
 "as users relying on the MouseKeys feature will not be able to use them."
 msgstr ""
+"Não sobrescreva recursos existentes de acessibilidade em nível de sistema. "
+"Por exemplo, <ulink url=\"http://www.rehab.uiuc.edu/accessx/overview.html"
+"\">AccessX</ulink> é uma extensão do Xserver que tem suporte desde o X11R6. "
+"Os recursos de MouseKeys (teclas de mouse) desta extensão permite movimento "
+"e cliques de botão de mouse serem simulados usando o teclado numérico. "
+"Portanto, você não deve adicionar recursos a seu aplicativo que possam ser "
+"acessados apenas pressionando teclas no teclado numérico, já que usuários "
+"que dependem do recurso MouseKeys não poderão usá-los."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:931
@@ -2836,6 +2676,9 @@ msgid ""
 "Provide more than one method to perform keyboard tasks where possible. Some "
 "users may find some keys and key combinations easier to use than others."
 msgstr ""
+"Forneça mais do que um método para realizar tarefas de teclado quando "
+"possível. Alguns usuários podem achar algumas teclas ou combinações de "
+"teclas mais fáceis para usar do que outras."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:936
@@ -2843,6 +2686,9 @@ msgid ""
 "Provide both keyboard and mouse access to functions where possible. Some "
 "users may only be able to use either the mouse or the keyboard, but not both."
 msgstr ""
+"Forneça ambos acessos de teclado e mouse para funções quando possível. "
+"Alguns usuários podem apenas ser capazes de usar mouse ou teclado, mas não "
+"ambos."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:941
@@ -2854,6 +2700,12 @@ msgid ""
 "keyboard can increase muscle strain for all users, increasing the risk of "
 "pain or injury."
 msgstr ""
+"Não atribua distâncias estranhas para operações de teclado frequentemente "
+"realizadas. Algumas pessoas podem apenas ser capazes de usar uma mão no "
+"teclado, então atalhos que possam ser usados com uma mão são preferíveis "
+"para operações comuns. De qualquer forma, ter que frequentemente alcançar "
+"teclas longes ou de difícil acesso no teclado pode aumentar tensão muscular "
+"para todos usuários, aumentando o risco de dor ou dano."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:946
@@ -2864,6 +2716,11 @@ msgid ""
 "simultaneously, but this of course means the operation will take longer for "
 "them."
 msgstr ""
+"Não exija uso repetitivo de pressionamentos de teclas simultâneos. Alguns "
+"usuários só são capazes de pressionar e manter pressionada uma tecla por "
+"vez. Tecnologias assistivas tal como AccessX pode permitir que usuários "
+"pressionar teclas sequencialmente em vez de simultaneamente, mas isso "
+"significa, é claro, que a operação levará mais tempo para concluir."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:951
@@ -2872,6 +2729,10 @@ msgid ""
 "selected with the keyboard. This is a convenience for all users, but "
 "especially for those for whom fine control of the mouse is difficult."
 msgstr ""
+"Certifique-se de que qualquer texto que possa ser selecionado com o mouse "
+"também possa ser selecionado com o teclado. Isso é uma conveniência para "
+"todos usuários, mas especialmente para aqueles cujo controle fino do mouse é "
+"difícil."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:956
@@ -2882,6 +2743,13 @@ msgid ""
 "shapes in a diagram, also consider providing a dialog into which you can "
 "type co-ordinates, or a means of snapping objects to a user-definable grid."
 msgstr ""
+"Certifique-se de que objetos que possam ser redimensionados ou movidos "
+"usando arrastar e soltar também possam ser movidos com o teclado. Por "
+"exemplo, ícones e janelas na área de trabalho. Onde a precisão de "
+"redimensionamento ou colocação for potencialmente importante, como, por "
+"exemplo, formas em um diagrama, considere também fornecer um diálogo no qual "
+"você possa digitar coordenadas, ou uma forma de anexar objetos a uma grade "
+"definível pelo usuário."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:961
@@ -2890,6 +2758,9 @@ msgid ""
 "do not use basic <keycap>Tab</keycap> keyboard navigation in a dialog to "
 "activate any actions associated with a control."
 msgstr ""
+"Não use funções de navegação geral para disparar operações. Por exemplo, não "
+"use navegação básica de teclado com <keycap>Tab</keycap> em um diálogo para "
+"ativar quaisquer ações associadas com um controle."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:966
@@ -2901,6 +2772,12 @@ msgid ""
 "keycombo>. Do not completely hide or obscure the object to which the menu or "
 "tooltip refers, however."
 msgstr ""
+"Mostre menus, janelas e dicas chamáveis por teclado próximo ao objeto aos "
+"quais eles estão relacionados. No GNOME 2.0, usuários pode chamar menus "
+"suspensos com <keycombo><keycap>Shift</keycap><keycap>F10</keycap></"
+"keycombo> e dicas de ferramentas com <keycombo><keycap>Shift</"
+"keycap><keycap>F1</keycap></keycombo>. Porém, não oculte ou obscureça "
+"completamente o objeto ao qual o menu ou a dica se refere."
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -2914,6 +2791,8 @@ msgid ""
 "Remember that not everybody can use a mouse with equal dexterity, and that "
 "some users may have difficulty seeing or following the mouse pointer."
 msgstr ""
+"Lembre-se que nem todo mundo pode usar um mouse com igual dexteridade e que "
+"alguns usuários podem ter dificuldade em ver ou seguir o ponteiro do mouse."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:980
@@ -2923,6 +2802,11 @@ msgid ""
 "technology devices only support button 1. Some assistive technologies may "
 "not emulate the mouse at all, but generate keyboard events instead."
 msgstr ""
+"Não dependa da entrada dos botões 2 ou 3 do mouse. Além de ser fisicamente "
+"mais difícil de clicar, alguns dispositivos de apontamento e muitos "
+"dispositivos de tecnologia assistiva oferecem suporte apenas ao botão 1. "
+"Algumas tecnologias assistivas podem até nem emular o mouse, mas geram "
+"eventos de teclado."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:985
@@ -2932,6 +2816,10 @@ msgid ""
 "and dropping a file in a file manager, or drawing a shape in a drawing "
 "program."
 msgstr ""
+"Permita que todas as operações sejam canceladas. O pressionamento da tecla "
+"<keycap>Esc</keycap> deve cancelar qualquer operação do mouse em progresso, "
+"tal como arrastar e soltar um arquivo em um gerenciador de arquivos, ou "
+"desenhar uma forma em um programa de desenho."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:990
@@ -2941,6 +2829,11 @@ msgid ""
 "the \"no drop\" mouse pointer when passing over invalid drop targets. See "
 "<link linkend=\"gad-mouse-examples\">Mouse Interaction Examples</link>."
 msgstr ""
+"Forneça um feedback visual por toda uma operação de arrastar e soltar. Na "
+"medida em que o mouse passa por alvos válidos, realce-os e altere o ponteiro "
+"do mouse. Use o ponteiro de mouse “não soltar” ao passar por cima de alvos "
+"inválidos para soltar. Veja <link linkend=\"gad-mouse-examples\">Exemplos de "
+"interação do mouse</link>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:995
@@ -2949,6 +2842,9 @@ msgid ""
 "screen. This can interfere with assistive technologies, and is usually "
 "confusing even for users who don't rely on ATs."
 msgstr ""
+"Não altere o ponteiro do mouse, nem restrinja o movimento do mouse a uma "
+"parte da tela. Isso pode interferir com tecnologias assistivas, e é "
+"geralmente confuso mesmo para usuários que não dependem delas."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1000
@@ -2959,6 +2855,11 @@ msgid ""
 "dexterity or vision may be using a window manager with larger areas than the "
 "default."
 msgstr ""
+"Não faça dos alvos de mouse pequenas demais. Em geral, alvos de mouse devem "
+"pelo menos do tamanho da “área quente” em volta da borda redimensionável da "
+"janela no atual tema/gerenciador de janelas - tenha em mente que um usuário "
+"com destreza ou visão prejudicada pode estar usando um gerenciador de "
+"janelas com áreas maiores do que o padrão."
 
 #. (itstool) path: section/title
 #: C/index.docbook:1007
@@ -2968,7 +2869,19 @@ msgstr "Exemplos de interação do mouse"
 #. (itstool) path: figure/title
 #: C/index.docbook:1009
 msgid "Example of \"no-drop\" pointer from CDE/Motif"
+msgstr "Exemplo de ponteiro “não soltar” do CDE/Motif"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1012
+msgctxt "_"
+msgid ""
+"external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
 msgstr ""
+"external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:1010
@@ -2977,6 +2890,9 @@ msgid ""
 "imageobject> <textobject> <phrase>Example of an \"invalid drop target\" "
 "pointer shape</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/nodrop.png\" format=\"PNG\"/> </"
+"imageobject> <textobject> <phrase>Exemplo de uma forma de ponteiro de “alvos "
+"inválidos para soltar”</phrase> </textobject>"
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -2991,6 +2907,9 @@ msgid ""
 "elements in your application. This will make it easier for people with "
 "visual or cognitive impairments to use."
 msgstr ""
+"Forneça opções para personalizar a apresentação de todos os elementos "
+"gráficos importantes em seu aplicativo. Isso facilitará para pessoas com "
+"dificuldades visuais ou cognitivas para suar."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1029
@@ -3000,6 +2919,10 @@ msgid ""
 "If this is not possible, provide options within your application to change "
 "them."
 msgstr ""
+"Não codifique os atributos gráficos, tal como espessura de linha, borda ou "
+"sombra. Esses elementos idealmente devem ser lidos a partir do tema de "
+"gerenciador de janelas ou GTK. Se isso não for possível, forneça opções "
+"dentro de seu aplicativo para alterá-los."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1034
@@ -3011,6 +2934,12 @@ msgid ""
 "a label). Consider overriding the defaults with more helpful or application-"
 "specific descriptions where possible."
 msgstr ""
+"Forneça nomes descritivos para todos os componentes da interface. A "
+"biblioteca GAIL fornece descrições acessíveis padrões para muitos widgets "
+"GTK, mas você ainda precisará adicionar suas próprias em alguns casos, como "
+"para widgets que usam gráficos em vez de textos (ex.: um poço em uma paleta "
+"de cores, ou um ícone sem um rótulo). Considere sobrepôr os padrões com "
+"descrições mais úteis e específicas para seu aplicativos, onde possível."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1039
@@ -3020,6 +2949,11 @@ msgid ""
 "system foreground and background colors, which the user will have chosen for "
 "themselves (by their choice of GTK theme) for maximum legibility."
 msgstr ""
+"Permita que elementos gráficos multicores (ex.: ícones de barra de tarefas) "
+"sejam mostrados em monocromáticos, se possível. Essas imagens monocromáticas "
+"devem ser mostradas nas cores de primeiro plano e de plano de fundo do "
+"sistema, as quais os usuários terão escolhidos para eles mesmos (por suas "
+"escolhas de tema GTK) para máxima legibilidade."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1044
@@ -3030,6 +2964,12 @@ msgid ""
 "boundaries. Don't show GUI elements that look pretty but don't actually do "
 "anything, unless you also provide an option to switch them off."
 msgstr ""
+"Torne os elementos interativos da GUI facilmente identificáveis. Por "
+"exemplo, não faça o usuário flutuar o mouse sobre um objeto para determinar "
+"se ele é clicável ou não. Deixe espaço suficiente entre objetos e delineie "
+"claramente os limites do objeto. Não mostre elementos da GUI que parecem "
+"bonitos, mas que não servem para nada, a menos que você também forneça uma "
+"opção para desligá-los."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1049
@@ -3039,6 +2979,10 @@ msgid ""
 "The icons on the GNOME foot menu, for example, can be switched off whilst "
 "still leaving the menus fully functional."
 msgstr ""
+"Forneça uma opção para ocultar gráficos que não transmitam informações "
+"essenciais. Imagens gráficas podem ser distrativas para usuários com algumas "
+"deficiências cognitivas. Os ícones no menu de pé do GNOME, por exemplo, "
+"podem ser desligados enquanto deixa os menus completamente funcionais."
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -3055,6 +2999,11 @@ msgid ""
 "font and size to the user, to ensure that people with vision impairments can "
 "also use your application effectively."
 msgstr ""
+"Até mesmo para um usuário com visão normal, a saída textual fornece a "
+"maioria de informações e feedback na maioria dos aplicativos. É, portanto, "
+"crítico escolher e posicionar o texto cuidadosamente na tela, e deixar a "
+"escolha da fonte e tamanho par ao usuário, para garantir que as pessoas com "
+"dificuldades visuais também possam usar seu aplicativos efetivamente."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1063
@@ -3063,6 +3012,10 @@ msgid ""
 "sizes and typefaces. If for some reason you cannot make this functionality "
 "available, never hardcode any font sizes smaller than 10 points."
 msgstr ""
+"Não defina por código os estilos e tamanhos da fonte. O usuário deve ser "
+"capaz de ajustar todos os tamanhos e tipos de fonte. Se por algum motivo "
+"você não puder disponibilizar esta funcionalidade, nunca defina no código "
+"qualquer tamanho de fonte menor que 10 pontos."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1068
@@ -3071,6 +3024,10 @@ msgid ""
 "text. Such images interfere with the contrast between the text and its "
 "background, which can cause difficulty for users with visual impairments."
 msgstr ""
+"Forneça opções para desligar quaisquer “backdrops” gráficos ou “marcas "
+"d'água” atrás do texto. Tais imagens interferem com o contraste entre o "
+"texto e seu plano de fundo, que podem causar dificuldade para usuários com "
+"dificuldades visuais."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1073
@@ -3080,6 +3037,10 @@ msgid ""
 "necessarily be able to immediately understand the relationship between a "
 "control and those surrounding it."
 msgstr ""
+"Rotule objetos com nomes que farão sentido quando retirados do contexto. "
+"Usuários que dependam de leitores de tela ou tecnologias assistivas "
+"similares não necessariamente serão capazes de entender imediatamente a "
+"relação entre um controle e o que está em volta dele."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1078
@@ -3090,6 +3051,11 @@ msgid ""
 "the same, e.g. \"Read\" and \"Red\", as this could be confusing for users "
 "relying on screen-readers."
 msgstr ""
+"Não use o mesmo rótulo mais de uma vez na mesma janela. Se você usa o mesmo "
+"rótulo em janelas diferentes, ajudará se significarem a mesma coisa em ambas "
+"janelas. Além disso, não use rótulos que são escritos diferentemente, mas "
+"tem o mesmo fonética, como “acento” e “assento”, pois isso poderia ser "
+"confuso para usuários que dependam de leitores de tela."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1083
@@ -3099,6 +3065,11 @@ msgid ""
 "icons, and immediately above or to the left of other controls. See <link "
 "linkend=\"gad-font-examples\">Fonts and Text Examples</link>."
 msgstr ""
+"Posicione rótulos de forma consistente por todo seu aplicativo. Isso "
+"normalmente significa imediatamente abaixo de ícones grandes, imediatamente "
+"à direita de ícones pequenos, e imediatamente acima ou para a esquerda de "
+"outros controles. Veja <link linkend=\"gad-font-examples\">Exemplos de "
+"fontes e texto</link>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1088
@@ -3108,6 +3079,11 @@ msgid ""
 "user should type their username. This helps identify it as a control's label "
 "rather than an independent item of text."
 msgstr ""
+"Quando você usar texto estático para rotular um controle, termine o rótulo "
+"com um caractere de dois pontos. Por exemplo, <guilabel>Nome de usuário:</"
+"guilabel> para rotular um texto no qual o usuário deve digitar seu nome de "
+"usuário. Isso ajuda a identificá-lo como um rótulo do controle em vez de um "
+"item de texto independente."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1093
@@ -3117,6 +3093,10 @@ msgid ""
 "the mnemonic (underlined character) you assign to the label will move focus "
 "to or activate the correct control when pressed."
 msgstr ""
+"Quando você usar texto estático para rotular um controle, certifique-se que "
+"o rótulo preceda imediatamente aquele controle na ordem de Tab. Isso vai "
+"garantir que o mnemônico (caractere sublinhado) que você atribui ao rótulo "
+"vai mover o foco ou ativar o controle correto quando pressionado."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1098
@@ -3132,6 +3112,17 @@ msgid ""
 "panels with child controls, consider allowing the panels to resize along "
 "with the parent window."
 msgstr ""
+"Forneça alternativas a WYSIWYG. Alguns usuários podem precisar imprimir "
+"texto em uma fonte pequena, mas editar em uma fonte de tela maior, por "
+"exemplo. Alternativas possíveis incluem exibir todo texto na mesma fonte e "
+"tamanho (ambos os quais são escolhidos pelo usuário); uma opção “quebra-de-"
+"texto” que permite que você leia todo o texto em uma janela sem ter que "
+"rolar horizontalmente; uma visão de única coluna que mostra o conteúdo da "
+"janela em uma única coluna mesmo se for imprimido em múltiplas colunas; e "
+"uma visão somente texto, na qual gráficos são mostrados como marcadores de "
+"lugar e descrições de texto. Se o aplicativo possuir painéis com controles "
+"internos, considere permitir que os painéis sejam redimensionados junto com "
+"a janela pai."
 
 #. (itstool) path: section/title
 #: C/index.docbook:1105
@@ -3141,7 +3132,19 @@ msgstr "Exemplos de fontes e texto"
 #. (itstool) path: figure/title
 #: C/index.docbook:1107
 msgid "Correct label placement for various GUI elements"
+msgstr "Posicionamento correto de rótulo para vários elementos da GUI"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1115
+msgctxt "_"
+msgid ""
+"external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
 msgstr ""
+"external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
 
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1113
@@ -3150,11 +3153,26 @@ msgid ""
 "> </imageobject> <textobject> <phrase>List control with label above</phrase> "
 "</textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/label_above.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>Controle de lista com rótulo em cima</"
+"phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1112
 msgid "<_:mediaobject-1/> List control with label above"
+msgstr "<_:mediaobject-1/> Controle de lista com rótulo em cima"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1126
+msgctxt "_"
+msgid ""
+"external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
 msgstr ""
+"external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
 
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1124
@@ -3163,11 +3181,27 @@ msgid ""
 "> </imageobject> <textobject> <phrase>Large file manager icon with label "
 "underneath</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/label_below.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>Ícone grande do gerenciador de "
+"arquivos com rótulo embaixo</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1123
 msgid "<_:mediaobject-1/> Large file manager icon with label underneath"
 msgstr ""
+"<_:mediaobject-1/> Ícone grande do gerenciador de arquivos com rótulo embaixo"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1137
+msgctxt "_"
+msgid ""
+"external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
+msgstr ""
+"external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
 
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1135
@@ -3176,11 +3210,28 @@ msgid ""
 "> </imageobject> <textobject> <phrase>Small toolbar icon with label to its "
 "right</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/label_below.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>Ícone pequeno da barra de ferramentas "
+"com rótulo a sua direita</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1134
 msgid "<_:mediaobject-1/> Small toolbar icon with label to its right"
 msgstr ""
+"<_:mediaobject-1/> Ícone pequeno da barra de ferramentas com rótulo a sua "
+"direita"
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1148
+msgctxt "_"
+msgid ""
+"external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
+msgstr ""
+"external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
 
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1146
@@ -3189,11 +3240,15 @@ msgid ""
 "</imageobject> <textobject> <phrase>Spinbox control with label to its left</"
 "phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/label_left.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Controle de caixa giratória com rótulo a "
+"sua esquerda</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1145
 msgid "<_:mediaobject-1/> Spinbox control with label to its left"
 msgstr ""
+"<_:mediaobject-1/> Controle de caixa giratória com rótulo a sua esquerda"
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -3267,6 +3322,18 @@ msgstr "Exemplos de cor e contraste"
 msgid "Example illustrating redundant use of color"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1206
+msgctxt "_"
+msgid ""
+"external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
+msgstr ""
+"external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
+
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1204
 msgid ""
@@ -3283,6 +3350,20 @@ msgid ""
 "lack of contrast between the red text and black background would also make "
 "it hard to read for a user with low vision, even with a screen magnifier."
 msgstr ""
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1221
+msgctxt "_"
+msgid ""
+"external ref='figures/color_and_arrows.png' "
+"md5='a9a1eb5f1f902f388e717f4ef7882c22'"
+msgstr ""
+"external ref='figures/color_and_arrows.png' "
+"md5='a9a1eb5f1f902f388e717f4ef7882c22'"
 
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1219
@@ -3509,6 +3590,18 @@ msgstr "Exemplos de foco do teclado"
 msgid "Example illustrating need to show focus clearly"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1352
+msgctxt "_"
+msgid ""
+"external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
+msgstr ""
+"external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
+
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1350
 msgid ""
@@ -3524,6 +3617,18 @@ msgid ""
 "which..."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1367
+msgctxt "_"
+msgid ""
+"external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
+msgstr ""
+"external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
+
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1365
 msgid ""
@@ -3538,6 +3643,18 @@ msgid ""
 "...until you scroll the list, which reveals that one of its items is "
 "currently selected."
 msgstr ""
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1382
+msgctxt "_"
+msgid ""
+"external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
+msgstr ""
+"external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
 
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1380
@@ -3560,6 +3677,18 @@ msgstr ""
 msgid "Example illustrating use of secondary focus"
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1406
+msgctxt "_"
+msgid ""
+"external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
+msgstr ""
+"external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
+
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1404
 msgid ""
@@ -3575,6 +3704,18 @@ msgid ""
 "panes actually has keyboard focus."
 msgstr ""
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1421
+msgctxt "_"
+msgid ""
+"external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
+msgstr ""
+"external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
+
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1419
 msgid ""
@@ -3589,6 +3730,18 @@ msgid ""
 "By using a secondary selection highlight color in the inactive pane, it's "
 "immediately obvious that the tree control has focus here..."
 msgstr ""
+
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1436
+msgctxt "_"
+msgid ""
+"external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
+msgstr ""
+"external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
 
 #. (itstool) path: entry/mediaobject
 #: C/index.docbook:1434
@@ -4917,6 +5070,18 @@ msgstr ""
 msgid "Accerciser"
 msgstr "Accerciser"
 
+#. (itstool) path: imageobject/imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:786
+msgctxt "_"
+msgid ""
+"external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
+msgstr ""
+"external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
+
 #. (itstool) path: screenshot/mediaobject
 #: C/index.docbook:784
 msgid ""
@@ -4924,8 +5089,8 @@ msgid ""
 "imageobject> <textobject> <phrase> Accerciser and the GNOME Accessibility "
 "Architecture </phrase> </textobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/at-arch.png\" format=\"PNG\"/> "
-"</imageobject> <textobject> <phrase> Accerciser e a arquitetura de "
+"<imageobject> <imagedata fileref=\"figures/at-arch.png\" format=\"PNG\"/> </"
+"imageobject> <textobject> <phrase> Accerciser e a arquitetura de "
 "acessibilidade do GNOME</phrase> </textobject>"
 
 #. (itstool) path: section/para
