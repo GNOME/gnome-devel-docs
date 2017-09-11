@@ -1,3 +1,19 @@
+3.26.0
+======
+
+* Add description of GNOM and GVDB to programming guidlines (Philip Withnall)
+* Add a fullscreen mode pattern to the HIG (Allan Day)
+* Improvements to platform demos (David King, Sebastian Rasmussen)
+* HIG-compliant applications may run without open windows (Allan Day)
+* Updated translations:
+  ca      (Jordi Mas)
+  cs      (Marek Černocký)
+  de      (Mario Blättermann)
+  el      (Tom Tryfonidis)
+  es      (Daniel Mustieles)
+  ko      (Seong-ho Cho)
+  pt_BR   (Rafael Fontenelle)
+
 3.22.0
 ======
 
