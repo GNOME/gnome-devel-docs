@@ -5,7 +5,7 @@
 
   <info>
     <link type="next" xref="tour-gjs"/>
-    <revision version="0.1" date="2013-06-17" status="stub"/>
+    <revision version="0.1" date="2017-09-16" status="stub"/>
 
     <credit type="author copyright">
       <name>Ekaterina Gerasimova</name>
@@ -33,13 +33,13 @@
   for GNOME to create a user interface. Glade produces XML files that describe
   attributes of an application.</p>
 
-  <p>When creating a UI file using Glade, the <gui>Name</gui> that you
+  <p>When creating a UI file using Glade, the <gui>ID</gui> that you
   specify in Glade is the ID that you will later need to use to get the
   object from the UI file.</p>
 
   <example>
-    <p>Create a new window, then set <gui>Name</gui> to <code>window1</code>
-    and <gui>Window</gui> to <code>Hello World</code>:</p>
+    <p>Create a new window, then set <gui>ID</gui> to <code>window1</code>
+    and <gui>Title</gui> to <code>Hello World</code>:</p>
     <media type="image" src="media/glade-set-values.png">
       <p>Screenshot of value attribution in Glade.</p>
     </media>
