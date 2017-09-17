@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: user-guide\n"
-"POT-Creation-Date: 2017-08-01 11:35+0000\n"
-"PO-Revision-Date: 2017-08-05 16:22+0200\n"
+"POT-Creation-Date: 2017-09-16 18:33+0000\n"
+"PO-Revision-Date: 2017-09-17 08:12+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -5232,22 +5232,22 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tour-glade.page:36
 msgid ""
-"When creating a UI file using Glade, the <gui>Name</gui> that you specify in "
+"When creating a UI file using Glade, the <gui>ID</gui> that you specify in "
 "Glade is the ID that you will later need to use to get the object from the "
 "UI file."
 msgstr ""
-"Když vytváříte soubor s UI v Glade, je <gui>Název</gui> který v něm uvedete "
-"zároven identifikátorem, který budete později potřebovat, abyste objekt ze "
-"souboru získali."
+"Když vytváříte soubor s UI v Glade, je <gui>ID</gui>, které v něm uvedete, "
+"identifikátorem, který budete později potřebovat, abyste objekt ze souboru "
+"získali."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:41
 msgid ""
-"Create a new window, then set <gui>Name</gui> to <code>window1</code> and "
-"<gui>Window</gui> to <code>Hello World</code>:"
+"Create a new window, then set <gui>ID</gui> to <code>window1</code> and "
+"<gui>Title</gui> to <code>Hello World</code>:"
 msgstr ""
-"Vytvořte nové okno a nastavte mu <gui>Název</gui> na <code>window1</code> a "
-"<gui>Záhlaví</gui> na <code>Hello World</code>:"
+"Vytvořte nové okno a nastavte mu <gui>ID</gui> na <code>window1</code> a "
+"<gui>Název</gui> na <code>Hello World</code>:"
 
 #. (itstool) path: example/media
 #. This is a reference to an external file such as an image or video. When
@@ -5258,10 +5258,10 @@ msgstr ""
 msgctxt "_"
 msgid ""
 "external ref='media/glade-set-values.png' "
-"md5='61c369d5fdd6353694f9fa9e852e207c'"
+"md5='80a2ec72e68dd6efa2ed50ae53675c47'"
 msgstr ""
 "external ref='media/glade-set-values.png' "
-"md5='61c369d5fdd6353694f9fa9e852e207c'"
+"md5='80a2ec72e68dd6efa2ed50ae53675c47'"
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
