@@ -365,7 +365,7 @@
 <tr>
 <td><p><gui>Send To…</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>M</key></keyseq></p></td>
-<td><p>Provides the user a means to attach or send the current document as an email or email attachment, depending on its format. You may provide more than one <gui>Send</gui> item depending on which options are available. If there are more than two such items, move them into a submenu. For example, if only <gui>Send by Email</gui> and <gui>Send by Bluetooth</gui> are available, leave them on the top-level menu If there is a third option, such as <gui>Send by FTP</gui>, place all the options in a Send submenu.</p></td>
+<td><p>Provides the user a means to attach or send the current document as an email or email attachment, depending on its format. You may provide more than one <gui>Send</gui> item depending on which options are available. If there are more than two such items, move them into a submenu. For example, if only <gui>Send by Email</gui> and <gui>Send by Bluetooth</gui> are available, leave them on the top-level menu. If there is a third option, such as <gui>Send by FTP</gui>, place all the options in a Send submenu.</p></td>
 </tr>
 <tr>
 <td><p><gui>Properties…</gui></p></td>
