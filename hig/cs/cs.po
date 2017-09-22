@@ -1,13 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Marek Černocký <marek@manet.cz>, 2015, 2016.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-08-16 09:26+0000\n"
-"PO-Revision-Date: 2016-09-05 07:18+0200\n"
+"POT-Creation-Date: 2017-09-22 16:04+0000\n"
+"PO-Revision-Date: 2017-09-22 21:08+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -31,20 +31,6 @@ msgstr "Toto dílo je licencováno pod <_:link-1/>"
 msgctxt "_"
 msgid "translator-credits"
 msgstr "Marek Černocký <marek@manet.cz>"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/action-bars.page:17
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/action-bar.svg' "
-"md5='02ad08b5400b1c64273fde96008043f6'"
-msgstr ""
-"external ref='figures/patterns/action-bar.svg' "
-"md5='02ad08b5400b1c64273fde96008043f6'"
 
 #. (itstool) path: info/desc
 #: C/action-bars.page:7
@@ -75,6 +61,20 @@ msgstr "Allan Day"
 #: C/action-bars.page:15
 msgid "Action bars"
 msgstr "Akční lišta"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/action-bars.page:17
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/action-bar.svg' "
+"md5='02ad08b5400b1c64273fde96008043f6'"
+msgstr ""
+"external ref='figures/patterns/action-bar.svg' "
+"md5='02ad08b5400b1c64273fde96008043f6'"
 
 #. (itstool) path: page/p
 #: C/action-bars.page:19
@@ -157,7 +157,7 @@ msgstr ""
 #: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
 #: C/header-bar-menus.page:48 C/header-bars.page:72 C/info-bars.page:46
 #: C/lists.page:148 C/menu-bars.page:106 C/menus.page:73
-#: C/notifications.page:105 C/popovers.page:64 C/primary-windows.page:86
+#: C/notifications.page:105 C/popovers.page:64 C/primary-windows.page:85
 #: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
 #: C/search.page:72 C/sidebar-lists.page:54 C/sliders.page:69
 #: C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99 C/text-fields.page:68
@@ -362,7 +362,17 @@ msgstr ""
 "název, který odkazuje na to, co vaše aplikace dělá nebo na sféru, které se "
 "týká."
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/application-menus.page:7
+msgid "Global application menu that is accessed from the top bar"
+msgstr "Globální nabídka aplikace, která je přístupná z horní lišty"
+
+#. (itstool) path: page/title
+#: C/application-menus.page:15
+msgid "Application menus"
+msgstr "Nabídka aplikace"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -375,16 +385,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/application-menu.svg' "
 "md5='8bea5133bb3717c30f4719c98cf38180'"
-
-#. (itstool) path: info/desc
-#: C/application-menus.page:7
-msgid "Global application menu that is accessed from the top bar"
-msgstr "Globální nabídka aplikace, která je přístupná z horní lišty"
-
-#. (itstool) path: page/title
-#: C/application-menus.page:15
-msgid "Application menus"
-msgstr "Nabídka aplikace"
 
 #. (itstool) path: page/p
 #: C/application-menus.page:19
@@ -558,34 +558,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
 "\">GtkApplication</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/button-menus.page:22
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/button-menu.svg' "
-"md5='c0f736dc3284a5aa37d86fdfc2f27454'"
-msgstr ""
-"external ref='figures/ui-elements/button-menu.svg' "
-"md5='c0f736dc3284a5aa37d86fdfc2f27454'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/button-menus.page:42
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/hybrid-button-menu.svg' "
-"md5='f007dc2c5dc0c25ee85483f31ca85917'"
-msgstr ""
-"external ref='figures/ui-elements/hybrid-button-menu.svg' "
-"md5='f007dc2c5dc0c25ee85483f31ca85917'"
-
 #. (itstool) path: page/title
 #: C/button-menus.page:18
 msgid "Button menus"
@@ -603,6 +575,20 @@ msgstr ""
 "do celé škály kontejnerů, jako jsou hlavičkové lišty, akční lišty, postranní "
 "panely nebo nástrojové lišty. Nejběžnějším příkladem jsou <link xref="
 "\"header-bar-menus\">nabídky hlavičkových lišt</link>."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/button-menus.page:22
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/button-menu.svg' "
+"md5='c0f736dc3284a5aa37d86fdfc2f27454'"
+msgstr ""
+"external ref='figures/ui-elements/button-menu.svg' "
+"md5='c0f736dc3284a5aa37d86fdfc2f27454'"
 
 #. (itstool) path: section/p
 #: C/button-menus.page:27
@@ -716,6 +702,20 @@ msgstr ""
 "pozor, abyste nemíchali příliš mnoho typů ovládacích prvků nebo použití "
 "nabídky neudělali příliš komplikované."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/button-menus.page:42
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/hybrid-button-menu.svg' "
+"md5='f007dc2c5dc0c25ee85483f31ca85917'"
+msgstr ""
+"external ref='figures/ui-elements/hybrid-button-menu.svg' "
+"md5='f007dc2c5dc0c25ee85483f31ca85917'"
+
 #. (itstool) path: item/p
 #: C/button-menus.page:50
 msgid ""
@@ -760,20 +760,6 @@ msgstr ""
 "začleňováním příliš mnoha míst, které je třeba v uživatelském rozhraní "
 "rozkrývat. Čím více jich tam dáte, tím obtížnější bude pro uživatele najít "
 "ovládací prvek, který potřebuje, a zvýší se tím počet lidských chyb."
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/buttons.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/buttons.svg' "
-"md5='8df77034150dc4b1f59d00c46e9e0d0d'"
-msgstr ""
-"external ref='figures/ui-elements/buttons.svg' "
-"md5='8df77034150dc4b1f59d00c46e9e0d0d'"
 
 #. (itstool) path: credit/name
 #: C/buttons.page:12 C/check-boxes.page:12 C/dialogs.page:13
@@ -827,6 +813,20 @@ msgstr ""
 "rozhraní. Mohou být použita ke spouštění činností, přepínání nastavení nebo "
 "zobrazení, aktivaci nástrojů nebo k zobrazení dialogových oken, "
 "rozbalovacích dialogů a jiných prvků uživatelského rozhraní."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/buttons.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/buttons.svg' "
+"md5='8df77034150dc4b1f59d00c46e9e0d0d'"
+msgstr ""
+"external ref='figures/ui-elements/buttons.svg' "
+"md5='8df77034150dc4b1f59d00c46e9e0d0d'"
 
 #. (itstool) path: section/title
 #: C/buttons.page:37 C/text-fields.page:37
@@ -1039,20 +1039,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToggleButton.html"
 "\">GtkToggleButton</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/check-boxes.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/check-boxes.svg' "
-"md5='059840695d8cae9ae075c215efabc09f'"
-msgstr ""
-"external ref='figures/ui-elements/check-boxes.svg' "
-"md5='059840695d8cae9ae075c215efabc09f'"
-
 #. (itstool) path: page/title
 #: C/check-boxes.page:30
 msgid "Check boxes"
@@ -1068,6 +1054,20 @@ msgstr ""
 "Zaškrtávací políčka se používají k zobrazení nebo změnám nastavení. Mají dva "
 "stavy – nastaveno a nenastaveno, které jsou dány najevo přítomností nebo "
 "nepřítomností zaškrtnutí v políčku."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/check-boxes.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/check-boxes.svg' "
+"md5='059840695d8cae9ae075c215efabc09f'"
+msgstr ""
+"external ref='figures/ui-elements/check-boxes.svg' "
+"md5='059840695d8cae9ae075c215efabc09f'"
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:40
@@ -1728,48 +1728,6 @@ msgstr ""
 "Buďte vstřícní, když je vaše aplikace použita poprvé. Použití humoru, když "
 "se věci nevyvíjí tak, jak by měly, je také jednou ze technik."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/dialogs.page:55
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/message-dialog.svg' "
-"md5='e4479594508dc0f561bdb8ddff67af0e'"
-msgstr ""
-"external ref='figures/patterns/message-dialog.svg' "
-"md5='e4479594508dc0f561bdb8ddff67af0e'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/dialogs.page:76
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/action-dialog.svg' "
-"md5='20a282152fc66c385f2fc29281fcb968'"
-msgstr ""
-"external ref='figures/patterns/action-dialog.svg' "
-"md5='20a282152fc66c385f2fc29281fcb968'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/dialogs.page:93
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/presentation-dialog.svg' "
-"md5='0cbb3659eb1ed3fc1cf677fe918df94a'"
-msgstr ""
-"external ref='figures/patterns/presentation-dialog.svg' "
-"md5='0cbb3659eb1ed3fc1cf677fe918df94a'"
-
 #. (itstool) path: info/desc
 #: C/dialogs.page:7
 msgid "Secondary windows that appear over primary, parent windows"
@@ -1860,6 +1818,20 @@ msgstr ""
 msgid "Message Dialogs"
 msgstr "Dialogová okna se zprávou"
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/dialogs.page:55
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/message-dialog.svg' "
+"md5='e4479594508dc0f561bdb8ddff67af0e'"
+msgstr ""
+"external ref='figures/patterns/message-dialog.svg' "
+"md5='e4479594508dc0f561bdb8ddff67af0e'"
+
 #. (itstool) path: section/p
 #: C/dialogs.page:57
 msgid ""
@@ -1929,6 +1901,20 @@ msgstr ""
 msgid "Action Dialogs"
 msgstr "Akční dialogová okna"
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/dialogs.page:76
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/action-dialog.svg' "
+"md5='20a282152fc66c385f2fc29281fcb968'"
+msgstr ""
+"external ref='figures/patterns/action-dialog.svg' "
+"md5='20a282152fc66c385f2fc29281fcb968'"
+
 #. (itstool) path: section/p
 #: C/dialogs.page:78
 msgid ""
@@ -1971,6 +1957,20 @@ msgstr ""
 #: C/dialogs.page:91
 msgid "Presentation Dialogs"
 msgstr "Prezentační dialogová okna"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/dialogs.page:93
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/presentation-dialog.svg' "
+"md5='0cbb3659eb1ed3fc1cf677fe918df94a'"
+msgstr ""
+"external ref='figures/patterns/presentation-dialog.svg' "
+"md5='0cbb3659eb1ed3fc1cf677fe918df94a'"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:95
@@ -2359,34 +2359,6 @@ msgstr ""
 "oken souběžně, nepotřebují jeho podporu aplikace, které běží izolovaně "
 "(dobrým příkladem je hudební přehrávač)."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/drop-down-lists.page:22
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/drop-down-list.svg' "
-"md5='61a8c690fc1b8f2f72bf825eaf94cb5b'"
-msgstr ""
-"external ref='figures/ui-elements/drop-down-list.svg' "
-"md5='61a8c690fc1b8f2f72bf825eaf94cb5b'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/drop-down-lists.page:48
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/drop-down-list-custom-values.svg' "
-"md5='352a5302b7cdf1c2bc669bf15176130e'"
-msgstr ""
-"external ref='figures/ui-elements/drop-down-list-custom-values.svg' "
-"md5='352a5302b7cdf1c2bc669bf15176130e'"
-
 #. (itstool) path: page/title
 #: C/drop-down-lists.page:18
 msgid "Drop-down lists"
@@ -2402,6 +2374,20 @@ msgstr ""
 "Rozbalovací seznam je prvek uživatelského rozhraní, který umožňuje uživateli "
 "vybírat ze seznamu navzájem se vylučujících voleb. Zobrazuje se jako "
 "tlačítko, které po kliknutí odhalí seznam."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/drop-down-lists.page:22
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/drop-down-list.svg' "
+"md5='61a8c690fc1b8f2f72bf825eaf94cb5b'"
+msgstr ""
+"external ref='figures/ui-elements/drop-down-list.svg' "
+"md5='61a8c690fc1b8f2f72bf825eaf94cb5b'"
 
 #. (itstool) path: page/p
 #: C/drop-down-lists.page:24
@@ -2496,6 +2482,20 @@ msgstr ""
 msgid "Custom values"
 msgstr "Vlastní hodnoty"
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/drop-down-lists.page:48
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/drop-down-list-custom-values.svg' "
+"md5='352a5302b7cdf1c2bc669bf15176130e'"
+msgstr ""
+"external ref='figures/ui-elements/drop-down-list-custom-values.svg' "
+"md5='352a5302b7cdf1c2bc669bf15176130e'"
+
 #. (itstool) path: section/p
 #: C/drop-down-lists.page:50
 msgid ""
@@ -2546,7 +2546,17 @@ msgstr ""
 "nebyla zadána, zobrazte při otevření seznamu vstupní pole pro vlastní "
 "hodnotu, místo abyste zobrazovali prázdný seznam."
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/empty-placeholders.page:8
+msgid "Image and text shown when a grid or list is empty"
+msgstr "Obrázek a text zobrazený, když jsou mřížka nebo seznam prázdné"
+
+#. (itstool) path: page/title
+#: C/empty-placeholders.page:16
+msgid "Empty placeholders"
+msgstr "Zástupce prázdného místa"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -2559,16 +2569,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/empty-placeholder.svg' "
 "md5='ef36d4ef97fdbc3b43d44e3d355c40c6'"
-
-#. (itstool) path: info/desc
-#: C/empty-placeholders.page:8
-msgid "Image and text shown when a grid or list is empty"
-msgstr "Obrázek a text zobrazený, když jsou mřížka nebo seznam prázdné"
-
-#. (itstool) path: page/title
-#: C/empty-placeholders.page:16
-msgid "Empty placeholders"
-msgstr "Zástupce prázdného místa"
 
 #. (itstool) path: page/p
 #: C/empty-placeholders.page:20
@@ -2602,11 +2602,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:29
-#| msgid ""
-#| "Empty placeholders should not be displayed when an application is being "
-#| "run for the first time. In these situations empty states are often to be "
-#| "expected, and it is more appropriate to provide a richer, more "
-#| "characterful and upbeat experience."
 msgid ""
 "Empty placeholders should not be displayed when an application is being run "
 "for the first time. In these situations an empty state is too negative and "
@@ -2665,7 +2660,17 @@ msgstr ""
 "položky, může být vhodné tyto ovládací prvky zvýraznit pomocí <link xref="
 "\"buttons#suggested-and-destructive\">doporučujícího stylu</link>."
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/grids.page:8
+msgid "Grids of thumbnails or icons"
+msgstr "Mřížky s náhledy nebo ikonami"
+
+#. (itstool) path: page/title
+#: C/grids.page:16
+msgid "Grids"
+msgstr "Mřížky"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -2678,16 +2683,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/grid.svg' "
 "md5='fec23163b92b7ec5e78a4f39674d07d8'"
-
-#. (itstool) path: info/desc
-#: C/grids.page:8
-msgid "Grids of thumbnails or icons"
-msgstr "Mřížky s náhledy nebo ikonami"
-
-#. (itstool) path: page/title
-#: C/grids.page:16
-msgid "Grids"
-msgstr "Mřížky"
 
 #. (itstool) path: page/p
 #: C/grids.page:20
@@ -2777,7 +2772,17 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkIconView.html"
 "\">GtkIconView</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/header-bar-menus.page:8
+msgid "Common menus shown on the right side of a header bar"
+msgstr "Běžné nabídky zobrazené na pravé straně hlavičkové lišty"
+
+#. (itstool) path: page/title
+#: C/header-bar-menus.page:16
+msgid "Header bar menus"
+msgstr "Nabídky v hlavičkových lištách"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -2790,16 +2795,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/header-bar-menu.svg' "
 "md5='0e781cf34a40d6c5928bd4564514dc65'"
-
-#. (itstool) path: info/desc
-#: C/header-bar-menus.page:8
-msgid "Common menus shown on the right side of a header bar"
-msgstr "Běžné nabídky zobrazené na pravé straně hlavičkové lišty"
-
-#. (itstool) path: page/title
-#: C/header-bar-menus.page:16
-msgid "Header bar menus"
-msgstr "Nabídky v hlavičkových lištách"
 
 #. (itstool) path: page/p
 #: C/header-bar-menus.page:20
@@ -2926,7 +2921,17 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
 "\">GtkPopoverMenu</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/header-bars.page:8
+msgid "Element that runs along the top of windows"
+msgstr "Prvky fungující podél horního okraje okna"
+
+#. (itstool) path: page/title
+#: C/header-bars.page:16
+msgid "Header bars"
+msgstr "Hlavičkové lišty"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -2939,16 +2944,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/header-bar.svg' "
 "md5='74a8ae325891151985097003f5a43534'"
-
-#. (itstool) path: info/desc
-#: C/header-bars.page:8
-msgid "Element that runs along the top of windows"
-msgstr "Prvky fungující podél horního okraje okna"
-
-#. (itstool) path: page/title
-#: C/header-bars.page:16
-msgid "Header bars"
-msgstr "Hlavičkové lišty"
 
 #. (itstool) path: page/p
 #: C/header-bars.page:20
@@ -3150,172 +3145,6 @@ msgid ""
 msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html"
 "\">GtkHeaderBar</link>"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:79
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
-msgstr ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:83
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
-msgstr ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:104
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/inverting.svg' "
-"md5='e4155d9e87e2abe95e70c42185686b5e'"
-msgstr ""
-"external ref='figures/icons/inverting.svg' "
-"md5='e4155d9e87e2abe95e70c42185686b5e'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:135
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-msgstr ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:137
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-msgstr ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:141
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-msgstr ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:143
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-msgstr ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:147
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-msgstr ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:149
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-msgstr ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:153
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-msgstr ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:155
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-msgstr ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:159
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
-msgstr ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
 
 #. (itstool) path: credit/name
 #: C/icons-and-artwork.page:11 C/pointer-and-touch-input.page:11
@@ -3548,6 +3377,18 @@ msgstr ""
 "256 × 256 px. S příchodem displejů s vysokou hustotou bodů je doporučována i "
 "varianta 512 × 512 px."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:79
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
+msgstr ""
+"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
+
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:81
 msgid ""
@@ -3562,6 +3403,20 @@ msgstr ""
 "kvalitu, je požadováno konkrétní vykreslení ve velikostech 48 × 48 px, "
 "32 × 32 px, 24 × 24 px a 16 × 16 px. GNOME s historických důvodů šiří také "
 "ikony ve velikosti 22 × 22 px, ale není to vyloženě vyžadováno."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:83
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/sizes-small-24.png' "
+"md5='73497b1da8a7dad694466f6f1f2f3dab'"
+msgstr ""
+"external ref='figures/icons/sizes-small-24.png' "
+"md5='73497b1da8a7dad694466f6f1f2f3dab'"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:85
@@ -3653,6 +3508,20 @@ msgstr ""
 "zvýraznění objektivu fotoaparátu u ikony níže bude fungovat, jen když bude "
 "tenčí než objektiv samotný."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:104
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/inverting.svg' "
+"md5='e4155d9e87e2abe95e70c42185686b5e'"
+msgstr ""
+"external ref='figures/icons/inverting.svg' "
+"md5='e4155d9e87e2abe95e70c42185686b5e'"
+
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:107
 msgid "Size and grid"
@@ -3723,40 +3592,166 @@ msgstr ""
 msgid "Butter"
 msgstr "máslová"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:135
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/butter.svg' "
+"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
+msgstr ""
+"external ref='figures/icons/palette/butter.svg' "
+"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
+
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:136
 msgid "Plum"
 msgstr "švestková"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:137
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/plum.svg' "
+"md5='1b31561d4d572eed6d60745d168ae182'"
+msgstr ""
+"external ref='figures/icons/palette/plum.svg' "
+"md5='1b31561d4d572eed6d60745d168ae182'"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:140
 msgid "Orange"
 msgstr "oranžová"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:141
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/orange.svg' "
+"md5='ceb8453eb65ca31f156fc24f94e191fe'"
+msgstr ""
+"external ref='figures/icons/palette/orange.svg' "
+"md5='ceb8453eb65ca31f156fc24f94e191fe'"
+
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:142
 msgid "Scarlet Red"
 msgstr "jasně červená"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:143
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/scarlet-red.svg' "
+"md5='eb353db730661f5e54f6cfdcc5de785c'"
+msgstr ""
+"external ref='figures/icons/palette/scarlet-red.svg' "
+"md5='eb353db730661f5e54f6cfdcc5de785c'"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:146
 msgid "Chocolate"
 msgstr "čokoládová"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:147
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/chocolate.svg' "
+"md5='e76cd7a81829ecee767bdadc4eef9851'"
+msgstr ""
+"external ref='figures/icons/palette/chocolate.svg' "
+"md5='e76cd7a81829ecee767bdadc4eef9851'"
+
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:148
 msgid "Aluminium"
 msgstr "hliníková"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:149
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/aluminium1.svg' "
+"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
+msgstr ""
+"external ref='figures/icons/palette/aluminium1.svg' "
+"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:152
 msgid "Chameleon"
 msgstr "žabičková"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:153
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/chameleon.svg' "
+"md5='8dcdfa1116600d8596c376d02facc673'"
+msgstr ""
+"external ref='figures/icons/palette/chameleon.svg' "
+"md5='8dcdfa1116600d8596c376d02facc673'"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:155
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/aluminium2.svg' "
+"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
+msgstr ""
+"external ref='figures/icons/palette/aluminium2.svg' "
+"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
+
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:158
 msgid "Sky Blue"
 msgstr "blankytně modrá"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:159
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/sky-blue.svg' "
+"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
+msgstr ""
+"external ref='figures/icons/palette/sky-blue.svg' "
+"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:164
@@ -4006,7 +4001,17 @@ msgstr ""
 msgid "How to support different device and display types."
 msgstr "Jak podporovat různá zařízení a typy displejů."
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/in-app-notifications.page:8 C/info-bars.page:8
+msgid "Application event notifications"
+msgstr "Upozornění na události v rámci aplikace"
+
+#. (itstool) path: page/title
+#: C/in-app-notifications.page:16
+msgid "In-app notifications"
+msgstr "Upozornění v aplikaci"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -4019,16 +4024,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/in-app-notification.svg' "
 "md5='48a9959dd176471c8fdfc412683c3abf'"
-
-#. (itstool) path: info/desc
-#: C/in-app-notifications.page:8 C/info-bars.page:8
-msgid "Application event notifications"
-msgstr "Upozornění na události v rámci aplikace"
-
-#. (itstool) path: page/title
-#: C/in-app-notifications.page:16
-msgid "In-app notifications"
-msgstr "Upozornění v aplikaci"
 
 #. (itstool) path: page/p
 #: C/in-app-notifications.page:20
@@ -4112,7 +4107,12 @@ msgstr ""
 "V jednu chvíli může být zobrazeno jen jedno upozornění v aplikaci a nová "
 "instance by měla nahradit tu stávající."
 
-#. (itstool) path: media
+#. (itstool) path: page/title
+#: C/info-bars.page:16
+msgid "Info bars"
+msgstr "Informační lišty"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -4125,11 +4125,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/info-bar.svg' "
 "md5='8182fc0c20fd860a617c8b382579e6f2'"
-
-#. (itstool) path: page/title
-#: C/info-bars.page:16
-msgid "Info bars"
-msgstr "Informační lišty"
 
 #. (itstool) path: page/p
 #: C/info-bars.page:20
@@ -5367,7 +5362,7 @@ msgid ""
 "<gui>Send</gui> item depending on which options are available. If there are "
 "more than two such items, move them into a submenu. For example, if only "
 "<gui>Send by Email</gui> and <gui>Send by Bluetooth</gui> are available, "
-"leave them on the top-level menu If there is a third option, such as "
+"leave them on the top-level menu. If there is a third option, such as "
 "<gui>Send by FTP</gui>, place all the options in a Send submenu."
 msgstr ""
 "Nabídne uživateli prostředky pro přiložení aktuálního dokumentu do poštovní "
@@ -6347,34 +6342,6 @@ msgstr ""
 "Jednotlivé položky nabídky vynesou příslušné okno do popředí před ostatní "
 "okna."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/lists.page:52
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/list-styles.svg' "
-"md5='61f37ec31df8748207a9152ea0589da0'"
-msgstr ""
-"external ref='figures/patterns/list-styles.svg' "
-"md5='61f37ec31df8748207a9152ea0589da0'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/lists.page:63
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/editable-lists.svg' "
-"md5='182e1ead38431882471350da832751d1'"
-msgstr ""
-"external ref='figures/patterns/editable-lists.svg' "
-"md5='182e1ead38431882471350da832751d1'"
-
 #. (itstool) path: info/desc
 #: C/lists.page:9
 msgid "Rows of information or content items."
@@ -6501,6 +6468,20 @@ msgid ""
 "When the list needs to be aligned with other controls inside the window."
 msgstr "Když je potřeba seznam zarovnat s ostatními ovládacími prvky v okně."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/lists.page:52
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/list-styles.svg' "
+"md5='61f37ec31df8748207a9152ea0589da0'"
+msgstr ""
+"external ref='figures/patterns/list-styles.svg' "
+"md5='61f37ec31df8748207a9152ea0589da0'"
+
 #. (itstool) path: section/title
 #: C/lists.page:57
 msgid "Editable lists"
@@ -6530,6 +6511,20 @@ msgstr ""
 "alternativou umístit tlačítko pro přidávání na <link xref=\"header-bars"
 "\">hlavičkovou lištu</link> nebo na <link xref=\"action-bars\">akční lištu</"
 "link>."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/lists.page:63
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/editable-lists.svg' "
+"md5='182e1ead38431882471350da832751d1'"
+msgstr ""
+"external ref='figures/patterns/editable-lists.svg' "
+"md5='182e1ead38431882471350da832751d1'"
 
 #. (itstool) path: section/title
 #: C/lists.page:69
@@ -6785,20 +6780,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkTreeView.html"
 "\">GtkTreeView</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/menu-bars.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/menu-bar.svg' "
-"md5='126e396f29c93fb7e15bc1ed5c1b94ea'"
-msgstr ""
-"external ref='figures/ui-elements/menu-bar.svg' "
-"md5='126e396f29c93fb7e15bc1ed5c1b94ea'"
-
 #. (itstool) path: page/title
 #: C/menu-bars.page:30
 msgid "Menu bars"
@@ -6812,6 +6793,20 @@ msgid ""
 msgstr ""
 "Nabídková lišta obsahuje rozbalovací nabídky zobrazené v řadě. Typicky bývá "
 "umístěna v horní části hlavního okna, hned po záhlavím okna."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/menu-bars.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/menu-bar.svg' "
+"md5='126e396f29c93fb7e15bc1ed5c1b94ea'"
+msgstr ""
+"external ref='figures/ui-elements/menu-bar.svg' "
+"md5='126e396f29c93fb7e15bc1ed5c1b94ea'"
 
 #. (itstool) path: section/p
 #: C/menu-bars.page:39
@@ -7169,20 +7164,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSeparatorMenuItem."
 "html\">GtkSeparatorMenuItem</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/menus.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/menu.svg' "
-"md5='1997424d43df9bee4a79276f2f7ec305'"
-msgstr ""
-"external ref='figures/ui-elements/menu.svg' "
-"md5='1997424d43df9bee4a79276f2f7ec305'"
-
 #. (itstool) path: page/title
 #: C/menus.page:30
 msgid "Menus"
@@ -7200,6 +7181,20 @@ msgstr ""
 "záhlaví nebo tlačítka. V případě kontextových nabídek se nabídka otevře "
 "pomocí druhé akce (jako je kliknutí druhým tlačítkem myši nebo dlouhým "
 "zmáčknutím na dotykové obrazovce) na položce obsahu."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/menus.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/menu.svg' "
+"md5='1997424d43df9bee4a79276f2f7ec305'"
+msgstr ""
+"external ref='figures/ui-elements/menu.svg' "
+"md5='1997424d43df9bee4a79276f2f7ec305'"
 
 #. (itstool) path: section/p
 #: C/menus.page:39
@@ -7637,7 +7632,17 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gio/stable/GNotification.html"
 "\">GNotification</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/overlaid-controls.page:7
+msgid "Floating controls, often used for images and video controls"
+msgstr "Plovoucí ovládací prvky, často používané pro práci s obrázky a videi"
+
+#. (itstool) path: page/title
+#: C/overlaid-controls.page:15
+msgid "Overlaid controls"
+msgstr "Ovládací prvky překrývající obsah"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -7650,16 +7655,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/overlaid-controls.svg' "
 "md5='14e776e3385eeafe86fbdd64c9efe595'"
-
-#. (itstool) path: info/desc
-#: C/overlaid-controls.page:7
-msgid "Floating controls, often used for images and video controls"
-msgstr "Plovoucí ovládací prvky, často používané pro práci s obrázky a videi"
-
-#. (itstool) path: page/title
-#: C/overlaid-controls.page:15
-msgid "Overlaid controls"
-msgstr "Ovládací prvky překrývající obsah"
 
 #. (itstool) path: page/p
 #: C/overlaid-controls.page:19
@@ -7730,20 +7725,6 @@ msgstr ""
 msgid "Use the standard \"OSD\" theme style for overlaid controls."
 msgstr "Pro překrývající ovládací prvky použijte standardní motiv „OSD“."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/patterns.page:20
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/patterns.svg' "
-"md5='f0189f11788efa1c344770abffa80a2e'"
-msgstr ""
-"external ref='figures/patterns/patterns.svg' "
-"md5='f0189f11788efa1c344770abffa80a2e'"
-
 #. (itstool) path: page/title
 #: C/patterns.page:13
 msgid "Design patterns"
@@ -7776,6 +7757,20 @@ msgstr "Anatomie aplikací pro GNOME 3"
 msgid "A visual reference for some of the most common GNOME 3 design patterns."
 msgstr "Vizuální náhledy pro některé z nejběžnějších návrhových vzorů GNOME 3."
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/patterns.page:20
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/patterns.svg' "
+"md5='f0189f11788efa1c344770abffa80a2e'"
+msgstr ""
+"external ref='figures/patterns/patterns.svg' "
+"md5='f0189f11788efa1c344770abffa80a2e'"
+
 #. (itstool) path: section/title
 #: C/patterns.page:24
 msgid "Core design patterns"
@@ -7785,140 +7780,6 @@ msgstr "Základní návrhové vzorky"
 #: C/patterns.page:30
 msgid "Supplementary design patterns"
 msgstr "Doplňkové návrhové vzory"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:128
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/tap.svg' md5='542dacd6f7b5d2a559c0941fd43c1271'"
-msgstr ""
-"external ref='figures/touch/tap.svg' md5='542dacd6f7b5d2a559c0941fd43c1271'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:136
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/tap-and-hold.svg' "
-"md5='758a756e51dcdc6790ad8d6dfec30a61'"
-msgstr ""
-"external ref='figures/touch/tap-and-hold.svg' "
-"md5='758a756e51dcdc6790ad8d6dfec30a61'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:144
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/drag.svg' md5='56fa4d12196bb021a0c0b3c601b66879'"
-msgstr ""
-"external ref='figures/touch/drag.svg' md5='56fa4d12196bb021a0c0b3c601b66879'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:152
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/pinch-or-stretch.svg' "
-"md5='4c4ee87ce1441e624ed512d86b18feab'"
-msgstr ""
-"external ref='figures/touch/pinch-or-stretch.svg' "
-"md5='4c4ee87ce1441e624ed512d86b18feab'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:160
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/double-tap.svg' "
-"md5='1f07b8f4aa0e035dfda6396f34181400'"
-msgstr ""
-"external ref='figures/touch/double-tap.svg' "
-"md5='1f07b8f4aa0e035dfda6396f34181400'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:168
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
-msgstr ""
-"external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:187
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/edge-drag.svg' "
-"md5='7d7ca541e9451653ace9c73f94485cd6'"
-msgstr ""
-"external ref='figures/touch/edge-drag.svg' "
-"md5='7d7ca541e9451653ace9c73f94485cd6'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:197
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/3-finger-pinch.svg' "
-"md5='3d665caebb2ce8be56beebfcaa8619a1'"
-msgstr ""
-"external ref='figures/touch/3-finger-pinch.svg' "
-"md5='3d665caebb2ce8be56beebfcaa8619a1'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:205
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/4-finger-drag.svg' "
-"md5='d4ad2c4258656637d39fcbe7bd94783c'"
-msgstr ""
-"external ref='figures/touch/4-finger-drag.svg' "
-"md5='d4ad2c4258656637d39fcbe7bd94783c'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:213
-msgctxt "_"
-msgid ""
-"external ref='figures/touch/3-finger-hold-and-tap.svg' "
-"md5='e37c9a8b7f4c24f19368550bcc8309d5'"
-msgstr ""
-"external ref='figures/touch/3-finger-hold-and-tap.svg' "
-"md5='e37c9a8b7f4c24f19368550bcc8309d5'"
 
 #. (itstool) path: page/title
 #: C/pointer-and-touch-input.page:17
@@ -8248,6 +8109,18 @@ msgstr "Výsledek"
 msgid "<em style=\"strong\">Tap</em>"
 msgstr "<em style=\"strong\">Klepnutí</em>"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:128
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/tap.svg' md5='542dacd6f7b5d2a559c0941fd43c1271'"
+msgstr ""
+"external ref='figures/touch/tap.svg' md5='542dacd6f7b5d2a559c0941fd43c1271'"
+
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:129
 msgid "Tap on an item."
@@ -8267,6 +8140,20 @@ msgstr ""
 msgid "<em style=\"strong\">Press and hold</em>"
 msgstr "<em style=\"strong\">Přiložení a držení</em>"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:136
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/tap-and-hold.svg' "
+"md5='758a756e51dcdc6790ad8d6dfec30a61'"
+msgstr ""
+"external ref='figures/touch/tap-and-hold.svg' "
+"md5='758a756e51dcdc6790ad8d6dfec30a61'"
+
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:137
 msgid "Press and hold for a second or two."
@@ -8283,6 +8170,18 @@ msgstr "Druhotná činnost. Vybere položku a vypíše činnosti, které lze pro
 msgid "<em style=\"strong\">Drag</em>"
 msgstr "<em style=\"strong\">Tažení</em>"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:144
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/drag.svg' md5='56fa4d12196bb021a0c0b3c601b66879'"
+msgstr ""
+"external ref='figures/touch/drag.svg' md5='56fa4d12196bb021a0c0b3c601b66879'"
+
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:145
 msgid "Slide finger touching the surface."
@@ -8297,6 +8196,20 @@ msgstr "Posouvá oblast na obrazovce."
 #: C/pointer-and-touch-input.page:149
 msgid "<em style=\"strong\">Pinch or stretch</em>"
 msgstr "<em style=\"strong\">Štípnutí nebo rozevření</em>"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:152
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/pinch-or-stretch.svg' "
+"md5='4c4ee87ce1441e624ed512d86b18feab'"
+msgstr ""
+"external ref='figures/touch/pinch-or-stretch.svg' "
+"md5='4c4ee87ce1441e624ed512d86b18feab'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:153
@@ -8316,6 +8229,20 @@ msgstr "Změna úrovně přiblížení v zobrazení (např. Mapy, Fotografie)."
 msgid "<em style=\"strong\">Double tap</em>"
 msgstr "<em style=\"strong\">Dvojité klepnutí</em>"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:160
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/double-tap.svg' "
+"md5='1f07b8f4aa0e035dfda6396f34181400'"
+msgstr ""
+"external ref='figures/touch/double-tap.svg' "
+"md5='1f07b8f4aa0e035dfda6396f34181400'"
+
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:161
 msgid "Tap twice in quick succession."
@@ -8330,6 +8257,18 @@ msgstr "Krok přiblížení."
 #: C/pointer-and-touch-input.page:165
 msgid "<em style=\"strong\">Flick</em>"
 msgstr "<em style=\"strong\">Máchnutí</em>"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:168
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
+msgstr ""
+"external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:169
@@ -8362,6 +8301,20 @@ msgstr ""
 msgid "<em style=\"strong\">Edge drag</em>"
 msgstr "<em style=\"strong\">Táhnutí od hrany</em>"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:187
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/edge-drag.svg' "
+"md5='7d7ca541e9451653ace9c73f94485cd6'"
+msgstr ""
+"external ref='figures/touch/edge-drag.svg' "
+"md5='7d7ca541e9451653ace9c73f94485cd6'"
+
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:188
 msgid "Slide finger starting from a screen edge."
@@ -8388,6 +8341,20 @@ msgstr "Levá hrana otevře přehled činností se zobrazením aplikací."
 msgid "<em style=\"strong\">Three finger pinch</em>"
 msgstr "<em style=\"strong\">Štípnutí třemi prsty</em>"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:197
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/3-finger-pinch.svg' "
+"md5='3d665caebb2ce8be56beebfcaa8619a1'"
+msgstr ""
+"external ref='figures/touch/3-finger-pinch.svg' "
+"md5='3d665caebb2ce8be56beebfcaa8619a1'"
+
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:198
 msgid "Bring three or more fingers closer together while touching the surface."
@@ -8402,6 +8369,20 @@ msgstr "Otevře přehled činností."
 #: C/pointer-and-touch-input.page:202
 msgid "<em style=\"strong\">Four finger drag</em>"
 msgstr "<em style=\"strong\">Tažení čtyřmi prsty</em>"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:205
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/4-finger-drag.svg' "
+"md5='d4ad2c4258656637d39fcbe7bd94783c'"
+msgstr ""
+"external ref='figures/touch/4-finger-drag.svg' "
+"md5='d4ad2c4258656637d39fcbe7bd94783c'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:206
@@ -8418,6 +8399,20 @@ msgstr "Přepíná pracovní plochy."
 msgid "<em style=\"strong\">Three finger hold and tap</em>"
 msgstr "<em style=\"strong\">Držení třemi prsty a klepání</em>"
 
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/pointer-and-touch-input.page:213
+msgctxt "_"
+msgid ""
+"external ref='figures/touch/3-finger-hold-and-tap.svg' "
+"md5='e37c9a8b7f4c24f19368550bcc8309d5'"
+msgstr ""
+"external ref='figures/touch/3-finger-hold-and-tap.svg' "
+"md5='e37c9a8b7f4c24f19368550bcc8309d5'"
+
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:214
 msgid "Hold three fingers on the surface while tapping with the fourth."
@@ -8427,20 +8422,6 @@ msgstr "Tři prsty držte na povrchu a čtvrtým při tom poklepávejte."
 #: C/pointer-and-touch-input.page:215
 msgid "Switches application."
 msgstr "Přepíná aplikace."
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/popovers.page:22
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/popover.svg' "
-"md5='c228a892a76a914660a76aa77830924c'"
-msgstr ""
-"external ref='figures/ui-elements/popover.svg' "
-"md5='c228a892a76a914660a76aa77830924c'"
 
 #. (itstool) path: page/title
 #: C/popovers.page:18
@@ -8459,6 +8440,20 @@ msgstr ""
 "okno, jako odezva na činnost uživatele. Může obsahovat různé prvky "
 "uživatelského rozhraní, včetně tlačítek, seznamů a nabídek. Je často "
 "používán jako součást nabídkového tlačítka nebo kontextové nabídky."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/popovers.page:22
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/popover.svg' "
+"md5='c228a892a76a914660a76aa77830924c'"
+msgstr ""
+"external ref='figures/ui-elements/popover.svg' "
+"md5='c228a892a76a914660a76aa77830924c'"
 
 #. (itstool) path: section/p
 #: C/popovers.page:27
@@ -8601,7 +8596,17 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopover.html"
 "\">GtkPopover</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/primary-windows.page:7
+msgid "The main window(s) for your application"
+msgstr "Hlavní okno či okna pro vaši aplikaci"
+
+#. (itstool) path: page/title
+#: C/primary-windows.page:15
+msgid "Primary windows"
+msgstr "Hlavní okna"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -8614,16 +8619,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/primary-windows.svg' "
 "md5='8a8e74a81b080c85bffc31e154705200'"
-
-#. (itstool) path: info/desc
-#: C/primary-windows.page:7
-msgid "The main window(s) for your application"
-msgstr "Hlavní okno či okna pro vaši aplikaci"
-
-#. (itstool) path: page/title
-#: C/primary-windows.page:15
-msgid "Primary windows"
-msgstr "Hlavní okna"
 
 #. (itstool) path: page/p
 #: C/primary-windows.page:19
@@ -8806,15 +8801,6 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/primary-windows.page:78
 msgid ""
-"Your application should cease to run when all its primary windows have been "
-"closed."
-msgstr ""
-"Vaše aplikace by měla přestat běžet, když byla všechna její hlavní okna "
-"zavřena."
-
-#. (itstool) path: item/p
-#: C/primary-windows.page:79
-msgid ""
 "The guidelines on <link xref=\"display-compatibility\">display "
 "compatibility</link> are particularly relevant for primary windows: be "
 "careful to ensure that they follow the advice on minimum display sizes, "
@@ -8826,13 +8812,13 @@ msgstr ""
 "otočení displeje a přichytávání k polovině obrazovky."
 
 #. (itstool) path: item/p
-#: C/primary-windows.page:80
+#: C/primary-windows.page:79
 msgid "<gui>Quit</gui> should close all primary windows."
 msgstr ""
 "<gui>Quit</gui> (<gui>Ukončit</gui>) by mělo zavřít všechna hlavní okna."
 
 #. (itstool) path: item/p
-#: C/primary-windows.page:89
+#: C/primary-windows.page:88
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkWindow.html"
 "\">GtkWindow</link>"
@@ -8841,27 +8827,13 @@ msgstr ""
 "\">GtkWindow</link>"
 
 #. (itstool) path: item/p
-#: C/primary-windows.page:90
+#: C/primary-windows.page:89
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplicationWindow."
 "html\">GtkApplicationWindow</link>"
 msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplicationWindow."
 "html\">GtkApplicationWindow</link>"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/progress-bars.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/progress-bars.svg' "
-"md5='7f66ae7b98f62e50dec20a577f85ad46'"
-msgstr ""
-"external ref='figures/ui-elements/progress-bars.svg' "
-"md5='7f66ae7b98f62e50dec20a577f85ad46'"
 
 #. (itstool) path: page/title
 #: C/progress-bars.page:30
@@ -8876,6 +8848,20 @@ msgid ""
 msgstr ""
 "Ukazatel průběhu dává najevo, že je prováděna nějaká úloha, a zároveň i jak "
 "velká její část je již hotová."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/progress-bars.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/progress-bars.svg' "
+"md5='7f66ae7b98f62e50dec20a577f85ad46'"
+msgstr ""
+"external ref='figures/ui-elements/progress-bars.svg' "
+"md5='7f66ae7b98f62e50dec20a577f85ad46'"
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:39
@@ -9214,20 +9200,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkProgressBar.html"
 "\">GtkProgressBar</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/progress-spinners.page:22
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/progress-spinner.svg' "
-"md5='9cfe1a10877e6776257f97c3011e17e0'"
-msgstr ""
-"external ref='figures/ui-elements/progress-spinner.svg' "
-"md5='9cfe1a10877e6776257f97c3011e17e0'"
-
 #. (itstool) path: page/title
 #: C/progress-spinners.page:18
 msgid "Progress spinners"
@@ -9244,6 +9216,20 @@ msgstr ""
 "Káča je běžný prvek uživatelského rozhraní, který dává najevo, že probíhá "
 "nějaká úloha. Na rozdíl od ukazatele průběhu, pouze sděluje, že nějaká úloha "
 "probíhá, ale nezobrazuje jaká část úlohy je již hotová."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/progress-spinners.page:22
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/progress-spinner.svg' "
+"md5='9cfe1a10877e6776257f97c3011e17e0'"
+msgstr ""
+"external ref='figures/ui-elements/progress-spinner.svg' "
+"md5='9cfe1a10877e6776257f97c3011e17e0'"
 
 #. (itstool) path: section/p
 #: C/progress-spinners.page:27
@@ -9366,20 +9352,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinner.html"
 "\">GtkSpinner</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/radio-buttons.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/radio-buttons.svg' "
-"md5='6e392d4dfb0529a9c7ca892d80dfd22d'"
-msgstr ""
-"external ref='figures/ui-elements/radio-buttons.svg' "
-"md5='6e392d4dfb0529a9c7ca892d80dfd22d'"
-
 #. (itstool) path: page/title
 #: C/radio-buttons.page:30
 msgid "Radio buttons"
@@ -9396,6 +9368,20 @@ msgstr ""
 "vylučujících voleb. Z celé skupiny může být vždy vybrán jen jeden přepínač. "
 "Stejně jakou u zaškrtávacích políček platí, abyste nepoužívali skupinové "
 "přepínače ke spouštění činností."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/radio-buttons.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/radio-buttons.svg' "
+"md5='6e392d4dfb0529a9c7ca892d80dfd22d'"
+msgstr ""
+"external ref='figures/ui-elements/radio-buttons.svg' "
+"md5='6e392d4dfb0529a9c7ca892d80dfd22d'"
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:40
@@ -9500,7 +9486,17 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioButton.html"
 "\">GtkRadioButton</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/search.page:7
+msgid "Find and filter content by typing"
+msgstr "Vyhledávání a filtrování obsahu psaním"
+
+#. (itstool) path: page/title
+#: C/search.page:15
+msgid "Search"
+msgstr "Vyhledávání"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -9513,16 +9509,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/search.svg' "
 "md5='f46da86233f8152b6acb5a06a6afd3b3'"
-
-#. (itstool) path: info/desc
-#: C/search.page:7
-msgid "Find and filter content by typing"
-msgstr "Vyhledávání a filtrování obsahu psaním"
-
-#. (itstool) path: page/title
-#: C/search.page:15
-msgid "Search"
-msgstr "Vyhledávání"
 
 #. (itstool) path: page/p
 #: C/search.page:19
@@ -9707,7 +9693,17 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
 "\">GtkSearchEntry</link>"
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/selection-mode.page:7
+msgid "Pattern for selecting content items"
+msgstr "Návrhový vzor pro výběr položek obsahu"
+
+#. (itstool) path: page/title
+#: C/selection-mode.page:15
+msgid "Selection mode"
+msgstr "Režim výběru"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -9720,16 +9716,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/selection-mode.svg' "
 "md5='4e42fe1dc48ff2341a1354c0f8fec61a'"
-
-#. (itstool) path: info/desc
-#: C/selection-mode.page:7
-msgid "Pattern for selecting content items"
-msgstr "Návrhový vzor pro výběr položek obsahu"
-
-#. (itstool) path: page/title
-#: C/selection-mode.page:15
-msgid "Selection mode"
-msgstr "Režim výběru"
 
 #. (itstool) path: page/p
 #: C/selection-mode.page:19
@@ -9846,7 +9832,17 @@ msgstr ""
 "lišty. Destruktivní činnosti, jako je mazání, by měly být umístěny mimo "
 "ostatní ovládací prvky."
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/sidebar-lists.page:7
+msgid "Navigation sidebar that contains a list"
+msgstr "Navigace pomocí postranního panelu, který obsahuje seznam"
+
+#. (itstool) path: page/title
+#: C/sidebar-lists.page:15
+msgid "Sidebar lists"
+msgstr "Postranní seznamy"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -9859,16 +9855,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/sidebar-list.svg' "
 "md5='a90375efbfc9915765fd1c224821f506'"
-
-#. (itstool) path: info/desc
-#: C/sidebar-lists.page:7
-msgid "Navigation sidebar that contains a list"
-msgstr "Navigace pomocí postranního panelu, který obsahuje seznam"
-
-#. (itstool) path: page/title
-#: C/sidebar-lists.page:15
-msgid "Sidebar lists"
-msgstr "Postranní seznamy"
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:19
@@ -10015,7 +10001,19 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html"
 "\">GtkStackSidebar</link>"
 
-#. (itstool) path: media
+#. (itstool) path: page/title
+#. (itstool) path: section/title
+#: C/sliders.page:30 C/spin-boxes.page:46
+msgid "Sliders"
+msgstr "Táhla"
+
+#. (itstool) path: page/p
+#: C/sliders.page:32
+msgid "A slider allows the user to quickly select a value from a range."
+msgstr ""
+"Táhlo umožňuje uživateli rychle vybrat hodnotu z nějaké daného rozsahu."
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -10028,18 +10026,6 @@ msgid ""
 msgstr ""
 "external ref='figures/ui-elements/sliders.svg' "
 "md5='08c58644b98d60ed3066db2d1b9cb765'"
-
-#. (itstool) path: page/title
-#. (itstool) path: section/title
-#: C/sliders.page:30 C/spin-boxes.page:46
-msgid "Sliders"
-msgstr "Táhla"
-
-#. (itstool) path: page/p
-#: C/sliders.page:32
-msgid "A slider allows the user to quickly select a value from a range."
-msgstr ""
-"Táhlo umožňuje uživateli rychle vybrat hodnotu z nějaké daného rozsahu."
 
 #. (itstool) path: section/p
 #: C/sliders.page:39
@@ -10174,20 +10160,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkHScale.html"
 "\">GtkVSCale</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/spin-boxes.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/spin-boxes.svg' "
-"md5='20028165e8679a34052a6d0b3342e088'"
-msgstr ""
-"external ref='figures/ui-elements/spin-boxes.svg' "
-"md5='20028165e8679a34052a6d0b3342e088'"
-
 #. (itstool) path: page/title
 #: C/spin-boxes.page:30
 msgid "Spin boxes"
@@ -10203,6 +10175,20 @@ msgstr ""
 "Číselník je textové pole, které přijímá rozsah hodnot. Obsahuje dvě "
 "tlačítka, pomocí kterých může uživatel zvyšovat nebo snižovat hodnotu v "
 "pevných mezích."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/spin-boxes.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/spin-boxes.svg' "
+"md5='20028165e8679a34052a6d0b3342e088'"
+msgstr ""
+"external ref='figures/ui-elements/spin-boxes.svg' "
+"md5='20028165e8679a34052a6d0b3342e088'"
 
 #. (itstool) path: section/p
 #: C/spin-boxes.page:39
@@ -10293,7 +10279,19 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinButton.html"
 "\">GtkSpinButton</link>"
 
-#. (itstool) path: media
+#. (itstool) path: page/title
+#: C/switches.page:18
+msgid "Switches"
+msgstr "Vypínače"
+
+#. (itstool) path: page/p
+#: C/switches.page:20
+msgid "A switch is a simple interface element which has an on and off state."
+msgstr ""
+"Přepínač je jednoduchý prvek uživatelského rozhraní, který může mít stav "
+"zapnuto nebo vypnuto."
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -10306,18 +10304,6 @@ msgid ""
 msgstr ""
 "external ref='figures/ui-elements/switches.svg' "
 "md5='fcdd09d24a52d974f966c174b6ca04ad'"
-
-#. (itstool) path: page/title
-#: C/switches.page:18
-msgid "Switches"
-msgstr "Vypínače"
-
-#. (itstool) path: page/p
-#: C/switches.page:20
-msgid "A switch is a simple interface element which has an on and off state."
-msgstr ""
-"Přepínač je jednoduchý prvek uživatelského rozhraní, který může mít stav "
-"zapnuto nebo vypnuto."
 
 #. (itstool) path: section/p
 #: C/switches.page:27
@@ -10390,20 +10376,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSwitch.html"
 "\">GtkSwitch</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/tabs.page:36
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/tabs.svg' "
-"md5='3649ebe9f3c4137ac97afd407063585c'"
-msgstr ""
-"external ref='figures/ui-elements/tabs.svg' "
-"md5='3649ebe9f3c4137ac97afd407063585c'"
-
 #. (itstool) path: page/title
 #: C/tabs.page:30
 msgid "Tabs"
@@ -10432,6 +10404,20 @@ msgstr ""
 "obsáhnout proměnný výběr položek obsahu, jako jsou stránky, dokumenty nebo "
 "obrázky. Používají se především v <link xref=\"primary-windows\">hlavních "
 "oknech</link>, jako součást editorů nebo prohlížecích aplikací."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/tabs.page:36
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/tabs.svg' "
+"md5='3649ebe9f3c4137ac97afd407063585c'"
+msgstr ""
+"external ref='figures/ui-elements/tabs.svg' "
+"md5='3649ebe9f3c4137ac97afd407063585c'"
 
 #. (itstool) path: section/p
 #: C/tabs.page:41
@@ -10620,20 +10606,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkNotebook.html"
 "\">GtkNotebook</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/text-fields.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/text-fields.svg' "
-"md5='6ba8005ee1d8eaa67df3bbf77dbe1d2f'"
-msgstr ""
-"external ref='figures/ui-elements/text-fields.svg' "
-"md5='6ba8005ee1d8eaa67df3bbf77dbe1d2f'"
-
 #. (itstool) path: page/title
 #: C/text-fields.page:30
 msgid "Text fields"
@@ -10651,6 +10623,20 @@ msgstr ""
 "textu. Jedná se o základní prvek s různými variantami použití, včetně "
 "hledání, nastavení a předvoleb. Textové pole může být předvyplněné textem a "
 "může obsahovat doplňující tlačítka a ikony."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/text-fields.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/text-fields.svg' "
+"md5='6ba8005ee1d8eaa67df3bbf77dbe1d2f'"
+msgstr ""
+"external ref='figures/ui-elements/text-fields.svg' "
+"md5='6ba8005ee1d8eaa67df3bbf77dbe1d2f'"
 
 #. (itstool) path: item/p
 #: C/text-fields.page:40
@@ -10804,20 +10790,6 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkEntry.html"
 "\">GtkEntry</link>"
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/toolbars.page:34
-msgctxt "_"
-msgid ""
-"external ref='figures/ui-elements/toolbar.svg' "
-"md5='381167837829a44d064aedec78b58b95'"
-msgstr ""
-"external ref='figures/ui-elements/toolbar.svg' "
-"md5='381167837829a44d064aedec78b58b95'"
-
 #. (itstool) path: page/title
 #: C/toolbars.page:30
 msgid "Toolbars"
@@ -10835,6 +10807,20 @@ msgstr ""
 "k běžně používaným funkcím. Většina nástrojových lišt obsahuje jen grafická "
 "tlačítka, ale ve složitějších aplikacích se hodí i jiné typy ovládacích "
 "prvků, jako třeba rozbalovací seznamy."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/toolbars.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/ui-elements/toolbar.svg' "
+"md5='381167837829a44d064aedec78b58b95'"
+msgstr ""
+"external ref='figures/ui-elements/toolbar.svg' "
+"md5='381167837829a44d064aedec78b58b95'"
 
 #. (itstool) path: section/p
 #: C/toolbars.page:39
@@ -11249,7 +11235,17 @@ msgstr ""
 "do detailů. Je vhodné, abyste se před čtení této kapitoly podrobně seznámili "
 "s <link xref=\"patterns\">návrhovými vzory</link>."
 
-#. (itstool) path: media
+#. (itstool) path: info/desc
+#: C/view-switchers.page:7
+msgid "Toggle buttons that change the view, like tabs"
+msgstr "Přepínací tlačítka, která mění zobrazení, podobně jako karty"
+
+#. (itstool) path: page/title
+#: C/view-switchers.page:15
+msgid "View switchers"
+msgstr "Přepínače zobrazení"
+
+#. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
@@ -11262,16 +11258,6 @@ msgid ""
 msgstr ""
 "external ref='figures/patterns/view-switcher.svg' "
 "md5='9cbb7e513e48f505ce15d67a9d44e833'"
-
-#. (itstool) path: info/desc
-#: C/view-switchers.page:7
-msgid "Toggle buttons that change the view, like tabs"
-msgstr "Přepínací tlačítka, která mění zobrazení, podobně jako karty"
-
-#. (itstool) path: page/title
-#: C/view-switchers.page:15
-msgid "View switchers"
-msgstr "Přepínače zobrazení"
 
 #. (itstool) path: page/p
 #: C/view-switchers.page:19
@@ -11356,62 +11342,6 @@ msgid ""
 msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSwitcher.html"
 "\">GtkStackSwitcher</link>"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:51
-msgctxt "_"
-msgid ""
-"external ref='figures/visual-alignment-incorrect.svg' "
-"md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
-msgstr ""
-"external ref='figures/visual-alignment-incorrect.svg' "
-"md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:54
-msgctxt "_"
-msgid ""
-"external ref='figures/visual-alignment-correct.svg' "
-"md5='c918add24fa74f4eda5cde1c0ec61163'"
-msgstr ""
-"external ref='figures/visual-alignment-correct.svg' "
-"md5='c918add24fa74f4eda5cde1c0ec61163'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:57
-msgctxt "_"
-msgid ""
-"external ref='figures/visual-alignment-spacing.svg' "
-"md5='66643d65d5c1359f986331ee691410d6'"
-msgstr ""
-"external ref='figures/visual-alignment-spacing.svg' "
-"md5='66643d65d5c1359f986331ee691410d6'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:66
-msgctxt "_"
-msgid ""
-"external ref='figures/label-alignment.svg' "
-"md5='a55236576c454a29127913bf6fc6335e'"
-msgstr ""
-"external ref='figures/label-alignment.svg' "
-"md5='a55236576c454a29127913bf6fc6335e'"
 
 #. (itstool) path: info/desc
 #: C/visual-layout.page:23
@@ -11540,15 +11470,57 @@ msgstr ""
 msgid "Incorrect spacing and alignment:"
 msgstr "Nesprávné rozestupy a zarovnání:"
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/visual-layout.page:51
+msgctxt "_"
+msgid ""
+"external ref='figures/visual-alignment-incorrect.svg' "
+"md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
+msgstr ""
+"external ref='figures/visual-alignment-incorrect.svg' "
+"md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
+
 #. (itstool) path: section/p
 #: C/visual-layout.page:53
 msgid "Correct spacing and alignment:"
 msgstr "Správné rozestupy a zarovnání:"
 
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/visual-layout.page:54
+msgctxt "_"
+msgid ""
+"external ref='figures/visual-alignment-correct.svg' "
+"md5='c918add24fa74f4eda5cde1c0ec61163'"
+msgstr ""
+"external ref='figures/visual-alignment-correct.svg' "
+"md5='c918add24fa74f4eda5cde1c0ec61163'"
+
 #. (itstool) path: section/p
 #: C/visual-layout.page:56
 msgid "Correct spacing, with units (pixels):"
 msgstr "Správné rozestupy s hodnotami (v pixelech):"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/visual-layout.page:57
+msgctxt "_"
+msgid ""
+"external ref='figures/visual-alignment-spacing.svg' "
+"md5='66643d65d5c1359f986331ee691410d6'"
+msgstr ""
+"external ref='figures/visual-alignment-spacing.svg' "
+"md5='66643d65d5c1359f986331ee691410d6'"
 
 #. (itstool) path: section/title
 #: C/visual-layout.page:62
@@ -11568,6 +11540,20 @@ msgstr ""
 "prvkům. Tento typ zarovnání není ale možný, když máte ovládací prvky s "
 "navzájem hodně odlišnými rozměry: zde místo toho musíte použít zarovnání "
 "doleva."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/visual-layout.page:66
+msgctxt "_"
+msgid ""
+"external ref='figures/label-alignment.svg' "
+"md5='a55236576c454a29127913bf6fc6335e'"
+msgstr ""
+"external ref='figures/label-alignment.svg' "
+"md5='a55236576c454a29127913bf6fc6335e'"
 
 #. (itstool) path: section/title
 #: C/visual-layout.page:71
@@ -11867,3 +11853,10 @@ msgstr ""
 "<gui>Předvolby</gui>. I když tyto příkazy otevřou okna, která obsahují další "
 "funkčnost, popisek neoznačuje konkrétní činnost a proto není potřeba "
 "komunikovat ohledně nějaké vstupu nebo potvrzení."
+
+#~ msgid ""
+#~ "Your application should cease to run when all its primary windows have "
+#~ "been closed."
+#~ msgstr ""
+#~ "Vaše aplikace by měla přestat běžet, když byla všechna její hlavní okna "
+#~ "zavřena."
