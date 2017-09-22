@@ -188,8 +188,8 @@ msgid ""
 "use. This section contains guides and tutorials for optimizing your software."
 msgstr ""
 "Software je možné optimalizovat z řady důvodů: na rychlost, na velikost "
-"programu nebo využití paměti. Tento oddíl obsahuje příručku a průvodce pro "
-"optimalizaci vašeho softwaru."
+"programu nebo využití paměti. Zde najdete příručku a průvodce, kteří vám "
+"s tím pomohou u vašeho softwaru."
 
 #. (itstool) path: page/title
 #: C/index.page:35
