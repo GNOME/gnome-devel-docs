@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2017-08-01 11:35+0000\n"
-"PO-Revision-Date: 2017-08-31 21:45+0200\n"
+"POT-Creation-Date: 2017-09-16 18:33+0000\n"
+"PO-Revision-Date: 2017-10-01 13:52+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -313,7 +313,7 @@ msgstr ""
 #: C/dev-help.page:26
 msgid "Application and context sensitive user help and documentation."
 msgstr ""
-"Auf Anwendungen zugeschnittenes, Kontext-sensitives Benutzerhandbuch und Dokumentation"
+"Auf Anwendungen zugeschnittenes, Kontext-sensitives Benutzerhandbuch und Dokumentation."
 
 #. (itstool) path: page/title
 #: C/dev-help.page:30
@@ -515,7 +515,7 @@ msgstr "2014"
 #. (itstool) path: page/title
 #: C/dev-launching-desktop.page:20
 msgid "Install a desktop file"
-msgstr "Installation einer Desktop-Datei "
+msgstr "Installation einer Desktop-Datei"
 
 #. (itstool) path: links/title
 #: C/dev-launching-desktop.page:23 C/dev-launching-icons.page:23
@@ -1999,7 +1999,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/overview-settings.page:17
 msgid "Flexible user configuration system."
-msgstr "Flexibles System zur Benutzerkonfiguration"
+msgstr "Flexibles System zur Benutzerkonfiguration."
 
 #. (itstool) path: page/title
 #: C/overview-settings.page:20
@@ -4727,7 +4727,7 @@ msgstr ""
 #: C/tour-application.page:45
 msgctxt "_"
 msgid "external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
-msgstr "original"
+msgstr "original'"
 
 #. (itstool) path: media/p
 #: C/tour-application.page:46
@@ -4989,20 +4989,20 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tour-glade.page:36
 msgid ""
-"When creating a UI file using Glade, the <gui>Name</gui> that you specify in Glade is "
-"the ID that you will later need to use to get the object from the UI file."
+"When creating a UI file using Glade, the <gui>ID</gui> that you specify in Glade is the "
+"ID that you will later need to use to get the object from the UI file."
 msgstr ""
-"Wenn Sie eine UI mit Glade erstellen, ist der angegebene <gui>Name</gui> die ID, die Sie "
-"später benötigen, um das Objekt aus der UI-Datei zu beziehen."
+"Wenn Sie eine UI-Datei mit Glade erstellen, ist die angegebene <gui>ID</gui> die "
+"Kennung, die Sie später benötigen, um das Objekt aus der UI-Datei zu beziehen."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:41
 msgid ""
-"Create a new window, then set <gui>Name</gui> to <code>window1</code> and <gui>Window</"
-"gui> to <code>Hello World</code>:"
+"Create a new window, then set <gui>ID</gui> to <code>window1</code> and <gui>Title</gui> "
+"to <code>Hello World</code>:"
 msgstr ""
-"Erstellen Sie ein neues Fenster und setzen Sie <gui>Name</gui> auf <code>window1</code> "
-"und <gui>Window</gui> auf <code>Hello World</code>:"
+"Erstellen Sie ein neues Fenster und setzen Sie <gui>ID</gui> auf <code>window1</code> "
+"und <gui>Titel</gui> auf <code>Hello World</code>:"
 
 #. (itstool) path: example/media
 #. This is a reference to an external file such as an image or video. When
@@ -5011,8 +5011,8 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/tour-glade.page:43
 msgctxt "_"
-msgid "external ref='media/glade-set-values.png' md5='61c369d5fdd6353694f9fa9e852e207c'"
-msgstr "original"
+msgid "external ref='media/glade-set-values.png' md5='80a2ec72e68dd6efa2ed50ae53675c47'"
+msgstr "original'"
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
