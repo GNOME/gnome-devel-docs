@@ -35,7 +35,6 @@ HELP_FILES = \
 	tech-clutter.page \
 	tech-d-bus.page \
 	tech-eds.page \
-	tech-enchant.page \
 	tech-folks.page \
 	tech-gda.page \
 	tech-gdk.page \
@@ -60,6 +59,7 @@ HELP_FILES = \
 	tech-pulseaudio.page \
 	tech-secret.page \
 	tech-soup.page \
+	tech-spell-checking.page \
 	tech-telepathy.page \
 	tech-tracker.page \
 	tech-webkit.page \
