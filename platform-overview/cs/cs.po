@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: user-guide\n"
-"POT-Creation-Date: 2017-09-16 18:33+0000\n"
-"PO-Revision-Date: 2017-09-17 08:12+0200\n"
+"POT-Creation-Date: 2017-11-23 20:23+0000\n"
+"PO-Revision-Date: 2017-11-24 08:20+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,17 +58,17 @@ msgstr "Radina Matic"
 #: C/dev-translate-tools.page:12 C/overview-io.page:17 C/overview-media.page:12
 #: C/overview-net.page:12 C/overview-settings.page:12 C/overview-ui.page:12
 #: C/tech-avahi.page:12 C/tech-canberra.page:13 C/tech-champlain.page:12
-#: C/tech-enchant.page:12 C/tech-folks.page:12 C/tech-gda.page:13
-#: C/tech-geoclue2.page:12 C/tech-geocode-glib.page:12
-#: C/tech-gio-network.page:13 C/tech-gio.page:18 C/tech-glib.page:12
-#: C/tech-gobject.page:11 C/tech-gsettings.page:13
+#: C/tech-folks.page:12 C/tech-gda.page:13 C/tech-geoclue2.page:12
+#: C/tech-geocode-glib.page:12 C/tech-gio-network.page:13 C/tech-gio.page:18
+#: C/tech-glib.page:12 C/tech-gobject.page:11 C/tech-gsettings.page:13
 #: C/tech-network-manager.page:12 C/tech-notify.page:18 C/tech-polkit.page:12
-#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-telepathy.page:18
-#: C/tech-tracker.page:12 C/tech-webkit.page:18 C/tour-application.page:13
-#: C/tour-application.page:18 C/tour-events.page:13 C/tour-events.page:18
-#: C/tour-get_object.page:13 C/tour-get_object.page:18 C/tour-gjs.page:13
-#: C/tour-gjs.page:18 C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14
-#: C/tour.page:19 C/tour-summary.page:12 C/tour-summary.page:17
+#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-spell-checking.page:12
+#: C/tech-telepathy.page:18 C/tech-tracker.page:12 C/tech-webkit.page:18
+#: C/tour-application.page:13 C/tour-application.page:18 C/tour-events.page:13
+#: C/tour-events.page:18 C/tour-get_object.page:13 C/tour-get_object.page:18
+#: C/tour-gjs.page:13 C/tour-gjs.page:18 C/tour-glade.page:13
+#: C/tour-glade.page:18 C/tour.page:14 C/tour.page:19 C/tour-summary.page:12
+#: C/tour-summary.page:17
 msgid "2013"
 msgstr "2013"
 
@@ -2512,13 +2512,12 @@ msgstr ""
 
 #. (itstool) path: credit/name
 #: C/tech-avahi.page:10 C/tech-canberra.page:11 C/tech-champlain.page:10
-#: C/tech-enchant.page:10 C/tech-folks.page:10 C/tech-gda.page:11
-#: C/tech-geoclue2.page:10 C/tech-geocode-glib.page:10
-#: C/tech-gio-network.page:11 C/tech-gio.page:16 C/tech-glib.page:10
-#: C/tech-gobject.page:9 C/tech-gsettings.page:11
+#: C/tech-folks.page:10 C/tech-gda.page:11 C/tech-geoclue2.page:10
+#: C/tech-geocode-glib.page:10 C/tech-gio-network.page:11 C/tech-gio.page:16
+#: C/tech-glib.page:10 C/tech-gobject.page:9 C/tech-gsettings.page:11
 #: C/tech-network-manager.page:10 C/tech-notify.page:16 C/tech-polkit.page:10
-#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-telepathy.page:16
-#: C/tech-tracker.page:10 C/tech-webkit.page:16
+#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-spell-checking.page:10
+#: C/tech-telepathy.page:16 C/tech-tracker.page:10 C/tech-webkit.page:16
 msgid "Federico Mena Quintero"
 msgstr "Federico Mena Quintero"
 
@@ -3054,49 +3053,6 @@ msgid ""
 msgstr ""
 "<link href=\"http://developer.gnome.org/libecal/stable/\">Referenční "
 "příručka API Evolution: knihovna libecal</link>"
-
-#. (itstool) path: info/desc
-#: C/tech-enchant.page:17
-msgid "Real-time spell checking for text widgets"
-msgstr "Kontrola pravopisu v reálném čase pro textové widgety"
-
-#. (itstool) path: page/title
-#: C/tech-enchant.page:20
-msgid "Enchant"
-msgstr "Enchant"
-
-#. (itstool) path: page/p
-#: C/tech-enchant.page:22
-msgid ""
-"Enchant provides an API to do spell-checking related tasks. You can ask it "
-"if a word is misspelled, or ask for suggestions for a misspelled word. On a "
-"higher level, a library such as GtkSpell lets you add \"underline squiggles"
-"\" for misspelled words to text widgets."
-msgstr ""
-"Enchant poskytuje API k úkolům týkajícím se kontroly pravopisu. Můžete se "
-"dostazovat, jestli je slovo napsáno správně nebo se dotázat na doporučené "
-"náhrady chybně napsaného slova. Na vyšší úrovni vám knihovna, jako je "
-"GtkSpell, přidá podtrhávání chybných slov vlnovkou v textových widgetech."
-
-#. (itstool) path: page/p
-#: C/tech-enchant.page:29
-msgid ""
-"In GNOME, Enchant gets used in text-heavy applications like Empathy (an "
-"instant messaging client) and Epiphany (a web browser, for text entry in web "
-"forms)."
-msgstr ""
-"V GNOME se Enchant používá v aplikacích ve velké míře pracujících s textem, "
-"jako jsou <app>Empathy</app> (klient rychlé komunikace) a <app>Epiphany</"
-"app> (webový prohlížeč; pro textová pole ve webových formulářích)."
-
-#. (itstool) path: item/p
-#: C/tech-enchant.page:36
-msgid ""
-"<link href=\"http://www.abisource.com/projects/enchant/\">Enchant home page</"
-"link>"
-msgstr ""
-"<link href=\"http://www.abisource.com/projects/enchant/\">Domovská stránka "
-"Enchant</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-folks.page:17
@@ -4709,6 +4665,75 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/libsoup/stable/\">Referenční "
 "příručka knihovny Soup</link>"
 
+#. (itstool) path: credit/name
+#: C/tech-spell-checking.page:15
+msgid "Sébastien Wilmet"
+msgstr "Sébastien Wilmet"
+
+#. (itstool) path: credit/years
+#: C/tech-spell-checking.page:17
+msgid "2017"
+msgstr "2017"
+
+#. (itstool) path: info/desc
+#: C/tech-spell-checking.page:22
+msgid "Spell-checking for text widgets"
+msgstr "Kontrola pravopisu pro textové widgety"
+
+#. (itstool) path: page/title
+#: C/tech-spell-checking.page:25
+msgid "Spell-checking"
+msgstr "Kontrola pravopisu"
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:27
+msgid ""
+"Several libraries are available to do spell-checking related tasks: Enchant "
+"and gspell."
+msgstr ""
+"Na úkoly kontroly pravopisu jsou k dispozici dvě knihovny: Enchant a gspell."
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:32
+msgid ""
+"Enchant provides a low-level API. You can ask it if a word is misspelled, or "
+"ask for suggestions for a misspelled word. On a higher level, gspell "
+"integrates spell-checking for GTK+ text widgets (both <code>GtkEntry</code> "
+"and <code>GtkTextView</code>)."
+msgstr ""
+"Enchant poskytuje nízkoúrovňové API. Můžete se dostazovat, jestli je slovo "
+"napsáno správně nebo se dotázat na doporučené náhrady chybně napsaného "
+"slova. Na vyšší úrovni integruje integruje kontrolu pravopisu pro textové "
+"widgety GTK+ (jak pro <code>GtkEntry</code>, tak <code>GtkTextView</code>) "
+"knihovna gspell."
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:39
+msgid ""
+"In GNOME, those libraries get used in text-heavy applications like gedit (a "
+"text editor) and Epiphany (a web browser, for text entry in web forms)."
+msgstr ""
+"V GNOME se tyto knihovny používají v aplikacích pracujících se vstupním "
+"textem, jako jsou gedit (textový editor nebo Epiphany (webový prohlížeč, pro "
+"textová pole ve webových formulářích)."
+
+#. (itstool) path: item/p
+#: C/tech-spell-checking.page:45
+msgid ""
+"<link href=\"https://www.abisource.com/projects/enchant/\">Enchant home "
+"page</link>"
+msgstr ""
+"<link href=\"https://www.abisource.com/projects/enchant/\">Domovská stránka "
+"knihovny Enchant</link>"
+
+#. (itstool) path: item/p
+#: C/tech-spell-checking.page:46
+msgid ""
+"<link href=\"https://wiki.gnome.org/Projects/gspell\">gspell home page</link>"
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/gspell\">Domovská stránka "
+"knihovny gspell</link>"
+
 #. (itstool) path: info/desc
 #: C/tech-telepathy.page:23
 msgid "Unified instant-messaging and communications service"
@@ -5390,3 +5415,6 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
+#~ msgid "Enchant"
+#~ msgstr "Enchant"
