@@ -1,38 +1,36 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const RadioButtonExample = new Lang.Class({
-    Name: 'RadioButton Example',
+class RadioButtonExample {
 
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application({
             application_id: 'org.example.jsradiobutton',
             flags: Gio.ApplicationFlags.FLAGS_NONE
         });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents window when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
-        this._buildUI ();
-    },
-
-
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -68,7 +66,7 @@ const RadioButtonExample = new Lang.Class({
             halign: Gtk.Align.END });
 
         // Connect the button to the function which handles clicking it
-        this._okButton.connect ('clicked', Lang.bind (this, this._okClicked));
+        this._okButton.connect ('clicked', this._okClicked.bind(this));
 
         // Create a grid to put the "place" items in
         this._places = new Gtk.Grid ();
@@ -105,11 +103,9 @@ const RadioButtonExample = new Lang.Class({
 
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 
-
-
-    _okClicked: function () {
+    _okClicked() {
 
         // Create a popup that shows a silly message
         this._travel = new Gtk.MessageDialog ({
@@ -123,13 +119,11 @@ const RadioButtonExample = new Lang.Class({
         this._travel.show();
 
         // Bind the OK button to the function that closes the popup
-        this._travel.connect ("response", Lang.bind (this, this._clearTravelPopUp));
+        this._travel.connect ("response", this._clearTravelPopUp.bind(this));
 
-    },
+    }
 
-
-
-    _messageText: function() {
+    _messageText() {
 
         // Create a silly message for the popup depending on what you selected
         var stringMessage = "";
@@ -170,18 +164,12 @@ const RadioButtonExample = new Lang.Class({
 
         return stringMessage;
 
-    },
-
-
-
-
-    _clearTravelPopUp: function () {
-
-        this._travel.destroy();
-
     }
 
-});
+    _clearTravelPopUp() {
+        this._travel.destroy();
+    }
+};
 
 // Run the application
 let app = new RadioButtonExample ();

@@ -1,37 +1,34 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
 // We start out with 0 cookies
 var cookies = 0;
 
-const GettingTheSignal = new Lang.Class({
-    Name: 'Getting the Signal',
+class GettingTheSignal {
 
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application();
 
         // Connect 'activate' and 'startup' signals to the callback functions
-        this.application.connect('activate', Lang.bind(this, this._onActivate));
-        this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents window when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
-        this._buildUI ();
-    },
-
-
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -63,7 +60,7 @@ const GettingTheSignal = new Lang.Class({
             label: "Get a cookie" });
 
         // Connect the cookie button to the function that handles clicking it
-        this._cookieButton.connect ('clicked', Lang.bind (this, this._getACookie));
+        this._cookieButton.connect ('clicked', this._getACookie.bind(this));
 
         // Create the label
         this._cookieLabel = new Gtk.Label ({
@@ -86,11 +83,9 @@ const GettingTheSignal = new Lang.Class({
         // Show the window and all child widgets
         this._window.show_all();
 
-    },
+    }
 
-
-
-    _getACookie: function() {
+    _getACookie() {
 
         // Did you select "cookie" instead of "not cookie"?
         if (this._cookieRadio.get_active()) {
@@ -103,7 +98,7 @@ const GettingTheSignal = new Lang.Class({
 
     }
 
-});
+};
 
 // Run the application
 let app = new GettingTheSignal ();

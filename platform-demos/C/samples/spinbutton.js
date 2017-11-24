@@ -1,37 +1,35 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const SpinButtonExample = new Lang.Class({
-    Name: 'SpinButton Example',
+class SpinButtonExample {
 
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application({
             application_id: 'org.example.jsspinbutton'
         });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents window when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
-        this._buildUI ();
-    },
-
-
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -42,7 +40,7 @@ const SpinButtonExample = new Lang.Class({
 
         // Create the first spinbutton using a function
         this._kittens = Gtk.SpinButton.new_with_range (1, 9001, 1);
-        this._kittens.connect ("value-changed", Lang.bind (this, this._newValue));
+        this._kittens.connect ("value-changed", this._newValue.bind(this));
 
         // Create an adjustment to use for the second spinbutton
         this._adjustment = new Gtk.Adjustment ({
@@ -54,7 +52,7 @@ const SpinButtonExample = new Lang.Class({
 
         // Create the second spinbutton
         this._tuna = new Gtk.SpinButton ({ adjustment: this._adjustment });
-        this._tuna.connect ("value-changed", Lang.bind (this, this._newValue));
+        this._tuna.connect ("value-changed", this._newValue.bind(this));
 
         // this._tuna.set_digits (1);
         // this._tuna.set_wrap (true);
@@ -94,19 +92,14 @@ const SpinButtonExample = new Lang.Class({
 
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 
-
-
-    _newValue: function () {
-
+    _newValue() {
         // Update the label which shows how many cans there are per kitten
         this.perKitten = Math.floor((this._tuna.get_value() / this._kittens.get_value()))
         this._lastLabel.set_label ("That's " + this.perKitten + " can(s) of tuna per kitten.");
-
     }
-
-});
+};
 
 // Run the application
 let app = new SpinButtonExample ();

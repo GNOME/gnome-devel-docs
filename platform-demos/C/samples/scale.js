@@ -1,37 +1,35 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const ScaleExample = new Lang.Class({
-    Name: 'Scale Example',
+class ScaleExample {
 
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application({
             application_id: 'org.example.jsscale'
         });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents window when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
-        this._buildUI ();
-    },
-
-
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -72,8 +70,8 @@ const ScaleExample = new Lang.Class({
             wrap: true});
 
         // Connect the two scales to functions which recalculate the label
-        this._hScale.connect ("value-changed", Lang.bind (this, this._recalc));
-        this._vScale.connect ("value-changed", Lang.bind (this, this._recalc));
+        this._hScale.connect ("value-changed", this._recalc.bind(this));
+        this._vScale.connect ("value-changed", this._recalc.bind(this));
 
         // Create a grid to arrange things in
         this._UIGrid = new Gtk.Grid ({
@@ -92,11 +90,9 @@ const ScaleExample = new Lang.Class({
 
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 
-
-
-    _recalc: function() {
+    _recalc() {
 
         // Figure out what the product of the two scales' values is
         var product = (this._hScale.get_value() * this._vScale.get_value());
@@ -118,10 +114,8 @@ const ScaleExample = new Lang.Class({
 
         // Set ._label's new text
         this._label.set_label (String (product) + " penguins on the iceberg. " + comment);
-
     }
-
-});
+};
 
 // Run the application
 let app = new ScaleExample ();

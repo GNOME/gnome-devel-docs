@@ -1,25 +1,27 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const Application = new Lang.Class ({
-    Name: 'Application',
+class Application {
 
     //create the application
-    _init: function() {
-        this.application = new Gtk.Application ({ application_id: 'org.example.myapp',
-                                                  flags: Gio.ApplicationFlags.FLAGS_NONE });
+    constructor() {
+        this.application = new Gtk.Application({
+            application_id: 'org.example.myapp',
+            flags: Gio.ApplicationFlags.FLAGS_NONE
+        });
 
-       //connect to 'activate' and 'startup' signals to the callback functions
-       this.application.connect('activate', Lang.bind(this, this._onActivate));
-       this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        //connect to 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     //create the UI (in this case it's just the ApplicationWindow)
-    _buildUI: function() {
+    _buildUI() {
         this._window = new Gtk.ApplicationWindow({ application: this.application,
                                                    window_position: Gtk.WindowPosition.CENTER,
                                                    title: "MenuButton Example" });
@@ -30,7 +32,7 @@ const Application = new Lang.Class ({
 
         this._menuButton = new Gtk.MenuButton();
         this.grid.attach(this._menuButton, 0, 0, 1, 1 );
-        this.menu = new Gtk.Menu.new_from_model(this.menuModel);
+        this.menu = Gtk.Menu.new_from_model(this.menuModel);
 
         this.menu.show();
         this._menuButton.set_menu_model (this.menuModel);
@@ -38,37 +40,28 @@ const Application = new Lang.Class ({
         this._menuButton.show();
 
         this._window.show_all();
-    },
+    }
 
-    _showNew: function() {
-    print("You clicked \"New\"");
-    },
+    _showNew() {
+        print("You clicked \"New\"");
+    }
 
-    _showAbout: function() {
+    _showAbout() {
         print("You clicked \"About\"");
-    },
+    }
 
     //create the menu items and connect the signals to the callback functions.
-    _initMenus: function() {
+    _initMenus() {
         let newAction = new Gio.SimpleAction({ name: 'new' });
-        newAction.connect('activate', Lang.bind(this,
-            function() {
-                this._showNew();
-            }));
+        newAction.connect('activate', () => { this._showNew(); });
         this.application.add_action(newAction);
 
         let aboutAction = new Gio.SimpleAction({ name: 'about' });
-        aboutAction.connect('activate', Lang.bind(this,
-            function() {
-                this._showAbout();
-            }));
+        aboutAction.connect('activate', () => { this._showAbout(); });
         this.application.add_action(aboutAction);
 
         let quitAction = new Gio.SimpleAction({ name: 'quit' });
-        quitAction.connect('activate', Lang.bind(this,
-            function() {
-                this._window.destroy();
-            }));
+        quitAction.connect('activate', () => { this._window.destroy(); });
          this.application.add_action(quitAction);
 
         this.menuModel = new Gio.Menu();
@@ -86,20 +79,20 @@ const Application = new Lang.Class ({
         this.menuItemQuit = Gio.MenuItem.new("Quit", 'app.quit');
         this.subMenu.append_item(this.menuItemQuit);
         this.menuModel.append_item(this.fileMenuItem);
-    },
+    }
 
     //callback function for 'activate' signal
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     //callback function for 'startup' signal
-    _onStartup: function() {
+    _onStartup() {
         //You must call _initMenus() before calling _buildUI().
         this._initMenus();
         this._buildUI();
     }
-});
+};
 
 //run the application
 let app = new Application();

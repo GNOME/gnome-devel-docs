@@ -1,38 +1,36 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const SwitchExample = new Lang.Class({
-    Name: 'Switch Example',
+class SwitchExample {
 
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application({
             application_id: 'org.example.jsswitch'
         });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents window when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal creates the menu and builds the UI
-    _onStartup: function() {
+    _onStartup() {
         this._initMenus();
-        this._buildUI ();
-    },
-
-
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -51,7 +49,7 @@ const SwitchExample = new Lang.Class({
 
         // Create the first switch and set its default position
         this._flySwitch = new Gtk.Switch ({active: false});
-        this._flySwitch.connect ('notify::active', Lang.bind (this, this._switchFlip));
+        this._flySwitch.connect ('notify::active', this._switchFlip.bind(this));
 
         // Create a label for the second switch
         this._birdLabel = new Gtk.Label ({
@@ -60,7 +58,7 @@ const SwitchExample = new Lang.Class({
 
         // Create the second switch
         this._birdSwitch = new Gtk.Switch ({active: false});
-        this._birdSwitch.connect ('notify::active', Lang.bind (this, this._switchFlip));
+        this._birdSwitch.connect ('notify::active', this._switchFlip.bind(this));
 
         // Create a grid for the labels and switches beneath the picture
         this._UIGrid = new Gtk.Grid ({
@@ -88,33 +86,27 @@ const SwitchExample = new Lang.Class({
 
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 
-
-
-    _switchFlip: function() {
+    _switchFlip() {
 
         // Change the picture depending on which switches are flipped
         if (this._flySwitch.get_active()) {
 
-            if (this._birdSwitch.get_active()) this._image.set_from_file ("muteswan.png");
+            if (this._birdSwitch.get_active())
+                this._image.set_from_file ("muteswan.png");
+            else
+                this._image.set_from_file ("fruitbat.png");
+        } else {
 
-            else this._image.set_from_file ("fruitbat.png");
+            if (this._birdSwitch.get_active())
+                this._image.set_from_file ("gentoopenguin.png");
+            else
+                this._image.set_from_file ("redfox.png");
         }
+    }
 
-        else {
-
-            if (this._birdSwitch.get_active()) this._image.set_from_file ("gentoopenguin.png");
-
-            else this._image.set_from_file ("redfox.png");
-
-        }
-
-    },
-
-
-
-    _initMenus: function() {
+    _initMenus() {
 
         // Build the application's menu so we can have an "About" button
         let menu = new Gio.Menu();
@@ -124,24 +116,16 @@ const SwitchExample = new Lang.Class({
 
         // Bind the "About" button to the _showAbout() function
         let aboutAction = new Gio.SimpleAction ({ name: 'about' });
-        aboutAction.connect('activate', Lang.bind(this,
-            function() {
-                this._showAbout();
-            }));
+        aboutAction.connect('activate', () => { this._showAbout(); });
         this.application.add_action(aboutAction);
 
         // Bind the "Quit" button to the function that closes the window
         let quitAction = new Gio.SimpleAction ({ name: 'quit' });
-        quitAction.connect('activate', Lang.bind(this,
-            function() {
-                this._window.destroy();
-            }));
+        quitAction.connect('activate', () => { this._window.destroy(); });
         this.application.add_action(quitAction);
-    },
+    }
 
-
-
-    _showAbout: function () {
+    _showAbout() {
 
         // String arrays of the names of the people involved in the project
         var artists = ['Rob Lee http://en.wikipedia.org/wiki/File:Fuzzy_Freddy.png', 'Ken Funakoshi http://en.wikipedia.org/wiki/File:Pygoscelis_papua_-Nagasaki_Penguin_Aquarium_-swimming_underwater-8a.png', 'Shek Graham http://www.flickr.com/photos/shekgraham/127431519/in/photostream/', 'Mindaugas Urbonas http://commons.wikimedia.org/wiki/File:Mute_Swan-Mindaugas_Urbonas.png'];
@@ -171,8 +155,7 @@ const SwitchExample = new Lang.Class({
             aboutDialog.destroy();
         });
     }
-
-});
+};
 
 // Run the application
 let app = new SwitchExample ();

@@ -43,40 +43,38 @@
     <code mime="application/javascript"><![CDATA[
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 ]]></code>
-    <p>This part always goes at the start of your code. Depending on what you'll be doing with it, you may want to declare more imports here. What we're writing today is pretty basic, so these are all we need; Gtk for the widgets, and Lang so we can use Lang.bind to connect our application's activate and startup signals to the requisite functions.</p>
+    <p>This part always goes at the start of your code. Depending on what you'll be doing with it, you may want to declare more imports here. What we're writing today is pretty basic, so these are all we need; Gtk for the widgets, using the stable '3.0' API.</p>
     <p>Speaking of which:</p>
     <code mime="application/javascript"><![CDATA[
-const WelcomeToTheGrid = new Lang.Class({
-    Name: 'Welcome to the Grid',
-
+class WelcomeToTheGrid {
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application();
 
         // Connect 'activate' and 'startup' signals to the callback functions
-        this.application.connect('activate', Lang.bind(this, this._onActivate));
-        this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
+    _onStartup() {
         this._buildUI ();
-    },
+    }
 ]]></code>
     <p>This is the start of the application itself, and the _init function which creates it. It tells _buildUI to create an ApplicationWindow, which we're going to call _window, and it tells our window to present itself whenever needed.</p>
     <p>This part, again, is pretty much copy-and-paste, but you always want to give your application a unique name.</p>
 
     <code mime="application/javascript"><![CDATA[
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -137,7 +135,7 @@ const WelcomeToTheGrid = new Lang.Class({
         this._window.show_all();
     }
 
-});
+};
 
 // Run the application
 let app = new WelcomeToTheGrid ();

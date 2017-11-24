@@ -1,38 +1,38 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const AboutDialogExample = new Lang.Class({
-    Name: 'AboutDialog Example',
+class AboutDialogExample {
 
     // Create the application itself
-        _init: function() {
-            this.application = new Gtk.Application({
-                application_id: 'org.example.jsaboutdialog',
-                flags: Gio.ApplicationFlags.FLAGS_NONE
-            });
+    constructor() {
+        this.application = new Gtk.Application({
+            application_id: 'org.example.jsaboutdialog',
+            flags: Gio.ApplicationFlags.FLAGS_NONE
+        });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal creates the menu and builds the UI
-    _onStartup: function() {
+    _onStartup() {
         this._initMenus();
         this._buildUI();
-    },
+    }
 
     // Build the application's UI
-    _buildUI: function(){
+    _buildUI() {
         // Create the application window
         this._window = new Gtk.ApplicationWindow({ application: this.application,
                                                    window_position: Gtk.WindowPosition.CENTER,
@@ -42,10 +42,10 @@ const AboutDialogExample = new Lang.Class({
 
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 
     // Create the application menu
-    _initMenus: function() {
+    _initMenus() {
         let menu = new Gio.Menu();
         menu.append("About", 'app.about');
         menu.append("Quit",'app.quit');
@@ -53,22 +53,16 @@ const AboutDialogExample = new Lang.Class({
 
         // Create the "About" menu option and have it call the _showAbout() function
         let aboutAction = new Gio.SimpleAction({ name: 'about' });
-        aboutAction.connect('activate', Lang.bind(this,
-            function() {
-                this._showAbout();
-            }));
+        aboutAction.connect('activate', () => { this._showAbout(); });
         this.application.add_action(aboutAction);
 
         // Create the "Quit" menu option and have it close the window
         let quitAction = new Gio.SimpleAction ({ name: 'quit' });
-        quitAction.connect('activate', Lang.bind(this,
-            function() {
-                this._window.destroy();
-            }));
+        quitAction.connect('activate', () => { this._window.destroy(); });
         this.application.add_action(quitAction);
-    },
+    }
 
-    _showAbout: function() {
+    _showAbout() {
 
         // String arrays of the names of the people involved in the project
         var authors = ["GNOME Documentation Team"];
@@ -95,7 +89,7 @@ const AboutDialogExample = new Lang.Class({
             aboutDialog.destroy();
         });
     }
-});
+};
 
 // Run the application
 let app = new AboutDialogExample();

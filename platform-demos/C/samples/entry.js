@@ -1,39 +1,37 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const EntryExample = new Lang.Class({
-    Name: 'Entry Example',
+class EntryExample {
 
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application({
             application_id: 'org.example.jsentry',
             flags: Gio.ApplicationFlags.FLAGS_NONE
         });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
-        this._buildUI ();
-    },
-
-
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -49,15 +47,13 @@ const EntryExample = new Lang.Class({
         this._window.add(this.entry);
 
         // Connect the text entry box to a function that responds to what you type in
-        this.entry.connect("activate", Lang.bind (this, this._hello));
+        this.entry.connect("activate", this._hello.bind(this));
 
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 
-
-
-    _hello: function() {
+    _hello() {
 
         // Create a popup dialog to greet the person who types in their name
         this._greeter = new Gtk.MessageDialog ({
@@ -72,14 +68,14 @@ const EntryExample = new Lang.Class({
         this._greeter.show();
 
         // Bind the OK button to the function that closes the popup
-        this._greeter.connect ("response", Lang.bind(this, this._okClicked));
-    },
+        this._greeter.connect ("response", this._okClicked.bind(this));
+    }
 
-    _okClicked: function () {
+    _okClicked() {
         this._greeter.destroy();
     }
 
-});
+};
 
 // Run the application
 let app = new EntryExample ();

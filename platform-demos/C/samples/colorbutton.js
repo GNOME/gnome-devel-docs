@@ -1,34 +1,35 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gdk = '3.0';
+imports.gi.versions.Gtk = '3.0';
+
 const Gdk = imports.gi.Gdk;
 const GObject = imports.gi.GObject;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const ColorbuttonExample = new Lang.Class ({
-    Name: 'Colorbutton Example',
+class ColorbuttonExample {
 
     // Create the application itself
-    _init: function () {
+    constructor() {
         this.application = new Gtk.Application ({ application_id: 'org.example.jscolorbutton' });
 
         // Connect 'activate' and 'startup' signals to the callback functions
-        this.application.connect('activate', Lang.bind(this, this._onActivate));
-        this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function() {
+    _onActivate() {
         this.window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function () {
-        this._buildUI ();
-    },
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function () {
+    _buildUI() {
 
         // Create the application window
         this.window = new Gtk.ApplicationWindow ({ application: this.application,
@@ -45,7 +46,7 @@ const ColorbuttonExample = new Lang.Class ({
         this.color.blue = 1.0;
         this.color.alpha = 0.5;
         this.button.set_rgba(this.color);
-        this.button.connect("color-set", Lang.bind(this, this.onColorChosen));
+        this.button.connect("color-set", this.onColorChosen.bind(this));
         this.label = new Gtk.Label();
         this.label.set_text("Click to choose a color");
 
@@ -54,13 +55,13 @@ const ColorbuttonExample = new Lang.Class ({
         grid.attach(this.label, 0, 1, 2, 1);
         this.window.add(grid);
         this.window.show_all();
-    },
-
-    onColorChosen: function() {
-    let colorName = this.color.to_string();
-    this.label.set_text("You chose the color " + colorName);
     }
-});
+
+    onColorChosen() {
+        let colorName = this.color.to_string();
+        this.label.set_text("You chose the color " + colorName);
+    }
+};
 
 // Run the application
 let app = new ColorbuttonExample ();

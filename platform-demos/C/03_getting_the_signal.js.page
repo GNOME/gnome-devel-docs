@@ -42,35 +42,33 @@
     <code mime="application/javascript"><![CDATA[
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
 // We start out with 0 cookies
 var cookies = 0;
 
-const GettingTheSignal = new Lang.Class({
-    Name: 'Getting the Signal',
-
+class GettingTheSignal {
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application();
 
         // Connect 'activate' and 'startup' signals to the callback functions
-        this.application.connect('activate', Lang.bind(this, this._onActivate));
-        this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents window when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
+    _onStartup() {
         this._buildUI ();
-    },
+    }
 ]]></code>
-    <p>Take a look at the part that uses our application's connect method and Lang.bind, to connect its activate and startup signals to the functions that present the window and build the UI. We're going to do the same thing with our Button when we get to it, except that we're going to connect its "clicked" signal instead.</p>
+    <p>Take a look at the part that uses our application's connect method and bind, to connect its activate and startup signals to the functions that present the window and build the UI. We're going to do the same thing with our Button when we get to it, except that we're going to connect its "clicked" signal instead.</p>
   </section>
 
   <section id="button">
@@ -79,7 +77,7 @@ const GettingTheSignal = new Lang.Class({
     <p>As usual, we'll put all the code to create our Button and other widgets inside the _buildUI function, which is called when the application starts up.</p>
     <code mime="application/javascript"><![CDATA[
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 ]]></code>
 
     <p>First, we create the window itself:</p>
@@ -106,7 +104,7 @@ const GettingTheSignal = new Lang.Class({
         this._cookieButton = new Gtk.Button ({ label: "Get a cookie" });
 
         // Connect the cookie button to the function that handles clicking it
-        this._cookieButton.connect ('clicked', Lang.bind (this, this._getACookie));
+        this._cookieButton.connect ('clicked', this._getACookie.bind(this));
 ]]></code>
     <p>Finally, we create a Grid, attach the Label and Button to it, add it to the window and tell the window to show itself and its contents. That's all we need inside the _buildUI function, so we close it with a bracket, as well as a comma that tells GNOME to go on to the next function. Note that even though we wrote the code for the Label first, we can still attach it to the Grid in a way that will put it on the bottom.</p>
     <code mime="application/javascript"><![CDATA[
@@ -126,7 +124,7 @@ const GettingTheSignal = new Lang.Class({
         // Show the window and all child widgets
         this._window.show_all();
 
-    },
+    }
 ]]></code>
     <p>Now, we write the _getACookie function. Whenever our Button sends out its "clicked" signal, the code in this function will run. In this case, all it does is increase the number of cookies by 1, and update the Label to show the new number of cookies. We do this using the Label's set_label method.</p>
     <note style="tip"><p>Many widgets have the same properties and methods. Both Labels and Buttons, for instance, have a label property that says what text is inside them, and get_label and set_label methods that let you check what that text is and change it, respectively. So if you learn how one widget works, you'll also know how others like it work.</p></note>
@@ -139,7 +137,7 @@ const GettingTheSignal = new Lang.Class({
 
     }
 
-});
+};
 ]]></code>
 
     <p>Finally, we run the application, using the same kind of code as in our last tutorial.</p>
@@ -169,7 +167,7 @@ app.application.run (ARGV);
     <p>We don't actually need to connect the Switch to anything. All we need to do is write an if statement in our _getACookie function, to check to see if the Switch is turned on. If we wanted to make something happen as soon as you flip the Switch, though, we would connect its notify::active signal, like so:</p>
     <code mime="application/javascript"><![CDATA[
         // Connect the switch to the function that handles it
-        this._cookieSwitch.connect ('notify::active', Lang.bind (this, this._cookieDispenser));
+        this._cookieSwitch.connect ('notify::active', this._cookieDispenser.bind(this));
 ]]></code>
 
     <p>A Switch is set to the off position by default. If we wanted the Switch to start out turned on, we would set the value of its active property to true when we create it.</p>
@@ -207,7 +205,7 @@ app.application.run (ARGV);
     <p>Now we change the _getACookie function so that it checks to see if the cookie dispenser is turned on. We do that by using the Switch's get_active method. It returns true if the Switch is turned on, and false if the Switch is turned off.</p>
     <note style="tip"><p>When a method is used in an if statement like this, the code inside the if statement is executed if the method returns true.</p></note>
     <code mime="application/javascript"><![CDATA[
-    _getACookie: function() {
+    _getACookie() {
 
         // Is the cookie dispenser turned on?
         if (this._cookieSwitch.get_active()) {
@@ -278,7 +276,7 @@ app.application.run (ARGV);
 
     <p>And then we change our _getACookie function to test to see if the cookie button is the one that's selected.</p>
     <code mime="application/javascript"><![CDATA[
-    _getACookie: function() {
+    _getACookie() {
 
         // Did you select "cookie" instead of "not cookie"?
         if (this._cookieRadio.get_active()) {
@@ -318,7 +316,7 @@ app.application.run (ARGV);
     <p>And now we modify _getACookie's if statement again, using the Entry's get_text method to retrieve the text that you entered into it and see if you spelled "cookie" right. We don't care whether you capitalize "cookie" or not, so we use JavaScript's built-in toLowerCase method to change the Entry's text to all lower case inside the if statement.</p>
     <note style="tip"><p>An Entry widget doesn't have a label property, which is a set text string that the user can't change. (You can't normally change the label on a Button, for instance.) Instead, it has a text property, which changes to match what the user types in.</p></note>
     <code mime="application/javascript"><![CDATA[
-    _getACookie: function() {
+    _getACookie() {
 
         // Did you spell "cookie" correctly?
         if ((this._spellCookie.get_text()).toLowerCase() == "cookie") {

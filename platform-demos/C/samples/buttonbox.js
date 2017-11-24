@@ -1,33 +1,35 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const GObject = imports.gi.GObject;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const ButtonBoxExample = new Lang.Class ({
-    Name: 'ButtonBox Example',
+class ButtonBoxExample {
 
     // Create the application itthis
-    _init: function () {
-        this.application = new Gtk.Application({ application_id: 'org.example.jsbuttonbox' });
+    constructor() {
+        this.application = new Gtk.Application({
+            application_id: 'org.example.jsbuttonbox'
+        });
 
         // Connect 'activate' and 'startup' signals to the callback functions
-        this.application.connect('activate', Lang.bind(this, this._onActivate));
-        this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function() {
+    _onActivate() {
         this.window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
-        this._buildUI ();
-    },
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
         // Create the application window
         this.window = new Gtk.ApplicationWindow  ({ application: this.application,
                                                     window_position: Gtk.WindowPosition.CENTER,
@@ -53,17 +55,17 @@ const ButtonBoxExample = new Lang.Class ({
         this.buttons = [ 7, 8, 9, '/', 4, 5, 6, '*', 1, 2, 3, '-', 'C', 0, '=', '+' ];
         
         // each row is a ButtonBox, attached to the grid            
-        for (i = 0; i < 4; i++) {
+        for (let i = 0; i < 4; i++) {
             this.hbox = Gtk.ButtonBox.new(Gtk.Orientation.HORIZONTAL);
             this.hbox.set_spacing(5);
             this.grid.attach(this.hbox, 0, i + 1, 1, 1);
             // each ButtonBox has 4 buttons, connected to the callback function
-            for (j= 0; j < 4; j++) {
+            for (let j= 0; j < 4; j++) {
                 this.button = new Gtk.Button();
                 this.buttonLabel = (this.buttons[i * 4 + j].toString());
                 this.button.set_label(this.buttonLabel);
                 this.button.set_can_focus(false);
-                this.button.connect("clicked", Lang.bind(this, this._buttonClicked, this.button));
+                this.button.connect("clicked", this._buttonClicked.bind(this));
                 this.hbox.add(this.button);
             }
         }
@@ -77,10 +79,10 @@ const ButtonBoxExample = new Lang.Class ({
         // add the grid to the window
         this.window.add(this.grid);
         this.window.show_all();
-    },
+    }
 
     // callback function for all the buttons
-    _buttonClicked: function(button) {
+    _buttonClicked(button) {
         this.button = button;
         // for the operations
         if (this.button.get_label() == '+') {
@@ -145,9 +147,9 @@ const ButtonBoxExample = new Lang.Class ({
                 this.secondNumber = this.number;
             this.entry.set_text(this.number.toString());
         }
-     },
+     }
 
-     _doOperation: function() {
+     _doOperation() {
         if (this.operation == "plus") {
            this.firstNumber += this.secondNumber;
         } else if (this.operation == "minus") {
@@ -173,7 +175,7 @@ const ButtonBoxExample = new Lang.Class ({
             this.entry.set_text("error");
         }
     }
-});
+};
 
 // Run the application
 let app = new ButtonBoxExample();

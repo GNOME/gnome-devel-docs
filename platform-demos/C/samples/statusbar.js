@@ -1,38 +1,36 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const StatusbarExample = new Lang.Class({
-    Name: 'Statusbar Example',
+class StatusbarExample {
 
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application({
             application_id: 'org.example.jsstatusbar',
             flags: Gio.ApplicationFlags.FLAGS_NONE
         });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents window when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
-        this._buildUI ();
-    },
-
-
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -49,19 +47,19 @@ const StatusbarExample = new Lang.Class({
         // Create the main button
         this._clickMe = new Gtk.Button ({
             label: "Click Me!" });
-        this._clickMe.connect ("clicked", Lang.bind (this, this._clicked));
+        this._clickMe.connect ("clicked", this._clicked.bind(this));
 
         // Create the back button
         this._backButton = new Gtk.Button ({
             label: "gtk-go-back",
             use_stock: true });
-        this._backButton.connect ("clicked", Lang.bind (this, this._back));
+        this._backButton.connect ("clicked", this._back.bind(this));
 
         // Create the clear button
         this._clearButton = new Gtk.Button ({
             label: "gtk-clear",
             use_stock: true });
-        this._clearButton.connect ("clicked", Lang.bind (this, this._clear));
+        this._clearButton.connect ("clicked", this._clear.bind(this));
 
         // Put the buttons in a grid
         this._grid = new Gtk.Grid ({
@@ -102,35 +100,27 @@ const StatusbarExample = new Lang.Class({
 
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 
-
-
-    _clicked: function() {
+    _clicked() {
 
         // Increment the number of clicks by 1
         this.Clicks++;
 
         // Update the statusbar with the new number of clicks
         this._statusbar.push (this.ContextID, "Number of clicks: " + this.Clicks);
+    }
 
-    },
-
-
-
-    _back: function () {
+    _back() {
 
         // If there have been any clicks, decrement by 1 and remove last statusbar update
         if (this.Clicks > 0 ) {
             this.Clicks--;
             this._statusbar.pop (this.ContextID);
         };
+    }
 
-    },
-
-
-
-    _clear: function () {
+    _clear() {
 
         // Reset the number of clicks
         this.Clicks = 0;
@@ -140,10 +130,8 @@ const StatusbarExample = new Lang.Class({
 
         // Reset the statusbar's message
         this._statusbar.push (this.ContextID, "Number of clicks: " + this.Clicks);
-
     }
-
-});
+};
 
 // Run the application
 let app = new StatusbarExample ();

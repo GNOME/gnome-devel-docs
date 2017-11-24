@@ -1,43 +1,47 @@
 //!/usr/bin/gjs
 
+imports.gi.versions.Gdk = '3.0';
+imports.gi.versions.Gtk = '3.0';
+
 const Gdk = imports.gi.Gdk;
 const GLib = imports.gi.GLib;
 const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk; 
-const Lang = imports.lang;
 
-const TooltipExample = new Lang.Class ({
-    Name: 'Tooltip Example',
-
+class TooltipExample {
     // Create the application 
-    _init: function () {
-        this.application = new Gtk.Application ({ application_id: 'org.example.jstooltip' });
+    constructor() {
+        this.application = new Gtk.Application({
+            application_id: 'org.example.jstooltip'
+        });
 
         // Connect 'activate' and 'startup' signals to the callback functions
-        this.application.connect('activate', Lang.bind(this, this._onActivate));
-        this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function() {
+    _onActivate() {
         this.window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function () {
-        this._buildUI ();
-    },
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function () {
+    _buildUI() {
 
         // Create the application window
-        this.window = new Gtk.ApplicationWindow ({ application: this.application,
-                                                   window_position: Gtk.WindowPosition.CENTER,
-                                                   title: "Toolbar with Tooltips Example",
-                                                   default_width: 400,
-                                                   default_height: 200,
-                                                   border_width: 10 });
+        this.window = new Gtk.ApplicationWindow({
+            application: this.application,
+            window_position: Gtk.WindowPosition.CENTER,
+            title: "Toolbar with Tooltips Example",
+            default_width: 400,
+            default_height: 200,
+            border_width: 10
+        });
 
         this.grid = new Gtk.Grid();
 
@@ -50,25 +54,26 @@ const TooltipExample = new Lang.Class ({
         this.window.add(this.grid);
 
         this._newAction = new Gio.SimpleAction({ name: "new" });
-        this._newAction.connect("activate", Lang.bind(this, this._newCallback));
+        this._newAction.connect("activate", this._newCallback.bind(this));
         this.window.add_action(this._newAction);
 
         this._openAction = new Gio.SimpleAction({ name: "open" });
-        this._openAction.connect("activate", Lang.bind(this, this._openCallback));
+        this._openAction.connect("activate", this._openCallback.bind(this));
         this.window.add_action(this._openAction);
 
         this._undoAction = new Gio.SimpleAction({ name: "undo" });
-        this._undoAction.connect("activate", Lang.bind(this, this._undoCallback));
+        this._undoAction.connect("activate", this._undoCallback.bind(this));
         this.window.add_action(this._undoAction);
 
         this._fullScreenAction = new Gio.SimpleAction({ name: "fullscreenToggle" });
-        this._fullScreenAction.connect("activate", Lang.bind(this, this._fullScreenCallback));
+        this._fullScreenAction.connect("activate",
+                                       this._fullScreenCallback.bind(this));
         this.window.add_action(this._fullScreenAction);
 
         this.window.show_all();
-   },
+    }
 
-     _createToolbar: function(){
+    _createToolbar() {
         this.toolbar = new Gtk.Toolbar();
         this.toolbar.get_style_context().add_class(Gtk.STYLE_CLASS_PRIMARY_TOOLBAR);
 
@@ -97,7 +102,7 @@ const TooltipExample = new Lang.Class ({
         this.undoButton.set_property("has-tooltip", true);
         // connect to the callback function that for the tooltip
         // with the signal "query-tooltip"
-        this.undoButton.connect("query-tooltip", Lang.bind(this, this._undoTooltipCallback));
+        this.undoButton.connect("query-tooltip", this._undoTooltipCallback.bind(this));
         this.undoButton.set_is_important(true);
         this.toolbar.insert(this.undoButton, 2);
         this.undoButton.show();
@@ -110,31 +115,31 @@ const TooltipExample = new Lang.Class ({
         this.fullscreenButton.set_action_name("win.fullscreenToggle");
 
         return this.toolbar;
-    },
+    }
 
-    _newCallback: function(action, parameter) {
+    _newCallback(action, parameter) {
         print("You clicked \"New\".");
-    },
+    }
 
-    _openCallback: function(action, parameter) {
+    _openCallback(action, parameter) {
         print("You clicked \"Open\".");
-    },
+    }
 
     // the callback function for the tooltip of the "undo" button
-    _undoTooltipCallback: function(widget, x, y, keyboard_mode, tooltip) {
+    _undoTooltipCallback(widget, x, y, keyboard_mode, tooltip) {
         // set the text for the tooltip
         tooltip.set_text("Undo your last action");
         // set an icon fot the tooltip
         tooltip.set_icon_from_stock(Gtk.STOCK_UNDO, Gtk.IconSize.MENU);
         // show the tooltip
         return true;
-    },
+    }
 
-    _undoCallback: function(action, parameter) {
+    _undoCallback(action, parameter) {
         print("You clicked \"Undo\".");
-    },
+    }
 
-    _fullScreenCallback: function() {
+    _fullScreenCallback() {
         if ((this.window.get_window().get_state() & Gdk.WindowState.FULLSCREEN) != 0 ){
             this.fullscreenButton.set_stock_id(Gtk.STOCK_FULLSCREEN);
             this.fullscreenButton.set_tooltip_text("Make your window fullscreen");
@@ -145,7 +150,7 @@ const TooltipExample = new Lang.Class ({
             this.window.fullscreen();
         }
     }
-});
+};
 
 // Run the application
 let app = new TooltipExample ();

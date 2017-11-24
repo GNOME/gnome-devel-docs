@@ -1,37 +1,37 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const DialogExample = new Lang.Class ({
-    Name: 'Dialog Example',
+class DialogExample {
 
     // Create the application itself
-        _init: function () {
-            this.application = new Gtk.Application ({
-                application_id: 'org.example.jsdialog',
-                flags: Gio.ApplicationFlags.FLAGS_NONE
-            });
+    constructor() {
+        this.application = new Gtk.Application ({
+            application_id: 'org.example.jsdialog',
+            flags: Gio.ApplicationFlags.FLAGS_NONE
+        });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function () {
-        this._window.present ();
-    },
+    _onActivate() {
+        this._window.present();
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function () {
-        this._buildUI ();
-    },
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function () {
+    _buildUI() {
 
         // Create the application window
             this._window = new Gtk.ApplicationWindow  ({ application: this.application,
@@ -45,13 +45,13 @@ const DialogExample = new Lang.Class ({
         this._window.add (this._button);
 
         // Bind it to the function that creates the dialog
-        this._button.connect ("clicked", Lang.bind(this, this._createDialog));
+        this._button.connect ("clicked", this._createDialog.bind(this));
 
                 // Show the window and all child widgets
                 this._window.show_all();
-    },
+    }
 
-    _createDialog: function () {
+    _createDialog() {
 
         // Create the dialog
         this._dialog = new Gtk.Dialog ({ transient_for: this._window,
@@ -69,18 +69,18 @@ const DialogExample = new Lang.Class ({
         this._actionArea.add (this._OKButton);
 
         // Connect the button to the function that handles what it does
-        this._OKButton.connect ("clicked", Lang.bind (this, this._OKHandler));
+        this._OKButton.connect ("clicked", this._OKHandler.bind(this));
 
         this._dialog.show_all();
-    },
+    }
 
-    _OKHandler: function (dialog, response_id) {
+    _OKHandler(dialog, response_id) {
 
         // Destroy the dialog
         this._dialog.destroy();
     }
 
-});
+};
 
 // Run the application
 let app = new DialogExample ();

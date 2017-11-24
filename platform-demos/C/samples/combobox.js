@@ -1,36 +1,34 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const GObject = imports.gi.GObject;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const ComboBoxExample = new Lang.Class ({
-    Name: 'ComboBox Example',
+class ComboBoxExample {
 
     // Create the application itself
-    _init: function () {
+    constructor() {
         this.application = new Gtk.Application ({
             application_id: 'org.example.jscombobox'});
 
         // Connect 'activate' and 'startup' signals to the callback functions
-        this.application.connect('activate', Lang.bind(this, this._onActivate));
-        this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function () {
+    _onActivate() {
         this._window.present ();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function () {
-        this._buildUI ();
-    },
-
-
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function () {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow  ({
@@ -81,18 +79,16 @@ const ComboBoxExample = new Lang.Class ({
         this._comboBox.set_active (0);
 
         // Connect the combobox's 'changed' signal to our callback function
-        this._comboBox.connect ('changed', Lang.bind (this, this._onComboChanged));
+        this._comboBox.connect ('changed', this._onComboChanged.bind(this));
 
         // Add the combobox to the window
         this._window.add (this._comboBox);
 
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 
-
-
-    _onComboChanged: function () {
+    _onComboChanged() {
 
         // The silly pseudohaiku that we'll use for our messagedialog
         let haiku = ["",
@@ -113,23 +109,21 @@ const ComboBoxExample = new Lang.Class ({
                 text: haiku[activeItem]});
 
             // Connect the OK button to a handler function
-            this._popUp.connect ('response', Lang.bind (this, this._onDialogResponse));
+            this._popUp.connect ('response', this._onDialogResponse.bind(this));
 
             // Show the messagedialog
             this._popUp.show();
         }
 
-    },
+    }
 
-
-
-    _onDialogResponse: function () {
+    _onDialogResponse() {
 
         this._popUp.destroy ();
 
     }
 
-});
+};
 
 // Run the application
 let app = new ComboBoxExample ();

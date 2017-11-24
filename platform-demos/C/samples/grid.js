@@ -1,41 +1,38 @@
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 
-const GridExample = new Lang.Class ({
-    Name: 'Grid Example',
+class GridExample {
 
     /* Create the application itself
        This boilerplate code is needed to build any GTK+ application. */
-        _init: function () {
-            this.application = new Gtk.Application ({
-                application_id: 'org.example.jsgrid',
-                flags: Gio.ApplicationFlags.FLAGS_NONE
-            });
+    constructor() {
+        this.application = new Gtk.Application ({
+            application_id: 'org.example.jsgrid',
+            flags: Gio.ApplicationFlags.FLAGS_NONE
+        });
 
-    // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        // Connect 'activate' and 'startup' signals to the callback functions
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function () {
-        this._window.present ();
-    },
+    _onActivate() {
+        this._window.present();
+    }
 
     // Callback function for 'startup' signal initializes menus and builds the UI
-    _onStartup: function () {
-        this._buildUI ();
-    },
-
-
-
+    _onStartup() {
+        this._buildUI();
+    }
 
     // Build the application's UI
-    _buildUI: function () {
+    _buildUI() {
 
         // Create the application window
             this._window = new Gtk.ApplicationWindow  ({ application: this.application,
@@ -48,7 +45,7 @@ const GridExample = new Lang.Class ({
         // Create the widgets inside the grid
         this.progressBar = new Gtk.ProgressBar ();
         this.Button = new Gtk.Button ({ label: "Button" });
-        this.Button.connect ("clicked", Lang.bind(this, this._clickHandler));
+        this.Button.connect ("clicked", this._clickHandler.bind(this));
 
         // Assemble the grid
         this._window.add (this.Grid);
@@ -57,15 +54,15 @@ const GridExample = new Lang.Class ({
 
                 // Show the window and all child widgets
                 this._window.show_all();
-    },
+    }
 
     // Here's the function that says what happens when the button is clicked
-    _clickHandler: function () {
+    _clickHandler() {
         this.progressBar.pulse ();
     }
 
 
-});
+};
 
 // Run the application
 let app = new GridExample ();

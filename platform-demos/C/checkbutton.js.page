@@ -29,9 +29,10 @@
     <code mime="application/javascript"><![CDATA[
 #!/usr/bin/gjs
 
+imports.gi.versions.Gtk = '3.0';
+
 const Gio = imports.gi.Gio;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
 ]]></code>
     <p>These are the libraries we need to import for this application to run. Remember that the line which tells GNOME that we're using Gjs always needs to go at the start.</p>
     </section>
@@ -39,35 +40,33 @@ const Lang = imports.lang;
   <section id="applicationwindow">
     <title>Creating the application window</title>
     <code mime="application/javascript"><![CDATA[
-const CheckButtonExample = new Lang.Class({
-    Name: 'CheckButton Example',
-
+class CheckButtonExample {
     // Create the application itself
-    _init: function() {
+    constructor() {
         this.application = new Gtk.Application({
             application_id: 'org.example.jscheckbutton',
             flags: Gio.ApplicationFlags.FLAGS_NONE
         });
 
     // Connect 'activate' and 'startup' signals to the callback functions
-    this.application.connect('activate', Lang.bind(this, this._onActivate));
-    this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+    this.application.connect('activate', this._onActivate.bind(this));
+    this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents window when active
-    _onActivate: function() {
+    _onActivate() {
         this._window.present();
-    },
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function() {
+    _onStartup() {
         this._buildUI ();
-    },
+    }
 ]]></code>
     <p>All the code for this sample goes in the CheckButtonExample class. The above code creates a <link href="http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html">Gtk.Application</link> for our widgets and window to go in.</p>
     <code mime="application/javascript"><![CDATA[
     // Build the application's UI
-    _buildUI: function() {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow({
@@ -92,13 +91,13 @@ const CheckButtonExample = new Lang.Class({
         this._button.set_active (true);
 
         // Connect the button to a function that does something when it's toggled
-        this._button.connect ("toggled", Lang.bind (this, this._toggledCB));
+        this._button.connect ("toggled", this._toggledCB.bind(this));
 ]]></code>
     <p>This code creates the checkbutton itself. The label next to the checkbutton is created by giving the checkbutton the "label" property and assigning a string value to it. Since this checkbutton toggles whether the window title is on or off, and the window title will be on to start with, we want the box to be checked by default. Whenever the user checks or unchecks the box, we call the _toggledCB function.</p>
     <code mime="application/javascript"><![CDATA[
         // Show the window and all child widgets
         this._window.show_all();
-    },
+    }
 ]]></code>
     <p>This code finishes up creating the UI, by telling the window to show itself and all child widgets (which is just the checkbutton in this case).</p>
   </section>
@@ -106,7 +105,7 @@ const CheckButtonExample = new Lang.Class({
   <section id="function">
     <title>Function which handles the checkbutton's toggling</title>
     <code mime="application/javascript"><![CDATA[
-    _toggledCB: function () {
+    _toggledCB() {
 
         // Make the window title appear or disappear when the checkbox is toggled
         if (this._button.get_active() == true)
@@ -116,7 +115,7 @@ const CheckButtonExample = new Lang.Class({
 
     }
 
-});
+};
 ]]></code>
     <p>If the checkbutton is toggled from on to off, we want the window title to disappear. If it's toggled from off to on, we want it to reappear. We can tell which way it was toggled by testing to see whether it's active (checked) or not afterwards. A simple if / else statement which calls the checkbutton's get_active() method will work for this.</p>
     <code mime="application/javascript"><![CDATA[
