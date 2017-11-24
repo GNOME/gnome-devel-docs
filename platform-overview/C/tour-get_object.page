@@ -40,13 +40,13 @@
     window object to the application:</p>
 
     <code><![CDATA[
-    _onStartup: function() {
+    _onStartup() {
         let builder = new Gtk.Builder();
         builder.add_from_file('helloworld.glade');
         this._window = builder.get_object('window1');
         this.application.add_window(this._window);
     }
-});
+};
 ]]></code>
   </example>
   <links type="prevnext"/>

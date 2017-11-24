@@ -43,11 +43,12 @@
 #!/usr/bin/gjs
 ]]></code>
 
-  <p>Import <code>lang</code> for the <code>bind</code> function and
-  <code>gi.Gtk</code> for <code>Gtk</code> functions.</p>
+  <p>Import <code>gi.Gtk</code> for <code>Gtk</code> functions. As both
+  version 3.0 and 4.0 may be installed, make sure that the desired version
+  is imported first.</p>
 
   <code><![CDATA[
-const Lang = imports.lang;
+imports.gi.versions.Gtk = '3.0';
 const Gtk = imports.gi.Gtk;
 ]]></code>
 </example>
