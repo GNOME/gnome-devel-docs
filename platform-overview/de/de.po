@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2017-09-16 18:33+0000\n"
-"PO-Revision-Date: 2017-10-01 13:52+0200\n"
-"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"POT-Creation-Date: 2017-12-04 19:33+0000\n"
+"PO-Revision-Date: 2017-12-08 14:13+0100\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016\n"
-"Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2012, 2015\n"
+"Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2012, 2015, 2017\n"
 "Aljosha Papsch <al@rpapsch.de>, 2012"
 
 #. (itstool) path: credit/name
@@ -59,16 +59,16 @@ msgstr "Radina Matic"
 #: C/dev-translate-tools.page:12 C/overview-io.page:17 C/overview-media.page:12
 #: C/overview-net.page:12 C/overview-settings.page:12 C/overview-ui.page:12
 #: C/tech-avahi.page:12 C/tech-canberra.page:13 C/tech-champlain.page:12
-#: C/tech-enchant.page:12 C/tech-folks.page:12 C/tech-gda.page:13 C/tech-geoclue2.page:12
+#: C/tech-folks.page:12 C/tech-gda.page:13 C/tech-geoclue2.page:12
 #: C/tech-geocode-glib.page:12 C/tech-gio-network.page:13 C/tech-gio.page:18
 #: C/tech-glib.page:12 C/tech-gobject.page:11 C/tech-gsettings.page:13
 #: C/tech-network-manager.page:12 C/tech-notify.page:18 C/tech-polkit.page:12
-#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-telepathy.page:18
-#: C/tech-tracker.page:12 C/tech-webkit.page:18 C/tour-application.page:13
-#: C/tour-application.page:18 C/tour-events.page:13 C/tour-events.page:18
-#: C/tour-get_object.page:13 C/tour-get_object.page:18 C/tour-gjs.page:13
-#: C/tour-gjs.page:18 C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14
-#: C/tour.page:19 C/tour-summary.page:12 C/tour-summary.page:17
+#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-spell-checking.page:12
+#: C/tech-telepathy.page:18 C/tech-tracker.page:12 C/tech-webkit.page:18
+#: C/tour-application.page:13 C/tour-application.page:18 C/tour-events.page:13
+#: C/tour-events.page:18 C/tour-get_object.page:13 C/tour-get_object.page:18
+#: C/tour-gjs.page:13 C/tour-gjs.page:18 C/tour-glade.page:13 C/tour-glade.page:18
+#: C/tour.page:14 C/tour.page:19 C/tour-summary.page:12 C/tour-summary.page:17
 msgid "2013"
 msgstr "2013"
 
@@ -2394,12 +2394,12 @@ msgstr "<link href=\"https://developer.gnome.org/atk/stable/\">ATK-Referenz</lin
 
 #. (itstool) path: credit/name
 #: C/tech-avahi.page:10 C/tech-canberra.page:11 C/tech-champlain.page:10
-#: C/tech-enchant.page:10 C/tech-folks.page:10 C/tech-gda.page:11 C/tech-geoclue2.page:10
+#: C/tech-folks.page:10 C/tech-gda.page:11 C/tech-geoclue2.page:10
 #: C/tech-geocode-glib.page:10 C/tech-gio-network.page:11 C/tech-gio.page:16
 #: C/tech-glib.page:10 C/tech-gobject.page:9 C/tech-gsettings.page:11
 #: C/tech-network-manager.page:10 C/tech-notify.page:16 C/tech-polkit.page:10
-#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-telepathy.page:16
-#: C/tech-tracker.page:10 C/tech-webkit.page:16
+#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-spell-checking.page:10
+#: C/tech-telepathy.page:16 C/tech-tracker.page:10 C/tech-webkit.page:16
 msgid "Federico Mena Quintero"
 msgstr "Federico Mena Quintero"
 
@@ -2903,47 +2903,6 @@ msgid ""
 msgstr ""
 "<link href=\"http://developer.gnome.org/libecal/stable/\">Evolution API-Referenz: "
 "libecal</link>"
-
-#. (itstool) path: info/desc
-#: C/tech-enchant.page:17
-msgid "Real-time spell checking for text widgets"
-msgstr "Rechtschreibprüfung in Echtzeit für Text-Widgets"
-
-#. (itstool) path: page/title
-#: C/tech-enchant.page:20
-msgid "Enchant"
-msgstr "Enchant"
-
-#. (itstool) path: page/p
-#: C/tech-enchant.page:22
-msgid ""
-"Enchant provides an API to do spell-checking related tasks. You can ask it if a word is "
-"misspelled, or ask for suggestions for a misspelled word. On a higher level, a library "
-"such as GtkSpell lets you add \"underline squiggles\" for misspelled words to text "
-"widgets."
-msgstr ""
-"Enchant stellt eine API für auf Rechtschreibprüfung bezogene Aufgaben bereit. Sie können "
-"den Benutzer fragen, falls ein Wort falsch geschrieben ist oder Vorschläge für die "
-"Berichtigung anzeigen lassen. Auf höherer Ebene können Sie mit einer Bibliothek wie "
-"GtkSpell Zickzack-Unterstreichungen für falsch geschriebene Wörter in Text-Widgets "
-"einfügen."
-
-#. (itstool) path: page/p
-#: C/tech-enchant.page:29
-msgid ""
-"In GNOME, Enchant gets used in text-heavy applications like Empathy (an instant "
-"messaging client) and Epiphany (a web browser, for text entry in web forms)."
-msgstr ""
-"In GNOME wird Enchant in Anwendungen genutzt, die viel mit Text umgehen, wie Empathy, "
-"einem Sofortnachrichten-Programm, oder Epiphany, einem Webbrowser (für die Texteingabe "
-"in Web-Formularen)."
-
-#. (itstool) path: item/p
-#: C/tech-enchant.page:36
-msgid "<link href=\"http://www.abisource.com/projects/enchant/\">Enchant home page</link>"
-msgstr ""
-"<link href=\"http://www.abisource.com/projects/enchant/\">Die Internetseite von Enchant</"
-"link>"
 
 #. (itstool) path: info/desc
 #: C/tech-folks.page:17
@@ -4489,6 +4448,67 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/libsoup/stable/\">Das Referenzhandbuch von "
 "Soup</link>"
 
+#. (itstool) path: credit/name
+#: C/tech-spell-checking.page:15
+msgid "Sébastien Wilmet"
+msgstr ""
+
+#. (itstool) path: credit/years
+#: C/tech-spell-checking.page:17
+msgid "2017"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/tech-spell-checking.page:22
+msgid "Spell-checking for text widgets"
+msgstr "Rechtschreibprüfung für Text-Widgets"
+
+#. (itstool) path: page/title
+#: C/tech-spell-checking.page:25
+msgid "Spell-checking"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:27
+msgid ""
+"Several libraries are available to do spell-checking related tasks: Enchant and gspell."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:32
+msgid ""
+"Enchant provides a low-level API. You can ask it if a word is misspelled, or ask for "
+"suggestions for a misspelled word. On a higher level, gspell integrates spell-checking "
+"for GTK+ text widgets (both <code>GtkEntry</code> and <code>GtkTextView</code>)."
+msgstr ""
+"Enchant stellt eine API auf niedriger Ebene bereit. Man kann diese fragen, ob ein Wort "
+"falsch geschrieben ist oder Vorschläge für die Berichtigung einholen. Auf höherer Ebene "
+"integriert sich gspell mit GTK+ Text-Widgets (sowohl <code>GtkEntry</code> als auch "
+"<code>GtkTextView</code>)."
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:39
+msgid ""
+"In GNOME, those libraries get used in text-heavy applications like gedit (a text editor) "
+"and Epiphany (a web browser, for text entry in web forms)."
+msgstr ""
+"In GNOME werden diese Bibliotheken in Anwendungen genutzt, die viel mit Text umgehen, "
+"wie gedit, einem Textbearbeiter, oder Epiphany, einem Internet-Browser (für die "
+"Texteingabe in Formularfeldern)."
+
+#. (itstool) path: item/p
+#: C/tech-spell-checking.page:45
+msgid "<link href=\"https://www.abisource.com/projects/enchant/\">Enchant home page</link>"
+msgstr ""
+"<link href=\"https://www.abisource.com/projects/enchant/\">Die Internetseite von "
+"Enchant</link>"
+
+#. (itstool) path: item/p
+#: C/tech-spell-checking.page:46
+msgid "<link href=\"https://wiki.gnome.org/Projects/gspell\">gspell home page</link>"
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/gspell\">Die Internetseite von gspell</link>"
+
 #. (itstool) path: info/desc
 #: C/tech-telepathy.page:23
 msgid "Unified instant-messaging and communications service"
@@ -4762,73 +4782,77 @@ msgstr ""
 
 #. (itstool) path: example/p
 #: C/tour-events.page:35
-msgid ""
-"Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs requires classes "
-"to have the Name property defined."
+msgid "Declare <code>HelloWorld</code> as a new class."
 msgstr ""
-"Deklarieren Sie <code>HelloWorld</code> als neue <code>Lang</code>-Klasse. Gjs benötigt "
-"Klassen zur Definition der Name-Eigenschaft."
 
 #. (itstool) path: example/code
-#: C/tour-events.page:38
+#: C/tour-events.page:37
 #, no-wrap
 msgid ""
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
+"class HelloWorld {\n"
 msgstr ""
-"\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
 
 #. (itstool) path: example/p
-#: C/tour-events.page:43
+#: C/tour-events.page:41
 msgid ""
-"<code>_init</code> is called when a new instance is created. Create a "
+"<code>constructor</code> is called when a new instance is created. Create a "
 "<code>GtkApplication</code>, then connect <code>activate</code> to the existing Gtk "
 "event <code>_onActivate</code> and <code>startup</code> to <code>_onStartup</code>:"
 msgstr ""
-"<code>_init</code> wird aufgerufen, wenn eine neue Instanz erzeugt wird. Erstellen Sie "
-"eine <code>GtkApplication</code> und verbinden Sie dann <code>activate</code> mit dem "
-"existierenden Gtk-Event <code>_onActivate</code> und <code>startup</code>, um mit "
+"<code>constructor</code> wird aufgerufen, wenn eine neue Instanz erzeugt wird. Erstellen "
+"Sie eine <code>GtkApplication</code> und verbinden Sie dann <code>activate</code> mit "
+"dem existierenden Gtk-Event <code>_onActivate</code> und <code>startup</code>, um mit "
 "<code>_onStartup</code> zu starten:"
 
 #. (itstool) path: example/code
-#: C/tour-events.page:48
+#: C/tour-events.page:46
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "    _init: function() {\n"
+#| "        this.application = new Gtk.Application();\n"
+#| "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
+#| "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
+#| "    },\n"
 msgid ""
 "\n"
-"    _init: function() {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 msgstr ""
 "\n"
-"    _init: function() {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 
 #. (itstool) path: example/p
-#: C/tour-events.page:56
+#: C/tour-events.page:54
 msgid "Show the window upon application activation:"
 msgstr "Zeigen Sie das Fenster nach der Aktivierung der Anwendung anzeigen:"
 
 #. (itstool) path: example/code
-#: C/tour-events.page:57
+#: C/tour-events.page:55
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "    _onActivate: function(){\n"
+#| "        this._window.show_all();\n"
+#| "    },\n"
 msgid ""
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 msgstr ""
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 
 #. (itstool) path: info/desc
 #: C/tour-get_object.page:23
@@ -4867,24 +4891,33 @@ msgstr ""
 #. (itstool) path: example/code
 #: C/tour-get_object.page:42
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "    _onStartup: function() {\n"
+#| "        let builder = new Gtk.Builder();\n"
+#| "        builder.add_from_file('helloworld.glade');\n"
+#| "        this._window = builder.get_object('window1');\n"
+#| "        this.application.add_window(this._window);\n"
+#| "    }\n"
+#| "});\n"
 msgid ""
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
 "        builder.add_from_file('helloworld.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 msgstr ""
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
 "        builder.add_from_file('helloworld.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 
 #. (itstool) path: info/desc
 #: C/tour-gjs.page:23
@@ -4947,22 +4980,24 @@ msgstr ""
 #. (itstool) path: example/p
 #: C/tour-gjs.page:46
 msgid ""
-"Import <code>lang</code> for the <code>bind</code> function and <code>gi.Gtk</code> for "
-"<code>Gtk</code> functions."
+"Import <code>gi.Gtk</code> for <code>Gtk</code> functions. As both version 3.0 and 4.0 "
+"may be installed, make sure that the desired version is imported first."
 msgstr ""
-"Importieren Sie <code>lang</code> für die <code>bind</code>-Funktion und <code>gi.Gtk</"
-"code> für <code>Gtk</code>-Funktionen."
 
 #. (itstool) path: example/code
-#: C/tour-gjs.page:49
+#: C/tour-gjs.page:50
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "const Lang = imports.lang;\n"
+#| "const Gtk = imports.gi.Gtk;\n"
 msgid ""
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 msgstr ""
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 
 #. (itstool) path: info/desc
@@ -5079,33 +5114,61 @@ msgstr "So sehen die beschriebenen Beispiele als Ganzes aus:"
 #. (itstool) path: page/code
 #: C/tour-summary.page:33
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "#!/usr/bin/gjs\n"
+#| "\n"
+#| "const Lang = imports.lang;\n"
+#| "const Gtk = imports.gi.Gtk;\n"
+#| "\n"
+#| "const HelloWorld = new Lang.Class({\n"
+#| "    Name: 'HelloWorld',\n"
+#| "\n"
+#| "    _init: function() {\n"
+#| "        this.application = new Gtk.Application();\n"
+#| "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
+#| "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
+#| "    },\n"
+#| "\n"
+#| "    _onActivate: function(){\n"
+#| "        this._window.show_all();\n"
+#| "    },\n"
+#| "\n"
+#| "    _onStartup: function() {\n"
+#| "        let builder = new Gtk.Builder();\n"
+#| "        builder.add_from_file('helloworld.glade');\n"
+#| "        this._window = builder.get_object('window1');\n"
+#| "        this.application.add_window(this._window);\n"
+#| "    }\n"
+#| "});\n"
+#| "\n"
+#| "let app = new HelloWorld();\n"
+#| "app.application.run(ARGV);\n"
 msgid ""
 "\n"
 "#!/usr/bin/gjs\n"
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
-"\n"
-"    _init: function() {\n"
+"class HelloWorld {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
-"        builder.add_from_file('helloworld.glade');\n"
+"        builder.add_from_file('tour.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
@@ -5113,29 +5176,53 @@ msgstr ""
 "\n"
 "#!/usr/bin/gjs\n"
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
-"\n"
-"    _init: function() {\n"
+"class HelloWorld {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
-"        builder.add_from_file('helloworld.glade');\n"
+"        builder.add_from_file('tour.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
+#~ msgid "Enchant"
+#~ msgstr "Enchant"
+
+#~ msgid ""
+#~ "Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs requires "
+#~ "classes to have the Name property defined."
+#~ msgstr ""
+#~ "Deklarieren Sie <code>HelloWorld</code> als neue <code>Lang</code>-Klasse. Gjs "
+#~ "benötigt Klassen zur Definition der Name-Eigenschaft."
+
+#~ msgid ""
+#~ "\n"
+#~ "const HelloWorld = new Lang.Class({\n"
+#~ "    Name: 'HelloWorld',\n"
+#~ msgstr ""
+#~ "\n"
+#~ "const HelloWorld = new Lang.Class({\n"
+#~ "    Name: 'HelloWorld',\n"
+
+#~ msgid ""
+#~ "Import <code>lang</code> for the <code>bind</code> function and <code>gi.Gtk</code> "
+#~ "for <code>Gtk</code> functions."
+#~ msgstr ""
+#~ "Importieren Sie <code>lang</code> für die <code>bind</code>-Funktion und <code>gi."
+#~ "Gtk</code> für <code>Gtk</code>-Funktionen."
