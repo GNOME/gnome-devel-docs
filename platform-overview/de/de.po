@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2017-12-04 19:33+0000\n"
-"PO-Revision-Date: 2017-12-08 14:13+0100\n"
-"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
+"POT-Creation-Date: 2017-12-20 17:16+0000\n"
+"PO-Revision-Date: 2018-01-18 18:48+0100\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.5\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -44,7 +44,7 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016\n"
-"Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2012, 2015, 2017\n"
+"Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2012, 2015, 2017, 2018\n"
 "Aljosha Papsch <al@rpapsch.de>, 2012"
 
 #. (itstool) path: credit/name
@@ -2232,7 +2232,7 @@ msgid ""
 msgstr ""
 "<em style=\"strong\">MonoDevelop</em> ist eine plattformübergreifende integrierte "
 "Entwicklungsumgebung für C# und andere .NET-Sprachen. Sie funktioniert unter Linux, Mac "
-"OS X und Windows."
+"OS X und Windows"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:104
@@ -4068,7 +4068,7 @@ msgstr ""
 "werden. Auf den meisten Systemen verwendet Pango dazu FreeType, fontconfig und Cairo zum "
 "Zugriff auf Schriften und Darstellen von Text. Auf anderen Systemen kommen deren "
 "Schriftsysteme zum Einsatz, zum Beispiel Uniscribe auf Microsoft Windows und ATSUI auf "
-"MacOS."
+"MacOS"
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:34
@@ -4451,12 +4451,12 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/tech-spell-checking.page:15
 msgid "Sébastien Wilmet"
-msgstr ""
+msgstr "Sébastien Wilmet"
 
 #. (itstool) path: credit/years
 #: C/tech-spell-checking.page:17
 msgid "2017"
-msgstr ""
+msgstr "2017"
 
 #. (itstool) path: info/desc
 #: C/tech-spell-checking.page:22
@@ -4466,13 +4466,15 @@ msgstr "Rechtschreibprüfung für Text-Widgets"
 #. (itstool) path: page/title
 #: C/tech-spell-checking.page:25
 msgid "Spell-checking"
-msgstr ""
+msgstr "Rechtschreibprüfung"
 
 #. (itstool) path: page/p
 #: C/tech-spell-checking.page:27
 msgid ""
 "Several libraries are available to do spell-checking related tasks: Enchant and gspell."
 msgstr ""
+"Mehrere Bibliotheken stehen für die Aufgaben der Rechtschreibprüfung zur Verfügung: "
+"Namentlich Enchant und gspell."
 
 #. (itstool) path: page/p
 #: C/tech-spell-checking.page:32
@@ -4783,7 +4785,7 @@ msgstr ""
 #. (itstool) path: example/p
 #: C/tour-events.page:35
 msgid "Declare <code>HelloWorld</code> as a new class."
-msgstr ""
+msgstr "Deklarieren Sie <code>HelloWorld</code> als eine neue Klasse."
 
 #. (itstool) path: example/code
 #: C/tour-events.page:37
@@ -4792,6 +4794,8 @@ msgid ""
 "\n"
 "class HelloWorld {\n"
 msgstr ""
+"\n"
+"class HelloWorld {\n"
 
 #. (itstool) path: example/p
 #: C/tour-events.page:41
@@ -4808,13 +4812,6 @@ msgstr ""
 #. (itstool) path: example/code
 #: C/tour-events.page:46
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "    _init: function() {\n"
-#| "        this.application = new Gtk.Application();\n"
-#| "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-#| "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-#| "    },\n"
 msgid ""
 "\n"
 "    constructor() {\n"
@@ -4838,11 +4835,6 @@ msgstr "Zeigen Sie das Fenster nach der Aktivierung der Anwendung anzeigen:"
 #. (itstool) path: example/code
 #: C/tour-events.page:55
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "    _onActivate: function(){\n"
-#| "        this._window.show_all();\n"
-#| "    },\n"
 msgid ""
 "\n"
 "    _onActivate() {\n"
@@ -4891,15 +4883,6 @@ msgstr ""
 #. (itstool) path: example/code
 #: C/tour-get_object.page:42
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "    _onStartup: function() {\n"
-#| "        let builder = new Gtk.Builder();\n"
-#| "        builder.add_from_file('helloworld.glade');\n"
-#| "        this._window = builder.get_object('window1');\n"
-#| "        this.application.add_window(this._window);\n"
-#| "    }\n"
-#| "});\n"
 msgid ""
 "\n"
 "    _onStartup() {\n"
@@ -4983,14 +4966,13 @@ msgid ""
 "Import <code>gi.Gtk</code> for <code>Gtk</code> functions. As both version 3.0 and 4.0 "
 "may be installed, make sure that the desired version is imported first."
 msgstr ""
+"Importieren Sie<code>gi.Gtk</code> für <code>Gtk</code>-Funktionen. Weil beide Versionen "
+"3.0 und 4.0 installiert werden können, stellen Sie bitte sicher, dass die gewünschte "
+"Version importiert wird."
 
 #. (itstool) path: example/code
 #: C/tour-gjs.page:50
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "const Lang = imports.lang;\n"
-#| "const Gtk = imports.gi.Gtk;\n"
 msgid ""
 "\n"
 "imports.gi.versions.Gtk = '3.0';\n"
@@ -5114,36 +5096,6 @@ msgstr "So sehen die beschriebenen Beispiele als Ganzes aus:"
 #. (itstool) path: page/code
 #: C/tour-summary.page:33
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "#!/usr/bin/gjs\n"
-#| "\n"
-#| "const Lang = imports.lang;\n"
-#| "const Gtk = imports.gi.Gtk;\n"
-#| "\n"
-#| "const HelloWorld = new Lang.Class({\n"
-#| "    Name: 'HelloWorld',\n"
-#| "\n"
-#| "    _init: function() {\n"
-#| "        this.application = new Gtk.Application();\n"
-#| "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-#| "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-#| "    },\n"
-#| "\n"
-#| "    _onActivate: function(){\n"
-#| "        this._window.show_all();\n"
-#| "    },\n"
-#| "\n"
-#| "    _onStartup: function() {\n"
-#| "        let builder = new Gtk.Builder();\n"
-#| "        builder.add_from_file('helloworld.glade');\n"
-#| "        this._window = builder.get_object('window1');\n"
-#| "        this.application.add_window(this._window);\n"
-#| "    }\n"
-#| "});\n"
-#| "\n"
-#| "let app = new HelloWorld();\n"
-#| "app.application.run(ARGV);\n"
 msgid ""
 "\n"
 "#!/usr/bin/gjs\n"
@@ -5200,29 +5152,3 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
-
-#~ msgid "Enchant"
-#~ msgstr "Enchant"
-
-#~ msgid ""
-#~ "Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs requires "
-#~ "classes to have the Name property defined."
-#~ msgstr ""
-#~ "Deklarieren Sie <code>HelloWorld</code> als neue <code>Lang</code>-Klasse. Gjs "
-#~ "benötigt Klassen zur Definition der Name-Eigenschaft."
-
-#~ msgid ""
-#~ "\n"
-#~ "const HelloWorld = new Lang.Class({\n"
-#~ "    Name: 'HelloWorld',\n"
-#~ msgstr ""
-#~ "\n"
-#~ "const HelloWorld = new Lang.Class({\n"
-#~ "    Name: 'HelloWorld',\n"
-
-#~ msgid ""
-#~ "Import <code>lang</code> for the <code>bind</code> function and <code>gi.Gtk</code> "
-#~ "for <code>Gtk</code> functions."
-#~ msgstr ""
-#~ "Importieren Sie <code>lang</code> für die <code>bind</code>-Funktion und <code>gi."
-#~ "Gtk</code> für <code>Gtk</code>-Funktionen."
