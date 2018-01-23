@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Tatiana Wells <tati.xx@gmail.com>, 2011.
 # Djavan Fagundes <djavan@comum.org>, 2011.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-05-02 17:52-0300\n"
-"PO-Revision-Date: 2017-08-30 23:36-0200\n"
+"POT-Creation-Date: 2017-09-23 21:50+0000\n"
+"PO-Revision-Date: 2018-01-23 09:30-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -24,7 +24,7 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Tatiana Wells <tati.xx@gmail.com>, 2011\n"
-"Rafael Fontenelle <rafaelff@gnome.org>, 2017"
+"Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2018"
 
 #. (itstool) path: book/title
 #: C/index.docbook:12
@@ -240,7 +240,7 @@ msgstr ""
 #. (itstool) path: bookinfo/releaseinfo
 #: C/index.docbook:108
 msgid "This manual describes version 2.24 of the GNOME Desktop."
-msgstr "Esse manual descreve a versão 2.24 do Ambiente de Trabalho GNOME."
+msgstr "Esse manual descreve a versão 2.24 do Ambiente GNOME."
 
 #. (itstool) path: legalnotice/title
 #: C/index.docbook:112
@@ -288,7 +288,7 @@ msgid ""
 "computers outside their home or office. For example, if you're stuck in "
 "traffic, you might use voice input and output to check your email."
 msgstr ""
-"Em conjunto com tecnologias assistivas se necessário - interfaces de vozes, "
+"Em conjunto com tecnologias assistivas se necessário – interfaces de vozes, "
 "leitores de tela, dispositivos de entrada alternativos, e por aí vai - "
 "pessoas com deficiências permanentes ou temporárias podem, portanto, usar o "
 "ambiente e aplicativos do GNOME. Tecnologias assistivas também são úteis "
@@ -366,7 +366,7 @@ msgid ""
 "choice of text size and color, and tasks that involve good hand-eye "
 "coordination (such as moving the mouse) can cause problems for these users."
 msgstr ""
-"<emphasis>Deficiências visuais</emphasis> - essas podem variar desde baixa "
+"<emphasis>Deficiências visuais</emphasis> – essas podem variar desde baixa "
 "visão (incluindo visão embaçada ou nebulosa, hipermetropia ou miopia "
 "extremas, daltonismo e visão em túnel, dentre outras) até cegueira completa. "
 "Uma escolha ruim de tamanho e color do texto, e tarefas que envolvam boa "
@@ -381,7 +381,7 @@ msgid ""
 "example, they may be unable to hold down two keys simultaneously, or they "
 "may be more likely to strike keys accidentally."
 msgstr ""
-"<emphasis>Deficiências motoras</emphasis> - usuários com controle ruim dos "
+"<emphasis>Deficiências motoras</emphasis> – usuários com controle ruim dos "
 "músculos ou fraquezas musculares podem ter dificuldade para usar um teclado "
 "ou um mouse comuns. Por exemplo, eles podem não ser capazes de segurar duas "
 "teclas simultaneamente, ou eles podem ser mais propensos a pressionar teclas "
@@ -395,7 +395,7 @@ msgid ""
 "Applications that convey important information by sound alone will cause "
 "problems for these users."
 msgstr ""
-"<emphasis>Deficiências auditivas</emphasis> - essas podem variar entre ser "
+"<emphasis>Deficiências auditivas</emphasis> – essas podem variar entre ser "
 "capaz de ouvir alguns sons, mas não distinguir palavras faladas, até surdez "
 "profunda. Aplicativos que transportam informações importantes apenas por som "
 "causarão problemas para esses usuários."
@@ -409,7 +409,7 @@ msgid ""
 "displays, or poor choice of words can make using computers difficult for "
 "these users."
 msgstr ""
-"<emphasis>Deficiência cognitiva e de linguagem</emphasis> - essas podem "
+"<emphasis>Deficiência cognitiva e de linguagem</emphasis> – essas podem "
 "variar entre dislexia até dificuldades em se lembrar de coisas, resolver "
 "problemas ou compreensão e usar linguagens faladas ou escritas. Telas "
 "complexas ou inconsistentes, ou escolha ruim de palavras, podem dificultar o "
@@ -421,7 +421,7 @@ msgid ""
 "<emphasis>Seizure disorders</emphasis> - certain light or sound patterns can "
 "cause epileptic seizures in some susceptible users."
 msgstr ""
-"<emphasis>Transtornos convulsivos</emphasis> - alguns padrões de luz e som "
+"<emphasis>Transtornos convulsivos</emphasis> – alguns padrões de luz e som "
 "podem causar convulsões epilépticas em alguns usuários suscetíveis."
 
 #. (itstool) path: section/title
@@ -439,7 +439,7 @@ msgid ""
 msgstr ""
 "O Accessibility Toolkit (ATK) descreve um conjunto de interfaces que "
 "precisam ser implementadas por componentes de GUI para torná-las acessíveis. "
-"As interfaces independem de kit de ferramentas - implementações poderiam ser "
+"As interfaces independem de kit de ferramentas – implementações poderiam ser "
 "escritas para qualquer conjunto de widget, tais como GTK, Motif ou Qt."
 
 #. (itstool) path: section/para
@@ -587,7 +587,7 @@ msgstr ""
 "Implementações ATK são fornecidas para os widgets de kit de ferramentas pré-"
 "definidos do GNOME (ex.: widgets gtk+ e GNOME não obsoletos), e em muitos "
 "casos novos widgets que trivialmente derivam de widgets GTK+ e GNOME "
-"existentes também herdarão suporte de acessibilidade adequado. "
+"existentes também herdarão suporte de acessibilidade adequado."
 
 #. (itstool) path: section/para
 #: C/index.docbook:86
@@ -675,7 +675,7 @@ msgid ""
 "Checklist</link>."
 msgstr ""
 "Para começar bem, veja <link linkend=\"gad-overview\">Criando um aplicativo "
-"acessível para o GNOME - Visão geral</link>. Para uma perspectiva de pré-"
+"acessível para o GNOME – Visão geral</link>. Para uma perspectiva de pré-"
 "codificação, veja <link linkend=\"gad-ui-guidelines\">Diretrizes de "
 "interface de usuário para suporte a acessibilidade</link> ou <link linkend="
 "\"gad-coding-guidelines\">Diretrizes de codificação para suporte a "
@@ -857,7 +857,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.docbook:164
 msgid "Making a GNOME Application Accessible - Overview"
-msgstr "Criando um aplicativo acessível para o GNOME - Visão geral"
+msgstr "Criando um aplicativo acessível para o GNOME – Visão geral"
 
 #. (itstool) path: section/para
 #: C/index.docbook:165
@@ -911,8 +911,8 @@ msgstr ""
 "personalizados</link> e <link linkend=\"gad-api-examples\">Exemplos que usam "
 "a API de acessibilidade</link> para mais informações. Informações detalhadas "
 "adicionais podem ser localizadas na apresentação de Marc Mulcahy no GUADEC "
-"2002, <ulink url=\"https://projects.gnome.org/accessibility/talks/GUAD3C/"
-"making-apps-accessible/start.html\">\"Tornando aplicativos do GNOME "
+"2002, <ulink url=\"https://projects.gnome.org/accessibility/talks/GUAD3C"
+"/making-apps-accessible/start.html\">\"Tornando aplicativos do GNOME "
 "acessíveis\"</ulink> (em inglês)."
 
 #. (itstool) path: section/title
@@ -1353,10 +1353,11 @@ msgstr ""
 "ser interessantes se você está escrevendo seus próprios widets "
 "personalizados (veja <link linkend=\"gad-custom\">Criando componentes "
 "acessíveis personalizados</link>) ou se você deseja escrever um aplicativo "
-"de tecnologia assistiva. Seja qual for o propósito, o <ulink url=\"ftp://ftp."
-"gnome.org/pub/GNOME/sources/gail/\">código-fonte do GAIL</ulink> serve como "
-"um tutorial excelente para uso avançado do ATK. Por favor, note que desde o "
-"GTK+ 3.1.10, Gail foi mesclado com GTK+ e deixou de ser um módulo autônomo."
+"de tecnologia assistiva. Seja qual for o propósito, o <ulink url=\""
+"ftp://ftp.gnome.org/pub/GNOME/sources/gail/\">código-fonte do GAIL</ulink> "
+"serve como um tutorial excelente para uso avançado do ATK. Por favor, note "
+"que desde o GTK+ 3.1.10, Gail foi mesclado com GTK+ e deixou de ser um "
+"módulo autônomo."
 
 #. (itstool) path: section/title
 #: C/index.docbook:392
@@ -1577,8 +1578,8 @@ msgid ""
 "type> <varname>my_atk_object</varname>."
 msgstr ""
 "Isso fará com que <function>_my_table_column_inserted_func()</function> seja "
-"chamado sempre que um sinal column_inserted seja emitido no <type>AtkObject</"
-"type> <varname>my_atk_object</varname>"
+"chamado sempre que um sinal column_inserted seja emitido no "
+"<type>AtkObject</type> <varname>my_atk_object</varname>"
 
 #. (itstool) path: section/para
 #: C/index.docbook:494
@@ -1653,7 +1654,7 @@ msgid ""
 "factory will be needed which will be called "
 "<type>MYATKIMP_TYPE_MYTYPE_FACTORY</type>."
 msgstr ""
-"Para esse exemplo  nós presumiremos que haja um objeto chamado "
+"Para esse exemplo nós presumiremos que haja um objeto chamado "
 "GTK_TYPE_MYTYPE. A implementação ATK será chamada de "
 "<type>MYATKIMP_TYPE_MYTYPE</type>. Uma fábrica será necessária, a qual será "
 "chamada de <type>MYATKIMP_TYPE_MYTYPE_FACTORY</type>."
@@ -1752,9 +1753,10 @@ msgid ""
 "function. Using the above example the naming convention for this function "
 "name would be <function>myatkimp_mytype_get_type()</function>."
 msgstr ""
-"Todos <type>GObject</type>s implementam uma função <function>get_type()</"
-"function>. Usando o exemplo acima, a convenção de nome para esse nome de "
-"função seria <function>myatkimp_mytype_get_type()</function>. "
+"Todos <type>GObject</type>s implementam uma função "
+"<function>get_type()</function>. Usando o exemplo acima, a convenção de nome "
+"para esse nome de função seria "
+"<function>myatkimp_mytype_get_type()</function>."
 
 #. (itstool) path: section/para
 #: C/index.docbook:554
@@ -2329,22 +2331,23 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:813
 msgid ""
-"determine which <ulink url=\"http://library.gnome.org/devel/atk/stable/atk."
-"html\">ATK interfaces</ulink> a custom widget should implement, according to "
-"the widget's feature set and function;"
+"determine which <ulink url=\"https://developer.gnome.org/atk/stable/"
+"interfaces.html\">ATK interfaces</ulink> a custom widget should implement, "
+"according to the widget's feature set and function;"
 msgstr ""
-"determinar quais <ulink url=\"http://library.gnome.org/devel/atk/stable/atk."
-"html\">interfaces ATK</ulink> um widget personalizado deve implementar, "
-"conforme o conjunto de recursos e função do widget;"
+"determinar quais <ulink url=\"https://developer.gnome.org/atk/stable/"
+"interfaces.html\">interfaces ATK</ulink> um widget personalizado deve "
+"implementar, conforme o conjunto de recursos e função do widget;"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:818
 msgid ""
-"assess which <ulink url=\"http://library.gnome.org/devel/atk/stable/atk.html"
-"\">ATK interfaces</ulink> can be inherited from the parent widget class;"
+"assess which <ulink url=\"https://developer.gnome.org/atk/stable/interfaces."
+"html\">ATK interfaces</ulink> can be inherited from the parent widget class;"
 msgstr ""
-"avaliar quais <ulink url=\"http://library.gnome.org/devel/atk/stable/atk.html"
-"\">interfaces ATK</ulink> podem ser herdados a partir da classe widget pai;"
+"avaliar quais <ulink url=\"https://developer.gnome.org/atk/stable/interfaces."
+"html\">interfaces ATK</ulink> podem ser herdados a partir da classe widget "
+"pai;"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:823
@@ -2415,7 +2418,7 @@ msgstr ""
 "interface gráfica usável por pessoas com deficiências” e que você não "
 "deveria ser incomodar se você conhece uma pessoa com deficiência que nunca "
 "vai usar seu aplicativo. Seguir essas diretrizes via melhorar a usabilidade "
-"geral de seu aplicativo para todo muito que o usa - incluindo você!"
+"geral de seu aplicativo para todo muito que o usa – incluindo você!"
 
 #. (itstool) path: section/title
 #: C/index.docbook:855
@@ -2857,7 +2860,7 @@ msgid ""
 msgstr ""
 "Não faça dos alvos de mouse pequenas demais. Em geral, alvos de mouse devem "
 "pelo menos do tamanho da “área quente” em volta da borda redimensionável da "
-"janela no atual tema/gerenciador de janelas - tenha em mente que um usuário "
+"janela no atual tema/gerenciador de janelas – tenha em mente que um usuário "
 "com destreza ou visão prejudicada pode estar usando um gerenciador de "
 "janelas com áreas maiores do que o padrão."
 
@@ -3210,8 +3213,8 @@ msgid ""
 "> </imageobject> <textobject> <phrase>Small toolbar icon with label to its "
 "right</phrase> </textobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/label_below.png\" format=\"PNG\"/"
-"> </imageobject> <textobject> <phrase>Ícone pequeno da barra de ferramentas "
+"<imageobject> <imagedata fileref=\"figures/label_right.png\" format=\"PNG\"/>"
+" </imageobject> <textobject> <phrase>Ícone pequeno da barra de ferramentas "
 "com rótulo a sua direita</phrase> </textobject>"
 
 #. (itstool) path: row/entry
@@ -3265,6 +3268,11 @@ msgid ""
 "the colors in any part of your application that conveys important "
 "information."
 msgstr ""
+"A má escolha de cores na tela pode causar problemas para usuários com "
+"daltonismo (para quem a matiz é importante) ou baixa visão (para quem o "
+"brilho/contraste é importante). Geralmente, você deve permitir que o usuário "
+"personalize as cores em qualquer parte do seu aplicativo que transmite "
+"informações importantes."
 
 #. (itstool) path: section/para
 #: C/index.docbook:1169
@@ -3274,6 +3282,10 @@ msgid ""
 "used to prevent the background from \"bleeding\" over. These settings are "
 "critical for users with visual impairments."
 msgstr ""
+"Os usuários com deficiências visuais podem exigir um alto nível de contraste "
+"entre as cores de fundo e texto. Muitas vezes, um fundo preto e texto branco "
+"é usado para evitar que o fundo seja “sangrando”. Essas configurações são "
+"críticas para usuários com deficiências visuais."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1174
@@ -3286,6 +3298,14 @@ msgid ""
 "some reason you do need to use colors that are not available in the theme, "
 "ensure they are customizable within the application itself."
 msgstr ""
+"Não defina cores do aplicativo por código rígido. Alguns usuários precisam "
+"usar combinações particulares de cores e níveis de contraste para poder ler "
+"a tela confortavelmente. Portanto, todas as cores principais que você usa no "
+"seu aplicativo GNOME devem ser tiradas do tema GTK, de modo que o usuário "
+"pode configurar as cores de todas as suas aplicações para algo legível, "
+"apenas mudando o tema. Se por algum motivo você precisa usar cores que não "
+"estão disponíveis no tema, assegure-se de serem personalizáveis dentro do "
+"próprio aplicativo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1179
@@ -3295,6 +3315,10 @@ msgid ""
 "shape, position or textual description. See <link linkend=\"gad-color-"
 "examples\">Color and Contrast Examples</link>."
 msgstr ""
+"Não use a cor como o único meio para distinguir itens de informação. Todas "
+"essas informações devem ser fornecidas por pelo menos um outro método, como "
+"forma, posição ou descrição textual. Veja <link linkend=\"gad-color-examples"
+"\">Exemplos de cores e contraste</link>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1184
@@ -3303,6 +3327,10 @@ msgid ""
 "themes is selected, all the text in your application appears in the high "
 "contrast foreground and background colors specified by the theme."
 msgstr ""
+"Ofereça suporte a todos os temas do GNOME de alto contraste. Certifique-se "
+"de que, quando um desses temas for selecionado, todo o texto em seu "
+"aplicativo aparece nas cores de primeiro plano e de fundo de alto contraste "
+"especificadas pelo tema."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1189
@@ -3311,6 +3339,9 @@ msgid ""
 "theme. Test it with different high-contrast themes to ensure your "
 "application respects the settings."
 msgstr ""
+"Certifique-se de que seu aplicativo não depende de um determinado tema de "
+"alto contraste. Teste-o com diferentes temas de alto contraste para garantir "
+"que seu aplicativo respeite as configurações."
 
 #. (itstool) path: section/title
 #: C/index.docbook:1196
@@ -3320,7 +3351,7 @@ msgstr "Exemplos de cor e contraste"
 #. (itstool) path: example/title
 #: C/index.docbook:1198
 msgid "Example illustrating redundant use of color"
-msgstr ""
+msgstr "Exemplo ilustrando uso redundante de cor"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3341,6 +3372,9 @@ msgid ""
 "</imageobject> <textobject> <phrase>Example showing changes in stock price "
 "using color only</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/color_only.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Exemplo mostrando alterações preços de "
+"ações usando apenas cor</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1213
@@ -3350,6 +3384,11 @@ msgid ""
 "lack of contrast between the red text and black background would also make "
 "it hard to read for a user with low vision, even with a screen magnifier."
 msgstr ""
+"Esta exibição pode causar problemas para um usuário com daltonismo de "
+"vermelho-verde (daltonismo afeta 1 em cada 7 homens em algumas partes do "
+"mundo). A falta de contraste entre o texto vermelho e o fundo preto também "
+"tornaria difícil a leitura para um usuário com baixa visão, mesmo com um "
+"amplificador de tela."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3372,6 +3411,9 @@ msgid ""
 "\"PNG\"/> </imageobject> <textobject> <phrase>Example showing changes in "
 "stock price using both color and arrows</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/color_and_arrows.png\" format="
+"\"PNG\"/> </imageobject> <textobject> <phrase>Exemplo mostrando alterações "
+"preços de ações usando cor e setas</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1228
@@ -3383,6 +3425,13 @@ msgid ""
 "should be possible to customize it in this way either by theming or via the "
 "application's <guilabel>Preferences</guilabel> dialog."
 msgstr ""
+"Esta exibição reforça a codificação de cores com setas para mostrar o "
+"movimento do preço das ações, e usa tons mais escuros de verde e vermelho em "
+"um fundo mais claro para fornecer mais contraste. Esse não precisa ser o "
+"esquema de cores padrão se os testes mostrarem que isso é muita distração "
+"para a maioria dos usuários, mas deve ser possível personalizá-lo dessa "
+"maneira, seja por meio de temas ou através do diálogo "
+"<guilabel>Preferências</guilabel> do aplicativo."
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -3397,11 +3446,15 @@ msgid ""
 "text and graphics. However, without magnification, a visually impaired user "
 "may not be able to access and use the program at all."
 msgstr ""
+"Muitos usuários, mesmo aqueles que não são deficientes visuais, se "
+"beneficiam com a ampliação de texto e gráficos. No entanto, sem ampliação, "
+"um usuário com deficiência visual pode não conseguir acessar e usar o "
+"programa."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1246
 msgid "Provide the ability for the user to magnify the work area."
-msgstr ""
+msgstr "Forneça a capacidade do usuário para ampliar a área de trabalho."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1251
@@ -3411,6 +3464,10 @@ msgid ""
 "application to confirm the object you are viewing is not affected by "
 "changing the magnification settings."
 msgstr ""
+"Forneça opções no aplicativo para dimensionar a área de trabalho. Os "
+"usuários precisam ter uma opção para ampliar a área de trabalho 150% a 400% "
+"ou mais. Teste o aplicativo para confirmar que o objeto que você está "
+"visualizando não é afetado alterando as configurações de ampliação."
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -3426,6 +3483,11 @@ msgid ""
 "relies on sound to convey information. In general, make sure that the user "
 "is able to have any audible information conveyed in other ways."
 msgstr ""
+"As pessoas que têm dificuldade de ouvir, bem como aqueles que trabalham com "
+"o som em seus computadores desligados, serão prejudicadas se seu aplicativo "
+"se basear em som para transmitir informações. Em geral, certifique-se de que "
+"o usuário possa ter qualquer informação audível transmitida de outras "
+"maneiras."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1265
@@ -3433,6 +3495,9 @@ msgid ""
 "Don't assume that a user will hear audio information. This applies as much "
 "to users with broken soundcards as it does to those with hearing impairments!"
 msgstr ""
+"Não presuma que um usuário ouvirá informações de áudio. Isto aplica-se tanto "
+"aos usuários com placas de som quebradas como a pessoas com deficiência "
+"auditiva!"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1270
@@ -3442,6 +3507,10 @@ msgid ""
 "This includes providing closed captioning or transcripts for any important "
 "spoken sound clips."
 msgstr ""
+"Não use o áudio como o único meio de transmitir informações. Dê ao usuário a "
+"opção de ter todas as informações de áudio fornecidas de forma visual "
+"também. Isso inclui o fornecimento de legendas fechadas ou transcrições para "
+"quaisquer clipes de som falados importantes."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1275
@@ -3449,6 +3518,8 @@ msgid ""
 "Allow users to configure frequency and volume of all warning beeps and other "
 "sounds. This includes being able to turn off sound altogether."
 msgstr ""
+"Permita aos usuários configurar a frequência e o volume de todos os bips de "
+"aviso e outros sons. Isso inclui poder desligar completamente o som."
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -3463,6 +3534,10 @@ msgid ""
 "information in your application - and it can look cool, too. However, it can "
 "be problematic for some users, so make sure they can turn it off."
 msgstr ""
+"Usado com moderação, a animação pode ser útil para chamar a atenção para "
+"informações importantes em sua aplicação – e também pode parecer legal. No "
+"entanto, pode ser problemático para alguns usuários, portanto, certifique-se "
+"de que eles podem desligá-la."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1289
@@ -3475,6 +3550,13 @@ msgid ""
 "cursor blink frequency (which should itself be customizable), or allow users "
 "to configure the frequency themselves."
 msgstr ""
+"Não use elementos piscando ou piscando com uma frequência maior do que 2 Hz "
+"e inferior a 55 Hz. Isso inclui texto, bem como qualquer objeto gráfico. "
+"Qualquer coisa nesta faixa de frequência pode causar problemas particulares "
+"para usuários suscetíveis a convulsões induzidas visualmente. Note-se que "
+"não existe uma frequência “segura”. Se o piscar é essencial, você deve usar "
+"a frequência de pisca do cursor do sistema (que deve ser customizável) ou "
+"permitir que os usuários configurem a própria frequência."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1294
@@ -3482,6 +3564,8 @@ msgid ""
 "Don't flash or blink large areas of the screen. Small areas are less likely "
 "to trigger seizures in those susceptible to them."
 msgstr ""
+"Não exiba um clarão nem pisque em grandes áreas da tela. Pequenas áreas são "
+"menos propensas a desencadear convulsões naqueles suscetíveis a eles."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1299
@@ -3489,6 +3573,8 @@ msgid ""
 "Make all animations optional. The animated information should be available "
 "in at least one non-animated format, at the user's request."
 msgstr ""
+"Torne todas as animações opcionais. A informação animada deve estar "
+"disponível em pelo menos um formato não animado, a pedido do usuário."
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -3508,6 +3594,14 @@ msgid ""
 "you've forgotten which widget you left it on. When you return, you should be "
 "able to tell straight away exactly which widget it was."
 msgstr ""
+"Mostrar a posição do foco do teclado claramente em todos os momentos é "
+"importante, tanto para usuários com deficiências de visão quanto para "
+"“usuários avançados” que preferem usar o teclado e não o mouse. Nunca deve "
+"haver confusão quanto ao controle que o controle na área de trabalho tenha "
+"foco em qualquer momento. Você deve poder deixar seu computador com foco em "
+"qualquer widget em seu aplicativo, depois desligar e telefonar para sua "
+"namorada ou caminhar até o cachorro até você se esquecer de qual widget você "
+"deixou. Quando você retornar, você deve saber imediatamente o widget."
 
 #. (itstool) path: section/para
 #: C/index.docbook:1311
@@ -3520,6 +3614,14 @@ msgid ""
 "additional work. However, you will need to be aware of this requirement when "
 "writing your own custom widgets, for example."
 msgstr ""
+"Um indicador de foco visual é uma representação de áudio da posição do "
+"cursor em relação aos outros objetos na área de trabalho. Isso permite que o "
+"usuário se mova entre objetos de forma interativa à medida que o foco muda. "
+"O foco visual deve ser programaticamente exposto a tecnologias assistivas. "
+"Observe que, na maioria dos casos, este é tratado automaticamente pelo ATK, "
+"sem exigir que você faça qualquer trabalho adicional. No entanto, você "
+"precisará estar ciente deste requisito ao redigir seus próprios widgets "
+"personalizados, por exemplo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1316
@@ -3532,6 +3634,13 @@ msgid ""
 "activated immediately by pressing <keycap>Enter</keycap> or <keycap>Escape</"
 "keycap>."
 msgstr ""
+"Inicie o foco no controle mais comum. Se nenhum controle em uma janela for "
+"considerado “mais” útil, inicie o foco no primeiro controle na janela quando "
+"essa janela for aberta. O foco não deve ser iniciado nos botões "
+"<guilabel>OK</guilabel> ou <guilabel>Cancelar</guilabel> de uma caixa de "
+"diálogo, mesmo que sejam os controles mais usados, pois eles sempre podem "
+"ser ativados imediatamente pressionando <keycap>Enter</keycap> ou "
+"<keycap>Escape</keycap>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1321
@@ -3542,6 +3651,11 @@ msgid ""
 "visible. See <link linkend=\"gad-focus-examples\">Keyboard Focus Examples</"
 "link>."
 msgstr ""
+"Mostre o foco de entrada atual claramente em todos os momentos. Lembre-se de "
+"que em controles que incluem um elemento de rolagem, nem sempre é suficiente "
+"para destacar apenas o elemento selecionado dentro dessa área de rolagem, "
+"pois pode não ser visível. Veja <link linkend=\"gad-focus-examples"
+"\">Exemplos de foco do teclado</link>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1326
@@ -3554,6 +3668,13 @@ msgid ""
 "for example, use a secondary focus indicator. See <link linkend=\"gad-focus-"
 "examples\">Keyboard Focus Examples</link>."
 msgstr ""
+"Mostre o foco de entrada apenas na janela ativa. Oculte todos os indicadores "
+"de foco visual primário em todas as janelas que não tenham foco e ativação. "
+"Se uma única janela tiver painéis separados, apenas um painel deve ter o "
+"indicador de foco e os indicadores de foco devem estar ocultos em todos os "
+"outros painéis. Se for importante continuar a mostrar qual item em uma lista "
+"não focada é selecionado, por exemplo, use um indicador de foco secundário. "
+"Veja <link linkend=\"gad-focus-examples\">Exemplos de foco do teclado</link>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1331
@@ -3567,6 +3688,14 @@ msgid ""
 "document has been reached, and ask if you want to resume the search at the "
 "start of the document."
 msgstr ""
+"Forneça feedback adequado quando o usuário tentar navegar após o fim de um "
+"grupo de objetos relacionados. Ao navegar uma lista, por exemplo, parar com "
+"feedback de áudio geralmente é preferível a mover o foco de volta para o "
+"primeiro objeto na lista. Caso contrário, os usuários que são cegos ou têm "
+"baixa visão podem não perceber que eles voltaram ao início. No caso de uma "
+"pesquisa de texto em um documento, uma caixa de diálogo pode aparecer para "
+"indicar que o final do documento foi alcançado e perguntar se você deseja "
+"retomar a busca no início do documento."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1336
@@ -3579,6 +3708,13 @@ msgid ""
 "should be able to configure a system-wide visual equivalent to the default "
 "warning sound.)"
 msgstr ""
+"Reproduza o sinal de aviso de áudio ou visual padrão do sistema quando o "
+"usuário pressiona uma tecla inadequada ou quando uma tecla de navegação não "
+"consegue mover o foco. Por exemplo, quando o foco está no primeiro caractere "
+"em um campo de texto e o usuário pressiona a tecla de seta para a esquerda, "
+"ou o usuário tenta executar múltiplas seleções em uma única seleção de "
+"diálogo. (Note que os usuários com dificuldades de audição devem ser capazes "
+"de configurar um equivalente visual do sistema ao som de aviso padrão.)"
 
 #. (itstool) path: section/title
 #: C/index.docbook:1343
@@ -3588,7 +3724,7 @@ msgstr "Exemplos de foco do teclado"
 #. (itstool) path: example/title
 #: C/index.docbook:1344
 msgid "Example illustrating need to show focus clearly"
-msgstr ""
+msgstr "Exemplo ilustrando a necessidade de mostrar o foco claramente"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3609,13 +3745,16 @@ msgid ""
 "</imageobject> <textobject> <phrase>The focused item in this window cannot "
 "be seen because it has been scrolled off-screen</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/badfocus1.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>O item em foco nesta janela não pode ser "
+"visto porque ele foi deslocado para fora da tela</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1359
 msgid ""
 "One of the controls in this window has focus, but it's impossible to tell "
 "which..."
-msgstr ""
+msgstr "Um dos controles desta janela tem foco, mas é impossível dizer qual…"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3636,6 +3775,9 @@ msgid ""
 "</imageobject> <textobject> <phrase>The focused item in the list has been "
 "brought into view by scrolling the list</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/badfocus2.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>O item focado na lista foi exibido ao "
+"deslocar a lista</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1374
@@ -3643,6 +3785,8 @@ msgid ""
 "...until you scroll the list, which reveals that one of its items is "
 "currently selected."
 msgstr ""
+"…até você deslocar a lista, que revela que um de seus itens está atualmente "
+"selecionado."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3664,6 +3808,10 @@ msgid ""
 "solid border indicating focus, whether its selected item is currently "
 "visible or not</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>O controle da lista neste exemplo possui "
+"uma borda sólida indicando foco, se seu item selecionado está atualmente "
+"visível ou não</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1389
@@ -3671,11 +3819,13 @@ msgid ""
 "If the list control itself is given a \"focused\" border, it's easy to tell "
 "it has focus even when the currently-selected item isn't visible."
 msgstr ""
+"Se o controle da lista em si tiver uma borda “focada”, é fácil dizer que ele "
+"tem foco mesmo quando o item atualmente selecionado não está visível."
 
 #. (itstool) path: example/title
 #: C/index.docbook:1398
 msgid "Example illustrating use of secondary focus"
-msgstr ""
+msgstr "Exemplo ilustrando o uso de foco secundário"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3696,6 +3846,9 @@ msgid ""
 "</imageobject> <textobject> <phrase>Split-paned window in which both panes "
 "seem to have focus</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/badfocus3.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Janela divida em painéis em que ambos os "
+"painéis parecem ter foco</phrase> </textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1413
@@ -3703,6 +3856,8 @@ msgid ""
 "In this example, it's impossible to tell just by looking which of the two "
 "panes actually has keyboard focus."
 msgstr ""
+"Neste exemplo, é impossível dizer apenas olhando quais dos dois painéis "
+"realmente têm foco no teclado."
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3723,6 +3878,10 @@ msgid ""
 "</imageobject> <textobject> <phrase>Split-pane window in which secondary "
 "highlighting is used to show which pane has focus</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus3.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Janela dividida em painéis em que o "
+"destaque secundário é usado para mostrar qual painel tem foco</phrase> </"
+"textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1428
@@ -3730,6 +3889,8 @@ msgid ""
 "By using a secondary selection highlight color in the inactive pane, it's "
 "immediately obvious that the tree control has focus here..."
 msgstr ""
+"Ao usar uma cor de destaque de seleção secundária no painel inativo, é "
+"imediatamente óbvio que o controle de árvore tem foco aqui…"
 
 #. (itstool) path: imageobject/imagedata
 #. This is a reference to an external file such as an image or video. When
@@ -3750,11 +3911,15 @@ msgid ""
 "</imageobject> <textobject> <phrase>Split-pane window in which secondary "
 "highlighting is used to show which pane has focus</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus2.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Janela dividida em painéis em que o "
+"destaque secundário é usado para mostrar qual painel tem foco</phrase> </"
+"textobject>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1443
 msgid "...and that the list control has focus here."
-msgstr ""
+msgstr "…e que o controle da lista tem foco aqui."
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -3772,6 +3937,13 @@ msgid ""
 "information popping up which they didn't explicitly request, then your "
 "application will become very frustrating or even impossible to use."
 msgstr ""
+"As interfaces nas quais as coisas aparecem, desaparecem ou ocorrem de acordo "
+"com um limite de tempo codificado são muitas vezes um obstáculo para a "
+"acessibilidade. Alguns usuários podem ler, digitar ou reagir muito "
+"lentamente em comparação com outros. Se a informação que eles exigem está "
+"escondida antes de terminarem com ela ou obscurecida por outras informações "
+"que não foram solicitadas explicitamente, seu aplicativo ficará muito "
+"frustrante ou mesmo impossível de usar."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1461
@@ -3784,6 +3956,14 @@ msgid ""
 "manually editable from the command line via a configuration file or GConf "
 "entry."
 msgstr ""
+"Não codifique um tempo limite ou outros recursos baseados no tempo. Os "
+"exemplos incluem a rolagem automática ao arrastar um objeto para a borda de "
+"uma janela, mantendo pressionado o botão da barra de rolagem ou expandir "
+"automaticamente um nó de árvore quando um objeto é arrastado sobre ele e "
+"mantido por um curto período de tempo. Estes devem ser personalizáveis no "
+"aplicativo, no centro de controle do GNOME ou, na pior das hipóteses, "
+"editáveis manualmente a partir da linha de comando por meio de um arquivo de "
+"configuração ou entrada do GConf."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1466
@@ -3794,6 +3974,12 @@ msgid ""
 "features, make them optional so users can turn them off when a screen-review "
 "utility is installed."
 msgstr ""
+"Não mostre ou oculte informações de forma breve com base no movimento do "
+"ponteiro do mouse. (Exceção: recursos fornecidos pelo sistema, como dicas de "
+"ferramentas, que o usuário pode configurar em um nível de todo o sistema). "
+"Se você deve fornecer esses recursos, torná-los opcionais para que os "
+"usuários possam desligá-los quando um utilitário de revisão de tela estiver "
+"instalado."
 
 #. (itstool) path: section/title
 #. (itstool) path: row/entry
@@ -3809,6 +3995,10 @@ msgid ""
 "importance is keyboard navigation, since this is the only way many users can "
 "navigate the application."
 msgstr ""
+"Pessoas com deficiência podem não usar o aplicativo efetivamente se não "
+"tiverem acesso aos manuais e arquivos de ajuda necessários. De particular "
+"importância é a navegação por teclado, uma vez que esta é a única maneira "
+"que muitos usuários podem navegar no aplicativo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1480
@@ -3816,12 +4006,16 @@ msgid ""
 "Provide all documentation in an accessible format. ASCII text and HTML are "
 "both excellent formats for assistive technologies."
 msgstr ""
+"Forneça toda a documentação em um formato acessível. O texto ASCII e o HTML "
+"são formatos excelentes para tecnologias assistivas."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1485
 msgid ""
 "Provide alternative text descriptions for all graphics in the documentation."
 msgstr ""
+"Forneça descrições de texto alternativas para todos os gráficos na "
+"documentação."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1490
@@ -3831,6 +4025,10 @@ msgid ""
 "accessibility section in your documentation, where information on all the "
 "accessibility features can be found."
 msgstr ""
+"Documente todos os recursos de acessibilidade do seu aplicativo. A navegação "
+"no teclado e os atalhos são particularmente importantes para documentar. "
+"Inclua uma seção de acessibilidade em sua documentação, onde informações "
+"sobre todos os recursos de acessibilidade podem ser encontradas."
 
 #. (itstool) path: chapter/title
 #: C/index.docbook:2
@@ -3845,6 +4043,10 @@ msgid ""
 "consider automated testing techniques. <ulink url=\"http://ldtp.freedesktop."
 "org/\">LDTP</ulink>, for example, may complement your automated testing plan."
 msgstr ""
+"Há vários pontos de revisão para conduzir antes de declarar um aplicativo "
+"acessível. Ao longo do desenvolvimento, você pode querer considerar técnicas "
+"de teste automatizadas. <ulink url=\"http://ldtp.freedesktop.org/\">LDTP</"
+"ulink>, por exemplo, pode complementar o seu plano de testes automatizado."
 
 #. (itstool) path: chapter/para
 #: C/index.docbook:6
@@ -3855,6 +4057,11 @@ msgid ""
 "application fails any of these tests, then further work may need to be done "
 "to improve that aspect of its accessibility."
 msgstr ""
+"Esta seção descreve uma série de testes que você pode executar manualmente "
+"em um aplicativo para testar sua acessibilidade. Passar todos os testes não "
+"implica necessariamente que o aplicativo seja totalmente acessível, mas se o "
+"aplicativo falhar em nenhum desses testes, talvez seja necessário fazer mais "
+"trabalhos para melhorar esse aspecto de sua acessibilidade."
 
 #. (itstool) path: section/para
 #: C/index.docbook:12
@@ -3862,6 +4069,8 @@ msgid ""
 "The following keyboard operations should be tested. Do not use the mouse in "
 "any part of this test."
 msgstr ""
+"As seguintes operações de teclado devem ser testadas. Não use o mouse em "
+"nenhuma parte deste teste."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:17
@@ -3869,6 +4078,8 @@ msgid ""
 "Using only keyboard commands, move the focus through all menu bars in the "
 "application."
 msgstr ""
+"Usando apenas comandos de teclado, mova o foco através de todas as barras de "
+"menu no aplicativo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:22
@@ -3878,13 +4089,15 @@ msgstr "Confirme que:"
 #. (itstool) path: listitem/para
 #: C/index.docbook:25
 msgid "Context sensitive menus display correctly."
-msgstr ""
+msgstr "Os menus sensíveis ao contexto exibem corretamente."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:30
 msgid ""
 "Any functions listed on the toolbar can be performed using the keyboard."
 msgstr ""
+"Todas as funções listadas na barra de ferramentas podem ser executadas "
+"usando o teclado."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:35
@@ -3892,26 +4105,32 @@ msgid ""
 "You can operate every control in the client area of the application and "
 "dialog boxes."
 msgstr ""
+"Você pode operar todos os controles na área do cliente do aplicativo e "
+"caixas de diálogo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:40
 msgid "Text and objects within the client area can be selected."
-msgstr ""
+msgstr "Texto e objetos dentro da área do cliente podem ser selecionados."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:45
 msgid "Any keyboard enhancements or shortcuts are working as designed."
 msgstr ""
+"Quaisquer aprimoramentos ou atalhos de teclado estão funcionando como "
+"projetado."
 
 #. (itstool) path: section/para
 #: C/index.docbook:56
 msgid "Test the application using a screen reader and confirm that:"
-msgstr ""
+msgstr "Teste o aplicativo usando um leitor de tela e confirme que:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:61
 msgid "Labels and text are being read correctly, including menus and toolbars."
 msgstr ""
+"Os rótulos e o texto estão sendo lidos corretamente, incluindo menus e "
+"barras de ferramentas."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:66
@@ -3929,6 +4148,8 @@ msgid ""
 "Verify that when moving among objects that the visual focus indicator is "
 "easy to identify."
 msgstr ""
+"Verifique se, ao mover-se entre objetos, o indicador de foco visual é fácil "
+"de identificar."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:82
@@ -3936,6 +4157,8 @@ msgid ""
 "Keyboard navigation through the software and menus should be clearly visible "
 "when the focus moves."
 msgstr ""
+"A navegação do teclado através do software e dos menus deve ser claramente "
+"visível quando o foco se move."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:87
@@ -3943,6 +4166,8 @@ msgid ""
 "Confirm that the screen reader is tracking the visual focus indicator as you "
 "navigate using a keyboard."
 msgstr ""
+"Confirme se o leitor de tela está rastreando o indicador de foco visual à "
+"medida que você navega usando um teclado."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:92
@@ -3951,6 +4176,9 @@ msgid ""
 "magnifier can track the visual focus indicator as you navigate using the "
 "keyboard and mouse."
 msgstr ""
+"Execute um programa de ampliação de tela (se disponível) e verifique se o "
+"amplificador pode rastrear o indicador de foco visual à medida que você "
+"navega usando o teclado e o mouse."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:103
@@ -3958,6 +4186,7 @@ msgid ""
 "Change the font in the application and confirm that the settings are "
 "maintained."
 msgstr ""
+"Altere a fonte no aplicativo e confirme se as configurações são mantidas."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:108
@@ -3965,6 +4194,8 @@ msgid ""
 "Test the application by changing colors and confirm that all settings are "
 "maintained."
 msgstr ""
+"Teste o aplicativo alterando as cores e confirme que todas as configurações "
+"são mantidas."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:113
@@ -3972,6 +4203,8 @@ msgid ""
 "If magnification is available, test the font, color, and size using the "
 "magnification option."
 msgstr ""
+"Se a ampliação estiver disponível, teste a fonte, cor e tamanho usando a "
+"opção de ampliação."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:124
@@ -3979,6 +4212,8 @@ msgid ""
 "Print screenshots to a black and white printer and confirm that all "
 "information is visible."
 msgstr ""
+"Imprima capturas de tela em uma impressora a preto e branco e confirme que "
+"todas as informações estão visíveis."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:129
@@ -3986,6 +4221,8 @@ msgid ""
 "Test applications using only black and white, high-contrast settings and "
 "confirm that all information is conveyed correctly."
 msgstr ""
+"Teste aplicativos usando apenas configurações em preto e branco e alto "
+"contraste e confirme que todas as informações são transmitidas corretamente."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:134
@@ -3994,6 +4231,9 @@ msgid ""
 "schemes and that high-contrast schemes are available (e.g. white on black or "
 "yellow on blue)."
 msgstr ""
+"Teste que o aplicativo forneça pelo menos três combinações de esquemas de "
+"cores e que esquemas de alto contraste estejam disponíveis (por exemplo, "
+"branco em preto ou amarelo em azul)."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:139
@@ -4001,6 +4241,8 @@ msgid ""
 "Turn on high-contrast settings in the GNOME Control Center and confirm that "
 "the application respects these settings."
 msgstr ""
+"Ative as configurações de alto contraste no Centro de Controle GNOME e "
+"confirme se o aplicativo respeita essas configurações."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:144
@@ -4008,12 +4250,15 @@ msgid ""
 "Test various themes to ensure that the software is working for all the "
 "available settings."
 msgstr ""
+"Teste vários temas para garantir que o software esteja funcionando para "
+"todas as configurações disponíveis."
 
 #. (itstool) path: section/para
 #: C/index.docbook:153
 msgid ""
 "There should be an option in the application to show audio alerts visually."
 msgstr ""
+"Deve haver uma opção no aplicativo para exibir alertas de áudio visualmente."
 
 #. (itstool) path: section/para
 #: C/index.docbook:156
@@ -4021,6 +4266,8 @@ msgid ""
 "Test that the audio is working correctly by enabling sound in the GNOME "
 "Control Center and then perform the following actions:"
 msgstr ""
+"Teste se o áudio está funcionando corretamente, ativando o som no Centro de "
+"Controle do GNOME e, em seguida, execute as seguintes ações:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:161
@@ -4028,6 +4275,8 @@ msgid ""
 "Perform an action that should generate an audio alert and confirm that the "
 "application is working as designed."
 msgstr ""
+"Execute uma ação que deve gerar um alerta de áudio e confirme se o "
+"aplicativo está funcionando como projetado."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:166
@@ -4035,6 +4284,8 @@ msgid ""
 "Verify that the application works correctly when increasing or decreasing "
 "the volume."
 msgstr ""
+"Verifique se o aplicativo funciona corretamente ao aumentar ou diminuir o "
+"volume."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:171
@@ -4042,6 +4293,8 @@ msgid ""
 "Confirm that warning messages and alerts can be heard correctly in a noisy "
 "work environment."
 msgstr ""
+"Confirme se as mensagens de aviso e alertas podem ser ouvidas corretamente "
+"em um ambiente de trabalho ruidoso."
 
 #. (itstool) path: section/para
 #: C/index.docbook:180
@@ -4049,6 +4302,8 @@ msgid ""
 "Verify that an option is available to stop animation and that it is working "
 "as designed."
 msgstr ""
+"Verifique se uma opção está disponível para interromper a animação e que "
+"está funcionando como projetado."
 
 #. (itstool) path: section/para
 #: C/index.docbook:183
@@ -4056,6 +4311,8 @@ msgid ""
 "Turn the animation off. Confirm that all information is still conveyed "
 "correctly."
 msgstr ""
+"Desligue a animação. Confirme se todas as informações ainda são transmitidas "
+"corretamente."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:192
@@ -4063,6 +4320,8 @@ msgid ""
 "Test all messages to confirm that the user is notified before a message "
 "times out and is given the option to indicate that more time is needed."
 msgstr ""
+"Teste todas as mensagens para confirmar que o usuário é notificado antes de "
+"uma mensagem expirar e tem a opção de indicar que é necessário mais tempo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:197
@@ -4070,6 +4329,8 @@ msgid ""
 "Make sure an option has been included to adjust the response time and "
 "confirm that it is working as designed."
 msgstr ""
+"Certifique-se de que uma opção foi incluída para ajustar o tempo de resposta "
+"e confirmar que ele está funcionando como projetado."
 
 #. (itstool) path: section/para
 #: C/index.docbook:206
@@ -4077,6 +4338,8 @@ msgid ""
 "Test ASCII text documentation with a screen reader to confirm that it is "
 "clear and precise and can be read by assistive technologies."
 msgstr ""
+"Teste a documentação de texto ASCII com um leitor de tela para confirmar que "
+"é claro e preciso e pode ser lido por tecnologias assistivas."
 
 #. (itstool) path: section/para
 #: C/index.docbook:209
@@ -4084,6 +4347,8 @@ msgid ""
 "Test HTML applications using a web browser and screen reader to confirm that "
 "the documentation is accessible to assistive technologies."
 msgstr ""
+"Teste aplicativos HTML usando um navegador da Web e um leitor de tela para "
+"confirmar que a documentação está acessível para tecnologias assistivas."
 
 #. (itstool) path: section/para
 #: C/index.docbook:212
@@ -4092,11 +4357,14 @@ msgid ""
 "\"http://www.w3.org/TR/WAI-WEBCONTENT/\">http://www.w3.org/TR/WAI-WEBCONTENT/"
 "</ulink>."
 msgstr ""
+"Nota: Existem diretrizes de acessibilidade web disponíveis em <ulink url="
+"\"http://www.w3.org/TR/WAI-WEBCONTENT/\">http://www.w3.org/TR/WAI-WEBCONTENT/"
+"</ulink>."
 
 #. (itstool) path: section/para
 #: C/index.docbook:215
 msgid "Confirm the following information is included in the documentation:"
-msgstr ""
+msgstr "Confirme que a seguinte informação está incluída na documentação:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:220
@@ -4104,16 +4372,18 @@ msgid ""
 "State if the application does not support the standard keyboard access used "
 "by the OS."
 msgstr ""
+"Indique se o aplicativo não oferece suporte ao acesso padrão ao teclado "
+"usado pelo sistema operacional."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:225
 msgid "Identify if there are unique keyboard commands."
-msgstr ""
+msgstr "Identifique se existem comandos de teclado exclusivos."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:230
 msgid "Identify any unique accessibility features."
-msgstr ""
+msgstr "Identifique quaisquer recursos exclusivos de acessibilidade."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:235
@@ -4121,6 +4391,8 @@ msgid ""
 "If an action is documented for the mouse, make sure there is an alternative "
 "for using the keyboard."
 msgstr ""
+"Se uma ação for documentada para o mouse, verifique se há uma alternativa "
+"para usar o teclado."
 
 #. (itstool) path: section/title
 #: C/index.docbook:243
@@ -4147,6 +4419,9 @@ msgid ""
 "the items in the list. Note whether the application passes or fails each "
 "test, or does not apply to that application."
 msgstr ""
+"Ao testar um aplicativo para acessibilidade, você deve passar por cada um "
+"dos itens da lista. Observe se o aplicativo passa ou falha em cada teste, ou "
+"não se aplica a esse pedido."
 
 #. (itstool) path: table/title
 #: C/index.docbook:251
@@ -4182,6 +4457,8 @@ msgid ""
 "Every action that alters the user's data or application's settings can be "
 "undone."
 msgstr ""
+"Todas as ações que alteram os dados do usuário ou as configurações do "
+"aplicativo podem ser desfeitas."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:268
@@ -4194,6 +4471,8 @@ msgid ""
 "All application settings can be restored to their defaults without the user "
 "having to remember what those defaults were."
 msgstr ""
+"Todas as configurações do aplicativo podem ser restauradas para seus "
+"padrões, sem que o usuário tenha que lembrar quais foram esses padrões."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:274
@@ -4206,6 +4485,8 @@ msgid ""
 "After installation, the application can be used without the user having to "
 "insert a disk or CD at any time."
 msgstr ""
+"Após a instalação, o aplicativo pode ser usado sem que o usuário tenha que "
+"inserir um disco ou CD a qualquer momento."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:279
@@ -4218,6 +4499,8 @@ msgid ""
 "The most frequently used functions are found at the top level of the menu "
 "structure."
 msgstr ""
+"As funções mais utilizadas são encontradas no nível superior da estrutura do "
+"menu."
 
 #. (itstool) path: table/title
 #: C/index.docbook:288
@@ -4238,6 +4521,7 @@ msgstr "NT.1"
 #: C/index.docbook:300
 msgid "Efficient keyboard access is provided to all application features."
 msgstr ""
+"Um acesso eficiente ao teclado é fornecido a todos os recursos do aplicativo."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:304
@@ -4247,7 +4531,7 @@ msgstr "NT.2"
 #. (itstool) path: row/entry
 #: C/index.docbook:305
 msgid "All windows have a logical keyboard navigation order."
-msgstr ""
+msgstr "Todas as janelas possuem uma ordem lógica de navegação no teclado."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:308
@@ -4260,6 +4544,8 @@ msgid ""
 "The correct tab order is used for controls whose enabled state is dependent "
 "on checkboxes, radio buttons or toggle buttons."
 msgstr ""
+"A ordem correta de abas é usada para controles cujo estado habilitado é "
+"dependente de caixas de seleção, botões de opção ou botões alternativos."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:313
@@ -4272,6 +4558,8 @@ msgid ""
 "Keyboard access to application-specific functions does not override existing "
 "system accessibility features."
 msgstr ""
+"O acesso do teclado a funções específicas do aplicativo não substitui os "
+"recursos existentes de acessibilidade do sistema."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:318
@@ -4284,6 +4572,8 @@ msgid ""
 "The application provides more than one method to perform keyboard tasks "
 "whenever possible."
 msgstr ""
+"O aplicativo fornece mais de um método para executar tarefas de teclado "
+"sempre que possível."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:323
@@ -4293,7 +4583,7 @@ msgstr "NT.6"
 #. (itstool) path: row/entry
 #: C/index.docbook:324
 msgid "There are alternative key combinations wherever possible."
-msgstr ""
+msgstr "Existem combinações de teclas alternativas sempre que possível."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:328
@@ -4305,6 +4595,8 @@ msgstr "NT.7"
 msgid ""
 "There are no awkward reaches for frequently performed keyboard operations."
 msgstr ""
+"Não há abordagens estranhas para operações de teclado realizadas com "
+"frequência."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:333
@@ -4315,6 +4607,7 @@ msgstr "NT.8"
 #: C/index.docbook:334
 msgid "The application does not use repetitive, simultaneous keypresses."
 msgstr ""
+"O aplicativo não usa pressionamentos de teclas repetitivos e simultâneos."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:338
@@ -4325,6 +4618,7 @@ msgstr "NT.9"
 #: C/index.docbook:339
 msgid "The application provides keyboard equivalents for all mouse functions."
 msgstr ""
+"O aplicativo fornece equivalentes de teclado para todas as funções do mouse."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:343
@@ -4337,6 +4631,8 @@ msgid ""
 "Any text or object that can be selected with the mouse can also be selected "
 "with the keyboard alone."
 msgstr ""
+"Qualquer texto ou objeto que pode ser selecionado com o mouse também pode "
+"ser selecionado com o teclado sozinho."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:348
@@ -4349,6 +4645,8 @@ msgid ""
 "Any object that can be resized or moved with the mouse can also be resized "
 "or moved with the keyboard alone."
 msgstr ""
+"Qualquer objeto que pode ser redimensionado ou movido com o mouse também "
+"pode ser redimensionado ou movido com o teclado sozinho."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:353
@@ -4361,6 +4659,7 @@ msgid ""
 "The application does not use any general navigation functions to trigger "
 "operations."
 msgstr ""
+"O aplicativo não usa nenhuma função de navegação geral para ativar operações."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:358
@@ -4373,6 +4672,8 @@ msgid ""
 "All keyboard-invoked menus, windows and tooltips appear near the object they "
 "relate to."
 msgstr ""
+"Todos os menus, janelas e dicas de ferramentas invocadas pelo teclado "
+"aparecem perto do objeto com o qual se relacionam."
 
 #. (itstool) path: table/title
 #: C/index.docbook:367
@@ -4395,6 +4696,8 @@ msgid ""
 "No operations depend on input from the <mousebutton>right</mousebutton> or "
 "<mousebutton>middle</mousebutton> mouse buttons."
 msgstr ""
+"Nenhuma operação depende da entrada do botão <mousebutton>direito</"
+"mousebutton> ou <mousebutton>meio</mousebutton> botões do mouse."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:381
@@ -4405,6 +4708,7 @@ msgstr "IM.2"
 #: C/index.docbook:382
 msgid "All mouse operations can be cancelled before they are complete."
 msgstr ""
+"Todas as operações do mouse podem ser canceladas antes de serem concluídas."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:385
@@ -4415,6 +4719,7 @@ msgstr "IM.3"
 #: C/index.docbook:386
 msgid "Visual feedback is provided throughout drag and drop operations"
 msgstr ""
+"O feedback visual é fornecido ao longo das operações de arrastar e soltar"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:390
@@ -4427,6 +4732,8 @@ msgid ""
 "The mouse pointer is never warped under application control, or its movement "
 "restricted to part of the screen by the application."
 msgstr ""
+"O ponteiro do mouse nunca é alterado sob o controle do aplicativo, ou seu "
+"movimento é restrito a parte da tela pelo aplicativo."
 
 #. (itstool) path: table/title
 #: C/index.docbook:399
@@ -4449,6 +4756,8 @@ msgid ""
 "There are no hard-coded graphical attributes such as line, border or shadow "
 "thickness."
 msgstr ""
+"Não há atributos gráficos codificados, como a espessura da linha, da borda "
+"ou da sombra."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:414
@@ -4461,6 +4770,8 @@ msgid ""
 "All multi-color graphical elements can be shown in monochrome only, where "
 "possible."
 msgstr ""
+"Todos os elementos gráficos multicoloridos podem ser mostrados apenas em "
+"monocromático, sempre que possível."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:419
@@ -4473,6 +4784,8 @@ msgid ""
 "All interactive GUI elements are easily distinguishable from static GUI "
 "elements."
 msgstr ""
+"Todos os elementos interativos da interface gráfica são facilmente "
+"distinguíveis dos estáticos."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:424
@@ -4482,7 +4795,7 @@ msgstr "EG.4"
 #. (itstool) path: row/entry
 #: C/index.docbook:425
 msgid "An option to hide non-essential graphics is provided."
-msgstr ""
+msgstr "É fornecida uma opção para ocultar gráficos não essenciais."
 
 #. (itstool) path: table/title
 #: C/index.docbook:433
@@ -4502,7 +4815,7 @@ msgstr "FT.1"
 #. (itstool) path: row/entry
 #: C/index.docbook:444
 msgid "No font styles or sizes are hard-coded."
-msgstr ""
+msgstr "Nenhum estilo ou tamanho de fonte é codificado."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:446
@@ -4513,6 +4826,8 @@ msgstr "FT.2"
 #: C/index.docbook:447
 msgid "An option to turn off graphical backdrops behind text is provided."
 msgstr ""
+"É fornecida uma opção para desativar os “backdrops” gráficos por trás do "
+"texto."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:451
@@ -4523,6 +4838,8 @@ msgstr "FT.3"
 #: C/index.docbook:452
 msgid "All labels have names that make sense when taken out of context."
 msgstr ""
+"Todos os rótulos possuem nomes que fazem sentido quando são retirados do "
+"contexto."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:456
@@ -4532,7 +4849,7 @@ msgstr "FT.4"
 #. (itstool) path: row/entry
 #: C/index.docbook:457
 msgid "No label names are used more than once in the same window."
-msgstr ""
+msgstr "Nenhum nome de rótulo é usado mais de uma vez na mesma janela."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:461
@@ -4542,7 +4859,7 @@ msgstr "FT.5"
 #. (itstool) path: row/entry
 #: C/index.docbook:462
 msgid "Label positioning is consistent throughout the application."
-msgstr ""
+msgstr "O posicionamento do rótulo é consistente ao longo do aplicativo."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:466
@@ -4553,6 +4870,8 @@ msgstr "FT.6"
 #: C/index.docbook:467
 msgid "All static text labels that identify other controls end in a colon (:)."
 msgstr ""
+"Todos os rótulos de texto estático que identificam outros controles terminam "
+"em dois pontos (:)."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:471
@@ -4565,6 +4884,8 @@ msgid ""
 "Static text labels that identify other controls immediately precede those "
 "controls in the tab order."
 msgstr ""
+"Os rótulos de texto estático que identificam outros controles imediatamente "
+"precedem esses controles na ordem de tabulação."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:476
@@ -4577,6 +4898,8 @@ msgid ""
 "An alternative to WYSIWYG is provided. For example, the ability to specify "
 "different screen and printer fonts in a text editor."
 msgstr ""
+"Uma alternativa ao WYSIWYG é fornecida. Por exemplo, a capacidade de "
+"especificar diferentes fontes de tela e impressora em um editor de texto."
 
 #. (itstool) path: table/title
 #: C/index.docbook:485
@@ -4599,6 +4922,8 @@ msgid ""
 "Application colors are not hard-coded, but are drawn either from the current "
 "desktop theme or an application setting."
 msgstr ""
+"As cores do aplicativo não são codificadas, mas são desenhadas a partir do "
+"tema atual da área de trabalho ou de uma configuração de aplicativo."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:500
@@ -4611,6 +4936,8 @@ msgid ""
 "Color is only used as an enhancement, and not as the only means to convey "
 "information or actions."
 msgstr ""
+"A cor é usada apenas como um aprimoramento e não como o único meio para "
+"transmitir informações ou ações."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:506
@@ -4622,6 +4949,8 @@ msgstr "CC.3"
 msgid ""
 "The application supports all available high- contrast themes and settings."
 msgstr ""
+"O aplicativo oferece suporte a todos os temas e configurações de alto "
+"contraste disponíveis."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:511
@@ -4634,6 +4963,8 @@ msgid ""
 "The software is not dependent on any particular high-contrast themes or "
 "settings."
 msgstr ""
+"O software não depende de nenhum dos temas ou configurações particulares de "
+"alto contraste."
 
 #. (itstool) path: table/title
 #: C/index.docbook:520
@@ -4653,7 +4984,7 @@ msgstr "AM.1"
 #. (itstool) path: row/entry
 #: C/index.docbook:531
 msgid "The application provides the ability to magnify the work area."
-msgstr ""
+msgstr "O aplicativo oferece a capacidade de ampliar a área de trabalho."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:535
@@ -4663,7 +4994,7 @@ msgstr "AM.2"
 #. (itstool) path: row/entry
 #: C/index.docbook:536
 msgid "The application provides the option to scale the work area."
-msgstr ""
+msgstr "O aplicativo oferece a opção de dimensionar a área de trabalho."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:540
@@ -4676,6 +5007,8 @@ msgid ""
 "The application's functionality is not affected by changing the "
 "magnification or scale settings."
 msgstr ""
+"A funcionalidade do aplicativo não é afetada pela alteração das "
+"configurações de ampliação ou escala."
 
 #. (itstool) path: table/title
 #: C/index.docbook:549
@@ -4697,6 +5030,8 @@ msgstr "AU.1"
 msgid ""
 "Sound is not used as the only means of conveying any items of information."
 msgstr ""
+"O som não é usado como o único meio de transmitir qualquer item de "
+"informação."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:564
@@ -4709,6 +5044,8 @@ msgid ""
 "The user can configure the frequency and volume of all sounds and warning "
 "beeps."
 msgstr ""
+"O usuário pode configurar a frequência e o volume de todos os sons e sinais "
+"sonoros de aviso."
 
 #. (itstool) path: table/title
 #: C/index.docbook:573
@@ -4731,6 +5068,8 @@ msgid ""
 "There are no flashing or blinking elements with a frequency greater than 2Hz "
 "or lower than 55Hz."
 msgstr ""
+"Não há elementos de clarão ou piscantes com uma frequência maior que 2Hz ou "
+"inferior a 55Hz."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:588
@@ -4740,7 +5079,7 @@ msgstr "AN.2"
 #. (itstool) path: row/entry
 #: C/index.docbook:589
 msgid "Any flashing or blinking is confined to small areas of the screen."
-msgstr ""
+msgstr "Qualquer clarão ou piscada esteja confinado a pequenas áreas da tela."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:593
@@ -4753,6 +5092,8 @@ msgid ""
 "If animation is used, an option is available to turn it off before it is "
 "first shown."
 msgstr ""
+"Se a animação é usada, uma opção está disponível para desligá-la antes que "
+"ela seja mostrada pela primeira vez."
 
 #. (itstool) path: table/title
 #: C/index.docbook:602
@@ -4773,7 +5114,7 @@ msgstr "FC.1"
 #: C/index.docbook:613
 msgid ""
 "When a window is opened, focus starts at the most commonly-used control."
-msgstr ""
+msgstr "Quando uma janela é aberta, o foco começa no controle mais comum."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:617
@@ -4784,6 +5125,7 @@ msgstr "FC.2"
 #: C/index.docbook:618
 msgid "Current input focus position is clearly displayed at all times."
 msgstr ""
+"A posição de foco de entrada atual é claramente exibida em todos os momentos."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:622
@@ -4794,6 +5136,7 @@ msgstr "FC.3"
 #: C/index.docbook:623
 msgid "Input focus is shown in exactly one window at all times."
 msgstr ""
+"O foco de entrada é mostrado exatamente em uma janela em todos os momentos."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:627
@@ -4806,6 +5149,8 @@ msgid ""
 "Appropriate audio or visual feedback is provided when the user attempts to "
 "navigate past either end of a group of related objects."
 msgstr ""
+"O feedback apropriado de áudio ou visual é fornecido quando o usuário tenta "
+"navegar após qualquer extremidade de um grupo de objetos relacionados."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:632
@@ -4818,6 +5163,8 @@ msgid ""
 "The default audio or visual warning signal is played when the user presses "
 "an inappropriate key."
 msgstr ""
+"O sinal de aviso de áudio ou visual padrão é reproduzido quando o usuário "
+"pressiona uma tecla inadequada."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:637
@@ -4830,6 +5177,8 @@ msgid ""
 "There is sufficient audio information for the visual focus that the user can "
 "figure out what to do next."
 msgstr ""
+"Há informações de áudio suficientes para o foco visual que o usuário pode "
+"descobrir o que fazer a seguir."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:642
@@ -4843,6 +5192,9 @@ msgid ""
 "device, the current program indicates the position and content of the visual "
 "focus indicator."
 msgstr ""
+"Ao usar tecnologias assistivas, como um leitor de tela ou um dispositivo "
+"braille, o programa atual indica a posição e o conteúdo do indicador de foco "
+"visual."
 
 #. (itstool) path: table/title
 #: C/index.docbook:651
@@ -4864,6 +5216,7 @@ msgstr "TM.1"
 msgid ""
 "There are no hard-coded time-outs or time-based features in the application."
 msgstr ""
+"Não há tempo limite codificado ou recursos baseados no tempo na aplicação."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:666
@@ -4876,6 +5229,8 @@ msgid ""
 "The display or hiding of important information is not triggered solely by "
 "movement of the mouse pointer."
 msgstr ""
+"A exibição ou o ocultação de informações importantes não são desencadeadas "
+"unicamente pelo movimento do ponteiro do mouse."
 
 #. (itstool) path: table/title
 #: C/index.docbook:675
@@ -4898,6 +5253,8 @@ msgid ""
 "All documentation is in an accessible format, with textual alternate "
 "descriptions provided for all figures and diagrams."
 msgstr ""
+"Toda a documentação está em um formato acessível, com descrições "
+"alternativas de texto fornecidas para todas as figuras e diagramas."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:690
@@ -4910,11 +5267,13 @@ msgid ""
 "The documentation includes a section that covers all the application's "
 "accessibility features."
 msgstr ""
+"A documentação inclui uma seção que cobre todos os recursos de "
+"acessibilidade da aplicação."
 
 #. (itstool) path: section/title
 #: C/index.docbook:701
 msgid "GOK (GNOME Onscreen Keyboard)"
-msgstr ""
+msgstr "GOK (teclado em tela do GNOME)"
 
 #. (itstool) path: note/para
 #: C/index.docbook:703
@@ -4924,6 +5283,10 @@ msgid ""
 "application> has effectively replaced GNOME 2's <application>gok</"
 "application>."
 msgstr ""
+"A informação nesta página está parcialmente desatualizada: "
+"<application><ulink url=\"http://wiki.gnome.org/Caribou\">Caribou</ulink></"
+"application> do GNOME 3 substitui com sucesso o <application>gok</"
+"application> do GNOME 2."
 
 #. (itstool) path: section/para
 #: C/index.docbook:708
@@ -4934,6 +5297,11 @@ msgid ""
 "desktop in general, ensuring any type of character input can be performed "
 "with the on-screen keyboard."
 msgstr ""
+"Seu aplicativo deve ser usável através do <application>gok</application>; a "
+"entrada de tecla deve ser gerada inteiramente pelo <application>gok</"
+"application>, e não no teclado. O objetivo aqui seria trabalhar com seu "
+"aplicativo e a área de trabalho em geral, garantindo que qualquer tipo de "
+"entrada de caractere possa ser executada com o teclado na tela."
 
 #. (itstool) path: section/para
 #: C/index.docbook:711
@@ -4942,6 +5310,9 @@ msgid ""
 "so should already be present. For full documentation, refer to <ulink url="
 "\"http://www.gok.ca\">the official gok site</ulink>."
 msgstr ""
+"O aplicativo <application>gok</application> vem com o ambiente GNOME, então "
+"já deve estar presente. Para a documentação completa, veja o <ulink url="
+"\"http://www.gok.ca\">site oficial do gok</ulink>."
 
 #. (itstool) path: section/para
 #: C/index.docbook:714
@@ -4949,6 +5320,8 @@ msgid ""
 "Follow these steps to verify the correct operation of <application>gok</"
 "application> with your application:"
 msgstr ""
+"Siga essas etapas para verificar a operação correta do <application>gok</"
+"application> com seu aplicativo:"
 
 #. (itstool) path: step/para
 #: C/index.docbook:719
@@ -4971,6 +5344,8 @@ msgid ""
 "Provide input to your application with a pointing device (e.g., mouse or "
 "head-tracker) and <application>gok</application>."
 msgstr ""
+"Forneça entrada ao seu aplicativo com um dispositivo de apontamento (por "
+"exemplo, mouse ou tracker principal) e <application>gok</application>."
 
 #. (itstool) path: step/para
 #: C/index.docbook:739
@@ -4978,6 +5353,8 @@ msgid ""
 "Work using the auto-completion and word prediction features of "
 "<application>gok</application>."
 msgstr ""
+"Trabalhe usando os recursos de autocompletamento e previsão de palavras de "
+"<application>gok</application>."
 
 #. (itstool) path: step/para
 #: C/index.docbook:744
@@ -4989,6 +5366,13 @@ msgid ""
 "'Font properties' capplet, but the same buttons are enabled for the "
 "<application>Gedit</application> application."
 msgstr ""
+"Verifique se o <application>gok</application> ativa ou desativa os botões de "
+"<guibutton>Menus</guibutton> e <guibutton>Barras de ferramentas</guibutton> "
+"baseado no tipo de aplicativo que é invocado; por exemplo, os botões de "
+"<guibutton>Menus</guibutton> e <guibutton>Barras de ferramentas</guibutton> "
+"são desabilitados para o miniaplicativo “Propriedades de fonte”, mas os "
+"mesmos botões são ativados para o aplicativo <application>Gedit</"
+"application>."
 
 #. (itstool) path: step/para
 #: C/index.docbook:749
@@ -5001,6 +5385,13 @@ msgid ""
 "screen keyboard. The characters should appear in the <application>Gedit</"
 "application> text area."
 msgstr ""
+"Verifique se o teclado em tela do <application>gok</application> fornecido "
+"pelo botão <guibutton>Compor</guibutton> pode ser usado para digitar em "
+"qualquer texto para o aplicativo selecionado; execute <application>Gedit</"
+"application>, clique na área de texto e então clique no botão de "
+"<guibutton>Compor</guibutton> no <application>gok</application>. Selecione "
+"as teclas necessárias do teclado em tela. Os caracteres devem aparecer na "
+"área de texto do <application>Gedit</application>."
 
 #. (itstool) path: step/para
 #: C/index.docbook:754
@@ -5009,6 +5400,10 @@ msgid ""
 "launch any of the <application>Terminal</application>, <application>Web "
 "Browser</application> or <application>Text Editor</application> applications."
 msgstr ""
+"Verifique se o botão <guibutton>Inicializar</guibutton> permite que o "
+"usuário inicie qualquer um dos aplicativos <application>Terminal</"
+"application>, <application>Navegador web</application> ou "
+"<application>Editor de texto</application>."
 
 #. (itstool) path: step/para
 #: C/index.docbook:759
@@ -5017,6 +5412,9 @@ msgid ""
 "activate any of the currently running application windows on the user's "
 "desktop, including GNOME panels and the GNOME desktop."
 msgstr ""
+"Verifique se o botão <guibutton>Ativar</guibutton> permite que o usuário "
+"ative qualquer das janelas de aplicativos atualmente em execução no sistema "
+"do usuário, incluindo painéis do GNOME e o ambiente do GNOME."
 
 #. (itstool) path: step/para
 #: C/index.docbook:764
@@ -5034,6 +5432,17 @@ msgid ""
 "Window</guibutton> and <guibutton>Close Window</guibutton> buttons (menu "
 "items)."
 msgstr ""
+"Verifique se o botão <guibutton>Menus</guibutton> lista todos os menus "
+"disponíveis no aplicativo atual. Verifique se clicar no botão de menu exibe "
+"o submenu e itens de menu contidos no submenu. Finalmente, verifique se "
+"clicar em um item de menu ativa o item de menu. Por exemplo, clique no "
+"aplicativo <application>Navegação de ajuda</application> e clique no botão "
+"<guibutton>Menus</guibutton>. A janela do <application>GOK</application> "
+"agora exibe os botões <guibutton>Arquivo</guibutton>, <guibutton>Ir</"
+"guibutton> e <guibutton>Ajuda</guibutton> (os menus do "
+"<application>Navegador de ajuda</application>). Clique no botão "
+"<guibutton>Arquivo</guibutton> e ele exibe os botões <guibutton>Nova janela</"
+"guibutton> e <guibutton>Fechar janela</guibutton> (itens de menu)."
 
 #. (itstool) path: step/para
 #: C/index.docbook:769
@@ -5045,6 +5454,12 @@ msgid ""
 "window now displays the <guibutton>Back</guibutton>, <guibutton>Forward</"
 "guibutton> and <guibutton>Home</guibutton> buttons."
 msgstr ""
+"Verifique se o botão <guibutton>Barras de ferramentas</guibutton> lista "
+"todos os botões disponíveis na barra de ferramentas do aplicativo. Por "
+"exemplo, clique no aplicativo <application>Navegador de ajuda</application> "
+"e clique no botão <guibutton>Barras de ferramentas</guibutton>. A janela "
+"<application>GOK</application> agora exibe os botões <guibutton>Voltar</"
+"guibutton>, <guibutton>Avançar</guibutton> e <guibutton>Início</guibutton>."
 
 #. (itstool) path: step/para
 #: C/index.docbook:774
@@ -5057,13 +5472,14 @@ msgid ""
 "capplet - <guibutton>Sans</guibutton>, <guibutton>Sans-serif</guibutton>, "
 "<guibutton>Close</guibutton> and <guibutton>Help</guibutton>."
 msgstr ""
-"Verifique que o botão <guibutton>UI Grab</guibutton> mostra todos os itens "
-"de objetos para a janela do aplicativo selecionado. Por exemplo, abra o "
-"capplet 'Propriedades de fonte' e clique no botão <guibutton>UI Grab</"
-"guibutton> na janela <application>GOK</application>. A janela do aplicativo "
-"<application>GOK</application> deve mostrar os nomes de botões no  capplet - "
-"<guibutton>Sans</guibutton>, <guibutton>Sans-serif</guibutton>, "
-"<guibutton>Close</guibutton> e <guibutton>Help</guibutton>."
+"Verifique se o botão <guibutton>Capturar UI</guibutton> mostra todos os "
+"itens de objetos para a janela do aplicativo selecionado. Por exemplo, abra "
+"o miniaplicativo “Propriedades de fonte” e clique no botão <guibutton>"
+"Capturar UI</guibutton> na janela <application>GOK</application>. A janela "
+"do aplicativo <application>GOK</application> deve mostrar os nomes de botões "
+"no miniaplicativo – <guibutton>Sans</guibutton>, <guibutton>Sans-"
+"serif</guibutton>, <guibutton>Fechar</guibutton> e "
+"<guibutton>Ajuda</guibutton>."
 
 #. (itstool) path: section/title
 #: C/index.docbook:782
