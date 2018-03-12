@@ -1,3 +1,16 @@
+3.28.0
+======
+
+* Modernise JS usage in platform overview and demos, #791111 (Florian Müllner)
+* Update spell-checking page in platform overview, #781265 (Sébastien Wilmet)
+* Glade updates in platform overview (Andre Klapper)
+* Updated translations:
+  cs      (Marek Černocký)
+  de      (Christian Kirbach, Mario Blättermann)
+  es      (Daniel Mustieles)
+  pt_BR   (Rafael Fontenelle)
+  sv      (Anders Jonsson)
+
 3.26.0
 ======
 
