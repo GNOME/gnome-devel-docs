@@ -1,23 +1,23 @@
 # Daniel Nylander <po@danielnylander.se>, 2007.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview\n"
-"POT-Creation-Date: 2017-09-16 18:33+0000\n"
-"PO-Revision-Date: 2017-10-25 13:16+0200\n"
+"POT-Creation-Date: 2018-03-30 21:35+0000\n"
+"PO-Revision-Date: 2018-04-09 02:26+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
 msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
-msgstr "Create Commons Erkännande-DelaLika 3.0 USA"
+msgstr "Creative Commons Erkännande-DelaLika 3.0 Förenta Staterna"
 
 #. (itstool) path: license/p
 #: C/cc-by-sa-3-0.xml:3
@@ -36,11 +36,11 @@ msgstr ""
 "du väljer, utan restriktioner."
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#, fuzzy
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Daniel Nylander <po@danielnylander.se>, 2007"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>, 2007\n"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018"
 
 #. (itstool) path: credit/name
 #: C/dev-help-appmenu.page:11 C/dev-help-build.page:11 C/dev-help.page:14
@@ -54,16 +54,16 @@ msgstr "Radina Matic"
 #: C/dev-translate-tools.page:12 C/overview-io.page:17 C/overview-media.page:12
 #: C/overview-net.page:12 C/overview-settings.page:12 C/overview-ui.page:12
 #: C/tech-avahi.page:12 C/tech-canberra.page:13 C/tech-champlain.page:12
-#: C/tech-enchant.page:12 C/tech-folks.page:12 C/tech-gda.page:13 C/tech-geoclue2.page:12
+#: C/tech-folks.page:12 C/tech-gda.page:13 C/tech-geoclue2.page:12
 #: C/tech-geocode-glib.page:12 C/tech-gio-network.page:13 C/tech-gio.page:18
 #: C/tech-glib.page:12 C/tech-gobject.page:11 C/tech-gsettings.page:13
 #: C/tech-network-manager.page:12 C/tech-notify.page:18 C/tech-polkit.page:12
-#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-telepathy.page:18
-#: C/tech-tracker.page:12 C/tech-webkit.page:18 C/tour-application.page:13
-#: C/tour-application.page:18 C/tour-events.page:13 C/tour-events.page:18
-#: C/tour-get_object.page:13 C/tour-get_object.page:18 C/tour-gjs.page:13
-#: C/tour-gjs.page:18 C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14
-#: C/tour.page:19 C/tour-summary.page:12 C/tour-summary.page:17
+#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-spell-checking.page:12
+#: C/tech-telepathy.page:18 C/tech-tracker.page:12 C/tech-webkit.page:18
+#: C/tour-application.page:13 C/tour-application.page:18 C/tour-events.page:13
+#: C/tour-events.page:18 C/tour-get_object.page:13 C/tour-get_object.page:18
+#: C/tour-gjs.page:13 C/tour-gjs.page:18 C/tour-glade.page:13 C/tour-glade.page:18
+#: C/tour.page:14 C/tour.page:19 C/tour-summary.page:12 C/tour-summary.page:17
 msgid "2013"
 msgstr "2013"
 
@@ -78,13 +78,13 @@ msgstr "Ekaterina Gerasimova"
 #. (itstool) path: page/title
 #: C/dev-help-appmenu.page:25
 msgid "Add <gui>Help</gui> to the application menu"
-msgstr ""
+msgstr "Lägg till <gui>Hjälp</gui> till programmenyn"
 
 #. (itstool) path: links/title
 #: C/dev-help-appmenu.page:28 C/dev-help-build.page:28 C/dev-help.page:33
 #: C/dev-help-write.page:23
 msgid "Set up help"
-msgstr ""
+msgstr "Konfigurera hjälp"
 
 #. (itstool) path: page/p
 #: C/dev-help-appmenu.page:31
@@ -93,6 +93,8 @@ msgid ""
 "\">Help</gui> menu item should go above the <gui style=\"menuitem\">About</gui> menu "
 "item."
 msgstr ""
+"De flesta GNOME-programmen bör ha en programmeny. Menyposten <gui style=\"menuitem"
+"\">Hjälp</gui> bör ligga ovanför menyposten <gui style=\"menuitem\">Om</gui>."
 
 #. (itstool) path: note/p
 #: C/dev-help-appmenu.page:37
@@ -101,11 +103,14 @@ msgid ""
 "main.vala\">Cheese</app>, assumes that your application is written in Vala. It will be "
 "slightly different for other programming languages."
 msgstr ""
+"Detta exempel, baserat på <app href=\"https://git.gnome.org/browse/cheese/tree/src/"
+"cheese-main.vala\">Cheese</app>, förutsätter att ditt program är skrivet i Vala. Det "
+"kommer se ut något annorlunda för andra programmeringsspråk."
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:43
 msgid "Add the <gui style=\"menuitem\">Help</gui> item to the list of actions:"
-msgstr ""
+msgstr "Lägg till <gui style=\"menuitem\">Hjälp</gui>-posten till listan över åtgärder:"
 
 #. (itstool) path: example/code
 #: C/dev-help-appmenu.page:44
@@ -120,11 +125,19 @@ msgid ""
 "\n"
 "   add_action_entries (action_entries, my_Gtk_Application);\n"
 msgstr ""
+"\n"
+"   private const GLib.ActionEntry action_entries[] = {\n"
+"        <input>{ \"help\", on_help },</input>\n"
+"        { \"about\", on_about },\n"
+"        { \"quit\", on_quit }\n"
+"    };\n"
+"\n"
+"   add_action_entries (action_entries, my_Gtk_Application);\n"
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:54
 msgid "Add the <gui style=\"menuitem\">Help</gui> menu item to the application menu:"
-msgstr ""
+msgstr "Lägg till menyposten <gui style=\"menuitem\">Hjälp</gui> till programmenyn:"
 
 #. (itstool) path: example/code
 #: C/dev-help-appmenu.page:57
@@ -138,6 +151,13 @@ msgid ""
 "  item.set_attribute (\"accel\", \"s\", \"F1\");\n"
 "  section.append_item (item);</input>\n"
 msgstr ""
+"\n"
+"  var menu = new GLib.Menu ();\n"
+"  var section = new GLib.Menu ();\n"
+"\n"
+"  <input>var item = new GLib.MenuItem (_(\"_Hjälp\"), \"app.help\");\n"
+"  item.set_attribute (\"accel\", \"s\", \"F1\");\n"
+"  section.append_item (item);</input>\n"
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:66
@@ -145,6 +165,8 @@ msgid ""
 "View the help with <app>Yelp</app> when the <gui style=\"menuitem\">Help</gui> menu item "
 "is clicked:"
 msgstr ""
+"Visa hjälpen med <app>Yelp</app> när menyposten <gui style=\"menuitem\">Hjälp</gui> "
+"klickas:"
 
 #. (itstool) path: example/code
 #: C/dev-help-appmenu.page:69
@@ -164,6 +186,19 @@ msgid ""
 "    }\n"
 "  }\n"
 msgstr ""
+"\n"
+"  private void on_help ()\n"
+"  {\n"
+"    var screen = main_window.get_screen ();\n"
+"    try\n"
+"    {\n"
+"      Gtk.show_uri (screen, <input>\"help:cheese\"</input>, Gtk.get_current_event_time ());\n"
+"    }\n"
+"    catch (Error err)\n"
+"    {\n"
+"      message (\"Fel vid öppnande av hjälp: %s\", err.message);\n"
+"    }\n"
+"  }\n"
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:84
@@ -171,21 +206,23 @@ msgid ""
 "To link to a section on the <file>index.page</file>, use <code>\"help:"
 "<input>applicationname</input>/index#<input>sectionid</input>\"</code>."
 msgstr ""
+"För att länka till ett avsnitt i <file>index.page</file>, använd <code>\"help:"
+"<input>programnamn</input>/index#<input>avsnitts-ID</input>\"</code>."
 
 #. (itstool) path: page/title
 #: C/dev-help-build.page:25
 msgid "Set up your build system"
-msgstr ""
+msgstr "Konfigurera ditt byggsystem"
 
 #. (itstool) path: page/p
 #: C/dev-help-build.page:31
 msgid "Help is normally installed into the <_:file-1/> directory."
-msgstr ""
+msgstr "Hjälp installeras vanligen i katalogen <_:file-1/>."
 
 #. (itstool) path: page/p
 #: C/dev-help-build.page:34
 msgid "Add the following lines in the file <file>configure.ac</file>:"
-msgstr ""
+msgstr "Lägg till följande rader i filen <file>configure.ac</file>:"
 
 #. (itstool) path: page/code
 #: C/dev-help-build.page:36
@@ -208,7 +245,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dev-help-build.page:42
 msgid "Add the following line to the <file>Makefile.am</file>:"
-msgstr ""
+msgstr "Lägg till följande rad till <file>Makefile.am</file>:"
 
 #. (itstool) path: page/code
 #: C/dev-help-build.page:43
@@ -222,6 +259,8 @@ msgid ""
 "Add a <file>help/Makefile.am</file>, it should list the help files in your project that "
 "you want to install:"
 msgstr ""
+"Lägg till en <file>help/Makefile.am</file>, den ska lista hjälpfilerna som du vill "
+"installera i ditt projekt:"
 
 #. (itstool) path: page/code
 #: C/dev-help-build.page:47
@@ -245,16 +284,33 @@ msgid ""
 "# Translated languages, blank if no translations exist\n"
 "HELP_LINGUAS = en_GB \n"
 msgstr ""
+"\n"
+"@YELP_HELP_RULES@\n"
+"\n"
+"HELP_ID = <input>programnamn</input>\n"
+"\n"
+"# Mediafiler\n"
+"HELP_MEDIA = \\\n"
+"\tfigures/icon.png\n"
+"\n"
+"# Hjälpsidor\n"
+"HELP_FILES = \\\n"
+"\tindex.page \\\n"
+"\tintroduction.page \\\n"
+"\tanotherpage.page\n"
+"\n"
+"# Översatta språk, tom om inga översättningar finns\n"
+"HELP_LINGUAS = en_GB \n"
 
 #. (itstool) path: info/desc
 #: C/dev-help.page:26
 msgid "Application and context sensitive user help and documentation."
-msgstr ""
+msgstr "Program- och sammanhangskänslig användarhjälp och dokumentation."
 
 #. (itstool) path: page/title
 #: C/dev-help.page:30
 msgid "User help"
-msgstr ""
+msgstr "Användarhjälp"
 
 #. (itstool) path: page/p
 #: C/dev-help.page:36
@@ -262,6 +318,8 @@ msgid ""
 "You may want to add help, such as an introduction to your application or a list of "
 "keyboard shortcuts, to your application."
 msgstr ""
+"Du kan vilja lägga till hjälp till ditt program, så som en introduktion för ditt program "
+"eller en lista över tangentbordsgenvägar."
 
 #. (itstool) path: page/p
 #: C/dev-help.page:39
@@ -269,16 +327,18 @@ msgid ""
 "Use <app>yelp-tools</app> to build <link href=\"http://www.projectmallard.org/"
 "\">Mallard</link> help which can be discrete or integrated with other application help."
 msgstr ""
+"Använd <app>yelp-tools</app> för att bygga <link href=\"http://www.projectmallard.org/"
+"\">Mallard</link>-hjälp som kan vara fristående eller integrerad med annan programhjälp."
 
 #. (itstool) path: page/p
 #: C/dev-help.page:43
 msgid "Mallard is a markup language which is designed for topic-oriented help."
-msgstr ""
+msgstr "Mallard är ett märkspråk som är designat för ämnesorienterad hjälp."
 
 #. (itstool) path: page/title
 #: C/dev-help-write.page:20
 msgid "Write some help"
-msgstr ""
+msgstr "Skriv lite hjälp"
 
 #. (itstool) path: page/p
 #: C/dev-help-write.page:26
@@ -286,6 +346,8 @@ msgid ""
 "Write some <link href=\"http://www.projectmallard.org/\">Mallard</link> pages and add "
 "them to <file>help/C/</file>."
 msgstr ""
+"Skriv några <link href=\"http://www.projectmallard.org/\">Mallard</link>-sidor och lägg "
+"till dem i <file>help/C/</file>."
 
 #. (itstool) path: page/p
 #: C/dev-help-write.page:29
@@ -294,6 +356,9 @@ msgid ""
 "you may not need an <file>index.page</file> if you are dropping plugin help into another "
 "project."
 msgstr ""
+"De flesta projekt bör ha en <file>index.page</file> och några innehållssidor, men du "
+"behöver kanske inte en <file>index.page</file> om du lägger till insticksmodulhjälp i "
+"ett annat projekt."
 
 #. (itstool) path: listing/title
 #: C/dev-help-write.page:35
@@ -327,11 +392,33 @@ msgid ""
 "\n"
 "&lt;/page&gt;\n"
 msgstr ""
+"\n"
+"&lt;page xmlns=\"http://projectmallard.org/1.0/\"\n"
+"      xmlns:its=\"http://www.w3.org/2005/11/its\"\n"
+"      type=\"guide\"\n"
+"      id=\"index\"&gt;\n"
+"\n"
+"  &lt;info&gt;\n"
+"    &lt;revision pkgversion=\"3.9\" date=\"2013-06-19\" status=\"stub\"/&gt;\n"
+"\n"
+"    &lt;include href=\"legal.xml\" xmlns=\"http://www.w3.org/2001/XInclude\"/&gt;\n"
+"  &lt;/info&gt;\n"
+"\n"
+"  &lt;title&gt;\n"
+"    &lt;media type=\"image\" mime=\"image/png\" its:translate=\"no\" src=\"figures/icon.png\" /&gt;\n"
+"    Programnamn\n"
+"  &lt;/title&gt;\n"
+"\n"
+"  &lt;section id=\"features\" style=\"2column\"&gt;\n"
+"    &lt;title&gt;Funktioner&lt;/title&gt;\n"
+"  &lt;/section&gt;\n"
+"\n"
+"&lt;/page&gt;\n"
 
 #. (itstool) path: listing/title
 #: C/dev-help-write.page:62
 msgid "<file>help/C/introduction.page</file>"
-msgstr ""
+msgstr "<file>help/C/introduction.page</file>"
 
 #. (itstool) path: listing/code
 #: C/dev-help-write.page:63
@@ -368,6 +455,36 @@ msgid ""
 "\n"
 "&lt;/page&gt;\n"
 msgstr ""
+"\n"
+"&lt;page xmlns=\"http://projectmallard.org/1.0/\"\n"
+"      xmlns:its=\"http://www.w3.org/2005/11/its\"\n"
+"      type=\"topic\"\n"
+"      id=\"introduction\"&gt;\n"
+"\n"
+"  &lt;info&gt;\n"
+"    &lt;link type=\"guide\" xref=\"index\"/&gt;\n"
+"&lt;!--\n"
+"    &lt;link type=\"guide\" xref=\"index#features\"/&gt;\n"
+"    &lt;link type=\"seealso\" xref=\"anotherpageid\"/&gt;\n"
+"--&gt;\n"
+"    &lt;revision pkgversion=\"3.9\" date=\"2013-06-19\" status=\"stub\"/&gt;\n"
+" \n"
+"    &lt;credit type=\"author\"&gt;\n"
+"      &lt;name&gt;Ditt namn&lt;/name&gt;\n"
+"      &lt;email its:translate=\"no\"&gt;mail@example.com&lt;/email&gt;\n"
+"      &lt;years&gt;2013&lt;/years&gt;\n"
+"    &lt;/credit&gt;\n"
+" \n"
+"    &lt;include href=\"legal.xml\" xmlns=\"http://www.w3.org/2001/XInclude\"/&gt;\n"
+"\n"
+"    &lt;desc&gt;Välkommen till _Programnamn_&lt;/desc&gt;\n"
+"  &lt;/info&gt;\n"
+"\n"
+"  &lt;title&gt;Introduktion&lt;/title&gt;\n"
+"\n"
+"  &lt;p&gt;Detta program är fantastiskt!&lt;/p&gt;\n"
+"\n"
+"&lt;/page&gt;\n"
 
 #. (itstool) path: credit/name
 #: C/dev-launching-desktop.page:11 C/dev-launching-icons.page:11
@@ -387,20 +504,21 @@ msgstr "2014"
 #. (itstool) path: page/title
 #: C/dev-launching-desktop.page:20
 msgid "Install a desktop file"
-msgstr ""
+msgstr "Installera en desktop-fil"
 
 #. (itstool) path: links/title
 #: C/dev-launching-desktop.page:23 C/dev-launching-icons.page:23
 #: C/dev-launching-mime.page:22 C/dev-launching-startupnotify.page:23
 #: C/dev-launching.page:28
 msgid "Launch your application"
-msgstr ""
+msgstr "Kör ditt program"
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:26
 msgid ""
 "Write and install a desktop file so that users can discover and launch your application."
 msgstr ""
+"Skriv och installera en desktop-fil så att användare kan upptäcka och köra ditt program."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:29
@@ -411,6 +529,11 @@ msgid ""
 "application launchers. Installing a desktop file is the standard way to register your "
 "application with GNOME and other desktops."
 msgstr ""
+"GNOME använder freedesktop.orgs specifikationer <link href=\"http://standards."
+"freedesktop.org/desktop-entry-spec/latest/index.html\">Desktop Entry</link> och <link "
+"href=\"http://standards.freedesktop.org/menu-spec/latest/\">Desktop Menu</link> för att "
+"beskriva programstartare. Att installera en desktop-fil är standardsättet att registrera "
+"ditt program med GNOME och andra skrivbord."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:37
@@ -418,6 +541,8 @@ msgid ""
 "A desktop file lists your application binary, name and type, and can also list an icon, "
 "description and several other pieces of information about launching an application."
 msgstr ""
+"En desktop-fil listar din programs binärfil, namn och typ, och kan även lista en ikon, "
+"beskrivning och diverse annan information om att köra ditt program."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:41
@@ -425,11 +550,12 @@ msgid ""
 "For a hypothetical application <app>My Application</app>, a desktop file would look as "
 "follows:"
 msgstr ""
+"För ett tänkt program <app>Mitt program</app>, skulle en desktop-fil se ut som följer:"
 
 #. (itstool) path: listing/title
 #: C/dev-launching-desktop.page:45 C/dev-launching-mime.page:33
 msgid "<file>myapplication.desktop</file>"
-msgstr ""
+msgstr "<file>mittprogram.desktop</file>"
 
 #. (itstool) path: listing/code
 #: C/dev-launching-desktop.page:46
@@ -443,6 +569,13 @@ msgid ""
 "Comment=Do the thing that the application does\n"
 "Categories=GTK;GNOME;Utility;"
 msgstr ""
+"[Desktop Entry]\n"
+"Name=Mitt program\n"
+"Exec=mittprogram\n"
+"Type=Application\n"
+"Icon=mittprogram\n"
+"Comment=Gör saken som programmet gör\n"
+"Categories=GTK;GNOME;Utility;"
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:56
@@ -455,6 +588,13 @@ msgid ""
 "which for applications is always <code>Application</code>. Alternative types are listed "
 "in the desktop entry specification."
 msgstr ""
+"Raden <code>[Desktop Entry]</code> indikerar att detta är en desktop-fil. Den följs av "
+"nycklar som beskriver programstartaren. Nyckeln <code>Name</code> är programmets namn "
+"för mänsklig konsumtion, vilket kommer att visas i användargränssnittet. Programmets "
+"binärfil listas i nyckeln <code>Exec</code>, antingen den fullständiga sökvägen eller en "
+"binärfil som slås upp i <code>PATH</code>. Den sista obligatoriska nyckeln är "
+"<code>Type</code>, vilken alltid är <code>Application</code> för program. Alternativa "
+"typer finns listade i desktop entry-specifikationen."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:65
@@ -466,6 +606,11 @@ msgid ""
 "should be populated with a list of categories, separated by a semicolon, from the "
 "Desktop Menu Specification."
 msgstr ""
+"Andra fält i desktop-filen är valfria, men rekommenderas. Program bör installera en "
+"ikon, och lista namnet på ikonen (utan filändelsen) i nyckeln <code>Icon</code>. "
+"<code>Comment</code> är en kort beskrivning av programmet. För att hjälpa användare då "
+"de bläddrar bland program bör nyckeln <code>Categories</code> fyllas i med en lista över "
+"kategorier, avskilda med semikolon, från Desktop Menu-specifikationen."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:73
@@ -473,16 +618,18 @@ msgid ""
 "There are several other keys that can be added to desktop files, which are listed and "
 "described in the Desktop Entry Specification."
 msgstr ""
+"Det finns flera andra nycklar som kan läggas till i desktop-filer. Dessa finns listade "
+"och beskrivna i Desktop Entry-specifikationen."
 
 #. (itstool) path: page/title
 #: C/dev-launching-icons.page:20
 msgid "Install an icon"
-msgstr ""
+msgstr "Installera en ikon"
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:26
 msgid "Install an icon to identify your application."
-msgstr ""
+msgstr "Installera en ikon att identifiera ditt program med."
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:28
@@ -494,6 +641,12 @@ msgid ""
 "specifications</link>. As a minimum, an application should install a 48×48 pixel icon "
 "into <file><var>$prefix</var>/share/icons/hicolor/48x48/apps</file> in PNG format."
 msgstr ""
+"Då en ikon listas i en desktop-fil måste bilden vara installerad på en standardplats, "
+"given av freedesktop.org-specifikationerna <link href=\"http://standards.freedesktop.org/"
+"icon-theme-spec/icon-theme-spec-latest.html\">Icon Theme</link> och <link href=\"http://"
+"standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html\">Icon Naming</"
+"link>. Som ett minimum bör ett program installera en ikon på 48×48 bildpunkter till "
+"<file><var>$prefix</var>/share/icons/hicolor/48x48/apps</file> i PNG-format."
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:37
@@ -502,16 +655,19 @@ msgid ""
 "\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines\">Tango Icon Theme "
 "guidelines</link> when creating icons and application artwork."
 msgstr ""
+"För att de ska passa med andra ikoner, både i GNOME och i andra plattformar, följ <link "
+"href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines\">temariktlinjerna för "
+"Tango-ikoner</link> då ikoner och programgrafik skapas."
 
 #. (itstool) path: page/title
 #: C/dev-launching-mime.page:19
 msgid "Associate MIME types"
-msgstr ""
+msgstr "Associera MIME-typer"
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:25
 msgid "Associate files with your application, using MIME types."
-msgstr ""
+msgstr "Associera filer med ditt program med hjälp av MIME-typer."
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:27
@@ -519,6 +675,8 @@ msgid ""
 "If your application opens files of a certain type, such as PNG images, you can add an "
 "association with the MIME type of the file. This is added to the desktop file."
 msgstr ""
+"Om ditt program öppnar filer av en särskild typ, så som PNG-bilder, så kan du lägga till "
+"en association med filens MIME-typ. Denna lägg till i desktop-filen."
 
 #. (itstool) path: listing/code
 #: C/dev-launching-mime.page:34
@@ -530,14 +688,20 @@ msgid ""
 "Type=Application\n"
 "MimeType=image/png"
 msgstr ""
+"[Desktop Entry]\n"
+"Name=Mitt program\n"
+"Exec=mittprogram\n"
+"Type=Application\n"
+"MimeType=image/png"
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:42
 msgid ""
 "For this hypothetical application, <code>image/png</code> is listed as the supported "
 "MIME type."
-msgstr ""
+msgstr "För detta tänkta program listas <code>image/png</code> som den MIME-typ som stöds."
 
+# TODO: "*See* the ... for details."
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:45
 msgid ""
@@ -545,19 +709,22 @@ msgid ""
 "scope of this guide. The <link href=\"http://standards.freedesktop.org/shared-mime-info-"
 "spec/latest/\">Shared MIME-Info Database</link> specification for more details."
 msgstr ""
+"Anpassade MIME-typer kan läggas till i den systemomfattande MIME-databasen, men det är "
+"utanför omfattningen för denna guide. Se <link href=\"http://standards.freedesktop.org/"
+"shared-mime-info-spec/latest/\">Shared MIME-Info Database</link>-specifikationen för mer "
+"detaljer."
 
 #. (itstool) path: page/title
 #: C/dev-launching-startupnotify.page:20
-#, fuzzy
-#| msgid "Notification Area"
 msgid "Startup Notification"
-msgstr "Aviseringsyta"
+msgstr "Uppstartsavisering"
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:26
 msgid "Notify the user when your application has finished starting up."
-msgstr ""
+msgstr "Avisera användaren då ditt program har startats färdigt."
 
+# TODO: should be https://www.freedesktop.org/wiki/Specifications/startup-notification-spec/
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:28
 msgid ""
@@ -565,6 +732,9 @@ msgid ""
 "latest/index.html\">Startup Notification protocol</link>, to give feedback to the user "
 "when application startup finishes."
 msgstr ""
+"GNOME implementerar <link href=\"http://standards.freedesktop.org/desktop-entry-spec/"
+"latest/index.html\">Startup Notification-protokollet</link> för att ge återkoppling till "
+"användaren då programmets uppstart är klar."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:33
@@ -574,6 +744,10 @@ msgid ""
 "declare that it supports startup notification by adding <code>StartupNotify=true</code> "
 "to its desktop file."
 msgstr ""
+"GTK+-program stöder automatiskt uppstartsavisering, och aviserar som standard att "
+"programmets uppstart är färdig då det första fönstret visas. Ditt program måste "
+"deklarera att det stöder uppstartsavisering genom att lägga till "
+"<code>StartupNotify=true</code> till sin desktop-fil."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:38
@@ -582,16 +756,19 @@ msgid ""
 "would need custom handling with <code href=\"https://developer.gnome.org/gdk3/stable/"
 "gdk3-General.html#gdk-notify-startup-complete\">gdk_notify_startup_complete()</code>."
 msgstr ""
+"Mer komplicerade uppstartsscenarier, så som att visa en startbild under uppstart, skulle "
+"behöva anpassad hantering med <code href=\"https://developer.gnome.org/gdk3/stable/gdk3-"
+"General.html#gdk-notify-startup-complete\">gdk_notify_startup_complete()</code>."
 
 #. (itstool) path: info/desc
 #: C/dev-launching.page:21
 msgid "Showing a launcher and starting your application."
-msgstr ""
+msgstr "Visa en programstartare och starta ditt program."
 
 #. (itstool) path: page/title
 #: C/dev-launching.page:25
 msgid "Application launching"
-msgstr ""
+msgstr "Uppstart av program"
 
 #. (itstool) path: page/p
 #: C/dev-launching.page:31
@@ -600,16 +777,19 @@ msgid ""
 "freedesktop.org Desktop Entry Specification standard to create a desktop file, giving "
 "your application name, icon and a brief description."
 msgstr ""
+"En ikon i programstartaren är standardsättet att köra ditt program. Använd standarden i "
+"freedesktop.orgs Desktop Entry-specifikation för att skapa en desktop-fil, samt ge ditt "
+"program ett namn, en ikon och en kort beskrivning."
 
 #. (itstool) path: info/desc
 #: C/dev-thumbnailer.page:20
 msgid "Thumbnails for document-like files."
-msgstr ""
+msgstr "Miniatyrbilder för dokumentlika filer."
 
 #. (itstool) path: page/title
 #: C/dev-thumbnailer.page:24
 msgid "File thumbnails"
-msgstr ""
+msgstr "Miniatyrbilder av filer"
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:26
@@ -618,6 +798,9 @@ msgid ""
 "a document, adding a thumbnailer makes the files show up in <app>Files</app> with images "
 "that correspond to the document."
 msgstr ""
+"Om ditt program hanterar filer som skulle kunna skrivas ut eller representeras bra som "
+"ett dokument, skulle att lägga till en miniatyrbildskapare få filerna att visas i "
+"<app>Filer</app> med bilder som motsvarar dokumentet."
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:30
@@ -627,6 +810,10 @@ msgid ""
 "\"https://developer.gnome.org/gnome-desktop3/stable/GnomeDesktopThumbnailFactory.html"
 "\">GnomeDesktopThumbnailFactory</link>."
 msgstr ""
+"Biblioteket gnome-desktop definierar gränssnittet och associerade filer som en "
+"miniatyrbildskapare måste implementera. Komponenten som är ansvarig för att anropa "
+"miniatyrbildskaparen är <link href=\"https://developer.gnome.org/gnome-desktop3/stable/"
+"GnomeDesktopThumbnailFactory.html\">GnomeDesktopThumbnailFactory</link>."
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:34
@@ -635,22 +822,27 @@ msgid ""
 "generation, is <link href=\"https://github.com/hadess/gnome-thumbnailer-skeleton\">gnome-"
 "thumbnailer-skeleton</link>."
 msgstr ""
+"En gemensam hjälp för miniatyrbildskapare, vilken hanterar kommandoradstolkningen och "
+"skapandet av utdatafiler, är <link href=\"https://github.com/hadess/gnome-thumbnailer-"
+"skeleton\">gnome-thumbnailer-skeleton</link>."
 
 #. (itstool) path: page/title
 #: C/dev-translate-build.page:21
 msgid "Set up your build system for translation"
-msgstr ""
+msgstr "Konfigurera ditt byggsystem för översättning"
 
 #. (itstool) path: links/title
 #: C/dev-translate-build.page:24 C/dev-translate.page:25 C/dev-translate-setup.page:24
 #: C/dev-translate-tools.page:23
 msgid "Set up translations"
-msgstr ""
+msgstr "Konfigurera översättningar"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:27
 msgid "You will need to set up your project and build system to work with translations."
 msgstr ""
+"Du måste konfigurera ditt projekt och byggsystem för att de ska fungera med "
+"översättningar."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:30
@@ -659,11 +851,14 @@ msgid ""
 "which have translatable strings in <file>po/POTFILES.in</file>. List files <em>without</"
 "em> translatable strings in <file>po/POTFILES.skip</file>."
 msgstr ""
+"Skapa en <file>po/</file>-underkatalog i din projektkatalog och lista filerna som har "
+"översättningsbara strängar i <file>po/POTFILES.in</file>. Lista filer <em>utan</em> "
+"översättningsbara strängar i <file>po/POTFILES.skip</file>."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:35
 msgid "Add the following lines to your <file>configure.ac</file>:"
-msgstr ""
+msgstr "Lägg till följande rader till din <file>configure.ac</file>:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:36
@@ -674,11 +869,15 @@ msgid ""
 "AC_SUBST([GETTEXT_PACKAGE], [$PACKAGE_TARNAME])\n"
 "AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], [\"$GETTEXT_PACKAGE\"], [Package name for gettext])"
 msgstr ""
+"\n"
+"IT_PROG_INTLTOOL([0.50.0])\n"
+"AC_SUBST([GETTEXT_PACKAGE], [$PACKAGE_TARNAME])\n"
+"AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], [\"$GETTEXT_PACKAGE\"], [Package name for gettext])"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:41
 msgid "Add the following lines to your <file>Makefile.am</file>:"
-msgstr ""
+msgstr "Lägg till följande rader till din <file>Makefile.am</file>:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:42
@@ -697,6 +896,8 @@ msgid ""
 "\n"
 "AM_CPPFLAGS = -DPACKAGE_LOCALEDIR=\\\"\"$(datadir)/locale\"\\\"\n"
 msgstr ""
+"\n"
+"AM_CPPFLAGS = -DPACKAGE_LOCALEDIR=\\\"\"$(datadir)/locale\"\\\"\n"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:48
@@ -708,6 +909,11 @@ msgid ""
 "desktop_in_files = data/<input>applicationname</input>.desktop.in\n"
 "desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)\n"
 msgstr ""
+"\n"
+"@INTLTOOL_DESKTOP_RULE@\n"
+"desktopdir = $(datadir)/applications\n"
+"desktop_in_files = data/<input>programnamn</input>.desktop.in\n"
+"desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)\n"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:55
@@ -715,6 +921,8 @@ msgid ""
 "Run <cmd>intltoolize</cmd> to copy the intltool build infrastructure to the build tree "
 "before running <cmd>autoreconf</cmd>."
 msgstr ""
+"Kör <cmd>intltoolize</cmd> för att kopiera intltool-bygginfrastrukturen till byggträdet "
+"innan du kör <cmd>autoreconf</cmd>."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:58
@@ -722,21 +930,23 @@ msgid ""
 "Now that your build system and your source strings are ready for translation, you need "
 "to tell <app>gettext</app> three things:"
 msgstr ""
+"Nu då ditt byggsystem och dina källsträngar är redo för översättning behöver du meddela "
+"<app>gettext</app> tre saker:"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:62
 msgid "the <em>translation domain</em>, generally the same as the application name"
-msgstr ""
+msgstr "<em>översättningsdomänen</em>, vanligen samma som programnamnet"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:64
 msgid "the location where the built translations are installed"
-msgstr ""
+msgstr "platsen där de byggda översättningarna installeras"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:65
 msgid "the character encoding of the translations, generally UTF-8"
-msgstr ""
+msgstr "teckenkodningen för översättningarna, vanligen UTF-8"
 
 #. (itstool) path: note/p
 #: C/dev-translate-build.page:71
@@ -744,6 +954,8 @@ msgid ""
 "This example assumes that your application is written in C. It will be slightly "
 "different for other programming languages."
 msgstr ""
+"Detta exempel antar att ditt program är skrivet i C. Det kommer se ut något annorlunda "
+"för andra programmeringsspråk."
 
 #. (itstool) path: example/p
 #: C/dev-translate-build.page:75
@@ -751,6 +963,7 @@ msgid ""
 "Add the following line to the source file which contains your <code>main()</code> "
 "function:"
 msgstr ""
+"Lägg till följande rad till källfilen som innehåller din <code>main()</code>-funktion:"
 
 #. (itstool) path: example/code
 #: C/dev-translate-build.page:78
@@ -761,7 +974,7 @@ msgstr "#include \"config.h\""
 #. (itstool) path: example/p
 #: C/dev-translate-build.page:80
 msgid "Then, add the following lines to your <code>main()</code> function:"
-msgstr ""
+msgstr "Lägg sedan till följande rader till din <code>main()</code>-funktion:"
 
 #. (itstool) path: example/code
 #: C/dev-translate-build.page:82
@@ -772,6 +985,10 @@ msgid ""
 "bind_textdomain_codeset (PACKAGE_TARNAME, \"UTF-8\");\n"
 "textdomain (GETTEXT_PACKAGE);\n"
 msgstr ""
+"\n"
+"bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALEDIR);\n"
+"bind_textdomain_codeset (PACKAGE_TARNAME, \"UTF-8\");\n"
+"textdomain (GETTEXT_PACKAGE);\n"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:89
@@ -780,6 +997,9 @@ msgid ""
 "This runs <cmd>intltool-extract</cmd> to extract the translatable strings and put them "
 "in a po template (POT) file."
 msgstr ""
+"Kör <cmd>make <input>projektnamn</input>.pot</cmd> i <file>po</file>-katalogen. Detta "
+"kör <cmd>intltool-extract</cmd> för att extrahera de översättningsbara strängarna och "
+"stoppar dem i en po-mallfil (POT)."
 
 #. (itstool) path: credit/name
 #: C/dev-translate.page:12 C/dev-translate-setup.page:11 C/dev-translate-tools.page:10
@@ -790,14 +1010,12 @@ msgstr "Michael Hill"
 #. (itstool) path: info/desc
 #: C/dev-translate.page:19
 msgid "Localization for user-visible application content."
-msgstr ""
+msgstr "Lokalisering för användarsynligt programinnehåll."
 
 #. (itstool) path: page/title
 #: C/dev-translate.page:22
-#, fuzzy
-#| msgid "translator-credits"
 msgid "Translations"
-msgstr "Daniel Nylander <po@danielnylander.se>, 2007"
+msgstr "Översättningar"
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:28
@@ -806,6 +1024,9 @@ msgid ""
 "freedesktop.org/wiki/Software/intltool/\">intltool</app> and <app href=\"http://www.gnu."
 "org/software/gettext/manual/gettext.html\">gettext</app>."
 msgstr ""
+"Du kan göra ditt program översättningsbart till andra språk med <app href=\"http://"
+"freedesktop.org/wiki/Software/intltool/\">intltool</app> och <app href=\"http://www.gnu."
+"org/software/gettext/manual/gettext.html\">gettext</app>."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:33
@@ -815,11 +1036,16 @@ msgid ""
 "files and UI files, then merges them back into the XML and desktop files with the "
 "strings from the source code."
 msgstr ""
+"<app>gettext</app> är ramverket för att extrahera strängar från en källfil. "
+"<app>intltool</app> extraherar översättningsbara strängar från andra filer, så som "
+"desktop-filer och UI-filer, och sammanfogar dem sedan tillbaka till XML- och desktop-"
+"filerna med strängarna från källkoden."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:38
 msgid "You should use <code>ngettext</code> for translation of strings with plurals."
 msgstr ""
+"Du bör använda <code>ngettext</code> för översättning av strängar med pluralformer."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:41
@@ -827,11 +1053,13 @@ msgid ""
 "For more information about translating GNOME projects, see the GNOME <link href="
 "\"https://wiki.gnome.org/TranslationProject/DevGuidelines\">Translation Project</link>."
 msgstr ""
+"För mer information om att översätta GNOME-projekt, se <link href=\"https://wiki.gnome."
+"org/TranslationProject/DevGuidelines\">GNOME Translation Project</link>."
 
 #. (itstool) path: page/title
 #: C/dev-translate-setup.page:21
 msgid "Mark strings for translation"
-msgstr ""
+msgstr "Markera strängar för översättning"
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:27
@@ -839,12 +1067,16 @@ msgid ""
 "Before the strings from your application can be translated, they need to be extracted "
 "from the source code."
 msgstr ""
+"Innan strängarna från ditt program ska kunna översättas behöver de extraheras från "
+"källkoden."
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:30
 msgid ""
 "Wrap messages or <em>string literals</em> in your code with the '<code>_()</code>' macro."
 msgstr ""
+"Inneslut meddelanden eller <em>stränglitteraler</em> i din kod med makrot ”<code>_()</"
+"code>”."
 
 #. (itstool) path: note/p
 #: C/dev-translate-setup.page:34
@@ -852,17 +1084,19 @@ msgid ""
 "For C, this macro is defined in the <file>glib/gi18n.h</file> header file, which must be "
 "included at the top of your application source."
 msgstr ""
+"För C är detta makro definierat i <file>glib/gi18n.h</file>-huvudfilen, vilken måste "
+"inkluderas högst upp i ditt programs källkod."
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:38
 msgid "Your wrapped strings should look like this:"
-msgstr ""
+msgstr "Dina inneslutna strängar bör se ut så här:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-setup.page:39
 #, no-wrap
 msgid "_(\"Press a key to continue\")"
-msgstr ""
+msgstr "_(\"Tryck på en tangent för att fortsätta\")"
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:41
@@ -870,11 +1104,13 @@ msgid ""
 "This marks the strings as translatable, and at runtime calls <app>gettext</app> to "
 "substitute the translated strings."
 msgstr ""
+"Detta markerar strängarna som översättningsbara, och anropar <app>gettext</app> under "
+"körtid för att ersätta de översatta strängarna."
 
 #. (itstool) path: page/title
 #: C/dev-translate-tools.page:20
 msgid "Translation tools"
-msgstr ""
+msgstr "Översättningsverktyg"
 
 #. (itstool) path: page/p
 #: C/dev-translate-tools.page:26
@@ -886,6 +1122,12 @@ msgid ""
 "localization tools include <app>Transifex</app>, <app>Virtaal</app>, <app>KBabel</app> "
 "or <app>Pootle</app>."
 msgstr ""
+"Vid denna punkt är strängarna klara för översättning, eller <em>lokalanpassning</em>. "
+"För projekt som finns i GNOME:s Git-arkiv hanteras denna uppgift av GNOME Translation "
+"Project. <app href=\"https://wiki.gnome.org/Apps/Gtranslator\">Gtranslator</app> är ett "
+"GNOME-verktyg för att redigera <file>.po</file>-filer. Andra lokalanpassningsverktyg, "
+"både på nätet och frånkopplade, inkluderar <app>Transifex</app>, <app>Virtaal</app>, "
+"<app>KBabel</app> eller <app>Pootle</app>."
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/tech-atk.page:12 C/tech-cairo.page:11 C/tech-clutter.page:11
@@ -898,7 +1140,6 @@ msgstr "Shaun McCance"
 
 #. (itstool) path: credit/years
 #: C/index.page:14
-#| msgid "2005"
 msgid "2005-2011"
 msgstr "2005-2011"
 
@@ -940,7 +1181,6 @@ msgstr "GNOME-stiftelsen"
 
 #. (itstool) path: credit/page
 #: C/index.page:33
-#| msgid "foundation.gnome.org"
 msgid "http://foundation.gnome.org/"
 msgstr "http://foundation.gnome.org/"
 
@@ -952,12 +1192,10 @@ msgstr "2013, 2014"
 #. (itstool) path: info/desc
 #: C/index.page:43
 msgid "Guide to the GNOME platform and libraries for developers."
-msgstr ""
+msgstr "Guide för GNOME-plattformen och bibliotek för utvecklare."
 
 #. (itstool) path: info/title
 #: C/index.page:45
-#, fuzzy
-#| msgid "Platform Overview"
 msgctxt "link:trail"
 msgid "Platform overview"
 msgstr "Plattformsöversikt"
@@ -965,7 +1203,7 @@ msgstr "Plattformsöversikt"
 #. (itstool) path: page/title
 #: C/index.page:48
 msgid "GNOME application development overview"
-msgstr ""
+msgstr "Översikt för GNOME-programutveckling"
 
 #. (itstool) path: page/p
 #: C/index.page:50
@@ -973,31 +1211,33 @@ msgid ""
 "Welcome to the GNOME developer overview. GNOME offers a range of tools that can be used "
 "in your application."
 msgstr ""
+"Välkommen till GNOME:s översikt för utvecklare. GNOME erbjuder ett antal verktyg som kan "
+"användas i ditt program."
 
 #. (itstool) path: links/title
 #: C/index.page:56
 msgid "Core technologies"
-msgstr ""
+msgstr "Kärnteknologier"
 
 #. (itstool) path: links/title
 #: C/index.page:60
 msgid "Integration guides"
-msgstr ""
+msgstr "Integrationsguider"
 
 #. (itstool) path: links/title
 #: C/index.page:64
 msgid "Develop for the platform"
-msgstr ""
+msgstr "Utveckla för plattformen"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
 msgid "Creative Commons Attribution-ShareAlike 4.0 International"
-msgstr ""
+msgstr "Creative Commons Erkännande-DelaLika 4.0 Internationell"
 
 #. (itstool) path: license/p
 #: C/legal.xml:4
 msgid "This work is licensed under a <_:link-1/> license."
-msgstr ""
+msgstr "Detta verk är licensierat under licensen <_:link-1/>."
 
 #. (itstool) path: license/p
 #: C/legal.xml:8
@@ -1006,16 +1246,19 @@ msgid ""
 "distribute the example code contained in this documentation under the terms of your "
 "choosing, without restriction."
 msgstr ""
+"Som ett speciellt undantag ger upphovsrättsinnehavarna dig tillåtelse att kopiera, "
+"modifiera och distribuera exempelkoden som finns i denna dokumentation under de villkor "
+"som du väljer, utan restriktioner."
 
 #. (itstool) path: info/desc
 #: C/license.page:17
 msgid "Which license should you use for your application?"
-msgstr ""
+msgstr "Vilken licens bör du använda för ditt program?"
 
 #. (itstool) path: page/title
 #: C/license.page:21
 msgid "License your application"
-msgstr ""
+msgstr "Licensiera ditt program"
 
 #. (itstool) path: page/p
 #: C/license.page:23
@@ -1023,6 +1266,8 @@ msgid ""
 "When you write a new application or library, you will need to choose a license so that "
 "others know how they can use or reuse your work."
 msgstr ""
+"När du skriver ett nytt program eller bibliotek kommer du behöva välja en licens så att "
+"andra vet hur de kan använda eller återanvända ditt arbete."
 
 #. (itstool) path: page/p
 #: C/license.page:26
@@ -1031,6 +1276,9 @@ msgid ""
 "gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/old-licenses/lgpl-2.1."
 "html\">LGPL 2.1+</link>."
 msgstr ""
+"Bibliotek som används i GNOME är vanligen licensierade under <link href=\"http://www.gnu."
+"org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+"\">LGPL 2.1+</link>."
 
 #. (itstool) path: page/p
 #: C/license.page:30
@@ -1039,6 +1287,9 @@ msgid ""
 "licenses/gpl-3.0.html\">GPL3+</link>, while some of the older applications are licensed "
 "under <link href=\"http://www.gnu.org/licenses/gpl-2.0.html\">GPL2+</link>."
 msgstr ""
+"De flesta nyare GNOME-progam är licensierade under <link href=\"http://www.gnu.org/"
+"licenses/gpl-3.0.html\">GPL3+</link>, medan några av de äldre programmen är licensierade "
+"under <link href=\"http://www.gnu.org/licenses/gpl-2.0.html\">GPL2+</link>."
 
 #. (itstool) path: page/p
 #: C/license.page:35
@@ -1048,6 +1299,10 @@ msgid ""
 "documentation team tries to use this license consistently as it allows re-use of text "
 "from Wikipedia and many other reference sources."
 msgstr ""
+"Användarhjälp som skrivs av GNOME-dokumentationsgruppen är licensierad under <link href="
+"\"http://creativecommons.org/licenses/by-sa/3.0/\">CC-by-SA 3.0 Unported</link>. "
+"Dokumentationsgruppen försöker att konsekvent använda denna licens då den möjliggör "
+"återanvändning av text från Wikipedia och många andra referenskällor."
 
 #. (itstool) path: page/p
 #: C/license.page:41
@@ -1056,6 +1311,9 @@ msgid ""
 "applications are usually GPL2+ or GPL3+, while user documentation is usually CC-by-SA "
 "3.0."
 msgstr ""
+"Översättningar har samma licens som föräldrasträngarna. Till exempel är strängar från "
+"programmen vanligen GPL2+ eller GPL3+, medan användardokumentation vanligen är CC-by-SA "
+"3.0."
 
 #. (itstool) path: page/p
 #: C/license.page:45
@@ -1069,30 +1327,37 @@ msgid ""
 "licensing.html\">GStreamer licensing information</link> of interest, as GStreamer uses "
 "plugins."
 msgstr ""
+"GNOME kan inte ge juridiska råd om vilken licens du bör välja, men du kan vilja läsa "
+"information som finns tillgänglig från <link href=\"http://opensource.org/licenses"
+"\">Open Source Initiative</link>, <link href=\"http://www.gnu.org/licenses/license-"
+"recommendations.html\">FSF</link> och <link href=\"https://blogs.gnome.org/"
+"bolsh/2014/04/17/choosing-a-license/\">Dave Nearys bloggpost om att välja en licens</"
+"link>. Du kan också vara intresserad av <link href=\"http://gstreamer.freedesktop.org/"
+"documentation/licensing.html\">GStreamers licensinformation</link>, då GStreamer "
+"använder insticksmoduler."
 
 #. (itstool) path: info/title
 #: C/overview-communication.page:15
-#, fuzzy
-#| msgid "Documentation"
 msgctxt "link:trail"
 msgid "Communication"
-msgstr "Dokumentation"
+msgstr "Kommunikation"
 
 #. (itstool) path: info/desc
 #: C/overview-communication.page:16
 msgid "Instant messaging, networking, social media, email, and calendaring support."
-msgstr ""
+msgstr "Stöd för snabbmeddelanden, nätverk, sociala medier, e-post och kalender."
 
 #. (itstool) path: page/title
 #: C/overview-communication.page:19
 msgid "Communication and social networking"
-msgstr ""
+msgstr "Kommunikation och sociala nätverk"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:23
 msgid ""
 "<em style=\"strong\">Connect to instant messaging and social networking services</em>"
 msgstr ""
+"<em style=\"strong\">Anslut till tjänster för snabbmeddelanden och sociala nätverk</em>"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:26
@@ -1100,11 +1365,13 @@ msgid ""
 "<em style=\"strong\">Set up multi-protocol connections with web services or other "
 "clients</em>"
 msgstr ""
+"<em style=\"strong\">Konfigurera flerprotokollsanslutningar med webbtjänster eller andra "
+"klienter</em>"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:29
 msgid "<em style=\"strong\">Handle mail, online contacts and calendar services</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Hantera e-post, nätkontakter och kalendertjänster</em>"
 
 #. (itstool) path: page/p
 #: C/overview-communication.page:33
@@ -1115,6 +1382,11 @@ msgid ""
 "For more specialised communication needs, there's access to the nuts and bolts through "
 "lower level APIs too."
 msgstr ""
+"Få dina användare att bli anslutna och kunna kommunicera med sina vänner och kontakter "
+"genom snabbmeddelanden, sociala medier och e-post. GNOME:s omfattande "
+"kommunikationsstack ger dig abstrakt högnivååtkomst till komplicerade protokoll för "
+"snabbmeddelanden och e-post. För mer specialiserade kommunikationsbehov finns det även "
+"åtkomst till det underliggande maskineriet genom API:er på lägre nivå."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -1124,18 +1396,18 @@ msgstr ""
 #: C/overview-communication.page:35
 msgctxt "_"
 msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-msgstr ""
+msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 
 #. (itstool) path: media/p
 #: C/overview-communication.page:36
 msgid "Empathy instant messaging client"
-msgstr ""
+msgstr "Empathy snabbmeddelandeklient"
 
 #. (itstool) path: section/title
 #: C/overview-communication.page:40 C/overview-io.page:42 C/overview-media.page:44
 #: C/overview-net.page:46 C/overview-settings.page:41 C/overview-ui.page:47
 msgid "What can you do?"
-msgstr ""
+msgstr "Vad kan du göra?"
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:42
@@ -1147,6 +1419,12 @@ msgid ""
 "service that's deeply integrated into GNOME. Applications can tie into this service to "
 "communicate with contacts."
 msgstr ""
+"För att <em style=\"strong\">ansluta till snabbmeddelandetjänster</em>, använd <em style="
+"\"strong\">Telepathy</em>. Det tillhandahåller ett kraftfullt ramverk för att interagera "
+"med användarens snabbmeddelandekontakter, och har stöd för ett stort antal "
+"meddelandeprotokoll. Med Telepathy hanteras alla konton och anslutningar av en D-Bus-"
+"sessionstjänst som är djupt integrerad med GNOME. Program kan ansluta sig till denna "
+"tjänst för att kommunicera med kontakter."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:50
@@ -1157,6 +1435,11 @@ msgid ""
 "em> over modern instant messaging protocols like Jabber to create interactive "
 "applications."
 msgstr ""
+"Skapa spel för flera spelare eller samarbetesredigerare som är integrerade med de "
+"skrivbordsomfattande snabbmeddelandetjänsterna. Med <em style=\"strong\" xref=\"tech-"
+"telepathy\">Telepathy Tubes</em>-API:t kan du <em style=\"strong\">tunnla ett "
+"godtyckligt protokoll</em> över moderna snabbmeddelandeprotokoll som Jabber för att "
+"skapa interaktiva program."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:56
@@ -1167,6 +1450,11 @@ msgid ""
 "on a local network via the mDNS/DNS-SD protocol suite. It's compatible with similar "
 "technology found in MacOS X and Windows."
 msgstr ""
+"Låt användare se andra personer som de kan chatta med, och hitta skrivare, delade filer "
+"samt delade musiksamlingar så fort som de ansluts till ett nätverk. <em style=\"strong\" "
+"xref=\"tech-avahi\">Avahi</em>-API:t tillhandahåller <em style=\"strong"
+"\">tjänsteupptäckt</em> på ett lokalt nätverk via mDNS/DNS-SD-protokollsviten. Det är "
+"kompatibelt med liknande teknologi som hittas i MacOS X och Windows."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:61
@@ -1175,6 +1463,9 @@ msgid ""
 "xref=\"tech-eds\">Evolution Data Server</em> (EDS). It provides a way of storing account "
 "information and interacting with..."
 msgstr ""
+"Hantera användares adressböcker, lokala och på nätet, med <em style=\"strong\" xref="
+"\"tech-eds\">Evolution Data Server</em> (EDS). Det tillhandahåller ett sätt att lagra "
+"kontoinformation och interagera med…"
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:64
@@ -1182,12 +1473,14 @@ msgid ""
 "With <em style=\"strong\" xref=\"tech-folks\">Folks</em>, you will have access to a "
 "single API for handling social networking, chat, email, and audio/video communications."
 msgstr ""
+"Med <em style=\"strong\" xref=\"tech-folks\">Folks</em> kommer du ha åtkomst till ett "
+"ensamt API för att hantera sociala nätverk, chatt, e-post och ljud/videokommunikation."
 
 #. (itstool) path: section/title
 #: C/overview-communication.page:80 C/overview-io.page:66 C/overview-media.page:92
 #: C/overview-net.page:76 C/overview-settings.page:63 C/overview-ui.page:90
 msgid "Real-world examples"
-msgstr ""
+msgstr "Exempel från verkligheten"
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:87
@@ -1195,6 +1488,8 @@ msgid ""
 "You can see lots of real-world applications of the GNOME communications technologies in "
 "open source projects, like the examples given below."
 msgstr ""
+"Du kan se många faktiska tillämpningar av GNOME-kommunikationsteknologier i öppna "
+"källkodsprojekt, så som exemplen nedan."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:90
@@ -1203,6 +1498,9 @@ msgid ""
 "range of messaging services. It uses Telepathy to handle connections, presence, and "
 "contact information for all of the protocols that it supports."
 msgstr ""
+"<em style=\"strong\">Empathy</em> är ett snabbmeddelandeprogram med stöd för ett stort "
+"antal meddelandetjänster. Det använder Telepathy för att hantera anslutningar, närvaro "
+"samt kontaktinformation för alla protokoll som det stöder."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:91
@@ -1212,14 +1510,22 @@ msgid ""
 "\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/empathy/\">Empathy "
 "source code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Webbplats</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy.png"
+"\">Skärmbilder</link> | <link href=\"https://git.gnome.org/browse/empathy/\">Empathys "
+"källkod</link> )"
 
+# TODO: Still correct?
 #. (itstool) path: item/p
 #: C/overview-communication.page:95
 msgid ""
 "With Telepathy Tubes support, the <em style=\"strong\">GNOME Games</em> collection was "
 "able to add multi-player gaming support through the Jabber protocol."
 msgstr ""
+"Med stöd för Telepathy Tubes kunde samlingen <em style=\"strong\">GNOME Spel</em> lägga "
+"till stöd för flerspelarläge genom Jabber-protokollet."
 
+# TODO: GLChess? Online multiplayer? Terribly out of date...
 #. (itstool) path: item/p
 #: C/overview-communication.page:96
 msgid ""
@@ -1228,6 +1534,10 @@ msgid ""
 "png\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/gnome-chess/"
 "\">GLChess online multiplayer code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Projects/Games\">Webbplats</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;target=gnome-chess."
+"png\">Skärmbilder</link> | <link href=\"https://git.gnome.org/browse/gnome-chess/"
+"\">GLChess-kod för flera spelare över nätet</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:100
@@ -1235,6 +1545,8 @@ msgid ""
 "Avahi support allows users of the <em style=\"strong\">Rhythmbox</em> music player to "
 "see shared music collections on their local network, using DAAP."
 msgstr ""
+"Avahi-stöd låter användare av musikspelaren <em style=\"strong\">Rhythmbox</em> se "
+"delade musiksamlingar på deras lokala nätverk med DAAP."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:101
@@ -1243,27 +1555,31 @@ msgid ""
 "\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Screenshots</link> | <link href="
 "\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap\">DAAP Code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Webbplats</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Skärmbilder</link> | <link href="
+"\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap\">DAAP-kod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-io.page:22
 msgid "Access structured data storage, networking shares, and files."
-msgstr ""
+msgstr "Kom åt strukturerad datalagring, nätverksdelningar och filer."
 
 #. (itstool) path: page/title
 #: C/overview-io.page:25
 msgid "Files &amp; data access"
-msgstr ""
+msgstr "Filer &amp; dataåtkomst"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:29
 msgid "<em style=\"strong\">Asynchronously read and write files and other streams</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Läs och skriv asynkront filer och andra strömmar</em>"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:32
 msgid "<em style=\"strong\">Store and retrieve document metadata</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Lagra och ta fram dokumentmetadata</em>"
 
+# TODO: be providing -> by providing?
 #. (itstool) path: page/p
 #: C/overview-io.page:36
 msgid ""
@@ -1271,6 +1587,10 @@ msgid ""
 "application responsive by using the extensive support for asynchronous IO operations. "
 "Allow users to find files easily be providing metadata to describe documents."
 msgstr ""
+"Kom sömlöst åt lokala filer och fjärrfiler med GNOME:s kärnbibliotek för inmatning/"
+"utmatning. Gör ditt program kvickt att reagera genom att använda det omfattande stödet "
+"för asynkrona inmatnings-/utmatningsåtgärder. Låt användare hitta filer lätt genom att "
+"tillhandahålla metadata för att beskriva dokument."
 
 #. (itstool) path: section/p
 #: C/overview-io.page:44
@@ -1279,6 +1599,9 @@ msgid ""
 "<em style=\"strong\" xref=\"tech-gio\">GIO</em>. A high-level VFS (virtual filesystem) "
 "API is provided, as well as utilities such as icons and application launching"
 msgstr ""
+"För att <em style=\"strong\">asynkront läsa och skriva filer och andra strömmar</em>, "
+"använd <em style=\"strong\" xref=\"tech-gio\">GIO</em>. Ett VFS-API (virtuellt "
+"filsystem) på hög nivå tillhandahålls, så väl som verktyg som ikoner och programstart"
 
 #. (itstool) path: section/p
 #: C/overview-io.page:49
@@ -1287,6 +1610,9 @@ msgid ""
 "\">store and retrieve document metadata</em>, as well as <em style=\"strong\">structured "
 "data</em> such as contacts."
 msgstr ""
+"Använd <em style=\"strong\" xref=\"tech-tracker\">Tracker</em> för att <em style=\"strong"
+"\">lagra och ta fram dokumentmetadata</em>, samt även <em style=\"strong\">strukturerade "
+"data</em> så som kontakter."
 
 #. (itstool) path: section/p
 #: C/overview-io.page:68
@@ -1294,6 +1620,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME IO technologies in open source "
 "projects, like the examples given below."
 msgstr ""
+"Du kan se många faktiska tillämpningar av GNOME-teknologier för inmatning/utmatning i "
+"öppna källkodsprojekt, så som exemplen nedan."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:72
@@ -1301,6 +1629,8 @@ msgid ""
 "<em style=\"strong\">Documents</em> makes it easy to find your files with <em style="
 "\"strong\">Tracker</em>."
 msgstr ""
+"<em style=\"strong\">Dokument</em> gör det lätt att hitta dina filer med <em style="
+"\"strong\">Tracker</em>."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:74
@@ -1308,6 +1638,8 @@ msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Website</link> | <link href="
 "\"https://git.gnome.org/browse/gnome-documents\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Documents\">Webbplats</link> | <link href="
+"\"https://git.gnome.org/browse/gnome-documents\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:77
@@ -1315,6 +1647,8 @@ msgid ""
 "<em style=\"strong\">Files</em> leverages <em style=\"strong\">GIO</em> to make it easy "
 "to manage both local and remote files."
 msgstr ""
+"<em style=\"strong\">Filer</em> drar nytta av <em style=\"strong\">GIO</em> för att göra "
+"det enkelt att hantera både lokala filer och fjärrfiler."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:79
@@ -1323,6 +1657,9 @@ msgid ""
 "\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Screenshots</link> | <link href="
 "\"https://git.gnome.org/browse/nautilus\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Webbplats</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Skärmbilder</link> | <link href="
+"\"https://git.gnome.org/browse/nautilus\">Källkod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
@@ -1330,6 +1667,8 @@ msgid ""
 "Multi-format audio and video playback and editing, streaming from the web, and webcam "
 "support."
 msgstr ""
+"Uppspelning och redigering av ljud och video i flera format, strömning från webben samt "
+"webbkamerastöd."
 
 #. (itstool) path: page/title
 #. (itstool) path: links/title
@@ -1341,17 +1680,20 @@ msgstr "Multimedia"
 #: C/overview-media.page:24
 msgid "<em style=\"strong\">Play and record a multitude of audio and video formats</em>"
 msgstr ""
+"<em style=\"strong\">Spela upp och spela in en stor mängd ljud- och videoformat</em>"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:27
 msgid ""
 "<em style=\"strong\">Access webcams and other media devices connected to the system</em>"
 msgstr ""
+"<em style=\"strong\">Kom åt webbkameror och andra mediaenheter som är anslutna till "
+"systemet</em>"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:30
 msgid "<em style=\"strong\">Share and stream media with remote devices</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Dela och strömma media med fjärrenheter</em>"
 
 #. (itstool) path: page/p
 #: C/overview-media.page:34
@@ -1360,6 +1702,10 @@ msgid ""
 "and share content with other devices attached to a system or remotely over the network. "
 "The underlying low-level API is available if you need more control."
 msgstr ""
+"Lägg till multimedia till ditt program så att användare lätt kan spela upp sitt "
+"innehåll. Konsumera och dela innehåll med andra enheter som hör till ett system eller "
+"över nätverket. Det underliggande lågnivå-API:t finns tillgängligt om du behöver mer "
+"kontroll."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -1369,12 +1715,12 @@ msgstr ""
 #: C/overview-media.page:39
 msgctxt "_"
 msgid "external ref='media/totem-screenshot.png' md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
-msgstr ""
+msgstr "external ref='media/totem-screenshot.png' md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
 
 #. (itstool) path: media/p
 #: C/overview-media.page:40
 msgid "Videos"
-msgstr ""
+msgstr "Videoklipp"
 
 #. (itstool) path: section/p
 #: C/overview-media.page:46
@@ -1384,6 +1730,10 @@ msgid ""
 "<em>pipelines</em> of media can be created, from simple playback of audio and video to "
 "complex non-linear editing."
 msgstr ""
+"<em style=\"strong\">Multimedia</em> i GNOME är byggt på <em style=\"strong\"><link xref="
+"\"tech-gstreamer\">GStreamer</link></em>-ramverket. Med GStreamer kan flexibla "
+"<em>rörledningar</em> för media skapas, från enkel uppspelning av ljud och video till "
+"komplex icke-linjär redigering."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:52
@@ -1392,6 +1742,10 @@ msgid ""
 "em> when outputting audio, and therefore can target many types of output hardware. "
 "PulseAudio also handles dynamic output switching and application-specific volume control."
 msgstr ""
+"GStreamer använder <em style=\"strong\"><link xref=\"tech-pulseaudio\">PulseAudio</"
+"link></em> när ljud matas ut, och kan därför ha många sorters hårdvara som mål för "
+"utdata. PulseAudio hanterar också dynamisk utdataväxling och programspecifik "
+"volymkontroll."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:63
@@ -1400,6 +1754,9 @@ msgid ""
 "a simple interface to webcams connected to the system, and an easy way to add an avatar "
 "chooser to your application."
 msgstr ""
+"Använd <em style=\"strong\">Cheese</em> för <em style=\"strong\">webbkameror</em>. Det "
+"tillhandahåller ett enkelt gränssnitt till webbkameror som är anslutna till systemet, "
+"och ett lätt sätt att lägga till en profilbildsväljare till ditt program."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:68
@@ -1409,6 +1766,10 @@ msgid ""
 "\"><link xref=\"tech-gupnp\">GUPnP</link></em> underneath, which is a low-level API to "
 "access content with <em style=\"strong\">UPnP</em> protocols."
 msgstr ""
+"Använd <em style=\"strong\">Rygel</em> för att <em style=\"strong\">dela innehåll över "
+"nätverket</em> till enheter så som TV-apparater och spelkonsoler. Rygel använder sig av "
+"<em style=\"strong\"><link xref=\"tech-gupnp\">GUPnP</link></em> under huven, vilket är "
+"ett lågnivå-API för att komma åt innehåll med <em style=\"strong\">UPnP</em>-protokoll."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:74
@@ -1417,6 +1778,9 @@ msgid ""
 "photo, use <em style=\"strong\"><link xref=\"tech-canberra\">libcanberra</link></em>, "
 "which implements the freedesktop.org sound theme specification."
 msgstr ""
+"För enkla <em style=\"strong\">händelseljud</em>, så som slutarljud då du tar ett kort, "
+"använd <em style=\"strong\"><link xref=\"tech-canberra\">libcanberra</link></em>, vilket "
+"implementerar freedesktop.orgs sound theme-specifikation."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:94
@@ -1424,11 +1788,13 @@ msgid ""
 "You can see lots of real-world applications of GNOME multimedia technologies in open "
 "source projects, like the examples given below."
 msgstr ""
+"Du kan se många faktiska tillämpningar av GNOME-multimediateknologier i öppna "
+"källkodsprojekt, så som exemplen nedan."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:98
 msgid "<em style=\"strong\">Videos</em> is the GNOME multimedia player."
-msgstr ""
+msgstr "<em style=\"strong\">Videoklipp</em> är GNOME:s multimediaspelare."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:99
@@ -1437,6 +1803,9 @@ msgid ""
 "\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png\">Screenshot</link> "
 "| <link href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Webbplats</link> | <link href="
+"\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png\">Skärmbilder</link> "
+"| <link href=\"https://git.gnome.org/browse/totem/\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:102
@@ -1444,6 +1813,8 @@ msgid ""
 "<em style=\"strong\">PiTiVi</em> is a non-linear video editor, which makes extensive use "
 "of GStreamer."
 msgstr ""
+"<em style=\"strong\">PiTiVi</em> är en icke-linjär videoredigerare som använder sig av "
+"GStreamer i betydande omsträckning."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:104
@@ -1452,6 +1823,9 @@ msgid ""
 "org/?go=screenshots\">Screenshots</link> | <link href=\"http://www.pitivi.org/?"
 "go=download\">Source code</link> )"
 msgstr ""
+"( <link href=\"http://www.pitivi.org/\">Webbplats</link> | <link href=\"http://www."
+"pitivi.org/?go=screenshots\">Skärmbilder</link> | <link href=\"http://www.pitivi.org/?"
+"go=download\">Källkod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-net.page:17
@@ -1459,26 +1833,30 @@ msgid ""
 "Client and server HTTP communication, portable socket-based networking IO, and network "
 "device management."
 msgstr ""
+"HTTP-kommunikation för klient och server, portabel uttagsbaserad nätverks-IO, och "
+"nätverksenhetshantering."
 
 #. (itstool) path: page/title
 #: C/overview-net.page:20
 msgid "Low-level networking"
-msgstr ""
+msgstr "Lågnivå-nätverk"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:24
 msgid "<em style=\"strong\">Create powerful and flexible HTTP servers and clients</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Skapa kraftfulla och flexibla HTTP-servrar och klienter</em>"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:27
 msgid "<em style=\"strong\">Use portable socket-based APIs in a UI without blocking</em>"
 msgstr ""
+"<em style=\"strong\">Använd portabla uttagsbaserade API:er i ett användargränssnitt utan "
+"att blockera</em>"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:30
 msgid "<em style=\"strong\">Detect and manage the network connection state</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Upptäck och hantera nätverkets anslutningstillstånd</em>"
 
 #. (itstool) path: page/p
 #: C/overview-net.page:34
@@ -1488,15 +1866,24 @@ msgid ""
 "changes in the system networking state, to make your application respond appropriately "
 "when there is no Internet access."
 msgstr ""
+"Dra fördel av de portabla nätverks-API:erna för att komma åt nätverkstjänster. Asynkron "
+"inmatning/utmatning behåller ditt programs användargränssnitt kvickt att reagera under "
+"tiden inmatning/utmatning pågår. Upptäck skillnader i systemets nätverkstillstånd så att "
+"ditt program kan svara adekvat då det inte finns någon internetåtkomst."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:48
+#, fuzzy
 msgid ""
 "To <em style=\"strong\">asynchronously access low-level networking APIs</em>, use <em "
 "style=\"strong\" xref=\"tech-gio-network\">GIO networking</em>. Higher-level API is "
 "available for <em style=\"strong\">resolving proxies and DNS records</em> as well as "
 "using <em style=\"strong\">secure sockets (TLS)</em>."
 msgstr ""
+"För att <em style=\"strong\">asynkront komma åt lågnivå-API:er för nätverk</em>, använd "
+"<em style=\"strong\" xref=\"tech-gio-network\">GIO networking</em>. API:er på högre nivå "
+"finns tillgängliga för <em style=\"strong\">slå upp proxyservrar och DNS-poster</em> "
+"såväl som att använda <em style=\"strong\">säkra uttag (TLS)</em>."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:54
@@ -1505,6 +1892,9 @@ msgid ""
 "\"tech-network-manager\">NetworkManager</em> provides <em style=\"strong\">comprehensive "
 "support for networking devices</em> and network topologies."
 msgstr ""
+"Enkel övervakning av nätverkstillstånd finns tillgänglig i GIO, men <em style=\"strong\" "
+"xref=\"tech-network-manager\">Nätverkshanteraren</em> tillhandahåller <em style=\"strong"
+"\">omfattande stöd för nätverksenheter</em> och nätverkstopologier."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:59
@@ -1513,6 +1903,9 @@ msgid ""
 "<em style=\"strong\">HTTP servers and clients</em>. Both synchronous and asynchronous "
 "APIs are provided."
 msgstr ""
+"<em style=\"strong\" xref=\"tech-soup\">Libsoup</em> tillhandahåller ett flexibelt "
+"gränssnitt för <em style=\"strong\">HTTP-servrar och klienter</em>. Både synkrona och "
+"asynkrona API:er tillhandahålls."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:78
@@ -1520,6 +1913,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME networking technologies in open "
 "source projects, like the examples given below."
 msgstr ""
+"Du kan se många faktiska tillämpningar av GNOME-nätverksteknologier i öppna "
+"källkodsprojekt, så som exemplen nedan."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:82
@@ -1527,6 +1922,8 @@ msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses libsoup to access HTTP "
 "services."
 msgstr ""
+"<em style=\"strong\">Webb</em> är GNOME:s webbläsare, vilken använder libsoup för "
+"åtkomst till HTTP-tjänster."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:84
@@ -1535,6 +1932,9 @@ msgid ""
 "git.gnome.org/browse/epiphany/plain/data/screenshot.png\">Screenshot</link> | <link href="
 "\"https://git.gnome.org/browse/epiphany/\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Web\">Webbplats</link> | <link href=\"https://"
+"git.gnome.org/browse/epiphany/plain/data/screenshot.png\">Skärmbilder</link> | <link "
+"href=\"https://git.gnome.org/browse/epiphany/\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:87
@@ -1543,6 +1943,9 @@ msgid ""
 "NetworkManager for the network status menu, including managing wired, wireless, 3G modem "
 "and VPN networking systems."
 msgstr ""
+"<em style=\"strong\">GNOME Shell</em> är det användarsynliga GNOME-skrivbordet, vilket "
+"använder Nätverkshanteraren för nätverksstatusmenyn, inklusive hantering av trådbundna "
+"och trådlösa nätverk, 3G-modem och VPN-nätverkssystem."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:90
@@ -1551,34 +1954,38 @@ msgid ""
 "\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href=\"https://git.gnome.org/"
 "browse/gnome-shell/\">Source Code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Webbplats</link> | <link "
+"href=\"http://www.gnome.org/gnome-3/\">Skärmbilder</link> | <link href=\"https://git."
+"gnome.org/browse/gnome-shell/\">Källkod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-settings.page:17
 msgid "Flexible user configuration system."
-msgstr ""
+msgstr "Flexibelt användarkonfigurationssystem."
 
 #. (itstool) path: page/title
 #: C/overview-settings.page:20
-#, fuzzy
-#| msgid "Session Management"
 msgid "Settings management"
-msgstr "Sessionshantering"
+msgstr "Inställningshantering"
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:24
 msgid "<em style=\"strong\">High-level access for application settings</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Högnivååtkomst för programinställningar</em>"
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:27
 msgid "<em style=\"strong\">Easily bind settings to UI elements</em>"
 msgstr ""
+"<em style=\"strong\">Bind enkelt inställningar till element i användargränssnittet</em>"
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:30
 msgid ""
 "<em style=\"strong\">Flexible overrides for packagers and system administrators</em>"
 msgstr ""
+"<em style=\"strong\">Flexibla åsidosättningar för paketerare och systemadministratörer</"
+"em>"
 
 #. (itstool) path: page/p
 #: C/overview-settings.page:35
@@ -1587,6 +1994,9 @@ msgid ""
 "GSettings. Easily override settings defaults as a system administrator. Store a wide "
 "variety of data, such as integers and arrays of strings, with ease."
 msgstr ""
+"Lagra användarinställningar och få ditt program att besvara dem automatiskt med "
+"GSettings. Åsidosätt lätt standardinställningar som en systemadministratör. Lagra enkelt "
+"en stor variation av data, så som heltal och strängvektorer."
 
 #. (itstool) path: section/p
 #: C/overview-settings.page:43
@@ -1597,11 +2007,17 @@ msgid ""
 "configuration tools can be used. Make <em style=\"strong\">UI controls update according "
 "to settings</em> with a single function."
 msgstr ""
+"Använd GIO:s <em style=\"strong\" xref=\"tech-gsettings\">GSettings</em>-API för att "
+"läsa och skriva <em style=\"strong\">programinställningar</em>. GSettings <em style="
+"\"strong\">använder transparent plattformens konfigurationsdatabas</em> så att "
+"plattformsspecifika konfigurationsverktyg kan användas. Få <em style=\"strong"
+"\">användargränssnittskontroller att uppdatera sig enligt inställningar</em> med en "
+"ensam funktion."
 
 #. (itstool) path: section/p
 #: C/overview-settings.page:65
 msgid "Nearly all GNOME applications use GSettings."
-msgstr ""
+msgstr "Nästan alla GNOME-program använder GSettings."
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:68
@@ -1609,6 +2025,8 @@ msgid ""
 "<em style=\"strong\">Dconf editor</em> is the GUI tool for managing preferences stored "
 "in the dconf database with GSettings."
 msgstr ""
+"<em style=\"strong\">Dconf editor</em> är det grafiska användargränssnittsverktyget för "
+"att hantera inställningar som lagrats i dconf-databasen med GSettings."
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:70
@@ -1617,16 +2035,18 @@ msgid ""
 "link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor\">Source code</"
 "link> )"
 msgstr ""
+"( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html\">Webbplats</"
+"link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor\">Källkod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-ui.page:17
 msgid "Standard user interface elements, rendering, and animation."
-msgstr ""
+msgstr "Standardanvändargränssnittselement, rendering och animering."
 
 #. (itstool) path: page/title
 #: C/overview-ui.page:20
 msgid "User interface &amp; graphics"
-msgstr ""
+msgstr "Användargränssnitt &amp; grafik"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:24
@@ -1634,11 +2054,13 @@ msgid ""
 "<em style=\"strong\">Use a single toolkit for all the standard widgets in your "
 "application</em>"
 msgstr ""
+"<em style=\"strong\">Använd en enda verktygslåda för alla standardkomponenter i ditt "
+"program</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:27
 msgid "<em style=\"strong\">Create fast, visually rich graphical interfaces</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Skapa snabba, visuellt rika grafiska gränssnitt</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:30
@@ -1646,16 +2068,17 @@ msgid ""
 "<em style=\"strong\">Have high quality, antialiased and resolution-independent graphics</"
 "em>"
 msgstr ""
+"<em style=\"strong\">Ha kantutjämnad och upplösningsoberoende grafik av hög kvalitet</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:33
 msgid "<em style=\"strong\">Easily add web functionality to your application</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Lägg enkelt till webbfunktionalitet till ditt program</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:36
 msgid "<em style=\"strong\">Access built-in assistive technologies</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Kom åt inbyggda hjälpmedelsteknologier</em>"
 
 #. (itstool) path: page/p
 #: C/overview-ui.page:40
@@ -1665,6 +2088,11 @@ msgid ""
 "them to other platforms. Standard UI elements are accessible by default, and it is easy "
 "to add accessibility support to any custom UI elements that you create."
 msgstr ""
+"Använd de kraftfulla grunderna hos GNOME-plattformen för att skapa konsekventa och "
+"flexibla användargränssnitt. Gör dina program åtkomliga för största möjliga publik genom "
+"att sprida dem till andra plattformar. Standardanvändargränssnittselement är åtkomliga "
+"från början, och det är lätt att lägga till hjälpmedelsstöd till alla anpassade "
+"användargränssnittselement som du skapar."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:49
@@ -1674,6 +2102,11 @@ msgid ""
 "em>. Every application that is part of GNOME uses GTK+, so use it to be consistent, and "
 "to access the many widgets and features such as printing support and CSS theming."
 msgstr ""
+"För program med <em style=\"strong\">standardkontroller</em> som skulle vara bekanta för "
+"de flesta användare, använd <em style=\"strong\"><link xref=\"tech-gtk\">GTK+</link></"
+"em>. Varje program som är en del av GNOME använder GTK+, så använd det för att vara "
+"konsekvent och för att ha åtkomst till de många komponenterna och funktionerna, så som "
+"utskriftsstöd samt CSS-teman."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
@@ -1682,6 +2115,9 @@ msgid ""
 "\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, and it also supports touch "
 "input and gestures."
 msgstr ""
+"<em style=\"strong\">Animeringar, effekter och flytande layouter</em> är enkla med <em "
+"style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, och det stöder också "
+"pekinmatning och gester."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:60
@@ -1690,6 +2126,10 @@ msgid ""
 "em> are provided by <em style=\"strong\"><link xref=\"tech-cairo\">Cairo</link></em>. "
 "Cairo is used for drawing widgets in GTK+, and can also be used to output to PDF and SVG."
 msgstr ""
+"<em style=\"strong\">Högkvalitativ, kantutjämnad och upplösningsoberoende 2D-grafik</em> "
+"tillhandahålls av <em style=\"strong\"><link xref=\"tech-cairo\">Cairo</link></em>. "
+"Cairo används för att rita komponenter i GTK+, och kan även användas för att göra "
+"utmatning till PDF och SVG."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:66
@@ -1698,6 +2138,9 @@ msgid ""
 "add <em style=\"strong\">web functionality</em> to your application, whether that is "
 "rendering an HTML file or having a complete HTML5 UI."
 msgstr ""
+"<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> gör det enkelt "
+"att lägga till <em style=\"strong\">webbfunktionalitet</em> till ditt program, vare sig "
+"det är att rendera en HTML-fil eller att ha ett fullständigt HTML5-användargränssnitt."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:71
@@ -1707,6 +2150,10 @@ msgid ""
 "Orca, Caribou OSK, and the GTK+ built-in accessibility tools, or build custom tools on "
 "top of ATK."
 msgstr ""
+"GTK+, Clutter och WebKitGTK+ har <em style=\"strong\">inbyggt stöd för "
+"hjälpmedelsteknologier</em> med <em style=\"strong\"><link xref=\"tech-atk\">ATK</link></"
+"em>. Använd Orca, skärmtangentbordet Caribou samt de inbyggda hjälpmedelsverktygen i GTK"
+"+, eller bygg anpassade verktyg ovanpå ATK."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:92
@@ -1714,6 +2161,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open source "
 "projects, like the examples given below."
 msgstr ""
+"Du kan se många faktiska tillämpningar av GNOME-användargränssnittsteknologier i öppna "
+"källkodsprojekt, så som exemplen nedan."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:96
@@ -1721,6 +2170,8 @@ msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and WebKitGTK+, and "
 "is fully accessible."
 msgstr ""
+"<em style=\"strong\">Webb</em> är GNOME:s webbläsare, vilken använder GTK+ och WebKitGTK"
+"+, och är fullständigt åtkomlig."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:98
@@ -1728,6 +2179,8 @@ msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
 "git.gnome.org/browse/epiphany/\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Web\">Webbplats</link> | <link href=\"https://"
+"git.gnome.org/browse/epiphany/\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:101
@@ -1735,6 +2188,9 @@ msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for C# and other ."
 "NET languages. It works on Linux, Mac OS X and Windows"
 msgstr ""
+"<em style=\"strong\">MonoDevelop</em> är en integrerad utvecklingsmiljö (IDE) för flera "
+"plattformar designad för C# och andra .NET-språk. Det fungerar på Linux, Mac OS X och "
+"Windows"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:104
@@ -1743,6 +2199,9 @@ msgid ""
 "monodevelop.com/Screenshots\">Screenshots</link> | <link href=\"https://github.com/mono/"
 "monodevelop\">Source code</link> )"
 msgstr ""
+"( <link href=\"http://monodevelop.com/\">Webbplats</link> | <link href=\"http://"
+"monodevelop.com/Screenshots\">Skärmbilder</link> | <link href=\"https://github.com/mono/"
+"monodevelop\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:107
@@ -1750,6 +2209,8 @@ msgid ""
 "<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses Clutter to "
 "display video content."
 msgstr ""
+"<em style=\"strong\">Videoklipp</em> är GNOME:s multimediaspelare, och använder Clutter "
+"för att visa videoinnehåll."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:108
@@ -1757,6 +2218,8 @@ msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
 "\"https://git.gnome.org/browse/totem/\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Webbplats</link> | <link href="
+"\"https://git.gnome.org/browse/totem/\">Källkod</link> )"
 
 #. (itstool) path: credit/years
 #: C/tech-atk.page:14 C/tech-cairo.page:13 C/tech-clutter.page:13 C/tech-d-bus.page:13
@@ -1770,6 +2233,7 @@ msgstr "2011–2012"
 #: C/tech-atk.page:19
 msgid "Accessibility toolkit to implement support for screen readers and other tools"
 msgstr ""
+"Hjälpmedelsverktygslåda för att implementera stöd för skärmläsare och andra verktyg"
 
 #. (itstool) path: page/title
 #: C/tech-atk.page:23
@@ -1785,6 +2249,12 @@ msgid ""
 "disorders. Many people have some sort of disability, and making your application "
 "accessible will allow more people to use it effectively, even if they are not disabled."
 msgstr ""
+"Åtkomlighet är processen att försäkra dig om att ditt program kan användas av folk med "
+"olika funktionsnedsättningar. Funktionsnedsättningar finns i många varianter: "
+"synnedsättningar, rörelsehinder, hörselnedsättningar, kognitiva nedsättningar och "
+"språkstörningar samt krampsjukdomar. Många personer har någon slags nedsättning, och att "
+"göra ditt program åtkomligt kommer låta ännu fler personer använda det effektivt, även "
+"om de inte har något handikapp."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:32
@@ -1796,7 +2266,14 @@ msgid ""
 "and the rest of the GNOME platform, so any application using GTK+ will have reasonable "
 "accessibility support for free."
 msgstr ""
+"GNOME tillhandahåller stöd för hjälpmedelsenheter genom ATK-ramverket, vilket står för "
+"Accessibility Tool Kit. Detta ramverk definierar en uppsättning gränssnitt som grafiska "
+"gränssnittskomponenter följer. Detta låter exempelvis skärmläsare läsa ett gränssnitts "
+"text och interagera med dess kontroller. ATK-stöd är inbyggt i GTK+ och resten av GNOME-"
+"plattformen, så varje program som använder GTK+ kommer att få ett rimligt "
+"hjälpmedelsstöd på köpet."
 
+# TODO: NxM -> N×M
 #. (itstool) path: page/p
 #: C/tech-atk.page:40
 msgid ""
@@ -1809,6 +2286,14 @@ msgid ""
 "will both use a standard \"get the text contents\" interface in ATK for all widgets with "
 "textual information."
 msgstr ""
+"ATK löser problemet med att plugga in många olika sorters komponenter (textinmatning, "
+"textområden, knappar, menyer) med många olika typer av hjälpmedelsteknologier "
+"(skärmläsare, punktskriftsskärmar, sug/blås-styrenheter). Istället för att skriva N×M "
+"gränssnitt, från varje komponent till varje hjälpmedelsenhet, så behöver man bara "
+"exponera en komponent genom ATK:s gränssnitt. Hjälpmedelsenheter kommer i sin tur att "
+"använda dessa gränssnitt för att ställa frågor till åtkomliga komponenter. Till exempel "
+"kommer både en uppläst skärmläsare och en punktskriftsskärm att använda ett ”erhåll "
+"textinnehållet”-standardgränssnitt i ATK för alla komponenter med textinformation."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:50
@@ -1822,6 +2307,14 @@ msgid ""
 "providing this information instead of relying on the user being able to perceive a "
 "particular medium."
 msgstr ""
+"Du bör i vilket fall vara medveten om åtkomlighetsproblem då du utvecklar dina program. "
+"Även om GTK+-gränssnitt tillhandahåller en rimlig åtkomlighet som standard så kan du "
+"ofta förbättra hur bra ditt program beter sig mot hjälpmedelsverktyg genom att "
+"tillhandahålla ytterligare information till ATK. Om du utvecklar anpassade komponenter "
+"bör du säkerställa att de exponerar sina egenskaper till ATK. Du bör också undvika att "
+"använda ljud, grafik eller färg som det enda sättet att förmedla information till "
+"användaren; ha flera sätt att tillhandahålla denna information snarare än att förlita "
+"dig på att användaren kan uppfatta ett specifikt medium."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:60
@@ -1832,6 +2325,11 @@ msgid ""
 "screen reader, a screen magnifier, an on-screen keyboard, and <app>Dasher</app>, an "
 "innovative predictive text entry tool."
 msgstr ""
+"GNOME-skrivbordet kommer med ett antal hjälpmedelsverktyg som tillåter användare med "
+"funktionsnedsättningar att dra full nytta av sitt skrivbord och sina program. Program "
+"som fullständigt implementerar ATK kommer att fungera med hjälpmedelsverktygen. Dessa "
+"inkluderar en skärmläsare, en skärmförstorare, ett skärmtangentbord samt <app>Dasher</"
+"app>, ett innovativt verktyg för prediktiv textinmatning."
 
 #. (itstool) path: item/p
 #: C/tech-atk.page:68
@@ -1839,27 +2337,30 @@ msgid ""
 "<link href=\"http://developer.gnome.org/accessibility-devel-guide/\">GNOME Accessibility "
 "for Developers</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/accessibility-devel-guide/\">GNOME-"
+"hjälpmedelsteknik för utvecklare</link>"
 
 #. (itstool) path: item/p
 #: C/tech-atk.page:69
 msgid "<link href=\"https://developer.gnome.org/atk/stable/\">ATK Reference</link>"
-msgstr ""
+msgstr "<link href=\"https://developer.gnome.org/atk/stable/\">ATK-referens</link>"
 
 #. (itstool) path: credit/name
 #: C/tech-avahi.page:10 C/tech-canberra.page:11 C/tech-champlain.page:10
-#: C/tech-enchant.page:10 C/tech-folks.page:10 C/tech-gda.page:11 C/tech-geoclue2.page:10
+#: C/tech-folks.page:10 C/tech-gda.page:11 C/tech-geoclue2.page:10
 #: C/tech-geocode-glib.page:10 C/tech-gio-network.page:11 C/tech-gio.page:16
 #: C/tech-glib.page:10 C/tech-gobject.page:9 C/tech-gsettings.page:11
 #: C/tech-network-manager.page:10 C/tech-notify.page:16 C/tech-polkit.page:10
-#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-telepathy.page:16
-#: C/tech-tracker.page:10 C/tech-webkit.page:16
+#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-spell-checking.page:10
+#: C/tech-telepathy.page:16 C/tech-tracker.page:10 C/tech-webkit.page:16
 msgid "Federico Mena Quintero"
 msgstr "Federico Mena Quintero"
 
 #. (itstool) path: info/desc
 #: C/tech-avahi.page:17
+#, fuzzy
 msgid "Zeroconf service discovery on local networks"
-msgstr ""
+msgstr "Zeroconf-tjänstupptäckt på lokala nätverk"
 
 #. (itstool) path: page/title
 #: C/tech-avahi.page:20
@@ -1868,6 +2369,7 @@ msgstr "Avahi"
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:22
+#, fuzzy
 msgid ""
 "Avahi implements <link href=\"http://www.zeroconf.org/\">Zeroconf</link> Networking. It "
 "allows programs to discover services like printers on local networks without prior "
@@ -1875,15 +2377,25 @@ msgid ""
 "the local network without configuration; for example, a chat program that \"finds\" "
 "other chat users in a LAN without having to set up a central chat server first."
 msgstr ""
+"Avahi implementerar <link href=\"http://www.zeroconf.org/\">Zeroconf</link> Networking. "
+"Det tillåter program att upptäcka tjänster som skrivare på lokala nätverk utan tidigare "
+"konfiguration. Det låter också program konfigurera tjänster som går att nå genom det "
+"lokala nätverket utan konfiguration; exempelvis ett chattprogram som ”hittar” andra "
+"chattanvändare på ett LAN utan att behöva konfigurera en central chattserver först."
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:29
+#, fuzzy
 msgid ""
 "Avahi is an implementation of the <link href=\"http://www.dns-sd.org/\">DNS Service "
 "Discovery</link> and <link href=\"http://www.multicastdns.org/\">Multicast DNS</link> "
 "specifications, which are part of <link href=\"http://www.zeroconf.org/\">Zeroconf</"
 "link> Networking."
 msgstr ""
+"Avahi är en implementation av specifikationerna <link href=\"http://www.dns-sd.org/"
+"\">DNS Service Discovery</link> och <link href=\"http://www.multicastdns.org/"
+"\">Multicast DNS</link>, vilka är en del av <link href=\"http://www.zeroconf.org/"
+"\">Zeroconf</link> Networking."
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:35
@@ -1895,17 +2407,24 @@ msgid ""
 "link>, GNOME's low-level audio API, uses Avahi to make it possible to route sound "
 "through local networks."
 msgstr ""
+"Diverse program i GNOME använder Avahi för att upptäcka tjänster. Gnome-user-share (en "
+"modul för filhanteraren Nautilus) låter användare på ett lokalt nätverk dela filer med "
+"varandra, och det hittar datorer som delar filer via Avahi. Vino, en "
+"fjärrskrivbordsvisare, använder Avahi för att hitta fjärrskrivbordsservrar. <link xref="
+"\"tech-pulseaudio\">PulseAudio</link>, GNOME:s lågnivå-API för ljud, använder Avahi för "
+"att göra det möjligt att omdirigera ljud genom lokala nätverk."
 
 #. (itstool) path: item/p
 #: C/tech-avahi.page:44
 msgid ""
 "<link href=\"http://avahi.org/wiki/ProgrammingDocs\">Avahi reference documentation</link>"
 msgstr ""
+"<link href=\"http://avahi.org/wiki/ProgrammingDocs\">Avahi-referensdokumentation</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-cairo.page:18
 msgid "2D, vector-based drawing for high-quality graphics"
-msgstr ""
+msgstr "Vektorbaserad 2D-uppritning för högkvalitativ grafik"
 
 #. (itstool) path: page/title
 #: C/tech-cairo.page:21
@@ -1914,6 +2433,7 @@ msgstr "Cairo"
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:23
+#, fuzzy
 msgid ""
 "Cairo is a 2D graphics library featuring a sophisticated API for drawing vector "
 "graphics, compositing images, and rendering anti-aliased text. Cairo provides support "
@@ -1921,47 +2441,66 @@ msgid ""
 "buffers in memory, allowing you to write platform-independent code to draw graphics on "
 "different media."
 msgstr ""
+"Cairo är ett 2D-grafikbibliotek som har ett sofistikerat API för att rita vektorgrafik, "
+"slå samman bilder, och rendera kantutjämnad text. Cairo tillhandahåller stöd för flera "
+"utdataenheter, inkluderande X-fönstersystemet, Microsoft Windows, och bildbuffertar i "
+"minnet, vilket låter dig skriva plattformsoberoende kod för att rota grafik på olika "
+"media."
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:30
+#, fuzzy
 msgid ""
 "Cairo's drawing model is similar to those provided by PostScript and PDF. The Cairo API "
 "provides such drawing operations as stroking and filling cubic Bézier splines, "
 "compositing images, and performing affine transformations. These vector operations allow "
 "for rich, anti-aliased graphics."
 msgstr ""
+"Cairos ritmodell är liknande de som tillhandahålls av PostScript och PDF. Cairo-API:t "
+"tillhandahåller ritåtgärder som penselstreck och att fylla kubiska Bézier-splines, "
+"sammanslagning av bilder samt utföra affina transformationer. Dessa vektoråtgärder "
+"tillåter rik, kantutjämnad grafik."
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:36
+#, fuzzy
 msgid ""
 "Cairo's rich drawing model allows for high-quality rendering to multiple media. The same "
 "API can be used to create on-screen graphics and text, to render images, or create crisp "
 "output suitable for printing."
 msgstr ""
+"Cairos rika ritmodell möjliggör högkvalitativ rendering till flera medier. Samma API kan "
+"användas för att skapa grafik och text på skärmen, rendera bilder, eller skapa skarp "
+"utmatning lämplig för utskrift."
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:41
+#, fuzzy
 msgid ""
 "You should use Cairo whenever you need to draw graphics in your application beyond the "
 "widgets provided by GTK+. Almost all of the drawing inside GTK+ is done using Cairo. "
 "Using Cairo for your custom drawing will allow your application to have high-quality, "
 "anti-aliased, and resolution-independent graphics."
 msgstr ""
+"Du bör använda Cairo närhelst du behöver rita grafik i ditt program bortom komponenterna "
+"som tillhandahålls av GTK+. Nästan allt ritande i GTK+ görs med Cairo. Att använda Cairo "
+"för ditt anpassade ritande kommer låta ditt program ha högvalitativ, kantutjämnad och "
+"upplösningsoberoende grafik."
 
 #. (itstool) path: item/p
 #: C/tech-cairo.page:48
 msgid "<link href=\"http://www.cairographics.org/manual/\">Cairo Manual</link>"
-msgstr ""
+msgstr "<link href=\"http://www.cairographics.org/manual/\">Cairo-handbok</link>"
 
 #. (itstool) path: item/p
 #: C/tech-cairo.page:49
 msgid "<link href=\"http://www.cairographics.org\">The Cairo web site</link>"
-msgstr ""
+msgstr "<link href=\"http://www.cairographics.org\">Cairos webbplats</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-canberra.page:18
 msgid "Simple audio API for notifications and events"
-msgstr ""
+msgstr "Enkelt ljud-API för aviseringar och händelser"
 
 #. (itstool) path: page/title
 #: C/tech-canberra.page:21
@@ -1976,6 +2515,11 @@ msgid ""
 "convenient API, Canberra can also work with the accessibility features of the desktop to "
 "provide alternate notification for hearing-impaired users."
 msgstr ""
+"Canberra är ett enkelt bibliotek för att spela ljudhändelser och aviseringar, som då "
+"användaren har mottagit ett meddelande eller när ett fel har uppstått. Så väl som att "
+"tillhandahålla ett behändigt API, kan Canberra också arbeta med skrivbordets "
+"hjälpmedelsfunktioner för att tillhandahålla alternativ avisering för användare med "
+"hörselnedsättning."
 
 #. (itstool) path: item/p
 #: C/tech-canberra.page:30
@@ -1983,17 +2527,19 @@ msgid ""
 "<link href=\"https://developer.gnome.org/libcanberra/unstable/\">Canberra Reference</"
 "link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/libcanberra/unstable/\">Canberra-referens</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-champlain.page:17
 msgid "Map rendering"
-msgstr ""
+msgstr "Kartrendering"
 
 #. (itstool) path: page/title
 #: C/tech-champlain.page:20
 msgid "Champlain"
 msgstr "Champlain"
 
+# TODO: from various *sources*
 #. (itstool) path: page/p
 #: C/tech-champlain.page:22
 msgid ""
@@ -2001,7 +2547,11 @@ msgid ""
 "various source, including <link href=\"http://www.openstreetmap.org/\">Open Street Map</"
 "link>."
 msgstr ""
+"Champlain är ett bibliotek som tillhandahåller komponenter för att rendera kartor. "
+"Kartor kan erhållas från diverse källor, inklusive <link href=\"http://www.openstreetmap."
+"org/\">Open Street Map</link>."
 
+# TODO: which was the -> *which had its*
 #. (itstool) path: note/p
 #: C/tech-champlain.page:27
 msgid ""
@@ -2009,17 +2559,21 @@ msgid ""
 "cartographer. He is the “father of New-France” and founder of Québec City, which was the "
 "400th anniversary in 2008, the year this library was created."
 msgstr ""
+"libchamplain har fått sitt namn efter Samuel de Champlain, berömd fransk navigatör, "
+"utforskare och kartograf. Han är ”Nya Frankrikes fader” och grundaren av Québec City, "
+"vilken hade sitt 400-årsjubileum 2008, året då detta bibliotek skapades."
 
 #. (itstool) path: item/p
 #: C/tech-champlain.page:36
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/libchamplain\">Champlain home page</link>"
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/libchamplain\">Champlains webbsida</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-clutter.page:18
 msgid "Animations and scene graph"
-msgstr ""
+msgstr "Animeringar och scengraf"
 
 #. (itstool) path: page/title
 #: C/tech-clutter.page:21
@@ -2028,32 +2582,47 @@ msgstr "Clutter"
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:23
+#, fuzzy
 msgid ""
 "Clutter is a library for doing animations and using a 2.5-D canvas. You create graphical "
 "objects out of images, and you can manipulate them later to move them, rotate them, or "
 "give them quasi-3D effects."
 msgstr ""
+"Clutter är ett bibliotek för att göra animeringar och använder en 2,5D-duk. Du skapar "
+"grafiska objekt av bilder, och du kan sedan manipulera dem för att flytta dem, rotera "
+"dem, eller ge dem kvasi-3D-effekter."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:28
+#, fuzzy
 msgid ""
 "Clutter uses the <link href=\"http://www.khronos.org/opengl/\">OpenGL</link> and <link "
 "href=\"http://www.khronos.org/opengles/\">OpenGL|ES</link> industry standard API to "
 "access the accelerated graphical hardware on both desktop and mobile environments alike, "
 "without exposing the complexities of GPU pipeline programming."
 msgstr ""
+"Clutter använder industristandard-API:erna <link href=\"http://www.khronos.org/opengl/"
+"\">OpenGL</link> and <link href=\"http://www.khronos.org/opengles/\">OpenGL|ES</link> "
+"för att komma åt den accelererade grafikhårdvaran i både skrivbords- och mobilmiljöer "
+"utan att exponera komplexiteterna hos GPU-rörledningsprogrammering."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:34
+#, fuzzy
 msgid ""
 "Clutter does not specify any visual style, and does not provide any pre-defined complex "
 "user interface control; it lets the developer define what is needed, using a flexible "
 "scene graph API, with free-form placement of the scene elements (or <em>actors</em>) on "
 "the main viewport (or <em>stage</em>)."
 msgstr ""
+"Clutter anger ingen visuell stil, och tillhandahåller inga fördefinierade komplexa "
+"användargränssnittskontroller. Det låter utvecklaren definiera vad som behövs med ett "
+"flexibelt scengrafs-API, med frihandsplacering av scenelementen (eller <em>aktörerna</"
+"em>) på huvudvyn (eller <em>scenen</em>)."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:39
+#, fuzzy
 msgid ""
 "Clutter comes with pre-defined actors for displaying solid colors, image data, text and "
 "custom high-precision 2D drawing using the <link xref=\"tech-cairo\">Cairo</link> API. "
@@ -2061,6 +2630,11 @@ msgid ""
 "packing model like <link xref=\"tech-gtk\">GTK+</link>, and a series of free-form "
 "<em>constraints</em>."
 msgstr ""
+"Clutter kommer med fördefinierade aktörer för att visa ensamma färger, bilddata, text "
+"och anpassad högprecisionsritning i 2D med <link xref=\"tech-cairo\">Cairo</link>-API:t. "
+"Clutter tillhandahåller också generiska klasser för att strukturera ett "
+"användargränssnitt genom både en lådpackningsmodell som <link xref=\"tech-gtk\">GTK+</"
+"link>, och en serie av frihands-<em>begränsningar</em>."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:46
@@ -2070,6 +2644,10 @@ msgid ""
 "over time, for example their rotation in a particular dimension, scale, size, opacity, "
 "etc."
 msgstr ""
+"Clutter tillhandahåller ett utökningsbart animeringsramverk och grafiska effekter. En "
+"animering associeras med en tidslinje och ändrar en eller flera egenskaper av en eller "
+"flera aktörer över tid, till exempel deras rotation i en viss dimension, skala, storlek, "
+"opacitet o.s.v."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:51
@@ -2079,6 +2657,10 @@ msgid ""
 "for embedding GStreamer video and audio pipelines; Clutter-Box2D and Clutter-Bullet, for "
 "adding physics interaction in both 2D and 3D environments."
 msgstr ""
+"Ett antal tredjepartsbibliotek tillåter integration med andra teknologier, exempelvis: "
+"Clutter-GTK, för att bädda in en Clutter-scen i ett GTK+-program; Clutter-GStreamer, för "
+"att bädda in GStreamer-rörledningar för video och ljud; Clutter-Box2D och Clutter-"
+"Bullet, för att lägga till fysikinteraktion i både 2D- och 3D-miljöer."
 
 #. (itstool) path: item/p
 #: C/tech-clutter.page:58
@@ -2086,22 +2668,26 @@ msgid ""
 "<link href=\"https://developer.gnome.org/clutter-cookbook/stable/\">The Clutter "
 "Cookbook</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/clutter-cookbook/stable/\">Clutter-kokboken</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/tech-clutter.page:59
 msgid ""
 "<link href=\"http://developer.gnome.org/clutter/stable\">Clutter Reference Manual</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/clutter/stable\">Clutter-referenshandbok</link>"
 
 #. (itstool) path: item/p
 #: C/tech-clutter.page:60
 msgid "<link href=\"http://www.clutter-project.org\">The Clutter web site</link>"
-msgstr ""
+msgstr "<link href=\"http://www.clutter-project.org\">Clutters webbplats</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-d-bus.page:18
 msgid "Inter-process communication bus to provide APIs to other processes"
 msgstr ""
+"Kommunikationsbuss mellan processer för att tillhandahålla API:er till andra processer"
 
 #. (itstool) path: page/title
 #: C/tech-d-bus.page:22
@@ -2110,6 +2696,7 @@ msgstr "D-Bus"
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:24
+#, fuzzy
 msgid ""
 "D-Bus is a message bus for sending messages between various applications, the desktop, "
 "and low-level components of the system. D-Bus provides a simple API for sending messages "
@@ -2117,18 +2704,31 @@ msgid ""
 "enables different types of applications to communicate and integrate with each other and "
 "with the desktop, providing better interaction and a richer experience for the user."
 msgstr ""
+"D-Bus är en meddelandebuss för att skicka meddelanden mellan diverse program, "
+"skrivbordet samt systemets lågnivåkomponeneter. D-Bus tillhandahåller ett enkelt API för "
+"att skicka meddelanden till specifika tjänster och för att sända meddelanden till alla "
+"intresserade tjänster. D-Bus tillåter olika sorters program att kommunicera med och "
+"integreras med varandra och med skrivbordet, vilket tillhandahåller bättre interaktion "
+"och en rikare användarupplevelse."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:32
+#, fuzzy
 msgid ""
 "D-Bus provides a session bus and a system bus. The session bus is used by applications "
 "in a single user session, allowing them to share data and event notifications and to "
 "integrate into the user's desktop. For example, movie players can send a D-Bus message "
 "to prevent the screensaver from activating while the user is watching a movie."
 msgstr ""
+"D-Bus tillhandahåller en sessionsbuss och en systembuss. Sessionsbussen används av "
+"program i en ensam användarsession, vilket låter dem dela data och händelseaviseringar "
+"och integreras med användarens skrivbord. Till exempel kan filmspelare sända ett D-Bus-"
+"meddelande för att förhindra skärmsläckaren från att aktiveras med användaren tittar på "
+"en film."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:38
+#, fuzzy
 msgid ""
 "The system bus is a single message bus which runs independently of any user sessions. It "
 "can communicate with applications in any session, enabling those applications to "
@@ -2137,6 +2737,13 @@ msgid ""
 "systems. For example, the system bus is used to monitor when network interfaces go up or "
 "down, when external drives get plugged in, and when laptop batteries are low."
 msgstr ""
+"Systembussen är en ensam meddelandebuss som kör oberoende av alla användarsessioner. Den "
+"kan kommunicera med program i alla sessioner, och möjliggör för de programmen att "
+"interagera med systemkomponenter utan att behöva bry sig om systemets lågnivådetaljer. "
+"Systembussen används för att tillhandahålla viktig funktionalitet som användare "
+"förväntar sig ska fungera på deras system. Till exempel används systembussen för att "
+"övervaka när nätverksgränssnitt ansluts eller kopplas från, när externa enheter pluggas "
+"in och när batterinivån för bärbara datorer är låg."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:47
@@ -2147,6 +2754,11 @@ msgid ""
 "software that seamlessly integrates with the user's desktop, regardless of which desktop "
 "it is."
 msgstr ""
+"D-Bus utvecklas gemensamt på <link href=\"http://www.freedesktop.org/\">freedesktop.org</"
+"link>, så du kan använda det med olika skrivbordsmiljöer och program. Eftersom D-Bus är "
+"ett projekt för flera skrivbord så använder du det för att skapa portabel och allsidig "
+"programvara som integrerar sömlöst med användarens skrivbord, oavsett vilket skrivbord "
+"det är."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:54
@@ -2154,17 +2766,21 @@ msgid ""
 "GNOME provides full support for D-Bus using the GDBus APIs in <link xref=\"tech-gio"
 "\">GIO</link>."
 msgstr ""
+"GNOME tillhandahåller fullt stöd för D-Bus genom GDBus-API:erna i <link xref=\"tech-gio"
+"\">GIO</link>."
 
 #. (itstool) path: item/p
 #: C/tech-d-bus.page:58 C/tech-gio-network.page:31
 msgid "<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference Manual</link>"
-msgstr ""
+msgstr "<link href=\"https://developer.gnome.org/gio/stable/\">GIO-referenshandbok</link>"
 
 #. (itstool) path: item/p
 #: C/tech-d-bus.page:59
 msgid ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-tutorial.html\">D-Bus Tutorial</link>"
 msgstr ""
+"<link href=\"http://dbus.freedesktop.org/doc/dbus-tutorial.html\">D-Bus-handledning</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/tech-d-bus.page:60
@@ -2172,15 +2788,16 @@ msgid ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-specification.html\">D-Bus "
 "Specification</link>"
 msgstr ""
+"<link href=\"http://dbus.freedesktop.org/doc/dbus-specification.html\">D-Bus-"
+"specifikationen</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-eds.page:18
 msgid "Desktop-wide addressbook for contacts and calendar"
-msgstr ""
+msgstr "Skrivbordsomfattande adressbok för kontakter och kalender"
 
 #. (itstool) path: page/title
 #: C/tech-eds.page:21
-#| msgid "evolution-data-server"
 msgid "Evolution Data Server"
 msgstr "Evolution Data Server"
 
@@ -2192,6 +2809,10 @@ msgid ""
 "means that users no longer have to maintain separate lists of contacts in each "
 "application, or manually copy events to their calendar."
 msgstr ""
+"Med Evolution Data Server tillhandahåller GNOME en ensam adressbok och kalender som alla "
+"program kan använda för att lagra och ta fram information. Att använda Evolution Data "
+"Server betyder att användare inte längre behöver ha separata kontaktlistor i varje "
+"program eller kopiera evenemang manuellt till sin kalender."
 
 #. (itstool) path: page/p
 #: C/tech-eds.page:29
@@ -2203,6 +2824,12 @@ msgid ""
 "contact information in a single location, allowing all applications to see all the "
 "pertinent data about users' contacts."
 msgstr ""
+"Folk använder datorer mer och mer för att interagera med sina vänner och kollegor. "
+"Program så som e-postprogram, snabbmeddelandeklienter och program för telefon- och "
+"videokonferenser används för att kommunicera med andra. Dessa program tillhandahåller "
+"ofta kontaktlistor för att hjälpa användare. Med Evolution Data Server kan program lagra "
+"kontaktinformation på en enda plats, vilket låter alla program se alla relevanta data om "
+"användares kontakter."
 
 #. (itstool) path: page/p
 #: C/tech-eds.page:37
@@ -2213,6 +2840,10 @@ msgid ""
 "calendar. This makes it easy to see upcoming appointments without opening a full "
 "calendar application."
 msgstr ""
+"Program kan också använda Evolution Data Server för att lagra och ta fram möten från "
+"användarens kalender. Till exempel visar klockan i panelen en enkel kalender då den "
+"klickas på. Om användaren har några möten inplanerade så visas de tillsammans med "
+"kalendern. Detta gör det enkelt att se kommande möten utan att öppna ett kalenderprogram."
 
 #. (itstool) path: item/p
 #: C/tech-eds.page:44
@@ -2220,6 +2851,8 @@ msgid ""
 "<link href=\"http://developer.gnome.org/libebook/stable/\">Evolution API Reference: "
 "libebook</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/libebook/stable/\">API-referens för Evolution: "
+"libebook</link>"
 
 #. (itstool) path: item/p
 #: C/tech-eds.page:45
@@ -2227,47 +2860,18 @@ msgid ""
 "<link href=\"http://developer.gnome.org/libecal/stable/\">Evolution API Reference: "
 "libecal</link>"
 msgstr ""
-
-#. (itstool) path: info/desc
-#: C/tech-enchant.page:17
-msgid "Real-time spell checking for text widgets"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/tech-enchant.page:20
-msgid "Enchant"
-msgstr "Enchant"
-
-#. (itstool) path: page/p
-#: C/tech-enchant.page:22
-msgid ""
-"Enchant provides an API to do spell-checking related tasks. You can ask it if a word is "
-"misspelled, or ask for suggestions for a misspelled word. On a higher level, a library "
-"such as GtkSpell lets you add \"underline squiggles\" for misspelled words to text "
-"widgets."
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/tech-enchant.page:29
-msgid ""
-"In GNOME, Enchant gets used in text-heavy applications like Empathy (an instant "
-"messaging client) and Epiphany (a web browser, for text entry in web forms)."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/tech-enchant.page:36
-msgid "<link href=\"http://www.abisource.com/projects/enchant/\">Enchant home page</link>"
-msgstr ""
+"<link href=\"http://developer.gnome.org/libecal/stable/\">API-referens för Evolution: "
+"libecal</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-folks.page:17
 msgid "Aggregate contacts from multiple local and online sources"
-msgstr ""
+msgstr "Samla kontakter från flera källor, lokalt och på nätet"
 
 #. (itstool) path: page/title
 #: C/tech-folks.page:20
 msgid "Folks"
-msgstr ""
+msgstr "Folks"
 
 #. (itstool) path: page/p
 #: C/tech-folks.page:22
@@ -2281,7 +2885,16 @@ msgid ""
 "instead of showing duplicated people whenever they have more than one account associated "
 "to them."
 msgstr ""
+"Diverse system har olika representationer för användarkonton. Exempelvis har <link xref="
+"\"tech-eds\">Evolution Data Server</link> användarens lista över e-postkontakter. <link "
+"xref=\"tech-telepathy\">Telepathy</link> har användarens s lista över "
+"snabbmeddelandekontakter. Diverse webbtjänster har användarens ”vänner”. Libfolks tar "
+"hand om att samla alla dessa former av kontakter så att du kan få fram alla konton som "
+"hör till en person. Detta låter programvara presentera personlistor på ett mer "
+"användbart sätt, istället för att visa dubblerade personer närhelst de har mer än ett "
+"konto associerat med sig."
 
+# TODO: Are GTalk, Yahoo messenger still around?
 #. (itstool) path: page/p
 #: C/tech-folks.page:32
 msgid ""
@@ -2289,16 +2902,19 @@ msgid ""
 "people (\"Person X has these IM accounts\"), rather than disparate accounts for the same "
 "person (\"Person X at AIM, Person X at GTalk, Person X at Yahoo! Messenger\")."
 msgstr ""
+"I GNOME använder Empathy (snabbmeddelandeklienten) sig av Folks för att presentera en "
+"enhetlig vy över personer (”Person X har dessa snabbmeddelandekonton” snarare än skilda "
+"konton för samma person (”Person X på GTalk, Person X på Yahoo! Messenger”)."
 
 #. (itstool) path: item/p
 #: C/tech-folks.page:40
 msgid "<link href=\"https://wiki.gnome.org/Projects/Folks\">Libfolks home page</link>"
-msgstr ""
+msgstr "<link href=\"https://wiki.gnome.org/Projects/Folks\">Webbsida för Libfolks</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gda.page:18
 msgid "Unified access to relational databases"
-msgstr ""
+msgstr "Enhetlig åtkomst till relationsdatabaser"
 
 #. (itstool) path: page/title
 #: C/tech-gda.page:21
@@ -2311,6 +2927,9 @@ msgid ""
 "GNOME Data Access, or GDA for short, offers a wrapper around relational databases, which "
 "allows you to easily store and retrieve data in many different common database systems."
 msgstr ""
+"GNOME Data Access, eller förkortat GDA, tillhandahåller ett omslag kring "
+"relationsdatabaser, vilket låter dig lätt lagra och ta fram data på många olika vanliga "
+"databassystem."
 
 #. (itstool) path: page/p
 #: C/tech-gda.page:27
@@ -2319,22 +2938,27 @@ msgid ""
 "unified interface to them. GDA supports SQLite, MySQL, PostreSQL, Microsoft Access, "
 "Berkeley DB, Oracle, and JDBC."
 msgstr ""
+"Istället för att behöva oroa sig om infallen hos olika databassystem tillhandahåller GDA "
+"ett enhetligt gränssnitt för dem. GDA stöder SQLite, MySQL, PostreSQL, Microsoft Access, "
+"Berkeley DB, Oracle och JDBC."
 
 #. (itstool) path: item/p
 #: C/tech-gda.page:33
 msgid ""
 "<link href=\"https://developer.gnome.org/libgda/stable/\">GNOME Data Access Manual</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/libgda/stable/\">GNOME Data Access-handbok</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/tech-gda.page:34
 msgid "<link href=\"http://www.gnome-db.org/\">GDA Home Page</link>"
-msgstr ""
+msgstr "<link href=\"http://www.gnome-db.org/\">Webbsida för GDA</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gdk.page:18
 msgid "Low-level abstraction for the windowing system"
-msgstr ""
+msgstr "Lågnivåabstraktion för fönstersystemet"
 
 #. (itstool) path: page/title
 #: C/tech-gdk.page:21
@@ -2343,6 +2967,7 @@ msgstr "GDK"
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:23
+#, fuzzy
 msgid ""
 "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> to interact "
 "with the windowing system for graphics and input devices. Although you will rarely use "
@@ -2351,9 +2976,17 @@ msgid ""
 "devices. GDK acts as an abstraction over various windowing systems, so that GTK+ can be "
 "portable to all of them: the X Window System (X11), Microsoft Windows, Mac OS X Quartz."
 msgstr ""
+"GDK är lågnivåbiblioteket som används av <link xref=\"tech-gtk\">GTK+</link> för att "
+"interagera med fönstersystemet för grafik och indataenheter. Även om du sällan kommer "
+"att använda GDK direkt i programkod så innehåller den all nödvändig funktionalitet för "
+"att skapa lågnivåfönster på skärmen och för att interagera med användaren med olika "
+"inmatningsenheter. GDK agerar som en abstraktion över diverse fönstersystems, så att GTK"
+"+ kan porteras till alla av dem: X Window System (X11), Microsoft Windows, Mac OS X "
+"Quartz."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:31
+#, fuzzy
 msgid ""
 "GDK enables you to access events from keyboards, mice, and other input devices. "
 "Implementations of widgets in GTK+ use this functionality, and translate the events into "
@@ -2363,17 +2996,29 @@ msgid ""
 "appropriate into a <code>GtkButton::clicked</code> signal when the user presses and "
 "releases the button in the right location."
 msgstr ""
+"GDK låter dig komma åt händelser från tangentbord, möss och andra inmatningsenheter. "
+"Implementationer av komponenter i GTK+ använder denna funktionalitet och översätter "
+"händelserna till signaler på högre nivå som i sin tu kan användas från programkod. Till "
+"exempel kommer en <code>GtkButton</code>-komponent att spåra <code>GDK_BUTTON_PRESS</"
+"code>- och <code>GTK_BUTTON_RELEASE</code>-händelser, vilka kommer från musen, och "
+"översätta dem som lämpligt till en <code>GtkButton::clicked</code>-signal när användaren "
+"trycker ner och släpper upp knappen på rätt plats."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:40
+#, fuzzy
 msgid ""
 "GDK also provides low-level routines to access drag and drop and clipboard data from the "
 "system. When implementing custom controls, you may need to access these features to "
 "implement proper user interaction behavior."
 msgstr ""
+"GDK tillhandahåller också lågnivårutiner för att komma åt dra-och-släpp och urklippsdata "
+"från systemet. Då anpassade kontroller implementeras kan du behöva komma åt dessa "
+"funktioner för att implementera lämpligt användarinteraktionsbeteende."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:45
+#, fuzzy
 msgid ""
 "GDK provides other functionality which is needed to implement a complete graphical "
 "toolkit like GTK+. Since GDK acts as a platform abstraction, allowing GTK+ to run under "
@@ -2381,9 +3026,15 @@ msgid ""
 "GTK+. This includes information about multi-head displays, resolution and color depth, "
 "colormaps, and cursors."
 msgstr ""
+"GDK tillhandahåller annan funktionalitet som behövs för att implementera en fullständig "
+"grafiskt verktygslåda som GTK+. Eftersom GDK agerar som en plattformsabstraktion, vilken "
+"låter GTK+ köra under flera miljöer, så tillhandahåller den ett API för all "
+"systemfunktionalitet som behövs av GTK+. Detta inkluderar information om flera skärmar, "
+"upplösning och färgdjup, färgkartor, och markörer."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:52
+#, fuzzy
 msgid ""
 "You should use GDK whenever you need low-level access to the underlying windowing "
 "system, including low-level access to events, windows, and the clipboard. Using GDK for "
@@ -2393,16 +3044,23 @@ msgid ""
 "you should use the extensive functionality provided by <link xref=\"tech-cairo\">Cairo</"
 "link> to draw high-quality 2D graphics."
 msgstr ""
+"Du bör använda GDK närhelst du behöver lågnivååtkomst till det underliggande "
+"fönstersystemet, inklusive lågnivååtkomst till händelser, fönster och urklipp. Att "
+"använda GDK för dessa uppgifter säkerställer att din kod är portabel och integrerad med "
+"resten av din GTK+-kod. De enkla ritrutinerna i GDK bör i allmänhet inte användas, dessa "
+"är en kvarleva från när GDK helt enkelt var ett omslag till fönstersystemet "
+"ritprimitiver. Istället bör du använda den omfattande funktionalitet som tillhandahålls "
+"av <link xref=\"tech-cairo\">Cairo</link> för att rita 2D-grafik med hög kvalitet."
 
 #. (itstool) path: item/p
 #: C/tech-gdk.page:62
 msgid "<link href=\"https://developer.gnome.org/gdk3/stable/\">GDK Reference Manual</link>"
-msgstr ""
+msgstr "<link href=\"https://developer.gnome.org/gdk3/stable/\">GDK-referenshandbok</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-geoclue2.page:17
 msgid "Geolocation - finding the user's geographical location"
-msgstr ""
+msgstr "Positionering - hitta användarens geografiska plats"
 
 #. (itstool) path: page/title
 #: C/tech-geoclue2.page:20
@@ -2416,6 +3074,9 @@ msgid ""
 "user's geographical position. A mapping application could use this to present a \"where "
 "am I\" view, for example."
 msgstr ""
+"Geoclue2 tillhandahåller <em>positionerings</em>-tjänster, det vill säga att det låter "
+"program få reda på användarens geografiska plats. Ett kartprogram skulle till exempel "
+"kunna använda detta för att visa en “Var är jag“-vy."
 
 #. (itstool) path: page/p
 #: C/tech-geoclue2.page:29
@@ -2423,6 +3084,8 @@ msgid ""
 "Geoclue2 intends to be able to provide positioning information in several ways: from the "
 "GPS in a WWAN modem, from a Wi-Fi access point's data, or from the computer's IP address."
 msgstr ""
+"Geoclue2 avser att kunna tillhandahålla platsinformation på flera sätt: från GPS:en i "
+"ett WWAN-modem, från en trådlös accesspunkts data, eller från datorns IP-adress."
 
 #. (itstool) path: page/p
 #: C/tech-geoclue2.page:35
@@ -2431,6 +3094,9 @@ msgid ""
 "geographical location. Only applications allowed by the user will be able to get "
 "geolocation information."
 msgstr ""
+"Geoclue2 avser också att tillhandahålla sekretess för användare som inte vill avslöja "
+"sin geografiska plats. Endast program som får tillåtelse av användaren kommer kunna få "
+"tillgång till platsinformation."
 
 #. (itstool) path: info/desc
 #: C/tech-geocode-glib.page:17
@@ -2438,6 +3104,8 @@ msgid ""
 "Geocoding and reverse geocoding - conversion of street addresses to/from geographical "
 "coordinates"
 msgstr ""
+"Geografisk kodning och omvänd geografisk kodning - konvertering av gatuadresser till/"
+"från geografiska koordinater"
 
 #. (itstool) path: page/title
 #: C/tech-geocode-glib.page:21
@@ -2451,6 +3119,10 @@ msgid ""
 "the process of translating an address (\"123 High Street, SomeTown, SomeCountry\") to a "
 "pair of latitude/longitude values. Reverse geocoding is the opposite process."
 msgstr ""
+"Geocode-glib tillhandahåller <em>geografisk kodning</em> och <em>omvänd geografisk "
+"kodning</em>. Geografisk kodning är processen att översätta en adress (”123 Storgatan, "
+"Någonstad, Någotland”) till ett par av latitud/longitudvärden. Omvänd geografisk kodning "
+"är den omvända processen."
 
 #. (itstool) path: page/p
 #: C/tech-geocode-glib.page:30
@@ -2458,6 +3130,8 @@ msgid ""
 "Geocode-glib uses the Yahoo! Place Finder API internally to do its work. In the future "
 "it will support the free Nominatim service and OpenStreetMap data."
 msgstr ""
+"Geocode-glib använder internt Yahoo! Place Finder-API:t för att fungera. I framtiden "
+"kommer det att stödja den fria Nominatim-tjänsten och OpenStreetMap-data."
 
 #. (itstool) path: item/p
 #: C/tech-geocode-glib.page:37
@@ -2465,18 +3139,18 @@ msgid ""
 "<link href=\"https://developer.gnome.org/geocode-glib/unstable/index.html\">Geocode-glib "
 "reference documentation</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/geocode-glib/unstable/index.html"
+"\">Referensdokumentation för Geocode-glib</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gio-network.page:18
 msgid "Networking and sockets API with streams"
-msgstr ""
+msgstr "Nätverks- och uttags-API med strömmar"
 
 #. (itstool) path: page/title
 #: C/tech-gio-network.page:21
-#, fuzzy
-#| msgid "IPC and Networking"
 msgid "GIO Networking"
-msgstr "IPC och nätverk"
+msgstr "GIO-nätverk"
 
 #. (itstool) path: page/p
 #: C/tech-gio-network.page:23
@@ -2487,6 +3161,11 @@ msgid ""
 "and read resources. The asynchronous API means your application doesn't block waiting "
 "for a response from the network."
 msgstr ""
+"GIO-nätverk är byggt ovanpå ström-API:erna som <link xref=\"tech-gio\">används för "
+"filer</link>. Det tillhandahåller högnivå-API:er för att kommunicera över TCP/IP och "
+"UNIX-domänuttag. Du kan använda GIO-nätverks-API:erna för att ansluta till en server, "
+"lyssna efter händelser, och läsa resurser. Det asynkrona API:t betyder att ditt program "
+"inte blockerar under tiden det väntar på ett svar från nätverket."
 
 #. (itstool) path: item/p
 #: C/tech-gio-network.page:32
@@ -2494,6 +3173,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/networking.html\">Lowlevel network "
 "support</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gio/stable/networking.html\">Lågnivåstöd för "
+"nätverk</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gio-network.page:33
@@ -2501,19 +3182,23 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/highlevel-socket.html\">Highlevel "
 "network functionality</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gio/stable/highlevel-socket.html"
+"\">Högnivåfunktionalitet för nätverk</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gio.page:23
 msgid "File and URI handling, asynchronous file operations, volume handling"
-msgstr ""
+msgstr "Fil- och URI-hantering, asynkrona filoperationer, volymhantering"
 
 #. (itstool) path: page/title
 #: C/tech-gio.page:27
 msgid "GIO Files"
-msgstr ""
+msgstr "GIO-filer"
 
+# TODO: Not URL for *uniform resource locators* ?
 #. (itstool) path: page/p
 #: C/tech-gio.page:29
+#, fuzzy
 msgid ""
 "GIO provides APIs for asynchronously reading and writing files and other streams. Files "
 "are referenced by URIs (uniform resource locators), and backends can provide access to "
@@ -2521,32 +3206,46 @@ msgid ""
 "access to files over SFTP, FTP, WebDAV, SMB, and other popular protocols. This "
 "transparent network file access is free to all applications using GIO."
 msgstr ""
+"GIO tillhandahåller API:er för att asynkront läsa och skriva filer och andra strömma. "
+"Filer hänvisas till med URI:er (uniform resource locators), och gränssnitt kan "
+"tillhandahålla åtkomst till mer än bara lokala filer. Då det körs under GNOME-"
+"skrivbordet använder GIO sig av GVFS för att tillåta åtkomst till filer över SFTP, FTP, "
+"WebDAV, SMB och andra populära protokoll. Denna transparenta nätverksfilåtkomst är fri "
+"för alla program som använder GIO."
 
 #. (itstool) path: page/p
 #: C/tech-gio.page:36
+#, fuzzy
 msgid ""
 "The GIO file APIs were designed to be used in event-driven graphical interfaces. The non-"
 "blocking, asynchronous design means your user interface doesn't hang while waiting for a "
 "file. There are also synchronous versions of the APIs available, which are sometimes "
 "more convenient for worker threads or processes."
 msgstr ""
+"GIO:s fil-API:er designades för att användas i händelsedrivna grafiska gränssnitt. Den "
+"ickeblockerande asynkrona designen betyder att ditt användargränssnitt inte hänger sig "
+"medan det väntar på en fil. Det finns också synkrona versioner av API:erna tillgängliga, "
+"vilket ibland är mer behändigt för arbetstrådar eller processer."
 
 #. (itstool) path: page/p
 #: C/tech-gio.page:42
+#, fuzzy
 msgid ""
 "GIO also provides routines for managing drives and volumes, querying file types and "
 "icons, and finding applications to open files."
 msgstr ""
+"GIO tillhandahåller också rutiner för att hantera enheter och volymer, fråga efter "
+"filtyper och ikoner samt hitta program för att öppna filer."
 
 #. (itstool) path: item/p
 #: C/tech-gio.page:46
 msgid "<link href=\"http://developer.gnome.org/gio/stable/\">GIO Reference Manual</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gio/stable/\">GIO-referenshandbok</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-glib.page:17
 msgid "Data structures and utilities for C programs"
-msgstr ""
+msgstr "Datastrukturer och hjälpverktyg för C-program"
 
 #. (itstool) path: page/title
 #: C/tech-glib.page:20
@@ -2560,6 +3259,9 @@ msgid ""
 "structures for C programs (linked lists, binary trees, hash tables) and various "
 "utilities such as string manipulation functions."
 msgstr ""
+"GLib är det mest grundläggande av alla GNOME-bibliotek. Det tillhandahåller enkla "
+"datastrukturer för C-program (länkade listor, binärträd, hashtabeller) och diverse "
+"verktyg så som funktioner för strängmanipulation."
 
 #. (itstool) path: page/p
 #: C/tech-glib.page:28
@@ -2567,16 +3269,19 @@ msgid ""
 "If you are not writing C programs, you normally don't need to be concerned with GLib. If "
 "you are, however, GLib will make your life as a C programmer much easier."
 msgstr ""
+"Om du inte skriver C-program behöver du vanligen inte bry dig om GLib. Om du gör det "
+"kommer dock GLib att göra ditt liv som C-programmerare mycket enklare."
 
 #. (itstool) path: item/p
 #: C/tech-glib.page:35
 msgid "<link href=\"http://developer.gnome.org/glib/stable/\">GLib reference manual</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/glib/stable/\">GLib-referenshandbok</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gobject.page:16
+#, fuzzy
 msgid "C-based object and type system with signals and slots"
-msgstr ""
+msgstr "C-baserat objekt- och typsystem med signaler och slots"
 
 #. (itstool) path: page/title
 #: C/tech-gobject.page:19
@@ -2590,9 +3295,13 @@ msgid ""
 "object and type system for C programs. Although C as a language does not provide objects "
 "or classes, GObject makes it possible to write object-oriented C programs."
 msgstr ""
+"GObject är delen av <link xref=\"tech-glib\">GLib</link>-biblioteket som tillhandahåller "
+"ett objekt- och typsystem för C-program. Även om C som ett språk inte tillhandahåller "
+"objekt eller klasser så gör GObject det möjligt att skriva objektorienterade C-program."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:26
+#, fuzzy
 msgid ""
 "GObject provides a fundamental GType, the base for the whole type system, from which "
 "types such as ints and strings are derived. Then, there is GObject itself, the base "
@@ -2600,9 +3309,15 @@ msgid ""
 "something interesting happens. For example, a <code>Button</code> object could emit a "
 "<code>clicked</code> signal to indicate that it has been pressed and released."
 msgstr ""
+"GObject tillhandahåller en grundläggande GType, basen för hela typsystemet, från vilken "
+"typer så som heltal och strängar härleds. Sedan finns det GObject självt, basklassen för "
+"alla andra klasser. Objekt kan utstråla <em>signaler</em> för att avisera anroparen när "
+"något intressant händer. Till exempel kan ett <code>Button</code>-objekt utstråla en "
+"signal <code>clicked</code> för att indikera att det har tryckts ner och släppts."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:35
+#, fuzzy
 msgid ""
 "GObject is <em>introspectable</em>, which means that you can ask the GObject system for "
 "the class types that are defined, the methods they support, their signals, etc. GNOME's "
@@ -2611,25 +3326,36 @@ msgid ""
 "bindings use the introspection information from GObject to auto-generate those wrappers "
 "themselves."
 msgstr ""
+"GObject är <em>introspekterbart</em>, vilket betyder att du kan fråga GObject-systemet "
+"om de klasstyper som är definierade, metoderna de stöder, deras signaler o.s.v. GNOME:s "
+"språkbindningar byggs ovanpå denna introspektionsinformation. Istället för att skriva "
+"omslag för hand för att låta GNOME-API:er anropas från andra programmeringsspråk så "
+"använder språkbindningar introspektionsinformationen från GObject för att själv generera "
+"dessa omslag automatiskt."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:45
+#, fuzzy
 msgid ""
 "You normally don't need to be concerned with GObject itself if you are programming for "
 "GNOME with an object-oriented language. However, making yourself familiar with GObject's "
 "concepts, such as signals and slots, will make your life easier as a GNOME programmer."
 msgstr ""
+"Du behöver vanligen inte bry dig om GObject självt om du programmerar för GNOME med ett "
+"objektorienterat språk. Att göra dig själv bekant med koncepten i GObject, så som "
+"signaler och slots, kommer dock att göra ditt liv som GNOME-programmerare enklare."
 
 #. (itstool) path: item/p
 #: C/tech-gobject.page:53
 msgid ""
 "<link href=\"http://developer.gnome.org/gobject/stable/\">GObject reference manual</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/gobject/stable/\">GObject-referenshandbok</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gsettings.page:18
 msgid "Configuration storage for application preferences"
-msgstr ""
+msgstr "Konfigurationslagring för programinställningar"
 
 #. (itstool) path: page/title
 #: C/tech-gsettings.page:21
@@ -2642,6 +3368,9 @@ msgid ""
 "GSettings is the part of <link xref=\"tech-glib\">GLib</link> that allows applications "
 "to save their configuration settings and user's preferences in a standard way."
 msgstr ""
+"GSettings är delen av <link xref=\"tech-glib\">GLib</link> som tillåter program att "
+"spara sina konfigurationsinställningar och användarinställningar på ett standardiserat "
+"sätt."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:27
@@ -2650,6 +3379,10 @@ msgid ""
 "schema for each key contains the key's name, a human-readable description of what the "
 "key is for, a type for the key (string, integer, etc.), and a default value."
 msgstr ""
+"Ett program som använder GSettings definierar ett <em>schema</em> av "
+"konfigurationsnycklar. Schemat för varje nyckel innehåller nyckelns namn, en mänskligt "
+"läsbar beskrivning av vad nyckeln är till för, en typ för nyckeln (sträng, heltal, o.s."
+"v.) samt ett standardvärde."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:34
@@ -2658,6 +3391,9 @@ msgid ""
 "this is DConf; on Windows it is the Registry, and on Mac OS it is the NextStep property "
 "list mechanism."
 msgstr ""
+"GSettings använder operativsystemets lagring för konfigurationsdata. På GNU-system är "
+"detta DConf; på Windows är det registret, och på Mac OS är det NextStep property list-"
+"mekanismen."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:40
@@ -2667,6 +3403,10 @@ msgid ""
 "display clocks can respond to a global setting for 12-hour/24-hour display immediately, "
 "without having to restart."
 msgstr ""
+"GSettings låter dig övervaka ändringar i nycklars värden, så att ditt program kan svara "
+"dynamiskt på globala konfigurationsändringar. Till exempel kan alla program som visar "
+"klockor följa en global inställning för 12/24-timmarsvisning omedelbart, utan att behöva "
+"starta om."
 
 #. (itstool) path: item/p
 #: C/tech-gsettings.page:48
@@ -2674,15 +3414,16 @@ msgid ""
 "<link href=\"http://developer.gnome.org/gio/stable/GSettings.html\">GSettings Reference "
 "Manual</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/gio/stable/GSettings.html\">GSettings-"
+"referenshandbok</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gstreamer.page:18
 msgid "Playing, mixing, and manipulating sound and video"
-msgstr ""
+msgstr "Spela upp, mixa och manipulera ljud och video"
 
 #. (itstool) path: page/title
 #: C/tech-gstreamer.page:21
-#| msgid "gstreamer"
 msgid "GStreamer"
 msgstr "GStreamer"
 
@@ -2695,9 +3436,15 @@ msgid ""
 "supports encoding and decoding numerous formats by default, and support for additional "
 "formats can be added with plug-ins."
 msgstr ""
+"GStreamer är ett kraftfullt multimediabibliotek för att spela upp, skapa samt manipulera "
+"ljud, video och andra media. Du kan använda GStreamer för att tillhandahålla uppspelning "
+"av ljud och video, spela in inmatning från flera källor, samt redigera "
+"multimediainnehåll. GStreamer stöder kodning och avkodning av flera format som standard, "
+"och stöd för ytterligare format kan läggas till via insticksmoduler."
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:30
+#, fuzzy
 msgid ""
 "GStreamer provides a flexible architecture wherein media is processed through a pipeline "
 "of elements. Each element may apply filters to the content, such as encoding or "
@@ -2706,6 +3453,12 @@ msgid ""
 "virtually any effect using GStreamer. Furthermore, GStreamer is designed to have low "
 "overhead, so it can be used in applications with high demands on latency."
 msgstr ""
+"GStreamer tillhandahåller en flexibel arkitektur där media bearbetas genom en rörledning "
+"av element. Varje element kan tillämpa filter på innehållet, så som att koda eller "
+"avkoda, kombinera flera källor, eller omvandla multimediainnehållet. Denna arkitektur "
+"tillåter ett godtyckligt arrangemang av element, så du kan åstadkomma nästan vilken "
+"effekt som helst med GStreamer. Vidare är GStreamer designat för att ha låg "
+"prestandakostnad, så det kan användas i program med höga latenskrav."
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:39
@@ -2715,6 +3468,10 @@ msgid ""
 "pipeline to read and playback files in any supported format, allowing you to use sound "
 "and video in your application easily."
 msgstr ""
+"Medan GStreamer tillhandahåller ett kraftfullt API för att manipulera multimedia så "
+"tillhandahåller det även behändiga rutiner för enkel uppspelning. GStreamer kan "
+"automatiskt konstruera en rörledning för att läsa och spela upp filer i alla format som "
+"stöds, vilket låter dig lätt använda ljud och video i ditt program."
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:45
@@ -2724,6 +3481,11 @@ msgid ""
 "automatically available to other applications using GStreamer. Plugins can provide "
 "support for other multimedia formats or provide additional functionality and effects."
 msgstr ""
+"GStreamer-arkitekturen låter insticksmodulera lägga till kodare, avkodare, och alla "
+"sorters innehållsfilter. Tredjepartsutvecklare kan tillhandahålla GStreamer-"
+"insticksmoduler vilka kommer att automatiskt vara tillgängliga för andra program som "
+"använder GStreamer. Insticksmoduler kan tillhandahålla stöd för andra multimediaformat "
+"eller tillhandahålla ytterligare funktionalitet och effekter."
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:52
@@ -2733,6 +3495,10 @@ msgid ""
 "makes your application development easy, and it provides you well-tested elements for "
 "many of your needs."
 msgstr ""
+"Du bör använda GStreamer närhelst du behöver läsa eller spela upp multimediainnehåll i "
+"ditt program, eller om ditt behöver manipulera ljud eller video. Att använda GStreamer "
+"gör din programutveckling enkel, och det tillhandahåller dig vältestade element för "
+"många av dina behov."
 
 #. (itstool) path: item/p
 #: C/tech-gstreamer.page:59
@@ -2740,6 +3506,8 @@ msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/html/index."
 "html\">The GStreamer Application Development Manual</link>"
 msgstr ""
+"<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/html/index."
+"html\">GStreamers programutvecklingshandbok</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gstreamer.page:60
@@ -2747,6 +3515,8 @@ msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gstreamer/html/"
 "\">The GStreamer 1.0 Core Reference Manual</link>"
 msgstr ""
+"<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gstreamer/html/"
+"\">Referenshandbok för GStreamer 1.0 Core</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gstreamer.page:61
@@ -2754,16 +3524,18 @@ msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/documentation/\">The GStreamer "
 "documentation page</link>"
 msgstr ""
+"<link href=\"http://gstreamer.freedesktop.org/documentation/\">GStreamers "
+"dokumentationssida</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gstreamer.page:62
 msgid "<link href=\"http://gstreamer.freedesktop.org\">The GStreamer web site</link>"
-msgstr ""
+msgstr "<link href=\"http://gstreamer.freedesktop.org\">GStreamers webbplats</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gtk.page:18
 msgid "Widget toolkit for graphical interfaces"
-msgstr ""
+msgstr "Komponentverktygslåda för grafiska gränssnitt"
 
 #. (itstool) path: page/title
 #: C/tech-gtk.page:21
@@ -2772,6 +3544,7 @@ msgstr "GTK+"
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:23
+#, fuzzy
 msgid ""
 "GTK+ is the primary library used to construct user interfaces in GNOME. Its name stands "
 "for \"GIMP Tool Kit\", as originally it was explicitly written for that image "
@@ -2780,6 +3553,13 @@ msgid ""
 "application. Its object-oriented API allows you to construct user interfaces without "
 "dealing with the low-level details of drawing and device interaction."
 msgstr ""
+"GTK+ är primärbiblioteket som används för att konstruera användargränssnitt i GNOME. "
+"Dess namn står för ”GIMP Tool Kit”, då det ursprungligen var skrivet explicit för det "
+"bildmanipuleringsprogrammet, och extraherades sedan från det som ett fristående "
+"bibliotek. Det tillhandahåller alla gränssnittskontroller, eller <em>komponenter</em>, "
+"som används i ett vanligt grafiskt program. Dess objektorienterade API låter dig "
+"konstruera användargränssnitt utan att behöva hantera lågnivådetaljer kring ritande och "
+"enhetsinteraktion."
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:32
@@ -2788,9 +3568,13 @@ msgid ""
 "provides Model-View-Controller (MVC) APIs for tree views, multi-line text fields, and "
 "menu and toolbar actions."
 msgstr ""
+"Utöver grundläggande komponenter så som knappar, kryssrutor och textinmatningsfält så "
+"tillhandahåller GTK+ även Model-View-Controller (MVC) API:er för trädvyer, textfält med "
+"flera rader samt meny- och verktygsfältsåtgärder."
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:37
+#, fuzzy
 msgid ""
 "Widgets in GTK+ are placed on windows using a <em>box-packing model</em>. Programmers "
 "specify only how to pack widgets together in container boxes, instead of positioning "
@@ -2799,43 +3583,55 @@ msgid ""
 "to-left languages like Arabic and Hebrew, GTK+ automatically reverses the user interface "
 "from left to right so that controls have the expected visual order."
 msgstr ""
+"Komponenter i GTK+ placeras i fönster med en <em>lådpackningsmodell</em>. Programmerare "
+"anger endast hur komponenter ska packas tillsammans i behållarlådor, istället för att "
+"positionera dem direkt med absoluta koordinater. På det sätter säkerställer GTK+ att "
+"fönster har korrekt storlek för att rymma sitt innehåll, och det hanterar automatiskt "
+"storleksändring av fönster. För höger-till-vänster-språk som arabiska och hebreiska "
+"vänder GTK+ automatiskt användargränssnittet från vänster till höger så att kontroller "
+"har den väntade visuella ordningen."
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:45
+#, fuzzy
 msgid ""
 "GTK+ allows you to develop custom widgets for use in applications. Similar to native or "
 "stock widgets, these custom widgets can support all the features that GTK+ has: right-to-"
 "left language support, accessibility interfaces, keyboard navigation, and automatic "
 "sizing."
 msgstr ""
+"GTK+ låter dig utveckla anpassade komponenter för användning i program. Liksom inhemska "
+"komponenter eller standardkomponenter så kan dessa anpassade komponenter stödja alla "
+"funktioner som GTK+ har: språkstöd för höger-till-vänster, hjälpmedelsgränssnitt, "
+"tangentbordsnavigering och automatisk storleksändring."
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
 msgid "<link href=\"http://gtk.org/\">Official web site</link>"
-msgstr ""
+msgstr "<link href=\"http://gtk.org/\">Officiell webbplats</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
 msgid ""
 "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo tutorial</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demonstrationer</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
 msgid "<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/\">Referenshandbok</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:54
 msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
-msgstr ""
+msgstr "<link href=\"https://git.gnome.org/browse/gtk+/\">git-arkiv</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:55
-#, fuzzy
-#| msgid "Mailing Lists"
 msgid "Mailing lists:"
-msgstr "Sändlistor"
+msgstr "Sändlistor:"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:57
@@ -2843,6 +3639,8 @@ msgid ""
 "<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list\">Writing GTK+ "
 "applications</link>"
 msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list\">Skriva GTK+-"
+"program</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:58
@@ -2850,6 +3648,8 @@ msgid ""
 "<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">General discussion about "
 "GTK+</link>"
 msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">Allmän diskussion om GTK"
+"+</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:59
@@ -2857,6 +3657,8 @@ msgid ""
 "<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list\">Development of GTK"
 "+</link>"
 msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list\">Utveckling av GTK"
+"+</link>"
 
 #. (itstool) path: credit/name
 #: C/tech-gupnp.page:11
@@ -2865,8 +3667,9 @@ msgstr "Zeeshan Ali (Khattak)"
 
 #. (itstool) path: info/desc
 #: C/tech-gupnp.page:18
+#, fuzzy
 msgid "Wireless, peer-to-peer, plug-and-play RPC"
-msgstr ""
+msgstr "Trådlös, P2P, plug-and-play-RPC"
 
 #. (itstool) path: page/title
 #: C/tech-gupnp.page:21
@@ -2881,14 +3684,21 @@ msgid ""
 "Play). GUPnP lets GNOME applications discover UPnP devices on the network, and publish "
 "services themselves."
 msgstr ""
+"Många ”hemelektronik”-enheter som kan använda ett hus lokala nätverk stöder upptäckt av "
+"enheter och tjänster via ett protokoll som kallas UPnP (Universal Plug and Play). GUPnP "
+"låter GNOME-program upptäcka UPnP-enheter på nätverket samt själva publicera tjänster."
 
 #. (itstool) path: page/p
 #: C/tech-gupnp.page:30
+#, fuzzy
 msgid ""
 "DLNA is a set of standards that let devices share multimedia content in standard "
 "formats. GUPnP can also perform DLNA-related tasks such as media profile guessing, "
 "transcoding to a given profile, etc."
 msgstr ""
+"DLNA är en uppsättning standarder som låter enheter dela multimediainnehåll i "
+"standardformat. GUPnP kan också utföra DLNA-relaterade uppgifter så som "
+"mediaprofilgissning, kodning till en given profil o.s.v."
 
 #. (itstool) path: page/p
 #: C/tech-gupnp.page:36
@@ -2896,24 +3706,27 @@ msgid ""
 "In GNOME, GUPnP is one of the basic building blocks of home-multimedia software like "
 "Rygel, a home media server."
 msgstr ""
+"I GNOME är GUPnP en av de grundläggande byggstenarna för hemmultimediaprogramvara som "
+"Rygel, en hemmediaserver."
 
 #. (itstool) path: item/p
 #: C/tech-gupnp.page:42
 msgid "<link href=\"http://www.gupnp.org\">GUPnP home page</link>"
-msgstr ""
+msgstr "<link href=\"http://www.gupnp.org\">Webbsida för GUPnP</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-help.page:18
 msgid "Topic-oriented online help system"
-msgstr ""
+msgstr "Ämnesorienterat uppkopplat hjälpsystem"
 
 #. (itstool) path: page/title
 #: C/tech-help.page:21
 msgid "Help"
-msgstr ""
+msgstr "Hjälp"
 
 #. (itstool) path: page/p
 #: C/tech-help.page:23
+#, fuzzy
 msgid ""
 "Users sometimes need a little help, even with the best-designed applications. GNOME "
 "provides a built-in topic-oriented help system that uses the <link href=\"http://"
@@ -2923,6 +3736,14 @@ msgid ""
 "through a manual. With its unique linking and organization system, Mallard is the only "
 "language designed to handle plugin and vendor help in one coherent document."
 msgstr ""
+"Ibland behöver användare lite hjälp, även med de bäst designade programmen. GNOME "
+"tillhandahåller ett inbyggt ämnesorienterat hjälpsystem som använder märkspråket <link "
+"href=\"http://projectmallard.org/\">Mallard</link>. Mallard är ett agilt och dynamiskt "
+"språk, inlett av GNOME-utvecklare, som låter dig skriva och revidera snabbt. Dess "
+"ämnesorienterade design betyder att dina användare kan hitta svaren de behöver utan att "
+"behöva leta igenom en handbok. Med dess unika länk- och organisationssystem är Mallar "
+"det enda språk som är designat för att hantera hjälp både från leverantören och om "
+"insticksmoduler i ett sammanhängande dokument."
 
 #. (itstool) path: page/p
 #: C/tech-help.page:33
@@ -2930,6 +3751,8 @@ msgid ""
 "When you do need linear manuals, GNOME also supports the industry-standard <link href="
 "\"http://docbook.org/\">DocBook</link> format."
 msgstr ""
+"När du behöver linjära handböcker stöder GNOME även <link href=\"http://docbook.org/"
+"\">DocBook</link>-formatet som är en industristandard."
 
 #. (itstool) path: item/p
 #: C/tech-help.page:38
@@ -2937,28 +3760,28 @@ msgid ""
 "<link href=\"http://projectmallard.org/about/learn/tenminutes.html\">Ten Minute Mallard "
 "Tour</link>"
 msgstr ""
+"<link href=\"http://projectmallard.org/about/learn/tenminutes.html\">Tio minuters "
+"rundtur i Mallard</link>"
 
 #. (itstool) path: item/p
 #: C/tech-help.page:39
 msgid "<link href=\"http://projectmallard.org/\">The Mallard web site</link>"
-msgstr ""
+msgstr "<link href=\"http://projectmallard.org/\">Webbplatsen för Mallard</link>"
 
 #. (itstool) path: item/p
 #: C/tech-help.page:40
 msgid "<link href=\"http://docbook.org/\">The DocBook web site</link>"
-msgstr ""
+msgstr "<link href=\"http://docbook.org/\">Webbplatsen för DocBook</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-network-manager.page:17
 msgid "Manage network connections and monitor online/offline status"
-msgstr ""
+msgstr "Hantera nätverksanslutningar och övervaka ansluten/frånkopplad-status"
 
 #. (itstool) path: page/title
 #: C/tech-network-manager.page:20
-#, fuzzy
-#| msgid "File Manager"
 msgid "NetworkManager"
-msgstr "Filhanterare"
+msgstr "Nätverkshanteraren"
 
 #. (itstool) path: page/p
 #: C/tech-network-manager.page:22
@@ -2968,6 +3791,10 @@ msgid ""
 "activated. It lets users select between different wired and wireless networks, configure "
 "Virtual Private Networks (VPNs), and connect to the network with modems."
 msgstr ""
+"Nätverkshanteraren hanterar en dators nätverksanslutningar. Den tar hand om DHCP-"
+"förhandling för att få en IP-adress för datorn när dess nätverk först aktiveras. Den "
+"låter användare välja mellan olika trådbundna och trådlösa anslutningar, konfigurera "
+"virtuella privata nätverk (VPN) samt ansluta till nätverket med modem."
 
 #. (itstool) path: page/p
 #: C/tech-network-manager.page:30
@@ -2978,15 +3805,25 @@ msgid ""
 "the online/offline state of the computer, and perform other high-level tasks related to "
 "the network."
 msgstr ""
+"Nätverkshanteraren tillhandahåller ett omfattande API som låter program styra "
+"nätverksanslutningar. Detta är dock mest intressant för program som implementerar "
+"skrivbordskärnan själv. Vanliga program kan använda Nätverkshanterarens API för att "
+"övervaka ansluten/frånkopplad-tillstånd för datorn och utföra andra högnivåuppgifter som "
+"är relaterade till nätverket."
 
 #. (itstool) path: page/p
 #: C/tech-network-manager.page:38
+#, fuzzy
 msgid ""
 "The core desktop shell in GNOME has a prominent NetworkManager icon; internally it uses "
 "the NetworkManager API to change network settings based on the user's choices. "
 "Applications such as Evolution, which need to know about the online/offline status of "
 "the computer, use NetworkManager as well."
 msgstr ""
+"Kärnskrivbordskalet i GNOME har en framstående ikon för Nätverkshanteraren, internt "
+"använder det Nätverkshanterar-API:t för att ändra nätverksinställningar baserat på "
+"användarens val. Program så som Evolution, som behöver känna till datorns ansluten/"
+"frånkopplad-status, använder också Nätverkshanteraren."
 
 #. (itstool) path: item/p
 #: C/tech-network-manager.page:47
@@ -2994,6 +3831,8 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/NetworkManager\">NetworkManager home page</"
 "link>"
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/NetworkManager\">Webbsida för "
+"Nätverkshanteraren</link>"
 
 #. (itstool) path: item/p
 #: C/tech-network-manager.page:48
@@ -3001,17 +3840,20 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/NetworkManager/Developers\">NetworkManager "
 "API reference</link>"
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/NetworkManager/Developers\">API-referens "
+"för Nätverkshanteraren</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-notify.page:23
 msgid "Interactive notifications in the desktop's message tray"
-msgstr ""
+msgstr "Interaktiva aviseringar i skrivbordets meddelandefält"
 
 #. (itstool) path: page/title
 #: C/tech-notify.page:26
 msgid "Notify"
-msgstr ""
+msgstr "Notify"
 
+# TODO: and the put -> and are then put
 #. (itstool) path: page/p
 #: C/tech-notify.page:28
 msgid ""
@@ -3023,6 +3865,13 @@ msgid ""
 "the bottom of the screen and then put into the messaging tray, while other desktop "
 "shells may choose to show them differently."
 msgstr ""
+"Libnotify tillhandahåller ett API för att presentera aviseringar till användaren. "
+"Aviseringar kan vara enkla meddelanden, eller så kan de låta användaren svara. Till "
+"exempel använder Empathy (GNOME:s programvara för snabbmeddelanden) aviseringar för att "
+"berätta för användaren när ett snabbmeddelande har anlänt. Aviseringar som görs med "
+"Libnotify kommer använda det lämpliga gränssnittet för miljön som programmet körs i: i "
+"GNOME 3 visas aviseringar längst ner på skärmen och stoppas sedan i meddelandefältet, "
+"medan andra skrivbordsskal kan välja att visa dem på något annat sätt."
 
 #. (itstool) path: item/p
 #: C/tech-notify.page:40
@@ -3030,11 +3879,13 @@ msgid ""
 "<link href=\"http://developer.gnome.org/libnotify/unstable/\">Libnotify Reference "
 "Manual</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/libnotify/unstable/\">Libnotify-referenshandbok</"
+"link>"
 
 #. (itstool) path: info/desc
 #: C/tech-packagekit.page:17
 msgid "Software installation and management"
-msgstr ""
+msgstr "Installation och hantering av programvara"
 
 #. (itstool) path: page/title
 #: C/tech-packagekit.page:20
@@ -3043,6 +3894,7 @@ msgstr "PackageKit"
 
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:22
+#, fuzzy
 msgid ""
 "PackageKit lets applications query whether other packages are installed, regardless of "
 "the GNU/Linux distribution in which they are running. If your application needs an extra "
@@ -3050,9 +3902,15 @@ msgid ""
 "For example, a multimedia application may need to download a codec, or an illustration "
 "program may need to download fonts as needed."
 msgstr ""
+"PackageKit låter program fråga huruvida andra paket finns installerade, oberoende av "
+"vilken GNU/Linux-distribution som de körs. Om ditt program behöver ett extra paket för "
+"att installeras under körtid kan det fråga PackageKit om att hämta och installera det. "
+"Till exempel kan ett multimediaprogram behöva hämta en kodek, eller så kan ett "
+"illustrationsprogram behöva hämta typsnitt efter behov."
 
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:31
+#, fuzzy
 msgid ""
 "Various GNOME applications use PackageKit in similar situations. Totem, the media "
 "player, uses PackageKit to request installation of codecs when it tries to play a media "
@@ -3060,23 +3918,26 @@ msgid ""
 "when they are plugged in, uses PackageKit to download and install printer drivers as "
 "needed."
 msgstr ""
+"Diverse GNOME-program använder PackageKit i liknande situationer. Mediaspelaren Totem "
+"använder PackageKit för att begära installation av kodekar då den försöker spela upp en "
+"mediafil som den inte känner igen. System-config-printer, ett program för att "
+"konfigurera skrivare då de pluggas in, använder PackageKit för att hämta och installera "
+"skrivardrivrutiner efter behov."
 
 #. (itstool) path: item/p
 #: C/tech-packagekit.page:40
 msgid "<link href=\"http://www.packagekit.org/\">PackageKit home page</link>"
-msgstr ""
+msgstr "<link href=\"http://www.packagekit.org/\">Webbsida för PackageKit</link>"
 
 #. (itstool) path: info/desc
 #: C/tech.page:15
 msgid "See a list of all of the development libraries in GNOME."
-msgstr ""
+msgstr "Se en lista över alla utvecklingsbiblioteken i GNOME."
 
 #. (itstool) path: page/title
 #: C/tech.page:18
-#, fuzzy
-#| msgid "Platform Overview"
 msgid "Platform libraries"
-msgstr "Plattformsöversikt"
+msgstr "Plattformsbibliotek"
 
 #. (itstool) path: page/p
 #: C/tech.page:20
@@ -3084,55 +3945,54 @@ msgid ""
 "The GNOME platform is a rich collection of libraries. This is a list of all the platform "
 "libraries in GNOME, sorted by purpose."
 msgstr ""
+"GNOME-plattformen är en rik samling av bibliotek. Det här är en lista över alla "
+"plattformsbibliotek i GNOME, sorterade efter syfte."
 
 #. (itstool) path: links/title
 #: C/tech.page:26
 msgid "User interface and display"
-msgstr ""
+msgstr "Användargränssnitt och visning"
 
 #. (itstool) path: links/title
 #: C/tech.page:32
 msgid "Storage of the user's data"
-msgstr ""
+msgstr "Lagring av användarens data"
 
 #. (itstool) path: links/title
 #: C/tech.page:38
-#, fuzzy
-#| msgid "File Manager"
 msgid "File access"
-msgstr "Filhanterare"
+msgstr "Filåtkomst"
 
 #. (itstool) path: links/title
 #: C/tech.page:44
-#, fuzzy
-#| msgid "IPC and Networking"
 msgid "Networking"
-msgstr "IPC och nätverk"
+msgstr "Nätverk"
 
 #. (itstool) path: links/title
 #: C/tech.page:50
 msgid "Application support"
-msgstr ""
+msgstr "Programstöd"
 
 #. (itstool) path: links/title
 #: C/tech.page:62
 msgid "Inter-process communication"
-msgstr ""
+msgstr "Kommunikation mellan processer"
 
 #. (itstool) path: links/title
 #: C/tech.page:68
 msgid "Geographical"
-msgstr ""
+msgstr "Geografiskt"
 
 #. (itstool) path: links/title
 #: C/tech.page:74
+#, fuzzy
 msgid "Foundational C utilities and object system"
-msgstr ""
+msgstr "Grundläggande C-verktyg och objektsystem"
 
 #. (itstool) path: info/desc
 #: C/tech-pango.page:18
 msgid "International text rendering with full Unicode support"
-msgstr ""
+msgstr "Internationell textrendering med fullständigt Unicode-stöd"
 
 #. (itstool) path: page/title
 #: C/tech-pango.page:21
@@ -3141,22 +4001,31 @@ msgstr "Pango"
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:23
+#, fuzzy
 msgid ""
 "Pango is the core text and font handling library in the GNOME platform. It is "
 "responsible for laying out and rendering text, and is used throughout GTK+."
 msgstr ""
+"Pango är kärnbiblioteket för text och typsnittshantering i GNOME-plattformen. Det är "
+"ansvarigt för att layout och rendering av text, och används i hela GTK+."
 
 #. (itstool) path: note/p
 #: C/tech-pango.page:27
+#, fuzzy
 msgid ""
 "The Pango layout engine can be used with different font backends and drawing backends. "
 "On most GNOME systems, Pango will use FreeType, fontconfig, and Cairo to access fonts "
 "and render text. On other systems, Pango will use the native font systems, such as "
 "Uniscribe on Microsoft Windows and ATSUI on MacOS"
 msgstr ""
+"Pango-layoutmotorn kan användas med olika gränssnitt för typsnitt och ritande. På det "
+"flesta GNOME-system kommer Pango att använda FreeType, fontconfig och Cairo för att "
+"komma åt typsnitt och rendera text. På andra system kommer Pango att använda de inhemska "
+"typsnittssystemens, så som Uniscribe på Microsoft Windows och ATSUI på MacOS"
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:34
+#, fuzzy
 msgid ""
 "Pango has extensive support for the various writing systems used throughout the world. "
 "Many of the writing systems used for languages have complex rules for laying out glyphs "
@@ -3165,9 +4034,16 @@ msgid ""
 "support for multiple writing systems is automatic; application developers do not have to "
 "write any special code to support other languages."
 msgstr ""
+"Pango har omfattande stöd för de olika skriftsystem som används runt om i världen. Flera "
+"av skrivsystemen som används för språk har komplexa regler för hur glyfer placeras och "
+"hur tecken sätts ihop. Med Pango kan nästan alla språk skrivas och visas korrekt, vilket "
+"låter användare överallt att visa text på deras modersmål. Pangos stöd för flera "
+"skriftsystem är automatiskt, programutvecklare måste inte skriva någon specialkod för "
+"att stödja andra språk."
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:43
+#, fuzzy
 msgid ""
 "Pango supports the kind of text styling used in typical documents and interfaces, "
 "including italics, font weights, and underlines. Pango uses a simple XML-like vocabulary "
@@ -3176,9 +4052,17 @@ msgid ""
 "over text blocks. PangoMarkup can be used directly from GTK+, enabling you to style text "
 "in your graphical interfaces easily."
 msgstr ""
+"Pango stöder den sorts textstil som används i typiska dokument och gränssnitt, inklusive "
+"kursiv stil, typsnittsvikter och understrykningar. Pango använder ett enkelt XML-"
+"liknande vokabulär som kallas PangoMarkup vilket låter dig ställa in typsnittsstorlek, "
+"färg, stilar och andra textattribut. Med PangoMarkup kan du ange inline-stilar utan att "
+"manuellt iterera över textblock. PangoMarkup kan användas direkt från GTK+ vilket låter "
+"dig lätt ändra stil på text i dina grafiska gränssnitt."
 
+# TODO: hundreds -> over a hundred?
 #. (itstool) path: page/p
 #: C/tech-pango.page:52
+#, fuzzy
 msgid ""
 "You should use Pango directly whenever you need to lay text out on the screen or on a "
 "different medium. Using Pango will allow your text layout to work seamlessly with GTK+ "
@@ -3186,22 +4070,28 @@ msgid ""
 "importantly, it will ensure that your application can render text correctly in hundreds "
 "of different languages."
 msgstr ""
+"Du bör använda Pango direkt närhelst du behöver lägga ut text på skärmen eller på ett "
+"annat medium. Att använda Pango kommer låta din textlayout fungera sömlöst med GTK+ och "
+"resten av GNOME-plattformen. Det kommer hjälpa dig skapa portabel kod, och viktigast, "
+"det kommer säkerställa att ditt program kan rendera text korrekt på hundratals olika "
+"språk."
 
 #. (itstool) path: item/p
 #: C/tech-pango.page:61
 msgid ""
 "<link href=\"https://developer.gnome.org/pango/stable/\">Pango Reference Manual</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/pango/stable/\">Pangos referenshandbok</link>"
 
 #. (itstool) path: item/p
 #: C/tech-pango.page:62
 msgid "<link href=\"http://www.pango.org\">The Pango web site</link>"
-msgstr ""
+msgstr "<link href=\"http://www.pango.org\">Pangos webbplats</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-polkit.page:17
 msgid "Access control for system-level services provided through D-Bus"
-msgstr ""
+msgstr "Åtkomstkontroll för systemnivåtjänster tillhandahållna genom D-Bus"
 
 #. (itstool) path: page/title
 #: C/tech-polkit.page:20
@@ -3216,6 +4106,10 @@ msgid ""
 "programs should be allowed to request that the machine be disconnected from the network "
 "via the <link xref=\"tech-network-manager\">NetworkManager</link> service."
 msgstr ""
+"Polkit, eller Policy Kit, hanterar de policyer som låter oprivilegierade processer tala "
+"med privilegierade sådana via <link xref=\"tech-d-bus\">D-Bus</link>-API:er. Till "
+"exempel bör inte alla program tillåtas att begära att maskinen ska kopplas ner från "
+"nätverket via tjänsten <link xref=\"tech-network-manager\">Nätverkshanteraren</link>."
 
 #. (itstool) path: page/p
 #: C/tech-polkit.page:28
@@ -3227,22 +4121,29 @@ msgid ""
 "users can be trusted to take care of the machine. On corporate settings, policies may be "
 "more restricted."
 msgstr ""
+"Polkit låter systemadministratören definiera olika policyer för olika tjänster. Till "
+"exempel får endast en användare med fysisk åtkomst till konsolen montera/avmontera "
+"enheter och volymer. Användare som inte är vid konsolen kommer behöva mata in ett "
+"administratörslösenord. På en maskin för hemanvändare kommer de flesta policyerna vara "
+"ganska tillåtande, då användarna kan förväntas ta hand om maskinen. I företagsmiljöer "
+"kan policyer vara mer begränsade."
 
 #. (itstool) path: page/p
 #: C/tech-polkit.page:38
 msgid "GNOME uses PolicyKit whenever applications need to request privileged operations."
-msgstr ""
+msgstr "GNOME använder PolicyKit närhelst program behöver begära privilegierade åtgärder."
 
 #. (itstool) path: item/p
 #: C/tech-polkit.page:44
 msgid ""
 "<link href=\"http://www.freedesktop.org/wiki/Software/polkit\">Polkit home page</link>"
 msgstr ""
+"<link href=\"http://www.freedesktop.org/wiki/Software/polkit\">Polkits webbsida</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-poppler.page:17
 msgid "PDF rendering"
-msgstr ""
+msgstr "PDF-rendering"
 
 #. (itstool) path: page/title
 #: C/tech-poppler.page:20
@@ -3258,16 +4159,21 @@ msgid ""
 "uses Poppler. You could even use it to create software that lets the user re-arrange or "
 "extract pages from PDFs."
 msgstr ""
+"Poppler är ett specialiserat bibliotek för att rendera PDF-dokument. Detta kan användas "
+"för diverse syften. Till exempel är Evince GNOME:s PDF-visare, och den använder Poppler "
+"för all sin rendering. Dessutom använder programvaran som skapar miniatyrbildsikoner för "
+"PDF-filer också Poppler. Du skulle till och med kunna använda det för att skapa "
+"programvara som låter användaren arrangera om eller extrahera sidor från PDF-filer."
 
 #. (itstool) path: item/p
 #: C/tech-poppler.page:31
 msgid "<link href=\"http://poppler.freedesktop.org/\">Poppler home page</link>"
-msgstr ""
+msgstr "<link href=\"http://poppler.freedesktop.org/\">Popplers webbsida</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-pulseaudio.page:17
 msgid "Low-level audio API"
-msgstr ""
+msgstr "Lågnivå-API för ljud"
 
 #. (itstool) path: page/title
 #: C/tech-pulseaudio.page:20
@@ -3282,6 +4188,10 @@ msgid ""
 "Bluetooth headset. It can mix several sources of audio, or change the sample rate of an "
 "audio stream."
 msgstr ""
+"PulseAudio är GNOME:s lågnivå-API för ljud. Det är vad som sitter mellan program och "
+"kärnans ljud-API. PulseAudio låter dig omdirigera ljud genom nätverket, eller till "
+"Bluetooth-mikrofonlurar. Det kan mixa flera ljudkällor eller ändra samplingsfrekvensen "
+"för en ljudström."
 
 #. (itstool) path: page/p
 #: C/tech-pulseaudio.page:29
@@ -3290,6 +4200,9 @@ msgid ""
 "directly, or indirectly through higher-level sound manipulation APIs like <link xref="
 "\"tech-gstreamer\">GStreamer</link>."
 msgstr ""
+"Alla delar i GNOME som producerar ljud använder sig av PulseAudio på ett eller annat "
+"sätt, antingen direkt eller indirekt genom ljudmanipulerings-API:er på högre nivå så som "
+"<link xref=\"tech-gstreamer\">GStreamer</link>."
 
 #. (itstool) path: item/p
 #: C/tech-pulseaudio.page:34
@@ -3297,16 +4210,18 @@ msgid ""
 "<link href=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudio home page</"
 "link>"
 msgstr ""
+"<link href=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">PulseAudios webbsida</"
+"link>"
 
 #. (itstool) path: info/desc
 #: C/tech-secret.page:18
 msgid "Secure storage for passwords and other data"
-msgstr ""
+msgstr "Säker lagring för lösenord och andra data"
 
 #. (itstool) path: page/title
 #: C/tech-secret.page:21
 msgid "Secret"
-msgstr ""
+msgstr "Secret"
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:23
@@ -3316,6 +4231,10 @@ msgid ""
 "passwords, and users can manage their passwords using GNOME's <app>Seahorse</app> "
 "application."
 msgstr ""
+"GNOME använder libsecret som en säker nyckelringshanterare, för att lagra användares "
+"lösenord och andra känsliga data. Program kan använda nyckelringshanteraren för att "
+"lagra och komma åt lösenord, och användare kan hantera sina lösenord med GNOME-"
+"programmet <app>Seahorse</app>."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:29
@@ -3326,9 +4245,15 @@ msgid ""
 "keyring. Once a keyring has been unlocked, the user has access to all of the items in "
 "that keyring."
 msgstr ""
+"Nyckelringshanteraren tillhandahåller ett valfritt antal nyckelringar, där varje "
+"nyckelring kan innehålla ett valfritt antal nyckelringsobjekt. Objekt i en nyckelring "
+"lagrar en datamängd, ofta ett lösenord. Varje nyckelring låses individuellt, och "
+"användare måste tillhandahålla ett lösenord för att låsa upp nyckelringen. Då en "
+"nyckelring har låsts upp har användaren åtkomst till alla objekt i den nyckelringen."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:36
+#, fuzzy
 msgid ""
 "The keyring manager provides access control lists for each keyring item, controlling "
 "which applications are allowed access to that item. If an unknown application attempts "
@@ -3336,15 +4261,26 @@ msgid ""
 "application access. This helps prevent malicious or poorly-written programs from "
 "accessing the user's sensitive data."
 msgstr ""
+"Nyckelringshanteraren tillhandahåller åtkomstkontrollistor för varje nyckelringsobjekt, "
+"vilket styr vilka program som har tillåtelse att komma åt det objektet. Om ett okänt "
+"program försöker komma åt ett nyckelringsobjekt kommer nyckelringshanteraren att fråga "
+"användaren om att tillåta eller neka det programmet åtkomst. Detta hjälper till att "
+"skydda från att program som är dåligt skrivna eller som har illvilliga avsikter kommer "
+"åt användarens känsliga data."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:43
+#, fuzzy
 msgid ""
 "Keyring data stored on the file system is encrypted with the AES block cipher, and SHA1 "
 "is used for hashes of the item's attributes. Using the attributes hash, the keyring "
 "manager is able to look up items requested by applications without ever unlocking the "
 "keyring. The keyring has to be unlocked when a matching item is found and accessed."
 msgstr ""
+"Nyckelringsdata lagrade på filsystemet krypteras ned AES-blockchiffret, och SHA1 används "
+"för hashvärden på objektets attribut. Med attributhashen kan nyckelringshanteraren slå "
+"upp objekt som begärs av program utan att behöva låsa upp nyckelringen. Nyckelringen "
+"måste vara upplåst då ett matchande objekt hittas och koms åt."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:50
@@ -3353,6 +4289,10 @@ msgid ""
 "never stored on disk, and are lost as soon as the user's session ends. The session "
 "keyring can be used to store passwords to be used in the current session only."
 msgstr ""
+"Nyckelringshanteraren tillhandahåller också en sessionsnyckelring. Objekt i "
+"sessionsnyckelringen lagras aldrig på disk, och förloras så fort som användarens session "
+"avslutas. Sessionsnyckelringen kan endast användas för att lagra lösenord som ska "
+"användas i den aktuella sessionen."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:55
@@ -3362,6 +4302,10 @@ msgid ""
 "authenticate the user, it provides the option to store the password, either in the "
 "default keyring or in the session keyring."
 msgstr ""
+"Om du använder <link xref=\"tech-gio\">GIO</link> för att komma åt fjärrservrar så får "
+"du automatiskt fördelarna med nyckelringshanteraren. Närhelst GIO behöver autentisera "
+"användaren tillhandahåller det alternativet att lagra lösenordet, antingen i "
+"standardnyckelringen eller i sessionsnyckelringen."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:60
@@ -3370,6 +4314,10 @@ msgid ""
 "passwords or other sensitive data for users. Using the keyring manager provides a better "
 "user experience while still keeping user data safe and secure."
 msgstr ""
+"Du bör använda libsecrets nyckelringshanterare närhelst ditt program behöver lagra "
+"lösenord eller andra känsliga data åt användare. Att använda nyckelringshanteraren "
+"tillhandahåller en bättre användarupplevelse medan det ändå håller användardata trygga "
+"och säkra."
 
 #. (itstool) path: note/p
 #: C/tech-secret.page:66
@@ -3378,6 +4326,9 @@ msgid ""
 "3.6 onward, libsecret is used instead. This allows sharing the keyring service between "
 "GNOME and other desktop environments and applications."
 msgstr ""
+"GNOME använde ett bibliotek med namnet gnome-keyring före version 3.6 släpptes. I "
+"version 3.6 och framåt används istället libsecret. Detta tillåter delning av "
+"nyckelringstjänsten mellan GNOME och andra program och skrivbordsmiljöer."
 
 #. (itstool) path: item/p
 #: C/tech-secret.page:75
@@ -3385,11 +4336,13 @@ msgid ""
 "<link href=\"http://developer.gnome.org/libsecret/unstable/\">Libsecret Reference "
 "Manual</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/libsecret/unstable/\">Libsecret-referenshandbok</"
+"link>"
 
 #. (itstool) path: info/desc
 #: C/tech-soup.page:17
 msgid "Asynchronous HTTP library with cookies, SSL, and XML-RPC"
-msgstr ""
+msgstr "Asynkront HTTP-bibliotek med kakor, SSL och XML-RPC"
 
 #. (itstool) path: page/title
 #: C/tech-soup.page:20
@@ -3398,11 +4351,15 @@ msgstr "Soup"
 
 #. (itstool) path: page/p
 #: C/tech-soup.page:22
+#, fuzzy
 msgid ""
 "Soup, or libsoup as it is commonly called, is an HTTP library designed to be used in "
 "graphical applications which need asynchronous operations to avoid blocking the user "
 "interface while network requests are going on."
 msgstr ""
+"Soup, eller libsoup som det vanligen kallas, är ett HTTP-bibliotek som designats för att "
+"användas i grafiska program som behöver asynkrona operationer för att undvika att "
+"blockera användargränssnittet under tiden nätverksbegäranden pågår."
 
 #. (itstool) path: page/p
 #: C/tech-soup.page:28
@@ -3410,25 +4367,93 @@ msgid ""
 "Soup provides functionality for using HTTP cookies, SSL encrypted connections, and the "
 "XML-RPC protocol based on HTTP."
 msgstr ""
+"Soup tillhandahåller funktionalitet för att använda HTTP-kakor, SSL-krypterade "
+"anslutningar och XML-RPC-protokollet baserat på HTTP."
 
 #. (itstool) path: note/p
 #: C/tech-soup.page:34
+#, fuzzy
 msgid ""
 "Trivia: Soup is called \"soup\" because it started as a library for doing SOAP requests "
 "over HTTP. Spanish speakers who are learning English frequently confuse the words \"soup"
 "\" and \"soap\", and this seemed like a funny and interesting name to use."
 msgstr ""
+"Värdelöst vetande: Soup kallas ”soup” för att det startade som ett bibliotek för att "
+"göra SOAP-begäranden över HTTP. Spansktalande som lär sig engelska blandar ofta ihop "
+"orden ”soup” och ”soap”, och det verkar som ett roligt och intressant namn att använda."
 
 #. (itstool) path: item/p
 #: C/tech-soup.page:43
 msgid ""
 "<link href=\"https://developer.gnome.org/libsoup/stable/\">Soup reference manual</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/libsoup/stable/\">Referenshandbok för Soup</"
+"link>"
+
+#. (itstool) path: credit/name
+#: C/tech-spell-checking.page:15
+msgid "Sébastien Wilmet"
+msgstr "Sébastien Wilmet"
+
+#. (itstool) path: credit/years
+#: C/tech-spell-checking.page:17
+msgid "2017"
+msgstr "2017"
+
+#. (itstool) path: info/desc
+#: C/tech-spell-checking.page:22
+msgid "Spell-checking for text widgets"
+msgstr "Stavningskontroll för textkomponenter"
+
+#. (itstool) path: page/title
+#: C/tech-spell-checking.page:25
+msgid "Spell-checking"
+msgstr "Stavningskontroll"
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:27
+msgid ""
+"Several libraries are available to do spell-checking related tasks: Enchant and gspell."
+msgstr ""
+"Flera bibliotek finns tillgängliga för att utföra uppgifter relaterade till "
+"stavningskontroll: Enchant och gspell."
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:32
+msgid ""
+"Enchant provides a low-level API. You can ask it if a word is misspelled, or ask for "
+"suggestions for a misspelled word. On a higher level, gspell integrates spell-checking "
+"for GTK+ text widgets (both <code>GtkEntry</code> and <code>GtkTextView</code>)."
+msgstr ""
+"Enchant tillhandahåller ett lågnivå-API. Du kan fråga det om ett ord är felstavat, eller "
+"fråga efter förslag för ett felstavat ord. På en högre nivå integrerar gspell "
+"stavningskontroll för GTK+-textkomponenter (både <code>GtkEntry</code> och "
+"<code>GtkTextView</code>)."
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:39
+msgid ""
+"In GNOME, those libraries get used in text-heavy applications like gedit (a text editor) "
+"and Epiphany (a web browser, for text entry in web forms)."
+msgstr ""
+"I GNOME används de biblioteken i program med mycket text som gedit (en textredigerare) "
+"och Epiphany (en webbläsare, för textinmatning i webbformulär)."
+
+#. (itstool) path: item/p
+#: C/tech-spell-checking.page:45
+msgid "<link href=\"https://www.abisource.com/projects/enchant/\">Enchant home page</link>"
+msgstr ""
+"<link href=\"https://www.abisource.com/projects/enchant/\">Enchants webbsida</link>"
+
+#. (itstool) path: item/p
+#: C/tech-spell-checking.page:46
+msgid "<link href=\"https://wiki.gnome.org/Projects/gspell\">gspell home page</link>"
+msgstr "<link href=\"https://wiki.gnome.org/Projects/gspell\">Webbsida för gspell</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-telepathy.page:23
 msgid "Unified instant-messaging and communications service"
-msgstr ""
+msgstr "Enhetlig tjänst för snabbmeddelanden och kommunikation"
 
 #. (itstool) path: page/title
 #: C/tech-telepathy.page:26
@@ -3443,6 +4468,10 @@ msgid ""
 "xref=\"tech-d-bus\">D-Bus</link> session service that's deeply integrated into the GNOME "
 "desktop. Applications can tie into this service to communicate with contacts."
 msgstr ""
+"Telepathy tillhandahåller ett kraftfullt ramverk för att interagera med användarens "
+"snabbmeddelandekontakter. Med Telepathy hanteras alla konton och anslutningar av en "
+"<link xref=\"tech-d-bus\">D-Bus</link>-sessionstjänst som är djupt integrerad med GNOME-"
+"skrivbordet. Program kan ansluta sig till denna tjänst för att kommunicera med kontakter."
 
 #. (itstool) path: page/p
 #: C/tech-telepathy.page:34
@@ -3452,6 +4481,10 @@ msgid ""
 "create multi-player games or collaborative editors that integrate with the desktop-wide "
 "instant messaging services."
 msgstr ""
+"Med Telepathy Tubes-API:t kan du till och med tunnla ett godtyckligt protokoll över "
+"moderna snabbmeddelandeprotokoll som Jabber för att skapa interaktiva program. Du kan "
+"skapa spel för flera spelare eller samarbetesredigerare som är integrerade med de "
+"skrivbordsomfattande snabbmeddelandetjänsterna."
 
 #. (itstool) path: item/p
 #: C/tech-telepathy.page:41
@@ -3459,40 +4492,51 @@ msgid ""
 "<link href=\"http://telepathy.freedesktop.org/doc/book/\">Telepathy Developer's Manual</"
 "link>"
 msgstr ""
+"<link href=\"http://telepathy.freedesktop.org/doc/book/\">Telepathys utvecklarhandbok</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/tech-telepathy.page:42
 msgid "<link href=\"http://telepathy.freedesktop.org\">The Telepathy web site</link>"
-msgstr ""
+msgstr "<link href=\"http://telepathy.freedesktop.org\">Telepathys webbplats</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-tracker.page:17
 msgid "Storage and retrieval for document metadata"
-msgstr ""
+msgstr "Lagring och framtagande av dokumentmetadata"
 
 #. (itstool) path: page/title
 #: C/tech-tracker.page:20
 msgid "Tracker"
-msgstr ""
+msgstr "Tracker"
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:22
+#, fuzzy
 msgid ""
 "Tracker is an RDF (resource data format) storage engine. RDF consists of <em>triplets</"
 "em> such as subject:verb:object. For example, there could be standard triplets for book "
 "titles and authors, such as <code>Othello:has-author:William Shakespeare</code>. A "
 "standardized set of triplet forms is called an <em>ontology</em>."
 msgstr ""
+"Tracker är en lagringsmotor för RDF (resursdataformat). RDF består av <em>tripplar</em> "
+"så som ämne:verb:objekt. Till exempel skulle det kunna finnas standardtripplar för "
+"boktitlar och författare, så soms <code>Othello:has-author:William Shakespeare</code>. "
+"En standardiserad uppsättning tripplar kallas en <em>ontologi</em>."
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:30
+#, fuzzy
 msgid ""
 "Tracker provides a storage for such triplets, and a query engine in the form of the "
 "SPARQL query language."
 msgstr ""
+"Tracker tillhandahåller en lagring för sådana tripplar, och en frågemotor i form av "
+"SPARQL-frågespråket."
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:35
+#, fuzzy
 msgid ""
 "GNOME uses Tracker as a storage for document metadata. A document's metadata may include "
 "its title, authors, copyright, modification date, and keywords. All this metadata is "
@@ -3502,11 +4546,19 @@ msgid ""
 "org/\">Dublin Core</link> for document metadata, and <link href=\"http://nepomuk.kde.org/"
 "\">NEPOMUK</link> for annotations, files, contacts and other items."
 msgstr ""
+"GNOME använder Tracker som en lagring för dokumentmetadata. Ett dokuments metadata kan "
+"inkludera dess titel, författare, copyright, ändringsdatum samt nyckelord. Alla dessa "
+"metadata lagras som RDF-tripplar i Tracker, och efterfrågas med SPARQL av program så som "
+"GNOME Dokument. <link href=\"http://developer.gnome.org/ontology/unstable/\">Ontologin "
+"som används</link> är baserad på diverse standardiserade underontologier: <link href="
+"\"http://dublincore.org/\">Dublin Core</link> för dokumentmetadata, och <link href="
+"\"http://nepomuk.kde.org/\">NEPOMUK</link> för kommentarer, filer, kontakter och andra "
+"objekt."
 
 #. (itstool) path: item/p
 #: C/tech-tracker.page:46
 msgid "<link href=\"https://wiki.gnome.org/Projects/Tracker\">Tracker Home Page</link>"
-msgstr ""
+msgstr "<link href=\"https://wiki.gnome.org/Projects/Tracker\">Trackers webbsida</link>"
 
 #. (itstool) path: item/p
 #: C/tech-tracker.page:47
@@ -3514,11 +4566,13 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/Tracker/Documentation\">Tracker "
 "documentation</link>"
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/Tracker/Documentation\">Tracker-"
+"dokumentation</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-webkit.page:23
 msgid "HTML5 web page rendering"
-msgstr ""
+msgstr "HTML5-webbsiderendering"
 
 #. (itstool) path: page/title
 #: C/tech-webkit.page:26
@@ -3534,6 +4588,11 @@ msgid ""
 "developed upstream as part of the main WebKit project, so it's always up to date with "
 "the latest HTML5 features."
 msgstr ""
+"WebKit är en kraftfull HTML-motor för flera plattformar som används i både öppna "
+"källkodsprodukter och kommersiella/proprietära produkter. WebKitGTK+ är porteringen av "
+"WebKit som byggts på <link xref=\"tech-gtk\">GTK+</link> och integrerats i GNOME-"
+"utvecklingsplattformen. WebKitGTK+ utvecklas uppströms som en del av det huvudsakliga "
+"WebKit-projektet, så det är alltid uppdaterat med de senaste HTML5-funktionerna."
 
 #. (itstool) path: page/p
 #: C/tech-webkit.page:34
@@ -3541,6 +4600,9 @@ msgid ""
 "WebKitGTK+ makes it easy to add web functionality to your application, or to use HTML5 "
 "and associated technologies to create dynamic user interfaces quickly."
 msgstr ""
+"WebKitGTK+ gör det lätt att lägga till webbfunktionalitet till ditt program, eller att "
+"använda HTML5 och associerade teknologier för att skapa dynamiska användargränssnitt "
+"snabbt."
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:39
@@ -3548,6 +4610,8 @@ msgid ""
 "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/message-board.c.html"
 "\">WebKitGTK+ demo tutorial</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/message-board.c.html"
+"\">WebKitGTK+-demonstration</link>"
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:40
@@ -3555,11 +4619,13 @@ msgid ""
 "<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">WebKitGTK+ Reference "
 "Manual</link>"
 msgstr ""
+"<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">WebKitGTK+-"
+"referenshandbok</link>"
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:41
 msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK+ web site</link>"
-msgstr ""
+msgstr "<link href=\"http://webkitgtk.org/\">Webbplatsen för WebKitGTK+</link>"
 
 #. (itstool) path: credit/name
 #: C/tour-application.page:16 C/tour-events.page:16 C/tour-get_object.page:16
@@ -3570,18 +4636,18 @@ msgstr "Gordon Hill"
 #. (itstool) path: info/desc
 #: C/tour-application.page:23
 msgid "Finish the application and run the script."
-msgstr ""
+msgstr "Slutför programmet och kör skriptet."
 
 #. (itstool) path: page/title
 #: C/tour-application.page:26
 msgid "Run your application"
-msgstr ""
+msgstr "Kör ditt program"
 
 #. (itstool) path: links/title
 #: C/tour-application.page:29 C/tour-events.page:30 C/tour-get_object.page:30
 #: C/tour-gjs.page:29 C/tour-glade.page:29 C/tour.page:33 C/tour-summary.page:29
 msgid "Get started with GNOME"
-msgstr ""
+msgstr "Kom igång med GNOME"
 
 #. (itstool) path: example/p
 #: C/tour-application.page:33
@@ -3589,6 +4655,8 @@ msgid ""
 "Make the new object <code>app</code> and call the method <code>run</code> to run the "
 "application:"
 msgstr ""
+"Skapa det nya objektet <code>app</code> och anropa metoden <code>run</code> för att köra "
+"programmet:"
 
 #. (itstool) path: example/code
 #: C/tour-application.page:35
@@ -3598,6 +4666,9 @@ msgid ""
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
 msgstr ""
+"\n"
+"let app = new HelloWorld();\n"
+"app.application.run(ARGV);\n"
 
 #. (itstool) path: example/p
 #: C/tour-application.page:40
@@ -3605,6 +4676,8 @@ msgid ""
 "Save the script as <file>helloworld.js</file>, run <cmd>chmod +x helloworld.js</cmd> to "
 "mark it executable, and run it with <cmd>./helloworld.js</cmd>."
 msgstr ""
+"Spara skriptet som <file>helloworld.js</file>, kör <cmd>chmod +x helloworld.js</cmd> för "
+"att markera det som körbart, och kör det med <cmd>./helloworld.js</cmd>."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -3614,12 +4687,12 @@ msgstr ""
 #: C/tour-application.page:45
 msgctxt "_"
 msgid "external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
-msgstr ""
+msgstr "external ref='media/glade-result.png' md5='611d2316e8a754bd6787c3bd38e1eef3'"
 
 #. (itstool) path: media/p
 #: C/tour-application.page:46
 msgid "Screenshot of a basic window."
-msgstr ""
+msgstr "Skärmbild av ett enkelt fönster."
 
 #. (itstool) path: page/p
 #: C/tour-application.page:48
@@ -3627,77 +4700,95 @@ msgid ""
 "This window is generated from the <app>Glade</app> file and linked to <app>Gtk</app> "
 "events. You now have a fully functional Gtk application!"
 msgstr ""
+"Detta fönster genereras från <app>Glade</app> och är länkat till <app>Gtk</app>-"
+"händelser. Du har nu ett fullt fungerande Gtk-program!"
 
 #. (itstool) path: info/desc
 #: C/tour-events.page:23
+#, fuzzy
 msgid "Bind functions to events using Lang."
-msgstr ""
+msgstr "Bind funktioner till händelser med Lang."
 
 #. (itstool) path: page/title
 #: C/tour-events.page:26
 msgid "Actions and signals"
-msgstr ""
+msgstr "Åtgärder och signaler"
 
+# TODO: GTK+
 #. (itstool) path: page/p
 #: C/tour-events.page:33
 msgid "Gtk has a set of predefined events that you can use in your application."
-msgstr ""
+msgstr "Gtk har en uppsättning fördefinierade händelser som du kan använda i ditt program."
 
 #. (itstool) path: example/p
 #: C/tour-events.page:35
-msgid ""
-"Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs requires classes "
-"to have the Name property defined."
-msgstr ""
+msgid "Declare <code>HelloWorld</code> as a new class."
+msgstr "Deklarera <code>HelloWorld</code> som en ny klass."
 
 #. (itstool) path: example/code
-#: C/tour-events.page:38
+#: C/tour-events.page:37
 #, no-wrap
 msgid ""
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
+"class HelloWorld {\n"
 msgstr ""
+"\n"
+"class HelloWorld {\n"
 
 #. (itstool) path: example/p
-#: C/tour-events.page:43
+#: C/tour-events.page:41
 msgid ""
-"<code>_init</code> is called when a new instance is created. Create a "
+"<code>constructor</code> is called when a new instance is created. Create a "
 "<code>GtkApplication</code>, then connect <code>activate</code> to the existing Gtk "
 "event <code>_onActivate</code> and <code>startup</code> to <code>_onStartup</code>:"
 msgstr ""
+"<code>constructor</code> anropas då en ny instans skapas. Skapa en <code>GtkApplication</"
+"code>, anslut sedan <code>activate</code> till den befintliga Gtk-händelsen "
+"<code>_onActivate</code> och <code>startup</code> till <code>_onStartup</code>:"
 
 #. (itstool) path: example/code
-#: C/tour-events.page:48
+#: C/tour-events.page:46
 #, no-wrap
 msgid ""
 "\n"
-"    _init: function() {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 msgstr ""
+"\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application();\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 
 #. (itstool) path: example/p
-#: C/tour-events.page:56
+#: C/tour-events.page:54
 msgid "Show the window upon application activation:"
-msgstr ""
+msgstr "Visa fönstret vid programaktivering:"
 
 #. (itstool) path: example/code
-#: C/tour-events.page:57
+#: C/tour-events.page:55
 #, no-wrap
 msgid ""
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 msgstr ""
+"\n"
+"    _onActivate() {\n"
+"        this._window.show_all();\n"
+"    }\n"
 
 #. (itstool) path: info/desc
 #: C/tour-get_object.page:23
 msgid "Add the window specified in the UI file to the application using GtkBuilder."
 msgstr ""
+"Lägg till fönstret som angivits i användargränssnittsfilen till programmet med "
+"GtkBuilder."
 
 #. (itstool) path: page/title
 #: C/tour-get_object.page:27
@@ -3711,6 +4802,9 @@ msgid ""
 "the UI description is in the file <file>helloworld.glade</file> and can be read by the "
 "<code>get_object()</code> method."
 msgstr ""
+"GtkBuilder accepterar användargränssnittsbeskrivningar och förvandlar dem till Gtk-"
+"program. I detta fall är användargränssnittsbeskrivningen i filen <file>helloworld."
+"glade</file> och kan läsas av <code>get_object()</code>-metoden."
 
 #. (itstool) path: example/p
 #: C/tour-get_object.page:38
@@ -3719,30 +4813,41 @@ msgid ""
 "<gui>Name</gui> (or <gui>ID</gui>) chosen in Glade, and add the window object to the "
 "application:"
 msgstr ""
+"Läs in UI-filen med <code>GtkBuilder</code> och erhåll fönsterobjektet med <gui>Name</"
+"gui> (eller <gui>ID</gui>) som valts i Glade, och lägg till fönsterobjektet till "
+"programmet:"
 
 #. (itstool) path: example/code
 #: C/tour-get_object.page:42
 #, no-wrap
 msgid ""
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
 "        builder.add_from_file('helloworld.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 msgstr ""
+"\n"
+"    _onStartup() {\n"
+"        let builder = new Gtk.Builder();\n"
+"        builder.add_from_file('helloworld.glade');\n"
+"        this._window = builder.get_object('window1');\n"
+"        this.application.add_window(this._window);\n"
+"    }\n"
+"};\n"
 
 #. (itstool) path: info/desc
 #: C/tour-gjs.page:23
 msgid "Include bindings necessary to run your script."
-msgstr ""
+msgstr "Inkludera bindningar som krävs för att köra ditt skript."
 
 #. (itstool) path: page/title
 #: C/tour-gjs.page:26
 msgid "Gjs and Gtk"
-msgstr ""
+msgstr "Gjs och Gtk"
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:32
@@ -3751,6 +4856,9 @@ msgid ""
 "for GNOME and can be used to interact with Gtk. <link href=\"http://www.gtk.org/\">Gtk</"
 "link> is a toolkit for creating graphical user interfaces."
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/Gjs\">Gjs</link> är en JavaScript-bindning "
+"för GNOME och kan användas för att interagera med Gtk. <link href=\"http://www.gtk.org/"
+"\">Gtk</link> är en verktygslåda för att skapa grafiska användargränssnitt."
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:35
@@ -3758,19 +4866,26 @@ msgid ""
 "Open a text editor and paste in the lines of code. The complete script is available in "
 "the <link xref=\"tour-summary\">Summary</link>."
 msgstr ""
+"Öppna en textredigerare och klistra in kodraderna. Det fullständiga skriptet finns "
+"tillgängligt i <link xref=\"tour-summary\">sammanfattningen</link>."
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:37
+#, fuzzy
 msgid ""
 "Create an <code>object</code> using your <code>class</code> and call the <code>run()</"
 "code> method:"
 msgstr ""
+"Skapa ett <code>object</code> med din <code>class</code> och anropa metoden <code>run()</"
+"code>:"
 
 #. (itstool) path: example/p
 #: C/tour-gjs.page:39
 msgid ""
 "Call the Gjs JavaScript binding. This instructs the shell to run this script with Gjs."
 msgstr ""
+"Anropa JavaScript-bindningen för Gjs. Detta instruerar skalet att köra detta skript med "
+"Gjs."
 
 #. (itstool) path: example/code
 #: C/tour-gjs.page:42
@@ -3785,28 +4900,33 @@ msgstr ""
 #. (itstool) path: example/p
 #: C/tour-gjs.page:46
 msgid ""
-"Import <code>lang</code> for the <code>bind</code> function and <code>gi.Gtk</code> for "
-"<code>Gtk</code> functions."
+"Import <code>gi.Gtk</code> for <code>Gtk</code> functions. As both version 3.0 and 4.0 "
+"may be installed, make sure that the desired version is imported first."
 msgstr ""
+"Importera <code>gi.Gtk</code> för <code>Gtk</code>-funktioner. Både version 3.0 och 4.0 "
+"kan vara installerade, så se till att importera den önskade versionen först."
 
 #. (itstool) path: example/code
-#: C/tour-gjs.page:49
+#: C/tour-gjs.page:50
 #, no-wrap
 msgid ""
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 msgstr ""
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"const Gtk = imports.gi.Gtk;\n"
 
 #. (itstool) path: info/desc
 #: C/tour-glade.page:23
 msgid "Use Glade to generate a UI file."
-msgstr ""
+msgstr "Använd Glade för att generera en UI-fil."
 
 #. (itstool) path: page/title
 #: C/tour-glade.page:26
 msgid "Create a user interface"
-msgstr ""
+msgstr "Skapa ett användargränssnitt"
 
 #. (itstool) path: page/p
 #: C/tour-glade.page:32
@@ -3815,6 +4935,9 @@ msgid ""
 "create a user interface. Glade produces XML files that describe attributes of an "
 "application."
 msgstr ""
+"Använd <link href=\"http://glade.gnome.org/\">Glade</link>, "
+"användargränssnittsredigeraren för GNOME, för att skapa ett användargränssnitt. Glade "
+"producerar XML-filer som beskriver ett programs attribut."
 
 #. (itstool) path: page/p
 #: C/tour-glade.page:36
@@ -3822,6 +4945,8 @@ msgid ""
 "When creating a UI file using Glade, the <gui>ID</gui> that you specify in Glade is the "
 "ID that you will later need to use to get the object from the UI file."
 msgstr ""
+"Då du skapar en UI-fil med Glade är det <gui>ID</gui> som du anger i Glade det ID som du "
+"senare kommer att behöva för att erhålla objektet från UI-filen."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:41
@@ -3829,6 +4954,8 @@ msgid ""
 "Create a new window, then set <gui>ID</gui> to <code>window1</code> and <gui>Title</gui> "
 "to <code>Hello World</code>:"
 msgstr ""
+"Skapa ett nytt fönster, ställ sedan <gui>ID</gui> till <code>window1</code> och "
+"<gui>Title</gui> till <code>Hello World</code>:"
 
 #. (itstool) path: example/media
 #. This is a reference to an external file such as an image or video. When
@@ -3838,12 +4965,12 @@ msgstr ""
 #: C/tour-glade.page:43
 msgctxt "_"
 msgid "external ref='media/glade-set-values.png' md5='80a2ec72e68dd6efa2ed50ae53675c47'"
-msgstr ""
+msgstr "external ref='media/glade-set-values.png' md5='80a2ec72e68dd6efa2ed50ae53675c47'"
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
 msgid "Screenshot of value attribution in Glade."
-msgstr ""
+msgstr "Skärmbild på värdetilldelning i Glade."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:46
@@ -3851,16 +4978,19 @@ msgid ""
 "Save the file with <guiseq><gui>File</gui><gui>Save As</gui></guiseq> and name it "
 "<file>helloworld.glade</file>."
 msgstr ""
+"Spara filen med <guiseq><gui>Arkiv</gui><gui>Spara som</gui></guiseq> och ge den namnet "
+"<file>helloworld.glade</file>."
 
 #. (itstool) path: info/desc
 #: C/tour.page:24
 msgid "Get your GtkApplication started in JavaScript and create a UI using Glade."
 msgstr ""
+"Få din GtkApplication att starta i JavaScript och skapa ett användargränssnitt med Glade."
 
 #. (itstool) path: page/title
 #: C/tour.page:28
 msgid "Get started"
-msgstr ""
+msgstr "Kom igång"
 
 #. (itstool) path: page/p
 #: C/tour.page:36
@@ -3868,6 +4998,9 @@ msgid ""
 "User interface (UI) can be constructed with code or created in Glade, the UI editor for "
 "GNOME. Glade produces XML files that describe attributes of an application."
 msgstr ""
+"Användargränssnitt (user interface, UI) kan konstrueras med kod eller skapas i Glade, "
+"gränssnittsredigeraren för GNOME. Glade producerar XML-filer som beskriver attribut för "
+"ett program."
 
 #. (itstool) path: page/p
 #: C/tour.page:38
@@ -3876,21 +5009,24 @@ msgid ""
 "the contents of that file with a Gjs script. The script is examined in multiple parts "
 "and included in full in the summary."
 msgstr ""
+"Du kommer att skapa en GtkBuilder-fil i Glade och komma åt samt visa ett fönster baserat "
+"på innehållet för den filen med ett Gjs-skript. Skriptet undersöks i flera delar och "
+"helheten finns inkluderad i sammanfattningen."
 
 #. (itstool) path: info/desc
 #: C/tour-summary.page:22
 msgid "An overview of the code and relevant links."
-msgstr ""
+msgstr "En överblick av koden och relevanta länkar."
 
 #. (itstool) path: page/title
 #: C/tour-summary.page:26
 msgid "Summary"
-msgstr ""
+msgstr "Sammanfattning"
 
 #. (itstool) path: page/p
 #: C/tour-summary.page:32
 msgid "Here is how the examples fit together:"
-msgstr ""
+msgstr "Här är hur exemplen passar ihop:"
 
 #. (itstool) path: page/code
 #: C/tour-summary.page:33
@@ -3899,46 +5035,61 @@ msgid ""
 "\n"
 "#!/usr/bin/gjs\n"
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
-"\n"
-"    _init: function() {\n"
+"class HelloWorld {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
-"        builder.add_from_file('helloworld.glade');\n"
+"        builder.add_from_file('tour.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"const Gtk = imports.gi.Gtk;\n"
+"\n"
+"class HelloWorld {\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application();\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
+"\n"
+"    _onActivate() {\n"
+"        this._window.show_all();\n"
+"    }\n"
+"\n"
+"    _onStartup() {\n"
+"        let builder = new Gtk.Builder();\n"
+"        builder.add_from_file('tour.glade');\n"
+"        this._window = builder.get_object('window1');\n"
+"        this.application.add_window(this._window);\n"
+"    }\n"
+"};\n"
+"\n"
+"let app = new HelloWorld();\n"
+"app.application.run(ARGV);\n"
 
-#~ msgid ""
-#~ "Permission is granted to copy, distribute and/or modify this document under the terms "
-#~ "of the GNU Free Documentation License (GFDL), Version 1.1 or any later version "
-#~ "published by the Free Software Foundation with no Invariant Sections, no Front-Cover "
-#~ "Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink url="
-#~ "\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
-#~ msgstr ""
-#~ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges under "
-#~ "villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare, utgivet "
-#~ "av Free Software Foundation utan standardavsnitt och omslagstexter.  En kopia av GFDL "
-#~ "finns att hämta på denna <ulink type=\"help\" url=\"ghelp:fdl\">länk</ulink> eller i "
-#~ "filen COPYING-DOCS som medföljer denna handbok."
+#~ msgid "Enchant"
+#~ msgstr "Enchant"
 
 #~ msgid ""
 #~ "This manual is part of a collection of GNOME manuals distributed under the GFDL. If "
