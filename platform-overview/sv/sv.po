@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview\n"
 "POT-Creation-Date: 2018-03-30 21:35+0000\n"
-"PO-Revision-Date: 2018-04-09 02:26+0200\n"
+"PO-Revision-Date: 2018-04-09 13:16+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -1873,7 +1873,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-net.page:48
-#, fuzzy
 msgid ""
 "To <em style=\"strong\">asynchronously access low-level networking APIs</em>, use <em "
 "style=\"strong\" xref=\"tech-gio-network\">GIO networking</em>. Higher-level API is "
@@ -1881,8 +1880,8 @@ msgid ""
 "using <em style=\"strong\">secure sockets (TLS)</em>."
 msgstr ""
 "För att <em style=\"strong\">asynkront komma åt lågnivå-API:er för nätverk</em>, använd "
-"<em style=\"strong\" xref=\"tech-gio-network\">GIO networking</em>. API:er på högre nivå "
-"finns tillgängliga för <em style=\"strong\">slå upp proxyservrar och DNS-poster</em> "
+"<em style=\"strong\" xref=\"tech-gio-network\">GIO-nätverk</em>. API:er på högre nivå "
+"finns tillgängliga för att <em style=\"strong\">slå upp proxyservrar och DNS-poster</em> "
 "såväl som att använda <em style=\"strong\">säkra uttag (TLS)</em>."
 
 #. (itstool) path: section/p
@@ -2358,9 +2357,8 @@ msgstr "Federico Mena Quintero"
 
 #. (itstool) path: info/desc
 #: C/tech-avahi.page:17
-#, fuzzy
 msgid "Zeroconf service discovery on local networks"
-msgstr "Zeroconf-tjänstupptäckt på lokala nätverk"
+msgstr "Zeroconf-tjänsteupptäckt på lokala nätverk"
 
 #. (itstool) path: page/title
 #: C/tech-avahi.page:20
@@ -2369,7 +2367,6 @@ msgstr "Avahi"
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:22
-#, fuzzy
 msgid ""
 "Avahi implements <link href=\"http://www.zeroconf.org/\">Zeroconf</link> Networking. It "
 "allows programs to discover services like printers on local networks without prior "
@@ -2377,15 +2374,14 @@ msgid ""
 "the local network without configuration; for example, a chat program that \"finds\" "
 "other chat users in a LAN without having to set up a central chat server first."
 msgstr ""
-"Avahi implementerar <link href=\"http://www.zeroconf.org/\">Zeroconf</link> Networking. "
-"Det tillåter program att upptäcka tjänster som skrivare på lokala nätverk utan tidigare "
-"konfiguration. Det låter också program konfigurera tjänster som går att nå genom det "
-"lokala nätverket utan konfiguration; exempelvis ett chattprogram som ”hittar” andra "
-"chattanvändare på ett LAN utan att behöva konfigurera en central chattserver först."
+"Avahi implementerar <link href=\"http://www.zeroconf.org/\">Zeroconf</link>-nätverk. Det "
+"tillåter program att upptäcka tjänster, exempelvis skrivare på lokala nätverk, utan "
+"tidigare konfiguration. Det låter också program konfigurera tjänster som går att nå "
+"genom det lokala nätverket utan konfiguration; exempelvis ett chattprogram som ”hittar” "
+"andra chattanvändare på ett LAN utan att behöva konfigurera en central chattserver först."
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:29
-#, fuzzy
 msgid ""
 "Avahi is an implementation of the <link href=\"http://www.dns-sd.org/\">DNS Service "
 "Discovery</link> and <link href=\"http://www.multicastdns.org/\">Multicast DNS</link> "
@@ -2395,7 +2391,7 @@ msgstr ""
 "Avahi är en implementation av specifikationerna <link href=\"http://www.dns-sd.org/"
 "\">DNS Service Discovery</link> och <link href=\"http://www.multicastdns.org/"
 "\">Multicast DNS</link>, vilka är en del av <link href=\"http://www.zeroconf.org/"
-"\">Zeroconf</link> Networking."
+"\">Zeroconf</link>-nätverk."
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:35
@@ -2433,7 +2429,6 @@ msgstr "Cairo"
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:23
-#, fuzzy
 msgid ""
 "Cairo is a 2D graphics library featuring a sophisticated API for drawing vector "
 "graphics, compositing images, and rendering anti-aliased text. Cairo provides support "
@@ -2442,14 +2437,13 @@ msgid ""
 "different media."
 msgstr ""
 "Cairo är ett 2D-grafikbibliotek som har ett sofistikerat API för att rita vektorgrafik, "
-"slå samman bilder, och rendera kantutjämnad text. Cairo tillhandahåller stöd för flera "
-"utdataenheter, inkluderande X-fönstersystemet, Microsoft Windows, och bildbuffertar i "
-"minnet, vilket låter dig skriva plattformsoberoende kod för att rota grafik på olika "
-"media."
+"sammansättning av bilder, och rendering av kantutjämnad text. Cairo tillhandahåller stöd "
+"för flera utdataenheter, inkluderande X-fönstersystemet, Microsoft Windows, och "
+"bildbuffertar i minnet, vilket låter dig skriva plattformsoberoende kod för att rita "
+"grafik på olika media."
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:30
-#, fuzzy
 msgid ""
 "Cairo's drawing model is similar to those provided by PostScript and PDF. The Cairo API "
 "provides such drawing operations as stroking and filling cubic Bézier splines, "
@@ -2457,13 +2451,12 @@ msgid ""
 "for rich, anti-aliased graphics."
 msgstr ""
 "Cairos ritmodell är liknande de som tillhandahålls av PostScript och PDF. Cairo-API:t "
-"tillhandahåller ritåtgärder som penselstreck och att fylla kubiska Bézier-splines, "
-"sammanslagning av bilder samt utföra affina transformationer. Dessa vektoråtgärder "
-"tillåter rik, kantutjämnad grafik."
+"tillhandahåller ritåtgärder som penselstreck och att fylla kubiska Bézier-splinekurvor, "
+"sammansättning av bilder samt utförande av affina avbildningar. Dessa vektoråtgärder "
+"möjliggör en rik, kantutjämnad grafik."
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:36
-#, fuzzy
 msgid ""
 "Cairo's rich drawing model allows for high-quality rendering to multiple media. The same "
 "API can be used to create on-screen graphics and text, to render images, or create crisp "
@@ -2475,7 +2468,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:41
-#, fuzzy
 msgid ""
 "You should use Cairo whenever you need to draw graphics in your application beyond the "
 "widgets provided by GTK+. Almost all of the drawing inside GTK+ is done using Cairo. "
@@ -2484,7 +2476,7 @@ msgid ""
 msgstr ""
 "Du bör använda Cairo närhelst du behöver rita grafik i ditt program bortom komponenterna "
 "som tillhandahålls av GTK+. Nästan allt ritande i GTK+ görs med Cairo. Att använda Cairo "
-"för ditt anpassade ritande kommer låta ditt program ha högvalitativ, kantutjämnad och "
+"för ditt anpassade ritande kommer låta ditt program ha högkvalitativ, kantutjämnad och "
 "upplösningsoberoende grafik."
 
 #. (itstool) path: item/p
@@ -2582,7 +2574,6 @@ msgstr "Clutter"
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:23
-#, fuzzy
 msgid ""
 "Clutter is a library for doing animations and using a 2.5-D canvas. You create graphical "
 "objects out of images, and you can manipulate them later to move them, rotate them, or "
@@ -2594,7 +2585,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:28
-#, fuzzy
 msgid ""
 "Clutter uses the <link href=\"http://www.khronos.org/opengl/\">OpenGL</link> and <link "
 "href=\"http://www.khronos.org/opengles/\">OpenGL|ES</link> industry standard API to "
@@ -2602,13 +2592,12 @@ msgid ""
 "without exposing the complexities of GPU pipeline programming."
 msgstr ""
 "Clutter använder industristandard-API:erna <link href=\"http://www.khronos.org/opengl/"
-"\">OpenGL</link> and <link href=\"http://www.khronos.org/opengles/\">OpenGL|ES</link> "
+"\">OpenGL</link> och <link href=\"http://www.khronos.org/opengles/\">OpenGL|ES</link> "
 "för att komma åt den accelererade grafikhårdvaran i både skrivbords- och mobilmiljöer "
 "utan att exponera komplexiteterna hos GPU-rörledningsprogrammering."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:34
-#, fuzzy
 msgid ""
 "Clutter does not specify any visual style, and does not provide any pre-defined complex "
 "user interface control; it lets the developer define what is needed, using a flexible "
@@ -2618,11 +2607,10 @@ msgstr ""
 "Clutter anger ingen visuell stil, och tillhandahåller inga fördefinierade komplexa "
 "användargränssnittskontroller. Det låter utvecklaren definiera vad som behövs med ett "
 "flexibelt scengrafs-API, med frihandsplacering av scenelementen (eller <em>aktörerna</"
-"em>) på huvudvyn (eller <em>scenen</em>)."
+"em>) på det huvudsakliga visningsområdet (eller <em>scenen</em>)."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:39
-#, fuzzy
 msgid ""
 "Clutter comes with pre-defined actors for displaying solid colors, image data, text and "
 "custom high-precision 2D drawing using the <link xref=\"tech-cairo\">Cairo</link> API. "
@@ -2630,9 +2618,9 @@ msgid ""
 "packing model like <link xref=\"tech-gtk\">GTK+</link>, and a series of free-form "
 "<em>constraints</em>."
 msgstr ""
-"Clutter kommer med fördefinierade aktörer för att visa ensamma färger, bilddata, text "
-"och anpassad högprecisionsritning i 2D med <link xref=\"tech-cairo\">Cairo</link>-API:t. "
-"Clutter tillhandahåller också generiska klasser för att strukturera ett "
+"Clutter kommer med fördefinierade aktörer för att visa enfärgade ytor, bilddata, text "
+"och anpassad högprecisionsutritning i 2D med <link xref=\"tech-cairo\">Cairo</link>-API:"
+"t. Clutter tillhandahåller också generiska klasser för att strukturera ett "
 "användargränssnitt genom både en lådpackningsmodell som <link xref=\"tech-gtk\">GTK+</"
 "link>, och en serie av frihands-<em>begränsningar</em>."
 
@@ -2696,7 +2684,6 @@ msgstr "D-Bus"
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:24
-#, fuzzy
 msgid ""
 "D-Bus is a message bus for sending messages between various applications, the desktop, "
 "and low-level components of the system. D-Bus provides a simple API for sending messages "
@@ -2708,12 +2695,11 @@ msgstr ""
 "skrivbordet samt systemets lågnivåkomponeneter. D-Bus tillhandahåller ett enkelt API för "
 "att skicka meddelanden till specifika tjänster och för att sända meddelanden till alla "
 "intresserade tjänster. D-Bus tillåter olika sorters program att kommunicera med och "
-"integreras med varandra och med skrivbordet, vilket tillhandahåller bättre interaktion "
-"och en rikare användarupplevelse."
+"integreras med varandra samt skrivbordet, vilket tillhandahåller bättre interaktion och "
+"en rikare användarupplevelse."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:32
-#, fuzzy
 msgid ""
 "D-Bus provides a session bus and a system bus. The session bus is used by applications "
 "in a single user session, allowing them to share data and event notifications and to "
@@ -2723,12 +2709,11 @@ msgstr ""
 "D-Bus tillhandahåller en sessionsbuss och en systembuss. Sessionsbussen används av "
 "program i en ensam användarsession, vilket låter dem dela data och händelseaviseringar "
 "och integreras med användarens skrivbord. Till exempel kan filmspelare sända ett D-Bus-"
-"meddelande för att förhindra skärmsläckaren från att aktiveras med användaren tittar på "
+"meddelande för att förhindra skärmsläckaren från att aktiveras när användaren tittar på "
 "en film."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:38
-#, fuzzy
 msgid ""
 "The system bus is a single message bus which runs independently of any user sessions. It "
 "can communicate with applications in any session, enabling those applications to "
@@ -2967,7 +2952,6 @@ msgstr "GDK"
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:23
-#, fuzzy
 msgid ""
 "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> to interact "
 "with the windowing system for graphics and input devices. Although you will rarely use "
@@ -2978,15 +2962,14 @@ msgid ""
 msgstr ""
 "GDK är lågnivåbiblioteket som används av <link xref=\"tech-gtk\">GTK+</link> för att "
 "interagera med fönstersystemet för grafik och indataenheter. Även om du sällan kommer "
-"att använda GDK direkt i programkod så innehåller den all nödvändig funktionalitet för "
+"att använda GDK direkt i programkod så innehåller det all nödvändig funktionalitet för "
 "att skapa lågnivåfönster på skärmen och för att interagera med användaren med olika "
-"inmatningsenheter. GDK agerar som en abstraktion över diverse fönstersystems, så att GTK"
-"+ kan porteras till alla av dem: X Window System (X11), Microsoft Windows, Mac OS X "
-"Quartz."
+"inmatningsenheter. GDK agerar som en abstraktion över diverse fönstersystem, så att GTK+ "
+"kan porteras till dem alla: X Window System (X11), Microsoft Windows, Mac OS X Quartz."
 
+# TODO: GTK_BUTTON_RELEASE -> GDK_BUTTON_RELEASE
 #. (itstool) path: page/p
 #: C/tech-gdk.page:31
-#, fuzzy
 msgid ""
 "GDK enables you to access events from keyboards, mice, and other input devices. "
 "Implementations of widgets in GTK+ use this functionality, and translate the events into "
@@ -2998,7 +2981,7 @@ msgid ""
 msgstr ""
 "GDK låter dig komma åt händelser från tangentbord, möss och andra inmatningsenheter. "
 "Implementationer av komponenter i GTK+ använder denna funktionalitet och översätter "
-"händelserna till signaler på högre nivå som i sin tu kan användas från programkod. Till "
+"händelserna till signaler på högre nivå som i sin tur kan användas från programkod. Till "
 "exempel kommer en <code>GtkButton</code>-komponent att spåra <code>GDK_BUTTON_PRESS</"
 "code>- och <code>GTK_BUTTON_RELEASE</code>-händelser, vilka kommer från musen, och "
 "översätta dem som lämpligt till en <code>GtkButton::clicked</code>-signal när användaren "
@@ -3006,7 +2989,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:40
-#, fuzzy
 msgid ""
 "GDK also provides low-level routines to access drag and drop and clipboard data from the "
 "system. When implementing custom controls, you may need to access these features to "
@@ -3014,11 +2996,10 @@ msgid ""
 msgstr ""
 "GDK tillhandahåller också lågnivårutiner för att komma åt dra-och-släpp och urklippsdata "
 "från systemet. Då anpassade kontroller implementeras kan du behöva komma åt dessa "
-"funktioner för att implementera lämpligt användarinteraktionsbeteende."
+"funktioner för att implementera lämpligt beteende för användarinteraktion."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:45
-#, fuzzy
 msgid ""
 "GDK provides other functionality which is needed to implement a complete graphical "
 "toolkit like GTK+. Since GDK acts as a platform abstraction, allowing GTK+ to run under "
@@ -3027,14 +3008,13 @@ msgid ""
 "colormaps, and cursors."
 msgstr ""
 "GDK tillhandahåller annan funktionalitet som behövs för att implementera en fullständig "
-"grafiskt verktygslåda som GTK+. Eftersom GDK agerar som en plattformsabstraktion, vilken "
+"grafisk verktygslåda som GTK+. Eftersom GDK agerar som en plattformsabstraktion, vilken "
 "låter GTK+ köra under flera miljöer, så tillhandahåller den ett API för all "
-"systemfunktionalitet som behövs av GTK+. Detta inkluderar information om flera skärmar, "
-"upplösning och färgdjup, färgkartor, och markörer."
+"systemfunktionalitet som behövs av GTK+. Detta inkluderar information om visning över "
+"flera skärmar, upplösning och färgdjup, färgkartor och markörer."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:52
-#, fuzzy
 msgid ""
 "You should use GDK whenever you need low-level access to the underlying windowing "
 "system, including low-level access to events, windows, and the clipboard. Using GDK for "
@@ -3047,10 +3027,11 @@ msgstr ""
 "Du bör använda GDK närhelst du behöver lågnivååtkomst till det underliggande "
 "fönstersystemet, inklusive lågnivååtkomst till händelser, fönster och urklipp. Att "
 "använda GDK för dessa uppgifter säkerställer att din kod är portabel och integrerad med "
-"resten av din GTK+-kod. De enkla ritrutinerna i GDK bör i allmänhet inte användas, dessa "
-"är en kvarleva från när GDK helt enkelt var ett omslag till fönstersystemet "
-"ritprimitiver. Istället bör du använda den omfattande funktionalitet som tillhandahålls "
-"av <link xref=\"tech-cairo\">Cairo</link> för att rita 2D-grafik med hög kvalitet."
+"resten av din GTK+-kod. De enkla utritningsrutinerna i GDK bör i allmänhet inte "
+"användas, dessa är en kvarleva från när GDK helt enkelt var ett omslag till "
+"fönstersystemets utritningsprimitiver. Istället bör du använda den omfattande "
+"funktionalitet som tillhandahålls av <link xref=\"tech-cairo\">Cairo</link> för att rita "
+"2D-grafik med hög kvalitet."
 
 #. (itstool) path: item/p
 #: C/tech-gdk.page:62
@@ -3198,7 +3179,6 @@ msgstr "GIO-filer"
 # TODO: Not URL for *uniform resource locators* ?
 #. (itstool) path: page/p
 #: C/tech-gio.page:29
-#, fuzzy
 msgid ""
 "GIO provides APIs for asynchronously reading and writing files and other streams. Files "
 "are referenced by URIs (uniform resource locators), and backends can provide access to "
@@ -3206,7 +3186,7 @@ msgid ""
 "access to files over SFTP, FTP, WebDAV, SMB, and other popular protocols. This "
 "transparent network file access is free to all applications using GIO."
 msgstr ""
-"GIO tillhandahåller API:er för att asynkront läsa och skriva filer och andra strömma. "
+"GIO tillhandahåller API:er för att asynkront läsa och skriva filer och andra strömmar. "
 "Filer hänvisas till med URI:er (uniform resource locators), och gränssnitt kan "
 "tillhandahålla åtkomst till mer än bara lokala filer. Då det körs under GNOME-"
 "skrivbordet använder GIO sig av GVFS för att tillåta åtkomst till filer över SFTP, FTP, "
@@ -3215,7 +3195,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gio.page:36
-#, fuzzy
 msgid ""
 "The GIO file APIs were designed to be used in event-driven graphical interfaces. The non-"
 "blocking, asynchronous design means your user interface doesn't hang while waiting for a "
@@ -3229,7 +3208,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gio.page:42
-#, fuzzy
 msgid ""
 "GIO also provides routines for managing drives and volumes, querying file types and "
 "icons, and finding applications to open files."
@@ -3279,9 +3257,8 @@ msgstr "<link href=\"http://developer.gnome.org/glib/stable/\">GLib-referenshand
 
 #. (itstool) path: info/desc
 #: C/tech-gobject.page:16
-#, fuzzy
 msgid "C-based object and type system with signals and slots"
-msgstr "C-baserat objekt- och typsystem med signaler och slots"
+msgstr "C-baserat objekt- och typsystem med signal/slot"
 
 #. (itstool) path: page/title
 #: C/tech-gobject.page:19
@@ -3301,7 +3278,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:26
-#, fuzzy
 msgid ""
 "GObject provides a fundamental GType, the base for the whole type system, from which "
 "types such as ints and strings are derived. Then, there is GObject itself, the base "
@@ -3317,7 +3293,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:35
-#, fuzzy
 msgid ""
 "GObject is <em>introspectable</em>, which means that you can ask the GObject system for "
 "the class types that are defined, the methods they support, their signals, etc. GNOME's "
@@ -3335,15 +3310,14 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:45
-#, fuzzy
 msgid ""
 "You normally don't need to be concerned with GObject itself if you are programming for "
 "GNOME with an object-oriented language. However, making yourself familiar with GObject's "
 "concepts, such as signals and slots, will make your life easier as a GNOME programmer."
 msgstr ""
 "Du behöver vanligen inte bry dig om GObject självt om du programmerar för GNOME med ett "
-"objektorienterat språk. Att göra dig själv bekant med koncepten i GObject, så som "
-"signaler och slots, kommer dock att göra ditt liv som GNOME-programmerare enklare."
+"objektorienterat språk. Att göra dig själv bekant med koncepten i GObject, så som signal/"
+"slot, kommer dock att göra ditt liv som GNOME-programmerare enklare."
 
 #. (itstool) path: item/p
 #: C/tech-gobject.page:53
@@ -3444,7 +3418,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:30
-#, fuzzy
 msgid ""
 "GStreamer provides a flexible architecture wherein media is processed through a pipeline "
 "of elements. Each element may apply filters to the content, such as encoding or "
@@ -3544,7 +3517,6 @@ msgstr "GTK+"
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:23
-#, fuzzy
 msgid ""
 "GTK+ is the primary library used to construct user interfaces in GNOME. Its name stands "
 "for \"GIMP Tool Kit\", as originally it was explicitly written for that image "
@@ -3553,13 +3525,13 @@ msgid ""
 "application. Its object-oriented API allows you to construct user interfaces without "
 "dealing with the low-level details of drawing and device interaction."
 msgstr ""
-"GTK+ är primärbiblioteket som används för att konstruera användargränssnitt i GNOME. "
+"GTK+ är det primära bibliotek som används för att konstruera användargränssnitt i GNOME. "
 "Dess namn står för ”GIMP Tool Kit”, då det ursprungligen var skrivet explicit för det "
 "bildmanipuleringsprogrammet, och extraherades sedan från det som ett fristående "
 "bibliotek. Det tillhandahåller alla gränssnittskontroller, eller <em>komponenter</em>, "
 "som används i ett vanligt grafiskt program. Dess objektorienterade API låter dig "
-"konstruera användargränssnitt utan att behöva hantera lågnivådetaljer kring ritande och "
-"enhetsinteraktion."
+"konstruera användargränssnitt utan att behöva hantera lågnivådetaljer kring utritning "
+"och enhetsinteraktion."
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:32
@@ -3574,7 +3546,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:37
-#, fuzzy
 msgid ""
 "Widgets in GTK+ are placed on windows using a <em>box-packing model</em>. Programmers "
 "specify only how to pack widgets together in container boxes, instead of positioning "
@@ -3593,7 +3564,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:45
-#, fuzzy
 msgid ""
 "GTK+ allows you to develop custom widgets for use in applications. Similar to native or "
 "stock widgets, these custom widgets can support all the features that GTK+ has: right-to-"
@@ -3667,9 +3637,8 @@ msgstr "Zeeshan Ali (Khattak)"
 
 #. (itstool) path: info/desc
 #: C/tech-gupnp.page:18
-#, fuzzy
 msgid "Wireless, peer-to-peer, plug-and-play RPC"
-msgstr "Trådlös, P2P, plug-and-play-RPC"
+msgstr "Trådlös plug-and-play-RPC som är peer-to-peer"
 
 #. (itstool) path: page/title
 #: C/tech-gupnp.page:21
@@ -3690,7 +3659,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gupnp.page:30
-#, fuzzy
 msgid ""
 "DLNA is a set of standards that let devices share multimedia content in standard "
 "formats. GUPnP can also perform DLNA-related tasks such as media profile guessing, "
@@ -3698,7 +3666,7 @@ msgid ""
 msgstr ""
 "DLNA är en uppsättning standarder som låter enheter dela multimediainnehåll i "
 "standardformat. GUPnP kan också utföra DLNA-relaterade uppgifter så som "
-"mediaprofilgissning, kodning till en given profil o.s.v."
+"mediaprofilgissning, omkodning till en given profil o.s.v."
 
 #. (itstool) path: page/p
 #: C/tech-gupnp.page:36
@@ -3726,7 +3694,6 @@ msgstr "Hjälp"
 
 #. (itstool) path: page/p
 #: C/tech-help.page:23
-#, fuzzy
 msgid ""
 "Users sometimes need a little help, even with the best-designed applications. GNOME "
 "provides a built-in topic-oriented help system that uses the <link href=\"http://"
@@ -3741,7 +3708,7 @@ msgstr ""
 "href=\"http://projectmallard.org/\">Mallard</link>. Mallard är ett agilt och dynamiskt "
 "språk, inlett av GNOME-utvecklare, som låter dig skriva och revidera snabbt. Dess "
 "ämnesorienterade design betyder att dina användare kan hitta svaren de behöver utan att "
-"behöva leta igenom en handbok. Med dess unika länk- och organisationssystem är Mallar "
+"behöva leta igenom en handbok. Med dess unika länk- och organisationssystem är Mallard "
 "det enda språk som är designat för att hantera hjälp både från leverantören och om "
 "insticksmoduler i ett sammanhängande dokument."
 
@@ -3813,14 +3780,13 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-network-manager.page:38
-#, fuzzy
 msgid ""
 "The core desktop shell in GNOME has a prominent NetworkManager icon; internally it uses "
 "the NetworkManager API to change network settings based on the user's choices. "
 "Applications such as Evolution, which need to know about the online/offline status of "
 "the computer, use NetworkManager as well."
 msgstr ""
-"Kärnskrivbordskalet i GNOME har en framstående ikon för Nätverkshanteraren, internt "
+"Skrivbordsskalet i GNOME har en framstående ikon för Nätverkshanteraren och internt "
 "använder det Nätverkshanterar-API:t för att ändra nätverksinställningar baserat på "
 "användarens val. Program så som Evolution, som behöver känna till datorns ansluten/"
 "frånkopplad-status, använder också Nätverkshanteraren."
@@ -3894,7 +3860,6 @@ msgstr "PackageKit"
 
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:22
-#, fuzzy
 msgid ""
 "PackageKit lets applications query whether other packages are installed, regardless of "
 "the GNU/Linux distribution in which they are running. If your application needs an extra "
@@ -3903,14 +3868,13 @@ msgid ""
 "program may need to download fonts as needed."
 msgstr ""
 "PackageKit låter program fråga huruvida andra paket finns installerade, oberoende av "
-"vilken GNU/Linux-distribution som de körs. Om ditt program behöver ett extra paket för "
+"vilken GNU/Linux-distribution som de körs i. Om ditt program behöver ett extra paket för "
 "att installeras under körtid kan det fråga PackageKit om att hämta och installera det. "
 "Till exempel kan ett multimediaprogram behöva hämta en kodek, eller så kan ett "
 "illustrationsprogram behöva hämta typsnitt efter behov."
 
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:31
-#, fuzzy
 msgid ""
 "Various GNOME applications use PackageKit in similar situations. Totem, the media "
 "player, uses PackageKit to request installation of codecs when it tries to play a media "
@@ -3985,9 +3949,8 @@ msgstr "Geografiskt"
 
 #. (itstool) path: links/title
 #: C/tech.page:74
-#, fuzzy
 msgid "Foundational C utilities and object system"
-msgstr "Grundläggande C-verktyg och objektsystem"
+msgstr "Fundamentala C-verktyg och objektsystem"
 
 #. (itstool) path: info/desc
 #: C/tech-pango.page:18
@@ -4001,31 +3964,28 @@ msgstr "Pango"
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:23
-#, fuzzy
 msgid ""
 "Pango is the core text and font handling library in the GNOME platform. It is "
 "responsible for laying out and rendering text, and is used throughout GTK+."
 msgstr ""
 "Pango är kärnbiblioteket för text och typsnittshantering i GNOME-plattformen. Det är "
-"ansvarigt för att layout och rendering av text, och används i hela GTK+."
+"ansvarigt för layout och rendering av text, och används i hela GTK+."
 
 #. (itstool) path: note/p
 #: C/tech-pango.page:27
-#, fuzzy
 msgid ""
 "The Pango layout engine can be used with different font backends and drawing backends. "
 "On most GNOME systems, Pango will use FreeType, fontconfig, and Cairo to access fonts "
 "and render text. On other systems, Pango will use the native font systems, such as "
 "Uniscribe on Microsoft Windows and ATSUI on MacOS"
 msgstr ""
-"Pango-layoutmotorn kan användas med olika gränssnitt för typsnitt och ritande. På det "
+"Pango-layoutmotorn kan användas med olika gränssnitt för typsnitt och utritning. På det "
 "flesta GNOME-system kommer Pango att använda FreeType, fontconfig och Cairo för att "
 "komma åt typsnitt och rendera text. På andra system kommer Pango att använda de inhemska "
-"typsnittssystemens, så som Uniscribe på Microsoft Windows och ATSUI på MacOS"
+"typsnittssystemen, så som Uniscribe på Microsoft Windows och ATSUI på MacOS"
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:34
-#, fuzzy
 msgid ""
 "Pango has extensive support for the various writing systems used throughout the world. "
 "Many of the writing systems used for languages have complex rules for laying out glyphs "
@@ -4035,7 +3995,7 @@ msgid ""
 "write any special code to support other languages."
 msgstr ""
 "Pango har omfattande stöd för de olika skriftsystem som används runt om i världen. Flera "
-"av skrivsystemen som används för språk har komplexa regler för hur glyfer placeras och "
+"av skriftsystemen som används för språk har komplexa regler för hur glyfer placeras och "
 "hur tecken sätts ihop. Med Pango kan nästan alla språk skrivas och visas korrekt, vilket "
 "låter användare överallt att visa text på deras modersmål. Pangos stöd för flera "
 "skriftsystem är automatiskt, programutvecklare måste inte skriva någon specialkod för "
@@ -4043,7 +4003,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:43
-#, fuzzy
 msgid ""
 "Pango supports the kind of text styling used in typical documents and interfaces, "
 "including italics, font weights, and underlines. Pango uses a simple XML-like vocabulary "
@@ -4062,7 +4021,6 @@ msgstr ""
 # TODO: hundreds -> over a hundred?
 #. (itstool) path: page/p
 #: C/tech-pango.page:52
-#, fuzzy
 msgid ""
 "You should use Pango directly whenever you need to lay text out on the screen or on a "
 "different medium. Using Pango will allow your text layout to work seamlessly with GTK+ "
@@ -4070,7 +4028,7 @@ msgid ""
 "importantly, it will ensure that your application can render text correctly in hundreds "
 "of different languages."
 msgstr ""
-"Du bör använda Pango direkt närhelst du behöver lägga ut text på skärmen eller på ett "
+"Du bör använda Pango direkt närhelst du behöver en textlayout på skärmen eller på ett "
 "annat medium. Att använda Pango kommer låta din textlayout fungera sömlöst med GTK+ och "
 "resten av GNOME-plattformen. Det kommer hjälpa dig skapa portabel kod, och viktigast, "
 "det kommer säkerställa att ditt program kan rendera text korrekt på hundratals olika "
@@ -4253,7 +4211,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:36
-#, fuzzy
 msgid ""
 "The keyring manager provides access control lists for each keyring item, controlling "
 "which applications are allowed access to that item. If an unknown application attempts "
@@ -4270,14 +4227,13 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:43
-#, fuzzy
 msgid ""
 "Keyring data stored on the file system is encrypted with the AES block cipher, and SHA1 "
 "is used for hashes of the item's attributes. Using the attributes hash, the keyring "
 "manager is able to look up items requested by applications without ever unlocking the "
 "keyring. The keyring has to be unlocked when a matching item is found and accessed."
 msgstr ""
-"Nyckelringsdata lagrade på filsystemet krypteras ned AES-blockchiffret, och SHA1 används "
+"Nyckelringsdata lagrade på filsystemet krypteras med AES-blockchiffret, och SHA1 används "
 "för hashvärden på objektets attribut. Med attributhashen kan nyckelringshanteraren slå "
 "upp objekt som begärs av program utan att behöva låsa upp nyckelringen. Nyckelringen "
 "måste vara upplåst då ett matchande objekt hittas och koms åt."
@@ -4351,7 +4307,6 @@ msgstr "Soup"
 
 #. (itstool) path: page/p
 #: C/tech-soup.page:22
-#, fuzzy
 msgid ""
 "Soup, or libsoup as it is commonly called, is an HTTP library designed to be used in "
 "graphical applications which need asynchronous operations to avoid blocking the user "
@@ -4372,7 +4327,6 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/tech-soup.page:34
-#, fuzzy
 msgid ""
 "Trivia: Soup is called \"soup\" because it started as a library for doing SOAP requests "
 "over HTTP. Spanish speakers who are learning English frequently confuse the words \"soup"
@@ -4512,7 +4466,6 @@ msgstr "Tracker"
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:22
-#, fuzzy
 msgid ""
 "Tracker is an RDF (resource data format) storage engine. RDF consists of <em>triplets</"
 "em> such as subject:verb:object. For example, there could be standard triplets for book "
@@ -4521,12 +4474,11 @@ msgid ""
 msgstr ""
 "Tracker är en lagringsmotor för RDF (resursdataformat). RDF består av <em>tripplar</em> "
 "så som ämne:verb:objekt. Till exempel skulle det kunna finnas standardtripplar för "
-"boktitlar och författare, så soms <code>Othello:has-author:William Shakespeare</code>. "
-"En standardiserad uppsättning tripplar kallas en <em>ontologi</em>."
+"boktitlar och författare, så som <code>Othello:has-author:William Shakespeare</code>. En "
+"standardiserad uppsättning tripplar kallas en <em>ontologi</em>."
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:30
-#, fuzzy
 msgid ""
 "Tracker provides a storage for such triplets, and a query engine in the form of the "
 "SPARQL query language."
@@ -4536,7 +4488,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:35
-#, fuzzy
 msgid ""
 "GNOME uses Tracker as a storage for document metadata. A document's metadata may include "
 "its title, authors, copyright, modification date, and keywords. All this metadata is "
@@ -4703,9 +4654,9 @@ msgstr ""
 "Detta fönster genereras från <app>Glade</app> och är länkat till <app>Gtk</app>-"
 "händelser. Du har nu ett fullt fungerande Gtk-program!"
 
+# TODO: Lang?
 #. (itstool) path: info/desc
 #: C/tour-events.page:23
-#, fuzzy
 msgid "Bind functions to events using Lang."
 msgstr "Bind funktioner till händelser med Lang."
 
@@ -4871,12 +4822,11 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:37
-#, fuzzy
 msgid ""
 "Create an <code>object</code> using your <code>class</code> and call the <code>run()</"
 "code> method:"
 msgstr ""
-"Skapa ett <code>object</code> med din <code>class</code> och anropa metoden <code>run()</"
+"Skapa ett <code>objekt</code> med din <code>class</code> och anropa metoden <code>run()</"
 "code>:"
 
 #. (itstool) path: example/p
