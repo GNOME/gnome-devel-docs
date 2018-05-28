@@ -6,16 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-03-29 19:42+0000\n"
-"PO-Revision-Date: 2018-03-30 23:22+0200\n"
+"POT-Creation-Date: 2018-03-30 21:35+0000\n"
+"PO-Revision-Date: 2018-05-06 23:49+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -2246,7 +2246,7 @@ msgstr ""
 #: C/spinner.c.page:33 C/statusbar.c.page:36 C/switch.c.page:33 C/textview.c.page:36 C/togglebutton.c.page:36
 #: C/window.c.page:34
 msgid "<link href=\"http://developer.gnome.org/gtk3/3.4/GtkApplication.html\">GtkApplication</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/3.4/GtkApplication.html\">GtkApplication</link>"
 
 #. (itstool) path: item/p
 #: C/aboutdialog.c.page:36 C/button.c.page:35 C/combobox.c.page:36 C/dialog.c.page:35 C/entry.c.page:33
@@ -2254,22 +2254,22 @@ msgstr ""
 #: C/scale.c.page:35 C/spinbutton.c.page:36 C/spinner.c.page:34 C/statusbar.c.page:37 C/switch.c.page:34
 #: C/textview.c.page:37 C/togglebutton.c.page:37 C/window.c.page:35
 msgid "<link href=\"http://developer.gnome.org/gtk3/3.4/GtkWindow.html\">GtkWindow</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/3.4/GtkWindow.html\">GtkWindow</link>"
 
 #. (itstool) path: item/p
 #: C/aboutdialog.c.page:37
 msgid "<link href=\"http://developer.gnome.org/gtk3/stable/GtkAboutDialog.html\">GtkAboutDialog</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkAboutDialog.html\">GtkAboutDialog</link>"
 
 #. (itstool) path: item/p
 #: C/aboutdialog.c.page:38 C/aboutdialog.py.page:48 C/messagedialog.c.page:42 C/messagedialog.py.page:64
 msgid "<link href=\"http://developer.gnome.org/gio/stable/GMenu.html\">GMenu</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gio/stable/GMenu.html\">GMenu</link>"
 
 #. (itstool) path: item/p
 #: C/aboutdialog.c.page:39 C/messagedialog.c.page:41
 msgid "<link href=\"http://developer.gnome.org/gio/stable/GActionMap.html\">GActionMap</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gio/stable/GActionMap.html\">GActionMap</link>"
 
 #. (itstool) path: info/title
 #: C/aboutdialog.js.page:7
@@ -2390,18 +2390,18 @@ msgstr ""
 #: C/aboutdialog.js.page:29 C/gmenu.c.page:32 C/gmenu.js.page:30 C/gmenu.py.page:80 C/messagedialog.js.page:194
 #: C/switch.js.page:266
 msgid "<link href=\"http://developer.gnome.org/gio/unstable/GMenu.html\">GMenu</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gio/unstable/GMenu.html\">GMenu</link>"
 
 #. (itstool) path: item/p
 #: C/aboutdialog.js.page:30 C/filechooserdialog.py.page:80 C/gmenu.c.page:33 C/gmenu.js.page:31 C/gmenu.py.page:81
 #: C/menubar.c.page:39 C/messagedialog.js.page:195 C/messagedialog.py.page:62 C/switch.js.page:267
 msgid "<link href=\"http://developer.gnome.org/gio/stable/GSimpleAction.html\">GSimpleAction</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gio/stable/GSimpleAction.html\">GSimpleAction</link>"
 
 #. (itstool) path: item/p
 #: C/aboutdialog.js.page:31
 msgid "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.AboutDialog.html\">Gtk.AboutDialog</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.AboutDialog.html\">Gtk.AboutDialog</link>"
 
 #. (itstool) path: item/p
 #: C/aboutdialog.js.page:32 C/button.js.page:31 C/checkbutton.js.page:137 C/comboboxtext.js.page:181
@@ -2411,7 +2411,7 @@ msgstr ""
 #: C/statusbar.js.page:223 C/switch.js.page:268 C/textview.js.page:250 C/togglebutton.js.page:155
 #: C/treeview_simple_liststore.js.page:277 C/window.js.page:39
 msgid "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link>"
 
 #. (itstool) path: item/p
 #: C/aboutdialog.js.page:33 C/button.js.page:32 C/checkbutton.js.page:138 C/comboboxtext.js.page:182
@@ -2421,7 +2421,7 @@ msgstr ""
 #: C/statusbar.js.page:224 C/switch.js.page:269 C/textview.js.page:251 C/togglebutton.js.page:156
 #: C/treeview_simple_liststore.js.page:278
 msgid "<link href=\"http://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html\">Gtk.ApplicationWindow</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html\">Gtk.ApplicationWindow</link>"
 
 #. (itstool) path: info/title
 #: C/aboutdialog.py.page:8
@@ -2447,7 +2447,7 @@ msgstr ""
 #: C/treeview_cellrenderertoggle.py.page:14 C/treeview_simple_liststore.py.page:15 C/treeview_treestore.py.page:15
 #: C/tutorial.py.page:20 C/vala.page:15 C/weatherApp.js.page:17 C/widget_drawing.py.page:13 C/window.py.page:20
 msgid "Marta Maria Casetti"
-msgstr ""
+msgstr "Marta Maria Casetti"
 
 #. (itstool) path: info/desc
 #: C/aboutdialog.py.page:19
@@ -2740,7 +2740,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.set_default_size
 #. (itstool) path: info/desc
 #: C/audio-player.vala.page:10
 msgid "Coming soon..."
-msgstr ""
+msgstr "Kommer snart…"
 
 #. (itstool) path: credit/name
 #: C/audio-player.vala.page:14 C/guitar-tuner.c.page:15 C/guitar-tuner.cpp.page:13 C/guitar-tuner.py.page:15
@@ -2881,7 +2881,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/beginner.js.page:55 C/beginner.py.page:32 C/beginner.vala.page:58 C/c.page:118
 msgid "Windows"
-msgstr ""
+msgstr "Fönster"
 
 #. (itstool) path: section/title
 #: C/beginner.js.page:57 C/beginner.py.page:34 C/beginner.vala.page:61 C/c.page:121
@@ -3034,7 +3034,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/beginner.vala.page:51
 msgid "Copy and paste the code into <var>filename</var>.vala"
-msgstr ""
+msgstr "Kopiera och klistra in koden i <var>filnamn</var>.vala"
 
 #. (itstool) path: item/p
 #: C/beginner.vala.page:52 C/c.page:98
@@ -3045,13 +3045,13 @@ msgstr ""
 #: C/beginner.vala.page:53
 #, no-wrap
 msgid "valac --pkg gtk+-3.0 <var>filename</var>.vala"
-msgstr ""
+msgstr "valac --pkg gtk+-3.0 <var>filnamn</var>.vala"
 
 #. (itstool) path: item/screen
 #: C/beginner.vala.page:54 C/c.page:100
 #, no-wrap
 msgid "./<var>filename</var>"
-msgstr ""
+msgstr "./<var>filnamn</var>"
 
 #. (itstool) path: info/title
 #: C/button.c.page:8
@@ -3075,9 +3075,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/button.c.page:25 C/button.js.page:22 C/button.py.page:25 C/button.vala.page:24
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/button.png' md5='8d69efbb3a0d3e043af6139b6492171c'"
-msgstr ""
+msgstr "external ref='media/button.png' md5='8d69efbb3a0d3e043af6139b6492171c'"
 
 #. (itstool) path: page/p
 #: C/button.c.page:26
@@ -3157,7 +3158,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/button.c.page:36 C/buttonbox.py.page:51 C/grid.c.page:35
 msgid "<link href=\"http://developer.gnome.org/gtk3/stable/GtkButton.html\">GtkButton</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkButton.html\">GtkButton</link>"
 
 #. (itstool) path: item/p
 #: C/button.c.page:37
@@ -3165,6 +3166,8 @@ msgid ""
 "<link href=\"http://developer.gnome.org/glib/stable/glib-Unicode-Manipulation.html#g-utf8-strreverse\">Unicode "
 "Manipulation</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/glib/stable/glib-Unicode-Manipulation.html#g-utf8-strreverse\">Unicode-"
+"manipulation</link>"
 
 #. (itstool) path: info/title
 #: C/button.js.page:8
@@ -3254,7 +3257,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/button.js.page:33 C/grid.js.page:36
 msgid "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Button.html\">Gtk.Button</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Button.html\">Gtk.Button</link>"
 
 #. (itstool) path: info/title
 #: C/button.py.page:8
@@ -3355,6 +3358,10 @@ msgid ""
 "image.set_from_stock(Gtk.STOCK_ABOUT, Gtk.IconSize.BUTTON)\n"
 "button.set_image(image)"
 msgstr ""
+"\n"
+"image = Gtk.Image()\n"
+"image.set_from_stock(Gtk.STOCK_ABOUT, Gtk.IconSize.BUTTON)\n"
+"button.set_image(image)"
 
 #. (itstool) path: item/p
 #: C/button.py.page:46
@@ -3372,13 +3379,13 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/button.py.page:55
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkButton.html\">GtkButton</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkButton.html\">GtkButton</link>"
 
 #. (itstool) path: item/p
 #: C/button.py.page:56 C/dialog.py.page:52 C/label.py.page:106 C/linkbutton.py.page:47 C/messagedialog.py.page:61
 #: C/radiobutton.py.page:49 C/separator.py.page:39 C/window.py.page:65
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkWindow.html\">GtkWindow</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkWindow.html\">GtkWindow</link>"
 
 #. (itstool) path: info/title
 #: C/button.vala.page:8
@@ -3476,9 +3483,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/buttonbox.js.page:24 C/buttonbox.py.page:25
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/buttonbox_calculator.png' md5='ce0de08b7ac66f517290e33e6d33d508'"
-msgstr ""
+msgstr "external ref='media/buttonbox_calculator.png' md5='ce0de08b7ac66f517290e33e6d33d508'"
 
 #. (itstool) path: page/p
 #: C/buttonbox.js.page:25 C/buttonbox.py.page:26
@@ -3919,12 +3927,12 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkGrid.html\">GtkGr
 #: C/c.page:9
 msgctxt "link"
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. (itstool) path: credit/name
 #: C/c.page:18
 msgid "Bastian Ilso"
-msgstr ""
+msgstr "Bastian Ilsø"
 
 #. (itstool) path: info/desc
 #: C/c.page:24
@@ -4056,9 +4064,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/checkbutton.c.page:22 C/checkbutton.js.page:22 C/checkbutton.py.page:23 C/checkbutton.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/checkbutton.png' md5='7921a6812c87dd2b3781f4fad241e858'"
-msgstr ""
+msgstr "external ref='media/checkbutton.png' md5='7921a6812c87dd2b3781f4fad241e858'"
 
 #. (itstool) path: page/p
 #: C/checkbutton.c.page:23 C/checkbutton.py.page:24 C/checkbutton.vala.page:23
@@ -4167,6 +4176,13 @@ msgid ""
 "const Gio = imports.gi.Gio;\n"
 "const Gtk = imports.gi.Gtk;\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"\n"
+"const Gio = imports.gi.Gio;\n"
+"const Gtk = imports.gi.Gtk;\n"
 
 #. (itstool) path: section/p
 #: C/checkbutton.js.page:37 C/comboboxtext.js.page:37 C/combobox.js.page:42 C/messagedialog.js.page:39
@@ -4429,7 +4445,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/checkbutton.js.page:139
 msgid "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.CheckButton.html\">Gtk.CheckButton</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.CheckButton.html\">Gtk.CheckButton</link>"
 
 #. (itstool) path: info/title
 #: C/checkbutton.py.page:8
@@ -4515,12 +4531,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/checkbutton.py.page:47 C/togglebutton.py.page:44
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkToggleButton.html\">GtkToggleButton</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkToggleButton.html\">GtkToggleButton</link>"
 
 #. (itstool) path: item/p
 #: C/checkbutton.py.page:48
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkCheckButton.html\">GtkCheckButton</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkCheckButton.html\">GtkCheckButton</link>"
 
 #. (itstool) path: info/title
 #: C/checkbutton.vala.page:8
@@ -4594,7 +4610,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/checkbutton.vala.page:30
 msgid "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.CheckButton.html\">Gtk.CheckButton</link>"
-msgstr ""
+msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.CheckButton.html\">Gtk.CheckButton</link>"
 
 #. (itstool) path: info/title
 #: C/colorbutton.js.page:8
@@ -4618,9 +4634,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/colorbutton.js.page:22 C/colorbutton.py.page:23 C/colorbutton.vala.page:24
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/colorbutton.png' md5='904539d26fe367bf99f9a0961cfc9a03'"
-msgstr ""
+msgstr "external ref='media/colorbutton.png' md5='904539d26fe367bf99f9a0961cfc9a03'"
 
 #. (itstool) path: page/p
 #: C/colorbutton.js.page:23 C/colorbutton.py.page:24
@@ -4710,7 +4727,7 @@ msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.ColorButt
 #. (itstool) path: item/p
 #: C/colorbutton.js.page:37 C/colorbutton.py.page:45
 msgid "<link href=\"http://developer.gnome.org/gdk3/stable/gdk3-RGBA-Colors.html\">RGBA Colors</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gdk3/stable/gdk3-RGBA-Colors.html\">RGBA-färger</link>"
 
 #. (itstool) path: info/title
 #: C/colorbutton.py.page:8
@@ -4803,12 +4820,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/colorbutton.py.page:43
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorButton.html\">GtkColorButton</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorButton.html\">GtkColorButton</link>"
 
 #. (itstool) path: item/p
 #: C/colorbutton.py.page:44
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorChooser.html\">GtkColorChooser</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorChooser.html\">GtkColorChooser</link>"
 
 #. (itstool) path: info/title
 #: C/colorbutton.vala.page:8
@@ -4898,9 +4915,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/comboboxtext.js.page:24 C/combobox.c.page:26 C/combobox.py.page:24 C/combobox.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/combobox.png' md5='ab9e91bc1a58fe866cb00dd52159251d'"
-msgstr ""
+msgstr "external ref='media/combobox.png' md5='ab9e91bc1a58fe866cb00dd52159251d'"
 
 #. (itstool) path: page/p
 #: C/comboboxtext.js.page:25
@@ -4928,6 +4946,11 @@ msgid ""
 "const Gtk = imports.gi.Gtk;\n"
 "const Lang = imports.lang;\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"const Gtk = imports.gi.Gtk;\n"
+"const Lang = imports.lang;\n"
 
 #. (itstool) path: section/code
 #: C/comboboxtext.js.page:42
@@ -5414,9 +5437,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/combobox.js.page:26 C/combobox_multicolumn.py.page:23 C/combobox_multicolumn.vala.page:23
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/combobox_multicolumn.png' md5='43f16648fb11ebc7d2f70825ed0f63b3'"
-msgstr ""
+msgstr "external ref='media/combobox_multicolumn.png' md5='43f16648fb11ebc7d2f70825ed0f63b3'"
 
 #. (itstool) path: page/p
 #: C/combobox.js.page:27
@@ -5455,6 +5479,13 @@ msgid ""
 "const GObject = imports.gi.GObject;\n"
 "const Gtk = imports.gi.Gtk;\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"\n"
+"const GObject = imports.gi.GObject;\n"
+"const Gtk = imports.gi.Gtk;\n"
 
 #. (itstool) path: section/code
 #: C/combobox.js.page:47
@@ -5780,6 +5811,14 @@ msgid ""
 "\n"
 "};\n"
 msgstr ""
+"\n"
+"    _onDialogResponse() {\n"
+"\n"
+"        this._popUp.destroy ();\n"
+"\n"
+"    }\n"
+"\n"
+"};\n"
 
 #. (itstool) path: section/code
 #: C/combobox.js.page:219
@@ -6459,9 +6498,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/dialog.c.page:25 C/dialog.js.page:22 C/dialog.py.page:24 C/dialog.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/dialog.png' md5='c90a33386a600e892fe623d4072c8c38'"
-msgstr ""
+msgstr "external ref='media/dialog.png' md5='c90a33386a600e892fe623d4072c8c38'"
 
 #. (itstool) path: page/p
 #: C/dialog.c.page:26
@@ -6951,9 +6991,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/entry.c.page:23 C/entry.js.page:22 C/entry.py.page:29 C/entry.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
-msgstr ""
+msgstr "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
 
 #. (itstool) path: page/p
 #: C/entry.c.page:24 C/entry.vala.page:23
@@ -7133,7 +7174,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/entry.js.page:32
 msgid "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.Entry.html\">Gtk.Entry</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.Entry.html\">Gtk.Entry</link>"
 
 #. (itstool) path: info/title
 #: C/entry.py.page:8
@@ -7426,9 +7467,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/filechooserdialog.py.page:26
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/filechooserdialog_save.png' md5='3a7a3b71b9d3a36066857843b68ff27f'"
-msgstr ""
+msgstr "external ref='media/filechooserdialog_save.png' md5='3a7a3b71b9d3a36066857843b68ff27f'"
 
 #. (itstool) path: page/p
 #: C/filechooserdialog.py.page:27
@@ -7443,9 +7485,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/filechooserdialog.py.page:28
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/filechooserdialog_menu.png' md5='8a75f04127a70eba0ed68a9eb1d3bbca'"
-msgstr ""
+msgstr "external ref='media/filechooserdialog_menu.png' md5='8a75f04127a70eba0ed68a9eb1d3bbca'"
 
 #. (itstool) path: page/p
 #: C/filechooserdialog.py.page:29
@@ -8149,9 +8192,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/fontchooserwidget.js.page:23 C/fontchooserwidget.py.page:25 C/fontchooserwidget.vala.page:23
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/fontchooserwidget.png' md5='9161245e307b432ae1313e9a9941edae'"
-msgstr ""
+msgstr "external ref='media/fontchooserwidget.png' md5='9161245e307b432ae1313e9a9941edae'"
 
 #. (itstool) path: page/p
 #: C/fontchooserwidget.js.page:24 C/fontchooserwidget.py.page:26
@@ -8398,9 +8442,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/gmenu.c.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/gmenu.c.png' md5='f305fc3cae8d16d72b734ee53b559e33'"
-msgstr ""
+msgstr "external ref='media/gmenu.c.png' md5='f305fc3cae8d16d72b734ee53b559e33'"
 
 #. (itstool) path: page/p
 #: C/gmenu.c.page:23 C/gmenu.js.page:23 C/gmenu.py.page:31 C/gmenu.vala.page:32
@@ -8493,9 +8538,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/gmenu.js.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/gmenu.js.png' md5='16b8bee122197771ec8498dac42f196b'"
-msgstr ""
+msgstr "external ref='media/gmenu.js.png' md5='16b8bee122197771ec8498dac42f196b'"
 
 #. (itstool) path: page/code
 #: C/gmenu.js.page:25
@@ -8600,9 +8646,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/gmenu.py.page:30
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/gmenu.py.png' md5='52c68b34d5d566f37e9f803dedb6353a'"
-msgstr ""
+msgstr "external ref='media/gmenu.py.png' md5='52c68b34d5d566f37e9f803dedb6353a'"
 
 #. (itstool) path: section/code
 #: C/gmenu.py.page:37
@@ -8839,9 +8886,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/gmenu.vala.page:28
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/gmenu.vala.png' md5='7a9f381fc3ed5bf8d1c50d2acb095400'"
-msgstr ""
+msgstr "external ref='media/gmenu.vala.png' md5='7a9f381fc3ed5bf8d1c50d2acb095400'"
 
 #. (itstool) path: note/p
 #: C/gmenu.vala.page:30
@@ -8956,9 +9004,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/grid.c.page:23 C/grid.js.page:26 C/grid.vala.page:24
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/grid.png' md5='27d45da115401127456a3b854dcfc5be'"
-msgstr ""
+msgstr "external ref='media/grid.png' md5='27d45da115401127456a3b854dcfc5be'"
 
 #. (itstool) path: page/p
 #: C/grid.c.page:24 C/grid.vala.page:25
@@ -9153,9 +9202,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/grid.py.page:31
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/grid_simple.png' md5='c806f2e69b30373d4d2e08b41d6cc1f6'"
-msgstr ""
+msgstr "external ref='media/grid_simple.png' md5='c806f2e69b30373d4d2e08b41d6cc1f6'"
 
 #. (itstool) path: page/p
 #: C/grid.py.page:32
@@ -9358,9 +9408,10 @@ msgstr ""
 #: C/GtkApplicationWindow.c.page:22 C/GtkApplicationWindow.js.page:22 C/GtkApplicationWindow.py.page:29
 #: C/GtkApplicationWindow.vala.page:22 C/window.c.page:22 C/window.js.page:25 C/window.py.page:33
 #: C/window.vala.page:25
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/window.png' md5='eb0cde3530978619c25bddfaeb453345'"
-msgstr ""
+msgstr "external ref='media/window.png' md5='eb0cde3530978619c25bddfaeb453345'"
 
 #. (itstool) path: page/p
 #: C/GtkApplicationWindow.c.page:23
@@ -9662,9 +9713,10 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/guitar-tuner.c.page:45 C/guitar-tuner.cpp.page:43 C/guitar-tuner.js.page:37 C/guitar-tuner.py.page:50
 #: C/guitar-tuner.vala.page:48
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/guitar-tuner.png' md5='35e615e0f5e293671d00c5c414ac2f6b'"
-msgstr ""
+msgstr "external ref='media/guitar-tuner.png' md5='35e615e0f5e293671d00c5c414ac2f6b'"
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.c.page:48 C/guitar-tuner.cpp.page:46 C/guitar-tuner.py.page:53 C/image-viewer.c.page:42
@@ -9941,9 +9993,10 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/guitar-tuner.c.page:145 C/guitar-tuner.cpp.page:123 C/guitar-tuner.js.page:43 C/guitar-tuner.py.page:144
 #: C/guitar-tuner.vala.page:135
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/guitar-tuner-pipeline.png' md5='5adc952909d92af5dae6954781b4ad5f'"
-msgstr ""
+msgstr "external ref='media/guitar-tuner-pipeline.png' md5='5adc952909d92af5dae6954781b4ad5f'"
 
 #. (itstool) path: media/p
 #: C/guitar-tuner.c.page:146 C/guitar-tuner.cpp.page:124 C/guitar-tuner.js.page:44 C/guitar-tuner.py.page:145
@@ -11138,7 +11191,7 @@ msgstr ""
 #: C/guitar-tuner.py.page:158
 #, no-wrap
 msgid "Gst.init_check(sys.argv)"
-msgstr ""
+msgstr "Gst.init_check(sys.argv)"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.py.page:159
@@ -11236,6 +11289,8 @@ msgid ""
 "\n"
 "LENGTH = 500\n"
 msgstr ""
+"\n"
+"LENGTH = 500\n"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.py.page:204
@@ -11841,9 +11896,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/hellognome.js.page:65
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/hellognomewebapp.png' md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
-msgstr ""
+msgstr "external ref='media/hellognomewebapp.png' md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:67
@@ -12654,7 +12710,7 @@ msgstr ""
 #: C/hello-world.js.page:140 C/hello-world.py.page:120 C/hello-world.vala.page:97 C/toolbar_builder.py.page:95
 #: C/toolbar_builder.vala.page:78
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #. (itstool) path: item/p
 #: C/hello-world.js.page:140 C/hello-world.py.page:120 C/hello-world.vala.page:97
@@ -12664,7 +12720,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/hello-world.js.page:141 C/hello-world.py.page:121 C/hello-world.vala.page:98
 msgid "Comment"
-msgstr ""
+msgstr "Comment"
 
 #. (itstool) path: item/p
 #: C/hello-world.js.page:141 C/hello-world.py.page:121 C/hello-world.vala.page:98
@@ -12674,7 +12730,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/hello-world.js.page:142 C/hello-world.py.page:122 C/hello-world.vala.page:99
 msgid "Exec"
-msgstr ""
+msgstr "Exec"
 
 #. (itstool) path: item/p
 #: C/hello-world.js.page:142 C/hello-world.py.page:122 C/hello-world.vala.page:99
@@ -12686,7 +12742,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/hello-world.js.page:143 C/hello-world.py.page:123 C/hello-world.vala.page:100
 msgid "Terminal"
-msgstr ""
+msgstr "Terminal"
 
 #. (itstool) path: item/p
 #: C/hello-world.js.page:143 C/hello-world.py.page:123 C/hello-world.vala.page:100
@@ -13266,9 +13322,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/image.c.page:22 C/image.js.page:21 C/image.py.page:29 C/image.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
-msgstr ""
+msgstr "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
 
 #. (itstool) path: page/p
 #: C/image.c.page:23 C/image.js.page:22 C/image.py.page:30 C/image.vala.page:23
@@ -13328,7 +13385,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/image.c.page:35
 msgid "<link href=\"http://developer.gnome.org/gtk3/stable/GtkImage.html\">GtkImage</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkImage.html\">GtkImage</link>"
 
 #. (itstool) path: info/title
 #: C/image.js.page:7
@@ -13402,7 +13459,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/image.js.page:34
 msgid "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Image.html\">Gtk.Image</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Image.html\">Gtk.Image</link>"
 
 #. (itstool) path: info/title
 #: C/image.py.page:8
@@ -13572,12 +13629,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/image.py.page:131
 msgid "<link href=\"https://developer.gnome.org/gtk3/unstable/GtkImage.html\"> GtkImage</link>"
-msgstr ""
+msgstr "<link href=\"https://developer.gnome.org/gtk3/unstable/GtkImage.html\"> GtkImage</link>"
 
 #. (itstool) path: item/p
 #: C/image.py.page:135
 msgid "<link href=\"https://developer.gnome.org/gtk3/unstable/GtkWindow.html\"> GtkWindow</link>"
-msgstr ""
+msgstr "<link href=\"https://developer.gnome.org/gtk3/unstable/GtkWindow.html\"> GtkWindow</link>"
 
 #. (itstool) path: info/title
 #: C/image.vala.page:8
@@ -13618,17 +13675,17 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/image.vala.page:32 C/separator.vala.page:40
 msgid "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Application.html\">GtkApplication</link>"
-msgstr ""
+msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Application.html\">GtkApplication</link>"
 
 #. (itstool) path: item/p
 #: C/image.vala.page:33
 msgid "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.ApplicationWindow.html\">GtkApplicationWindow</link>"
-msgstr ""
+msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.ApplicationWindow.html\">GtkApplicationWindow</link>"
 
 #. (itstool) path: item/p
 #: C/image.vala.page:34 C/paned.vala.page:38
 msgid "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Image.html\">GtkImage</link>"
-msgstr ""
+msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Image.html\">GtkImage</link>"
 
 #. (itstool) path: info/title
 #: C/image-viewer.c.page:8
@@ -13669,9 +13726,10 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/image-viewer.c.page:39 C/image-viewer.cpp.page:37 C/image-viewer.js.page:47 C/image-viewer.py.page:46
 #: C/image-viewer.vala.page:54
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/image-viewer.png' md5='7720360611243b14283b83527be968c2'"
-msgstr ""
+msgstr "external ref='media/image-viewer.png' md5='7720360611243b14283b83527be968c2'"
 
 #. (itstool) path: item/p
 #: C/image-viewer.c.page:49
@@ -15749,9 +15807,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/label.c.page:26 C/label.js.page:22 C/label.py.page:31 C/label.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
-msgstr ""
+msgstr "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
 
 #. (itstool) path: td/p
 #. (itstool) path: page/p
@@ -15897,7 +15956,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/label.js.page:32
 msgid "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Label.html\">Gtk.Label</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Label.html\">Gtk.Label</link>"
 
 #. (itstool) path: info/title
 #: C/label.py.page:9
@@ -16044,7 +16103,7 @@ msgstr ""
 #. (itstool) path: p/link
 #: C/legal.xml:3
 msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
-msgstr ""
+msgstr "Creative Commons Erkännande-DelaLika 3.0 Unported"
 
 #. (itstool) path: license/p
 #: C/legal.xml:3
@@ -16057,17 +16116,17 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/license.page:8
 msgid "Legal information."
-msgstr ""
+msgstr "Juridisk information."
 
 #. (itstool) path: page/title
 #: C/license.page:11
 msgid "License"
-msgstr ""
+msgstr "Licens"
 
 #. (itstool) path: page/p
 #: C/license.page:12
 msgid "This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 Unported license."
-msgstr ""
+msgstr "Det här verket är distribuerat under licensen CreativeCommons Erkännande-DelaLika 3.0 Unported."
 
 #. (itstool) path: page/p
 #: C/license.page:20
@@ -16160,9 +16219,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/linkbutton.c.page:23 C/linkbutton.js.page:22 C/linkbutton.py.page:24 C/linkbutton.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/linkbutton.png' md5='3712eae8953e87c65a6aa74503b8e32b'"
-msgstr ""
+msgstr "external ref='media/linkbutton.png' md5='3712eae8953e87c65a6aa74503b8e32b'"
 
 #. (itstool) path: page/p
 #: C/linkbutton.c.page:24
@@ -16214,7 +16274,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/linkbutton.c.page:34
 msgid "<link href=\"http://developer.gnome.org/gtk3/stable/GtkLinkButton.html\">GtkLinkButton</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkLinkButton.html\">GtkLinkButton</link>"
 
 #. (itstool) path: info/title
 #: C/linkbutton.js.page:8
@@ -16296,7 +16356,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/linkbutton.js.page:32
 msgid "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.LinkButton.html\">Gtk.LinkButton</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.LinkButton.html\">Gtk.LinkButton</link>"
 
 #. (itstool) path: info/title
 #: C/linkbutton.py.page:8
@@ -16384,7 +16444,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/linkbutton.py.page:48
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkLinkButton.html\">GtkLinkButton</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkLinkButton.html\">GtkLinkButton</link>"
 
 #. (itstool) path: info/title
 #: C/linkbutton.vala.page:8
@@ -16427,7 +16487,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/linkbutton.vala.page:30
 msgid "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.LinkButton.html\">Gtk.LinkButton</link>"
-msgstr ""
+msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.LinkButton.html\">Gtk.LinkButton</link>"
 
 #. (itstool) path: info/title
 #: C/magic-mirror.vala.page:8
@@ -16495,9 +16555,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/magic-mirror.vala.page:47
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/magic-mirror.png' md5='8171faea6ed3b6ddac0da084c29e4e22'"
-msgstr ""
+msgstr "external ref='media/magic-mirror.png' md5='8171faea6ed3b6ddac0da084c29e4e22'"
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:57
@@ -16671,9 +16732,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/menubar.c.page:25 C/menubar.py.page:29 C/menubar.vala.page:24
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/menubar.png' md5='7b642aaa1628d5e43ab85ac230ac1c78'"
-msgstr ""
+msgstr "external ref='media/menubar.png' md5='7b642aaa1628d5e43ab85ac230ac1c78'"
 
 #. (itstool) path: page/p
 #: C/menubar.c.page:26 C/menubar.py.page:30 C/menubar.vala.page:25
@@ -18086,9 +18148,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/menubutton.c.page:22 C/menubutton.js.page:22 C/menubutton.py.page:29 C/menubutton.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/menubutton.png' md5='99eedc5ef2d6c56d32ca9ae7f3f3320f'"
-msgstr ""
+msgstr "external ref='media/menubutton.png' md5='99eedc5ef2d6c56d32ca9ae7f3f3320f'"
 
 #. (itstool) path: page/p
 #: C/menubutton.c.page:23 C/menubutton.js.page:23 C/menubutton.py.page:30 C/menubutton.vala.page:23
@@ -18598,9 +18661,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/message-board.c.page:41
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/message-board.ogv' md5='beb80c4538776dc2cdd26c95abea5027'"
-msgstr ""
+msgstr "external ref='media/message-board.ogv' md5='beb80c4538776dc2cdd26c95abea5027'"
 
 #. (itstool) path: section/p
 #: C/message-board.c.page:48
@@ -19025,6 +19089,8 @@ msgid ""
 "\n"
 "gchar *tmp, *css;\n"
 msgstr ""
+"\n"
+"gchar *tmp, *css;\n"
 
 #. (itstool) path: section/p
 #: C/message-board.c.page:349
@@ -19118,9 +19184,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/messagedialog.c.page:24 C/messagedialog.js.page:25 C/messagedialog.py.page:23 C/messagedialog.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/messagedialog.png' md5='1956288274018e2386d9cba96a2101de'"
-msgstr ""
+msgstr "external ref='media/messagedialog.png' md5='1956288274018e2386d9cba96a2101de'"
 
 #. (itstool) path: page/p
 #: C/messagedialog.c.page:25 C/messagedialog.vala.page:23
@@ -19533,6 +19600,8 @@ msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkMessageDialog.html#GtkButtonsType\">List of button types</"
 "link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/gtk3/stable/GtkMessageDialog.html#GtkButtonsType\">Lista över knapptyper</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/messagedialog.js.page:146
@@ -19540,6 +19609,8 @@ msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkMessageDialog.html#GtkMessageType\">List of message types</"
 "link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/gtk3/stable/GtkMessageDialog.html#GtkMessageType\">Lista över "
+"meddelandetyper</link>"
 
 #. (itstool) path: section/code
 #: C/messagedialog.js.page:150
@@ -19881,12 +19952,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/messagedialog.py.page:59
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkMessageDialog.html\">GtkMessageDialog</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkMessageDialog.html\">GtkMessageDialog</link>"
 
 #. (itstool) path: item/p
 #: C/messagedialog.py.page:63
 msgid "<link href=\"http://developer.gnome.org/gio/unstable/GActionMap.html\">GActionMap</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gio/unstable/GActionMap.html\">GActionMap</link>"
 
 #. (itstool) path: info/title
 #: C/messagedialog.vala.page:8
@@ -20535,9 +20606,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/paned.c.page:22 C/paned.js.page:22 C/paned.py.page:23 C/paned.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/paned.png' md5='8c7e1df065395c9aafcd65036a293d8a'"
-msgstr ""
+msgstr "external ref='media/paned.png' md5='8c7e1df065395c9aafcd65036a293d8a'"
 
 #. (itstool) path: page/p
 #: C/paned.c.page:23 C/paned.js.page:23 C/paned.py.page:24 C/paned.vala.page:23
@@ -20913,9 +20985,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/photo-wall.c.page:84
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/photo-wall.png' md5='f19590d97e8ec029cda3c44b769c11cd'"
-msgstr ""
+msgstr "external ref='media/photo-wall.png' md5='f19590d97e8ec029cda3c44b769c11cd'"
 
 #. (itstool) path: section/p
 #: C/photo-wall.c.page:85
@@ -20930,9 +21003,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/photo-wall.c.page:87
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/photo-wall-focused.png' md5='9f1ceecf3a28c1e468597b093a10cbae'"
-msgstr ""
+msgstr "external ref='media/photo-wall-focused.png' md5='9f1ceecf3a28c1e468597b093a10cbae'"
 
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:91
@@ -21496,9 +21570,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/progressbar.c.page:24 C/progressbar.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/progressbar_fill.ogv' md5='287763d1d3f4a328212ea2243910f5e4'"
-msgstr ""
+msgstr "external ref='media/progressbar_fill.ogv' md5='287763d1d3f4a328212ea2243910f5e4'"
 
 #. (itstool) path: page/p
 #: C/progressbar.c.page:25 C/progressbar.vala.page:23
@@ -21604,9 +21679,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/progressbar.js.page:21 C/progressbar.py.page:23
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/progressbar.ogv' md5='36deab3dd4b5be968828fa2ef416d612'"
-msgstr ""
+msgstr "external ref='media/progressbar.ogv' md5='36deab3dd4b5be968828fa2ef416d612'"
 
 #. (itstool) path: div/p
 #: C/progressbar.js.page:25 C/progressbar.py.page:27
@@ -21991,9 +22067,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/radiobutton.c.page:25 C/radiobutton.py.page:24 C/radiobutton.vala.page:25
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/radiobutton.png' md5='d115460280d8e41493dd98054b5822a5'"
-msgstr ""
+msgstr "external ref='media/radiobutton.png' md5='d115460280d8e41493dd98054b5822a5'"
 
 #. (itstool) path: page/p
 #: C/radiobutton.c.page:26
@@ -22126,9 +22203,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/radiobutton.js.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/radiobuttontravel.png' md5='0c5f01ee160bb42716ccf5dccbd080c0'"
-msgstr ""
+msgstr "external ref='media/radiobuttontravel.png' md5='0c5f01ee160bb42716ccf5dccbd080c0'"
 
 #. (itstool) path: page/p
 #: C/radiobutton.js.page:23
@@ -23009,9 +23087,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/record-collection.js.page:70
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/record-collection.png' md5='2d645997687ed5aacd36aafafc16e072'"
-msgstr ""
+msgstr "external ref='media/record-collection.png' md5='2d645997687ed5aacd36aafafc16e072'"
 
 #. (itstool) path: section/p
 #: C/record-collection.js.page:71
@@ -23618,9 +23697,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/scale.c.page:25
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/scale2.png' md5='ae2ba0a6675f3d9cdcd961cdf32f1a5c'"
-msgstr ""
+msgstr "external ref='media/scale2.png' md5='ae2ba0a6675f3d9cdcd961cdf32f1a5c'"
 
 #. (itstool) path: page/p
 #: C/scale.c.page:26 C/scale.py.page:25 C/scale.vala.page:25
@@ -23829,9 +23909,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/scale.js.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/scalepenguins.png' md5='2dbe6a833fec86fde71a5ddb421e2cd5'"
-msgstr ""
+msgstr "external ref='media/scalepenguins.png' md5='2dbe6a833fec86fde71a5ddb421e2cd5'"
 
 #. (itstool) path: page/p
 #: C/scale.js.page:23
@@ -25284,9 +25365,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/spinbutton.c.page:26 C/spinbutton.py.page:24 C/spinbutton.vala.page:24
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/spinbutton.png' md5='993cbb7d9bd271a329727a926195712a'"
-msgstr ""
+msgstr "external ref='media/spinbutton.png' md5='993cbb7d9bd271a329727a926195712a'"
 
 #. (itstool) path: page/p
 #: C/spinbutton.c.page:27 C/spinbutton.py.page:25 C/spinbutton.vala.page:25
@@ -25416,9 +25498,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/spinbutton.js.page:25
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/spinbuttonkittens.png' md5='577cce8a902140aacbab73fe8a76a010'"
-msgstr ""
+msgstr "external ref='media/spinbuttonkittens.png' md5='577cce8a902140aacbab73fe8a76a010'"
 
 #. (itstool) path: page/p
 #: C/spinbutton.js.page:26
@@ -25993,7 +26076,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/spinbutton.vala.page:32
 msgid "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.SpinButton.html\">Gtk.SpinButton</link>"
-msgstr ""
+msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.SpinButton.html\">Gtk.SpinButton</link>"
 
 #. (itstool) path: info/title
 #: C/spinner.c.page:8
@@ -26017,9 +26100,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/spinner.c.page:24 C/spinner.js.page:22 C/spinner.py.page:23 C/spinner.vala.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/spinner.png' md5='d04f2d81f1d72c6c2f97e8729947dfed'"
-msgstr ""
+msgstr "external ref='media/spinner.png' md5='d04f2d81f1d72c6c2f97e8729947dfed'"
 
 #. (itstool) path: page/p
 #: C/spinner.c.page:25 C/spinner.js.page:23 C/spinner.py.page:24 C/spinner.vala.page:23
@@ -26418,9 +26502,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/statusbar.c.page:27
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/statusbar3.png' md5='60c71604fb44656237ee66dfb39a8689'"
-msgstr ""
+msgstr "external ref='media/statusbar3.png' md5='60c71604fb44656237ee66dfb39a8689'"
 
 #. (itstool) path: page/p
 #: C/statusbar.c.page:28
@@ -26566,9 +26651,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/statusbar.js.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/statusbar2.png' md5='ff6f7e5b270827ca98b2d5f7087aa766'"
-msgstr ""
+msgstr "external ref='media/statusbar2.png' md5='ff6f7e5b270827ca98b2d5f7087aa766'"
 
 #. (itstool) path: page/p
 #: C/statusbar.js.page:23
@@ -27042,9 +27128,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/statusbar.py.page:24 C/statusbar.vala.page:25
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/statusbar.png' md5='eb1aca55315d6cda57b12a5f36058ba8'"
-msgstr ""
+msgstr "external ref='media/statusbar.png' md5='eb1aca55315d6cda57b12a5f36058ba8'"
 
 #. (itstool) path: page/p
 #: C/statusbar.py.page:25
@@ -27484,9 +27571,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/switch.c.page:23 C/switch.py.page:23 C/switch.vala.page:26
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/switch_off.png' md5='211a2962708800697ad5373dcc86ad6d'"
-msgstr ""
+msgstr "external ref='media/switch_off.png' md5='211a2962708800697ad5373dcc86ad6d'"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -27604,9 +27692,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/switch.js.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/switchanimals.png' md5='513ae15dcf68e15eef30b76420b8c714'"
-msgstr ""
+msgstr "external ref='media/switchanimals.png' md5='513ae15dcf68e15eef30b76420b8c714'"
 
 #. (itstool) path: page/p
 #: C/switch.js.page:23
@@ -28362,9 +28451,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/textview.c.page:27 C/textview.py.page:39 C/textview.vala.page:27
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/textview.png' md5='049e859ed1af2d7c93d8cb5cfd9f7792'"
-msgstr ""
+msgstr "external ref='media/textview.png' md5='049e859ed1af2d7c93d8cb5cfd9f7792'"
 
 #. (itstool) path: page/p
 #: C/textview.c.page:28 C/textview.vala.page:28
@@ -28476,9 +28566,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/textview.js.page:26
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/textviewpenguinchat.png' md5='0dd6f6aa44aaeab7901bd90162ed4c9a'"
-msgstr ""
+msgstr "external ref='media/textviewpenguinchat.png' md5='0dd6f6aa44aaeab7901bd90162ed4c9a'"
 
 #. (itstool) path: page/p
 #: C/textview.js.page:27
@@ -29382,9 +29473,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/togglebutton.c.page:27 C/togglebutton.js.page:22 C/togglebutton.py.page:23 C/togglebutton.vala.page:25
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/togglebutton.png' md5='791e062613d4f9bd5936390b0aa18448'"
-msgstr ""
+msgstr "external ref='media/togglebutton.png' md5='791e062613d4f9bd5936390b0aa18448'"
 
 #. (itstool) path: page/p
 #: C/togglebutton.c.page:28 C/togglebutton.py.page:24 C/togglebutton.vala.page:26
@@ -30857,9 +30949,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/toolbar_builder.py.page:50 C/toolbar_builder.vala.page:33
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/glade_ui.png' md5='baea74fe213bc12ea934f64f6977215a'"
-msgstr ""
+msgstr "external ref='media/glade_ui.png' md5='baea74fe213bc12ea934f64f6977215a'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:50 C/toolbar_builder.vala.page:33
@@ -30879,9 +30972,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/toolbar_builder.py.page:56 C/toolbar_builder.vala.page:39
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/glade_select_toolbar.png' md5='f7b5b224050b2e387eb04362fc99df00'"
-msgstr ""
+msgstr "external ref='media/glade_select_toolbar.png' md5='f7b5b224050b2e387eb04362fc99df00'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:56 C/toolbar_builder.vala.page:39
@@ -30901,9 +30995,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/toolbar_builder.py.page:62 C/toolbar_builder.vala.page:45
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/glade_toolbar_general.png' md5='e31daba6e8a3e526aca89d5f1622edaa'"
-msgstr ""
+msgstr "external ref='media/glade_toolbar_general.png' md5='e31daba6e8a3e526aca89d5f1622edaa'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:62 C/toolbar_builder.vala.page:45
@@ -30921,9 +31016,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/toolbar_builder.py.page:68 C/toolbar_builder.vala.page:51
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/glade_toolbar_common.png' md5='d5ec6cc0218ca98e195dbd033feb9ac5'"
-msgstr ""
+msgstr "external ref='media/glade_toolbar_common.png' md5='d5ec6cc0218ca98e195dbd033feb9ac5'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:68 C/toolbar_builder.vala.page:51
@@ -30943,9 +31039,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/toolbar_builder.py.page:74 C/toolbar_builder.vala.page:57
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/glade_toolbar_edit.png' md5='feb1e2b7040d24a4d030f94cf07c81fd'"
-msgstr ""
+msgstr "external ref='media/glade_toolbar_edit.png' md5='feb1e2b7040d24a4d030f94cf07c81fd'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:74 C/toolbar_builder.vala.page:57
@@ -31102,9 +31199,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/toolbar_builder.py.page:133 C/toolbar_builder.vala.page:116
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/glade_toolbar_editor.png' md5='8af65241e5ca47d5494a7b36640e6f1c'"
-msgstr ""
+msgstr "external ref='media/glade_toolbar_editor.png' md5='8af65241e5ca47d5494a7b36640e6f1c'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:138 C/toolbar_builder.vala.page:121
@@ -31127,9 +31225,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/toolbar_builder.py.page:142 C/toolbar_builder.vala.page:125
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/glade_visible_no.png' md5='dc6c025aa825f4d772fbd283d6330026'"
-msgstr ""
+msgstr "external ref='media/glade_visible_no.png' md5='dc6c025aa825f4d772fbd283d6330026'"
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:142 C/toolbar_builder.vala.page:125
@@ -31606,9 +31705,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/tooltip.c.page:23 C/tooltip.js.page:23 C/tooltip.py.page:24 C/tooltip.vala.page:23
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/tooltip.png' md5='41e35860a51e39cb48c71e57bb8fb1d0'"
-msgstr ""
+msgstr "external ref='media/tooltip.png' md5='41e35860a51e39cb48c71e57bb8fb1d0'"
 
 #. (itstool) path: page/p
 #: C/tooltip.c.page:24 C/tooltip.js.page:24 C/tooltip.py.page:25 C/tooltip.vala.page:24
@@ -32440,9 +32540,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/treeview_advanced_liststore.py.page:23
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/treeview_advanced_liststore.png' md5='102b512197fb9aa4ed9a16462f6af911'"
-msgstr ""
+msgstr "external ref='media/treeview_advanced_liststore.png' md5='102b512197fb9aa4ed9a16462f6af911'"
 
 #. (itstool) path: page/p
 #: C/treeview_advanced_liststore.py.page:24 C/treeview_simple_liststore.py.page:25
@@ -32636,9 +32737,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/treeview_cellrenderertoggle.py.page:23
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/treeview_cellrenderertoggle.png' md5='ade9b9437f8f83150acf37610dab834d'"
-msgstr ""
+msgstr "external ref='media/treeview_cellrenderertoggle.png' md5='ade9b9437f8f83150acf37610dab834d'"
 
 #. (itstool) path: page/p
 #: C/treeview_cellrenderertoggle.py.page:24
@@ -32802,9 +32904,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/treeview_simple_liststore.js.page:25
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/treeview_simple_liststore_penguins.png' md5='d750a0b9fddf8e508753cc639839871d'"
-msgstr ""
+msgstr "external ref='media/treeview_simple_liststore_penguins.png' md5='d750a0b9fddf8e508753cc639839871d'"
 
 #. (itstool) path: page/p
 #: C/treeview_simple_liststore.js.page:26
@@ -33475,9 +33578,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/treeview_simple_liststore.py.page:24 C/treeview_simple_liststore.vala.page:24
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/treeview_simple_liststore.png' md5='2dc501a2b95b094da985d37b66aee90c'"
-msgstr ""
+msgstr "external ref='media/treeview_simple_liststore.png' md5='2dc501a2b95b094da985d37b66aee90c'"
 
 #. (itstool) path: section/code
 #: C/treeview_simple_liststore.py.page:32
@@ -33769,9 +33873,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/treeview_treestore.py.page:24
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/treeview_treestore.png' md5='5ca87bc4acd55c527b3fb5fd46779d85'"
-msgstr ""
+msgstr "external ref='media/treeview_treestore.png' md5='5ca87bc4acd55c527b3fb5fd46779d85'"
 
 #. (itstool) path: page/p
 #: C/treeview_treestore.py.page:25
@@ -34914,9 +35019,10 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/widget_drawing.py.page:22
+#, fuzzy
 msgctxt "_"
 msgid "external ref='media/widget_drawing.png' md5='d00abd8cb9e158018c57fd75b81dfe58'"
-msgstr ""
+msgstr "external ref='media/widget_drawing.png' md5='d00abd8cb9e158018c57fd75b81dfe58'"
 
 #. (itstool) path: page/p
 #: C/widget_drawing.py.page:23
@@ -35283,6 +35389,7 @@ msgstr ""
 msgid ""
 "The method <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.set_default_size.html\">set_default_size</link>"
 msgstr ""
+"Metoden <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.set_default_size.html\">set_default_size</link>"
 
 #. (itstool) path: item/p
 #: C/window.vala.page:45
