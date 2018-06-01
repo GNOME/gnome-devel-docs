@@ -1,10 +1,11 @@
 #!/usr/bin/gjs
 
 imports.gi.versions.Gtk = '3.0';
+imports.gi.versions.WebKit2 = '4.0';
 
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-const Webkit = imports.gi.WebKit;
+const Webkit = imports.gi.WebKit2;
 
 class HelloGNOME {
 
