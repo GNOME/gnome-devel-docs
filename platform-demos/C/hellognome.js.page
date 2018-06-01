@@ -33,6 +33,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Hello, GNOME!</title>
 
         <!-- Use JavaScript to show a greeting when someone clicks the button -->
@@ -75,51 +76,54 @@
     <code mime="application/javascript"><![CDATA[
 #!/usr/bin/gjs
 ]]></code>
+    <p>Then we should set the versions of the libraries we'll be using.</p>
+<code mime="application/javascript"><![CDATA[
+imports.gi.versions.Gtk = '3.0';
+imports.gi.versions.WebKit2 = '4.0';
+]]></code>
     <p>After that, we need to tell GNOME which libraries we want to import.</p>
     <code mime="application/javascript"><![CDATA[
 const GLib = imports.gi.GLib;
 const Gtk = imports.gi.Gtk;
-const Lang = imports.lang;
-const Webkit = imports.gi.WebKit;
+const Webkit = imports.gi.WebKit2;
 ]]></code>
     <p>Just like how add-on libraries like jQuery let us do extra things with JavaScript, each of these libraries gives us new capabilities for our GNOME apps:</p>
     <steps>
-      <item><p><file>Gtk</file> and <file>Lang</file> are basic parts of any GNOME application, which let you create windows and widgets and tie them together.</p></item>
+      <item><p><file>Gtk</file> is the basic part of any GNOME application, which lets you create windows and widgets and tie them together.</p></item>
       <item><p><file>GLib</file> is a helper library, which lets us do things like tell GNOME where the <file>hellognome.html</file> file we created is.</p></item>
       <item><p>And <file>Webkit</file> is a web rendering engine, which we'll use to basically create a browser window to open our HTML file with.</p></item>
     </steps>
 
     <p>Now we create the application itself:</p>
     <code mime="application/javascript"><![CDATA[
-const HelloGNOME = new Lang.Class ({
-    Name: 'Hello GNOME',
+class HelloGNOME {
 ]]></code>
-    <p>This will look familiar to you if you've worked with object-oriented JavaScript before. That's right; our whole application is a class called HelloGNOME. And as you can see, we've given it a property that says what its name is.</p>
+    <p>This will look familiar to you if you've worked with object-oriented JavaScript before. That's right; our whole application is a class called HelloGNOME.</p>
 
     <code mime="application/javascript"><![CDATA[
     // Create the application itself
-    _init: function () {
-        this.application = new Gtk.Application ();
+    constructor() {
+        this.application = new Gtk.Application();
 
         // Connect 'activate' and 'startup' signals to the callback functions
-        this.application.connect('activate', Lang.bind(this, this._onActivate));
-        this.application.connect('startup', Lang.bind(this, this._onStartup));
-    },
+        this.application.connect('activate', this._onActivate.bind(this));
+        this.application.connect('startup', this._onStartup.bind(this));
+    }
 
     // Callback function for 'activate' signal presents windows when active
-    _onActivate: function () {
-        this._window.present ();
-    },
+    _onActivate() {
+        this._window.present();
+    }
 
     // Callback function for 'startup' signal builds the UI
-    _onStartup: function () {
-        this._buildUI ();
-    },
+    _onStartup() {
+        this._buildUI();
+    }
 ]]></code>
     <p>Here's some code you will more or less copy-and-paste for every JavaScript application you build. It creates a new Application, and then binds its activate and startup signals to functions that make the window show itself and build its user interface, respectively.</p>
-    <p>What does that mean? Well, everything in a GNOME application sends out a signal when something important happens. A button might send out the clicked signal when you click on it, for instance. Our job is to connect the signals to functions which handle them, and make the things that we want to have happen occur. We do this using each object's connect method, which takes two arguments: The signal we want to handle, and the Lang.bind function, which we have to use to tell connect which function we want to have handle the signal.</p>
+    <p>What does that mean? Well, everything in a GNOME application sends out a signal when something important happens. A button might send out the clicked signal when you click on it, for instance. Our job is to connect the signals to functions which handle them, and make the things that we want to have happen occur. We do this using each object's connect method, which takes two arguments: The signal we want to handle, and the bound function, which we have to use to tell connect which function we want to have handle the signal.</p>
     <p>In this case, we want _onActivate to handle the activate signal, and _onStartup to handle the startup signal. _onActivate just tells the window to present itself; so basically, whenever you <keyseq><key>Alt</key> <key>Tab</key></keyseq> to the application it appears, like you would expect it to. _onStartup calls _buildUI, which is the function that creates our user interface and is the next part that we will look at.</p>
-    <note style="tip"><p>When you copy and paste the above code for your own applications, be sure to change the name to a unique one each time.</p></note>
+    <note style="tip"><p>When you copy and paste the above code for your own applications, be sure to change the class name to a unique one each time.</p></note>
   </section>
 
   <section id="ui">
@@ -128,7 +132,7 @@ const HelloGNOME = new Lang.Class ({
 
     <code mime="application/javascript"><![CDATA[
     // Build the application's UI
-    _buildUI: function () {
+    _buildUI() {
 
         // Create the application window
         this._window = new Gtk.ApplicationWindow  ({
