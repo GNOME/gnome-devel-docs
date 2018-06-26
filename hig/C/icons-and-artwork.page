@@ -72,13 +72,15 @@
 
 <p>Every application should have a unique and beautiful application icon. It is the face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
 
-<p>Because application icons are presented at larger sizes, legacy Tango styled 48x48 px or SVG icons no longer suffice (lacking detail). It is essential your application has a 256x256 px icon. With the advent of high-DPI displays, a 512x512 px variant is recommended.</p>
+<p>The nominal size of application icons is 512x512px. Application icons are, however, rarely rendered at this resolution. As display density started varying immensely, sticking to absolute pixel units has also become less practical.</p>
 
-<media type="image" mime="image/png" src="figures/icons/sizes.png"/>
+<p>Because the application icon still get presented at lower resolution, the icon should feature only detail presentable at 64x64px resolution. The density of detail should not be higher, because it would get lost by filtering/scaling down.</p>
 
-<p>While not as critical, there are still areas where application icons are presented at a small size. To keep the icon sharp and well defined, a specific rendering is required to sizes of 48x48 px, 32x32 px, 24x24 px and 16x16 px. Many GNOME icons also ship a 22x22 px size for legacy reasons, but that isn’t required.</p>
+<p>The default template includes an 8px grid which should help you avoid adding detail that's finer than the desired threshold.</p>
 
-<media type="image" mime="image/png" src="figures/icons/sizes-small-24.png"/>
+<media type="image" mime="image/png" src="figures/icons/sizes.svg"/>
+
+<p>Application icons are mostly presented big, but the low level of detail will help when the icon is rendered at lower resolutions, such as System Settings panels.</p>
 
 <p>To maintain crispness, a lot of detail is discarded for the low resolution variants and a 1px stroke is used to outline the silhouette of the object.</p>
 
