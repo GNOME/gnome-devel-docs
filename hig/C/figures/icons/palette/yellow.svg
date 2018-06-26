@@ -15,7 +15,7 @@
    version="1.1"
    id="svg15911"
    inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="orange.svg">
+   sodipodi:docname="yellow.svg">
   <defs
      id="defs15905">
     <clipPath
@@ -57,19 +57,6 @@
          id="rect926"
          style="opacity:0.1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.23333311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal" />
     </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath928">
-      <rect
-         style="opacity:0.1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.23333311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal"
-         id="rect930"
-         width="126.99947"
-         height="31.75"
-         x="140.59975"
-         y="324.90402"
-         rx="8.4666662"
-         ry="8.4666662" />
-    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -108,30 +95,30 @@
      id="layer1"
      transform="translate(0,-1002.5197)">
     <g
-       id="g861"
-       transform="matrix(3.4333013,0,0,3.4333013,-470.92495,-109.10603)"
-       clip-path="url(#clipPath928)">
+       id="g856"
+       transform="matrix(3.4333013,0,0,3.4333013,-470.92123,18.068717)"
+       clip-path="url(#clipPath924)">
       <rect
-         y="325.34808"
+         style="opacity:1;fill:#f6d32d;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         id="rect2200"
+         width="42.333355"
+         height="31.75"
          x="182.93311"
-         height="31.75"
-         width="42.333355"
-         id="rect2202"
-         style="opacity:1;fill:#fb8c14;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1" />
+         y="288.30655" />
       <rect
-         style="opacity:1;fill:#fcb546;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
-         id="rect2214"
-         width="42.333355"
-         height="31.75"
+         y="288.30655"
          x="140.60083"
-         y="325.34808" />
-      <rect
-         style="opacity:1;fill:#e35e0d;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
-         id="rect2224"
-         width="42.333355"
          height="31.75"
+         width="42.333355"
+         id="rect2212"
+         style="opacity:1;fill:#f9f06b;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1" />
+      <rect
+         y="288.30655"
          x="225.26587"
-         y="325.34808" />
+         height="31.75"
+         width="42.333355"
+         id="rect2226"
+         style="opacity:1;fill:#e5a50a;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1" />
     </g>
   </g>
 </svg>
