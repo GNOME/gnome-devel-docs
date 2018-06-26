@@ -85,7 +85,9 @@
 
 <media type="image" mime="image/png" src="figures/icons/aspect-ratio.svg"/>
 
-<p>FIXME: multi-baseline vertical alignment.</p>
+<p>A <link href="https://gitlab.gnome.org/Community/Design/icon-revolution/raw/master/template.svg">grid template</link> is available to assist you with placing your icon outline. Do not try to cover a maximum area of the canvas, the outside margin/whitespace is meant to be left empty. In special cuscumstanses a small detail can be extended into this margin space.</p>
+
+<media type="image" mime="image/png" src="figures/icons/whitespace.svg"/>
 
 </section>
 
