@@ -35,13 +35,11 @@
 </section>
 
 <section id="stock-icons">
-<title>Choosing stock GNOME icons</title>
+<title>GNOME Icon Pack</title>
 
-<p>GNOME provides a full set of standard icons. These should be used where ever appropriate; try to avoid creating custom icons unless they are absolutely necessary.</p>
+<p>To avoid starting from scratch, we prepared a selection of commonly used icons you can include in your application, or create derivatives of. The set is licensed CC0, so they can be used regardless of your project's license.</p>
 
-<p>Follow the icon naming specification when selecting which icons to use - the name of the icon should reflect what the icon is intended to communicate. This is important for those using a screen reader.</p>
-
-<p>You can use the GTK+ icon browser to find recommended icons.</p>
+<p>FIXME: link to a non-existant library.</p>
 
 <section id="color-vs-symbolic">
 <title>Color vs. symbolic icons</title>
