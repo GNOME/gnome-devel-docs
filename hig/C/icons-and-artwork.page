@@ -103,53 +103,55 @@
 <section id="custom-full-color-icons">
 <title>Custom full-color icons</title>
 
-<p>Full-color icons are drawn and rendered at a variety of preset sizes.</p>
 
 <section id="perspective">
 <title>Perspective</title>
 
-<p>Most icons can be executed best by using the “on the table” perspective, as if the observer was standing in front of the object and looking slightly down on it. Many icons can be rendered with a simple “straight on” or “on the shelf” perspective, with the observer looking directly at the object at eye level.</p>
+<p>Just like the symbolic icons, fullcolor application icons should be rendered with a simple orthogonal view and no real or isometric perspective distortion.</p>
 
 </section>
 
 <section id="palette">
 <title>Palette</title>
 
-<p>Use the Tango color palette when designing full color application or device icons.</p>
+<p>Below is the baseline GNOME app icon color palette.</p>
 
 <table>
 <tr>
-<td><p>Butter</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/butter.svg"/></td>
-<td><p>Plum</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/plum.svg"/></td>
+<td><p>Blue</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/blue.svg"/></td>
+</tr>
+<tr>
+<td><p>Green</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/green.svg"/></td>
+</tr>
+<tr>
+<td><p>Yellow</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/yellow.svg"/></td>
 </tr>
 <tr>
 <td><p>Orange</p></td>
 <td><media type="image" mime="image/svg" src="figures/icons/palette/orange.svg"/></td>
-<td><p>Scarlet Red</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/scarlet-red.svg"/></td>
 </tr>
 <tr>
-<td><p>Chocolate</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/chocolate.svg"/></td>
-<td><p>Aluminium</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/aluminium1.svg"/></td>
+<td><p>Red</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/red.svg"/></td>
 </tr>
 <tr>
-<td><p>Chameleon</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/chameleon.svg"/></td>
-<td></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/aluminium2.svg"/></td>
+<td><p>Purple</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/purple.svg"/></td>
 </tr>
 <tr>
-<td><p>Sky Blue</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/sky-blue.svg"/></td>
+<td><p>Brown</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/brown.svg"/></td>
 </tr>
-
+<tr>
+<td><p>Neutral</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/neutral.svg"/></td>
+</tr>
 </table>
 
-<p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. All major libre graphics packages come with the Tango palette pre-installed.</p>
+<p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette <link href="https://gitlab.gnome.org/Community/Design/icon-revolution/raw/master/Lobo.gpl">is available</link>.</p>
 
 </section>
 
