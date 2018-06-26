@@ -34,13 +34,6 @@
 
 </section>
 
-<section id="stock-icons">
-<title>GNOME Icon Pack</title>
-
-<p>To avoid starting from scratch, we prepared a selection of commonly used icons you can include in your application, or create derivatives of. The set is licensed CC0, so they can be used regardless of your project's license.</p>
-
-<p>FIXME: link to a non-existant library.</p>
-
 <section id="color-vs-symbolic">
 <title>Color vs. symbolic icons</title>
 
@@ -65,7 +58,6 @@
 
 </section>
 
-</section>
 
 <section id="application-icons">
 <title>Application icons</title>
@@ -82,10 +74,6 @@
 
 <p>Application icons are mostly presented big, but the low level of detail will help when the icon is rendered at lower resolutions, such as System Settings panels.</p>
 
-<p>To maintain crispness, a lot of detail is discarded for the low resolution variants and a 1px stroke is used to outline the silhouette of the object.</p>
-
-<p>More information on designing an application icon can be found below, in the custom full-color icon section.</p>
-
 </section>
 
 <section id="custom-symbolic-icons">
@@ -96,7 +84,7 @@
 <list>
 <item><p>Identify a single property when looking for an appropriate metaphor for an icon, and focus on what distinguishes the idea you want to communicate. For example, when describing an action to be performed on an image, it isn’t necessary to repeat the idea of an image in every icon. Instead, focus on what is distinct about each action (for example: rotate, tag, align).</p></item>
 <item><p>Avoid using any perspective in symbolic icons, stick to a simple orthogonal view.</p></item>
-<item><p>Filled shapes are generally faster to process by the human visual system than wireframe outlines.</p></item>
+<item><p>When using unfilled strokes for an outline, try avoiding hairline (1px) and do at least a 2px stroke for the meain feature of the icon. </p></item>
 <item><p>Symbolic icons are recolored at runtime to match the context, very much like a piece of text. While there are ways to “shade” parts of an icon by using opacity or creating duotone/pattern dithering, try avoiding these as much as possible.</p></item>
 <item><p>When a metaphor relies on the negative space, make sure it will work with the colors inverted. For example a camera lens spec/highlight will only work if lighter than the lens itself.</p></item>
 </list>
@@ -164,6 +152,15 @@
 <p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. All major libre graphics packages come with the Tango palette pre-installed.</p>
 
 </section>
+
+<section id="stock-icons">
+<title>GNOME Icon Pack</title>
+
+<p>To avoid starting from scratch, we prepared a selection of commonly used icons you can include in your application, or create derivatives of. The set is licensed CC0, so they can be used regardless of your project's license.</p>
+
+<p>FIXME: link to a non-existant library.</p>
+</section>
+
 
 </section>
 
