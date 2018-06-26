@@ -15,7 +15,7 @@
    version="1.1"
    id="svg15911"
    inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="orange.svg">
+   sodipodi:docname="green.svg">
   <defs
      id="defs15905">
     <clipPath
@@ -44,32 +44,6 @@
          rx="8.4666662"
          ry="8.4666662" />
     </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath924">
-      <rect
-         ry="8.4666662"
-         rx="8.4666662"
-         y="288.20465"
-         x="140.59975"
-         height="31.75"
-         width="126.99947"
-         id="rect926"
-         style="opacity:0.1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.23333311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath928">
-      <rect
-         style="opacity:0.1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.23333311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal"
-         id="rect930"
-         width="126.99947"
-         height="31.75"
-         x="140.59975"
-         y="324.90402"
-         rx="8.4666662"
-         ry="8.4666662" />
-    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -79,16 +53,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="267.19085"
+     inkscape:cx="154.3063"
      inkscape:cy="55.916461"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="3440"
-     inkscape:window-y="0"
+     inkscape:window-width="3440"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="61"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata15908">
@@ -98,7 +72,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -108,30 +82,30 @@
      id="layer1"
      transform="translate(0,-1002.5197)">
     <g
-       id="g861"
-       transform="matrix(3.4333013,0,0,3.4333013,-470.92495,-109.10603)"
-       clip-path="url(#clipPath928)">
+       id="g851"
+       transform="matrix(3.4333013,0,0,3.4333013,-470.91992,145.24378)"
+       clip-path="url(#clipPath920)">
       <rect
-         y="325.34808"
-         x="182.93311"
+         y="251.26492"
+         x="182.93213"
          height="31.75"
          width="42.333355"
-         id="rect2202"
-         style="opacity:1;fill:#fb8c14;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1" />
+         id="rect2234"
+         style="opacity:1;fill:#50db81;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1" />
       <rect
-         style="opacity:1;fill:#fcb546;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
-         id="rect2214"
+         style="opacity:1;fill:#8ff0a4;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         id="rect2236"
          width="42.333355"
          height="31.75"
-         x="140.60083"
-         y="325.34808" />
+         x="140.59985"
+         y="251.26492" />
       <rect
-         style="opacity:1;fill:#e35e0d;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
-         id="rect2224"
+         style="opacity:1;fill:#26a269;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+         id="rect2238"
          width="42.333355"
          height="31.75"
-         x="225.26587"
-         y="325.34808" />
+         x="225.26489"
+         y="251.26492" />
     </g>
   </g>
 </svg>
