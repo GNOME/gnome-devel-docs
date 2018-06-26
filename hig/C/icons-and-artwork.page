@@ -79,9 +79,13 @@
 <section id="perspective">
 <title>Perspective &amp; Shape</title>
 
-<p>Just like the symbolic icons, fullcolor application icons should be rendered with a simple orthogonal view and no real or isometric perspective distortion.</p>
+<p>Just like the symbolic icons, fullcolor application icons should be rendered with a simple orthogonal view and no real or isometric perspective distortion. To provide depth a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though, rasing the obejct more than 2 detail units (16 nominal pixels) is not recommended.</p>
 
 <p>It is desirable to give the app icon a unique silhouette. At the same time, to allow for a pleasing grid presentation among the other applications, the aspect ratio should not be very extreme. Very narrow or very wide objects should be avoided.</p>
+
+<media type="image" mime="image/png" src="figures/icons/aspect-ratio.svg"/>
+
+<p>FIXME: multi-baseline vertical alignment.</p>
 
 </section>
 
@@ -126,6 +130,10 @@
 </table>
 
 <p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette <link href="https://gitlab.gnome.org/Community/Design/icon-revolution/raw/master/Lobo.gpl">is available</link>.</p>
+
+<p>It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surface is allowed.</p>
+
+<media type="image" mime="image/png" src="figures/icons/shading.svg"/>
 
 </section>
 
