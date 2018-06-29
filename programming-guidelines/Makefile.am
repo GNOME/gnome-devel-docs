@@ -32,4 +32,4 @@ HELP_FILES = \
 	writing-good-code.page \
 	$(NULL)
 
-HELP_LINGUAS = cs de el es ko pt_BR sv
+HELP_LINGUAS = cs de el es ko pt_BR ro sv
