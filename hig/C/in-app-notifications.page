@@ -22,11 +22,11 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>In-app notifications are appropriate when you want to inform the user about an event that is relevant to their ongoing use of an application. They are best used to provide immediate feedback. This contrasts with <link xref="notifications">standard notifications</link>, which provide system-wide alerts, and which persist after the notification has been initially displayed.</p>
+<p>In-app notifications can be used to inform users about events that are immediately relevant to their activity in an application, but which don't have long-term interest. One common use is to provide feedback in response to user actions, while the application is being used. This contrasts with <link xref="notifications">standard notifications</link>, which provide system-wide alerts, and which persist after the notification has been initially displayed.</p>
 
-<p>Allowing the user to undo a destructive action is an example of a good use of in-app notifications: the notification is not needed outside of the application window, and is immediately relevant. The button that allows the user to respond to the event, by pressing .</p>
+<p>Allowing the user to undo a destructive action is an example of a good use of in-app notifications: the notification is shown immediately after a user action, and is shown in the most relevant context.</p>
 
-<p>In-app notifications are not a good solution for communicating ongoing states. <link xref="info-bars">Info bars</link> offer one alternative you can consider.</p>
+<p>In-app notifications are not a good solution for communicating ongoing states.</p>
 
 </section>
 
