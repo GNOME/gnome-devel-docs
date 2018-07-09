@@ -18,16 +18,16 @@
 <section id="cross-platform-compatibility">
 <title>Cross-platform compatibility</title>
 
-<p>The HIG provides cross-platform for those design patterns and UI elements that require special treatment in cross-platform cases. Otherwise, all the design patterns provided in these guidelines can be used in a cross-platform manner.</p>
+<p>Generally speaking, the design patterns found in the HIG can be used on any desktop platform. Most of the conventions, like menus and menu buttons, views and view switchers, and popovers, are common and will be generally understood.</p>
 
-<p>Since some platforms provide system-level integration for <link xref="menu-bars">menu bars</link>, this pattern is of special relevance for cross-platform applications.</p>
+<p>The primary example of a design pattern that varies across desktop platforms is the  <link xref="menu-bars">menu bar</link>, which takes different forms on different platforms. See the design page on this for more guidance on cross-platform considerations.</p>
 
 </section>
 
 <section id="gnome-2-compatibility">
 <title>GNOME 2 compatibility</title>
 
-<p>These Human Interface Guidelines are an evolution of the GNOME 2 HIG, and represent an improvement on the previous version. Applications that follow the new version of the HIG will use space more efficiently, will provide a more focused user experience, and will use modern interpretations of key functionality, such as search, online integration, or notifications.</p>
+<p>These Human Interface Guidelines are an evolution of the GNOME 2 HIG. Applications that follow the new version of the HIG will use space more efficiently, will provide a more focused user experience, and will use modern interpretations of key functionality, such as search, online integration, or notifications.</p>
 
 <p>Following some of the design patterns in these guidelines may imply larger-scale design changes for GNOME 2 style applications, particularly if those applications are complex. In particular, replacing window title bars and <link xref="menu-bars">menu bars</link> with a <link xref="header-bars">header bar</link> could be a big change for your application.</p>
 

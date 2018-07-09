@@ -13,35 +13,29 @@
 
 <title>Application basics</title>
 
-<p>These Human Interface Guidelines are intended to help with the creation of applications. An understanding of what an application is will help you to distribute your software more effectively, as well as ensure effective and consistent system integration.</p>
+<p>These Human Interface Guidelines provide design guidance on the creation of GNOME applications. Given this focus on applications, this page provides a definition of applications from a user experience perspective. It also provides guidance on basic application behavior and characteristics.</p>
 
 <p>The application model allows users to understand how software is distributed, installed and removed, as well as how that software behaves when in use. Ensuring that your software behaves according to this model will therefore help to ensure that it is predictable and conforms to user expectations. It will also ensure correct integration with system tools for installing and removing applications.</p>
 
 <section id="application-definition">
-<title>Defining an application</title>
+<title>What is an application?</title>
 
-<quote><p>An application is a distinct and independent piece of software that incorporates useful functionality, and which can be installed on a user’s system.</p></quote>
-
-<p>This definition can be broken down into a set of characteristics, which describe an application in more detail. Applications:</p>
+<p>The following list of characteristics provides a basic definition of an application. An application is a distinct piece of software which:</p>
 
 <list>
 <item><p>Can be individually installed and removed from the system.</p></item>
-<item><p>Do not rely on other applications in order to run.</p></item>
-<item><p>Contain functionality of their own.</p></item>
-<item><p>Provide at least one <link xref="primary-windows">primary window</link>.</p></item>
-<item><p>Do not affect or interfere with the behavior of other applications.</p></item>
-<item><p>Have a unique name and <link xref="icons-and-artwork#application-icons">icon</link>.</p></item>
+<item><p>Does not affect or interfere with the behavior of other applications.</p></item>
+<item><p>Does not rely on other applications in order to run.</p></item>
+<item><p>Provides at least one <link xref="primary-windows">primary window</link>.</p></item>
+<item><p>Has a unique name and <link xref="icons-and-artwork#application-icons">icon</link>.</p></item>
+<item><p>Has an application launcher.</p></item>
 </list>
 
-<p>At the heart of this definition is a model that allows the modular installation and use of 3rd party software, in a way that avoids dependency issues and ensures simplicity of use.</p>
+<p>A key theme in this definition is that applications are intended to be independent of other applications. This ensures flexibility, predictability, and simplicity of use.</p>
 
-<p>In GNOME 3, only software that conforms to these characteristics should install an application launcher.</p>
+<p>Of course, there are other characteristics that are expected of applications, including standard window behavior, system integration, and application metadata. Guidance on these aspects of applications can be found elsewhere.</p>
 
-<!-- Expand into a section on application launchers?
-
-Applications are launched and switched to via their launchers...
-
--->
+<!-- Add a section on application launchers? -->
 
 </section>
 

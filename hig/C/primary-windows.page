@@ -21,7 +21,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Every application should have at least one primary window associated with it.</p>
+<p>Every application should show a primary window when its launcher is activated. This includes applications that mainly provide a background service.</p>
 
 </section>
 
