@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:uix="http://projectmallard.org/experimental/ui/"
+      type="topic"
+      id="secondary-menus">
+
+  <info>
+    <link type="guide" xref="patterns#primary"/>
+    <desc>The application's main menu, denoted by three stacked horizontal lines</desc>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Secondary menus</title>
+
+<media type="image" mime="image/svg" src="figures/patterns/secondary-menu.svg"/>
+
+<p>A menu that contains menu items for for the current view or content item. A secondary menu is different from a <link xref="primary-menus">primary menu</link>, in that it is only shown on sub-views/pages, and doesn't contain global application items like <gui>Preferences</gui> and <gui>About</gui></p>.
+
+<p>Secondary menus are opened with a button that has the view-more icon. They are located at the right side of a header bar or, when used in combination with a <link xref="sidebar-lists">sidebar list</link>, to the right above the list.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Most applications have primary menus, since they are the standard location for About, which every application is expected to have.</p>
+
+</section>
+
+<section id="guidance">
+<title>Guidance</title>
+
+<list>
+<item><p>Secondary menus generally shouldn't reproduce menu items that are included in <link xref="primary-menus">primary menus</link>, like <gui>Preferences</gui> and <gui>About</gui>. However, it can sometimes be useful to show <gui>Help</gui>.</p></item>
+<item><p>Follow the <link xref="menus">standard guidelines for menus</link>.</p></item>
+<item><p>A primary menu is contained within a <link xref="popovers">popover</link>. As such, a header bar menu can include a variety of controls, such as groups of buttons.</p></item>
+<item><p>Secondary menus shouldn’t include menu items for close or quit.</p></item>
+</list>
+
+</section>
+
+<section id="api-reference">
+<title>API reference</title>
+
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkMenuButton.html">GtkMenuButton</link></p></item>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html">GtkPopoverMenu</link></p></item>
+</list>
+
+</section>
+
+</page>

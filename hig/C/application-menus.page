@@ -16,6 +16,8 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/application-menu.svg"/>
 
+<p><em>Application menus are no longer a recommended design pattern. See <link xref="primary-menus">primary</link> and <link xref="secondary-menus">secondary menus</link> as alternatives.</em></p>
+
 <p>Application menus provide access to global, top level actions and options for your application. These include standard items for accessing documentation and information about the application.</p>
 
 <section id="when-to-use">
