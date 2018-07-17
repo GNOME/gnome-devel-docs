@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-03-29 19:42+0000\n"
-"PO-Revision-Date: 2018-04-03 21:13+0200\n"
-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"POT-Creation-Date: 2018-04-09 11:16+0000\n"
+"PO-Revision-Date: 2018-07-17 12:17+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.see.org>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.0.8\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -32,7 +32,7 @@ msgstr "Detta verk är licensierat under licensen <_:link-1/>."
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015\n"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2018\n"
 "Sebastian Rasmussen <sebras@gmail.com>, 2017"
 
 #. (itstool) path: info/desc
@@ -642,8 +642,8 @@ msgid ""
 msgstr ""
 "Menyer tillhandahåller ett klart och tydligt sätt att presentera en mångfald "
 "av åtgärder och inställningar. Samtidigt kan ett kontextfönster med "
-"inbäddade kontroller, så som knappar, skjutreglage, snurrknappar, listor och "
-"textinmatningsfält ge ett mer effektivt gränssnitt för många uppgifter."
+"inbäddade komponenter, så som knappar, skjutreglage, snurrknappar, listor "
+"och textinmatningsfält ge ett mer effektivt gränssnitt för många uppgifter."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:37
@@ -918,8 +918,9 @@ msgid ""
 "gui>, <gui>Sort</gui> or <gui>Update Now</gui>."
 msgstr ""
 "Etikettera alla knappar med verb i imperativ, använd <link xref=\"writing-"
-"style#capitalization\">stor bokstav</link>. Till exempel, <gui>Spara</gui>, "
-"<gui>Sortera</gui> eller <gui>Uppdatera nu</gui>."
+"style#capitalization\">rubrikversalisering</link> (Detta gäller för "
+"engelska. För svenska är meningsversalisering att föredra). Till exempel, "
+"<gui>Spara</gui>, <gui>Sortera</gui> eller <gui>Uppdatera nu</gui>."
 
 #. (itstool) path: item/p
 #: C/buttons.page:56
@@ -964,8 +965,8 @@ msgid ""
 "set and unset, are shown by its appearing “pushed in” or “popped out” "
 "respectively."
 msgstr ""
-"Växlingsknappar se likadana ut som vanliga knappar, men används för att visa "
-"eller indikera ett tillstånd snarare än att initiera en åtgärd. En "
+"Växlingsknappar ser likadana ut som vanliga knappar, men används för att "
+"visa eller indikera ett tillstånd snarare än att initiera en åtgärd. En "
 "växlingsknapps två tillstånd, satt och osatt, visas genom att den ser "
 "”intryckt” eller ”ointryckt” ut."
 
@@ -1047,6 +1048,9 @@ msgid ""
 "unset, are shown by the presence or absence of a checkmark in the labeled "
 "box."
 msgstr ""
+"Kryssrutor används för att visa eller ändra en inställning. Deras två "
+"tillstånd, satt och osatt, visas av närvaron eller frånvaron av en bock i "
+"den etiketterade rutan."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -1068,6 +1072,9 @@ msgid ""
 "Clicking a check box should not affect the values of any other controls. It "
 "may sensitize, insensitize, hide or show other controls, however."
 msgstr ""
+"Att klicka på en kryssruta bör inte påverka värdena av andra komponenter. "
+"Det kan dock göra andra komponenter klickbara eller oklickbara, eller dölja "
+"eller visa dem."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:41
@@ -1077,6 +1084,10 @@ msgid ""
 "This helps to indicate that the controls are dependent on the state of the "
 "check box."
 msgstr ""
+"Om växlandet av en kryssruta påverkar klickbarheten för andra komponenter, "
+"placera kryssrutan omedelbart till vänster om komponenterna som den "
+"påverkar. Detta hjälper till att indikera att komponenterna är beroende av "
+"tillståndet hos kryssrutan."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:42
@@ -1084,6 +1095,9 @@ msgid ""
 "Use <link xref=\"writing-style#capitalization\">sentence capitalization</"
 "link> for check box labels, for example <gui>Use custom font</gui>."
 msgstr ""
+"Använd <link xref=\"writing-style#capitalization\">stor bokstav i början på "
+"mening</link> för kryssruteetiketter, till exempel <gui>Använd anpassat "
+"typsnitt</gui>."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:43
@@ -1093,6 +1107,11 @@ msgid ""
 "states of a check box cannot be clearly communicated, consider using two "
 "radio buttons instead so both states can be given labels."
 msgstr ""
+"Etikettera kryssrutor för att tydligt indikera effekterna av både deras "
+"ikryssade och avmarkerade tillstånd, exempelvis <gui>Visa ikoner i menyer</"
+"gui>. Om båda tillstånden för en kryssruta inte kan kommuniceras tydligt så "
+"kan du överväga att istället använda två radioknappar så att båda "
+"tillstånden kan ges etiketter."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:44
@@ -1101,6 +1120,9 @@ msgid ""
 "understand. <gui>Play alert sound</gui> is better than <gui>Disable alert "
 "sound</gui>, for example."
 msgstr ""
+"Undvik negativa kryssruteetiketter, då detta kan vara förvirrande och svårt "
+"att förstå. <gui>Spela upp varningsljud</gui> är till exempel bättre än "
+"<gui>Inaktivera varningsljud</gui>."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:45
@@ -1109,6 +1131,9 @@ msgid ""
 "all check box labels that allows the user to set or unset the check box "
 "directly from the keyboard."
 msgstr ""
+"Tillhandahåll en <link xref=\"keyboard-input#access-keys\">snabbtangent</"
+"link> i alla kryssruteetiketter som låter användaren kryssa i eller "
+"avmarkera kryssrutan direkt från tangentbordet."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:46
@@ -1117,6 +1142,10 @@ msgid ""
 "for some objects in the selection and unset for others, show the check box "
 "in its mixed state. When a check box is in its mixed state:"
 msgstr ""
+"Om kryssrutan representerar en inställning i en markering av flera objekt "
+"som är inställd för några av objekten i markeringen och ej inställd för "
+"andra, visa kryssrutan i dess mixade tillstånd. Då en kryssruta är i sitt "
+"mixade tillstånd:"
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:48
@@ -1124,6 +1153,8 @@ msgid ""
 "Clicking the box once should check the box, applying that setting (when "
 "confirmed) to all the selected objects."
 msgstr ""
+"Bör att klicka på rutan en gång kryssa i rutan, och tillämpa den "
+"inställningen (då det bekräftats) för alla markerade objekt."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:49
@@ -1131,6 +1162,8 @@ msgid ""
 "Clicking the box a second time should uncheck the box, removing that setting "
 "(when confirmed) to all the selected objects."
 msgstr ""
+"Bör att klicka på rutan en andra gång avmarkera rutan, och ta bort den "
+"inställningen (då det bekräftats) för alla markerade objekt."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:50
@@ -1139,6 +1172,9 @@ msgid ""
 "restoring each selected object’s original value for that setting (when "
 "confirmed)."
 msgstr ""
+"Bör att klicka på rutan en tredje gång återföra rutan till sitt mixade "
+"tillstånd, och återställa det ursprungliga värdet för den inställningen (då "
+"det bekräftats) för alla markerade objekt."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:52
@@ -1146,7 +1182,10 @@ msgid ""
 "Label a group of check boxes with a descriptive heading above or to the left "
 "of the group."
 msgstr ""
+"Etikettera en grupp av kryssrutor med en beskrivande rubrik ovanför eller "
+"till vänster om gruppen."
 
+# TODO: space after 'instead'.
 #. (itstool) path: item/p
 #: C/check-boxes.page:53
 msgid ""
@@ -1156,6 +1195,11 @@ msgid ""
 "instead— but you probably also need to think about how to simplify your user "
 "interface."
 msgstr ""
+"Placera inte mer än ungefär åtta kryssrutor under samma grupprubrik. Om du "
+"behöver fler än åtta kan du försöka att använda tomt utrymme eller "
+"rubriketiketter för att dela in dem i mindre grupper. Överväg annars att "
+"använda en kryssrutelista istället — men du behöver förmodligen också tänka "
+"över hur du kan förenkla ditt användargränssnitt."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:54
@@ -1164,6 +1208,9 @@ msgid ""
 "this makes them easier to scan visually. Use horizontal or rectangular "
 "alignments only if they greatly improve the layout of the window."
 msgstr ""
+"Försök arrangera grupper av kryssrutor vertikalt snarare än horisontellt, då "
+"detta gör dem lättare att läsa av visuellt. Använd horisontella eller "
+"rektangulära arrangemang endast om det kraftigt förbättrar fönstrets layout."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:62
@@ -1179,7 +1226,7 @@ msgstr ""
 #: C/compatibility.page:11 C/index.page:55
 msgid "Using the HIG for cross-platform or GNOME 2 style applications."
 msgstr ""
-"Använda riktlinjerna för plattformsoberoende program eller program av GNOME "
+"Använda riktlinjerna för program på flera plattformar eller program av GNOME "
 "2-stil."
 
 #. (itstool) path: page/title
@@ -1215,6 +1262,11 @@ msgid ""
 "design patterns provided in these guidelines can be used in a cross-platform "
 "manner."
 msgstr ""
+"Riktlinjerna för mänskliga gränssnitt tillhandahåller stöd för flera "
+"plattformar för de designmönster och användargränssnittselement som kräver "
+"speciell behandling för olika plattformar. I annat fall kan alla "
+"designmönster som tillhandahålls i dessa riktlinjer användas oberoende av "
+"plattform."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:23
@@ -1223,6 +1275,9 @@ msgid ""
 "bars\">menu bars</link>, this pattern is of special relevance for cross-"
 "platform applications."
 msgstr ""
+"Då vissa plattformar tillhandahåller integration för <link xref=\"menu-bars"
+"\">menyrader</link> på systemnivå så är detta mönster av särskilt vikt för "
+"program som kan köras på flera plattformar."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
@@ -1238,6 +1293,13 @@ msgid ""
 "more focused user experience, and will use modern interpretations of key "
 "functionality, such as search, online integration, or notifications."
 msgstr ""
+"Dessa riktlinjer för mänskliga gränssnitt är en vidareutveckling av "
+"riktlinjerna för GNOME 2, och representerar en förbättring av föregående "
+"version. Program som följer den nya versionen av riktlinjerna kommer att "
+"använda utrymme mer effektivt, tillhandahåller en mer fokuserad "
+"användarupplevelse, och kommer att använda moderna tolkningar av "
+"nyckelfunktionalitet, så som sökning, integration med nätet eller "
+"aviseringar."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:32
@@ -1248,6 +1310,11 @@ msgid ""
 "<link xref=\"menu-bars\">menu bars</link> with a <link xref=\"header-bars"
 "\">header bar</link> could be a big change for your application."
 msgstr ""
+"Att följa några av designmönstren i dessa riktlinjer kan implicera "
+"storskaliga designändringar för program av GNOME 2-stil, speciellt om dessa "
+"program är komplexa. Specifikt skulle att ersätta namnlister och <link xref="
+"\"menu-bars\">menyrader</link> för fönster med en <link xref=\"header-bars"
+"\">rubrikrad</link> kunna vara en stor ändring för ditt program."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:34
@@ -1256,6 +1323,9 @@ msgid ""
 "into GNOME 2 style applications with minimal disruption, and will lead to an "
 "improved experience for users. This includes:"
 msgstr ""
+"Många av råden som finns i dessa riktlinjer för mänskliga gränssnitt kan "
+"dock införlivas i program av GNOME 2-stil med minimal störning, och kommer "
+"att leda till en förbättrad upplevelse för användare. Detta inkluderar:"
 
 #. (itstool) path: item/p
 #: C/compatibility.page:37
@@ -1273,6 +1343,8 @@ msgid ""
 "Modernized guidance on subjects such as visual layout, typography and icon "
 "usage."
 msgstr ""
+"Moderniserade råd för ämnen så som visuell layout, typografi och "
+"ikonanvändning."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:42
@@ -1281,6 +1353,9 @@ msgid ""
 "without requiring a major redesign, and all GTK+ and GNOME applications can "
 "benefit from them."
 msgstr ""
+"Att införliva dessa element ur riktlinjerna kan förbättra ditt program utan "
+"att kräva en stor designändring, och alla GTK+- och GNOME-program kan dra "
+"nytta av dem."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:44
@@ -1291,6 +1366,11 @@ msgid ""
 "recommend <link xref=\"header-bars\">header bars</link> over <link xref="
 "\"menu-bars\">menu bars</link>, they provide guidance on both approaches."
 msgstr ""
+"Dessa riktlinjer för mänskliga gränssnitt har designats för att ge dig stöd "
+"i att avgöra den bästa designen för ditt program, snarare än att föreslå en "
+"enda mall som ska användas i alla program. Därför tillhandahåller de, även "
+"om de rekommenderar <link xref=\"header-bars\">rubrikrader</link> över <link "
+"xref=\"menu-bars\">menyrader</link>, riktlinjer för båda infallsvinklarna."
 
 #. (itstool) path: info/desc
 #. (itstool) path: td/p
@@ -1398,7 +1478,7 @@ msgid ""
 "particular content items are selected."
 msgstr ""
 "Det finns olika sätta att stegvis avslöja komponenter, allt från att använda "
-"olika vyer eller lägen till att visa tillfälliga eller flytande komponenter "
+"olika vyer eller lägen till att visa tillfälliga eller svävande komponenter "
 "när särskilt innehåll markeras."
 
 #. (itstool) path: section/title
@@ -1655,7 +1735,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/dialogs.page:7
 msgid "Secondary windows that appear over primary, parent windows"
-msgstr "Sekundära fönster som visas ovanpå primära föräldrafönster"
+msgstr "Sekundära fönster som visas ovanpå primära, överordnade fönster"
 
 #. (itstool) path: page/title
 #: C/dialogs.page:27
@@ -1669,10 +1749,10 @@ msgid ""
 "They are used to present additional information or controls, including "
 "preferences and properties, or to present messages or questions."
 msgstr ""
-"Dialoger är sekundära fönster som visas ovanpå ett primärt föräldrafönster. "
-"De används för att presentera ytterligare information eller komponenter, "
-"inklusive inställningar och egenskaper, eller för att presentera meddelanden "
-"eller frågor."
+"Dialoger är sekundära fönster som visas ovanpå ett primärt överordnat "
+"fönster. De används för att presentera ytterligare information eller "
+"komponenter, inklusive inställningar och egenskaper, eller för att "
+"presentera meddelanden eller frågor."
 
 #. (itstool) path: page/p
 #: C/dialogs.page:31
@@ -1771,8 +1851,8 @@ msgstr ""
 "Meddelandedialoger är den enklaste typen av dialog. De presenterar ett "
 "meddelande eller en fråga tillsammans med 1-3 knappar som kan användas för "
 "att svara. De är alltid modala, vilket innebär att de förhindrar åtkomst "
-"till föräldrafönstret. Meddelandedialoger är ett lämpligt val när det är "
-"viktigt att användaren ser och svarar på ett meddelande."
+"till sitt överordnade fönster. Meddelandedialoger är ett lämpligt val när "
+"det är viktigt att användaren ser och svarar på ett meddelande."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:60 C/dialogs.page:83 C/dialogs.page:98
@@ -1798,7 +1878,7 @@ msgid ""
 "acknowledged, and will not always prevent mistakes from happening. It is "
 "often better to provide undo functionality instead."
 msgstr ""
-"Bekräftelsedialoger kommer ofta att att bekräftas av misstag eller per "
+"Bekräftelsedialoger kommer ofta att bekräftas av misstag eller per "
 "automatik, och kommer inte alltid att förhindra misstag från att ske. Det är "
 "ofta bättre att tillhandahålla möjligheten att ångra sig."
 
@@ -2121,7 +2201,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/dialogs.page:159
 msgid "Dialogs should always have a parent window."
-msgstr "Dialoger bör alltid ha ett föräldrafönster."
+msgstr "Dialoger bör alltid ha ett överordnat fönster."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:160
@@ -2294,7 +2374,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/drop-down-lists.page:18
 msgid "Drop-down lists"
-msgstr "Rullgardinslista"
+msgstr "Rullgardinslistor"
 
 #. (itstool) path: page/p
 #: C/drop-down-lists.page:20
@@ -2396,8 +2476,8 @@ msgid ""
 msgstr ""
 "Etikettera knappen för rullgardinslistan med en textetikett ovanför eller "
 "till vänster om den, använd <link xref=\"writing-style#capitalization\">stor "
-"bokstav</link>. Tillhandahåll en snabbtangent i etiketten som låter "
-"användaren direkt ge fokus till rullgardinslistan."
+"bokstav i början på mening</link>. Tillhandahåll en snabbtangent i etiketten "
+"som låter användaren direkt ge fokus till rullgardinslistan."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:40
@@ -2405,8 +2485,9 @@ msgid ""
 "Use <link xref=\"writing-style#capitalization\">sentence capitalization</"
 "link> for drop-down list items, for example <gui>Switched movement</gui>."
 msgstr ""
-"Använd <link xref=\"writing-style#capitalization\">stor bokstav</link> för "
-"objekten i rullgardinslistor, till exempel <gui>Växlad rörelse</gui>."
+"Använd <link xref=\"writing-style#capitalization\">stor bokstav i början på "
+"mening</link> för objekten i rullgardinslistor, till exempel <gui>Växlad "
+"rörelse</gui>."
 
 #. (itstool) path: section/title
 #: C/drop-down-lists.page:46
@@ -2506,6 +2587,8 @@ msgid ""
 "An empty placeholder is an image and text which fills the space in an empty "
 "list or grid."
 msgstr ""
+"En tom platshållare är en bild och text som fyller utrymmet i en tom lista "
+"eller ett rutnät."
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:25
@@ -2515,12 +2598,17 @@ msgid ""
 "more cohesive. They are also one of those nice touches which helps to "
 "communicate an attention to detail."
 msgstr ""
+"Tomma platshållare utför ett antal viktiga funktioner: de förhindrar "
+"förvirring och guidar användaren, och de får ditt gränssnitt att se bättre "
+"och mer sammanhängande ut. De är också en trevlig liten sak som hjälper till "
+"att ge intrycket av en känsla för detaljer."
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:27
 msgid ""
 "An empty placeholder should be displayed whenever a list or grid is empty."
 msgstr ""
+"En tom platshållare bör visas närhelst en lista eller ett rutnät är tomt."
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:29
@@ -2530,6 +2618,10 @@ msgid ""
 "<link xref=\"initial-state-placeholder\">a richer, more characterful and "
 "positive experience</link> is better."
 msgstr ""
+"Tomma platshållare bör inte visas när ett program körs för första gången. I "
+"dessa situationer är ett tomt tillstånd för negativt och det är bättre med "
+"<link xref=\"initial-state-placeholder\">en rikare, mer karaktärsfull och "
+"positiv upplevelse</link>."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:37
@@ -2538,6 +2630,8 @@ msgid ""
 "labels, so that your application is consistent with other GNOME 3 "
 "applications."
 msgstr ""
+"Följ standardlayouten för storlek och placering av bilder och etiketter så "
+"att ditt program är konsekvent med andra GNOME 3-program."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:38
@@ -2546,6 +2640,9 @@ msgid ""
 "\">symbolic icon</link> that either represents your application, or the type "
 "of content that would ordinarily appear in the grid or list."
 msgstr ""
+"Använd för bilden en <link xref=\"icons-and-artwork#color-vs-symbolic"
+"\">symbolisk ikon</link> som antingen representerar ditt program, eller "
+"typen av innehåll som vanligen dyker upp i rutnätet eller listan."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:39
@@ -2556,6 +2653,11 @@ msgid ""
 "should only be included if there is additional information that it is useful "
 "to provide."
 msgstr ""
+"En tom platshållare bör alltid inkludera en etikett som kommunicerar det "
+"tomma tillståndet. Det är ofta lämpligt att inkludera en mindre undertext "
+"som tillhandahåller ytterligare guidning (som om hur objekt läggs till). "
+"Detta bör dock endast inkluderas om det finns ytterligare information som är "
+"användbar att tillhandahålla."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:40
@@ -2564,6 +2666,9 @@ msgid ""
 "highlight them using a <link xref=\"buttons#suggested-and-destructive"
 "\">suggested style</link> while the list/grid is empty."
 msgstr ""
+"Om det finns andra komponenter som tillåter att objekt läggs till så kan det "
+"vara lämpligt att markera dem med en <link xref=\"buttons#suggested-and-"
+"destructive\">föreslagen stil</link> då listan/rutnätet är tomt."
 
 #. (itstool) path: info/desc
 #: C/grids.page:8
@@ -2597,6 +2702,10 @@ msgid ""
 "patterns, including <link xref=\"search\">search</link> and <link xref="
 "\"selection-mode\">selection mode</link>."
 msgstr ""
+"Ett rutnät är en av de primära metoderna för att presentera samlingar av "
+"innehåll i GNOME 3. Rutnät kombineras ofta med några av de andra "
+"designmönstren, vilket inkluderar <link xref=\"search\">sökning</link> och "
+"<link xref=\"selection-mode\">markeringsläge</link>."
 
 #. (itstool) path: section/p
 #: C/grids.page:25
@@ -2606,6 +2715,10 @@ msgid ""
 "If content items don't have a visual component, a <link xref=\"lists\">list "
 "view</link> might be more appropriate."
 msgstr ""
+"Eftersom rutnätsvyn använder en bild för varje objekt den visar så är den "
+"bäst lämpad för innehåll som har en visuell komponent, så som dokument eller "
+"foton. Om innehållsobjekt inte har en visuell komponent så kan en <link xref="
+"\"lists\">listvy</link> vara lämpligare."
 
 #. (itstool) path: section/p
 #: C/grids.page:27
@@ -2614,11 +2727,14 @@ msgid ""
 "content. This can be useful if content items have additional metadata "
 "associated with them, such as creation dates or authorship."
 msgstr ""
+"Rutnät och listor kan kombineras för att erbjuda olika vyer över samma "
+"innehåll. Detta kan vara användbart om innehållsobjekt har ytterligare "
+"metadata associerade med sig, så som skapare eller datum för skapande."
 
 #. (itstool) path: item/p
 #: C/grids.page:35
 msgid "Wherever possible, each item of content should have a unique thumbnail."
-msgstr ""
+msgstr "Närhelst möjligt bör varje innehållsobjekt ha en unik miniatyrbild."
 
 #. (itstool) path: item/p
 #: C/grids.page:36
@@ -2627,6 +2743,9 @@ msgid ""
 "using your application. Ordering content according to most recently used is "
 "often the best arrangement."
 msgstr ""
+"Sortera objekten i rutnätet enligt vad som kommer vara mest användbart för "
+"personer som använder ditt program. Att sortera innehåll efter senast använt "
+"är ofta den bästa ordningen."
 
 #. (itstool) path: item/p
 #: C/grids.page:37
@@ -2634,12 +2753,15 @@ msgid ""
 "Selecting an item in the grid will typically switch to a dedicated view of "
 "that item."
 msgstr ""
+"Att välja ett objekt i rutnätet kommer typiskt att växla till en enkom vy "
+"för det objektet."
 
 #. (itstool) path: item/p
 #: C/grids.page:38
 msgid ""
 "Consider combining the grid view search, selection mode and collections."
 msgstr ""
+"Överväg att kombinera rutnätsvyns sökning, markeringsläge och samlingar."
 
 #. (itstool) path: item/p
 #: C/grids.page:46
@@ -2662,7 +2784,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/header-bar-menus.page:8
 msgid "Common menus shown on the right side of a header bar"
-msgstr ""
+msgstr "Vanliga menyer som visas på högra sidan av en rubrikrad"
 
 #. (itstool) path: page/title
 #: C/header-bar-menus.page:16
@@ -3390,13 +3512,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:101
-#, fuzzy
 msgid ""
 "When a metaphor relies on the negative space, make sure it will work with "
 "the colors inverted. For example a camera lens spec/highlight will only work "
 "if lighter than the lens itself."
 msgstr ""
-"När en metafor bygger på det negativa området, säkerställ att det även "
+"När en metafor bygger på det negativa utrymmet, säkerställ att det även "
 "kommer att fungera med inverterade färger. Till exempel kommer en "
 "kameralinsreflex endast att fungera om den är ljusare än linsen i sig."
 
@@ -3739,7 +3860,7 @@ msgstr "<link xref=\"patterns\"><em style=\"strong\">Mönster</em></link>"
 #. (itstool) path: td/p
 #: C/index.page:33
 msgid "Essential and optional design components."
-msgstr ""
+msgstr "Grundläggande och valfria designkomponenter."
 
 #. (itstool) path: td/p
 #: C/index.page:36
@@ -3755,6 +3876,8 @@ msgstr ""
 msgid ""
 "Guidelines on common elements, such as buttons, progress bars and popovers."
 msgstr ""
+"Riktlinjer för vanliga element så som knappar, förloppsindikatorer och "
+"kontextfönster."
 
 #. (itstool) path: section/title
 #: C/index.page:44
@@ -3782,7 +3905,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/index.page:51
 msgid "Basic application behavior and characteristics."
-msgstr ""
+msgstr "Grundläggande beteende och kännetecken för program."
 
 #. (itstool) path: td/p
 #: C/index.page:54
@@ -3801,19 +3924,22 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/index.page:59
 msgid "Arranging elements within user interfaces."
-msgstr ""
+msgstr "Arrangera element i användargränssnitt."
 
 #. (itstool) path: td/p
 #: C/index.page:62
 msgid ""
 "<link xref=\"writing-style\"><em style=\"strong\">Writing style</em></link>"
 msgstr ""
+"<link xref=\"writing-style\"><em style=\"strong\">Skrivregler (för "
+"engelska)</em></link>"
 
 #. (itstool) path: td/p
 #. (itstool) path: info/desc
 #: C/index.page:63 C/writing-style.page:33
 msgid "Writing text for your user interface, including capitalization rules."
 msgstr ""
+"Skriva text för ditt användargränssnitt, inklusive versaliseringsregler."
 
 #. (itstool) path: td/p
 #: C/index.page:66
@@ -3821,11 +3947,13 @@ msgid ""
 "<link xref=\"icons-and-artwork\"><em style=\"strong\">Icons and artwork</"
 "em></link>"
 msgstr ""
+"<link xref=\"icons-and-artwork\"><em style=\"strong\">Ikoner och grafik</"
+"em></link>"
 
 #. (itstool) path: td/p
 #: C/index.page:67
 msgid "Guidelines on selecting and creating icons."
-msgstr ""
+msgstr "Riktlinjer för att välja och skapa ikoner."
 
 #. (itstool) path: td/p
 #: C/index.page:70
@@ -3836,7 +3964,7 @@ msgstr "<link xref=\"typography\"><em style=\"strong\">Typografi</em></link>"
 #: C/index.page:71
 msgid ""
 "Advice on font sizes, weights and styles, as well as special characters."
-msgstr ""
+msgstr "Råd om typsnittsstorlekar, vikter och stilar, samt även specialtecken."
 
 #. (itstool) path: td/p
 #: C/index.page:74
@@ -3844,12 +3972,14 @@ msgid ""
 "<link xref=\"pointer-and-touch-input\"><em style=\"strong\">Pointer and "
 "touch input</em></link>"
 msgstr ""
+"<link xref=\"pointer-and-touch-input\"><em style=\"strong\">Pekar- och "
+"pekinmatning</em></link>"
 
 #. (itstool) path: td/p
 #. (itstool) path: info/desc
 #: C/index.page:75 C/pointer-and-touch-input.page:14
 msgid "Mouse, touchpad and touchscreen interaction."
-msgstr ""
+msgstr "Interaktion med mus, styrplatta och pekskärm."
 
 #. (itstool) path: td/p
 #: C/index.page:78
@@ -3863,7 +3993,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/index.page:79 C/keyboard-input.page:24
 msgid "Keyboard navigation, access and shortcut keys."
-msgstr ""
+msgstr "Tangentbordsnavigering, snabbtangenter och kortkommandon."
 
 #. (itstool) path: td/p
 #: C/index.page:82
@@ -3871,16 +4001,18 @@ msgid ""
 "<link xref=\"display-compatibility\"><em style=\"strong\">Display "
 "compatibility</em></link>"
 msgstr ""
+"<link xref=\"display-compatibility\"><em style=\"strong"
+"\">Skärmkompatibilitet</em></link>"
 
 #. (itstool) path: td/p
 #: C/index.page:83
 msgid "How to support different device and display types."
-msgstr ""
+msgstr "Hur olika enheter och skärmtyper kan stödjas."
 
 #. (itstool) path: info/desc
 #: C/in-app-notifications.page:8 C/info-bars.page:8
 msgid "Application event notifications"
-msgstr ""
+msgstr "Händelseaviseringar i program"
 
 #. (itstool) path: page/title
 #: C/in-app-notifications.page:16
@@ -3909,6 +4041,10 @@ msgid ""
 "happened, and can also include a button that allows the user to respond. "
 "They are always transient and user dismissable."
 msgstr ""
+"Aviseringar i program är informationspoppupper som kan visas i ett program. "
+"De inkluderar en etikett som beskriver en händelse som har inträffat, och "
+"kan också inkludera en knapp som tillåter användaren att svara på detta. De "
+"är alltid tillfälliga och användaren kan avfärda dem."
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:25
@@ -3920,7 +4056,15 @@ msgid ""
 "alerts, and which persist after the notification has been initially "
 "displayed."
 msgstr ""
+"Aviseringar i program är lämpliga då du vill informera användaren om en "
+"händelse som är relevant för deras pågående användning av ett program. De "
+"används bäst för att tillhandahålla omedelbar återkoppling. Detta i kontrast "
+"till <link xref=\"notifications\">standardaviseringar</link> som "
+"tillhandahåller systemomfattande meddelanden som består efter att "
+"aviseringen först har visats."
 
+# TODO: End is missing. What button??
+# https://gitlab.gnome.org/GNOME/gnome-devel-docs/issues/2
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:27
 msgid ""
@@ -3929,6 +4073,10 @@ msgid ""
 "application window, and is immediately relevant. The button that allows the "
 "user to respond to the event, by pressing ."
 msgstr ""
+"Att låta användaren ångra en destruktiv åtgärd är ett exempel på bra "
+"användning av aviseringar i program: aviseringen behövs inte utanför "
+"programfönstret, och är omedelbart relevant. Knappen som låter användaren "
+"svara på händelsen genom att trycka ."
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:29
@@ -3937,6 +4085,9 @@ msgid ""
 "states. <link xref=\"info-bars\">Info bars</link> offer one alternative you "
 "can consider."
 msgstr ""
+"Aviseringar i program är inte en bra lösning för att kommunicera pågående "
+"tillstånd. <link xref=\"info-bars\">Inforader</link> erbjuder ett alternativ "
+"som du kan överväga."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:37
@@ -3945,6 +4096,9 @@ msgid ""
 "notification: only include one if it is directly related to the event and is "
 "generally useful."
 msgstr ""
+"Det är inte alltid nödvändigt att inkludera en åtgärdsknapp i en avisering i "
+"ett program: inkludera endast en om den är direkt relaterad till händelsen "
+"och allmänt användbar."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:38
@@ -3952,6 +4106,8 @@ msgid ""
 "Don't distract with unnecessary in-app notifications, and be careful not to "
 "overuse them: they can be annoying if they pop up frequently."
 msgstr ""
+"Distrahera inte med onödiga aviseringar i programmet, och var försiktig så "
+"att du inte överanvänder dem: de kan vara irriterande om de poppar upp ofta."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:39
@@ -3959,11 +4115,13 @@ msgid ""
 "Only one in-app notification can be displayed at a time, and new instances "
 "should replace existing ones."
 msgstr ""
+"Endast en avisering kan visas i programmet vid varje tillfälle, och nya "
+"instanser bör ersätta befintliga."
 
 #. (itstool) path: page/title
 #: C/info-bars.page:16
 msgid "Info bars"
-msgstr ""
+msgstr "Inforader"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -3987,7 +4145,12 @@ msgid ""
 "Info bars persist: they can be permanent, or they can be dismissed by the "
 "user."
 msgstr ""
+"En inforad är en remsa som placeras ovanför en innehållsvy, direkt under "
+"rubrikraden eller verktygsfältet. Den innehåller text, och kan också "
+"innehålla komponenter. Inforader är beständiga: de kan vara permanenta, "
+"eller så kan de avfärdas av användaren."
 
+# TODO: edited by others
 #. (itstool) path: section/p
 #: C/info-bars.page:25
 msgid ""
@@ -3997,6 +4160,12 @@ msgid ""
 "to a location is not operating. In some situations, they can also be used to "
 "present supplementary information, such as user guidance."
 msgstr ""
+"Inforader kan användas för att kommunicera ett specifikt tillstånd om ett "
+"visst innehållsobjekt eller plats. Till exempel kan en inforad indikera att "
+"ett dokument inte är uppdaterat eller att det redigeras av andra, eller att "
+"en tjänst som är relaterad till en plats inte fungerar. I vissa situationer "
+"kan de också användas för att presentera tilläggsinformation så som "
+"handledning till användare."
 
 #. (itstool) path: section/p
 #: C/info-bars.page:27
@@ -4006,7 +4175,12 @@ msgid ""
 "\">notifications</link> or <link xref=\"in-app-notifications\">in-app "
 "notifications</link> are more appropriate here)."
 msgstr ""
+"Eftersom inforader är beständiga så är de i allmänhet mer lämpade för att "
+"kommunicera pågående tillstånd snarare än händelser (<link xref="
+"\"notifications\">aviseringar</link> eller <link xref=\"in-app-notifications"
+"\">aviseringar i program</link> är lämpligare för det fallet)."
 
+# TODO: sidebar lists</link>)
 #. (itstool) path: section/p
 #: C/info-bars.page:29
 msgid ""
@@ -4020,6 +4194,15 @@ msgid ""
 "\">tabs</link> or <link xref=\"sidebar-lists\">sidebar</link> lists) can be "
 "changed."
 msgstr ""
+"Inforader kommunicerar främst genom text, och har fördelen att de kan "
+"inkludera både en rubrik och en längre förklaring. De tar dock även plats "
+"och söker uppmärksamhet. Om tillståndet som du vill kommunicera inte är "
+"kritiskt, eller om det kan kommuniceras med en enkel ikon eller sträng, så "
+"kan du vilja överväga alternativa infallsvinklar: text eller ikoner kan "
+"läggas till på andra ställen i ditt gränssnitt, eller så kan utseendet för "
+"navigeringskomponenter (så som <link xref=\"view-switchers\">vyväxlare</"
+"link>, <link xref=\"tabs\">flikar</link> eller <link xref=\"sidebar-lists"
+"\">sidopanelslistor</link>) ändras."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:37
@@ -4027,11 +4210,14 @@ msgid ""
 "Beware of info bar overuse: they should be an exceptional presence in your "
 "interface."
 msgstr ""
+"Akta dig för överanvändning av inforader: de bör bara förekomma i "
+"undantagsfall i ditt gränssnitt."
 
+# TODO: visible
 #. (itstool) path: item/p
 #: C/info-bars.page:38
 msgid "Only one info bar should be visable at any one time."
-msgstr ""
+msgstr "Endast en inforad bör vara synlig vid ett givet tillfälle."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:39
@@ -4039,11 +4225,13 @@ msgid ""
 "Only include a longer explanation if it is really needed: a simple heading "
 "can often be sufficient."
 msgstr ""
+"Inkludera bara en längre förklaring om det verkligen behövs: en enkel rubrik "
+"kan ofta vara tillräckligt."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:40
 msgid "Generally speaking, info bars do not require an icon."
-msgstr ""
+msgstr "I allmänhet behöver inforader inte någon ikon."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:49
@@ -4051,6 +4239,8 @@ msgid ""
 "<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html"
 "\">GtkInfoBar</link>"
 msgstr ""
+"<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html"
+"\">GtkInfoBar</link>"
 
 #. (itstool) path: page/title
 #: C/keyboard-input.page:27
@@ -4400,7 +4590,6 @@ msgstr ""
 msgid "Shortcut keys"
 msgstr "Kortkommandon"
 
-# TODO: trailing period in original
 #. (itstool) path: section/p
 #: C/keyboard-input.page:135
 msgid ""
@@ -4410,7 +4599,7 @@ msgid ""
 msgstr ""
 "Kortkommandon tillhandahåller bekväm tillgång till vanliga åtgärder. De kan "
 "antingen vara enstaka knappar eller kombinationer av flera tangenter "
-"(typiskt en modifierare i kombination med en vanlig knapp)."
+"(typiskt en modifierare i kombination med en vanlig tangent)"
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:138
@@ -4439,7 +4628,7 @@ msgid ""
 "However, do not try to assign a keyboard shortcut to everything."
 msgstr ""
 "Tilldela kortkommandon för de mest använda åtgärderna i ditt program. Försök "
-"dock inte att att tilldela en tangentbordsgenväg för allting."
+"dock inte att tilldela en tangentbordsgenväg för allting."
 
 # sebras: Gör om?
 #. (itstool) path: item/p
@@ -6510,6 +6699,8 @@ msgid ""
 "A menu bar incorporates a strip of drop-down menus. It is typically located "
 "at the top of a primary window, below a window title bar."
 msgstr ""
+"En menyrad innehåller en remsa av rullgardinsmenyer. Den är vanligen "
+"placerad högst upp i ett primärt fönster, under fönstrets namnlist."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -6537,6 +6728,15 @@ msgid ""
 "\">selection mode</link>, <link xref=\"action-bars\">action bars</link>, and "
 "<link xref=\"popovers\">popovers</link>."
 msgstr ""
+"Menyrader ökar ett programs användargränssnitts vertikala fotavtryck, "
+"introducerar ett stort antal avslöjandepunkter, och fungerar som en fast "
+"uppsättning av alternativ som inte är flexibla. Av dessa anledningar "
+"rekommenderas allmänt <link xref=\"header-bars\">rubrikrader</link> och "
+"<link xref=\"header-bar-menus\">rubrikradsmenyer</link> över att använda "
+"menyrader, tillsammans med andra designmönster för att exponera komponenter "
+"då de efterfrågas, så som <link xref=\"selection-mode\">markeringsläge</"
+"link>, <link xref=\"action-bars\">åtgärdsrader</link> och <link xref="
+"\"popovers\">kontextfönster</link>."
 
 #. (itstool) path: section/p
 #: C/menu-bars.page:41
@@ -6546,6 +6746,10 @@ msgid ""
 "incorporate space for a menu bar in their user environment, and a menu model "
 "can be desirable for cross-platform integration purposes."
 msgstr ""
+"Samtidigt kan det vara lämpligt för komplexa program som redan inkluderar en "
+"menyrad att behålla den. Vidare innehåller några plattformar också utrymme "
+"för en menyrad i sin användarmiljö, och en menymodell kan vara önskvärd i "
+"integrationssyfte för flera plattformar."
 
 #. (itstool) path: section/title
 #: C/menu-bars.page:46
@@ -6559,6 +6763,10 @@ msgid ""
 "details on the standard items to include in each of these menus, see <link "
 "xref=\"keyboard-input#application-shortcuts\">keyboard input</link>."
 msgstr ""
+"Detta avsnitt ger detaljer för de vanligaste menyerna och menyobjekten i en "
+"menyrad. För detaljer om standardposterna att inkludera i var och en av "
+"dessa menyer, se <link xref=\"keyboard-input#application-shortcuts"
+"\">tangentbordsinmatning</link>."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:52
@@ -6572,6 +6780,10 @@ msgid ""
 "is the left-most item in the menubar because of its importance and frequency "
 "of use, and because it is a relevant menu in many applications."
 msgstr ""
+"Kommandon som arbetar på hela det aktuella dokumentet eller "
+"innehållsobjektet. Det är objektet längst till vänster i menyraden på grund "
+"av sin viktighet och användningsfrekvens, och för att det är en relevant "
+"meny i många program."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:54
@@ -6580,6 +6792,9 @@ msgid ""
 "of object it displays. For example, a music player could have a <gui>Music</"
 "gui> instead of a <gui>File</gui> menu."
 msgstr ""
+"Om ditt program inte arbetar på filer, namnge denna meny efter typen av "
+"objekt som det visar. Exempelvis kan en musikspelare ha en <gui>Musik</gui>-"
+"meny istället för <gui>Arkiv</gui>."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:57
@@ -6592,6 +6807,9 @@ msgid ""
 "The <gui>Edit</gui> menu contains items relating to editing the document, "
 "such as clipboard handling, find and replace, and inserting objects."
 msgstr ""
+"Menyn <gui>Redigera</gui> innehåller objekt som är relaterade till att "
+"redigera dokumentet, så som urklippshantering, sök och ersätt, samt att "
+"infoga objekt."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:61
@@ -6605,6 +6823,9 @@ msgid ""
 "or page, or how items are presented for browsing. Do not place any items on "
 "the <gui>View</gui> menu that affect content items."
 msgstr ""
+"Inkluderar objekt som påverkar användarens vy, så som för det aktuella "
+"dokumentet eller sidan, eller hur objekt presenteras för bläddring. Placera "
+"inga objekt i <gui>Visa</gui>-menyn om de påverkar innehållsobjekt."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:65
@@ -6619,11 +6840,15 @@ msgid ""
 "more than about six types of object that can be inserted, otherwise place "
 "individual items for each type on the <gui>Edit</gui> menu."
 msgstr ""
+"Listar typerna av objekt som kan infogas i det aktuella dokumentet, så som "
+"bilder, länkar eller sidbrytningar. Tillhandahåll endast denna meny om du "
+"har mer än ungefär sex typer av objekt som kan infogas, placera annars "
+"individuella objekt för varje typ i menyn <gui>Redigera</gui>."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:69
 msgid "<gui>Format</gui>"
-msgstr ""
+msgstr "<gui>Format</gui>"
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:70
@@ -6631,6 +6856,9 @@ msgid ""
 "Includes commands to change the visual appearance of the document. For "
 "example, changing the font, color, or line spacing of a text selection."
 msgstr ""
+"Inkluderar kommandon för att ändra det visuella utseendet för dokumentet. "
+"Exempelvis att ändra typsnittet, färgen eller radavståndet för en "
+"textmarkering."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:71
@@ -6639,11 +6867,14 @@ msgid ""
 "is that changes made with <gui>Format</gui> commands are persistent and "
 "saved as part of the document."
 msgstr ""
+"Skillnaden mellan dessa kommandon och de i <gui>Visa</gui>-menyn är att "
+"ändringar gjorda med <gui>Format</gui>-kommandon är beständiga och sparas "
+"som en del av dokumentet."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:72
 msgid "Items found on the Format menu are very application-specific."
-msgstr ""
+msgstr "Objekt som hittas i Format-menyn är väldigt programspecifika."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:75
@@ -6657,11 +6888,14 @@ msgid ""
 "files and folders, help documents, web pages or any other large information "
 "space."
 msgstr ""
+"Tillhandahåll en meny Bokmärken i alla program som låter användaren bläddra "
+"bland filer och mappar, hjälpdokument, webbsidor eller något annat stort "
+"informationsutrymme."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:79
 msgid "<gui>Go</gui>"
-msgstr ""
+msgstr "<gui>Gå</gui>"
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:80
@@ -6670,12 +6904,15 @@ msgid ""
 "document or collection of documents, or an information space such as a "
 "directory structure or the web."
 msgstr ""
+"En <gui>Gå</gui>-meny tillhandahåller kommandon för att snabbt navigera runt "
+"i ett dokument eller en samling av dokument, eller ett informationsutrymme "
+"så som en katalogstruktur eller nätet."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:81
 msgid ""
 "The contents of the menu will vary depending on the type of application."
-msgstr ""
+msgstr "Menyns innehåll kommer att variera beroende på typen av program."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:84
@@ -6689,6 +6926,9 @@ msgid ""
 "label this menu <gui>Documents</gui>, <gui>Buffers</gui>, or similar "
 "according to the type of document handled by your application."
 msgstr ""
+"Kommandon som tillämpas för alla programmets öppna fönster. Du kan också "
+"etikettera denna meny <gui>Dokument</gui>, <gui>Buffertar</gui> eller "
+"liknande enligt typen av dokument som hanteras av ditt program."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:86
@@ -6697,6 +6937,9 @@ msgid ""
 "windows, for example <gui>1shoppinglist.abw</gui>. Selecting one of these "
 "items raises the corresponding window."
 msgstr ""
+"De sista objektet i denna meny är en numrerad lista över programmets primära "
+"fönster, till exempel <gui>1shoppinglista.abw</gui>. Att välja ett av dessa "
+"objekt placerar motsvarande fönster överst."
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:96
@@ -6707,6 +6950,11 @@ msgid ""
 "menus should not seek to reproduce functionality that is made available by "
 "other controls)."
 msgstr ""
+"Menyraden är vanligtvis alltid synlig och alltid åtkomlig från "
+"tangentbordet, så gör alla kommandon som finns tillgängliga i ditt program "
+"tillgängliga i menyraden. (Denna riktlinje är unik för menyrader - andra "
+"menyer bör inte försöka reproducera funktionalitet som görs tillgänglig av "
+"andra komponenter)."
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:97
@@ -6715,6 +6963,9 @@ msgid ""
 "the menu bar - it is not necessary to reproduce items from the application "
 "menu in other menus."
 msgstr ""
+"Behandla <link xref=\"application-menus\">programmenyer</link> som en del av "
+"menyraden - det är inte nödvändigt att ha kopior av objekt från programmenyn "
+"i andra menyer."
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:98
@@ -6722,7 +6973,10 @@ msgid ""
 "Do not disable menu titles. Allow the user to explore the menu, even though "
 "there might be no available items on it at that time."
 msgstr ""
+"Inaktivera inte menytitlar. Tillåt användaren att utforska menyn även om det "
+"kanske inte finns några tillgängliga objekt i den för tillfället."
 
+# TODO: behåller de engelska exemplen då detta inte är så relevant för svenska språket som älskar sammansatta ord.
 #. (itstool) path: item/p
 #: C/menu-bars.page:99
 msgid ""
@@ -6732,6 +6986,11 @@ msgid ""
 "<gui>WindowOptions</gui>) or hyphens (such as <gui>Window-Options</gui>) to "
 "circumvent this guideline."
 msgstr ""
+"Menytitlar i en menyrad är ensamma ord med inledande versal. Använd inte "
+"blanksteg i menytitlar, då detta gör dem lätta att missta för två åtskilda "
+"menytitlar. Använd inte hopsatta ord (så som <gui>WindowOptions</gui>) eller "
+"bindestreck (så som <gui>Window-Options</gui>) för att gå runt denna "
+"riktlinje."
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:100
@@ -6740,6 +6999,9 @@ msgid ""
 "accidentally. Some users will not be able to figure out how to get the menu "
 "bar back in this case."
 msgstr ""
+"Tillhandahåll ingen mekanism för att dölja menyraden, då en sådan kan "
+"aktiveras av misstag. Vissa användare kommer inte kunna lista ut hur de ska "
+"göra för att få tillbaka menyraden i detta fall."
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:109 C/menus.page:76
@@ -6808,6 +7070,10 @@ msgid ""
 "a secondary action (such as secondary click with a mouse, or long press with "
 "a touch screen) on an item of content."
 msgstr ""
+"En meny är en lista över åtgärder och/eller alternativ som visas genom att "
+"trycka på en rubrik eller knapp. I fallet med snabbvalsmenyer öppnas menyn "
+"genom en sekundär åtgärd (så som ett sekundärklick med en mus, eller långt "
+"tryck med en pekskärm) på ett innehållsobjekt."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -6831,11 +7097,15 @@ msgid ""
 "as part of a <link xref=\"button-menus\">button menu</link>. Refer to the "
 "relevant pages for advice on when to use these elements."
 msgstr ""
+"Menyer kan dyka upp som en del av en <link xref=\"menu-bars\">menyrad</"
+"link>, som snabbvalsmenyer (se <link xref=\"selection-mode\">markeringsläge</"
+"link>) eller som en del av en <link xref=\"button-menus\">knappmeny</link>. "
+"Se de relevanta sidorna för råd om när dessa element ska användas."
 
 #. (itstool) path: section/title
 #: C/menus.page:44
 msgid "Size and structure"
-msgstr ""
+msgstr "Storlek och struktur"
 
 #. (itstool) path: section/p
 #: C/menus.page:46
@@ -6846,6 +7116,11 @@ msgid ""
 "be used. However, they should be avoided if at all possible, as they are "
 "physically difficult to use."
 msgstr ""
+"Menyer bör innehålla mellan tre och 12 toppnivåobjekt. Om en meny innehåller "
+"mer än 12 objekt bör du utvärdera om alla objekten är nödvändiga och hör "
+"hemma i menyn. Om du inte kan minska storleken kan undermenyer användas. De "
+"bör dock undvikas om det över huvud taget är möjligt då de är fysiskt svåra "
+"att använda."
 
 #. (itstool) path: section/p
 #: C/menus.page:48
@@ -6853,6 +7128,8 @@ msgid ""
 "Submenus should contain between three and six items, and should never "
 "contain other submenus."
 msgstr ""
+"Undermenyer bör innehålla mellan tre och sex objekt, och bör aldrig "
+"innehålla andra undermenyer."
 
 #. (itstool) path: section/p
 #: C/menus.page:50
@@ -6860,6 +7137,8 @@ msgid ""
 "Organize similar menu items into groups using dividers - this will make them "
 "easier to understand and quicker to use. When creating groups:"
 msgstr ""
+"Organisera liknande menyobjekt i grupper med avskiljare - detta kommer göra "
+"dem lättare att förstå och snabbare att använda. Då du skapar grupper:"
 
 #. (itstool) path: item/p
 #: C/menus.page:53
@@ -6869,6 +7148,10 @@ msgid ""
 "noticeable and easily targetted, so reserve these locations for particularly "
 "important or interesting functionality."
 msgstr ""
+"Ordna grupper och gruppobjekt logiskt, antingen efter viktighet, "
+"uppgiftsordning eller förväntad användningsfrekvens. Objekt högst upp och "
+"längst ner i menyn är mer märkbara och lättare att hitta, så reservera dessa "
+"platser för speciellt viktig och intressant funktionalitet."
 
 #. (itstool) path: item/p
 #: C/menus.page:54
@@ -6876,6 +7159,8 @@ msgid ""
 "Place single-item groups at the top or bottom of the menu, or group them "
 "together with other single items."
 msgstr ""
+"Placera grupper med ett ensamt objekt högst upp eller längst ner i menyn, "
+"eller gruppera dem tillsammans med andra ensamma objekt."
 
 #. (itstool) path: item/p
 #: C/menus.page:55
@@ -6883,6 +7168,8 @@ msgid ""
 "Do not mix different types of menu item within each group - actions, check "
 "box and radio button items should be kept separate."
 msgstr ""
+"Mixa inte olika menytyper i samma grupp - objekt för åtgärder, kryssrutor "
+"och radioknappar bör hållas åtskilda."
 
 #. (itstool) path: item/p
 #: C/menus.page:64
@@ -6894,6 +7181,12 @@ msgid ""
 "by just typing the letter; it is not necessary to press the Alt key at the "
 "same time."
 msgstr ""
+"Tillhandahåll en <link xref=\"keyboard-input#access-keys\">snabbtangent</"
+"link> för varje menyobjekt. Du kan använda samma snabbtangent för olika "
+"menyer i ditt program, men undvik att ha överlappande snabbtangenter i samma "
+"meny. Observera att till skillnad från andra komponenter så kan i menyer en "
+"snabbtangent användas genom att bara skriva bokstaven då menyn visas; det är "
+"inte nödvändigt att trycka ner Alt-tangenten samtidigt."
 
 #. (itstool) path: item/p
 #: C/menus.page:65
@@ -6901,6 +7194,9 @@ msgid ""
 "Label menu items with verbs for commands and adjectives for settings, using "
 "<link xref=\"writing-style#capitalization\">header capitalization</link>."
 msgstr ""
+"Etikettera menyobjekt med verb för kommandon och adjektiv för inställningar, "
+"med <link xref=\"writing-style#capitalization\">rubrikversalisering</link> "
+"(Detta gäller för engelska. För svenska är meningsversalisering att föredra)."
 
 #. (itstool) path: item/p
 #: C/menus.page:66
@@ -6908,6 +7204,9 @@ msgid ""
 "Use <link xref=\"writing-style#ellipses\">ellipses</link> when a menu item "
 "requires further input from the user to complete an action."
 msgstr ""
+"Använd <link xref=\"writing-style#ellipses\">ellips</link> när ett "
+"menyobjekt kräver vidare inmatning från användaren för att slutföra en "
+"åtgärd."
 
 #. (itstool) path: item/p
 #: C/menus.page:67
@@ -6918,11 +7217,17 @@ msgid ""
 "are logical opposites which are obvious to users. Likewise, do not use this "
 "technique for settings - use check boxes or radio buttons instead."
 msgstr ""
+"Två länkade åtgärder kan kombineras till ett enda menyobjekt genom att ändra "
+"etiketten då objektet väljs. Till exempel kan ett <gui>Spela upp</gui>-"
+"objekt ändras till <gui>Pausa</gui>. Använd dock bara denna typ av objekt då "
+"åtgärder är logiska motsatser som är självklara för användare. Använd inte "
+"heller denna teknik för inställningar - använd kryssrutor eller radioknappar "
+"istället."
 
 #. (itstool) path: info/desc
 #: C/notifications.page:8
 msgid "System-wide event notifications"
-msgstr ""
+msgstr "Systemomfattande händelseaviseringar"
 
 #. (itstool) path: page/title
 #: C/notifications.page:16
@@ -6936,6 +7241,9 @@ msgid ""
 "using your application. They also provide the ability for users to quickly "
 "respond to those events, using notification actions."
 msgstr ""
+"Aviseringar låter dig informera användarna om händelser då de inte använder "
+"ditt program. De tillhandahåller också förmågan för användare att snabbt "
+"svara på dessa händelser med aviseringsåtgärder."
 
 #. (itstool) path: section/p
 #: C/notifications.page:23
@@ -6945,6 +7253,10 @@ msgid ""
 "messaging applications, the completion of long-running tasks, reminders for "
 "calendars, and so on."
 msgstr ""
+"Använd aviseringar för att informera användaren om händelser som de kommer "
+"att vara intresserade av medan de inte använder ditt program. Detta kan "
+"inkludera nya meddelanden i meddelandeprogram, slutförandet av uppgifter som "
+"tar lång tid, påminnelser för kalendrar och så vidare."
 
 #. (itstool) path: section/p
 #: C/notifications.page:25
@@ -6953,16 +7265,19 @@ msgid ""
 "provided by your application windows, which should be able to inform the "
 "user about events without the need for notifications."
 msgstr ""
+"Aviseringar bör inte användas som en ersättning för återkoppling som "
+"tillhandahålls av dina programfönster, vilka bör vara kapabla att informera "
+"användaren om händelser utan att behöva aviseringar."
 
 #. (itstool) path: section/title
 #: C/notifications.page:30
 msgid "Notification elements"
-msgstr ""
+msgstr "Aviseringselement"
 
 #. (itstool) path: section/p
 #: C/notifications.page:32
 msgid "Notifications in GNOME 3 have a number of standard components:"
-msgstr ""
+msgstr "Aviseringar i GNOME 3 har ett antal standardkomponenter:"
 
 #. (itstool) path: td/p
 #: C/notifications.page:37
@@ -6992,7 +7307,7 @@ msgstr "Rubriken för aviseringen."
 #. (itstool) path: td/p
 #: C/notifications.page:48
 msgid "Body"
-msgstr ""
+msgstr "Brödtext"
 
 #. (itstool) path: td/p
 #: C/notifications.page:48
@@ -7001,27 +7316,30 @@ msgid ""
 "The notification body can include multiple paragraphs. For example: a "
 "snippet from the beginning of an email."
 msgstr ""
+"Ett ej obligatoriskt textblock som ger extra detaljer om programmet. "
+"Aviseringens brödtext kan innehålla flera stycken. Till exempel en textsnutt "
+"från början av ett e-postmeddelande."
 
 #. (itstool) path: td/p
 #: C/notifications.page:51
 msgid "Default Action"
-msgstr ""
+msgstr "Standardåtgärd"
 
 #. (itstool) path: td/p
 #: C/notifications.page:51
 msgid ""
 "This is the action that is triggered when the notification is activated."
-msgstr ""
+msgstr "Detta är åtgärden som utlöses då aviseringen aktiveras."
 
 #. (itstool) path: td/p
 #: C/notifications.page:54
 msgid "Actions"
-msgstr ""
+msgstr "Åtgärder"
 
 #. (itstool) path: td/p
 #: C/notifications.page:54
 msgid "Each notification can include up to three buttons."
-msgstr ""
+msgstr "Varje avisering kan innehålla upp till tre knappar."
 
 #. (itstool) path: section/title
 #: C/notifications.page:60
@@ -7036,11 +7354,14 @@ msgid ""
 "so it is important to ensure that the notification can be understood from "
 "the title alone."
 msgstr ""
+"Titeln bör tillhandahålla en kort och koncis sammanfattning av händelsen som "
+"utlöste aviseringen. Aviseringens brödtext är kanske inte alltid synlig, så "
+"det är viktigt att säkerställa att aviseringen kan förstås av bara titeln."
 
 #. (itstool) path: section/title
 #: C/notifications.page:67
 msgid "Default actions"
-msgstr ""
+msgstr "Standardåtgärder"
 
 #. (itstool) path: section/p
 #: C/notifications.page:69
@@ -7052,11 +7373,17 @@ msgid ""
 "notification about a new email should show the relevant email message when "
 "activated, for example."
 msgstr ""
+"Standardåtgärden bör alltid avfärda aviseringen och höja upp ett fönster som "
+"tillhör programmet som skickade aviseringen. Om aviseringen är relaterad "
+"till en specifik del av ditt programs användargränssnitt bör "
+"standardåtgärden visa den delen av användargränssnittet. Standardåtgärden "
+"för en avisering om ett nytt e-postmeddelande bör exempelvis visa det "
+"relevanta e-postmeddelandet då den aktiveras."
 
 #. (itstool) path: section/title
 #: C/notifications.page:74
 msgid "Notification actions"
-msgstr ""
+msgstr "Aviseringsåtgärder"
 
 #. (itstool) path: section/p
 #: C/notifications.page:76
@@ -7064,6 +7391,8 @@ msgid ""
 "You can provide useful functionality by embedding buttons in notifications. "
 "This allows users to quickly and easily respond to the notification."
 msgstr ""
+"Du kan tillhandahålla användbar funktionalitet genom att bädda in knappar i "
+"aviseringar. Detta låter användare snabbt och lätt svara på aviseringen."
 
 #. (itstool) path: item/p
 #: C/notifications.page:79
@@ -7072,6 +7401,9 @@ msgid ""
 "and should not provide generic actions for your application. This ensures "
 "that each notification has a clear focus and purpose."
 msgstr ""
+"Aviseringsåtgärder bör vara relaterade till aviseringens innehåll, och bör "
+"inte tillhandahålla allmänna åtgärder för ditt program. Detta säkerställer "
+"att varje avisering har ett tydligt fokus och syfte."
 
 #. (itstool) path: item/p
 #: C/notifications.page:80
@@ -7079,6 +7411,8 @@ msgid ""
 "Only use notification actions when the functionality that they provide is "
 "commonly required."
 msgstr ""
+"Använd endast aviseringsåtgärder då funktionaliteten som de tillhandahåller "
+"vanligen krävs."
 
 #. (itstool) path: item/p
 #: C/notifications.page:81
@@ -7086,6 +7420,8 @@ msgid ""
 "Actions should not replace user interface controls elsewhere - it should be "
 "possible to take the same actions from your application’s windows."
 msgstr ""
+"Åtgärder bör inte ersätta komponenter på annat ställe i användargränssnittet "
+"- det bör vara möjligt att utföra samma åtgärder från ditt programs fönster."
 
 #. (itstool) path: item/p
 #: C/notifications.page:82
@@ -7093,6 +7429,8 @@ msgid ""
 "It is not necessary to always use notification actions, and many "
 "notifications will not require them."
 msgstr ""
+"Det är inte nödvändigt att alltid använda aviseringsåtgärder, och många "
+"aviseringar kommer inte att behöva dem."
 
 #. (itstool) path: item/p
 #: C/notifications.page:83
@@ -7101,11 +7439,14 @@ msgid ""
 "new email notification does not need to include an Open button, since the "
 "default action should already perform this action."
 msgstr ""
+"Aviseringsåtgärder bör inte upprepa standardåtgärden. Till exempel behöver "
+"en avisering om ny e-post inte inkludera en Öppna-åtgärd då standardåtgärden "
+"redan bör utföra denna åtgärd."
 
 #. (itstool) path: section/title
 #: C/notifications.page:90
 msgid "General guidance"
-msgstr ""
+msgstr "Allmänna råd"
 
 #. (itstool) path: item/p
 #: C/notifications.page:93
@@ -7116,6 +7457,11 @@ msgid ""
 "notifications, and question whether users really need to be informed about "
 "the events you want to communicate."
 msgstr ""
+"Det är viktigt att inte i onödan distrahera användare med aviseringar. Detta "
+"kan lätt bli irriterande och frustrerande, och kommer inte att få användare "
+"att tycka om ditt program. Var därför alltid kritisk då du använder "
+"aviseringar, och ifrågasätt huruvida användare verkligen behöver informeras "
+"om de händelser som du vill kommunicera."
 
 #. (itstool) path: item/p
 #: C/notifications.page:94
@@ -7127,6 +7473,12 @@ msgid ""
 "notification for each new message, it is a good idea for each notification "
 "to provide a summary of new messages."
 msgstr ""
+"Program som hanterar många händelser, så som e-postmeddelanden eller "
+"meddelanden i sociala medier, löper en speciell risk att distrahera "
+"användare med för många aviseringar. Dessa program bör införa restriktioner "
+"över hur ofta de sänder aviseringsmeddelanden. Istället för att visa en "
+"avisering för varje nytt meddelande är det en bra idé att varje avisering "
+"tillhandahåller en sammanfattning över nya meddelanden."
 
 #. (itstool) path: item/p
 #: C/notifications.page:95
@@ -7135,6 +7487,9 @@ msgid ""
 "It is therefore important to remove notification messages that are no longer "
 "relevant to the user."
 msgstr ""
+"Aviseringar i GNOME 3 består efter att de visats första gången. Det är "
+"därför viktigt att ta bort aviseringsmeddelanden som inte längre är "
+"relevanta för användaren."
 
 #. (itstool) path: item/p
 #: C/notifications.page:97
@@ -7144,6 +7499,9 @@ msgid ""
 "window is focused, notification messages should be treated as having been "
 "read, and should be removed."
 msgstr ""
+"Ditt programfönster bör tillhandahålla återkoppling för alla händelser som "
+"har kommunicerats av aviseringar. Som ett resultat bör aviseringsmeddelanden "
+"betraktas som lästa då ditt programfönster är fokuserat, och bör tas bort."
 
 #. (itstool) path: item/p
 #: C/notifications.page:98
@@ -7152,6 +7510,8 @@ msgid ""
 "For example, a notification for a weather warning that has been revoked "
 "should be removed."
 msgstr ""
+"Säkerställ att ditt program tar bort aviseringar som inte längre är giltiga. "
+"Exempelvis bör en avisering för en vädervarning som har återkallats tas bort."
 
 #. (itstool) path: item/p
 #: C/notifications.page:107
@@ -7165,12 +7525,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/overlaid-controls.page:7
 msgid "Floating controls, often used for images and video controls"
-msgstr ""
+msgstr "Svävande komponenter, ofta använda för bilder och videokomponenter"
 
 #. (itstool) path: page/title
 #: C/overlaid-controls.page:15
 msgid "Overlaid controls"
-msgstr ""
+msgstr "Överdragskomponenter"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -7192,6 +7552,8 @@ msgid ""
 "Transient controls that float over content are a common pattern for "
 "applications that show images or video."
 msgstr ""
+"Tillfälliga komponenter som svävar ovanför innehåll är ett vanligt mönster "
+"för program som visar bilder eller video."
 
 #. (itstool) path: section/p
 #: C/overlaid-controls.page:24
@@ -7201,6 +7563,11 @@ msgid ""
 "to present a clean and distraction-free view on a content item - this is "
 "particularly (although not exclusively) appropriate for images and video."
 msgstr ""
+"Eftersom överdragskomponenter döljs då de inte används så hjälper det till "
+"att tillhandahålla en stilren visningsupplevelse. De är lämpliga då det är "
+"önskvärt att presentera en ren och distraktionsfri vy för ett "
+"innehållsobjekt - detta är speciellt lämpligt (men inte bara då) för bilder "
+"och videoklipp."
 
 #. (itstool) path: section/p
 #: C/overlaid-controls.page:26
@@ -7209,6 +7576,10 @@ msgid ""
 "content below. Image editing controls may interfere with the ability to see "
 "their effects, for example. In these cases, controls should not be overlaid."
 msgstr ""
+"Överdragskomponenter kan vara olämpliga om de döljer relevanta delar av "
+"innehållet under. Komponenter för bildredigering kan exempelvis störa "
+"förmågan att se de effekter som de har. I dessa fall bör komponenter inte "
+"vara överdragna."
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:34
@@ -7216,6 +7587,9 @@ msgid ""
 "Follow established conventions for this type of control, such as left/right "
 "browse buttons in image viewers, and player controls at the bottom for video."
 msgstr ""
+"Följ etablerade konventioner för denna komponenttyp, så som vänster-/"
+"högerknappar för bläddring i bildvisare, och uppspelningskomponenter längst "
+"ner för videoklipp."
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:35
@@ -7223,6 +7597,8 @@ msgid ""
 "Controls should be displayed when the pointer is moved over the content, or "
 "when it is tapped (on touch devices)."
 msgstr ""
+"Komponenter bör visas när pekaren dras över innehållet, eller när det trycks "
+"på (på pekenheter)."
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:36
@@ -7231,11 +7607,15 @@ msgid ""
 "be free-floating. <link xref=\"action-bars\">Action bars</link> can be "
 "treated as overlaid controls."
 msgstr ""
+"Överdragskomponenter kan fästas vid kanten på innehållet/fönstret, eller kan "
+"sväva fritt. <link xref=\"action-bars\">Åtgärdsrader</link> kan betraktas "
+"som överdragskomponenter."
 
+# OSD: on-screen-display
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:37
 msgid "Use the standard \"OSD\" theme style for overlaid controls."
-msgstr ""
+msgstr "Använd standardtemats ”OSD”-stil för överdragskomponenter."
 
 #. (itstool) path: page/title
 #: C/patterns.page:13
@@ -7252,16 +7632,23 @@ msgid ""
 "details the appropriate uses of each pattern, and suggests alternatives that "
 "might be applicable."
 msgstr ""
+"Mönster är de primära element som en programdesign består av. Vissa mönster, "
+"så som programmenyer och rubrikrader, rekommenderas starkt. Andra är "
+"valfria, och att välja vilka mönster som du vill använda formar en central "
+"del av designprocessen. För att hjälpa till med detta ger sidan för varje "
+"mönster detaljer kring lämplig användning av mönstret, och föreslår "
+"alternativ som kan vara tillämpliga."
 
 #. (itstool) path: section/title
 #: C/patterns.page:18
 msgid "Anatomy of a GNOME 3 application"
-msgstr ""
+msgstr "Ett GNOME 3-programs anatomi"
 
 #. (itstool) path: section/p
 #: C/patterns.page:19
 msgid "A visual reference for some of the most common GNOME 3 design patterns."
 msgstr ""
+"En visuell referens för några av de vanligaste designmönstren i GNOME 3."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -7280,17 +7667,17 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/patterns.page:24
 msgid "Core design patterns"
-msgstr ""
+msgstr "Centrala designmönster"
 
 #. (itstool) path: section/title
 #: C/patterns.page:30
 msgid "Supplementary design patterns"
-msgstr ""
+msgstr "Kompletterande designmönster"
 
 #. (itstool) path: page/title
 #: C/pointer-and-touch-input.page:17
 msgid "Pointer and touch input"
-msgstr ""
+msgstr "Pekar- och pekinmatning"
 
 #. (itstool) path: page/p
 #: C/pointer-and-touch-input.page:19
@@ -7298,11 +7685,13 @@ msgid ""
 "Pointer and touch input are two of the primary means through which users "
 "will interact with your application."
 msgstr ""
+"Inmatning med pekare och pekinmatning är två av de främsta sätten genom "
+"vilka användare kommer att interagera med ditt program."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:22
 msgid "Pointer input"
-msgstr ""
+msgstr "Pekarinmatning"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:24
@@ -7313,11 +7702,16 @@ msgid ""
 "variety of such devices, including graphics tablets, track balls, track "
 "points and joysticks."
 msgstr ""
+"Ett pekdon är en inmatningsenhet som tillåter manipulering av en pekare - "
+"typiskt representerad med en pil, och ofta kallad en markör - på skärmen. "
+"Även om möss och styrplattor är vanligast, så finns det ett stort antal "
+"sådana enheter, inkluderande ritplattor, styrkulor, styrpinnar och "
+"styrspakar."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:27
 msgid "Primary and secondary buttons"
-msgstr ""
+msgstr "Primär och sekundär knapp"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:29
@@ -7329,6 +7723,12 @@ msgid ""
 "translate to touchscreen input. These guidelines therefore refer to primary "
 "and secondary action, rather than left and right."
 msgstr ""
+"Möss och styrplattor har ofta två huvudknappar. En av dessa agerar som den "
+"primära knappen, och den andra som den sekundära knappen. Typiskt används "
+"vänsterknappen som primär knapp och den högra knappen som sekundär knapp. "
+"Denna ordning går dock att konfigurera av användaren och gäller inte för "
+"inmatning på pekskärm. Dessa riktlinjer hänvisar därför till primär och "
+"sekundär åtgärd snarare än vänster och höger."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:31
@@ -7337,6 +7737,9 @@ msgid ""
 "secondary action can be used for accessing additional options, typically "
 "through a context menu."
 msgstr ""
+"Använd den primära åtgärden för att markera objekt och aktivera komponenter. "
+"Den sekundära åtgärden kan användas för att komma åt ytterligare alternativ, "
+"vanligen genom en snabbvalsmeny."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:33
@@ -7345,6 +7748,10 @@ msgid ""
 "as being physically more difficult to click, some pointing devices and many "
 "assistive technology devices only support or emulate the primary button."
 msgstr ""
+"Var inte beroende av inmatning från sekundära eller andra ytterligare "
+"knappar. Så väl som att dessa är fysiskt svårare att klicka på så stöder "
+"eller emulerar vissa pekdon och många hjälpmedelsteknologier bara den "
+"primära knappen."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:35
@@ -7353,6 +7760,8 @@ msgid ""
 "button pointing devices. Therefore, do not use press and hold for other "
 "purposes."
 msgstr ""
+"Tryck och håll ner bör användas för att simulera den sekundära knappen för "
+"pekdon med en knapp. Använd därför inte tryck och håll ner för andra syften."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:43
@@ -7360,6 +7769,8 @@ msgid ""
 "Double click should not be used, since it is undiscoverable, and translates "
 "poorly to touch input."
 msgstr ""
+"Dubbelklick bör inte användas, då det inte går att upptäcka, och är svårt "
+"att översätta till pekinmatning."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:44
@@ -7368,6 +7779,10 @@ msgid ""
 "under the pointer, if it supports scrolling. Initiating scrolling in this "
 "way should not move keyboard focus to the window or control being scrolled."
 msgstr ""
+"Om det finns ett rullningshjul på musen bör detta rulla fönstret eller "
+"komponenten under pekaren, om stöd för rullning finns. Att initiera rullning "
+"på detta sätt bör inte flytta tangentbordsfokus till fönstret eller "
+"komponenten som rullas."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:45
@@ -7375,6 +7790,8 @@ msgid ""
 "Do not require the use of chording (pressing multiple mouse buttons "
 "simultaneously) for any operations."
 msgstr ""
+"Kräv inte användandet av ackord (att trycka ned flera musknappar samtidigt) "
+"för några åtgärder."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:46
@@ -7383,6 +7800,9 @@ msgid ""
 "for any operations, unless you also provide an accessible alternative method "
 "of performing the same action."
 msgstr ""
+"Kräv inte användning av flera (tredubbla eller fyrdubbla) klickåtgärder för "
+"några operationer, om du inte också tillhandahåller en tillgänglig "
+"alternativ metod för att utföra samma åtgärd."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:47
@@ -7392,6 +7812,9 @@ msgid ""
 "dragging and dropping a file in a file manager, or drawing a shape in a "
 "drawing application."
 msgstr ""
+"Tillåt alla musåtgärder att avbrytas innan de slutförts. Att trycka ned "
+"<key>Esc</key> bör avbryta alla pågående musåtgärder, så som att dra och "
+"släppa en fil i en filhanterare, eller att rita en form i ett ritprogram."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:48
@@ -7401,6 +7824,10 @@ msgid ""
 "middle and right buttons, so any text or diagrams that refer to those may be "
 "confusing."
 msgstr ""
+"Hänvisa inte till specifika musknappar i ditt gränssnitt om inte absolut "
+"nödvändigt. Alla kommer inte att använda en vanlig mus med vänster-, mitt- "
+"och högerknappar, så alla texter eller diagram som hänvisar till dessa kan "
+"vara förvirrande."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:54
@@ -7428,6 +7855,8 @@ msgid ""
 "If your application allows items to be selected, the following equivalent "
 "actions should be in place."
 msgstr ""
+"Om ditt program tillåter att objekt markeras bör följande ekvivalenta "
+"åtgärder finnas tillgängliga."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:63 C/pointer-and-touch-input.page:118
@@ -7447,37 +7876,37 @@ msgstr "Tangentbord"
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:70
 msgid "Open an item"
-msgstr ""
+msgstr "Öppna ett objekt"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:71 C/pointer-and-touch-input.page:86
 msgid "Primary button"
-msgstr ""
+msgstr "Primär knapp"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:75
 msgid "Add/remove item from selection"
-msgstr ""
+msgstr "Lägg till/ta bort objekt från markeringen"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:76
 msgid "<key>Ctrl</key> and primary button"
-msgstr ""
+msgstr "<key>Ctrl</key> och primär knapp"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:77
 msgid "<keyseq><key>Ctrl</key><key>Space</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>Blanksteg</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:80
 msgid "Extend selection"
-msgstr ""
+msgstr "Utöka markering"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:81
 msgid "<key>Shift</key> and primary button"
-msgstr ""
+msgstr "<key>Skift</key> och primär knapp"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:82
@@ -7485,11 +7914,13 @@ msgid ""
 "<key>Shift</key> in combination with any of the following: <key>Space</key> "
 "<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 msgstr ""
+"<key>Skift</key> i kombination med någon av följande: <key>Blanksteg</key> "
+"<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:85
 msgid "Change selection"
-msgstr ""
+msgstr "Ändra markering"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:87
@@ -7497,11 +7928,13 @@ msgid ""
 "Any of the following: <key>←</key> <key>↑</key> <key>→</key> <key>↓</key> "
 "<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 msgstr ""
+"Någon av följande: <key>←</key> <key>↑</key> <key>→</key> <key>↓</key> "
+"<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:90
 msgid "Select all"
-msgstr ""
+msgstr "Markera alla"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:91
@@ -7509,21 +7942,23 @@ msgid ""
 "Primary button on first item, then primary button and <key>Shift</key> on "
 "the last item"
 msgstr ""
+"Primär knapp på det första objektet, sedan primär knapp och <key>Skift</key> "
+"på det sista objektet"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:95
 msgid "Deselect all"
-msgstr ""
+msgstr "Avmarkera alla"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:96
 msgid "Primary click on the container background"
-msgstr ""
+msgstr "Primärklick på behållarens bakgrund"
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:106
 msgid "Touch input"
-msgstr ""
+msgstr "Pekinmatning"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:108
@@ -7534,11 +7969,16 @@ msgid ""
 "hardware, and to conform to users’ expectations, it is therefore important "
 "to consider touch input as a part of application design."
 msgstr ""
+"Pekskärmar är också en alltmer vanlig del av modern datorhårdvara, och "
+"program som skapats med GTK+ är troliga att användas med hårdvara som "
+"innehåller en pekskärm. För att få ut det mesta av den här hårdvaran, och "
+"för att följa användares förväntningar så är det därför viktigt att överväga "
+"pekinmatning som en del av programdesignen."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:111
 msgid "Application touch conventions"
-msgstr ""
+msgstr "Pekkonventioner för program"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:113
@@ -7547,6 +7987,9 @@ msgid ""
 "easily learn how to use your application with a touch screen. The following "
 "conventions are recommended, where relevant."
 msgstr ""
+"Att använda pekinmatning konsekvent med andra program kommer låta användare "
+"att lätt lära sig hur de använder ditt program med en pekskärm. Följande "
+"konventioner rekommenderas där de är relevanta."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:120
@@ -7556,7 +7999,7 @@ msgstr "Resultat"
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:125
 msgid "<em style=\"strong\">Tap</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Trycka</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7573,7 +8016,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:129
 msgid "Tap on an item."
-msgstr ""
+msgstr "Tryck på ett objekt."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:130
@@ -7581,11 +8024,13 @@ msgid ""
 "Primary action. Item opens - photo is shown full size, application launches, "
 "song starts playing."
 msgstr ""
+"Primär åtgärd. Objekt öppnas - foton visas i fullständig storlek, program "
+"startas, låtar börjar spelas."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:133
 msgid "<em style=\"strong\">Press and hold</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Tryck och håll ner</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7604,18 +8049,18 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:137
 msgid "Press and hold for a second or two."
-msgstr ""
+msgstr "Tryck och håll ner en sekund eller två."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:138
 msgid ""
 "Secondary action. Select the item and list actions that can be performed."
-msgstr ""
+msgstr "Sekundär åtgärd. Markera objektet och lista åtgärder som kan utföras."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:141
 msgid "<em style=\"strong\">Drag</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Dra</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7632,17 +8077,17 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:145
 msgid "Slide finger touching the surface."
-msgstr ""
+msgstr "Dra ett finger som rör ytan."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:146
 msgid "Scrolls area on screen."
-msgstr ""
+msgstr "Rullar området på skärmen."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:149
 msgid "<em style=\"strong\">Pinch or stretch</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Nyp ihop eller sträck ut</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7662,17 +8107,17 @@ msgstr ""
 #: C/pointer-and-touch-input.page:153
 msgid ""
 "Touch surface with two fingers while bringing them closer or further apart."
-msgstr ""
+msgstr "Rör ytan med två fingrar medan du drar ihop eller isär dem."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:154
 msgid "Changes the zoom level of the view (eg. Maps, Photos)."
-msgstr ""
+msgstr "Ändrar zoomnivån för vyn (t.ex. Kartor, Foton)."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:157
 msgid "<em style=\"strong\">Double tap</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Dubbeltrycka</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7691,17 +8136,17 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:161
 msgid "Tap twice in quick succession."
-msgstr ""
+msgstr "Tryck två gånger i rask följd."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:162
 msgid "Stepped zoom in."
-msgstr ""
+msgstr "Stegad inzoomning."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:165
 msgid "<em style=\"strong\">Flick</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Snärta</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7720,16 +8165,17 @@ msgstr ""
 msgid ""
 "Very quick drag, losing contact with the surface without slowing movement."
 msgstr ""
+"Väldigt snabb dragning, förlorar kontakt med ytan utan att sänka hastigheten."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:170
 msgid "Removes an item."
-msgstr ""
+msgstr "Tar bort ett objekt."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:178
 msgid "System touch conventions"
-msgstr ""
+msgstr "Pekkonventioner för systemet"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:180
@@ -7737,11 +8183,13 @@ msgid ""
 "In GNOME 3, a number of touch gestures are reserved for use by the system. "
 "These should be avoided by applications."
 msgstr ""
+"I GNOME är ett antal pekgester reserverade för användning av systemet. Dessa "
+"bör undvikas av program."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:184
 msgid "<em style=\"strong\">Edge drag</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Kantdrag</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7760,28 +8208,30 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:188
 msgid "Slide finger starting from a screen edge."
-msgstr ""
+msgstr "Dra ett finger med början från en skärmkant."
 
+# Osäker. Skulle även kunna vara vänstra delen av övre kanten
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:189
 msgid "Top-left edge opens the application menu."
-msgstr ""
+msgstr "Övre delen av vänstra kanten öppnar programmenyn."
 
+# Osäker. Skulle även kunna vara högra delen av övre kanten
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:190
 msgid "Top-right edge opens the system status menu."
-msgstr ""
+msgstr "Övre delen av högra kanten öppnar systemstatusmenyn."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:191
 msgid ""
 "Left edge opens the Activities Overview with the application view visible."
-msgstr ""
+msgstr "Vänsterkanten öppnar översiktsvyn Aktiviteter med programvyn synlig."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:194
 msgid "<em style=\"strong\">Three finger pinch</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Trefingernyp</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7800,17 +8250,17 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:198
 msgid "Bring three or more fingers closer together while touching the surface."
-msgstr ""
+msgstr "För ihop tre eller fler fingrar när du rör ytan."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:199
 msgid "Opens the Activities Overview."
-msgstr ""
+msgstr "Öppnar översiktsvyn Aktiviteter."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:202
 msgid "<em style=\"strong\">Four finger drag</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Fyrfingerdrag</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7829,17 +8279,17 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:206
 msgid "Drag up or down with four fingers touching the surface."
-msgstr ""
+msgstr "Dra uppåt eller nedåt med fyra fingrar som rör ytan."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:207
 msgid "Switches workspace."
-msgstr ""
+msgstr "Växlar arbetsyta."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:210
 msgid "<em style=\"strong\">Three finger hold and tap</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Trefingerhållning och tryck</em>"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -7858,17 +8308,17 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:214
 msgid "Hold three fingers on the surface while tapping with the fourth."
-msgstr ""
+msgstr "Håll ner tre fingrar på ytan medan du trycker med det fjärde."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:215
 msgid "Switches application."
-msgstr ""
+msgstr "Växlar program."
 
 #. (itstool) path: page/title
 #: C/popovers.page:18
 msgid "Popovers"
-msgstr ""
+msgstr "Kontextfönster"
 
 #. (itstool) path: page/p
 #: C/popovers.page:20
@@ -7878,6 +8328,11 @@ msgid ""
 "including buttons, lists or menus. They are often used as a part of button "
 "menus or context menus."
 msgstr ""
+"Ett kontextfönster är en tillfällig behållare som dyker upp ovanför sitt "
+"överordnade fönster som svar på en användaråtgärd. Kontextfönster kan "
+"innehålla en mängd olika användargränssnittselement, inklusive knappar, "
+"listor och menyer. De används ofta som en del av knappmenyer eller "
+"snabbvalsmenyer."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -7901,6 +8356,10 @@ msgid ""
 "contain settings and preferences. They are a very flexible interface element "
 "that lend themselves to creative design solutions."
 msgstr ""
+"Kontextfönster kan användas för att visa extra komponenter som användaren "
+"inte alltid behöver. De kan låta användaren utföra åtgärder eller så kan de "
+"innehålla inställningar. De är ett väldigt flexibelt gränssnittselement som "
+"är lämpligt för kreativa designlösningar."
 
 #. (itstool) path: section/p
 #: C/popovers.page:29
@@ -7911,23 +8370,32 @@ msgid ""
 "flexible version of a button menu, allowing groups of controls to be "
 "accessed when needed. Examples of this include:"
 msgstr ""
+"Ett kontextfönster bör alltid relateras till ett specifikt "
+"gränssnittselement som agerar som kontextfönstrets källa. Vanligen är detta "
+"antingen en knapp eller ett innehållsobjekt. Då de utlöses av en knapp kan "
+"ett kontextfönster användas som en mer flexibel variant av en knappmeny, "
+"vilken låter grupper av komponenter kommas åt då de behövs. Exempel på detta "
+"inkluderar:"
 
 #. (itstool) path: item/p
 #: C/popovers.page:32
 msgid "Revealing a small toolbox of text formatting controls."
-msgstr ""
+msgstr "Att visa en liten verktygslåda med komponenter för textformatering."
 
 #. (itstool) path: item/p
 #: C/popovers.page:33
 msgid ""
 "A find interface, with a search entry box and a space for a list of results."
 msgstr ""
+"Ett sökgränssnitt, med en sökruta och plats för en lista över resultat."
 
 #. (itstool) path: item/p
 #: C/popovers.page:34
 msgid ""
 "A collection of view controls, such as zoom, list/grid and content ordering."
 msgstr ""
+"En samling av visningskomponenter så som zoom, lista/rutnät samt sortering "
+"av innehåll."
 
 #. (itstool) path: section/p
 #: C/popovers.page:37
@@ -7941,11 +8409,19 @@ msgid ""
 "requires one of the common conventions for dialog usage, such as a "
 "confirmation dialog."
 msgstr ""
+"Som en mekanism för att visa ytterligare komponenter eller information så "
+"liknar kontextfönster <link xref=\"dialogs\">dialogfönster</link>. Deras "
+"huvudsakliga fördel över dialogrutor är att de stör mindre och har en nära "
+"relation till ett enda element som kontextfönstret pekar på. Du bör dock "
+"fortfarande överväga att använda en dialogruta om du vill visa stora mängder "
+"information eller mer komplexa arrangemang av komponenter, eller om "
+"situationen kräver en av de vanliga konventionerna för dialoganvändning, så "
+"som en bekräftelsedialog."
 
 #. (itstool) path: section/title
 #: C/popovers.page:42
 msgid "Popover content"
-msgstr ""
+msgstr "Innehåll i kontextfönster"
 
 #. (itstool) path: item/p
 #: C/popovers.page:45
@@ -7955,6 +8431,10 @@ msgid ""
 "However, don’t mix too many different types of control within the same "
 "popover, and try to group controls of the same type together."
 msgstr ""
+"Ett kontextfönster är en generisk behållare, och kan innehålla en stor bredd "
+"av komponenter så som knappar, skjutreglage, listor, växelknappar och "
+"textfält. Blanda dock inte för många olika sorters komponenter i samma "
+"kontextfönster, och försök gruppera komponenter av samma typ tillsammans."
 
 #. (itstool) path: item/p
 #: C/popovers.page:46
@@ -7962,6 +8442,8 @@ msgid ""
 "Popovers can function as a container for a menu, or for a menu in "
 "combination with a small number of supplementary controls."
 msgstr ""
+"Kontextfönster kan fungera som en behållare för en meny, eller för en meny i "
+"kombination med ett litet antal kompletterande komponenter."
 
 #. (itstool) path: item/p
 #: C/popovers.page:47
@@ -7969,6 +8451,8 @@ msgid ""
 "If the purpose of a popover’s controls is ambiguous, the popover can be "
 "given a heading."
 msgstr ""
+"Om syftet för ett kontextfönsters komponenter är tvetydigt så kan "
+"kontextfönstret ges en rubrik."
 
 #. (itstool) path: item/p
 #: C/popovers.page:48
@@ -7976,6 +8460,8 @@ msgid ""
 "<gui>Close</gui> or <gui>Done</gui> buttons are not usually required in a "
 "popover."
 msgstr ""
+"Knapparna <gui>Stäng</gui> eller <gui>Färdig</gui> behövs vanligen inte i "
+"ett kontextfönster."
 
 #. (itstool) path: section/p
 #: C/popovers.page:57
@@ -7984,6 +8470,9 @@ msgid ""
 "cover more than a third of their parent window) and low in complexity. They "
 "should always appear as subordinates to their parent windows."
 msgstr ""
+"Kontextfönster bör alltid vara små (som en tumregel bör de aldrig täcka mer "
+"än en tredjedel av sitt överordnade fönster) och med låg komplexitet. De bör "
+"alltid dyka upp som underställda sina föräldrafönster."
 
 #. (itstool) path: section/p
 #: C/popovers.page:58
@@ -7991,6 +8480,8 @@ msgid ""
 "A popover should only ever appear in response to a user action, and should "
 "never appear in a surprising or unintended manner."
 msgstr ""
+"Ett kontextfönster bör endast dyka upp som svar på en användaråtgärd, och "
+"bör aldrig dyka upp oavsiktligt eller på ett förvånande sätt."
 
 #. (itstool) path: item/p
 #: C/popovers.page:67
@@ -8004,7 +8495,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/primary-windows.page:7
 msgid "The main window(s) for your application"
-msgstr ""
+msgstr "Huvudfönster för ditt program"
 
 #. (itstool) path: page/title
 #: C/primary-windows.page:15
@@ -8031,12 +8522,14 @@ msgid ""
 "Primary windows are the basic high-level container for your application user "
 "interface, and should present the core functionality of your application."
 msgstr ""
+"Primära fönster är den grundläggande högnivåbehållaren för ditt programs "
+"användargränssnitt, och bör presentera kärnfunktionaliteten för ditt program."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:24
 msgid ""
 "Every application should have at least one primary window associated with it."
-msgstr ""
+msgstr "Varje program bör ha minst ett primärt fönster associerat med sig."
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:29
@@ -8046,12 +8539,12 @@ msgstr "Programtyper"
 #. (itstool) path: section/p
 #: C/primary-windows.page:31
 msgid "There are two main models for primary windows:"
-msgstr ""
+msgstr "Det finns två huvudmodeller för primära fönster:"
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:34
 msgid "Single instance applications"
-msgstr ""
+msgstr "Enkelinstansprogram"
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:36
@@ -8059,11 +8552,13 @@ msgid ""
 "Single instance applications have a single primary window. This model is "
 "common for messaging applications, such as email, chat, or contacts."
 msgstr ""
+"Enkelinstansprogram har ett ensamt primärt fönster. Denna modell är vanlig "
+"för meddelandeprogram så som e-post, chatt eller kontakter."
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:41
 msgid "Multiple instance applications"
-msgstr ""
+msgstr "Flerinstansprogram"
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:43
@@ -8072,6 +8567,9 @@ msgid ""
 "each primary window will be identical. Multi-instance applications are "
 "frequently viewers or editors, such as for documents or images."
 msgstr ""
+"Flerinstansprogram kan ha flera primära fönster. Typiskt kommer varje "
+"primärt fönster att vara identiskt. Flerinstansprogram är ofta visare eller "
+"redigerare, så som för dokument eller bilder."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:45
@@ -8081,26 +8579,32 @@ msgid ""
 "link> or browser-style navigation. However, multiple windows do offer "
 "additional capabilities, which include:"
 msgstr ""
+"Både enkel- och flerinstansprogram kan tillåta att flera innehållsobjekt "
+"öppnas, antingen genom användandet av <link xref=\"tabs\">flikar</link> "
+"eller genom navigering av bläddrarstil. Flera fönster erbjuder dock "
+"ytterligare förmåga, vilket inkluderar:"
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:48
 msgid "Viewing several content items alongside each other."
-msgstr ""
+msgstr "Att visa flera innehållsobjekt vid sidan om varandra."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:49
 msgid "Placing content on different workspaces."
-msgstr ""
+msgstr "Att placera innehåll på olika arbetsytor."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:50
 msgid "Organizing sets of content into different windows (if using tabs)."
 msgstr ""
+"Att organisera uppsättningar av innehåll in i olika fönster (om flikar "
+"används)."
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:54
 msgid "Parent/child primary windows"
-msgstr ""
+msgstr "Överordnade/underordnade primära fönster"
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:56
@@ -8109,6 +8613,8 @@ msgid ""
 "the case multiple web browser windows, for example). However, this is not "
 "always the case."
 msgstr ""
+"Flerinstansprogram har typiskt identiska primära fönster (exempelvis i "
+"fallet med flera webbläsarfönster). Detta är dock inte alltid fallet."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:58
@@ -8119,6 +8625,11 @@ msgid ""
 "a separate child window. This allows multiple content items to be "
 "simultaneously open."
 msgstr ""
+"Primära fönster kan ha en överordnad/underordnad-relation. I denna slags "
+"program finns det alltid bara ett överordnat fönster, Detta innehåller "
+"typiskt en översikt av innehållsobjekt som kan öppnas i det överordnade "
+"fönstret, eller i ett avskilt underordnat fönster. Detta tillåter att flera "
+"innehållsobjekt kan vara öppna samtidigt."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:60
@@ -8127,6 +8638,9 @@ msgid ""
 "dependent on them in order to stay open: closing the parent window does not "
 "result in the closure of the application's child windows."
 msgstr ""
+"Medan underordnade fönster bara kan öppnas genom ett överordnat fönster så "
+"är de inte beroende av dem för att förbli öppna: att stänga det överordnade "
+"fönstret resulterar inte i stängandet av programmets underordnade fönster."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:62
@@ -8134,13 +8648,15 @@ msgid ""
 "GNOME's <app>Notes</app> application is a good example of parent/child "
 "primary windows."
 msgstr ""
+"GNOME:s program <app>Anteckningar</app> är ett bra exempel på överordnade/"
+"underordnade primära fönster."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:73
 msgid ""
 "A single primary window should always be displayed when your application is "
 "launched."
-msgstr ""
+msgstr "Ett ensamt primärt fönster bör alltid visas då ditt program startas."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:74
@@ -8148,6 +8664,8 @@ msgid ""
 "If your application launcher is activated while your application is running, "
 "all its primary windows should be displayed."
 msgstr ""
+"Om din programstartare aktiveras medan ditt program körs bör alla dess "
+"primära fönster visas."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:75
@@ -8156,6 +8674,9 @@ msgid ""
 "not rely on dialogs or secondary windows in order to present basic "
 "functionality."
 msgstr ""
+"Primära fönster bör innehålla ditt programs huvudfunktionalitet. Förlita dig "
+"inte på dialogrutor eller sekundära fönster för att erbjuda grundläggande "
+"funktionalitet."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:76
@@ -8163,6 +8684,8 @@ msgid ""
 "Primary windows should be independent - closing one primary window should "
 "not result in other primary windows being closed."
 msgstr ""
+"Primära fönster bör vara oberoende - att stänga ett primärt fönster bör inte "
+"resultera i att andra primära fönster stängs."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:77
@@ -8170,6 +8693,8 @@ msgid ""
 "Dialog windows should always be dependent on a primary window. See the <link "
 "xref=\"dialogs\">dialogs page</link> guidelines."
 msgstr ""
+"Dialogfönster bör alltid vara beroende av ett primärt fönster. Se "
+"riktlinjerna på <link xref=\"dialogs\">dialogsidan</link>."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:78
@@ -8179,11 +8704,15 @@ msgid ""
 "careful to ensure that they follow the advice on minimum display sizes, "
 "display orientation, and half-screen snap."
 msgstr ""
+"Riktlinjerna kring <link xref=\"display-compatibility\">skärmkompatibilitet</"
+"link> är speciellt relevanta för primära fönster: se till att säkerställa "
+"att de följer rådet om minsta visningsstorlekar, skärmformat och "
+"halvbreddsfästning."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:79
 msgid "<gui>Quit</gui> should close all primary windows."
-msgstr ""
+msgstr "<gui>Avsluta</gui> bör stänga alla primära fönster."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:88
@@ -8370,7 +8899,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/progress-bars.page:75
 msgid "Task stages"
-msgstr ""
+msgstr "Uppgiftsetapper"
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:77
@@ -8380,6 +8909,10 @@ msgid ""
 "the time remaining for part of a task, but not another part, for example. In "
 "these situations:"
 msgstr ""
+"Några uppgifter kan bestå av en serie av etapper som utförs efter varandra, "
+"där var och en har olika alternativ för tidsuppskattning. Det kan exempelvis "
+"vara möjligt att bedöma kvarvarande tid för en del av en uppgift, men inte "
+"för en annan del. I dessa situationer:"
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:80
@@ -8388,6 +8921,9 @@ msgid ""
 "user. Generally speaking, this will not be required, and it is not necessary "
 "or desirable to communicate separate stages in a task."
 msgstr ""
+"Kommunicera endast de olika etapperna av en uppgift då de är relevanta för "
+"användaren. I allmänhet kommer detta inte att behövas, och det är inte "
+"nödvändigt eller önskvärt att kommunicera enskilda etapper i en uppgift."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:81
@@ -8395,6 +8931,9 @@ msgid ""
 "If a task includes time-remaining and typical-time stages, try to create a "
 "single composite typical-time progress bar."
 msgstr ""
+"Om en uppgift innehåller etapper som beräknar kvarvarande tid respektive "
+"typisk tid, försök att skapa en sammansatt förloppsindikator som anger "
+"typisk tid."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:82
@@ -8405,11 +8944,16 @@ msgid ""
 "attempt to keep the number of progress bar mode changes to an absolute "
 "minimum. Avoid indeterminate progress wherever possible."
 msgstr ""
+"Om en uppgift innehåller en förloppsetapp av obestämbar längd så kan "
+"förloppsindikatorn visa okänt förlopp för en del av uppgiften. Du bör dock "
+"undvika att visa obestämda förloppsindikatorer under lång tid, och bör "
+"försöka hålla antalet lägesändringar för förloppsindikatorer till ett "
+"absolut minimum. Undvik obestämda förlopp närhelst det är möjligt."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:88
 msgid "Sub-tasks"
-msgstr ""
+msgstr "Deluppgifter"
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:90
@@ -8419,6 +8963,10 @@ msgid ""
 "bar which indicates composite progress for the overall task. However, there "
 "are some situations where this might not be the case:"
 msgstr ""
+"Om en uppgift består av flera deluppgifter (så som att hämta flera filer "
+"samtidigt) så är det i allmänhet rekommenderat att visa en enda "
+"förloppsindikator som indikerar det sammansatta förloppet för hela "
+"uppgiften. Det finns dock några situationer där detta kanske inte är fallet:"
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:93
@@ -8427,6 +8975,9 @@ msgid ""
 "individual sub-task. (As an alternative, completion of each sub-task can be "
 "indicated with progress text.)"
 msgstr ""
+"Om det är genuint användbart för användaren att veta förloppet för varje "
+"individuell deluppgift. (Som ett alternativ kan slutförande av varje "
+"deluppgift indikeras med en förloppstext.)"
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:94
@@ -8434,6 +8985,8 @@ msgid ""
 "If it might be necessary to pause or stop a sub-task (see the <link xref="
 "\"#general-guidelines\">general guidelines</link> on this, below)."
 msgstr ""
+"Om det kan vara nödvändigt att pausa eller stoppa en deluppgift (se de <link "
+"xref=\"#general-guidelines\">allmänna riktlinjerna</link> för detta nedan)."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:95
@@ -8441,11 +8994,14 @@ msgid ""
 "If sub-tasks are already indicated in your application's user interface. In "
 "this case, it can be less disruptive to show a progress for each item inline."
 msgstr ""
+"Om deluppgifter redan indikeras i ditt programs användargränssnitt. I detta "
+"fall kan det vara mindre störande att visa förloppet för varje objekt "
+"inbäddat."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:98
 msgid "When showing progress bars for sub-tasks:"
-msgstr ""
+msgstr "Då förloppsindikatorer visas för deluppgifter:"
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:101
@@ -8453,6 +9009,9 @@ msgid ""
 "Each sub-task should conform to the usage guidelines for progress bars (see "
 "<link xref=\"#when-to-use\">when to use</link>, above)."
 msgstr ""
+"Bör varje deluppgift följa riktlinjerna för användning av "
+"förloppsindikatorer (se <link xref=\"#when-to-use\">när ska de användas</"
+"link> ovan)."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:102
@@ -8460,6 +9019,8 @@ msgid ""
 "Generally speaking, it is not necessary to show a progress bar for overall "
 "progress through the set of tasks."
 msgstr ""
+"I allmänhet är det inte nödvändigt att visa en förloppsindikator för totalt "
+"förlopp genom uppsättningen av uppgifter."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:108
@@ -8715,6 +9276,10 @@ msgid ""
 "options. Only one radio button within a group may be set at any one time. As "
 "with check boxes, do not use radio buttons to initiate actions."
 msgstr ""
+"Radioknappar används i grupper för att välja från en ömsesidigt uteslutande "
+"uppsättning alternativ. Endast en radioknapp i en grupp kan sättas vid varje "
+"givet tillfälle. Som med kryssrutor, använd inte radioknappar för att "
+"initiera åtgärder."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -8737,6 +9302,9 @@ msgid ""
 "button on its own. To represent a single setting, use a check box or two "
 "radio buttons, one for each state."
 msgstr ""
+"Använd endast radioknappar i grupper om minst två, använd aldrig en ensam "
+"radioknapp på egen hand. Använd en kryssruta eller två radioknappar, en för "
+"varje tillstånd, för att representera en ensam inställning."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:41
@@ -8745,6 +9313,9 @@ msgid ""
 "exception is when the group is showing the properties of a multiple "
 "selection, when one or more of the buttons may be in their mixed state."
 msgstr ""
+"Exakt en radioknapp bör vara aktiverad i gruppen vid varje tillfälle. Det "
+"enda undantaget är när gruppen visar egenskaperna för ett flerval, då en "
+"eller flera av knapparna kan vara i sina mixade tillstånd."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:42
@@ -8752,6 +9323,9 @@ msgid ""
 "Clicking a radio button should not affect the values of any other controls. "
 "It may sensitize, insensitize, hide or show other controls, however."
 msgstr ""
+"Att klicka på en radioknapp bör inte påverka värdena av andra komponenter. "
+"Det kan dock göra andra komponenter klickbara eller oklickbara, eller dölja "
+"eller visa dem."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:43
@@ -8761,6 +9335,10 @@ msgid ""
 "This helps to indicate that the controls are dependent on the state of the "
 "radio button."
 msgstr ""
+"Om växlandet av en radioknapp påverkar klickbarheten för andra komponenter, "
+"placera radioknappen omedelbart till vänster om komponenterna som den "
+"påverkar. Detta hjälper till att indikera att komponenterna är beroende av "
+"tillståndet hos radioknappen."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:44
@@ -8771,6 +9349,11 @@ msgid ""
 "the label that allows the user to set the radio button directly from the "
 "keyboard."
 msgstr ""
+"Använd <link xref=\"writing-style#capitalization\">stor bokstav i början på "
+"mening</link> för radioknappsetiketter, till exempel <gui>Växlad rörelse</"
+"gui>. Tillhandahåll en <link xref=\"keyboard-input#access-keys"
+"\">snabbtangent</link> i etiketten som låter användaren ställa in "
+"radioknappen direkt från tangentbordet."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:45
@@ -8779,7 +9362,11 @@ msgid ""
 "for some objects in the selection and unset for others, show the radio "
 "button in its mixed state."
 msgstr ""
+"Om radioknappen representerar en inställning i en markering av flera objekt "
+"som är inställd för några av objekten i markeringen och ej satt för andra, "
+"visa radioknappen i dess mixade tillstånd."
 
+# TODO: space after 'instead'
 #. (itstool) path: item/p
 #: C/radio-buttons.page:46
 msgid ""
@@ -8788,6 +9375,10 @@ msgid ""
 "instead— but you probably also need to think about how to simplify your user "
 "interface."
 msgstr ""
+"Placera inte mer än ungefär åtta radioknappar under samma grupprubrik. Om du "
+"behöver fler än åtta kan du överväga att använda en envalslista istället — "
+"men du behöver förmodligen också tänka över hur du kan förenkla ditt "
+"användargränssnitt."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:47
@@ -8796,6 +9387,9 @@ msgid ""
 "this makes them easier to scan visually. Use horizontal or rectangular "
 "alignments only if they greatly improve the layout of the window."
 msgstr ""
+"Försök arrangera grupper av radioknappar vertikalt snarare än horisontellt, "
+"då detta gör dem lättare att läsa av visuellt. Använd horisontella eller "
+"rektangulära arrangemang endast om det kraftigt förbättrar fönstrets layout."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:56
@@ -8830,10 +9424,9 @@ msgstr ""
 "external ref='figures/patterns/search.svg' "
 "md5='f46da86233f8152b6acb5a06a6afd3b3'"
 
-# sebras: Strange, strange sentence at the beginning... Filtering is searching is finding?!
+# GNOME ger find och search något olika betydelse. På svenska har dock båda översatts till sök.
 #. (itstool) path: page/p
 #: C/search.page:19
-#, fuzzy
 msgid ""
 "Search allows content items to be located by filtering content that is "
 "displayed on screen. It is distinct from find, which involves moving or "
@@ -9160,12 +9753,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/sidebar-lists.page:7
 msgid "Navigation sidebar that contains a list"
-msgstr ""
+msgstr "Navigeringssidopanel som innehåller en lista"
 
 #. (itstool) path: page/title
 #: C/sidebar-lists.page:15
 msgid "Sidebar lists"
-msgstr ""
+msgstr "Sidopanelslistor"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -9189,6 +9782,10 @@ msgid ""
 "controls. The sidebar divides the window in two, with content being shown on "
 "the opposite pane to the sidebar."
 msgstr ""
+"En sidopanelslista möjliggör växling mellan olika vyer. Dessa vyer kan "
+"innehålla grupper av innehållsobjekt, enstaka innehållsobjekt, eller "
+"uppsättningar av komponenter. Sidopanelen delar fönstret i två, där innehåll "
+"visas i panelen på motsatt sida om sidopanelen."
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:21
@@ -9197,6 +9794,9 @@ msgid ""
 "or an element that is shown on demand. They can also be used in dialog "
 "windows."
 msgstr ""
+"Sidopanelslistor kan användas i primära fönster, antingen som ett permanent "
+"inventarium eller som ett element som visas vid efterfrågan. De kan också "
+"användas i dialogfönster."
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:23
@@ -9205,6 +9805,9 @@ msgid ""
 "\">search</link> and <link xref=\"selection-mode\">selection mode</link> "
 "design patterns."
 msgstr ""
+"Sidopanelslistor kan användas tillsammans med designmönstren <link xref="
+"\"search\">sökning</link> och <link xref=\"selection-mode\">markeringsläge</"
+"link>."
 
 #. (itstool) path: section/p
 #: C/sidebar-lists.page:28
@@ -9213,6 +9816,8 @@ msgid ""
 "than can be accommodated by a standard <link xref=\"view-switchers\">view "
 "switcher</link>."
 msgstr ""
+"Använd en sidopanelslista då det är nödvändigt att visa ett större antal "
+"vyer än som ryms i en vanlig <link xref=\"view-switchers\">vyväxlare</link>."
 
 #. (itstool) path: section/p
 #: C/sidebar-lists.page:30
@@ -9220,6 +9825,8 @@ msgid ""
 "Sidebar lists also provide a possible alternative to browser-style "
 "navigation. They have a number of advantages here:"
 msgstr ""
+"Sidopanelslistor tillhandahåller också ett möjligt alternativ till "
+"navigering av bläddrarstil. De har ett antal fördelar här:"
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:33
@@ -9228,6 +9835,9 @@ msgid ""
 "experience. A sidebar would be inappropriate for browsing videos for this "
 "reason, but is well-suited to contacts."
 msgstr ""
+"Då innehållsobjekt har en smal bredd, och inte kräver en fångande "
+"upplevelse. En sidopanel skulle vara olämplig för att bläddra bland "
+"videoklipp av denna anledning, men passar bra för kontakter."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:34
@@ -9237,6 +9847,10 @@ msgid ""
 "ability for someone to view one item while simultaneously being aware of "
 "updates to the overall message list."
 msgstr ""
+"Då innehållsobjekt är dynamiska. För meddelandeprogram, där nya "
+"innehållsobjekt dyker upp eller äldre uppdateras, tillhandahåller en "
+"sidopanelslista förmågan att visa ett objekt under tiden medan man samtidigt "
+"är medveten om uppdateringar till den övergripande meddelandelistan."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:35
@@ -9244,6 +9858,8 @@ msgid ""
 "When it is possible to filter a collection of content, and there are a large "
 "number of filters."
 msgstr ""
+"Då det är möjligt att filtrera en samling av innehåll, och det finns ett "
+"stort antal filter."
 
 #. (itstool) path: section/p
 #: C/sidebar-lists.page:38
@@ -9251,6 +9867,8 @@ msgid ""
 "Temporary sidebar lists can also be displayed for particular views in your "
 "application."
 msgstr ""
+"Tillfälliga sidopanelslistor kan också visas för specifika vyer i ditt "
+"program."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:46
@@ -9259,6 +9877,9 @@ msgid ""
 "application. It is often best to place recently updated items at the top of "
 "the list."
 msgstr ""
+"Sortera listan enligt vad som är mest användbart för ditt programs "
+"användare. Det är ofta bäst att placera de senast uppdaterade objekten högst "
+"upp i listan."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:47
@@ -9267,6 +9888,9 @@ msgid ""
 "the list pane section of the header bar. Controls for search and selection "
 "should be found above the list."
 msgstr ""
+"Rubrikradskomponenter som påverkar sidopanelslistan bör placeras i "
+"rubrikradens listpanelsdel. Komponenter för sökning och markering bör hittas "
+"ovanför listan."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:48
@@ -9275,6 +9899,9 @@ msgid ""
 "However, be careful to ensure that the most important information is not "
 "lost, and work to ensure a clean and attractive appearance."
 msgstr ""
+"Varje rad i listan kan innehålla flera textrader samt bilder. Var dock "
+"försiktig så att inte den viktigaste informationen går förlorad, och arbeta "
+"för att säkerställa ett prydligt och attraktivt utseende."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:57
@@ -9304,6 +9931,7 @@ msgstr "Skjutreglage"
 #: C/sliders.page:32
 msgid "A slider allows the user to quickly select a value from a range."
 msgstr ""
+"Ett skjutreglage låter användaren snabbt välja ett värde från ett intervall."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -9327,6 +9955,11 @@ msgid ""
 "seeking through audio or video, changing a zoom or volume level, or setting "
 "values in image editors."
 msgstr ""
+"Skjutreglage kan användas för att antingen ändra ett värde, eller för "
+"navigering i ett innehållsobjekt, så som video, ljud eller till och med "
+"dokument. Vanliga användningsområden inkluderar att stega sig genom ljud "
+"eller video, att ändra en zoom- eller volymnivå, eller att ställa in värden "
+"i bildredigerare."
 
 #. (itstool) path: section/p
 #: C/sliders.page:41
@@ -9340,6 +9973,9 @@ msgid ""
 "relative to its current value is more important than choosing an absolute "
 "value."
 msgstr ""
+"Intervallet för värdena är fast och har en ordning, och att justera värdet "
+"relativt till dess nuvarande värde är viktigare än att välja ett specifikt "
+"värde."
 
 #. (itstool) path: item/p
 #: C/sliders.page:45
@@ -9347,6 +9983,8 @@ msgid ""
 "It is useful for the user to control the rate of change of the value in real "
 "time."
 msgstr ""
+"Det är användbart för användaren att styra värdets ändringshastighet i "
+"realtid."
 
 #. (itstool) path: section/p
 #: C/sliders.page:48
@@ -9354,6 +9992,8 @@ msgid ""
 "If the range of values does not have a fixed maximum and/or minimum, a <link "
 "xref=\"spin-boxes\">spin box</link> can be used."
 msgstr ""
+"Om intervallet av värden inte har ett fast maximi- och/eller minimivärde kan "
+"en <link xref=\"spin-boxes\">stegningsruta</link> användas."
 
 #. (itstool) path: item/p
 #: C/sliders.page:56
@@ -9362,11 +10002,15 @@ msgid ""
 "make live adjustments. Examples of this include sound from speakers, "
 "indicating volume changes, or live feedback in an image editor."
 msgstr ""
+"Säkerställ att återkoppling i realtid tillhandahålls för att låta användaren "
+"göra justeringar direkt. Exempel på detta inkluderar ljud från högtalare, "
+"att indikera volymändringar, eller omedelbar återkoppling i en "
+"bildredigerare."
 
 #. (itstool) path: item/p
 #: C/sliders.page:57
 msgid "Take care to ensure that the purpose of a slider is clearly identified."
-msgstr ""
+msgstr "Säkerställ att syftet för ett skjutreglage finns tydligt identifierat."
 
 #. (itstool) path: item/p
 #: C/sliders.page:59
@@ -9376,6 +10020,10 @@ msgid ""
 "along the bottom of the window. Simply placing a slider in this position is "
 "enough to identify it."
 msgstr ""
+"Använd placeringskonventioner i fall där det är vanligt att använda ett "
+"skjutreglage. I videospelare är det exempelvis vanligt att placera en "
+"horisontell tidsrad längs med botten på fönstret. Att helt enkelt placera "
+"ett skjutreglage i denna position är tillräckligt för att identifiera den."
 
 #. (itstool) path: item/p
 #: C/sliders.page:60
@@ -9385,7 +10033,13 @@ msgid ""
 "link>. Provide an <link xref=\"keyboard-input#access-keys\">access key</"
 "link> in the label that allows the user to give focus directly to the slider."
 msgstr ""
+"Ge i andra fall skjutreglaget en textetikett ovanför eller till vänster om "
+"det, med <link xref=\"writing-style#capitalization\">stor bokstav i början "
+"på mening</link>. Tillhandahåll en <link xref=\"keyboard-input#access-keys"
+"\">snabbtangent</link> i etiketten som låter användaren ge skjutreglaget "
+"fokus direkt."
 
+# TODO: var är Figur 6-7?
 #. (itstool) path: item/p
 #: C/sliders.page:62
 msgid ""
@@ -9393,6 +10047,9 @@ msgid ""
 "marks. For example the left, right and center points on an audio balance "
 "control in Figure 6-7."
 msgstr ""
+"Markera viktiga värden längs med skjutreglaget med text eller bockar. "
+"Exempelvis punkterna vänster, höger och centrum på en ljudbalanskomponent i "
+"Figur 6-7."
 
 #. (itstool) path: item/p
 #: C/sliders.page:63
@@ -9403,6 +10060,12 @@ msgid ""
 "the slider’s value. This allows the user to quickly set or fine-tune the "
 "setting more easily than they could with the slider control alone."
 msgstr ""
+"För stora intervall av heltal (mer än runt 20), och för intervall av "
+"flyttal, överväg att tillhandahålla en <link xref=\"text-fields\">textruta</"
+"link> eller <link xref=\"spin-boxes\">stegningsruta</link> som är länkad "
+"till skjutreglagets värde. Detta låter användaren snabbt ställa in eller "
+"finjustera inställningen enklare än de skulle kunna göra med bara "
+"skjutreglaget."
 
 #. (itstool) path: item/p
 #: C/sliders.page:72
@@ -9425,7 +10088,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/spin-boxes.page:30
 msgid "Spin boxes"
-msgstr ""
+msgstr "Stegningsrutor"
 
 #. (itstool) path: page/p
 #: C/spin-boxes.page:32
@@ -9434,6 +10097,9 @@ msgid ""
 "buttons that allow the user to increase or decrease the value by a fixed "
 "amount."
 msgstr ""
+"En stegningsruta är en textruta som accepterar ett intervall av värden. Den "
+"har två knappar som låter användaren öka eller minska värdet med en bestämd "
+"mängd."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -9456,6 +10122,10 @@ msgid ""
 "values are meaningful or useful for users to know. If they aren't, a <link "
 "xref=\"sliders\">slider</link> might be a better choice."
 msgstr ""
+"Använd stegningsrutor för att låta användare välja numeriska värden, men "
+"bara när dessa värden har mening eller är användbara för användare att känna "
+"till. Om de inte är det kan ett <link xref=\"sliders\">skjutreglage</link> "
+"vara ett bättre val."
 
 #. (itstool) path: section/p
 #: C/spin-boxes.page:41
@@ -9464,6 +10134,9 @@ msgid ""
 "<link xref=\"lists\">list</link> or <link xref=\"drop-down-lists\">drop-down "
 "list</link> can be used instead."
 msgstr ""
+"Använd stegningsrutor endast för numerisk inmatning. För icke-numeriska "
+"uppsättningar alternativ kan istället en <link xref=\"lists\">lista</link> "
+"eller <link xref=\"drop-down-lists\">rullgardinslista</link> användas."
 
 #. (itstool) path: section/p
 #: C/spin-boxes.page:48
@@ -9473,6 +10146,11 @@ msgid ""
 "values. However, it is only useful if you want to cater to people who may "
 "know a specific value that they want to use. Use a slider when:"
 msgstr ""
+"I vissa fall är det lämpligt att länka en stegningsruta till ett "
+"skjutreglage. Denna kombination tillåter både ungefärlig kontroll samt "
+"inmatning av specifika värden. Detta är dock endast användbart om du vill "
+"underlätta för personer som kan veta ett specifikt värde som de vill "
+"använda. Använd ett skjutreglage när:"
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:51
@@ -9480,6 +10158,8 @@ msgid ""
 "Immediate feedback for changes in the spin box’s value is possible (such as "
 "in the case of image editing)."
 msgstr ""
+"Omedelbar återkoppling för ändringar i stegningsrutans värde är möjlig (så "
+"som vid bildredigering)."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:52
@@ -9488,6 +10168,9 @@ msgid ""
 "time. For example, to monitor the effects of a color change in a live "
 "preview window as they drag the RGB sliders."
 msgstr ""
+"Det är användbart för användaren att styra ändringens hastighet i realtid. "
+"Exempelvis för att övervaka effekterna av en färgändring i ett "
+"förhandsgranskningsfönster som uppdateras då de drar i RGB-skjutreglagen."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:61
@@ -9496,6 +10179,9 @@ msgid ""
 "capitalization. Provide an access key in the label that allows the user to "
 "give focus directly to the spin box."
 msgstr ""
+"Ge stegningsrutan en textetikett och placera den ovanför eller till vänster "
+"om stegningsrutan, med stor bokstav i början på mening. Tillhandahåll en "
+"snabbtangent i etiketten som låter användaren ge stegningsrutan fokus direkt."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:62
@@ -9506,6 +10192,10 @@ msgid ""
 "In this case, ensure the right edges of the relevant controls are also "
 "aligned."
 msgstr ""
+"Högerjustera innehållen i stegningsrutor, om inte konventionen i användarens "
+"lokal kräver annat. Detta är användbart i fönster där användaren kan vilja "
+"jämföra två numeriska värden i samma kolumn av komponenter. Säkerställ i "
+"detta fall även att högerkanterna för de relevanta kolumnerna är uppradade."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:71
@@ -9600,9 +10290,11 @@ msgid ""
 "labels."
 msgstr ""
 "Växelknappsetiketter bör skrivas med <link xref=\"writing-"
-"style#capitalization\">stor bokstav</link>. Namnet på funktionen som "
-"påverkas av växelknappen bör användas som etikett. <gui>Automatisk plats</"
-"gui> eller <gui>Aviseringar</gui> är exempel på bra växelknappsetiketter."
+"style#capitalization\">rubrikversalisering</link> (Detta gäller för "
+"engelska. För svenska är meningsversalisering att föredra). Namnet på "
+"funktionen som påverkas av växelknappen bör användas som etikett. "
+"<gui>Automatisk plats</gui> eller <gui>Aviseringar</gui> är exempel på bra "
+"växelknappsetiketter."
 
 #. (itstool) path: item/p
 #: C/switches.page:46
@@ -9624,6 +10316,8 @@ msgid ""
 "Tabs provide a way to break down a window into a series of views. They come "
 "in two primary forms: fixed and dynamic."
 msgstr ""
+"Flikar tillhandahåller ett sätt att dela upp ett fönster i en serie vyer. De "
+"finns i två huvudsakliga former: fasta och dynamiska."
 
 #. (itstool) path: page/p
 #: C/tabs.page:34
@@ -9634,6 +10328,11 @@ msgid ""
 "primarily used within <link xref=\"primary-windows\">primary windows</link>, "
 "as a part of editor or browser applications."
 msgstr ""
+"Fasta flikar tillhandahåller en oföränderlig uppsättning fördefinierade "
+"vyer, och används främst i dialogfönster. Dynamiska flikar låter ett fönster "
+"innehålla ändringsbara urval av innehållsobjekt, så som sidor, dokument "
+"eller bilder. De används främst i <link xref=\"primary-windows\">primära "
+"fönster</link>, som en del av redigerar- eller bläddrarprogram."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -9656,6 +10355,9 @@ msgid ""
 "too many controls (or too much information) to be comfortably presented at "
 "once."
 msgstr ""
+"Använd fasta flikar när ett <link xref=\"dialogs\">dialogfönster</link> "
+"innehåller för många komponenter (eller för mycket information) för att "
+"bekvämt kunna presenteras på en gång."
 
 #. (itstool) path: section/p
 #: C/tabs.page:43
@@ -9663,6 +10365,9 @@ msgid ""
 "Dynamic tabs are primarily useful for browser or editor applications, where "
 "a user might want to use several locations or content items simultaneously."
 msgstr ""
+"Dynamiska flikar är främst användbara för bläddrar- eller redigerarprogram, "
+"där en användare kan vilja använda flera platser eller innehållsobjekt "
+"samtidigt."
 
 #. (itstool) path: section/title
 #: C/tabs.page:48
@@ -9676,6 +10381,9 @@ msgid ""
 "or splitting them into multiple rows, you are probably using too many and "
 "should use a list control instead."
 msgstr ""
+"Använd inte för många flikar. Om du inte kan se alla flikar utan att rulla "
+"genom dem eller att dela upp dem i flera rader, så använder du troligen för "
+"många och borde använda en listkomponent istället."
 
 #. (itstool) path: item/p
 #: C/tabs.page:52
@@ -9685,6 +10393,11 @@ msgid ""
 "<gui>Font</gui> or <gui>Alignment</gui>. Try to give tab labels a similar "
 "length."
 msgstr ""
+"Etikettera flikar med <link xref=\"writing-style#capitalization"
+"\">rubrikversalisering</link> (Detta gäller för engelska. För svenska är "
+"meningsversalisering att föredra), och använd substantiv snarare än verb, "
+"exempelvis <gui>Typsnitt</gui> eller <gui>Justering</gui>. Försök ge "
+"fliketiketter ungefär samma längd."
 
 #. (itstool) path: item/p
 #: C/tabs.page:53
@@ -9692,11 +10405,14 @@ msgid ""
 "Do not design tabs such that changing controls on one page affects the "
 "controls on any other page. Users are unlikely to discover such dependencies."
 msgstr ""
+"Ge inte flikar en design så att ändringar i komponenter på en sida påverkar "
+"komponenterna på andra sidor. Användare kommer troligen inte upptäcka sådana "
+"beroenden."
 
 #. (itstool) path: item/p
 #: C/tabs.page:54
 msgid "If a control affects every tab, place it outside the tabs."
-msgstr ""
+msgstr "Placera komponenter som påverkar alla flikar utanför flikarna."
 
 #. (itstool) path: item/p
 #: C/tabs.page:55
@@ -9706,6 +10422,10 @@ msgid ""
 "harder to scan visually, and limits the number of tabs you can display "
 "without scrolling."
 msgstr ""
+"Gör för fasta flikar bredden av varje flik proportionell till bredden på "
+"dess etikett. Ställ inte bara in alla flikar till samma bredd, då detta gör "
+"dem svårare att läsa av visuellt, och begränsar antalet flikar du kan se "
+"utan att rulla dem."
 
 #. (itstool) path: section/title
 #: C/tabs.page:61
@@ -9719,6 +10439,10 @@ msgid ""
 "concise, and that the most useful part of the label is displayed first. This "
 "ensures that the label continues to be useful even when ellipsized."
 msgstr ""
+"Flikar har ofta begränsad bredd, så säkerställ att fliketiketter är korta "
+"och koncisa, samt att etikettens mest användbara del visas först. Detta "
+"säkerställer att etiketten förblir användbar även då den förkortas med en "
+"ellips."
 
 #. (itstool) path: item/p
 #: C/tabs.page:65
@@ -9726,6 +10450,8 @@ msgid ""
 "If the content of a tab changes or requires attention, a visual hint can be "
 "displayed."
 msgstr ""
+"Om innehållet i en flik ändras eller kräver uppmärksamhet så kan en visuell "
+"påminnelse om detta visas."
 
 #. (itstool) path: item/p
 #: C/tabs.page:66
@@ -9734,6 +10460,10 @@ msgid ""
 "for manipulating the tab itself, such as <gui>Move Left</gui>, <gui>Move "
 "Right</gui>, <gui>Move to New Window</gui>, and <gui>Close</gui>."
 msgstr ""
+"Tillhandahåll en snabbvalsmeny för varje flik. Denna meny bör endast "
+"inkludera åtgärder för att manipulera fliken själv, så som <gui>Flytta åt "
+"vänster</gui>, <gui>Flytta åt höger</gui>, <gui>Flytta till nytt fönster</"
+"gui> och <gui>Stäng</gui>."
 
 #. (itstool) path: item/p
 #: C/tabs.page:67
@@ -9743,6 +10473,10 @@ msgid ""
 "applications where tabs will not always be used - keyboard shortcuts and/or "
 "menu items are sufficient in these cases."
 msgstr ""
+"Om flikar är en viktig del av programmet kan en ”Ny flik”-knapp placeras i "
+"rubrikraden eller verktygsfältet. Visa inte en ”Ny flik”-knapp i program där "
+"flikar inte alltid kommer att användas - tangentbordsgenvägar och/eller "
+"menyobjekt räcker till i dessa fall."
 
 #. (itstool) path: section/title
 #: C/tabs.page:71
@@ -9904,7 +10638,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/text-fields.page:50
 msgid "Embedding information and controls"
-msgstr ""
+msgstr "Bädda in information och komponenter"
 
 #. (itstool) path: section/p
 #: C/text-fields.page:52
@@ -9912,6 +10646,8 @@ msgid ""
 "A variety of additional information or controls can be inserted within a "
 "text entry field."
 msgstr ""
+"En mängd av ytterligare information eller komponenter kan infogas i ett "
+"textinmatningsfält."
 
 #. (itstool) path: section/p
 #: C/text-fields.page:54
@@ -9919,6 +10655,8 @@ msgid ""
 "Icons or icon buttons can be placed inside a text field to provide status "
 "information or additional controls."
 msgstr ""
+"Ikoner eller ikonknappar kan placeras i ett textfält för att tillhandahålla "
+"statusinformation eller ytterligare komponenter."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:57
@@ -9928,6 +10666,10 @@ msgid ""
 "classic example of this, where a search icon is placed on the left side of "
 "the entry field."
 msgstr ""
+"En ikon i början av inmatningsfältet kan användas för att indikera dess "
+"syfte - vilket då ersätter behovet av att ha en etikett på inmatningsfältet. "
+"Inmatningsfält för sökning är det klassiska exemplet på detta, där en "
+"sökikon placeras till vänster om inmatningsfältet."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:58
@@ -9936,6 +10678,9 @@ msgid ""
 "inside the text field if caps lock is on. This is typically shown on the "
 "right side of the entry."
 msgstr ""
+"Om texten som ska matas in är skiftlägeskänslig kan en varningsikon visas "
+"inuti textfältet om caps lock är på. Detta visas vanligen på den högra sidan "
+"om inmatningsfältet."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:59
@@ -9943,6 +10688,8 @@ msgid ""
 "If it is common for the text field to be cleared, a clear icon button can be "
 "placed inside the field, at the right side."
 msgstr ""
+"Om det är vanligt att textfältet rensas så kan en ikonknapp för rensning "
+"placeras i fältet, på höger sida."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:60
@@ -9950,6 +10697,9 @@ msgid ""
 "If you place an icon in a text entry field (either as an indicator or a "
 "button), use its symbolic variant from the GNOME Symbolic Icon Theme."
 msgstr ""
+"Om du placerar en ikon i ett textinmatningsfält (antingen som en indikator "
+"eller en knapp), använd dess symboliska variant från GNOME:s symboliska "
+"ikontema."
 
 #. (itstool) path: section/p
 #: C/text-fields.page:63
@@ -9959,6 +10709,10 @@ msgid ""
 "display additional information, this should only be done when it is "
 "necessary."
 msgstr ""
+"Då en användare skulle ha nytta av ytterligare information för att använda "
+"ett textinmatningsfält så kan det förifyllas med en hjälptext. Som med varje "
+"beslut om att visa ytterligare information så bör detta endast göras då det "
+"är nödvändigt."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:71
@@ -9982,6 +10736,10 @@ msgid ""
 "complex applications, other types of controls such as drop-down lists, can "
 "also be useful."
 msgstr ""
+"Ett verktygsfält är en remsa med komponenter som möjliggör bekväm åtkomst "
+"till ofta använda funktioner. De flesta verktygsfält innehåller bara "
+"grafiska knappar, men i mer komplexa program kan även andra komponenter så "
+"som rullgardingslistor vara användbara."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -10005,6 +10763,10 @@ msgid ""
 "this role, and a toolbar is generally not required if you are using header "
 "bars."
 msgstr ""
+"Använd ett verktygsfält för att tillhandahålla åtkomst till vanliga "
+"åtgärder, verktyg eller alternativ i primära fönster. <link xref=\"header-"
+"bars\">Rubrikrader</link> fyller också denna funktion, och ett verktygsfält "
+"krävs som regel inte om du använder rubrikrader."
 
 #. (itstool) path: section/p
 #: C/toolbars.page:41
@@ -10016,6 +10778,12 @@ msgid ""
 "should only be pursued by those who are confident in pursuing more original "
 "design solutions."
 msgstr ""
+"Även om verktygsfält är ett vanligt designval så finns det fall då det inte "
+"är det mest effektiva. Gränssnitt som fokuserar på direkt manipulering, "
+"eller vilka använder sig mycket av stegvis avslöjande kan utgöra ett bättre "
+"alternativ. Vart och ett av dessa tillvägagångssätt kräver mer tid och "
+"ansträngning i designfasen, och bör endast eftersträvas av de som känner sig "
+"säkra i att söka mer originella designlösningar."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:49
@@ -10025,6 +10793,10 @@ msgid ""
 "too many rows of toolbars reduces the amount of screen space available to "
 "the rest of the application."
 msgstr ""
+"Inkludera endast komponenter för de viktigaste funktionerna. Att ha för "
+"många verktygsfältskomponenter minskar deras effektivitet genom att göra dem "
+"svårare att hitta, och för många rader av verktygsfält minskar det "
+"tillgängliga skärmutrymmet för resten av programmet."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:50
@@ -10034,6 +10806,11 @@ msgid ""
 "save as its first three toolbar buttons. Similarly, the first buttons in a "
 "browser application should be back and forward."
 msgstr ""
+"Använd konventioner för verktygsfält för att öka igenkänningsfaktorn. "
+"Exempelvis kommer huvudverktygsfältet i ett kontorsprogram nästan alltid att "
+"ha nytt, öppna och spara som sina tre första verktygsfältsknappar. På "
+"liknande sätt bör de första knapparna i ett webbläsarprogram vara bakåt och "
+"framåt."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:51
@@ -10041,7 +10818,10 @@ msgid ""
 "Place only the most commonly-used application functions on your toolbars. "
 "Don’t just add buttons for every menu item."
 msgstr ""
+"Placera endast de mest använda programfunktionerna i dina verktygsfält. Lägg "
+"inte bara till knappar för varje menyobjekt."
 
+# TODO: on *your* toolbar
 #. (itstool) path: item/p
 #: C/toolbars.page:52
 msgid ""
@@ -10050,6 +10830,10 @@ msgid ""
 "an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
 "gui><gui>Settings</gui></guiseq> dialog)."
 msgstr ""
+"Om du använder en <link xref=\"menu-bars\">menyrad</link>, säkerställ att "
+"den innehåller alla funktioner som finns i ditt verktygsfält, antingen "
+"direkt (d.v.s. ett ekvivalent menyobjekt) eller indirekt (t.ex. i "
+"dialogrutan <guiseq><gui>Alternativ</gui><gui>Inställningar</gui></guiseq>)."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:53
@@ -10061,6 +10845,12 @@ msgid ""
 "the toolbar to do so without sacrificing more useful, application-specific "
 "controls."
 msgstr ""
+"Verktygsfält bör inte inkludera knappar för <gui>Hjälp</gui>, <gui>Stäng</"
+"gui> eller <gui>Avsluta</gui>, då dessa sällan används och utrymmet kan "
+"hellre användas för mer användbara komponenter. Tillhandahåll på samma sätt "
+"endast knappar för <gui>Ångra</gui>, <gui>Gör om</gui> och "
+"standardfunktionerna för urklipp om det finns plats på verktygsfältet för "
+"att göra detta utan att ge upp mer användbara, programspecifika komponenter."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:54
@@ -10069,6 +10859,9 @@ msgid ""
 "buttons should use <link xref=\"icons-and-artwork#color-vs-symbolic"
 "\">symbolic icons</link>."
 msgstr ""
+"<link xref=\"buttons\">Knappar</link> i verktygsfält bör ha en relief, och "
+"ikonknappar bör använda <link xref=\"icons-and-artwork#color-vs-symbolic"
+"\">symboliska ikoner</link>."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:63
@@ -10120,7 +10913,7 @@ msgid ""
 "GNOME 3, the default font is Cantarell, which was originally designed and "
 "developed by David Crossland."
 msgstr ""
-"Det det är möjligt, använd systemets standardtypsnitt som erbjuds av "
+"Där det är möjligt, använd systemets standardtypsnitt som erbjuds av "
 "distributionen eller operativsystemet under vilket ditt program körs. I "
 "GNOME 3 är standardtypsnittet Cantarell som från början designades och "
 "utvecklades av David Crossland."
@@ -10748,7 +11541,7 @@ msgstr "2015"
 #. (itstool) path: page/title
 #: C/writing-style.page:37
 msgid "Writing style"
-msgstr "Skrivregler (på engelska)"
+msgstr "Skrivregler (för engelska)"
 
 #. (itstool) path: page/p
 #: C/writing-style.page:39
@@ -10906,7 +11699,7 @@ msgstr "Alla ord med fyra eller fler bokstäver."
 #. (itstool) path: item/p
 #: C/writing-style.page:73
 msgid "Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”."
-msgstr "Verb av godtycklig längd så som ”Ba”, ”Are”, ”Is”, ”See” och ”Add”."
+msgstr "Verb av godtycklig längd så som ”Be”, ”Are”, ”Is”, ”See” och ”Add”."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:74
@@ -10943,7 +11736,7 @@ msgstr ""
 "Meningsversalisering bör användas för etiketter som bildar meningar som "
 "löper över annan text, inklusive etiketter för kryssrutor, radioknappar, "
 "skjutreglage, textinmatningsfält, fältetiketter och "
-"kombinationsboxetiketter. Den bör också användas för förklarande eller "
+"kombinationsruteetiketter. Den bör också användas för förklarande text eller "
 "huvudtext så som i dialoger eller aviseringar."
 
 #. (itstool) path: item/p
