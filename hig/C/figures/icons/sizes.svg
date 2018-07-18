@@ -6100,18 +6100,18 @@
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="558.22448"
-     inkscape:cy="831.57445"
+     inkscape:zoom="1"
+     inkscape:cx="-163.48375"
+     inkscape:cy="425.68189"
      inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="3440"
-     inkscape:window-y="0"
+     inkscape:window-width="3440"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="61"
      width="400px"
      height="300px"
      inkscape:snap-nodes="false"
@@ -6814,7 +6814,7 @@
              sodipodi:role="line"
              id="tspan207196"
              x="165.2709"
-             y="-401.02283">512x512 px</tspan></text>
+             y="-401.02283">128x128 px</tspan></text>
         <path
            style="display:inline;fill:none;stroke:#80b1e5;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;enable-background:new"
            d="m 90,-458 v 52 h 34"
@@ -7256,7 +7256,8 @@
          height="392"
          id="image11339"
          x="169.04567"
-         y="-238.01358" />
+         y="-238.01358"
+         style="image-rendering:optimizeSpeed" />
     </g>
   </g>
 </svg>
