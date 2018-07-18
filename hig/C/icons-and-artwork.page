@@ -62,24 +62,26 @@
 <section id="application-icons">
 <title>Application icons</title>
 
+<media type="image" mime="image/png" src="figures/icons/shading.svg"/>
+
 <p>Every application should have a unique and beautiful application icon. It is the face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
 
-<p>The nominal size of application icons is 512x512px. Application icons are, however, rarely rendered at this resolution. As display density started varying immensely, sticking to absolute pixel units has also become less practical.</p>
+<p>The nominal size of application icons is 128x128px. Application icons are, however, rarely rendered at this resolution. As display density started varying immensely, sticking to absolute pixel units has also become less practical.</p>
 
 <p>Because the application icon still get presented at lower resolution, the icon should feature only detail presentable at 64x64px resolution. The density of detail should not be higher, because it would get lost by filtering/scaling down.</p>
 
-<p>The default template includes an 8px grid which should help you avoid adding detail that's finer than the desired threshold.</p>
+<p>The default template includes a 2px grid which should help you avoid adding detail that's finer than the desired threshold.</p>
 
 <media type="image" mime="image/png" src="figures/icons/sizes.svg"/>
 
-<p>Application icons are mostly presented big, but the low level of detail will help when the icon is rendered at lower resolutions, such as System Settings panels.</p>
+<p>Application icons are mostly presented big, but the low level of detail will help when the icon is rendered at lower resolutions, such as System Settings panels (16x16px at low density displays).</p>
 
 </section>
 
 <section id="perspective">
 <title>Perspective &amp; Shape</title>
 
-<p>Just like the symbolic icons, fullcolor application icons should be rendered with a simple orthogonal view and no real or isometric perspective distortion. To provide depth a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though, rasing the obejct more than 2 detail units (16 nominal pixels) is not recommended.</p>
+<p>Just like the symbolic icons, fullcolor application icons should be rendered with a simple orthogonal view and no real or isometric perspective distortion. To provide depth a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though, rasing the object more than 2 detail units (4 nominal pixels) is not recommended.</p>
 
 <p>It is desirable to give the app icon a unique silhouette. At the same time, to allow for a pleasing grid presentation among the other applications, the aspect ratio should not be very extreme. Very narrow or very wide objects should be avoided.</p>
 
@@ -91,11 +93,24 @@
 
 </section>
 
+<section id="shadows">
+<title>Shadows</title>
+
+<p>You are free to cast shadows internatlly. The light source is coming straight from the top. You 
+should avoid casting shadows outside the main silhouette of the icon as icon shadows are generated procedurally based on the alpha channel of the icon depending on the context. When app icons are presented on a white background, for example, a strong drop shadow is rendered to help define the contours.</p>
+<media type="image" mime="image/png" src="figures/icons/dropshadow.png"/>
+
+</section>
+
 <section id="palette">
 <title>Palette</title>
 
 <p>Below is the baseline GNOME app icon color palette.</p>
 
+<!-- will chop up into named sections once the colors stabilize -->
+<media type="image" mime="image/svg" src="figures/icons/palette/colors.svg"/>
+
+<!--
 <table>
 <tr>
 <td><p>Blue</p></td>
@@ -130,12 +145,13 @@
 <td><media type="image" mime="image/svg" src="figures/icons/palette/neutral.svg"/></td>
 </tr>
 </table>
+-->
 
-<p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette <link href="https://gitlab.gnome.org/Community/Design/icon-revolution/raw/master/Lobo.gpl">is available</link>.</p>
+<p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette <link href="https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl">is available</link>.</p>
 
 <p>It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surface is allowed.</p>
 
-<media type="image" mime="image/png" src="figures/icons/shading.svg"/>
+
 
 </section>
 
@@ -165,14 +181,14 @@
 </section>
 
 
-
+<!-- graphic assets TODO
 <section id="stock-icons">
 <title>GNOME Icon Pack</title>
 
 <p>To avoid starting from scratch, we prepared a selection of commonly used icons you can include in your application, or create derivatives of. The set is licensed CC0, so they can be used regardless of your project's license.</p>
 
-<p>FIXME: link to a non-existant library.</p>
 </section>
+-->
 
 
 
