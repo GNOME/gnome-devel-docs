@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: accessibility-devel-guide.master\n"
-"POT-Creation-Date: 2017-08-16 16:08+0000\n"
+"POT-Creation-Date: 2018-06-09 14:28+0000\n"
 "PO-Revision-Date: 2017-09-05 12:09+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
@@ -1573,7 +1573,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.docbook:483
 msgid "Setting up an ATK Signal Handler"
-msgstr "Establecer un manejador de señal ATK"
+msgstr "Establecer un gestor de señal ATK"
 
 #. (itstool) path: section/para
 #: C/index.docbook:484
@@ -2354,10 +2354,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:813
-#| msgid ""
-#| "determine which <ulink url=\"http://library.gnome.org/devel/atk/stable/"
-#| "atk.html\">ATK interfaces</ulink> a custom widget should implement, "
-#| "according to the widget's feature set and function;"
 msgid ""
 "determine which <ulink url=\"https://developer.gnome.org/atk/stable/"
 "interfaces.html\">ATK interfaces</ulink> a custom widget should implement, "
@@ -2370,10 +2366,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:818
-#| msgid ""
-#| "assess which <ulink url=\"http://library.gnome.org/devel/atk/stable/atk."
-#| "html\">ATK interfaces</ulink> can be inherited from the parent widget "
-#| "class;"
 msgid ""
 "assess which <ulink url=\"https://developer.gnome.org/atk/stable/interfaces."
 "html\">ATK interfaces</ulink> can be inherited from the parent widget class;"
