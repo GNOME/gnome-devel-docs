@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-04 19:33+0000\n"
+"POT-Creation-Date: 2018-06-09 14:29+0000\n"
 "PO-Revision-Date: 2017-12-12 12:21+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
@@ -61,13 +61,12 @@ msgstr "Radina Matic"
 #: C/dev-help-build.page:13 C/dev-help.page:16 C/dev-help.page:21
 #: C/dev-help-write.page:13 C/dev-translate-build.page:13
 #: C/dev-translate.page:14 C/dev-translate-setup.page:13
-#: C/dev-translate-tools.page:12 C/overview-io.page:17
-#: C/overview-media.page:12 C/overview-net.page:12 C/overview-settings.page:12
-#: C/overview-ui.page:12 C/tech-avahi.page:12 C/tech-canberra.page:13
-#: C/tech-champlain.page:12 C/tech-folks.page:12 C/tech-gda.page:13
-#: C/tech-geoclue2.page:12 C/tech-geocode-glib.page:12
-#: C/tech-gio-network.page:13 C/tech-gio.page:18 C/tech-glib.page:12
-#: C/tech-gobject.page:11 C/tech-gsettings.page:13
+#: C/dev-translate-tools.page:12 C/overview-io.page:17 C/overview-media.page:12
+#: C/overview-net.page:12 C/overview-settings.page:12 C/overview-ui.page:12
+#: C/tech-avahi.page:12 C/tech-canberra.page:13 C/tech-champlain.page:12
+#: C/tech-folks.page:12 C/tech-gda.page:13 C/tech-geoclue2.page:12
+#: C/tech-geocode-glib.page:12 C/tech-gio-network.page:13 C/tech-gio.page:18
+#: C/tech-glib.page:12 C/tech-gobject.page:11 C/tech-gsettings.page:13
 #: C/tech-network-manager.page:12 C/tech-notify.page:18 C/tech-polkit.page:12
 #: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-spell-checking.page:12
 #: C/tech-telepathy.page:18 C/tech-tracker.page:12 C/tech-webkit.page:18
@@ -4749,7 +4748,6 @@ msgstr "2017"
 
 #. (itstool) path: info/desc
 #: C/tech-spell-checking.page:22
-#| msgid "Real-time spell checking for text widgets"
 msgid "Spell-checking for text widgets"
 msgstr "Comprobación de ortografía para widgets de texto"
 
@@ -4769,11 +4767,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-spell-checking.page:32
-#| msgid ""
-#| "Enchant provides an API to do spell-checking related tasks. You can ask "
-#| "it if a word is misspelled, or ask for suggestions for a misspelled word. "
-#| "On a higher level, a library such as GtkSpell lets you add \"underline "
-#| "squiggles\" for misspelled words to text widgets."
 msgid ""
 "Enchant provides a low-level API. You can ask it if a word is misspelled, or "
 "ask for suggestions for a misspelled word. On a higher level, gspell "
@@ -4787,10 +4780,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-spell-checking.page:39
-#| msgid ""
-#| "In GNOME, Enchant gets used in text-heavy applications like Empathy (an "
-#| "instant messaging client) and Epiphany (a web browser, for text entry in "
-#| "web forms)."
 msgid ""
 "In GNOME, those libraries get used in text-heavy applications like gedit (a "
 "text editor) and Epiphany (a web browser, for text entry in web forms)."
@@ -4801,9 +4790,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-spell-checking.page:45
-#| msgid ""
-#| "<link href=\"http://www.abisource.com/projects/enchant/\">Enchant home "
-#| "page</link>"
 msgid ""
 "<link href=\"https://www.abisource.com/projects/enchant/\">Enchant home "
 "page</link>"
@@ -4813,9 +4799,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-spell-checking.page:46
-#| msgid ""
-#| "<link href=\"https://wiki.gnome.org/Projects/Folks\">Libfolks home page</"
-#| "link>"
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/gspell\">gspell home page</link>"
 msgstr ""
@@ -5120,7 +5103,6 @@ msgstr "Declare <code>HelloWorld</code> como una clase nueva."
 #. (itstool) path: example/code
 #: C/tour-events.page:37
 #, no-wrap
-#| msgid "JavaScript basics: Hello World"
 msgid ""
 "\n"
 "class HelloWorld {\n"
@@ -5130,11 +5112,6 @@ msgstr ""
 
 #. (itstool) path: example/p
 #: C/tour-events.page:41
-#| msgid ""
-#| "<code>_init</code> is called when a new instance is created. Create a "
-#| "<code>GtkApplication</code>, then connect <code>activate</code> to the "
-#| "existing Gtk event <code>_onActivate</code> and <code>startup</code> to "
-#| "<code>_onStartup</code>:"
 msgid ""
 "<code>constructor</code> is called when a new instance is created. Create a "
 "<code>GtkApplication</code>, then connect <code>activate</code> to the "
@@ -5149,13 +5126,6 @@ msgstr ""
 #. (itstool) path: example/code
 #: C/tour-events.page:46
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "    _init: function() {\n"
-#| "        this.application = new Gtk.Application();\n"
-#| "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-#| "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-#| "    },\n"
 msgid ""
 "\n"
 "    constructor() {\n"
@@ -5179,11 +5149,6 @@ msgstr "Mostrar la ventana al activar la aplicación:"
 #. (itstool) path: example/code
 #: C/tour-events.page:55
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "    _onActivate: function(){\n"
-#| "        this._window.show_all();\n"
-#| "    },\n"
 msgid ""
 "\n"
 "    _onActivate() {\n"
@@ -5233,15 +5198,6 @@ msgstr ""
 #. (itstool) path: example/code
 #: C/tour-get_object.page:42
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "    _onStartup: function() {\n"
-#| "        let builder = new Gtk.Builder();\n"
-#| "        builder.add_from_file('helloworld.glade');\n"
-#| "        this._window = builder.get_object('window1');\n"
-#| "        this.application.add_window(this._window);\n"
-#| "    }\n"
-#| "});\n"
 msgid ""
 "\n"
 "    _onStartup() {\n"
@@ -5335,10 +5291,6 @@ msgstr ""
 #. (itstool) path: example/code
 #: C/tour-gjs.page:50
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "const Lang = imports.lang;\n"
-#| "const Gtk = imports.gi.Gtk;\n"
 msgid ""
 "\n"
 "imports.gi.versions.Gtk = '3.0';\n"
@@ -5371,10 +5323,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tour-glade.page:36
-#| msgid ""
-#| "When creating a UI file using Glade, the <gui>Name</gui> that you specify "
-#| "in Glade is the ID that you will later need to use to get the object from "
-#| "the UI file."
 msgid ""
 "When creating a UI file using Glade, the <gui>ID</gui> that you specify in "
 "Glade is the ID that you will later need to use to get the object from the "
@@ -5386,9 +5334,6 @@ msgstr ""
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:41
-#| msgid ""
-#| "Create a new window, then set <gui>Name</gui> to <code>window1</code> and "
-#| "<gui>Window</gui> to <code>Hello World</code>:"
 msgid ""
 "Create a new window, then set <gui>ID</gui> to <code>window1</code> and "
 "<gui>Title</gui> to <code>Hello World</code>:"
@@ -5402,10 +5347,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/tour-glade.page:43
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='media/glade-set-values.png' "
-#| "md5='61c369d5fdd6353694f9fa9e852e207c'"
 msgctxt "_"
 msgid ""
 "external ref='media/glade-set-values.png' "
@@ -5479,36 +5420,6 @@ msgstr "Aquí se muestran los ejemplos juntos:"
 #. (itstool) path: page/code
 #: C/tour-summary.page:33
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "#!/usr/bin/gjs\n"
-#| "\n"
-#| "const Lang = imports.lang;\n"
-#| "const Gtk = imports.gi.Gtk;\n"
-#| "\n"
-#| "const HelloWorld = new Lang.Class({\n"
-#| "    Name: 'HelloWorld',\n"
-#| "\n"
-#| "    _init: function() {\n"
-#| "        this.application = new Gtk.Application();\n"
-#| "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-#| "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-#| "    },\n"
-#| "\n"
-#| "    _onActivate: function(){\n"
-#| "        this._window.show_all();\n"
-#| "    },\n"
-#| "\n"
-#| "    _onStartup: function() {\n"
-#| "        let builder = new Gtk.Builder();\n"
-#| "        builder.add_from_file('helloworld.glade');\n"
-#| "        this._window = builder.get_object('window1');\n"
-#| "        this.application.add_window(this._window);\n"
-#| "    }\n"
-#| "});\n"
-#| "\n"
-#| "let app = new HelloWorld();\n"
-#| "app.application.run(ARGV);\n"
 msgid ""
 "\n"
 "#!/usr/bin/gjs\n"
@@ -8618,7 +8529,7 @@ msgstr ""
 #~ "algo en un objeto, emite una señal; por ejemplo, cuando se pulsa un "
 #~ "botón, emite la señal <code>clicked</code>. Si quiere que su programa "
 #~ "haga algo cuando ocurre ese evento, debe conectar una función (un "
-#~ "«manejador de la señal») a esa señal. Aquí hay un ejemplo:"
+#~ "«gestor de la señal») a esa señal. Aquí hay un ejemplo:"
 
 #~ msgid "Containers: Laying-out the user interface"
 #~ msgstr "Contenedores: diseñar la interfaz de usuario"
@@ -8735,7 +8646,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Finalmente, <code>Gtk.main</code> ejecuta el bucle principal; en otras "
 #~ "palabras, ejecuta el programa. El bucle principal escucha los eventos "
-#~ "(señales) de la interfaz del usuario y llama a un manejador de la señal "
+#~ "(señales) de la interfaz del usuario y llama a un gestor de la señal "
 #~ "que hará algo útil. En breve aprenderá más cosas sobre las señales."
 
 #~ msgid "Adding classes"
@@ -9072,10 +8983,10 @@ msgstr ""
 #~ msgstr "Tuberías de Gstreamer"
 
 #~ msgid "Creating the signal handler"
-#~ msgstr "Crear el manejador de señales"
+#~ msgstr "Crear el gestor de señales"
 
 #~ msgid "Define the signal handler"
-#~ msgstr "Definir el manejador de señales"
+#~ msgstr "Definir el gestor de señales"
 
 #~ msgid ""
 #~ "If you haven't already done so, choose the <file>Debug/src/guitar-tuner</"
@@ -9162,7 +9073,7 @@ msgstr ""
 #~ "a la derecha, y la paleta de los widgets disponibles está a la izquierda."
 
 #~ msgid "Write the signal handler"
-#~ msgstr "Escribir el manejador de señales"
+#~ msgstr "Escribir el gestor de señales"
 
 #~ msgid ""
 #~ "Change the import line in <file>guitar_tuner.py</file>, just at the "
@@ -11433,7 +11344,7 @@ msgstr ""
 #~ "GNOME, incluyendo GTK+, Libglade y GConf. Los bindings de C++ envuelven "
 #~ "todos los objetos con objetos nativos de C++ y permiten a los "
 #~ "programadores proporcionar widgets a medida con herencia normal de C++. "
-#~ "Proporcionan una API totalmente nativa, con manejadores de señal de tipo "
+#~ "Proporcionan una API totalmente nativa, con gestores de señal de tipo "
 #~ "seguro, uso total de la biblioteca estándar de C++, y una administración "
 #~ "completa de memoria de C++."
 
