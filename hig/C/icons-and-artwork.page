@@ -16,187 +16,57 @@
 
 <title>Icons and artwork</title>
 
-<p>Icons play an important role in user interfaces: selecting the correct icon is therefore vital to making sure that your application is usable. An identifying icon is also an essential part of any application, and is a crucial part of its identity.</p>
+<p>Icons are a basic element in user interfaces. They also make up a fundamental part of application identities. This page provides an overview of icon usage, and covers which icons are available through the GNOME platform, resources for creating new icons, and some general guidelines on using icons in user interfaces.</p>
+
+<section id="icon-styles">
+<title>Icon styles</title>
+
+<p>Two styles of icon are used in GNOME 3: full-color and symbolic icons.</p>
+
+<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 64✕64px SVGs, and can be scaled to multiples or subdivisions of 64✕64 (such as 32✕32, 64✕64, 128✕128).</p>
+
+<p>Symbolic icons are simple and monochrome, and are designed to work well at smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to multiples of 16✕16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally have a neutral color, although their color can be changed programatically.</p>
+
+</section>
+
+<section id="icon-uses">
+<title>Icon uses</title>
+
+
+<p>Application icons are the most prominent type of icons and every application should have its own unique and beautiful application icon. Every application should have a unique and beautiful application icon. These are he face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
+
+<p>Application icons use the full-color style. Applications are also recommended to provide a symbolic version of their icon, which is used for the high-contrast accessibility feature.</p>
+
+<p>Other user interface icons typically use the symbolic style. The most common example is for buttons.</p>
+
+<p>In some cases, full-color icons are an appropriate choice to use in interfaces. For example, when icons are to be displayed at large sizes and when they are the focus of attention. File and folder icons in a file manager are a good example of this.</p>
+
+</section>
+
+<section id="icon-resources">
+<title>Stock icons and creating your own</title>
+
+<p>GNOME provides a set of standard icons, which can be used by applications. This includes both full-color and symbolic icons.</p>
+
+<p>The standard icon set can be accessed directly through GTK. Icon names follow the <link href="https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html">Freedesktop icon specification</link>. Symbolic versions of icons are have the <code>-symbolic</code> name ending, such as <code>open-menu-symbolic</code>.</p>
+
+<p>Other icons can be created using the GNOME icon development kit. This provides resources for creating full-color application icons as well as symbolic icons. See the <link xref="icon-design">icon design guidelines</link> for more details.</p>
+
+</section>
 
 <section id="using-icons">
 <title>Using icons in your user interface</title>
 
-<p>There are many situations when it is necessary to decide between using an icon and a text label, particularly for buttons. Icons have the advantage of being smaller, and not requiring translation. At the same time, the incorrect use of an icon can make your interface hard - or even impossible - to understand.</p>
+<p>Icons are a common user interface element and they have some practical advantages over text labels (such as being smaller). At the same time, over-use of icons can lead to confusion and a poor user experience. Likewise, the use of inappropriate icons can often make an interface difficult to use.</p>
+
+<p>Therefore, only use icons whose meaning is commonly recognized. If a commonly recognized icon is not available, it might be better to use a text label instead. Typically, convention establishes which icons are commonly recognized. This set of icons is actually quite small, and includes standard icons such as search, menu, forward, back and share. If you are in doubt, only use icons which are frequently used in other applications.</p>
+
+<p>Other things to consider when using icons:</p>
 
 <list>
-<item><p>Only use icons whose meaning is commonly recognized. If a commonly recognized icon is not available, it might be better to use a text label instead.</p>
-<list>
-<item><p>Convention establishes which icons will be recognized. If you are in doubt, stick to icons which are frequently used in other applications.</p></item>
-<item><p>Consider which icons will be meaningful in the specific context of your application - users of specialist tools will often be familiar with domain-specific symbols.</p></item>
-</list></item>
+<item><p>Think about which icons will be meaningful in the specific context of your application - users of specialist tools will often be familiar with domain-specific symbols.</p></item>
 <item><p>Remember that some icons are only meaningful alongside other icons of the same type. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (ie. a single line), and will not be recognizable without a corresponding “plus” add icon.</p></item>
 </list>
-
-</section>
-
-<section id="color-vs-symbolic">
-<title>Color vs. symbolic icons</title>
-
-<p>GNOME 3 provides two types of icons: full-color and monochrome symbolic icons. The guidelines in this document indicate when to use which type of icon. The following is a general guide.</p>
-
-<p>Full-color icons should be used for:</p>
-
-<list>
-<item><p>devices</p></item>
-<item><p>filetypes/mimetypes</p></item>
-<item><p>application (launcher) icons</p></item>
-</list>
-
-<p>All other icons should use the symbolic icon style. In addition, symbolic icons should always be used inside:</p>
-
-<list>
-<item><p>buttons</p></item>
-<item><p>lists</p></item>
-<item><p>entry fields</p></item>
-<item><p>when the background is semi-transparent (such as overlaid media or fullscreen controls)</p></item>
-</list>
-
-</section>
-
-
-<section id="application-icons">
-<title>Application icons</title>
-
-<media type="image" mime="image/png" src="figures/icons/shading.svg"/>
-
-<p>Every application should have a unique and beautiful application icon. It is the face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
-
-<p>The nominal size of application icons is 128x128px. Application icons are, however, rarely rendered at this resolution. As display density started varying immensely, sticking to absolute pixel units has also become less practical.</p>
-
-<p>Because the application icon still get presented at lower resolution, the icon should feature only detail presentable at 64x64px resolution. The density of detail should not be higher, because it would get lost by filtering/scaling down.</p>
-
-<p>The default template includes a 2px grid which should help you avoid adding detail that's finer than the desired threshold.</p>
-
-<media type="image" mime="image/png" src="figures/icons/sizes.svg"/>
-
-<p>Application icons are mostly presented big, but the low level of detail will help when the icon is rendered at lower resolutions, such as System Settings panels (16x16px at low density displays).</p>
-
-</section>
-
-<section id="perspective">
-<title>Perspective &amp; Shape</title>
-
-<p>Just like the symbolic icons, fullcolor application icons should be rendered with a simple orthogonal view and no real or isometric perspective distortion. To provide depth a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though, rasing the object more than 2 detail units (4 nominal pixels) is not recommended.</p>
-
-<p>It is desirable to give the app icon a unique silhouette. At the same time, to allow for a pleasing grid presentation among the other applications, the aspect ratio should not be very extreme. Very narrow or very wide objects should be avoided.</p>
-
-<media type="image" mime="image/png" src="figures/icons/aspect-ratio.svg"/>
-
-<p>A <link href="https://gitlab.gnome.org/Community/Design/icon-revolution/raw/master/template.svg">grid template</link> is available to assist you with placing your icon outline. Do not try to cover a maximum area of the canvas, the outside margin/whitespace is meant to be left empty. In special cuscumstanses a small detail can be extended into this margin space.</p>
-
-<media type="image" mime="image/png" src="figures/icons/whitespace.svg"/>
-
-</section>
-
-<section id="shadows">
-<title>Shadows</title>
-
-<p>You are free to cast shadows internatlly. The light source is coming straight from the top. You 
-should avoid casting shadows outside the main silhouette of the icon as icon shadows are generated procedurally based on the alpha channel of the icon depending on the context. When app icons are presented on a white background, for example, a strong drop shadow is rendered to help define the contours.</p>
-<media type="image" mime="image/png" src="figures/icons/dropshadow.png"/>
-
-</section>
-
-<section id="palette">
-<title>Palette</title>
-
-<p>Below is the baseline GNOME app icon color palette.</p>
-
-<!-- will chop up into named sections once the colors stabilize -->
-<media type="image" mime="image/svg" src="figures/icons/palette/colors.svg"/>
-
-<!--
-<table>
-<tr>
-<td><p>Blue</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/blue.svg"/></td>
-</tr>
-<tr>
-<td><p>Green</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/green.svg"/></td>
-</tr>
-<tr>
-<td><p>Yellow</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/yellow.svg"/></td>
-</tr>
-<tr>
-<td><p>Orange</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/orange.svg"/></td>
-</tr>
-<tr>
-<td><p>Red</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/red.svg"/></td>
-</tr>
-<tr>
-<td><p>Purple</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/purple.svg"/></td>
-</tr>
-<tr>
-<td><p>Brown</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/brown.svg"/></td>
-</tr>
-<tr>
-<td><p>Neutral</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/neutral.svg"/></td>
-</tr>
-</table>
--->
-
-<p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette <link href="https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl">is available</link>.</p>
-
-<p>It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surface is allowed.</p>
-
-
-
-</section>
-
-
-<section id="custom-symbolic-icons">
-<title>Symbolic icons</title>
-
-<p>Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. They are then programmatically scaled and colored within the user interface itself.</p>
-
-<list>
-<item><p>Identify a single property when looking for an appropriate metaphor for an icon, and focus on what distinguishes the idea you want to communicate. For example, when describing an action to be performed on an image, it isn’t necessary to repeat the idea of an image in every icon. Instead, focus on what is distinct about each action (for example: rotate, tag, align).</p></item>
-<item><p>Avoid using any perspective in symbolic icons, stick to a simple orthogonal view.</p></item>
-<item><p>When using unfilled strokes for an outline, try avoiding hairline (1px) and do at least a 2px stroke for the meain feature of the icon. </p></item>
-<item><p>Symbolic icons are recolored at runtime to match the context, very much like a piece of text. While there are ways to “shade” parts of an icon by using opacity or creating duotone/pattern dithering, try avoiding these as much as possible.</p></item>
-<item><p>When a metaphor relies on the negative space, make sure it will work with the colors inverted. For example a camera lens spec/highlight will only work if lighter than the lens itself.</p></item>
-</list>
-
-<media type="image" mime="image/svg" src="figures/icons/inverting.svg"/>
-
-<section id="size-and-grid">
-<title>Size and grid</title>
-
-<p>While the icons are scalable and should work in any size, the basic canvas size is 16x16 grid units. You have the whole canvas to fill, but note that a filled rectangular object will appear stronger/larger when placed next to items that only use thinner strokes. Try to keep the contrast of your whole set.</p>
-
-</section>
-
-</section>
-
-
-<!-- graphic assets TODO
-<section id="stock-icons">
-<title>GNOME Icon Pack</title>
-
-<p>To avoid starting from scratch, we prepared a selection of commonly used icons you can include in your application, or create derivatives of. The set is licensed CC0, so they can be used regardless of your project's license.</p>
-
-</section>
--->
-
-
-
-
-<section id="see-also">
-<title>See also</title>
-
-<p><link href="http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines">Tango Icon Guidelines</link></p>
 
 </section>
 
