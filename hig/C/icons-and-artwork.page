@@ -23,7 +23,7 @@
 
 <p>Two styles of icon are used in GNOME 3: full-color and symbolic icons.</p>
 
-<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 64✕64px SVGs, and can be scaled to multiples or subdivisions of 64✕64 (such as 32✕32, 64✕64, 128✕128).</p>
+<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 64✕64px SVGs, and can be scaled to multiples or subdivisions of 64✕64 (such as 128✕128, 256x256 and 512x512). The level of detail and positioning on the pixel grid allows them to be rendered sharp at smaller sizes, but is not advised to do below 32x32px.</p>
 
 <p>Symbolic icons are simple and monochrome, and are designed to work well at smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to multiples of 16✕16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally have a neutral color, although their color can be changed programatically.</p>
 
@@ -33,9 +33,9 @@
 <title>Icon uses</title>
 
 
-<p>Application icons are the most prominent type of icons and every application should have its own unique and beautiful application icon. Every application should have a unique and beautiful application icon. These are he face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
+<p>Application icons are the most prominent type of icons and every application should have its own unique and beautiful application icon. These are the face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
 
-<p>Application icons use the full-color style. Applications are also recommended to provide a symbolic version of their icon, which is used for the high-contrast accessibility feature.</p>
+<p>Application icons use the full-color style. Applications are also recommended to provide a symbolic version of their icon, which is used for the high-contrast accessibility feature and a few contexts where a legible low resolution icon is required.</p>
 
 <p>Other user interface icons typically use the symbolic style. The most common example is for buttons.</p>
 
