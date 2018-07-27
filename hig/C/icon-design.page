@@ -49,10 +49,11 @@
 <section id="shadows">
 <title>Shadows</title>
 
-<p>You are free to cast shadows internatlly. The light source is coming straight from the top. You
-should avoid casting shadows outside the main silhouette of the icon as icon shadows are generated procedurally based on the alpha channel of the icon depending on the context. When app icons are presented on a white background, for example, a strong drop shadow is rendered to help define the contours.</p>
+<p>You are free to cast shadows internally. The light source is coming straight from the top. You
+should avoid casting shadows outside the main silhouette of the icon tough, as icon shadows are generated procedurally based on the alpha channel of the icon depending on the context. When app icons are presented on a white background, for example, a strong drop shadow is rendered to help define the contours.</p>
 <media type="image" mime="image/png" src="figures/icons/dropshadow.png"/>
 
+<p>Having shadows generated automatically depending o context also allows us to prodecurally generate versions of the app icon based on the alpha channel contour, such as for application nightly builds.</p>
 </section>
 
 <section id="palette">
