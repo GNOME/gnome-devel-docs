@@ -62,44 +62,47 @@ should avoid casting shadows outside the main silhouette of the icon tough, as i
 <p>Below is the baseline GNOME app icon color palette.</p>
 
 <!-- will chop up into named sections once the colors stabilize -->
-<media type="image" mime="image/svg" src="figures/icons/palette/colors.svg"/>
 
-<!--
+
 <table>
 <tr>
 <td><p>Blue</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/blue.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/blue.png"/></td>
+</tr>
+<tr>
+<td><p>Cyan</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/cyan.png"/></td>
 </tr>
 <tr>
 <td><p>Green</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/green.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/green.png"/></td>
 </tr>
 <tr>
 <td><p>Yellow</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/yellow.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/yellow.png"/></td>
 </tr>
 <tr>
 <td><p>Orange</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/orange.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/orange.png"/></td>
 </tr>
 <tr>
 <td><p>Red</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/red.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/red.png"/></td>
 </tr>
 <tr>
 <td><p>Purple</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/purple.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/purple.png"/></td>
 </tr>
 <tr>
 <td><p>Brown</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/brown.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/brown.png"/></td>
 </tr>
 <tr>
 <td><p>Neutral</p></td>
-<td><media type="image" mime="image/svg" src="figures/icons/palette/neutral.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/neutral.png"/></td>
 </tr>
 </table>
--->
+
 
 <p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette <link href="https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl">is available</link>.</p>
 
