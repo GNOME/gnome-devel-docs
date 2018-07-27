@@ -31,8 +31,6 @@
 
 <media type="image" mime="image/png" src="figures/icons/sizes.svg"/>
 
-<p>Application icons are mostly presented big, but the low level of detail will help when the icon is rendered at lower resolutions, such as System Settings panels (16x16px at low density displays).</p>
-
 <section id="perspective">
 <title>Perspective &amp; Shape</title>
 
