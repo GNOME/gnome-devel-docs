@@ -5,13 +5,13 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
 # Nicolás Satragno <nsatragno@gnome.org>, 2012, 2013.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2017.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs.platform-demos.master\n"
-"POT-Creation-Date: 2018-07-07 08:43+0000\n"
-"PO-Revision-Date: 2017-12-12 12:07+0100\n"
+"POT-Creation-Date: 2018-07-24 08:11+0000\n"
+"PO-Revision-Date: 2018-07-31 12:22+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -19,13 +19,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2017\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2018\n"
 "Nicolás Satragno <nsatragno@gmail.com>, 2012 - 2013\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2011"
 
@@ -16647,13 +16647,13 @@ msgid ""
 "pointer to a data structure that you might need to access inside the signal "
 "handler.)"
 msgstr ""
-"El gestor de la señal tiene dos argumentos. un puntero al "
-"<code>GtkWidget</code> que llamó a la función (en este caso, siempre es un "
-"<code>GtkButton</code>), y un puntero a ciertos «datos de usuario» que puede "
-"definir, pero que aquí no se usan. (Puede establecer los datos de usuario "
-"llamando a <code>gtk_builder_connect_signals</code>; normalmente se usa para "
-"pasar un puntero a una estructura de datos a la que puede necesitar acceder "
-"dentro del gestor de la señal.)"
+"El gestor de la señal tiene dos argumentos. un puntero al <code>GtkWidget</"
+"code> que llamó a la función (en este caso, siempre es un <code>GtkButton</"
+"code>), y un puntero a ciertos «datos de usuario» que puede definir, pero "
+"que aquí no se usan. (Puede establecer los datos de usuario llamando a "
+"<code>gtk_builder_connect_signals</code>; normalmente se usa para pasar un "
+"puntero a una estructura de datos a la que puede necesitar acceder dentro "
+"del gestor de la señal.)"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:137 C/guitar-tuner.py.page:136
@@ -17726,8 +17726,8 @@ msgid ""
 msgstr ""
 "Por último, se conecta la señal <em>clicked</em>. Esto no es del todo "
 "sencillo porque se hace de manera completamente segura para el tipo, y "
-"actualmente se quiere pasar la frecuencia y la clase auxiliar al gestor "
-"de la señal. <code>sigc::ptr_fun(&amp;on_button_clicked)</code> crea un "
+"actualmente se quiere pasar la frecuencia y la clase auxiliar al gestor de "
+"la señal. <code>sigc::ptr_fun(&amp;on_button_clicked)</code> crea un "
 "<em>slot</em> para el método <code>on_button_clicked</code> definido "
 "anteriormente. Con <code>sigc::bind</code> es posible pasar argumentos "
 "adicionales al slot y, en este caso, se pasa la frecuencia (como «double») y "
@@ -19200,8 +19200,8 @@ msgstr ""
 "gui> a la derecha y busque la señal <code>clicked</code> del botón. Puede "
 "usar esto para conectar un gestor de señal al que se llamará cuando el "
 "usuario pulse el botón. Para hacer esto, pulse sobre la señal, escriba "
-"<code>main_on_button_clicked</code> en la columna <gui>Gestor</gui> y "
-"pulse <key>Intro</key>."
+"<code>main_on_button_clicked</code> en la columna <gui>Gestor</gui> y pulse "
+"<key>Intro</key>."
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.vala.page:132
@@ -19439,10 +19439,9 @@ msgstr ""
 "que <code>play_sound</code> hace es añadir un <link href=\"http://www."
 "valadoc.org/glib-2.0/GLib.TimeoutSource.html\"><code>TimeoutSource</code></"
 "link>. Esto establece un tiempo de expiración para detener el sonido; espera "
-"200 milisegundos antes de llamar a un gestor de la señal definido en "
-"línea y destruye la tubería. Devuelve<code>false</code> para quitarse a sí "
-"mismo del tiempo de expiración, ya que de otro modo, seguiría llamándose "
-"cada 200ms,"
+"200 milisegundos antes de llamar a un gestor de la señal definido en línea y "
+"destruye la tubería. Devuelve<code>false</code> para quitarse a sí mismo del "
+"tiempo de expiración, ya que de otro modo, seguiría llamándose cada 200ms,"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.vala.page:204
@@ -19693,7 +19692,7 @@ msgstr "Aquí hay código HTML, CSS, y JavaScript básico. ¿Le resulta familiar
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:32
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\n"
 #| "&lt;!DOCTYPE html&gt;\n"
@@ -19760,6 +19759,7 @@ msgstr ""
 "&lt;!DOCTYPE html&gt;\n"
 "&lt;html&gt;\n"
 "    &lt;head&gt;\n"
+"        &lt;meta charset=\"utf-8\"&gt;\n"
 "        &lt;title&gt;Hello, GNOME!&lt;/title&gt;\n"
 "\n"
 "        &lt;!-- Use JavaScript to show a greeting when someone clicks the button --&gt;\n"
@@ -19869,10 +19869,11 @@ msgstr ""
 #: C/hellognome.js.page:79
 msgid "Then we should set the versions of the libraries we'll be using."
 msgstr ""
+"Se deben establecer las versiones de las bibliotecas que se están usando."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:80
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\n"
 #| "#!/usr/bin/gjs\n"
@@ -19885,10 +19886,8 @@ msgid ""
 "imports.gi.versions.WebKit2 = '4.0';\n"
 msgstr ""
 "\n"
-"#!/usr/bin/gjs\n"
-"\n"
 "imports.gi.versions.Gtk = '3.0';\n"
-"const Gtk = imports.gi.Gtk;\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:84
@@ -19898,7 +19897,7 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:85
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\n"
 #| "const GLib = imports.gi.GLib;\n"
@@ -19914,8 +19913,7 @@ msgstr ""
 "\n"
 "const GLib = imports.gi.GLib;\n"
 "const Gtk = imports.gi.Gtk;\n"
-"const Lang = imports.lang;\n"
-"const Webkit = imports.gi.WebKit;\n"
+"const Webkit = imports.gi.WebKit2;\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:90
@@ -19930,7 +19928,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/hellognome.js.page:92
-#, fuzzy
 #| msgid ""
 #| "<file>Gtk</file> and <file>Lang</file> are basic parts of any GNOME "
 #| "application, which let you create windows and widgets and tie them "
@@ -19939,8 +19936,8 @@ msgid ""
 "<file>Gtk</file> is the basic part of any GNOME application, which lets you "
 "create windows and widgets and tie them together."
 msgstr ""
-"<file>Gtk</file> y <file>Lang</file> son partes básicas de cualquier "
-"aplicación de GNOME, que le permiten crear ventanas y widgets, y juntarlos."
+"<file>Gtk</file>es la parte básica de cualquier aplicación de GNOME, que le "
+"permite crear ventanas y widgets, y juntarlos."
 
 #. (itstool) path: item/p
 #: C/hellognome.js.page:93
@@ -19968,16 +19965,17 @@ msgstr "Ahora se crea la aplicación en sí:"
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:98
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid "1. Hello, GNOME!"
 msgid ""
 "\n"
 "class HelloGNOME {\n"
-msgstr "1. ¡Hola, GNOME!"
+msgstr ""
+"\n"
+"class HelloGNOME {\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:101
-#, fuzzy
 #| msgid ""
 #| "This will look familiar to you if you've worked with object-oriented "
 #| "JavaScript before. That's right; our whole application is a class called "
@@ -19990,12 +19988,11 @@ msgid ""
 msgstr ""
 "Esto le resultará familiar si ha trabajado con JavaScript orientado a "
 "objetos anteriormente. Así es; toda la aplicación es una clase llamada "
-"«HelloGNOME». Y como puede ver, se le ha dado una propiedad que dice cuál es "
-"su nombre."
+"«HelloGNOME»."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:103
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\n"
 #| "class WelcomeToTheGrid {\n"
@@ -20039,7 +20036,6 @@ msgid ""
 "    }\n"
 msgstr ""
 "\n"
-"class WelcomeToTheGrid {\n"
 "    // Create the application itself\n"
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
@@ -20056,7 +20052,7 @@ msgstr ""
 "\n"
 "    // Callback function for 'startup' signal builds the UI\n"
 "    _onStartup() {\n"
-"        this._buildUI ();\n"
+"        this._buildUI();\n"
 "    }\n"
 
 #. (itstool) path: section/p
@@ -20074,7 +20070,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:124
-#, fuzzy
 #| msgid ""
 #| "What does that mean? Well, everything in a GNOME application sends out a "
 #| "signal when something important happens. A button might send out the "
@@ -20093,13 +20088,13 @@ msgid ""
 "arguments: The signal we want to handle, and the bound function, which we "
 "have to use to tell connect which function we want to have handle the signal."
 msgstr ""
-"¿Qué significa eso? Bueno, todo en una aplicación de GNOME envía una señal "
+"¿Qué significa eso? Bueno, en una aplicación de GNOME todo envía una señal "
 "cuando algo importante sucede. Un botón puede enviar la señal «clicked» "
 "cuando lo pulsa, por ejemplo. Su trabajo es conectar las señales a funciones "
 "que las manejen, y hagan las cosas que quiere que ocurran. Esto se hace "
 "usando el método «connect» de cada objeto, que toma dos argumentos: la señal "
-"que quiere manejar, y la función «Lang.bind», que hay que usar para decirle "
-"a «connect» qué función quiere que maneje la señal."
+"que quiere manejar, y la función vinculada, que hay que usar para decirle a "
+"«connect» qué función quiere que maneje la señal."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:125
@@ -20120,7 +20115,6 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/hellognome.js.page:126
-#, fuzzy
 #| msgid ""
 #| "When you copy and paste the above code for your own applications, be sure "
 #| "to change the name to a unique one each time."
@@ -20129,7 +20123,7 @@ msgid ""
 "change the class name to a unique one each time."
 msgstr ""
 "Cuando copie y pegue el código anterior para sus propias aplicaciones, "
-"asegúrese de cambiar el nombre por uno único cada vez."
+"asegúrese de cambiar el nombre de la clase por uno único cada vez."
 
 #. (itstool) path: section/title
 #: C/hellognome.js.page:130
@@ -20149,7 +20143,7 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:133
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\n"
 #| "    // Build the application's UI\n"
@@ -20177,7 +20171,7 @@ msgid ""
 msgstr ""
 "\n"
 "    // Build the application's UI\n"
-"    _buildUI: function () {\n"
+"    _buildUI() {\n"
 "\n"
 "        // Create the application window\n"
 "        this._window = new Gtk.ApplicationWindow  ({\n"
@@ -20425,7 +20419,7 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:199
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "#!/usr/bin/gjs\n"
 #| "\n"
@@ -20551,10 +20545,11 @@ msgstr ""
 "#!/usr/bin/gjs\n"
 "\n"
 "imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
 "\n"
 "const GLib = imports.gi.GLib;\n"
 "const Gtk = imports.gi.Gtk;\n"
-"const Webkit = imports.gi.WebKit;\n"
+"const Webkit = imports.gi.WebKit2;\n"
 "\n"
 "class HelloGNOME {\n"
 "\n"
@@ -23035,8 +23030,8 @@ msgid ""
 "button we mentioned before. Add this code before the <code>create_window()</"
 "code> method."
 msgstr ""
-"Ahora se definirá el gestor de la señal para la señal <em>clicked</em> en "
-"el botón mencionado anteriormente. Añada este código antes del método "
+"Ahora se definirá el gestor de la señal para la señal <em>clicked</em> en el "
+"botón mencionado anteriormente. Añada este código antes del método "
 "<code>create_window()</code>."
 
 #. (itstool) path: section/code
@@ -24634,9 +24629,9 @@ msgid ""
 "code> line where the button was created:"
 msgstr ""
 "El primer paso es conectar la señal <code>clicked</code> del botón a una "
-"función gestora de la señal, llamada <code>_openClicked</code>. Ponga "
-"este código inmediatamente después de la línea <code>var open_button = new "
-"Gtk.Button</code> en la que se creó el botón:"
+"función gestora de la señal, llamada <code>_openClicked</code>. Ponga este "
+"código inmediatamente después de la línea <code>var open_button = new Gtk."
+"Button</code> en la que se creó el botón:"
 
 #. (itstool) path: section/code
 #: C/image-viewer.js.page:255
@@ -25109,12 +25104,12 @@ msgid ""
 msgstr ""
 "La primera línea crea una <code>Gtk.Image</code> llamada <code>image</code>, "
 "que se usará para mostrar un archivo de imagen. Como se necesitará más tarde "
-"en el gestor de la señal, se definirá como variable a nivel de clase. "
-"Deberá añadir <code>image = 0</code> al principio de la clase <code>GUI</"
-"code>. Entonces se añade el widget de imagen (<em>packed</em>) en el "
-"contenedor <code>box</code> usando el método <link href=\"http://library."
-"gnome.org/devel/gtk/stable/GtkBox.html#gtk-box-pack-start"
-"\"><code>pack_start</code></link> de GtkBox."
+"en el gestor de la señal, se definirá como variable a nivel de clase. Deberá "
+"añadir <code>image = 0</code> al principio de la clase <code>GUI</code>. "
+"Entonces se añade el widget de imagen (<em>packed</em>) en el contenedor "
+"<code>box</code> usando el método <link href=\"http://library.gnome.org/"
+"devel/gtk/stable/GtkBox.html#gtk-box-pack-start\"><code>pack_start</code></"
+"link> de GtkBox."
 
 #. (itstool) path: section/p
 #: C/image-viewer.py.page:157
@@ -25810,8 +25805,8 @@ msgid ""
 "A signal handler is a type of callback method that is called when a signal "
 "is emitted. Here the terms are used interchangeably."
 msgstr ""
-"Un gestor de señal es un tipo de método de retorno de la llamada al que "
-"se llama cuando se emite la señal. Aquí se usan los términos intercambiados."
+"Un gestor de señal es un tipo de método de retorno de la llamada al que se "
+"llama cuando se emite la señal. Aquí se usan los términos intercambiados."
 
 #. (itstool) path: item/p
 #: C/image-viewer.vala.page:241
@@ -42006,12 +42001,11 @@ msgid ""
 "future or currently ongoing emissions of the signal it has been connected "
 "to, as in <code>widget.disconnect(handler_id)</code>."
 msgstr ""
-"La función devuelve un número (el <code>id_de_gestor</code>) que "
-"identifica este par «señal-retorno de llamada» particular. Este número se "
-"requiere para desconectar una señal para que la función de retorno de "
-"llamada no se llame durante emisiones de la señal a la que se ha conectado "
-"futuras o en progreso, como en <code>widget.disconnect(id_de_gestor)</"
-"code>."
+"La función devuelve un número (el <code>id_de_gestor</code>) que identifica "
+"este par «señal-retorno de llamada» particular. Este número se requiere para "
+"desconectar una señal para que la función de retorno de llamada no se llame "
+"durante emisiones de la señal a la que se ha conectado futuras o en "
+"progreso, como en <code>widget.disconnect(id_de_gestor)</code>."
 
 #. (itstool) path: section/p
 #: C/signals-callbacks.py.page:47
@@ -54060,8 +54054,8 @@ msgid ""
 "Return <code>True</code> from your query-tooltip handler. This causes the "
 "tooltip to be show. If you return <code>False</code>, it will not be shown."
 msgstr ""
-"Devuelva <code>True</code> de su gestor de «query-tooltip». Esto hace que "
-"el consejo se muestre. Si devuelve <code>False</code>, no se mostrará."
+"Devuelva <code>True</code> de su gestor de «query-tooltip». Esto hace que el "
+"consejo se muestre. Si devuelve <code>False</code>, no se mostrará."
 
 #. (itstool) path: section/p
 #: C/tooltip.py.page:46
@@ -60174,12 +60168,16 @@ msgstr ""
 #~ "    _init: function () {\n"
 #~ "        this.application = new Gtk.Application ();\n"
 #~ "\n"
-#~ "        // Connect 'activate' and 'startup' signals to the callback functions\n"
-#~ "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-#~ "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
+#~ "        // Connect 'activate' and 'startup' signals to the callback "
+#~ "functions\n"
+#~ "        this.application.connect('activate', Lang.bind(this, this."
+#~ "_onActivate));\n"
+#~ "        this.application.connect('startup', Lang.bind(this, this."
+#~ "_onStartup));\n"
 #~ "    },\n"
 #~ "\n"
-#~ "    // Callback function for 'activate' signal presents windows when active\n"
+#~ "    // Callback function for 'activate' signal presents windows when "
+#~ "active\n"
 #~ "    _onActivate: function () {\n"
 #~ "        this._window.present ();\n"
 #~ "    },\n"
@@ -60194,12 +60192,16 @@ msgstr ""
 #~ "    _init: function () {\n"
 #~ "        this.application = new Gtk.Application ();\n"
 #~ "\n"
-#~ "        // Connect 'activate' and 'startup' signals to the callback functions\n"
-#~ "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-#~ "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
+#~ "        // Connect 'activate' and 'startup' signals to the callback "
+#~ "functions\n"
+#~ "        this.application.connect('activate', Lang.bind(this, this."
+#~ "_onActivate));\n"
+#~ "        this.application.connect('startup', Lang.bind(this, this."
+#~ "_onStartup));\n"
 #~ "    },\n"
 #~ "\n"
-#~ "    // Callback function for 'activate' signal presents windows when active\n"
+#~ "    // Callback function for 'activate' signal presents windows when "
+#~ "active\n"
 #~ "    _onActivate: function () {\n"
 #~ "        this._window.present ();\n"
 #~ "    },\n"
