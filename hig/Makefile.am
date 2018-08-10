@@ -17,7 +17,6 @@ HELP_FILES = \
 	drop-down-lists.page \
 	empty-placeholders.page \
 	grids.page \
-	header-bar-menus.page \
 	header-bars.page \
 	icons-and-artwork.page \
 	index.page \
@@ -32,11 +31,13 @@ HELP_FILES = \
 	patterns.page \
 	pointer-and-touch-input.page \
 	popovers.page \
+	primary-menus.page \
 	primary-windows.page \
 	progress-bars.page \
 	progress-spinners.page \
 	radio-buttons.page \
 	search.page \
+	secondary-menus.page \
 	selection-mode.page \
 	sidebar-lists.page \
 	sliders.page \
@@ -76,7 +77,6 @@ HELP_MEDIA = \
 	figures/patterns/empty-placeholder.svg \
         figures/patterns/grid.svg \
         figures/patterns/header-bar.svg \
-        figures/patterns/header-bar-menu.svg \
         figures/patterns/in-app-notification.svg \
         figures/patterns/info-bar.svg \
         figures/patterns/list-styles.svg \
@@ -84,8 +84,10 @@ HELP_MEDIA = \
         figures/patterns/overlaid-controls.svg \
         figures/patterns/patterns.svg \
         figures/patterns/presentation-dialog.svg \
+        figures/patterns/primary-menu.svg \
         figures/patterns/primary-windows.svg \
         figures/patterns/search.svg \
+        figures/patterns/secondary-menu.svg \
         figures/patterns/selection-mode.svg \
         figures/patterns/sidebar-list.svg \
         figures/patterns/view-switcher.svg \
