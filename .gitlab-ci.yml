@@ -1,0 +1,25 @@
+stages:
+  - build
+
+build-fedora:
+  image: fedora:28
+  stage: build
+  before_script:
+    - dnf -y install
+        autoconf
+        automake
+        glib2-devel
+        gettext
+        make
+        which
+        xz
+        yelp-devel
+        yelp-tools
+
+  script:
+    - ./autogen.sh
+    - make
+    - make distcheck
+
+  except:
+    - tags
