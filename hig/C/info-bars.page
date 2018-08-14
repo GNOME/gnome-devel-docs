@@ -22,7 +22,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Info bars can be used to communicate a particular state about a particular content item or location. For example, an info bar could indicate that a document is out of date or being edited by other, or that a service relating to a location is not operating. In some situations, they can also be used to present supplementary information, such as user guidance.</p>
+<p>Info bars can be used to communicate a particular state about a particular content item or location. For example, an info bar could indicate that a document is out of date or being edited by others, or that a service relating to a location is not operating. In some situations, they can also be used to present supplementary information, such as user guidance.</p>
 
 <p>Since info bars are persistent, they are generally more appropriate for communicating ongoing states rather than events (<link xref="notifications">notifications</link> or <link xref="in-app-notifications">in-app notifications</link> are more appropriate here).</p>
 

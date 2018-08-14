@@ -17,7 +17,7 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/secondary-menu.svg"/>
 
-<p>A menu that contains menu items for for the current view or content item. A secondary menu is different from a <link xref="primary-menus">primary menu</link>, in that it is only shown on sub-views/pages, and doesn't contain global application items like <gui>Preferences</gui> and <gui>About</gui></p>.
+<p>A menu that contains menu items for the current view or content item. A secondary menu is different from a <link xref="primary-menus">primary menu</link>, in that it is only shown on sub-views/pages, and doesn't contain global application items like <gui>Preferences</gui> and <gui>About</gui></p>.
 
 <p>Secondary menus are opened with a button that has the view-more icon. They are located at the right side of a header bar or, when used in combination with a <link xref="sidebar-lists">sidebar list</link>, to the right above the list.</p>
 

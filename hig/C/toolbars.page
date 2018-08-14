@@ -28,7 +28,6 @@
   </info>
 
 <title>Toolbars</title>
-
 <p>A toolbar is a strip of controls that allows convenient access to commonly-used functions. Most toolbars only contain graphical buttons, but in more complex applications, other types of controls such as drop-down lists, can also be useful.</p>
 
 <media type="image" mime="image/svg" src="figures/ui-elements/toolbar.svg"/>
@@ -49,7 +48,7 @@
 <item><p>Only include controls for the most important functions. Having too many toolbar controls reduces their efficiency by making them harder to find, and too many rows of toolbars reduces the amount of screen space available to the rest of the application.</p></item>
 <item><p>Utilize conventions for toolbars to increase familiarity. For example, the main toolbar in an office application will nearly always have new, open and save as its first three toolbar buttons. Similarly, the first buttons in a browser application should be back and forward.</p></item>
 <item><p>Place only the most commonly-used application functions on your toolbars. Don’t just add buttons for every menu item.</p></item>
-<item><p>If you are using a <link xref="menu-bars">menu bar</link>, ensure that it includes all the functions that appear on you toolbar, either directly (i.e. an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</gui><gui>Settings</gui></guiseq> dialog).</p></item>
+<item><p>If you are using a <link xref="menu-bars">menu bar</link>, ensure that it includes all the functions that appear on your toolbar, either directly (i.e. an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</gui><gui>Settings</gui></guiseq> dialog).</p></item>
 <item><p>Toolbars shouldn’t include buttons for <gui>Help</gui>, <gui>Close</gui> or <gui>Quit</gui>, as these are rarely used and the space is better used for more useful controls. Similarly, only provide buttons for <gui>Undo</gui>, <gui>Redo</gui> and the standard clipboard functions if there is space on the toolbar to do so without sacrificing more useful, application-specific controls.</p></item>
 <item><p>Toolbar <link xref="buttons">buttons</link> should have a relief, and icon buttons should use <link xref="icons-and-artwork#color-vs-symbolic">symbolic icons</link>.</p></item>
 </list>

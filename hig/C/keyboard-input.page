@@ -70,7 +70,7 @@
 </tr>
 <tr>
 <td><p><keyseq><key>Ctrl</key><key>F1</key></keyseq></p></td>
-<td><p>Shows a tooltip for the the currently-focused window or control</p></td>
+<td><p>Shows a tooltip for the currently-focused window or control</p></td>
 </tr>
 <tr>
 <td><p><keyseq><key>Shift</key><key>F1</key></keyseq></p></td>

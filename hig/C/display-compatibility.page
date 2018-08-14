@@ -24,7 +24,7 @@
 <item><p>It should be possible for all application windows to fit on the smallest recommended displays for GNOME 3. Currently, this is 1024×600 pixels.</p></item>
 <item><p>Ensure that your application works well in portrait orientation. The minimum recommended width for portrait mode is 768 pixels.</p></item>
 <item><p>All primary windows should be resizable. This ensures that transitions between landscape and portrait mode can be automatically handled by the window manager.</p></item>
-<item><p>Test to make sure that your interface works well on large displays. Where possible, scale content to make the best use of available space, or used fixed width layouts to ensure that interface elements maintain effective grouping and alignment.</p></item>
+<item><p>Test to make sure that your interface works well on large displays. Where possible, scale content to make the best use of available space, or use fixed width layouts to ensure that interface elements maintain effective grouping and alignment.</p></item>
 </list>
 
 </section>
