@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-08-11 02:51+0000\n"
-"PO-Revision-Date: 2018-08-11 19:32+0200\n"
+"POT-Creation-Date: 2018-08-15 03:28+0000\n"
+"PO-Revision-Date: 2018-08-19 17:06+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -97,7 +97,7 @@ msgstr ""
 #: C/primary-windows.page:22 C/progress-bars.page:37
 #: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:25
 #: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
-#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:37
+#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
 #: C/view-switchers.page:22
 msgid "When to use"
 msgstr "Anwendungsfälle"
@@ -165,7 +165,7 @@ msgstr ""
 #: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
 #: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
 #: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
-#: C/text-fields.page:68 C/toolbars.page:60 C/view-switchers.page:46
+#: C/text-fields.page:68 C/toolbars.page:59 C/view-switchers.page:46
 msgid "API reference"
 msgstr "API-Referenz"
 
@@ -407,7 +407,7 @@ msgstr ""
 #: C/lists.page:133 C/menu-bars.page:93 C/menus.page:61
 #: C/pointer-and-touch-input.page:40 C/popovers.page:55
 #: C/primary-windows.page:70 C/progress-bars.page:117
-#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:46
+#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
 #: C/visual-layout.page:35
 msgid "General guidelines"
 msgstr "Allgemeine Richtlinien"
@@ -2305,7 +2305,7 @@ msgstr ""
 #: C/display-compatibility.page:27
 msgid ""
 "Test to make sure that your interface works well on large displays. Where "
-"possible, scale content to make the best use of available space, or used "
+"possible, scale content to make the best use of available space, or use "
 "fixed width layouts to ensure that interface elements maintain effective "
 "grouping and alignment."
 msgstr ""
@@ -3823,9 +3823,9 @@ msgstr ""
 msgid ""
 "Info bars can be used to communicate a particular state about a particular "
 "content item or location. For example, an info bar could indicate that a "
-"document is out of date or being edited by other, or that a service relating "
-"to a location is not operating. In some situations, they can also be used to "
-"present supplementary information, such as user guidance."
+"document is out of date or being edited by others, or that a service "
+"relating to a location is not operating. In some situations, they can also "
+"be used to present supplementary information, such as user guidance."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -4039,7 +4039,7 @@ msgstr "<keyseq><key>Ctrl</key><key>F1</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:73
-msgid "Shows a tooltip for the the currently-focused window or control"
+msgid "Shows a tooltip for the currently-focused window or control"
 msgstr ""
 "Zeigt eine Minihilfe für das aktuell fokussierte Fenster oder Bedienelement "
 "an"
@@ -8018,6 +8018,11 @@ msgid ""
 "careful to ensure that they follow the advice on minimum display sizes, "
 "display orientation, and half-screen snap."
 msgstr ""
+"Die Richtlinien zur <link xref=\"display-compatibility"
+"\">Anzeigekompatibilität</link> sind insbesondere für primäre Fenster "
+"relevant: Seien Sie vorsichtig, um sicherzustellen, dass diese den "
+"Anweisungen für minimale Bildschirmgrößen, der Anzeigeausrichtung und "
+"Einrasten im halben Bildschirm folgen."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:79
@@ -8156,6 +8161,10 @@ msgid ""
 "percentage. For example, <gui>13 of 19 images rotated</gui> or <gui>12.1 of "
 "30 MB downloaded</gui> rather than <gui>13% complete</gui>."
 msgstr ""
+"Oft ist es besser, den Benutzern spezifische Informationen anstelle "
+"Prozentsätzen zu bieten. Beispielsweise ist die Anzeige <gui>13 of 19 images "
+"rotated</gui> oder <gui>12.1 of 30 MB downloaded</gui> hilfreicher als "
+"<gui>13% complete</gui>."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:68
@@ -8257,6 +8266,8 @@ msgstr ""
 #: C/progress-bars.page:98
 msgid "When showing progress bars for sub-tasks:"
 msgstr ""
+"Folgendes sollten Sie bei der Anzeige von Fortschrittsbalken für "
+"Teilaufgaben beachten:"
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:101
@@ -8271,6 +8282,8 @@ msgid ""
 "Generally speaking, it is not necessary to show a progress bar for overall "
 "progress through the set of tasks."
 msgstr ""
+"Im Allgemeinen ist es nicht notwendig, einen Fortschrittsbalken für den "
+"Gesamtfortschritt der auszuführenden Aufgaben anzuzeigen."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:108
@@ -8286,6 +8299,13 @@ msgid ""
 "recommended, since the consequence of closing the window can be unclear and "
 "they can obscure useful controls and content."
 msgstr ""
+"In der Vergangenheit waren Fortschrittsfenster eine beliebte Methode zum "
+"Darstellen von Fortschrittsbalken. Die sekundären Fenster wurden für die "
+"Dauer der auszuführenden Aufgabe angezeigt und enthielten eine oder mehrere "
+"Balkenanzeigen. Generell werden solche Fortschrittsfenster nicht mehr "
+"empfohlen, da die Auswirkung beim Schließen des Fensters unklar ist und "
+"diese Fenster außerdem nützliche und wichtige Bedienelemente und Inhalte "
+"verdecken können."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:112
@@ -8294,6 +8314,9 @@ msgid ""
 "close visual relationship with the content items or controls which represent "
 "the ongoing task."
 msgstr ""
+"Wo immer möglich sollten Fortschrittsbalken eingebettet angezeigt werden und "
+"einen engen visuellen Bezug zu den Inhaltsobjekten oder Bedienelementen "
+"haben, welche die in Ausführung befindliche Aufgabe darstellen."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:120
@@ -8312,6 +8335,9 @@ msgid ""
 "Ensure that time-remaining and typical-time progress bars measure an "
 "operation’s total time or total work, not just that of a single step."
 msgstr ""
+"Stellen Sie sicher, dass Fortschrittsbalken, die die typische oder "
+"verbleibende Zeit anzeigen, die Gesamtzeit oder den Gesamtaufwand messen und "
+"sich nicht nur auf einen einzelnen Schritt beziehen."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:122
@@ -8319,6 +8345,9 @@ msgid ""
 "Update time-remaining progress bars when changes occur that will cause the "
 "operation to finish more quickly or more slowly."
 msgstr ""
+"Aktualisieren Sie Fortschrittsbalken, die die verbleibende Zeit anzeigen, "
+"wenn sich Änderungen ergeben, die einen Vorgang deutlich beschleunigen oder "
+"verlangsamen."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:123
@@ -8466,6 +8495,10 @@ msgid ""
 "options. Only one radio button within a group may be set at any one time. As "
 "with check boxes, do not use radio buttons to initiate actions."
 msgstr ""
+"Radioknöpfe werden in Gruppen zur Auswahl sich gegenseitig ausschließender "
+"Optionen verwendet. Es kann jeweils nur ein Radioknopf in einer Gruppe "
+"aktiviert sein. Wie auch bei Ankreuzfeldern sollten Sie Radioknöpfe nicht "
+"verwenden, um damit die Ausführung von Aktionen auszulösen."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -8486,6 +8519,9 @@ msgid ""
 "button on its own. To represent a single setting, use a check box or two "
 "radio buttons, one for each state."
 msgstr ""
+"Verwenden Sie Radioknöpfe nur in Gruppen zu mindestens zwei, niemals allein. "
+"Um eine einzelne Einstellung darzustellen, verwenden Sie ein Ankreuzfeld "
+"oder zwei Radioknöpfe, einen für jeden Status."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:41
@@ -8501,6 +8537,9 @@ msgid ""
 "Clicking a radio button should not affect the values of any other controls. "
 "It may sensitize, insensitize, hide or show other controls, however."
 msgstr ""
+"Das Anklicken eines Radioknopfs sollte sich nicht auf die Werte anderer "
+"Bedienelemente auswirken. Er kann jedoch die Sensitivität anderer "
+"Bedienelemente beeinflussen oder diese anzeigen oder verbergen."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:43
@@ -8520,6 +8559,11 @@ msgid ""
 "the label that allows the user to set the radio button directly from the "
 "keyboard."
 msgstr ""
+"Verwenden Sie <link xref=\"writing-style#capitalization\">Satz-"
+"Großschreibung</link> für die Beschriftung von Radioknöpfen, zum Beispiel "
+"<gui>Switched movement</gui>. Stellen Sie eine <link xref=\"keyboard-"
+"input#access-keys\">Zugriffstaste</link> in der Beschriftung bereit, die dem "
+"Benutzer ermöglicht, den Radioknopf direkt über die Tastatur zu erreichen."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:45
@@ -8528,6 +8572,9 @@ msgid ""
 "for some objects in the selection and unset for others, show the radio "
 "button in its mixed state."
 msgstr ""
+"Falls sich der Radioknopf auf eine Einstellung in einer Mehrfachauswahl "
+"bezieht, die für einige Objekte einer Auswahl gesetzt wird und für andere "
+"nicht, dann stellen Sie den Radioknopf im gemischten Status dar."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:46
@@ -8537,6 +8584,11 @@ msgid ""
 "instead— but you probably also need to think about how to simplify your user "
 "interface."
 msgstr ""
+"Platzieren Sie nicht mehr als acht Radioknöpfe unter einer "
+"Gruppenüberschrift. Falls Sie mehr benötigen, sollten Sie eine "
+"Einfachauswahlliste in Erwägung ziehen – aber Sie sollten auch darüber "
+"nachdenken, wie Sie Ihre Benutzeroberfläche vereinfachen und entschlacken "
+"könnten."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:47
@@ -8545,6 +8597,10 @@ msgid ""
 "this makes them easier to scan visually. Use horizontal or rectangular "
 "alignments only if they greatly improve the layout of the window."
 msgstr ""
+"Versuchen Sie, Radioknöpfe vertikal anstatt horizontal anzuordnen, da diese "
+"Anordnung visuell leichter zu erfassen ist. Verwenden Sie horizontale oder "
+"rechteckige Anordnungen nur dann, wenn sie das Layout des Fensters "
+"maßgeblich verbessern."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:56
@@ -8638,6 +8694,8 @@ msgid ""
 "The keyboard shortcut for search (<keyseq><key>Ctrl</key><key>F</key></"
 "keyseq>)."
 msgstr ""
+"Ein Tastenkürzel für die Suche (<keyseq><key>Ctrl</key><key>F</key></"
+"keyseq>)."
 
 #. (itstool) path: item/p
 #: C/search.page:42
@@ -8653,6 +8711,9 @@ msgid ""
 "can make the search bar permanently visible, or visible when the application "
 "is first started."
 msgstr ""
+"Falls die Suche zu den primären Methoden zum Auffinden von Inhalten in Ihrer "
+"Anwendung gehört, sollten Sie die Suchleiste dauerhaft anzeigen, oder "
+"zumindest beim ersten Start der Anwendung."
 
 #. (itstool) path: section/title
 #: C/search.page:50
@@ -8692,6 +8753,10 @@ msgid ""
 "terminology is one way to do this. Presenting suggestions for similar "
 "matches or related content is another."
 msgstr ""
+"Seien Sie nachsichtig gegenüber Fehlern in Suchbegriffen. Falsch "
+"geschriebene Eingaben oder inkorrekte Begriffe zu akzeptieren gehört dazu. "
+"Eine weitere Möglichkeit ist, Vorschläge für ähnliche Treffer oder verwandte "
+"Inhalte anzuzeigen."
 
 #. (itstool) path: item/p
 #: C/search.page:65
@@ -8740,7 +8805,7 @@ msgstr "original'"
 #. (itstool) path: page/p
 #: C/secondary-menus.page:20
 msgid ""
-"A menu that contains menu items for for the current view or content item. A "
+"A menu that contains menu items for the current view or content item. A "
 "secondary menu is different from a <link xref=\"primary-menus\">primary "
 "menu</link>, in that it is only shown on sub-views/pages, and doesn't "
 "contain global application items like <gui>Preferences</gui> and <gui>About</"
@@ -8764,6 +8829,10 @@ msgid ""
 "gui> and <gui>About</gui>. However, it can sometimes be useful to show "
 "<gui>Help</gui>."
 msgstr ""
+"Sekundäre Menüs sollten generell keine Einträge reproduzieren, die bereits "
+"in <link xref=\"primary-menus\">primären Menüs</link> enthalten sind, wie "
+"<gui>Preferences</gui> und <gui>About</gui>. Jedoch kann es gelegentlich "
+"sinnvoll sein, einen Eintrag <gui>Help</gui> bereitzustellen."
 
 #. (itstool) path: item/p
 #: C/secondary-menus.page:38
@@ -8808,6 +8877,9 @@ msgid ""
 "Selection mode is a design pattern for allow actions to be performed on "
 "items of content. It is typically used in conjunction with lists and grids."
 msgstr ""
+"Der Markierungsmodus ist ein Designmuster, das die Ausführung von Aktionen "
+"mit Inhaltsobjekten ermöglicht. Er wird typischerweise in Verbindung mit "
+"Listen und Gittern verwendet."
 
 #. (itstool) path: page/p
 #: C/selection-mode.page:21
@@ -8816,22 +8888,29 @@ msgid ""
 "an action bar is shown at the bottom of the view. This contains the various "
 "actions that can be performed on selected content items."
 msgstr ""
+"Wenn der Markierungsmodus aktiv ist, ermöglichen Ankreuzfelder die Auswahl "
+"von Objekten und eine Aktionsleiste wird unterhalb der Ansicht angezeigt. "
+"Diese enthält die verschiedenen Aktionen, die auf die ausgewählten "
+"Inhaltsobjekte angewendet werden können."
 
 #. (itstool) path: section/p
 #: C/selection-mode.page:26
 msgid "Selection mode is appropriate when:"
-msgstr ""
+msgstr "Der Markierungsmodus sollten in folgenden Fällen eingesetzt werden:"
 
 #. (itstool) path: item/p
 #: C/selection-mode.page:29
 msgid ""
 "It is common to perform actions simultaneously on multiple content items."
 msgstr ""
+"Aktionen können gleichzeitig auf mehrere Inhaltsobjekte angewendet werden."
 
 #. (itstool) path: item/p
 #: C/selection-mode.page:30
 msgid "Multiple actions are available to be performed on content items."
 msgstr ""
+"Es sind mehrere Aktionen verfügbar, die auf Inhaltsobjekte angewendet werden "
+"können."
 
 #. (itstool) path: item/p
 #: C/selection-mode.page:31
@@ -8839,6 +8918,8 @@ msgid ""
 "It is helpful for users to be able to perform actions on content items "
 "without opening them."
 msgstr ""
+"Es ist hilfreich für Benutzer, Aktionen auf Inhaltsobjekte anwenden zu "
+"können, ohne diese öffnen zu müssen."
 
 #. (itstool) path: section/p
 #: C/selection-mode.page:34
@@ -8878,6 +8959,10 @@ msgid ""
 "in this case the relevant controls should only be sensitive when multiple "
 "items are selected."
 msgstr ""
+"Bedienelemente in der Aktionsleiste sollten ausgegraut sein, wenn keine "
+"Objekte ausgewählt sind. Manchmal können Aktionen nur auf mehrere "
+"Inhaltsobjekte angewendet werden. In diesem Fall sollten die relevanten "
+"Bedienelemente nur anklickbar sein, wenn mehrere Objekte ausgewählt sind."
 
 #. (itstool) path: item/p
 #: C/selection-mode.page:50
@@ -9076,11 +9161,16 @@ msgid ""
 "seeking through audio or video, changing a zoom or volume level, or setting "
 "values in image editors."
 msgstr ""
+"Schieberegler können entweder zur Änderung eines Wertes oder zur Navigation "
+"innerhalb eines Inhaltsobjekts genutzt werden, wie Video-, Audiodateien oder "
+"Textdokumente. Übliche Anwendungsfälle sind Vor- und Zurückspulen in "
+"Mediendateien, die Auswahl einer Vergrößerungsstufe oder die Festlegung von "
+"Werten in Bildbearbeitungsprogrammen."
 
 #. (itstool) path: section/p
 #: C/sliders.page:41
 msgid "Use a slider when:"
-msgstr "Verwenden Sie einen Schieberegler, wenn:"
+msgstr "Verwenden Sie einen Schieberegler in folgenden Fällen:"
 
 #. (itstool) path: item/p
 #: C/sliders.page:44
@@ -9089,6 +9179,8 @@ msgid ""
 "relative to its current value is more important than choosing an absolute "
 "value."
 msgstr ""
+"Der Wertebereich ist fest und geordnet, und die Anpassung des Wertes relativ "
+"zu seinem aktuellen Wert ist wichtiger als die Wahl des absoluten Werts."
 
 #. (itstool) path: item/p
 #: C/sliders.page:45
@@ -9105,6 +9197,8 @@ msgid ""
 "If the range of values does not have a fixed maximum and/or minimum, a <link "
 "xref=\"spin-boxes\">spin box</link> can be used."
 msgstr ""
+"Falls der Wertebereich kein festes Maximum oder Minimum hat, kann ein <link "
+"xref=\"spin-boxes\">Einstellfeld</link> verwendet werden."
 
 #. (itstool) path: item/p
 #: C/sliders.page:56
@@ -9182,7 +9276,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/spin-boxes.page:30
 msgid "Spin boxes"
-msgstr ""
+msgstr "Einstellfelder"
 
 #. (itstool) path: page/p
 #: C/spin-boxes.page:32
@@ -9191,6 +9285,9 @@ msgid ""
 "buttons that allow the user to increase or decrease the value by a fixed "
 "amount."
 msgstr ""
+"Ein Einstellfeld ist ein Textfeld, das als Eingabe einen Bereich von Werten "
+"akzeptiert. Es bezieht zwei Knöpfe ein, mit denen der Benutzer den Wert um "
+"einen festen Betrag vergrößern oder verkleinern kann."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -9211,6 +9308,10 @@ msgid ""
 "values are meaningful or useful for users to know. If they aren't, a <link "
 "xref=\"sliders\">slider</link> might be a better choice."
 msgstr ""
+"Verwenden Sie Einstellfelder zur Benutzereingabe numerischer Werte, aber nur "
+"dann, wenn es für den Benutzer wichtig oder sinnvoll ist diese Werte zu "
+"kennen. Falls nicht, wären <link xref=\"sliders\">Schieberegler</link> die "
+"bessere Wahl."
 
 #. (itstool) path: section/p
 #: C/spin-boxes.page:41
@@ -9219,6 +9320,9 @@ msgid ""
 "<link xref=\"lists\">list</link> or <link xref=\"drop-down-lists\">drop-down "
 "list</link> can be used instead."
 msgstr ""
+"Verwenden Sie Einstellfelder nur für numerische Eingaben. Für nicht-"
+"numerische Optionen können Sie stattdessen eine <link xref=\"lists\">Liste</"
+"link> oder <link xref=\"drop-down-lists\">Auswahlliste</link> verwenden."
 
 #. (itstool) path: section/p
 #: C/spin-boxes.page:48
@@ -9228,6 +9332,11 @@ msgid ""
 "values. However, it is only useful if you want to cater to people who may "
 "know a specific value that they want to use. Use a slider when:"
 msgstr ""
+"In einigen Fällen ist es sinnvoll, ein Einstellfeld mit einem Schieberegler "
+"zu verknüpfen. Diese Kombination erlaubt sowohl die ungefähre Kontrolle als "
+"auch die Eingabe spezifischer Werte. Dennoch ist dies nur sinnvoll, wenn die "
+"Benutzer den spezifischen Wert kenne, den sie verwenden wollen. Platzieren "
+"Sie einen Schieberegler in folgenden Fällen:"
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:51
@@ -9235,6 +9344,8 @@ msgid ""
 "Immediate feedback for changes in the spin box’s value is possible (such as "
 "in the case of image editing)."
 msgstr ""
+"Unmittelbare Rückmeldung der Änderungen in den Werten des Einstellfeldes ist "
+"möglich (zum Beispiel in einer Bildbearbeitung)."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:52
@@ -9243,6 +9354,10 @@ msgid ""
 "time. For example, to monitor the effects of a color change in a live "
 "preview window as they drag the RGB sliders."
 msgstr ""
+"Es ist sinnvoll für den Benutzer, wenn er die Schrittweite der Änderungen in "
+"Echtzeit steuern kann, um beispielsweise die Änderungen einer Farbe in einem "
+"Live-Vorschaufenster zu überwachen, die mit RGB-Schiebereglern gesteuert "
+"werden."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:61
@@ -9251,6 +9366,10 @@ msgid ""
 "capitalization. Provide an access key in the label that allows the user to "
 "give focus directly to the spin box."
 msgstr ""
+"Beschriften Sie das Einstellfeld mit einem Text darüber oder links davon und "
+"verwenden Sie Satz-Großschreibung. Stellen Sie eine Zugriffstaste in der "
+"Beschriftung bereit, mit denen der Benutzer das Einstellfeld direkt "
+"fokussieren kann."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:62
@@ -9261,6 +9380,12 @@ msgid ""
 "In this case, ensure the right edges of the relevant controls are also "
 "aligned."
 msgstr ""
+"Ordnen Sie den Inhalt von Einstellfeldern rechtsbündig an, sofern die "
+"Konvention im Gebietsschema des Benutzers nichts anderes erfordert. Dies ist "
+"in Fenstern sinnvoll, in denen der Benutzer zwei numerische Werte in der "
+"selben Spalte von Bedienelementen vergleichen kann. In diesem Fall sollten "
+"Sie sicherstellen, dass die rechten Ränder der entsprechenden Bedienelemente "
+"aneinander ausgerichtet sind."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:71
@@ -9304,6 +9429,12 @@ msgid ""
 "switch being operated and it having an effect), or when they affect the "
 "operation of the application in a significant way."
 msgstr ""
+"Schalter sollten zum Steuern von Diensten oder Hardware verwendet werden, "
+"die eine klare Ein-Aus-Logik haben. Sie sind speziell dann angebracht, wenn "
+"diese Dienste oder die Hardware nicht unmittelbar aktiviert wird, also wenn "
+"eine Verzögerung zwischen der Bedienung des Schalters und dessen Wirkung "
+"gibt, oder wenn sie den Betrieb der Anwendung in signifikanter Weise "
+"beeinflussen."
 
 #. (itstool) path: section/p
 #: C/switches.page:29
@@ -9769,7 +9900,7 @@ msgid "Toolbars"
 msgstr "Werkzeugleisten"
 
 #. (itstool) path: page/p
-#: C/toolbars.page:32
+#: C/toolbars.page:31
 msgid ""
 "A toolbar is a strip of controls that allows convenient access to commonly-"
 "used functions. Most toolbars only contain graphical buttons, but in more "
@@ -9786,7 +9917,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/toolbars.page:34
+#: C/toolbars.page:33
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/toolbar.svg' "
@@ -9794,7 +9925,7 @@ msgid ""
 msgstr "original"
 
 #. (itstool) path: section/p
-#: C/toolbars.page:39
+#: C/toolbars.page:38
 msgid ""
 "Use a toolbar to provide access to common actions, tools or options in "
 "primary windows. <link xref=\"header-bars\">Header bars</link> also perform "
@@ -9807,7 +9938,8 @@ msgstr ""
 "Werkzeugleiste ist generell nicht notwendig, wenn Sie Kopfleisten verwenden."
 
 #. (itstool) path: section/p
-#: C/toolbars.page:41
+#: C/toolbars.page:40
+#, fuzzy
 msgid ""
 "While toolbars are a common approach, there are cases where they are not the "
 "most effective. Interfaces that focus on direct manipulation, or which make "
@@ -9816,18 +9948,29 @@ msgid ""
 "should only be pursued by those who are confident in pursuing more original "
 "design solutions."
 msgstr ""
+"Zwar sind Werkzeugleisten ein oft genutzter Ansatz, aber es gibt Fälle, in "
+"denen sie nicht am effektivsten sind. Oberflächen, die auf direkte "
+"Manipulation abzielen, oder die ???, könnten eine bessere Alternative sein. "
+"Jeder dieser Ansätze erfordert mehr Aufwand und Zeit beim Design, und sollte "
+"nur von denjenigen verwendet werden, die selbstbewusst originelle "
+"konstruktive Lösungen verfolgen."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:49
+#: C/toolbars.page:48
 msgid ""
 "Only include controls for the most important functions. Having too many "
 "toolbar controls reduces their efficiency by making them harder to find, and "
 "too many rows of toolbars reduces the amount of screen space available to "
 "the rest of the application."
 msgstr ""
+"Stellen Sie nur Bedienelemente für die wichtigsten Funktionen bereit. Zu "
+"viele Werkzeugleistenelemente schränken die Funktionalität ein, da sie "
+"schwerer zu finden sind. Außerdem verringern zu viele Werkzeugleistenzeilen "
+"den Platz auf dem Bildschirm, der für den Rest der Anwendung zur Verfügung "
+"steht."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:50
+#: C/toolbars.page:49
 msgid ""
 "Utilize conventions for toolbars to increase familiarity. For example, the "
 "main toolbar in an office application will nearly always have new, open and "
@@ -9841,7 +9984,7 @@ msgstr ""
 "Werkzeugleistenknöpfe in einem Browser die Vor- und Zurück-Knöpfe sein."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:51
+#: C/toolbars.page:50
 msgid ""
 "Place only the most commonly-used application functions on your toolbars. "
 "Don’t just add buttons for every menu item."
@@ -9851,11 +9994,11 @@ msgstr ""
 "Knopf hinzu."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:52
+#: C/toolbars.page:51
 msgid ""
 "If you are using a <link xref=\"menu-bars\">menu bar</link>, ensure that it "
-"includes all the functions that appear on you toolbar, either directly (i.e. "
-"an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
+"includes all the functions that appear on your toolbar, either directly (i."
+"e. an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
 "gui><gui>Settings</gui></guiseq> dialog)."
 msgstr ""
 "Wenn Sie eine <link xref=\"menu-bars\">Menüleiste</link> verwenden, stellen "
@@ -9865,7 +10008,7 @@ msgstr ""
 "gui><gui>Settings</gui></guiseq>)."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:53
+#: C/toolbars.page:52
 msgid ""
 "Toolbars shouldn’t include buttons for <gui>Help</gui>, <gui>Close</gui> or "
 "<gui>Quit</gui>, as these are rarely used and the space is better used for "
@@ -9883,15 +10026,18 @@ msgstr ""
 "Bedienelemente dafür nicht weichen müssen."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:54
+#: C/toolbars.page:53
 msgid ""
 "Toolbar <link xref=\"buttons\">buttons</link> should have a relief, and icon "
 "buttons should use <link xref=\"icons-and-artwork#color-vs-symbolic"
 "\">symbolic icons</link>."
 msgstr ""
+"Werkzeugleisten<link xref=\"buttons\">knöpfe</link> sollten ein Relief "
+"haben, und Symbolknöpfe sollten <link xref=\"icons-and-artwork#color-vs-"
+"symbolic\">symbolische Symbole</link> haben."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:63
+#: C/toolbars.page:62
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html"
 "\">GtkToolbar</link>"
@@ -10343,6 +10489,8 @@ msgid ""
 "Good visual layout also obviously makes applications more attractive and "
 "visually pleasing."
 msgstr ""
+"Ein gutes visuelles Layout macht Anwendungen auch attraktiver und visuell "
+"angenehmer."
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:32
@@ -10512,6 +10660,11 @@ msgid ""
 "justification is not possible if you have indented controls: here left-"
 "justification should be used instead."
 msgstr ""
+"Wenn möglich, sollten Sie Beschriftungen rechtsbündig anordnen (siehe "
+"Diagramm unten). Dadurch werden größere Lücken zwischen Beschriftungen und "
+"deren zugehörigen Bedienelementen vermieden. Diese Art der rechtsbündigen "
+"Anordnung ist nicht möglich, wenn die Bedienelemente einen Einzug haben: "
+"Hier sollte stattdessen die linksbündige Anordnung angewendet werden."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -10542,6 +10695,15 @@ msgid ""
 "content that they affect. Header bars are a key design pattern in this "
 "respect."
 msgstr ""
+"Ordnen Sie visuelle Elemente von oben nach unten und von links nach rechts "
+"an. Dies ist die Richtung, in denen Benutzer in westlichen "
+"Spracheinstellungen eine Benutzeroberfläche lesen, so dass die Objekte oben "
+"links zuerst wahrgenommen werden. Diese Anordnung verleiht "
+"Benutzeroberflächen eine Hierarchie: Die zuerst wahrgenommenen Elemente "
+"haben Priorität vor den weiteren, die danach kommen. Aus diesem Grund "
+"sollten Sie dominante Elemente oberhalb und links von den Inhalten "
+"platzieren, auf die sie sich auswirken. Kopfleisten sind ein Designmuster, "
+"die dies respektieren."
 
 #. (itstool) path: credit/name
 #: C/writing-style.page:26
@@ -10794,3 +10956,8 @@ msgid ""
 "therefore does not need to communicate that further input or confirmation is "
 "required."
 msgstr ""
+"Fügen Sie keine Ellipsis zu Beschriftungen wie <gui>Properties</gui> oder "
+"<gui>Preferences</gui> hinzu. Obwohl diese Befehle Fenster öffnen, die "
+"weitere Funktionalität bereitstellen, spezifiziert diese Beschriftung keine "
+"Aktion. Deshalb muss nicht direkt darauf verwiesen werden, dass weitere "
+"Eingaben oder Bestätigungen erforderlich sind."
