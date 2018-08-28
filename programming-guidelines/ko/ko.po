@@ -1,7 +1,7 @@
 # Korean translation for gnome-devel-docs.
 # Copyright (C) 2016 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Seong-ho Cho <shcho@gnome.org>, 2016-2017.
+# Seong-ho Cho <shcho@gnome.org>, 2016-2018.
 #
 # Note:
 # 1. introspect(동사. 기술용어) : 인트로스펙션으로 번역하십시오.
@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-03-02 12:42+0000\n"
-"PO-Revision-Date: 2017-03-04 14:25+0900\n"
+"POT-Creation-Date: 2018-06-09 14:29+0000\n"
+"PO-Revision-Date: 2018-08-26 13:19+0900\n"
 "Last-Translator: Seong-ho Cho <shcho@gnome.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: ko\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "조성호 <shcho@gnome.org>, 2016, 2017."
+msgstr "조성호 <shcho@gnome.org>, 2016-2018."
 
 #. (itstool) path: credit/name
 #: C/additional-materials.page:10 C/c-coding-style.page:10 C/documentation.page:11
@@ -3063,11 +3063,11 @@ msgstr "최신 문서 유지"
 msgid ""
 "gtk-doc comes with support for checking the documentation with some basic tests. "
 "These check that all version indexes are included in the main <file>*-docs.xml</"
-"file> file and that all symbols are documented, amongst other things."
+"file> file and that all symbols are documented, among other things."
 msgstr ""
 "gtk-doc에는 일부 기본 테스트 과정에서 문서 검사를 지원합니다. 문서 검사 과정에서 "
-"<file>*-docs.xml</file> 주 파일에서 모든 버전의 색인이 있는지, 모든 심볼을 문서에 남"
-"겼는지 등을 검사합니다."
+"<file>*-docs.xml</file> 주 파일에 모든 버전의 색인이 있는지, 모든 심볼을 문서에 남겼"
+"는지 등을 검사합니다."
 
 #. (itstool) path: section/p
 #: C/documentation.page:384
@@ -5757,12 +5757,12 @@ msgstr ""
 msgid ""
 "If that’s put at the top of each function, any assertion failure will highlight a "
 "case where a function has been called from the wrong thread. It is much easier to "
-"write these assertions when initially developing code, rather than debuging race "
+"write these assertions when initially developing code, rather than debugging race "
 "conditions which can easily result from a function being called in the wrong thread."
 msgstr ""
 "각 함수의 최상단에 두었다면, 잘못된 스레드에서 함수를 호출했을 때 강조된 채로 단언 실"
-"행에 실패합니다. 잘못된 스레드에서 호출할 함수로 하여금 빈번하게 나올 경쟁 상황을 디"
-"버깅하기보다는, 초기 코드를 개발할 때 단언 부를 작성하는게 훨씬 용이합니다."
+"행에 실패합니다. 잘못된 스레드에서 호출할 함수의 결과를 쉽게 기대하는 식으로 경쟁 상"
+"황을 디버깅하기보다는, 초기 코드를 개발할 때 단언부를 작성하는게 훨씬 용이합니다."
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:835
