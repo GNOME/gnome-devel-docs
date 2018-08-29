@@ -16,14 +16,14 @@
 
 <title>Icons and artwork</title>
 
-<p>Icons are a basic element in user interfaces. They also make up a fundamental part of application identities. This page provides an overview of icon usage, and covers which icons are available through the GNOME platform, resources for creating new icons, and some general guidelines on using icons in user interfaces.</p>
+<p>Icons are a basic element in user interfaces. They also make up a fundamental part of application identities. This page provides an overview of icon usage. It also describes which icons are available through the GNOME platform, introduces resources for creating new icons, and includes some general guidelines on using icons in user interfaces.</p>
 
 <section id="icon-styles">
 <title>Icon styles</title>
 
 <p>Two styles of icon are used in GNOME 3: full-color and symbolic icons.</p>
 
-<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 64✕64px SVGs, and can be scaled to multiples or subdivisions of 64✕64 (such as 128✕128, 256x256 and 512x512). The level of detail and positioning on the pixel grid allows them to be rendered sharp at smaller sizes, but is not advised to do below 32x32px.</p>
+<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 64✕64px SVGs, and can be scaled to multiples or subdivisions of 64✕64 (such as 128✕128, 256✕256 and 512✕512). Their design allows them to be rendered sharp at smaller sizes, but is not advised to do below 32x32px.</p>
 
 <media type="image" mime="image/png" src="figures/icons/fullcolor-v-symbolic.svg"/>
 
@@ -35,13 +35,13 @@
 <title>Icon uses</title>
 
 
-<p>Application icons are the most prominent type of icons and every application should have its own unique and beautiful application icon. These are the face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
+<p>Application icons are the most prominent type of icons. Every application should have its own unique and beautiful application icon: it is the face of the application, and the first visual element a user sees when browsing for new applications.</p>
 
-<p>Application icons use the full-color style. Applications are also recommended to provide a symbolic version of their icon, which is used for the high-contrast accessibility feature and a few contexts where a legible low resolution icon is required.</p>
+<p>Application icons use the full-color style. Applications are also recommended to provide a symbolic version of their icon, which is used for the high-contrast accessibility feature, as well as in contexts where a legible low resolution icon is required.</p>
 
-<p>Other user interface icons typically use the symbolic style. The most common example is for buttons.</p>
+<p>User interface icons typically use the symbolic style and this is the primary icon style used for user interface controls. The most common and obvious example of symbolic icon usage is on buttons.</p>
 
-<p>In some cases, full-color icons are an appropriate choice to use in interfaces. For example, when icons are to be displayed at large sizes and when they are the focus of attention. File and folder icons in a file manager are a good example of this.</p>
+<p>Apart from application icons, the full-color icon style can also be used in cases where icons are displayed at large sizes and are intended to be the focus of attention. File and folder icons in a file manager are a good example of this.</p>
 
 </section>
 
