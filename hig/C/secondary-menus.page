@@ -17,14 +17,14 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/secondary-menu.svg"/>
 
-<p>A menu that contains menu items for the current view or content item. A secondary menu is different from a <link xref="primary-menus">primary menu</link>, in that it is only shown on sub-views/pages, and doesn't contain global application items like <gui>Preferences</gui> and <gui>About</gui></p>.
-
-<p>Secondary menus are opened with a button that has the view-more icon. They are located at the right side of a header bar or, when used in combination with a <link xref="sidebar-lists">sidebar list</link>, to the right above the list.</p>
+<p>Secondary menus are located in the header bar and include menu items for the current view or content item. This differentiates them from <link xref="primary-menus">primary menus</link>, which include menu items that relate to an entire application (such as <gui>Preferences</gui> and <gui>About</gui>).</p>
 
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Most applications have primary menus, since they are the standard location for About, which every application is expected to have.</p>
+<p>Secondary menus can be used to host controls that relate to a particular content item which is being displayed in the application window (such as a document, contact, conversation or photo). They are typically used in combination with in-window navigation or <link xref="sidebar-lists">sidebar lists</link>, since both these arrangements feature separate views or areas for content items to be shown.</p>
+
+<p>Secondary menus are optional and only need to be used if there are enough controls to require a menu.</p>
 
 </section>
 
@@ -33,8 +33,8 @@
 
 <list>
 <item><p>Secondary menus generally shouldn't reproduce menu items that are included in <link xref="primary-menus">primary menus</link>, like <gui>Preferences</gui> and <gui>About</gui>. However, it can sometimes be useful to show <gui>Help</gui>.</p></item>
-<item><p>Follow the <link xref="menus">standard guidelines for menus</link>.</p></item>
-<item><p>A primary menu is contained within a <link xref="popovers">popover</link>. As such, a header bar menu can include a variety of controls, such as groups of buttons.</p></item>
+<item><p>The <link xref="menus">standard guidelines for menus</link> can be followed when designing secondary menus.</p></item>
+<item><p>A secondary menu is contained within a <link xref="popovers">popover</link>. As such, a header bar menu can include a variety of controls, such as groups of buttons.</p></item>
 <item><p>Secondary menus shouldn’t include menu items for close or quit.</p></item>
 </list>
 

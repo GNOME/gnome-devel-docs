@@ -17,14 +17,14 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/primary-menu.svg"/>
 
-<p>A menu that is located at the right side of a <link xref="header-bars">header bar</link>, which contains the top-level menu items for an application, including Preferences, Help and About, as well as menu items for functionality that doesn't fit into the rest of the view. The button which activates the menu has the menu-open icon, which is made up of three stacked horizontal lines.</p>
+<p>Primary menus are a standard design pattern that is found in most applications. They are labelled with the menu icon (named <code>menu-open</code>) and contain the top-level menu items for the application. This can include standard items like <gui>Preferences</gui>, <gui>Help</gui> and <gui>About</gui>, as well as other application-specific items.</p>
 
-<p>When used in combination with a sidebar list, a primary menu is placed on the right above the list.</p>
+<p>Primary menus are typically located on the right side of the header bar. When used in combination with a <link xref="sidebar-lists">sidebar list</link>, the primary menu should be placed above the sidebar list.</p>
 
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Most applications have primary menus, since they are the standard location for About, which every application is expected to have.</p>
+<p>Most applications have primary menus, since they are the standard location for <gui>About</gui>, which every application is expected to have.</p>
 
 </section>
 
@@ -33,9 +33,10 @@
 
 <list>
 <item><p>Primary menus can contain items for both the current window or view, as well as the application as a whole. This differentiates them from <link xref="secondary-menus">secondary menus</link>, which only contain menu items that relate to a specific view or item.</p></item>
-<item><p>Follow the <link xref="menus">standard guidelines for menus</link>.</p></item>
+<item><p>Applications which use in-window navigation should only show the primary menu on the top-level view (typically the main view that is shown when the app is launched). Child views, such as those that show individual items of content, should use <link xref="secondary-menus">secondary</link> rather than primary menus.</p></item>
+<item><p>Follow the <link xref="menus">standard guidelines for menus</link> when deciding on primary menu content and arrangement.</p></item>
 <item><p>A primary menu is contained within a <link xref="popovers">popover</link>. As such, a header bar menu can include a variety of controls, such as groups of buttons.</p></item>
-<item><p>Primary menus shouldn’t include menu items for close quit. Windows can already be closed from the header bar, and it can be ambiguous as to what a close menu item refers to. Users don't readily differentiate between quit and close, and it can therefore be misleading.</p></item>
+<item><p>Primary menus shouldn’t include menu items for close or quit: windows can already be closed using the close button in the header bar, and it can be ambiguous as to what a close menu item refers to. Users don't readily differentiate between quit and close, and it can therefore be misleading.</p></item>
 </list>
 
 </section>
