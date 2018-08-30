@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2018-06-09 14:29+0000\n"
-"PO-Revision-Date: 2018-08-12 12:38+0200\n"
+"PO-Revision-Date: 2018-08-25 21:56+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -16,14 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2016, 2018\n"
-"Christian Kirbach <christian.kirbach@gmail.com>, 2016"
+"Christian Kirbach <christian.kirbach@gmail.com>, 2016\n"
+"Stefan Melmuk <stefan.melmuk@gmail.com>, 2018"
 
 #. (itstool) path: credit/name
 #: C/additional-materials.page:10 C/c-coding-style.page:10 C/documentation.page:11
@@ -129,10 +130,10 @@ msgstr "Zusammenfassung"
 
 #. (itstool) path: item/p
 #: C/api-stability.page:26
+#, fuzzy
 msgid "Define API stability guarantees for your project. (<link xref=\"#stability\"/>)"
 msgstr ""
-"Definieren Sie API-Stabilitätsgarantien für Ihr Projekt. (<link xref=\"#stability\"/"
-">)"
+"Bestimmen Sie API-Stabilitätsgarantien für Ihr Projekt. (<link xref=\"#stability\"/>)"
 
 #. (itstool) path: item/p
 #: C/api-stability.page:30
@@ -140,8 +141,8 @@ msgid ""
 "Ensure version numbers are changed as appropriate when API changes. (<link xref="
 "\"#versioning\"/>)"
 msgstr ""
-"Stellen Sie sicher, dass Versionsnummern entsprechend den API-Änderungen Ihres "
-"Projekts ebenfalls geändert werden. (<link xref=\"#versioning\"/>)"
+"Stellen Sie sicher, dass bei API-Änderungen auch die entsprechende Versionsnummer "
+"geändert wird. (<link xref=\"#versioning\"/>)"
 
 #. (itstool) path: section/title
 #: C/api-stability.page:38
@@ -150,6 +151,7 @@ msgstr "API und ABI"
 
 #. (itstool) path: section/p
 #: C/api-stability.page:40
+#, fuzzy
 msgid ""
 "At a high level, an API – <em>Application Programming Interface</em> – is the "
 "boundary between two components when developing against them. It is closely related "
@@ -162,6 +164,18 @@ msgid ""
 "its ABI. But these differences are mostly academic, and for all practical purposes, "
 "API and ABI can be treated interchangeably."
 msgstr ""
+"Allgemein ist eine API (<em>Application Programming Interface</em>) die "
+"Programmierschnittstelle zwischen zwei Komponenten, die gegeneinander entwickelt "
+"werden. Sie ist nah verwandt mit der ABI (<em>Application Binary Interface</em>), "
+"der Binärschnittstelle zur Laufzeit. Eine Schnittstelle bestimmt die verschiedenen "
+"Möglichkeiten, wie andere Komponenten mit einer Komponente interagieren können. Im "
+"Normalfalls stellen die C-Header einer Bibliothek die API und die kompilierten "
+"Symbole die ABI einer Bibliothek dar . Der Unterschied zwischen API und ABI kommt "
+"vor allem durch die Kompilation des Quelltextes: so befinden sich in einer C-"
+"Headerdatei gewisse Sachen wie <code>#define</code>-Anweisungen, die zur Änderung "
+"der API führen können, ohne dass sich die ABI ändert. In der Praxis können die "
+"Unterschiede zwischen API und ABI aber vernachlässigt werden, weil sie meistens "
+"austauschbar behandelbar sind."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:54
@@ -169,18 +183,25 @@ msgid ""
 "Examples of API-incompatible changes to a C function would be to add a new "
 "parameter, change the function’s return type, or remove a parameter."
 msgstr ""
-"Beispiele für API-kompatiblen Änderungen einer C-Funktion wären das Hinzufügen eines "
-"neuen Parameters, Ändern des Rückgabetyps einer Funktion oder die Entfernung eines "
-"Parameters."
+"Beispiele für API-inkompatible Änderungen einer C-Funktion wären das Hinzufügen "
+"eines neuen Parameters, Ändern des Rückgabetyps einer Funktion oder die Entfernung "
+"eines Parameters."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:59
+#, fuzzy
 msgid ""
 "However, many other parts of a project can form an API. If a daemon exposes itself "
 "on D-Bus, the interfaces exported there form an API. Similarly, if a C API is "
 "exposed in higher level languages by use of GIR, the GIR file forms another API — if "
 "it changes, any higher level code using it must also change."
 msgstr ""
+"Aber auch andere Teile eines Projekts können eine API darstellen. Wenn sich ein "
+"Daemon über D-Bus exponiert, stellen die dort exportierten Schnittstellen eine API "
+"dar. Wenn eine C-API in einer höheren Programmiersprache durch Verwendung von "
+"<code>GIR</code> offengelegt wird, dann stellt die GIR-Datei eine andere Form von "
+"API dar — wenn sie sich ändert, muss sich auch der gesamte Code ändern, der sich "
+"darauf bezieht."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:67
@@ -189,6 +210,9 @@ msgid ""
 "and GSettings schemas. Any changes to these could require code using your library to "
 "change."
 msgstr ""
+"Andere Beispiele von eher ungewöhnlichen APIs sind Konfigurationsdateiorte und -"
+"formate und GSettings-Schemas. Änderungenen an diesen könnten es erforderlich "
+"machen, dass sich auch Code ändern muss, der eine Bibliothek verwendet."
 
 #. (itstool) path: section/title
 #: C/api-stability.page:75
@@ -197,6 +221,7 @@ msgstr "Stabilität"
 
 #. (itstool) path: section/p
 #: C/api-stability.page:77
+#, fuzzy
 msgid ""
 "API stability refers to some level of guarantee from a project that its API will "
 "only change in defined ways in the future, or will not change at all. Generally, an "
@@ -210,6 +235,19 @@ msgid ""
 "which runs against a daemon will continue to run against all future versions of that "
 "daemon with the same major version number."
 msgstr ""
+"API-Stabilität bezieht sich darauf, inwiefern ein Projekt garantiert, dass sich "
+"seine API nur auf bestimmte Wege verändern oder auch nicht mehr verändern wird. "
+"Allgemein wird eine API dann als sicher betrachtet, wenn sie sich auf "
+"Abwärtskompatibilität festlegt; eine API könnte sich aber auch darauf festlegen, "
+"instabil oder aufwärtskompatibel zu sein. Der Zweck einer API-Stabilitätsgarantie "
+"ist es anderen zu ermöglichen, ein Projekt in ihren Code zu verwenden, ohne dass sie "
+"sich ständig Sorgen machen müssen, ihren Code dauernd ändern zu müssen, um API-"
+"Änderungen zu berücksichtigen. Eine typische API-Stabilitätsgarantie wäre, dass "
+"Code, der gegen eine bestimmte Version einer Bibliothek kompiliert wurde, ohne "
+"Probleme auch mit zukünftigen Versionen dieser Bibliothek mit derselben "
+"Hauptversionsnummer laufen wird — oder auch, dass Code der gegen einen Daemon "
+"programmiert wurde, auch auf zukünftigen Versionen mit derselbene "
+"Hauptversionsnummer laufen wird."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:93
@@ -220,6 +258,12 @@ msgid ""
 "left unstable and allowed to change wildly until the right design is found, at which "
 "point they could be marked as stable."
 msgstr ""
+"Es ist möglich, verschiedene Ebenen von API-Stabilitätsgarantien auf Komponententen "
+"innerhalb eines Projekts anzubringen. Zum Beispiel könnten die Kernfunktionalitäten "
+"einer Bibliothek stabil sein und deshalb auch deren API unverändert bleiben, während "
+"die neueren, sekundäreren Funktionenen instabil bleiben und sich sehr stark ändern "
+"dürfen, solange bis das richtige Design gefunden wurde und sie dann als sicher "
+"gekennzeichnet werden könnten."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:102
@@ -229,7 +273,7 @@ msgstr "Im Allgemeinen werden verschiedene Typen der Stabilität bezeichnet:"
 #. (itstool) path: item/title
 #: C/api-stability.page:107
 msgid "Unstable"
-msgstr "Unstable (instabil)"
+msgstr "Instabil (<em>unstable</em>)"
 
 #. (itstool) path: item/p
 #: C/api-stability.page:108
@@ -248,6 +292,9 @@ msgid ""
 "running against the modified API are allowed (for example, functions cannot be "
 "removed)."
 msgstr ""
+"Es sind nur solche Änderungen zulässig, die einem Code, der gegen die unmodifizierte "
+"API kompiliert wird, erlauben, auch mit der geänderten API zu laufen (z.B. können "
+"keine Funktionen entfernt werden)."
 
 #. (itstool) path: item/title
 #: C/api-stability.page:119
@@ -260,11 +307,14 @@ msgid ""
 "Only changes which permit code compiled against the modified API to run against the "
 "unmodified API are allowed (for example, functions cannot be added)."
 msgstr ""
+"Es sind nur solche Änderungen zulässig, die einem Code, der gegen die modifizierte "
+"API kompiliert wird, erlauben, auch mit der vorherigen API zu laufen (z.B. können "
+"keine Funktionen hinzugefügt  werden)."
 
 #. (itstool) path: item/title
 #: C/api-stability.page:127
 msgid "Totally stable"
-msgstr "Forwards compatible (vollständig stabil)"
+msgstr "Gänzlich unveränderlich (<em>totally stable</em>)"
 
 #. (itstool) path: item/p
 #: C/api-stability.page:128
@@ -273,11 +323,16 @@ msgstr "Es sind keine Änderungen an der API erlaubt, nur an deren Implementatio
 
 #. (itstool) path: section/p
 #: C/api-stability.page:132
+#, fuzzy
 msgid ""
 "Typically, projects commit to backwards-compatibility when they say an API is "
 "‘stable’. Very few projects commit to total stability because it would prevent "
 "almost all further development of the project."
 msgstr ""
+"Üblicherweise verpflichtet sich ein Projekt zur Abwärtskompatibilität, wenn es "
+"meint, eine API wäre 'stabil' (<em>stable</em>). Die wenigsten Projekte verpflichten "
+"sich zu einer gänzlichen Unveränderlichkeit (<em>total stability</em>), weil es fast "
+"die ganze weitere Entwicklung des Projektes verhindern würde."
 
 #. (itstool) path: section/title
 #. (itstool) path: page/title
@@ -294,7 +349,7 @@ msgid ""
 "\"https://autotools.io/libtool/version.html\">Autotools Mythbuster</link> or <link "
 "xref=\"versioning\"/>."
 msgstr ""
-"API-Stabilitätsgarantien sind eng mit der Versionierung des Projekts verknüpft, das "
+"API-Stabilitätsgarantien sind eng mit der Versionierung des Projekts verknüpft; das "
 "betrifft sowohl die Paket- als auch die Libtool-Versionierung. Letztere dient "
 "ausschließlich dem Zweck, die API-Stabilität zu überwachen, sie wird detailliert in "
 "<link href=\"https://autotools.io/libtool/version.html\">Autotools Mythbuster</link> "
@@ -311,6 +366,15 @@ msgid ""
 "version number is incremented when code changes are made without modifying API. See "
 "<link xref=\"versioning\"/> for more information."
 msgstr ""
+"Paketversionierung (<em>major.minor.micro</em>) ist eng mit API-Stabilität "
+"verknüpft: typischerweise, wird die Hauptversionsnummer (<em>major version number</"
+"em>) erhöht, wenn eine Änderung nicht mehr abwärtskompatibel ist (zum Beispiel wenn "
+"Funktionen umbenannt, Parameter geändert oder Funktionen entfernt werden). Die "
+"Nebenversionsnummer (<em>minor version number</em>) wird erhöht, wenn eine Änderung "
+"nicht mehr aufwärtskompatibel ist (zum Beispiel wenn eine neue öffentliche API "
+"hinzugefügt wird). Die dritte Versionsnummer (<em>micro version number</em>) wird "
+"erhöht, wenn die Code-Änderungen ohne Änderung der API möglich sind. Siehe <link "
+"xref=\"versioning\"/> für weitere Informationen."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:162
@@ -320,15 +384,26 @@ msgid ""
 "org/doc/dbus-api-design.html#api-versioning\">documentation on D-Bus API versioning</"
 "link> for details."
 msgstr ""
+"API-Versionierung ist genauso wichtig für D-Bus-Schnittstellen und GSettings-Schemas "
+"(falls sie sich häufiger ändern) wie für C-Programmierschnittstellen. Siehe die "
+"<link href=\"http://dbus.freedesktop.org/doc/dbus-api-design.html#api-versioning"
+"\">Dokumentation der D-Bus-API-Versionierung</link> für Details."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:169
+#, fuzzy
 msgid ""
 "For GIR APIs, their stability typically follows the C API stability, as they are "
 "generated from the C API. One complexity is that their stability additionally "
 "depends on the version of gobject-introspection used in generating the GIR, but "
 "recent versions have not changed much so this is not a major concern."
 msgstr ""
+"Die Stabilität von GIR-Schnittstellen orientiert sich normalerweise an der C-API-"
+"Stabilität, weil sie aus der C-API generiert werden. Eine Komplikation dabei ist, "
+"dass deren Stabilität zusätzlich noch von der Version der GObject-Introspektion "
+"abhängt, die zur Generierung der GIR verwendet wurde. Die neueren Versionen von GIR "
+"haben sich nicht so sehr geändert, weshalb das kein großer Besorgnisgrund sein "
+"sollte."
 
 #. (itstool) path: section/title
 #: C/api-stability.page:179 C/unit-testing.page:272 C/version-control.page:161
@@ -365,7 +440,7 @@ msgid ""
 "Bus API versioning documentation</link>"
 msgstr ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-api-design.html#api-versioning"
-"\">Dokumentation zur Versionierung der D-Bus-API-</link>"
+"\">Dokumentation zur Versionierung der D-Bus-API</link>"
 
 #. (itstool) path: credit/name
 #: C/c-coding-style.page:15 C/documentation.page:21
@@ -389,6 +464,9 @@ msgid ""
 "coding style is very much a matter of taste, in GNOME we favor a coding style that "
 "promotes consistency, readability, and maintainability."
 msgstr ""
+"Dieses Dokument präsentiert den bevorzugten Programmierstil für C-Programme in "
+"GNOME. Auch wenn das eigentlich Geschmackssache ist, bevorzugen wir in GNOME einen "
+"Programmierstil der Konsistenz, Lesbarkeit und Wartbarkeit begünstigt."
 
 #. (itstool) path: page/p
 #: C/c-coding-style.page:32
@@ -399,6 +477,12 @@ msgid ""
 "of long-term maintainability. Patches with GNOME’s coding style will also be easier "
 "to review!"
 msgstr ""
+"Wir präsentieren Beispiele mit guten Programmierstil sowie mit schlechtem "
+"Programmierstil, der in GNOME nicht annehmbar ist. Bitte versuchen Sie Patches "
+"einzureichen, die mit dem GNOME-Programmierstil übereinstimmen; das weist darauf "
+"hin, dass Sie Ihre Hausaufgaben gemacht haben, um das Projektziel der Langzeit-"
+"Wartbarkeit zu respektieren. Patches im GNOME-Programmierstil sind auch einfacher zu "
+"rezensieren!"
 
 #. (itstool) path: note/p
 #: C/c-coding-style.page:42
@@ -418,6 +502,11 @@ msgid ""
 "each other, with particular modifications for each project’s particular needs and "
 "culture, and GNOME’s version is no different."
 msgstr ""
+"Diese Richtlinien sind stark von GTKs CODING-STYLE-Dokument, dem Programmierstil vom "
+"Linux-Kernel und den GNU Coding Standards inspiriert. Dabei sind das jeweils leichte "
+"Variationen voneinander, mit bestimmten Anpassungen an die besonderen Bedürfnisse "
+"und Gepflogenheiten des jeweiligen Projekts und die GNOMEs Version ist dabei keine "
+"Ausnahme."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:58
@@ -430,8 +519,8 @@ msgid ""
 "The single most important rule when writing code is this: <em>check the surrounding "
 "code and try to imitate it</em>."
 msgstr ""
-"Die allerwichtigste Regel für das Schreiben von Code ist: <em>Schauen Sie sich den "
-"umgebenden Code an und versuchen Sie, dessen Stil zu imitieren</em>."
+"Die allerwichtigste Regel für das Schreiben von Code ist: <em>Untersuchen Sie den "
+"umgebenden Code und versuchen Sie, dessen Stil zu imitieren</em>."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:65
@@ -440,9 +529,9 @@ msgid ""
 "coding style to the surrounding code. This is disrespectful, like someone tromping "
 "into a spotlessly-clean house with muddy shoes."
 msgstr ""
-"Für einen Maintainer ist es erschreckend, einen Patch zu bekommen, der vom "
-"umgebenden Code stilistisch stark abweicht. Das ist respektlos, so als jemand mit "
-"schlammigen Schuhen in ein blitzsauberes Haus hineintrampelt."
+"Für einen Maintainer ist es schrecklich, einen Patch zu bekommen, der vom umgebenden "
+"Code stilistisch stark abweicht. Das ist respektlos wie jemand, der in ein "
+"blitzsauberes Haus mit schlammigen Schuhen hineintrampelt."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:72
@@ -450,7 +539,7 @@ msgid ""
 "So, whatever this document recommends, if there is already written code and you are "
 "patching it, keep its current style consistent even if it is not your favorite style."
 msgstr ""
-"Was auch immer dieses Dokument empfiehlt, so sollte sich Ihr Stil stets am Stil des "
+"Was auch immer dieses Dokument empfiehlt, Ihr Stil sollte sich stets am Stil des "
 "bereits vorhandenen Codes orientieren, auch wenn es nicht <em>Ihr bevorzugter Stil</"
 "em> ist."
 
@@ -476,12 +565,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/c-coding-style.page:93
 msgid "Indentation"
-msgstr "Einzüge"
+msgstr "Einrückungen"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:95
 msgid "In general there are two preferred indentation styles for code in GNOME."
-msgstr "Allgemein gibt es zwei zu bevorzugende Einzugsstile für Code in GNOME."
+msgstr "Allgemein gibt es zwei bevorzugte Einrückungsstile für Code in GNOME."
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:102
@@ -578,11 +667,11 @@ msgid ""
 "manager, is written in Linux kernel style. Both styles are perfectly readable and "
 "consistent when you get used to them."
 msgstr ""
-"Beide Stile haben ihre Befürworter und Gegner. Der wichtigste Punkt ist die "
+"Beide Stile haben ihre Vor- und Nachteile. Der wichtigste Punkt ist die "
 "<em>Konsistenz</em> zum umgebenden Code. Zum Beispiel ist die GTK+-Bibliothek als "
 "Widget-Toolkit für GNOME im GNU-Stil geschrieben. Nautilus dagegen, der Dateimanager "
 "von GNOME, folgt dem Linux-Kernel-Stil. Beide Stile sind bestens lesbar und "
-"konsistent, wenn Sie sie verwenden."
+"konsistent, wenn Sie sie sich daran gewöhnen."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:157
@@ -595,11 +684,11 @@ msgid ""
 "accepted without a lot of arguing about the right indentation style."
 msgstr ""
 "Ihr erstes Gefühl bei der Arbeit an Programmcode, der nicht Ihrem bevorzugten "
-"Einrückungsstil folgt, könnte, sagen wir, ablehnend sein. Widerstehen Sie dem Drang, "
-"alles neu einrücken zu wollen, oder für Ihren Patch einen inkonsistenten Stil zu "
+"Einrückungsstil folgt, könnte, sagen wir, qualvoll sein. Widerstehen Sie dem Drang, "
+"alles neu einrücken zu wollen oder für Ihren Patch einen inkonsistenten Stil zu "
 "verwenden. Erinnern Sie sich an die oberste Regel: <em>Konsistenz</em> und Respekt "
-"vor den Eigenheiten des fremden Codes, und Ihre Patches haben eine ungleich größere "
-"Chance, ohne langatmige Diskussionen über den <em>richtigen</em> Einrückungsstil "
+"vor den Eigenheiten des fremden Codes und Ihre Patches haben eine ungleich größere "
+"Chance, ohne langatmige Diskussionen über den <em>richtigen</em> Einrückungsstil, "
 "angenommen zu werden."
 
 #. (itstool) path: section/title
@@ -614,8 +703,8 @@ msgid ""
 "Changing the size of tabs means that code that you didn’t write yourself will be "
 "perpetually misaligned."
 msgstr ""
-"<em>Ändern Sie niemals die Tabulatorbreite in Ihrem Editor</em>. Behalten Sie 8 "
-"Zeichen bei. Durch Änderungen der Tabulatorbreite wird Code, den Sie nicht selbst "
+"<em>Ändern Sie niemals die Tabulatorbreite in Ihrem Editor</em>. Bleiben Sie bei 8 "
+"Zeichen. Durch Änderungen der Tabulatorbreite wird Code, den Sie nicht selbst "
 "geschrieben haben, immer falsch ausgerichtet."
 
 #. (itstool) path: section/p
@@ -626,6 +715,10 @@ msgid ""
 "to tell your editor to automatically convert all tabs to 8 spaces, so that there is "
 "no ambiguity about the intended amount of space."
 msgstr ""
+"Setzen Sie stattdessen die passende Einrückungsgröße für den Code, den Sie ändern. "
+"Wenn Sie nicht den Linux-Kernel-Stil verwenden, können Sie ihren Editor auch "
+"einstellen, alle Tabulatoren durch 8 Leerzeichen zu ersetzen, um Unklarheiten, wie "
+"viel Platz verwendet werden soll, zu vermeiden."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:188
@@ -636,7 +729,8 @@ msgstr "Klammern"
 #: C/c-coding-style.page:190
 msgid "Curly braces should not be used for single statement blocks:"
 msgstr ""
-"Geschweifte Klammern sollten nicht für einzelne Anweisungsblöcke verwendet werden:"
+"Geschweifte Klammern sollten nicht für Blöcke mit einzelnen Anweisungen verwendet "
+"werden:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:194
@@ -667,6 +761,9 @@ msgid ""
 "In GNU style, if either side of an if-else statement has braces, both sides should, "
 "to match up indentation:"
 msgstr ""
+"Beim GNU-Stil sobald eine der beiden Seiten einer <code>if-else</code>-Anweisung "
+"eine geschwungene Klammer hat, sollte die andere Seite auch  eine bekommen, um die "
+"Einrückung anzupassen:"
 
 #. (itstool) path: item/code
 #: C/c-coding-style.page:213
@@ -726,8 +823,8 @@ msgid ""
 "If the single statement covers multiple lines, e.g. for functions with many "
 "arguments, and it is followed by <code>else</code> or <code>else if</code>:"
 msgstr ""
-"Wenn sich die einzelne Anweisung über mehrere Zeilen erstreckt, zum Beispiel für "
-"Funktionen mit vielen Argumenten, und wenn darauf <code>else</code> oder <code>else "
+"Wenn sich die einzelne Anweisung über mehrere Zeilen erstreckt (zum Beispiel bei "
+"Funktionen mit vielen Argumenten) und wenn darauf <code>else</code> oder <code>else "
 "if</code> folgt:"
 
 #. (itstool) path: item/code
@@ -832,10 +929,10 @@ msgid ""
 "set the condition to a boolean variable, with a good name for that variable. Another "
 "way is to move the long condition to a function."
 msgstr ""
-"Bedenken Sie, dass solche überlangen Bedingungen oft schwer verständlich sind. Eine "
-"gute Alternative wäre, die Bedingung in eine boolesche Variable zu setzen und einen "
-"passenden Namen dafür zu wählen. Eine weitere Möglichkeit ist die Auslagerung der "
-"langen Bedingung in eine Funktion."
+"Bedenken Sie, dass solche langen Bedingungen oft schwer verständlich sind. Eine gute "
+"Angewohnheit ist es, die Bedingung in eine boolesche Variable mit einem passenden "
+"Namen zu speichern. Eine weitere Möglichkeit wäre die Auslagerung der langen "
+"Bedingung in eine Funktion."
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:299
@@ -1034,6 +1131,11 @@ msgid ""
 "that a ‘true’ value may not be necessarily equal to whatever the <code>TRUE</code> "
 "macro uses. For example:"
 msgstr ""
+"Überprüfen Sie boolesche Variablen nicht auf Gleichwertigkeit. Unter Verwendung von "
+"impliziten Vergleichen kann der resultierende Code mehr wie umgangssprachliches "
+"Englisch gelesen werden. Eine weitere Begründung ist, dass ein Wert, der als "
+"'<em>true</em>' evaluiert wird, nicht notwendigerweise mit dem <code>TRUE</code>-"
+"Makro gleichwertig ist. Zum Beispiel:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:397
@@ -1090,10 +1192,10 @@ msgid ""
 "variable types are not logical expressions by themselves, so an explicit comparison "
 "is better:"
 msgstr ""
-"Die Programmiersprache C verwendet den Wert 0 für zahlreiche Zwecke, als numerischen "
+"Die Programmiersprache C verwendet den Wert 0 für zahlreiche Zwecke: als numerischen "
 "Wert, als Ende einer Zeichenkette, als Null-Zeiger oder für den booleschen Wert "
-"<code>FALSE</code>. Um hier etwas mehr Klarheit zu schaffen, sollte in Ihrem Code "
-"der Zwecke entsprechend gekennzeichnet werden. So kann bei Vergleichen der "
+"<code>FALSE</code>. Um hier etwas mehr Klarheit zu schaffen, sollte dieser Zweck in "
+"Ihrem Code entsprechend hervorgehoben werden. So kann bei Vergleichen der "
 "Variablentyp erkannt werden. Für boolesche Variablen ist ein impliziter Vergleich "
 "angemessen, da es bereits ein logischer Ausdruck ist. Andere Variablentypen sind "
 "nicht direkt logische Ausdrücke, so dass ein expliziter Vergleich besser erscheint:"
@@ -1169,7 +1271,7 @@ msgid ""
 "Functions should be declared by placing the returned value on a separate line from "
 "the function name:"
 msgstr ""
-"Funktionen sollten so deklariert werden, dass der Rückgabewert in einer separaten "
+"Funktionen sollten so deklariert werden, dass der Rückgabetyp in einer separaten "
 "Zeile vom Funktionsnamen abgesetzt wird:"
 
 #. (itstool) path: section/code
@@ -1196,6 +1298,9 @@ msgid ""
 "The argument list must be broken into a new line for each argument, with the "
 "argument names right aligned, taking into account pointers:"
 msgstr ""
+"Die Liste der Argumente muss auf mehrere Zeilen aufgeteilt werden, so dass jedes "
+"Argument in einer Zeile ist, wobei die jeweiligen Bezeichner unter Berücksichtigung "
+"von Zeigern rechtsbündig ausgerichtet werden:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:474
@@ -1223,14 +1328,14 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:484
-#, fuzzy
 msgid ""
 "If you use Emacs, you can use <code>M-x align</code> to do this kind of alignment "
 "automatically. Just put the point and mark around the function’s prototype, and "
 "invoke that command."
 msgstr ""
 "Wenn Sie Emacs verwenden, können Sie mit <code>M-x align</code> diese Art der "
-"Ausrichtung automatisch erledigen lassen."
+"Ausrichtung automatisch erledigen lassen. Einfach den ganzen Funktionsprototypen "
+"markieren und den Befehl ausführen."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:490
@@ -1238,6 +1343,8 @@ msgid ""
 "The alignment also holds when invoking a function without breaking the line length "
 "limit:"
 msgstr ""
+"Diese Ausrichtung gilt auch bei einem Funktionsaufruf, der die maximale Zeilenlänge "
+"nicht überschreiten würde:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:495
@@ -1314,8 +1421,8 @@ msgid ""
 "When declaring a structure type use newlines to separate logical sections of the "
 "structure:"
 msgstr ""
-"Bei der Deklaration eines Strukturtyps verwenden Sie einen Zeilenumbruch, um "
-"logische Abschnitte der Struktur zu trennen:"
+"Bei der Deklaration einer Struktur verwenden Sie einen Zeilenumbruch, um logische "
+"Abschnitte der Struktur zu trennen:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:531
@@ -1385,8 +1492,8 @@ msgid ""
 "commit. Never use empty lines at the beginning or at the end of a file."
 msgstr ""
 "Entfernen Sie stets angehängte Leerzeichen in jeder Zeile, vorzugsweise mittels "
-"separatem Patch oder Commit. Setzen Sie niemals leere Zeilen an den Anfang oder das "
-"Ende einer Datei."
+"separatem Patch oder Commit. Verwenden Sie keine Leerzeilen am Anfang oder am Ende "
+"einer Datei."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:564
@@ -1557,8 +1664,8 @@ msgstr ""
 msgid ""
 "It is preferable, though not mandatory, to separate the various cases with a newline:"
 msgstr ""
-"Es ist zu bevorzugen, jedoch nicht obligatorisch, die verschiedenen <code>case</"
-"code> durch Zeilenumbrüche voneinander zu trennen:"
+"Es ist wünschenswert, wenn auch nicht zwingend notwendig, die unterschiedlichen "
+"Fälle durch Zeilenumbrüche voneinander zu trennen:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:648
@@ -1597,6 +1704,8 @@ msgstr ""
 msgid ""
 "The <code>break</code> statement for the <code>default</code> case is not mandatory."
 msgstr ""
+"Die <code>break</code>-Anweisung für den <code>default</code>-Fall ist nicht "
+"verpflichtend vorgeschrieben."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:667
@@ -1605,6 +1714,10 @@ msgid ""
 "every member of the enumerated type. For members you do not want to handle, alias "
 "their <code>case</code> statements to <code>default</code>:"
 msgstr ""
+"Wenn mit <code>switch</code> über einen Aufzählungstyp geschalten wird, muss es für "
+"jeden zulässigen Wert der Aufzählung eine <code>case</code>-Anweisung geben. Für "
+"Werte, die nicht extra behandeln werden sollen, kann der jeweilige <code>case</case> "
+"zu <code>default</code> geschalten werden:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:674
@@ -1648,6 +1761,8 @@ msgid ""
 "If most members of the enumerated type should not be handled, consider using an "
 "<code>if</code> statement instead of a <code>switch</code>."
 msgstr ""
+"Wenn die meisten Aufzählungswerte nicht behandelt werden sollen, ist es ratsam eine "
+"<code>if</code>-Anweisung statt einem <code>switch</switch> zu verwenden."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:695
@@ -1656,6 +1771,9 @@ msgid ""
 "inner blocks apply (see above); the <code>break</code> statement should be placed "
 "outside of the inner block:"
 msgstr ""
+"Wenn ein <code>case</code>-Block neue Variablen deklarieren muss, gelten dieselben "
+"Regeln wie bei inneren Blöcken (siehe oben); die <code>break</code>-Anweisung sollte "
+"dabei außerhalb des inneren Blocks platziert werden:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:701
@@ -1702,6 +1820,8 @@ msgid ""
 "The only major rule for headers is that the function definitions should be "
 "vertically aligned in three columns:"
 msgstr ""
+"Die einzige größere Regel für Header ist, dass die Funktionsdefinition vertikal in "
+"drei Spalten ausgerichtet sein sollte:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:725
@@ -1843,6 +1963,9 @@ msgid ""
 "notices, and should always be <link xref=\"namespacing#gobject\">correctly "
 "namespaced</link>."
 msgstr ""
+"GObject-Klassendefinitionen und -implementierungen erfordern zusätzliche "
+"Programmierstil-Hinweise und sollten immer im <link xref=\"namespacing#gobject"
+"\">richtigen Namensraum</link> sein."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:801
@@ -1864,7 +1987,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/c-coding-style.page:809
 msgid "This includes enumeration types:"
-msgstr ""
+msgstr "Hierzu gehören auch Aufzählungstypen:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:813
@@ -1887,7 +2010,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/c-coding-style.page:820
 msgid "And callback types:"
-msgstr ""
+msgstr "Und Callback-Typen:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:824
@@ -2092,7 +2215,7 @@ msgstr "Speicherreservierung"
 #. (itstool) path: section/p
 #: C/c-coding-style.page:934
 msgid "When dynamically allocating data on the heap use <code>g_new()</code>."
-msgstr ""
+msgstr "Verwenden Sie <code>g_new()</code> zum Reservieren von dynamischen Speicher."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:938
@@ -9885,7 +10008,7 @@ msgstr "Bücher"
 #. (itstool) path: item/p
 #: C/writing-good-code.page:129
 msgid "<link href=\"http://www.cc2e.com\">Code Complete</link>, by Steve McConnell."
-msgstr "<link href=\"http://www.cc2e.com\">Code Complete</link> von Steve McConnell"
+msgstr "<link href=\"http://www.cc2e.com\">Code Complete</link> von Steve McConnell."
 
 #. (itstool) path: item/p
 #: C/writing-good-code.page:132
@@ -9914,4 +10037,4 @@ msgid ""
 "Oriented Design Heuristics </link>, by Arthur Riel."
 msgstr ""
 "<link href=\"http://astore.amazon.com/gnomestore-20/detail/020163385X\"> Object-"
-"Oriented Design Heuristics </link> von by Arthur Riel"
+"Oriented Design Heuristics </link> von Arthur Riel."
