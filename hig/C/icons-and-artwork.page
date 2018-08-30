@@ -48,7 +48,7 @@
 <section id="icon-resources">
 <title>Stock icons and creating your own</title>
 
-<p>GNOME provides a set of standard icons, which can be used by applications. This includes both full-color and symbolic icons.</p>
+<p>GNOME provides a set of standard icons, which can be used by applications.</p>
 
 <p>The standard icon set can be accessed directly through GTK. Icon names follow the <link href="https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html">Freedesktop icon specification</link>. Symbolic versions of icons are have the <code>-symbolic</code> name ending, such as <code>open-menu-symbolic</code>.</p>
 
