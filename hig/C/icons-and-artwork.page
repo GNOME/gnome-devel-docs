@@ -23,7 +23,7 @@
 
 <p>Two styles of icon are used in GNOME 3: full-color and symbolic icons.</p>
 
-<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 128x128px SVGs, and to maintain sharpness they can be scaled to multiples of 128 (such as 256✕256 and 512✕512). Their design also allows them to be rendered sharp at 64x64px and 32x32px, but is not advised to do lower.</p>
+<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 128x128px SVGs, and can be scaled up in multiples of 128 (such as 256✕256 and 512✕512). They should not be enlarged to other sizes, as this will result in them no longer being sharp. The design of full-color icons also allows them to be rendered sharp at 64x64px and 32x32px, but is not advised to go lower.</p>
 
 <media type="image" mime="image/png" src="figures/icons/fullcolor-v-symbolic.svg"/>
 
@@ -37,7 +37,7 @@
 
 <p>Application icons are the most prominent type of icons. Every application should have its own unique and beautiful application icon: it is the face of the application, and the first visual element a user sees when browsing for new applications.</p>
 
-<p>Application icons use the full-color style. Applications are also recommended to provide a symbolic version of their icon, which is used for the high-contrast accessibility feature, as well as in contexts where a legible low resolution icon is required.</p>
+<p>Application icons use the full-color style. Applications are also recommended to provide a symbolic version of their icon, which is used for the high-contrast accessibility feature, as well as in contexts where a legible low-resolution icon is required.</p>
 
 <p>User interface icons typically use the symbolic style and this is the primary icon style used for user interface controls. The most common and obvious example of symbolic icon usage is on buttons.</p>
 
@@ -48,11 +48,9 @@
 <section id="icon-resources">
 <title>Stock icons and creating your own</title>
 
-<p>GNOME provides a set of standard icons, which can be used by applications.</p>
+<p>GNOME provides a set of standard icons, which can be used by applications. This can be accessed directly through GTK. Icon names follow the <link href="https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html">Freedesktop icon specification</link>. Symbolic versions of icons have the <code>-symbolic</code> name ending, such as <code>open-menu-symbolic</code>.</p>
 
-<p>The standard icon set can be accessed directly through GTK. Icon names follow the <link href="https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html">Freedesktop icon specification</link>. Symbolic versions of icons are have the <code>-symbolic</code> name ending, such as <code>open-menu-symbolic</code>.</p>
-
-<p>See the <link xref="icon-design">icon design guidelines</link> for more details on how to create your own icon aseets. Work has begun on <link href="https://gitlab.gnome.org/Community/Design/icon-development-kit">GNOME icon development kit</link>. This will provide resources for creating symbolic icons to be used within applications. </p>
+<p>The <link xref="icon-design">icon design guidelines</link> provide more details on how to create your own icons, including application icons.</p>
 
 </section>
 

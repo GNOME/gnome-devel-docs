@@ -16,16 +16,16 @@
 
 <title>Creating icons</title>
 
-<p><link xref="icons-and-artwork">Icons and artwork</link> provides an overview of the icon styles recommended for use in GNOME 3, as well as the stock icons that are available. This page provides guidelines for those creating their own icons, including both full-color icons (typically used for application icons) and symbolic icons (typically used for user interface controls).</p>
+<p>This page provides guidelines for those creating their own icons, including both full-color icons (typically used for application icons) and symbolic icons (typically used for user interface controls). For a more general overview of icon styles and usage, including the stock icons that are available, see <link xref="icons-and-artwork">icons and artwork</link>.</p>
 
 <section id="full-color-icons">
 <title>Full-color icons</title>
 
 <media type="image" mime="image/png" src="figures/icons/shading.svg"/>
 
-<p>The full-color icon style is most commonly used for application icons. The nominal size of application icons is 128×128px. However, because application icons are sometimes presented at lower resolutions, they should only feature detail that is presentable at 64×64px resolution: anything more detailed would get lost by filtering/scaling down.</p>
+<p>The full-color icon style is most commonly used for application icons. The nominal size of full-color icons is 128×128px. However, because application icons are sometimes presented at lower resolutions, they should only feature detail that is presentable at 64×64px resolution: anything more detailed would get lost by filtering/scaling down.</p>
 
-<p>The full-color <link href="https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/master/template.svg">icon template</link> includes a 2px grid which should help you avoid adding detail that's finer than the desired threshold.</p>
+<p>The <link href="https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/master/template.svg">full-color icon template</link> includes a 2px grid which should help you avoid adding detail that's finer than the desired threshold.</p>
 
 <media type="image" mime="image/png" src="figures/icons/sizes.svg"/>
 
@@ -34,11 +34,11 @@
 
 <p>Full-color icons should be rendered with a simple orthogonal view and no real or isometric perspective. To provide depth a raised effect can be applied to mimic the Z-axis. Please keep the effect subtle though! Raising the object more than 2 detail units (4 nominal pixels) is not recommended.</p>
 
-<p>In order to aid recognition, each application icon should have a unique silhouette. However, to allow for a pleasing grid presentation among other applications, the aspect ratio should not be extreme. Very narrow or very wide shapes should be avoided.</p>
+<p>In order to aid recognition, each application icon should have a unique silhouette. However, to ensure visual balance with other application icons, the aspect ratio should not be extreme. Very narrow or very wide shapes should be avoided.</p>
 
 <media type="image" mime="image/png" src="figures/icons/aspect-ratio.svg"/>
 
-<p>A <link href="https://gitlab.gnome.org/Community/Design/icon-revolution/raw/master/template.svg">grid template</link> is available to assist with placing your icon outline. Do not try to cover a maximum area of the canvas: the outside margin should be left empty. In special circumstances a small detail can be extended into this margin space.</p>
+<p>A <link href="https://gitlab.gnome.org/Community/Design/icon-revolution/raw/master/template.svg">grid template</link> is available to assist with placing your icon outline. Do not try to cover a maximum area of the canvas: the outside margin should be left empty. In some circumstances a small detail can be extended into this margin space.</p>
 
 <media type="image" mime="image/png" src="figures/icons/whitespace.svg"/>
 
@@ -104,7 +104,7 @@
 
 <p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette <link href="https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl">is available</link>.</p>
 
-<p>It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surface is allowed.</p>
+<p>It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surfaces is allowed.</p>
 
 </section>
 </section>
