@@ -27,7 +27,7 @@
 
 <media type="image" mime="image/png" src="figures/icons/fullcolor-v-symbolic.svg"/>
 
-<p>Symbolic icons are simple and monochrome, and are designed to work well at smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to multiples of 16✕16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally have a neutral color, although their color can be changed programatically.</p>
+<p>Symbolic icons are simple and monochrome, and are designed to work well at smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to multiples of 16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally have a neutral color, although their color can be changed programatically.</p>
 
 </section>
 
