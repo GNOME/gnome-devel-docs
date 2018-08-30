@@ -25,7 +25,7 @@
 
 <p>The full-color icon style is most commonly used for application icons. The nominal size of application icons is 128×128px. However, because application icons are sometimes presented at lower resolutions, they should only feature detail that is presentable at 64×64px resolution: anything more detailed would get lost by filtering/scaling down.</p>
 
-<p>The full-color icon template includes a 2px grid which should help you avoid adding detail that's finer than the desired threshold.</p>
+<p>The full-color <link href="https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/master/template.svg">icon template</link> includes a 2px grid which should help you avoid adding detail that's finer than the desired threshold.</p>
 
 <media type="image" mime="image/png" src="figures/icons/sizes.svg"/>
 
