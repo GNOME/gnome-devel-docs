@@ -52,7 +52,7 @@
 
 <p>The standard icon set can be accessed directly through GTK. Icon names follow the <link href="https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html">Freedesktop icon specification</link>. Symbolic versions of icons are have the <code>-symbolic</code> name ending, such as <code>open-menu-symbolic</code>.</p>
 
-<p>Other icons can be created using the GNOME icon development kit. This provides resources for creating full-color application icons as well as symbolic icons. See the <link xref="icon-design">icon design guidelines</link> for more details.</p>
+<p>See the <link xref="icon-design">icon design guidelines</link> for more details on how to create your own icon aseets. Work has begun on <em>GNOME icon development kit</em>. This will provide resources for creating symbolic icons to be used within applications. </p>
 
 </section>
 
