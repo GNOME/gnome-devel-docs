@@ -57,17 +57,10 @@ HELP_FILES = \
 
 HELP_MEDIA = \
 	figures/hig.png \
-	figures/label-alignment.svg \
-	figures/visual-alignment-correct.svg \
-	figures/visual-alignment-incorrect.svg \
-	figures/visual-alignment-spacing.svg \
+	figures/icons/inverting.svg \
 	figures/icons/aspect-ratio.svg \
 	figures/icons/dropshadow.png \
 	figures/icons/fullcolor-v-symbolic.svg \
-	figures/icons/inverting.svg \
-	figures/icons/shading.svg \
-	figures/icons/sizes.svg \
-	figures/icons/whitespace.svg \
 	figures/icons/palette/blue.png \
 	figures/icons/palette/brown.png \
 	figures/icons/palette/cyan.png \
@@ -77,13 +70,18 @@ HELP_MEDIA = \
 	figures/icons/palette/purple.png \
 	figures/icons/palette/red.png \
 	figures/icons/palette/yellow.png \
-    figures/patterns/action-bar.svg \
+	figures/icons/shading.svg \
+	figures/icons/sizes.svg \
+	figures/icons/whitespace.svg \
+	figures/label-alignment.svg \
+	figures/patterns/action-bar.svg \
 	figures/patterns/action-dialog.svg \
 	figures/patterns/application-menu.svg \
 	figures/patterns/editable-lists.svg \
 	figures/patterns/empty-placeholder.svg \
 	figures/patterns/fullscreen.svg \
 	figures/patterns/grid.svg \
+	figures/patterns/patterns.svg \
 	figures/patterns/header-bar.svg \
 	figures/patterns/in-app-notification.svg \
 	figures/patterns/info-bar.svg \
@@ -91,42 +89,44 @@ HELP_MEDIA = \
 	figures/patterns/list-styles.svg \
 	figures/patterns/message-dialog.svg \
 	figures/patterns/overlaid-controls.svg \
-	figures/patterns/patterns.svg \
 	figures/patterns/presentation-dialog.svg \
-	figures/patterns/primary-menu.svg \
 	figures/patterns/primary-windows.svg \
 	figures/patterns/search.svg \
-	figures/patterns/secondary-menu.svg \
 	figures/patterns/selection-mode.svg \
 	figures/patterns/sidebar-list.svg \
 	figures/patterns/view-switcher.svg \
+	figures/patterns/primary-menu.svg \
+	figures/patterns/secondary-menu.svg \
+	figures/touch/3-finger-hold-and-tap.svg \
+	figures/touch/3-finger-pinch.svg \
+	figures/touch/4-finger-drag.svg \
+	figures/touch/double-tap.svg \
+	figures/touch/drag.svg \
+	figures/touch/edge-drag.svg \
 	figures/touch/flick.svg \
 	figures/touch/pinch-or-stretch.svg \
 	figures/touch/tap-and-hold.svg \
-	figures/touch/3-finger-hold-and-tap.svg \
 	figures/touch/tap.svg \
-	figures/touch/double-tap.svg \
-	figures/touch/3-finger-pinch.svg \
-	figures/touch/drag.svg \
-	figures/touch/edge-drag.svg \
-	figures/touch/4-finger-drag.svg \
-	figures/ui-elements/sliders.svg \
-	figures/ui-elements/hybrid-button-menu.svg \
-	figures/ui-elements/popover.svg \
-	figures/ui-elements/toolbar.svg \
-	figures/ui-elements/menu.svg \
-	figures/ui-elements/progress-bars.svg \
+	figures/ui-elements/button-menu.svg \
 	figures/ui-elements/buttons.svg \
 	figures/ui-elements/check-boxes.svg \
-	figures/ui-elements/text-fields.svg \
-	figures/ui-elements/radio-buttons.svg \
 	figures/ui-elements/drop-down-list-custom-values.svg \
-	figures/ui-elements/tabs.svg \
-	figures/ui-elements/button-menu.svg \
+	figures/ui-elements/drop-down-list.svg \
+	figures/ui-elements/hybrid-button-menu.svg \
 	figures/ui-elements/menu-bar.svg \
-	figures/ui-elements/switches.svg \
+	figures/ui-elements/menu.svg \
+	figures/ui-elements/popover.svg \
+	figures/ui-elements/progress-bars.svg \
 	figures/ui-elements/progress-spinner.svg \
+	figures/ui-elements/radio-buttons.svg \
+	figures/ui-elements/sliders.svg \
 	figures/ui-elements/spin-boxes.svg \
-	figures/ui-elements/drop-down-list.svg
+	figures/ui-elements/switches.svg \
+	figures/ui-elements/tabs.svg \
+	figures/ui-elements/text-fields.svg \
+	figures/ui-elements/toolbar.svg \
+	figures/visual-alignment-correct.svg \
+	figures/visual-alignment-incorrect.svg \
+	figures/visual-alignment-spacing.svg
 
 HELP_LINGUAS = cs de el es pt_BR ru sv
