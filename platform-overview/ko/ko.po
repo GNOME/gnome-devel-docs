@@ -1,13 +1,13 @@
 # Korean translation for gnome-devel-docs.
 # Copyright (C) 2016 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Seong-ho Cho <shcho@gnome.org>, 2016-2017.
+# Seong-ho Cho <shcho@gnome.org>, 2016-2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-03-02 12:40+0000\n"
-"PO-Revision-Date: 2017-03-04 15:04+0900\n"
+"POT-Creation-Date: 2018-06-09 14:29+0000\n"
+"PO-Revision-Date: 2018-09-01 21:52+0900\n"
 "Last-Translator: Seong-ho Cho <shcho@gnome.org>\n"
 "Language-Team: Korean <gnome-kr@googlegroups.com>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -40,7 +40,7 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "조성호 <shcho@gnome.org>, 2016, 2017."
+msgstr "조성호 <shcho@gnome.org>, 2016, 2017, 2018."
 
 #. (itstool) path: credit/name
 #: C/dev-help-appmenu.page:11 C/dev-help-build.page:11 C/dev-help.page:14
@@ -54,16 +54,16 @@ msgstr "Radina Matic"
 #: C/dev-translate-tools.page:12 C/overview-io.page:17 C/overview-media.page:12
 #: C/overview-net.page:12 C/overview-settings.page:12 C/overview-ui.page:12
 #: C/tech-avahi.page:12 C/tech-canberra.page:13 C/tech-champlain.page:12
-#: C/tech-enchant.page:12 C/tech-folks.page:12 C/tech-gda.page:13 C/tech-geoclue2.page:12
+#: C/tech-folks.page:12 C/tech-gda.page:13 C/tech-geoclue2.page:12
 #: C/tech-geocode-glib.page:12 C/tech-gio-network.page:13 C/tech-gio.page:18
 #: C/tech-glib.page:12 C/tech-gobject.page:11 C/tech-gsettings.page:13
 #: C/tech-network-manager.page:12 C/tech-notify.page:18 C/tech-polkit.page:12
-#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-telepathy.page:18
-#: C/tech-tracker.page:12 C/tech-webkit.page:18 C/tour-application.page:13
-#: C/tour-application.page:18 C/tour-events.page:13 C/tour-events.page:18
-#: C/tour-get_object.page:13 C/tour-get_object.page:18 C/tour-gjs.page:13
-#: C/tour-gjs.page:18 C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14
-#: C/tour.page:19 C/tour-summary.page:12 C/tour-summary.page:17
+#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-spell-checking.page:12
+#: C/tech-telepathy.page:18 C/tech-tracker.page:12 C/tech-webkit.page:18
+#: C/tour-application.page:13 C/tour-application.page:18 C/tour-events.page:13
+#: C/tour-events.page:18 C/tour-get_object.page:13 C/tour-get_object.page:18
+#: C/tour-gjs.page:13 C/tour-gjs.page:18 C/tour-glade.page:13 C/tour-glade.page:18
+#: C/tour.page:14 C/tour.page:19 C/tour-summary.page:12 C/tour-summary.page:17
 msgid "2013"
 msgstr "2013"
 
@@ -2286,12 +2286,12 @@ msgstr "<link href=\"https://developer.gnome.org/atk/stable/\">ATK 참고서</li
 
 #. (itstool) path: credit/name
 #: C/tech-avahi.page:10 C/tech-canberra.page:11 C/tech-champlain.page:10
-#: C/tech-enchant.page:10 C/tech-folks.page:10 C/tech-gda.page:11 C/tech-geoclue2.page:10
+#: C/tech-folks.page:10 C/tech-gda.page:11 C/tech-geoclue2.page:10
 #: C/tech-geocode-glib.page:10 C/tech-gio-network.page:11 C/tech-gio.page:16
 #: C/tech-glib.page:10 C/tech-gobject.page:9 C/tech-gsettings.page:11
 #: C/tech-network-manager.page:10 C/tech-notify.page:16 C/tech-polkit.page:10
-#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-telepathy.page:16
-#: C/tech-tracker.page:10 C/tech-webkit.page:16
+#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-spell-checking.page:10
+#: C/tech-telepathy.page:16 C/tech-tracker.page:10 C/tech-webkit.page:16
 msgid "Federico Mena Quintero"
 msgstr "Federico Mena Quintero"
 
@@ -2766,42 +2766,6 @@ msgstr ""
 "link>"
 
 #. (itstool) path: info/desc
-#: C/tech-enchant.page:17
-msgid "Real-time spell checking for text widgets"
-msgstr "텍스트 위젯의 실시간 철자 검사"
-
-#. (itstool) path: page/title
-#: C/tech-enchant.page:20
-msgid "Enchant"
-msgstr "enchant"
-
-#. (itstool) path: page/p
-#: C/tech-enchant.page:22
-msgid ""
-"Enchant provides an API to do spell-checking related tasks. You can ask it if a word is "
-"misspelled, or ask for suggestions for a misspelled word. On a higher level, a library "
-"such as GtkSpell lets you add \"underline squiggles\" for misspelled words to text "
-"widgets."
-msgstr ""
-"enchant는 철자 검사 관련 작업을 수행하는 API를 갖추고 있습니다. 철자 오류 여부 검사를 요"
-"청하거나, 잘못된 철자에 대한 단어 제안을 요청할 수 있습니다. GtkSpell 같은 상위 레벨 라이"
-"브러리의 잘못된 철자가 있는 텍스트 위젯에 \"구불구불한 밑줄 표시\"를 추가할 수 있습니다."
-
-#. (itstool) path: page/p
-#: C/tech-enchant.page:29
-msgid ""
-"In GNOME, Enchant gets used in text-heavy applications like Empathy (an instant "
-"messaging client) and Epiphany (a web browser, for text entry in web forms)."
-msgstr ""
-"그놈에서는, 엠퍼시(인스턴트 메신저 클라이언트)와 에피파니(웹 브라우저, 웹 양식의 텍스트 "
-"항목 대상) 같은 다량의 텍스트를 취급하는 프로그램에서 enchant를 활용합니다."
-
-#. (itstool) path: item/p
-#: C/tech-enchant.page:36
-msgid "<link href=\"http://www.abisource.com/projects/enchant/\">Enchant home page</link>"
-msgstr "<link href=\"http://www.abisource.com/projects/enchant/\">Enchant 홈 페이지</link>"
-
-#. (itstool) path: info/desc
 #: C/tech-folks.page:17
 msgid "Aggregate contacts from multiple local and online sources"
 msgstr "로컬 및 여러 온라인 공급자의 연락처를 수집합니다"
@@ -3229,7 +3193,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tech-gobject.page:35
 msgid ""
-"GObject is <em>introspectible</em>, which means that you can ask the GObject system for "
+"GObject is <em>introspectable</em>, which means that you can ask the GObject system for "
 "the class types that are defined, the methods they support, their signals, etc. GNOME's "
 "language bindings are built on top of this introspection information. Instead of writing "
 "wrappers by hand to let GNOME APIs be called from other programming languages, language "
@@ -4233,6 +4197,64 @@ msgid ""
 "<link href=\"https://developer.gnome.org/libsoup/stable/\">Soup reference manual</link>"
 msgstr "<link href=\"https://developer.gnome.org/libsoup/stable/\">수프 참고 설명서</link>"
 
+#. (itstool) path: credit/name
+#: C/tech-spell-checking.page:15
+msgid "Sébastien Wilmet"
+msgstr "Sébastien Wilmet"
+
+#. (itstool) path: credit/years
+#: C/tech-spell-checking.page:17
+msgid "2017"
+msgstr "2017"
+
+#. (itstool) path: info/desc
+#: C/tech-spell-checking.page:22
+msgid "Spell-checking for text widgets"
+msgstr "텍스트 위젯의 철자 검사"
+
+#. (itstool) path: page/title
+#: C/tech-spell-checking.page:25
+msgid "Spell-checking"
+msgstr "철자 검사"
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:27
+msgid ""
+"Several libraries are available to do spell-checking related tasks: Enchant and gspell."
+msgstr "enchant나 gspell과 같은 일부 라이브러리에서 철자 검사 동작을 수행할 수 있습니다."
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:32
+msgid ""
+"Enchant provides a low-level API. You can ask it if a word is misspelled, or ask for "
+"suggestions for a misspelled word. On a higher level, gspell integrates spell-checking "
+"for GTK+ text widgets (both <code>GtkEntry</code> and <code>GtkTextView</code>)."
+msgstr ""
+"enchant는 철자 검사 관련 작업을 수행하는 저수준 API를 갖추고 있습니다. 철자 오류 여부 검"
+"사를 요청하거나, 잘못된 철자에 대한 단어 제안을 요청할 수 있습니다. 고수준 영역에서 "
+"gspell은 GTK+ 텍스트 위젯(<code>GtkEntry</code>와 <code>GtkTextView</code>)에 철자 검사 "
+"기능을 통합합니다."
+
+#. (itstool) path: page/p
+#: C/tech-spell-checking.page:39
+msgid ""
+"In GNOME, those libraries get used in text-heavy applications like gedit (a text editor) "
+"and Epiphany (a web browser, for text entry in web forms)."
+msgstr ""
+"그놈에서는, 지에디트(텍스트 편집기)와 엠퍼시(인스턴트 메신저 클라이언트)같은 다량의 텍스"
+"트를 취급하는 프로그램에서 위 라이브러리를 활용합니다."
+
+#. (itstool) path: item/p
+#: C/tech-spell-checking.page:45
+msgid "<link href=\"https://www.abisource.com/projects/enchant/\">Enchant home page</link>"
+msgstr ""
+"<link href=\"https://www.abisource.com/projects/enchant/\">Enchant 홈 페이지</link>"
+
+#. (itstool) path: item/p
+#: C/tech-spell-checking.page:46
+msgid "<link href=\"https://wiki.gnome.org/Projects/gspell\">gspell home page</link>"
+msgstr "<link href=\"https://wiki.gnome.org/Projects/gspell\">gspell 홈 페이지</link>"
+
 #. (itstool) path: info/desc
 #: C/tech-telepathy.page:23
 msgid "Unified instant-messaging and communications service"
@@ -4492,72 +4514,78 @@ msgstr "gtk에는 프로그램에서 활용할 수 있는 선 정의 이벤트 �
 
 #. (itstool) path: example/p
 #: C/tour-events.page:35
-msgid ""
-"Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs requires classes "
-"to have the Name property defined."
-msgstr ""
-"<code>HelloWorld</code>를 새 <code>Lang</code> 클래스로 선언하십시오. gjs에서는 클래스에 "
-"Name 속성 값을 정의해야합니다."
+msgid "Declare <code>HelloWorld</code> as a new class."
+msgstr "새 클래스로 <code>HelloWorld</code> 를 선언합니다."
 
 #. (itstool) path: example/code
-#: C/tour-events.page:38
+#: C/tour-events.page:37
 #, no-wrap
 msgid ""
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
+"class HelloWorld {\n"
 msgstr ""
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
+"class HelloWorld {\n"
 
 #. (itstool) path: example/p
-#: C/tour-events.page:43
+#: C/tour-events.page:41
 msgid ""
-"<code>_init</code> is called when a new instance is created. Create a "
+"<code>constructor</code> is called when a new instance is created. Create a "
 "<code>GtkApplication</code>, then connect <code>activate</code> to the existing Gtk "
 "event <code>_onActivate</code> and <code>startup</code> to <code>_onStartup</code>:"
 msgstr ""
-"새 인스턴스를 만들 때 <code>_init</code>를 호출합니다. <code>GtkApplication</code>를 만들"
-"고 <code>activate</code>를 기존의 gtk 이벤트 <code>_onActivate</code>에, <code>startup</"
-"code>을 <code>_onStartup</code>에 연결하십시오:"
+"새 인스턴스를 만들 때 <code>constructor</code>를 호출합니다. <code>GtkApplication</code>"
+"를 만들고 <code>activate</code>를 기존의 gtk 이벤트 <code>_onActivate</code>에, "
+"<code>startup</code>을 <code>_onStartup</code>에 연결하십시오:"
 
 #. (itstool) path: example/code
-#: C/tour-events.page:48
+#: C/tour-events.page:46
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "    _init: function() {\n"
+#| "        this.application = new Gtk.Application();\n"
+#| "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
+#| "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
+#| "    },\n"
 msgid ""
 "\n"
-"    _init: function() {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 msgstr ""
 "\n"
-"    _init: function() {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 
 #. (itstool) path: example/p
-#: C/tour-events.page:56
+#: C/tour-events.page:54
 msgid "Show the window upon application activation:"
 msgstr "프로그램을 활성화하는 동안 창을 표시하십시오:"
 
 #. (itstool) path: example/code
-#: C/tour-events.page:57
+#: C/tour-events.page:55
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "    _onActivate: function(){\n"
+#| "        this._window.show_all();\n"
+#| "    },\n"
 msgid ""
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 msgstr ""
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 
 #. (itstool) path: info/desc
 #: C/tour-get_object.page:23
@@ -4593,24 +4621,33 @@ msgstr ""
 #. (itstool) path: example/code
 #: C/tour-get_object.page:42
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "    _onStartup: function() {\n"
+#| "        let builder = new Gtk.Builder();\n"
+#| "        builder.add_from_file('helloworld.glade');\n"
+#| "        this._window = builder.get_object('window1');\n"
+#| "        this.application.add_window(this._window);\n"
+#| "    }\n"
+#| "});\n"
 msgid ""
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
 "        builder.add_from_file('helloworld.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 msgstr ""
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
 "        builder.add_from_file('helloworld.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 
 #. (itstool) path: info/desc
 #: C/tour-gjs.page:23
@@ -4672,22 +4709,26 @@ msgstr ""
 #. (itstool) path: example/p
 #: C/tour-gjs.page:46
 msgid ""
-"Import <code>lang</code> for the <code>bind</code> function and <code>gi.Gtk</code> for "
-"<code>Gtk</code> functions."
+"Import <code>gi.Gtk</code> for <code>Gtk</code> functions. As both version 3.0 and 4.0 "
+"may be installed, make sure that the desired version is imported first."
 msgstr ""
-"<code>bind</code> 함수를 활용하려면 <code>lang</code>을 임포팅하고 <code>Gtk</code> 함수"
-"를 활용하려면 <code>gi.Gtk</code>를 임포팅합니다."
+"<code>Gtk</code> 함수를 사용할 수 있도록 <code>gi.Gtk</code> 를 임포팅하십시오. 3.0 버전"
+"과 4.0 버전 둘 다 설치할 수 있으니 원하는 버전을 가져왔는지 우선 확인하십시오."
 
 #. (itstool) path: example/code
-#: C/tour-gjs.page:49
+#: C/tour-gjs.page:50
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "const Lang = imports.lang;\n"
+#| "const Gtk = imports.gi.Gtk;\n"
 msgid ""
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 msgstr ""
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 
 #. (itstool) path: info/desc
@@ -4713,19 +4754,19 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/tour-glade.page:36
 msgid ""
-"When creating a UI file using Glade, the <gui>Name</gui> that you specify in Glade is "
-"the ID that you will later need to use to get the object from the UI file."
+"When creating a UI file using Glade, the <gui>ID</gui> that you specify in Glade is the "
+"ID that you will later need to use to get the object from the UI file."
 msgstr ""
-"글레이드로 UI 파일을 만들 때, 글레이드에서 설정하는 <gui>Name</gui>은 UI 파일에서 객체를 "
-"가져올 때 나중에 활용할 ID입니다."
+"글레이드로 UI 파일을 만들 때, 글레이드에서 설정하는 <gui>ID</gui>는 UI 파일에서 객체를 가"
+"져올 때 나중에 활용할 ID입니다."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:41
 msgid ""
-"Create a new window, then set <gui>Name</gui> to <code>window1</code> and <gui>Window</"
-"gui> to <code>Hello World</code>:"
+"Create a new window, then set <gui>ID</gui> to <code>window1</code> and <gui>Title</gui> "
+"to <code>Hello World</code>:"
 msgstr ""
-"새 창을 만들고 <gui>Name</gui>을 <code>창 1</code>로, <gui>Window</gui>는 <code>Hello "
+"새 창을 만들고 <gui>ID</gui>를 <code>window1</code>로, <gui>Title</gui>을 <code>Hello "
 "World</code>로 설정하십시오:"
 
 #. (itstool) path: example/media
@@ -4735,7 +4776,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: C/tour-glade.page:43
 msgctxt "_"
-msgid "external ref='media/glade-set-values.png' md5='61c369d5fdd6353694f9fa9e852e207c'"
+msgid "external ref='media/glade-set-values.png' md5='80a2ec72e68dd6efa2ed50ae53675c47'"
 msgstr ""
 
 #. (itstool) path: media/p
@@ -4799,33 +4840,61 @@ msgstr "예제를 어떻게 함께 활용하는지 보여드리겠습니다:"
 #. (itstool) path: page/code
 #: C/tour-summary.page:33
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "#!/usr/bin/gjs\n"
+#| "\n"
+#| "const Lang = imports.lang;\n"
+#| "const Gtk = imports.gi.Gtk;\n"
+#| "\n"
+#| "const HelloWorld = new Lang.Class({\n"
+#| "    Name: 'HelloWorld',\n"
+#| "\n"
+#| "    _init: function() {\n"
+#| "        this.application = new Gtk.Application();\n"
+#| "        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
+#| "        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
+#| "    },\n"
+#| "\n"
+#| "    _onActivate: function(){\n"
+#| "        this._window.show_all();\n"
+#| "    },\n"
+#| "\n"
+#| "    _onStartup: function() {\n"
+#| "        let builder = new Gtk.Builder();\n"
+#| "        builder.add_from_file('helloworld.glade');\n"
+#| "        this._window = builder.get_object('window1');\n"
+#| "        this.application.add_window(this._window);\n"
+#| "    }\n"
+#| "});\n"
+#| "\n"
+#| "let app = new HelloWorld();\n"
+#| "app.application.run(ARGV);\n"
 msgid ""
 "\n"
 "#!/usr/bin/gjs\n"
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
-"\n"
-"    _init: function() {\n"
+"class HelloWorld {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
-"        builder.add_from_file('helloworld.glade');\n"
+"        builder.add_from_file('tour.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
@@ -4833,29 +4902,53 @@ msgstr ""
 "\n"
 "#!/usr/bin/gjs\n"
 "\n"
-"const Lang = imports.lang;\n"
+"imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 "\n"
-"const HelloWorld = new Lang.Class({\n"
-"    Name: 'HelloWorld',\n"
-"\n"
-"    _init: function() {\n"
+"class HelloWorld {\n"
+"    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 "\n"
-"    _onActivate: function(){\n"
+"    _onActivate() {\n"
 "        this._window.show_all();\n"
-"    },\n"
+"    }\n"
 "\n"
-"    _onStartup: function() {\n"
+"    _onStartup() {\n"
 "        let builder = new Gtk.Builder();\n"
-"        builder.add_from_file('helloworld.glade');\n"
+"        builder.add_from_file('tour.glade');\n"
 "        this._window = builder.get_object('window1');\n"
 "        this.application.add_window(this._window);\n"
 "    }\n"
-"});\n"
+"};\n"
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
+#~ msgid "Enchant"
+#~ msgstr "enchant"
+
+#~ msgid ""
+#~ "Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs requires "
+#~ "classes to have the Name property defined."
+#~ msgstr ""
+#~ "<code>HelloWorld</code>를 새 <code>Lang</code> 클래스로 선언하십시오. gjs에서는 클래스"
+#~ "에 Name 속성 값을 정의해야합니다."
+
+#~ msgid ""
+#~ "\n"
+#~ "const HelloWorld = new Lang.Class({\n"
+#~ "    Name: 'HelloWorld',\n"
+#~ msgstr ""
+#~ "\n"
+#~ "const HelloWorld = new Lang.Class({\n"
+#~ "    Name: 'HelloWorld',\n"
+
+#~ msgid ""
+#~ "Import <code>lang</code> for the <code>bind</code> function and <code>gi.Gtk</code> "
+#~ "for <code>Gtk</code> functions."
+#~ msgstr ""
+#~ "<code>bind</code> 함수를 활용하려면 <code>lang</code>을 임포팅하고 <code>Gtk</code> 함"
+#~ "수를 활용하려면 <code>gi.Gtk</code>를 임포팅합니다."
