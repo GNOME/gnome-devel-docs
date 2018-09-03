@@ -2,13 +2,13 @@
 # Copyright © 2015-2018 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2018.
-# Sebastian Rasmussen <sebras@gmail.com>, 2016, 2017.
+# Sebastian Rasmussen <sebras@gmail.com>, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-04-09 11:16+0000\n"
-"PO-Revision-Date: 2018-07-17 12:17+0200\n"
+"POT-Creation-Date: 2018-09-02 09:18+0000\n"
+"PO-Revision-Date: 2018-09-04 01:14+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.see.org>\n"
 "Language: sv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -33,7 +33,7 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2018\n"
-"Sebastian Rasmussen <sebras@gmail.com>, 2017"
+"Sebastian Rasmussen <sebras@gmail.com>, 2017, 2018"
 
 #. (itstool) path: info/desc
 #: C/action-bars.page:7
@@ -45,18 +45,18 @@ msgstr "Rad längs nedre kanten som innehåller åtgärder"
 #: C/button-menus.page:8 C/buttons.page:8 C/check-boxes.page:8
 #: C/compatibility.page:7 C/design-principles.page:7 C/dialogs.page:9
 #: C/display-compatibility.page:7 C/drop-down-lists.page:8
-#: C/empty-placeholders.page:10 C/grids.page:10 C/header-bar-menus.page:10
-#: C/header-bars.page:10 C/icons-and-artwork.page:7 C/index.page:8
-#: C/in-app-notifications.page:10 C/info-bars.page:10 C/keyboard-input.page:8
-#: C/lists.page:11 C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
+#: C/empty-placeholders.page:10 C/grids.page:10 C/header-bars.page:10
+#: C/icons-and-artwork.page:7 C/index.page:8 C/in-app-notifications.page:10
+#: C/info-bars.page:10 C/keyboard-input.page:8 C/lists.page:11
+#: C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
 #: C/overlaid-controls.page:9 C/patterns.page:7
-#: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-windows.page:9
-#: C/progress-bars.page:8 C/progress-spinners.page:8 C/radio-buttons.page:8
-#: C/search.page:9 C/selection-mode.page:9 C/sidebar-lists.page:9
-#: C/sliders.page:8 C/spin-boxes.page:8 C/switches.page:8 C/tabs.page:8
-#: C/text-fields.page:8 C/toolbars.page:8 C/typography.page:7
-#: C/ui-elements.page:8 C/view-switchers.page:9 C/visual-layout.page:7
-#: C/writing-style.page:10
+#: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-menus.page:10
+#: C/primary-windows.page:9 C/progress-bars.page:8 C/progress-spinners.page:8
+#: C/radio-buttons.page:8 C/search.page:9 C/secondary-menus.page:10
+#: C/selection-mode.page:9 C/sidebar-lists.page:9 C/sliders.page:8
+#: C/spin-boxes.page:8 C/switches.page:8 C/tabs.page:8 C/text-fields.page:8
+#: C/toolbars.page:8 C/typography.page:7 C/ui-elements.page:8
+#: C/view-switchers.page:9 C/visual-layout.page:7 C/writing-style.page:10
 msgid "Allan Day"
 msgstr "Allan Day"
 
@@ -91,15 +91,15 @@ msgstr ""
 "visas ovanför."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:22 C/application-menus.page:22 C/button-menus.page:25
+#: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
 #: C/dialogs.page:36 C/empty-placeholders.page:23 C/grids.page:23
-#: C/header-bar-menus.page:27 C/header-bars.page:29
-#: C/in-app-notifications.page:23 C/info-bars.page:23 C/lists.page:24
-#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
-#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-windows.page:22
-#: C/progress-bars.page:37 C/progress-spinners.page:25 C/search.page:22
+#: C/header-bars.page:29 C/in-app-notifications.page:23 C/info-bars.page:23
+#: C/lists.page:24 C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
+#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
+#: C/primary-windows.page:22 C/progress-bars.page:37
+#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
 #: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
-#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:37
+#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
 #: C/view-switchers.page:22
 msgid "When to use"
 msgstr "När ska de användas"
@@ -157,15 +157,15 @@ msgstr ""
 "\"buttons#suggested-and-destructive\">ge dem en lämplig stil</link>."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:41 C/application-menus.page:70 C/buttons.page:89
+#: C/action-bars.page:41 C/application-menus.page:72 C/buttons.page:89
 #: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
-#: C/header-bar-menus.page:48 C/header-bars.page:72 C/info-bars.page:46
-#: C/lists.page:148 C/menu-bars.page:106 C/menus.page:73
-#: C/notifications.page:105 C/popovers.page:64 C/primary-windows.page:85
+#: C/header-bars.page:72 C/info-bars.page:46 C/lists.page:148
+#: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
+#: C/popovers.page:64 C/primary-menus.page:45 C/primary-windows.page:85
 #: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
-#: C/search.page:72 C/sidebar-lists.page:54 C/sliders.page:69
-#: C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99 C/text-fields.page:68
-#: C/toolbars.page:60 C/view-switchers.page:46
+#: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
+#: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
+#: C/text-fields.page:68 C/toolbars.page:59 C/view-switchers.page:46
 msgid "API reference"
 msgstr "API-referens"
 
@@ -191,15 +191,16 @@ msgstr "Grundläggande om program"
 #. (itstool) path: page/p
 #: C/application-basics.page:16
 msgid ""
-"These Human Interface Guidelines are intended to help with the creation of "
-"applications. An understanding of what an application is will help you to "
-"distribute your software more effectively, as well as ensure effective and "
-"consistent system integration."
+"These Human Interface Guidelines provide design guidance on the creation of "
+"GNOME applications. Given this focus on applications, this page provides a "
+"definition of applications from a user experience perspective. It also "
+"provides guidance on basic application behavior and characteristics."
 msgstr ""
-"Dessa riktlinjer för mänskliga gränssnitt är avsedda att hjälpa till vid "
-"skapandet av program. En förståelse för vad ett program är kommer att hjälpa "
-"dig att distribuera din programvara effektivare så väl som att säkerställa "
-"effektiv och konsekvent systemintegration."
+"Dessa riktlinjer för mänskliga gränssnitt tillhandahåller designråd vid "
+"skapande av GNOME-program. Givet detta fokus på program så tillhandahåller "
+"den här sidan en definition av program från ett "
+"användarupplevelseperspektiv. De tillhandahåller också råd för grundläggande "
+"beteende och egenskaper hos program."
 
 #. (itstool) path: page/p
 #: C/application-basics.page:18
@@ -220,92 +221,85 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/application-basics.page:21
-msgid "Defining an application"
-msgstr "Definition av ett program"
-
-#. (itstool) path: quote/p
-#: C/application-basics.page:23
-msgid ""
-"An application is a distinct and independent piece of software that "
-"incorporates useful functionality, and which can be installed on a user’s "
-"system."
-msgstr ""
-"Ett program är en distinkt oberoende programvara som har användbar "
-"funktionalitet och kan installeras på en användares system."
+msgid "What is an application?"
+msgstr "Vad är ett program?"
 
 #. (itstool) path: section/p
-#: C/application-basics.page:25
+#: C/application-basics.page:23
 msgid ""
-"This definition can be broken down into a set of characteristics, which "
-"describe an application in more detail. Applications:"
+"The following list of characteristics provides a basic definition of an "
+"application. An application is a distinct piece of software which:"
 msgstr ""
-"Denna definition kan brytas ned till en uppsättning egenskaper som beskriver "
-"ett program mer detaljerat. Program:"
+"Följande lista över egenskaper tillhandahåller en grundläggande definition "
+"av ett program. Ett program är en distinkt programvara som:"
 
 #. (itstool) path: item/p
-#: C/application-basics.page:28
+#: C/application-basics.page:26
 msgid "Can be individually installed and removed from the system."
 msgstr "Kan installeras och tas bort från systemet var för sig."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:29
-msgid "Do not rely on other applications in order to run."
+#: C/application-basics.page:27
+msgid "Does not affect or interfere with the behavior of other applications."
+msgstr "Påverkar eller stör inte beteendet hos andra program."
+
+#. (itstool) path: item/p
+#: C/application-basics.page:28
+msgid "Does not rely on other applications in order to run."
 msgstr "Beror inte på andra program för att kunna köras."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:30
-msgid "Contain functionality of their own."
-msgstr "Innehåller egen funktionalitet."
-
-#. (itstool) path: item/p
-#: C/application-basics.page:31
+#: C/application-basics.page:29
 msgid ""
-"Provide at least one <link xref=\"primary-windows\">primary window</link>."
+"Provides at least one <link xref=\"primary-windows\">primary window</link>."
 msgstr ""
 "Tillhandahåller minst ett <link xref=\"primary-windows\">primärt fönster</"
 "link>."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:32
-msgid "Do not affect or interfere with the behavior of other applications."
-msgstr "Påverkar eller stör inte beteendet hos andra program."
-
-#. (itstool) path: item/p
-#: C/application-basics.page:33
+#: C/application-basics.page:30
 msgid ""
-"Have a unique name and <link xref=\"icons-and-artwork#application-icons"
+"Has a unique name and <link xref=\"icons-and-artwork#application-icons"
 "\">icon</link>."
 msgstr ""
 "Har ett unikt namn och en unik <link xref=\"icons-and-artwork#application-"
 "icons\">ikon</link>."
 
+#. (itstool) path: item/p
+#: C/application-basics.page:31
+msgid "Has an application launcher."
+msgstr "Har en programstartare."
+
+#. (itstool) path: section/p
+#: C/application-basics.page:34
+msgid ""
+"A key theme in this definition is that applications are intended to be "
+"independent of other applications. This ensures flexibility, predictability, "
+"and simplicity of use."
+msgstr ""
+"Ett nyckeltema i denna definition är att program är avsedda att vara "
+"oberoende av andra program. Detta säkerställer flexibilitet, förutsägbarhet "
+"och lättanvändhet."
+
 #. (itstool) path: section/p
 #: C/application-basics.page:36
 msgid ""
-"At the heart of this definition is a model that allows the modular "
-"installation and use of 3rd party software, in a way that avoids dependency "
-"issues and ensures simplicity of use."
+"Of course, there are other characteristics that are expected of "
+"applications, including standard window behavior, system integration, and "
+"application metadata. Guidance on these aspects of applications can be found "
+"elsewhere."
 msgstr ""
-"Kärnan i denna definition är en modell som tillåter modulär installation och "
-"användning av tredjepartsprogramvara, på ett sätt som undviker "
-"beroendeproblem och säkerställer enkel användning."
-
-#. (itstool) path: section/p
-#: C/application-basics.page:38
-msgid ""
-"In GNOME 3, only software that conforms to these characteristics should "
-"install an application launcher."
-msgstr ""
-"I GNOME 3 ska endast program som uppfyller dessa egenskaper installera en "
-"programstartare."
+"Det finns förstås andra egenskaper som förväntas av program, innefattande "
+"standardbeteende för fönster, systemintegration samt metadata för program. "
+"Råd för dessa aspekter av program går att hitta på andra platser."
 
 #. (itstool) path: section/title
-#: C/application-basics.page:49
+#: C/application-basics.page:43
 msgid "Naming your application"
 msgstr "Att namnge ditt program"
 
 #. (itstool) path: section/p
-#: C/application-basics.page:51
+#: C/application-basics.page:45
 msgid ""
 "An application’s name is vital. It is what users will be first exposed to, "
 "and will help them decide whether they want to use an application or not. It "
@@ -316,17 +310,17 @@ msgstr ""
 "ett program eller ej. Det är en väsentlig del av ditt programs ansikte utåt."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:53
+#: C/application-basics.page:47
 msgid "An application name plays a number of functions:"
 msgstr "Att programnamn fyller ett antal funktioner:"
 
 #. (itstool) path: item/p
-#: C/application-basics.page:56
+#: C/application-basics.page:50
 msgid "It must advertise your application to potential users."
 msgstr "Det måste göra reklam för ditt program till potentiella användare."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:57
+#: C/application-basics.page:51
 msgid ""
 "It should serve to reinforce a positive identity, and have expressive "
 "qualities."
@@ -334,7 +328,7 @@ msgstr ""
 "Det borde förstärka en positiv identitet och ha uttrycksfulla kvaliteter."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:58
+#: C/application-basics.page:52
 msgid ""
 "It needs to identify your application in the systems where it is installed "
 "and run."
@@ -342,7 +336,7 @@ msgstr ""
 "Det bör identifiera ditt program på systemen det är installerat och kör på."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:61
+#: C/application-basics.page:55
 msgid ""
 "Ensure that your application name is short - fewer than 15 characters. This "
 "will ensure that it is always displayed in full within a GNOME 3 environment."
@@ -351,7 +345,7 @@ msgstr ""
 "kommer att göra att det alltid visas i sin helhet i en GNOME 3-miljö."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:63
+#: C/application-basics.page:57
 msgid ""
 "Additionally, choose an application name that is easy to understand and "
 "communicates your application’s functionality. Avoid references which will "
@@ -393,6 +387,19 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/application-menus.page:19
 msgid ""
+"<em>Application menus are no longer recommended, and will not be displayed "
+"in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus\">Primary</"
+"link> and <link xref=\"secondary-menus\">secondary menus</link> should be "
+"used as alternatives.</em>"
+msgstr ""
+"<em>Programmenyer rekommenderas inte längre och kommer inte att visas i "
+"GNOME 3:s systemrad från och med GNOME 3.32. <link xref=\"primary-menus"
+"\">Primär-</link> och <link xref=\"secondary-menus\">sekundärmenyer</link> "
+"bör användas som alternativ.</em>"
+
+#. (itstool) path: page/p
+#: C/application-menus.page:21
+msgid ""
 "Application menus provide access to global, top level actions and options "
 "for your application. These include standard items for accessing "
 "documentation and information about the application."
@@ -402,7 +409,7 @@ msgstr ""
 "dokumentation och information om programmet."
 
 #. (itstool) path: section/p
-#: C/application-menus.page:24
+#: C/application-menus.page:26
 msgid ""
 "Application menus are a standard part of GNOME 3, and every application that "
 "runs under GNOME 3 should have one."
@@ -411,23 +418,23 @@ msgstr ""
 "GNOME 3 borde ha en."
 
 #. (itstool) path: section/title
-#: C/application-menus.page:29 C/button-menus.page:47 C/dialogs.page:155
+#: C/application-menus.page:31 C/button-menus.page:47 C/dialogs.page:155
 #: C/display-compatibility.page:21 C/drop-down-lists.page:34 C/grids.page:32
 #: C/lists.page:133 C/menu-bars.page:93 C/menus.page:61
 #: C/pointer-and-touch-input.page:40 C/popovers.page:55
 #: C/primary-windows.page:70 C/progress-bars.page:117
-#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:46
-#: C/visual-layout.page:33
+#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
+#: C/visual-layout.page:35
 msgid "General guidelines"
 msgstr "Allmänna riktlinjer"
 
 #. (itstool) path: item/p
-#: C/application-menus.page:32
+#: C/application-menus.page:34
 msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
 msgstr "Följ standarden för <link xref=\"menus\">menyriktlinjer</link>."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:33
+#: C/application-menus.page:35
 msgid ""
 "Only include menu items that relate to the application as a whole, such as "
 "application preferences. Items that are specific to a particular window or "
@@ -440,7 +447,7 @@ msgstr ""
 "inkluderas."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:34
+#: C/application-menus.page:36
 msgid ""
 "If an item from the application menu is frequently used, consider moving it "
 "to a more accessible location."
@@ -449,12 +456,12 @@ msgstr ""
 "mer lättåtkomlig plats."
 
 #. (itstool) path: section/title
-#: C/application-menus.page:40
+#: C/application-menus.page:42
 msgid "Standard menu items"
 msgstr "Standardmenyobjekt"
 
 #. (itstool) path: section/p
-#: C/application-menus.page:42
+#: C/application-menus.page:44
 msgid ""
 "Common application menu items include <gui>New Window</gui>, "
 "<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
@@ -467,12 +474,12 @@ msgstr ""
 "egen grupp längst ner i menyn."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:46
+#: C/application-menus.page:48
 msgid "<gui>New Window</gui>"
 msgstr "<gui>Nytt fönster</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:47
+#: C/application-menus.page:49
 msgid ""
 "Opens a new window. Only <link xref=\"primary-windows#application-types"
 "\">multiple instance applications</link> should include this menu item. If "
@@ -488,12 +495,12 @@ msgstr ""
 "gui>."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:50
+#: C/application-menus.page:52
 msgid "<gui>Preferences</gui>"
 msgstr "<gui>Inställningar</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:51
+#: C/application-menus.page:53
 msgid ""
 "Opens the application's preferences dialog. Only show this menu item if your "
 "application has a preferences dialog."
@@ -502,12 +509,12 @@ msgstr ""
 "program har en inställningsdialog."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:54 C/keyboard-input.page:286
+#: C/application-menus.page:56 C/keyboard-input.page:286
 msgid "<gui>Help</gui>"
 msgstr "<gui>Hjälp</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:55
+#: C/application-menus.page:57
 msgid ""
 "Opens your application's user documentation in the <app>Help</app> "
 "application. Only show this menu item if your application has user "
@@ -517,12 +524,12 @@ msgstr ""
 "Visa endast detta menyobjekt om ditt program har användardokumentation."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:58 C/keyboard-input.page:291
+#: C/application-menus.page:60 C/keyboard-input.page:291
 msgid "<gui>About</gui>"
 msgstr "<gui>Om</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:59
+#: C/application-menus.page:61
 msgid ""
 "Opens the application's about dialog. Every application menu should include "
 "this item."
@@ -530,12 +537,12 @@ msgstr ""
 "Öppna programmets om-dialog. Varje programmeny bör ha detta menyobjekt."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:62 C/keyboard-input.page:296
+#: C/application-menus.page:64 C/keyboard-input.page:296
 msgid "<gui>Quit</gui>"
 msgstr "<gui>Avsluta</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:63
+#: C/application-menus.page:65
 msgid ""
 "Closes the application, including all application windows. Every application "
 "menu should include this item."
@@ -544,7 +551,7 @@ msgstr ""
 "detta menyobjekt."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:72
+#: C/application-menus.page:74
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
 "\">GtkApplication</link>"
@@ -1185,7 +1192,7 @@ msgstr ""
 "Etikettera en grupp av kryssrutor med en beskrivande rubrik ovanför eller "
 "till vänster om gruppen."
 
-# TODO: space after 'instead'.
+# TODO: space after 'instead'?
 #. (itstool) path: item/p
 #: C/check-boxes.page:53
 msgid ""
@@ -1257,27 +1264,28 @@ msgstr "Kompatibilitet mellan plattformar"
 #. (itstool) path: section/p
 #: C/compatibility.page:21
 msgid ""
-"The HIG provides cross-platform for those design patterns and UI elements "
-"that require special treatment in cross-platform cases. Otherwise, all the "
-"design patterns provided in these guidelines can be used in a cross-platform "
-"manner."
+"Generally speaking, the design patterns found in the HIG can be used on any "
+"desktop platform. Most of the conventions, like menus and menu buttons, "
+"views and view switchers, and popovers, are common and will be generally "
+"understood."
 msgstr ""
-"Riktlinjerna för mänskliga gränssnitt tillhandahåller stöd för flera "
-"plattformar för de designmönster och användargränssnittselement som kräver "
-"speciell behandling för olika plattformar. I annat fall kan alla "
-"designmönster som tillhandahålls i dessa riktlinjer användas oberoende av "
-"plattform."
+"Allmänt kan designmönstren som hittas i riktlinjerna för mänskliga "
+"gränssnitt användas på alla skrivbordsplattformar. De flesta konventionerna, "
+"så som menyer och menyknappar, vyer och vyväxlare, samt kontextfönster är "
+"vanliga och kommer allmänt att bli förstådda."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:23
 msgid ""
-"Since some platforms provide system-level integration for <link xref=\"menu-"
-"bars\">menu bars</link>, this pattern is of special relevance for cross-"
-"platform applications."
+"The primary example of a design pattern that varies across desktop platforms "
+"is the <link xref=\"menu-bars\">menu bar</link>, which takes different forms "
+"on different platforms. See the design page on this for more guidance on "
+"cross-platform considerations."
 msgstr ""
-"Då vissa plattformar tillhandahåller integration för <link xref=\"menu-bars"
-"\">menyrader</link> på systemnivå så är detta mönster av särskilt vikt för "
-"program som kan köras på flera plattformar."
+"Det främsta exemplet på ett designmönster som varierar mellan "
+"skrivbordsplattformar är <link xref=\"menu-bars\">menyraden</link>, vilken "
+"antar olika former på olika plattformar. Se designsidan för detta för mer "
+"råd om saker att ha i åtanke för program på flera plattformar."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
@@ -1287,18 +1295,17 @@ msgstr "Kompatibilitet med GNOME 2"
 #. (itstool) path: section/p
 #: C/compatibility.page:30
 msgid ""
-"These Human Interface Guidelines are an evolution of the GNOME 2 HIG, and "
-"represent an improvement on the previous version. Applications that follow "
-"the new version of the HIG will use space more efficiently, will provide a "
-"more focused user experience, and will use modern interpretations of key "
-"functionality, such as search, online integration, or notifications."
+"These Human Interface Guidelines are an evolution of the GNOME 2 HIG. "
+"Applications that follow the new version of the HIG will use space more "
+"efficiently, will provide a more focused user experience, and will use "
+"modern interpretations of key functionality, such as search, online "
+"integration, or notifications."
 msgstr ""
 "Dessa riktlinjer för mänskliga gränssnitt är en vidareutveckling av "
-"riktlinjerna för GNOME 2, och representerar en förbättring av föregående "
-"version. Program som följer den nya versionen av riktlinjerna kommer att "
-"använda utrymme mer effektivt, tillhandahåller en mer fokuserad "
-"användarupplevelse, och kommer att använda moderna tolkningar av "
-"nyckelfunktionalitet, så som sökning, integration med nätet eller "
+"riktlinjerna för GNOME 2. Program som följer den nya versionen av "
+"riktlinjerna kommer att använda utrymme mer effektivt, tillhandahåller en "
+"mer fokuserad användarupplevelse, och kommer att använda moderna tolkningar "
+"av nyckelfunktionalitet, så som sökning, integration med nätet eller "
 "aviseringar."
 
 #. (itstool) path: section/p
@@ -2326,12 +2333,11 @@ msgstr ""
 "övergångar mellan liggande och stående format kan hanteras automatiskt av "
 "fönsterhanteraren."
 
-# TODO: or used fixed -> or use fixed
 #. (itstool) path: item/p
 #: C/display-compatibility.page:27
 msgid ""
 "Test to make sure that your interface works well on large displays. Where "
-"possible, scale content to make the best use of available space, or used "
+"possible, scale content to make the best use of available space, or use "
 "fixed width layouts to ensure that interface elements maintain effective "
 "grouping and alignment."
 msgstr ""
@@ -2782,154 +2788,6 @@ msgstr ""
 "\">GtkIconView</link>"
 
 #. (itstool) path: info/desc
-#: C/header-bar-menus.page:8
-msgid "Common menus shown on the right side of a header bar"
-msgstr "Vanliga menyer som visas på högra sidan av en rubrikrad"
-
-#. (itstool) path: page/title
-#: C/header-bar-menus.page:16
-msgid "Header bar menus"
-msgstr "Rubrikradsmenyer"
-
-#. (itstool) path: page/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/header-bar-menus.page:18
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/header-bar-menu.svg' "
-"md5='0e781cf34a40d6c5928bd4564514dc65'"
-msgstr ""
-"external ref='figures/patterns/header-bar-menu.svg' "
-"md5='0e781cf34a40d6c5928bd4564514dc65'"
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:20
-msgid ""
-"<link xref=\"header-bars\">Header bars</link> can include a menu which "
-"contains actions and options for the current view. These menus are located "
-"at the far right side of the header bar."
-msgstr ""
-"<link xref=\"header-bars\">Rubrikrader</link> kan inkludera en meny som "
-"innehåller åtgärder och alternativ för den aktuella vyn. Dessa menyer "
-"placeras längst till höger i rubrikraden."
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:22
-msgid ""
-"While the most frequently used actions for a view should be placed directly "
-"in the header bar, a header bar menu provides access to lesser-used actions. "
-"This ensures that the header bar isn’t overwhelmed with less interesting or "
-"useful controls."
-msgstr ""
-"Medan de mest frekvent använda åtgärderna för en vy bör placeras direkt i "
-"rubrikraden, tillhandahåller en rubrikrad åtkomst till mindre använda "
-"åtgärder. Detta säkerställer att rubrikraden inte överhopas med mindre "
-"intressanta eller användbara komponenter."
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:24
-msgid ""
-"In this way, the header bar menus help to create focused views that guide "
-"the user towards the most interesting and useful functionality."
-msgstr ""
-"På detta sätt hjälper rubrikradsmenyer till att skapa fokuserade vyer som "
-"guidar användaren till de mest intressanta och användbara funktionerna."
-
-#. (itstool) path: section/p
-#: C/header-bar-menus.page:29
-msgid ""
-"Use a header bar menu to present additional actions or options for the "
-"current view. They are best used when those actions or options are not used "
-"the majority of the time - if there is a set of actions which deserve more "
-"prominence in the view, an <link xref=\"action-bars\">action bar</link> "
-"might be a better choice."
-msgstr ""
-"Använd en rubrikradsmeny för att presentera ytterligare åtgärder eller "
-"alternativ för den aktuella vyn. De används bäst när dessa åtgärder eller "
-"alternativ inte används huvuddelen av tiden - om det finns en uppsättning "
-"åtgärder som förtjänar bättre synlighet i vyn kan en <link xref=\"action-bars"
-"\">åtgärdsrad</link> vara ett bättre alternativ."
-
-#. (itstool) path: section/p
-#: C/header-bar-menus.page:31
-msgid ""
-"Header bar menus are not a good choice for performing actions on selected "
-"content: when content hasn’t been selected, the menu will contain unhelpful "
-"insensitive menu items, and when content has been selected, possible actions "
-"will not be advertised. <link xref=\"selection-mode\">Selection mode</link> "
-"or <link xref=\"popovers\">popovers</link> are a better choice for this "
-"situation."
-msgstr ""
-"Rubrikrader är inte ett bra val för att utföra åtgärder på markerat "
-"innehåll: när innehåll inte har valts, kommer menyn att innehålla menyobjekt "
-"som är okänsliga, och när innehåll har markerats kommer möjliga åtgärder "
-"inte att utannonseras. <link xref=\"selection-mode\">Markeringsläge</link> "
-"eller <link xref=\"popovers\">kontextfönster</link> är bättre val i dessa "
-"situationer."
-
-#. (itstool) path: section/title
-#: C/header-bar-menus.page:36
-msgid "Guidance"
-msgstr "Råd"
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:39
-msgid ""
-"Header bar menus should only contain actions for the current view or window "
-"- this differentiates their content from application menus."
-msgstr ""
-"Rubrikradsmenyer bör endast innehålla åtgärder för den aktuella vyn eller "
-"fönstret - detta skiljer deras innehåll från programmenyer."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:40
-msgid "Follow the <link xref=\"menus\">standard guidelines for menus</link>."
-msgstr "Följ <link xref=\"menus\">standardriktlinjerna för menyer</link>."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:41
-msgid ""
-"A header bar menu is contained within a <link xref=\"popovers\">popover</"
-"link>. As such, a header bar menu can include a variety of controls, such as "
-"groups of buttons."
-msgstr ""
-"En rubrikradsmeny finns inuti i ett <link xref=\"popovers\">kontextfönster</"
-"link>. Som sådan kan en rubrikradsmeny inkludera en mängd olika komponenter "
-"så som grupper av knappar."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:42
-msgid ""
-"Header bar menus shouldn’t include a close menu item, since this action is "
-"already provided by the header bar. It can also be ambiguous as to what a "
-"close menu item refers to."
-msgstr ""
-"Rubrikradsmenyer bör inte innehålla ett menyobjekt för stängning då denna "
-"åtgärd redan tillhandahålls av rubrikraden. Det kan också vara tvetydigt vad "
-"ett menyobjekt för stängning refererar till."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:51 C/menus.page:78
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
-"\">GtkMenuButton</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
-"\">GtkMenuButton</link>"
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:52 C/menus.page:83 C/popovers.page:68
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
-"\">GtkPopoverMenu</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
-"\">GtkPopoverMenu</link>"
-
-#. (itstool) path: info/desc
 #: C/header-bars.page:8
 msgid "Element that runs along the top of windows"
 msgstr "Element som löper längs toppen på fönster"
@@ -3172,60 +3030,204 @@ msgstr "Ikoner och grafik"
 #. (itstool) path: page/p
 #: C/icons-and-artwork.page:19
 msgid ""
-"Icons play an important role in user interfaces: selecting the correct icon "
-"is therefore vital to making sure that your application is usable. An "
-"identifying icon is also an essential part of any application, and is a "
-"crucial part of its identity."
+"Icons are a basic element in user interfaces. They also make up a "
+"fundamental part of application identities. This page provides an overview "
+"of icon usage. It also describes which icons are available through the GNOME "
+"platform, introduces resources for creating new icons, and includes some "
+"general guidelines on using icons in user interfaces."
 msgstr ""
-"Ikoner spelar en viktig roll i användargränssnitt: att välja den korrekta "
-"ikonen är därför viktigt för att säkerställa att ditt program är användbart. "
-"En identifierande ikon är också en väsentlig del av varje program och är en "
-"avgörande del av dess identitet."
+"Ikoner är ett grundläggande element i användargränssnitt. De utgör också en "
+"grundläggande del av programs identitet. Denna sida tillhandahåller en "
+"översikt över ikonanvändning. Den beskriver också vilka ikoner som är "
+"tillgängliga via GNOME-plattformen, introducerar resurser för att skapa nya "
+"ikoner och inkluderar en del allmänna riktlinjer för användning av ikoner i "
+"användargränssnitt."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:22
+msgid "Icon styles"
+msgstr "Ikonstilar"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:24
+msgid "Two styles of icon are used in GNOME 3: full-color and symbolic icons."
+msgstr ""
+"Två ikonstilar används i GNOME 3: fullfärgsikoner och symboliska ikoner."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:26
+msgid ""
+"Full-color icons are colorful and detailed, and are optimized for larger "
+"sizes. They are defined as 128x128px SVGs, and are sharpest when scaled up "
+"in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color "
+"icons also allows them to be rendered sharp at 64x64px and 32x32px, but is "
+"not advised to make them any smaller."
+msgstr ""
+"Fullfärgsikoner är färgglada och detaljerade och är optimerade för större "
+"storlekar. De är definierade som 128x128px SVG:er och är skarpast om de "
+"skalas upp i multipler om 128 (så som 256x256 och 512x512). Designen för "
+"fullfärgsikoner möjliggör också för dem att renderas skarpt vid 64x64px och "
+"32x32px, men det är inte rekommenderat att göra dem mindre än så."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:28
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/fullcolor-v-symbolic.svg' "
+"md5='33921c0746746de2adce51279dbc8606'"
+msgstr ""
+"external ref='figures/icons/fullcolor-v-symbolic.svg' "
+"md5='33921c0746746de2adce51279dbc8606'"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:30
+msgid ""
+"Symbolic icons are simple and monochrome, and are designed to work well at "
+"smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to "
+"multiples of 16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally "
+"have a neutral color, although their color can be changed programmatically."
+msgstr ""
+"Symboliska ikoner är enkla och monokroma och har designats för att fungera "
+"väl vid mindre storlekar. De är definierade som 16x16px SVG:er och kan "
+"skalas till multipler av 16 (så som 32x32, 64x64, 128x128). Symboliska "
+"ikoner har generellt en neutral färg, men deras färg kan ändras "
+"programmatiskt."
+
+#. (itstool) path: section/title
+#: C/icons-and-artwork.page:35
+msgid "Icon uses"
+msgstr "Ikonanvändning"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:38
+msgid ""
+"Application icons are the most prominent type of icons. Every application "
+"should have its own unique and beautiful application icon: it is the face of "
+"the application, and the first visual element a user sees when browsing for "
+"new applications."
+msgstr ""
+"Programikoner är den mest framträdande typen av ikoner. Varje program bör ha "
+"en egen unik och vacker programikon: den är programmets ansikte och det "
+"första visuella elementet en användare ser när de letar efter nya program."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:40
+msgid ""
+"Application icons use the full-color style. Applications are also "
+"recommended to provide a symbolic version of their icon, which is used for "
+"the high-contrast accessibility feature, as well as in contexts where a "
+"legible low-resolution icon is required."
+msgstr ""
+"Programikoner använder fullfärgsikoner. Program rekommenderas också att "
+"tillhandahålla symboliska versioner av deras ikoner, vilka används för "
+"hjälpmedelsfunktioner med högkontrast, så väl som i sammanhang där en tydlig "
+"lågupplöst ikon behövs."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:42
+msgid ""
+"User interface icons typically use the symbolic style and this is the "
+"primary icon style used for user interface controls. The most common and "
+"obvious example of symbolic icon usage is on buttons."
+msgstr ""
+"Ikoner i användargränssnittet använder vanligtvis den symboliska stilen och "
+"detta är den primära ikonstilen som används för "
+"användargränssnittskomponenter. Det vanligaste och mest uppenbara exemplet "
+"på användning av symboliska ikoner är knappar."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:44
+msgid ""
+"Apart from application icons, the full-color icon style can also be used in "
+"cases where icons are displayed at large sizes and are intended to be the "
+"focus of attention. File and folder icons in a file manager are a good "
+"example of this."
+msgstr ""
+"Förutom programikoner kan ikoner i fullfärgsstil också används i sammanhang "
+"där ikoner visas vid stora storlekar och är avsedda att vara i fokus. Fil- "
+"och mappikoner i en filhanterare är ett bra exempel på detta."
+
+#. (itstool) path: section/title
+#: C/icons-and-artwork.page:49
+msgid "Stock icons and creating your own"
+msgstr "Standardikoner och skapa dina egna"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:51
+msgid ""
+"GNOME provides a set of standard icons, which can be used by applications. "
+"This can be accessed directly through GTK. Icon names follow the <link href="
+"\"https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
+"html\">Freedesktop icon specification</link>. Symbolic versions of icons "
+"have the <code>-symbolic</code> name ending, such as <code>open-menu-"
+"symbolic</code>."
+msgstr ""
+"GNOME tillhandahåller en standarduppsättning av ikoner som kan användas av "
+"program. Denna kan kommas åt direkt via GTK. Ikonnamn följer <link href="
+"\"https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
+"html\">Freedesktops ikonspecifikation</link>. Namnen på symboliska versioner "
+"av ikoner slutar med <code>-symbolic</code>, så som <code>open-menu-"
+"symbolic</code>."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:53
+msgid ""
+"The <link xref=\"icon-design\">icon design guidelines</link> provide more "
+"details on how to create your own icons, including application icons."
+msgstr ""
+"<link xref=\"icon-design\">Riktlinjer för ikondesign</link> tillhandahåller "
+"ytterligare detaljer om hur du skapar dina egna ikoner, inklusive "
+"programikoner."
+
+#. (itstool) path: section/title
+#: C/icons-and-artwork.page:58
 msgid "Using icons in your user interface"
 msgstr "Att använda ikoner i ditt användargränssnitt"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:24
+#: C/icons-and-artwork.page:60
 msgid ""
-"There are many situations when it is necessary to decide between using an "
-"icon and a text label, particularly for buttons. Icons have the advantage of "
-"being smaller, and not requiring translation. At the same time, the "
-"incorrect use of an icon can make your interface hard - or even impossible - "
-"to understand."
+"Icons are a common user interface element and they have some practical "
+"advantages over text labels (such as being smaller). At the same time, over-"
+"use of icons can lead to confusion and a poor user experience. Likewise, the "
+"use of inappropriate icons can often make an interface difficult to use."
 msgstr ""
-"Det finns många situationer när det är nödvändigt att välja mellan att "
-"använda en ikon och en textetikett, speciellt för knappar. Ikoner har "
-"fördelen att de är mindre och inte behöver översättas. Samtidigt kan "
-"felaktig användning av en ikon göra ditt gränssnitt svårt - eller till och "
-"med omöjligt - att förstå."
+"Ikoner är ett vanligt element i användargränssnitt och de har en del "
+"praktiska fördelar framför textetiketter (så som att de är mindre). "
+"Samtidigt kan överanvändning av ikoner leda till förvirring och en dålig "
+"användarupplevelse. På samma sätt kan användning av olämpliga ikoner ofta "
+"göra ett gränssnitt svårt att använda."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:62
+msgid ""
+"Therefore, only use icons whose meaning is commonly recognized. If a "
+"commonly recognized icon is not available, it might be better to use a text "
+"label instead. Typically, convention establishes which icons are commonly "
+"recognized. This set of icons is actually quite small, and includes standard "
+"icons such as search, menu, forward, back and share. If you are in doubt, "
+"only use icons which are frequently used in other applications."
+msgstr ""
+"Använd därför endast ikoner vars betydelse är allmänt erkänd. Om en allmänt "
+"erkänd ikon inte är tillgänglig kan det vara bättre att använda en "
+"textetikett istället. Konventioner etablerar vanligtvis vilka ikoner som är "
+"allmänt erkända. Denna uppsättning av ikoner är i själva verket ganska liten "
+"och omfattar standardikoner så som sökning, meny, framåt, bakåt och dela. Om "
+"du är osäker, använd ikoner som frekvent används i andra program."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:64
+msgid "Other things to consider when using icons:"
+msgstr "Andra saker att tänka på när ikoner används:"
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:27
+#: C/icons-and-artwork.page:67
 msgid ""
-"Only use icons whose meaning is commonly recognized. If a commonly "
-"recognized icon is not available, it might be better to use a text label "
-"instead."
-msgstr ""
-"Använd endast ikoner vars mening vanligtvis känns igen. Om en allmänt "
-"igenkänd ikon inte finns tillgänglig, kan det vara bättre att använda en "
-"textetikett istället."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:29
-msgid ""
-"Convention establishes which icons will be recognized. If you are in doubt, "
-"stick to icons which are frequently used in other applications."
-msgstr ""
-"Konventioner fastställer vilka ikoner som kommer att kännas igen. Om du "
-"tvekar, håll dig till ikoner som ofta används i andra program."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:30
-msgid ""
-"Consider which icons will be meaningful in the specific context of your "
+"Think about which icons will be meaningful in the specific context of your "
 "application - users of specialist tools will often be familiar with domain-"
 "specific symbols."
 msgstr ""
@@ -3234,7 +3236,7 @@ msgstr ""
 "vara bekanta med domänspecifika symboler."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:32
+#: C/icons-and-artwork.page:68
 msgid ""
 "Remember that some icons are only meaningful alongside other icons of the "
 "same type. For example, a media icon for stop is simply a square, and may "
@@ -3250,546 +3252,6 @@ msgstr ""
 "närheten. På samma sätt kan en ikon för att ta bort ett objekt från en "
 "lista, som visas som en subtraktionssymbol (d.v.s en linje) komma att inte "
 "kännas igen utan en motsvarande ”plus”-ikon för tillägg."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:38
-msgid "Choosing stock GNOME icons"
-msgstr "Att välja standardikoner från GNOME"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:40
-msgid ""
-"GNOME provides a full set of standard icons. These should be used where ever "
-"appropriate; try to avoid creating custom icons unless they are absolutely "
-"necessary."
-msgstr ""
-"GNOME tillhandahåller en fullständig uppsättning standardikoner. Dessa bör "
-"användas närhelst det är lämpligt; försök att undvika att skapa anpassade "
-"ikoner om det inte är absolut nödvändigt."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:42
-msgid ""
-"Follow the icon naming specification when selecting which icons to use - the "
-"name of the icon should reflect what the icon is intended to communicate. "
-"This is important for those using a screen reader."
-msgstr ""
-"Följ namngivningsspecifikationen för ikoner när du väljer vilka ikoner som "
-"ska användas - namnet för ikonen bör reflektera vad ikonen avser att "
-"kommunicera. Detta är viktigt för de som använder en skärmläsare."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:44
-msgid "You can use the GTK+ icon browser to find recommended icons."
-msgstr ""
-"Du kan använda GTK+-ikonbläddraren för att hitta rekommenderade ikoner."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:47
-msgid "Color vs. symbolic icons"
-msgstr "Färgikoner eller symboliska ikoner"
-
-# sebras: https://bugzilla.gnome.org/show_bug.cgi?id=776510
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:49
-msgid ""
-"GNOME 3 provides two types of icon: full-color and monochrome symbolic "
-"icons. The guidelines in this HIG indicate when to use which type of icon. "
-"The following is a a general guide."
-msgstr ""
-"GNOME 3 tillhandahåller två typer av ikoner: fullfärgsikoner och monokroma, "
-"symboliska ikoner. Riktlinjerna i detta dokument indikerar när vilken typ av "
-"ikon ska användas. Följande är en generell guide."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:51
-msgid "Full-color icons should be used for:"
-msgstr "Fullfärgsikoner bör användas för:"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:54
-msgid "devices"
-msgstr "enheter"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:55
-msgid "filetypes/mimetypes"
-msgstr "filtyper/mimetyper"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:56
-msgid "application (launcher) icons"
-msgstr "programikoner (startikoner)"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:59
-msgid ""
-"All other icons should use the symbolic icon style. In addition, symbolic "
-"icons should always be used inside:"
-msgstr ""
-"Alla andra typer av ikoner bör använda den symboliska stilen. Dessutom bör "
-"symboliska ikoner alltid användas för:"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:62
-msgid "buttons"
-msgstr "knappar"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:63
-msgid "lists"
-msgstr "listor"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:64
-msgid "entry fields"
-msgstr "inmatningsfält"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:65
-msgid ""
-"when the background is semi-transparent (such as overlaid media or "
-"fullscreen controls)"
-msgstr ""
-"när bakgrunden är halvgenomskinlig (så som vid överliggande media eller "
-"helskärmskomponenter)"
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:73
-msgid "Application icons"
-msgstr "Programikoner"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:75
-msgid ""
-"Every application should have a unique and beautiful application icon. It is "
-"the face of the application, and the first visual element a user sees when "
-"browsing for new applications. The <link xref=\"application-basics"
-"\">application basics page</link> includes details on what an application "
-"is, and when to provide an application icon."
-msgstr ""
-"Varje program bör ha en unik och vacker programikon. Det är programmets "
-"ansikte och det första visuella elementet en användare ser när de letar "
-"efter nya program. <link xref=\"application-basics\">Sidan om "
-"programgrunder</link> inkluderar detaljer kring vad ett program är och när "
-"en programikon ska tillhandahållas."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:77
-msgid ""
-"Because application icons are presented at larger sizes, legacy Tango styled "
-"48x48 px or SVG icons no longer suffice (lacking detail). It is essential "
-"your application has a 256x256 px icon. With the advent of high-DPI "
-"displays, a 512x512 px variant is recommended."
-msgstr ""
-"Då programikoner visas vid stora storlekar är föråldrade 48x48 bildpunkters- "
-"eller SVG-ikoner i Tango-stil inte längre tillräckliga (saknar detaljer). "
-"Det är väsentligt att ditt program har en ikon på 256x256 bildpunkter. Med "
-"tillkomsten av hög-DPI-skärmar rekommenderas en variant på 512x512 "
-"bildpunkter."
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:79
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
-msgstr ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:81
-msgid ""
-"While not as critical, there are still areas where application icons are "
-"presented at a small size. To keep the icon sharp and well defined, a "
-"specific rendering is required to sizes of 48x48 px, 32x32 px, 24x24 px and "
-"16x16 px. Many GNOME icons also ship a 22x22 px size for legacy reasons, but "
-"that isn’t required."
-msgstr ""
-"Även om det inte är kritiskt finns det fortfarande områden där programikoner "
-"presenteras i liten storlek. För att behålla ikonen skarp och väldefinierad "
-"krävs specifika renderingar för storlekarna 48x48, 32x32, 24x24 och 16x16 "
-"bildpunkter. Många GNOME-ikoner tillhandahåller även en ikon på 22x22 "
-"bildpunkter av bakåtkompatibilitetsskäl, men detta krävs inte."
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:83
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
-msgstr ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:85
-msgid ""
-"To maintain crispness, a lot of detail is discarded for the low resolution "
-"variants and a 1px stroke is used to outline the silhouette of the object."
-msgstr ""
-"För att bibehålla tydligheten, kastas många detaljer bort för varianterna i "
-"lägre upplösningar och en strykning på 1 bildpunkt används för att omgärda "
-"silhuetten för objektet."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:87
-msgid ""
-"More information on designing an application icon can be found below, in the "
-"custom full-color icon section."
-msgstr ""
-"Mer information om att designa en programikon hittas nedan i avsnittet om "
-"anpassade fullfärgsikoner."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:92
-msgid "Custom symbolic icons"
-msgstr "Anpassade symboliska ikoner"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:94
-msgid ""
-"Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. "
-"They are then programmatically scaled and colored within the user interface "
-"itself."
-msgstr ""
-"Symboliska ikoner har en enkelt form och ritas inom ett rutnät på 16x16 "
-"bildpunkter. De skalas sedan programmatiskt och färgläggs inom "
-"användargränssnittet självt."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:97
-msgid ""
-"Identify a single property when looking for an appropriate metaphor for an "
-"icon, and focus on what distinguishes the idea you want to communicate. For "
-"example, when describing an action to be performed on an image, it isn’t "
-"necessary to repeat the idea of an image in every icon. Instead, focus on "
-"what is distinct about each action (for example: rotate, tag, align)."
-msgstr ""
-"Identifiera en enstaka egenskap när du letar efter en lämplig metafor för en "
-"ikon och fokusera på vad som utmärker idén du vill kommunicera. När du till "
-"exempel beskriver en åtgärd som ska utföras på en bild är det inte "
-"nödvändigt att repetera idén om en bild i varje ikon. Fokusera istället på "
-"vad som är distinkt för varje åtgärd (till exempel: rotera, tagga, justera)."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:98
-msgid ""
-"Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
-"view."
-msgstr ""
-"Undvika att använda perspektiv i symboliska ikoner, håll dig till en enkel "
-"ortogonal vy."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:99
-msgid ""
-"Filled shapes are generally faster to process by the human visual system "
-"than wireframe outlines."
-msgstr ""
-"Ifyllda former behandlas generellt snabbare än trådmodellskonturer av "
-"människans synsystem."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:100
-msgid ""
-"Symbolic icons are recolored at runtime to match the context, very much like "
-"a piece of text. While there are ways to “shade” parts of an icon by using "
-"opacity or creating duotone/pattern dithering, try avoiding these as much as "
-"possible."
-msgstr ""
-"Symboliska ikoner ändrar färg i exekveringstid för att matcha sammanhanget, "
-"på samma sätt som ett stycke text. Även om det finns sätt att ”skugga” delar "
-"av en ikon genom att använda genomskinlighet eller att skapa tvåfärgs-/"
-"mönsterutmjukning så bör du försöka att undvika dessa så långt som möjligt."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:101
-msgid ""
-"When a metaphor relies on the negative space, make sure it will work with "
-"the colors inverted. For example a camera lens spec/highlight will only work "
-"if lighter than the lens itself."
-msgstr ""
-"När en metafor bygger på det negativa utrymmet, säkerställ att det även "
-"kommer att fungera med inverterade färger. Till exempel kommer en "
-"kameralinsreflex endast att fungera om den är ljusare än linsen i sig."
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:104
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/inverting.svg' "
-"md5='e4155d9e87e2abe95e70c42185686b5e'"
-msgstr ""
-"external ref='figures/icons/inverting.svg' "
-"md5='e4155d9e87e2abe95e70c42185686b5e'"
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:107
-msgid "Size and grid"
-msgstr "Storlek och rutnät"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:109
-msgid ""
-"While the icons are scalable and should work in any size, the basic canvas "
-"size is 16x16 grid units. You have the whole canvas to fill, but note that a "
-"filled rectangular object will appear stronger/larger when placed next to "
-"items that only use thinner strokes. Try to keep the contrast of your whole "
-"set."
-msgstr ""
-"Även om ikonerna är skalbara och bör fungera i vilken storlek som helst är "
-"den grundläggande dukstorleken 16x16 rutnätsenheter. Du har hela duken att "
-"fylla, men notera att ett fyllt rektangulärt objekt kommer att uppfattas som "
-"starkare/större när det placeras intill objekt som endast använder tunnare "
-"drag. Försök att behålla kontrasten i hela uppsättningen."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:116
-msgid "Custom full-color icons"
-msgstr "Anpassade fullfärgsikoner"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:118
-msgid "Full-color icons are drawn and rendered at a variety of preset sizes."
-msgstr ""
-"Fullfärgsikoner ritas och renderas vid ett antal fördefinierade storlekar."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:121
-msgid "Perspective"
-msgstr "Perspektiv"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:123
-msgid ""
-"Most icons can be executed best by using the “on the table” perspective, as "
-"if the observer was standing in front of the object and looking slightly "
-"down on it. Many icons can be rendered with a simple “straight on” or “on "
-"the shelf” perspective, with the observer looking directly at the object at "
-"eye level."
-msgstr ""
-"De flera ikoner ser bäst ut genom att använda ”på bordet”-perspektivet, som "
-"om observatören stod framför objektet och tittar lite ner på det. Många "
-"ikoner kan renderas med ett enkelt ”rakt på”- eller ”på hyllan”-perspektiv, "
-"med observatören tittandes direkt på objektet i ögonnivå."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:128
-msgid "Palette"
-msgstr "Palett"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:130
-msgid ""
-"Use the Tango color palette when designing full color application or device "
-"icons."
-msgstr ""
-"Använd Tangos färgpalett när du designar fullfärgsprogram- eller "
-"enhetsikoner."
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:134
-msgid "Butter"
-msgstr "Smör"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:135
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-msgstr ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:136
-msgid "Plum"
-msgstr "Plommon"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:137
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-msgstr ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:140
-msgid "Orange"
-msgstr "Orange"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:141
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-msgstr ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:142
-msgid "Scarlet Red"
-msgstr "Scharlakansröd"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:143
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-msgstr ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:146
-msgid "Chocolate"
-msgstr "Choklad"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:147
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-msgstr ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:148
-msgid "Aluminium"
-msgstr "Aluminium"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:149
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-msgstr ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:152
-msgid "Chameleon"
-msgstr "Kameleont"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:153
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-msgstr ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:155
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-msgstr ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:158
-msgid "Sky Blue"
-msgstr "Himmelsblå"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:159
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
-msgstr ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:164
-msgid ""
-"You are free to use different shades of these colors depending on the "
-"desired material effect. However, these primary colors are a good baseline "
-"to start from. All major libre graphics packages come with the Tango palette "
-"pre-installed."
-msgstr ""
-"Du får lov att använda olika nyanser av dessa färger beroende på den önskade "
-"materialeffekten. Men dessa färger är en god baslinje att utgå från. Alla "
-"större fria grafikpaket kommer med Tango-paletten förinstallerad."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:171
-msgid "See also"
-msgstr "Se även"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:173
-msgid ""
-"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
-"\">Tango Icon Guidelines</link>"
-msgstr ""
-"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
-"\">Tangos ikonriktlinjer</link>"
 
 #. (itstool) path: page/title
 #: C/index.page:14
@@ -4049,45 +3511,40 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:25
 msgid ""
-"In-app notifications are appropriate when you want to inform the user about "
-"an event that is relevant to their ongoing use of an application. They are "
-"best used to provide immediate feedback. This contrasts with <link xref="
-"\"notifications\">standard notifications</link>, which provide system-wide "
-"alerts, and which persist after the notification has been initially "
-"displayed."
+"In-app notifications can be used to inform users about events that are "
+"immediately relevant to their activity in an application, but which don't "
+"have long-term interest. One common use is to provide feedback in response "
+"to user actions, while the application is being used. This contrasts with "
+"<link xref=\"notifications\">standard notifications</link>, which provide "
+"system-wide alerts, and which persist after the notification has been "
+"initially displayed."
 msgstr ""
-"Aviseringar i program är lämpliga då du vill informera användaren om en "
-"händelse som är relevant för deras pågående användning av ett program. De "
-"används bäst för att tillhandahålla omedelbar återkoppling. Detta i kontrast "
-"till <link xref=\"notifications\">standardaviseringar</link> som "
-"tillhandahåller systemomfattande meddelanden som består efter att "
-"aviseringen först har visats."
+"Aviseringar i program kan användas för att informera användare om händelser "
+"som är omedelbart relevanta för deras aktivitet i ett program, men som inte "
+"är intressant i ett längre perspektiv. Detta i kontrast till <link xref="
+"\"notifications\">standardaviseringar</link> som tillhandahåller "
+"systemomfattande meddelanden som består efter att aviseringen först har "
+"visats."
 
-# TODO: End is missing. What button??
-# https://gitlab.gnome.org/GNOME/gnome-devel-docs/issues/2
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:27
 msgid ""
 "Allowing the user to undo a destructive action is an example of a good use "
-"of in-app notifications: the notification is not needed outside of the "
-"application window, and is immediately relevant. The button that allows the "
-"user to respond to the event, by pressing ."
+"of in-app notifications: the notification is shown immediately after a user "
+"action, and is shown in the most relevant context."
 msgstr ""
 "Att låta användaren ångra en destruktiv åtgärd är ett exempel på bra "
-"användning av aviseringar i program: aviseringen behövs inte utanför "
-"programfönstret, och är omedelbart relevant. Knappen som låter användaren "
-"svara på händelsen genom att trycka ."
+"användning av aviseringar i program: aviseringen visas omedelbart efter en "
+"användaråtgärd, och visas i det mest relevanta sammanhanget."
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:29
 msgid ""
 "In-app notifications are not a good solution for communicating ongoing "
-"states. <link xref=\"info-bars\">Info bars</link> offer one alternative you "
-"can consider."
+"states."
 msgstr ""
 "Aviseringar i program är inte en bra lösning för att kommunicera pågående "
-"tillstånd. <link xref=\"info-bars\">Inforader</link> erbjuder ett alternativ "
-"som du kan överväga."
+"tillstånd."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:37
@@ -4150,15 +3607,14 @@ msgstr ""
 "innehålla komponenter. Inforader är beständiga: de kan vara permanenta, "
 "eller så kan de avfärdas av användaren."
 
-# TODO: edited by others
 #. (itstool) path: section/p
 #: C/info-bars.page:25
 msgid ""
 "Info bars can be used to communicate a particular state about a particular "
 "content item or location. For example, an info bar could indicate that a "
-"document is out of date or being edited by other, or that a service relating "
-"to a location is not operating. In some situations, they can also be used to "
-"present supplementary information, such as user guidance."
+"document is out of date or being edited by others, or that a service "
+"relating to a location is not operating. In some situations, they can also "
+"be used to present supplementary information, such as user guidance."
 msgstr ""
 "Inforader kan användas för att kommunicera ett specifikt tillstånd om ett "
 "visst innehållsobjekt eller plats. Till exempel kan en inforad indikera att "
@@ -4180,7 +3636,7 @@ msgstr ""
 "\"notifications\">aviseringar</link> eller <link xref=\"in-app-notifications"
 "\">aviseringar i program</link> är lämpligare för det fallet)."
 
-# TODO: sidebar lists</link>)
+# TODO: sidebar lists</link>) ?
 #. (itstool) path: section/p
 #: C/info-bars.page:29
 msgid ""
@@ -4213,10 +3669,9 @@ msgstr ""
 "Akta dig för överanvändning av inforader: de bör bara förekomma i "
 "undantagsfall i ditt gränssnitt."
 
-# TODO: visible
 #. (itstool) path: item/p
 #: C/info-bars.page:38
-msgid "Only one info bar should be visable at any one time."
+msgid "Only one info bar should be visible at any one time."
 msgstr "Endast en inforad bör vara synlig vid ett givet tillfälle."
 
 #. (itstool) path: item/p
@@ -4400,10 +3855,9 @@ msgstr "Flyttar tangentbordsfokus till nästa/föregående grupp av komponenter"
 msgid "<keyseq><key>Ctrl</key><key>F1</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>F1</key></keyseq>"
 
-# TODO: remove double 'the'
 #. (itstool) path: td/p
 #: C/keyboard-input.page:73
-msgid "Shows a tooltip for the the currently-focused window or control"
+msgid "Shows a tooltip for the currently-focused window or control"
 msgstr ""
 "Visar ett verktygstips för det fönster eller den komponent som har fokus för "
 "närvarande"
@@ -7224,6 +6678,25 @@ msgstr ""
 "heller denna teknik för inställningar - använd kryssrutor eller radioknappar "
 "istället."
 
+#. (itstool) path: item/p
+#: C/menus.page:78 C/primary-menus.page:48 C/secondary-menus.page:47
+msgid ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
+"\">GtkMenuButton</link>"
+msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
+"\">GtkMenuButton</link>"
+
+#. (itstool) path: item/p
+#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:49
+#: C/secondary-menus.page:48
+msgid ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
+"\">GtkPopoverMenu</link>"
+msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
+"\">GtkPopoverMenu</link>"
+
 #. (itstool) path: info/desc
 #: C/notifications.page:8
 msgid "System-wide event notifications"
@@ -7659,10 +7132,10 @@ msgstr ""
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/patterns.svg' "
-"md5='f0189f11788efa1c344770abffa80a2e'"
+"md5='3702bfc5fa36705341014c7df1f4a5af'"
 msgstr ""
 "external ref='figures/patterns/patterns.svg' "
-"md5='f0189f11788efa1c344770abffa80a2e'"
+"md5='3702bfc5fa36705341014c7df1f4a5af'"
 
 #. (itstool) path: section/title
 #: C/patterns.page:24
@@ -8493,6 +7966,131 @@ msgstr ""
 "\">GtkPopover</link>"
 
 #. (itstool) path: info/desc
+#: C/primary-menus.page:8 C/secondary-menus.page:8
+msgid "The application's main menu, denoted by three stacked horizontal lines"
+msgstr ""
+"Programmets huvudmeny, markerad med en stapel med tre horisontella linjer"
+
+#. (itstool) path: page/title
+#: C/primary-menus.page:16
+msgid "Primary menus"
+msgstr "Primärmenyer"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/primary-menus.page:18
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/primary-menu.svg' "
+"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+msgstr ""
+"external ref='figures/patterns/primary-menu.svg' "
+"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+
+#. (itstool) path: page/p
+#: C/primary-menus.page:20
+msgid ""
+"Primary menus are a standard design pattern that is found in most "
+"applications. They are labelled with the menu icon (named <code>menu-open</"
+"code>) and contain the top-level menu items for the application. This can "
+"include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
+"<gui>About</gui>, as well as other application-specific items."
+msgstr ""
+"Primärmenyer är ett standardiserat designmönster som finns i de flesta "
+"program. De har menyikonen som etikett (vid namn <code>menu-open</code>) och "
+"innehåller toppnivåobjekt för programmets meny. Detta kan omfatta "
+"standardobjekt så som <gui>Inställningar</gui>, <gui>Hjälp</gui> och "
+"<gui>Om</gui> så väl som andra programspecifika objekt."
+
+#. (itstool) path: page/p
+#: C/primary-menus.page:22
+msgid ""
+"Primary menus are typically located on the right side of the header bar. "
+"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
+"link>, the primary menu should be placed above the sidebar list."
+msgstr ""
+"Primärmenyer finns typiskt på högra sidan av rubrikraden. När de används i "
+"kombination med en <link xref=\"sidebar-lists\">sidopanelslista</link>, bör "
+"primärmenyn placeras ovanför sidopanelslistan."
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:27
+msgid ""
+"Most applications have primary menus, since they are the standard location "
+"for <gui>About</gui>, which every application is expected to have."
+msgstr ""
+"De flesta program har primärmenyer, då de är standardplatsen för "
+"menyobjektet <gui>Om</gui>, vilket varje program förväntas ha."
+
+#. (itstool) path: section/title
+#: C/primary-menus.page:32 C/secondary-menus.page:32
+msgid "Guidance"
+msgstr "Råd"
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:35
+msgid ""
+"Primary menus can contain items for both the current window or view, as well "
+"as the application as a whole. This differentiates them from <link xref="
+"\"secondary-menus\">secondary menus</link>, which only contain menu items "
+"that relate to a specific view or item."
+msgstr ""
+"Primärmenyer kan innehålla objekt för både det aktuella fönstret och vyn, så "
+"väl som programmet i stort. Detta särskiljer dem från <link xref=\"secondary-"
+"menus\">sekundärmenyer</link>, vilka bara innehåller menyobjekt som "
+"relaterar till en specifik vy eller objekt."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:36
+msgid ""
+"Applications which use in-window navigation should only show the primary "
+"menu on the top-level view (typically the main view that is shown when the "
+"app is launched). Child views, such as those that show individual items of "
+"content, should use <link xref=\"secondary-menus\">secondary</link> rather "
+"than primary menus."
+msgstr ""
+"Program som använder navigering inom fönstret bör endast visa primärmenyn "
+"för toppnivåvyn (typiskt huvudvyn som visas när programmet startas). "
+"Underordnade vyer som visar individuella innehållsobjekt bör använda <link "
+"xref=\"secondary-menus\">sekundärmenyer</link> snarare än primärmenyer."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:37
+msgid ""
+"Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
+"deciding on primary menu content and arrangement."
+msgstr ""
+"Följ <link xref=\"menus\">standardriktlinjerna för menyer</link> när du "
+"bestämmer innehåll och ordning för primärmenyer."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:38
+msgid ""
+"A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
+"As such, a header bar menu can include a variety of controls, such as groups "
+"of buttons."
+msgstr ""
+"En primärmeny finns inuti i ett <link xref=\"popovers\">kontextfönster</"
+"link>. Som sådan kan en rubrikradsmeny inkludera en mängd olika komponenter "
+"så som grupper av knappar."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:39
+msgid ""
+"Primary menus shouldn’t include menu items for close or quit: windows can "
+"already be closed using the close button in the header bar, and it can be "
+"ambiguous as to what a close menu item refers to. Users don't readily "
+"differentiate between quit and close, and it can therefore be misleading."
+msgstr ""
+"Primärmenyer bör inte innehålla menyobjekt för att stänga eller avsluta. "
+"Fönster kan redan stängas från rubrikraden, och det kan vara tvetydigt vad "
+"ett menyobjekt för stängning hänvisar till. Användare kan ha svårt att hålla "
+"isär stäng och avsluta, och det kan därför vara missledande."
+
+#. (itstool) path: info/desc
 #: C/primary-windows.page:7
 msgid "The main window(s) for your application"
 msgstr "Huvudfönster för ditt program"
@@ -8528,8 +8126,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/primary-windows.page:24
 msgid ""
-"Every application should have at least one primary window associated with it."
-msgstr "Varje program bör ha minst ett primärt fönster associerat med sig."
+"Every application should show a primary window when its launcher is "
+"activated. This includes applications that mainly provide a background "
+"service."
+msgstr ""
+"Varje program bör visa ett primärt fönster då dess startare har aktiverats. "
+"Detta inkluderar program som främst tillhandahåller en bakgrundstjänst."
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:29
@@ -9240,13 +8842,12 @@ msgstr ""
 "En etikett kan visas intill väntesnurran om det hjälper för att förtydliga "
 "uppgiften som väntesnurran relaterar till."
 
-# sebras: or, or --> https://bugzilla.gnome.org/show_bug.cgi?id=776510
 #. (itstool) path: item/p
 #: C/progress-spinners.page:45
 msgid ""
 "If a spinner is displayed for a long time, a label can indicate both the "
 "identity of the task and progress through it. This can take the form of a "
-"percentage, an indication of the time remaining or, or progress through sub-"
+"percentage, an indication of the time remaining, or progress through sub-"
 "components of the task (eg. modules downloaded, or pages exported)."
 msgstr ""
 "Om en väntesnurra visas under en längre tid kan en etikett indikera både "
@@ -9366,7 +8967,7 @@ msgstr ""
 "som är inställd för några av objekten i markeringen och ej satt för andra, "
 "visa radioknappen i dess mixade tillstånd."
 
-# TODO: space after 'instead'
+# TODO: space after 'instead'?
 #. (itstool) path: item/p
 #: C/radio-buttons.page:46
 msgid ""
@@ -9609,6 +9210,105 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
 "\">GtkSearchEntry</link>"
 
+#. (itstool) path: page/title
+#: C/secondary-menus.page:16
+msgid "Secondary menus"
+msgstr "Sekundärmenyer"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/secondary-menus.page:18
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/secondary-menu.svg' "
+"md5='fe768e135e16ad22527cc97ecfd9a076'"
+msgstr ""
+"external ref='figures/patterns/secondary-menu.svg' "
+"md5='fe768e135e16ad22527cc97ecfd9a076'"
+
+#. (itstool) path: page/p
+#: C/secondary-menus.page:20
+msgid ""
+"Secondary menus are located in the header bar and include menu items for the "
+"current view or content item. This differentiates them from <link xref="
+"\"primary-menus\">primary menus</link>, which include menu items that relate "
+"to an entire application (such as <gui>Preferences</gui> and <gui>About</"
+"gui>)."
+msgstr ""
+"Sekundärmenyer återfinns i rubrikraden och innehåller menyobjekt för den "
+"aktuella vyn eller innehållsobjektet. Detta skiljer dem från en <link xref="
+"\"primary-menus\">primärmeny</link>, vilken innehåller menyobjekt som "
+"relaterar till hela programmet (så som <gui>Inställningar</gui> och <gui>Om</"
+"gui>)."
+
+#. (itstool) path: section/p
+#: C/secondary-menus.page:25
+msgid ""
+"Secondary menus can be used to host controls that relate to a particular "
+"content item which is being displayed in the application window (such as a "
+"document, contact, conversation or photo). They are typically used in "
+"combination with in-window navigation or <link xref=\"sidebar-lists"
+"\">sidebar lists</link>, since both these arrangements feature separate "
+"views or areas for content items to be shown."
+msgstr ""
+"Sekundärmenyer kan användas för att innehålla komponenter som hör ihop med "
+"ett specifikt innehållsobjekt som visas i programfönstret (så som ett "
+"dokument, en kontakt, en konversation eller ett foto). De används typiskt i "
+"kombination med navigering inom fönstret eller <link xref=\"sidebar-lists"
+"\">sidopanelslistor</link> då båda dessa arrangemang har stöd för separata "
+"vyer eller ytor som kan visa innehållsobjekt."
+
+#. (itstool) path: section/p
+#: C/secondary-menus.page:27
+msgid ""
+"Secondary menus are optional and only need to be used if there are enough "
+"controls to require a menu."
+msgstr ""
+"Sekundärmenyer är valfria och behöver endast användas om det finns "
+"tillräckligt med komponenter för att det ska finnas ett behov av en meny."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:35
+msgid ""
+"Secondary menus generally shouldn't reproduce menu items that are included "
+"in <link xref=\"primary-menus\">primary menus</link>, like <gui>Preferences</"
+"gui> and <gui>About</gui>. However, it can sometimes be useful to show "
+"<gui>Help</gui>."
+msgstr ""
+"Sekundärmenyer bör generellt inte ha kopior av menyobjekt som inkluderas i "
+"<link xref=\"primary-menus\">primärmenyer</link>, så som <gui>Inställningar</"
+"gui> och <gui>Om</gui>. Det kan dock ibland vara användbart att visa "
+"<gui>Hjälp</gui>."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:36
+msgid ""
+"The <link xref=\"menus\">standard guidelines for menus</link> can be "
+"followed when designing secondary menus."
+msgstr ""
+"<link xref=\"menus\">Standardriktlinjerna för menyer</link> kan följas när "
+"du designar sekundärmenyer."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:37
+msgid ""
+"A secondary menu is contained within a <link xref=\"popovers\">popover</"
+"link>. As such, a header bar menu can include a variety of controls, such as "
+"groups of buttons."
+msgstr ""
+"En sekundärmeny finns inuti ett <link xref=\"popovers\">kontextfönster</"
+"link>. Som sådan kan en rubrikradsmeny inkludera en mängd olika komponenter "
+"så som grupper av knappar."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:38
+msgid "Secondary menus shouldn’t include menu items for close or quit."
+msgstr ""
+"Sekundärmenyer bör inte innehålla menyobjekt för att stänga eller avsluta."
+
 #. (itstool) path: info/desc
 #: C/selection-mode.page:7
 msgid "Pattern for selecting content items"
@@ -9769,10 +9469,10 @@ msgstr "Sidopanelslistor"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/sidebar-list.svg' "
-"md5='a90375efbfc9915765fd1c224821f506'"
+"md5='5efb0b438e622f93a9f420f161fefc58'"
 msgstr ""
 "external ref='figures/patterns/sidebar-list.svg' "
-"md5='a90375efbfc9915765fd1c224821f506'"
+"md5='5efb0b438e622f93a9f420f161fefc58'"
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:19
@@ -10039,7 +9739,7 @@ msgstr ""
 "\">snabbtangent</link> i etiketten som låter användaren ge skjutreglaget "
 "fokus direkt."
 
-# TODO: var är Figur 6-7?
+# TODO: where is Figure 6-7?
 #. (itstool) path: item/p
 #: C/sliders.page:62
 msgid ""
@@ -10729,7 +10429,7 @@ msgid "Toolbars"
 msgstr "Verktygsfält"
 
 #. (itstool) path: page/p
-#: C/toolbars.page:32
+#: C/toolbars.page:31
 msgid ""
 "A toolbar is a strip of controls that allows convenient access to commonly-"
 "used functions. Most toolbars only contain graphical buttons, but in more "
@@ -10746,7 +10446,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/toolbars.page:34
+#: C/toolbars.page:33
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/toolbar.svg' "
@@ -10756,7 +10456,7 @@ msgstr ""
 "md5='381167837829a44d064aedec78b58b95'"
 
 #. (itstool) path: section/p
-#: C/toolbars.page:39
+#: C/toolbars.page:38
 msgid ""
 "Use a toolbar to provide access to common actions, tools or options in "
 "primary windows. <link xref=\"header-bars\">Header bars</link> also perform "
@@ -10769,7 +10469,7 @@ msgstr ""
 "krävs som regel inte om du använder rubrikrader."
 
 #. (itstool) path: section/p
-#: C/toolbars.page:41
+#: C/toolbars.page:40
 msgid ""
 "While toolbars are a common approach, there are cases where they are not the "
 "most effective. Interfaces that focus on direct manipulation, or which make "
@@ -10786,7 +10486,7 @@ msgstr ""
 "säkra i att söka mer originella designlösningar."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:49
+#: C/toolbars.page:48
 msgid ""
 "Only include controls for the most important functions. Having too many "
 "toolbar controls reduces their efficiency by making them harder to find, and "
@@ -10799,7 +10499,7 @@ msgstr ""
 "tillgängliga skärmutrymmet för resten av programmet."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:50
+#: C/toolbars.page:49
 msgid ""
 "Utilize conventions for toolbars to increase familiarity. For example, the "
 "main toolbar in an office application will nearly always have new, open and "
@@ -10813,7 +10513,7 @@ msgstr ""
 "framåt."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:51
+#: C/toolbars.page:50
 msgid ""
 "Place only the most commonly-used application functions on your toolbars. "
 "Don’t just add buttons for every menu item."
@@ -10821,13 +10521,12 @@ msgstr ""
 "Placera endast de mest använda programfunktionerna i dina verktygsfält. Lägg "
 "inte bara till knappar för varje menyobjekt."
 
-# TODO: on *your* toolbar
 #. (itstool) path: item/p
-#: C/toolbars.page:52
+#: C/toolbars.page:51
 msgid ""
 "If you are using a <link xref=\"menu-bars\">menu bar</link>, ensure that it "
-"includes all the functions that appear on you toolbar, either directly (i.e. "
-"an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
+"includes all the functions that appear on your toolbar, either directly (i."
+"e. an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
 "gui><gui>Settings</gui></guiseq> dialog)."
 msgstr ""
 "Om du använder en <link xref=\"menu-bars\">menyrad</link>, säkerställ att "
@@ -10836,7 +10535,7 @@ msgstr ""
 "dialogrutan <guiseq><gui>Alternativ</gui><gui>Inställningar</gui></guiseq>)."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:53
+#: C/toolbars.page:52
 msgid ""
 "Toolbars shouldn’t include buttons for <gui>Help</gui>, <gui>Close</gui> or "
 "<gui>Quit</gui>, as these are rarely used and the space is better used for "
@@ -10853,7 +10552,7 @@ msgstr ""
 "att göra detta utan att ge upp mer användbara, programspecifika komponenter."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:54
+#: C/toolbars.page:53
 msgid ""
 "Toolbar <link xref=\"buttons\">buttons</link> should have a relief, and icon "
 "buttons should use <link xref=\"icons-and-artwork#color-vs-symbolic"
@@ -10864,7 +10563,7 @@ msgstr ""
 "\">symboliska ikoner</link>."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:63
+#: C/toolbars.page:62
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html"
 "\">GtkToolbar</link>"
@@ -11295,20 +10994,29 @@ msgstr "Visuell layout"
 #: C/visual-layout.page:28
 msgid ""
 "The visual layout of controls, information and content affects how easy it "
-"is to understand your application, as well as how beautiful it is. It is "
-"important to recognise that visual design has a strong impact on how much "
-"work is involved in using an application - poor layout results in users "
-"having to put in additional effort, while good layout requires less effort."
+"is to understand your application. As part of this, it is important to "
+"recognise that visual design has a strong impact on how much work is "
+"involved in using an application - poor layout results in users having to "
+"put in additional effort, while good layout requires less effort."
 msgstr ""
 "Den visuella layouten av komponenter, information och innehåll påverkar hur "
-"lätt det är att förstå ditt program, samt hur vackert det är. Det är viktigt "
-"att inse att den visuella designen har en stor påverkan på hur mycket arbete "
-"som krävs för att arbeta med programmet - dålig layout resulterar i att "
+"lätt det är att förstå ditt program. Som en del av detta är det viktigt att "
+"inse att den visuella designen har en stor påverkan på hur mycket arbete som "
+"krävs för att arbeta med programmet - dålig layout resulterar i att "
 "användare måste anstränga sig mer medan bra layout kräver mindre "
 "ansträngning."
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:30
+msgid ""
+"Good visual layout also obviously makes applications more attractive and "
+"visually pleasing."
+msgstr ""
+"En bra visuell layout gör förstås även program vackrare och mer behagliga "
+"att se på."
+
+#. (itstool) path: page/p
+#: C/visual-layout.page:32
 msgid ""
 "Following these visual layout guidelines will help you to produce an "
 "application that is beautiful, easy to understand, and efficient to use."
@@ -11318,7 +11026,7 @@ msgstr ""
 
 # sebras: minimize what? number of controls? lines? so I should just mix up the controls in the window?! hm..
 #. (itstool) path: item/p
-#: C/visual-layout.page:36
+#: C/visual-layout.page:38
 msgid ""
 "An alignment point is an imaginary vertical or horizontal line through your "
 "window that touches the edge of one or more labels or controls in the "
@@ -11334,7 +11042,7 @@ msgstr ""
 
 # sebras: ögna?
 #. (itstool) path: item/p
-#: C/visual-layout.page:37
+#: C/visual-layout.page:39
 msgid ""
 "Align content and controls in your layout exactly. The eye is very sensitive "
 "to aligned and unaligned objects. If visual elements do not line up, it will "
@@ -11348,12 +11056,12 @@ msgstr ""
 "distraherande."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:38
+#: C/visual-layout.page:40
 msgid "Be consistent. Use the same amounts of spacing throughout."
 msgstr "Var konsekvent. Använd samma mellanrum överallt."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:39
+#: C/visual-layout.page:41
 msgid ""
 "Organize related controls and information into groups, and use spacing to "
 "differentiate them. This makes an interface far easier to read and "
@@ -11365,7 +11073,7 @@ msgstr ""
 
 # sebras: formuleringshjälp!
 #. (itstool) path: item/p
-#: C/visual-layout.page:41
+#: C/visual-layout.page:43
 msgid ""
 "As a rule of thumb, leave space between elements in increments of 6 pixels, "
 "going up as the relationship between related elements becomes more distant."
@@ -11375,14 +11083,14 @@ msgstr ""
 "mindre viktig."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:42
+#: C/visual-layout.page:44
 msgid "Between labels and associated components, leave 12 horizontal pixels."
 msgstr ""
 "Mellan etiketter och associerade komponenter, lämna 12 horisontella "
 "bildpunkter."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:43
+#: C/visual-layout.page:45
 msgid ""
 "For vertical spacing between groups of components, 18 pixels is adequate."
 msgstr ""
@@ -11390,7 +11098,7 @@ msgstr ""
 "lämpligt."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:44
+#: C/visual-layout.page:46
 msgid ""
 "A general padding of 18 pixels is recommended between the contents of a "
 "dialog window and the window borders."
@@ -11399,12 +11107,12 @@ msgstr ""
 "dialogruta och fönsterkanterna."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:46
+#: C/visual-layout.page:48
 msgid "Indent elements by 12 pixels to denote hierarchy and association."
 msgstr "Indentera element 12 bildpunkter för att betona hierarki och relation."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:47
+#: C/visual-layout.page:49
 msgid ""
 "Avoid using frames with visible borders to separate groups of controls - use "
 "spacing and headers instead."
@@ -11413,7 +11121,7 @@ msgstr ""
 "komponenter - använd mellanrum och rubriker istället."
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:50
+#: C/visual-layout.page:52
 msgid "Incorrect spacing and alignment:"
 msgstr "Felaktigt mellanrum och justering:"
 
@@ -11422,7 +11130,7 @@ msgstr "Felaktigt mellanrum och justering:"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:51
+#: C/visual-layout.page:53
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-incorrect.svg' "
@@ -11432,7 +11140,7 @@ msgstr ""
 "md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:53
+#: C/visual-layout.page:55
 msgid "Correct spacing and alignment:"
 msgstr "Korrekt mellanrum och justering:"
 
@@ -11441,7 +11149,7 @@ msgstr "Korrekt mellanrum och justering:"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:54
+#: C/visual-layout.page:56
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-correct.svg' "
@@ -11451,7 +11159,7 @@ msgstr ""
 "md5='c918add24fa74f4eda5cde1c0ec61163'"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:56
+#: C/visual-layout.page:58
 msgid "Correct spacing, with units (pixels):"
 msgstr "Korrekt mellanrum, med enheter (pixlar):"
 
@@ -11460,7 +11168,7 @@ msgstr "Korrekt mellanrum, med enheter (pixlar):"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:57
+#: C/visual-layout.page:59
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-spacing.svg' "
@@ -11470,12 +11178,12 @@ msgstr ""
 "md5='66643d65d5c1359f986331ee691410d6'"
 
 #. (itstool) path: section/title
-#: C/visual-layout.page:62
+#: C/visual-layout.page:64
 msgid "Label alignment"
 msgstr "Etikettsjustering"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:64
+#: C/visual-layout.page:66
 msgid ""
 "If possible, right-justify labels (see the diagram below). This will avoid "
 "large gaps between labels and their associated controls. This type of right-"
@@ -11492,7 +11200,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:66
+#: C/visual-layout.page:68
 msgctxt "_"
 msgid ""
 "external ref='figures/label-alignment.svg' "
@@ -11502,12 +11210,12 @@ msgstr ""
 "md5='a55236576c454a29127913bf6fc6335e'"
 
 #. (itstool) path: section/title
-#: C/visual-layout.page:71
+#: C/visual-layout.page:73
 msgid "Visual hierarchy"
 msgstr "Visuell hierarki"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:73
+#: C/visual-layout.page:75
 msgid ""
 "Organize visual elements from top-to-bottom and left-to-right. This is the "
 "direction that people from western locales tend to read an interface, so "
@@ -11647,7 +11355,7 @@ msgstr ""
 #: C/writing-style.page:54
 msgid ""
 "Latin abbreviations such as “ie” or “eg” should be avoided, since they can't "
-"always be easily translated and can be unintelligable when read by screen "
+"always be easily translated and can be unintelligible when read by screen "
 "readers. Instead, use full words like “for example”."
 msgstr ""
 "Latinska förkortningar så som ”ie” eller ”eg” bör undvikas då de inte alltid "
@@ -11787,3 +11495,572 @@ msgstr ""
 "<gui>Preferences</gui>. Även om dessa kommandon öppnar fönster som kan "
 "innehålla vidare funktionalitet så anger etiketten inte en åtgärd och "
 "behöver därför inte kommunicera att vidare inmatning eller bekräftelse krävs."
+
+#~ msgid ""
+#~ "Icons play an important role in user interfaces: selecting the correct "
+#~ "icon is therefore vital to making sure that your application is usable. "
+#~ "An identifying icon is also an essential part of any application, and is "
+#~ "a crucial part of its identity."
+#~ msgstr ""
+#~ "Ikoner spelar en viktig roll i användargränssnitt: att välja den korrekta "
+#~ "ikonen är därför viktigt för att säkerställa att ditt program är "
+#~ "användbart. En identifierande ikon är också en väsentlig del av varje "
+#~ "program och är en avgörande del av dess identitet."
+
+#~ msgid ""
+#~ "There are many situations when it is necessary to decide between using an "
+#~ "icon and a text label, particularly for buttons. Icons have the advantage "
+#~ "of being smaller, and not requiring translation. At the same time, the "
+#~ "incorrect use of an icon can make your interface hard - or even "
+#~ "impossible - to understand."
+#~ msgstr ""
+#~ "Det finns många situationer när det är nödvändigt att välja mellan att "
+#~ "använda en ikon och en textetikett, speciellt för knappar. Ikoner har "
+#~ "fördelen att de är mindre och inte behöver översättas. Samtidigt kan "
+#~ "felaktig användning av en ikon göra ditt gränssnitt svårt - eller till "
+#~ "och med omöjligt - att förstå."
+
+#~ msgid ""
+#~ "Only use icons whose meaning is commonly recognized. If a commonly "
+#~ "recognized icon is not available, it might be better to use a text label "
+#~ "instead."
+#~ msgstr ""
+#~ "Använd endast ikoner vars mening vanligtvis känns igen. Om en allmänt "
+#~ "igenkänd ikon inte finns tillgänglig, kan det vara bättre att använda en "
+#~ "textetikett istället."
+
+#~ msgid ""
+#~ "Convention establishes which icons will be recognized. If you are in "
+#~ "doubt, stick to icons which are frequently used in other applications."
+#~ msgstr ""
+#~ "Konventioner fastställer vilka ikoner som kommer att kännas igen. Om du "
+#~ "tvekar, håll dig till ikoner som ofta används i andra program."
+
+#~ msgid "Choosing stock GNOME icons"
+#~ msgstr "Att välja standardikoner från GNOME"
+
+#~ msgid ""
+#~ "GNOME provides a full set of standard icons. These should be used where "
+#~ "ever appropriate; try to avoid creating custom icons unless they are "
+#~ "absolutely necessary."
+#~ msgstr ""
+#~ "GNOME tillhandahåller en fullständig uppsättning standardikoner. Dessa "
+#~ "bör användas närhelst det är lämpligt; försök att undvika att skapa "
+#~ "anpassade ikoner om det inte är absolut nödvändigt."
+
+#~ msgid ""
+#~ "Follow the icon naming specification when selecting which icons to use - "
+#~ "the name of the icon should reflect what the icon is intended to "
+#~ "communicate. This is important for those using a screen reader."
+#~ msgstr ""
+#~ "Följ namngivningsspecifikationen för ikoner när du väljer vilka ikoner "
+#~ "som ska användas - namnet för ikonen bör reflektera vad ikonen avser att "
+#~ "kommunicera. Detta är viktigt för de som använder en skärmläsare."
+
+#~ msgid "You can use the GTK+ icon browser to find recommended icons."
+#~ msgstr ""
+#~ "Du kan använda GTK+-ikonbläddraren för att hitta rekommenderade ikoner."
+
+#~ msgid "Color vs. symbolic icons"
+#~ msgstr "Färgikoner eller symboliska ikoner"
+
+#~ msgid ""
+#~ "GNOME 3 provides two types of icons: full-color and monochrome symbolic "
+#~ "icons. The guidelines in this document indicate when to use which type of "
+#~ "icon. The following is a general guide."
+#~ msgstr ""
+#~ "GNOME 3 tillhandahåller två typer av ikoner: fullfärgsikoner och "
+#~ "monokroma, symboliska ikoner. Riktlinjerna i detta dokument indikerar när "
+#~ "vilken typ av ikon ska användas. Följande är en generell guide."
+
+#~ msgid "Full-color icons should be used for:"
+#~ msgstr "Fullfärgsikoner bör användas för:"
+
+#~ msgid "devices"
+#~ msgstr "enheter"
+
+#~ msgid "filetypes/mimetypes"
+#~ msgstr "filtyper/mimetyper"
+
+#~ msgid "application (launcher) icons"
+#~ msgstr "programikoner (startikoner)"
+
+#~ msgid ""
+#~ "All other icons should use the symbolic icon style. In addition, symbolic "
+#~ "icons should always be used inside:"
+#~ msgstr ""
+#~ "Alla andra typer av ikoner bör använda den symboliska stilen. Dessutom "
+#~ "bör symboliska ikoner alltid användas för:"
+
+#~ msgid "buttons"
+#~ msgstr "knappar"
+
+#~ msgid "lists"
+#~ msgstr "listor"
+
+#~ msgid "entry fields"
+#~ msgstr "inmatningsfält"
+
+#~ msgid ""
+#~ "when the background is semi-transparent (such as overlaid media or "
+#~ "fullscreen controls)"
+#~ msgstr ""
+#~ "när bakgrunden är halvgenomskinlig (så som vid överliggande media eller "
+#~ "helskärmskomponenter)"
+
+#~ msgid "Application icons"
+#~ msgstr "Programikoner"
+
+#~ msgid ""
+#~ "Because application icons are presented at larger sizes, legacy Tango "
+#~ "styled 48x48 px or SVG icons no longer suffice (lacking detail). It is "
+#~ "essential your application has a 256x256 px icon. With the advent of high-"
+#~ "DPI displays, a 512x512 px variant is recommended."
+#~ msgstr ""
+#~ "Då programikoner visas vid stora storlekar är föråldrade 48x48 "
+#~ "bildpunkters- eller SVG-ikoner i Tango-stil inte längre tillräckliga "
+#~ "(saknar detaljer). Det är väsentligt att ditt program har en ikon på "
+#~ "256x256 bildpunkter. Med tillkomsten av hög-DPI-skärmar rekommenderas en "
+#~ "variant på 512x512 bildpunkter."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/sizes.png' "
+#~ "md5='ffd25334db0c9751862cfb3b56e00b5e'"
+#~ msgstr ""
+#~ "external ref='figures/icons/sizes.png' "
+#~ "md5='ffd25334db0c9751862cfb3b56e00b5e'"
+
+#~ msgid ""
+#~ "While not as critical, there are still areas where application icons are "
+#~ "presented at a small size. To keep the icon sharp and well defined, a "
+#~ "specific rendering is required to sizes of 48x48 px, 32x32 px, 24x24 px "
+#~ "and 16x16 px. Many GNOME icons also ship a 22x22 px size for legacy "
+#~ "reasons, but that isn’t required."
+#~ msgstr ""
+#~ "Även om det inte är kritiskt finns det fortfarande områden där "
+#~ "programikoner presenteras i liten storlek. För att behålla ikonen skarp "
+#~ "och väldefinierad krävs specifika renderingar för storlekarna 48x48, "
+#~ "32x32, 24x24 och 16x16 bildpunkter. Många GNOME-ikoner tillhandahåller "
+#~ "även en ikon på 22x22 bildpunkter av bakåtkompatibilitetsskäl, men detta "
+#~ "krävs inte."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/sizes-small-24.png' "
+#~ "md5='73497b1da8a7dad694466f6f1f2f3dab'"
+#~ msgstr ""
+#~ "external ref='figures/icons/sizes-small-24.png' "
+#~ "md5='73497b1da8a7dad694466f6f1f2f3dab'"
+
+#~ msgid ""
+#~ "To maintain crispness, a lot of detail is discarded for the low "
+#~ "resolution variants and a 1px stroke is used to outline the silhouette of "
+#~ "the object."
+#~ msgstr ""
+#~ "För att bibehålla tydligheten, kastas många detaljer bort för varianterna "
+#~ "i lägre upplösningar och en strykning på 1 bildpunkt används för att "
+#~ "omgärda silhuetten för objektet."
+
+#~ msgid ""
+#~ "More information on designing an application icon can be found below, in "
+#~ "the custom full-color icon section."
+#~ msgstr ""
+#~ "Mer information om att designa en programikon hittas nedan i avsnittet om "
+#~ "anpassade fullfärgsikoner."
+
+#~ msgid "Custom symbolic icons"
+#~ msgstr "Anpassade symboliska ikoner"
+
+#~ msgid ""
+#~ "Symbolic icons have a simple form and are drawn within a 16x16 pixel "
+#~ "grid. They are then programmatically scaled and colored within the user "
+#~ "interface itself."
+#~ msgstr ""
+#~ "Symboliska ikoner har en enkelt form och ritas inom ett rutnät på 16x16 "
+#~ "bildpunkter. De skalas sedan programmatiskt och färgläggs inom "
+#~ "användargränssnittet självt."
+
+#~ msgid ""
+#~ "Identify a single property when looking for an appropriate metaphor for "
+#~ "an icon, and focus on what distinguishes the idea you want to "
+#~ "communicate. For example, when describing an action to be performed on an "
+#~ "image, it isn’t necessary to repeat the idea of an image in every icon. "
+#~ "Instead, focus on what is distinct about each action (for example: "
+#~ "rotate, tag, align)."
+#~ msgstr ""
+#~ "Identifiera en enstaka egenskap när du letar efter en lämplig metafor för "
+#~ "en ikon och fokusera på vad som utmärker idén du vill kommunicera. När du "
+#~ "till exempel beskriver en åtgärd som ska utföras på en bild är det inte "
+#~ "nödvändigt att repetera idén om en bild i varje ikon. Fokusera istället "
+#~ "på vad som är distinkt för varje åtgärd (till exempel: rotera, tagga, "
+#~ "justera)."
+
+#~ msgid ""
+#~ "Avoid using any perspective in symbolic icons, stick to a simple "
+#~ "orthogonal view."
+#~ msgstr ""
+#~ "Undvika att använda perspektiv i symboliska ikoner, håll dig till en "
+#~ "enkel ortogonal vy."
+
+#~ msgid ""
+#~ "Filled shapes are generally faster to process by the human visual system "
+#~ "than wireframe outlines."
+#~ msgstr ""
+#~ "Ifyllda former behandlas generellt snabbare än trådmodellskonturer av "
+#~ "människans synsystem."
+
+#~ msgid ""
+#~ "Symbolic icons are recolored at runtime to match the context, very much "
+#~ "like a piece of text. While there are ways to “shade” parts of an icon by "
+#~ "using opacity or creating duotone/pattern dithering, try avoiding these "
+#~ "as much as possible."
+#~ msgstr ""
+#~ "Symboliska ikoner ändrar färg i exekveringstid för att matcha "
+#~ "sammanhanget, på samma sätt som ett stycke text. Även om det finns sätt "
+#~ "att ”skugga” delar av en ikon genom att använda genomskinlighet eller att "
+#~ "skapa tvåfärgs-/mönsterutmjukning så bör du försöka att undvika dessa så "
+#~ "långt som möjligt."
+
+#~ msgid ""
+#~ "When a metaphor relies on the negative space, make sure it will work with "
+#~ "the colors inverted. For example a camera lens spec/highlight will only "
+#~ "work if lighter than the lens itself."
+#~ msgstr ""
+#~ "När en metafor bygger på det negativa utrymmet, säkerställ att det även "
+#~ "kommer att fungera med inverterade färger. Till exempel kommer en "
+#~ "kameralinsreflex endast att fungera om den är ljusare än linsen i sig."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/inverting.svg' "
+#~ "md5='e4155d9e87e2abe95e70c42185686b5e'"
+#~ msgstr ""
+#~ "external ref='figures/icons/inverting.svg' "
+#~ "md5='e4155d9e87e2abe95e70c42185686b5e'"
+
+#~ msgid "Size and grid"
+#~ msgstr "Storlek och rutnät"
+
+#~ msgid ""
+#~ "While the icons are scalable and should work in any size, the basic "
+#~ "canvas size is 16x16 grid units. You have the whole canvas to fill, but "
+#~ "note that a filled rectangular object will appear stronger/larger when "
+#~ "placed next to items that only use thinner strokes. Try to keep the "
+#~ "contrast of your whole set."
+#~ msgstr ""
+#~ "Även om ikonerna är skalbara och bör fungera i vilken storlek som helst "
+#~ "är den grundläggande dukstorleken 16x16 rutnätsenheter. Du har hela duken "
+#~ "att fylla, men notera att ett fyllt rektangulärt objekt kommer att "
+#~ "uppfattas som starkare/större när det placeras intill objekt som endast "
+#~ "använder tunnare drag. Försök att behålla kontrasten i hela uppsättningen."
+
+#~ msgid "Custom full-color icons"
+#~ msgstr "Anpassade fullfärgsikoner"
+
+#~ msgid ""
+#~ "Full-color icons are drawn and rendered at a variety of preset sizes."
+#~ msgstr ""
+#~ "Fullfärgsikoner ritas och renderas vid ett antal fördefinierade storlekar."
+
+#~ msgid "Perspective"
+#~ msgstr "Perspektiv"
+
+#~ msgid ""
+#~ "Most icons can be executed best by using the “on the table” perspective, "
+#~ "as if the observer was standing in front of the object and looking "
+#~ "slightly down on it. Many icons can be rendered with a simple “straight "
+#~ "on” or “on the shelf” perspective, with the observer looking directly at "
+#~ "the object at eye level."
+#~ msgstr ""
+#~ "De flera ikoner ser bäst ut genom att använda ”på bordet”-perspektivet, "
+#~ "som om observatören stod framför objektet och tittar lite ner på det. "
+#~ "Många ikoner kan renderas med ett enkelt ”rakt på”- eller ”på hyllan”-"
+#~ "perspektiv, med observatören tittandes direkt på objektet i ögonnivå."
+
+#~ msgid "Palette"
+#~ msgstr "Palett"
+
+#~ msgid ""
+#~ "Use the Tango color palette when designing full color application or "
+#~ "device icons."
+#~ msgstr ""
+#~ "Använd Tangos färgpalett när du designar fullfärgsprogram- eller "
+#~ "enhetsikoner."
+
+#~ msgid "Butter"
+#~ msgstr "Smör"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/butter.svg' "
+#~ "md5='c34eb57364c0aff827f1efd6d0f8d95a'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/butter.svg' "
+#~ "md5='c34eb57364c0aff827f1efd6d0f8d95a'"
+
+#~ msgid "Plum"
+#~ msgstr "Plommon"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/plum.svg' "
+#~ "md5='1b31561d4d572eed6d60745d168ae182'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/plum.svg' "
+#~ "md5='1b31561d4d572eed6d60745d168ae182'"
+
+#~ msgid "Orange"
+#~ msgstr "Orange"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/orange.svg' "
+#~ "md5='ceb8453eb65ca31f156fc24f94e191fe'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/orange.svg' "
+#~ "md5='ceb8453eb65ca31f156fc24f94e191fe'"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "Scharlakansröd"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/scarlet-red.svg' "
+#~ "md5='eb353db730661f5e54f6cfdcc5de785c'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/scarlet-red.svg' "
+#~ "md5='eb353db730661f5e54f6cfdcc5de785c'"
+
+#~ msgid "Chocolate"
+#~ msgstr "Choklad"
+
+#~ msgid "Aluminium"
+#~ msgstr "Aluminium"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/aluminium1.svg' "
+#~ "md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/aluminium1.svg' "
+#~ "md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
+
+#~ msgid "Chameleon"
+#~ msgstr "Kameleont"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/chameleon.svg' "
+#~ "md5='8dcdfa1116600d8596c376d02facc673'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/chameleon.svg' "
+#~ "md5='8dcdfa1116600d8596c376d02facc673'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/aluminium2.svg' "
+#~ "md5='33fe9857e05581ab5fba7a5eb924dc9c'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/aluminium2.svg' "
+#~ "md5='33fe9857e05581ab5fba7a5eb924dc9c'"
+
+#~ msgid "Sky Blue"
+#~ msgstr "Himmelsblå"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/sky-blue.svg' "
+#~ "md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/sky-blue.svg' "
+#~ "md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
+
+#~ msgid ""
+#~ "You are free to use different shades of these colors depending on the "
+#~ "desired material effect. However, these primary colors are a good "
+#~ "baseline to start from. All major libre graphics packages come with the "
+#~ "Tango palette pre-installed."
+#~ msgstr ""
+#~ "Du får lov att använda olika nyanser av dessa färger beroende på den "
+#~ "önskade materialeffekten. Men dessa färger är en god baslinje att utgå "
+#~ "från. Alla större fria grafikpaket kommer med Tango-paletten "
+#~ "förinstallerad."
+
+#~ msgid "See also"
+#~ msgstr "Se även"
+
+#~ msgid ""
+#~ "<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+#~ "\">Tango Icon Guidelines</link>"
+#~ msgstr ""
+#~ "<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+#~ "\">Tangos ikonriktlinjer</link>"
+
+#~ msgid ""
+#~ "A menu that is located at the right side of a <link xref=\"header-bars"
+#~ "\">header bar</link>, which contains the top-level menu items for an "
+#~ "application, including Preferences, Help and About, as well as menu items "
+#~ "for functionality that doesn't fit into the rest of the view. The button "
+#~ "which activates the menu has the menu-open icon, which is made up of "
+#~ "three stacked horizontal lines."
+#~ msgstr ""
+#~ "En meny som är placerad på den högra sidan av en <link xref=\"header-bars"
+#~ "\">rubrikrad</link>, vilken innehåller toppnivåmenyobjekten för ett "
+#~ "program, innefattande Inställningar, Hjälp och Om, så väl som menyobjekt "
+#~ "för funktionalitet som inte passar in i resten av vyn. Knappen som "
+#~ "aktiverar menyn har ikonen ”Öppna meny”, vilken består av en stapel med "
+#~ "tre horisontella linjer."
+
+#~ msgid ""
+#~ "When used in combination with a sidebar list, a primary menu is placed on "
+#~ "the right above the list."
+#~ msgstr ""
+#~ "Då den används tillsammans med en sidopanelslista placeras en primär meny "
+#~ "till höger ovanför listan."
+
+#~ msgid ""
+#~ "<_:info-1/> <_:title-2/> <_:media-3/> <_:p-4/>. <_:p-5/> <_:section-6/> "
+#~ "<_:section-7/> <_:section-8/>"
+#~ msgstr ""
+#~ "<_:info-1/> <_:title-2/> <_:media-3/> <_:p-4/>. <_:p-5/> <_:section-6/> "
+#~ "<_:section-7/> <_:section-8/>"
+
+#~ msgid ""
+#~ "These Human Interface Guidelines are intended to help with the creation "
+#~ "of applications. An understanding of what an application is will help you "
+#~ "to distribute your software more effectively, as well as ensure effective "
+#~ "and consistent system integration."
+#~ msgstr ""
+#~ "Dessa riktlinjer för mänskliga gränssnitt är avsedda att hjälpa till vid "
+#~ "skapandet av program. En förståelse för vad ett program är kommer att "
+#~ "hjälpa dig att distribuera din programvara effektivare så väl som att "
+#~ "säkerställa effektiv och konsekvent systemintegration."
+
+#~ msgid ""
+#~ "An application is a distinct and independent piece of software that "
+#~ "incorporates useful functionality, and which can be installed on a user’s "
+#~ "system."
+#~ msgstr ""
+#~ "Ett program är en distinkt oberoende programvara som har användbar "
+#~ "funktionalitet och kan installeras på en användares system."
+
+#~ msgid ""
+#~ "This definition can be broken down into a set of characteristics, which "
+#~ "describe an application in more detail. Applications:"
+#~ msgstr ""
+#~ "Denna definition kan brytas ned till en uppsättning egenskaper som "
+#~ "beskriver ett program mer detaljerat. Program:"
+
+#~ msgid "Contain functionality of their own."
+#~ msgstr "Innehåller egen funktionalitet."
+
+#~ msgid ""
+#~ "At the heart of this definition is a model that allows the modular "
+#~ "installation and use of 3rd party software, in a way that avoids "
+#~ "dependency issues and ensures simplicity of use."
+#~ msgstr ""
+#~ "Kärnan i denna definition är en modell som tillåter modulär installation "
+#~ "och användning av tredjepartsprogramvara, på ett sätt som undviker "
+#~ "beroendeproblem och säkerställer enkel användning."
+
+#~ msgid ""
+#~ "In GNOME 3, only software that conforms to these characteristics should "
+#~ "install an application launcher."
+#~ msgstr ""
+#~ "I GNOME 3 ska endast program som uppfyller dessa egenskaper installera en "
+#~ "programstartare."
+
+#~ msgid ""
+#~ "The HIG provides cross-platform for those design patterns and UI elements "
+#~ "that require special treatment in cross-platform cases. Otherwise, all "
+#~ "the design patterns provided in these guidelines can be used in a cross-"
+#~ "platform manner."
+#~ msgstr ""
+#~ "Riktlinjerna för mänskliga gränssnitt tillhandahåller stöd för flera "
+#~ "plattformar för de designmönster och användargränssnittselement som "
+#~ "kräver speciell behandling för olika plattformar. I annat fall kan alla "
+#~ "designmönster som tillhandahålls i dessa riktlinjer användas oberoende av "
+#~ "plattform."
+
+#~ msgid ""
+#~ "Since some platforms provide system-level integration for <link xref="
+#~ "\"menu-bars\">menu bars</link>, this pattern is of special relevance for "
+#~ "cross-platform applications."
+#~ msgstr ""
+#~ "Då vissa plattformar tillhandahåller integration för <link xref=\"menu-"
+#~ "bars\">menyrader</link> på systemnivå så är detta mönster av särskilt "
+#~ "vikt för program som kan köras på flera plattformar."
+
+#~ msgid "Common menus shown on the right side of a header bar"
+#~ msgstr "Vanliga menyer som visas på högra sidan av en rubrikrad"
+
+#~ msgid "Header bar menus"
+#~ msgstr "Rubrikradsmenyer"
+
+#~ msgid ""
+#~ "<link xref=\"header-bars\">Header bars</link> can include a menu which "
+#~ "contains actions and options for the current view. These menus are "
+#~ "located at the far right side of the header bar."
+#~ msgstr ""
+#~ "<link xref=\"header-bars\">Rubrikrader</link> kan inkludera en meny som "
+#~ "innehåller åtgärder och alternativ för den aktuella vyn. Dessa menyer "
+#~ "placeras längst till höger i rubrikraden."
+
+#~ msgid ""
+#~ "While the most frequently used actions for a view should be placed "
+#~ "directly in the header bar, a header bar menu provides access to lesser-"
+#~ "used actions. This ensures that the header bar isn’t overwhelmed with "
+#~ "less interesting or useful controls."
+#~ msgstr ""
+#~ "Medan de mest frekvent använda åtgärderna för en vy bör placeras direkt i "
+#~ "rubrikraden, tillhandahåller en rubrikrad åtkomst till mindre använda "
+#~ "åtgärder. Detta säkerställer att rubrikraden inte överhopas med mindre "
+#~ "intressanta eller användbara komponenter."
+
+#~ msgid ""
+#~ "In this way, the header bar menus help to create focused views that guide "
+#~ "the user towards the most interesting and useful functionality."
+#~ msgstr ""
+#~ "På detta sätt hjälper rubrikradsmenyer till att skapa fokuserade vyer som "
+#~ "guidar användaren till de mest intressanta och användbara funktionerna."
+
+#~ msgid ""
+#~ "Use a header bar menu to present additional actions or options for the "
+#~ "current view. They are best used when those actions or options are not "
+#~ "used the majority of the time - if there is a set of actions which "
+#~ "deserve more prominence in the view, an <link xref=\"action-bars\">action "
+#~ "bar</link> might be a better choice."
+#~ msgstr ""
+#~ "Använd en rubrikradsmeny för att presentera ytterligare åtgärder eller "
+#~ "alternativ för den aktuella vyn. De används bäst när dessa åtgärder eller "
+#~ "alternativ inte används huvuddelen av tiden - om det finns en uppsättning "
+#~ "åtgärder som förtjänar bättre synlighet i vyn kan en <link xref=\"action-"
+#~ "bars\">åtgärdsrad</link> vara ett bättre alternativ."
+
+#~ msgid ""
+#~ "Header bar menus are not a good choice for performing actions on selected "
+#~ "content: when content hasn’t been selected, the menu will contain "
+#~ "unhelpful insensitive menu items, and when content has been selected, "
+#~ "possible actions will not be advertised. <link xref=\"selection-mode"
+#~ "\">Selection mode</link> or <link xref=\"popovers\">popovers</link> are a "
+#~ "better choice for this situation."
+#~ msgstr ""
+#~ "Rubrikrader är inte ett bra val för att utföra åtgärder på markerat "
+#~ "innehåll: när innehåll inte har valts, kommer menyn att innehålla "
+#~ "menyobjekt som är okänsliga, och när innehåll har markerats kommer "
+#~ "möjliga åtgärder inte att utannonseras. <link xref=\"selection-mode"
+#~ "\">Markeringsläge</link> eller <link xref=\"popovers\">kontextfönster</"
+#~ "link> är bättre val i dessa situationer."
+
+#~ msgid ""
+#~ "Header bar menus should only contain actions for the current view or "
+#~ "window - this differentiates their content from application menus."
+#~ msgstr ""
+#~ "Rubrikradsmenyer bör endast innehålla åtgärder för den aktuella vyn eller "
+#~ "fönstret - detta skiljer deras innehåll från programmenyer."
+
+#~ msgid ""
+#~ "Every application should have at least one primary window associated with "
+#~ "it."
+#~ msgstr "Varje program bör ha minst ett primärt fönster associerat med sig."
