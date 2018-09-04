@@ -1,16 +1,15 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-#
-# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs\n"
-"POT-Creation-Date: 2017-12-04 19:32+0000\n"
-"PO-Revision-Date: 2017-08-06 10:15+0200\n"
+"POT-Creation-Date: 2018-07-07 08:43+0000\n"
+"PO-Revision-Date: 2018-09-03 17:54+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1041,7 +1040,7 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/02_welcome_to_the_grid.js.page:255 C/03_getting_the_signal.js.page:336
-#: C/hellognome.js.page:187
+#: C/hellognome.js.page:191
 msgid "What's next?"
 msgstr "A co dál?"
 
@@ -1113,7 +1112,7 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/02_welcome_to_the_grid.js.page:274 C/checkbutton.js.page:130
-#: C/comboboxtext.js.page:171 C/combobox.js.page:228 C/hellognome.js.page:194
+#: C/comboboxtext.js.page:171 C/combobox.js.page:228 C/hellognome.js.page:198
 #: C/messagedialog.js.page:184 C/radiobutton.js.page:269 C/scale.js.page:203
 #: C/spinbutton.js.page:194 C/statusbar.js.page:216 C/switch.js.page:259
 #: C/textview.js.page:243 C/togglebutton.js.page:148
@@ -1483,11 +1482,10 @@ msgid ""
 "signal instead."
 msgstr ""
 "Podívejte se na část, která používá metodu <code>connect</code> naší "
-"aplikace a <code>bind</code> k připojení jejích signálů <code>\"activate"
-"\"</code> a <code>\"startup\"</code> na funkce, které představují okno a "
-"sestaví uživatelské rozhraní. To stejné se chystáme udělat s naším "
-"tlačítkem, až jej budeme mít, akorát napojovaný signál bude tentokrát <code>"
-"\"clicked\"</code>."
+"aplikace a <code>bind</code> k připojení jejích signálů <code>\"activate\"</"
+"code> a <code>\"startup\"</code> na funkce, které představují okno a sestaví "
+"uživatelské rozhraní. To stejné se chystáme udělat s naším tlačítkem, až jej "
+"budeme mít, akorát napojovaný signál bude tentokrát <code>\"clicked\"</code>."
 
 #. (itstool) path: section/title
 #: C/03_getting_the_signal.js.page:75
@@ -19614,6 +19612,7 @@ msgid ""
 "&lt;!DOCTYPE html&gt;\n"
 "&lt;html&gt;\n"
 "    &lt;head&gt;\n"
+"        &lt;meta charset=\"utf-8\"&gt;\n"
 "        &lt;title&gt;Hello, GNOME!&lt;/title&gt;\n"
 "\n"
 "        &lt;!-- Use JavaScript to show a greeting when someone clicks the button --&gt;\n"
@@ -19644,6 +19643,7 @@ msgstr ""
 "&lt;!DOCTYPE html&gt;\n"
 "&lt;html&gt;\n"
 "    &lt;head&gt;\n"
+"        &lt;meta charset=\"utf-8\"&gt;\n"
 "        &lt;title&gt;Hello, GNOME!&lt;/title&gt;\n"
 "\n"
 "        &lt;!-- Použije JavaScript k zobrazení uvítání, když se klikne na tlačítko --&gt;\n"
@@ -19671,7 +19671,7 @@ msgstr ""
 "&lt;/html&gt;\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:63
+#: C/hellognome.js.page:64
 msgid ""
 "Let's save this as <file>hellognome.html</file>, and see what it looks like "
 "when we run it!"
@@ -19684,7 +19684,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/hellognome.js.page:65
+#: C/hellognome.js.page:66
 msgctxt "_"
 msgid ""
 "external ref='media/hellognomewebapp.png' "
@@ -19694,7 +19694,7 @@ msgstr ""
 "md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:67
+#: C/hellognome.js.page:68
 msgid ""
 "You <em>can</em> run the above code by opening <file>hellognome.html</file> "
 "in a web browser. But here, we're going to create a GNOME application that "
@@ -19712,7 +19712,7 @@ msgstr ""
 "naši webovou aplikaci."
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:68
+#: C/hellognome.js.page:69
 msgid ""
 "The best part? We're going to continue to use JavaScript, to write all the "
 "parts that make our app work with GNOME. Let's look at the code, and see how "
@@ -19723,12 +19723,12 @@ msgstr ""
 "se podívat na kód, ať víte jak na to!"
 
 #. (itstool) path: section/title
-#: C/hellognome.js.page:72
+#: C/hellognome.js.page:73
 msgid "Creating a GNOME window to frame our web app"
 msgstr "Vytvoření okna GNOME, které pojme naši webovou aplikaci"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:74
+#: C/hellognome.js.page:75
 msgid ""
 "First, we need to tell GNOME that this is a JavaScript application, which "
 "uses gjs. Gjs is GNOME's way of turning your JavaScript code into "
@@ -19741,7 +19741,7 @@ msgstr ""
 "začátku vaší aplikace."
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:75
+#: C/hellognome.js.page:76
 #, no-wrap
 msgid ""
 "\n"
@@ -19751,28 +19751,43 @@ msgstr ""
 "#!/usr/bin/gjs\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:78
+#: C/hellognome.js.page:79
+msgid "Then we should set the versions of the libraries we'll be using."
+msgstr "Následně bychom měli nastavit verze knihoven, které se budou používat."
+
+#. (itstool) path: section/code
+#: C/hellognome.js.page:80
+#, no-wrap
+msgid ""
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
+msgstr ""
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
+
+#. (itstool) path: section/p
+#: C/hellognome.js.page:84
 msgid "After that, we need to tell GNOME which libraries we want to import."
 msgstr "Dále potřebujeme říci GNOME, které knihovny chceme importovat."
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:79
+#: C/hellognome.js.page:85
 #, no-wrap
 msgid ""
 "\n"
 "const GLib = imports.gi.GLib;\n"
 "const Gtk = imports.gi.Gtk;\n"
-"const Lang = imports.lang;\n"
-"const Webkit = imports.gi.WebKit;\n"
+"const Webkit = imports.gi.WebKit2;\n"
 msgstr ""
 "\n"
 "const GLib = imports.gi.GLib;\n"
 "const Gtk = imports.gi.Gtk;\n"
-"const Lang = imports.lang;\n"
-"const Webkit = imports.gi.WebKit;\n"
+"const Webkit = imports.gi.WebKit2;\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:85
+#: C/hellognome.js.page:90
 msgid ""
 "Just like how add-on libraries like jQuery let us do extra things with "
 "JavaScript, each of these libraries gives us new capabilities for our GNOME "
@@ -19783,16 +19798,16 @@ msgstr ""
 "schopnosti pro naši aplikaci GNOME:"
 
 #. (itstool) path: item/p
-#: C/hellognome.js.page:87
+#: C/hellognome.js.page:92
 msgid ""
-"<file>Gtk</file> and <file>Lang</file> are basic parts of any GNOME "
-"application, which let you create windows and widgets and tie them together."
+"<file>Gtk</file> is the basic part of any GNOME application, which lets you "
+"create windows and widgets and tie them together."
 msgstr ""
-"<file>Gtk</file> a <file>Lang</file> jsou základní části kterékoliv aplikace "
-"GNOME, které vám umožňují vytvořit okna a widgety a spojit je dohromady."
+"<file>Gtk</file> je základní části kterékoliv aplikace GNOME, které vám "
+"umožní vytvořit okna a widgety a spojit je dohromady."
 
 #. (itstool) path: item/p
-#: C/hellognome.js.page:88
+#: C/hellognome.js.page:93
 msgid ""
 "<file>GLib</file> is a helper library, which lets us do things like tell "
 "GNOME where the <file>hellognome.html</file> file we created is."
@@ -19802,7 +19817,7 @@ msgstr ""
 "vytvořili."
 
 #. (itstool) path: item/p
-#: C/hellognome.js.page:89
+#: C/hellognome.js.page:94
 msgid ""
 "And <file>Webkit</file> is a web rendering engine, which we'll use to "
 "basically create a browser window to open our HTML file with."
@@ -19811,67 +19826,63 @@ msgstr ""
 "k vytvoření okna prohlížeče, ve kterém otevřeme náš soubor HTML."
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:92
+#: C/hellognome.js.page:97
 msgid "Now we create the application itself:"
 msgstr "Nyní vytvoříme vlastní aplikaci:"
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:93
+#: C/hellognome.js.page:98
 #, no-wrap
 msgid ""
 "\n"
-"const HelloGNOME = new Lang.Class ({\n"
-"    Name: 'Hello GNOME',\n"
+"class HelloGNOME {\n"
 msgstr ""
 "\n"
-"const HelloGNOME = new Lang.Class ({\n"
-"    Name: 'Hello GNOME',\n"
+"class HelloGNOME {\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:97
+#: C/hellognome.js.page:101
 msgid ""
 "This will look familiar to you if you've worked with object-oriented "
 "JavaScript before. That's right; our whole application is a class called "
-"HelloGNOME. And as you can see, we've given it a property that says what its "
-"name is."
+"HelloGNOME."
 msgstr ""
 "Pokud jste již dříve pracovali s objektově orientovaným jazykem JavaScript, "
 "přijde vám to známe. Máte pravdu, celá naše aplikace je třída nazvaná "
-"HelloGNOME. A jak můžete vidět, udáme ji vlastnost, která říká, jak se "
-"nazývá."
+"HelloGNOME."
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:99
+#: C/hellognome.js.page:103
 #, no-wrap
 msgid ""
 "\n"
 "    // Create the application itself\n"
-"    _init: function () {\n"
-"        this.application = new Gtk.Application ();\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application();\n"
 "\n"
 "        // Connect 'activate' and 'startup' signals to the callback functions\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 "\n"
 "    // Callback function for 'activate' signal presents windows when active\n"
-"    _onActivate: function () {\n"
-"        this._window.present ();\n"
-"    },\n"
+"    _onActivate() {\n"
+"        this._window.present();\n"
+"    }\n"
 "\n"
 "    // Callback function for 'startup' signal builds the UI\n"
-"    _onStartup: function () {\n"
-"        this._buildUI ();\n"
-"    },\n"
+"    _onStartup() {\n"
+"        this._buildUI();\n"
+"    }\n"
 msgstr ""
 "\n"
 "    // Vytvoří vlastní aplikaci\n"
-"    _init: function () {\n"
-"        this.application = new Gtk.Application ();\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application();\n"
 "\n"
 "        // Napojí signály \"activate\" a \"startup\" k funkcím zpětného volání\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    },\n"
 "\n"
 "    // Funkce zpětného volání pro signál \"activate\" zobrazující okno při aktivaci\n"
@@ -19882,10 +19893,10 @@ msgstr ""
 "    // Funkce zpětného volání pro signál \"startup\" sestavující uživatelské rozhraní\n"
 "    _onStartup: function () {\n"
 "        this._buildUI ();\n"
-"    },\n"
+"    }\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:119
+#: C/hellognome.js.page:123
 msgid ""
 "Here's some code you will more or less copy-and-paste for every JavaScript "
 "application you build. It creates a new Application, and then binds its "
@@ -19898,27 +19909,26 @@ msgstr ""
 "které zajistí, že okno zobrazí sebe samo a sestaví své uživatelské rozhraní."
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:120
+#: C/hellognome.js.page:124
 msgid ""
 "What does that mean? Well, everything in a GNOME application sends out a "
 "signal when something important happens. A button might send out the clicked "
 "signal when you click on it, for instance. Our job is to connect the signals "
 "to functions which handle them, and make the things that we want to have "
 "happen occur. We do this using each object's connect method, which takes two "
-"arguments: The signal we want to handle, and the Lang.bind function, which "
-"we have to use to tell connect which function we want to have handle the "
-"signal."
+"arguments: The signal we want to handle, and the bound function, which we "
+"have to use to tell connect which function we want to have handle the signal."
 msgstr ""
 "Co to znamená? V aplikacích GNOME vše posílá signály pokaždé, když se něco "
 "zajímavého stane. Například tlačítko může poslat signál <code>\"clicked\"</"
 "code>, když je na něj kliknuto. Našim úkolem je napojit signály na funkce, "
 "které je zpracují a provedou něco, co chceme, aby se stalo. To uděláme "
 "použitím metody <code>connect</code> u každého objektu. Tato metoda má dva "
-"argumenty: Signál, který chceme obsluhovat, a funkci <code>Lang.bind</code>, "
-"což je funkce, po které chceme, aby signál obsluhovala."
+"argumenty: Signál, který chceme obsluhovat, a vazební funkci, což je funkce, "
+"po které chceme, aby signál obsluhovala."
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:121
+#: C/hellognome.js.page:125
 msgid ""
 "In this case, we want _onActivate to handle the activate signal, and "
 "_onStartup to handle the startup signal. _onActivate just tells the window "
@@ -19936,21 +19946,21 @@ msgstr ""
 "naše uživatelské rozhraní a je následující částí, na kterou se podíváme."
 
 #. (itstool) path: note/p
-#: C/hellognome.js.page:122
+#: C/hellognome.js.page:126
 msgid ""
 "When you copy and paste the above code for your own applications, be sure to "
-"change the name to a unique one each time."
+"change the class name to a unique one each time."
 msgstr ""
 "Když si kód uvedený výše zkopírujete a vložíte pro svoji vlastní aplikaci, "
-"přidělte ji pokaždé jedinečný název."
+"přidělte třídě pokaždé jedinečný název."
 
 #. (itstool) path: section/title
-#: C/hellognome.js.page:126
+#: C/hellognome.js.page:130
 msgid "Designing our window's UI"
 msgstr "Návrh uživatelského rozhraní našeho okna"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:127
+#: C/hellognome.js.page:131
 msgid ""
 "In the _buildUI function, we're going to tell GNOME about our window and the "
 "things inside it, one at a time. After that, we're going to connect "
@@ -19960,12 +19970,12 @@ msgstr ""
 "a věcech uvnitř něj. Nakonec vše spojíme dohromady a zobrazíme."
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:129
+#: C/hellognome.js.page:133
 #, no-wrap
 msgid ""
 "\n"
 "    // Build the application's UI\n"
-"    _buildUI: function () {\n"
+"    _buildUI() {\n"
 "\n"
 "        // Create the application window\n"
 "        this._window = new Gtk.ApplicationWindow  ({\n"
@@ -19977,7 +19987,7 @@ msgid ""
 msgstr ""
 "\n"
 "    // Sestaví uživatelské rozhraní aplikace\n"
-"    _buildUI: function () {\n"
+"    _buildUI() {\n"
 "\n"
 "        // Vytvoří okno aplikace\n"
 "        this._window = new Gtk.ApplicationWindow  ({\n"
@@ -19988,7 +19998,7 @@ msgstr ""
 "            window_position: Gtk.WindowPosition.CENTER });\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:142
+#: C/hellognome.js.page:146
 msgid ""
 "The first object we create is an ApplicationWindow. It needs a title to go "
 "in the title bar, and its application property needs to be the application "
@@ -20009,7 +20019,7 @@ msgstr ""
 "okno objevilo uprostřed obrazovky."
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:143
+#: C/hellognome.js.page:147
 #, no-wrap
 msgid ""
 "\n"
@@ -20029,7 +20039,7 @@ msgstr ""
 "            \"/hellognome.html\", null));\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:151
+#: C/hellognome.js.page:155
 msgid ""
 "Remember how we imported Webkit right at the start? Here we're creating a "
 "new instance of a Webkit class called a WebView, which is more or less a "
@@ -20043,7 +20053,7 @@ msgstr ""
 "aplikace."
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:152
+#: C/hellognome.js.page:156
 msgid ""
 "We <em>could</em> just give it a web URI, like <link href=\"http://gnome.org"
 "\">http://gnome.org</link>. Instead, here we use a couple of GLib helper "
@@ -20065,7 +20075,7 @@ msgstr ""
 "ledaže víte, k čemu slouží a máte důvod jej změnit.)"
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:153
+#: C/hellognome.js.page:157
 #, no-wrap
 msgid ""
 "\n"
@@ -20089,7 +20099,7 @@ msgstr ""
 "});\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:163
+#: C/hellognome.js.page:167
 msgid ""
 "Each window can hold one, and only one, widget. Normally, we'd use a "
 "container widget like a <link xref=\"grid.js\">Grid</link> to put multiple "
@@ -20107,7 +20117,7 @@ msgstr ""
 "okno, řekneme oknu, aby zobrazilo sebe a svůj obsah."
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:164
+#: C/hellognome.js.page:168
 #, no-wrap
 msgid ""
 "\n"
@@ -20121,7 +20131,7 @@ msgstr ""
 "app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:169
+#: C/hellognome.js.page:173
 msgid ""
 "Finally, we create a new instance of our HelloGNOME class, and tell GNOME to "
 "run it."
@@ -20130,12 +20140,12 @@ msgstr ""
 "ji spustil."
 
 #. (itstool) path: section/title
-#: C/hellognome.js.page:173
+#: C/hellognome.js.page:177
 msgid "Running your GNOME application"
 msgstr "Spuštění vaší aplikace pro GNOME"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:175
+#: C/hellognome.js.page:179
 msgid ""
 "Now that we've created our first GNOME application, it's time to test it "
 "out! You don't need to compile your app or install any special software for "
@@ -20154,13 +20164,13 @@ msgstr ""
 "terminál, přejděte do ní a napište:"
 
 #. (itstool) path: section/screen
-#: C/hellognome.js.page:176
+#: C/hellognome.js.page:180
 #, no-wrap
 msgid " <output style=\"prompt\">$ </output>gjs hellognome.js "
 msgstr " <output style=\"prompt\">$ </output>gjs hellognome.js "
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:177
+#: C/hellognome.js.page:181
 msgid ""
 "You should see more or less the same screenshot as before, with a button "
 "that you can click to make a short message appear."
@@ -20169,18 +20179,18 @@ msgstr ""
 "tlačítkem, které po kliknutí zobrazí krátkou zprávu."
 
 #. (itstool) path: note/p
-#: C/hellognome.js.page:180
+#: C/hellognome.js.page:184
 msgid "You can use the terminal command"
 msgstr "Můžete použít terminálový příkaz"
 
 #. (itstool) path: note/screen
-#: C/hellognome.js.page:181
+#: C/hellognome.js.page:185
 #, no-wrap
 msgid " <output style=\"prompt\">$ </output>cd <var>(directory name)</var> "
 msgstr " <output style=\"prompt\">$ </output>cd <var>(název složky)</var> "
 
 #. (itstool) path: note/p
-#: C/hellognome.js.page:182
+#: C/hellognome.js.page:186
 msgid ""
 "to navigate between directories inside the Terminal, in order to get to "
 "where you saved the files. There is also an extension for Nautilus, GNOME's "
@@ -20196,7 +20206,7 @@ msgstr ""
 "programy“ nebo „Centrum softwaru“)."
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:189
+#: C/hellognome.js.page:193
 msgid ""
 "<link xref=\"02_welcome_to_the_grid.js\">Continue on to the next tutorial</"
 "link> to learn how to build \"native\" GNOME applications that look and feel "
@@ -20212,7 +20222,7 @@ msgstr ""
 "jednotlivé widgety Gtk."
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:190
+#: C/hellognome.js.page:194
 msgid ""
 "Finally, if you want to just build GNOME applications using JavaScript "
 "libraries designed for the web, you can basically stop here and go do that! "
@@ -20229,16 +20239,17 @@ msgstr ""
 "plochy <gui>Činnosti</gui>."
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:195
+#: C/hellognome.js.page:199
 #, no-wrap
 msgid ""
 "#!/usr/bin/gjs\n"
 "\n"
 "imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
 "\n"
 "const GLib = imports.gi.GLib;\n"
 "const Gtk = imports.gi.Gtk;\n"
-"const Webkit = imports.gi.WebKit;\n"
+"const Webkit = imports.gi.WebKit2;\n"
 "\n"
 "class HelloGNOME {\n"
 "\n"
@@ -20295,6 +20306,7 @@ msgstr ""
 "#!/usr/bin/gjs\n"
 "\n"
 "imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
 "\n"
 "const GLib = imports.gi.GLib;\n"
 "const Gtk = imports.gi.Gtk;\n"

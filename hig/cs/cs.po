@@ -1,13 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-09-22 16:04+0000\n"
-"PO-Revision-Date: 2017-09-22 21:08+0200\n"
+"POT-Creation-Date: 2018-08-30 11:59+0000\n"
+"PO-Revision-Date: 2018-09-03 17:52+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -42,18 +42,18 @@ msgstr "Spodní lišta, která obsahuje činnosti"
 #: C/button-menus.page:8 C/buttons.page:8 C/check-boxes.page:8
 #: C/compatibility.page:7 C/design-principles.page:7 C/dialogs.page:9
 #: C/display-compatibility.page:7 C/drop-down-lists.page:8
-#: C/empty-placeholders.page:10 C/grids.page:10 C/header-bar-menus.page:10
-#: C/header-bars.page:10 C/icons-and-artwork.page:7 C/index.page:8
-#: C/in-app-notifications.page:10 C/info-bars.page:10 C/keyboard-input.page:8
-#: C/lists.page:11 C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
+#: C/empty-placeholders.page:10 C/grids.page:10 C/header-bars.page:10
+#: C/icons-and-artwork.page:7 C/index.page:8 C/in-app-notifications.page:10
+#: C/info-bars.page:10 C/keyboard-input.page:8 C/lists.page:11
+#: C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
 #: C/overlaid-controls.page:9 C/patterns.page:7
-#: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-windows.page:9
-#: C/progress-bars.page:8 C/progress-spinners.page:8 C/radio-buttons.page:8
-#: C/search.page:9 C/selection-mode.page:9 C/sidebar-lists.page:9
-#: C/sliders.page:8 C/spin-boxes.page:8 C/switches.page:8 C/tabs.page:8
-#: C/text-fields.page:8 C/toolbars.page:8 C/typography.page:7
-#: C/ui-elements.page:8 C/view-switchers.page:9 C/visual-layout.page:7
-#: C/writing-style.page:10
+#: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-menus.page:10
+#: C/primary-windows.page:9 C/progress-bars.page:8 C/progress-spinners.page:8
+#: C/radio-buttons.page:8 C/search.page:9 C/secondary-menus.page:10
+#: C/selection-mode.page:9 C/sidebar-lists.page:9 C/sliders.page:8
+#: C/spin-boxes.page:8 C/switches.page:8 C/tabs.page:8 C/text-fields.page:8
+#: C/toolbars.page:8 C/typography.page:7 C/ui-elements.page:8
+#: C/view-switchers.page:9 C/visual-layout.page:7 C/writing-style.page:10
 msgid "Allan Day"
 msgstr "Allan Day"
 
@@ -87,15 +87,15 @@ msgstr ""
 "okna. Používá se k poskytnutí činností pro obsah, který je zobrazen na dní."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:22 C/application-menus.page:22 C/button-menus.page:25
+#: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
 #: C/dialogs.page:36 C/empty-placeholders.page:23 C/grids.page:23
-#: C/header-bar-menus.page:27 C/header-bars.page:29
-#: C/in-app-notifications.page:23 C/info-bars.page:23 C/lists.page:24
-#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
-#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-windows.page:22
-#: C/progress-bars.page:37 C/progress-spinners.page:25 C/search.page:22
+#: C/header-bars.page:29 C/in-app-notifications.page:23 C/info-bars.page:23
+#: C/lists.page:24 C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
+#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
+#: C/primary-windows.page:22 C/progress-bars.page:37
+#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
 #: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
-#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:37
+#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
 #: C/view-switchers.page:22
 msgid "When to use"
 msgstr "Kdy použít"
@@ -153,15 +153,15 @@ msgstr ""
 "\"buttons#suggested-and-destructive\">příslušně je zvýrazněte</link>."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:41 C/application-menus.page:70 C/buttons.page:89
+#: C/action-bars.page:41 C/application-menus.page:72 C/buttons.page:89
 #: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
-#: C/header-bar-menus.page:48 C/header-bars.page:72 C/info-bars.page:46
-#: C/lists.page:148 C/menu-bars.page:106 C/menus.page:73
-#: C/notifications.page:105 C/popovers.page:64 C/primary-windows.page:85
+#: C/header-bars.page:72 C/info-bars.page:46 C/lists.page:148
+#: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
+#: C/popovers.page:64 C/primary-menus.page:45 C/primary-windows.page:85
 #: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
-#: C/search.page:72 C/sidebar-lists.page:54 C/sliders.page:69
-#: C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99 C/text-fields.page:68
-#: C/toolbars.page:60 C/view-switchers.page:46
+#: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
+#: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
+#: C/text-fields.page:68 C/toolbars.page:59 C/view-switchers.page:46
 msgid "API reference"
 msgstr "Referenční příručka API"
 
@@ -187,14 +187,15 @@ msgstr "Základy o aplikacích"
 #. (itstool) path: page/p
 #: C/application-basics.page:16
 msgid ""
-"These Human Interface Guidelines are intended to help with the creation of "
-"applications. An understanding of what an application is will help you to "
-"distribute your software more effectively, as well as ensure effective and "
-"consistent system integration."
+"These Human Interface Guidelines provide design guidance on the creation of "
+"GNOME applications. Given this focus on applications, this page provides a "
+"definition of applications from a user experience perspective. It also "
+"provides guidance on basic application behavior and characteristics."
 msgstr ""
-"Cílem těchto pokynů k rozhraní pro člověka je pomoci při vytváření aplikací. "
-"Pochopení, co je to aplikace, vám pomůže šířit svůj software účelně, a "
-"rovněž zajistit kvalitní a konzistentní integraci do systému."
+"Pokyny k rozhraní pro člověka poskytují rady k designu při vytváření "
+"aplikací GNOME. Protože důraz je kladen na aplikace, poskytuje tato stránka "
+"definici aplikace z pohledu uživatele. Navíc poskytuje rady k základnímu "
+"chování aplikací a jejich hlavní rysy."
 
 #. (itstool) path: page/p
 #: C/application-basics.page:18
@@ -215,91 +216,84 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/application-basics.page:21
-msgid "Defining an application"
-msgstr "Definice aplikace"
-
-#. (itstool) path: quote/p
-#: C/application-basics.page:23
-msgid ""
-"An application is a distinct and independent piece of software that "
-"incorporates useful functionality, and which can be installed on a user’s "
-"system."
-msgstr ""
-"Aplikace je odlišitelný a nezávislý kus softwaru, který obsahuje užitečné "
-"funkce a který může být nainstalován v uživatelském systému."
+msgid "What is an application?"
+msgstr "Co je to aplikace?"
 
 #. (itstool) path: section/p
-#: C/application-basics.page:25
+#: C/application-basics.page:23
 msgid ""
-"This definition can be broken down into a set of characteristics, which "
-"describe an application in more detail. Applications:"
+"The following list of characteristics provides a basic definition of an "
+"application. An application is a distinct piece of software which:"
 msgstr ""
-"Definici můžeme také rozdělit na množinu vlastností, které popisují aplikaci "
-"podrobněji. Aplikace:"
+"Následující seznam základních rysů poskytuje úvodní definici aplikace. "
+"Aplikace je jasně oddělený kus softwaru, který:"
+
+#. (itstool) path: item/p
+#: C/application-basics.page:26
+msgid "Can be individually installed and removed from the system."
+msgstr "Může být samostatně nainstalován do systému a zase odinstalován."
+
+#. (itstool) path: item/p
+#: C/application-basics.page:27
+msgid "Does not affect or interfere with the behavior of other applications."
+msgstr "Neovlivňuje chování jiných aplikací a není s nimi v rozporu."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:28
-msgid "Can be individually installed and removed from the system."
-msgstr "Může být samostatně nainstalována do systému a zase odinstalována."
-
-#. (itstool) path: item/p
-#: C/application-basics.page:29
-msgid "Do not rely on other applications in order to run."
+msgid "Does not rely on other applications in order to run."
 msgstr "Nezávisí svým spuštěním na jiné aplikaci."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:30
-msgid "Contain functionality of their own."
-msgstr "Obsahuje svoji vlastní funkcionalitu."
-
-#. (itstool) path: item/p
-#: C/application-basics.page:31
+#: C/application-basics.page:29
 msgid ""
-"Provide at least one <link xref=\"primary-windows\">primary window</link>."
+"Provides at least one <link xref=\"primary-windows\">primary window</link>."
 msgstr ""
 "Poskytuje aspoň jedno <link xref=\"primary-windows\">hlavní okno</link>."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:32
-msgid "Do not affect or interfere with the behavior of other applications."
-msgstr "Neovlivňuje chování jiných aplikací a není s nimi v rozporu."
-
-#. (itstool) path: item/p
-#: C/application-basics.page:33
+#: C/application-basics.page:30
 msgid ""
-"Have a unique name and <link xref=\"icons-and-artwork#application-icons"
+"Has a unique name and <link xref=\"icons-and-artwork#application-icons"
 "\">icon</link>."
 msgstr ""
 "Má jedinečný název a <link xref=\"icons-and-artwork#application-icons"
 "\">ikonu</link>."
 
+#. (itstool) path: item/p
+#: C/application-basics.page:31
+msgid "Has an application launcher."
+msgstr "Má spouštěč aplikace."
+
+#. (itstool) path: section/p
+#: C/application-basics.page:34
+msgid ""
+"A key theme in this definition is that applications are intended to be "
+"independent of other applications. This ensures flexibility, predictability, "
+"and simplicity of use."
+msgstr ""
+"Klíčovým bodem této definice je, že aplikace je zamýšlená jako nezávislá na "
+"jiných aplikacích. To zajišťuje pružnost, předvídatelnost a snadnost "
+"používání."
+
 #. (itstool) path: section/p
 #: C/application-basics.page:36
 msgid ""
-"At the heart of this definition is a model that allows the modular "
-"installation and use of 3rd party software, in a way that avoids dependency "
-"issues and ensures simplicity of use."
+"Of course, there are other characteristics that are expected of "
+"applications, including standard window behavior, system integration, and "
+"application metadata. Guidance on these aspects of applications can be found "
+"elsewhere."
 msgstr ""
-"Jádrem této definice je model, který umožňuje modulární instalaci a "
-"používání softwaru třetích stran, aby se nevytvářela závislost na jednom "
-"dodavateli, a aby se zjednodušilo používání."
-
-#. (itstool) path: section/p
-#: C/application-basics.page:38
-msgid ""
-"In GNOME 3, only software that conforms to these characteristics should "
-"install an application launcher."
-msgstr ""
-"V GNOME 3 by měl jen software vyhovující těmto charakteristikám instalovat "
-"spouštěč aplikace."
+"Mimo to samozřejmě existují další základní rysy, které od aplikací "
+"očekáváme. Včetně standardního chování okna, integrace do systému a metadat "
+"aplikace. Poučení k těmto aspektům aplikace můžete najít jinde."
 
 #. (itstool) path: section/title
-#: C/application-basics.page:49
+#: C/application-basics.page:43
 msgid "Naming your application"
 msgstr "Jak aplikaci nazvat"
 
 #. (itstool) path: section/p
-#: C/application-basics.page:51
+#: C/application-basics.page:45
 msgid ""
 "An application’s name is vital. It is what users will be first exposed to, "
 "and will help them decide whether they want to use an application or not. It "
@@ -310,17 +304,17 @@ msgstr ""
 "hlavní část veřejné tváře vaší aplikace."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:53
+#: C/application-basics.page:47
 msgid "An application name plays a number of functions:"
 msgstr "Název vaší aplikace hraje řadu funkcí:"
 
 #. (itstool) path: item/p
-#: C/application-basics.page:56
+#: C/application-basics.page:50
 msgid "It must advertise your application to potential users."
 msgstr "Musí vaši aplikaci propagovat potencionálním uživatelům."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:57
+#: C/application-basics.page:51
 msgid ""
 "It should serve to reinforce a positive identity, and have expressive "
 "qualities."
@@ -329,7 +323,7 @@ msgstr ""
 "kvality aplikace."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:58
+#: C/application-basics.page:52
 msgid ""
 "It needs to identify your application in the systems where it is installed "
 "and run."
@@ -338,7 +332,7 @@ msgstr ""
 "provozována."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:61
+#: C/application-basics.page:55
 msgid ""
 "Ensure that your application name is short - fewer than 15 characters. This "
 "will ensure that it is always displayed in full within a GNOME 3 environment."
@@ -347,7 +341,7 @@ msgstr ""
 "bude v prostředí GNOME 3 vždy zobrazen celý."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:63
+#: C/application-basics.page:57
 msgid ""
 "Additionally, choose an application name that is easy to understand and "
 "communicates your application’s functionality. Avoid references which will "
@@ -389,6 +383,19 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/application-menus.page:19
 msgid ""
+"<em>Application menus are no longer recommended, and will not be displayed "
+"in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus\">Primary</"
+"link> and <link xref=\"secondary-menus\">secondary menus</link> should be "
+"used as alternatives.</em>"
+msgstr ""
+"<em>Nabídky aplikace nejsou již nadále doporučovány a od verze GNOME 3.32 "
+"nebudou již zobrazovány v horní liště. Jako náhrada by měly být používány "
+"<link xref=\"primary-menus\">hlavní</link> a <link xref=\"secondary-menus"
+"\">podružné</link> nabídky.</em>"
+
+#. (itstool) path: page/p
+#: C/application-menus.page:21
+msgid ""
 "Application menus provide access to global, top level actions and options "
 "for your application. These include standard items for accessing "
 "documentation and information about the application."
@@ -398,7 +405,7 @@ msgstr ""
 "dokumentaci a informacím o aplikaci."
 
 #. (itstool) path: section/p
-#: C/application-menus.page:24
+#: C/application-menus.page:26
 msgid ""
 "Application menus are a standard part of GNOME 3, and every application that "
 "runs under GNOME 3 should have one."
@@ -407,23 +414,23 @@ msgstr ""
 "pod GNOME 3, by ji měla mít."
 
 #. (itstool) path: section/title
-#: C/application-menus.page:29 C/button-menus.page:47 C/dialogs.page:155
+#: C/application-menus.page:31 C/button-menus.page:47 C/dialogs.page:155
 #: C/display-compatibility.page:21 C/drop-down-lists.page:34 C/grids.page:32
 #: C/lists.page:133 C/menu-bars.page:93 C/menus.page:61
 #: C/pointer-and-touch-input.page:40 C/popovers.page:55
 #: C/primary-windows.page:70 C/progress-bars.page:117
-#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:46
-#: C/visual-layout.page:33
+#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
+#: C/visual-layout.page:35
 msgid "General guidelines"
 msgstr "Obecné rady"
 
 #. (itstool) path: item/p
-#: C/application-menus.page:32
+#: C/application-menus.page:34
 msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
 msgstr "Řiďte se standardními <link xref=\"menus\">pokyny pro nabídky</link>."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:33
+#: C/application-menus.page:35
 msgid ""
 "Only include menu items that relate to the application as a whole, such as "
 "application preferences. Items that are specific to a particular window or "
@@ -436,7 +443,7 @@ msgstr ""
 "být součástí této nabídky."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:34
+#: C/application-menus.page:36
 msgid ""
 "If an item from the application menu is frequently used, consider moving it "
 "to a more accessible location."
@@ -445,12 +452,12 @@ msgstr ""
 "její přesunutí na přístupnější místo."
 
 #. (itstool) path: section/title
-#: C/application-menus.page:40
+#: C/application-menus.page:42
 msgid "Standard menu items"
 msgstr "Standardní položky nabídky"
 
 #. (itstool) path: section/p
-#: C/application-menus.page:42
+#: C/application-menus.page:44
 msgid ""
 "Common application menu items include <gui>New Window</gui>, "
 "<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
@@ -463,14 +470,14 @@ msgstr ""
 "nacházet ve své vlastní skupině ve spodní části nabídky."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:46
+#: C/application-menus.page:48
 msgid "<gui>New Window</gui>"
 msgstr ""
 "<gui>New Window</gui>\n"
 "(<gui>Nové okno</gui>)"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:47
+#: C/application-menus.page:49
 msgid ""
 "Opens a new window. Only <link xref=\"primary-windows#application-types"
 "\">multiple instance applications</link> should include this menu item. If "
@@ -485,14 +492,14 @@ msgstr ""
 "připojení</gui> nebo <gui>Nový dokument</gui>."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:50
+#: C/application-menus.page:52
 msgid "<gui>Preferences</gui>"
 msgstr ""
 "<gui>Preferences</gui>\n"
 "(<gui>Předvolby</gui>)"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:51
+#: C/application-menus.page:53
 msgid ""
 "Opens the application's preferences dialog. Only show this menu item if your "
 "application has a preferences dialog."
@@ -501,14 +508,14 @@ msgstr ""
 "vaše aplikace nějaké předvolby má."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:54 C/keyboard-input.page:286
+#: C/application-menus.page:56 C/keyboard-input.page:286
 msgid "<gui>Help</gui>"
 msgstr ""
 "<gui>Help</gui>\n"
 "(<gui>Nápověda</gui>)"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:55
+#: C/application-menus.page:57
 msgid ""
 "Opens your application's user documentation in the <app>Help</app> "
 "application. Only show this menu item if your application has user "
@@ -518,14 +525,14 @@ msgstr ""
 "Položku zobrazte, jen když vaše aplikace nějakou dokumentaci má."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:58 C/keyboard-input.page:291
+#: C/application-menus.page:60 C/keyboard-input.page:291
 msgid "<gui>About</gui>"
 msgstr ""
 "<gui>About</gui>\n"
 "(<gui>O aplikaci</gui>)"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:59
+#: C/application-menus.page:61
 msgid ""
 "Opens the application's about dialog. Every application menu should include "
 "this item."
@@ -534,14 +541,14 @@ msgstr ""
 "každá aplikace."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:62 C/keyboard-input.page:296
+#: C/application-menus.page:64 C/keyboard-input.page:296
 msgid "<gui>Quit</gui>"
 msgstr ""
 "<gui>Quit</gui>\n"
 "(<gui>Ukončit</gui>)"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:63
+#: C/application-menus.page:65
 msgid ""
 "Closes the application, including all application windows. Every application "
 "menu should include this item."
@@ -550,7 +557,7 @@ msgstr ""
 "aplikace."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:72
+#: C/application-menus.page:74
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
 "\">GtkApplication</link>"
@@ -1258,26 +1265,28 @@ msgstr "Kompatibilita napříč platformami"
 #. (itstool) path: section/p
 #: C/compatibility.page:21
 msgid ""
-"The HIG provides cross-platform for those design patterns and UI elements "
-"that require special treatment in cross-platform cases. Otherwise, all the "
-"design patterns provided in these guidelines can be used in a cross-platform "
-"manner."
+"Generally speaking, the design patterns found in the HIG can be used on any "
+"desktop platform. Most of the conventions, like menus and menu buttons, "
+"views and view switchers, and popovers, are common and will be generally "
+"understood."
 msgstr ""
-"U těch návrhových vzorů, které potřebují v multiplatformních případech "
-"speciální zacházení, poskytuje HIG k multiplatformnosti rady. V ostatních "
-"případech mohou být všechny návrhové vzory z této příručky použity "
-"multiplatformním způsobem."
+"Obecně vzato, návrhové vzory, které najdete v této příručce, se dají "
+"uplatnit na kterékoliv platformě pro stolní počítače. Většina konvencí, jako "
+"jsou nabídky, nabídková tlačítka, zobrazení a přepínače zobrazení a "
+"rozbalovací dialogy jsou běžné a obecně pochopitelné."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:23
 msgid ""
-"Since some platforms provide system-level integration for <link xref=\"menu-"
-"bars\">menu bars</link>, this pattern is of special relevance for cross-"
-"platform applications."
+"The primary example of a design pattern that varies across desktop platforms "
+"is the <link xref=\"menu-bars\">menu bar</link>, which takes different forms "
+"on different platforms. See the design page on this for more guidance on "
+"cross-platform considerations."
 msgstr ""
-"Protože některé platformy poskytují integraci <link xref=\"menu-bars"
-"\">nabídkových lišt</link> na systémové úrovni, je tento návrhový vzor "
-"obzvlášť významný pro multiplatformní aplikace."
+"Hlavním příkladem návrhového vzoru, který se liší napříč různými "
+"platformami, je <link xref=\"menu-bars\">nabídková lišta</link>, které má na "
+"různých platformách různou formu. Více rad k úvahám nad návrhem pro více "
+"platforem najdete na stránce Principy návrhu v této části."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
@@ -1287,17 +1296,17 @@ msgstr "Kompatibilita s GNOME 2"
 #. (itstool) path: section/p
 #: C/compatibility.page:30
 msgid ""
-"These Human Interface Guidelines are an evolution of the GNOME 2 HIG, and "
-"represent an improvement on the previous version. Applications that follow "
-"the new version of the HIG will use space more efficiently, will provide a "
-"more focused user experience, and will use modern interpretations of key "
-"functionality, such as search, online integration, or notifications."
+"These Human Interface Guidelines are an evolution of the GNOME 2 HIG. "
+"Applications that follow the new version of the HIG will use space more "
+"efficiently, will provide a more focused user experience, and will use "
+"modern interpretations of key functionality, such as search, online "
+"integration, or notifications."
 msgstr ""
-"Tato příručka je evolučním počinem z příručky HIG pro GNOME 2 a oproti "
-"předchozí verzi představuje zlepšení. Aplikace, které se řídí novou verzí "
-"příručky budou využívat efektivněji místo, více se zaměří na uživatelskou "
-"přívětivost a použijí moderní zpodobnění klíčové funkcionality, jako je "
-"vyhledávání, integrace s on-line prostředky nebo upozornění."
+"Tato příručka je evolučním počinem z příručky HIG pro GNOME 2. Aplikace, "
+"které se řídí novou verzí příručky budou využívat efektivněji místo, více se "
+"zaměří na uživatelskou přívětivost a použijí moderní zpodobnění klíčové "
+"funkcionality, jako je vyhledávání, integrace s on-line prostředky nebo "
+"oznámení."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:32
@@ -1621,7 +1630,7 @@ msgid ""
 "avoid spontaneously popping up dialogs without user intent, and avoid "
 "disruptive feedback mechanisms like message dialogs."
 msgstr ""
-"Používejte <link xref=\"notifications\">upozornění</link> v rozumné míře, "
+"Používejte <link xref=\"notifications\">oznamování</link> v rozumné míře, "
 "vždy se vyvarujte samovolnému vyskakování dialogových oken bez přičinění "
 "uživatele a vyhněte se rušivým způsobům zpětné odezvy, jako jsou zprávy v "
 "dialogových oknech."
@@ -1802,7 +1811,7 @@ msgstr "Pro nové zprávy, záznamy nebo kontakty používejte vložené uspoř�
 #: C/dialogs.page:46
 msgid "In-application notifications are an alternative to message dialogs."
 msgstr ""
-"Upozornění v rámci aplikace jsou alternativou k dialogovým oknům se zprávami."
+"Oznámení v rámci aplikace jsou alternativou k dialogovým oknům se zprávami."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:47
@@ -2319,7 +2328,7 @@ msgstr ""
 #: C/display-compatibility.page:27
 msgid ""
 "Test to make sure that your interface works well on large displays. Where "
-"possible, scale content to make the best use of available space, or used "
+"possible, scale content to make the best use of available space, or use "
 "fixed width layouts to ensure that interface elements maintain effective "
 "grouping and alignment."
 msgstr ""
@@ -2773,155 +2782,6 @@ msgstr ""
 "\">GtkIconView</link>"
 
 #. (itstool) path: info/desc
-#: C/header-bar-menus.page:8
-msgid "Common menus shown on the right side of a header bar"
-msgstr "Běžné nabídky zobrazené na pravé straně hlavičkové lišty"
-
-#. (itstool) path: page/title
-#: C/header-bar-menus.page:16
-msgid "Header bar menus"
-msgstr "Nabídky v hlavičkových lištách"
-
-#. (itstool) path: page/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/header-bar-menus.page:18
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/header-bar-menu.svg' "
-"md5='0e781cf34a40d6c5928bd4564514dc65'"
-msgstr ""
-"external ref='figures/patterns/header-bar-menu.svg' "
-"md5='0e781cf34a40d6c5928bd4564514dc65'"
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:20
-msgid ""
-"<link xref=\"header-bars\">Header bars</link> can include a menu which "
-"contains actions and options for the current view. These menus are located "
-"at the far right side of the header bar."
-msgstr ""
-"<link xref=\"header-bars\">Hlavičkové lišty</link> mohou zahrnovat nabídky, "
-"které obsahují činnosti a volby pro aktuální zobrazení. Tyto nabídky jsou "
-"umístěny na hlavičkové liště úplně vpravo."
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:22
-msgid ""
-"While the most frequently used actions for a view should be placed directly "
-"in the header bar, a header bar menu provides access to lesser-used actions. "
-"This ensures that the header bar isn’t overwhelmed with less interesting or "
-"useful controls."
-msgstr ""
-"Zatímco nejčastěji používané činnosti pro zobrazení by měly být umístěny "
-"přímo v hlavičkové liště, nabídka hlavičkové lišty poskytuje přístup k méně "
-"používaným činnostem. Tím se zajistí, že hlavičková lišta nebude zahlcena "
-"méně zajímavými nebo nepoužitelnými ovládacími prvky."
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:24
-msgid ""
-"In this way, the header bar menus help to create focused views that guide "
-"the user towards the most interesting and useful functionality."
-msgstr ""
-"Tímto způsobem pomůže nabídka hlavičkové lišty vytvořit cílené zobrazení, "
-"které vede uživatele přímo k nejvíce zajímavým a užitečným funkcím."
-
-#. (itstool) path: section/p
-#: C/header-bar-menus.page:29
-msgid ""
-"Use a header bar menu to present additional actions or options for the "
-"current view. They are best used when those actions or options are not used "
-"the majority of the time - if there is a set of actions which deserve more "
-"prominence in the view, an <link xref=\"action-bars\">action bar</link> "
-"might be a better choice."
-msgstr ""
-"Nabídku v hlavičkové liště použijte k poskytnutí dalších činností nebo voleb "
-"pro aktuální zobrazení. Je nejlepší pro situace, kdy některé činnosti a "
-"volby nejsou používány po hlavní čas využívání aplikace. V případě, že si "
-"nějaká sada činností zaslouží větší pozornost v zobrazení, může být lepší "
-"volbou <link xref=\"action-bars\">akční lišta</link>."
-
-#. (itstool) path: section/p
-#: C/header-bar-menus.page:31
-msgid ""
-"Header bar menus are not a good choice for performing actions on selected "
-"content: when content hasn’t been selected, the menu will contain unhelpful "
-"insensitive menu items, and when content has been selected, possible actions "
-"will not be advertised. <link xref=\"selection-mode\">Selection mode</link> "
-"or <link xref=\"popovers\">popovers</link> are a better choice for this "
-"situation."
-msgstr ""
-"Nabídka v hlavičkové liště není dobrou volbou pro provádění činností na "
-"vybraném obsahu – když není nic vybráno, bude nabídka obsahovat nepoužitelné "
-"nepřístupné položky a když je něco vybráno, nebudou možné činnosti viditelně "
-"doporučovány. Pro tyto situace je lepší volbou <link xref=\"selection-mode"
-"\">režim výběru</link> nebo <link xref=\"popovers\">rozbalovací dialog</"
-"link>."
-
-#. (itstool) path: section/title
-#: C/header-bar-menus.page:36
-msgid "Guidance"
-msgstr "Pokyny"
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:39
-msgid ""
-"Header bar menus should only contain actions for the current view or window "
-"- this differentiates their content from application menus."
-msgstr ""
-"Nabídky hlavičkové lišty by měly obsahovat činnosti týkající se jen "
-"aktuálního zobrazení nebo okna – tím se jejich obsah liší od nabídky "
-"aplikace."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:40
-msgid "Follow the <link xref=\"menus\">standard guidelines for menus</link>."
-msgstr "Řiďte se <link xref=\"menus\">standardními pokyny pro nabídky</link>."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:41
-msgid ""
-"A header bar menu is contained within a <link xref=\"popovers\">popover</"
-"link>. As such, a header bar menu can include a variety of controls, such as "
-"groups of buttons."
-msgstr ""
-"Nabídka hlavičkové lišty bývá vložená do <link xref=\"popovers"
-"\">rozbalovacího dialogu</link>. Díky tomu může obsahovat i různé ovládací "
-"prvky, třeba skupinu tlačítek."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:42
-msgid ""
-"Header bar menus shouldn’t include a close menu item, since this action is "
-"already provided by the header bar. It can also be ambiguous as to what a "
-"close menu item refers to."
-msgstr ""
-"Nabídka hlavičkové lišty by neměla obsahovat položku pro zavření, protože "
-"zavření je poskytováno již přímo hlavičkovou lištou. Může být také "
-"nejednoznačné, co by vlastně položka nabídky měla zavřít."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:51 C/menus.page:78
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
-"\">GtkMenuButton</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
-"\">GtkMenuButton</link>"
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:52 C/menus.page:83 C/popovers.page:68
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
-"\">GtkPopoverMenu</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
-"\">GtkPopoverMenu</link>"
-
-#. (itstool) path: info/desc
 #: C/header-bars.page:8
 msgid "Element that runs along the top of windows"
 msgstr "Prvky fungující podél horního okraje okna"
@@ -3062,8 +2922,8 @@ msgid ""
 "A header bar can - and should - update along with view or mode changes. This "
 "ensures that header bar controls are always relevant to the current context."
 msgstr ""
-"Hlavičková lišta se může (a měla by se) aktualizovat podle zobrazení nebo "
-"změny režimu. Tím se zajistí, že ovládací prvky na hlavičkové liště budou "
+"Hlavičková lišta se může (a měla by se) aktualizovat podle změny zobrazení "
+"nebo režimu. Tím se zajistí, že ovládací prvky na hlavičkové liště budou "
 "vždy souviset s aktuálním kontextem."
 
 #. (itstool) path: section/p
@@ -3164,60 +3024,208 @@ msgstr "Ikony a grafika"
 #. (itstool) path: page/p
 #: C/icons-and-artwork.page:19
 msgid ""
-"Icons play an important role in user interfaces: selecting the correct icon "
-"is therefore vital to making sure that your application is usable. An "
-"identifying icon is also an essential part of any application, and is a "
-"crucial part of its identity."
+"Icons are a basic element in user interfaces. They also make up a "
+"fundamental part of application identities. This page provides an overview "
+"of icon usage. It also describes which icons are available through the GNOME "
+"platform, introduces resources for creating new icons, and includes some "
+"general guidelines on using icons in user interfaces."
 msgstr ""
-"Ikony hrají v uživatelském rozhraní důležitou roli. Výběr správné ikony je "
-"proto nezbytný, aby vaše aplikace byla dobře použitelná. Nezbytnou součástí "
-"aplikace je také ikona, která ji zastupuje a tvoří tak podstatnou část její "
-"identity."
+"Ikony jsou základním prvkem uživatelského rozhraní. Tvoří také základní část "
+"identity aplikace. Tato stránka poskytuje přehled o používání ikon. Také "
+"popisuje, které ikony jsou dostupné v platformě GNOME, uvádí zdroje k tvorbě "
+"nových ikon a obsahuje některé obecné pokyny k používání ikon v uživatelském "
+"rozhraní."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:22
+msgid "Icon styles"
+msgstr "Styly ikon"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:24
+msgid "Two styles of icon are used in GNOME 3: full-color and symbolic icons."
+msgstr "V GNOME 3 se používají dva styly ikon: plnobarevné a symbolické."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:26
+msgid ""
+"Full-color icons are colorful and detailed, and are optimized for larger "
+"sizes. They are defined as 128x128px SVGs, and are sharpest when scaled up "
+"in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color "
+"icons also allows them to be rendered sharp at 64x64px and 32x32px, but is "
+"not advised to make them any smaller."
+msgstr ""
+"Plnobarevné ikony jsou v barevném provedení s detaily a optimalizované pro "
+"velké velikosti. Jsou definované jako SVG 128 × 128 px a jsou nejostřejší, "
+"když jsou škálovány na násobky 128 (například 256 × 256 a 512 × 512). Návrh "
+"plnobarevných ikon dovoluje také jejich překreslení na 64 × 64 px a "
+"32 × 32 px, ale nedoporučuje se dělat je menší."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:28
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/fullcolor-v-symbolic.svg' "
+"md5='33921c0746746de2adce51279dbc8606'"
+msgstr ""
+"external ref='figures/icons/fullcolor-v-symbolic.svg' "
+"md5='33921c0746746de2adce51279dbc8606'"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:30
+msgid ""
+"Symbolic icons are simple and monochrome, and are designed to work well at "
+"smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to "
+"multiples of 16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally "
+"have a neutral color, although their color can be changed programmatically."
+msgstr ""
+"Symbolické ikony jsou jednoduché a jednobarevné a jsou navržené, aby "
+"fungovaly správně i při malých velikostech. Definované jsou jako SVG "
+"16 × 16 px a mohou být škálovány na násobky 16 (například 32 × 32, 64 × 64,, "
+"128 × 128). Symbolické ikony mají obecně nějakou neutrální barvu, lze ji "
+"však programově změnit."
+
+#. (itstool) path: section/title
+#: C/icons-and-artwork.page:35
+msgid "Icon uses"
+msgstr "Použití ikon"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:38
+#| msgid ""
+#| "Every application should have a unique and beautiful application icon. It "
+#| "is the face of the application, and the first visual element a user sees "
+#| "when browsing for new applications. The <link xref=\"application-basics"
+#| "\">application basics page</link> includes details on what an application "
+#| "is, and when to provide an application icon."
+msgid ""
+"Application icons are the most prominent type of icons. Every application "
+"should have its own unique and beautiful application icon: it is the face of "
+"the application, and the first visual element a user sees when browsing for "
+"new applications."
+msgstr ""
+"Ikony aplikací patří k přednímu typu ikon. Každá aplikace by měla mít svoji "
+"jedinečnou a hezkou ikonu. Je to její tvář a první vizuální prvek, který z "
+"ní uživatel uvidí, když hledá nové aplikace."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:40
+msgid ""
+"Application icons use the full-color style. Applications are also "
+"recommended to provide a symbolic version of their icon, which is used for "
+"the high-contrast accessibility feature, as well as in contexts where a "
+"legible low-resolution icon is required."
+msgstr ""
+"Ikony aplikací používají plnobarevný styl. Aplikacím je ale rovněž "
+"doporučováno poskytnou symbolickou verzi své ikony, která se použije pro "
+"vysoký kontrast ve funkci zpřístupnění a stejně tak v situacích, kdy je "
+"potřeba čitelná ikona v nízkém rozlišení."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:42
+msgid ""
+"User interface icons typically use the symbolic style and this is the "
+"primary icon style used for user interface controls. The most common and "
+"obvious example of symbolic icon usage is on buttons."
+msgstr ""
+"Ikony uživatelského rozhraní používají symbolický styl a je to hlavní styl "
+"ikon používaných pro ovládací prvky. Nejběžnějším a jasným příkladem použití "
+"symbolických ikon je na tlačítkách."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:44
+msgid ""
+"Apart from application icons, the full-color icon style can also be used in "
+"cases where icons are displayed at large sizes and are intended to be the "
+"focus of attention. File and folder icons in a file manager are a good "
+"example of this."
+msgstr ""
+"Kromě ikon aplikací se plnobarevný styl ikon může použít také v případech, "
+"kdy jsou ikony zobrazené ve velkých velikostech a jejich cílem je přilákat "
+"pozornost. Ikony souborů a složek ve správci souborů jsou dobrým příkladem "
+"takového využití. "
+
+#. (itstool) path: section/title
+#: C/icons-and-artwork.page:49
+msgid "Stock icons and creating your own"
+msgstr "Standardní ikony a jak vytvořit svou vlastní"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:51
+msgid ""
+"GNOME provides a set of standard icons, which can be used by applications. "
+"This can be accessed directly through GTK. Icon names follow the <link href="
+"\"https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
+"html\">Freedesktop icon specification</link>. Symbolic versions of icons "
+"have the <code>-symbolic</code> name ending, such as <code>open-menu-"
+"symbolic</code>."
+msgstr ""
+"GNOME poskytuje sadu standardních ikon, které mohou být v aplikacích "
+"použity. Přístup k nim je přímo přes GTK. Názvy ikon dodržují <link href="
+"\"https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
+"html\">specifikaci ikon podle Freedesktop</link>. Symbolické verze ikon mají "
+"za názvem připojeno <code>-symbolic</code>, například <code>open-menu-"
+"symbolic</code>."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:53
+msgid ""
+"The <link xref=\"icon-design\">icon design guidelines</link> provide more "
+"details on how to create your own icons, including application icons."
+msgstr ""
+"<link xref=\"icon-design\">Pokyny k navrhování ikon</link> poskytují "
+"podrobnější popis, jak navrhovat své vlastní ikony, včetně ikon aplikací."
+
+#. (itstool) path: section/title
+#: C/icons-and-artwork.page:58
 msgid "Using icons in your user interface"
 msgstr "Používání ikon ve vašem uživatelském rozhraní"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:24
+#: C/icons-and-artwork.page:60
 msgid ""
-"There are many situations when it is necessary to decide between using an "
-"icon and a text label, particularly for buttons. Icons have the advantage of "
-"being smaller, and not requiring translation. At the same time, the "
-"incorrect use of an icon can make your interface hard - or even impossible - "
-"to understand."
+"Icons are a common user interface element and they have some practical "
+"advantages over text labels (such as being smaller). At the same time, over-"
+"use of icons can lead to confusion and a poor user experience. Likewise, the "
+"use of inappropriate icons can often make an interface difficult to use."
 msgstr ""
-"Existuje řada situací, kdy je třeba se rozhodnout mezi použitím ikony a "
-"textového popisku, typicky třeba u tlačítek. Výhodou ikon je, že jsou menší "
-"a nevyžadují překlad do národních jazyků. Na druhou stranu, nesprávné "
-"použití ikony může ztížit, nebo dokonce až znemožnit, pochopení vašeho "
-"uživatelského rozhraní."
+"Ikony jsou běžným prvkem uživatelského rozhraní a mají jistý praktický "
+"přínos oproti textovým popiskům (například jsou menší). Na druhou stranu, "
+"nadužívání ikon může vést k matení a špatné uživatelské zkušenosti. A "
+"obdobně, použití nevhodné ikony může často ztížit používání uživatelského "
+"rozhraní."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:62
+msgid ""
+"Therefore, only use icons whose meaning is commonly recognized. If a "
+"commonly recognized icon is not available, it might be better to use a text "
+"label instead. Typically, convention establishes which icons are commonly "
+"recognized. This set of icons is actually quite small, and includes standard "
+"icons such as search, menu, forward, back and share. If you are in doubt, "
+"only use icons which are frequently used in other applications."
+msgstr ""
+"Používejte proto pouze ikony, jejichž význam je obecně odhadnutelný. Pokud "
+"žádná taková není k dispozici, může být lepší místo ikony použít textový "
+"popisek. Které ikony jsou běžně rozpoznatelné se typicky řídí zvyklostmi. "
+"Takováto sada ikon je poměrně malá a obsahuje standardní ikony, jako je "
+"hledaní, nabídka, zpět, vpřed a sdílení. Pokud jste na pochybách, řiďte se "
+"tím, jaké ikony se často používají v jiných aplikacích."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:64
+msgid "Other things to consider when using icons:"
+msgstr ""
+"Další věci, nad kterými je třeba se zamyslet v souvislosti s použitím ikon:"
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:27
+#: C/icons-and-artwork.page:67
 msgid ""
-"Only use icons whose meaning is commonly recognized. If a commonly "
-"recognized icon is not available, it might be better to use a text label "
-"instead."
-msgstr ""
-"Ikony používejte, jen když je jejich význam všeobecně znám. Pokud běžně "
-"známá ikona není k dispozici, může být lepší místo ní použít textový popisek."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:29
-msgid ""
-"Convention establishes which icons will be recognized. If you are in doubt, "
-"stick to icons which are frequently used in other applications."
-msgstr ""
-"Zaběhnuté zvyklosti určují, které ikony uživatel pozná. Pokud si nejste "
-"jisti, sáhněte po ikonách, které jsou nejčastěji používané v jiných "
-"aplikacích."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:30
-msgid ""
-"Consider which icons will be meaningful in the specific context of your "
+"Think about which icons will be meaningful in the specific context of your "
 "application - users of specialist tools will often be familiar with domain-"
 "specific symbols."
 msgstr ""
@@ -3226,7 +3234,7 @@ msgstr ""
 "danou oblast."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:32
+#: C/icons-and-artwork.page:68
 msgid ""
 "Remember that some icons are only meaningful alongside other icons of the "
 "same type. For example, a media icon for stop is simply a square, and may "
@@ -3242,543 +3250,6 @@ msgstr ""
 "Obdobně ikona pro odebrání ze seznamu je hodně abstraktní (mínus, což je jen "
 "jednoduchá čárka) a nemusí být uživatelem pochopena bez příslušné ikony "
 "„plus“."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:38
-msgid "Choosing stock GNOME icons"
-msgstr "Výběr standardních ikon GNOME"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:40
-msgid ""
-"GNOME provides a full set of standard icons. These should be used where ever "
-"appropriate; try to avoid creating custom icons unless they are absolutely "
-"necessary."
-msgstr ""
-"GNOME poskytuje plnou sadu standardních ikon. Ty by měly být použity všude, "
-"kde se to hodí. Vytváření vlastních ikon se pokuste vyhnout, pokud to není "
-"absolutně nutné."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:42
-msgid ""
-"Follow the icon naming specification when selecting which icons to use - the "
-"name of the icon should reflect what the icon is intended to communicate. "
-"This is important for those using a screen reader."
-msgstr ""
-"Když vybíráte, kterou ikonu použít, řiďte se jejím názvem. Název ikony by "
-"měl odrážet to, co se ikona snaží sdělit. Je to důležité pro uživatele, "
-"kteří používají čtečku obrazovky."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:44
-msgid "You can use the GTK+ icon browser to find recommended icons."
-msgstr "K vyhledání doporučených ikon můžete použít prohlížeč ikon GTK+."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:47
-msgid "Color vs. symbolic icons"
-msgstr "Barevné vs. symbolické ikony"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:49
-msgid ""
-"GNOME 3 provides two types of icon: full-color and monochrome symbolic "
-"icons. The guidelines in this HIG indicate when to use which type of icon. "
-"The following is a a general guide."
-msgstr ""
-"GNOME 3 poskytuje dva typy ikon: plnobarevné a monochromatické symbolické. "
-"Pokyny v této příručce navádí, kdy který typ použít. Zde jsou obecné rady."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:51
-msgid "Full-color icons should be used for:"
-msgstr "Plnobarevné ikony by měly být použity pro:"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:54
-msgid "devices"
-msgstr "zařízení"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:55
-msgid "filetypes/mimetypes"
-msgstr "typy souborů/typy MIME"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:56
-msgid "application (launcher) icons"
-msgstr "(spouštěcí) ikony aplikací"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:59
-msgid ""
-"All other icons should use the symbolic icon style. In addition, symbolic "
-"icons should always be used inside:"
-msgstr ""
-"Všechny ostatní ikony by měly používat symbolický styl. Navíc by symbolické "
-"ikony měly být použité vždy uvnitř:"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:62
-msgid "buttons"
-msgstr "tlačítek"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:63
-msgid "lists"
-msgstr "seznamů"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:64
-msgid "entry fields"
-msgstr "vstupních polí"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:65
-msgid ""
-"when the background is semi-transparent (such as overlaid media or "
-"fullscreen controls)"
-msgstr ""
-"když je pozadí poloprůhledné (například u ovládacích prvků překrývajících "
-"multimédia nebo u ovládacích prvků v režimu celé obrazovky)"
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:73
-msgid "Application icons"
-msgstr "Ikony aplikací"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:75
-msgid ""
-"Every application should have a unique and beautiful application icon. It is "
-"the face of the application, and the first visual element a user sees when "
-"browsing for new applications. The <link xref=\"application-basics"
-"\">application basics page</link> includes details on what an application "
-"is, and when to provide an application icon."
-msgstr ""
-"Každá aplikace by měla mít svoji jedinečnou a hezkou ikonu. Je to její tvář "
-"a první vizuální prvek, který z ní uživatel uvidí, když hledá nové aplikace. "
-"Na <link xref=\"application-basics\">stránce se základy o aplikacích</link> "
-"jsou uvedeny podrobnosti o tom, co to aplikace je a kdy poskytnout její "
-"ikonu."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:77
-msgid ""
-"Because application icons are presented at larger sizes, legacy Tango styled "
-"48x48 px or SVG icons no longer suffice (lacking detail). It is essential "
-"your application has a 256x256 px icon. With the advent of high-DPI "
-"displays, a 512x512 px variant is recommended."
-msgstr ""
-"Protože ikony aplikací jsou předkládány ve velkých velikostech, původní "
-"rozměry pro styl Tango 48 × 48 px nebo jen SVG již dnes nedostačují "
-"(postrádají detaily). Je důležité, aby vaše aplikace měla ikonu "
-"256 × 256 px. S příchodem displejů s vysokou hustotou bodů je doporučována i "
-"varianta 512 × 512 px."
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:79
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
-msgstr ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:81
-msgid ""
-"While not as critical, there are still areas where application icons are "
-"presented at a small size. To keep the icon sharp and well defined, a "
-"specific rendering is required to sizes of 48x48 px, 32x32 px, 24x24 px and "
-"16x16 px. Many GNOME icons also ship a 22x22 px size for legacy reasons, but "
-"that isn’t required."
-msgstr ""
-"I když to není úplně podstatné, stále existují místa, kde jsou ikony "
-"aplikací předkládány v menších velikostech. Abyste zachovali ostrost a "
-"kvalitu, je požadováno konkrétní vykreslení ve velikostech 48 × 48 px, "
-"32 × 32 px, 24 × 24 px a 16 × 16 px. GNOME s historických důvodů šiří také "
-"ikony ve velikosti 22 × 22 px, ale není to vyloženě vyžadováno."
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:83
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
-msgstr ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:85
-msgid ""
-"To maintain crispness, a lot of detail is discarded for the low resolution "
-"variants and a 1px stroke is used to outline the silhouette of the object."
-msgstr ""
-"Chcete-li u nízkých rozlišení zachovat ostrost, zahoďte většinu detailů a "
-"použijte jednopixelovou čáru k obtažení obrysu objektu."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:87
-msgid ""
-"More information on designing an application icon can be found below, in the "
-"custom full-color icon section."
-msgstr ""
-"Více informací o návrhu ikony aplikace najdete níže v části Vlastní "
-"plnobarevné ikony."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:92
-msgid "Custom symbolic icons"
-msgstr "Vlastní symbolické ikony"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:94
-msgid ""
-"Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. "
-"They are then programmatically scaled and colored within the user interface "
-"itself."
-msgstr ""
-"Symbolické ikony mají jednoduchou formu a jsou vykreslovány v mřížce "
-"16 × 16 jednotek. Programově jsou pak škálovány a obarveny podle aktuálního "
-"uživatelského prostředí."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:97
-msgid ""
-"Identify a single property when looking for an appropriate metaphor for an "
-"icon, and focus on what distinguishes the idea you want to communicate. For "
-"example, when describing an action to be performed on an image, it isn’t "
-"necessary to repeat the idea of an image in every icon. Instead, focus on "
-"what is distinct about each action (for example: rotate, tag, align)."
-msgstr ""
-"Při hledání vhodného symbolu ikony si určete jen jednu vlastnost a zaměřte "
-"se na to, co je pro myšlenku, kterou chcete zdělit jedinečné. Například, "
-"když popisujete činnost, která se provádí na obrázku, není třeba v každé "
-"ikoně opakovat myšlenku obrázku. Místo toho se zaměřte na jednotlivé "
-"konkrétní činnosti (např. otočení, štítek, zarovnání)."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:98
-msgid ""
-"Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
-"view."
-msgstr ""
-"U symbolických ikon se vyhněte použití perspektivy, držte se čistě plošného "
-"zobrazení."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:99
-msgid ""
-"Filled shapes are generally faster to process by the human visual system "
-"than wireframe outlines."
-msgstr "Vyplněné tvary lidské oko rozpoznává obecně lépe než pouhé obrysy."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:100
-msgid ""
-"Symbolic icons are recolored at runtime to match the context, very much like "
-"a piece of text. While there are ways to “shade” parts of an icon by using "
-"opacity or creating duotone/pattern dithering, try avoiding these as much as "
-"possible."
-msgstr ""
-"Symbolické ikony jsou za běhu přebarvované, obdobně jako text, aby zapadly "
-"do kontextu. Ačkoliv jsou způsoby, jak „vystínovat“ části ikony pomocí "
-"průhlednosti nebo vytvořením dvoubarevného šrafovacího vzoru, snažte se "
-"těmto věcem vyhnout."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:101
-msgid ""
-"When a metaphor relies on the negative space, make sure it will work with "
-"the colors inverted. For example a camera lens spec/highlight will only work "
-"if lighter than the lens itself."
-msgstr ""
-"V případě, že je symbolické znázornění založeno na negativní ploše, ujistěte "
-"se, že bude správně vypadat i s prohozenými barvami. Například vymezení/"
-"zvýraznění objektivu fotoaparátu u ikony níže bude fungovat, jen když bude "
-"tenčí než objektiv samotný."
-
-#. (itstool) path: section/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:104
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/inverting.svg' "
-"md5='e4155d9e87e2abe95e70c42185686b5e'"
-msgstr ""
-"external ref='figures/icons/inverting.svg' "
-"md5='e4155d9e87e2abe95e70c42185686b5e'"
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:107
-msgid "Size and grid"
-msgstr "Velikost a mřížka"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:109
-msgid ""
-"While the icons are scalable and should work in any size, the basic canvas "
-"size is 16x16 grid units. You have the whole canvas to fill, but note that a "
-"filled rectangular object will appear stronger/larger when placed next to "
-"items that only use thinner strokes. Try to keep the contrast of your whole "
-"set."
-msgstr ""
-"I když jsou ikony škálovatelné a měly by fungovat v libovolné velikosti, "
-"základní plátno má mřížku 16 × 16 bodů mřížky. Musíte zaplnit celou mřížku, "
-"ale uvědomte si, že když vyplněný obdélníkový objekt umístíte vedle položky, "
-"která má jen tenké obrysy, bude se opticky jevit silnější/větší. Pokuste se "
-"pro celou sadu udržet jednotný kontrast."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:116
-msgid "Custom full-color icons"
-msgstr "Vlastní plnobarevné ikony"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:118
-msgid "Full-color icons are drawn and rendered at a variety of preset sizes."
-msgstr ""
-"Plnobarevné ikony jsou vykreslovány v různých předvolených velikostech."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:121
-msgid "Perspective"
-msgstr "Prespektiva"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:123
-msgid ""
-"Most icons can be executed best by using the “on the table” perspective, as "
-"if the observer was standing in front of the object and looking slightly "
-"down on it. Many icons can be rendered with a simple “straight on” or “on "
-"the shelf” perspective, with the observer looking directly at the object at "
-"eye level."
-msgstr ""
-"Většina ikon bude mít nejlepší provedení s perspektivou půdorysu, jakoby by "
-"pozorovatel stál před objektem a díval se na něj téměř kolmo dolů "
-"(představte si věc položenou na stole). Hodně ikon lze nakreslit také v "
-"perspektivě nárysu, jako byste se na objekt dívali přímo ze předu v úrovni "
-"očí (představte si věc položenou na poličce)."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:128
-msgid "Palette"
-msgstr "Paleta"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:130
-msgid ""
-"Use the Tango color palette when designing full color application or device "
-"icons."
-msgstr ""
-"Když navrhujete plnobarevné ikony aplikací nebo zařízení, používejte "
-"barevnou paletu Tango."
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:134
-msgid "Butter"
-msgstr "máslová"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:135
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-msgstr ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:136
-msgid "Plum"
-msgstr "švestková"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:137
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-msgstr ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:140
-msgid "Orange"
-msgstr "oranžová"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:141
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-msgstr ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:142
-msgid "Scarlet Red"
-msgstr "jasně červená"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:143
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-msgstr ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:146
-msgid "Chocolate"
-msgstr "čokoládová"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:147
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-msgstr ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:148
-msgid "Aluminium"
-msgstr "hliníková"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:149
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-msgstr ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:152
-msgid "Chameleon"
-msgstr "žabičková"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:153
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-msgstr ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:155
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-msgstr ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:158
-msgid "Sky Blue"
-msgstr "blankytně modrá"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:159
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
-msgstr ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:164
-msgid ""
-"You are free to use different shades of these colors depending on the "
-"desired material effect. However, these primary colors are a good baseline "
-"to start from. All major libre graphics packages come with the Tango palette "
-"pre-installed."
-msgstr ""
-"Můžete volně použít i jiné odstíny těchto barev, podle požadovaných "
-"materiálových efektů. Ale tyto základní barvy jsou dobrým základem, ze "
-"kterého byste měli vyjít. Všechny hlavní svobodné grafické balíky obsahují "
-"paletu Tango předinstalovanou."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:171
-msgid "See also"
-msgstr "Viz také"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:173
-msgid ""
-"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
-"\">Tango Icon Guidelines</link>"
-msgstr ""
-"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
-"\">Příručka k ikonám Tango</link>"
 
 #. (itstool) path: page/title
 #: C/index.page:14
@@ -4004,12 +3475,12 @@ msgstr "Jak podporovat různá zařízení a typy displejů."
 #. (itstool) path: info/desc
 #: C/in-app-notifications.page:8 C/info-bars.page:8
 msgid "Application event notifications"
-msgstr "Upozornění na události v rámci aplikace"
+msgstr "Oznámení události v rámci aplikace"
 
 #. (itstool) path: page/title
 #: C/in-app-notifications.page:16
 msgid "In-app notifications"
-msgstr "Upozornění v aplikaci"
+msgstr "Oznámení v aplikaci"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -4033,7 +3504,7 @@ msgid ""
 "happened, and can also include a button that allows the user to respond. "
 "They are always transient and user dismissable."
 msgstr ""
-"Upozornění v aplikaci jsou vyskakovací upozornění, která se zobrazí v rámci "
+"Oznámení v aplikaci jsou vyskakovací oznámení, která se zobrazí v rámci "
 "aplikace. Obsahují popisek, který popisuje událost, která nastala, a rovněž "
 "mohou obsahovat tlačítko, které umožní uživateli reagovat. Jsou vždy dočasné "
 "a uživatel má možnost je nechat zmizet."
@@ -4041,17 +3512,19 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:25
 msgid ""
-"In-app notifications are appropriate when you want to inform the user about "
-"an event that is relevant to their ongoing use of an application. They are "
-"best used to provide immediate feedback. This contrasts with <link xref="
-"\"notifications\">standard notifications</link>, which provide system-wide "
-"alerts, and which persist after the notification has been initially "
-"displayed."
+"In-app notifications can be used to inform users about events that are "
+"immediately relevant to their activity in an application, but which don't "
+"have long-term interest. One common use is to provide feedback in response "
+"to user actions, while the application is being used. This contrasts with "
+"<link xref=\"notifications\">standard notifications</link>, which provide "
+"system-wide alerts, and which persist after the notification has been "
+"initially displayed."
 msgstr ""
-"Upozornění v aplikaci jsou vhodná, když chcete uživatele informovat o "
-"události, která se vztahuje k jeho právě probíhajícímu používání aplikace. "
-"Jsou nejlepší k poskytnutí okamžité zpětné vazby. To je v kontrastu k <link "
-"xref=\"notifications\">standardními upozorněními</link>, které poskytují "
+"Oznámení v aplikaci je možné použít k informování uživatele o události, "
+"která se bezprostředně vztahuje k jeho činnosti v aplikaci, ale nebude ho "
+"zajímat dlouhodobě. Běžným případem použití je poskytnutí zpětné vazby k "
+"činnosti, kterou uživatel v aplikaci právě provádí. To je v kontrastu k "
+"<link xref=\"notifications\">standardními oznámeními</link>, které poskytují "
 "varování týkající se systému jako celku, a která přetrvávají i po té, co "
 "byla poprvé zobrazena."
 
@@ -4059,25 +3532,20 @@ msgstr ""
 #: C/in-app-notifications.page:27
 msgid ""
 "Allowing the user to undo a destructive action is an example of a good use "
-"of in-app notifications: the notification is not needed outside of the "
-"application window, and is immediately relevant. The button that allows the "
-"user to respond to the event, by pressing ."
+"of in-app notifications: the notification is shown immediately after a user "
+"action, and is shown in the most relevant context."
 msgstr ""
-"Příkladem dobrého použití upozornění v aplikaci je nabídnout uživateli "
-"vrátit zpět destruktivní činnost – upozornění není potřebné mimo okno "
-"aplikace a má okamžitou souvislost. Má také tlačítko, které uživateli "
-"nabídne na událost reagovat jeho zmáčknutím."
+"Příkladem dobrého použití oznámení v aplikaci je nabídnout uživateli možnost "
+"vrátit zpět destruktivní činnost – oznámení se zobrazí bezprostřední po "
+"uživatelově činnosti a je zobrazeno v příslušném kontextu."
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:29
 msgid ""
 "In-app notifications are not a good solution for communicating ongoing "
-"states. <link xref=\"info-bars\">Info bars</link> offer one alternative you "
-"can consider."
+"states."
 msgstr ""
-"Upozornění v aplikaci nejsou dobrým řešením pro sdělování průběžného stavu. "
-"Jako alternativu ke zvážení nabízíme <link xref=\"info-bars\">informační "
-"lišty</link>."
+"Oznámeníá v aplikaci nejsou dobrým řešením pro sdělování průběžného stavu."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:37
@@ -4086,7 +3554,7 @@ msgid ""
 "notification: only include one if it is directly related to the event and is "
 "generally useful."
 msgstr ""
-"Vždy není nutné do upozornění v aplikaci vkládat i nějaké tlačítko. To tam "
+"Vždy není nutné do oznámení v aplikaci vložit i nějaké tlačítko. To tam "
 "dejte, jen když by mělo k události přímý vztah a bylo obecně užitečné."
 
 #. (itstool) path: item/p
@@ -4095,7 +3563,7 @@ msgid ""
 "Don't distract with unnecessary in-app notifications, and be careful not to "
 "overuse them: they can be annoying if they pop up frequently."
 msgstr ""
-"Nerozptylujte uživatele nepodstatnými upozorněními v aplikaci a vyvarujte se "
+"Nerozptylujte uživatele nepodstatnými oznámeními v aplikaci a vyvarujte se "
 "jejich nadužívání. Je opravdu otravné, když vyskakují příliš často."
 
 #. (itstool) path: item/p
@@ -4104,7 +3572,7 @@ msgid ""
 "Only one in-app notification can be displayed at a time, and new instances "
 "should replace existing ones."
 msgstr ""
-"V jednu chvíli může být zobrazeno jen jedno upozornění v aplikaci a nová "
+"V jednu chvíli může být zobrazeno jen jedno oznámení v aplikaci a nová "
 "instance by měla nahradit tu stávající."
 
 #. (itstool) path: page/title
@@ -4144,9 +3612,9 @@ msgstr ""
 msgid ""
 "Info bars can be used to communicate a particular state about a particular "
 "content item or location. For example, an info bar could indicate that a "
-"document is out of date or being edited by other, or that a service relating "
-"to a location is not operating. In some situations, they can also be used to "
-"present supplementary information, such as user guidance."
+"document is out of date or being edited by others, or that a service "
+"relating to a location is not operating. In some situations, they can also "
+"be used to present supplementary information, such as user guidance."
 msgstr ""
 "Informační lišty můžete použít ke sdělení konkrétního stavu ke konkrétní "
 "položce obsahu nebo umístění. Například může informační lišta sdělit, že "
@@ -4164,8 +3632,8 @@ msgid ""
 msgstr ""
 "Protože informační lišty trvale zůstávají, jsou obecně vhodnější pro "
 "sdělování průběžného stavu, než pro události (k tomu jsou vhodnější <link "
-"xref=\"notifications\">upozornění</link> a <link xref=\"in-app-notifications"
-"\">upozornění v aplikaci</link>)."
+"xref=\"notifications\">oznámení</link> a <link xref=\"in-app-notifications"
+"\">oznámení v aplikaci</link>)."
 
 #. (itstool) path: section/p
 #: C/info-bars.page:29
@@ -4201,7 +3669,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/info-bars.page:38
-msgid "Only one info bar should be visable at any one time."
+msgid "Only one info bar should be visible at any one time."
 msgstr "V jeden okamžik by měla být viditelná jej jedna informační lišta."
 
 #. (itstool) path: item/p
@@ -4388,7 +3856,7 @@ msgstr "<keyseq><key>Ctrl</key><key>F1</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:73
-msgid "Shows a tooltip for the the currently-focused window or control"
+msgid "Shows a tooltip for the currently-focused window or control"
 msgstr "Zobrazit vysvětlivku pro právě zaměřené okno nebo ovládací prvek"
 
 #. (itstool) path: td/p
@@ -7333,15 +6801,34 @@ msgstr ""
 "nepoužívejte pro nastavení – použijte místo toho zaškrtávací políčka nebo "
 "skupinové přepínače."
 
+#. (itstool) path: item/p
+#: C/menus.page:78 C/primary-menus.page:48 C/secondary-menus.page:47
+msgid ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
+"\">GtkMenuButton</link>"
+msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
+"\">GtkMenuButton</link>"
+
+#. (itstool) path: item/p
+#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:49
+#: C/secondary-menus.page:48
+msgid ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
+"\">GtkPopoverMenu</link>"
+msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
+"\">GtkPopoverMenu</link>"
+
 #. (itstool) path: info/desc
 #: C/notifications.page:8
 msgid "System-wide event notifications"
-msgstr "Upozornění na události v rámci celého systému"
+msgstr "Oznámení události v rámci celého systému"
 
 #. (itstool) path: page/title
 #: C/notifications.page:16
 msgid "Notifications"
-msgstr "Upozornění"
+msgstr "Oznámení"
 
 #. (itstool) path: page/p
 #: C/notifications.page:18
@@ -7350,9 +6837,9 @@ msgid ""
 "using your application. They also provide the ability for users to quickly "
 "respond to those events, using notification actions."
 msgstr ""
-"Upozornění umožňují informovat uživatele o událostech, i když vaši aplikaci "
+"Oznámení umožňují informovat uživatele o událostech, i když vaši aplikaci "
 "zrovna nepoužívá. Rovněž poskytují uživateli schopnost na tyto události "
-"rychle reagovat pomocí činností upozornění."
+"rychle reagovat pomocí činností v oznámení."
 
 #. (itstool) path: section/p
 #: C/notifications.page:23
@@ -7362,7 +6849,7 @@ msgid ""
 "messaging applications, the completion of long-running tasks, reminders for "
 "calendars, and so on."
 msgstr ""
-"Upozornění používejte k informování uživatele o události, která by jej mohla "
+"Oznámení používejte k informování uživatele o události, která by jej mohla "
 "zajímat, i když vaši aplikaci zrovna nepoužívá. Mezi to patří například nová "
 "zpráva v komunikační aplikaci, dokončení dlouho běžící úlohy, připomenutí z "
 "kalendáře a podobné."
@@ -7374,19 +6861,19 @@ msgid ""
 "provided by your application windows, which should be able to inform the "
 "user about events without the need for notifications."
 msgstr ""
-"Upozornění by neměla být používána jako náhrada za zpětnou vazbu, kterou "
+"Oznámení by neměla být používána jako náhrada za zpětnou vazbu, kterou "
 "poskytují okna vaší aplikace, která by měla být schopná informovat uživatele "
-"o události bez potřeby upozornění."
+"o události bez potřeby oznámení."
 
 #. (itstool) path: section/title
 #: C/notifications.page:30
 msgid "Notification elements"
-msgstr "Prvky upozornění"
+msgstr "Prvky oznámení"
 
 #. (itstool) path: section/p
 #: C/notifications.page:32
 msgid "Notifications in GNOME 3 have a number of standard components:"
-msgstr "Upozornění v GNOME 3 mají řadu standardních komponent:"
+msgstr "Oznámení v GNOME 3 mají řadu standardních komponent:"
 
 #. (itstool) path: td/p
 #: C/notifications.page:37
@@ -7401,7 +6888,7 @@ msgstr "Ikona aplikace"
 #. (itstool) path: td/p
 #: C/notifications.page:42
 msgid "Indicates which application sent the notification."
-msgstr "Ukazuje, která aplikace upozornění poslala."
+msgstr "Ukazuje, která aplikace oznámení poslala."
 
 #. (itstool) path: td/p
 #: C/notifications.page:45
@@ -7411,7 +6898,7 @@ msgstr "Název"
 #. (itstool) path: td/p
 #: C/notifications.page:45
 msgid "The heading for the notification."
-msgstr "Název upozornění."
+msgstr "Název oznámení."
 
 #. (itstool) path: td/p
 #: C/notifications.page:48
@@ -7425,8 +6912,8 @@ msgid ""
 "The notification body can include multiple paragraphs. For example: a "
 "snippet from the beginning of an email."
 msgstr ""
-"Volitelný blok textu, který poskytuje další podrobnosti k upozornění. Může "
-"mít více odstavců. Například: úryvek ze začátku e-mailu."
+"Volitelný blok textu, který poskytuje další podrobnosti k oznámení. Může mít "
+"více odstavců. Například: úryvek ze začátku e-mailu."
 
 #. (itstool) path: td/p
 #: C/notifications.page:51
@@ -7437,7 +6924,7 @@ msgstr "Výchozí činnost"
 #: C/notifications.page:51
 msgid ""
 "This is the action that is triggered when the notification is activated."
-msgstr "Jedná se o činnost, která se spustí, když je upozornění aktivováno."
+msgstr "Jedná se o činnost, která se spustí, když je oznámení aktivováno."
 
 #. (itstool) path: td/p
 #: C/notifications.page:54
@@ -7447,7 +6934,7 @@ msgstr "Činnosti"
 #. (itstool) path: td/p
 #: C/notifications.page:54
 msgid "Each notification can include up to three buttons."
-msgstr "Každé upozornění může zahrnovat až tři tlačítka."
+msgstr "Každé oznámení může zahrnovat až tři tlačítka."
 
 #. (itstool) path: section/title
 #: C/notifications.page:60
@@ -7463,8 +6950,8 @@ msgid ""
 "the title alone."
 msgstr ""
 "Název by měl poskytovat krátké a stručné shrnutí popisu události, která "
-"upozornění vyvolala. Tělo upozornění nemusí být vždy viditelné, takže je "
-"důležité zajistit, že upozornění bude uživatelem pochopeno i ze samotného "
+"oznámení vyvolala. Tělo oznámení nemusí být vždy viditelné, takže je "
+"důležité zajistit, že oznámení bude uživatelem pochopeno i ze samotného "
 "názvu."
 
 #. (itstool) path: section/title
@@ -7482,16 +6969,16 @@ msgid ""
 "notification about a new email should show the relevant email message when "
 "activated, for example."
 msgstr ""
-"Výchozí činnost by měla vždy zajistit odstranění upozornění a přenést do "
-"popředí okno patřící aplikaci, která upozornění vyslala. Když upozornění "
-"patří k nějaké konkrétní části uživatelského rozhraní vaší aplikace, měla by "
-"výchozí činnost zobrazit tuto část. Například výchozí činnost pro upozornění "
-"o novém e-mailu by měla zobrazit příslušnou e-mailovou zprávu."
+"Výchozí činnost by měla vždy zajistit odstranění oznámení a přenést do "
+"popředí okno patřící aplikaci, která oznámení vyslala. Když oznámení patří k "
+"nějaké konkrétní části uživatelského rozhraní vaší aplikace, měla by výchozí "
+"činnost zobrazit tuto část. Například výchozí činnost pro oznámení o novém e-"
+"mailu by měla zobrazit příslušnou e-mailovou zprávu."
 
 #. (itstool) path: section/title
 #: C/notifications.page:74
 msgid "Notification actions"
-msgstr "Činnosti upozornění"
+msgstr "Činnosti v oznámení"
 
 #. (itstool) path: section/p
 #: C/notifications.page:76
@@ -7499,8 +6986,8 @@ msgid ""
 "You can provide useful functionality by embedding buttons in notifications. "
 "This allows users to quickly and easily respond to the notification."
 msgstr ""
-"Užitečné funkce můžete poskytnout vložením tlačítek přímo do upozornění. "
-"Uživateli to umožní rychle a jednoduše na upozornění reagovat."
+"Užitečné funkce můžete poskytnout vložením tlačítek přímo do oznámení. "
+"Uživateli to umožní rychle a jednoduše na oznámení reagovat."
 
 #. (itstool) path: item/p
 #: C/notifications.page:79
@@ -7509,9 +6996,9 @@ msgid ""
 "and should not provide generic actions for your application. This ensures "
 "that each notification has a clear focus and purpose."
 msgstr ""
-"Nabídnuté činnosti by se měly vztahovat k obsahu upozornění a neměly by "
-"poskytovat obecné činnosti z vaší aplikace. To zajistí, že každé upozornění "
-"má jasný cíl a účel."
+"Nabídnuté činnosti by se měly vztahovat k obsahu oznámení a neměly by "
+"poskytovat obecné činnosti z vaší aplikace. To zajistí, že každé oznámení má "
+"jasný cíl a účel."
 
 #. (itstool) path: item/p
 #: C/notifications.page:80
@@ -7519,7 +7006,7 @@ msgid ""
 "Only use notification actions when the functionality that they provide is "
 "commonly required."
 msgstr ""
-"Činnosti v upozornění použijte jen když je funkce, kterou poskytují, obecně "
+"Činnosti v oznámení použijte jen když je funkce, kterou poskytují, obecně "
 "žádaná."
 
 #. (itstool) path: item/p
@@ -7537,7 +7024,7 @@ msgid ""
 "It is not necessary to always use notification actions, and many "
 "notifications will not require them."
 msgstr ""
-"Činnosti není nutné v upozorněních používat vždy a řada upozornění je vůbec "
+"Činnosti není nutné v oznámení použít vždy a řada oznámení je vůbec "
 "nepotřebuje."
 
 #. (itstool) path: item/p
@@ -7547,9 +7034,9 @@ msgid ""
 "new email notification does not need to include an Open button, since the "
 "default action should already perform this action."
 msgstr ""
-"Činnosti upozornění by neměly duplikovat výchozí činnost. Například "
-"upozornění na nový e-mail nepotřebuje mít tlačítko <gui>Open</gui> "
-"(<gui>Otevřít</gui>), protože to by měla udělat výchozí činnost."
+"Činnosti v oznámení by neměly duplikovat výchozí činnost. Například oznámení "
+"o novém e-mailu nepotřebuje mít tlačítko <gui>Open</gui> (<gui>Otevřít</"
+"gui>), protože to by měla udělat výchozí činnost."
 
 #. (itstool) path: section/title
 #: C/notifications.page:90
@@ -7565,9 +7052,9 @@ msgid ""
 "notifications, and question whether users really need to be informed about "
 "the events you want to communicate."
 msgstr ""
-"Je důležité uživatele upozorněními zbytečně nevyrušovat. Velmi snadno se to "
+"Je důležité uživatele oznámeními zbytečně nevyrušovat. Velmi snadno se to "
 "totiž zvrhne v obtěžování a frustraci a uživatel pak bude mít tendenci si "
-"vaši aplikaci zprotivit. Proto při zavádění upozornění buďte vždy kritičtí a "
+"vaši aplikaci zprotivit. Proto při zavádění oznámení buďte vždy kritičtí a "
 "položte si otázku, jestli uživatel opravdu tak moc potřebuje být informován "
 "o události, kterou chcete sdělit."
 
@@ -7583,9 +7070,9 @@ msgid ""
 msgstr ""
 "Aplikace, které operují se spoustou událostí, například s e-maily nebo se "
 "zprávami ze sociálních sítí, riskují, že budou uživatele rušit velkým "
-"množstvím upozornění. Takovéto aplikace by měli zavést omezení, jak často "
-"budou upozornění zasílat. Místo aby zobrazovali upozornění pro každou "
-"jednotlivou novou zprávu, je lepší nápad posílat upozornění jako souhrn pro "
+"množstvím oznámení. Takovéto aplikace by měli zavést omezení, jak často "
+"budou oznámení zasílat. Místo aby zobrazovali oznámení pro každou "
+"jednotlivou novou zprávu, je lepší nápad posílat oznámení jako souhrn pro "
 "několik nových zpráv."
 
 #. (itstool) path: item/p
@@ -7595,8 +7082,8 @@ msgid ""
 "It is therefore important to remove notification messages that are no longer "
 "relevant to the user."
 msgstr ""
-"Upozornění v GNOME 3 přetrvávají i po té, co jsou poprvé zobrazena. Je proto "
-"důležité odstraňovat zprávy upozornění, které pro uživatele nemají nadále "
+"Oznámení v GNOME 3 přetrvávají i po té, co jsou poprvé zobrazena. Je proto "
+"důležité odstraňovat zprávy oznámení, které pro uživatele nemají nadále "
 "žádný význam."
 
 #. (itstool) path: item/p
@@ -7608,9 +7095,9 @@ msgid ""
 "read, and should be removed."
 msgstr ""
 "Okno vaší aplikace by mělo poskytnou zpětnou vazbu u všech událostí, které "
-"byly oznámeny přes upozornění. Když je okno aplikace zaměřeno, je následkem, "
-"že se zprávou v upozorněních by mělo být zacházeno, jako by byla přečtena a "
-"měla by být odstraněna."
+"byly oznámeny. Když je okno aplikace zaměřeno, je následkem, že se zprávou v "
+"oznámeních by mělo být zacházeno, jako by byla přečtena a měla by být "
+"odstraněna."
 
 #. (itstool) path: item/p
 #: C/notifications.page:98
@@ -7619,8 +7106,8 @@ msgid ""
 "For example, a notification for a weather warning that has been revoked "
 "should be removed."
 msgstr ""
-"Zajistěte, aby vaše aplikace odstranila upozornění, která již neplatí. "
-"Například upozornění na varování k počasí, které bylo odvoláno, by mělo být "
+"Zajistěte, aby vaše aplikace odstranila oznámení, která již neplatí. "
+"Například oznámení s varování o počasí, které bylo odvoláno, by mělo být "
 "odstraněno."
 
 #. (itstool) path: item/p
@@ -7766,10 +7253,10 @@ msgstr "Vizuální náhledy pro některé z nejběžnějších návrhových vzor
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/patterns.svg' "
-"md5='f0189f11788efa1c344770abffa80a2e'"
+"md5='3702bfc5fa36705341014c7df1f4a5af'"
 msgstr ""
 "external ref='figures/patterns/patterns.svg' "
-"md5='f0189f11788efa1c344770abffa80a2e'"
+"md5='3702bfc5fa36705341014c7df1f4a5af'"
 
 #. (itstool) path: section/title
 #: C/patterns.page:24
@@ -8597,6 +8084,133 @@ msgstr ""
 "\">GtkPopover</link>"
 
 #. (itstool) path: info/desc
+#: C/primary-menus.page:8 C/secondary-menus.page:8
+msgid "The application's main menu, denoted by three stacked horizontal lines"
+msgstr "Hlavní nabídka aplikace představovaná třemi vodorovnými čarami"
+
+#. (itstool) path: page/title
+#: C/primary-menus.page:16
+msgid "Primary menus"
+msgstr "Hlavní nabídky"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/primary-menus.page:18
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/primary-menu.svg' "
+"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+msgstr ""
+"external ref='figures/patterns/primary-menu.svg' "
+"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+
+#. (itstool) path: page/p
+#: C/primary-menus.page:20
+msgid ""
+"Primary menus are a standard design pattern that is found in most "
+"applications. They are labelled with the menu icon (named <code>menu-open</"
+"code>) and contain the top-level menu items for the application. This can "
+"include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
+"<gui>About</gui>, as well as other application-specific items."
+msgstr ""
+"Hlavní nabídky jsou standardním návrhovým vzorem, který najdete ve většině "
+"aplikací. Jsou označeny ikonou nabídky (nazvané <code>menu-open</code>) a "
+"obsahují položky nejvyšší úrovně pro aplikaci. Může jít o standardní "
+"položky, jako jsou <gui>Prferences</gui> (Předvolby), <gui>Help</gui> "
+"(Nápověda) a <gui>About</gui> (O aplikaci) a stejně tak o položky specifické "
+"pro aplikaci."
+
+#. (itstool) path: page/p
+#: C/primary-menus.page:22
+msgid ""
+"Primary menus are typically located on the right side of the header bar. "
+"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
+"link>, the primary menu should be placed above the sidebar list."
+msgstr ""
+"Hlavní nabídka bývá typicky umístěná na pravé straně hlavičkové lišty. Když "
+"je použita v kombinaci se <link xref=\"sidebar-lists\">seznamem v postranním "
+"panelu</link>, měla by být umístěná nad ním."
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:27
+msgid ""
+"Most applications have primary menus, since they are the standard location "
+"for <gui>About</gui>, which every application is expected to have."
+msgstr ""
+"Většina aplikací má hlavní nabídku, protože slouží standardně k umístění "
+"položky <gui>About</gui> (O aplikaci), u která se očekává, že ji bude mít "
+"každá aplikace."
+
+#. (itstool) path: section/title
+#: C/primary-menus.page:32 C/secondary-menus.page:32
+msgid "Guidance"
+msgstr "Pokyny"
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:35
+msgid ""
+"Primary menus can contain items for both the current window or view, as well "
+"as the application as a whole. This differentiates them from <link xref="
+"\"secondary-menus\">secondary menus</link>, which only contain menu items "
+"that relate to a specific view or item."
+msgstr ""
+"Hlavní nabídka může obsahovat položky jak pro hlavní okno nebo zobrazení, "
+"tak pro aplikaci jako celek. Tím se odlišuje od <link xref=\"secondary-menus"
+"\">podružné nabídky</link>, která obsahuje položky vztahující se ke "
+"konkrétnímu zobrazení nebo položce."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:36
+msgid ""
+"Applications which use in-window navigation should only show the primary "
+"menu on the top-level view (typically the main view that is shown when the "
+"app is launched). Child views, such as those that show individual items of "
+"content, should use <link xref=\"secondary-menus\">secondary</link> rather "
+"than primary menus."
+msgstr ""
+"Aplikace, které používají navigaci v okně, by měly obrazit hlavní nabídku "
+"jen v zobrazení nejvyšší úrovně (typicky v hlavním zobrazení, které se ukáže "
+"po spuštění aplikace). Podřízená zobrazení, což jsou třeba ta, která "
+"zobrazují jednotlivé položky obsahu, by měla místo nich používat <link xref="
+"\"secondary-menus\">podružné nabídky</link>."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:37
+msgid ""
+"Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
+"deciding on primary menu content and arrangement."
+msgstr ""
+"Když rozhodujete o obsahu a uspořádání hlavní nabídky, řiďte se <link xref="
+"\"menus\">standardními pokyny pro nabídky</link>."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:38
+msgid ""
+"A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
+"As such, a header bar menu can include a variety of controls, such as groups "
+"of buttons."
+msgstr ""
+"Hlavní nabídka bývá vložená do <link xref=\"popovers\">rozbalovacího "
+"dialogu</link>. Díky tomu může obsahovat i různé ovládací prvky, třeba "
+"skupinu tlačítek."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:39
+msgid ""
+"Primary menus shouldn’t include menu items for close or quit: windows can "
+"already be closed using the close button in the header bar, and it can be "
+"ambiguous as to what a close menu item refers to. Users don't readily "
+"differentiate between quit and close, and it can therefore be misleading."
+msgstr ""
+"Hlavní nabídka by neměla obsahovat položky pro zavření nebo ukončení: okno "
+"je možné zavřít pomocí zavíracího tlačítka na hlavičkové liště a u položky "
+"pro zavření v nabídce nemusí být jednoznačné, k čemu se vztahuje. Uživatelům "
+"se navíc lehce nerozlišuje mezi ukončením a zavřením a může je to tak mást."
+
+#. (itstool) path: info/desc
 #: C/primary-windows.page:7
 msgid "The main window(s) for your application"
 msgstr "Hlavní okno či okna pro vaši aplikaci"
@@ -8632,8 +8246,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/primary-windows.page:24
 msgid ""
-"Every application should have at least one primary window associated with it."
-msgstr "Každá aplikace by měla mít aspoň jedno hlavní okno, které k ní patří."
+"Every application should show a primary window when its launcher is "
+"activated. This includes applications that mainly provide a background "
+"service."
+msgstr ""
+"Každá aplikace by měla při aktivaci svého spouštěče zobrazit hlavní okno. "
+"Týká se to i aplikací, které poskytují převážně služby na pozadí."
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:29
@@ -9335,7 +8953,7 @@ msgstr ""
 msgid ""
 "If a spinner is displayed for a long time, a label can indicate both the "
 "identity of the task and progress through it. This can take the form of a "
-"percentage, an indication of the time remaining or, or progress through sub-"
+"percentage, an indication of the time remaining, or progress through sub-"
 "components of the task (eg. modules downloaded, or pages exported)."
 msgstr ""
 "Jestliže je káča zobrazená hodně dlouho, může popisek ukazovat jak "
@@ -9693,6 +9311,104 @@ msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
 "\">GtkSearchEntry</link>"
 
+#. (itstool) path: page/title
+#: C/secondary-menus.page:16
+msgid "Secondary menus"
+msgstr "Poddružné nabídky"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/secondary-menus.page:18
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/secondary-menu.svg' "
+"md5='fe768e135e16ad22527cc97ecfd9a076'"
+msgstr ""
+"external ref='figures/patterns/secondary-menu.svg' "
+"md5='fe768e135e16ad22527cc97ecfd9a076'"
+
+#. (itstool) path: page/p
+#: C/secondary-menus.page:20
+msgid ""
+"Secondary menus are located in the header bar and include menu items for the "
+"current view or content item. This differentiates them from <link xref="
+"\"primary-menus\">primary menus</link>, which include menu items that relate "
+"to an entire application (such as <gui>Preferences</gui> and <gui>About</"
+"gui>)."
+msgstr ""
+"Podružné nabídky jsou umístěné v hlavičkové liště a obsahují položky pro "
+"aktuální zobrazení nebo obsah. To je odlišuje od <link xref=\"primary-menus"
+"\">hlavních nabídek</link>, které obsahují položky vztahující se k celé "
+"aplikaci (jako jsou <gui>Předvolby</gui> a <gui>O aplikaci</gui>)."
+
+#. (itstool) path: section/p
+#: C/secondary-menus.page:25
+msgid ""
+"Secondary menus can be used to host controls that relate to a particular "
+"content item which is being displayed in the application window (such as a "
+"document, contact, conversation or photo). They are typically used in "
+"combination with in-window navigation or <link xref=\"sidebar-lists"
+"\">sidebar lists</link>, since both these arrangements feature separate "
+"views or areas for content items to be shown."
+msgstr ""
+"Podružné nabídky lze použít pro ovládací prvky, které se vztahují ke "
+"konkrétním položkám obsahu, který je právě zobrazen v aplikačním okně (jako "
+"je dokument, kontakt, konverzace nebo fotografie). Typicky se používají "
+"spolu s navigací v okně nebo se <link xref=\"sidebar-lists\">seznamem v "
+"postranním panelu</link>, neboť obě tato uspořádání oddělují zobrazení nebo "
+"oblasti pro položky obsahu, které mají být zobrazeny."
+
+#. (itstool) path: section/p
+#: C/secondary-menus.page:27
+msgid ""
+"Secondary menus are optional and only need to be used if there are enough "
+"controls to require a menu."
+msgstr ""
+"Podružné nabídky nejsou povinné a měly by se použít jen v případě, že "
+"existuje dostatek ovládacích prvků, které mohou nabídku využít."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:35
+msgid ""
+"Secondary menus generally shouldn't reproduce menu items that are included "
+"in <link xref=\"primary-menus\">primary menus</link>, like <gui>Preferences</"
+"gui> and <gui>About</gui>. However, it can sometimes be useful to show "
+"<gui>Help</gui>."
+msgstr ""
+"Podružné nabídky by neměly opakovat položky, které jsou v <link xref="
+"\"primary-menus\">hlavní nabídce</link>, jako jsou <gui>Předvolby</gui> a "
+"<gui>O aplikaci</gui>. Někdy však může být užitečné v nich zobrazit položku "
+"<gui>Nápověda</gui>."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:36
+msgid ""
+"The <link xref=\"menus\">standard guidelines for menus</link> can be "
+"followed when designing secondary menus."
+msgstr ""
+"Při návrhu podružných nabídek se můžete řídit <link xref=\"menus"
+"\">standardními pokyny pro nabídky</link>."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:37
+msgid ""
+"A secondary menu is contained within a <link xref=\"popovers\">popover</"
+"link>. As such, a header bar menu can include a variety of controls, such as "
+"groups of buttons."
+msgstr ""
+"Podružná nabídka bývá vložená do <link xref=\"popovers\">rozbalovacího "
+"dialogu</link>. Díky tomu může obsahovat i různé ovládací prvky, třeba "
+"skupinu tlačítek."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:38
+msgid "Secondary menus shouldn’t include menu items for close or quit."
+msgstr ""
+"Podružné nabídky by neměly obsahovat položky pro zavření nebo ukončení."
+
 #. (itstool) path: info/desc
 #: C/selection-mode.page:7
 msgid "Pattern for selecting content items"
@@ -9851,10 +9567,10 @@ msgstr "Postranní seznamy"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/sidebar-list.svg' "
-"md5='a90375efbfc9915765fd1c224821f506'"
+"md5='5efb0b438e622f93a9f420f161fefc58'"
 msgstr ""
 "external ref='figures/patterns/sidebar-list.svg' "
-"md5='a90375efbfc9915765fd1c224821f506'"
+"md5='5efb0b438e622f93a9f420f161fefc58'"
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:19
@@ -9864,7 +9580,7 @@ msgid ""
 "controls. The sidebar divides the window in two, with content being shown on "
 "the opposite pane to the sidebar."
 msgstr ""
-"Postranní seznam umožňuje přepínat mezi různým zobrazením. Různá zobrazení "
+"Postranní seznam umožňuje přepínat mezi různými zobrazeními. Tato zobrazení "
 "mohou obsahovat skupiny položek obsahu, samostatné položky obsahu nebo sady "
 "ovládacích prvků. Postranní panel pro seznam rozděluje okno na dvě části, "
 "kdy je obsah zobrazen v druhém panelu než je ten postranní."
@@ -10365,7 +10081,7 @@ msgstr ""
 "style#capitalization\">velká písmena v nadpisech</link>. Jako popisek by se "
 "měl použít název funkce, kterou vypínač ovlivňuje. Příklady dobrých popisků "
 "jsou <gui>Automatic Location</gui> nebo <gui>Notifications</gui> "
-"(<gui>Automatické zjišťování polohy</gui> nebo <gui>Upozornění</gui>)."
+"(<gui>Automatické zjišťování polohy</gui> nebo <gui>Oznámení</gui>)."
 
 #. (itstool) path: item/p
 #: C/switches.page:46
@@ -10796,7 +10512,7 @@ msgid "Toolbars"
 msgstr "Nástrojové lišty"
 
 #. (itstool) path: page/p
-#: C/toolbars.page:32
+#: C/toolbars.page:31
 msgid ""
 "A toolbar is a strip of controls that allows convenient access to commonly-"
 "used functions. Most toolbars only contain graphical buttons, but in more "
@@ -10813,7 +10529,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/toolbars.page:34
+#: C/toolbars.page:33
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/toolbar.svg' "
@@ -10823,7 +10539,7 @@ msgstr ""
 "md5='381167837829a44d064aedec78b58b95'"
 
 #. (itstool) path: section/p
-#: C/toolbars.page:39
+#: C/toolbars.page:38
 msgid ""
 "Use a toolbar to provide access to common actions, tools or options in "
 "primary windows. <link xref=\"header-bars\">Header bars</link> also perform "
@@ -10836,7 +10552,7 @@ msgstr ""
 "zapotřebí."
 
 #. (itstool) path: section/p
-#: C/toolbars.page:41
+#: C/toolbars.page:40
 msgid ""
 "While toolbars are a common approach, there are cases where they are not the "
 "most effective. Interfaces that focus on direct manipulation, or which make "
@@ -10853,7 +10569,7 @@ msgstr ""
 "originálního řešení návrhu."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:49
+#: C/toolbars.page:48
 msgid ""
 "Only include controls for the most important functions. Having too many "
 "toolbar controls reduces their efficiency by making them harder to find, and "
@@ -10866,7 +10582,7 @@ msgstr ""
 "místo na obrazovce, které pak schází pro zbytek aplikace."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:50
+#: C/toolbars.page:49
 msgid ""
 "Utilize conventions for toolbars to increase familiarity. For example, the "
 "main toolbar in an office application will nearly always have new, open and "
@@ -10879,7 +10595,7 @@ msgstr ""
 "uložit. Obdobně, první tlačítka v prohlížeči by měly být zpět a vpřed."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:51
+#: C/toolbars.page:50
 msgid ""
 "Place only the most commonly-used application functions on your toolbars. "
 "Don’t just add buttons for every menu item."
@@ -10888,11 +10604,11 @@ msgstr ""
 "na ni přidat všechny položky z nabídky."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:52
+#: C/toolbars.page:51
 msgid ""
 "If you are using a <link xref=\"menu-bars\">menu bar</link>, ensure that it "
-"includes all the functions that appear on you toolbar, either directly (i.e. "
-"an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
+"includes all the functions that appear on your toolbar, either directly (i."
+"e. an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
 "gui><gui>Settings</gui></guiseq> dialog)."
 msgstr ""
 "Pokud používáte <link xref=\"menu-bars\">nabídkovou lištu</link>, ujistěte "
@@ -10901,7 +10617,7 @@ msgstr ""
 "dialogovém okně <guiseq><gui>Options</gui><gui>Settings</gui></guiseq>)."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:53
+#: C/toolbars.page:52
 msgid ""
 "Toolbars shouldn’t include buttons for <gui>Help</gui>, <gui>Close</gui> or "
 "<gui>Quit</gui>, as these are rarely used and the space is better used for "
@@ -10918,7 +10634,7 @@ msgstr ""
 "užitečnější ovládací prvky specifické pro danou aplikaci."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:54
+#: C/toolbars.page:53
 msgid ""
 "Toolbar <link xref=\"buttons\">buttons</link> should have a relief, and icon "
 "buttons should use <link xref=\"icons-and-artwork#color-vs-symbolic"
@@ -10929,7 +10645,7 @@ msgstr ""
 "artwork#color-vs-symbolic\">symbolické ikony</link>."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:63
+#: C/toolbars.page:62
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html"
 "\">GtkToolbar</link>"
@@ -11357,19 +11073,28 @@ msgstr "Vizuální rozvržení"
 #: C/visual-layout.page:28
 msgid ""
 "The visual layout of controls, information and content affects how easy it "
-"is to understand your application, as well as how beautiful it is. It is "
-"important to recognise that visual design has a strong impact on how much "
-"work is involved in using an application - poor layout results in users "
-"having to put in additional effort, while good layout requires less effort."
+"is to understand your application. As part of this, it is important to "
+"recognise that visual design has a strong impact on how much work is "
+"involved in using an application - poor layout results in users having to "
+"put in additional effort, while good layout requires less effort."
 msgstr ""
 "Vizuální rozvržení ovládacích prvků, informací a obsahu ovlivňuje, jak lehce "
-"je vaše aplikace pochopitelná, a zároveň, jak je hezká na pohled. Je "
-"důležité si uvědomit, že vizuální návrh má silný dopad na to, jak pracné "
-"bude používání aplikace. Špatné rozvržení má za následek, že uživatel musí "
-"vyvinou větší úsilí, s dobrým rozvržením je toto úsilí menší."
+"je vaše aplikace pochopitelná. Jako součástí to všeho je důležité si "
+"uvědomit, že vizuální návrh má silný dopad na to, jak pracné bude používání "
+"aplikace. Špatné rozvržení má za následek, že uživatel musí vyvinou větší "
+"úsilí, s dobrým rozvržením je toto úsilí menší."
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:30
+msgid ""
+"Good visual layout also obviously makes applications more attractive and "
+"visually pleasing."
+msgstr ""
+"Správné vizuální rozložení dělá aplikaci obvykle více atraktivní a lahodící "
+"oku."
+
+#. (itstool) path: page/p
+#: C/visual-layout.page:32
 msgid ""
 "Following these visual layout guidelines will help you to produce an "
 "application that is beautiful, easy to understand, and efficient to use."
@@ -11378,7 +11103,7 @@ msgstr ""
 "aplikaci, která bude hezká, snadná k pochopení a účinná na používání."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:36
+#: C/visual-layout.page:38
 msgid ""
 "An alignment point is an imaginary vertical or horizontal line through your "
 "window that touches the edge of one or more labels or controls in the "
@@ -11392,7 +11117,7 @@ msgstr ""
 "jednodušší se rozvržení zdá, a bude pro lidi pochopitelnější."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:37
+#: C/visual-layout.page:39
 msgid ""
 "Align content and controls in your layout exactly. The eye is very sensitive "
 "to aligned and unaligned objects. If visual elements do not line up, it will "
@@ -11405,12 +11130,12 @@ msgstr ""
 "nedrží, totiž působí rušivě."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:38
+#: C/visual-layout.page:40
 msgid "Be consistent. Use the same amounts of spacing throughout."
 msgstr "Buďte konzistentní. Používejte všude stejné rozestupy."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:39
+#: C/visual-layout.page:41
 msgid ""
 "Organize related controls and information into groups, and use spacing to "
 "differentiate them. This makes an interface far easier to read and "
@@ -11421,7 +11146,7 @@ msgstr ""
 "pochopení."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:41
+#: C/visual-layout.page:43
 msgid ""
 "As a rule of thumb, leave space between elements in increments of 6 pixels, "
 "going up as the relationship between related elements becomes more distant."
@@ -11430,20 +11155,20 @@ msgstr ""
 "zvětšujte je, když vzájemná souvislost mezi prvky slábne."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:42
+#: C/visual-layout.page:44
 msgid "Between labels and associated components, leave 12 horizontal pixels."
 msgstr ""
 "Mezi popiskem a k němu patřícím ovládacím prvkem ponechejte 12 vodorovných "
 "pixelů."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:43
+#: C/visual-layout.page:45
 msgid ""
 "For vertical spacing between groups of components, 18 pixels is adequate."
 msgstr "Ke svislému oddělení skupin komponent se hodí 18 pixelů."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:44
+#: C/visual-layout.page:46
 msgid ""
 "A general padding of 18 pixels is recommended between the contents of a "
 "dialog window and the window borders."
@@ -11452,12 +11177,12 @@ msgstr ""
 "okrajem okna."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:46
+#: C/visual-layout.page:48
 msgid "Indent elements by 12 pixels to denote hierarchy and association."
 msgstr "Pro vyjádření hierarchie a návaznosti odsazujte prvky o 12 pixelů."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:47
+#: C/visual-layout.page:49
 msgid ""
 "Avoid using frames with visible borders to separate groups of controls - use "
 "spacing and headers instead."
@@ -11466,7 +11191,7 @@ msgstr ""
 "Místo toho používejte mezery a nadpisy."
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:50
+#: C/visual-layout.page:52
 msgid "Incorrect spacing and alignment:"
 msgstr "Nesprávné rozestupy a zarovnání:"
 
@@ -11475,7 +11200,7 @@ msgstr "Nesprávné rozestupy a zarovnání:"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:51
+#: C/visual-layout.page:53
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-incorrect.svg' "
@@ -11485,7 +11210,7 @@ msgstr ""
 "md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:53
+#: C/visual-layout.page:55
 msgid "Correct spacing and alignment:"
 msgstr "Správné rozestupy a zarovnání:"
 
@@ -11494,7 +11219,7 @@ msgstr "Správné rozestupy a zarovnání:"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:54
+#: C/visual-layout.page:56
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-correct.svg' "
@@ -11504,7 +11229,7 @@ msgstr ""
 "md5='c918add24fa74f4eda5cde1c0ec61163'"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:56
+#: C/visual-layout.page:58
 msgid "Correct spacing, with units (pixels):"
 msgstr "Správné rozestupy s hodnotami (v pixelech):"
 
@@ -11513,7 +11238,7 @@ msgstr "Správné rozestupy s hodnotami (v pixelech):"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:57
+#: C/visual-layout.page:59
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-spacing.svg' "
@@ -11523,12 +11248,12 @@ msgstr ""
 "md5='66643d65d5c1359f986331ee691410d6'"
 
 #. (itstool) path: section/title
-#: C/visual-layout.page:62
+#: C/visual-layout.page:64
 msgid "Label alignment"
 msgstr "Zarovnání popisků"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:64
+#: C/visual-layout.page:66
 msgid ""
 "If possible, right-justify labels (see the diagram below). This will avoid "
 "large gaps between labels and their associated controls. This type of right-"
@@ -11546,7 +11271,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:66
+#: C/visual-layout.page:68
 msgctxt "_"
 msgid ""
 "external ref='figures/label-alignment.svg' "
@@ -11556,12 +11281,12 @@ msgstr ""
 "md5='a55236576c454a29127913bf6fc6335e'"
 
 #. (itstool) path: section/title
-#: C/visual-layout.page:71
+#: C/visual-layout.page:73
 msgid "Visual hierarchy"
 msgstr "Vizuální hierarchie"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:73
+#: C/visual-layout.page:75
 msgid ""
 "Organize visual elements from top-to-bottom and left-to-right. This is the "
 "direction that people from western locales tend to read an interface, so "
@@ -11701,13 +11426,13 @@ msgstr ""
 #: C/writing-style.page:54
 msgid ""
 "Latin abbreviations such as “ie” or “eg” should be avoided, since they can't "
-"always be easily translated and can be unintelligable when read by screen "
+"always be easily translated and can be unintelligible when read by screen "
 "readers. Instead, use full words like “for example”."
 msgstr ""
-"Měli byste se vyhnout latinským zkratkám, jako je „ie“ nebo „eg“, protože je "
-"nemusí být vždy snadné přeložit do jiného jazyka a mohou být nesrozumitelné "
-"při používání čtečky obrazovky. Místo nich používejte celá slova, jako "
-"„například“."
+"Měli byste se vyhnout latinským zkratkám, jako je „ie“ (tj.) nebo "
+"„eg“ (např.), protože je nemusí být vždy snadné přeložit do jiného jazyka a "
+"mohou být nesrozumitelné při používání čtečky obrazovky. Místo nich "
+"používejte celá slova, jako „for example“ („například“)."
 
 #. (itstool) path: section/title
 #: C/writing-style.page:60
@@ -11799,7 +11524,7 @@ msgstr ""
 "formu věty, nebo pokračují do dalšího textu, včetně popisků pro zaškrtávací "
 "políčka, skupinové přepínače, táhla, textová a jiná pole a rozbalovací "
 "seznamy. Také by měla být stejným způsobem použita ve vysvětlujících textech "
-"a jiných textech v těle okna, například u dialogových oken nebo upozornění."
+"a jiných textech v těle okna, například u dialogových oken nebo oznámení."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:90
@@ -11853,10 +11578,3 @@ msgstr ""
 "<gui>Předvolby</gui>. I když tyto příkazy otevřou okna, která obsahují další "
 "funkčnost, popisek neoznačuje konkrétní činnost a proto není potřeba "
 "komunikovat ohledně nějaké vstupu nebo potvrzení."
-
-#~ msgid ""
-#~ "Your application should cease to run when all its primary windows have "
-#~ "been closed."
-#~ msgstr ""
-#~ "Vaše aplikace by měla přestat běžet, když byla všechna její hlavní okna "
-#~ "zavřena."
