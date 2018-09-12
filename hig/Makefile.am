@@ -82,10 +82,12 @@ HELP_MEDIA = \
         figures/patterns/application-menu.svg \
         figures/patterns/editable-lists.svg \
 	figures/patterns/empty-placeholder.svg \
+	figures/patterns/fullscreen.svg \
         figures/patterns/grid.svg \
         figures/patterns/header-bar.svg \
         figures/patterns/in-app-notification.svg \
         figures/patterns/info-bar.svg \
+        figures/patterns/initial-state-placeholder.svg \
         figures/patterns/list-styles.svg \
         figures/patterns/message-dialog.svg \
         figures/patterns/overlaid-controls.svg \
