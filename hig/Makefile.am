@@ -58,18 +58,22 @@ HELP_MEDIA = \
 	figures/visual-alignment-correct.svg \
 	figures/visual-alignment-incorrect.svg \
 	figures/visual-alignment-spacing.svg \
+	figures/icons/aspect-ratio.svg \
+	figures/icons/dropshadow.png \
+	figures/icons/fullcolor-v-symbolic.svg \
 	figures/icons/inverting.svg \
-	figures/icons/sizes.png \
-	figures/icons/sizes-small-24.png \
-	figures/icons/palette/aluminium1.svg \
-	figures/icons/palette/aluminium2.svg \
-	figures/icons/palette/butter.svg \
-	figures/icons/palette/chameleon.svg \
-	figures/icons/palette/chocolate.svg \
-	figures/icons/palette/orange.svg \
-	figures/icons/palette/plum.svg \
-	figures/icons/palette/scarlet-red.svg \
-	figures/icons/palette/sky-blue.svg \
+	figures/icons/shading.svg \
+	figures/icons/sizes.svg \
+	figures/icons/whitespace.svg \
+	figures/icons/palette/blue.png \
+	figures/icons/palette/brown.png \
+	figures/icons/palette/cyan.png \
+	figures/icons/palette/green.png \
+	figures/icons/palette/neutral.png \
+	figures/icons/palette/orange.png \
+	figures/icons/palette/purple.png \
+	figures/icons/palette/red.png \
+	figures/icons/palette/yellow.png \
         figures/patterns/action-bar.svg \
         figures/patterns/action-dialog.svg \
         figures/patterns/application-menu.svg \
