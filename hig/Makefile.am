@@ -77,29 +77,29 @@ HELP_MEDIA = \
 	figures/icons/palette/purple.png \
 	figures/icons/palette/red.png \
 	figures/icons/palette/yellow.png \
-        figures/patterns/action-bar.svg \
-        figures/patterns/action-dialog.svg \
-        figures/patterns/application-menu.svg \
-        figures/patterns/editable-lists.svg \
+    figures/patterns/action-bar.svg \
+	figures/patterns/action-dialog.svg \
+	figures/patterns/application-menu.svg \
+	figures/patterns/editable-lists.svg \
 	figures/patterns/empty-placeholder.svg \
 	figures/patterns/fullscreen.svg \
-        figures/patterns/grid.svg \
-        figures/patterns/header-bar.svg \
-        figures/patterns/in-app-notification.svg \
-        figures/patterns/info-bar.svg \
-        figures/patterns/initial-state-placeholder.svg \
-        figures/patterns/list-styles.svg \
-        figures/patterns/message-dialog.svg \
-        figures/patterns/overlaid-controls.svg \
-        figures/patterns/patterns.svg \
-        figures/patterns/presentation-dialog.svg \
-        figures/patterns/primary-menu.svg \
-        figures/patterns/primary-windows.svg \
-        figures/patterns/search.svg \
-        figures/patterns/secondary-menu.svg \
-        figures/patterns/selection-mode.svg \
-        figures/patterns/sidebar-list.svg \
-        figures/patterns/view-switcher.svg \
+	figures/patterns/grid.svg \
+	figures/patterns/header-bar.svg \
+	figures/patterns/in-app-notification.svg \
+	figures/patterns/info-bar.svg \
+	figures/patterns/initial-state-placeholder.svg \
+	figures/patterns/list-styles.svg \
+	figures/patterns/message-dialog.svg \
+	figures/patterns/overlaid-controls.svg \
+	figures/patterns/patterns.svg \
+	figures/patterns/presentation-dialog.svg \
+	figures/patterns/primary-menu.svg \
+	figures/patterns/primary-windows.svg \
+	figures/patterns/search.svg \
+	figures/patterns/secondary-menu.svg \
+	figures/patterns/selection-mode.svg \
+	figures/patterns/sidebar-list.svg \
+	figures/patterns/view-switcher.svg \
 	figures/touch/flick.svg \
 	figures/touch/pinch-or-stretch.svg \
 	figures/touch/tap-and-hold.svg \
