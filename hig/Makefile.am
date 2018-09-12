@@ -16,12 +16,15 @@ HELP_FILES = \
 	display-compatibility.page \
 	drop-down-lists.page \
 	empty-placeholders.page \
+	full-screen.page \
 	grids.page \
 	header-bars.page \
+	icon-design.page \
 	icons-and-artwork.page \
 	index.page \
 	in-app-notifications.page \
 	info-bars.page \
+	initial-state-placeholders.page \
 	keyboard-input.page \
 	lists.page \
 	menu-bars.page \
