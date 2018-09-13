@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-08-15 03:28+0000\n"
-"PO-Revision-Date: 2018-08-19 17:06+0200\n"
+"POT-Creation-Date: 2018-09-12 16:58+0000\n"
+"PO-Revision-Date: 2018-09-13 22:37+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -45,9 +45,10 @@ msgstr "Fußleiste, die Aktionen enthält"
 #: C/button-menus.page:8 C/buttons.page:8 C/check-boxes.page:8
 #: C/compatibility.page:7 C/design-principles.page:7 C/dialogs.page:9
 #: C/display-compatibility.page:7 C/drop-down-lists.page:8
-#: C/empty-placeholders.page:10 C/grids.page:10 C/header-bars.page:10
-#: C/icons-and-artwork.page:7 C/index.page:8 C/in-app-notifications.page:10
-#: C/info-bars.page:10 C/keyboard-input.page:8 C/lists.page:11
+#: C/empty-placeholders.page:10 C/full-screen.page:9 C/grids.page:10
+#: C/header-bars.page:10 C/icon-design.page:7 C/icons-and-artwork.page:7
+#: C/index.page:8 C/in-app-notifications.page:10 C/info-bars.page:10
+#: C/initial-state-placeholders.page:10 C/keyboard-input.page:8 C/lists.page:11
 #: C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
 #: C/overlaid-controls.page:9 C/patterns.page:7
 #: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-menus.page:10
@@ -90,12 +91,13 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
-#: C/dialogs.page:36 C/empty-placeholders.page:23 C/grids.page:23
-#: C/header-bars.page:29 C/in-app-notifications.page:23 C/info-bars.page:23
-#: C/lists.page:24 C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
+#: C/dialogs.page:36 C/empty-placeholders.page:23 C/full-screen.page:22
+#: C/grids.page:23 C/header-bars.page:29 C/in-app-notifications.page:23
+#: C/info-bars.page:23 C/initial-state-placeholders.page:23 C/lists.page:24
+#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
 #: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
 #: C/primary-windows.page:22 C/progress-bars.page:37
-#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:25
+#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
 #: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
 #: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
 #: C/view-switchers.page:22
@@ -129,9 +131,10 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/action-bars.page:31 C/check-boxes.page:37 C/empty-placeholders.page:34
-#: C/in-app-notifications.page:34 C/info-bars.page:34
-#: C/overlaid-controls.page:31 C/radio-buttons.page:37 C/sidebar-lists.page:43
-#: C/sliders.page:53 C/writing-style.page:42
+#: C/full-screen.page:31 C/in-app-notifications.page:34 C/info-bars.page:34
+#: C/initial-state-placeholders.page:32 C/overlaid-controls.page:31
+#: C/radio-buttons.page:37 C/sidebar-lists.page:43 C/sliders.page:53
+#: C/writing-style.page:42
 msgid "Guidelines"
 msgstr "Richtlinien"
 
@@ -161,7 +164,7 @@ msgstr ""
 #: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
 #: C/header-bars.page:72 C/info-bars.page:46 C/lists.page:148
 #: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
-#: C/popovers.page:64 C/primary-menus.page:44 C/primary-windows.page:85
+#: C/popovers.page:64 C/primary-menus.page:45 C/primary-windows.page:85
 #: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
 #: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
 #: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
@@ -181,7 +184,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/application-basics.page:11
 msgid "Basic application characteristics."
-msgstr "Grundlegende Anwendungscharakteristiken"
+msgstr "Grundlegende Anwendungscharakteristiken."
 
 #. (itstool) path: page/title
 #: C/application-basics.page:14
@@ -376,10 +379,15 @@ msgstr "original"
 #. (itstool) path: page/p
 #: C/application-menus.page:19
 msgid ""
-"<em>Application menus are no longer a recommended design pattern. See <link "
-"xref=\"primary-menus\">primary</link> and <link xref=\"secondary-menus"
-"\">secondary menus</link> as alternatives.</em>"
+"<em>Application menus are no longer recommended, and will not be displayed "
+"in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus\">Primary</"
+"link> and <link xref=\"secondary-menus\">secondary menus</link> should be "
+"used as alternatives.</em>"
 msgstr ""
+"<em>Anwendungsmenüs werden nicht mehr empfohlen und werden in der oberen "
+"Leiste von GNOME 3 ab Version 3.32 nicht mehr angezeigt. <link xref="
+"\"primary-menus\">Primäre</link> und <link xref=\"secondary-menus"
+"\">sekundäre Menüs</link> sollten als Alternativen verwendet werden.</em>"
 
 #. (itstool) path: page/p
 #: C/application-menus.page:21
@@ -2453,6 +2461,9 @@ msgid ""
 "Use <link xref=\"writing-style#capitalization\">sentence capitalization</"
 "link> for drop-down list items, for example <gui>Switched movement</gui>."
 msgstr ""
+"Verwenden Sie <link xref=\"writing-style#capitalization"
+"\">Satzgroßschreibung</link> für die Einträge von Auswahllisten, zum "
+"Beispiel <gui>Switched movement</gui>."
 
 #. (itstool) path: section/title
 #: C/drop-down-lists.page:46
@@ -2589,7 +2600,7 @@ msgstr ""
 "charaktervolleres und positives Benutzererlebnis</link> wäre besser."
 
 #. (itstool) path: item/p
-#: C/empty-placeholders.page:37
+#: C/empty-placeholders.page:37 C/initial-state-placeholders.page:35
 msgid ""
 "Follow the standard layout for the size and placement of the image and "
 "labels, so that your application is consistent with other GNOME 3 "
@@ -2618,11 +2629,143 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/empty-placeholders.page:40
+#: C/empty-placeholders.page:40 C/initial-state-placeholders.page:38
 msgid ""
 "If there are controls that allow items to be added, it can be appropriate to "
 "highlight them using a <link xref=\"buttons#suggested-and-destructive"
 "\">suggested style</link> while the list/grid is empty."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/full-screen.page:7
+msgid "Mode in which a window fills the entire screen"
+msgstr "Modus, in dem ein Fenster den gesamten Bildschirm füllt"
+
+#. (itstool) path: page/title
+#: C/full-screen.page:15
+msgid "Fullscreen"
+msgstr "Vollbild"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/full-screen.page:17
+#, fuzzy
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/secondary-menu.svg' "
+#| "md5='fe768e135e16ad22527cc97ecfd9a076'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/fullscreen.svg' "
+"md5='a115aeb24e72788d75c1ecb90f88da79'"
+msgstr "original'"
+
+#. (itstool) path: page/p
+#: C/full-screen.page:19
+#, fuzzy
+msgid ""
+"Fullscreen is a mode in which a window fills the entire screen. When "
+"fullscreen is active, controls are typically hidden in order to provide an "
+"immersive content view."
+msgstr ""
+"Vollbild bezeichnet einen Modus, in dem ein Fenster den gesamten Bildschirm "
+"füllt. Wenn der Vollbildmodus aktiv ist, werden Bedienelemente "
+"typischerweise verborgen, "
+
+#. (itstool) path: section/p
+#: C/full-screen.page:24
+msgid ""
+"It is appropriate to offer fullscreen when users are likely to want to have "
+"an unobstructed view of content, particularly if they are likely to view "
+"content items for long periods of time. The classic example of fullscreen is "
+"for watching videos, where visible controls would be distracting and result "
+"in less screen space for the content. However, fullscreen can be used for "
+"other types of content including documents or images."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/full-screen.page:26
+msgid ""
+"Fullscreen is typically used in viewing situations. However, in some cases "
+"it can be useful for editing tasks. Fullscreen is also typical for many "
+"games (how games should use fullscreen is not covered in this page)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:34
+msgid ""
+"If an application uses different views, it is only necessary to enable "
+"fullscreen for those views where it is useful - primarily those that display "
+"content items."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:35
+msgid ""
+"Fullscreen can be triggered automatically when a content item is opened, or "
+"can be offered as a mode that can be activated by the user."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:36
+msgid ""
+"If fullscreen is being offered as a mode that users activate, judge how "
+"prominent to make the control to enter fullscreen according to how often it "
+"will be used. Typically, a fullscreen button should be placed in the <link "
+"xref=\"header-bars\">header bar</link> or <link xref=\"header-bar-menus"
+"\">header bar menu</link>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:37
+msgid "When fullscreen is active:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:39
+msgid ""
+"All controls should be hidden, including the window's header bar, <link xref="
+"\"action-bars\">action bars</link> or <link xref=\"overlaid-controls"
+"\">overlaid controls</link>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:40
+msgid ""
+"Controls, including the header bar, should be revealed when the pointer is "
+"moved or the screen is tapped."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:41
+msgid ""
+"The window close button should be replaced with a view restore button, which "
+"disables fullscreen mode."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:42
+msgid ""
+"Any controls that don't fit into fullscreen should be hidden or replaced. "
+"This includes any navigation controls that would simultaneously exit "
+"fullscreen, such as back buttons."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:43
+msgid ""
+"Make an effort not to allow controls or UI to obstruct content. For example, "
+"dialog windows that overlap content will be distracting and will detract "
+"from the immersive nature of fullscreen."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:46
+msgid ""
+"The Videos application is a good example of how fullscreen should behave."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -2949,208 +3092,65 @@ msgstr ""
 "\">GtkHeaderBar</link>"
 
 #. (itstool) path: credit/name
-#: C/icons-and-artwork.page:11 C/pointer-and-touch-input.page:11
+#: C/icon-design.page:11 C/icons-and-artwork.page:11
+#: C/pointer-and-touch-input.page:11
 msgid "Jakub Steiner"
 msgstr "Jakub Steiner"
 
 #. (itstool) path: info/desc
-#: C/icons-and-artwork.page:14
+#: C/icon-design.page:14 C/icons-and-artwork.page:14
 msgid "Selecting and creating icons."
 msgstr "Auswahl und Erstellung von Symbolen."
 
 #. (itstool) path: page/title
-#: C/icons-and-artwork.page:17
-msgid "Icons and artwork"
-msgstr "Symbole und grafische Gestaltung"
+#: C/icon-design.page:17
+msgid "Creating icons"
+msgstr "Erstellung von Symbolen"
 
 #. (itstool) path: page/p
-#: C/icons-and-artwork.page:19
+#: C/icon-design.page:19
 msgid ""
-"Icons play an important role in user interfaces: selecting the correct icon "
-"is therefore vital to making sure that your application is usable. An "
-"identifying icon is also an essential part of any application, and is a "
-"crucial part of its identity."
-msgstr ""
-"Symbole spielen eine bedeutende Rolle in der Benutzeroberfläche: Die Auswahl "
-"eines korrekten Symbols ist daher unerlässlich, um dafür zu sorgen, dass "
-"Ihre Anwendung gut benutzbar ist. Ein eindeutiges Symbol ist außerdem ein "
-"essenzieller Teil jeder Anwendung und entscheidend für deren Identität."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:22
-msgid "Using icons in your user interface"
-msgstr "Verwendung von Symbolen in Ihrer Benutzeroberfläche"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:24
-msgid ""
-"There are many situations when it is necessary to decide between using an "
-"icon and a text label, particularly for buttons. Icons have the advantage of "
-"being smaller, and not requiring translation. At the same time, the "
-"incorrect use of an icon can make your interface hard - or even impossible - "
-"to understand."
-msgstr ""
-"Es gibt viele Situationen, in denen Sie zwischen einem Symbol oder einer "
-"Textbeschriftung entscheiden müssen, insbesondere für Knöpfe. Symbole haben "
-"den Vorteil, dass sie kleiner sind und deren Inhalte nicht übersetzt werden "
-"müssen. Gleichzeitig kann die inkorrekte Verwendung eines Symbols dazu "
-"führen, dass Ihre Benutzeroberfläche schwer (oder sogar gar nicht) "
-"verständlich ist."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:27
-msgid ""
-"Only use icons whose meaning is commonly recognized. If a commonly "
-"recognized icon is not available, it might be better to use a text label "
-"instead."
-msgstr ""
-"Verwenden Sie Symbole nur, wenn ihre Bedeutung gemeinhin bekannt ist. Falls "
-"ein solches Symbol nicht zur Verfügung steht, sollten Sie besser eine "
-"Textbeschriftung verwenden"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:29
-msgid ""
-"Convention establishes which icons will be recognized. If you are in doubt, "
-"stick to icons which are frequently used in other applications."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:30
-msgid ""
-"Consider which icons will be meaningful in the specific context of your "
-"application - users of specialist tools will often be familiar with domain-"
-"specific symbols."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:32
-msgid ""
-"Remember that some icons are only meaningful alongside other icons of the "
-"same type. For example, a media icon for stop is simply a square, and may "
-"not be identified as a stop icon without other media controls (like play, "
-"pause, or skip) being visible close by. Likewise, the icon to remove an item "
-"from a list is a subtract symbol (ie. a single line), and will not be "
-"recognizable without a corresponding “plus” add icon."
+"This page provides guidelines for those creating their own icons, including "
+"both full-color icons (typically used for application icons) and symbolic "
+"icons (typically used for user interface controls). For a more general "
+"overview of icon styles and usage, including the stock icons that are "
+"available, see <link xref=\"icons-and-artwork\">icons and artwork</link>."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:38
-msgid "Choosing stock GNOME icons"
-msgstr ""
+#: C/icon-design.page:22
+msgid "Full-color icons"
+msgstr "Farbige Symbole"
 
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:40
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:24
+msgctxt "_"
 msgid ""
-"GNOME provides a full set of standard icons. These should be used where ever "
-"appropriate; try to avoid creating custom icons unless they are absolutely "
-"necessary."
-msgstr ""
-"GNOME stellt eine breite Auswahl an Standardsymbolen bereit. Diese sollten "
-"verwendet werden, wo immer es möglich ist. Versuchen Sie, eigene Symbole zu "
-"vermeiden, es sei denn, dies ist unbedingt notwendig."
+"external ref='figures/icons/shading.svg' "
+"md5='c874c34720095414463a12d2a8e44f40'"
+msgstr "original"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:42
+#: C/icon-design.page:26
 msgid ""
-"Follow the icon naming specification when selecting which icons to use - the "
-"name of the icon should reflect what the icon is intended to communicate. "
-"This is important for those using a screen reader."
+"The full-color icon style is most commonly used for application icons. The "
+"nominal size of full-color icons is 128×128px. However, because application "
+"icons are sometimes presented at lower resolutions, they should only feature "
+"detail that is presentable at 64×64px resolution: anything more detailed "
+"would get lost by filtering/scaling down."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:44
-msgid "You can use the GTK+ icon browser to find recommended icons."
-msgstr ""
-"Sie können den Symbolbrowser von GTK+ verwenden, um empfohlene Symbole zu "
-"suchen."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:47
-msgid "Color vs. symbolic icons"
-msgstr "Farbige im Vergleich zu symbolischen Symbolen"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:49
+#: C/icon-design.page:28
 msgid ""
-"GNOME 3 provides two types of icons: full-color and monochrome symbolic "
-"icons. The guidelines in this document indicate when to use which type of "
-"icon. The following is a general guide."
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:51
-msgid "Full-color icons should be used for:"
-msgstr "Farbige Symbole sollten verwendet werden für:"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:54
-msgid "devices"
-msgstr "Geräte"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:55
-msgid "filetypes/mimetypes"
-msgstr "Dateitypen/MIME-Typen"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:56
-msgid "application (launcher) icons"
-msgstr "Anwendungssymbole (Starter)"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:59
-msgid ""
-"All other icons should use the symbolic icon style. In addition, symbolic "
-"icons should always be used inside:"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:62
-msgid "buttons"
-msgstr "Knöpfen"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:63
-msgid "lists"
-msgstr "Listen"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:64
-msgid "entry fields"
-msgstr "Eintragsfeldern"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:65
-msgid ""
-"when the background is semi-transparent (such as overlaid media or "
-"fullscreen controls)"
-msgstr ""
-"Wenn der Hintergrund halbtransparent ist (zum Beispiel bei Überlagerungen "
-"oder Vollbildsteuerungen)"
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:73
-msgid "Application icons"
-msgstr "Anwendungssymbole"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:75
-msgid ""
-"Every application should have a unique and beautiful application icon. It is "
-"the face of the application, and the first visual element a user sees when "
-"browsing for new applications. The <link xref=\"application-basics"
-"\">application basics page</link> includes details on what an application "
-"is, and when to provide an application icon."
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:77
-msgid ""
-"Because application icons are presented at larger sizes, legacy Tango styled "
-"48x48 px or SVG icons no longer suffice (lacking detail). It is essential "
-"your application has a 256x256 px icon. With the advent of high-DPI "
-"displays, a 512x512 px variant is recommended."
+"The <link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/"
+"blob/master/template.svg\">full-color icon template</link> includes a 2px "
+"grid which should help you avoid adding detail that's finer than the desired "
+"threshold."
 msgstr ""
 
 #. (itstool) path: section/media
@@ -3158,20 +3158,33 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:79
+#: C/icon-design.page:30
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
+"external ref='figures/icons/sizes.svg' md5='8850ec96befdacb8c095656cba52cd62'"
 msgstr "original"
 
+#. (itstool) path: section/title
+#: C/icon-design.page:33
+msgid "Perspective &amp; shape"
+msgstr "Perspektive und Form"
+
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:81
+#: C/icon-design.page:35
 msgid ""
-"While not as critical, there are still areas where application icons are "
-"presented at a small size. To keep the icon sharp and well defined, a "
-"specific rendering is required to sizes of 48x48 px, 32x32 px, 24x24 px and "
-"16x16 px. Many GNOME icons also ship a 22x22 px size for legacy reasons, but "
-"that isn’t required."
+"Full-color icons should be rendered with a simple orthogonal view and no "
+"real or isometric perspective. To provide depth a raised effect can be "
+"applied to mimic the Z-axis. Please keep the effect subtle though! Raising "
+"the object more than 2 detail units (4 nominal pixels) is not recommended."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icon-design.page:37
+msgid ""
+"In order to aid recognition, each application icon should have a unique "
+"silhouette. However, to ensure visual balance with other application icons, "
+"the aspect ratio should not be extreme. Very narrow or very wide shapes "
+"should be avoided."
 msgstr ""
 
 #. (itstool) path: section/media
@@ -3179,42 +3192,265 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:83
+#: C/icon-design.page:39
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
+"external ref='figures/icons/aspect-ratio.svg' "
+"md5='acbe590cea6f62958cb2fd98a08d7425'"
 msgstr "original"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:85
+#: C/icon-design.page:41
 msgid ""
-"To maintain crispness, a lot of detail is discarded for the low resolution "
-"variants and a 1px stroke is used to outline the silhouette of the object."
+"A <link href=\"https://gitlab.gnome.org/Community/Design/icon-revolution/raw/"
+"master/template.svg\">grid template</link> is available to assist with "
+"placing your icon outline. Do not try to cover a maximum area of the canvas: "
+"the outside margin should be left empty. In some circumstances a small "
+"detail can be extended into this margin space."
 msgstr ""
 
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:87
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:43
+msgctxt "_"
 msgid ""
-"More information on designing an application icon can be found below, in the "
-"custom full-color icon section."
+"external ref='figures/icons/whitespace.svg' "
+"md5='757ca4673077580b5fcf3b2ccd230ce1'"
+msgstr "original"
+
+#. (itstool) path: section/title
+#: C/icon-design.page:48
+msgid "Shadows"
+msgstr "Schatten"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:50
+msgid ""
+"Shadows can be drawn internally, within a full-color icon, with the light "
+"source pointing straight from above. However, shadows should not be drawn "
+"outside the main silhouette of the icon, as these are generated "
+"programatically based on the context. When app icons are presented on a "
+"white background, for example, a strong drop shadow is rendered to help "
+"define the contours."
+msgstr ""
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:52
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/dropshadow.png' "
+"md5='04d7779eaa9b2a019b7474dd7f689673'"
+msgstr "original"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:54
+msgid ""
+"Versions of application icons can also be programatically generated for "
+"development or nightly builds."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:92
-msgid "Custom symbolic icons"
-msgstr "Benutzerdefinierte symbolische Symbole"
+#: C/icon-design.page:58
+msgid "Palette"
+msgstr "Farbpalette"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:94
+#: C/icon-design.page:60
+msgid "Below is the baseline GNOME app icon color palette."
+msgstr "Nachfolgend finden Sie die Farbpalette für GNOME-Anwendungssymbole."
+
+#. (itstool) path: td/p
+#: C/icon-design.page:67
+msgid "Blue"
+msgstr "Blau"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:68
+msgctxt "_"
 msgid ""
-"Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. "
+"external ref='figures/icons/palette/blue.png' "
+"md5='9812f868170aedbc09989bfb5a165093'"
+msgstr "original"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:71
+msgid "Cyan"
+msgstr "Zyan"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:72
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/cyan.png' "
+"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+msgstr "original"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:75
+msgid "Green"
+msgstr "Grün"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:76
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
+msgstr "original"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:79
+msgid "Yellow"
+msgstr "Gelb"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:80
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
+msgstr "original"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:83
+msgid "Orange"
+msgstr "Orange"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:84
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
+msgstr "original"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:87
+msgid "Red"
+msgstr "Rot"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:88
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
+msgstr "original"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:91
+msgid "Purple"
+msgstr "Violett"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:92
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
+msgstr "original"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:95
+msgid "Brown"
+msgstr "Braun"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:96
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
+msgstr "original"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:99
+msgid "Neutral"
+msgstr "Neutral"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:100
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/neutral.png' "
+"md5='54148d53f6fb3563dd8454f39845d467'"
+msgstr "original"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:105
+msgid ""
+"You are free to use different shades of these colors depending on the "
+"desired material effect. However, these primary colors are a good baseline "
+"to start from. A GIMP/Inkscape format palette <link href=\"https://gitlab."
+"gnome.org/Community/Design/HIG-app-icons/"
+"raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">is available</link>."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icon-design.page:107
+msgid ""
+"It is recommended to keep flat surfaces unshaded, but using gradients to "
+"signify bent surfaces is allowed."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/icon-design.page:114
+msgid "Symbolic icons"
+msgstr "Symbolische Symbole"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:116
+msgid ""
+"Symbolic icons have a simple form and are drawn within a 16×16 pixel grid. "
 "They are then programmatically scaled and colored within the user interface "
 "itself."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:97
+#: C/icon-design.page:119
 msgid ""
 "Identify a single property when looking for an appropriate metaphor for an "
 "icon, and focus on what distinguishes the idea you want to communicate. For "
@@ -3224,7 +3460,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:98
+#: C/icon-design.page:120
 msgid ""
 "Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
 "view."
@@ -3233,16 +3469,14 @@ msgstr ""
 "bleiben Sie stattdessen bei einer strikten rechtwinkligen Ansicht."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:99
+#: C/icon-design.page:121
 msgid ""
-"Filled shapes are generally faster to process by the human visual system "
-"than wireframe outlines."
+"When using unfilled strokes for an outline, try avoiding hairline (1px) and "
+"do at least a 2px stroke for the meain feature of the icon."
 msgstr ""
-"Ausgefüllte Formen sind in der visuellen Wahrnehmung des Benutzers im "
-"Allgemeinen schneller zu erfassen als einfache Umrandungslinien."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:100
+#: C/icon-design.page:122
 msgid ""
 "Symbolic icons are recolored at runtime to match the context, very much like "
 "a piece of text. While there are ways to “shade” parts of an icon by using "
@@ -3251,7 +3485,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:101
+#: C/icon-design.page:123
 msgid ""
 "When a metaphor relies on the negative space, make sure it will work with "
 "the colors inverted. For example a camera lens spec/highlight will only work "
@@ -3263,7 +3497,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:104
+#: C/icon-design.page:126
 msgctxt "_"
 msgid ""
 "external ref='figures/icons/inverting.svg' "
@@ -3271,229 +3505,189 @@ msgid ""
 msgstr "original"
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:107
+#: C/icon-design.page:129
 msgid "Size and grid"
 msgstr "Größe und Gitter"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:109
+#: C/icon-design.page:131
 msgid ""
-"While the icons are scalable and should work in any size, the basic canvas "
-"size is 16x16 grid units. You have the whole canvas to fill, but note that a "
-"filled rectangular object will appear stronger/larger when placed next to "
-"items that only use thinner strokes. Try to keep the contrast of your whole "
-"set."
+"While symbolic icons are scalable and should work at any size, the basic "
+"canvas size is 16×16 grid units. You have the whole canvas to fill, but note "
+"that a filled rectangular object will appear stronger/larger when placed "
+"next to items that only use thinner strokes. Try to keep the contrast of "
+"your whole set."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/icons-and-artwork.page:17
+msgid "Icons and artwork"
+msgstr "Symbole und grafische Gestaltung"
+
+#. (itstool) path: page/p
+#: C/icons-and-artwork.page:19
+msgid ""
+"Icons are a basic element in user interfaces. They also make up a "
+"fundamental part of application identities. This page provides an overview "
+"of icon usage. It also describes which icons are available through the GNOME "
+"platform, introduces resources for creating new icons, and includes some "
+"general guidelines on using icons in user interfaces."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:116
-msgid "Custom full-color icons"
-msgstr "Eigene farbige Symbole"
+#: C/icons-and-artwork.page:22
+msgid "Icon styles"
+msgstr "Symbol-Stile"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:118
-msgid "Full-color icons are drawn and rendered at a variety of preset sizes."
+#: C/icons-and-artwork.page:24
+msgid "Two styles of icon are used in GNOME 3: full-color and symbolic icons."
+msgstr ""
+"In GNOME 3 kommen zwei Symbolstile zum Einsatz: farbige und symbolische "
+"Symbole."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:26
+msgid ""
+"Full-color icons are colorful and detailed, and are optimized for larger "
+"sizes. They are defined as 128x128px SVGs, and are sharpest when scaled up "
+"in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color "
+"icons also allows them to be rendered sharp at 64x64px and 32x32px, but is "
+"not advised to make them any smaller."
+msgstr ""
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:28
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/fullcolor-v-symbolic.svg' "
+"md5='33921c0746746de2adce51279dbc8606'"
+msgstr "original"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:30
+msgid ""
+"Symbolic icons are simple and monochrome, and are designed to work well at "
+"smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to "
+"multiples of 16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally "
+"have a neutral color, although their color can be changed programmatically."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:121
-msgid "Perspective"
-msgstr "Perspektive"
+#: C/icons-and-artwork.page:35
+msgid "Icon uses"
+msgstr "Anwendungsfälle für Symbole"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:123
+#: C/icons-and-artwork.page:38
 msgid ""
-"Most icons can be executed best by using the “on the table” perspective, as "
-"if the observer was standing in front of the object and looking slightly "
-"down on it. Many icons can be rendered with a simple “straight on” or “on "
-"the shelf” perspective, with the observer looking directly at the object at "
-"eye level."
+"Application icons are the most prominent type of icons. Every application "
+"should have its own unique and beautiful application icon: it is the face of "
+"the application, and the first visual element a user sees when browsing for "
+"new applications."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:40
+msgid ""
+"Application icons use the full-color style. Applications are also "
+"recommended to provide a symbolic version of their icon, which is used for "
+"the high-contrast accessibility feature, as well as in contexts where a "
+"legible low-resolution icon is required."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:42
+msgid ""
+"User interface icons typically use the symbolic style and this is the "
+"primary icon style used for user interface controls. The most common and "
+"obvious example of symbolic icon usage is on buttons."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:44
+msgid ""
+"Apart from application icons, the full-color icon style can also be used in "
+"cases where icons are displayed at large sizes and are intended to be the "
+"focus of attention. File and folder icons in a file manager are a good "
+"example of this."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:128
-msgid "Palette"
-msgstr "Farbpalette"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:130
-msgid ""
-"Use the Tango color palette when designing full color application or device "
-"icons."
+#: C/icons-and-artwork.page:49
+msgid "Stock icons and creating your own"
 msgstr ""
-"Verwenden Sie die Tango-Farbpalette, wenn Sie farbige Anwendungs- oder "
-"Gerätesymbole entwerfen."
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:134
-msgid "Butter"
-msgstr "Butter"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:135
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-msgstr "original"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:136
-msgid "Plum"
-msgstr "Pflaume"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:137
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-msgstr "original"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:140
-msgid "Orange"
-msgstr "Orange"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:141
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-msgstr "original"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:142
-msgid "Scarlet Red"
-msgstr "Scharlachrot"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:143
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-msgstr "original"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:146
-msgid "Chocolate"
-msgstr "Schokolade"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:147
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-msgstr "original"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:148
-msgid "Aluminium"
-msgstr "Aluminium"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:149
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-msgstr "original"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:152
-msgid "Chameleon"
-msgstr "Chamäleon"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:153
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-msgstr "original"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:155
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-msgstr "original"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:158
-msgid "Sky Blue"
-msgstr "Himmelblau"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:159
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
-msgstr "original"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:164
+#: C/icons-and-artwork.page:51
 msgid ""
-"You are free to use different shades of these colors depending on the "
-"desired material effect. However, these primary colors are a good baseline "
-"to start from. All major libre graphics packages come with the Tango palette "
-"pre-installed."
+"GNOME provides a set of standard icons, which can be used by applications. "
+"This can be accessed directly through GTK. Icon names follow the <link href="
+"\"https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
+"html\">Freedesktop icon specification</link>. Symbolic versions of icons "
+"have the <code>-symbolic</code> name ending, such as <code>open-menu-"
+"symbolic</code>."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:53
+msgid ""
+"The <link xref=\"icon-design\">icon design guidelines</link> provide more "
+"details on how to create your own icons, including application icons."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:171
-msgid "See also"
-msgstr "Siehe auch"
+#: C/icons-and-artwork.page:58
+msgid "Using icons in your user interface"
+msgstr "Verwendung von Symbolen in Ihrer Benutzeroberfläche"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:173
+#: C/icons-and-artwork.page:60
 msgid ""
-"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
-"\">Tango Icon Guidelines</link>"
+"Icons are a common user interface element and they have some practical "
+"advantages over text labels (such as being smaller). At the same time, over-"
+"use of icons can lead to confusion and a poor user experience. Likewise, the "
+"use of inappropriate icons can often make an interface difficult to use."
 msgstr ""
-"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
-"\">Tango Icon Guidelines</link>"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:62
+msgid ""
+"Therefore, only use icons whose meaning is commonly recognized. If a "
+"commonly recognized icon is not available, it might be better to use a text "
+"label instead. Typically, convention establishes which icons are commonly "
+"recognized. This set of icons is actually quite small, and includes standard "
+"icons such as search, menu, forward, back and share. If you are in doubt, "
+"only use icons which are frequently used in other applications."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:64
+msgid "Other things to consider when using icons:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/icons-and-artwork.page:67
+msgid ""
+"Think about which icons will be meaningful in the specific context of your "
+"application - users of specialist tools will often be familiar with domain-"
+"specific symbols."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/icons-and-artwork.page:68
+msgid ""
+"Remember that some icons are only meaningful alongside other icons of the "
+"same type. For example, a media icon for stop is simply a square, and may "
+"not be identified as a stop icon without other media controls (like play, "
+"pause, or skip) being visible close by. Likewise, the icon to remove an item "
+"from a list is a subtract symbol (ie. a single line), and will not be "
+"recognizable without a corresponding “plus” add icon."
+msgstr ""
 
 #. (itstool) path: page/title
 #: C/index.page:14
@@ -3886,6 +4080,86 @@ msgid ""
 msgstr ""
 "<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html"
 "\">GtkInfoBar</link>"
+
+#. (itstool) path: info/desc
+#: C/initial-state-placeholders.page:8
+msgid "Image and text shown when an application is initially empty"
+msgstr "Angezeigtes Bild und Text, wenn eine Anwendung anfänglich leer ist"
+
+#. (itstool) path: page/title
+#: C/initial-state-placeholders.page:16
+msgid "Initial state placeholders"
+msgstr "Platzhalter für Anfangsstatus"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/initial-state-placeholders.page:18
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/initial-state-placeholder.svg' "
+"md5='f922abac4a8613328055476be813985c'"
+msgstr "original"
+
+#. (itstool) path: page/p
+#: C/initial-state-placeholders.page:20
+msgid ""
+"An initial state placeholder is an image and text which fills the space in "
+"an application that has never contained any content."
+msgstr ""
+"Ein Anfangsstatus-Platzhalter ist ein Bild samt Text, das den Raum in einer "
+"Anwendung füllt, in der bisher noch nie Inhalte angezeigt wurden."
+
+#. (itstool) path: section/p
+#: C/initial-state-placeholders.page:25
+msgid ""
+"In some cases an application might be empty until a user adds some content "
+"to it. In these scenarios, an initial state can be used to provide a rich "
+"and inviting experience. This helps to avoid the first use of the "
+"application being downbeat and unwelcoming."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/initial-state-placeholders.page:27
+msgid ""
+"An initial state placeholder should only be used when an application is "
+"going to be unavoidably empty. In many cases it is often better to pre-"
+"populate the application."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:36
+msgid "The imagery used should be rich and colorful."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:37
+msgid ""
+"The text that accompanies the image should be positive and upbeat. This is a "
+"moment where you can sell your application and establish a positive identity "
+"for it. It can also be an opportunity to strike up a relationship with the "
+"user by addressing them directly."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:39
+msgid ""
+"While an application is initially empty, some controls don't serve a purpose "
+"(such as those for browsing content, changing view, or searching). Making "
+"these controls insensitive will help to avoid the user being disappointed, "
+"or trying features that won't work."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:40
+msgid ""
+"An initial state should persevere until content is added to the application, "
+"after which it should not be seen again. If the application becomes empty "
+"subsequently, an <link xref=\"empty-placeholder\">empty state can be used</"
+"link>."
+msgstr ""
 
 #. (itstool) path: page/title
 #: C/keyboard-input.page:27
@@ -6642,7 +6916,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/menus.page:78 C/primary-menus.page:47 C/secondary-menus.page:47
+#: C/menus.page:78 C/primary-menus.page:48 C/secondary-menus.page:47
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
 "\">GtkMenuButton</link>"
@@ -6651,7 +6925,7 @@ msgstr ""
 "\">GtkMenuButton</link>"
 
 #. (itstool) path: item/p
-#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:48
+#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:49
 #: C/secondary-menus.page:48
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
@@ -7762,26 +8036,26 @@ msgstr "original'"
 #. (itstool) path: page/p
 #: C/primary-menus.page:20
 msgid ""
-"A menu that is located at the right side of a <link xref=\"header-bars"
-"\">header bar</link>, which contains the top-level menu items for an "
-"application, including Preferences, Help and About, as well as menu items "
-"for functionality that doesn't fit into the rest of the view. The button "
-"which activates the menu has the menu-open icon, which is made up of three "
-"stacked horizontal lines."
+"Primary menus are a standard design pattern that is found in most "
+"applications. They are labelled with the menu icon (named <code>menu-open</"
+"code>) and contain the top-level menu items for the application. This can "
+"include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
+"<gui>About</gui>, as well as other application-specific items."
 msgstr ""
 
 #. (itstool) path: page/p
 #: C/primary-menus.page:22
 msgid ""
-"When used in combination with a sidebar list, a primary menu is placed on "
-"the right above the list."
+"Primary menus are typically located on the right side of the header bar. "
+"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
+"link>, the primary menu should be placed above the sidebar list."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/primary-menus.page:27 C/secondary-menus.page:27
+#: C/primary-menus.page:27
 msgid ""
 "Most applications have primary menus, since they are the standard location "
-"for About, which every application is expected to have."
+"for <gui>About</gui>, which every application is expected to have."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -7799,13 +8073,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:36 C/secondary-menus.page:36
-msgid "Follow the <link xref=\"menus\">standard guidelines for menus</link>."
+#: C/primary-menus.page:36
+msgid ""
+"Applications which use in-window navigation should only show the primary "
+"menu on the top-level view (typically the main view that is shown when the "
+"app is launched). Child views, such as those that show individual items of "
+"content, should use <link xref=\"secondary-menus\">secondary</link> rather "
+"than primary menus."
 msgstr ""
-"Folgen Sie den <link xref=\"menus\">Standard-Richtlinien für Menüs</link>."
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:37 C/secondary-menus.page:37
+#: C/primary-menus.page:37
+msgid ""
+"Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
+"deciding on primary menu content and arrangement."
+msgstr ""
+"Folgen Sie den <link xref=\"menus\">Standard-Richtlinien für Menüs</link>, "
+"wenn Sie den Inhalt des primären Menüs und die anordung innerhalb dessen "
+"festlegen."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:38
 msgid ""
 "A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
 "As such, a header bar menu can include a variety of controls, such as groups "
@@ -7816,12 +8104,12 @@ msgstr ""
 "enthalten, wie beispielsweise Knopfgruppen."
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:38
+#: C/primary-menus.page:39
 msgid ""
-"Primary menus shouldn’t include menu items for close quit. Windows can "
-"already be closed from the header bar, and it can be ambiguous as to what a "
-"close menu item refers to. Users don't readily differentiate between quit "
-"and close, and it can therefore be misleading."
+"Primary menus shouldn’t include menu items for close or quit: windows can "
+"already be closed using the close button in the header bar, and it can be "
+"ambiguous as to what a close menu item refers to. Users don't readily "
+"differentiate between quit and close, and it can therefore be misleading."
 msgstr ""
 "Primäre Menüs sollten keinen Schließen-Eintrag enthalten, der die Anwendung "
 "beendet, da Fenster bereits in der Kopfleiste selbst geschlossen werden "
@@ -8805,20 +9093,29 @@ msgstr "original'"
 #. (itstool) path: page/p
 #: C/secondary-menus.page:20
 msgid ""
-"A menu that contains menu items for the current view or content item. A "
-"secondary menu is different from a <link xref=\"primary-menus\">primary "
-"menu</link>, in that it is only shown on sub-views/pages, and doesn't "
-"contain global application items like <gui>Preferences</gui> and <gui>About</"
-"gui>"
+"Secondary menus are located in the header bar and include menu items for the "
+"current view or content item. This differentiates them from <link xref="
+"\"primary-menus\">primary menus</link>, which include menu items that relate "
+"to an entire application (such as <gui>Preferences</gui> and <gui>About</"
+"gui>)."
 msgstr ""
 
-#. (itstool) path: page/p
-#: C/secondary-menus.page:22
+#. (itstool) path: section/p
+#: C/secondary-menus.page:25
 msgid ""
-"Secondary menus are opened with a button that has the view-more icon. They "
-"are located at the right side of a header bar or, when used in combination "
-"with a <link xref=\"sidebar-lists\">sidebar list</link>, to the right above "
-"the list."
+"Secondary menus can be used to host controls that relate to a particular "
+"content item which is being displayed in the application window (such as a "
+"document, contact, conversation or photo). They are typically used in "
+"combination with in-window navigation or <link xref=\"sidebar-lists"
+"\">sidebar lists</link>, since both these arrangements feature separate "
+"views or areas for content items to be shown."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/secondary-menus.page:27
+msgid ""
+"Secondary menus are optional and only need to be used if there are enough "
+"controls to require a menu."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -8835,19 +9132,30 @@ msgstr ""
 "sinnvoll sein, einen Eintrag <gui>Help</gui> bereitzustellen."
 
 #. (itstool) path: item/p
+#: C/secondary-menus.page:36
+msgid ""
+"The <link xref=\"menus\">standard guidelines for menus</link> can be "
+"followed when designing secondary menus."
+msgstr ""
+"Folgen Sie den <link xref=\"menus\">Standard-Richtlinien für Menüs</link> "
+"beim Entwurf sekundärer Menüs."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:37
+msgid ""
+"A secondary menu is contained within a <link xref=\"popovers\">popover</"
+"link>. As such, a header bar menu can include a variety of controls, such as "
+"groups of buttons."
+msgstr ""
+"Ein primäres Menü ist von einem <link xref=\"popovers\">Einblendmenü</link> "
+"umschlossen. Als solches kann ein primäres Menü verschiedene Bedienelemente "
+"enthalten, wie beispielsweise Knopfgruppen."
+
+#. (itstool) path: item/p
 #: C/secondary-menus.page:38
 msgid "Secondary menus shouldn’t include menu items for close or quit."
 msgstr ""
 "Sekundäre Menüs sollten keine Einträge zum Schließen oder Beenden enthalten."
-
-#. (itstool) path: C/secondary-menus.page/page
-#: C/secondary-menus.page:4
-msgid ""
-"<_:info-1/> <_:title-2/> <_:media-3/> <_:p-4/>. <_:p-5/> <_:section-6/> <_:"
-"section-7/> <_:section-8/>"
-msgstr ""
-"<_:info-1/> <_:title-2/> <_:media-3/> <_:p-4/>. <_:p-5/> <_:section-6/> <_:"
-"section-7/> <_:section-8/>"
 
 #. (itstool) path: info/desc
 #: C/selection-mode.page:7
