@@ -47,11 +47,11 @@
 <section id="shadows">
 <title>Shadows</title>
 
-<p>Shadows can be drawn internally, within a full-color icon, with the light source pointing straight from above. However, shadows should not be drawn outside the main silhouette of the icon, as these are generated programatically based on the context. When app icons are presented on a white background, for example, a strong drop shadow is rendered to help define the contours.</p>
+<p>Shadows can be drawn internally, within a full-color icon, with the light source pointing straight from above. However, shadows should not be drawn outside the main silhouette of the icon, as these are generated programmatically based on the context. When app icons are presented on a white background, for example, a strong drop shadow is rendered to help define the contours.</p>
 
 <media type="image" mime="image/png" src="figures/icons/dropshadow.png"/>
 
-<p>Versions of application icons can also be programatically generated for development or nightly builds.</p>
+<p>Versions of application icons can also be programmatically generated for development or nightly builds.</p>
 </section>
 
 <section id="palette">

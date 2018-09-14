@@ -50,7 +50,7 @@
 <p>Organize similar menu items into groups using dividers - this will make them easier to understand and quicker to use. When creating groups:</p>
 
 <list>
-<item><p>Order groups and group items logically, either by importance, task order, or expected frequency of use. Items at the top and bottom of the menu are more noticeable and easily targetted, so reserve these locations for particularly important or interesting functionality.</p></item>
+<item><p>Order groups and group items logically, either by importance, task order, or expected frequency of use. Items at the top and bottom of the menu are more noticeable and easily targeted, so reserve these locations for particularly important or interesting functionality.</p></item>
 <item><p>Place single-item groups at the top or bottom of the menu, or group them together with other single items.</p></item>
 <item><p>Do not mix different types of menu item within each group - actions, check box and radio button items should be kept separate.</p></item>
 </list>
