@@ -23,7 +23,7 @@
 
 <p>Two styles of icon are used in GNOME 3: full-color and symbolic icons.</p>
 
-<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 128x128px SVGs, and are sharpest when scaled up in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color icons also allows them to be rendered sharp at 64x64px and 32x32px, but is not advised to make them any smaller.</p>
+<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 128×128px SVGs, and are sharpest when scaled up in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color icons also allows them to be rendered sharp at 64×64px and 32×32px, but is not advised to make them any smaller.</p>
 
 <media type="image" mime="image/png" src="figures/icons/fullcolor-v-symbolic.svg"/>
 
