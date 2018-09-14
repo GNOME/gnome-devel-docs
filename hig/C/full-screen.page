@@ -31,7 +31,7 @@
 <title>Guidelines</title>
 
 <list>
-<item><p>If an application uses different views, it is only necessary to enable fullscreen for those views where it is useful - primarily those that display content items.</p></item>
+<item><p>If an application uses different views, it is only necessary to enable fullscreen for those views where it is useful — primarily those that display content items.</p></item>
 <item><p>Fullscreen can be triggered automatically when a content item is opened, or can be offered as a mode that can be activated by the user.</p></item>
 <item><p>If fullscreen is being offered as a mode that users activate, judge how prominent to make the control to enter fullscreen according to how often it will be used. Typically, a fullscreen button should be placed in the <link xref="header-bars">header bar</link> or <link xref="header-bar-menus">header bar menu</link>.</p></item>
 <item><p>When fullscreen is active:</p>

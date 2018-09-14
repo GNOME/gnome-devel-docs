@@ -59,7 +59,7 @@
 <section id="message-dialog-examples">
 <title>Examples</title>
 
-<p>Confirmation dialogs use a message dialog to check - or confirm - that the user wants to carry out an action. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.</p>
+<p>Confirmation dialogs use a message dialog to check — or confirm — that the user wants to carry out an action. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.</p>
 
 <note style="tip"><p>Confirmation dialogs will often be accidentally or automatically acknowledged, and will not always prevent mistakes from happening. It is often better to provide undo functionality instead.</p></note>
 
@@ -75,7 +75,7 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/action-dialog.svg"/>
 
-<p>Action dialogs present options and information about a specific action before it is carried out. They have a heading (which typically describes the action) and two primary buttons - one which allows the action to be carried out and one which cancels it.</p>
+<p>Action dialogs present options and information about a specific action before it is carried out. They have a heading (which typically describes the action) and two primary buttons — one which allows the action to be carried out and one which cancels it.</p>
 
 <p>Sometimes, the user may be required to choose options before an action can be carried out. In these cases, the affirmative dialog button should be insensitive until the required options have been selected.</p>
 

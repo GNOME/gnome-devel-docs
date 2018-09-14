@@ -52,7 +52,7 @@
 <item><p>It needs to identify your application in the systems where it is installed and run.</p></item>
 </list>
 
-<p>Ensure that your application name is short - fewer than 15 characters. This will ensure that it is always displayed in full within a GNOME 3 environment.</p>
+<p>Ensure that your application name is short — fewer than 15 characters. This will ensure that it is always displayed in full within a GNOME 3 environment.</p>
 
 <p>Additionally, choose an application name that is easy to understand and communicates your application’s functionality. Avoid references which will not be understood or be familiar to potential users, such as obscure cultural references, inside jokes and acronyms. Instead, pick a name that references what your application does, or the domain in which it operates.</p>
 

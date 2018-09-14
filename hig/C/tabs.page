@@ -64,7 +64,7 @@
 <item><p>Tabs often have a constrained width, so ensure that tab labels are short and concise, and that the most useful part of the label is displayed first. This ensures that the label continues to be useful even when ellipsized.</p></item>
 <item><p>If the content of a tab changes or requires attention, a visual hint can be displayed.</p></item>
 <item><p>Provide a context menu on each tab. This menu should only include actions for manipulating the tab itself, such as <gui>Move Left</gui>, <gui>Move Right</gui>, <gui>Move to New Window</gui>, and <gui>Close</gui>.</p></item>
-<item><p>If tabs are an important part of the application, a new tab button can be placed in the header bar or toolbar. Do not show a new tab button in applications where tabs will not always be used - keyboard shortcuts and/or menu items are sufficient in these cases.</p></item>
+<item><p>If tabs are an important part of the application, a new tab button can be placed in the header bar or toolbar. Do not show a new tab button in applications where tabs will not always be used — keyboard shortcuts and/or menu items are sufficient in these cases.</p></item>
 </list>
 
 <section id="keyboard-shortcuts">

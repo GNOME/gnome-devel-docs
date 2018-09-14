@@ -78,7 +78,7 @@
 <list>
 <item><p>Notification actions should be related to the content of the notification, and should not provide generic actions for your application. This ensures that each notification has a clear focus and purpose.</p></item>
 <item><p>Only use notification actions when the functionality that they provide is commonly required.</p></item>
-<item><p>Actions should not replace user interface controls elsewhere - it should be possible to take the same actions from your application’s windows.</p></item>
+<item><p>Actions should not replace user interface controls elsewhere — it should be possible to take the same actions from your application’s windows.</p></item>
 <item><p>It is not necessary to always use notification actions, and many notifications will not require them.</p></item>
 <item><p>Notification actions should not duplicate the default action. For example, a new email notification does not need to include an Open button, since the default action should already perform this action.</p></item>
 </list>
