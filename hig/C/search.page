@@ -50,7 +50,7 @@ In primary windows, the search bar is typically hidden until it is activated by 
 <title>Search results</title>
 
 <list>
-<item><p>Search should be “live” wherever possible - the content view should update to display search results as they are entered.</p></item>
+<item><p>Search should be “live” wherever possible — the content view should update to display search results as they are entered.</p></item>
 <item><p>In order to be effective, it is important that search results are quickly returned.</p></item>
 <item><p>If a search term does not return any results, ensure that feedback is given in the content view. Often a simple "No results" label is sufficient.</p></item>
 </list>

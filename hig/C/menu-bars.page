@@ -93,8 +93,8 @@
 <title>General guidelines</title>
 
 <list>
-<item><p>The menubar is normally visible at all times and is always accessible from the keyboard, so make all the commands available in your application available on the menubar. (This guideline is unique to menu bars - other menus should not seek to reproduce functionality that is made available by other controls).</p></item>
-<item><p>Treat <link xref="application-menus">application menus</link> as part of the menu bar - it is not necessary to reproduce items from the application menu in other menus.</p></item>
+<item><p>The menubar is normally visible at all times and is always accessible from the keyboard, so make all the commands available in your application available on the menubar. (This guideline is unique to menu bars — other menus should not seek to reproduce functionality that is made available by other controls).</p></item>
+<item><p>Treat <link xref="application-menus">application menus</link> as part of the menu bar — it is not necessary to reproduce items from the application menu in other menus.</p></item>
 <item><p>Do not disable menu titles. Allow the user to explore the menu, even though there might be no available items on it at that time.</p></item>
 <item><p>Menu titles on a menubar are single words with their first letter capitalized. Do not use spaces in menu titles, as this makes them easily-mistaken for two separate menu titles. Do not use compound words (such as <gui>WindowOptions</gui>) or hyphens (such as <gui>Window-Options</gui>) to circumvent this guideline.</p></item>
 <item><p>Do not provide a mechanism for hiding the menubar, as this may be activated accidentally. Some users will not be able to figure out how to get the menu bar back in this case.</p></item>

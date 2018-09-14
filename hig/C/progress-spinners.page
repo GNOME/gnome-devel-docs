@@ -40,7 +40,7 @@
 <list>
 <item><p>If an operation can vary in how long it takes, use a timeout to only show a progress spinner after three seconds have elapsed. A progress indication is not needed for lengths of time below this.</p></item>
 <item><p>Place progress spinners close to or within the user interface elements they relate to. If a button triggers a long-running operation, the spinner can be placed next to that button, for example. When loading content, the spinner should be placed within the area where that content will appear.</p></item>
-<item><p>Generally, only one progress spinner should be displayed at once. Avoid showing a large number of spinners simultaneously - this will often be visually overwhelming.</p></item>
+<item><p>Generally, only one progress spinner should be displayed at once. Avoid showing a large number of spinners simultaneously — this will often be visually overwhelming.</p></item>
 <item><p>A label can be shown next to a spinner if it is helpful to clarify the task which a spinner relates to.</p></item>
 <item><p>If a spinner is displayed for a long time, a label can indicate both the identity of the task and progress through it. This can take the form of a percentage, an indication of the time remaining, or progress through sub-components of the task (eg. modules downloaded, or pages exported).</p></item>
 </list>
