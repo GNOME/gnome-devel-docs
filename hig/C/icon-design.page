@@ -38,7 +38,7 @@
 
 <media type="image" mime="image/png" src="figures/icons/aspect-ratio.svg"/>
 
-<p>A <link href="https://gitlab.gnome.org/Community/Design/icon-revolution/raw/master/template.svg">grid template</link> is available to assist with placing your icon outline. Do not try to cover a maximum area of the canvas: the outside margin should be left empty. In some circumstances a small detail can be extended into this margin space.</p>
+<p>A <link href="https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/master/template.svg">grid template</link> is available to assist with placing your icon outline. Do not try to cover a maximum area of the canvas: the outside margin should be left empty. In some circumstances a small detail can be extended into this margin space.</p>
 
 <media type="image" mime="image/png" src="figures/icons/whitespace.svg"/>
 
