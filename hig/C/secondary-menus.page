@@ -5,7 +5,7 @@
 
   <info>
     <link type="guide" xref="patterns#primary"/>
-    <desc>The application's main menu, denoted by three stacked horizontal lines</desc>
+    <desc>The application's secondary menu, denoted by three stacked horizontal dots</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>
