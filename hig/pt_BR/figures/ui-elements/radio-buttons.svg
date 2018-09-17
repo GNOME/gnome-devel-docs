@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="280"
+   height="280"
+   id="svg11709"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="radio-buttons.svg">
+  <defs
+     id="defs11711" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="95.426932"
+     inkscape:cy="181.89006"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1410"
+     inkscape:window-height="874"
+     inkscape:window-x="234"
+     inkscape:window-y="144"
+     inkscape:window-maximized="0"
+     inkscape:snap-nodes="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4241" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata11714">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-772.36218)">
+    <g
+       transform="matrix(0.47513807,0,0,0.48279337,59.501685,845.26697)"
+       id="g4243"
+       style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:1.07138383;stroke-opacity:1"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:1.07138383;stroke-opacity:1"
+         id="g4245">
+        <rect
+           rx="15.530826"
+           y="125.5"
+           x="50.5"
+           height="29"
+           width="29.5"
+           id="rect4247"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:2.08789897;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           ry="15.539307" />
+      </g>
+    </g>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="111.73901"
+       y="890.21082"
+       id="text16010"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16012"
+         x="111.73901"
+         y="890.21082">Configuração 1</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       sodipodi:linespacing="125%"
+       id="text16014"
+       y="918.21094"
+       x="111.73901"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         y="918.21094"
+         x="111.73901"
+         id="tspan16016"
+         sodipodi:role="line">Configuração 2</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       x="111.73901"
+       y="946.21082"
+       id="text16018"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16020"
+         x="111.73901"
+         y="946.21082">Configuração 3</tspan></text>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:1.07138383;stroke-opacity:1"
+       id="g16022"
+       transform="matrix(0.47513807,0,0,0.48279337,59.501685,817.26673)">
+      <g
+         id="g16024"
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:1.07138383;stroke-opacity:1">
+        <rect
+           ry="15.539307"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:2.08789897;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           id="rect16026"
+           width="29.5"
+           height="29"
+           x="50.5"
+           y="125.5"
+           rx="15.530826" />
+      </g>
+    </g>
+    <use
+       transform="matrix(0.93617258,0,0,0.93566,-98.843114,597.38145)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#g7025"
+       id="use7369"
+       width="1"
+       height="1" />
+    <rect
+       ry="2.5903506"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2.08838987;marker:none;enable-background:accumulate"
+       id="rect7375"
+       width="5"
+       height="4.994453"
+       x="88.00444"
+       y="882.3606"
+       rx="2.5917695" />
+    <use
+       transform="matrix(0.93617253,0,0,0.93566004,-78.843091,597.38144)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#g7025"
+       id="use7379"
+       width="1"
+       height="1" />
+    <rect
+       ry="1.4843769"
+       rx="1.4843769"
+       y="911.34241"
+       x="86.004448"
+       height="3"
+       width="9"
+       id="rect7387"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.99191427;marker:none;enable-background:accumulate" />
+    <g
+       transform="matrix(0.47513807,0,0,0.48279337,59.501685,873.26687)"
+       id="g4249"
+       style="display:inline;fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:1.07138383;stroke-opacity:1"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:1.07138383;stroke-opacity:1"
+         id="g4251">
+        <rect
+           rx="15.530826"
+           y="125.5"
+           x="50.5"
+           height="29"
+           width="29.5"
+           id="rect4253"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:2.08789897;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           ry="15.539307" />
+      </g>
+    </g>
+  </g>
+</svg>

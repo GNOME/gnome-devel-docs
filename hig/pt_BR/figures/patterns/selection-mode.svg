@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="940"
+   height="540"
+   id="svg6276"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="selection-mode.svg">
+  <defs
+     id="defs6278" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="529.99693"
+     inkscape:cy="291.39047"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6749"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6281">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-512.36218)">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="9"
+       rx="9"
+       y="568.86218"
+       x="127.5"
+       height="106"
+       width="685"
+       id="rect7929"
+       style="fill:#4a90d9;fill-opacity:1;stroke:#1c5288;stroke-width:0.99999994;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       mask="none"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7931"
+       width="685"
+       height="386"
+       x="127.5"
+       y="609.86218" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#4a90d9;fill-opacity:1;fill-rule:nonzero;stroke:#1c5288;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect7933"
+       width="69"
+       height="31"
+       x="737.5"
+       y="573.86206"
+       rx="3.0000002"
+       ry="3"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="3"
+       rx="3"
+       y="573.86206"
+       x="699.5"
+       height="31"
+       width="31"
+       id="rect7935"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#4a90d9;fill-opacity:1;fill-rule:nonzero;stroke:#1c5288;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       id="g7937"
+       transform="translate(706.9911,581.3302)"
+       style="fill:#ffffff;fill-opacity:1">
+      <g
+         style="display:inline;fill:#ffffff;fill-opacity:1"
+         id="g7939"
+         transform="translate(-140.0002,-645.96875)"
+         inkscape:label="status" />
+      <g
+         id="g7941"
+         transform="translate(-140.0002,-645.96875)"
+         inkscape:label="devices"
+         style="fill:#ffffff;fill-opacity:1" />
+      <g
+         id="g7943"
+         transform="translate(-140.0002,-645.96875)"
+         inkscape:label="apps"
+         style="fill:#ffffff;fill-opacity:1" />
+      <g
+         id="g7945"
+         transform="translate(-140.0002,-645.96875)"
+         inkscape:label="actions"
+         style="fill:#ffffff;fill-opacity:1">
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.55467153;marker:none;enable-background:new"
+           id="path7947"
+           d="m 146.50761,646.99554 c -3.02886,0 -5.51073,2.47905 -5.51073,5.50447 0,3.02541 2.48187,5.50446 5.51073,5.50446 3.02885,0 5.51072,-2.47905 5.51072,-5.50446 0,-3.02542 -2.48187,-5.50447 -5.51072,-5.50447 z m 0,2.00893 c 1.94735,0 3.49951,1.55039 3.49951,3.49554 0,1.94514 -1.55216,3.49553 -3.49951,3.49553 -1.94736,0 -3.49952,-1.55039 -3.49952,-3.49553 0,-1.94515 1.55216,-3.49554 3.49952,-3.49554 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;enable-background:new"
+           id="path7949"
+           d="m 149.8125,655 a 1.0001,1.0001 0 0 0 -0.5,1.71875 l 4,4 a 1.0054782,1.0054782 0 1 0 1.40625,-1.4375 l -4,-4 A 1.0001,1.0001 0 0 0 149.8125,655 Z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g7951"
+         transform="translate(-140.0002,-645.96875)"
+         inkscape:label="places"
+         style="fill:#ffffff;fill-opacity:1" />
+      <g
+         id="g7953"
+         transform="translate(-140.0002,-645.96875)"
+         inkscape:label="mimetypes"
+         style="fill:#ffffff;fill-opacity:1" />
+      <g
+         style="display:inline;fill:#ffffff;fill-opacity:1"
+         id="g7955"
+         transform="translate(-140.0002,-645.96875)"
+         inkscape:label="emblems" />
+      <g
+         style="display:inline;fill:#ffffff;fill-opacity:1"
+         id="g7957"
+         transform="translate(-140.0002,-645.96875)"
+         inkscape:label="categories" />
+    </g>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       sodipodi:linespacing="125%"
+       id="text7959"
+       y="594.1991"
+       x="469.86328"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;"
+       xml:space="preserve"><tspan
+         y="594.1991"
+         x="469.86328"
+         id="tspan7961"
+         sodipodi:role="line">Click on items to select them</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;"
+       x="771.59741"
+       y="594.1991"
+       id="text7963"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7965"
+         x="771.59741"
+         y="594.1991">Cancel</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7969"
+       width="119"
+       height="142"
+       x="678.52051"
+       y="623.86206" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect7971"
+       width="90"
+       height="5"
+       x="693.02051"
+       y="642.36206" />
+    <rect
+       y="652.36206"
+       x="693.02051"
+       height="5"
+       width="90"
+       id="rect7973"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect7975"
+       width="68.877548"
+       height="5"
+       x="693.02051"
+       y="662.36206" />
+    <rect
+       y="672.36206"
+       x="693.02051"
+       height="5"
+       width="57.857143"
+       id="rect7977"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       y="690.36206"
+       x="693.02051"
+       height="5"
+       width="90"
+       id="rect7979"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect7981"
+       width="90"
+       height="5"
+       x="693.02051"
+       y="700.36206" />
+    <rect
+       y="710.36206"
+       x="693.02051"
+       height="5"
+       width="68.877548"
+       id="rect7983"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect7985"
+       width="57.857143"
+       height="5"
+       x="693.02051"
+       y="720.36206" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7991"
+       width="119"
+       height="119"
+       x="544.52051"
+       y="623.86206" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       y="623.86206"
+       x="410.52051"
+       height="119"
+       width="119"
+       id="rect7993"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7995"
+       width="119"
+       height="119"
+       x="276.52051"
+       y="623.86206" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       y="623.86206"
+       x="142.52051"
+       height="142"
+       width="119"
+       id="rect7997"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       y="642.36206"
+       x="157.02051"
+       height="5"
+       width="90"
+       id="rect7999"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8001"
+       width="90"
+       height="5"
+       x="157.02051"
+       y="652.36206" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       y="662.36206"
+       x="157.02051"
+       height="5"
+       width="68.877548"
+       id="rect8003"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8005"
+       width="57.857143"
+       height="5"
+       x="157.02051"
+       y="672.36206" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8007"
+       width="90"
+       height="5"
+       x="157.02051"
+       y="690.36206" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       y="700.36206"
+       x="157.02051"
+       height="5"
+       width="90"
+       id="rect8009"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8011"
+       width="68.877548"
+       height="5"
+       x="157.02051"
+       y="710.36206" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       y="720.36206"
+       x="157.02051"
+       height="5"
+       width="57.857143"
+       id="rect8013"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       y="623.86206"
+       x="544.52051"
+       height="142"
+       width="119"
+       id="rect8017"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="642.36206"
+       x="559.02051"
+       height="5"
+       width="90"
+       id="rect8019"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8021"
+       width="90"
+       height="5"
+       x="559.02051"
+       y="652.36206" />
+    <rect
+       y="662.36206"
+       x="559.02051"
+       height="5"
+       width="68.877548"
+       id="rect8023"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8025"
+       width="57.857143"
+       height="5"
+       x="559.02051"
+       y="672.36206" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8027"
+       width="90"
+       height="5"
+       x="559.02051"
+       y="690.36206" />
+    <rect
+       y="700.36206"
+       x="559.02051"
+       height="5"
+       width="90"
+       id="rect8029"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8032"
+       width="68.877548"
+       height="5"
+       x="559.02051"
+       y="710.36206" />
+    <rect
+       y="720.36206"
+       x="559.02051"
+       height="5"
+       width="57.857143"
+       id="rect8034"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8038"
+       width="119"
+       height="142"
+       x="410.52051"
+       y="623.86206" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8040"
+       width="90"
+       height="5"
+       x="425.02051"
+       y="642.36206" />
+    <rect
+       y="652.36206"
+       x="425.02051"
+       height="5"
+       width="90"
+       id="rect8042"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8044"
+       width="68.877548"
+       height="5"
+       x="425.02051"
+       y="662.36206" />
+    <rect
+       y="672.36206"
+       x="425.02051"
+       height="5"
+       width="57.857143"
+       id="rect8046"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       y="690.36206"
+       x="425.02051"
+       height="5"
+       width="90"
+       id="rect8048"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8050"
+       width="90"
+       height="5"
+       x="425.02051"
+       y="700.36206" />
+    <rect
+       y="710.36206"
+       x="425.02051"
+       height="5"
+       width="68.877548"
+       id="rect8052"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8054"
+       width="57.857143"
+       height="5"
+       x="425.02051"
+       y="720.36206" />
+    <rect
+       y="623.86206"
+       x="276.52051"
+       height="142"
+       width="119"
+       id="rect8058"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="642.36206"
+       x="291.02051"
+       height="5"
+       width="90"
+       id="rect8060"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8062"
+       width="90"
+       height="5"
+       x="291.02051"
+       y="652.36206" />
+    <rect
+       y="662.36206"
+       x="291.02051"
+       height="5"
+       width="68.877548"
+       id="rect8064"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8066"
+       width="57.857143"
+       height="5"
+       x="291.02051"
+       y="672.36206" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8068"
+       width="90"
+       height="5"
+       x="291.02051"
+       y="690.36206" />
+    <rect
+       y="700.36206"
+       x="291.02051"
+       height="5"
+       width="90"
+       id="rect8070"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8072"
+       width="68.877548"
+       height="5"
+       x="291.02051"
+       y="710.36206" />
+    <rect
+       y="720.36206"
+       x="291.02051"
+       height="5"
+       width="57.857143"
+       id="rect8074"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       y="783.86212"
+       x="678.52051"
+       height="142"
+       width="119"
+       id="rect8078"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="802.36212"
+       x="693.02051"
+       height="5"
+       width="90"
+       id="rect8080"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8082"
+       width="90"
+       height="5"
+       x="693.02051"
+       y="812.36212" />
+    <rect
+       y="822.36212"
+       x="693.02051"
+       height="5"
+       width="68.877548"
+       id="rect8085"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8087"
+       width="57.857143"
+       height="5"
+       x="693.02051"
+       y="832.36212" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8089"
+       width="90"
+       height="5"
+       x="693.02051"
+       y="850.36212" />
+    <rect
+       y="860.36212"
+       x="693.02051"
+       height="5"
+       width="90"
+       id="rect8091"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8093"
+       width="68.877548"
+       height="5"
+       x="693.02051"
+       y="870.36212" />
+    <rect
+       y="880.36212"
+       x="693.02051"
+       height="5"
+       width="57.857143"
+       id="rect8095"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8097"
+       width="119"
+       height="142"
+       x="142.52051"
+       y="783.86206" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8101"
+       width="119"
+       height="142"
+       x="544.52051"
+       y="783.86212" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8103"
+       width="90"
+       height="5"
+       x="559.02051"
+       y="802.36212" />
+    <rect
+       y="812.36212"
+       x="559.02051"
+       height="5"
+       width="90"
+       id="rect8105"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8107"
+       width="68.877548"
+       height="5"
+       x="559.02051"
+       y="822.36212" />
+    <rect
+       y="832.36212"
+       x="559.02051"
+       height="5"
+       width="57.857143"
+       id="rect8109"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       y="850.36212"
+       x="559.02051"
+       height="5"
+       width="90"
+       id="rect8111"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8113"
+       width="90"
+       height="5"
+       x="559.02051"
+       y="860.36212" />
+    <rect
+       y="870.36212"
+       x="559.02051"
+       height="5"
+       width="68.877548"
+       id="rect8115"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8117"
+       width="57.857143"
+       height="5"
+       x="559.02051"
+       y="880.36212" />
+    <rect
+       y="783.86212"
+       x="410.52051"
+       height="142"
+       width="119"
+       id="rect8121"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="802.36212"
+       x="425.02051"
+       height="5"
+       width="90"
+       id="rect8123"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8125"
+       width="90"
+       height="5"
+       x="425.02051"
+       y="812.36212" />
+    <rect
+       y="822.36212"
+       x="425.02051"
+       height="5"
+       width="68.877548"
+       id="rect8127"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8129"
+       width="57.857143"
+       height="5"
+       x="425.02051"
+       y="832.36212" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8131"
+       width="90"
+       height="5"
+       x="425.02051"
+       y="850.36212" />
+    <rect
+       y="860.36212"
+       x="425.02051"
+       height="5"
+       width="90"
+       id="rect8133"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8135"
+       width="68.877548"
+       height="5"
+       x="425.02051"
+       y="870.36212" />
+    <rect
+       y="880.36212"
+       x="425.02051"
+       height="5"
+       width="57.857143"
+       id="rect8137"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8141"
+       width="119"
+       height="142"
+       x="276.52051"
+       y="783.86212" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8143"
+       width="90"
+       height="5"
+       x="291.02051"
+       y="802.36212" />
+    <rect
+       y="812.36212"
+       x="291.02051"
+       height="5"
+       width="90"
+       id="rect8145"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8147"
+       width="68.877548"
+       height="5"
+       x="291.02051"
+       y="822.36212" />
+    <rect
+       y="832.36212"
+       x="291.02051"
+       height="5"
+       width="57.857143"
+       id="rect8149"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       y="850.36212"
+       x="291.02051"
+       height="5"
+       width="90"
+       id="rect8151"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8153"
+       width="90"
+       height="5"
+       x="291.02051"
+       y="860.36212" />
+    <rect
+       y="870.36212"
+       x="291.02051"
+       height="5"
+       width="68.877548"
+       id="rect8155"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8157"
+       width="57.857143"
+       height="5"
+       x="291.02051"
+       y="880.36212" />
+    <rect
+       y="783.86212"
+       x="142.52049"
+       height="142"
+       width="119"
+       id="rect8161"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="802.36212"
+       x="157.02049"
+       height="5"
+       width="90"
+       id="rect8163"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8165"
+       width="90"
+       height="5"
+       x="157.02049"
+       y="812.36212" />
+    <rect
+       y="822.36212"
+       x="157.02049"
+       height="5"
+       width="68.877548"
+       id="rect8167"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8169"
+       width="57.857143"
+       height="5"
+       x="157.02049"
+       y="832.36212" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8171"
+       width="90"
+       height="5"
+       x="157.02049"
+       y="850.36212" />
+    <rect
+       y="860.36212"
+       x="157.02049"
+       height="5"
+       width="90"
+       id="rect8173"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none"
+       id="rect8175"
+       width="68.877548"
+       height="5"
+       x="157.02049"
+       y="870.36212" />
+    <rect
+       y="880.36212"
+       x="157.02049"
+       height="5"
+       width="57.857143"
+       id="rect8177"
+       style="fill:#dbdbdb;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       inkscape:connector-curvature="0"
+       id="path8179"
+       d="m 127.5,609.8622 684.9999,0"
+       style="fill:none;stroke:#3465a4;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="3"
+       rx="3.0000002"
+       y="742.86206"
+       x="238.5"
+       height="17"
+       width="17"
+       id="rect8181"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect8183"
+       width="17"
+       height="17"
+       x="370.5"
+       y="742.86206"
+       rx="3.0000002"
+       ry="3" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="3"
+       rx="3.0000002"
+       y="742.86206"
+       x="504.5"
+       height="17"
+       width="17"
+       id="rect8185"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect8187"
+       width="17"
+       height="17"
+       x="638.5"
+       y="742.86206"
+       rx="3.0000002"
+       ry="3" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="3"
+       rx="3.0000002"
+       y="742.86206"
+       x="772.5"
+       height="17"
+       width="17"
+       id="rect8189"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect8191"
+       width="17"
+       height="17"
+       x="238.5"
+       y="902.86206"
+       rx="3.0000002"
+       ry="3" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="3"
+       rx="3.0000002"
+       y="902.86206"
+       x="370.5"
+       height="17"
+       width="17"
+       id="rect8193"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect8195"
+       width="17"
+       height="17"
+       x="504.5"
+       y="902.86206"
+       rx="3.0000002"
+       ry="3" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="3"
+       rx="3.0000002"
+       y="902.86206"
+       x="638.5"
+       height="17"
+       width="17"
+       id="rect8197"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.99999994;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect8199"
+       width="17"
+       height="17"
+       x="772.5"
+       y="902.86206"
+       rx="3.0000002"
+       ry="3" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       mask="none"
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8201"
+       width="685"
+       height="41"
+       x="127.5"
+       y="954.86218" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       style="fill:#2e3436"
+       transform="translate(370.9377,742.4246)"
+       id="g8203">
+      <g
+         id="g8205"
+         inkscape:label="status"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-261.0002,-317)">
+        <path
+           inkscape:connector-curvature="0"
+           d="M 272.9375,320.9375 268,325.875 l -1.9375,-1.9375 -2.125,2.125 3,3 1.0625,1.0625 1.0625,-1.0625 6,-6 -2.125,-2.125 z"
+           id="path8207"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;enable-background:accumulate" />
+      </g>
+      <g
+         id="g8209"
+         inkscape:label="devices"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-261.0002,-317)" />
+      <g
+         style="fill:#2e3436"
+         id="g8211"
+         inkscape:label="apps"
+         transform="translate(-261.0002,-317)" />
+      <g
+         id="g8213"
+         inkscape:label="places"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-261.0002,-317)" />
+      <g
+         style="fill:#2e3436"
+         id="g8215"
+         inkscape:label="mimetypes"
+         transform="translate(-261.0002,-317)" />
+      <g
+         id="g8217"
+         inkscape:label="emblems"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-261.0002,-317)" />
+      <g
+         id="g8219"
+         inkscape:label="emotes"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-261.0002,-317)" />
+      <g
+         id="g8221"
+         inkscape:label="categories"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-261.0002,-317)" />
+      <g
+         id="g8223"
+         inkscape:label="actions"
+         style="display:inline;fill:#2e3436"
+         transform="translate(-261.0002,-317)" />
+    </g>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="3"
+       rx="3.0000002"
+       y="959.86206"
+       x="134.5"
+       height="31"
+       width="69"
+       id="rect8225"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none"
+       x="169.32971"
+       y="980.15009"
+       id="text8227"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8229"
+         x="169.32971"
+         y="980.15009">Ação</tspan></text>
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       id="rect8231"
+       width="69"
+       height="31"
+       x="210.5"
+       y="959.86206"
+       rx="3.0000002"
+       ry="3"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       sodipodi:linespacing="125%"
+       id="text8233"
+       y="980.15009"
+       x="245.32971"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="980.15009"
+         x="245.32971"
+         id="tspan8235"
+         sodipodi:role="line">Ação</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       ry="3"
+       rx="3.0000002"
+       y="959.86206"
+       x="286.5"
+       height="31"
+       width="69"
+       id="rect8237"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none"
+       x="321.32971"
+       y="980.15009"
+       id="text8239"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8241"
+         x="321.32971"
+         y="980.15009">Ação</tspan></text>
+    <g
+       id="g4618"
+       transform="translate(638.9377,902.23718)"
+       style="fill:#2e3436"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(-261.0002,-317)"
+         style="display:inline;fill:#2e3436"
+         inkscape:label="status"
+         id="g4620">
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+           id="path4622"
+           d="M 272.9375,320.9375 268,325.875 l -1.9375,-1.9375 -2.125,2.125 3,3 1.0625,1.0625 1.0625,-1.0625 6,-6 -2.125,-2.125 z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         transform="translate(-261.0002,-317)"
+         style="display:inline;fill:#2e3436"
+         inkscape:label="devices"
+         id="g4624" />
+      <g
+         transform="translate(-261.0002,-317)"
+         inkscape:label="apps"
+         id="g4626"
+         style="fill:#2e3436" />
+      <g
+         transform="translate(-261.0002,-317)"
+         style="display:inline;fill:#2e3436"
+         inkscape:label="places"
+         id="g4628" />
+      <g
+         transform="translate(-261.0002,-317)"
+         inkscape:label="mimetypes"
+         id="g4630"
+         style="fill:#2e3436" />
+      <g
+         transform="translate(-261.0002,-317)"
+         style="display:inline;fill:#2e3436"
+         inkscape:label="emblems"
+         id="g4632" />
+      <g
+         transform="translate(-261.0002,-317)"
+         style="display:inline;fill:#2e3436"
+         inkscape:label="emotes"
+         id="g4634" />
+      <g
+         transform="translate(-261.0002,-317)"
+         style="display:inline;fill:#2e3436"
+         inkscape:label="categories"
+         id="g4636" />
+      <g
+         transform="translate(-261.0002,-317)"
+         style="display:inline;fill:#2e3436"
+         inkscape:label="actions"
+         id="g4638" />
+    </g>
+  </g>
+</svg>
