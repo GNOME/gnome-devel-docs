@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-09-14 11:08+0000\n"
+"POT-Creation-Date: 2018-09-17 11:37+0000\n"
 "PO-Revision-Date: 2018-09-17 09:47+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
@@ -2703,9 +2703,9 @@ msgid ""
 "fullscreen is active, controls are typically hidden in order to provide an "
 "immersive content view."
 msgstr ""
-"Celá obrazovka je režim, ve kterém okno zaplní celou dostupnou obrazovku. Když "
-"je tento režim aktivní, ovládací prvky se obvykle skryjí, aby byl poskytnut "
-"ničím nerušený pohled na data."
+"Celá obrazovka je režim, ve kterém okno zaplní celou dostupnou obrazovku. "
+"Když je tento režim aktivní, ovládací prvky se obvykle skryjí, aby byl "
+"poskytnut ničím nerušený pohled na data."
 
 #. (itstool) path: section/p
 #: C/full-screen.page:24
@@ -2776,10 +2776,6 @@ msgstr "Když je celá obrazovka aktivní:"
 
 #. (itstool) path: item/p
 #: C/full-screen.page:39
-#| msgid ""
-#| "Overlaid controls can be attached to the edge of the content/window, or "
-#| "can be free-floating. <link xref=\"action-bars\">Action bars</link> can "
-#| "be treated as overlaid controls."
 msgid ""
 "All controls should be hidden, including the window's header bar, <link xref="
 "\"action-bars\">action bars</link> or <link xref=\"overlaid-controls"
@@ -2791,9 +2787,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/full-screen.page:40
-#| msgid ""
-#| "Controls should be displayed when the pointer is moved over the content, "
-#| "or when it is tapped (on touch devices)."
 msgid ""
 "Controls, including the header bar, should be revealed when the pointer is "
 "moved or the screen is tapped."
@@ -3619,9 +3612,10 @@ msgid ""
 msgstr ""
 "Při hledání příhodné metafory pro ikonu se rozhodněte pro jednu vlastnost. "
 "Snažte se při tom zaměřit na to, co odlišuje myšlenku, kterou se snažíte "
-"sdělit. Například, když popisujete činnost, která se provádí na obrázku, není "
-"potřeba na každé ikoně opakovat myšlenku obrázku. Místo toho se zaměřte na "
-"to, co odlišuje jednotlivé činnosti (ku příkladu otočení, štítek, zarovnání)."
+"sdělit. Například, když popisujete činnost, která se provádí na obrázku, "
+"není potřeba na každé ikoně opakovat myšlenku obrázku. Místo toho se zaměřte "
+"na to, co odlišuje jednotlivé činnosti (ku příkladu otočení, štítek, "
+"zarovnání)."
 
 #. (itstool) path: item/p
 #: C/icon-design.page:120
@@ -3650,9 +3644,9 @@ msgid ""
 "possible."
 msgstr ""
 "Symbolické ikony jsou za běhu obarvované, aby zapadaly do kontextu, podobně "
-"jako zobrazovaný text. Takže, i když existují způsoby, jak pomocí průhlednosti "
-"nebo vzorku „vystínovat“ část ikony, snažte se tomu v maximální možné míře "
-"vyhnout."
+"jako zobrazovaný text. Takže, i když existují způsoby, jak pomocí "
+"průhlednosti nebo vzorku „vystínovat“ část ikony, snažte se tomu v maximální "
+"možné míře vyhnout."
 
 #. (itstool) path: item/p
 #: C/icon-design.page:123
@@ -4375,7 +4369,8 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/initial-state-placeholders.page:8
 msgid "Image and text shown when an application is initially empty"
-msgstr "Obrázek a text, které se  zobrazí, když je aplikace na počátku prázdná."
+msgstr ""
+"Obrázek a text, které se  zobrazí, když je aplikace na počátku prázdná."
 
 #. (itstool) path: page/title
 #: C/initial-state-placeholders.page:16
@@ -8863,7 +8858,7 @@ msgstr ""
 "\">GtkPopover</link>"
 
 #. (itstool) path: info/desc
-#: C/primary-menus.page:8 C/secondary-menus.page:8
+#: C/primary-menus.page:8
 msgid "The application's main menu, denoted by three stacked horizontal lines"
 msgstr "Hlavní nabídka aplikace představovaná třemi vodorovnými čarami"
 
@@ -10089,6 +10084,12 @@ msgid ""
 msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
 "\">GtkSearchEntry</link>"
+
+#. (itstool) path: info/desc
+#: C/secondary-menus.page:8
+msgid ""
+"The application's secondary menu, denoted by three stacked horizontal dots"
+msgstr "Podružná nabídka aplikace představovaná třemi vodorovnými čarami"
 
 #. (itstool) path: page/title
 #: C/secondary-menus.page:16
