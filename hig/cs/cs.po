@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-08-30 11:59+0000\n"
-"PO-Revision-Date: 2018-09-03 17:52+0200\n"
+"POT-Creation-Date: 2018-09-14 11:08+0000\n"
+"PO-Revision-Date: 2018-09-17 09:47+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -42,9 +42,10 @@ msgstr "Spodní lišta, která obsahuje činnosti"
 #: C/button-menus.page:8 C/buttons.page:8 C/check-boxes.page:8
 #: C/compatibility.page:7 C/design-principles.page:7 C/dialogs.page:9
 #: C/display-compatibility.page:7 C/drop-down-lists.page:8
-#: C/empty-placeholders.page:10 C/grids.page:10 C/header-bars.page:10
-#: C/icons-and-artwork.page:7 C/index.page:8 C/in-app-notifications.page:10
-#: C/info-bars.page:10 C/keyboard-input.page:8 C/lists.page:11
+#: C/empty-placeholders.page:10 C/full-screen.page:9 C/grids.page:10
+#: C/header-bars.page:10 C/icon-design.page:7 C/icons-and-artwork.page:7
+#: C/index.page:8 C/in-app-notifications.page:10 C/info-bars.page:10
+#: C/initial-state-placeholders.page:10 C/keyboard-input.page:8 C/lists.page:11
 #: C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
 #: C/overlaid-controls.page:9 C/patterns.page:7
 #: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-menus.page:10
@@ -88,9 +89,10 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
-#: C/dialogs.page:36 C/empty-placeholders.page:23 C/grids.page:23
-#: C/header-bars.page:29 C/in-app-notifications.page:23 C/info-bars.page:23
-#: C/lists.page:24 C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
+#: C/dialogs.page:36 C/empty-placeholders.page:23 C/full-screen.page:22
+#: C/grids.page:23 C/header-bars.page:29 C/in-app-notifications.page:23
+#: C/info-bars.page:23 C/initial-state-placeholders.page:23 C/lists.page:24
+#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
 #: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
 #: C/primary-windows.page:22 C/progress-bars.page:37
 #: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
@@ -126,9 +128,10 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/action-bars.page:31 C/check-boxes.page:37 C/empty-placeholders.page:34
-#: C/in-app-notifications.page:34 C/info-bars.page:34
-#: C/overlaid-controls.page:31 C/radio-buttons.page:37 C/sidebar-lists.page:43
-#: C/sliders.page:53 C/writing-style.page:42
+#: C/full-screen.page:31 C/in-app-notifications.page:34 C/info-bars.page:34
+#: C/initial-state-placeholders.page:32 C/overlaid-controls.page:31
+#: C/radio-buttons.page:37 C/sidebar-lists.page:43 C/sliders.page:53
+#: C/writing-style.page:42
 msgid "Guidelines"
 msgstr "Rady"
 
@@ -2623,7 +2626,7 @@ msgstr ""
 "povzbuzující podporu</link>."
 
 #. (itstool) path: item/p
-#: C/empty-placeholders.page:37
+#: C/empty-placeholders.page:37 C/initial-state-placeholders.page:35
 msgid ""
 "Follow the standard layout for the size and placement of the image and "
 "labels, so that your application is consistent with other GNOME 3 "
@@ -2659,7 +2662,7 @@ msgstr ""
 "uživatele nějaký smysl."
 
 #. (itstool) path: item/p
-#: C/empty-placeholders.page:40
+#: C/empty-placeholders.page:40 C/initial-state-placeholders.page:38
 msgid ""
 "If there are controls that allow items to be added, it can be appropriate to "
 "highlight them using a <link xref=\"buttons#suggested-and-destructive"
@@ -2668,6 +2671,174 @@ msgstr ""
 "Když jsou seznam či mřížka prázdné a existují ovládací prvky pro přidání "
 "položky, může být vhodné tyto ovládací prvky zvýraznit pomocí <link xref="
 "\"buttons#suggested-and-destructive\">doporučujícího stylu</link>."
+
+#. (itstool) path: info/desc
+#: C/full-screen.page:7
+msgid "Mode in which a window fills the entire screen"
+msgstr "Režim, ve kterém okno zaplňuje celou obrazovku."
+
+#. (itstool) path: page/title
+#: C/full-screen.page:15
+msgid "Fullscreen"
+msgstr "Celá obrazovka"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/full-screen.page:17
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/fullscreen.svg' "
+"md5='a115aeb24e72788d75c1ecb90f88da79'"
+msgstr ""
+"external ref='figures/patterns/fullscreen.svg' "
+"md5='a115aeb24e72788d75c1ecb90f88da79'"
+
+#. (itstool) path: page/p
+#: C/full-screen.page:19
+msgid ""
+"Fullscreen is a mode in which a window fills the entire screen. When "
+"fullscreen is active, controls are typically hidden in order to provide an "
+"immersive content view."
+msgstr ""
+"Celá obrazovka je režim, ve kterém okno zaplní celou dostupnou obrazovku. Když "
+"je tento režim aktivní, ovládací prvky se obvykle skryjí, aby byl poskytnut "
+"ničím nerušený pohled na data."
+
+#. (itstool) path: section/p
+#: C/full-screen.page:24
+msgid ""
+"It is appropriate to offer fullscreen when users are likely to want to have "
+"an unobstructed view of content, particularly if they are likely to view "
+"content items for long periods of time. The classic example of fullscreen is "
+"for watching videos, where visible controls would be distracting and result "
+"in less screen space for the content. However, fullscreen can be used for "
+"other types of content including documents or images."
+msgstr ""
+"Celou obrazovku je vhodné nabízet, pokud budou uživatelé pravděpodobně chtít "
+"mít nerušený pohled na obsah, zejména v případech, kdy se na obsah budou "
+"nejspíše dívat po dlouhou dobu. Klasickým případem vhodnosti celé obrazovky "
+"je sledování videí, kdy by ovládací prvky rušily a výsledkem by byla menší "
+"plocha obrazovky pro obsah. Celou obrazovku lze ale dobře využít i pro jiný "
+"typ obsahu, včetně dokumentů a obrázků."
+
+#. (itstool) path: section/p
+#: C/full-screen.page:26
+msgid ""
+"Fullscreen is typically used in viewing situations. However, in some cases "
+"it can be useful for editing tasks. Fullscreen is also typical for many "
+"games (how games should use fullscreen is not covered in this page)."
+msgstr ""
+"Celá obrazovka se typicky používá při prohlížení. Existují ale i situace, "
+"kdy se může hodit pro účely úprav. Běžně je také používána pro hry (jak se "
+"používá pro hry není předmětem této stránky)."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:34
+msgid ""
+"If an application uses different views, it is only necessary to enable "
+"fullscreen for those views where it is useful - primarily those that display "
+"content items."
+msgstr ""
+"Pokud má aplikace různá zobrazení, je nutné povolit celou obrazovku jen pro "
+"ta zobrazení, kde to má smysl – především u těch, která zobrazují obsah."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:35
+msgid ""
+"Fullscreen can be triggered automatically when a content item is opened, or "
+"can be offered as a mode that can be activated by the user."
+msgstr ""
+"Celá obrazovka může být spuštěna automaticky, když je otevřen obsah, nebo "
+"může být nabízena jako režim, který aktivuje uživatel."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:36
+msgid ""
+"If fullscreen is being offered as a mode that users activate, judge how "
+"prominent to make the control to enter fullscreen according to how often it "
+"will be used. Typically, a fullscreen button should be placed in the <link "
+"xref=\"header-bars\">header bar</link> or <link xref=\"header-bar-menus"
+"\">header bar menu</link>."
+msgstr ""
+"Pokud je celá obrazovka nabízena jako režim, který aktivuje uživatel, zvažte "
+"jak významný je ovládací prvek, kterým se na celou obrazovku vstupuje, a jak "
+"často bude používán. Typicky bývá tlačítko celé obrazovky umístěné na <link "
+"xref=\"header-bars\">hlavičkové liště</link> nebo v <link xref=\"header-bar-"
+"menus\">nabídce hlavičkové lišty</link>."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:37
+msgid "When fullscreen is active:"
+msgstr "Když je celá obrazovka aktivní:"
+
+#. (itstool) path: item/p
+#: C/full-screen.page:39
+#| msgid ""
+#| "Overlaid controls can be attached to the edge of the content/window, or "
+#| "can be free-floating. <link xref=\"action-bars\">Action bars</link> can "
+#| "be treated as overlaid controls."
+msgid ""
+"All controls should be hidden, including the window's header bar, <link xref="
+"\"action-bars\">action bars</link> or <link xref=\"overlaid-controls"
+"\">overlaid controls</link>."
+msgstr ""
+"Všechny ovládací prvky by měly být skryté, včetně hlavičkové lišty okna, "
+"<link xref=\"action-bars\">akčních lišt</link> nebo <link xref=\"action-bars"
+"\">překrývajících ovládacích prvků</link>."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:40
+#| msgid ""
+#| "Controls should be displayed when the pointer is moved over the content, "
+#| "or when it is tapped (on touch devices)."
+msgid ""
+"Controls, including the header bar, should be revealed when the pointer is "
+"moved or the screen is tapped."
+msgstr ""
+"Ovládací prvky, včetně hlavičkové lišty, by se měly znovu objevit, když "
+"uživatel pohne ukazatelem myši nebo poklepe na dotykový displej."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:41
+msgid ""
+"The window close button should be replaced with a view restore button, which "
+"disables fullscreen mode."
+msgstr ""
+"Zavírací tlačítko by mělo být nahrazeno tlačítkem pro obnovení zobrazení, "
+"které režim celé obrazovky vypne."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:42
+msgid ""
+"Any controls that don't fit into fullscreen should be hidden or replaced. "
+"This includes any navigation controls that would simultaneously exit "
+"fullscreen, such as back buttons."
+msgstr ""
+"Ovládací prvky, které se v režimu celé obrazovky k ničemu nehodí, by měly "
+"být skryty nebo nahrazeny. To se týká i ovládacích prvků navigace, které by "
+"zároveň opustili celou obrazovku, jako třeba tlačítko zpět."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:43
+msgid ""
+"Make an effort not to allow controls or UI to obstruct content. For example, "
+"dialog windows that overlap content will be distracting and will detract "
+"from the immersive nature of fullscreen."
+msgstr ""
+"Snažte se, aby ovládací prvky a uživatelské rozhraní nebránili obsahu. "
+"Například dialogová okna, která obsah překrývají, působí rušivě a zhoršují "
+"celkový pocit z režimu celé obrazovky."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:46
+msgid ""
+"The Videos application is a good example of how fullscreen should behave."
+msgstr ""
+"Dobrou ukázkou, jak by se měla chovat aplikace s režimem celé obrazovky, je "
+"aplikace Videa."
 
 #. (itstool) path: info/desc
 #: C/grids.page:8
@@ -3007,14 +3178,526 @@ msgstr ""
 "\">GtkHeaderBar</link>"
 
 #. (itstool) path: credit/name
-#: C/icons-and-artwork.page:11 C/pointer-and-touch-input.page:11
+#: C/icon-design.page:11 C/icons-and-artwork.page:11
+#: C/pointer-and-touch-input.page:11
 msgid "Jakub Steiner"
 msgstr "Jakub Steiner"
 
 #. (itstool) path: info/desc
-#: C/icons-and-artwork.page:14
+#: C/icon-design.page:14 C/icons-and-artwork.page:14
 msgid "Selecting and creating icons."
 msgstr "Jak vybrat a vytvořit ikony."
+
+#. (itstool) path: page/title
+#: C/icon-design.page:17
+msgid "Creating icons"
+msgstr "Vytváření ikon"
+
+#. (itstool) path: page/p
+#: C/icon-design.page:19
+msgid ""
+"This page provides guidelines for those creating their own icons, including "
+"both full-color icons (typically used for application icons) and symbolic "
+"icons (typically used for user interface controls). For a more general "
+"overview of icon styles and usage, including the stock icons that are "
+"available, see <link xref=\"icons-and-artwork\">icons and artwork</link>."
+msgstr ""
+"Tato stránka poskytuje pokyny pro vytváření svých vlastních ikon, a to jak "
+"plnobarevných (typicky používaných jako ikony aplikací), tak symbolických "
+"(typicky používaných pro ovládací prvky uživatelského rozhraní). Obecnější "
+"přehled o stylech ikon a jejich použití, včetně seznamu dostupných "
+"standardních ikon, najdete v kapitole <link xref=\"icons-and-artwork\">Ikony "
+"a grafika</link>."
+
+#. (itstool) path: section/title
+#: C/icon-design.page:22
+msgid "Full-color icons"
+msgstr "Plnobarevné ikony"
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:24
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/shading.svg' "
+"md5='c874c34720095414463a12d2a8e44f40'"
+msgstr ""
+"external ref='figures/icons/shading.svg' "
+"md5='c874c34720095414463a12d2a8e44f40'"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:26
+msgid ""
+"The full-color icon style is most commonly used for application icons. The "
+"nominal size of full-color icons is 128×128px. However, because application "
+"icons are sometimes presented at lower resolutions, they should only feature "
+"detail that is presentable at 64×64px resolution: anything more detailed "
+"would get lost by filtering/scaling down."
+msgstr ""
+"Plnobarevný styl ikon se nejběžněji používá pro ikony aplikací. Nominální "
+"velikost plnobarevných ikon je 128 × 128 px. Protože se ale ikony aplikací "
+"občas zobrazují i v nižším rozlišení, měly by mít detaily jen do té míry, "
+"aby byly použitelné při rozlišení 64 × 64 – drobnější detaily se mohou "
+"ztratit při filtrování/zmenšování."
+
+#. (itstool) path: section/p
+#: C/icon-design.page:28
+msgid ""
+"The <link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/"
+"blob/master/template.svg\">full-color icon template</link> includes a 2px "
+"grid which should help you avoid adding detail that's finer than the desired "
+"threshold."
+msgstr ""
+"<link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/"
+"master/template.svg\">Šablona plnobarevné ikony</link> obsahuje 2px mřížku, "
+"která by měla pomoci se vyvarovat přidávání detailů drobnějších, než je "
+"požadovaná mez."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:30
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/sizes.svg' md5='8850ec96befdacb8c095656cba52cd62'"
+msgstr ""
+"external ref='figures/icons/sizes.svg' md5='8850ec96befdacb8c095656cba52cd62'"
+
+#. (itstool) path: section/title
+#: C/icon-design.page:33
+msgid "Perspective &amp; shape"
+msgstr "Perspektiva a stíny"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:35
+msgid ""
+"Full-color icons should be rendered with a simple orthogonal view and no "
+"real or isometric perspective. To provide depth a raised effect can be "
+"applied to mimic the Z-axis. Please keep the effect subtle though! Raising "
+"the object more than 2 detail units (4 nominal pixels) is not recommended."
+msgstr ""
+"Plnobarevné ikony by měly být namalované v jednoduché ortogonální projekci, "
+"bez skutečné nebo isometrické perspektivy. Pro poskytnutí hloubky vjemu je "
+"možné použít efekt vyzdvižení, který napodobí osu Z. Používejte ale prosím "
+"tento efekt decentně. Nedoporučuje se vyzdvihnout objekt o více jak dvě "
+"detailní jednotky (4 nominální pixely)."
+
+#. (itstool) path: section/p
+#: C/icon-design.page:37
+msgid ""
+"In order to aid recognition, each application icon should have a unique "
+"silhouette. However, to ensure visual balance with other application icons, "
+"the aspect ratio should not be extreme. Very narrow or very wide shapes "
+"should be avoided."
+msgstr ""
+"Pro usnadnění rychlého rozpoznání aplikace, by každá ikona měla mít "
+"jedinečnou siluetu. Zároveň by ale měla být vizuálně v rovnováze s ostatními "
+"ikonami aplikací, bez extrémního poměru stran. Vyvarujte se velmi úzkých "
+"nebo naopak velmi širokých tvarů."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:39
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/aspect-ratio.svg' "
+"md5='acbe590cea6f62958cb2fd98a08d7425'"
+msgstr ""
+"external ref='figures/icons/aspect-ratio.svg' "
+"md5='acbe590cea6f62958cb2fd98a08d7425'"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:41
+msgid ""
+"A <link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/"
+"master/template.svg\">grid template</link> is available to assist with "
+"placing your icon outline. Do not try to cover a maximum area of the canvas: "
+"the outside margin should be left empty. In some circumstances a small "
+"detail can be extended into this margin space."
+msgstr ""
+"Pro správné umístění obrysů vaší ikony je k dispozici <link href=\"https://"
+"gitlab.gnome.org/Community/Design/HIG-app-icons/raw/master/template.svg"
+"\">šablona s mřížkou</link>. Nesnažte se zaplnit plátno až do krajů – vnější "
+"okraj by měl zůstat prázdný. Za jistých okolností do něj ale mohou zasahovat "
+"některé drobné detaily."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:43
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/whitespace.svg' "
+"md5='757ca4673077580b5fcf3b2ccd230ce1'"
+msgstr ""
+"external ref='figures/icons/whitespace.svg' "
+"md5='757ca4673077580b5fcf3b2ccd230ce1'"
+
+#. (itstool) path: section/title
+#: C/icon-design.page:48
+msgid "Shadows"
+msgstr "Stíny"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:50
+msgid ""
+"Shadows can be drawn internally, within a full-color icon, with the light "
+"source pointing straight from above. However, shadows should not be drawn "
+"outside the main silhouette of the icon, as these are generated "
+"programmatically based on the context. When app icons are presented on a "
+"white background, for example, a strong drop shadow is rendered to help "
+"define the contours."
+msgstr ""
+"Stíny můžete namalovat uvnitř plnobarevné ikony, vržené jakoby zdrojem "
+"světla nasměrovaným přímo shora. Neměli byste ale malovat stíny přesahující "
+"hlavní obrys ikony, protože takovéto stíny jsou generované programově podle "
+"kontextu. Když je například ikona zobrazena na bílém pozadí, je vykreslen "
+"silný vržený stín, aby pomohl zdůraznit obrysy."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:52
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/dropshadow.png' "
+"md5='04d7779eaa9b2a019b7474dd7f689673'"
+msgstr ""
+"external ref='figures/icons/dropshadow.png' "
+"md5='04d7779eaa9b2a019b7474dd7f689673'"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:54
+msgid ""
+"Versions of application icons can also be programmatically generated for "
+"development or nightly builds."
+msgstr ""
+"Verze aplikačních ikon mohou být programově generované také pro vývojová "
+"nebo noční sestavení."
+
+#. (itstool) path: section/title
+#: C/icon-design.page:58
+msgid "Palette"
+msgstr "Paleta"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:60
+msgid "Below is the baseline GNOME app icon color palette."
+msgstr "Následuje základní paleta barev pro ikony aplikací GNOME."
+
+#. (itstool) path: td/p
+#: C/icon-design.page:67
+msgid "Blue"
+msgstr "Modrá"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:68
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/blue.png' "
+"md5='9812f868170aedbc09989bfb5a165093'"
+msgstr ""
+"external ref='figures/icons/palette/blue.png' "
+"md5='9812f868170aedbc09989bfb5a165093'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:71
+msgid "Cyan"
+msgstr "Azurová"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:72
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/cyan.png' "
+"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+msgstr ""
+"external ref='figures/icons/palette/cyan.png' "
+"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:75
+msgid "Green"
+msgstr "Zelená"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:76
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
+msgstr ""
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:79
+msgid "Yellow"
+msgstr "Žlutá"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:80
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
+msgstr ""
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:83
+msgid "Orange"
+msgstr "Oranžová"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:84
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
+msgstr ""
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:87
+msgid "Red"
+msgstr "Červená"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:88
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
+msgstr ""
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:91
+msgid "Purple"
+msgstr "Fialová"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:92
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
+msgstr ""
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:95
+msgid "Brown"
+msgstr "Hnědá"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:96
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
+msgstr ""
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:99
+msgid "Neutral"
+msgstr "Neutrální"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:100
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/neutral.png' "
+"md5='54148d53f6fb3563dd8454f39845d467'"
+msgstr ""
+"external ref='figures/icons/palette/neutral.png' "
+"md5='54148d53f6fb3563dd8454f39845d467'"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:105
+msgid ""
+"You are free to use different shades of these colors depending on the "
+"desired material effect. However, these primary colors are a good baseline "
+"to start from. A GIMP/Inkscape format palette <link href=\"https://gitlab."
+"gnome.org/Community/Design/HIG-app-icons/"
+"raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">is available</link>."
+msgstr ""
+"Můžete volně používat jakékoliv odstíny z těchto barev, podle toho jakého "
+"materiálového efektu potřebujete dosáhnout. Je ale dobré z těchto základních "
+"barev vycházet. K <link href=\"https://gitlab.gnome.org/Community/Design/HIG-"
+"app-icons/raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">dispozici "
+"je</link> paleta ve formátu GIMP/Inkscape."
+
+#. (itstool) path: section/p
+#: C/icon-design.page:107
+msgid ""
+"It is recommended to keep flat surfaces unshaded, but using gradients to "
+"signify bent surfaces is allowed."
+msgstr ""
+"Doporučuje se plochý nestínovaný vzhled povrchu, ale jsou povolené barevné "
+"přechody pro vyznačení zakřivení povrchu."
+
+#. (itstool) path: section/title
+#: C/icon-design.page:114
+msgid "Symbolic icons"
+msgstr "Symbolické ikony"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:116
+msgid ""
+"Symbolic icons have a simple form and are drawn within a 16×16 pixel grid. "
+"They are then programmatically scaled and colored within the user interface "
+"itself."
+msgstr ""
+"Symbolické ikony mají jednodušší podobu a jsou nakreslené v mřížce "
+"16 × 16 pixelů. Programově jsou pak škálované a obarvované přímo "
+"uživatelským prostředím."
+
+#. (itstool) path: item/p
+#: C/icon-design.page:119
+msgid ""
+"Identify a single property when looking for an appropriate metaphor for an "
+"icon, and focus on what distinguishes the idea you want to communicate. For "
+"example, when describing an action to be performed on an image, it isn’t "
+"necessary to repeat the idea of an image in every icon. Instead, focus on "
+"what is distinct about each action (for example: rotate, tag, align)."
+msgstr ""
+"Při hledání příhodné metafory pro ikonu se rozhodněte pro jednu vlastnost. "
+"Snažte se při tom zaměřit na to, co odlišuje myšlenku, kterou se snažíte "
+"sdělit. Například, když popisujete činnost, která se provádí na obrázku, není "
+"potřeba na každé ikoně opakovat myšlenku obrázku. Místo toho se zaměřte na "
+"to, co odlišuje jednotlivé činnosti (ku příkladu otočení, štítek, zarovnání)."
+
+#. (itstool) path: item/p
+#: C/icon-design.page:120
+msgid ""
+"Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
+"view."
+msgstr ""
+"U symbolických ikon nepoužívejte žádnou perspektivu, držte se jednoduché "
+"ortogonální projekce."
+
+#. (itstool) path: item/p
+#: C/icon-design.page:121
+msgid ""
+"When using unfilled strokes for an outline, try avoiding hairline (1px) and "
+"do at least a 2px stroke for the meain feature of the icon."
+msgstr ""
+"Pokud použijete nevyplněný obrys, snažte se vyhnout vlasové 1px čáře a "
+"hlavní tvar ikony obtáhněte alespoň 2px obrysem."
+
+#. (itstool) path: item/p
+#: C/icon-design.page:122
+msgid ""
+"Symbolic icons are recolored at runtime to match the context, very much like "
+"a piece of text. While there are ways to “shade” parts of an icon by using "
+"opacity or creating duotone/pattern dithering, try avoiding these as much as "
+"possible."
+msgstr ""
+"Symbolické ikony jsou za běhu obarvované, aby zapadaly do kontextu, podobně "
+"jako zobrazovaný text. Takže, i když existují způsoby, jak pomocí průhlednosti "
+"nebo vzorku „vystínovat“ část ikony, snažte se tomu v maximální možné míře "
+"vyhnout."
+
+#. (itstool) path: item/p
+#: C/icon-design.page:123
+msgid ""
+"When a metaphor relies on the negative space, make sure it will work with "
+"the colors inverted. For example a camera lens spec/highlight will only work "
+"if lighter than the lens itself."
+msgstr ""
+"Pokud metafora závisí ne negativní ploše, ověřte si, že bude fungovat i s "
+"inverzními barvami. Například, důraz/zvýraznění objektivu fotoaparátu bude "
+"fungovat jen v případě, že tělo bude světlejší než objektiv."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:126
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/inverting.svg' "
+"md5='e4155d9e87e2abe95e70c42185686b5e'"
+msgstr ""
+"external ref='figures/icons/inverting.svg' "
+"md5='e4155d9e87e2abe95e70c42185686b5e'"
+
+#. (itstool) path: section/title
+#: C/icon-design.page:129
+msgid "Size and grid"
+msgstr "Velikost a mřížka"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:131
+msgid ""
+"While symbolic icons are scalable and should work at any size, the basic "
+"canvas size is 16×16 grid units. You have the whole canvas to fill, but note "
+"that a filled rectangular object will appear stronger/larger when placed "
+"next to items that only use thinner strokes. Try to keep the contrast of "
+"your whole set."
+msgstr ""
+"I když jsou symbolické ikony škálovatelné a měly by fungovat v libovolné "
+"velikosti, základní plátno má velikost 16 × 16 jednotek mřížky. Pro kresbu "
+"máte k dispozici celé plátno, ale pamatujte, že vyplněné obdélníkové objekty "
+"vypadají vedle objektů, které používají jen tenčí obrysy, mnohem silnější/"
+"větší. Snažte se dodržet stejný kontrast napříč celou sadou ikon."
 
 #. (itstool) path: page/title
 #: C/icons-and-artwork.page:17
@@ -3096,12 +3779,6 @@ msgstr "Použití ikon"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:38
-#| msgid ""
-#| "Every application should have a unique and beautiful application icon. It "
-#| "is the face of the application, and the first visual element a user sees "
-#| "when browsing for new applications. The <link xref=\"application-basics"
-#| "\">application basics page</link> includes details on what an application "
-#| "is, and when to provide an application icon."
 msgid ""
 "Application icons are the most prominent type of icons. Every application "
 "should have its own unique and beautiful application icon: it is the face of "
@@ -3694,6 +4371,108 @@ msgid ""
 msgstr ""
 "<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html"
 "\">GtkInfoBar</link>"
+
+#. (itstool) path: info/desc
+#: C/initial-state-placeholders.page:8
+msgid "Image and text shown when an application is initially empty"
+msgstr "Obrázek a text, které se  zobrazí, když je aplikace na počátku prázdná."
+
+#. (itstool) path: page/title
+#: C/initial-state-placeholders.page:16
+msgid "Initial state placeholders"
+msgstr "Zástupný obsah pro počáteční stav"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/initial-state-placeholders.page:18
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/initial-state-placeholder.svg' "
+"md5='f922abac4a8613328055476be813985c'"
+msgstr ""
+"external ref='figures/patterns/initial-state-placeholder.svg' "
+"md5='f922abac4a8613328055476be813985c'"
+
+#. (itstool) path: page/p
+#: C/initial-state-placeholders.page:20
+msgid ""
+"An initial state placeholder is an image and text which fills the space in "
+"an application that has never contained any content."
+msgstr ""
+"Zástupný obsah pro počáteční stav je obrázek doprovázený textem, který "
+"zaplní místo v aplikaci, které zatím nemá svůj obsah."
+
+#. (itstool) path: section/p
+#: C/initial-state-placeholders.page:25
+msgid ""
+"In some cases an application might be empty until a user adds some content "
+"to it. In these scenarios, an initial state can be used to provide a rich "
+"and inviting experience. This helps to avoid the first use of the "
+"application being downbeat and unwelcoming."
+msgstr ""
+"V některých případech může být aplikace, až do chvíle, než uživatel přidá "
+"nějaký obsah, prázdná. V takových případech se dá použít počáteční stav, "
+"který uživateli poskytne přátelštější a srozumitelnější přivítání. Předejte "
+"se tím stavu, kdy aplikace při prvním použití působí nehostinně a "
+"nepoužitelně."
+
+#. (itstool) path: section/p
+#: C/initial-state-placeholders.page:27
+msgid ""
+"An initial state placeholder should only be used when an application is "
+"going to be unavoidably empty. In many cases it is often better to pre-"
+"populate the application."
+msgstr ""
+"Zástupný obsah v počátečním stavu by se měl používat jen v případě, že "
+"aplikace musí být nevyhnutelně prázdná. Pokud to jde, je daleko lepší řešení "
+"ji předvyplnit daty."
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:36
+msgid "The imagery used should be rich and colorful."
+msgstr "Použijte bohatou a barevnou představivost."
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:37
+msgid ""
+"The text that accompanies the image should be positive and upbeat. This is a "
+"moment where you can sell your application and establish a positive identity "
+"for it. It can also be an opportunity to strike up a relationship with the "
+"user by addressing them directly."
+msgstr ""
+"Text, který doprovází obrázek by měl být laděn pozitivně a optimisticky. Je "
+"to okamžik, kdy můžete svoje dílo „dobře prodat“ a vytvořit mu pozitivní "
+"vnímání. Je to také příležitost navázání vztahu s uživatelem pomocí přímého "
+"oslovení."
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:39
+msgid ""
+"While an application is initially empty, some controls don't serve a purpose "
+"(such as those for browsing content, changing view, or searching). Making "
+"these controls insensitive will help to avoid the user being disappointed, "
+"or trying features that won't work."
+msgstr ""
+"Dokud je aplikace na počátku prázdná, nemají některé ovládací prvky žádný "
+"účel (například ty, co slouží k procházení obsahu, změně zobrazení nebo "
+"hledání). Znepřístupněním těchto ovládacích prvků předejdete zklamání "
+"uživatele a jeho snaze zkoušet funkce, které nefungují."
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:40
+msgid ""
+"An initial state should persevere until content is added to the application, "
+"after which it should not be seen again. If the application becomes empty "
+"subsequently, an <link xref=\"empty-placeholder\">empty state can be used</"
+"link>."
+msgstr ""
+"Počáteční stav by měl být zachován, dokud není do aplikace přidán nějaký "
+"obsah, a po té už by se nikdy neměl objevit. V případě, že aplikace bude "
+"znovu prázdná, <link xref=\"empty-placeholder\">můžete použít zástupný obsah "
+"pro prázdný stav</link>."
 
 #. (itstool) path: page/title
 #: C/keyboard-input.page:27
@@ -6721,7 +7500,7 @@ msgstr ""
 msgid ""
 "Order groups and group items logically, either by importance, task order, or "
 "expected frequency of use. Items at the top and bottom of the menu are more "
-"noticeable and easily targetted, so reserve these locations for particularly "
+"noticeable and easily targeted, so reserve these locations for particularly "
 "important or interesting functionality."
 msgstr ""
 "Skupiny a položky skupin uspořádejte logicky, buď podle důležitosti, pořadí "
