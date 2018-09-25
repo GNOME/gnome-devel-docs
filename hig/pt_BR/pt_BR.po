@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-09-17 11:38+0000\n"
-"PO-Revision-Date: 2018-09-17 10:39-0200\n"
+"POT-Creation-Date: 2018-09-25 10:18+0000\n"
+"PO-Revision-Date: 2018-09-25 12:47-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -342,8 +342,12 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/application-basics.page:55
+#| msgid ""
+#| "Ensure that your application name is short - fewer than 15 characters. "
+#| "This will ensure that it is always displayed in full within a GNOME 3 "
+#| "environment."
 msgid ""
-"Ensure that your application name is short - fewer than 15 characters. This "
+"Ensure that your application name is short — fewer than 15 characters. This "
 "will ensure that it is always displayed in full within a GNOME 3 environment."
 msgstr ""
 "Garanta que o nome de seu aplicativo é curto – menos de 15 caracteres. Isto "
@@ -661,6 +665,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/button-menus.page:37
+#| msgid ""
+#| "Evaluate each function within a button menu, in order to decide whether "
+#| "it would be better served by a different <link xref=\"ui-elements\">user "
+#| "interface element</link>. While simple actions or settings can be "
+#| "effectively represented by menu items, others cannot. In particular, "
+#| "sliders, spin buttons, switches and text entries provide functionality "
+#| "that cannot be easily reproduced with a menu. Likewise, some entries "
+#| "might be better represented as icons rather than text - in which case, "
+#| "buttons could be more appropriate than a menu."
 msgid ""
 "Evaluate each function within a button menu, in order to decide whether it "
 "would be better served by a different <link xref=\"ui-elements\">user "
@@ -668,12 +681,12 @@ msgid ""
 "effectively represented by menu items, others cannot. In particular, "
 "sliders, spin buttons, switches and text entries provide functionality that "
 "cannot be easily reproduced with a menu. Likewise, some entries might be "
-"better represented as icons rather than text - in which case, buttons could "
+"better represented as icons rather than text — in which case, buttons could "
 "be more appropriate than a menu."
 msgstr ""
 "Avalie cada função dentro de um menu de botão, para decidir se seria melhor "
-"servido por um <link xref=\"ui-elements\">elemento de interface de usuário</"
-"link> diferente. Embora ações ou configurações simples possam ser "
+"servido por um <link xref=\"ui-elements\">elemento de interface de "
+"usuário</link> diferente. Embora ações ou configurações simples possam ser "
 "efetivamente representadas por itens de menu, outros não podem. Em "
 "particular, controles deslizantes, botões de rotação, interruptores e "
 "entradas de texto fornecem funcionalidades que não podem ser facilmente "
@@ -731,8 +744,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/button-menus.page:50
+#| msgid ""
+#| "Each context - whether it is a view or delineated area of your interface "
+#| "- should only include one generic button menu."
 msgid ""
-"Each context - whether it is a view or delineated area of your interface - "
+"Each context — whether it is a view or delineated area of your interface — "
 "should only include one generic button menu."
 msgstr ""
 "Cada contexto – seja uma visão ou área delineada da sua interface – deve "
@@ -851,8 +867,11 @@ msgstr "Diretrizes gerais"
 
 #. (itstool) path: item/p
 #: C/buttons.page:40
+#| msgid ""
+#| "A button can contain an icon, button, or - more unusually - an image. "
+#| "Follow the icons and artwork guidelines when deciding which to use."
 msgid ""
-"A button can contain an icon, button, or - more unusually - an image. Follow "
+"A button can contain an icon, button, or — more unusually — an image. Follow "
 "the icons and artwork guidelines when deciding which to use."
 msgstr ""
 "Um botão pode conter um ícone, botão ou – mais incomumente – uma imagem. "
@@ -1448,10 +1467,16 @@ msgstr "Mantenha a complexidade da interface de usuário em um mínimo"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:30
+#| msgid ""
+#| "Every control or piece of information that you add to your application "
+#| "creates additional work for users, and increases the complexity of your "
+#| "application - potentially making it more difficult and less pleasurable "
+#| "to use. Therefore, only include essential controls and information in "
+#| "your application interface."
 msgid ""
 "Every control or piece of information that you add to your application "
 "creates additional work for users, and increases the complexity of your "
-"application - potentially making it more difficult and less pleasurable to "
+"application — potentially making it more difficult and less pleasurable to "
 "use. Therefore, only include essential controls and information in your "
 "application interface."
 msgstr ""
@@ -1730,18 +1755,24 @@ msgstr "Use emoção e humor (moderadamente)"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:116
+#| msgid ""
+#| "Used effectively, emotion and humor can lift the experience provided by "
+#| "your application, and help to develop a positive relationship with your "
+#| "users. Be careful not to over-use these techniques, though - it is far "
+#| "more effective to pick a small number of moments to use emotion, rather "
+#| "than spraying them throughout your user interface."
 msgid ""
 "Used effectively, emotion and humor can lift the experience provided by your "
 "application, and help to develop a positive relationship with your users. Be "
-"careful not to over-use these techniques, though - it is far more effective "
+"careful not to over-use these techniques, though — it is far more effective "
 "to pick a small number of moments to use emotion, rather than spraying them "
 "throughout your user interface."
 msgstr ""
 "Usados efetivamente, emoções e humor podem aumentar a experiência fornecida "
 "por seu aplicativo, e ajudam a desenvolver um relacionamento positivo com "
-"seus usuários. Mas tenha cuidado para não extrapolar no uso dessas técnicas "
-"– é muito mais efetivo pegar um número pequeno de momentos para usar "
-"emoções, em vez de sair espalhando-os por toda interface de usuário."
+"seus usuários. Mas tenha cuidado para não extrapolar no uso dessas técnicas –"
+" é muito mais efetivo pegar um número pequeno de momentos para usar emoções, "
+"em vez de sair espalhando-os por toda interface de usuário."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:118
@@ -1879,8 +1910,13 @@ msgstr "Exemplos"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:62
+#| msgid ""
+#| "Confirmation dialogs use a message dialog to check - or confirm - that "
+#| "the user wants to carry out an action. They have two buttons: one to "
+#| "confirm that the action should be carried out and one to cancel the "
+#| "action."
 msgid ""
-"Confirmation dialogs use a message dialog to check - or confirm - that the "
+"Confirmation dialogs use a message dialog to check — or confirm — that the "
 "user wants to carry out an action. They have two buttons: one to confirm "
 "that the action should be carried out and one to cancel the action."
 msgstr ""
@@ -1942,10 +1978,15 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/dialogs.page:78
+#| msgid ""
+#| "Action dialogs present options and information about a specific action "
+#| "before it is carried out. They have a heading (which typically describes "
+#| "the action) and two primary buttons - one which allows the action to be "
+#| "carried out and one which cancels it."
 msgid ""
 "Action dialogs present options and information about a specific action "
 "before it is carried out. They have a heading (which typically describes the "
-"action) and two primary buttons - one which allows the action to be carried "
+"action) and two primary buttons — one which allows the action to be carried "
 "out and one which cancels it."
 msgstr ""
 "As caixas de diálogos de ação apresentam opções e informações sobre uma ação "
@@ -2750,9 +2791,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/full-screen.page:34
+#| msgid ""
+#| "If an application uses different views, it is only necessary to enable "
+#| "fullscreen for those views where it is useful - primarily those that "
+#| "display content items."
 msgid ""
 "If an application uses different views, it is only necessary to enable "
-"fullscreen for those views where it is useful - primarily those that display "
+"fullscreen for those views where it is useful — primarily those that display "
 "content items."
 msgstr ""
 "Se um aplicativo usar visões diferentes, será necessário apenas ativar a "
@@ -2994,8 +3039,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:23
+#| msgid ""
+#| "Window controls - header bars allow windows to be moved by dragging, "
+#| "include window control buttons (typically a single close button), and "
+#| "provide access to a window controls menu."
 msgid ""
-"Window controls - header bars allow windows to be moved by dragging, include "
+"Window controls — header bars allow windows to be moved by dragging, include "
 "window control buttons (typically a single close button), and provide access "
 "to a window controls menu."
 msgstr ""
@@ -3005,8 +3054,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:24
+#| msgid ""
+#| "Headings - a key role of a header bar is to provide context for the "
+#| "content of the window, either through a heading or view switcher."
 msgid ""
-"Headings - a key role of a header bar is to provide context for the content "
+"Headings — a key role of a header bar is to provide context for the content "
 "of the window, either through a heading or view switcher."
 msgstr ""
 "Cabeçalhos – um papel-chave de uma barra de cabeçalho é fornecer contexto "
@@ -3014,8 +3066,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:25
+#| msgid ""
+#| "Controls - header bars provide a place for key controls, typically in the "
+#| "form of buttons."
 msgid ""
-"Controls - header bars provide a place for key controls, typically in the "
+"Controls — header bars provide a place for key controls, typically in the "
 "form of buttons."
 msgstr ""
 "Controles – barras de cabeçalho fornecem um lugar para controles de chave, "
@@ -3069,8 +3124,13 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/header-bars.page:42
+#| msgid ""
+#| "Ensure that your header bar only contains a small number of key controls "
+#| "- this will help users to understand the primary functionality provided "
+#| "by the window, and will ensure that the window can be resized to narrow "
+#| "widths."
 msgid ""
-"Ensure that your header bar only contains a small number of key controls - "
+"Ensure that your header bar only contains a small number of key controls — "
 "this will help users to understand the primary functionality provided by the "
 "window, and will ensure that the window can be resized to narrow widths."
 msgstr ""
@@ -3097,8 +3157,12 @@ msgstr "Barras de cabeçalho são dinâmicas"
 
 #. (itstool) path: section/p
 #: C/header-bars.page:51
+#| msgid ""
+#| "A header bar can - and should - update along with view or mode changes. "
+#| "This ensures that header bar controls are always relevant to the current "
+#| "context."
 msgid ""
-"A header bar can - and should - update along with view or mode changes. This "
+"A header bar can — and should — update along with view or mode changes. This "
 "ensures that header bar controls are always relevant to the current context."
 msgstr ""
 "Uma barra de cabeçalho pode – e deve – atualizar com as mudanças de visão ou "
@@ -3149,14 +3213,18 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:64
+#| msgid ""
+#| "Arrange controls within the header bar according to the three alignment "
+#| "points described in the <link xref=\"visual-layout\">visual layout "
+#| "guidelines</link> - left, center and right."
 msgid ""
 "Arrange controls within the header bar according to the three alignment "
 "points described in the <link xref=\"visual-layout\">visual layout "
-"guidelines</link> - left, center and right."
+"guidelines</link> — left, center and right."
 msgstr ""
 "Organize os controles dentro da barra de cabeçalho de acordo com os três "
-"pontos de alinhamento descritos nas diretrizes de <link xref=\"visual-layout"
-"\">layout visual</link> – esquerda, centro e direita."
+"pontos de alinhamento descritos nas diretrizes de <link xref=\"visual-"
+"layout\">layout visual</link> – esquerda, centro e direita."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:65
@@ -3749,19 +3817,25 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:26
+#| msgid ""
+#| "Full-color icons are colorful and detailed, and are optimized for larger "
+#| "sizes. They are defined as 128x128px SVGs, and are sharpest when scaled "
+#| "up in multiples of 128 (such as 256✕256 and 512✕512).The design of full-"
+#| "color icons also allows them to be rendered sharp at 64x64px and 32x32px, "
+#| "but is not advised to make them any smaller."
 msgid ""
 "Full-color icons are colorful and detailed, and are optimized for larger "
-"sizes. They are defined as 128x128px SVGs, and are sharpest when scaled up "
+"sizes. They are defined as 128×128px SVGs, and are sharpest when scaled up "
 "in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color "
-"icons also allows them to be rendered sharp at 64x64px and 32x32px, but is "
+"icons also allows them to be rendered sharp at 64×64px and 32×32px, but is "
 "not advised to make them any smaller."
 msgstr ""
 "Os ícones coloridos (full-color, em inglês) são cheios cores e detalhados, e "
-"são otimizados para tamanhos maiores. Eles são definidos como SVGs de "
-"128×128px e são mais nítidos quando ampliados em múltiplos de 128 (como "
-"256×256 e 512×512). O design dos ícones coloridos também permite que eles "
-"sejam renderizados com nitidez em 64×64px e 32×32px, mas é não é "
-"aconselhável torná-los menores."
+"são otimizados para tamanhos maiores. Eles são definidos como SVGs de 128×"
+"128px e são mais nítidos quando ampliados em múltiplos de 128 (como 256×256 "
+"e 512×512). O design dos ícones coloridos também permite que eles sejam "
+"renderizados com nitidez em 64×64px e 32×32px, mas é não é aconselhável "
+"torná-los menores."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -3922,9 +3996,13 @@ msgstr "Outras coisas para considerar quando estiver usando ícones:"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:67
+#| msgid ""
+#| "Think about which icons will be meaningful in the specific context of "
+#| "your application - users of specialist tools will often be familiar with "
+#| "domain-specific symbols."
 msgid ""
 "Think about which icons will be meaningful in the specific context of your "
-"application - users of specialist tools will often be familiar with domain-"
+"application — users of specialist tools will often be familiar with domain-"
 "specific symbols."
 msgstr ""
 "Pense quais ícones serão significativos no contexto específico de sua "
@@ -7200,10 +7278,16 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:96
+#| msgid ""
+#| "The menubar is normally visible at all times and is always accessible "
+#| "from the keyboard, so make all the commands available in your application "
+#| "available on the menubar. (This guideline is unique to menu bars - other "
+#| "menus should not seek to reproduce functionality that is made available "
+#| "by other controls)."
 msgid ""
 "The menubar is normally visible at all times and is always accessible from "
 "the keyboard, so make all the commands available in your application "
-"available on the menubar. (This guideline is unique to menu bars - other "
+"available on the menubar. (This guideline is unique to menu bars — other "
 "menus should not seek to reproduce functionality that is made available by "
 "other controls)."
 msgstr ""
@@ -7215,9 +7299,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:97
+#| msgid ""
+#| "Treat <link xref=\"application-menus\">application menus</link> as part "
+#| "of the menu bar - it is not necessary to reproduce items from the "
+#| "application menu in other menus."
 msgid ""
 "Treat <link xref=\"application-menus\">application menus</link> as part of "
-"the menu bar - it is not necessary to reproduce items from the application "
+"the menu bar — it is not necessary to reproduce items from the application "
 "menu in other menus."
 msgstr ""
 "Trate <link xref=\"application-menus\">menus de aplicativo</link> como parte "
@@ -7390,8 +7478,11 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/menus.page:50
+#| msgid ""
+#| "Organize similar menu items into groups using dividers - this will make "
+#| "them easier to understand and quicker to use. When creating groups:"
 msgid ""
-"Organize similar menu items into groups using dividers - this will make them "
+"Organize similar menu items into groups using dividers — this will make them "
 "easier to understand and quicker to use. When creating groups:"
 msgstr ""
 "Organize itens de menu semelhantes em grupos usando divisores – isso os "
@@ -7422,8 +7513,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menus.page:55
+#| msgid ""
+#| "Do not mix different types of menu item within each group - actions, "
+#| "check box and radio button items should be kept separate."
 msgid ""
-"Do not mix different types of menu item within each group - actions, check "
+"Do not mix different types of menu item within each group — actions, check "
 "box and radio button items should be kept separate."
 msgstr ""
 "Não misture diferentes tipos de itens de menu dentro de cada grupo – as "
@@ -7468,12 +7562,19 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menus.page:67
+#| msgid ""
+#| "Two linked actions can be combined into a single menu item, by changing "
+#| "the label when the item is selected. For example, a <gui>Play</gui> item "
+#| "may change to <gui>Pause</gui>. However, only use this type of item when "
+#| "actions are logical opposites which are obvious to users. Likewise, do "
+#| "not use this technique for settings - use check boxes or radio buttons "
+#| "instead."
 msgid ""
 "Two linked actions can be combined into a single menu item, by changing the "
 "label when the item is selected. For example, a <gui>Play</gui> item may "
 "change to <gui>Pause</gui>. However, only use this type of item when actions "
 "are logical opposites which are obvious to users. Likewise, do not use this "
-"technique for settings - use check boxes or radio buttons instead."
+"technique for settings — use check boxes or radio buttons instead."
 msgstr ""
 "Duas ações vinculadas podem ser combinadas em um único item de menu, "
 "alterando o rótulo quando o item for selecionado. Por exemplo, um item "
@@ -7696,8 +7797,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/notifications.page:81
+#| msgid ""
+#| "Actions should not replace user interface controls elsewhere - it should "
+#| "be possible to take the same actions from your application’s windows."
 msgid ""
-"Actions should not replace user interface controls elsewhere - it should be "
+"Actions should not replace user interface controls elsewhere — it should be "
 "possible to take the same actions from your application’s windows."
 msgstr ""
 "As ações não devem substituir os controles da interface do usuário em outros "
@@ -7841,10 +7945,16 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overlaid-controls.page:24
+#| msgid ""
+#| "Since overlaid controls hide when they are not in use, they help to "
+#| "provide an uncluttered viewing experience. They are appropriate when it "
+#| "is desirable to present a clean and distraction-free view on a content "
+#| "item - this is particularly (although not exclusively) appropriate for "
+#| "images and video."
 msgid ""
 "Since overlaid controls hide when they are not in use, they help to provide "
 "an uncluttered viewing experience. They are appropriate when it is desirable "
-"to present a clean and distraction-free view on a content item - this is "
+"to present a clean and distraction-free view on a content item — this is "
 "particularly (although not exclusively) appropriate for images and video."
 msgstr ""
 "Uma vez que os controles sobrepostos são ocultados quando não estão em uso, "
@@ -7897,7 +8007,8 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:37
-msgid "Use the standard \"OSD\" theme style for overlaid controls."
+#| msgid "Use the standard \"OSD\" theme style for overlaid controls."
+msgid "Use the standard “OSD” theme style for overlaid controls."
 msgstr "Use o estilo de tema padrão “OSD” para controles sobrepostos."
 
 #. (itstool) path: page/title
@@ -7979,9 +8090,15 @@ msgstr "Entrada do ponteiro"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:24
+#| msgid ""
+#| "A pointing device is any input device that allows the manipulation of a "
+#| "pointer - typically represented as an arrow, and often called a cursor - "
+#| "on screen. While mice and touchpads are the most common, there are a wide "
+#| "variety of such devices, including graphics tablets, track balls, track "
+#| "points and joysticks."
 msgid ""
 "A pointing device is any input device that allows the manipulation of a "
-"pointer - typically represented as an arrow, and often called a cursor - on "
+"pointer — typically represented as an arrow, and often called a cursor — on "
 "screen. While mice and touchpads are the most common, there are a wide "
 "variety of such devices, including graphics tablets, track balls, track "
 "points and joysticks."
@@ -8308,8 +8425,11 @@ msgstr "Tocar em um item."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:130
+#| msgid ""
+#| "Primary action. Item opens - photo is shown full size, application "
+#| "launches, song starts playing."
 msgid ""
-"Primary action. Item opens - photo is shown full size, application launches, "
+"Primary action. Item opens — photo is shown full size, application launches, "
 "song starts playing."
 msgstr ""
 "Ação primária. O item abre – foto é mostrada em tamanho completo, inicia um "
@@ -9132,8 +9252,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:76
+#| msgid ""
+#| "Primary windows should be independent - closing one primary window should "
+#| "not result in other primary windows being closed."
 msgid ""
-"Primary windows should be independent - closing one primary window should "
+"Primary windows should be independent — closing one primary window should "
 "not result in other primary windows being closed."
 msgstr ""
 "Janelas primárias devem ser independentes – fechar uma janela primária não "
@@ -9676,9 +9799,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:43
+#| msgid ""
+#| "Generally, only one progress spinner should be displayed at once. Avoid "
+#| "showing a large number of spinners simultaneously - this will often be "
+#| "visually overwhelming."
 msgid ""
 "Generally, only one progress spinner should be displayed at once. Avoid "
-"showing a large number of spinners simultaneously - this will often be "
+"showing a large number of spinners simultaneously — this will often be "
 "visually overwhelming."
 msgstr ""
 "Geralmente, apenas um spinner de progresso deve ser exibido de uma só vez. "
@@ -9989,8 +10116,11 @@ msgstr "Resultados de pesquisa"
 
 #. (itstool) path: item/p
 #: C/search.page:53
+#| msgid ""
+#| "Search should be “live” wherever possible - the content view should "
+#| "update to display search results as they are entered."
 msgid ""
-"Search should be “live” wherever possible - the content view should update "
+"Search should be “live” wherever possible — the content view should update "
 "to display search results as they are entered."
 msgstr ""
 "A pesquisa deve ser “ao vivo” sempre que possível – a exibição de conteúdo "
@@ -10008,9 +10138,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/search.page:55
+#| msgid ""
+#| "If a search term does not return any results, ensure that feedback is "
+#| "given in the content view. Often a simple \"No results\" label is "
+#| "sufficient."
 msgid ""
 "If a search term does not return any results, ensure that feedback is given "
-"in the content view. Often a simple \"No results\" label is sufficient."
+"in the content view. Often a simple “No results” label is sufficient."
 msgstr ""
 "Se um termo de pesquisa não retornar nenhum resultado, assegure-se de que o "
 "feedback seja fornecido na visualização de conteúdo. Geralmente, um simples "
@@ -10066,8 +10200,6 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/secondary-menus.page:8
-#| msgid ""
-#| "The application's main menu, denoted by three stacked horizontal lines"
 msgid ""
 "The application's secondary menu, denoted by three stacked horizontal dots"
 msgstr ""
@@ -11035,10 +11167,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tabs.page:67
+#| msgid ""
+#| "If tabs are an important part of the application, a new tab button can be "
+#| "placed in the header bar or toolbar. Do not show a new tab button in "
+#| "applications where tabs will not always be used - keyboard shortcuts and/"
+#| "or menu items are sufficient in these cases."
 msgid ""
 "If tabs are an important part of the application, a new tab button can be "
 "placed in the header bar or toolbar. Do not show a new tab button in "
-"applications where tabs will not always be used - keyboard shortcuts and/or "
+"applications where tabs will not always be used — keyboard shortcuts and/or "
 "menu items are sufficient in these cases."
 msgstr ""
 "Se as abas forem uma parte importante do aplicativo, um novo botão de aba "
@@ -11229,8 +11366,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/text-fields.page:57
+#| msgid ""
+#| "An icon at the beginning of the entry can be used to indicate its purpose "
+#| "- replacing the need for the entry to be labelled. Search entry fields "
+#| "are the classic example of this, where a search icon is placed on the "
+#| "left side of the entry field."
 msgid ""
-"An icon at the beginning of the entry can be used to indicate its purpose - "
+"An icon at the beginning of the entry can be used to indicate its purpose — "
 "replacing the need for the entry to be labelled. Search entry fields are the "
 "classic example of this, where a search icon is placed on the left side of "
 "the entry field."
@@ -11536,9 +11678,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/typography.page:37
+#| msgid ""
+#| "Do not use graphical backdrops or \"watermarks\" behind text. These "
+#| "interfere with the contrast between the text and its background."
 msgid ""
-"Do not use graphical backdrops or \"watermarks\" behind text. These "
-"interfere with the contrast between the text and its background."
+"Do not use graphical backdrops or “watermarks” behind text. These interfere "
+"with the contrast between the text and its background."
 msgstr ""
 "Não use plano de fundo gráfico ou “marcas d’água” atrás do texto. Estes "
 "interferem com o contraste entre o texto e seu plano de fundo."
@@ -11863,11 +12008,17 @@ msgstr "Layout visual"
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:28
+#| msgid ""
+#| "The visual layout of controls, information and content affects how easy "
+#| "it is to understand your application. As part of this, it is important to "
+#| "recognise that visual design has a strong impact on how much work is "
+#| "involved in using an application - poor layout results in users having to "
+#| "put in additional effort, while good layout requires less effort."
 msgid ""
 "The visual layout of controls, information and content affects how easy it "
 "is to understand your application. As part of this, it is important to "
 "recognise that visual design has a strong impact on how much work is "
-"involved in using an application - poor layout results in users having to "
+"involved in using an application — poor layout results in users having to "
 "put in additional effort, while good layout requires less effort."
 msgstr ""
 "O layout visual dos controles, informações e conteúdo afeta a facilidade de "
@@ -11897,10 +12048,16 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:38
+#| msgid ""
+#| "An alignment point is an imaginary vertical or horizontal line through "
+#| "your window that touches the edge of one or more labels or controls in "
+#| "the window. Minimize the number of these - the fewer there are, the "
+#| "cleaner and simpler your layout will appear, and the easier it will be "
+#| "for people to understand."
 msgid ""
 "An alignment point is an imaginary vertical or horizontal line through your "
 "window that touches the edge of one or more labels or controls in the "
-"window. Minimize the number of these - the fewer there are, the cleaner and "
+"window. Minimize the number of these — the fewer there are, the cleaner and "
 "simpler your layout will appear, and the easier it will be for people to "
 "understand."
 msgstr ""
@@ -11978,8 +12135,11 @@ msgstr "Recue os elementos em 12 pixels para denotar hierarquia e associação."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:49
+#| msgid ""
+#| "Avoid using frames with visible borders to separate groups of controls - "
+#| "use spacing and headers instead."
 msgid ""
-"Avoid using frames with visible borders to separate groups of controls - use "
+"Avoid using frames with visible borders to separate groups of controls — use "
 "spacing and headers instead."
 msgstr ""
 "Evite usar quadros com bordas visíveis para separar grupos de controles – "
@@ -12179,9 +12339,14 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:50
+#| msgid ""
+#| "Text should adopt a neutral tone and speak from the point of view of the "
+#| "product. Pronouns like “you” or \"my” should therefore be avoided "
+#| "wherever possible. However, if they are unavoidable “your” is preferable "
+#| "to “my”."
 msgid ""
 "Text should adopt a neutral tone and speak from the point of view of the "
-"product. Pronouns like “you” or \"my” should therefore be avoided wherever "
+"product. Pronouns like “you” or “my” should therefore be avoided wherever "
 "possible. However, if they are unavoidable “your” is preferable to “my”."
 msgstr ""
 "O texto deve adotar um tom neutro e falar do ponto de vista do produto. "
