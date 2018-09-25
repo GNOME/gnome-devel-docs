@@ -21,7 +21,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Since overlaid controls hide when they are not in use, they help to provide an uncluttered viewing experience. They are appropriate when it is desirable to present a clean and distraction-free view on a content item - this is particularly (although not exclusively) appropriate for images and video.</p>
+<p>Since overlaid controls hide when they are not in use, they help to provide an uncluttered viewing experience. They are appropriate when it is desirable to present a clean and distraction-free view on a content item — this is particularly (although not exclusively) appropriate for images and video.</p>
 
 <p>Overlaid controls may be inappropriate if they obscure relevant parts of the content below. Image editing controls may interfere with the ability to see their effects, for example. In these cases, controls should not be overlaid.</p>
 
@@ -34,7 +34,7 @@
 <item><p>Follow established conventions for this type of control, such as left/right browse buttons in image viewers, and player controls at the bottom for video.</p></item>
 <item><p>Controls should be displayed when the pointer is moved over the content, or when it is tapped (on touch devices).</p></item>
 <item><p>Overlaid controls can be attached to the edge of the content/window, or can be free-floating. <link xref="action-bars">Action bars</link> can be treated as overlaid controls.</p></item>
-<item><p>Use the standard "OSD" theme style for overlaid controls.</p></item>
+<item><p>Use the standard “OSD” theme style for overlaid controls.</p></item>
 </list>
 
 </section>

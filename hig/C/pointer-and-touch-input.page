@@ -21,7 +21,7 @@
 <section id="pointer-input">
 <title>Pointer input</title>
 
-<p>A pointing device is any input device that allows the manipulation of a pointer - typically represented as an arrow, and often called a cursor - on screen. While mice and touchpads are the most common, there are a wide variety of such devices, including graphics tablets, track balls, track points and joysticks.</p>
+<p>A pointing device is any input device that allows the manipulation of a pointer — typically represented as an arrow, and often called a cursor — on screen. While mice and touchpads are the most common, there are a wide variety of such devices, including graphics tablets, track balls, track points and joysticks.</p>
 
 <section id="primary-and-secondary-buttons">
 <title>Primary and secondary buttons</title>
@@ -127,7 +127,7 @@
 <tr>
 <td><media type="image" mime="image/png" src="figures/touch/tap.svg"/></td>
 <td><p>Tap on an item.</p></td>
-<td><p>Primary action. Item opens - photo is shown full size, application launches, song starts playing.</p></td>
+<td><p>Primary action. Item opens — photo is shown full size, application launches, song starts playing.</p></td>
 </tr>
 <tr>
 <td colspan="3"><p><em style="strong">Press and hold</em></p></td>

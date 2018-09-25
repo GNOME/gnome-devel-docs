@@ -37,7 +37,7 @@
 <title>General Guidelines</title>
 
 <list>
-<item><p>A button can contain an icon, button, or - more unusually - an image. Follow the icons and artwork guidelines when deciding which to use.</p></item>
+<item><p>A button can contain an icon, button, or — more unusually — an image. Follow the icons and artwork guidelines when deciding which to use.</p></item>
 <item><p>After pressing a button, the user should expect to see the result of their action within 1 second.</p></item>
 <item><p>Do not use more than one or two different widths of button in the same window, and make all of them the same height. This will help give a pleasing uniform visual appearance to your window that makes it easier to use.</p></item>
 <item><p>Do not assign actions to double-clicking or right-clicking a button. Users are unlikely to discover these actions, and if they do, it will distort their expectations of other buttons on the desktop.</p></item>

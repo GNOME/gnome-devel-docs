@@ -54,7 +54,7 @@
 <p>Icons or icon buttons can be placed inside a text field to provide status information or additional controls.</p>
 
 <list>
-<item><p>An icon at the beginning of the entry can be used to indicate its purpose - replacing the need for the entry to be labelled. Search entry fields are the classic example of this, where a search icon is placed on the left side of the entry field.</p></item>
+<item><p>An icon at the beginning of the entry can be used to indicate its purpose — replacing the need for the entry to be labelled. Search entry fields are the classic example of this, where a search icon is placed on the left side of the entry field.</p></item>
 <item><p>If the text to be entered is case sensitive, a warning icon can be shown inside the text field if caps lock is on. This is typically shown on the right side of the entry.</p></item>
 <item><p>If it is common for the text field to be cleared, a clear icon button can be placed inside the field, at the right side.</p></item>
 <item><p>If you place an icon in a text entry field (either as an indicator or a button), use its symbolic variant from the GNOME Symbolic Icon Theme.</p></item>

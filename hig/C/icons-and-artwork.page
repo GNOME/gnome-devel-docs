@@ -23,7 +23,7 @@
 
 <p>Two styles of icon are used in GNOME 3: full-color and symbolic icons.</p>
 
-<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 128x128px SVGs, and are sharpest when scaled up in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color icons also allows them to be rendered sharp at 64x64px and 32x32px, but is not advised to make them any smaller.</p>
+<p>Full-color icons are colorful and detailed, and are optimized for larger sizes. They are defined as 128×128px SVGs, and are sharpest when scaled up in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color icons also allows them to be rendered sharp at 64×64px and 32×32px, but is not advised to make them any smaller.</p>
 
 <media type="image" mime="image/png" src="figures/icons/fullcolor-v-symbolic.svg"/>
 
@@ -64,7 +64,7 @@
 <p>Other things to consider when using icons:</p>
 
 <list>
-<item><p>Think about which icons will be meaningful in the specific context of your application - users of specialist tools will often be familiar with domain-specific symbols.</p></item>
+<item><p>Think about which icons will be meaningful in the specific context of your application — users of specialist tools will often be familiar with domain-specific symbols.</p></item>
 <item><p>Remember that some icons are only meaningful alongside other icons of the same type. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (ie. a single line), and will not be recognizable without a corresponding “plus” add icon.</p></item>
 </list>
 

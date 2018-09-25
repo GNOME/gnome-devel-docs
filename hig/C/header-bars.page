@@ -20,9 +20,9 @@
 <p>Header bars are a common horizontal element which are placed at the top of windows. They play a number of roles:</p>
 
 <list>
-<item><p>Window controls - header bars allow windows to be moved by dragging, include window control buttons (typically a single close button), and provide access to a window controls menu.</p></item>
-<item><p>Headings - a key role of a header bar is to provide context for the content of the window, either through a heading or view switcher.</p></item>
-<item><p>Controls - header bars provide a place for key controls, typically in the form of buttons.</p></item>
+<item><p>Window controls — header bars allow windows to be moved by dragging, include window control buttons (typically a single close button), and provide access to a window controls menu.</p></item>
+<item><p>Headings — a key role of a header bar is to provide context for the content of the window, either through a heading or view switcher.</p></item>
+<item><p>Controls — header bars provide a place for key controls, typically in the form of buttons.</p></item>
 </list>
 
 <section id="when-to-use">
@@ -39,7 +39,7 @@
 
 <p>Header bars can contain key controls for the window, which can be placed on the left and right-hand side of the header bar. Examples of these controls include buttons for navigating back and forward, search, and selecting content.</p>
 
-<p>Ensure that your header bar only contains a small number of key controls - this will help users to understand the primary functionality provided by the window, and will ensure that the window can be resized to narrow widths.</p>
+<p>Ensure that your header bar only contains a small number of key controls — this will help users to understand the primary functionality provided by the window, and will ensure that the window can be resized to narrow widths.</p>
 
 <p>If a window requires more controls than can be comfortably accommodated within the header bar, additional functionality can be included within a header bar menu.</p>
 
@@ -48,7 +48,7 @@
 <section id="dynamic">
 <title>Header bars are dynamic</title>
 
-<p>A header bar can - and should - update along with view or mode changes. This ensures that header bar controls are always relevant to the current context.</p>
+<p>A header bar can — and should — update along with view or mode changes. This ensures that header bar controls are always relevant to the current context.</p>
 
 <p>If the window includes multiple views (accessed through a <link xref="view-switchers">view switcher</link>), the header bar can include different controls for each view.</p>
 
@@ -61,7 +61,7 @@
 
 <list>
 <item><p>A header bar should always provide context for the window it belongs to. This aids window identification, and clarifies what is displayed in the window itself. This can either be done by placing a heading in the center of the header bar, or by including a <link xref="view-switchers">view switcher</link>.</p></item>
-<item><p>Arrange controls within the header bar according to the three alignment points described in the <link xref="visual-layout">visual layout guidelines</link> - left, center and right.</p></item>
+<item><p>Arrange controls within the header bar according to the three alignment points described in the <link xref="visual-layout">visual layout guidelines</link> — left, center and right.</p></item>
 <item><p><gui>New</gui> and back buttons should be placed on the left side of the header bar.</p></item>
 <item><p>Always ensure that there is room for a header bar to be dragged. This is necessary to enable windows to be moved or resized.</p></item>
 </list>

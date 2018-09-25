@@ -27,7 +27,7 @@
 <section id="complexity">
 <title>Keep user interface complexity to a minimum</title>
 
-<p>Every control or piece of information that you add to your application creates additional work for users, and increases the complexity of your application - potentially making it more difficult and less pleasurable to use. Therefore, only include essential controls and information in your application interface.</p>
+<p>Every control or piece of information that you add to your application creates additional work for users, and increases the complexity of your application — potentially making it more difficult and less pleasurable to use. Therefore, only include essential controls and information in your application interface.</p>
 
 <p>When adding a new control or piece of information, always take a moment to question whether it is necessary.</p>
 
@@ -113,7 +113,7 @@
 <section id="emotion">
 <title>Use emotion and humor (sparingly)</title>
 
-<p>Used effectively, emotion and humor can lift the experience provided by your application, and help to develop a positive relationship with your users. Be careful not to over-use these techniques, though - it is far more effective to pick a small number of moments to use emotion, rather than spraying them throughout your user interface.</p>
+<p>Used effectively, emotion and humor can lift the experience provided by your application, and help to develop a positive relationship with your users. Be careful not to over-use these techniques, though — it is far more effective to pick a small number of moments to use emotion, rather than spraying them throughout your user interface.</p>
 
 <p>Be welcoming when your application is used for the first time. Using humor when things go wrong is another effective technique.</p>
 
