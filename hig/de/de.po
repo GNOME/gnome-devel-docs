@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-09-12 16:58+0000\n"
-"PO-Revision-Date: 2018-09-13 22:37+0200\n"
+"POT-Creation-Date: 2018-09-25 10:18+0000\n"
+"PO-Revision-Date: 2018-10-04 20:54+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -276,6 +276,9 @@ msgid ""
 "independent of other applications. This ensures flexibility, predictability, "
 "and simplicity of use."
 msgstr ""
+"Ein Kernpunkt in dieser Definition ist, dass Anwendungen unabhängig von "
+"anderen Anwendungen sein sollen. Dies garantiert Flexiblilität, "
+"Vorhersehbarkeit und Einfachheit der Benutzung."
 
 #. (itstool) path: section/p
 #: C/application-basics.page:36
@@ -285,6 +288,10 @@ msgid ""
 "application metadata. Guidance on these aspects of applications can be found "
 "elsewhere."
 msgstr ""
+"Natürlich gibt es weitere Charakteristiken, die von Anwendungen erwartet "
+"werden, zum Beispiel das Standard-Fensterverhalten, Systemintegration und "
+"Anwendungs-Metadaten. Anleitungen zu diesen Aspekten von Anwendungen werden "
+"Sie anderswo finden."
 
 #. (itstool) path: section/title
 #: C/application-basics.page:43
@@ -332,7 +339,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/application-basics.page:55
 msgid ""
-"Ensure that your application name is short - fewer than 15 characters. This "
+"Ensure that your application name is short — fewer than 15 characters. This "
 "will ensure that it is always displayed in full within a GNOME 3 environment."
 msgstr ""
 "Halten Sie den Namen Ihrer Anwendung kurz – weniger als 15 Zeichen. Das "
@@ -658,18 +665,17 @@ msgid ""
 "effectively represented by menu items, others cannot. In particular, "
 "sliders, spin buttons, switches and text entries provide functionality that "
 "cannot be easily reproduced with a menu. Likewise, some entries might be "
-"better represented as icons rather than text - in which case, buttons could "
+"better represented as icons rather than text — in which case, buttons could "
 "be more appropriate than a menu."
 msgstr ""
 "Überlegen Sie bei jeder Funktion in einem Knopfmenü, ob es vielleicht besser "
 "wäre, ein anderes <link xref=\"ui-elements\">Element der "
 "Benutzerschnittstelle</link> zu verwenden. Einfache Aktionen oder "
-"Einstellungen können durchaus effektiv in Form von Menüeinträgen "
-"dargestellt, andere wiederum nicht. Insbesondere Schieberegler, "
-"Einstellknöpfe, Schalter und Texteinträge können in einem Menü nicht richtig "
-"reproduziert werden. Gleichfalls können einige Einträge besser in Symbolform "
-"statt als Text dargestellt werden, wodurch Knöpfe angemessener wären als ein "
-"Menü."
+"Einstellungen können durchaus effektiv in Form von Menüeinträgen dargestellt "
+"werden, andere wiederum nicht. Insbesondere Schieberegler, Einstellknöpfe, "
+"Schalter und Texteinträge können in einem Menü nicht richtig reproduziert "
+"werden. Gleichfalls können einige Einträge besser in Symbolform statt als "
+"Text dargestellt werden, wodurch Knöpfe angemessener wären als ein Menü."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:38
@@ -720,11 +726,11 @@ msgstr "original"
 #. (itstool) path: item/p
 #: C/button-menus.page:50
 msgid ""
-"Each context - whether it is a view or delineated area of your interface - "
+"Each context — whether it is a view or delineated area of your interface — "
 "should only include one generic button menu."
 msgstr ""
-"In jedem Kontext - egal ob in einer Ansicht oder in einem abgegrenzten "
-"Bereich der Benutzeroberfläche - sollte nur ein generisches Knopfmenü "
+"In jedem Kontext – egal ob in einer Ansicht oder in einem abgegrenzten "
+"Bereich der Benutzeroberfläche – sollte nur ein generisches Knopfmenü "
 "enthalten sein."
 
 #. (itstool) path: item/p
@@ -840,10 +846,10 @@ msgstr "Allgemeine Richtlinien"
 #. (itstool) path: item/p
 #: C/buttons.page:40
 msgid ""
-"A button can contain an icon, button, or - more unusually - an image. Follow "
+"A button can contain an icon, button, or — more unusually — an image. Follow "
 "the icons and artwork guidelines when deciding which to use."
 msgstr ""
-"Ein Knopf kann ein Symbol oder - weniger häufig anzutreffen - ein Bild "
+"Ein Knopf kann ein Symbol oder – weniger häufig anzutreffen – ein Bild "
 "enthalten. Beachten Sie die Richtlinien für Symbole und Design, wenn Sie "
 "sich entschließen, eines davon zu verwenden."
 
@@ -1276,6 +1282,10 @@ msgid ""
 "views and view switchers, and popovers, are common and will be generally "
 "understood."
 msgstr ""
+"Allgemein können die in diesen Richtlinien beschriebenen Designmuster auf "
+"jeder Desktop-Plattform angewendet werden. Die meisten der Konventionen, wie "
+"Menüs und Menüknöpfe, Ansichten und Ansichtswechsler sowie Einblendmenüs "
+"sind allgemein üblich und werden verstanden."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:23
@@ -1285,6 +1295,11 @@ msgid ""
 "on different platforms. See the design page on this for more guidance on "
 "cross-platform considerations."
 msgstr ""
+"Das primäre Beispiel für ein desktopübergreifendes Designmuster ist die "
+"<link xref=\"menu-bars\">Menüleiste</link>, welche auf verschiedenen "
+"Plattformen in diversen Formen existiert. In der Designseite finden Sie "
+"weitere Hinweise, wenn es um Überlegungen zu plattformübergreifenden "
+"Anwendungen geht."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
@@ -1444,11 +1459,11 @@ msgstr "Minimieren Sie die Komplexität der Benutzeroberfläche"
 msgid ""
 "Every control or piece of information that you add to your application "
 "creates additional work for users, and increases the complexity of your "
-"application - potentially making it more difficult and less pleasurable to "
+"application — potentially making it more difficult and less pleasurable to "
 "use. Therefore, only include essential controls and information in your "
 "application interface."
 msgstr ""
-"Jeder Bedienelement oder jede Information, das oder die Sie zu Ihrer "
+"Jedes Bedienelement oder jede Information, das oder die Sie zu Ihrer "
 "Anwendung hinzufügen, verursacht zusätzliche Arbeit für den Benutzer und "
 "erhöht die Komplexität Ihrer Anwendung. Dadurch wird die Bedienung "
 "potenziell komplizierter und weniger angenehm. Daher sollten Sie sich in der "
@@ -1738,7 +1753,7 @@ msgstr "Verwenden Sie Gefühl und Humor (sparsam)"
 msgid ""
 "Used effectively, emotion and humor can lift the experience provided by your "
 "application, and help to develop a positive relationship with your users. Be "
-"careful not to over-use these techniques, though - it is far more effective "
+"careful not to over-use these techniques, though — it is far more effective "
 "to pick a small number of moments to use emotion, rather than spraying them "
 "throughout your user interface."
 msgstr ""
@@ -1888,7 +1903,7 @@ msgstr "Beispiele"
 #. (itstool) path: section/p
 #: C/dialogs.page:62
 msgid ""
-"Confirmation dialogs use a message dialog to check - or confirm - that the "
+"Confirmation dialogs use a message dialog to check — or confirm — that the "
 "user wants to carry out an action. They have two buttons: one to confirm "
 "that the action should be carried out and one to cancel the action."
 msgstr ""
@@ -1952,7 +1967,7 @@ msgstr "original"
 msgid ""
 "Action dialogs present options and information about a specific action "
 "before it is carried out. They have a heading (which typically describes the "
-"action) and two primary buttons - one which allows the action to be carried "
+"action) and two primary buttons — one which allows the action to be carried "
 "out and one which cancels it."
 msgstr ""
 "Aktionsdialoge stellen Optionen und Informationen zu einer spezifischen "
@@ -1980,6 +1995,11 @@ msgid ""
 "header bar buttons allow the print action to either be cancelled or carried "
 "out."
 msgstr ""
+"Viele der vorgefertigten GTK+-Dialoge sind Aktionsdialoge. Der Druckdialog "
+"ist dafür ein gutes Beispiel: Er erscheint als Reaktion darauf, wenn der "
+"Benutzer die Drucken-Aktion anstößt und zeigt Informationen und Optionen zu "
+"dieser Aktion an. Mit den zwei Knöpfen in der Kopfleiste kann der "
+"Druckvorgang entweder gestartet oder abgebrochen werden."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:91
@@ -2019,6 +2039,12 @@ msgid ""
 "example of how dialogs can be used to disclose additional information which "
 "is not always needed in the main application window."
 msgstr ""
+"Einstellungen und Eigenschaften sind Beispiele für Präsentationsdialoge. "
+"Beide stellen Informationen und Einstellungen in Relation zu einer "
+"spezifischen Entität dar (entweder eine Anwendung oder ein Inhaltsobjekt). "
+"Eigenschaftsdialoge sind ein gutes Beispiel dafür, wie Dialoge zur "
+"Auslagerung von Informationen verwendet werden können, die im Hauptfenster "
+"der Anwendung nicht permanent gebraucht werden."
 
 #. (itstool) path: note/p
 #: C/dialogs.page:102
@@ -2125,6 +2151,10 @@ msgid ""
 "example: <gui>Save</gui>, <gui>Print</gui>, <gui>Remove</gui>. This is "
 "clearer than a generic label like <gui>OK</gui> or <gui>Done</gui>."
 msgstr ""
+"Beschriften Sie den bestätigenden Knopf mit einem spezifischen imperativen "
+"Verb, zum Beispiel <gui>Save</gui>, <gui>Print</gui> oder <gui>Remove</gui>. "
+"Dies ist klarer verständlich als eine allgemeine Beschriftung wie <gui>OK</"
+"gui> oder <gui>Done</gui>."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:137
@@ -2134,6 +2164,11 @@ msgid ""
 "be a good opportunity to use humor. <gui>Apology Accepted</gui> or <gui>Got "
 "It</gui> are both examples of good labels."
 msgstr ""
+"Fehlerdialoge beinhalten typischerweise einen einzelnen Knopf, der den "
+"Dialog schließt. In diesem Fall braucht keine spezifische Aktion "
+"referenziert zu werden, und eine Prise Humor kann hier auch nicht schaden. "
+"<gui>Apology Accepted</gui> oder <gui>Got It</gui> sind Beispiele für "
+"passende Beschriftungen."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:142
@@ -2150,6 +2185,13 @@ msgid ""
 "inconvenient to the user. If there is no appropriate button to designate as "
 "the default button, do not set one."
 msgstr ""
+"Weisen Sie die Eingabetaste dem primären Bestätigungsknopf in einem Dialog "
+"zu (zum Beispiel <gui>Print</gui> in einem Druckdialog). Diese ist dann die "
+"Standardaktion, die durch einen anderen visuellen Stil kenntlich gemacht "
+"wird. Legen Sie keinen Knopf als Standardknopf fest, dessen Aktion "
+"irreversibel, destruktiv oder in anderer Form unbequem für den Benutzer ist. "
+"Gibt es keinen passenden Knopf, dessen Aktion sich als Standardaktion "
+"eignet, sollten Sie keinen dafür festlegen."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:146
@@ -2195,7 +2237,7 @@ msgid ""
 "designing the content of windows."
 msgstr ""
 "Folgen Sie beim Entwurf von Fensterinhalten den <link xref=\"visual-layout"
-"\">Layout-Richtlinien</link>"
+"\">Layout-Richtlinien</link>."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:161
@@ -2617,6 +2659,10 @@ msgid ""
 "\">symbolic icon</link> that either represents your application, or the type "
 "of content that would ordinarily appear in the grid or list."
 msgstr ""
+"Verwenden Sie für das Bild ein <link xref=\"icons-and-artwork#color-vs-"
+"symbolic\">stilisiertes Symbol</link>, das entweder Ihre Anwendung "
+"repräsentiert oder den Inhaltstyp, der normalerweise in der Liste erscheinen "
+"würde."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:39
@@ -2627,6 +2673,11 @@ msgid ""
 "should only be included if there is additional information that it is useful "
 "to provide."
 msgstr ""
+"Ein leerer Platzhalter sollte stets eine Beschriftung haben, die den Leer-"
+"Status signalisiert. Oft ist es angemessen, einen kleineren Text anzuzeigen, "
+"der zusätzliche Hinweise enthält (zum Beispiel, wie Einträge hinzugefügt "
+"werden können). Jedoch sollte dies nur geschehen, wenn es tatsächlich "
+"nützliche Informationen gibt, deren Anzeige sinnvoll ist."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:40 C/initial-state-placeholders.page:38
@@ -2652,11 +2703,6 @@ msgstr "Vollbild"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/full-screen.page:17
-#, fuzzy
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/secondary-menu.svg' "
-#| "md5='fe768e135e16ad22527cc97ecfd9a076'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/fullscreen.svg' "
@@ -2673,7 +2719,7 @@ msgid ""
 msgstr ""
 "Vollbild bezeichnet einen Modus, in dem ein Fenster den gesamten Bildschirm "
 "füllt. Wenn der Vollbildmodus aktiv ist, werden Bedienelemente "
-"typischerweise verborgen, "
+"typischerweise verborgen, um"
 
 #. (itstool) path: section/p
 #: C/full-screen.page:24
@@ -2693,14 +2739,21 @@ msgid ""
 "it can be useful for editing tasks. Fullscreen is also typical for many "
 "games (how games should use fullscreen is not covered in this page)."
 msgstr ""
+"Der Vollbildmodus wird typischerweise zu Betrachtungszwecken verwendet. "
+"Jedoch kann er in manchen Fällen auch für Bearbeitungsaufgaben eingesetzt "
+"werden. Außerdem ist der Vollbildmodus typisch für zahlreiche Spiele (auf "
+"die richtige Nutzung des Vollbildmodus gehen wir hier nicht ein)."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:34
 msgid ""
 "If an application uses different views, it is only necessary to enable "
-"fullscreen for those views where it is useful - primarily those that display "
+"fullscreen for those views where it is useful — primarily those that display "
 "content items."
 msgstr ""
+"Wenn eine Anwendung verschiedene Ansichten zeigt, ist die Aktivierung des "
+"Vollbildmodus für diese Ansichten nur nötig, wenn es wirklich sinnvoll ist – "
+"primär zur Anzeige von Inhaltsobjekten."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:35
@@ -2708,6 +2761,9 @@ msgid ""
 "Fullscreen can be triggered automatically when a content item is opened, or "
 "can be offered as a mode that can be activated by the user."
 msgstr ""
+"Der Vollbildmodus kann automatisch beim Öffnen eines Inhaltsobjekts "
+"aktiviert werden, oder als Modus angeboten werden, der optional vom Benutzer "
+"aktiviert werden kann."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:36
@@ -2722,7 +2778,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/full-screen.page:37
 msgid "When fullscreen is active:"
-msgstr ""
+msgstr "Wenn der Vollbildmodus aktiv ist:"
 
 #. (itstool) path: item/p
 #: C/full-screen.page:39
@@ -2731,6 +2787,9 @@ msgid ""
 "\"action-bars\">action bars</link> or <link xref=\"overlaid-controls"
 "\">overlaid controls</link>."
 msgstr ""
+"Alle Bedienelemente sollten verborgen werden, auch die Kopfleiste, <link "
+"xref=\"action-bars\">Aktionsleisten</link> oder <link xref=\"overlaid-"
+"controls\">überlagerte Bedienelemente</link>."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:40
@@ -2738,6 +2797,8 @@ msgid ""
 "Controls, including the header bar, should be revealed when the pointer is "
 "moved or the screen is tapped."
 msgstr ""
+"Bedienelemente, auch die Kopfleiste, sollten angezeigt werden, wenn der "
+"Mauszeiger bewegt oder der Bildschirm berührt wird."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:41
@@ -2745,6 +2806,9 @@ msgid ""
 "The window close button should be replaced with a view restore button, which "
 "disables fullscreen mode."
 msgstr ""
+"Der Schließen-Knopf des Fensters sollte durch einen Knopf zum "
+"Wiederherstellen der Ansicht ersetzt werden, welcher den Vollbildmodus "
+"deaktiviert."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:42
@@ -2753,6 +2817,10 @@ msgid ""
 "This includes any navigation controls that would simultaneously exit "
 "fullscreen, such as back buttons."
 msgstr ""
+"Jegliche Bedienelemente, die nicht in den Vollbildmodus passen, sollten "
+"verborgen oder ersetzt werden. Dies bezieht sich auf alle "
+"Navigationselemente, welche den Vollbildmodus beenden würden, zum Beispiel "
+"Zurück-Knöpfe."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:43
@@ -2798,6 +2866,10 @@ msgid ""
 "patterns, including <link xref=\"search\">search</link> and <link xref="
 "\"selection-mode\">selection mode</link>."
 msgstr ""
+"Ein Gitter ist eine der primären Methoden zur Präsentation inhaltlicher "
+"Sammlungen in GNOME 3. Gitter werden oft mit einer Reihe von anderen "
+"Designmustern kombiniert, wie <link xref=\"search\">Suche</link> und <link "
+"xref=\"selection-mode\">Auswahlmodus</link>."
 
 #. (itstool) path: section/p
 #: C/grids.page:25
@@ -2905,7 +2977,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/header-bars.page:23
 msgid ""
-"Window controls - header bars allow windows to be moved by dragging, include "
+"Window controls — header bars allow windows to be moved by dragging, include "
 "window control buttons (typically a single close button), and provide access "
 "to a window controls menu."
 msgstr ""
@@ -2917,7 +2989,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/header-bars.page:24
 msgid ""
-"Headings - a key role of a header bar is to provide context for the content "
+"Headings — a key role of a header bar is to provide context for the content "
 "of the window, either through a heading or view switcher."
 msgstr ""
 "Überschriften – eine grundlegende Rolle der Kopfleiste ist die "
@@ -2927,7 +2999,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/header-bars.page:25
 msgid ""
-"Controls - header bars provide a place for key controls, typically in the "
+"Controls — header bars provide a place for key controls, typically in the "
 "form of buttons."
 msgstr ""
 "Steuerungslemente – Kopfzeilen bieten Platz für Steuerungen, typischerweise "
@@ -2983,7 +3055,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/header-bars.page:42
 msgid ""
-"Ensure that your header bar only contains a small number of key controls - "
+"Ensure that your header bar only contains a small number of key controls — "
 "this will help users to understand the primary functionality provided by the "
 "window, and will ensure that the window can be resized to narrow widths."
 msgstr ""
@@ -3011,10 +3083,10 @@ msgstr "Kopfleisten sind dynamisch"
 #. (itstool) path: section/p
 #: C/header-bars.page:51
 msgid ""
-"A header bar can - and should - update along with view or mode changes. This "
+"A header bar can — and should — update along with view or mode changes. This "
 "ensures that header bar controls are always relevant to the current context."
 msgstr ""
-"Eine Kopfleiste kann - und sollte - bei Änderungen der Ansicht oder des "
+"Eine Kopfleiste kann – und sollte – bei Änderungen der Ansicht oder des "
 "Modus aktualisiert werden. Dies stellt sicher, dass die Bedienelemente der "
 "Kopfleiste stets im aktuellen Kontext relevant sind."
 
@@ -3040,7 +3112,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/header-bars.page:60
 msgid "Additional guidance"
-msgstr ""
+msgstr "Zusätzliche Hinweise"
 
 #. (itstool) path: item/p
 #: C/header-bars.page:63
@@ -3057,11 +3129,11 @@ msgstr ""
 msgid ""
 "Arrange controls within the header bar according to the three alignment "
 "points described in the <link xref=\"visual-layout\">visual layout "
-"guidelines</link> - left, center and right."
+"guidelines</link> — left, center and right."
 msgstr ""
 "Ordnen Sie Bedienelemente innerhalb der Kopfleiste anhand den drei in den "
 "<link xref=\"visual-layout\">Richtlinien zum visuellen Layout</link> "
-"beschriebenen Punkte an – links, Mitte und rechts."
+"beschriebenen Punkte an – links, mittig und rechts."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:65
@@ -3202,7 +3274,7 @@ msgstr "original"
 #. (itstool) path: section/p
 #: C/icon-design.page:41
 msgid ""
-"A <link href=\"https://gitlab.gnome.org/Community/Design/icon-revolution/raw/"
+"A <link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/"
 "master/template.svg\">grid template</link> is available to assist with "
 "placing your icon outline. Do not try to cover a maximum area of the canvas: "
 "the outside margin should be left empty. In some circumstances a small "
@@ -3232,7 +3304,7 @@ msgid ""
 "Shadows can be drawn internally, within a full-color icon, with the light "
 "source pointing straight from above. However, shadows should not be drawn "
 "outside the main silhouette of the icon, as these are generated "
-"programatically based on the context. When app icons are presented on a "
+"programmatically based on the context. When app icons are presented on a "
 "white background, for example, a strong drop shadow is rendered to help "
 "define the contours."
 msgstr ""
@@ -3252,7 +3324,7 @@ msgstr "original"
 #. (itstool) path: section/p
 #: C/icon-design.page:54
 msgid ""
-"Versions of application icons can also be programatically generated for "
+"Versions of application icons can also be programmatically generated for "
 "development or nightly builds."
 msgstr ""
 
@@ -3439,7 +3511,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/icon-design.page:114
 msgid "Symbolic icons"
-msgstr "Symbolische Symbole"
+msgstr "Stilisierte Symbole"
 
 #. (itstool) path: section/p
 #: C/icon-design.page:116
@@ -3465,7 +3537,7 @@ msgid ""
 "Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
 "view."
 msgstr ""
-"Vermeiden Sie perspektivische Darstellungen in symbolischen Symbolen, "
+"Vermeiden Sie perspektivische Darstellungen in stilisierten Symbolen, "
 "bleiben Sie stattdessen bei einer strikten rechtwinkligen Ansicht."
 
 #. (itstool) path: item/p
@@ -3543,16 +3615,16 @@ msgstr "Symbol-Stile"
 #: C/icons-and-artwork.page:24
 msgid "Two styles of icon are used in GNOME 3: full-color and symbolic icons."
 msgstr ""
-"In GNOME 3 kommen zwei Symbolstile zum Einsatz: farbige und symbolische "
+"In GNOME 3 kommen zwei Symbolstile zum Einsatz: farbige und stilisierte "
 "Symbole."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:26
 msgid ""
 "Full-color icons are colorful and detailed, and are optimized for larger "
-"sizes. They are defined as 128x128px SVGs, and are sharpest when scaled up "
+"sizes. They are defined as 128×128px SVGs, and are sharpest when scaled up "
 "in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color "
-"icons also allows them to be rendered sharp at 64x64px and 32x32px, but is "
+"icons also allows them to be rendered sharp at 64×64px and 32×32px, but is "
 "not advised to make them any smaller."
 msgstr ""
 
@@ -3674,7 +3746,7 @@ msgstr ""
 #: C/icons-and-artwork.page:67
 msgid ""
 "Think about which icons will be meaningful in the specific context of your "
-"application - users of specialist tools will often be familiar with domain-"
+"application — users of specialist tools will often be familiar with domain-"
 "specific symbols."
 msgstr ""
 
@@ -4238,6 +4310,10 @@ msgid ""
 "movement using the arrow keys, both within user interface elements (such as "
 "lists, icon grids or sidebars), and between them."
 msgstr ""
+"Zusätzlich zur Navigation mit der <key>Tabulator</key>-Taste sollten Sie da "
+"Bewegen mit den Pfeiltasten ermöglichen, sowohl innerhalb von Elementen der "
+"Benutzeroberfläche (wie Listen, Symbolfeldern oder Seitenleisten) als auch "
+"zwischen ihnen."
 
 #. (itstool) path: note/p
 #: C/keyboard-input.page:46
@@ -4949,6 +5025,9 @@ msgid ""
 "This section also provides guidance on standard menu items in a <link xref="
 "\"menu-bars\">menu bar</link>, should one be used."
 msgstr ""
+"In diesem Abschnitt finden Sie auch Standard-Menüeinträge für eine <link "
+"xref=\"menu-bars\">Menüleiste</link>, sofern Sie eine solche verwenden "
+"wollen."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:272
@@ -5010,12 +5089,12 @@ msgstr "Schließt die Anwendung einschließlich aller zugehörigen Fenster."
 #. (itstool) path: section/title
 #: C/keyboard-input.page:306
 msgid "File"
-msgstr "Datei"
+msgstr "File"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:308
 msgid "Standard file keyboard shortcuts and menu items."
-msgstr ""
+msgstr "Standard-Tastenkombinationen für »File« und Menüeinträge."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:320
@@ -5067,6 +5146,8 @@ msgid ""
 "A submenu which contains a list of no more than six recently used files, "
 "ordered according to most recently used."
 msgstr ""
+"Ein Untermenü, welches eine Liste von maximal sechs kürzlich verwendeten "
+"Dateien anzeigt, die zuletzt genutzten zuerst."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:335
@@ -5867,6 +5948,7 @@ msgstr "Go"
 #: C/keyboard-input.page:645
 msgid "Standard navigation keyboard shortcuts and <gui>Go</gui> menu items."
 msgstr ""
+"Standard-Tastenkombinationen zur Navigation und für das <gui>Go</gui>-Menü."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:657
@@ -6270,6 +6352,8 @@ msgid ""
 "When using column headers, indicate the sort order using arrows on the "
 "header."
 msgstr ""
+"Wenn Sie Spaltenüberschriften verwenden, zeigen Sie die Sortierreihenfolge "
+"mittels Pfeilen in der Überschrift an."
 
 #. (itstool) path: td/p
 #: C/lists.page:79
@@ -6296,11 +6380,13 @@ msgstr "Nach unten"
 msgid ""
 "Alphabetical, smallest number first, earliest date first, checked items first"
 msgstr ""
+"Alphabetisch, kleinste Zahl zuerst, ältestes Datum zuerst, markierte "
+"Einträge zuerst"
 
 #. (itstool) path: td/p
 #: C/lists.page:90
 msgid "Reverse"
-msgstr "Umkehren"
+msgstr "Umgekehrt"
 
 #. (itstool) path: td/p
 #: C/lists.page:91
@@ -6313,6 +6399,8 @@ msgid ""
 "Reverse alphabetical, largest number first, most recent date first, "
 "unchecked items first"
 msgstr ""
+"Umgekehrt alphabetisch, größte Zahl zuerst, neuestes Datum zuerst, nicht "
+"markierte Einträge zuerst"
 
 #. (itstool) path: section/title
 #: C/lists.page:101
@@ -6325,6 +6413,8 @@ msgid ""
 "Depending on the type of list, rows have different behaviors when they are "
 "clicked or pressed. There are three types of list in this regard:"
 msgstr ""
+"Abhängig vom Typ der Liste verhalten sich Spalten unterschiedlich, wenn sie "
+"angeklickt werden. Es gibt in dieser Hinsicht drei Listentypen:"
 
 #. (itstool) path: td/p
 #: C/lists.page:108
@@ -6603,6 +6693,9 @@ msgid ""
 "Includes commands to change the visual appearance of the document. For "
 "example, changing the font, color, or line spacing of a text selection."
 msgstr ""
+"Enthält Befehle zur Änderung des visuellen Erscheinungsbilds des Dokuments, "
+"zum Beispiel Änderungen der Schrift, Farbe oder des Zeilenabstands einer "
+"Textauswahl."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:71
@@ -6669,13 +6762,16 @@ msgid ""
 "windows, for example <gui>1shoppinglist.abw</gui>. Selecting one of these "
 "items raises the corresponding window."
 msgstr ""
+"Die letzten Einträge in diesem Menü sind eine nummerierte Liste der primären "
+"Anwendungsfenster, zum Beispiel <gui>1shoppinglist.abw</gui>. Die Auswahl "
+"einer dieser Einträge hebt das entsprechende Fenster an."
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:96
 msgid ""
 "The menubar is normally visible at all times and is always accessible from "
 "the keyboard, so make all the commands available in your application "
-"available on the menubar. (This guideline is unique to menu bars - other "
+"available on the menubar. (This guideline is unique to menu bars — other "
 "menus should not seek to reproduce functionality that is made available by "
 "other controls)."
 msgstr ""
@@ -6690,7 +6786,7 @@ msgstr ""
 #: C/menu-bars.page:97
 msgid ""
 "Treat <link xref=\"application-menus\">application menus</link> as part of "
-"the menu bar - it is not necessary to reproduce items from the application "
+"the menu bar — it is not necessary to reproduce items from the application "
 "menu in other menus."
 msgstr ""
 
@@ -6700,6 +6796,9 @@ msgid ""
 "Do not disable menu titles. Allow the user to explore the menu, even though "
 "there might be no available items on it at that time."
 msgstr ""
+"Deaktivieren Sie keine Menütitel. Ermöglichen Sie dem Benutzer, das Menü zu "
+"erkunden, auch wenn zum jeweiligen Zeitpunkt keine Menüeinträge verfügbar "
+"sind."
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:99
@@ -6839,25 +6938,25 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/menus.page:50
 msgid ""
-"Organize similar menu items into groups using dividers - this will make them "
+"Organize similar menu items into groups using dividers — this will make them "
 "easier to understand and quicker to use. When creating groups:"
 msgstr ""
 "Fassen Sie ähnliche Menüeinträge mittels Trennern in einer Gruppe zusammen. "
-"Dadurch wird das Verständnis erleichtert und die Bedienung beschleunigt. Bei "
-"Erstellen von Gruppen:"
+"Dadurch wird das Verständnis erleichtert und die Bedienung beschleunigt. "
+"Beim Erstellen von Gruppen:"
 
 #. (itstool) path: item/p
 #: C/menus.page:53
 msgid ""
 "Order groups and group items logically, either by importance, task order, or "
 "expected frequency of use. Items at the top and bottom of the menu are more "
-"noticeable and easily targetted, so reserve these locations for particularly "
+"noticeable and easily targeted, so reserve these locations for particularly "
 "important or interesting functionality."
 msgstr ""
 "Ordnen Sie Gruppen und Gruppeneinträge logisch an, entweder nach "
 "Wichtigkeit, Aufgabenfolge oder der zu erwartenden Häufigkeit der Nutzung. "
 "Der oberste und der unterste Eintrag sollten für wichtige oder interessante "
-"Funktionalität reserviert werden, das diese Einträge am schnellsten die "
+"Funktionalität reserviert werden, dass diese Einträge am schnellsten die "
 "Aufmerksamkeit des Benutzers auf sich lenken."
 
 #. (itstool) path: item/p
@@ -6873,10 +6972,10 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/menus.page:55
 msgid ""
-"Do not mix different types of menu item within each group - actions, check "
+"Do not mix different types of menu item within each group — actions, check "
 "box and radio button items should be kept separate."
 msgstr ""
-"Mischen Sie nicht verschiedene Menüeintragstypen innerhalb einer Gruppe - "
+"Mischen Sie nicht verschiedene Menüeintragstypen innerhalb einer Gruppe – "
 "Aktionen, Ankreuzfelder und Auswahlknöpfe sollten voneinander getrennt "
 "werden."
 
@@ -6912,7 +7011,7 @@ msgid ""
 "label when the item is selected. For example, a <gui>Play</gui> item may "
 "change to <gui>Pause</gui>. However, only use this type of item when actions "
 "are logical opposites which are obvious to users. Likewise, do not use this "
-"technique for settings - use check boxes or radio buttons instead."
+"technique for settings — use check boxes or radio buttons instead."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -7104,7 +7203,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/notifications.page:81
 msgid ""
-"Actions should not replace user interface controls elsewhere - it should be "
+"Actions should not replace user interface controls elsewhere — it should be "
 "possible to take the same actions from your application’s windows."
 msgstr ""
 
@@ -7220,7 +7319,7 @@ msgstr ""
 msgid ""
 "Since overlaid controls hide when they are not in use, they help to provide "
 "an uncluttered viewing experience. They are appropriate when it is desirable "
-"to present a clean and distraction-free view on a content item - this is "
+"to present a clean and distraction-free view on a content item — this is "
 "particularly (although not exclusively) appropriate for images and video."
 msgstr ""
 
@@ -7256,7 +7355,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:37
-msgid "Use the standard \"OSD\" theme style for overlaid controls."
+msgid "Use the standard “OSD” theme style for overlaid controls."
 msgstr ""
 
 #. (itstool) path: page/title
@@ -7328,7 +7427,7 @@ msgstr "Zeigereingabe"
 #: C/pointer-and-touch-input.page:24
 msgid ""
 "A pointing device is any input device that allows the manipulation of a "
-"pointer - typically represented as an arrow, and often called a cursor - on "
+"pointer — typically represented as an arrow, and often called a cursor — on "
 "screen. While mice and touchpads are the most common, there are a wide "
 "variety of such devices, including graphics tablets, track balls, track "
 "points and joysticks."
@@ -7604,7 +7703,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:130
 msgid ""
-"Primary action. Item opens - photo is shown full size, application launches, "
+"Primary action. Item opens — photo is shown full size, application launches, "
 "song starts playing."
 msgstr ""
 
@@ -8012,7 +8111,7 @@ msgstr ""
 "\">GtkPopover</link>"
 
 #. (itstool) path: info/desc
-#: C/primary-menus.page:8 C/secondary-menus.page:8
+#: C/primary-menus.page:8
 msgid "The application's main menu, denoted by three stacked horizontal lines"
 msgstr ""
 
@@ -8281,7 +8380,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/primary-windows.page:76
 msgid ""
-"Primary windows should be independent - closing one primary window should "
+"Primary windows should be independent — closing one primary window should "
 "not result in other primary windows being closed."
 msgstr ""
 "Primäre Fenster sollten unabhängig sein. Das bedeutet, dass durch das "
@@ -8742,7 +8841,7 @@ msgstr ""
 #: C/progress-spinners.page:43
 msgid ""
 "Generally, only one progress spinner should be displayed at once. Avoid "
-"showing a large number of spinners simultaneously - this will often be "
+"showing a large number of spinners simultaneously — this will often be "
 "visually overwhelming."
 msgstr ""
 
@@ -9011,7 +9110,7 @@ msgstr "Suchergebnisse"
 #. (itstool) path: item/p
 #: C/search.page:53
 msgid ""
-"Search should be “live” wherever possible - the content view should update "
+"Search should be “live” wherever possible — the content view should update "
 "to display search results as they are entered."
 msgstr ""
 
@@ -9026,7 +9125,7 @@ msgstr ""
 #: C/search.page:55
 msgid ""
 "If a search term does not return any results, ensure that feedback is given "
-"in the content view. Often a simple \"No results\" label is sufficient."
+"in the content view. Often a simple “No results” label is sufficient."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -9072,6 +9171,12 @@ msgid ""
 msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
 "\">GtkSearchEntry</link>"
+
+#. (itstool) path: info/desc
+#: C/secondary-menus.page:8
+msgid ""
+"The application's secondary menu, denoted by three stacked horizontal dots"
+msgstr ""
 
 #. (itstool) path: page/title
 #: C/secondary-menus.page:16
@@ -9951,7 +10056,7 @@ msgstr ""
 msgid ""
 "If tabs are an important part of the application, a new tab button can be "
 "placed in the header bar or toolbar. Do not show a new tab button in "
-"applications where tabs will not always be used - keyboard shortcuts and/or "
+"applications where tabs will not always be used — keyboard shortcuts and/or "
 "menu items are sufficient in these cases."
 msgstr ""
 "Falls Reiter ein wichtiger Teil der Anwendung sind, kann ein Knopf zum "
@@ -10139,7 +10244,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/text-fields.page:57
 msgid ""
-"An icon at the beginning of the entry can be used to indicate its purpose - "
+"An icon at the beginning of the entry can be used to indicate its purpose — "
 "replacing the need for the entry to be labelled. Search entry fields are the "
 "classic example of this, where a search icon is placed on the left side of "
 "the entry field."
@@ -10177,7 +10282,7 @@ msgid ""
 "button), use its symbolic variant from the GNOME Symbolic Icon Theme."
 msgstr ""
 "Wenn Sie ein Symbol in ein Textfeld setzen (sei es als Indikator oder als "
-"Knopf), dann verwenden Sie dessen symbolische Variante aus dem »GNOME "
+"Knopf), dann verwenden Sie dessen stilisierte Variante aus dem »GNOME "
 "Symbolic Icon Theme«."
 
 #. (itstool) path: section/p
@@ -10342,7 +10447,7 @@ msgid ""
 msgstr ""
 "Werkzeugleisten<link xref=\"buttons\">knöpfe</link> sollten ein Relief "
 "haben, und Symbolknöpfe sollten <link xref=\"icons-and-artwork#color-vs-"
-"symbolic\">symbolische Symbole</link> haben."
+"symbolic\">stilisierte Symbole</link> haben."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:62
@@ -10417,7 +10522,7 @@ msgstr ""
 "Unterschiedliche Textstärken und -farben können und sollten dazu verwendet "
 "werden, um unterschiedliche Arten von Informationen zu trennen. Andererseits "
 "können zu viele Varianten, Größen und Schriftstärken den Text schwerer "
-"lesbar machen. Dies wäre ein wenig effizienter und eleganter weg zum "
+"lesbar machen. Dies wäre ein wenig effizienter und eleganter Weg zum "
 "Vermitteln von Informationen. Versuchen Sie, die Schriftvarianten, -größen "
 "und -stärken so weit wie möglich zu beschränken."
 
@@ -10452,8 +10557,8 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/typography.page:37
 msgid ""
-"Do not use graphical backdrops or \"watermarks\" behind text. These "
-"interfere with the contrast between the text and its background."
+"Do not use graphical backdrops or “watermarks” behind text. These interfere "
+"with the contrast between the text and its background."
 msgstr ""
 "Unterlegen Sie Text nicht mit grafischen Hintergründen oder »Wasserzeichen«. "
 "Diese überlagern sich mit dem Kontrast zwischen dem Text und seinem "
@@ -10781,7 +10886,7 @@ msgid ""
 "The visual layout of controls, information and content affects how easy it "
 "is to understand your application. As part of this, it is important to "
 "recognise that visual design has a strong impact on how much work is "
-"involved in using an application - poor layout results in users having to "
+"involved in using an application — poor layout results in users having to "
 "put in additional effort, while good layout requires less effort."
 msgstr ""
 "Das visuelle Layout von Bedienelementen, Informationen und Inhalten "
@@ -10814,7 +10919,7 @@ msgstr ""
 msgid ""
 "An alignment point is an imaginary vertical or horizontal line through your "
 "window that touches the edge of one or more labels or controls in the "
-"window. Minimize the number of these - the fewer there are, the cleaner and "
+"window. Minimize the number of these — the fewer there are, the cleaner and "
 "simpler your layout will appear, and the easier it will be for people to "
 "understand."
 msgstr ""
@@ -10897,7 +11002,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/visual-layout.page:49
 msgid ""
-"Avoid using frames with visible borders to separate groups of controls - use "
+"Avoid using frames with visible borders to separate groups of controls — use "
 "spacing and headers instead."
 msgstr ""
 "Vermeiden Sie Rahmen mit sichtbaren Rändern, um Gruppen von Bedienelementen "
@@ -11095,7 +11200,7 @@ msgstr ""
 #: C/writing-style.page:50
 msgid ""
 "Text should adopt a neutral tone and speak from the point of view of the "
-"product. Pronouns like “you” or \"my” should therefore be avoided wherever "
+"product. Pronouns like “you” or “my” should therefore be avoided wherever "
 "possible. However, if they are unavoidable “your” is preferable to “my”."
 msgstr ""
 "Texte sollten in einem neutralen Ton verfasst sein und aus der Richtung des "
