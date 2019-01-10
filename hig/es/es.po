@@ -10,13 +10,13 @@
 # Javi Ribera <javiribera@gmail.com>, 2013.
 # Alex Puchades <alex94puchades@gmail.com>, 2015.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2017.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2017, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2017-09-22 16:04+0000\n"
-"PO-Revision-Date: 2017-12-15 12:03+0100\n"
+"POT-Creation-Date: 2018-12-29 15:57+0000\n"
+"PO-Revision-Date: 2019-01-10 11:35+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -41,7 +41,7 @@ msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2017\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2019\n"
 "Alex Puchades <alex94puchades@gmail.com>, 2015\n"
 "Nicolás Satragno <nsatragno@gnome.org>, 2013\n"
 "Benjamín Valero Espinosa <benjavalero@gmail.com>, 2011\n"
@@ -70,18 +70,19 @@ msgstr "Barra inferior que contiene acciones"
 #: C/button-menus.page:8 C/buttons.page:8 C/check-boxes.page:8
 #: C/compatibility.page:7 C/design-principles.page:7 C/dialogs.page:9
 #: C/display-compatibility.page:7 C/drop-down-lists.page:8
-#: C/empty-placeholders.page:10 C/grids.page:10 C/header-bar-menus.page:10
-#: C/header-bars.page:10 C/icons-and-artwork.page:7 C/index.page:8
-#: C/in-app-notifications.page:10 C/info-bars.page:10 C/keyboard-input.page:8
-#: C/lists.page:11 C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
+#: C/empty-placeholders.page:10 C/full-screen.page:9 C/grids.page:10
+#: C/header-bars.page:10 C/icon-design.page:7 C/icons-and-artwork.page:7
+#: C/index.page:8 C/in-app-notifications.page:10 C/info-bars.page:10
+#: C/initial-state-placeholders.page:10 C/keyboard-input.page:8 C/lists.page:11
+#: C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
 #: C/overlaid-controls.page:9 C/patterns.page:7
-#: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-windows.page:9
-#: C/progress-bars.page:8 C/progress-spinners.page:8 C/radio-buttons.page:8
-#: C/search.page:9 C/selection-mode.page:9 C/sidebar-lists.page:9
-#: C/sliders.page:8 C/spin-boxes.page:8 C/switches.page:8 C/tabs.page:8
-#: C/text-fields.page:8 C/toolbars.page:8 C/typography.page:7
-#: C/ui-elements.page:8 C/view-switchers.page:9 C/visual-layout.page:7
-#: C/writing-style.page:10
+#: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-menus.page:10
+#: C/primary-windows.page:9 C/progress-bars.page:8 C/progress-spinners.page:8
+#: C/radio-buttons.page:8 C/search.page:9 C/secondary-menus.page:10
+#: C/selection-mode.page:9 C/sidebar-lists.page:9 C/sliders.page:8
+#: C/spin-boxes.page:8 C/switches.page:8 C/tabs.page:8 C/text-fields.page:8
+#: C/toolbars.page:8 C/typography.page:7 C/ui-elements.page:8
+#: C/view-switchers.page:9 C/visual-layout.page:7 C/writing-style.page:10
 msgid "Allan Day"
 msgstr "Allan Day"
 
@@ -116,15 +117,16 @@ msgstr ""
 "contenido que se muestra arriba."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:22 C/application-menus.page:22 C/button-menus.page:25
-#: C/dialogs.page:36 C/empty-placeholders.page:23 C/grids.page:23
-#: C/header-bar-menus.page:27 C/header-bars.page:29
-#: C/in-app-notifications.page:23 C/info-bars.page:23 C/lists.page:24
+#: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
+#: C/dialogs.page:36 C/empty-placeholders.page:23 C/full-screen.page:22
+#: C/grids.page:23 C/header-bars.page:29 C/in-app-notifications.page:23
+#: C/info-bars.page:23 C/initial-state-placeholders.page:23 C/lists.page:24
 #: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
-#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-windows.page:22
-#: C/progress-bars.page:37 C/progress-spinners.page:25 C/search.page:22
+#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
+#: C/primary-windows.page:22 C/progress-bars.page:37
+#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
 #: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
-#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:37
+#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
 #: C/view-switchers.page:22
 msgid "When to use"
 msgstr "Cuándo usarlas"
@@ -156,9 +158,10 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/action-bars.page:31 C/check-boxes.page:37 C/empty-placeholders.page:34
-#: C/in-app-notifications.page:34 C/info-bars.page:34
-#: C/overlaid-controls.page:31 C/radio-buttons.page:37 C/sidebar-lists.page:43
-#: C/sliders.page:53 C/writing-style.page:42
+#: C/full-screen.page:31 C/in-app-notifications.page:34 C/info-bars.page:34
+#: C/initial-state-placeholders.page:32 C/overlaid-controls.page:31
+#: C/radio-buttons.page:37 C/sidebar-lists.page:43 C/sliders.page:53
+#: C/writing-style.page:42
 msgid "Guidelines"
 msgstr "Guías"
 
@@ -183,15 +186,15 @@ msgstr ""
 "\"buttons#suggested-and-destructive\">darles estilo apropiadamente</link>."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:41 C/application-menus.page:70 C/buttons.page:89
+#: C/action-bars.page:41 C/application-menus.page:72 C/buttons.page:89
 #: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
-#: C/header-bar-menus.page:48 C/header-bars.page:72 C/info-bars.page:46
-#: C/lists.page:148 C/menu-bars.page:106 C/menus.page:73
-#: C/notifications.page:105 C/popovers.page:64 C/primary-windows.page:85
-#: C/progress-bars.page:129 C/progress-spinners.page:51
-#: C/radio-buttons.page:53 C/search.page:72 C/sidebar-lists.page:54
+#: C/header-bars.page:72 C/info-bars.page:46 C/lists.page:148
+#: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
+#: C/popovers.page:64 C/primary-menus.page:45 C/primary-windows.page:85
+#: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
+#: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
 #: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
-#: C/text-fields.page:68 C/toolbars.page:60 C/view-switchers.page:46
+#: C/text-fields.page:68 C/toolbars.page:59 C/view-switchers.page:46
 msgid "API reference"
 msgstr "Referencia de la API"
 
@@ -217,15 +220,11 @@ msgstr "Conceptos básicos de aplicaciones"
 #. (itstool) path: page/p
 #: C/application-basics.page:16
 msgid ""
-"These Human Interface Guidelines are intended to help with the creation of "
-"applications. An understanding of what an application is will help you to "
-"distribute your software more effectively, as well as ensure effective and "
-"consistent system integration."
+"These Human Interface Guidelines provide design guidance on the creation of "
+"GNOME applications. Given this focus on applications, this page provides a "
+"definition of applications from a user experience perspective. It also "
+"provides guidance on basic application behavior and characteristics."
 msgstr ""
-"Estas guías de interfaz humana están destinadas a ayudar en la creación de "
-"aplicaciones. La comprensión de lo que es una aplicación le ayudará a "
-"distribuir su software de manera más eficaz, así como a garantizar la "
-"integración efectiva y coherente del sistema."
 
 #. (itstool) path: page/p
 #: C/application-basics.page:18
@@ -246,93 +245,88 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/application-basics.page:21
-msgid "Defining an application"
-msgstr "Definiendo una aplicación"
-
-#. (itstool) path: quote/p
-#: C/application-basics.page:23
-msgid ""
-"An application is a distinct and independent piece of software that "
-"incorporates useful functionality, and which can be installed on a user’s "
-"system."
-msgstr ""
-"Una aplicación es una pieza distinta e independiente de software que "
-"incorpora funcionalidad útil, y que se puede instalar en un sistema de "
-"usuario."
+#| msgid "Defining an application"
+msgid "What is an application?"
+msgstr "¿Qué es una aplicación?"
 
 #. (itstool) path: section/p
-#: C/application-basics.page:25
+#: C/application-basics.page:23
 msgid ""
-"This definition can be broken down into a set of characteristics, which "
-"describe an application in more detail. Applications:"
+"The following list of characteristics provides a basic definition of an "
+"application. An application is a distinct piece of software which:"
 msgstr ""
-"Esta definición se puede dividir en un conjunto de características que "
-"describen una aplicación a detalle. Aplicaciones:"
+"La siguiente lista de características proporciona una definición básica de "
+"una aplicación. Un aplicación es una pieza única de software que:"
 
 #. (itstool) path: item/p
-#: C/application-basics.page:28
+#: C/application-basics.page:26
 msgid "Can be individually installed and removed from the system."
 msgstr "Puede ser instalado y quitado individualmente del sistema."
 
 #. (itstool) path: item/p
+#: C/application-basics.page:27
+#| msgid "Do not affect or interfere with the behavior of other applications."
+msgid "Does not affect or interfere with the behavior of other applications."
+msgstr "No afecta ni interfiere con el comportamiento de otras aplicaciones."
+
+#. (itstool) path: item/p
+#: C/application-basics.page:28
+#| msgid "Do not rely on other applications in order to run."
+msgid "Does not rely on other applications in order to run."
+msgstr "No depende de otras aplicaciones para ejecutarse."
+
+#. (itstool) path: item/p
 #: C/application-basics.page:29
-msgid "Do not rely on other applications in order to run."
-msgstr "No confiar en otras aplicaciones para ejecutarse."
-
-#. (itstool) path: item/p
-#: C/application-basics.page:30
-msgid "Contain functionality of their own."
-msgstr "Contiene su propia funcionalidad."
-
-#. (itstool) path: item/p
-#: C/application-basics.page:31
+#| msgid ""
+#| "Provide at least one <link xref=\"primary-windows\">primary window</link>."
 msgid ""
-"Provide at least one <link xref=\"primary-windows\">primary window</link>."
+"Provides at least one <link xref=\"primary-windows\">primary window</link>."
 msgstr ""
 "Proporciona al menos una <link xref=\"primary-windows\">ventana principal</"
 "link>."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:32
-msgid "Do not affect or interfere with the behavior of other applications."
-msgstr "No afecta ni interfiere con el comportamiento de otras aplicaciones."
-
-#. (itstool) path: item/p
-#: C/application-basics.page:33
+#: C/application-basics.page:30
+#| msgid ""
+#| "Have a unique name and <link xref=\"icons-and-artwork#application-icons"
+#| "\">icon</link>."
 msgid ""
-"Have a unique name and <link xref=\"icons-and-artwork#application-icons"
+"Has a unique name and <link xref=\"icons-and-artwork#application-icons"
 "\">icon</link>."
 msgstr ""
 "Tiene un nombre e <link xref=\"icons-and-artwork#application-icons\">icono</"
 "link> únicos."
 
+#. (itstool) path: item/p
+#: C/application-basics.page:31
+#| msgid "application (launcher) icons"
+msgid "Has an application launcher."
+msgstr "Tiene un lanzador."
+
+#. (itstool) path: section/p
+#: C/application-basics.page:34
+msgid ""
+"A key theme in this definition is that applications are intended to be "
+"independent of other applications. This ensures flexibility, predictability, "
+"and simplicity of use."
+msgstr ""
+
 #. (itstool) path: section/p
 #: C/application-basics.page:36
 msgid ""
-"At the heart of this definition is a model that allows the modular "
-"installation and use of 3rd party software, in a way that avoids dependency "
-"issues and ensures simplicity of use."
+"Of course, there are other characteristics that are expected of "
+"applications, including standard window behavior, system integration, and "
+"application metadata. Guidance on these aspects of applications can be found "
+"elsewhere."
 msgstr ""
-"En el centro de esta definición esta el modelo que permite la instalación "
-"modular y el uso de software de terceras partes, de tal forma que evita "
-"problemas de dependencias y garantiza la simplicidad de su uso."
-
-#. (itstool) path: section/p
-#: C/application-basics.page:38
-msgid ""
-"In GNOME 3, only software that conforms to these characteristics should "
-"install an application launcher."
-msgstr ""
-"En GNOME 3, solamente el software que cumpla estas características debe "
-"instalar un lanzador de aplicaciones."
 
 #. (itstool) path: section/title
-#: C/application-basics.page:49
+#: C/application-basics.page:43
 msgid "Naming your application"
 msgstr "Nombrando su aplicación"
 
 #. (itstool) path: section/p
-#: C/application-basics.page:51
+#: C/application-basics.page:45
 msgid ""
 "An application’s name is vital. It is what users will be first exposed to, "
 "and will help them decide whether they want to use an application or not. It "
@@ -343,17 +337,17 @@ msgstr ""
 "Esta es una parte importante de la cara pública de su aplicación."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:53
+#: C/application-basics.page:47
 msgid "An application name plays a number of functions:"
 msgstr "El nombre una aplicación tiene varias funciones:"
 
 #. (itstool) path: item/p
-#: C/application-basics.page:56
+#: C/application-basics.page:50
 msgid "It must advertise your application to potential users."
 msgstr "Debe hacer publicidad de su aplicación hacia usuarios potenciales."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:57
+#: C/application-basics.page:51
 msgid ""
 "It should serve to reinforce a positive identity, and have expressive "
 "qualities."
@@ -362,16 +356,20 @@ msgstr ""
 "expresivas."
 
 #. (itstool) path: item/p
-#: C/application-basics.page:58
+#: C/application-basics.page:52
 msgid ""
 "It needs to identify your application in the systems where it is installed "
 "and run."
 msgstr "Debe identificar su aplicación en los sistemas donde se ha instalado."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:61
+#: C/application-basics.page:55
+#| msgid ""
+#| "Ensure that your application name is short - fewer than 15 characters. "
+#| "This will ensure that it is always displayed in full within a GNOME 3 "
+#| "environment."
 msgid ""
-"Ensure that your application name is short - fewer than 15 characters. This "
+"Ensure that your application name is short — fewer than 15 characters. This "
 "will ensure that it is always displayed in full within a GNOME 3 environment."
 msgstr ""
 "Asegúrese de que el nombre de su aplicación es corto (menos de 15 "
@@ -379,7 +377,7 @@ msgstr ""
 "entorno de GNOME 3."
 
 #. (itstool) path: section/p
-#: C/application-basics.page:63
+#: C/application-basics.page:57
 msgid ""
 "Additionally, choose an application name that is easy to understand and "
 "communicates your application’s functionality. Avoid references which will "
@@ -421,6 +419,15 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/application-menus.page:19
 msgid ""
+"<em>Application menus are no longer recommended, and will not be displayed "
+"in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus\">Primary</"
+"link> and <link xref=\"secondary-menus\">secondary menus</link> should be "
+"used as alternatives.</em>"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/application-menus.page:21
+msgid ""
 "Application menus provide access to global, top level actions and options "
 "for your application. These include standard items for accessing "
 "documentation and information about the application."
@@ -430,7 +437,7 @@ msgstr ""
 "estándar para acceder a documentación e información acerca de la aplicación."
 
 #. (itstool) path: section/p
-#: C/application-menus.page:24
+#: C/application-menus.page:26
 msgid ""
 "Application menus are a standard part of GNOME 3, and every application that "
 "runs under GNOME 3 should have one."
@@ -439,23 +446,23 @@ msgstr ""
 "aplicación que se ejecuta en GNOME 3, debe tener uno."
 
 #. (itstool) path: section/title
-#: C/application-menus.page:29 C/button-menus.page:47 C/dialogs.page:155
+#: C/application-menus.page:31 C/button-menus.page:47 C/dialogs.page:155
 #: C/display-compatibility.page:21 C/drop-down-lists.page:34 C/grids.page:32
 #: C/lists.page:133 C/menu-bars.page:93 C/menus.page:61
 #: C/pointer-and-touch-input.page:40 C/popovers.page:55
 #: C/primary-windows.page:70 C/progress-bars.page:117
-#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:46
-#: C/visual-layout.page:33
+#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
+#: C/visual-layout.page:35
 msgid "General guidelines"
 msgstr "Guías Generales"
 
 #. (itstool) path: item/p
-#: C/application-menus.page:32
+#: C/application-menus.page:34
 msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
 msgstr "Siga las <link xref=\"menus\">guías para menús</link> estándar."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:33
+#: C/application-menus.page:35
 msgid ""
 "Only include menu items that relate to the application as a whole, such as "
 "application preferences. Items that are specific to a particular window or "
@@ -468,7 +475,7 @@ msgstr ""
 "contenido dentro de una ventana de aplicación, no deberán incluirse."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:34
+#: C/application-menus.page:36
 msgid ""
 "If an item from the application menu is frequently used, consider moving it "
 "to a more accessible location."
@@ -477,12 +484,12 @@ msgstr ""
 "moverlo a una ubicación más accesible."
 
 #. (itstool) path: section/title
-#: C/application-menus.page:40
+#: C/application-menus.page:42
 msgid "Standard menu items"
 msgstr "Objetos estándar del menú"
 
 #. (itstool) path: section/p
-#: C/application-menus.page:42
+#: C/application-menus.page:44
 msgid ""
 "Common application menu items include <gui>New Window</gui>, "
 "<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
@@ -496,12 +503,12 @@ msgstr ""
 "menú."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:46
+#: C/application-menus.page:48
 msgid "<gui>New Window</gui>"
 msgstr "<gui>Ventana nueva</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:47
+#: C/application-menus.page:49
 msgid ""
 "Opens a new window. Only <link xref=\"primary-windows#application-types"
 "\">multiple instance applications</link> should include this menu item. If "
@@ -517,12 +524,12 @@ msgstr ""
 "gui> o <gui>Nuevo documento</gui>."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:50
+#: C/application-menus.page:52
 msgid "<gui>Preferences</gui>"
 msgstr "<gui>Preferencias</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:51
+#: C/application-menus.page:53
 msgid ""
 "Opens the application's preferences dialog. Only show this menu item if your "
 "application has a preferences dialog."
@@ -531,12 +538,12 @@ msgstr ""
 "menú sólo si su aplicación tiene un diálogo de preferencias."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:54 C/keyboard-input.page:286
+#: C/application-menus.page:56 C/keyboard-input.page:286
 msgid "<gui>Help</gui>"
 msgstr "<gui>Ayuda</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:55
+#: C/application-menus.page:57
 msgid ""
 "Opens your application's user documentation in the <app>Help</app> "
 "application. Only show this menu item if your application has user "
@@ -547,12 +554,12 @@ msgstr ""
 "documentación del usuario."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:58 C/keyboard-input.page:291
+#: C/application-menus.page:60 C/keyboard-input.page:291
 msgid "<gui>About</gui>"
 msgstr "<gui>Acerca de</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:59
+#: C/application-menus.page:61
 msgid ""
 "Opens the application's about dialog. Every application menu should include "
 "this item."
@@ -561,12 +568,12 @@ msgstr ""
 "aplicación debe incluir este elemento."
 
 #. (itstool) path: td/p
-#: C/application-menus.page:62 C/keyboard-input.page:296
+#: C/application-menus.page:64 C/keyboard-input.page:296
 msgid "<gui>Quit</gui>"
 msgstr "<gui>Salir</gui>"
 
 #. (itstool) path: td/p
-#: C/application-menus.page:63
+#: C/application-menus.page:65
 msgid ""
 "Closes the application, including all application windows. Every application "
 "menu should include this item."
@@ -575,7 +582,7 @@ msgstr ""
 "menú de aplicación deberá incluir este elemento."
 
 #. (itstool) path: item/p
-#: C/application-menus.page:72
+#: C/application-menus.page:74
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
 "\">GtkApplication</link>"
@@ -679,6 +686,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/button-menus.page:37
+#| msgid ""
+#| "Evaluate each function within a button menu, in order to decide whether "
+#| "it would be better served by a different <link xref=\"ui-elements\">user "
+#| "interface element</link>. While simple actions or settings can be "
+#| "effectively represented by menu items, others cannot. In particular, "
+#| "sliders, spin buttons, switches and text entries provide functionality "
+#| "that cannot be easily reproduced with a menu. Likewise, some entries "
+#| "might be better represented as icons rather than text - in which case, "
+#| "buttons could be more appropriate than a menu."
 msgid ""
 "Evaluate each function within a button menu, in order to decide whether it "
 "would be better served by a different <link xref=\"ui-elements\">user "
@@ -686,7 +702,7 @@ msgid ""
 "effectively represented by menu items, others cannot. In particular, "
 "sliders, spin buttons, switches and text entries provide functionality that "
 "cannot be easily reproduced with a menu. Likewise, some entries might be "
-"better represented as icons rather than text - in which case, buttons could "
+"better represented as icons rather than text — in which case, buttons could "
 "be more appropriate than a menu."
 msgstr ""
 "Evalúe cada función con un menú de botón para decidir si sería mejor usar un "
@@ -747,8 +763,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/button-menus.page:50
+#| msgid ""
+#| "Each context - whether it is a view or delineated area of your interface "
+#| "- should only include one generic button menu."
 msgid ""
-"Each context - whether it is a view or delineated area of your interface - "
+"Each context — whether it is a view or delineated area of your interface — "
 "should only include one generic button menu."
 msgstr ""
 "Cada contexto (si es una vista o un área delineada de tu interfaz) deberá "
@@ -797,8 +816,8 @@ msgstr ""
 #: C/buttons.page:12 C/check-boxes.page:12 C/dialogs.page:13
 #: C/keyboard-input.page:12 C/menu-bars.page:12 C/menus.page:12
 #: C/progress-bars.page:12 C/radio-buttons.page:12 C/sliders.page:12
-#: C/spin-boxes.page:12 C/tabs.page:12 C/text-fields.page:12
-#: C/toolbars.page:12 C/visual-layout.page:11 C/writing-style.page:14
+#: C/spin-boxes.page:12 C/tabs.page:12 C/text-fields.page:12 C/toolbars.page:12
+#: C/visual-layout.page:11 C/writing-style.page:14
 msgid "Calum Benson"
 msgstr "Calum Benson"
 
@@ -806,8 +825,8 @@ msgstr "Calum Benson"
 #: C/buttons.page:15 C/check-boxes.page:15 C/dialogs.page:16
 #: C/keyboard-input.page:15 C/menu-bars.page:15 C/menus.page:15
 #: C/progress-bars.page:15 C/radio-buttons.page:15 C/sliders.page:15
-#: C/spin-boxes.page:15 C/tabs.page:15 C/text-fields.page:15
-#: C/toolbars.page:15 C/visual-layout.page:14 C/writing-style.page:17
+#: C/spin-boxes.page:15 C/tabs.page:15 C/text-fields.page:15 C/toolbars.page:15
+#: C/visual-layout.page:14 C/writing-style.page:17
 msgid "Adam Elman"
 msgstr "Adam Elman"
 
@@ -815,8 +834,8 @@ msgstr "Adam Elman"
 #: C/buttons.page:18 C/check-boxes.page:18 C/dialogs.page:19
 #: C/keyboard-input.page:18 C/menu-bars.page:18 C/menus.page:18
 #: C/progress-bars.page:18 C/radio-buttons.page:18 C/sliders.page:18
-#: C/spin-boxes.page:18 C/tabs.page:18 C/text-fields.page:18
-#: C/toolbars.page:18 C/visual-layout.page:17 C/writing-style.page:20
+#: C/spin-boxes.page:18 C/tabs.page:18 C/text-fields.page:18 C/toolbars.page:18
+#: C/visual-layout.page:17 C/writing-style.page:20
 msgid "Seth Nickell"
 msgstr "Seth Nickell"
 
@@ -824,8 +843,8 @@ msgstr "Seth Nickell"
 #: C/buttons.page:21 C/check-boxes.page:21 C/dialogs.page:22
 #: C/keyboard-input.page:21 C/menu-bars.page:21 C/menus.page:21
 #: C/progress-bars.page:21 C/radio-buttons.page:21 C/sliders.page:21
-#: C/spin-boxes.page:21 C/tabs.page:21 C/text-fields.page:21
-#: C/toolbars.page:21 C/visual-layout.page:20 C/writing-style.page:23
+#: C/spin-boxes.page:21 C/tabs.page:21 C/text-fields.page:21 C/toolbars.page:21
+#: C/visual-layout.page:20 C/writing-style.page:23
 msgid "Colin Robertson"
 msgstr "Colin Robertson"
 
@@ -867,8 +886,11 @@ msgstr "Guías generales"
 
 #. (itstool) path: item/p
 #: C/buttons.page:40
+#| msgid ""
+#| "A button can contain an icon, button, or - more unusually - an image. "
+#| "Follow the icons and artwork guidelines when deciding which to use."
 msgid ""
-"A button can contain an icon, button, or - more unusually - an image. Follow "
+"A button can contain an icon, button, or — more unusually — an image. Follow "
 "the icons and artwork guidelines when deciding which to use."
 msgstr ""
 "Un botón puede contener un icono, un botón o - de forma menos frecuente - "
@@ -1294,26 +1316,20 @@ msgstr "Compatibilidad con otras plataformas"
 #. (itstool) path: section/p
 #: C/compatibility.page:21
 msgid ""
-"The HIG provides cross-platform for those design patterns and UI elements "
-"that require special treatment in cross-platform cases. Otherwise, all the "
-"design patterns provided in these guidelines can be used in a cross-platform "
-"manner."
+"Generally speaking, the design patterns found in the HIG can be used on any "
+"desktop platform. Most of the conventions, like menus and menu buttons, "
+"views and view switchers, and popovers, are common and will be generally "
+"understood."
 msgstr ""
-"Las GIH proporcionan soporte multiplataforma para patrones de diseño y "
-"elementos de la IU que requieren un tratamiento especial en casos "
-"multiplataforma. De otro modo, todos los patrones de diseño proporcionados "
-"en esta guía se pueden usar de manera multiplataforma."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:23
 msgid ""
-"Since some platforms provide system-level integration for <link xref=\"menu-"
-"bars\">menu bars</link>, this pattern is of special relevance for cross-"
-"platform applications."
+"The primary example of a design pattern that varies across desktop platforms "
+"is the <link xref=\"menu-bars\">menu bar</link>, which takes different forms "
+"on different platforms. See the design page on this for more guidance on "
+"cross-platform considerations."
 msgstr ""
-"Dado que algunas plataformas proporcionan una integración a nivel del "
-"sistema de las <link xref=\"menu-bars\">barras de menú</link>, este patrón "
-"es de especial relevancia para las aplicaciones multiplataforma."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
@@ -1322,12 +1338,19 @@ msgstr "Compatibilidad con GNOME 2"
 
 #. (itstool) path: section/p
 #: C/compatibility.page:30
+#| msgid ""
+#| "These Human Interface Guidelines are an evolution of the GNOME 2 HIG, and "
+#| "represent an improvement on the previous version. Applications that "
+#| "follow the new version of the HIG will use space more efficiently, will "
+#| "provide a more focused user experience, and will use modern "
+#| "interpretations of key functionality, such as search, online integration, "
+#| "or notifications."
 msgid ""
-"These Human Interface Guidelines are an evolution of the GNOME 2 HIG, and "
-"represent an improvement on the previous version. Applications that follow "
-"the new version of the HIG will use space more efficiently, will provide a "
-"more focused user experience, and will use modern interpretations of key "
-"functionality, such as search, online integration, or notifications."
+"These Human Interface Guidelines are an evolution of the GNOME 2 HIG. "
+"Applications that follow the new version of the HIG will use space more "
+"efficiently, will provide a more focused user experience, and will use "
+"modern interpretations of key functionality, such as search, online "
+"integration, or notifications."
 msgstr ""
 "Estas guías de interfaz humana son una evolución de las GIU de GNOME 2, y "
 "representan una mejora respecto a la versión anterior. Las aplicaciones que "
@@ -1470,10 +1493,17 @@ msgstr "Mantenga la complejidad de la interfaz de usuario al mínimo"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:30
+#, fuzzy
+#| msgid ""
+#| "Every control or piece of information that you add to your application "
+#| "creates additional work for users, and increases the complexity of your "
+#| "application - potentially making it more difficult and less pleasurable "
+#| "to use. Therefore, only include essential controls and information in "
+#| "your application interface."
 msgid ""
 "Every control or piece of information that you add to your application "
 "creates additional work for users, and increases the complexity of your "
-"application - potentially making it more difficult and less pleasurable to "
+"application — potentially making it more difficult and less pleasurable to "
 "use. Therefore, only include essential controls and information in your "
 "application interface."
 msgstr ""
@@ -1752,10 +1782,17 @@ msgstr "Use de emoción y humor (con moderación)"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:116
+#, fuzzy
+#| msgid ""
+#| "Used effectively, emotion and humor can lift the experience provided by "
+#| "your application, and help to develop a positive relationship with your "
+#| "users. Be careful not to over-use these techniques, though - it is far "
+#| "more effective to pick a small number of moments to use emotion, rather "
+#| "than spraying them throughout your user interface."
 msgid ""
 "Used effectively, emotion and humor can lift the experience provided by your "
 "application, and help to develop a positive relationship with your users. Be "
-"careful not to over-use these techniques, though - it is far more effective "
+"careful not to over-use these techniques, though — it is far more effective "
 "to pick a small number of moments to use emotion, rather than spraying them "
 "throughout your user interface."
 msgstr ""
@@ -1905,8 +1942,14 @@ msgstr "Ejemplos"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:62
+#, fuzzy
+#| msgid ""
+#| "Confirmation dialogs use a message dialog to check - or confirm - that "
+#| "the user wants to carry out an action. They have two buttons: one to "
+#| "confirm that the action should be carried out and one to cancel the "
+#| "action."
 msgid ""
-"Confirmation dialogs use a message dialog to check - or confirm - that the "
+"Confirmation dialogs use a message dialog to check — or confirm — that the "
 "user wants to carry out an action. They have two buttons: one to confirm "
 "that the action should be carried out and one to cancel the action."
 msgstr ""
@@ -1967,10 +2010,16 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/dialogs.page:78
+#, fuzzy
+#| msgid ""
+#| "Action dialogs present options and information about a specific action "
+#| "before it is carried out. They have a heading (which typically describes "
+#| "the action) and two primary buttons - one which allows the action to be "
+#| "carried out and one which cancels it."
 msgid ""
 "Action dialogs present options and information about a specific action "
 "before it is carried out. They have a heading (which typically describes the "
-"action) and two primary buttons - one which allows the action to be carried "
+"action) and two primary buttons — one which allows the action to be carried "
 "out and one which cancels it."
 msgstr ""
 "Los diálogos de acción presentan opciones e información sobre una acción "
@@ -2367,9 +2416,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:27
+#, fuzzy
+#| msgid ""
+#| "Test to make sure that your interface works well on large displays. Where "
+#| "possible, scale content to make the best use of available space, or used "
+#| "fixed width layouts to ensure that interface elements maintain effective "
+#| "grouping and alignment."
 msgid ""
 "Test to make sure that your interface works well on large displays. Where "
-"possible, scale content to make the best use of available space, or used "
+"possible, scale content to make the best use of available space, or use "
 "fixed width layouts to ensure that interface elements maintain effective "
 "grouping and alignment."
 msgstr ""
@@ -2670,7 +2725,7 @@ msgstr ""
 "\">una experiencia más rica y característica</link>."
 
 #. (itstool) path: item/p
-#: C/empty-placeholders.page:37
+#: C/empty-placeholders.page:37 C/initial-state-placeholders.page:35
 msgid ""
 "Follow the standard layout for the size and placement of the image and "
 "labels, so that your application is consistent with other GNOME 3 "
@@ -2707,7 +2762,7 @@ msgstr ""
 "adicional útil que proporcionar."
 
 #. (itstool) path: item/p
-#: C/empty-placeholders.page:40
+#: C/empty-placeholders.page:40 C/initial-state-placeholders.page:38
 msgid ""
 "If there are controls that allow items to be added, it can be appropriate to "
 "highlight them using a <link xref=\"buttons#suggested-and-destructive"
@@ -2716,6 +2771,152 @@ msgstr ""
 "Si hay controles que permiten añadir elementos, puede resultar apropiado "
 "resaltarlos usando un <link xref=\"buttons#suggested-and-destructive"
 "\">estilo sugerido</link> cuando la lista o la rejilla están vacías."
+
+#. (itstool) path: info/desc
+#: C/full-screen.page:7
+msgid "Mode in which a window fills the entire screen"
+msgstr "Modo en el que la ventana ocupa toda la pantalla"
+
+#. (itstool) path: page/title
+#: C/full-screen.page:15
+#| msgid "Full screen mode"
+msgid "Fullscreen"
+msgstr "Pantalla completa"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/full-screen.page:17
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/application-menu.svg' "
+#| "md5='8bea5133bb3717c30f4719c98cf38180'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/fullscreen.svg' "
+"md5='a115aeb24e72788d75c1ecb90f88da79'"
+msgstr ""
+"external ref='figures/patterns/fullscreen.svg' "
+"md5='a115aeb24e72788d75c1ecb90f88da79'"
+
+#. (itstool) path: page/p
+#: C/full-screen.page:19
+msgid ""
+"Fullscreen is a mode in which a window fills the entire screen. When "
+"fullscreen is active, controls are typically hidden in order to provide an "
+"immersive content view."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/full-screen.page:24
+msgid ""
+"It is appropriate to offer fullscreen when users are likely to want to have "
+"an unobstructed view of content, particularly if they are likely to view "
+"content items for long periods of time. The classic example of fullscreen is "
+"for watching videos, where visible controls would be distracting and result "
+"in less screen space for the content. However, fullscreen can be used for "
+"other types of content including documents or images."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/full-screen.page:26
+msgid ""
+"Fullscreen is typically used in viewing situations. However, in some cases "
+"it can be useful for editing tasks. Fullscreen is also typical for many "
+"games (how games should use fullscreen is not covered in this page)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:34
+msgid ""
+"If an application uses different views, it is only necessary to enable "
+"fullscreen for those views where it is useful — primarily those that display "
+"content items."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:35
+msgid ""
+"Fullscreen can be triggered automatically when a content item is opened, or "
+"can be offered as a mode that can be activated by the user."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:36
+msgid ""
+"If fullscreen is being offered as a mode that users activate, judge how "
+"prominent to make the control to enter fullscreen according to how often it "
+"will be used. Typically, a fullscreen button should be placed in the <link "
+"xref=\"header-bars\">header bar</link> or <link xref=\"header-bar-menus"
+"\">header bar menu</link>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:37
+msgid "When fullscreen is active:"
+msgstr "Cuando la pantalla completa está activa"
+
+#. (itstool) path: item/p
+#: C/full-screen.page:39
+#, fuzzy
+#| msgid ""
+#| "Overlaid controls can be attached to the edge of the content/window, or "
+#| "can be free-floating. <link xref=\"action-bars\">Action bars</link> can "
+#| "be treated as overlaid controls."
+msgid ""
+"All controls should be hidden, including the window's header bar, <link xref="
+"\"action-bars\">action bars</link> or <link xref=\"overlaid-controls"
+"\">overlaid controls</link>."
+msgstr ""
+"Los controles superpuestos se pueden acoplar al borde inferior del contenido/"
+"ventana, o pueden flotar libremente. Las <link xref=\"action-bars\">barras "
+"de acción</link> se pueden tratar como controles superpuestos."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:40
+#, fuzzy
+#| msgid ""
+#| "Controls should be displayed when the pointer is moved over the content, "
+#| "or when it is tapped (on touch devices)."
+msgid ""
+"Controls, including the header bar, should be revealed when the pointer is "
+"moved or the screen is tapped."
+msgstr ""
+"Los controles se deben mostrar cuando se mueva el puntero sobre el "
+"contenido, o cuando se pulse (en dispositivos táctiles)."
+
+#. (itstool) path: item/p
+#: C/full-screen.page:41
+msgid ""
+"The window close button should be replaced with a view restore button, which "
+"disables fullscreen mode."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:42
+msgid ""
+"Any controls that don't fit into fullscreen should be hidden or replaced. "
+"This includes any navigation controls that would simultaneously exit "
+"fullscreen, such as back buttons."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:43
+msgid ""
+"Make an effort not to allow controls or UI to obstruct content. For example, "
+"dialog windows that overlap content will be distracting and will detract "
+"from the immersive nature of fullscreen."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/full-screen.page:46
+msgid ""
+"The Videos application is a good example of how fullscreen should behave."
+msgstr ""
+"La aplicación Vídeos es un buen ejemplo de cómo debe comportarse el modo a "
+"pantalla completa."
 
 #. (itstool) path: info/desc
 #: C/grids.page:8
@@ -2833,158 +3034,6 @@ msgstr ""
 "\">GtkIconView</link>"
 
 #. (itstool) path: info/desc
-#: C/header-bar-menus.page:8
-msgid "Common menus shown on the right side of a header bar"
-msgstr "Menús comunes mostrados en el lateral derecho de una barra de cabecera"
-
-#. (itstool) path: page/title
-#: C/header-bar-menus.page:16
-msgid "Header bar menus"
-msgstr "Menús de la barra de encabezado"
-
-#. (itstool) path: page/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/header-bar-menus.page:18
-msgctxt "_"
-msgid ""
-"external ref='figures/patterns/header-bar-menu.svg' "
-"md5='0e781cf34a40d6c5928bd4564514dc65'"
-msgstr ""
-"external ref='figures/patterns/header-bar-menu.svg' "
-"md5='0e781cf34a40d6c5928bd4564514dc65'"
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:20
-msgid ""
-"<link xref=\"header-bars\">Header bars</link> can include a menu which "
-"contains actions and options for the current view. These menus are located "
-"at the far right side of the header bar."
-msgstr ""
-"Las <link xref=\"header-bars\">barras de encabezado</link> pueden incluir un "
-"menú que contiene acciones y opciones para la vista actual. Estos menús se "
-"encuentran en el extremo derecho de la barra de encabezado."
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:22
-msgid ""
-"While the most frequently used actions for a view should be placed directly "
-"in the header bar, a header bar menu provides access to lesser-used actions. "
-"This ensures that the header bar isn’t overwhelmed with less interesting or "
-"useful controls."
-msgstr ""
-"Mientras que las acciones usadas con mayor frecuencia para una vista se "
-"deben colocar directamente en la barra de cabecera, un menú de la barra de "
-"cabecera proporciona acceso a acciones menos utilizadas. Esto asegura que la "
-"barra de cabecera no este saturada con controles menos interesantes o menos "
-"útiles."
-
-#. (itstool) path: page/p
-#: C/header-bar-menus.page:24
-msgid ""
-"In this way, the header bar menus help to create focused views that guide "
-"the user towards the most interesting and useful functionality."
-msgstr ""
-"De esta forma, los menús de la barra de encabezado ayudan a crear vistas "
-"enfocadas que guiarán al usuario hacia una funcionalidad más interesante y "
-"útil."
-
-#. (itstool) path: section/p
-#: C/header-bar-menus.page:29
-msgid ""
-"Use a header bar menu to present additional actions or options for the "
-"current view. They are best used when those actions or options are not used "
-"the majority of the time - if there is a set of actions which deserve more "
-"prominence in the view, an <link xref=\"action-bars\">action bar</link> "
-"might be a better choice."
-msgstr ""
-"Use un menú de la barra de cabecera para presentar acciones u opciones "
-"adicionales para la vista actual. Estos se usan más cuando no se utilizan "
-"estas acciones u opciones la mayoría del tiempo (si hay un conjunto de "
-"acciones que merecen mayor importancia en la vista), una <link xref=\"action-"
-"bars\">barra de acción</link> podría ser una mejor opción."
-
-#. (itstool) path: section/p
-#: C/header-bar-menus.page:31
-msgid ""
-"Header bar menus are not a good choice for performing actions on selected "
-"content: when content hasn’t been selected, the menu will contain unhelpful "
-"insensitive menu items, and when content has been selected, possible actions "
-"will not be advertised. <link xref=\"selection-mode\">Selection mode</link> "
-"or <link xref=\"popovers\">popovers</link> are a better choice for this "
-"situation."
-msgstr ""
-"Los menús de la barra de cabecera no son una buena opción para ejecutar "
-"acciones sobre un contenido seleccionado: cuando el contenido no se ha "
-"seleccionado, el menú contendrá elementos de menú insensibles inútiles, y "
-"cuando el contenido se ha seleccionado, no se anuncian las posibles "
-"acciones. El <link xref=\"selection-mode\">Modo de selección</link> o las "
-"<link xref=\"popovers\">ventanas emergentes</link> son una mejor opción para "
-"esta situación."
-
-#. (itstool) path: section/title
-#: C/header-bar-menus.page:36
-msgid "Guidance"
-msgstr "Dirección"
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:39
-msgid ""
-"Header bar menus should only contain actions for the current view or window "
-"- this differentiates their content from application menus."
-msgstr ""
-"Los menús de la barra de cabecera sólo deben contener acciones para la vista "
-"o ventana actual (esto diferencia su contenido de los menús de aplicación)."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:40
-msgid "Follow the <link xref=\"menus\">standard guidelines for menus</link>."
-msgstr "Sigua las <link xref=\"menus\">directrices estándar para menús</link>."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:41
-msgid ""
-"A header bar menu is contained within a <link xref=\"popovers\">popover</"
-"link>. As such, a header bar menu can include a variety of controls, such as "
-"groups of buttons."
-msgstr ""
-"Un menú de la barra de cabecera está dentro de una <link xref=\"popovers"
-"\">ventana emergente</link>. Como tal, un menú de la barra de cabecera puede "
-"incluir una variedad de controles, como un grupo de botones."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:42
-msgid ""
-"Header bar menus shouldn’t include a close menu item, since this action is "
-"already provided by the header bar. It can also be ambiguous as to what a "
-"close menu item refers to."
-msgstr ""
-"Un menú de la barra de cabecera no debe incluir un elemento de menú Cerrar "
-"menú, ya que esta acción ya esta incluida en la barra de cabecera. Esto "
-"también puede ser ambiguo en cuanto a lo que un elemento de menú Cerrar se "
-"refiere."
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:51 C/menus.page:78
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
-"\">GtkMenuButton</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
-"\">GtkMenuButton</link>"
-
-#. (itstool) path: item/p
-#: C/header-bar-menus.page:52 C/menus.page:83 C/popovers.page:68
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
-"\">GtkPopoverMenu</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
-"\">GtkPopoverMenu</link>"
-
-#. (itstool) path: info/desc
 #: C/header-bars.page:8
 msgid "Element that runs along the top of windows"
 msgstr "Elementos que se ejecutan en la parte superior de las ventanas"
@@ -3019,8 +3068,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:23
+#| msgid ""
+#| "Window controls - header bars allow windows to be moved by dragging, "
+#| "include window control buttons (typically a single close button), and "
+#| "provide access to a window controls menu."
 msgid ""
-"Window controls - header bars allow windows to be moved by dragging, include "
+"Window controls — header bars allow windows to be moved by dragging, include "
 "window control buttons (typically a single close button), and provide access "
 "to a window controls menu."
 msgstr ""
@@ -3031,8 +3084,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:24
+#| msgid ""
+#| "Headings - a key role of a header bar is to provide context for the "
+#| "content of the window, either through a heading or view switcher."
 msgid ""
-"Headings - a key role of a header bar is to provide context for the content "
+"Headings — a key role of a header bar is to provide context for the content "
 "of the window, either through a heading or view switcher."
 msgstr ""
 "Encabezado: un papel clave de una barra de cabecera es proporcionar un "
@@ -3041,8 +3097,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:25
+#| msgid ""
+#| "Controls - header bars provide a place for key controls, typically in the "
+#| "form of buttons."
 msgid ""
-"Controls - header bars provide a place for key controls, typically in the "
+"Controls — header bars provide a place for key controls, typically in the "
 "form of buttons."
 msgstr ""
 "Controles: las barras de cabecera proveen un lugar para los controles clave, "
@@ -3096,8 +3155,13 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/header-bars.page:42
+#| msgid ""
+#| "Ensure that your header bar only contains a small number of key controls "
+#| "- this will help users to understand the primary functionality provided "
+#| "by the window, and will ensure that the window can be resized to narrow "
+#| "widths."
 msgid ""
-"Ensure that your header bar only contains a small number of key controls - "
+"Ensure that your header bar only contains a small number of key controls — "
 "this will help users to understand the primary functionality provided by the "
 "window, and will ensure that the window can be resized to narrow widths."
 msgstr ""
@@ -3124,8 +3188,12 @@ msgstr "Las barras de cabecera son dinámicas"
 
 #. (itstool) path: section/p
 #: C/header-bars.page:51
+#| msgid ""
+#| "A header bar can - and should - update along with view or mode changes. "
+#| "This ensures that header bar controls are always relevant to the current "
+#| "context."
 msgid ""
-"A header bar can - and should - update along with view or mode changes. This "
+"A header bar can — and should — update along with view or mode changes. This "
 "ensures that header bar controls are always relevant to the current context."
 msgstr ""
 "Una barra de cabecera puede (y debe) actualizarse de acuerdo a los cambios "
@@ -3177,10 +3245,14 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:64
+#| msgid ""
+#| "Arrange controls within the header bar according to the three alignment "
+#| "points described in the <link xref=\"visual-layout\">visual layout "
+#| "guidelines</link> - left, center and right."
 msgid ""
 "Arrange controls within the header bar according to the three alignment "
 "points described in the <link xref=\"visual-layout\">visual layout "
-"guidelines</link> - left, center and right."
+"guidelines</link> — left, center and right."
 msgstr ""
 "Ordene los controles en la barra de cabecera siguiendo los tres puntos de "
 "alineación descritos en la <link xref=\"visual-layout\">guía de distribución "
@@ -3215,316 +3287,472 @@ msgstr ""
 "\">GtkHeaderBar</link>"
 
 #. (itstool) path: credit/name
-#: C/icons-and-artwork.page:11 C/pointer-and-touch-input.page:11
+#: C/icon-design.page:11 C/icons-and-artwork.page:11
+#: C/pointer-and-touch-input.page:11
 msgid "Jakub Steiner"
 msgstr "Jakub Steiner"
 
 #. (itstool) path: info/desc
-#: C/icons-and-artwork.page:14
+#: C/icon-design.page:14 C/icons-and-artwork.page:14
 msgid "Selecting and creating icons."
 msgstr "Seleccionar y crear iconos."
 
 #. (itstool) path: page/title
-#: C/icons-and-artwork.page:17
-msgid "Icons and artwork"
-msgstr "Iconos y diseño"
+#: C/icon-design.page:17
+#| msgid "Application icons"
+msgid "Creating icons"
+msgstr "Crear iconos"
 
 #. (itstool) path: page/p
-#: C/icons-and-artwork.page:19
+#: C/icon-design.page:19
 msgid ""
-"Icons play an important role in user interfaces: selecting the correct icon "
-"is therefore vital to making sure that your application is usable. An "
-"identifying icon is also an essential part of any application, and is a "
-"crucial part of its identity."
+"This page provides guidelines for those creating their own icons, including "
+"both full-color icons (typically used for application icons) and symbolic "
+"icons (typically used for user interface controls). For a more general "
+"overview of icon styles and usage, including the stock icons that are "
+"available, see <link xref=\"icons-and-artwork\">icons and artwork</link>."
 msgstr ""
-"Los iconos juegan un papel importante en las interfaces de usuario: "
-"seleccionar el icono correcto es, por lo tanto, vital para asegurarse de que "
-"su aplicación es usable. Un icono identificativo es una parte esencial de "
-"cualquier aplicación, y es una parte crucial de su identidad."
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:22
-msgid "Using icons in your user interface"
-msgstr "Usar iconos en su interfaz"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:24
-msgid ""
-"There are many situations when it is necessary to decide between using an "
-"icon and a text label, particularly for buttons. Icons have the advantage of "
-"being smaller, and not requiring translation. At the same time, the "
-"incorrect use of an icon can make your interface hard - or even impossible - "
-"to understand."
-msgstr ""
-"Hay muchas situaciones en las que es necesario elegir entre usar un icono y "
-"usar una etiqueta de texto, particularmente en los botones. Los iconos "
-"tienen la ventaja de ser más pequeños y no requieren traducción. Al mismo "
-"tiempo, el uso incorrecto de un icono puede hacer que interfaz sea difícil "
-"(o imposible) de entender."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:27
-msgid ""
-"Only use icons whose meaning is commonly recognized. If a commonly "
-"recognized icon is not available, it might be better to use a text label "
-"instead."
-msgstr ""
-"Use sólo iconos cuyo significado es comúnmente reconocido. Si no hay "
-"disponibles un icono reconocido habitualmente, es preferible usar una "
-"etiqueta de texto en su lugar."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:29
-msgid ""
-"Convention establishes which icons will be recognized. If you are in doubt, "
-"stick to icons which are frequently used in other applications."
-msgstr ""
-"El convenio establece qué iconos se reconocerán. Si tiene dudas, elija "
-"iconos que se usen frecuentemente en otras aplicaciones."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:30
-msgid ""
-"Consider which icons will be meaningful in the specific context of your "
-"application - users of specialist tools will often be familiar with domain-"
-"specific symbols."
-msgstr ""
-"Considere qué iconos serán significativos en el contexto específico de su "
-"aplicación; los usuarios de herramientas específicas estarán a menudo "
-"familiarizados con símbolos específicos de ese área."
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:32
-msgid ""
-"Remember that some icons are only meaningful alongside other icons of the "
-"same type. For example, a media icon for stop is simply a square, and may "
-"not be identified as a stop icon without other media controls (like play, "
-"pause, or skip) being visible close by. Likewise, the icon to remove an item "
-"from a list is a subtract symbol (ie. a single line), and will not be "
-"recognizable without a corresponding “plus” add icon."
-msgstr ""
-"Recuerde que algunos iconos sólo tienen sentido cuando están junto a otros "
-"del mismo tipo. Por ejemplo, un icono multimedia para detener es simplemente "
-"un cuadrado, y puede no identificarse como un icono de detener sin otros "
-"controles multimedia (como reproducir, pausar u omitir) visibles cercanos a "
-"él. Del mismo modo, el icono de eliminar un elemento de una lista como un "
-"signo menos (una única línea) no se reconocerá sin el correspondiente icono "
-"«+» de añadir."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:38
-msgid "Choosing stock GNOME icons"
-msgstr "Elegir iconos del almacén de GNOME"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:40
-msgid ""
-"GNOME provides a full set of standard icons. These should be used where ever "
-"appropriate; try to avoid creating custom icons unless they are absolutely "
-"necessary."
-msgstr ""
-"GNOME proporciona un conjunto completo de iconos estándar. Estos se deben "
-"usar donde sea apropiado; intente evitar crear iconos personalizados a menos "
-"que sea absolutamente necesario."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:42
-msgid ""
-"Follow the icon naming specification when selecting which icons to use - the "
-"name of the icon should reflect what the icon is intended to communicate. "
-"This is important for those using a screen reader."
-msgstr ""
-"Siga la especificación de nombrado de iconos al selecciona qué iconos usar; "
-"el nombre del icono debe reflejar lo que el icono pretende comunicar. Esto "
-"es importante para aquellas personas que usan un lector de pantalla."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:44
-msgid "You can use the GTK+ icon browser to find recommended icons."
-msgstr ""
-"Puede usar el icono del navegador GTK+ para encontrar iconos recomendados."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:47
-msgid "Color vs. symbolic icons"
-msgstr "Iconos de color frente a iconos simbólicos"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:49
-msgid ""
-"GNOME 3 provides two types of icon: full-color and monochrome symbolic "
-"icons. The guidelines in this HIG indicate when to use which type of icon. "
-"The following is a a general guide."
-msgstr ""
-"GNOME 3 proporciona dos tipos de iconos: a todo color y simbólicos "
-"monocromo. Los consejos de esta guía indican cuando usar cada tipo de icono. "
-"Lo siguiente es una guía general."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:51
-msgid "Full-color icons should be used for:"
-msgstr "Los iconos a todo color se deben usar para:"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:54
-msgid "devices"
-msgstr "dispositivos"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:55
-msgid "filetypes/mimetypes"
-msgstr "tipos de archivo/tipos MIME"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:56
-msgid "application (launcher) icons"
-msgstr "Iconos de aplicación (lanzador)"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:59
-msgid ""
-"All other icons should use the symbolic icon style. In addition, symbolic "
-"icons should always be used inside:"
-msgstr ""
-"Todos los demás iconos deben usar el estilo de icono simbólico. Además, los "
-"iconos simbólicos se deben usar siempre en:"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:62
-msgid "buttons"
-msgstr "botones"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:63
-msgid "lists"
-msgstr "listas"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:64
-msgid "entry fields"
-msgstr "campos de entrada"
-
-#. (itstool) path: item/p
-#: C/icons-and-artwork.page:65
-msgid ""
-"when the background is semi-transparent (such as overlaid media or "
-"fullscreen controls)"
-msgstr ""
-"cuando el fondo sea semi-transparente (como en medios superpuestos o "
-"controles a pantalla completa)"
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:73
-msgid "Application icons"
-msgstr "Iconos de aplicación"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:75
-msgid ""
-"Every application should have a unique and beautiful application icon. It is "
-"the face of the application, and the first visual element a user sees when "
-"browsing for new applications. The <link xref=\"application-basics"
-"\">application basics page</link> includes details on what an application "
-"is, and when to provide an application icon."
-msgstr ""
-"Cada aplicación debe tener un icono de aplicación único y bonito. Es la cara "
-"de la aplicación y el primer elemento visual que un usuario ve al buscar "
-"aplicaciones nuevas. La <link xref=\"application-basics\">página de "
-"conceptos básicos de aplicaciones</link> incluye detalles sobre qué es una "
-"aplicación y cuándo proporcionar un icono de aplicación."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:77
-msgid ""
-"Because application icons are presented at larger sizes, legacy Tango styled "
-"48x48 px or SVG icons no longer suffice (lacking detail). It is essential "
-"your application has a 256x256 px icon. With the advent of high-DPI "
-"displays, a 512x512 px variant is recommended."
-msgstr ""
-"Dado que los iconos de aplicación se muestran en tamaños más grandes, los "
-"iconos heredados de Tango de 48x48px o los SVG no son suficientes (faltan "
-"detalles). Es esencial que su aplicación tenga un icono de 256x256px. Con la "
-"llegada de las pantallas de alta definición, se recomienda una variante de "
-"512x512px."
+#: C/icon-design.page:22
+#| msgid "Custom full-color icons"
+msgid "Full-color icons"
+msgstr "Iconos a todo color"
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:79
+#: C/icon-design.page:24
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/inverting.svg' "
+#| "md5='e4155d9e87e2abe95e70c42185686b5e'"
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
+"external ref='figures/icons/shading.svg' "
+"md5='c874c34720095414463a12d2a8e44f40'"
 msgstr ""
-"external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
+"external ref='figures/icons/shading.svg' "
+"md5='c874c34720095414463a12d2a8e44f40'"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:81
+#: C/icon-design.page:26
 msgid ""
-"While not as critical, there are still areas where application icons are "
-"presented at a small size. To keep the icon sharp and well defined, a "
-"specific rendering is required to sizes of 48x48 px, 32x32 px, 24x24 px and "
-"16x16 px. Many GNOME icons also ship a 22x22 px size for legacy reasons, but "
-"that isn’t required."
+"The full-color icon style is most commonly used for application icons. The "
+"nominal size of full-color icons is 128×128px. However, because application "
+"icons are sometimes presented at lower resolutions, they should only feature "
+"detail that is presentable at 64×64px resolution: anything more detailed "
+"would get lost by filtering/scaling down."
 msgstr ""
-"Aunque no es tan critico, hay áreas todavía donde los iconos de las "
-"aplicaciones se muestran en tamaño pequeño. Para mantener el icono claro y "
-"bien definido se requiere un renderizado específico a los tamaños de 48x48px "
-"32x32px, 24x24px y 16x16px. Muchos iconos de GNOME también proporcionan un "
-"tamaño de 22x22px por razones de compatibilidad, pero eso no es obligatorio."
+
+#. (itstool) path: section/p
+#: C/icon-design.page:28
+msgid ""
+"The <link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/"
+"blob/master/template.svg\">full-color icon template</link> includes a 2px "
+"grid which should help you avoid adding detail that's finer than the desired "
+"threshold."
+msgstr ""
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:83
+#: C/icon-design.page:30
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/sizes.png' "
+#| "md5='ffd25334db0c9751862cfb3b56e00b5e'"
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
+"external ref='figures/icons/sizes.svg' md5='8850ec96befdacb8c095656cba52cd62'"
 msgstr ""
-"external ref='figures/icons/sizes-small-24.png' "
-"md5='73497b1da8a7dad694466f6f1f2f3dab'"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:85
-msgid ""
-"To maintain crispness, a lot of detail is discarded for the low resolution "
-"variants and a 1px stroke is used to outline the silhouette of the object."
-msgstr ""
-"Para mantener la frescura, en las versiones de baja resolución se descartan "
-"muchos detalles y se usa una sombra de 1px para bordear la silueta del "
-"objeto."
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:87
-msgid ""
-"More information on designing an application icon can be found below, in the "
-"custom full-color icon section."
-msgstr ""
-"A continuación puede encontrar más información sobre el diseño del icono de "
-"una aplicación, en la sección de iconos a todo color personalizados"
+"external ref='figures/icons/sizes.svg' md5='8850ec96befdacb8c095656cba52cd62'"
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:92
-msgid "Custom symbolic icons"
-msgstr "Iconos simbólicos personalizados"
+#: C/icon-design.page:33
+#| msgid "Perspective"
+msgid "Perspective &amp; shape"
+msgstr "Perspectiva y forma"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:94
+#: C/icon-design.page:35
 msgid ""
-"Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. "
+"Full-color icons should be rendered with a simple orthogonal view and no "
+"real or isometric perspective. To provide depth a raised effect can be "
+"applied to mimic the Z-axis. Please keep the effect subtle though! Raising "
+"the object more than 2 detail units (4 nominal pixels) is not recommended."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icon-design.page:37
+msgid ""
+"In order to aid recognition, each application icon should have a unique "
+"silhouette. However, to ensure visual balance with other application icons, "
+"the aspect ratio should not be extreme. Very narrow or very wide shapes "
+"should be avoided."
+msgstr ""
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:39
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/butter.svg' "
+#| "md5='c34eb57364c0aff827f1efd6d0f8d95a'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/aspect-ratio.svg' "
+"md5='acbe590cea6f62958cb2fd98a08d7425'"
+msgstr ""
+"external ref='figures/icons/aspect-ratio.svg' "
+"md5='acbe590cea6f62958cb2fd98a08d7425'"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:41
+msgid ""
+"A <link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/"
+"master/template.svg\">grid template</link> is available to assist with "
+"placing your icon outline. Do not try to cover a maximum area of the canvas: "
+"the outside margin should be left empty. In some circumstances a small "
+"detail can be extended into this margin space."
+msgstr ""
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:43
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/scarlet-red.svg' "
+#| "md5='eb353db730661f5e54f6cfdcc5de785c'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/whitespace.svg' "
+"md5='757ca4673077580b5fcf3b2ccd230ce1'"
+msgstr ""
+"external ref='figures/icons/whitespace.svg' "
+"md5='757ca4673077580b5fcf3b2ccd230ce1'"
+
+#. (itstool) path: section/title
+#: C/icon-design.page:48
+msgid "Shadows"
+msgstr "Sombras"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:50
+msgid ""
+"Shadows can be drawn internally, within a full-color icon, with the light "
+"source pointing straight from above. However, shadows should not be drawn "
+"outside the main silhouette of the icon, as these are generated "
+"programmatically based on the context. When app icons are presented on a "
+"white background, for example, a strong drop shadow is rendered to help "
+"define the contours."
+msgstr ""
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:52
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='images/icons-shut-down.png' "
+#| "md5='4a43ae07dcbed286be7bcf14529b3a9f'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/dropshadow.png' "
+"md5='04d7779eaa9b2a019b7474dd7f689673'"
+msgstr ""
+"external ref='figures/icons/dropshadow.png' "
+"md5='04d7779eaa9b2a019b7474dd7f689673'"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:54
+msgid ""
+"Versions of application icons can also be programmatically generated for "
+"development or nightly builds."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/icon-design.page:58
+msgid "Palette"
+msgstr "Paleta"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:60
+msgid "Below is the baseline GNOME app icon color palette."
+msgstr ""
+"A continuación está la paleta de colores de iconos de aplicaciones básica de "
+"GNOME."
+
+#. (itstool) path: td/p
+#: C/icon-design.page:67
+#| msgid "Sky Blue"
+msgid "Blue"
+msgstr "Azul"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:68
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/sky-blue.svg' "
+#| "md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/blue.png' "
+"md5='9812f868170aedbc09989bfb5a165093'"
+msgstr ""
+"external ref='figures/icons/palette/blue.png' "
+"md5='9812f868170aedbc09989bfb5a165093'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:71
+msgid "Cyan"
+msgstr "Cian"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:72
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/scarlet-red.svg' "
+#| "md5='eb353db730661f5e54f6cfdcc5de785c'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/cyan.png' "
+"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+msgstr ""
+"external ref='figures/icons/palette/cyan.png' "
+"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:75
+msgid "Green"
+msgstr "Verde"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:76
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/orange.svg' "
+#| "md5='ceb8453eb65ca31f156fc24f94e191fe'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
+msgstr ""
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:79
+msgid "Yellow"
+msgstr "Amarillo"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:80
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/aluminium2.svg' "
+#| "md5='33fe9857e05581ab5fba7a5eb924dc9c'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
+msgstr ""
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:83
+msgid "Orange"
+msgstr "Naranja"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:84
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/orange.svg' "
+#| "md5='ceb8453eb65ca31f156fc24f94e191fe'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
+msgstr ""
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:87
+msgid "Red"
+msgstr "Rojo"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:88
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/scarlet-red.svg' "
+#| "md5='eb353db730661f5e54f6cfdcc5de785c'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
+msgstr ""
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:91
+msgid "Purple"
+msgstr "Morado"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:92
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/orange.svg' "
+#| "md5='ceb8453eb65ca31f156fc24f94e191fe'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
+msgstr ""
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:95
+msgid "Brown"
+msgstr "Marrón"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:96
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/chameleon.svg' "
+#| "md5='8dcdfa1116600d8596c376d02facc673'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
+msgstr ""
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
+
+#. (itstool) path: td/p
+#: C/icon-design.page:99
+msgid "Neutral"
+msgstr "Neutral"
+
+#. (itstool) path: td/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icon-design.page:100
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/plum.svg' "
+#| "md5='1b31561d4d572eed6d60745d168ae182'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/palette/neutral.png' "
+"md5='54148d53f6fb3563dd8454f39845d467'"
+msgstr ""
+"external ref='figures/icons/palette/neutral.png' "
+"md5='54148d53f6fb3563dd8454f39845d467'"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:105
+#, fuzzy
+#| msgid ""
+#| "You are free to use different shades of these colors depending on the "
+#| "desired material effect. However, these primary colors are a good "
+#| "baseline to start from. All major libre graphics packages come with the "
+#| "Tango palette pre-installed."
+msgid ""
+"You are free to use different shades of these colors depending on the "
+"desired material effect. However, these primary colors are a good baseline "
+"to start from. A GIMP/Inkscape format palette <link href=\"https://gitlab."
+"gnome.org/Community/Design/HIG-app-icons/"
+"raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">is available</link>."
+msgstr ""
+"Es libre de usar diferentes sombras de estos colores, dependiendo del efecto "
+"de material que quiera. Sin embargo, estos colores primarios son una buena "
+"base para empezar. Todos los paquetes de gráficos libres incluyen la paleta "
+"de Tango preinstalada."
+
+#. (itstool) path: section/p
+#: C/icon-design.page:107
+msgid ""
+"It is recommended to keep flat surfaces unshaded, but using gradients to "
+"signify bent surfaces is allowed."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/icon-design.page:114
+#| msgid "Custom symbolic icons"
+msgid "Symbolic icons"
+msgstr "Iconos simbólicos"
+
+#. (itstool) path: section/p
+#: C/icon-design.page:116
+#| msgid ""
+#| "Symbolic icons have a simple form and are drawn within a 16x16 pixel "
+#| "grid. They are then programmatically scaled and colored within the user "
+#| "interface itself."
+msgid ""
+"Symbolic icons have a simple form and are drawn within a 16×16 pixel grid. "
 "They are then programmatically scaled and colored within the user interface "
 "itself."
 msgstr ""
 "Los iconos simbólicos tienen una forma sencilla y están dibujados en una "
-"rejilla de 16x16 píxeles. Se escalan y colorean automáticamente en la propia "
+"rejilla de 16×16 píxeles. Se escalan y colorean automáticamente en la propia "
 "interfaz de usuario."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:97
+#: C/icon-design.page:119
 msgid ""
 "Identify a single property when looking for an appropriate metaphor for an "
 "icon, and focus on what distinguishes the idea you want to communicate. For "
@@ -3540,7 +3768,7 @@ msgstr ""
 "alinear)."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:98
+#: C/icon-design.page:120
 msgid ""
 "Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
 "view."
@@ -3549,16 +3777,14 @@ msgstr ""
 "vista simple ortogonal."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:99
+#: C/icon-design.page:121
 msgid ""
-"Filled shapes are generally faster to process by the human visual system "
-"than wireframe outlines."
+"When using unfilled strokes for an outline, try avoiding hairline (1px) and "
+"do at least a 2px stroke for the meain feature of the icon."
 msgstr ""
-"Las formas rellenas son generalmente un proceso más rápido para el sistema "
-"visual humano que los marcos externos."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:100
+#: C/icon-design.page:122
 msgid ""
 "Symbolic icons are recolored at runtime to match the context, very much like "
 "a piece of text. While there are ways to “shade” parts of an icon by using "
@@ -3571,7 +3797,7 @@ msgstr ""
 "o de dos tonos, intente evitarlo siempre que sea posible."
 
 #. (itstool) path: item/p
-#: C/icons-and-artwork.page:101
+#: C/icon-design.page:123
 msgid ""
 "When a metaphor relies on the negative space, make sure it will work with "
 "the colors inverted. For example a camera lens spec/highlight will only work "
@@ -3586,7 +3812,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:104
+#: C/icon-design.page:126
 msgctxt "_"
 msgid ""
 "external ref='figures/icons/inverting.svg' "
@@ -3596,18 +3822,25 @@ msgstr ""
 "md5='e4155d9e87e2abe95e70c42185686b5e'"
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:107
+#: C/icon-design.page:129
 msgid "Size and grid"
 msgstr "Tamaño y cuadrícula"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:109
+#: C/icon-design.page:131
+#, fuzzy
+#| msgid ""
+#| "While the icons are scalable and should work in any size, the basic "
+#| "canvas size is 16x16 grid units. You have the whole canvas to fill, but "
+#| "note that a filled rectangular object will appear stronger/larger when "
+#| "placed next to items that only use thinner strokes. Try to keep the "
+#| "contrast of your whole set."
 msgid ""
-"While the icons are scalable and should work in any size, the basic canvas "
-"size is 16x16 grid units. You have the whole canvas to fill, but note that a "
-"filled rectangular object will appear stronger/larger when placed next to "
-"items that only use thinner strokes. Try to keep the contrast of your whole "
-"set."
+"While symbolic icons are scalable and should work at any size, the basic "
+"canvas size is 16×16 grid units. You have the whole canvas to fill, but note "
+"that a filled rectangular object will appear stronger/larger when placed "
+"next to items that only use thinner strokes. Try to keep the contrast of "
+"your whole set."
 msgstr ""
 "Aunque los iconos son escalables y deben funcionar en cualquier tamaño, el "
 "tamaño básico del lienzo es de 16x16 unidades. Puede rellenar todo el "
@@ -3615,244 +3848,211 @@ msgstr ""
 "más grande cuando se coloque junto a otros elementos que usar trazos más "
 "finos. Intente mantener el contraste del conjunto completo."
 
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:116
-msgid "Custom full-color icons"
-msgstr "Iconos a todo color personalizados"
+#. (itstool) path: page/title
+#: C/icons-and-artwork.page:17
+msgid "Icons and artwork"
+msgstr "Iconos y diseño"
 
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:118
-msgid "Full-color icons are drawn and rendered at a variety of preset sizes."
-msgstr ""
-"Los iconos a todo color se dibujan y renderizan en una amplia variedad de "
-"tamaños predefinidos."
-
-#. (itstool) path: section/title
-#: C/icons-and-artwork.page:121
-msgid "Perspective"
-msgstr "Perspectiva"
-
-#. (itstool) path: section/p
-#: C/icons-and-artwork.page:123
+#. (itstool) path: page/p
+#: C/icons-and-artwork.page:19
 msgid ""
-"Most icons can be executed best by using the “on the table” perspective, as "
-"if the observer was standing in front of the object and looking slightly "
-"down on it. Many icons can be rendered with a simple “straight on” or “on "
-"the shelf” perspective, with the observer looking directly at the object at "
-"eye level."
+"Icons are a basic element in user interfaces. They also make up a "
+"fundamental part of application identities. This page provides an overview "
+"of icon usage. It also describes which icons are available through the GNOME "
+"platform, introduces resources for creating new icons, and includes some "
+"general guidelines on using icons in user interfaces."
 msgstr ""
-"La mayoría de los iconos se pueden usar mejor usando la perspectiva «de "
-"tabla», como si el observador estuviera de pie frente al objeto y mirándolo "
-"ligeramente hacia abajo. La mayoría de los iconos se pueden mostrar "
-"simplemente con una perspectiva «recta» o «en estantería», con el observador "
-"mirando directamente al objeto al nivel de los ojos."
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:128
-msgid "Palette"
-msgstr "Paleta"
+#: C/icons-and-artwork.page:22
+#| msgid "Icons"
+msgid "Icon styles"
+msgstr "Estilos de iconos"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:130
-msgid ""
-"Use the Tango color palette when designing full color application or device "
-"icons."
+#: C/icons-and-artwork.page:24
+msgid "Two styles of icon are used in GNOME 3: full-color and symbolic icons."
 msgstr ""
-"Use la paleta de color de Tango al diseñar iconos de dispositivo o de "
-"aplicación a todo color."
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:134
-msgid "Butter"
-msgstr "Mantequilla"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:135
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-msgstr ""
-"external ref='figures/icons/palette/butter.svg' "
-"md5='c34eb57364c0aff827f1efd6d0f8d95a'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:136
-msgid "Plum"
-msgstr "Ciruela"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:137
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-msgstr ""
-"external ref='figures/icons/palette/plum.svg' "
-"md5='1b31561d4d572eed6d60745d168ae182'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:140
-msgid "Orange"
-msgstr "Naranja"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:141
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-msgstr ""
-"external ref='figures/icons/palette/orange.svg' "
-"md5='ceb8453eb65ca31f156fc24f94e191fe'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:142
-msgid "Scarlet Red"
-msgstr "Rojo escarlata"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:143
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-msgstr ""
-"external ref='figures/icons/palette/scarlet-red.svg' "
-"md5='eb353db730661f5e54f6cfdcc5de785c'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:146
-msgid "Chocolate"
-msgstr "Chocolate"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:147
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-msgstr ""
-"external ref='figures/icons/palette/chocolate.svg' "
-"md5='e76cd7a81829ecee767bdadc4eef9851'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:148
-msgid "Aluminium"
-msgstr "Aluminio"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:149
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-msgstr ""
-"external ref='figures/icons/palette/aluminium1.svg' "
-"md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:152
-msgid "Chameleon"
-msgstr "Camaleón"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:153
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-msgstr ""
-"external ref='figures/icons/palette/chameleon.svg' "
-"md5='8dcdfa1116600d8596c376d02facc673'"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:155
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-msgstr ""
-"external ref='figures/icons/palette/aluminium2.svg' "
-"md5='33fe9857e05581ab5fba7a5eb924dc9c'"
-
-#. (itstool) path: td/p
-#: C/icons-and-artwork.page:158
-msgid "Sky Blue"
-msgstr "Azul cielo"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icons-and-artwork.page:159
-msgctxt "_"
-msgid ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
-msgstr ""
-"external ref='figures/icons/palette/sky-blue.svg' "
-"md5='d1208a61e8e1c66b1ae6229bdd173d2e'"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:164
+#: C/icons-and-artwork.page:26
 msgid ""
-"You are free to use different shades of these colors depending on the "
-"desired material effect. However, these primary colors are a good baseline "
-"to start from. All major libre graphics packages come with the Tango palette "
-"pre-installed."
+"Full-color icons are colorful and detailed, and are optimized for larger "
+"sizes. They are defined as 128×128px SVGs, and are sharpest when scaled up "
+"in multiples of 128 (such as 256✕256 and 512✕512).The design of full-color "
+"icons also allows them to be rendered sharp at 64×64px and 32×32px, but is "
+"not advised to make them any smaller."
 msgstr ""
-"Es libre de usar diferentes sombras de estos colores, dependiendo del efecto "
-"de material que quiera. Sin embargo, estos colores primarios son una buena "
-"base para empezar. Todos los paquetes de gráficos libres incluyen la paleta "
-"de Tango preinstalada."
+
+#. (itstool) path: section/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/icons-and-artwork.page:28
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/icons/palette/chocolate.svg' "
+#| "md5='e76cd7a81829ecee767bdadc4eef9851'"
+msgctxt "_"
+msgid ""
+"external ref='figures/icons/fullcolor-v-symbolic.svg' "
+"md5='33921c0746746de2adce51279dbc8606'"
+msgstr ""
+"external ref='figures/icons/fullcolor-v-symbolic.svg' "
+"md5='33921c0746746de2adce51279dbc8606'"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:30
+msgid ""
+"Symbolic icons are simple and monochrome, and are designed to work well at "
+"smaller sizes. They are defined as 16✕16px SVGs, and can be scaled to "
+"multiples of 16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally "
+"have a neutral color, although their color can be changed programmatically."
+msgstr ""
 
 #. (itstool) path: section/title
-#: C/icons-and-artwork.page:171
-msgid "See also"
-msgstr "Consulte también"
+#: C/icons-and-artwork.page:35
+#, fuzzy
+#| msgid "Icons"
+msgid "Icon uses"
+msgstr "Iconos"
 
 #. (itstool) path: section/p
-#: C/icons-and-artwork.page:173
+#: C/icons-and-artwork.page:38
+#, fuzzy
+#| msgid ""
+#| "Every application should have a unique and beautiful application icon. It "
+#| "is the face of the application, and the first visual element a user sees "
+#| "when browsing for new applications. The <link xref=\"application-basics"
+#| "\">application basics page</link> includes details on what an application "
+#| "is, and when to provide an application icon."
 msgid ""
-"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
-"\">Tango Icon Guidelines</link>"
+"Application icons are the most prominent type of icons. Every application "
+"should have its own unique and beautiful application icon: it is the face of "
+"the application, and the first visual element a user sees when browsing for "
+"new applications."
 msgstr ""
-"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
-"\">Guías de iconos Tango</link>"
+"Cada aplicación debe tener un icono de aplicación único y bonito. Es la cara "
+"de la aplicación y el primer elemento visual que un usuario ve al buscar "
+"aplicaciones nuevas. La <link xref=\"application-basics\">página de "
+"conceptos básicos de aplicaciones</link> incluye detalles sobre qué es una "
+"aplicación y cuándo proporcionar un icono de aplicación."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:40
+msgid ""
+"Application icons use the full-color style. Applications are also "
+"recommended to provide a symbolic version of their icon, which is used for "
+"the high-contrast accessibility feature, as well as in contexts where a "
+"legible low-resolution icon is required."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:42
+msgid ""
+"User interface icons typically use the symbolic style and this is the "
+"primary icon style used for user interface controls. The most common and "
+"obvious example of symbolic icon usage is on buttons."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:44
+msgid ""
+"Apart from application icons, the full-color icon style can also be used in "
+"cases where icons are displayed at large sizes and are intended to be the "
+"focus of attention. File and folder icons in a file manager are a good "
+"example of this."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/icons-and-artwork.page:49
+#, fuzzy
+#| msgid "Selecting and creating icons."
+msgid "Stock icons and creating your own"
+msgstr "Seleccionar y crear iconos."
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:51
+msgid ""
+"GNOME provides a set of standard icons, which can be used by applications. "
+"This can be accessed directly through GTK. Icon names follow the <link href="
+"\"https://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
+"html\">Freedesktop icon specification</link>. Symbolic versions of icons "
+"have the <code>-symbolic</code> name ending, such as <code>open-menu-"
+"symbolic</code>."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:53
+msgid ""
+"The <link xref=\"icon-design\">icon design guidelines</link> provide more "
+"details on how to create your own icons, including application icons."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/icons-and-artwork.page:58
+msgid "Using icons in your user interface"
+msgstr "Usar iconos en su interfaz"
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:60
+msgid ""
+"Icons are a common user interface element and they have some practical "
+"advantages over text labels (such as being smaller). At the same time, over-"
+"use of icons can lead to confusion and a poor user experience. Likewise, the "
+"use of inappropriate icons can often make an interface difficult to use."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:62
+msgid ""
+"Therefore, only use icons whose meaning is commonly recognized. If a "
+"commonly recognized icon is not available, it might be better to use a text "
+"label instead. Typically, convention establishes which icons are commonly "
+"recognized. This set of icons is actually quite small, and includes standard "
+"icons such as search, menu, forward, back and share. If you are in doubt, "
+"only use icons which are frequently used in other applications."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/icons-and-artwork.page:64
+msgid "Other things to consider when using icons:"
+msgstr "Otras cosas que tener en cuenta al usar iconos:"
+
+#. (itstool) path: item/p
+#: C/icons-and-artwork.page:67
+#, fuzzy
+#| msgid ""
+#| "Consider which icons will be meaningful in the specific context of your "
+#| "application - users of specialist tools will often be familiar with "
+#| "domain-specific symbols."
+msgid ""
+"Think about which icons will be meaningful in the specific context of your "
+"application — users of specialist tools will often be familiar with domain-"
+"specific symbols."
+msgstr ""
+"Considere qué iconos serán significativos en el contexto específico de su "
+"aplicación; los usuarios de herramientas específicas estarán a menudo "
+"familiarizados con símbolos específicos de ese área."
+
+#. (itstool) path: item/p
+#: C/icons-and-artwork.page:68
+msgid ""
+"Remember that some icons are only meaningful alongside other icons of the "
+"same type. For example, a media icon for stop is simply a square, and may "
+"not be identified as a stop icon without other media controls (like play, "
+"pause, or skip) being visible close by. Likewise, the icon to remove an item "
+"from a list is a subtract symbol (ie. a single line), and will not be "
+"recognizable without a corresponding “plus” add icon."
+msgstr ""
+"Recuerde que algunos iconos sólo tienen sentido cuando están junto a otros "
+"del mismo tipo. Por ejemplo, un icono multimedia para detener es simplemente "
+"un cuadrado, y puede no identificarse como un icono de detener sin otros "
+"controles multimedia (como reproducir, pausar u omitir) visibles cercanos a "
+"él. Del mismo modo, el icono de eliminar un elemento de una lista como un "
+"signo menos (una única línea) no se reconocerá sin el correspondiente icono "
+"«+» de añadir."
 
 #. (itstool) path: page/title
 #: C/index.page:14
@@ -4117,13 +4317,22 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:25
+#, fuzzy
+#| msgid ""
+#| "In-app notifications are appropriate when you want to inform the user "
+#| "about an event that is relevant to their ongoing use of an application. "
+#| "They are best used to provide immediate feedback. This contrasts with "
+#| "<link xref=\"notifications\">standard notifications</link>, which provide "
+#| "system-wide alerts, and which persist after the notification has been "
+#| "initially displayed."
 msgid ""
-"In-app notifications are appropriate when you want to inform the user about "
-"an event that is relevant to their ongoing use of an application. They are "
-"best used to provide immediate feedback. This contrasts with <link xref="
-"\"notifications\">standard notifications</link>, which provide system-wide "
-"alerts, and which persist after the notification has been initially "
-"displayed."
+"In-app notifications can be used to inform users about events that are "
+"immediately relevant to their activity in an application, but which don't "
+"have long-term interest. One common use is to provide feedback in response "
+"to user actions, while the application is being used. This contrasts with "
+"<link xref=\"notifications\">standard notifications</link>, which provide "
+"system-wide alerts, and which persist after the notification has been "
+"initially displayed."
 msgstr ""
 "Las notificaciones integradas en las aplicaciones son apropiadas para "
 "informar al usuario de un evento relevante al uso actual de una aplicación. "
@@ -4134,11 +4343,16 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:27
+#, fuzzy
+#| msgid ""
+#| "Allowing the user to undo a destructive action is an example of a good "
+#| "use of in-app notifications: the notification is not needed outside of "
+#| "the application window, and is immediately relevant. The button that "
+#| "allows the user to respond to the event, by pressing ."
 msgid ""
 "Allowing the user to undo a destructive action is an example of a good use "
-"of in-app notifications: the notification is not needed outside of the "
-"application window, and is immediately relevant. The button that allows the "
-"user to respond to the event, by pressing ."
+"of in-app notifications: the notification is shown immediately after a user "
+"action, and is shown in the most relevant context."
 msgstr ""
 "Permitir al usuario deshacer una acción destructiva es un ejemplo de buen "
 "uso de las notificaciones integradas en la aplicación: la notificación no es "
@@ -4147,10 +4361,14 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:29
+#, fuzzy
+#| msgid ""
+#| "In-app notifications are not a good solution for communicating ongoing "
+#| "states. <link xref=\"info-bars\">Info bars</link> offer one alternative "
+#| "you can consider."
 msgid ""
 "In-app notifications are not a good solution for communicating ongoing "
-"states. <link xref=\"info-bars\">Info bars</link> offer one alternative you "
-"can consider."
+"states."
 msgstr ""
 "Las notificaciones integradas en las aplicaciones no son una buena solución "
 "para comunicar los estados en curso. <link xref=\"info-bars\">Las barras de "
@@ -4220,12 +4438,19 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/info-bars.page:25
+#| msgid ""
+#| "Info bars can be used to communicate a particular state about a "
+#| "particular content item or location. For example, an info bar could "
+#| "indicate that a document is out of date or being edited by other, or that "
+#| "a service relating to a location is not operating. In some situations, "
+#| "they can also be used to present supplementary information, such as user "
+#| "guidance."
 msgid ""
 "Info bars can be used to communicate a particular state about a particular "
 "content item or location. For example, an info bar could indicate that a "
-"document is out of date or being edited by other, or that a service relating "
-"to a location is not operating. In some situations, they can also be used to "
-"present supplementary information, such as user guidance."
+"document is out of date or being edited by others, or that a service "
+"relating to a location is not operating. In some situations, they can also "
+"be used to present supplementary information, such as user guidance."
 msgstr ""
 "Las barras de información se pueden usar para comunicar un estado particular "
 "de un elemento de contenido o de una ubicación en concreto. Por ejemplo, una "
@@ -4282,7 +4507,8 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/info-bars.page:38
-msgid "Only one info bar should be visable at any one time."
+#| msgid "Only one info bar should be visable at any one time."
+msgid "Only one info bar should be visible at any one time."
 msgstr "Sólo se debe mostrar una única barra de información a la vez."
 
 #. (itstool) path: item/p
@@ -4307,6 +4533,99 @@ msgid ""
 msgstr ""
 "<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html"
 "\">GtkInfoBar</link>"
+
+#. (itstool) path: info/desc
+#: C/initial-state-placeholders.page:8
+#, fuzzy
+#| msgid "Image and text shown when a grid or list is empty"
+msgid "Image and text shown when an application is initially empty"
+msgstr "Imagen y texto mostrados cuando una rejilla o lista está vacía"
+
+#. (itstool) path: page/title
+#: C/initial-state-placeholders.page:16
+#| msgid "Empty placeholders"
+msgid "Initial state placeholders"
+msgstr "Marcadores de posición iniciales"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/initial-state-placeholders.page:18
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/empty-placeholder.svg' "
+#| "md5='ef36d4ef97fdbc3b43d44e3d355c40c6'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/initial-state-placeholder.svg' "
+"md5='f922abac4a8613328055476be813985c'"
+msgstr ""
+"external ref='figures/patterns/initial-state-placeholder.svg' "
+"md5='f922abac4a8613328055476be813985c'"
+
+#. (itstool) path: page/p
+#: C/initial-state-placeholders.page:20
+#, fuzzy
+#| msgid ""
+#| "An empty placeholder is an image and text which fills the space in an "
+#| "empty list or grid."
+msgid ""
+"An initial state placeholder is an image and text which fills the space in "
+"an application that has never contained any content."
+msgstr ""
+"Un marcador de posición vacío es una imagen, acompañada de un texto, que "
+"rellena el espacio en una lista o rejilla vacía."
+
+#. (itstool) path: section/p
+#: C/initial-state-placeholders.page:25
+msgid ""
+"In some cases an application might be empty until a user adds some content "
+"to it. In these scenarios, an initial state can be used to provide a rich "
+"and inviting experience. This helps to avoid the first use of the "
+"application being downbeat and unwelcoming."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/initial-state-placeholders.page:27
+msgid ""
+"An initial state placeholder should only be used when an application is "
+"going to be unavoidably empty. In many cases it is often better to pre-"
+"populate the application."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:36
+msgid "The imagery used should be rich and colorful."
+msgstr "La imagen usada debe ser rica y colorida."
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:37
+msgid ""
+"The text that accompanies the image should be positive and upbeat. This is a "
+"moment where you can sell your application and establish a positive identity "
+"for it. It can also be an opportunity to strike up a relationship with the "
+"user by addressing them directly."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:39
+msgid ""
+"While an application is initially empty, some controls don't serve a purpose "
+"(such as those for browsing content, changing view, or searching). Making "
+"these controls insensitive will help to avoid the user being disappointed, "
+"or trying features that won't work."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/initial-state-placeholders.page:40
+msgid ""
+"An initial state should persevere until content is added to the application, "
+"after which it should not be seen again. If the application becomes empty "
+"subsequently, an <link xref=\"empty-placeholder\">empty state can be used</"
+"link>."
+msgstr ""
 
 #. (itstool) path: page/title
 #: C/keyboard-input.page:27
@@ -4415,11 +4734,11 @@ msgid "Standard navigation keys"
 msgstr "Teclas de navegación estándar"
 
 #. (itstool) path: td/p
-#: C/keyboard-input.page:54 C/keyboard-input.page:160
-#: C/keyboard-input.page:280 C/keyboard-input.page:314
-#: C/keyboard-input.page:394 C/keyboard-input.page:483
-#: C/keyboard-input.page:547 C/keyboard-input.page:617
-#: C/keyboard-input.page:651 C/keyboard-input.page:720
+#: C/keyboard-input.page:54 C/keyboard-input.page:160 C/keyboard-input.page:280
+#: C/keyboard-input.page:314 C/keyboard-input.page:394
+#: C/keyboard-input.page:483 C/keyboard-input.page:547
+#: C/keyboard-input.page:617 C/keyboard-input.page:651
+#: C/keyboard-input.page:720
 msgid "Shortcut"
 msgstr "Combinación de teclas"
 
@@ -4468,7 +4787,8 @@ msgstr "<keyseq><key>Ctrl</key><key>F1</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:73
-msgid "Shows a tooltip for the the currently-focused window or control"
+#| msgid "Shows a tooltip for the the currently-focused window or control"
+msgid "Shows a tooltip for the currently-focused window or control"
 msgstr "Muestra un consejo para la ventana o control actualmente con el foco"
 
 #. (itstool) path: td/p
@@ -5416,15 +5736,6 @@ msgstr "<keyseq><key>Ctrl</key><key>M</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:368
-#| msgid ""
-#| "Provides the user a means to attach or send the current document as an "
-#| "email or email attachment, depending on its format. You may provide more "
-#| "than one <gui>Send</gui> item depending on which options are available. "
-#| "If there are more than two such items, move them into a submenu. For "
-#| "example, if only <gui>Send by Email</gui> and <gui>Send by Bluetooth</"
-#| "gui> are available, leave them on the top-level menu If there is a third "
-#| "option, such as <gui>Send by FTP</gui>, place all the options in a Send "
-#| "submenu."
 msgid ""
 "Provides the user a means to attach or send the current document as an email "
 "or email attachment, depending on its format. You may provide more than one "
@@ -7030,10 +7341,16 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:96
+#| msgid ""
+#| "The menubar is normally visible at all times and is always accessible "
+#| "from the keyboard, so make all the commands available in your application "
+#| "available on the menubar. (This guideline is unique to menu bars - other "
+#| "menus should not seek to reproduce functionality that is made available "
+#| "by other controls)."
 msgid ""
 "The menubar is normally visible at all times and is always accessible from "
 "the keyboard, so make all the commands available in your application "
-"available on the menubar. (This guideline is unique to menu bars - other "
+"available on the menubar. (This guideline is unique to menu bars — other "
 "menus should not seek to reproduce functionality that is made available by "
 "other controls)."
 msgstr ""
@@ -7045,9 +7362,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:97
+#| msgid ""
+#| "Treat <link xref=\"application-menus\">application menus</link> as part "
+#| "of the menu bar - it is not necessary to reproduce items from the "
+#| "application menu in other menus."
 msgid ""
 "Treat <link xref=\"application-menus\">application menus</link> as part of "
-"the menu bar - it is not necessary to reproduce items from the application "
+"the menu bar — it is not necessary to reproduce items from the application "
 "menu in other menus."
 msgstr ""
 "Considere los <link xref=\"application-menus\">menús de la aplicación</link> "
@@ -7220,8 +7541,11 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/menus.page:50
+#| msgid ""
+#| "Organize similar menu items into groups using dividers - this will make "
+#| "them easier to understand and quicker to use. When creating groups:"
 msgid ""
-"Organize similar menu items into groups using dividers - this will make them "
+"Organize similar menu items into groups using dividers — this will make them "
 "easier to understand and quicker to use. When creating groups:"
 msgstr ""
 "Organice los elementos de menú similares en grupos, usando separadores; esto "
@@ -7229,10 +7553,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menus.page:53
+#| msgid ""
+#| "Order groups and group items logically, either by importance, task order, "
+#| "or expected frequency of use. Items at the top and bottom of the menu are "
+#| "more noticeable and easily targetted, so reserve these locations for "
+#| "particularly important or interesting functionality."
 msgid ""
 "Order groups and group items logically, either by importance, task order, or "
 "expected frequency of use. Items at the top and bottom of the menu are more "
-"noticeable and easily targetted, so reserve these locations for particularly "
+"noticeable and easily targeted, so reserve these locations for particularly "
 "important or interesting functionality."
 msgstr ""
 "Ordene los grupos y los elementos de los grupos de manera lógica, bien por "
@@ -7252,8 +7581,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menus.page:55
+#| msgid ""
+#| "Do not mix different types of menu item within each group - actions, "
+#| "check box and radio button items should be kept separate."
 msgid ""
-"Do not mix different types of menu item within each group - actions, check "
+"Do not mix different types of menu item within each group — actions, check "
 "box and radio button items should be kept separate."
 msgstr ""
 "No mezcle diferentes tipos de elementos de menú en cada grupo; las acciones, "
@@ -7298,12 +7630,19 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menus.page:67
+#| msgid ""
+#| "Two linked actions can be combined into a single menu item, by changing "
+#| "the label when the item is selected. For example, a <gui>Play</gui> item "
+#| "may change to <gui>Pause</gui>. However, only use this type of item when "
+#| "actions are logical opposites which are obvious to users. Likewise, do "
+#| "not use this technique for settings - use check boxes or radio buttons "
+#| "instead."
 msgid ""
 "Two linked actions can be combined into a single menu item, by changing the "
 "label when the item is selected. For example, a <gui>Play</gui> item may "
 "change to <gui>Pause</gui>. However, only use this type of item when actions "
 "are logical opposites which are obvious to users. Likewise, do not use this "
-"technique for settings - use check boxes or radio buttons instead."
+"technique for settings — use check boxes or radio buttons instead."
 msgstr ""
 "Dos acciones enlazadas se pueden combinar en un único elemento de menú, "
 "cambiando la etiqueta cuando se selecciona el elemento. Por ejemplo, un "
@@ -7311,6 +7650,25 @@ msgstr ""
 "embargo, use este tipo de elemento sólo cuando las acciones son opuestos "
 "lógicos para el usuario. Del mismo modo, no use esta técnica para la "
 "configuración; use casillas o botones de radio en su lugar."
+
+#. (itstool) path: item/p
+#: C/menus.page:78 C/primary-menus.page:48 C/secondary-menus.page:47
+msgid ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
+"\">GtkMenuButton</link>"
+msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
+"\">GtkMenuButton</link>"
+
+#. (itstool) path: item/p
+#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:49
+#: C/secondary-menus.page:48
+msgid ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
+"\">GtkPopoverMenu</link>"
+msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
+"\">GtkPopoverMenu</link>"
 
 #. (itstool) path: info/desc
 #: C/notifications.page:8
@@ -7509,8 +7867,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/notifications.page:81
+#| msgid ""
+#| "Actions should not replace user interface controls elsewhere - it should "
+#| "be possible to take the same actions from your application’s windows."
 msgid ""
-"Actions should not replace user interface controls elsewhere - it should be "
+"Actions should not replace user interface controls elsewhere — it should be "
 "possible to take the same actions from your application’s windows."
 msgstr ""
 "Las acciones no deben reemplazar a ningún control de la interfaz de usuario. "
@@ -7655,10 +8016,16 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overlaid-controls.page:24
+#| msgid ""
+#| "Since overlaid controls hide when they are not in use, they help to "
+#| "provide an uncluttered viewing experience. They are appropriate when it "
+#| "is desirable to present a clean and distraction-free view on a content "
+#| "item - this is particularly (although not exclusively) appropriate for "
+#| "images and video."
 msgid ""
 "Since overlaid controls hide when they are not in use, they help to provide "
 "an uncluttered viewing experience. They are appropriate when it is desirable "
-"to present a clean and distraction-free view on a content item - this is "
+"to present a clean and distraction-free view on a content item — this is "
 "particularly (although not exclusively) appropriate for images and video."
 msgstr ""
 "Dado que los controles superpuestos se ocultan cuando no se están usando, "
@@ -7711,7 +8078,8 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:37
-msgid "Use the standard \"OSD\" theme style for overlaid controls."
+#| msgid "Use the standard \"OSD\" theme style for overlaid controls."
+msgid "Use the standard “OSD” theme style for overlaid controls."
 msgstr "Use el estilo «OSD» estándar para los controles superpuestos."
 
 #. (itstool) path: page/title
@@ -7754,13 +8122,17 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/patterns.page:20
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/patterns.svg' "
+#| "md5='f0189f11788efa1c344770abffa80a2e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/patterns.svg' "
-"md5='f0189f11788efa1c344770abffa80a2e'"
+"md5='3702bfc5fa36705341014c7df1f4a5af'"
 msgstr ""
 "external ref='figures/patterns/patterns.svg' "
-"md5='f0189f11788efa1c344770abffa80a2e'"
+"md5='3702bfc5fa36705341014c7df1f4a5af'"
 
 #. (itstool) path: section/title
 #: C/patterns.page:24
@@ -7793,9 +8165,15 @@ msgstr "Entrada del puntero"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:24
+#| msgid ""
+#| "A pointing device is any input device that allows the manipulation of a "
+#| "pointer - typically represented as an arrow, and often called a cursor - "
+#| "on screen. While mice and touchpads are the most common, there are a wide "
+#| "variety of such devices, including graphics tablets, track balls, track "
+#| "points and joysticks."
 msgid ""
 "A pointing device is any input device that allows the manipulation of a "
-"pointer - typically represented as an arrow, and often called a cursor - on "
+"pointer — typically represented as an arrow, and often called a cursor — on "
 "screen. While mice and touchpads are the most common, there are a wide "
 "variety of such devices, including graphics tablets, track balls, track "
 "points and joysticks."
@@ -8122,8 +8500,11 @@ msgstr "Pulse sobre un elemento."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:130
+#| msgid ""
+#| "Primary action. Item opens - photo is shown full size, application "
+#| "launches, song starts playing."
 msgid ""
-"Primary action. Item opens - photo is shown full size, application launches, "
+"Primary action. Item opens — photo is shown full size, application launches, "
 "song starts playing."
 msgstr ""
 "Acción primaria. El elemento se abre; la foto se muestra a tamaño completo, "
@@ -8593,6 +8974,121 @@ msgstr ""
 "\">GtkPopover</link>"
 
 #. (itstool) path: info/desc
+#: C/primary-menus.page:8
+msgid "The application's main menu, denoted by three stacked horizontal lines"
+msgstr ""
+"El menú principal de la aplicación, representado por 3 barras horizontales "
+"apiladas"
+
+#. (itstool) path: page/title
+#: C/primary-menus.page:16
+#| msgid "Primary buttons"
+msgid "Primary menus"
+msgstr "Menús primarios"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/primary-menus.page:18
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/primary-windows.svg' "
+#| "md5='8a8e74a81b080c85bffc31e154705200'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/primary-menu.svg' "
+"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+msgstr ""
+"external ref='figures/patterns/primary-menu.svg' "
+"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+
+#. (itstool) path: page/p
+#: C/primary-menus.page:20
+msgid ""
+"Primary menus are a standard design pattern that is found in most "
+"applications. They are labelled with the menu icon (named <code>menu-open</"
+"code>) and contain the top-level menu items for the application. This can "
+"include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
+"<gui>About</gui>, as well as other application-specific items."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/primary-menus.page:22
+msgid ""
+"Primary menus are typically located on the right side of the header bar. "
+"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
+"link>, the primary menu should be placed above the sidebar list."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:27
+msgid ""
+"Most applications have primary menus, since they are the standard location "
+"for <gui>About</gui>, which every application is expected to have."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/primary-menus.page:32 C/secondary-menus.page:32
+msgid "Guidance"
+msgstr "Dirección"
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:35
+msgid ""
+"Primary menus can contain items for both the current window or view, as well "
+"as the application as a whole. This differentiates them from <link xref="
+"\"secondary-menus\">secondary menus</link>, which only contain menu items "
+"that relate to a specific view or item."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:36
+msgid ""
+"Applications which use in-window navigation should only show the primary "
+"menu on the top-level view (typically the main view that is shown when the "
+"app is launched). Child views, such as those that show individual items of "
+"content, should use <link xref=\"secondary-menus\">secondary</link> rather "
+"than primary menus."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:37
+#, fuzzy
+#| msgid ""
+#| "Follow the <link xref=\"menus\">standard guidelines for menus</link>."
+msgid ""
+"Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
+"deciding on primary menu content and arrangement."
+msgstr "Sigua las <link xref=\"menus\">directrices estándar para menús</link>."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:38
+#, fuzzy
+#| msgid ""
+#| "A header bar menu is contained within a <link xref=\"popovers\">popover</"
+#| "link>. As such, a header bar menu can include a variety of controls, such "
+#| "as groups of buttons."
+msgid ""
+"A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
+"As such, a header bar menu can include a variety of controls, such as groups "
+"of buttons."
+msgstr ""
+"Un menú de la barra de cabecera está dentro de una <link xref=\"popovers"
+"\">ventana emergente</link>. Como tal, un menú de la barra de cabecera puede "
+"incluir una variedad de controles, como un grupo de botones."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:39
+msgid ""
+"Primary menus shouldn’t include menu items for close or quit: windows can "
+"already be closed using the close button in the header bar, and it can be "
+"ambiguous as to what a close menu item refers to. Users don't readily "
+"differentiate between quit and close, and it can therefore be misleading."
+msgstr ""
+
+#. (itstool) path: info/desc
 #: C/primary-windows.page:7
 msgid "The main window(s) for your application"
 msgstr "Las ventanas principales de su aplicación"
@@ -8629,8 +9125,10 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/primary-windows.page:24
 msgid ""
-"Every application should have at least one primary window associated with it."
-msgstr "Cada aplicación debe tener al menos una ventana primaria asociada."
+"Every application should show a primary window when its launcher is "
+"activated. This includes applications that mainly provide a background "
+"service."
+msgstr ""
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:29
@@ -8785,8 +9283,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:76
+#| msgid ""
+#| "Primary windows should be independent - closing one primary window should "
+#| "not result in other primary windows being closed."
 msgid ""
-"Primary windows should be independent - closing one primary window should "
+"Primary windows should be independent — closing one primary window should "
 "not result in other primary windows being closed."
 msgstr ""
 "Las ventanas primarias deben ser independientes; cerrar una ventana primaria "
@@ -9328,9 +9829,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:43
+#| msgid ""
+#| "Generally, only one progress spinner should be displayed at once. Avoid "
+#| "showing a large number of spinners simultaneously - this will often be "
+#| "visually overwhelming."
 msgid ""
 "Generally, only one progress spinner should be displayed at once. Avoid "
-"showing a large number of spinners simultaneously - this will often be "
+"showing a large number of spinners simultaneously — this will often be "
 "visually overwhelming."
 msgstr ""
 "Generalmente, sólo se debe mostrar un indicador de progreso incremental a la "
@@ -9348,10 +9853,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:45
+#| msgid ""
+#| "If a spinner is displayed for a long time, a label can indicate both the "
+#| "identity of the task and progress through it. This can take the form of a "
+#| "percentage, an indication of the time remaining or, or progress through "
+#| "sub-components of the task (eg. modules downloaded, or pages exported)."
 msgid ""
 "If a spinner is displayed for a long time, a label can indicate both the "
 "identity of the task and progress through it. This can take the form of a "
-"percentage, an indication of the time remaining or, or progress through sub-"
+"percentage, an indication of the time remaining, or progress through sub-"
 "components of the task (eg. modules downloaded, or pages exported)."
 msgstr ""
 "Si es muestra un indicador de progreso durante mucho tiempo, una etiqueta "
@@ -9639,11 +10149,14 @@ msgstr "Resultado de la búsqueda"
 
 #. (itstool) path: item/p
 #: C/search.page:53
+#| msgid ""
+#| "Search should be “live” wherever possible - the content view should "
+#| "update to display search results as they are entered."
 msgid ""
-"Search should be “live” wherever possible - the content view should update "
+"Search should be “live” wherever possible — the content view should update "
 "to display search results as they are entered."
 msgstr ""
-"La búsqueda debe ser inmediata siempre que sea posible; la vista del "
+"La búsqueda debe ser inmediata siempre que sea posible — la vista del "
 "contenido se debe actualizar para mostrar los resultados de la búsqueda "
 "según se introducen."
 
@@ -9658,9 +10171,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/search.page:55
+#| msgid ""
+#| "If a search term does not return any results, ensure that feedback is "
+#| "given in the content view. Often a simple \"No results\" label is "
+#| "sufficient."
 msgid ""
 "If a search term does not return any results, ensure that feedback is given "
-"in the content view. Often a simple \"No results\" label is sufficient."
+"in the content view. Often a simple “No results” label is sufficient."
 msgstr ""
 "Si un término de búsqueda no devuelve ningún resultado, asegúrese de que la "
 "retroalimentación se dé en la vista de contenido. A menudo, una simple "
@@ -9714,6 +10231,104 @@ msgid ""
 msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
 "\">GtkSearchEntry</link>"
+
+#. (itstool) path: info/desc
+#: C/secondary-menus.page:8
+msgid ""
+"The application's secondary menu, denoted by three stacked horizontal dots"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/secondary-menus.page:16
+#| msgid "Secondary Text"
+msgid "Secondary menus"
+msgstr "Menús secundarios"
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/secondary-menus.page:18
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/header-bar-menu.svg' "
+#| "md5='0e781cf34a40d6c5928bd4564514dc65'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/secondary-menu.svg' "
+"md5='fe768e135e16ad22527cc97ecfd9a076'"
+msgstr ""
+"external ref='figures/patterns/secondary-menu.svg' "
+"md5='fe768e135e16ad22527cc97ecfd9a076'"
+
+#. (itstool) path: page/p
+#: C/secondary-menus.page:20
+msgid ""
+"Secondary menus are located in the header bar and include menu items for the "
+"current view or content item. This differentiates them from <link xref="
+"\"primary-menus\">primary menus</link>, which include menu items that relate "
+"to an entire application (such as <gui>Preferences</gui> and <gui>About</"
+"gui>)."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/secondary-menus.page:25
+msgid ""
+"Secondary menus can be used to host controls that relate to a particular "
+"content item which is being displayed in the application window (such as a "
+"document, contact, conversation or photo). They are typically used in "
+"combination with in-window navigation or <link xref=\"sidebar-lists"
+"\">sidebar lists</link>, since both these arrangements feature separate "
+"views or areas for content items to be shown."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/secondary-menus.page:27
+msgid ""
+"Secondary menus are optional and only need to be used if there are enough "
+"controls to require a menu."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:35
+msgid ""
+"Secondary menus generally shouldn't reproduce menu items that are included "
+"in <link xref=\"primary-menus\">primary menus</link>, like <gui>Preferences</"
+"gui> and <gui>About</gui>. However, it can sometimes be useful to show "
+"<gui>Help</gui>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:36
+#| msgid ""
+#| "Follow the <link xref=\"menus\">standard guidelines for menus</link>."
+msgid ""
+"The <link xref=\"menus\">standard guidelines for menus</link> can be "
+"followed when designing secondary menus."
+msgstr ""
+"Las <link xref=\"menus\">directrices estándar para menús</link> se pueden "
+"usar para diseñar menús secundarios."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:37
+#| msgid ""
+#| "A header bar menu is contained within a <link xref=\"popovers\">popover</"
+#| "link>. As such, a header bar menu can include a variety of controls, such "
+#| "as groups of buttons."
+msgid ""
+"A secondary menu is contained within a <link xref=\"popovers\">popover</"
+"link>. As such, a header bar menu can include a variety of controls, such as "
+"groups of buttons."
+msgstr ""
+"Un menú de la barra de cabecera está dentro de una <link xref=\"popovers"
+"\">ventana emergente</link>. Como tal, un menú de la barra de cabecera puede "
+"incluir una variedad de controles, como un grupo de botones."
+
+#. (itstool) path: item/p
+#: C/secondary-menus.page:38
+msgid "Secondary menus shouldn’t include menu items for close or quit."
+msgstr ""
 
 #. (itstool) path: info/desc
 #: C/selection-mode.page:7
@@ -9877,13 +10492,17 @@ msgstr "Listas en barras laterales"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/sidebar-lists.page:17
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/sidebar-list.svg' "
+#| "md5='a90375efbfc9915765fd1c224821f506'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/sidebar-list.svg' "
-"md5='a90375efbfc9915765fd1c224821f506'"
+"md5='5efb0b438e622f93a9f420f161fefc58'"
 msgstr ""
 "external ref='figures/patterns/sidebar-list.svg' "
-"md5='a90375efbfc9915765fd1c224821f506'"
+"md5='5efb0b438e622f93a9f420f161fefc58'"
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:19
@@ -10582,10 +11201,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tabs.page:67
+#| msgid ""
+#| "If tabs are an important part of the application, a new tab button can be "
+#| "placed in the header bar or toolbar. Do not show a new tab button in "
+#| "applications where tabs will not always be used - keyboard shortcuts and/"
+#| "or menu items are sufficient in these cases."
 msgid ""
 "If tabs are an important part of the application, a new tab button can be "
 "placed in the header bar or toolbar. Do not show a new tab button in "
-"applications where tabs will not always be used - keyboard shortcuts and/or "
+"applications where tabs will not always be used — keyboard shortcuts and/or "
 "menu items are sufficient in these cases."
 msgstr ""
 "Si las pestañas son una parte importante de la aplicación, se puede poner un "
@@ -10776,8 +11400,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/text-fields.page:57
+#| msgid ""
+#| "An icon at the beginning of the entry can be used to indicate its purpose "
+#| "- replacing the need for the entry to be labelled. Search entry fields "
+#| "are the classic example of this, where a search icon is placed on the "
+#| "left side of the entry field."
 msgid ""
-"An icon at the beginning of the entry can be used to indicate its purpose - "
+"An icon at the beginning of the entry can be used to indicate its purpose — "
 "replacing the need for the entry to be labelled. Search entry fields are the "
 "classic example of this, where a search icon is placed on the left side of "
 "the entry field."
@@ -10846,7 +11475,7 @@ msgid "Toolbars"
 msgstr "Barras de herramientas"
 
 #. (itstool) path: page/p
-#: C/toolbars.page:32
+#: C/toolbars.page:31
 msgid ""
 "A toolbar is a strip of controls that allows convenient access to commonly-"
 "used functions. Most toolbars only contain graphical buttons, but in more "
@@ -10864,7 +11493,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/toolbars.page:34
+#: C/toolbars.page:33
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/toolbar.svg' "
@@ -10874,7 +11503,7 @@ msgstr ""
 "md5='381167837829a44d064aedec78b58b95'"
 
 #. (itstool) path: section/p
-#: C/toolbars.page:39
+#: C/toolbars.page:38
 msgid ""
 "Use a toolbar to provide access to common actions, tools or options in "
 "primary windows. <link xref=\"header-bars\">Header bars</link> also perform "
@@ -10888,7 +11517,7 @@ msgstr ""
 "encabezado."
 
 #. (itstool) path: section/p
-#: C/toolbars.page:41
+#: C/toolbars.page:40
 msgid ""
 "While toolbars are a common approach, there are cases where they are not the "
 "most effective. Interfaces that focus on direct manipulation, or which make "
@@ -10905,7 +11534,7 @@ msgstr ""
 "confian en alcanzar las soluciones de diseño más originales."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:49
+#: C/toolbars.page:48
 msgid ""
 "Only include controls for the most important functions. Having too many "
 "toolbar controls reduces their efficiency by making them harder to find, and "
@@ -10919,7 +11548,7 @@ msgstr ""
 "aplicación."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:50
+#: C/toolbars.page:49
 msgid ""
 "Utilize conventions for toolbars to increase familiarity. For example, the "
 "main toolbar in an office application will nearly always have new, open and "
@@ -10933,7 +11562,7 @@ msgstr ""
 "primeros botones en un navegador deberán ser Atrás y Adelante."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:51
+#: C/toolbars.page:50
 msgid ""
 "Place only the most commonly-used application functions on your toolbars. "
 "Don’t just add buttons for every menu item."
@@ -10942,11 +11571,16 @@ msgstr ""
 "herramientas. No solo agregue botones por cada elemento de menú."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:52
+#: C/toolbars.page:51
+#| msgid ""
+#| "If you are using a <link xref=\"menu-bars\">menu bar</link>, ensure that "
+#| "it includes all the functions that appear on you toolbar, either directly "
+#| "(i.e. an equivalent menu item) or indirectly (e.g. in the "
+#| "<guiseq><gui>Options</gui><gui>Settings</gui></guiseq> dialog)."
 msgid ""
 "If you are using a <link xref=\"menu-bars\">menu bar</link>, ensure that it "
-"includes all the functions that appear on you toolbar, either directly (i.e. "
-"an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
+"includes all the functions that appear on your toolbar, either directly (i."
+"e. an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
 "gui><gui>Settings</gui></guiseq> dialog)."
 msgstr ""
 "Si esta usando una <link xref=\"menu-bars\">barra de menú</link>, asegúrese "
@@ -10956,7 +11590,7 @@ msgstr ""
 "<guiseq><gui>Opciones</gui> de <gui>Configuración</gui></guiseq>."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:53
+#: C/toolbars.page:52
 msgid ""
 "Toolbars shouldn’t include buttons for <gui>Help</gui>, <gui>Close</gui> or "
 "<gui>Quit</gui>, as these are rarely used and the space is better used for "
@@ -10973,7 +11607,7 @@ msgstr ""
 "hacerlo sin sacrificar lo mas útil, controles específicos de la aplicación."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:54
+#: C/toolbars.page:53
 msgid ""
 "Toolbar <link xref=\"buttons\">buttons</link> should have a relief, and icon "
 "buttons should use <link xref=\"icons-and-artwork#color-vs-symbolic"
@@ -10984,7 +11618,7 @@ msgstr ""
 "and-artwork#color-vs-symbolic\">iconos simbólicos</link>."
 
 #. (itstool) path: item/p
-#: C/toolbars.page:63
+#: C/toolbars.page:62
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html"
 "\">GtkToolbar</link>"
@@ -11087,11 +11721,14 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/typography.page:37
+#| msgid ""
+#| "Do not use graphical backdrops or \"watermarks\" behind text. These "
+#| "interfere with the contrast between the text and its background."
 msgid ""
-"Do not use graphical backdrops or \"watermarks\" behind text. These "
-"interfere with the contrast between the text and its background."
+"Do not use graphical backdrops or “watermarks” behind text. These interfere "
+"with the contrast between the text and its background."
 msgstr ""
-"No use imágenes de fondo o marcas de agua detrós del texto. Estas "
+"No use imágenes de fondo o marcas de agua detrás del texto. Estas "
 "interfieren con el contraste entre el texto y su fondo."
 
 #. (itstool) path: section/title
@@ -11414,15 +12051,22 @@ msgstr "Distribución visual"
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:28
+#| msgid ""
+#| "The visual layout of controls, information and content affects how easy "
+#| "it is to understand your application, as well as how beautiful it is. It "
+#| "is important to recognise that visual design has a strong impact on how "
+#| "much work is involved in using an application - poor layout results in "
+#| "users having to put in additional effort, while good layout requires less "
+#| "effort."
 msgid ""
 "The visual layout of controls, information and content affects how easy it "
-"is to understand your application, as well as how beautiful it is. It is "
-"important to recognise that visual design has a strong impact on how much "
-"work is involved in using an application - poor layout results in users "
-"having to put in additional effort, while good layout requires less effort."
+"is to understand your application. As part of this, it is important to "
+"recognise that visual design has a strong impact on how much work is "
+"involved in using an application — poor layout results in users having to "
+"put in additional effort, while good layout requires less effort."
 msgstr ""
 "El diseño visual de controles, información y contenido influye en que tan "
-"facil de comprender es su aplicación, asi como lo bien que se ve. Es "
+"fácil de comprender es su aplicación, así como lo bien que se ve. Es "
 "importante reconocer que el diseño visual tiene un fuerte impacto en cuanto "
 "trabajo esta implicado en usar una aplicación - diseños pobres resultan en "
 "que usuarios tengan que poner un esfuerzo adicional, mientras que buenos "
@@ -11431,6 +12075,13 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/visual-layout.page:30
 msgid ""
+"Good visual layout also obviously makes applications more attractive and "
+"visually pleasing."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/visual-layout.page:32
+msgid ""
 "Following these visual layout guidelines will help you to produce an "
 "application that is beautiful, easy to understand, and efficient to use."
 msgstr ""
@@ -11438,11 +12089,17 @@ msgstr ""
 "aplicación que sea agradable, fácil de comprender y eficiente de usar."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:36
+#: C/visual-layout.page:38
+#| msgid ""
+#| "An alignment point is an imaginary vertical or horizontal line through "
+#| "your window that touches the edge of one or more labels or controls in "
+#| "the window. Minimize the number of these - the fewer there are, the "
+#| "cleaner and simpler your layout will appear, and the easier it will be "
+#| "for people to understand."
 msgid ""
 "An alignment point is an imaginary vertical or horizontal line through your "
 "window that touches the edge of one or more labels or controls in the "
-"window. Minimize the number of these - the fewer there are, the cleaner and "
+"window. Minimize the number of these — the fewer there are, the cleaner and "
 "simpler your layout will appear, and the easier it will be for people to "
 "understand."
 msgstr ""
@@ -11452,7 +12109,7 @@ msgstr ""
 "simple aparecerá su diseño, y más fácil de entender será para las personas."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:37
+#: C/visual-layout.page:39
 msgid ""
 "Align content and controls in your layout exactly. The eye is very sensitive "
 "to aligned and unaligned objects. If visual elements do not line up, it will "
@@ -11465,12 +12122,12 @@ msgstr ""
 "alinean por completo serán motivo de distracción."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:38
+#: C/visual-layout.page:40
 msgid "Be consistent. Use the same amounts of spacing throughout."
 msgstr "Sea consistente. Use la misma cantidad de espacio siempre."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:39
+#: C/visual-layout.page:41
 msgid ""
 "Organize related controls and information into groups, and use spacing to "
 "differentiate them. This makes an interface far easier to read and "
@@ -11480,7 +12137,7 @@ msgstr ""
 "diferenciarlos. Esto hace una interfaz mucho más fácil de leer y entender."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:41
+#: C/visual-layout.page:43
 msgid ""
 "As a rule of thumb, leave space between elements in increments of 6 pixels, "
 "going up as the relationship between related elements becomes more distant."
@@ -11490,20 +12147,20 @@ msgstr ""
 "se vuelva mas distante."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:42
+#: C/visual-layout.page:44
 msgid "Between labels and associated components, leave 12 horizontal pixels."
 msgstr ""
 "Entre las etiquetas y componentes asociados, deje 12 píxeles horizontales."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:43
+#: C/visual-layout.page:45
 msgid ""
 "For vertical spacing between groups of components, 18 pixels is adequate."
 msgstr ""
 "Para espaciado vertical entre grupos de componentes, 18 píxeles es adecuado."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:44
+#: C/visual-layout.page:46
 msgid ""
 "A general padding of 18 pixels is recommended between the contents of a "
 "dialog window and the window borders."
@@ -11512,22 +12169,25 @@ msgstr ""
 "diálogo y el borde de la ventana."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:46
+#: C/visual-layout.page:48
 msgid "Indent elements by 12 pixels to denote hierarchy and association."
 msgstr ""
 "Sangre los elementos 12 píxeles para resaltar la jerarquía y la asociación."
 
 #. (itstool) path: item/p
-#: C/visual-layout.page:47
+#: C/visual-layout.page:49
+#| msgid ""
+#| "Avoid using frames with visible borders to separate groups of controls - "
+#| "use spacing and headers instead."
 msgid ""
-"Avoid using frames with visible borders to separate groups of controls - use "
+"Avoid using frames with visible borders to separate groups of controls — use "
 "spacing and headers instead."
 msgstr ""
-"Evite usar marcos con bordes visibles para separar grupos de controles: use "
+"Evite usar marcos con bordes visibles para separar grupos de controles — use "
 "el espaciado y las cabeceras en su lugar."
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:50
+#: C/visual-layout.page:52
 msgid "Incorrect spacing and alignment:"
 msgstr "Espaciado y alineación incorrectos:"
 
@@ -11536,7 +12196,7 @@ msgstr "Espaciado y alineación incorrectos:"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:51
+#: C/visual-layout.page:53
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-incorrect.svg' "
@@ -11546,7 +12206,7 @@ msgstr ""
 "md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:53
+#: C/visual-layout.page:55
 msgid "Correct spacing and alignment:"
 msgstr "Espaciado y alineación correctos:"
 
@@ -11555,7 +12215,7 @@ msgstr "Espaciado y alineación correctos:"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:54
+#: C/visual-layout.page:56
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-correct.svg' "
@@ -11565,7 +12225,7 @@ msgstr ""
 "md5='c918add24fa74f4eda5cde1c0ec61163'"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:56
+#: C/visual-layout.page:58
 msgid "Correct spacing, with units (pixels):"
 msgstr "Espaciado correcto, con unidades (píxeles):"
 
@@ -11574,7 +12234,7 @@ msgstr "Espaciado correcto, con unidades (píxeles):"
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:57
+#: C/visual-layout.page:59
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-spacing.svg' "
@@ -11584,12 +12244,12 @@ msgstr ""
 "md5='66643d65d5c1359f986331ee691410d6'"
 
 #. (itstool) path: section/title
-#: C/visual-layout.page:62
+#: C/visual-layout.page:64
 msgid "Label alignment"
 msgstr "Alineación de las etiquetas"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:64
+#: C/visual-layout.page:66
 msgid ""
 "If possible, right-justify labels (see the diagram below). This will avoid "
 "large gaps between labels and their associated controls. This type of right-"
@@ -11607,7 +12267,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/visual-layout.page:66
+#: C/visual-layout.page:68
 msgctxt "_"
 msgid ""
 "external ref='figures/label-alignment.svg' "
@@ -11617,12 +12277,12 @@ msgstr ""
 "md5='a55236576c454a29127913bf6fc6335e'"
 
 #. (itstool) path: section/title
-#: C/visual-layout.page:71
+#: C/visual-layout.page:73
 msgid "Visual hierarchy"
 msgstr "Jerarquia visual"
 
 #. (itstool) path: section/p
-#: C/visual-layout.page:73
+#: C/visual-layout.page:75
 msgid ""
 "Organize visual elements from top-to-bottom and left-to-right. This is the "
 "direction that people from western locales tend to read an interface, so "
@@ -11718,13 +12378,18 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:50
+#| msgid ""
+#| "Text should adopt a neutral tone and speak from the point of view of the "
+#| "product. Pronouns like “you” or \"my” should therefore be avoided "
+#| "wherever possible. However, if they are unavoidable “your” is preferable "
+#| "to “my”."
 msgid ""
 "Text should adopt a neutral tone and speak from the point of view of the "
-"product. Pronouns like “you” or \"my” should therefore be avoided wherever "
+"product. Pronouns like “you” or “my” should therefore be avoided wherever "
 "possible. However, if they are unavoidable “your” is preferable to “my”."
 msgstr ""
 "El texto debe adoptar un tono neutral y hablar desde el punto de vista del "
-"producto. Los pronombres como «usted» o «yo» se deben evitar siempre que sea "
+"producto. Los pronombres como «usted» o «mi» se deben evitar siempre que sea "
 "posible. Sin embargo, si es inevitable, «su» es preferible a «mi»."
 
 #. (itstool) path: item/p
@@ -11757,9 +12422,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:54
+#| msgid ""
+#| "Latin abbreviations such as “ie” or “eg” should be avoided, since they "
+#| "can't always be easily translated and can be unintelligable when read by "
+#| "screen readers. Instead, use full words like “for example”."
 msgid ""
 "Latin abbreviations such as “ie” or “eg” should be avoided, since they can't "
-"always be easily translated and can be unintelligable when read by screen "
+"always be easily translated and can be unintelligible when read by screen "
 "readers. Instead, use full words like “for example”."
 msgstr ""
 "Se deben evitar las abreviaturas del latín como «ie» o «eg», ya que no "
@@ -11904,6 +12573,389 @@ msgstr ""
 "incorporar funcionalidad adicional, la etiqueta no especifica una acción, y "
 "por lo tanto no necesita comunicar que se requerirá una futura entrada o "
 "confirmación."
+
+#~ msgid ""
+#~ "These Human Interface Guidelines are intended to help with the creation "
+#~ "of applications. An understanding of what an application is will help you "
+#~ "to distribute your software more effectively, as well as ensure effective "
+#~ "and consistent system integration."
+#~ msgstr ""
+#~ "Estas guías de interfaz humana están destinadas a ayudar en la creación "
+#~ "de aplicaciones. La comprensión de lo que es una aplicación le ayudará a "
+#~ "distribuir su software de manera más eficaz, así como a garantizar la "
+#~ "integración efectiva y coherente del sistema."
+
+#~ msgid ""
+#~ "An application is a distinct and independent piece of software that "
+#~ "incorporates useful functionality, and which can be installed on a user’s "
+#~ "system."
+#~ msgstr ""
+#~ "Una aplicación es una pieza distinta e independiente de software que "
+#~ "incorpora funcionalidad útil, y que se puede instalar en un sistema de "
+#~ "usuario."
+
+#~ msgid ""
+#~ "This definition can be broken down into a set of characteristics, which "
+#~ "describe an application in more detail. Applications:"
+#~ msgstr ""
+#~ "Esta definición se puede dividir en un conjunto de características que "
+#~ "describen una aplicación a detalle. Aplicaciones:"
+
+#~ msgid "Contain functionality of their own."
+#~ msgstr "Contiene su propia funcionalidad."
+
+#~ msgid ""
+#~ "At the heart of this definition is a model that allows the modular "
+#~ "installation and use of 3rd party software, in a way that avoids "
+#~ "dependency issues and ensures simplicity of use."
+#~ msgstr ""
+#~ "En el centro de esta definición esta el modelo que permite la instalación "
+#~ "modular y el uso de software de terceras partes, de tal forma que evita "
+#~ "problemas de dependencias y garantiza la simplicidad de su uso."
+
+#~ msgid ""
+#~ "In GNOME 3, only software that conforms to these characteristics should "
+#~ "install an application launcher."
+#~ msgstr ""
+#~ "En GNOME 3, solamente el software que cumpla estas características debe "
+#~ "instalar un lanzador de aplicaciones."
+
+#~ msgid ""
+#~ "The HIG provides cross-platform for those design patterns and UI elements "
+#~ "that require special treatment in cross-platform cases. Otherwise, all "
+#~ "the design patterns provided in these guidelines can be used in a cross-"
+#~ "platform manner."
+#~ msgstr ""
+#~ "Las GIH proporcionan soporte multiplataforma para patrones de diseño y "
+#~ "elementos de la IU que requieren un tratamiento especial en casos "
+#~ "multiplataforma. De otro modo, todos los patrones de diseño "
+#~ "proporcionados en esta guía se pueden usar de manera multiplataforma."
+
+#~ msgid ""
+#~ "Since some platforms provide system-level integration for <link xref="
+#~ "\"menu-bars\">menu bars</link>, this pattern is of special relevance for "
+#~ "cross-platform applications."
+#~ msgstr ""
+#~ "Dado que algunas plataformas proporcionan una integración a nivel del "
+#~ "sistema de las <link xref=\"menu-bars\">barras de menú</link>, este "
+#~ "patrón es de especial relevancia para las aplicaciones multiplataforma."
+
+#~ msgid "Common menus shown on the right side of a header bar"
+#~ msgstr ""
+#~ "Menús comunes mostrados en el lateral derecho de una barra de cabecera"
+
+#~ msgid "Header bar menus"
+#~ msgstr "Menús de la barra de encabezado"
+
+#~ msgid ""
+#~ "<link xref=\"header-bars\">Header bars</link> can include a menu which "
+#~ "contains actions and options for the current view. These menus are "
+#~ "located at the far right side of the header bar."
+#~ msgstr ""
+#~ "Las <link xref=\"header-bars\">barras de encabezado</link> pueden incluir "
+#~ "un menú que contiene acciones y opciones para la vista actual. Estos "
+#~ "menús se encuentran en el extremo derecho de la barra de encabezado."
+
+#~ msgid ""
+#~ "While the most frequently used actions for a view should be placed "
+#~ "directly in the header bar, a header bar menu provides access to lesser-"
+#~ "used actions. This ensures that the header bar isn’t overwhelmed with "
+#~ "less interesting or useful controls."
+#~ msgstr ""
+#~ "Mientras que las acciones usadas con mayor frecuencia para una vista se "
+#~ "deben colocar directamente en la barra de cabecera, un menú de la barra "
+#~ "de cabecera proporciona acceso a acciones menos utilizadas. Esto asegura "
+#~ "que la barra de cabecera no este saturada con controles menos "
+#~ "interesantes o menos útiles."
+
+#~ msgid ""
+#~ "In this way, the header bar menus help to create focused views that guide "
+#~ "the user towards the most interesting and useful functionality."
+#~ msgstr ""
+#~ "De esta forma, los menús de la barra de encabezado ayudan a crear vistas "
+#~ "enfocadas que guiarán al usuario hacia una funcionalidad más interesante "
+#~ "y útil."
+
+#~ msgid ""
+#~ "Use a header bar menu to present additional actions or options for the "
+#~ "current view. They are best used when those actions or options are not "
+#~ "used the majority of the time - if there is a set of actions which "
+#~ "deserve more prominence in the view, an <link xref=\"action-bars\">action "
+#~ "bar</link> might be a better choice."
+#~ msgstr ""
+#~ "Use un menú de la barra de cabecera para presentar acciones u opciones "
+#~ "adicionales para la vista actual. Estos se usan más cuando no se utilizan "
+#~ "estas acciones u opciones la mayoría del tiempo (si hay un conjunto de "
+#~ "acciones que merecen mayor importancia en la vista), una <link xref="
+#~ "\"action-bars\">barra de acción</link> podría ser una mejor opción."
+
+#~ msgid ""
+#~ "Header bar menus are not a good choice for performing actions on selected "
+#~ "content: when content hasn’t been selected, the menu will contain "
+#~ "unhelpful insensitive menu items, and when content has been selected, "
+#~ "possible actions will not be advertised. <link xref=\"selection-mode"
+#~ "\">Selection mode</link> or <link xref=\"popovers\">popovers</link> are a "
+#~ "better choice for this situation."
+#~ msgstr ""
+#~ "Los menús de la barra de cabecera no son una buena opción para ejecutar "
+#~ "acciones sobre un contenido seleccionado: cuando el contenido no se ha "
+#~ "seleccionado, el menú contendrá elementos de menú insensibles inútiles, y "
+#~ "cuando el contenido se ha seleccionado, no se anuncian las posibles "
+#~ "acciones. El <link xref=\"selection-mode\">Modo de selección</link> o las "
+#~ "<link xref=\"popovers\">ventanas emergentes</link> son una mejor opción "
+#~ "para esta situación."
+
+#~ msgid ""
+#~ "Header bar menus should only contain actions for the current view or "
+#~ "window - this differentiates their content from application menus."
+#~ msgstr ""
+#~ "Los menús de la barra de cabecera sólo deben contener acciones para la "
+#~ "vista o ventana actual (esto diferencia su contenido de los menús de "
+#~ "aplicación)."
+
+#~ msgid ""
+#~ "Header bar menus shouldn’t include a close menu item, since this action "
+#~ "is already provided by the header bar. It can also be ambiguous as to "
+#~ "what a close menu item refers to."
+#~ msgstr ""
+#~ "Un menú de la barra de cabecera no debe incluir un elemento de menú "
+#~ "Cerrar menú, ya que esta acción ya esta incluida en la barra de cabecera. "
+#~ "Esto también puede ser ambiguo en cuanto a lo que un elemento de menú "
+#~ "Cerrar se refiere."
+
+#~ msgid ""
+#~ "Icons play an important role in user interfaces: selecting the correct "
+#~ "icon is therefore vital to making sure that your application is usable. "
+#~ "An identifying icon is also an essential part of any application, and is "
+#~ "a crucial part of its identity."
+#~ msgstr ""
+#~ "Los iconos juegan un papel importante en las interfaces de usuario: "
+#~ "seleccionar el icono correcto es, por lo tanto, vital para asegurarse de "
+#~ "que su aplicación es usable. Un icono identificativo es una parte "
+#~ "esencial de cualquier aplicación, y es una parte crucial de su identidad."
+
+#~ msgid ""
+#~ "There are many situations when it is necessary to decide between using an "
+#~ "icon and a text label, particularly for buttons. Icons have the advantage "
+#~ "of being smaller, and not requiring translation. At the same time, the "
+#~ "incorrect use of an icon can make your interface hard - or even "
+#~ "impossible - to understand."
+#~ msgstr ""
+#~ "Hay muchas situaciones en las que es necesario elegir entre usar un icono "
+#~ "y usar una etiqueta de texto, particularmente en los botones. Los iconos "
+#~ "tienen la ventaja de ser más pequeños y no requieren traducción. Al mismo "
+#~ "tiempo, el uso incorrecto de un icono puede hacer que interfaz sea "
+#~ "difícil (o imposible) de entender."
+
+#~ msgid ""
+#~ "Only use icons whose meaning is commonly recognized. If a commonly "
+#~ "recognized icon is not available, it might be better to use a text label "
+#~ "instead."
+#~ msgstr ""
+#~ "Use sólo iconos cuyo significado es comúnmente reconocido. Si no hay "
+#~ "disponibles un icono reconocido habitualmente, es preferible usar una "
+#~ "etiqueta de texto en su lugar."
+
+#~ msgid ""
+#~ "Convention establishes which icons will be recognized. If you are in "
+#~ "doubt, stick to icons which are frequently used in other applications."
+#~ msgstr ""
+#~ "El convenio establece qué iconos se reconocerán. Si tiene dudas, elija "
+#~ "iconos que se usen frecuentemente en otras aplicaciones."
+
+#~ msgid "Choosing stock GNOME icons"
+#~ msgstr "Elegir iconos del almacén de GNOME"
+
+#~ msgid ""
+#~ "GNOME provides a full set of standard icons. These should be used where "
+#~ "ever appropriate; try to avoid creating custom icons unless they are "
+#~ "absolutely necessary."
+#~ msgstr ""
+#~ "GNOME proporciona un conjunto completo de iconos estándar. Estos se deben "
+#~ "usar donde sea apropiado; intente evitar crear iconos personalizados a "
+#~ "menos que sea absolutamente necesario."
+
+#~ msgid ""
+#~ "Follow the icon naming specification when selecting which icons to use - "
+#~ "the name of the icon should reflect what the icon is intended to "
+#~ "communicate. This is important for those using a screen reader."
+#~ msgstr ""
+#~ "Siga la especificación de nombrado de iconos al selecciona qué iconos "
+#~ "usar; el nombre del icono debe reflejar lo que el icono pretende "
+#~ "comunicar. Esto es importante para aquellas personas que usan un lector "
+#~ "de pantalla."
+
+#~ msgid "You can use the GTK+ icon browser to find recommended icons."
+#~ msgstr ""
+#~ "Puede usar el icono del navegador GTK+ para encontrar iconos recomendados."
+
+#~ msgid "Color vs. symbolic icons"
+#~ msgstr "Iconos de color frente a iconos simbólicos"
+
+#~ msgid ""
+#~ "GNOME 3 provides two types of icon: full-color and monochrome symbolic "
+#~ "icons. The guidelines in this HIG indicate when to use which type of "
+#~ "icon. The following is a a general guide."
+#~ msgstr ""
+#~ "GNOME 3 proporciona dos tipos de iconos: a todo color y simbólicos "
+#~ "monocromo. Los consejos de esta guía indican cuando usar cada tipo de "
+#~ "icono. Lo siguiente es una guía general."
+
+#~ msgid "Full-color icons should be used for:"
+#~ msgstr "Los iconos a todo color se deben usar para:"
+
+#~ msgid "devices"
+#~ msgstr "dispositivos"
+
+#~ msgid "filetypes/mimetypes"
+#~ msgstr "tipos de archivo/tipos MIME"
+
+#~ msgid ""
+#~ "All other icons should use the symbolic icon style. In addition, symbolic "
+#~ "icons should always be used inside:"
+#~ msgstr ""
+#~ "Todos los demás iconos deben usar el estilo de icono simbólico. Además, "
+#~ "los iconos simbólicos se deben usar siempre en:"
+
+#~ msgid "buttons"
+#~ msgstr "botones"
+
+#~ msgid "lists"
+#~ msgstr "listas"
+
+#~ msgid "entry fields"
+#~ msgstr "campos de entrada"
+
+#~ msgid ""
+#~ "when the background is semi-transparent (such as overlaid media or "
+#~ "fullscreen controls)"
+#~ msgstr ""
+#~ "cuando el fondo sea semi-transparente (como en medios superpuestos o "
+#~ "controles a pantalla completa)"
+
+#~ msgid ""
+#~ "Because application icons are presented at larger sizes, legacy Tango "
+#~ "styled 48x48 px or SVG icons no longer suffice (lacking detail). It is "
+#~ "essential your application has a 256x256 px icon. With the advent of high-"
+#~ "DPI displays, a 512x512 px variant is recommended."
+#~ msgstr ""
+#~ "Dado que los iconos de aplicación se muestran en tamaños más grandes, los "
+#~ "iconos heredados de Tango de 48x48px o los SVG no son suficientes (faltan "
+#~ "detalles). Es esencial que su aplicación tenga un icono de 256x256px. Con "
+#~ "la llegada de las pantallas de alta definición, se recomienda una "
+#~ "variante de 512x512px."
+
+#~ msgid ""
+#~ "While not as critical, there are still areas where application icons are "
+#~ "presented at a small size. To keep the icon sharp and well defined, a "
+#~ "specific rendering is required to sizes of 48x48 px, 32x32 px, 24x24 px "
+#~ "and 16x16 px. Many GNOME icons also ship a 22x22 px size for legacy "
+#~ "reasons, but that isn’t required."
+#~ msgstr ""
+#~ "Aunque no es tan critico, hay áreas todavía donde los iconos de las "
+#~ "aplicaciones se muestran en tamaño pequeño. Para mantener el icono claro "
+#~ "y bien definido se requiere un renderizado específico a los tamaños de "
+#~ "48x48px 32x32px, 24x24px y 16x16px. Muchos iconos de GNOME también "
+#~ "proporcionan un tamaño de 22x22px por razones de compatibilidad, pero eso "
+#~ "no es obligatorio."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/sizes-small-24.png' "
+#~ "md5='73497b1da8a7dad694466f6f1f2f3dab'"
+#~ msgstr ""
+#~ "external ref='figures/icons/sizes-small-24.png' "
+#~ "md5='73497b1da8a7dad694466f6f1f2f3dab'"
+
+#~ msgid ""
+#~ "To maintain crispness, a lot of detail is discarded for the low "
+#~ "resolution variants and a 1px stroke is used to outline the silhouette of "
+#~ "the object."
+#~ msgstr ""
+#~ "Para mantener la frescura, en las versiones de baja resolución se "
+#~ "descartan muchos detalles y se usa una sombra de 1px para bordear la "
+#~ "silueta del objeto."
+
+#~ msgid ""
+#~ "More information on designing an application icon can be found below, in "
+#~ "the custom full-color icon section."
+#~ msgstr ""
+#~ "A continuación puede encontrar más información sobre el diseño del icono "
+#~ "de una aplicación, en la sección de iconos a todo color personalizados"
+
+#~ msgid ""
+#~ "Filled shapes are generally faster to process by the human visual system "
+#~ "than wireframe outlines."
+#~ msgstr ""
+#~ "Las formas rellenas son generalmente un proceso más rápido para el "
+#~ "sistema visual humano que los marcos externos."
+
+#~ msgid ""
+#~ "Full-color icons are drawn and rendered at a variety of preset sizes."
+#~ msgstr ""
+#~ "Los iconos a todo color se dibujan y renderizan en una amplia variedad de "
+#~ "tamaños predefinidos."
+
+#~ msgid ""
+#~ "Most icons can be executed best by using the “on the table” perspective, "
+#~ "as if the observer was standing in front of the object and looking "
+#~ "slightly down on it. Many icons can be rendered with a simple “straight "
+#~ "on” or “on the shelf” perspective, with the observer looking directly at "
+#~ "the object at eye level."
+#~ msgstr ""
+#~ "La mayoría de los iconos se pueden usar mejor usando la perspectiva «de "
+#~ "tabla», como si el observador estuviera de pie frente al objeto y "
+#~ "mirándolo ligeramente hacia abajo. La mayoría de los iconos se pueden "
+#~ "mostrar simplemente con una perspectiva «recta» o «en estantería», con el "
+#~ "observador mirando directamente al objeto al nivel de los ojos."
+
+#~ msgid ""
+#~ "Use the Tango color palette when designing full color application or "
+#~ "device icons."
+#~ msgstr ""
+#~ "Use la paleta de color de Tango al diseñar iconos de dispositivo o de "
+#~ "aplicación a todo color."
+
+#~ msgid "Butter"
+#~ msgstr "Mantequilla"
+
+#~ msgid "Plum"
+#~ msgstr "Ciruela"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "Rojo escarlata"
+
+#~ msgid "Chocolate"
+#~ msgstr "Chocolate"
+
+#~ msgid "Aluminium"
+#~ msgstr "Aluminio"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/aluminium1.svg' "
+#~ "md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/aluminium1.svg' "
+#~ "md5='a1d07812dd19a1e94cae3ea6fc9c0a58'"
+
+#~ msgid "Chameleon"
+#~ msgstr "Camaleón"
+
+#~ msgid "See also"
+#~ msgstr "Consulte también"
+
+#~ msgid ""
+#~ "<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+#~ "\">Tango Icon Guidelines</link>"
+#~ msgstr ""
+#~ "<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+#~ "\">Guías de iconos Tango</link>"
+
+#~ msgid ""
+#~ "Every application should have at least one primary window associated with "
+#~ "it."
+#~ msgstr "Cada aplicación debe tener al menos una ventana primaria asociada."
 
 #~ msgid ""
 #~ "Your application should cease to run when all its primary windows have "
@@ -14389,14 +15441,6 @@ msgstr ""
 #~ msgctxt "_"
 #~ msgid "external ref='images/icons-system-log.eps' md5='__failed__'"
 #~ msgstr "external ref='images/icons-system-log.eps' md5='__failed__'"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='images/icons-shut-down.png' "
-#~ "md5='4a43ae07dcbed286be7bcf14529b3a9f'"
-#~ msgstr ""
-#~ "external ref='images/icons-shut-down.png' "
-#~ "md5='4a43ae07dcbed286be7bcf14529b3a9f'"
 
 #~ msgctxt "_"
 #~ msgid "external ref='images/icons-shut-down.eps' md5='__failed__'"
@@ -17309,9 +18353,6 @@ msgstr ""
 #~ msgid "Denote primary text with the pango markup: <_:programlisting-1/>"
 #~ msgstr "Note el texto primario con el marcado pango: <_:programlisting-1/>"
 
-#~ msgid "Secondary Text"
-#~ msgstr "Texto secundario"
-
 #~ msgid ""
 #~ "Secondary text provides a more in-depth description of the problem and "
 #~ "suggested action, including possible side effects. Secondary text can "
@@ -18631,9 +19672,6 @@ msgstr ""
 #~ "muestran los títulos de los menús, hasta que el usuario pulsa en uno de "
 #~ "ellos."
 
-#~ msgid "Full screen mode"
-#~ msgstr "Modo a pantalla completa"
-
 #~ msgid ""
 #~ "When your application is running in full screen mode, hide the menubar by "
 #~ "default. However, make its menus and items accessible from the keyboard "
@@ -19754,9 +20792,6 @@ msgstr ""
 
 #~ msgid "<guimenuitem>P<accel>a</accel>ge...</guimenuitem>"
 #~ msgstr "<guimenuitem>Pagi<accel>n</accel>a...</guimenuitem>"
-
-#~ msgid "Icons"
-#~ msgstr "Iconos"
 
 #~ msgid "A generic Bookmarks menu"
 #~ msgstr "Un menú «Marcadores» genérico"
