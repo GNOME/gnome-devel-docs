@@ -105,7 +105,9 @@
 <section id="touch-input">
 <title>Touch input</title>
 
-<p>Touch screens are also an increasingly common part of modern computer hardware, and applications created with GTK+ are likely to be used with hardware that incorporates a touch screen. To make the most of this hardware, and to conform to users’ expectations, it is therefore important to consider touch input as a part of application design.</p>
+<p>Touch screens are a common part of modern computer hardware, and applications created with GTK+ are likely to be used with hardware that incorporates a touch screen. To make the most of this hardware, and to conform to users’ expectations, it is therefore important to consider touch input as a part of application design.</p>
+
+<p>One important aspect of this is ensuring that the touch target sizes of UI elements are big enough to be usable by most people. The minimum recommended target size is 9 millimeters. This translates to about 34 pixels on regular DPI screens.</p>
 
 <section id="application-touch-conventions">
 <title>Application touch conventions</title>
