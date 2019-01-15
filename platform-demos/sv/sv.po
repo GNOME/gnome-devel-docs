@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-03-30 21:35+0000\n"
-"PO-Revision-Date: 2018-05-06 23:49+0200\n"
+"POT-Creation-Date: 2018-12-29 15:57+0000\n"
+"PO-Revision-Date: 2019-01-15 13:33+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -152,6 +152,11 @@ msgid ""
 "imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"const Gtk = imports.gi.Gtk;\n"
 
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:49
@@ -263,6 +268,9 @@ msgid ""
 "        // Create an image\n"
 "        this._image = new Gtk.Image ({ file: \"gnome-image.png\" });\n"
 msgstr ""
+"\n"
+"        // Skapa en bild\n"
+"        this._image = new Gtk.Image ({ file: \"gnome-image.png\" });\n"
 
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:101
@@ -274,12 +282,15 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/02_welcome_to_the_grid.js.page:103
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        // Create a label\n"
 "        this._label = new Gtk.Label ({ label: \"Welcome to GNOME, too!\" });\n"
 msgstr ""
+"\n"
+"        // Skapa en etikett\n"
+"        this._label = new Gtk.Label ({ label: \"Welcome to GNOME, too!\" });\n"
 
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:107
@@ -716,7 +727,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/02_welcome_to_the_grid.js.page:255 C/03_getting_the_signal.js.page:336 C/hellognome.js.page:187
+#: C/02_welcome_to_the_grid.js.page:255 C/03_getting_the_signal.js.page:336 C/hellognome.js.page:191
 msgid "What's next?"
 msgstr ""
 
@@ -764,7 +775,7 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/02_welcome_to_the_grid.js.page:274 C/checkbutton.js.page:130 C/comboboxtext.js.page:171 C/combobox.js.page:228
-#: C/hellognome.js.page:194 C/messagedialog.js.page:184 C/radiobutton.js.page:269 C/scale.js.page:203
+#: C/hellognome.js.page:198 C/messagedialog.js.page:184 C/radiobutton.js.page:269 C/scale.js.page:203
 #: C/spinbutton.js.page:194 C/statusbar.js.page:216 C/switch.js.page:259 C/textview.js.page:243
 #: C/togglebutton.js.page:148 C/treeview_simple_liststore.js.page:267
 msgid "Complete code sample"
@@ -1234,6 +1245,8 @@ msgid ""
 "\n"
 "        this._cookieSwitch = new Gtk.Switch ({ active: true });\n"
 msgstr ""
+"\n"
+"        this._cookieSwitch = new Gtk.Switch ({ active: true });\n"
 
 #. (itstool) path: section/p
 #: C/03_getting_the_signal.js.page:178
@@ -11858,6 +11871,7 @@ msgid ""
 "&lt;!DOCTYPE html&gt;\n"
 "&lt;html&gt;\n"
 "    &lt;head&gt;\n"
+"        &lt;meta charset=\"utf-8\"&gt;\n"
 "        &lt;title&gt;Hello, GNOME!&lt;/title&gt;\n"
 "\n"
 "        &lt;!-- Use JavaScript to show a greeting when someone clicks the button --&gt;\n"
@@ -11886,7 +11900,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:63
+#: C/hellognome.js.page:64
 msgid "Let's save this as <file>hellognome.html</file>, and see what it looks like when we run it!"
 msgstr ""
 
@@ -11895,14 +11909,14 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/hellognome.js.page:65
+#: C/hellognome.js.page:66
 #, fuzzy
 msgctxt "_"
 msgid "external ref='media/hellognomewebapp.png' md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
 msgstr "external ref='media/hellognomewebapp.png' md5='948efb6148ede3bc6b47b4b0bbe4a74f'"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:67
+#: C/hellognome.js.page:68
 msgid ""
 "You <em>can</em> run the above code by opening <file>hellognome.html</file> in a web browser. But here, we're "
 "going to create a GNOME application that runs our web app inside of it, just like you see in the screenshot. "
@@ -11911,19 +11925,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:68
+#: C/hellognome.js.page:69
 msgid ""
 "The best part? We're going to continue to use JavaScript, to write all the parts that make our app work with "
 "GNOME. Let's look at the code, and see how it's done!"
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/hellognome.js.page:72
+#: C/hellognome.js.page:73
 msgid "Creating a GNOME window to frame our web app"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:74
+#: C/hellognome.js.page:75
 msgid ""
 "First, we need to tell GNOME that this is a JavaScript application, which uses gjs. Gjs is GNOME's way of turning "
 "your JavaScript code into instructions it understands, so this line always has to go at the start of your "
@@ -11931,7 +11945,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:75
+#: C/hellognome.js.page:76
 #, no-wrap
 msgid ""
 "\n"
@@ -11941,97 +11955,135 @@ msgstr ""
 "#!/usr/bin/gjs\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:78
+#: C/hellognome.js.page:79
+msgid "Then we should set the versions of the libraries we'll be using."
+msgstr ""
+
+#. (itstool) path: section/code
+#: C/hellognome.js.page:80
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "#!/usr/bin/gjs\n"
+#| "\n"
+#| "imports.gi.versions.Gtk = '3.0';\n"
+#| "\n"
+#| "const Gio = imports.gi.Gio;\n"
+#| "const Gtk = imports.gi.Gtk;\n"
+msgid ""
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
+msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"\n"
+"const Gio = imports.gi.Gio;\n"
+"const Gtk = imports.gi.Gtk;\n"
+
+#. (itstool) path: section/p
+#: C/hellognome.js.page:84
 msgid "After that, we need to tell GNOME which libraries we want to import."
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:79
-#, no-wrap
+#: C/hellognome.js.page:85
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "#!/usr/bin/gjs\n"
+#| "\n"
+#| "const Gtk = imports.gi.Gtk;\n"
+#| "const Lang = imports.lang;\n"
 msgid ""
 "\n"
 "const GLib = imports.gi.GLib;\n"
 "const Gtk = imports.gi.Gtk;\n"
-"const Lang = imports.lang;\n"
-"const Webkit = imports.gi.WebKit;\n"
+"const Webkit = imports.gi.WebKit2;\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"const Gtk = imports.gi.Gtk;\n"
+"const Lang = imports.lang;\n"
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:85
+#: C/hellognome.js.page:90
 msgid ""
 "Just like how add-on libraries like jQuery let us do extra things with JavaScript, each of these libraries gives "
 "us new capabilities for our GNOME apps:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/hellognome.js.page:87
+#: C/hellognome.js.page:92
 msgid ""
-"<file>Gtk</file> and <file>Lang</file> are basic parts of any GNOME application, which let you create windows and "
-"widgets and tie them together."
+"<file>Gtk</file> is the basic part of any GNOME application, which lets you create windows and widgets and tie "
+"them together."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/hellognome.js.page:88
+#: C/hellognome.js.page:93
 msgid ""
 "<file>GLib</file> is a helper library, which lets us do things like tell GNOME where the <file>hellognome.html</"
 "file> file we created is."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/hellognome.js.page:89
+#: C/hellognome.js.page:94
 msgid ""
 "And <file>Webkit</file> is a web rendering engine, which we'll use to basically create a browser window to open "
 "our HTML file with."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:92
+#: C/hellognome.js.page:97
 msgid "Now we create the application itself:"
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:93
+#: C/hellognome.js.page:98
 #, no-wrap
 msgid ""
 "\n"
-"const HelloGNOME = new Lang.Class ({\n"
-"    Name: 'Hello GNOME',\n"
+"class HelloGNOME {\n"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:97
+#: C/hellognome.js.page:101
 msgid ""
 "This will look familiar to you if you've worked with object-oriented JavaScript before. That's right; our whole "
-"application is a class called HelloGNOME. And as you can see, we've given it a property that says what its name is."
+"application is a class called HelloGNOME."
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:99
+#: C/hellognome.js.page:103
 #, no-wrap
 msgid ""
 "\n"
 "    // Create the application itself\n"
-"    _init: function () {\n"
-"        this.application = new Gtk.Application ();\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application();\n"
 "\n"
 "        // Connect 'activate' and 'startup' signals to the callback functions\n"
-"        this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-"        this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-"    },\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 "\n"
 "    // Callback function for 'activate' signal presents windows when active\n"
-"    _onActivate: function () {\n"
-"        this._window.present ();\n"
-"    },\n"
+"    _onActivate() {\n"
+"        this._window.present();\n"
+"    }\n"
 "\n"
 "    // Callback function for 'startup' signal builds the UI\n"
-"    _onStartup: function () {\n"
-"        this._buildUI ();\n"
-"    },\n"
+"    _onStartup() {\n"
+"        this._buildUI();\n"
+"    }\n"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:119
+#: C/hellognome.js.page:123
 msgid ""
 "Here's some code you will more or less copy-and-paste for every JavaScript application you build. It creates a new "
 "Application, and then binds its activate and startup signals to functions that make the window show itself and "
@@ -12039,17 +12091,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:120
+#: C/hellognome.js.page:124
 msgid ""
 "What does that mean? Well, everything in a GNOME application sends out a signal when something important happens. "
 "A button might send out the clicked signal when you click on it, for instance. Our job is to connect the signals "
 "to functions which handle them, and make the things that we want to have happen occur. We do this using each "
-"object's connect method, which takes two arguments: The signal we want to handle, and the Lang.bind function, "
-"which we have to use to tell connect which function we want to have handle the signal."
+"object's connect method, which takes two arguments: The signal we want to handle, and the bound function, which we "
+"have to use to tell connect which function we want to have handle the signal."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:121
+#: C/hellognome.js.page:125
 msgid ""
 "In this case, we want _onActivate to handle the activate signal, and _onStartup to handle the startup signal. "
 "_onActivate just tells the window to present itself; so basically, whenever you <keyseq><key>Alt</key> <key>Tab</"
@@ -12058,31 +12110,31 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: note/p
-#: C/hellognome.js.page:122
+#: C/hellognome.js.page:126
 msgid ""
-"When you copy and paste the above code for your own applications, be sure to change the name to a unique one each "
-"time."
+"When you copy and paste the above code for your own applications, be sure to change the class name to a unique one "
+"each time."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/hellognome.js.page:126
+#: C/hellognome.js.page:130
 msgid "Designing our window's UI"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:127
+#: C/hellognome.js.page:131
 msgid ""
 "In the _buildUI function, we're going to tell GNOME about our window and the things inside it, one at a time. "
 "After that, we're going to connect everything together and put it all on display."
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:129
+#: C/hellognome.js.page:133
 #, no-wrap
 msgid ""
 "\n"
 "    // Build the application's UI\n"
-"    _buildUI: function () {\n"
+"    _buildUI() {\n"
 "\n"
 "        // Create the application window\n"
 "        this._window = new Gtk.ApplicationWindow  ({\n"
@@ -12094,7 +12146,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:142
+#: C/hellognome.js.page:146
 msgid ""
 "The first object we create is an ApplicationWindow. It needs a title to go in the title bar, and its application "
 "property needs to be the application that we created, above. Beyond that, there are various ways of customizing "
@@ -12104,7 +12156,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:143
+#: C/hellognome.js.page:147
 #, no-wrap
 msgid ""
 "\n"
@@ -12117,7 +12169,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:151
+#: C/hellognome.js.page:155
 msgid ""
 "Remember how we imported Webkit right at the start? Here we're creating a new instance of a Webkit class called a "
 "WebView, which is more or less a browser window you can put inside of your app. After that, we then give it the "
@@ -12125,7 +12177,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:152
+#: C/hellognome.js.page:156
 msgid ""
 "We <em>could</em> just give it a web URI, like <link href=\"http://gnome.org\">http://gnome.org</link>. Instead, "
 "here we use a couple of GLib helper functions to tell the WebView where our <file>hellognome.html</file> file is. "
@@ -12135,7 +12187,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:153
+#: C/hellognome.js.page:157
 #, no-wrap
 msgid ""
 "\n"
@@ -12150,7 +12202,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:163
+#: C/hellognome.js.page:167
 msgid ""
 "Each window can hold one, and only one, widget. Normally, we'd use a container widget like a <link xref=\"grid.js"
 "\">Grid</link> to put multiple widgets into, then use the window's add function to add the Grid to it. Here, we "
@@ -12159,7 +12211,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:164
+#: C/hellognome.js.page:168
 #, no-wrap
 msgid ""
 "\n"
@@ -12169,17 +12221,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:169
+#: C/hellognome.js.page:173
 msgid "Finally, we create a new instance of our HelloGNOME class, and tell GNOME to run it."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/hellognome.js.page:173
+#: C/hellognome.js.page:177
 msgid "Running your GNOME application"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:175
+#: C/hellognome.js.page:179
 msgid ""
 "Now that we've created our first GNOME application, it's time to test it out! You don't need to compile your app "
 "or install any special software for this; GNOME has gjs built in, to let it run GNOME Shell. Just save "
@@ -12189,31 +12241,31 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/screen
-#: C/hellognome.js.page:176
+#: C/hellognome.js.page:180
 #, no-wrap
 msgid " <output style=\"prompt\">$ </output>gjs hellognome.js "
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:177
+#: C/hellognome.js.page:181
 msgid ""
 "You should see more or less the same screenshot as before, with a button that you can click to make a short "
 "message appear."
 msgstr ""
 
 #. (itstool) path: note/p
-#: C/hellognome.js.page:180
+#: C/hellognome.js.page:184
 msgid "You can use the terminal command"
 msgstr ""
 
 #. (itstool) path: note/screen
-#: C/hellognome.js.page:181
+#: C/hellognome.js.page:185
 #, no-wrap
 msgid " <output style=\"prompt\">$ </output>cd <var>(directory name)</var> "
 msgstr ""
 
 #. (itstool) path: note/p
-#: C/hellognome.js.page:182
+#: C/hellognome.js.page:186
 msgid ""
 "to navigate between directories inside the Terminal, in order to get to where you saved the files. There is also "
 "an extension for Nautilus, GNOME's file manager, which lets you right-click anywhere inside it to open a terminal "
@@ -12222,7 +12274,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:189
+#: C/hellognome.js.page:193
 msgid ""
 "<link xref=\"02_welcome_to_the_grid.js\">Continue on to the next tutorial</link> to learn how to build \"native\" "
 "GNOME applications that look and feel like the others, instead of a webview with HTML code inside. Or take a look "
@@ -12231,7 +12283,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/hellognome.js.page:190
+#: C/hellognome.js.page:194
 msgid ""
 "Finally, if you want to just build GNOME applications using JavaScript libraries designed for the web, you can "
 "basically stop here and go do that! Check out <link xref=\"beginner.js#tutorials\">the later tutorials</link> if "
@@ -12240,16 +12292,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/hellognome.js.page:195
+#: C/hellognome.js.page:199
 #, no-wrap
 msgid ""
 "#!/usr/bin/gjs\n"
 "\n"
 "imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
 "\n"
 "const GLib = imports.gi.GLib;\n"
 "const Gtk = imports.gi.Gtk;\n"
-"const Webkit = imports.gi.WebKit;\n"
+"const Webkit = imports.gi.WebKit2;\n"
 "\n"
 "class HelloGNOME {\n"
 "\n"
@@ -20985,7 +21038,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/photo-wall.c.page:84
-#, fuzzy
 msgctxt "_"
 msgid "external ref='media/photo-wall.png' md5='f19590d97e8ec029cda3c44b769c11cd'"
 msgstr "external ref='media/photo-wall.png' md5='f19590d97e8ec029cda3c44b769c11cd'"
@@ -21003,7 +21055,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/photo-wall.c.page:87
-#, fuzzy
 msgctxt "_"
 msgid "external ref='media/photo-wall-focused.png' md5='9f1ceecf3a28c1e468597b093a10cbae'"
 msgstr "external ref='media/photo-wall-focused.png' md5='9f1ceecf3a28c1e468597b093a10cbae'"
@@ -21045,6 +21096,26 @@ msgid ""
 "static ClutterPoint unfocused_pos;\n"
 "\n"
 msgstr ""
+"\n"
+"#include &lt;gdk-pixbuf/gdk-pixbuf.h&gt;\n"
+"#include &lt;clutter/clutter.h&gt;\n"
+"\n"
+"#define STAGE_WIDTH  800\n"
+"#define STAGE_HEIGHT 600\n"
+"\n"
+"#define THUMBNAIL_SIZE 200\n"
+"#define ROW_COUNT (STAGE_HEIGHT / THUMBNAIL_SIZE)\n"
+"#define COL_COUNT (STAGE_WIDTH  / THUMBNAIL_SIZE)\n"
+"#define THUMBNAIL_COUNT (ROW_COUNT * COL_COUNT)\n"
+"\n"
+"#define ANIMATION_DURATION_MS 500\n"
+"\n"
+"#define IMAGE_DIR_PATH \"./berlin_images/\"\n"
+"\n"
+"static GPtrArray *img_paths;\n"
+"\n"
+"static ClutterPoint unfocused_pos;\n"
+"\n"
 
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:119
@@ -21230,6 +21301,40 @@ msgid ""
 "}\n"
 "\n"
 msgstr ""
+"\n"
+"guint row = 0;\n"
+"guint col = 0;\n"
+"for(row=0; row &lt; ROW_COUNT; ++row)\n"
+"{\n"
+"    for(col=0; col &lt; COL_COUNT; ++col)\n"
+"    {\n"
+"        const char *img_path = g_ptr_array_index(img_paths, (row * COL_COUNT) + col);\n"
+"        GdkPixbuf *pixbuf = gdk_pixbuf_new_from_file_at_size(img_path, STAGE_HEIGHT, STAGE_HEIGHT, NULL);\n"
+"        ClutterContent *image = clutter_image_new ();\n"
+"        ClutterActor *actor = clutter_actor_new ();\n"
+"\n"
+"        if (pixbuf != NULL)\n"
+"        {\n"
+"            clutter_image_set_data(CLUTTER_IMAGE(image),\n"
+"                                   gdk_pixbuf_get_pixels(pixbuf),\n"
+"                                   gdk_pixbuf_get_has_alpha(pixbuf)\n"
+"                                       ? COGL_PIXEL_FORMAT_RGBA_8888\n"
+"                                       : COGL_PIXEL_FORMAT_RGB_888,\n"
+"                                   gdk_pixbuf_get_width(pixbuf),\n"
+"                                   gdk_pixbuf_get_height(pixbuf),\n"
+"                                   gdk_pixbuf_get_rowstride(pixbuf),\n"
+"                                   NULL);\n"
+"        }\n"
+"\n"
+"        clutter_actor_set_content(actor, image);\n"
+"        g_object_unref(image);\n"
+"        g_object_unref(pixbuf);\n"
+"\n"
+"        initialize_actor(actor, row, col);\n"
+"        clutter_actor_add_child(stage, actor);\n"
+"    }\n"
+"}\n"
+"\n"
 
 #. (itstool) path: item/p
 #: C/photo-wall.c.page:239
@@ -21661,6 +21766,7 @@ msgstr ""
 msgid ""
 "<link href=\"http://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-timeout-add\">G_Timeout</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-timeout-add\">G_Timeout</link>"
 
 #. (itstool) path: info/title
 #: C/progressbar.js.page:7
@@ -22032,7 +22138,7 @@ msgstr ""
 #: C/py.page:7
 msgctxt "link"
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #. (itstool) path: page/title
 #: C/py.page:21
@@ -22574,6 +22680,10 @@ msgid ""
 "let app = new RadioButtonExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new RadioButtonExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/radiobutton.js.page:265 C/togglebutton.js.page:144
@@ -23141,6 +23251,30 @@ msgid ""
 "\n"
 "Gtk.main ();"
 msgstr ""
+"\n"
+"const GLib = imports.gi.GLib;\n"
+"const Gtk = imports.gi.Gtk;\n"
+"const Gda = imports.gi.Gda;\n"
+"const Lang = imports.lang;\n"
+"\n"
+"function Demo () {\n"
+"  this._init ();\n"
+"}\n"
+"\n"
+"Demo.prototype = {\n"
+"\n"
+"  _init: function () {\n"
+"    this.setupWindow ();\n"
+"    this.setupDatabase ();\n"
+"    this.selectData ();\n"
+"  }\n"
+"}\n"
+"\n"
+"Gtk.init (null, null);\n"
+"\n"
+"var demo = new Demo ();\n"
+"\n"
+"Gtk.main ();"
 
 #. (itstool) path: item/p
 #: C/record-collection.js.page:103
@@ -23568,12 +23702,12 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/response-type.page:17
 msgid "enum ResponseType"
-msgstr ""
+msgstr "enum ResponseType"
 
 #. (itstool) path: item/title
 #: C/response-type.page:21
 msgid "ResponseType.NONE = -1"
-msgstr ""
+msgstr "ResponseType.NONE = -1"
 
 #. (itstool) path: item/p
 #: C/response-type.page:22
@@ -23583,7 +23717,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:25
 msgid "ResponseType.REJECT = -2"
-msgstr ""
+msgstr "ResponseType.REJECT = -2"
 
 #. (itstool) path: item/p
 #: C/response-type.page:26 C/response-type.page:30
@@ -23593,12 +23727,12 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:29
 msgid "ResponseType.ACCEPT = -3"
-msgstr ""
+msgstr "ResponseType.ACCEPT = -3"
 
 #. (itstool) path: item/title
 #: C/response-type.page:33
 msgid "ResponseType.DELETE_EVENT = -4"
-msgstr ""
+msgstr "ResponseType.DELETE_EVENT = -4"
 
 #. (itstool) path: item/p
 #: C/response-type.page:34
@@ -23608,7 +23742,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:37
 msgid "ResponseType.OK = -5"
-msgstr ""
+msgstr "ResponseType.OK = -5"
 
 #. (itstool) path: item/p
 #: C/response-type.page:38
@@ -23618,7 +23752,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:41
 msgid "ResponseType.CANCEL = -6"
-msgstr ""
+msgstr "ResponseType.CANCEL = -6"
 
 #. (itstool) path: item/p
 #: C/response-type.page:42
@@ -23628,7 +23762,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:45
 msgid "ResponseType.CLOSE = -7"
-msgstr ""
+msgstr "ResponseType.CLOSE = -7"
 
 #. (itstool) path: item/p
 #: C/response-type.page:46
@@ -23638,7 +23772,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:49
 msgid "ResponseType.YES = -8"
-msgstr ""
+msgstr "ResponseType.YES = -8"
 
 #. (itstool) path: item/p
 #: C/response-type.page:50
@@ -23648,7 +23782,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:53
 msgid "ResponseType.NO = -9"
-msgstr ""
+msgstr "ResponseType.NO = -9"
 
 #. (itstool) path: item/p
 #: C/response-type.page:54
@@ -23658,7 +23792,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:57
 msgid "ResponseType.APPLY = -10"
-msgstr ""
+msgstr "ResponseType.APPLY = -10"
 
 #. (itstool) path: item/p
 #: C/response-type.page:58
@@ -23668,7 +23802,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/response-type.page:61
 msgid "ResponseType.HELP = -11"
-msgstr ""
+msgstr "ResponseType.HELP = -11"
 
 #. (itstool) path: item/p
 #: C/response-type.page:62
@@ -24197,6 +24331,10 @@ msgid ""
 "let app = new ScaleExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new ScaleExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/scale.js.page:199
@@ -24495,6 +24633,10 @@ msgid ""
 "self.h_scale.set_fill_level(self.h_scale.get_value())\n"
 "self.h_scale.set_show_fill_level(True)"
 msgstr ""
+"\n"
+"self.h_scale.set_restrict_to_fill_level(False)\n"
+"self.h_scale.set_fill_level(self.h_scale.get_value())\n"
+"self.h_scale.set_show_fill_level(True)"
 
 #. (itstool) path: item/p
 #: C/scale.py.page:46
@@ -24719,6 +24861,8 @@ msgid ""
 "<link href=\"http://developer.gnome.org/gtk/stable/gtk3-Standard-Enumerations.html#GtkPolicyType\">GtkPolicyType</"
 "link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/gtk/stable/gtk3-Standard-Enumerations.html#GtkPolicyType\">GtkPolicyType</"
+"link>"
 
 #. (itstool) path: info/title
 #: C/scrolledwindow.js.page:8
@@ -24900,7 +25044,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/scrolledwindow.py.page:45 C/textview.py.page:99
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkScrolledWindow.html\">GtkScrolledWindow</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkScrolledWindow.html\">GtkScrolledWindow</link>"
 
 #. (itstool) path: info/title
 #: C/scrolledwindow.vala.page:8
@@ -25776,6 +25920,10 @@ msgid ""
 "let app = new SpinButtonExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new SpinButtonExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/spinbutton.js.page:190
@@ -25897,7 +26045,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/spinbutton.js.page:206
 msgid "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.SpinButton.html\">Gtk.SpinButton</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.SpinButton.html\">Gtk.SpinButton</link>"
 
 #. (itstool) path: info/title
 #: C/spinbutton.py.page:8
@@ -26019,7 +26167,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/spinbutton.py.page:49
 msgid "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkSpinButton.html\">GtkSpinButton</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkSpinButton.html\">GtkSpinButton</link>"
 
 #. (itstool) path: info/title
 #: C/spinbutton.vala.page:8
@@ -26951,6 +27099,10 @@ msgid ""
 "let app = new StatusbarExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new StatusbarExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/statusbar.js.page:212
@@ -28059,6 +28211,10 @@ msgid ""
 "let app = new SwitchExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new SwitchExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/switch.js.page:255
@@ -28908,6 +29064,10 @@ msgid ""
 "let app = new TextViewExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new TextViewExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/textview.js.page:239
@@ -29768,6 +29928,10 @@ msgid ""
 "let app = new ToggleButtonExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new ToggleButtonExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/code
 #: C/togglebutton.js.page:149
@@ -30496,7 +30660,7 @@ msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.ToolButto
 #. (itstool) path: item/p
 #: C/toolbar.js.page:34
 msgid "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.html\">Gtk Stock items</link>"
-msgstr ""
+msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.html\">Gtk-standardobjekt</link>"
 
 #. (itstool) path: item/p
 #: C/toolbar.js.page:35
@@ -31923,7 +32087,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkWidget.html\">Gtk
 #. (itstool) path: item/p
 #: C/tooltip.c.page:41 C/tooltip.js.page:40 C/tooltip.py.page:62
 msgid "<link href=\"http://developer.gnome.org/gtk3/stable/gtk3-Stock-Items.html\">Stock Items</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/gtk3-Stock-Items.html\">Standardobjekt</link>"
 
 #. (itstool) path: info/title
 #: C/tooltip.js.page:8
@@ -32517,6 +32681,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Widget.query_tooltip.ht
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/3.4/gtk3-Stock-Items.html#GTK-STOCK-UNDO:CAPS\">Stock Items</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/3.4/gtk3-Stock-Items.html#GTK-STOCK-UNDO:CAPS\">Standardobjekt</link>"
 
 #. (itstool) path: info/title
 #: C/treeview_advanced_liststore.py.page:8
@@ -32968,6 +33133,13 @@ msgid ""
 "const Lang = imports.lang;\n"
 "const Pango = imports.gi.Pango;\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"const GObject = imports.gi.GObject;\n"
+"const Gtk = imports.gi.Gtk;\n"
+"const Lang = imports.lang;\n"
+"const Pango = imports.gi.Pango;\n"
 
 #. (itstool) path: section/code
 #: C/treeview_simple_liststore.js.page:51
@@ -33112,6 +33284,12 @@ msgid ""
 "                [contact.name, contact.surname, contact.phone, contact.description]);\n"
 "        }\n"
 msgstr ""
+"\n"
+"        for (i = 0; i &lt; phonebook.length; i++ ) {\n"
+"            let contact = phonebook [i];\n"
+"            this._listStore.set (this._listStore.append(), [0, 1, 2, 3],\n"
+"                [contact.name, contact.surname, contact.phone, contact.description]);\n"
+"        }\n"
 
 #. (itstool) path: section/p
 #: C/treeview_simple_liststore.js.page:142
@@ -33384,6 +33562,10 @@ msgid ""
 "let app = new TreeViewExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new TreeViewExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/treeview_simple_liststore.js.page:263
@@ -33693,7 +33875,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/treeview_simple_liststore.py.page:51
 msgid "<link href=\"http://developer.gnome.org/pango/stable/pango-Fonts.html\">Fonts</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/pango/stable/pango-Fonts.html\">Typsnitt</link>"
 
 #. (itstool) path: info/title
 #: C/treeview_simple_liststore.vala.page:8
@@ -34255,8 +34437,9 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/weatherAppMain.js.page:29
+#, fuzzy
 msgid "<link xref=\"#weatherapp.js\">weatherapp.js</link>"
-msgstr ""
+msgstr "<link xref=\"#weatherapp.js\">weatherapp.js</link>"
 
 #. (itstool) path: section/p
 #: C/weatherAppMain.js.page:36
@@ -34269,12 +34452,15 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/weatherAppMain.js.page:42
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "var Gtk = imports.gi.Gtk;\n"
 "const WeatherService = imports.geonames;"
 msgstr ""
+"\n"
+"var Gtk = imports.gi.Gtk;\n"
+"const WeatherService = imports.geonames;"
 
 #. (itstool) path: section/p
 #: C/weatherAppMain.js.page:45
@@ -34778,12 +34964,13 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/weatherAutotools.js.page:148
 msgid "appicondir=$(datadir)/icons/hicolor/scalable/apps"
-msgstr ""
+msgstr "appicondir=$(datadir)/icons/hicolor/scalable/apps"
 
 #. (itstool) path: section/p
 #: C/weatherAutotools.js.page:149
+#, fuzzy
 msgid "appicon_DATA=weather-icon.svg"
-msgstr ""
+msgstr "appicon_DATA=weather-icon.svg"
 
 #. (itstool) path: page/title
 #: C/weatherGeonames.js.page:19
@@ -34839,6 +35026,10 @@ msgid ""
 "const _httpSession = new Soup.SessionAsync();\n"
 "Soup.Session.prototype.add_feature.call(_httpSession, new Soup.ProxyResolverDefault());\n"
 msgstr ""
+"\n"
+"const Soup = imports.gi.Soup;\n"
+"const _httpSession = new Soup.SessionAsync();\n"
+"Soup.Session.prototype.add_feature.call(_httpSession, new Soup.ProxyResolverDefault());\n"
 
 #. (itstool) path: section/p
 #: C/weatherGeonames.js.page:39
