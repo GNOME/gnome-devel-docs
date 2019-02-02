@@ -128,7 +128,7 @@
       <link href="http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;a=blob_plain;f=m4/ax_compiler_flags.m4">
       <file>ax_compiler_flags.m4</file></link> to the <file>m4/</file> directory
       of your project. Note that it depends on the following autoconf-archive
-      macros which are GPL-licenced so potentially cannot be copied in-tree.
+      macros which are GPL-licensed so potentially cannot be copied in-tree.
       They may have to remain in autoconf-archive, with that as a build time
       dependency of the project:
     </p>

@@ -12,7 +12,7 @@
       <years>2002</years>
       <!-- Heavily based off Havoc’s original article about parallel
            installability: http://ometer.com/parallel.html.
-           Licence CC-BY-SA 3.0 confirmed by e-mail with him. -->
+           License CC-BY-SA 3.0 confirmed by e-mail with him. -->
     </credit>
     <credit type="author copyright">
       <name>Philip Withnall</name>

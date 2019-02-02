@@ -170,7 +170,7 @@
     </p>
 
     <p>
-      As a second line of defence, all projects which access the file system
+      As a second line of defense, all projects which access the file system
       should consider providing a mandatory access control profile, using a
       system such as <link href="http://apparmor.net/">AppArmor</link> or
       <link href="http://selinuxproject.org/">SELinux</link>, which limits the

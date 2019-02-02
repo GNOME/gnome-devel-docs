@@ -5,7 +5,7 @@ const Gtk = imports.gi.Gtk;
 
 class FontChooserWidgetExample {
 
-    // Create the application itthis
+    // Create the application itself
     constructor() {
         this.application = new Gtk.Application({ application_id: 'org.example.fontchooserwidget' });
 

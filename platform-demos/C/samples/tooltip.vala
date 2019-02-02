@@ -40,7 +40,7 @@ class MyWindow : Gtk.ApplicationWindow {
 		/* set the text for the tooltip */
         	tooltip.set_text ("Undo your last action");
 		
-		/* set an icon fot the tooltip */
+		/* set an icon for the tooltip */
 		tooltip.set_icon_from_stock("gtk-undo", Gtk.IconSize.MENU);
 
         	/* show the tooltip */

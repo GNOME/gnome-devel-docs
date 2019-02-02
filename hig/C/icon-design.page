@@ -118,7 +118,7 @@
 <list>
 <item><p>Identify a single property when looking for an appropriate metaphor for an icon, and focus on what distinguishes the idea you want to communicate. For example, when describing an action to be performed on an image, it isn’t necessary to repeat the idea of an image in every icon. Instead, focus on what is distinct about each action (for example: rotate, tag, align).</p></item>
 <item><p>Avoid using any perspective in symbolic icons, stick to a simple orthogonal view.</p></item>
-<item><p>When using unfilled strokes for an outline, try avoiding hairline (1px) and do at least a 2px stroke for the meain feature of the icon. </p></item>
+<item><p>When using unfilled strokes for an outline, try avoiding hairline (1px) and do at least a 2px stroke for the main feature of the icon. </p></item>
 <item><p>Symbolic icons are recolored at runtime to match the context, very much like a piece of text. While there are ways to “shade” parts of an icon by using opacity or creating duotone/pattern dithering, try avoiding these as much as possible.</p></item>
 <item><p>When a metaphor relies on the negative space, make sure it will work with the colors inverted. For example a camera lens spec/highlight will only work if lighter than the lens itself.</p></item>
 </list>
