@@ -1,10 +1,12 @@
-To build and install this program:
+To build and install this program, run these commands from a terminal:
 
-./autogen.sh --prefix=/home/your_username/.local
+./autogen.sh --prefix=/home/$USER/.local
 make install
 
 -------------
-Running the first line above creates the following files:
+When running the first command $USER will be replaced by your username.
+
+Running the first command above creates the following files:
 
 aclocal.m4
 autom4te.cache
