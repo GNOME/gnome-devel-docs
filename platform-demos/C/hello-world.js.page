@@ -52,6 +52,8 @@
 
     <section id="imports"><title>Libraries to import</title>
       <code mime="application/javascript"><![CDATA[const Lang = imports.lang;
+
+imports.gi.versions.Gtk = '3.0'
 const Gtk = imports.gi.Gtk;]]></code>
       <p>In order for our script to work with GNOME, we need to import GNOME libraries via GObject Introspection. Here we import the language bindings and GTK+, the library which contains the graphical widgets used to make GNOME applications.  </p>
     </section>
