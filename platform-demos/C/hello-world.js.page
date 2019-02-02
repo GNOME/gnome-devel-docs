@@ -137,7 +137,7 @@ app.application.run(ARGV);]]></code>
     <p>The example shows you the minimum requirements for a <code>.desktop.in</code> file.</p>
     <code mime="text/desktop" style="numbered"><xi:include href="samples/hello-in-js/hello-world.desktop.in" parse="text"><xi:fallback/></xi:include></code>
 
-    <p>Now let's go through some parts of the <code>.desktop.in</code> file.</p>
+    <p>Save this as <code>hello-world.desktop.in</code>. Now let's go through some parts of the <code>.desktop.in</code> file.</p>
     <terms>
       <item><title>Name</title><p>The application name.</p></item>
       <item><title>Comment</title><p>A short description of the application.</p></item>
