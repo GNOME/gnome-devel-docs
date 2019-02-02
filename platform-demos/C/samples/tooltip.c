@@ -11,7 +11,7 @@ undo_tooltip_callback (GtkStatusIcon *status_icon,
   /* set the text for the tooltip */
   gtk_tooltip_set_text (tooltip, "Undo your last action");
    
-  /* set an icon fot the tooltip */
+  /* set an icon for the tooltip */
   gtk_tooltip_set_icon_from_stock(tooltip, "gtk-undo", GTK_ICON_SIZE_MENU);
 
   /* show the tooltip */

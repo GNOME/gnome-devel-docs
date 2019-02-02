@@ -24,7 +24,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Switches should be used for controlling services or hardware that have a clear on/off logic. They are particularly appropriate when those services or hardware do not activate immediately (ie. there is a delay between the switch being operated and it having an effect), or when they affect the operation of the application in a significant way.</p>
+<p>Switches should be used for controlling services or hardware that have a clear on/off logic. They are particularly appropriate when those services or hardware do not activate immediately (i.e. there is a delay between the switch being operated and it having an effect), or when they affect the operation of the application in a significant way.</p>
 
 <p>When the control does not turn a function on or off, or when a function does not clearly have an on/off nature, a <link xref="check-boxes">check box</link> is a more appropriate option. For example, an alarm might be controlled using a switch, since it can be turned on or off. However, a check box is a better choice for an option to repeat that alarm on a daily basis, since alarm repetition is a configuration option, rather than starting or stopping a particular piece of functionality.</p>
 

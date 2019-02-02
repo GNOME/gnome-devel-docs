@@ -22,7 +22,7 @@
   <p>
     Development tools are much more than just a text editor and a compiler.
     Correct use of the right tools can drastically ease debugging and tracking
-    down of complex problems with memory allocation and system calls, amongst
+    down of complex problems with memory allocation and system calls, among
     other things. Some of the most commonly used tools are described below;
     other tools exist for more specialized use cases, and should be used when
     appropriate.
@@ -128,7 +128,7 @@
       <link href="http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;a=blob_plain;f=m4/ax_compiler_flags.m4">
       <file>ax_compiler_flags.m4</file></link> to the <file>m4/</file> directory
       of your project. Note that it depends on the following autoconf-archive
-      macros which are GPL-licenced so potentially cannot be copied in-tree.
+      macros which are GPL-licensed so potentially cannot be copied in-tree.
       They may have to remain in autoconf-archive, with that as a build time
       dependency of the project:
     </p>

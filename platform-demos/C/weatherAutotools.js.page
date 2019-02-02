@@ -30,7 +30,7 @@
 
   <section id ="autotools">
   <title>Autotools and necessary files</title>
-  <p>Having more than one file in your folder makes using autotools a bit tricky. You need the .desktop file, autogen.sh, Makefile.am, configure.ac and as a new file: myapp.sh.in file. Hacking the autotools file is a complicated field. More information can be found in many different sources, <link href="http://en.wikipedia.org/wiki/GNU_build_system">the wikipedia article</link> provides a good overview on the subject.
+  <p>Having more than one file in your folder makes using autotools a bit tricky. You need the .desktop file, autogen.sh, Makefile.am, configure.ac and as a new file: myapp.sh.in file. Hacking the autotools file is a complicated field. More information can be found in many different sources, <link href="http://en.wikipedia.org/wiki/GNU_build_system">the Wikipedia article</link> provides a good overview on the subject.
   </p>
     <list>
       <item><p>weatherapp.desktop</p></item>

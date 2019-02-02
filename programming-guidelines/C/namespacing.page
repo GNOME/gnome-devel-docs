@@ -122,7 +122,7 @@
     </p>
 
     <p>
-      For the schema class, the following symbols would be exported (amongst
+      For the schema class, the following symbols would be exported (among
       others), following GObject conventions:
     </p>
     <list>

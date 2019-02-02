@@ -111,7 +111,7 @@ activate (GtkApplication *app,
 
 
   /* Create the Vertical scale. This time, we will see what happens 
-   * when the digits arent initially set.
+   * when the digits aren't initially set.
    */
   v_scale = gtk_scale_new (GTK_ORIENTATION_VERTICAL, vadjustment);
   gtk_widget_set_vexpand (v_scale, TRUE);

@@ -26,7 +26,7 @@ about_cb (GSimpleAction *simple,
 
   about_dialog = gtk_about_dialog_new ();
 
-  /* Lists of authors/ documentators to be used later, they must be initialized
+  /* Lists of authors/ documenters to be used later, they must be initialized
    * in a null terminated array of strings.
    */
   const gchar *authors[] = {"GNOME Documentation Team", NULL};

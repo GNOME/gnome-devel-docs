@@ -151,7 +151,7 @@
 <tr>
 <td><media type="image" mime="image/png" src="figures/touch/pinch-or-stretch.svg"/></td>
 <td><p>Touch surface with two fingers while bringing them closer or further apart.</p></td>
-<td><p>Changes the zoom level of the view (eg. Maps, Photos).</p></td>
+<td><p>Changes the zoom level of the view (e.g. Maps, Photos).</p></td>
 </tr>
 <tr>
 <td colspan="3"><p><em style="strong">Double tap</em></p></td>
