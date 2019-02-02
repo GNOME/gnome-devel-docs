@@ -175,7 +175,7 @@ app.application.run(ARGV);]]></code>
     <section id="readme"><title>README</title>
        <p>Information users should read first. This file can be blank.</p>
 
-       <p>When you have the <file>hello-world</file>, <file>hello-world.desktop.in</file>, <file>Makefile.am</file>, <file>configure.ac</file> and <file>autogen.sh</file> files with correct information and rights, the <file>README</file> file can include the following instructions:</p>
+       <p>When you have the <file>hello-world</file>, <file>hello-world.desktop.in</file>, <file>Makefile.am</file>, <file>configure.ac</file> and <file>autogen.sh</file> files with correct information and rights, the <file>README</file> file can include the following instructions, also try following the instructions:</p>
       <code mime="text/readme" style="numbered"><xi:include href="samples/hello-in-js/README" parse="text"><xi:fallback/></xi:include></code>
     </section>
 
