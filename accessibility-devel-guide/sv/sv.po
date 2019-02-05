@@ -1,13 +1,13 @@
 # Swedish translation for gnome-devel-docs.
-# Copyright © 2017, 2018 gnome-devel-docs's COPYRIGHT HOLDER
+# Copyright © 2017-2019 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-04-09 11:16+0000\n"
-"PO-Revision-Date: 2018-05-26 00:49+0200\n"
+"POT-Creation-Date: 2019-02-03 09:38+0000\n"
+"PO-Revision-Date: 2019-02-05 19:14+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -5503,7 +5503,7 @@ msgid ""
 "documentation can be found <ulink url=\"http://library.gnome.org/devel/"
 "accerciser/stable\">in the Official Accerciser Manual</ulink>. For a "
 "demonstration of <application>Accerciser</application> and "
-"<application>PyATSPI</application> (Python-wrappered access and usage of AT-"
+"<application>PyATSPI</application> (Python-wrapped access and usage of AT-"
 "SPI), see <ulink url=\"http://live.gnome.org/Accessibility/"
 "PythonPoweredAccessibility\">this article</ulink>. For an excellent "
 "walkthrough from the author, see the article titled <ulink url=\"http://www."
