@@ -1,18 +1,18 @@
 # Daniel Nylander <po@danielnylander.se>, 2007.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview\n"
-"POT-Creation-Date: 2018-03-30 21:35+0000\n"
-"PO-Revision-Date: 2018-04-09 13:16+0200\n"
+"POT-Creation-Date: 2019-02-03 09:40+0000\n"
+"PO-Revision-Date: 2019-02-05 19:04+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -2778,7 +2778,7 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/tech-eds.page:18
-msgid "Desktop-wide addressbook for contacts and calendar"
+msgid "Desktop-wide address book for contacts and calendar"
 msgstr "Skrivbordsomfattande adressbok för kontakter och kalender"
 
 #. (itstool) path: page/title
