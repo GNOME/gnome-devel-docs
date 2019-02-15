@@ -5,21 +5,21 @@
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2006.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010, 2011.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2017.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-09 14:29+0000\n"
-"PO-Revision-Date: 2017-12-12 12:21+0100\n"
+"POT-Creation-Date: 2019-02-03 09:40+0000\n"
+"PO-Revision-Date: 2019-02-15 13:34+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
-"Language: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 3.31.90\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: p/link
@@ -47,7 +47,7 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2017\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2019\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2007-2010\n"
 "Mario Carrión <mario@monouml.org>, 2006"
 
@@ -3020,7 +3020,8 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/tech-eds.page:18
-msgid "Desktop-wide addressbook for contacts and calendar"
+#| msgid "Desktop-wide addressbook for contacts and calendar"
+msgid "Desktop-wide address book for contacts and calendar"
 msgstr "Libreta de direcciones del escritorio para contactos y calendario"
 
 #. (itstool) path: page/title
@@ -8528,8 +8529,8 @@ msgstr ""
 #~ "Las señales son un concepto clave en la programación en GTK. Cuando pasa "
 #~ "algo en un objeto, emite una señal; por ejemplo, cuando se pulsa un "
 #~ "botón, emite la señal <code>clicked</code>. Si quiere que su programa "
-#~ "haga algo cuando ocurre ese evento, debe conectar una función (un "
-#~ "«gestor de la señal») a esa señal. Aquí hay un ejemplo:"
+#~ "haga algo cuando ocurre ese evento, debe conectar una función (un «gestor "
+#~ "de la señal») a esa señal. Aquí hay un ejemplo:"
 
 #~ msgid "Containers: Laying-out the user interface"
 #~ msgstr "Contenedores: diseñar la interfaz de usuario"
@@ -8646,8 +8647,8 @@ msgstr ""
 #~ msgstr ""
 #~ "Finalmente, <code>Gtk.main</code> ejecuta el bucle principal; en otras "
 #~ "palabras, ejecuta el programa. El bucle principal escucha los eventos "
-#~ "(señales) de la interfaz del usuario y llama a un gestor de la señal "
-#~ "que hará algo útil. En breve aprenderá más cosas sobre las señales."
+#~ "(señales) de la interfaz del usuario y llama a un gestor de la señal que "
+#~ "hará algo útil. En breve aprenderá más cosas sobre las señales."
 
 #~ msgid "Adding classes"
 #~ msgstr "Añadir clases"
