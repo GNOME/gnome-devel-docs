@@ -110,12 +110,12 @@
 
 </section>
 
-<section id="emotion">
-<title>Use emotion and humor (sparingly)</title>
+<section id="hardware-support">
+<title>Design for a range of hardware</title>
 
-<p>Used effectively, emotion and humor can lift the experience provided by your application, and help to develop a positive relationship with your users. Be careful not to over-use these techniques, though — it is far more effective to pick a small number of moments to use emotion, rather than spraying them throughout your user interface.</p>
+<p>Modern hardware includes a range of device types, including different screen sizes and input devices. These can vary dynamically during a session as displays and input devices are added and removed.</p>
 
-<p>Be welcoming when your application is used for the first time. Using humor when things go wrong is another effective technique.</p>
+<p>GNOME's design patterns allow applications that provide a great experience across this range of devices. Applications can also be made to adapt between desktop and phone form factors.</p>
 
 </section>
 
