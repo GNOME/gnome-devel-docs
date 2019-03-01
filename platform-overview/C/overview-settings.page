@@ -67,7 +67,7 @@ ease.</p>
     <item>
       <p><em style="strong">Dconf editor</em> is the GUI tool for managing
       preferences stored in the dconf database with GSettings.</p>
-      <p>( <link href="https://developer.gnome.org/dconf/unstable/dconf-editor.html">Website</link> | <link href="https://git.gnome.org/browse/dconf/tree/editor">Source code</link> )</p>
+      <p>( <link href="https://wiki.gnome.org/Apps/DconfEditor">Website</link> | <link href="https://gitlab.gnome.org/GNOME/dconf-editor/">Source code</link> )</p>
     </item>
   </list>
 </section>
