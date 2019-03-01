@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview\n"
-"POT-Creation-Date: 2019-02-03 09:40+0000\n"
-"PO-Revision-Date: 2019-02-05 19:04+0100\n"
+"POT-Creation-Date: 2019-03-01 02:11+0000\n"
+"PO-Revision-Date: 2019-03-01 13:15+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -99,12 +99,12 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/dev-help-appmenu.page:37
 msgid ""
-"This example, based on <app href=\"https://git.gnome.org/browse/cheese/tree/src/cheese-"
-"main.vala\">Cheese</app>, assumes that your application is written in Vala. It will be "
-"slightly different for other programming languages."
+"This example, based on <app href=\"https://gitlab.gnome.org/GNOME/cheese/blob/master/src/"
+"cheese-main.vala\">Cheese</app>, assumes that your application is written in Vala. It "
+"will be slightly different for other programming languages."
 msgstr ""
-"Detta exempel, baserat på <app href=\"https://git.gnome.org/browse/cheese/tree/src/"
-"cheese-main.vala\">Cheese</app>, förutsätter att ditt program är skrivet i Vala. Det "
+"Detta exempel, baserat på <app href=\"https://gitlab.gnome.org/GNOME/cheese/blob/master/"
+"src/cheese-main.vala\">Cheese</app>, förutsätter att ditt program är skrivet i Vala. Det "
 "kommer se ut något annorlunda för andra programmeringsspråk."
 
 #. (itstool) path: example/p
@@ -1506,14 +1506,12 @@ msgstr ""
 #: C/overview-communication.page:91
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Website</link> | <link href="
-"\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy.png"
-"\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/empathy/\">Empathy "
-"source code</link> )"
+"\"https://wiki.gnome.org/Apps/Empathy#Screenshots\">Screenshots</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/empathy/\">Empathy source code</link> )"
 msgstr ""
 "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Webbplats</link> | <link href="
-"\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy.png"
-"\">Skärmbilder</link> | <link href=\"https://git.gnome.org/browse/empathy/\">Empathys "
-"källkod</link> )"
+"\"https://wiki.gnome.org/Apps/Empathy#Screenshots\">Skärmbilder</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/empathy/\">Källkod för Empathy</link> )"
 
 # TODO: Still correct?
 #. (itstool) path: item/p
@@ -1525,19 +1523,19 @@ msgstr ""
 "Med stöd för Telepathy Tubes kunde samlingen <em style=\"strong\">GNOME Spel</em> lägga "
 "till stöd för flerspelarläge genom Jabber-protokollet."
 
-# TODO: GLChess? Online multiplayer? Terribly out of date...
+# Online multiplayer for GNOME Chess? Terribly out of date...
 #. (itstool) path: item/p
 #: C/overview-communication.page:96
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Projects/Games\">Website</link> | <link href="
-"\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;target=gnome-chess."
-"png\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/gnome-chess/"
-"\">GLChess online multiplayer code</link> )"
+"\"https://wiki.gnome.org/Apps/Chess#Screenshots\">Screenshot</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/gnome-chess/\">GNOME Chess online multiplayer code</"
+"link> )"
 msgstr ""
 "(<link href=\"https://wiki.gnome.org/Projects/Games\">Webbplats</link> | <link href="
-"\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;target=gnome-chess."
-"png\">Skärmbilder</link> | <link href=\"https://git.gnome.org/browse/gnome-chess/"
-"\">GLChess-kod för flera spelare över nätet</link> )"
+"\"https://wiki.gnome.org/Apps/Chess#Screenshots\">Skärmbild</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/gnome-chess/\">GNOME Schack-kod för flera spelare över "
+"nätet</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:100
@@ -1553,11 +1551,11 @@ msgstr ""
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Website</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Screenshots</link> | <link href="
-"\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap\">DAAP Code</link> )"
+"\"https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/plugins/daap\">DAAP Code</link> )"
 msgstr ""
 "(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Webbplats</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Skärmbilder</link> | <link href="
-"\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap\">DAAP-kod</link> )"
+"\"https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/plugins/daap\">DAAP-kod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-io.page:22
@@ -1636,10 +1634,10 @@ msgstr ""
 #: C/overview-io.page:74
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/gnome-documents\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/gnome-documents\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Webbplats</link> | <link href="
-"\"https://git.gnome.org/browse/gnome-documents\">Källkod</link> )"
+"\"https://gitlab.gnome.org/GNOME/gnome-documents\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:77
@@ -1655,11 +1653,11 @@ msgstr ""
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Website</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Screenshots</link> | <link href="
-"\"https://git.gnome.org/browse/nautilus\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/nautilus\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Webbplats</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Skärmbilder</link> | <link href="
-"\"https://git.gnome.org/browse/nautilus\">Källkod</link> )"
+"\"https://gitlab.gnome.org/GNOME/nautilus\">Källkod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
@@ -1800,12 +1798,14 @@ msgstr "<em style=\"strong\">Videoklipp</em> är GNOME:s multimediaspelare."
 #: C/overview-media.page:99
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png\">Screenshot</link> "
-"| <link href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-videos.png"
+"\">Screenshot</link> | <link href=\"https://gitlab.gnome.org/GNOME/totem/\">Source code</"
+"link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Webbplats</link> | <link href="
-"\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png\">Skärmbilder</link> "
-"| <link href=\"https://git.gnome.org/browse/totem/\">Källkod</link> )"
+"\"https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-videos.png"
+"\">Skärmbild</link> | <link href=\"https://gitlab.gnome.org/GNOME/totem/\">Källkod</"
+"link> )"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:102
@@ -1820,12 +1820,12 @@ msgstr ""
 #: C/overview-media.page:104
 msgid ""
 "( <link href=\"http://www.pitivi.org/\">Website</link> | <link href=\"http://www.pitivi."
-"org/?go=screenshots\">Screenshots</link> | <link href=\"http://www.pitivi.org/?"
-"go=download\">Source code</link> )"
+"org/?go=tour\">Screenshot</link> | <link href=\"http://www.pitivi.org/?go=download"
+"\">Source code</link> )"
 msgstr ""
 "( <link href=\"http://www.pitivi.org/\">Webbplats</link> | <link href=\"http://www."
-"pitivi.org/?go=screenshots\">Skärmbilder</link> | <link href=\"http://www.pitivi.org/?"
-"go=download\">Källkod</link> )"
+"pitivi.org/?go=tour\">Skärmbild</link> | <link href=\"http://www.pitivi.org/?go=download"
+"\">Källkod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-net.page:17
@@ -1928,12 +1928,12 @@ msgstr ""
 #: C/overview-net.page:84
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
-"git.gnome.org/browse/epiphany/plain/data/screenshot.png\">Screenshot</link> | <link href="
-"\"https://git.gnome.org/browse/epiphany/\">Source code</link> )"
+"gitlab.gnome.org/GNOME/epiphany/raw/master/data/screenshot.png\">Screenshot</link> | "
+"<link href=\"https://gitlab.gnome.org/GNOME/epiphany/\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Webbplats</link> | <link href=\"https://"
-"git.gnome.org/browse/epiphany/plain/data/screenshot.png\">Skärmbilder</link> | <link "
-"href=\"https://git.gnome.org/browse/epiphany/\">Källkod</link> )"
+"gitlab.gnome.org/GNOME/epiphany/raw/master/data/screenshot.png\">Skärmbild</link> | "
+"<link href=\"https://gitlab.gnome.org/GNOME/epiphany/\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:87
@@ -1950,12 +1950,12 @@ msgstr ""
 #: C/overview-net.page:90
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Website</link> | <link href="
-"\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href=\"https://git.gnome.org/"
-"browse/gnome-shell/\">Source Code</link> )"
+"\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href=\"https://gitlab.gnome."
+"org/GNOME/gnome-shell/\">Source Code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Webbplats</link> | <link "
-"href=\"http://www.gnome.org/gnome-3/\">Skärmbilder</link> | <link href=\"https://git."
-"gnome.org/browse/gnome-shell/\">Källkod</link> )"
+"href=\"http://www.gnome.org/gnome-3/\">Skärmbild</link> | <link href=\"https://gitlab."
+"gnome.org/GNOME/gnome-shell/\">Källkod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-settings.page:17
@@ -2030,12 +2030,11 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-settings.page:70
 msgid ""
-"( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html\">Website</"
-"link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor\">Source code</"
-"link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/DconfEditor\">Website</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/dconf-editor/\">Source code</link> )"
 msgstr ""
-"( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html\">Webbplats</"
-"link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor\">Källkod</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/DconfEditor\">Webbplats</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/dconf-editor/\">Källkod</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-ui.page:17
@@ -2176,10 +2175,10 @@ msgstr ""
 #: C/overview-ui.page:98
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
-"git.gnome.org/browse/epiphany/\">Source code</link> )"
+"gitlab.gnome.org/GNOME/epiphany/\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Webbplats</link> | <link href=\"https://"
-"git.gnome.org/browse/epiphany/\">Källkod</link> )"
+"gitlab.gnome.org/GNOME/epiphany/\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:101
@@ -2194,13 +2193,13 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-ui.page:104
 msgid ""
-"( <link href=\"http://monodevelop.com/\">Website</link> | <link href=\"http://"
-"monodevelop.com/Screenshots\">Screenshots</link> | <link href=\"https://github.com/mono/"
+"( <link href=\"https://www.monodevelop.com/\">Website</link> | <link href=\"https://www."
+"monodevelop.com/screenshots/\">Screenshots</link> | <link href=\"https://github.com/mono/"
 "monodevelop\">Source code</link> )"
 msgstr ""
-"( <link href=\"http://monodevelop.com/\">Webbplats</link> | <link href=\"http://"
-"monodevelop.com/Screenshots\">Skärmbilder</link> | <link href=\"https://github.com/mono/"
-"monodevelop\">Källkod</link> )"
+"( <link href=\"https://www.monodevelop.com/\">Webbplats</link> | <link href=\"https://"
+"www.monodevelop.com/screenshots/\">Skärmbilder</link> | <link href=\"https://github.com/"
+"mono/monodevelop\">Källkod</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:107
@@ -2215,10 +2214,10 @@ msgstr ""
 #: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/totem/\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/totem/\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Webbplats</link> | <link href="
-"\"https://git.gnome.org/browse/totem/\">Källkod</link> )"
+"\"https://gitlab.gnome.org/GNOME/totem/\">Källkod</link> )"
 
 #. (itstool) path: credit/years
 #: C/tech-atk.page:14 C/tech-cairo.page:13 C/tech-clutter.page:13 C/tech-d-bus.page:13
@@ -3577,26 +3576,26 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-msgid "<link href=\"http://gtk.org/\">Official web site</link>"
-msgstr "<link href=\"http://gtk.org/\">Officiell webbplats</link>"
+msgid "<link href=\"https://www.gtk.org/\">Official web site</link>"
+msgstr "<link href=\"https://www.gtk.org/\">Officiell webbplats</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
 msgid ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo tutorial</link>"
+"<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\">Demo tutorial</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demonstrationer</"
+"<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\">Demonstrationer</"
 "link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-msgid "<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</link>"
-msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/\">Referenshandbok</link>"
+msgid "<link href=\"https://developer.gnome.org/gtk3/stable/\">Reference Manual</link>"
+msgstr "<link href=\"https://developer.gnome.org/gtk3/stable/\">Referenshandbok</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:54
-msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
-msgstr "<link href=\"https://git.gnome.org/browse/gtk+/\">git-arkiv</link>"
+msgid "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">git repository</link>"
+msgstr "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">git-arkiv</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:55
@@ -5037,6 +5036,26 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
+#~ msgid ""
+#~ "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Website</link> | <link href="
+#~ "\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy."
+#~ "png\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/empathy/"
+#~ "\">Empathy source code</link> )"
+#~ msgstr ""
+#~ "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Webbplats</link> | <link href="
+#~ "\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy."
+#~ "png\">Skärmbilder</link> | <link href=\"https://git.gnome.org/browse/empathy/"
+#~ "\">Empathys källkod</link> )"
+
+#~ msgid ""
+#~ "( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
+#~ "\">Website</link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor"
+#~ "\">Source code</link> )"
+#~ msgstr ""
+#~ "( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
+#~ "\">Webbplats</link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor"
+#~ "\">Källkod</link> )"
 
 #~ msgid "Enchant"
 #~ msgstr "Enchant"
