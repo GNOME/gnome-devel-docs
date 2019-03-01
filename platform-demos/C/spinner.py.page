@@ -31,7 +31,7 @@
   <code mime="text/x-python" style="numbered"><xi:include href="samples/spinner.py" parse="text"><xi:fallback/></xi:include></code>
 
   <note><p>
-    <code>Gdk.keyval_name(event.keyval)</code> converts the key value <code>event.keyval</code> into a symbolic name. The names and corresponding key values can be found <link href="http://git.gnome.org/browse/gtk+/tree/gdk/gdkkeysyms.h">here</link>, but for instance <code>GDK_KEY_BackSpace</code> becomes the string <code>"BackSpace"</code>.
+    <code>Gdk.keyval_name(event.keyval)</code> converts the key value <code>event.keyval</code> into a symbolic name. The names and corresponding key values can be found <link href="https://gitlab.gnome.org/GNOME/gtk/blob/master/gdk/gdkkeysyms.h">here</link>, but for instance <code>GDK_KEY_BackSpace</code> becomes the string <code>"BackSpace"</code>.
   </p></note>
   </section>
 

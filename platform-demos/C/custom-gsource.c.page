@@ -293,7 +293,7 @@ message_queue_source_new (GAsyncQueue    *queue,
     <p>
       Another example is a custom source to interface GnuTLS with GLib in its
       <code>GTlsConnection</code> implementation.
-      <link href="https://git.gnome.org/browse/glib-networking/tree/tls/gnutls/gtlsconnection-gnutls.c#n871"><code>GTlsConnectionGnutlsSource</code></link>
+      <link href="https://gitlab.gnome.org/GNOME/glib-networking/blob/master/tls/gnutls/gtlsconnection-gnutls.c#L1154"><code>GTlsConnectionGnutlsSource</code></link>
       synchronizes the main thread and a TLS worker thread which performs the
       blocking TLS operations.
     </p>

@@ -46,7 +46,7 @@
       <item><p><link href="http://developer.gnome.org/gtk3/unstable/GtkCellRendererText.html">GtkCellRendererText</link></p></item>
       <item><p><link href="http://developer.gnome.org/gtk3/unstable/GtkCellRendererPixbuf.html">GtkCellRendererPixbuf</link></p></item>
       <item><p><link href="http://developer.gnome.org/gtk3/unstable/gtk3-Stock-Items.html">Stock Items</link></p></item>
-      <item><p><link href="http://git.gnome.org/browse/pygobject/tree/gi/overrides/Gtk.py">pygobject - Python bindings for GObject Introspection</link></p></item>
+      <item><p><link href="https://gitlab.gnome.org/GNOME/pygobject/blob/master/gi/overrides/Gtk.py">pygobject - Python bindings for GObject Introspection</link></p></item>
     </list>
   </section>
 </page>

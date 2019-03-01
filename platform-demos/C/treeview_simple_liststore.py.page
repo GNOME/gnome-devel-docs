@@ -47,7 +47,7 @@
       <item><p><link href="http://developer.gnome.org/gtk3/unstable/GtkListStore.html">GtkListStore</link></p></item>
       <item><p><link href="http://developer.gnome.org/gtk3/unstable/GtkCellRendererText.html">GtkCellRendererText</link></p></item>
       <item><p><link href="http://developer.gnome.org/gtk3/unstable/GtkTreeViewColumn.html">GtkTreeViewColumn</link></p></item>
-      <item><p><link href="http://git.gnome.org/browse/pygobject/tree/gi/overrides/Gtk.py">pygobject - Python bindings for GObject Introspection</link></p></item>
+      <item><p><link href="https://gitlab.gnome.org/GNOME/pygobject/blob/master/gi/overrides/Gtk.py">pygobject - Python bindings for GObject Introspection</link></p></item>
       <item><p><link href="http://developer.gnome.org/pango/stable/pango-Fonts.html">Fonts</link></p></item>
     </list>
   </section>
