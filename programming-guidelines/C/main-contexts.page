@@ -64,7 +64,7 @@
     <p>
       <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GMainContext"><code>GMainContext</code></link>
       is a generalized implementation of an
-      <link href="http://en.wikipedia.org/wiki/Event_loop">event loop</link>,
+      <link href="https://en.wikipedia.org/wiki/Event_loop">event loop</link>,
       useful for implementing polled file I/O or event-based widget systems
       (such as GTK+). It is at the core of almost every GLib application. To
       understand <code>GMainContext</code> requires understanding
@@ -424,7 +424,7 @@ do_computation (gpointer user_data)
       global-default or thread-default contexts. Otherwise,
       <code>GSource</code>s created in the application may be dispatched
       when the application is not expecting it, causing
-      <link href="http://en.wikipedia.org/wiki/Reentrancy_%28computing%29">re-entrancy
+      <link href="https://en.wikipedia.org/wiki/Reentrancy_%28computing%29">re-entrancy
       problems</link> for the application code.
     </p>
 
@@ -495,7 +495,7 @@ do_computation (gpointer user_data)
       the function should be executing in</em>. This assumes the typical case
       that every thread has a <em>single</em> main context running in a main
       loop. A main context effectively provides a work or
-      <link href="http://en.wikipedia.org/wiki/Message_queue">message
+      <link href="https://en.wikipedia.org/wiki/Message_queue">message
       queue</link> for the thread — something which the thread can
       periodically check to determine if there is work pending from
       another thread. Putting a message on this queue – invoking a function in
@@ -518,7 +518,7 @@ do_computation (gpointer user_data)
         data it accesses. This assumes that other threads are implemented
         similarly and hence most data is only accessed by a single thread, with
         threads communicating by
-        <link href="http://en.wikipedia.org/wiki/Message_passing">message
+        <link href="https://en.wikipedia.org/wiki/Message_passing">message
         passing</link>. This allows each thread to update its data at its
         leisure, which significantly simplifies locking.
      </p>
@@ -710,7 +710,7 @@ main (void)
         <p>
           To maintain thread safety, data which is potentially accessed by
           multiple threads must make those accesses mutually exclusive using a
-          <link href="http://en.wikipedia.org/wiki/Mutual_exclusion">mutex</link>.
+          <link href="https://en.wikipedia.org/wiki/Mutual_exclusion">mutex</link>.
           Data potentially accessed by multiple threads:
           <code>thread1_main_context</code>, passed in the fork call to
           <code>thread1_main</code>; and <code>some_object</code>, a reference to

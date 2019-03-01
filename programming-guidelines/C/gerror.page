@@ -27,7 +27,7 @@
       <link href="https://developer.gnome.org/glib/stable/glib-Error-Reporting.html"><code>GError</code></link>
       is the standard error reporting mechanism for GLib-using code, and can be
       thought of as a C implementation of an
-      <link href="http://en.wikipedia.org/wiki/Exception_handling">exception</link>.
+      <link href="https://en.wikipedia.org/wiki/Exception_handling">exception</link>.
     </p>
 
     <p>

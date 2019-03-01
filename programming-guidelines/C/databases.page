@@ -120,7 +120,7 @@
         <link href="https://www.sqlite.org/c3ref/bind_blob.html">value
         binding</link> API, rather than by constructing SQL strings then passing
         them to SQLite to parse. Constructing strings makes
-        <link href="http://en.wikipedia.org/wiki/SQL_injection">SQL
+        <link href="https://en.wikipedia.org/wiki/SQL_injection">SQL
         injection</link> vulnerabilities very likely, which can give attackers
         access to arbitrary user data from the database.
       </p>

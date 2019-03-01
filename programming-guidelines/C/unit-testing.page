@@ -195,7 +195,7 @@ EXTRA_DIST = $(test_files)
     <p>
       Certain types of code are quite repetitive, and require a lot of unit
       tests to gain good coverage; but are appropriate for
-      <link href="http://en.wikipedia.org/wiki/Test_data_generation">test data
+      <link href="https://en.wikipedia.org/wiki/Test_data_generation">test data
       generation</link>, where a tool is used to automatically generate test
       vectors for the code. This can drastically reduce the time needed for
       writing unit tests, for code in these specific domains.
@@ -280,11 +280,11 @@ json-schema-generate --invalid-only schema.json</code>
         for testability</link>
       </p></item>
       <item><p>
-        <link href="http://en.wikipedia.org/wiki/Software_testability">Software
+        <link href="https://en.wikipedia.org/wiki/Software_testability">Software
         testability</link>
       </p></item>
       <item><p>
-        <link href="http://en.wikipedia.org/wiki/Dependency_injection">Dependency
+        <link href="https://en.wikipedia.org/wiki/Dependency_injection">Dependency
         injection</link>
       </p></item>
       <item><p>

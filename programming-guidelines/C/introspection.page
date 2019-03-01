@@ -27,8 +27,8 @@
       introspection</link> (abbreviated ‘GIR’) is a system which extracts APIs
       from C code and produces binary type libraries which can be used by non-C
       language bindings, and other tools, to
-      <link href="http://en.wikipedia.org/wiki/Type_introspection">introspect</link>
-      or <link href="http://en.wikipedia.org/wiki/Language_binding">wrap</link>
+      <link href="https://en.wikipedia.org/wiki/Type_introspection">introspect</link>
+      or <link href="https://en.wikipedia.org/wiki/Language_binding">wrap</link>
       the original C libraries. It uses a system of annotations in documentation
       comments in the C code to expose extra information about the APIs which is
       not machine readable from the code itself.
