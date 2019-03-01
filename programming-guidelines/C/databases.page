@@ -134,7 +134,7 @@
       GVDB has a simple API which mirrors a conventional hash table. Presently,
       GVDB is only available as a copy-and-paste library; fetch the most recent
       copy of the code from
-      <link href="https://git.gnome.org/browse/gvdb">GVDB git</link> and copy
+      <link href="https://gitlab.gnome.org/GNOME/gvdb">GVDB git</link> and copy
       it into your project. It is licensed under LGPLv2.1+.
     </p>
 
