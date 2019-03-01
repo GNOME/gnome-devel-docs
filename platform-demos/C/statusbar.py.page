@@ -51,7 +51,7 @@
   <p>In this sample we used the following:</p>
   <list>
     <item><p><link href="http://developer.gnome.org/gtk3/unstable/GtkStatusbar.html">GtkStatusbar</link></p></item>
-    <item><p><link href="http://developer.gnome.org/gdk/stable/gdk-Keyboard-Handling.html">Gdk - Key Values</link></p></item>
+    <item><p><link href="https://developer.gnome.org/gdk3/stable/gdk3-Keyboard-Handling.html">Gdk - Key Values</link></p></item>
   </list>
   </section>
 </page>
