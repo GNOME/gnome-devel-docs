@@ -30,6 +30,6 @@ The GtkMenuButton widget can hold any valid child widget. That is, it can hold a
   In this sample we used the following:
 </p>
 <list>
-  <item><p><link href="http://developer.gnome.org/gtk3/3.5/gtk3-GtkMenuButton.html">MenuButton</link></p></item>
+  <item><p><link href="https://developer.gnome.org/gtk3/unstable/GtkMenuButton.html">MenuButton</link></p></item>
 </list>
 </page>
