@@ -95,17 +95,17 @@ custom UI elements that you create.</p>
   <item>
     <p><em style="strong">Web</em> is the GNOME browser, which uses GTK+ and
     WebKitGTK+, and is fully accessible.</p>
-    <p>( <link href="https://wiki.gnome.org/Apps/Web">Website</link> | <link href="https://git.gnome.org/browse/epiphany/">Source code</link> )</p>
+    <p>( <link href="https://wiki.gnome.org/Apps/Web">Website</link> | <link href="https://gitlab.gnome.org/GNOME/epiphany/">Source code</link> )</p>
   </item>
   <item>
     <p><em style="strong">MonoDevelop</em> is a cross-platform IDE designed
     for C# and other .NET languages. It works on Linux, Mac OS X and
     Windows</p>
-    <p>( <link href="http://monodevelop.com/">Website</link> | <link href="http://monodevelop.com/Screenshots">Screenshots</link> | <link href="https://github.com/mono/monodevelop">Source code</link> )</p>
+    <p>( <link href="https://www.monodevelop.com/">Website</link> | <link href="https://www.monodevelop.com/screenshots/">Screenshots</link> | <link href="https://github.com/mono/monodevelop">Source code</link> )</p>
   </item>
   <item>
     <p><em style="strong">Videos</em> is the GNOME multimedia player, and uses Clutter to display video content.</p>
-    <p>( <link href="https://wiki.gnome.org/Apps/Videos">Website</link> | <link href="https://git.gnome.org/browse/totem/">Source code</link> )</p>
+    <p>( <link href="https://wiki.gnome.org/Apps/Videos">Website</link> | <link href="https://gitlab.gnome.org/GNOME/totem/">Source code</link> )</p>
   </item>
  </list>
 </section>

@@ -81,13 +81,13 @@ application respond appropriately when there is no Internet access.</p>
     <item>
       <p><em style="strong">Web</em> is the GNOME browser, which uses libsoup
       to access HTTP services.</p>
-      <p>( <link href="https://wiki.gnome.org/Apps/Web">Website</link> | <link href="https://git.gnome.org/browse/epiphany/plain/data/screenshot.png">Screenshot</link> | <link href="https://git.gnome.org/browse/epiphany/">Source code</link> )</p>
+      <p>( <link href="https://wiki.gnome.org/Apps/Web">Website</link> | <link href="https://gitlab.gnome.org/GNOME/epiphany/raw/master/data/screenshot.png">Screenshot</link> | <link href="https://gitlab.gnome.org/GNOME/epiphany/">Source code</link> )</p>
     </item>
     <item>
       <p><em style="strong">GNOME Shell</em> is the user-visible GNOME desktop,
       which uses NetworkManager for the network status menu, including managing
       wired, wireless, 3G modem and VPN networking systems.</p>
-      <p>( <link href="https://wiki.gnome.org/Projects/GnomeShell">Website</link> | <link href="http://www.gnome.org/gnome-3/">Screenshot</link> | <link href="https://git.gnome.org/browse/gnome-shell/">Source Code</link> )</p>
+      <p>( <link href="https://wiki.gnome.org/Projects/GnomeShell">Website</link> | <link href="http://www.gnome.org/gnome-3/">Screenshot</link> | <link href="https://gitlab.gnome.org/GNOME/gnome-shell/">Source Code</link> )</p>
     </item>
     <!-- TODO: Add low-level GIO network IO example. -->
   </list>

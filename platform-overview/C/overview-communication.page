@@ -88,17 +88,17 @@
  <list>
   <item>
    <p><em style="strong">Empathy</em> is an instant messaging app with support for a wide range of messaging services. It uses Telepathy to handle connections, presence, and contact information for all of the protocols that it supports.</p>
-   <p>(<link href="https://wiki.gnome.org/Apps/Empathy">Website</link> | <link href="https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy.png">Screenshot</link> | <link href="https://git.gnome.org/browse/empathy/">Empathy source code</link> )</p>
+   <p>(<link href="https://wiki.gnome.org/Apps/Empathy">Website</link> | <link href="https://wiki.gnome.org/Apps/Empathy#Screenshots">Screenshots</link> | <link href="https://gitlab.gnome.org/GNOME/empathy/">Empathy source code</link> )</p>
   </item>
   
   <item>
    <p>With Telepathy Tubes support, the <em style="strong">GNOME Games</em> collection was able to add multi-player gaming support through the Jabber protocol.</p>
-   <p>(<link href="https://wiki.gnome.org/Projects/Games">Website</link> | <link href="https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;target=gnome-chess.png">Screenshot</link> | <link href="https://git.gnome.org/browse/gnome-chess/">GLChess online multiplayer code</link> )</p>
+   <p>(<link href="https://wiki.gnome.org/Projects/Games">Website</link> | <link href="https://wiki.gnome.org/Apps/Chess#Screenshots">Screenshot</link> | <link href="https://gitlab.gnome.org/GNOME/gnome-chess/">GNOME Chess online multiplayer code</link> )</p>
   </item>
   
   <item>
    <p>Avahi support allows users of the <em style="strong">Rhythmbox</em> music player to see shared music collections on their local network, using DAAP.</p>
-   <p>(<link href="https://wiki.gnome.org/Apps/Rhythmbox">Website</link> | <link href="https://wiki.gnome.org/Apps/Rhythmbox/Screenshots">Screenshots</link> | <link href="https://git.gnome.org/browse/rhythmbox/tree/plugins/daap">DAAP Code</link> )</p>
+   <p>(<link href="https://wiki.gnome.org/Apps/Rhythmbox">Website</link> | <link href="https://wiki.gnome.org/Apps/Rhythmbox/Screenshots">Screenshots</link> | <link href="https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/plugins/daap">DAAP Code</link> )</p>
   </item>
  </list>
 

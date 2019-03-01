@@ -96,12 +96,12 @@ need more control.</p>
   <list>
     <item>
       <p><em style="strong">Videos</em> is the GNOME multimedia player.</p>
-      <p>( <link href="https://wiki.gnome.org/Apps/Videos">Website</link> | <link href="https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png">Screenshot</link> | <link href="https://git.gnome.org/browse/totem/">Source code</link> )</p>
+      <p>( <link href="https://wiki.gnome.org/Apps/Videos">Website</link> | <link href="https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-videos.png">Screenshot</link> | <link href="https://gitlab.gnome.org/GNOME/totem/">Source code</link> )</p>
     </item>
     <item>
       <p><em style="strong">PiTiVi</em> is a non-linear video editor, which
       makes extensive use of GStreamer.</p>
-      <p>( <link href="http://www.pitivi.org/">Website</link> | <link href="http://www.pitivi.org/?go=screenshots">Screenshots</link> | <link href="http://www.pitivi.org/?go=download">Source code</link> )</p>
+      <p>( <link href="http://www.pitivi.org/">Website</link> | <link href="http://www.pitivi.org/?go=tour">Screenshot</link> | <link href="http://www.pitivi.org/?go=download">Source code</link> )</p>
     </item>
  </list>
 </section>

@@ -71,12 +71,12 @@ metadata to describe documents.</p>
     <item>
       <p><em style="strong">Documents</em> makes it easy to find your files
       with <em style="strong">Tracker</em>.</p>
-      <p>( <link href="https://wiki.gnome.org/Apps/Documents">Website</link> | <link href="https://git.gnome.org/browse/gnome-documents">Source code</link> )</p>
+      <p>( <link href="https://wiki.gnome.org/Apps/Documents">Website</link> | <link href="https://gitlab.gnome.org/GNOME/gnome-documents">Source code</link> )</p>
   </item>
     <item>
       <p><em style="strong">Files</em> leverages <em style="strong">GIO</em> to
       make it easy to manage both local and remote files.</p>
-      <p>( <link href="https://wiki.gnome.org/Apps/Nautilus">Website</link> | <link href="https://wiki.gnome.org/Apps/Nautilus/Screenshots">Screenshots</link> | <link href="https://git.gnome.org/browse/nautilus">Source code</link> )</p>
+      <p>( <link href="https://wiki.gnome.org/Apps/Nautilus">Website</link> | <link href="https://wiki.gnome.org/Apps/Nautilus/Screenshots">Screenshots</link> | <link href="https://gitlab.gnome.org/GNOME/nautilus">Source code</link> )</p>
   </item>
  </list>
 </section>

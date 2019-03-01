@@ -35,7 +35,7 @@
   <example>
   <note>
     <p>This example, based on
-    <app href="https://git.gnome.org/browse/cheese/tree/src/cheese-main.vala">Cheese</app>,
+    <app href="https://gitlab.gnome.org/GNOME/cheese/blob/master/src/cheese-main.vala">Cheese</app>,
     assumes that your application is written in Vala. It will be slightly
     different for other programming languages.</p>
   </note>
