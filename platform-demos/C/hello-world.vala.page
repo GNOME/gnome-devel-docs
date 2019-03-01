@@ -101,7 +101,7 @@
     </terms>
 
     <p>To put your application into the appropriate category, you need to add the necessary categories to the Categories line. More information on the different categories can be found in the <link href = "http://standards.freedesktop.org/menu-spec/latest/apa.html">menu specification</link>.</p>
-    <p>In this example we use an existing icon. For a custom icon you need to have a .svg file of your icon, stored in <file>/usr/share/icons/hicolor/scalable/apps</file>. Write the name of your icon file to the .desktop.in file, on line 7. More information on icons in: <link href="https://live.gnome.org/GnomeGoals/AppIcon">Installing Icons for Themes</link> and <link href="http://freedesktop.org/wiki/Specifications/icon-theme-spec">on freedesktop.org: Specifications/icon-theme-spec</link>.</p>
+    <p>In this example we use an existing icon. For a custom icon you need to have a .svg file of your icon, stored in <file>/usr/share/icons/hicolor/scalable/apps</file>. Write the name of your icon file to the .desktop.in file, on line 7. More information on icons in: <link href="https://wiki.gnome.org/Initiatives/GnomeGoals/AppIcon">Installing Icons for Themes</link> and <link href="http://freedesktop.org/wiki/Specifications/icon-theme-spec">on freedesktop.org: Specifications/icon-theme-spec</link>.</p>
   </section>
 
   <section id="autotools"><title>The build system</title>

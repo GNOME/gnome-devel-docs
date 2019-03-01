@@ -82,7 +82,7 @@
   have a .svg file of your icon, stored in <file>/usr/share/icons/hicolor/scalable/apps</file>.
   Write the name of your icon file to the .desktop.in file, on line 7.
   More information on icons in:
-  <link href="https://live.gnome.org/GnomeGoals/AppIcon">Installing Icons for Themes</link>
+  <link href="https://wiki.gnome.org/Initiatives/GnomeGoals/AppIcon">Installing Icons for Themes</link>
   and <link href="http://freedesktop.org/wiki/Specifications/icon-theme-spec">on freedesktop.org: Specifications/icon-theme-spec</link>.</p>
 
 </page>
