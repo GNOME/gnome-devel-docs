@@ -1716,7 +1716,7 @@ msgid ""
 msgstr ""
 "Wenn mit <code>switch</code> über einen Aufzählungstyp geschalten wird, muss es für "
 "jeden zulässigen Wert der Aufzählung eine <code>case</code>-Anweisung geben. Für "
-"Werte, die nicht extra behandeln werden sollen, kann der jeweilige <code>case</case> "
+"Werte, die nicht extra behandeln werden sollen, kann der jeweilige <code>case</code> "
 "zu <code>default</code> geschalten werden:"
 
 #. (itstool) path: section/code
@@ -1762,7 +1762,7 @@ msgid ""
 "<code>if</code> statement instead of a <code>switch</code>."
 msgstr ""
 "Wenn die meisten Aufzählungswerte nicht behandelt werden sollen, ist es ratsam eine "
-"<code>if</code>-Anweisung statt einem <code>switch</switch> zu verwenden."
+"<code>if</code>-Anweisung statt einem <code>switch</code> zu verwenden."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:695
