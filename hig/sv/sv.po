@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-02-03 09:38+0000\n"
-"PO-Revision-Date: 2019-03-04 18:51+0100\n"
+"POT-Creation-Date: 2019-03-08 11:06+0000\n"
+"PO-Revision-Date: 2019-03-08 21:46+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.see.org>\n"
 "Language: sv\n"
@@ -3417,8 +3417,8 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/icon-design.page:71
-msgid "Cyan"
-msgstr "Cyan"
+msgid "Green"
+msgstr "Grön"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3428,16 +3428,16 @@ msgstr "Cyan"
 #: C/icon-design.page:72
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/cyan.png' "
-"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
 msgstr ""
-"external ref='figures/icons/palette/cyan.png' "
-"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:75
-msgid "Green"
-msgstr "Grön"
+msgid "Yellow"
+msgstr "Gul"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3447,16 +3447,16 @@ msgstr "Grön"
 #: C/icon-design.page:76
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/green.png' "
-"md5='5b19c078da23f4462a697f7469dc1620'"
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
 msgstr ""
-"external ref='figures/icons/palette/green.png' "
-"md5='5b19c078da23f4462a697f7469dc1620'"
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:79
-msgid "Yellow"
-msgstr "Gul"
+msgid "Orange"
+msgstr "Orange"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3466,16 +3466,16 @@ msgstr "Gul"
 #: C/icon-design.page:80
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/yellow.png' "
-"md5='1cfcf8657720355a24dd457923a540c3'"
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
 msgstr ""
-"external ref='figures/icons/palette/yellow.png' "
-"md5='1cfcf8657720355a24dd457923a540c3'"
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:83
-msgid "Orange"
-msgstr "Orange"
+msgid "Red"
+msgstr "Röd"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3485,16 +3485,16 @@ msgstr "Orange"
 #: C/icon-design.page:84
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/orange.png' "
-"md5='2aca9f2cca26e646b289ee00542b1690'"
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
 msgstr ""
-"external ref='figures/icons/palette/orange.png' "
-"md5='2aca9f2cca26e646b289ee00542b1690'"
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:87
-msgid "Red"
-msgstr "Röd"
+msgid "Purple"
+msgstr "Lila"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3504,16 +3504,16 @@ msgstr "Röd"
 #: C/icon-design.page:88
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/red.png' "
-"md5='f3ec5513b9be713a1de46b2f524452dd'"
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
 msgstr ""
-"external ref='figures/icons/palette/red.png' "
-"md5='f3ec5513b9be713a1de46b2f524452dd'"
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:91
-msgid "Purple"
-msgstr "Lila"
+msgid "Brown"
+msgstr "Brun"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3523,16 +3523,16 @@ msgstr "Lila"
 #: C/icon-design.page:92
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/purple.png' "
-"md5='5077e893507ac99732017e9f254886c1'"
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
 msgstr ""
-"external ref='figures/icons/palette/purple.png' "
-"md5='5077e893507ac99732017e9f254886c1'"
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:95
-msgid "Brown"
-msgstr "Brun"
+msgid "Neutral"
+msgstr "Neutral"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3542,25 +3542,6 @@ msgstr "Brun"
 #: C/icon-design.page:96
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/brown.png' "
-"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
-msgstr ""
-"external ref='figures/icons/palette/brown.png' "
-"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
-
-#. (itstool) path: td/p
-#: C/icon-design.page:99
-msgid "Neutral"
-msgstr "Neutral"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icon-design.page:100
-msgctxt "_"
-msgid ""
 "external ref='figures/icons/palette/neutral.png' "
 "md5='54148d53f6fb3563dd8454f39845d467'"
 msgstr ""
@@ -3568,22 +3549,22 @@ msgstr ""
 "md5='54148d53f6fb3563dd8454f39845d467'"
 
 #. (itstool) path: section/p
-#: C/icon-design.page:105
+#: C/icon-design.page:101
 msgid ""
 "You are free to use different shades of these colors depending on the "
 "desired material effect. However, these primary colors are a good baseline "
 "to start from. A GIMP/Inkscape format palette <link href=\"https://gitlab."
-"gnome.org/Community/Design/HIG-app-icons/"
-"raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">is available</link>."
+"gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false"
+"\">is available</link>."
 msgstr ""
 "Du har lov att använda olika nyanser av dessa färger beroende på den önskade "
 "materialeffekten. Men dessa färger är en god baslinje att utgå från. En "
-"palett på GIMP/Inkscape-format <link href=\"https://gitlab.gnome.org/"
-"Community/Design/HIG-app-icons/raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/"
-"HIG.gpl\">finns tillgänglig</link>."
+"palett på GIMP/Inkscape-format <link href=\"https://gitlab.gnome.org/Teams/"
+"Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false\">finns "
+"tillgänglig</link>."
 
 #. (itstool) path: section/p
-#: C/icon-design.page:107
+#: C/icon-design.page:103
 msgid ""
 "It is recommended to keep flat surfaces unshaded, but using gradients to "
 "signify bent surfaces is allowed."
@@ -3592,12 +3573,12 @@ msgstr ""
 "toningar för att beteckna böjda ytor är tillåtet."
 
 #. (itstool) path: section/title
-#: C/icon-design.page:114
+#: C/icon-design.page:110
 msgid "Symbolic icons"
 msgstr "Symboliska ikoner"
 
 #. (itstool) path: section/p
-#: C/icon-design.page:116
+#: C/icon-design.page:112
 msgid ""
 "Symbolic icons have a simple form and are drawn within a 16×16 pixel grid. "
 "They are then programmatically scaled and colored within the user interface "
@@ -3608,7 +3589,7 @@ msgstr ""
 "användargränssnittet självt."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:119
+#: C/icon-design.page:115
 msgid ""
 "Identify a single property when looking for an appropriate metaphor for an "
 "icon, and focus on what distinguishes the idea you want to communicate. For "
@@ -3623,7 +3604,7 @@ msgstr ""
 "vad som är distinkt för varje åtgärd (till exempel: rotera, tagga, justera)."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:120
+#: C/icon-design.page:116
 msgid ""
 "Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
 "view."
@@ -3632,7 +3613,7 @@ msgstr ""
 "ortogonal vy."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:121
+#: C/icon-design.page:117
 msgid ""
 "When using unfilled strokes for an outline, try avoiding hairline (1px) and "
 "do at least a 2px stroke for the main feature of the icon."
@@ -3642,7 +3623,7 @@ msgstr ""
 "huvuddrag."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:122
+#: C/icon-design.page:118
 msgid ""
 "Symbolic icons are recolored at runtime to match the context, very much like "
 "a piece of text. While there are ways to “shade” parts of an icon by using "
@@ -3655,7 +3636,7 @@ msgstr ""
 "mönsterutmjukning så bör du försöka att undvika dessa så långt som möjligt."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:123
+#: C/icon-design.page:119
 msgid ""
 "When a metaphor relies on the negative space, make sure it will work with "
 "the colors inverted. For example a camera lens spec/highlight will only work "
@@ -3670,7 +3651,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icon-design.page:126
+#: C/icon-design.page:122
 msgctxt "_"
 msgid ""
 "external ref='figures/icons/inverting.svg' "
@@ -3680,12 +3661,12 @@ msgstr ""
 "md5='e4155d9e87e2abe95e70c42185686b5e'"
 
 #. (itstool) path: section/title
-#: C/icon-design.page:129
+#: C/icon-design.page:125
 msgid "Size and grid"
 msgstr "Storlek och rutnät"
 
 #. (itstool) path: section/p
-#: C/icon-design.page:131
+#: C/icon-design.page:127
 msgid ""
 "While symbolic icons are scalable and should work at any size, the basic "
 "canvas size is 16×16 grid units. You have the whole canvas to fill, but note "
@@ -12282,6 +12263,17 @@ msgstr ""
 "<gui>Preferences</gui>. Även om dessa kommandon öppnar fönster som kan "
 "innehålla vidare funktionalitet så anger etiketten inte en åtgärd och "
 "behöver därför inte kommunicera att vidare inmatning eller bekräftelse krävs."
+
+#~ msgid "Cyan"
+#~ msgstr "Cyan"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/cyan.png' "
+#~ "md5='d3973cbeaf6b494cf5726c8acff35d74'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/cyan.png' "
+#~ "md5='d3973cbeaf6b494cf5726c8acff35d74'"
 
 #~ msgid ""
 #~ "Icons play an important role in user interfaces: selecting the correct "
