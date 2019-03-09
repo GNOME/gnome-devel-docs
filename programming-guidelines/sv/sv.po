@@ -6,16 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-03-30 21:35+0000\n"
-"PO-Revision-Date: 2018-04-03 21:03+0200\n"
+"POT-Creation-Date: 2019-03-01 02:11+0000\n"
+"PO-Revision-Date: 2019-03-09 13:35+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -52,7 +52,7 @@ msgid ""
 "developers, and about good programming style in general."
 msgstr ""
 "Här ger vi dig länkar till andra material som du kan vilja läsa. Dessa kommer att "
-"lära dig mycket om hur du kan arbete i stora distribuerade grupper av utvecklare av "
+"lära dig mycket om hur du kan arbeta i stora distribuerade grupper av utvecklare av "
 "fri programvara, och om god programmeringsstil i allmänhet."
 
 #. (itstool) path: item/p
@@ -100,9 +100,9 @@ msgstr ""
 "avslut av funktioner."
 
 #. (itstool) path: credit/name
-#: C/api-stability.page:10 C/databases.page:11 C/documentation.page:16
-#: C/file-system.page:11 C/gerror.page:11 C/glist.page:11 C/index.page:21
-#: C/introspection.page:10 C/logging.page:11 C/main-contexts.page:11
+#: C/api-stability.page:10 C/async-programming.page:11 C/databases.page:11
+#: C/documentation.page:16 C/file-system.page:11 C/gerror.page:11 C/glist.page:11
+#: C/index.page:21 C/introspection.page:10 C/logging.page:11 C/main-contexts.page:11
 #: C/memory-management.page:10 C/namespacing.page:10 C/parallel-installability.page:18
 #: C/preconditions.page:11 C/threading.page:11 C/tooling.page:10 C/unit-testing.page:10
 #: C/version-control.page:10 C/versioning.page:10
@@ -110,12 +110,12 @@ msgid "Philip Withnall"
 msgstr "Philip Withnall"
 
 #. (itstool) path: credit/years
-#: C/api-stability.page:12 C/databases.page:13 C/documentation.page:18
-#: C/file-system.page:13 C/gerror.page:13 C/glist.page:13 C/index.page:23
-#: C/introspection.page:12 C/logging.page:13 C/memory-management.page:12
-#: C/parallel-installability.page:20 C/preconditions.page:13 C/threading.page:13
-#: C/tooling.page:12 C/unit-testing.page:12 C/version-control.page:12
-#: C/versioning.page:12
+#: C/api-stability.page:12 C/async-programming.page:13 C/databases.page:13
+#: C/documentation.page:18 C/file-system.page:13 C/gerror.page:13 C/glist.page:13
+#: C/index.page:23 C/introspection.page:12 C/logging.page:13
+#: C/memory-management.page:12 C/parallel-installability.page:20
+#: C/preconditions.page:13 C/threading.page:13 C/tooling.page:12 C/unit-testing.page:12
+#: C/version-control.page:12 C/versioning.page:12
 msgid "2015"
 msgstr "2015"
 
@@ -130,11 +130,12 @@ msgid "API stability"
 msgstr "API-stabilitet"
 
 #. (itstool) path: synopsis/title
-#: C/api-stability.page:23 C/databases.page:24 C/documentation.page:32
-#: C/file-system.page:24 C/introspection.page:23 C/logging.page:26
-#: C/main-contexts.page:27 C/memory-management.page:65 C/namespacing.page:25
-#: C/parallel-installability.page:33 C/threading.page:24 C/tooling.page:45
-#: C/unit-testing.page:23 C/version-control.page:23 C/versioning.page:23
+#: C/api-stability.page:23 C/async-programming.page:26 C/databases.page:24
+#: C/documentation.page:32 C/file-system.page:24 C/introspection.page:23
+#: C/logging.page:26 C/main-contexts.page:27 C/memory-management.page:65
+#: C/namespacing.page:25 C/parallel-installability.page:33 C/threading.page:24
+#: C/tooling.page:45 C/unit-testing.page:23 C/version-control.page:23
+#: C/versioning.page:23
 msgid "Summary"
 msgstr "Sammanfattning"
 
@@ -161,6 +162,7 @@ msgstr "API och ABI"
 
 #. (itstool) path: section/p
 #: C/api-stability.page:40
+#, fuzzy
 msgid ""
 "At a high level, an API – <em>Application Programming Interface</em> – is the "
 "boundary between two components when developing against them. It is closely related "
@@ -173,6 +175,16 @@ msgid ""
 "its ABI. But these differences are mostly academic, and for all practical purposes, "
 "API and ABI can be treated interchangeably."
 msgstr ""
+"På en hög nivå är ett API – <em>Application Programming Interface</em> – gränsen "
+"mellan två komponenter vid utveckling mot dem. Det är nära relaterat till ett ABI – "
+"<em>Application Binary Interface</em> – som är gränsen vid körtid. Det definierar de "
+"möjliga sätt som andra komponenter kan interagera med en komponent. Mer konkret "
+"betyder detta vanligen att C-headerfilerna för ett bibliotek formar dess API, och "
+"kompilerade bibliotekssymboler dess ABI. Skillnaden mellan ett API och ett ABI ges "
+"av kompileringen av koden: det finns vissa saker i en C-header, så som "
+"<code>#define</code>s, som kan få ett biblioteks API att förändras utan att ändra "
+"dess ABI. Men dessa skillnader mestadels akademiska, och för praktisk användning kan "
+"API och ABI användas utan urskiljning."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:54
@@ -180,15 +192,22 @@ msgid ""
 "Examples of API-incompatible changes to a C function would be to add a new "
 "parameter, change the function’s return type, or remove a parameter."
 msgstr ""
+"Exempel på API-inkompatibla ändringar till en C-funktion skulle vara att lägga till "
+"en ny parameter, ändra funktionens returtyp eller att ta bort en parameter."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:59
+#, fuzzy
 msgid ""
 "However, many other parts of a project can form an API. If a daemon exposes itself "
 "on D-Bus, the interfaces exported there form an API. Similarly, if a C API is "
 "exposed in higher level languages by use of GIR, the GIR file forms another API — if "
 "it changes, any higher level code using it must also change."
 msgstr ""
+"Många andra delar av ett projekt kan dock forma ett API. If a daemon exponerar sig "
+"på D-Bus så formar gränssnitten som exporteras där ett API. Om ett C-API på samma "
+"sätt exponeras i språk på högre nivå genom GIR, formar GIR-filen ett annat API — om "
+"den ändras måste all kod på högre nivå som använder den också ändras."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:67
@@ -197,6 +216,9 @@ msgid ""
 "and GSettings schemas. Any changes to these could require code using your library to "
 "change."
 msgstr ""
+"Andra exempel på mer ovanliga API:er är platser och format för konfigurationsfiler, "
+"och GSettings-scheman. Alla ändringar till dessa kan kräva att kod som använder ditt "
+"bibliotek behöver ändras."
 
 #. (itstool) path: section/title
 #: C/api-stability.page:75
@@ -205,6 +227,7 @@ msgstr "Stabilitet"
 
 #. (itstool) path: section/p
 #: C/api-stability.page:77
+#, fuzzy
 msgid ""
 "API stability refers to some level of guarantee from a project that its API will "
 "only change in defined ways in the future, or will not change at all. Generally, an "
@@ -218,6 +241,18 @@ msgid ""
 "which runs against a daemon will continue to run against all future versions of that "
 "daemon with the same major version number."
 msgstr ""
+"API-stabilitet hänvisar till någon nivå att garanti från ett projekt att dess API "
+"bara kommer att ändras på definierade sätt i framtiden, eller inte kommer att ändras "
+"alls. Allmänt anses ett API ”stabilt” om det binder sig till bakåtkompatibilitet "
+"(definierat nedan); men API:er kan också binda sig till att vara instabila eller "
+"till och med framåtkompatibla. Syftet med API-stabilitetsgarantier är att låta folk "
+"använda ditt projekt från sin egen kod utan att oroa sig om att konstant behöva "
+"uppdatera sin kod för att hålla jämn takt med API-ändringar. Typiska API-"
+"stabilitetsgarantier betyder att kod som kompileras mot en version av ett bibliotek "
+"kommer att kunna köras utan problem mot alla framtida versioner av det biblioteket "
+"med samma stora versionsnummer — eller liknande att kod som körs mot en daemon "
+"kommer att fortsätta kunna köras mot alla framtida versioner av daemonen med samma "
+"stora versionsnummer."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:93
@@ -228,6 +263,11 @@ msgid ""
 "left unstable and allowed to change wildly until the right design is found, at which "
 "point they could be marked as stable."
 msgstr ""
+"Det är möjligt att tillämpa olika nivåer av API-stabilitet till komponenter i ett "
+"projekt. Till exempel kan de centrala funktionerna i ett bibliotek vara stabila, och "
+"därför kan deras API lämnas oförändrat i framtiden; mindre centrala funktioner "
+"skulle kunna lämnas instabila och tillåtas att förändras mycket till dess att rätt "
+"design hittats, och vid den tidpunkten skulle de kunna markeras att vara stabila."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:102
@@ -299,7 +339,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/api-stability.page:140 C/versioning.page:20
 msgid "Versioning"
-msgstr ""
+msgstr "Versionering"
 
 #. (itstool) path: section/p
 #: C/api-stability.page:142
@@ -310,9 +350,15 @@ msgid ""
 "\"https://autotools.io/libtool/version.html\">Autotools Mythbuster</link> or <link "
 "xref=\"versioning\"/>."
 msgstr ""
+"API-stabilitetsgarantier är starkt länkade till projektversionering; både "
+"paketversionering och libtool-versionering. Libtool-versionering existerar enbart "
+"för syftet att följa ABI-stabilitet, och förklaras i detalj i <link href=\"https://"
+"autotools.io/libtool/version.html\">Autotools Mythbuster</link> eller <link xref="
+"\"versioning\"/>."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:151
+#, fuzzy
 msgid ""
 "Package versioning (<em>major.minor.micro</em>) is strongly linked to API stability: "
 "typically, the major version number is incremented when backwards-incompatible "
@@ -322,6 +368,12 @@ msgid ""
 "version number is incremented when code changes are made without modifying API. See "
 "<link xref=\"versioning\"/> for more information."
 msgstr ""
+"Paketversionering (<em>major.minor.micro</em>) är starkt länkad till API-stabilitet: "
+"typiskt ökas det större versionsnumret när bakåtinkompatibla ändringar görs (till "
+"exempel när funktioner byter namn, parametrar ändra eller funktioner tas bort). Det "
+"mindre versionsnumret ökas då framåtinkompatibla ändringar görs (till exempel då nya "
+"öppna API:er läggs till). Mikro-versionsnumret ökas när kodändringar görs utan att "
+"API ändras. Se <link xref=\"versioning\"/> för mer information."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:162
@@ -331,6 +383,10 @@ msgid ""
 "org/doc/dbus-api-design.html#api-versioning\">documentation on D-Bus API versioning</"
 "link> for details."
 msgstr ""
+"API-versionering är precis lika viktig för D-Bus-API:er och GSettings-scheman (om de "
+"kan förväntas ändras) som för C-API:er. Se <link href=\"http://dbus.freedesktop.org/"
+"doc/dbus-api-design.html#api-versioning\">dokumentationen om versionering för D-Bus-"
+"API:er</link> för detaljer."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:169
@@ -340,6 +396,10 @@ msgid ""
 "depends on the version of gobject-introspection used in generating the GIR, but "
 "recent versions have not changed much so this is not a major concern."
 msgstr ""
+"För GIR-API:er följer stabiliteten typiskt stabiliteten hos C-API:t eftersom de "
+"genereras från C-API:t. En komplexitet är att deras stabilitet dessutom beror på "
+"versionen av gobject-introspection som använts vid generering av GIR, men senare "
+"versioner har inte ändrats mycket, så detta är inget större problem."
 
 #. (itstool) path: section/title
 #: C/api-stability.page:179 C/unit-testing.page:272 C/version-control.page:161
@@ -354,19 +414,19 @@ msgstr "Ämnet API-stabilitet täcks i följande artiklar:"
 #. (itstool) path: item/p
 #: C/api-stability.page:185
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Application_programming_interface"
+"<link href=\"https://en.wikipedia.org/wiki/Application_programming_interface"
 "\">Wikipedia page on APIs</link>"
 msgstr ""
-"<link href=\"http://en.wikipedia.org/wiki/Application_programming_interface"
+"<link href=\"https://en.wikipedia.org/wiki/Application_programming_interface"
 "\">Wikipedia-sidan om API:er</link>"
 
 #. (itstool) path: item/p
 #: C/api-stability.page:189
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Application_binary_interface\">Wikipedia "
+"<link href=\"https://en.wikipedia.org/wiki/Application_binary_interface\">Wikipedia "
 "page on ABIs</link>"
 msgstr ""
-"<link href=\"http://en.wikipedia.org/wiki/Application_binary_interface\">Wikipedia-"
+"<link href=\"https://en.wikipedia.org/wiki/Application_binary_interface\">Wikipedia-"
 "sidan om ABI:er</link>"
 
 #. (itstool) path: item/p
@@ -378,10 +438,1302 @@ msgstr ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-api-design.html#api-versioning\">D-"
 "Bus API-versionsdokumentation</link>"
 
+#. (itstool) path: info/desc
+#: C/async-programming.page:18
+msgid "Use of GLib-style asynchronous methods in various situations"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/async-programming.page:23
+msgid "Asynchronous Programming"
+msgstr "Asynkron programmering"
+
+#. (itstool) path: item/p
+#: C/async-programming.page:29
+msgid ""
+"Use asynchronous calls in preference to synchronous calls or explicit use of threads "
+"(<link xref=\"#concepts\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:33
+msgid ""
+"Learn and follow the GLib pattern for declaring asynchronous APIs (<link xref=\"#api-"
+"pattern\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:37
+msgid ""
+"Place callbacks from asynchronous functions in order down the file, so control flow "
+"is easy to follow (<link xref=\"#single-call\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:41
+msgid ""
+"Use the presence of a <link href=\"https://developer.gnome.org/gio/stable/GTask.html"
+"\"><code>GTask</code></link> or <link href=\"https://developer.gnome.org/gio/stable/"
+"GCancellable.html\"><code>GCancellable</code></link> to indicate whether an "
+"operation is ongoing (<link xref=\"#single-call\"/>, <link xref=\"#gtask\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:48
+msgid ""
+"If running operations in parallel, track how many operations are yet to start, and "
+"how many are yet to finish — the overall operation is complete once both counts are "
+"zero (<link xref=\"#parallel\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:54
+msgid ""
+"Separate state for operations into ‘task data’ structures for <link href=\"https://"
+"developer.gnome.org/gio/stable/GTask.html\"><code>GTask</code>s</link>, allowing "
+"operations to be reused more easily without needing changes to global state handling "
+"(<link xref=\"#gtask\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:60
+msgid ""
+"Consider how asynchronous methods on an object instance interact with finalization "
+"of that instance (<link xref=\"#lifetimes\"/>)"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:68
+msgid "Concepts"
+msgstr "Koncept"
+
+#. (itstool) path: section/p
+#: C/async-programming.page:70
+msgid ""
+"GLib supports <em>asynchronous</em> programming, where long-running operations can "
+"be started, run ‘in the background’, and a callback invoked when they are finished "
+"and their results are available. This is in direct contrast to <em>synchronous</em> "
+"long-running operations, which are a single function call which blocks program "
+"control flow until complete."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:78
+msgid ""
+"As discussed in <link xref=\"main-contexts\"/> and <link xref=\"threading#when-to-"
+"use-threading\"/>, asynchronous operations should be favoured over synchronous ones "
+"and over explicit use of threading. They do not block the main context like "
+"sychronous operations do; and are easier to use correctly than threads. They often "
+"also have a lower performance penalty than spawning a thread and sending work to it."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:89
+msgid "API Pattern"
+msgstr "API-mönster"
+
+#. (itstool) path: section/p
+#: C/async-programming.page:91
+msgid ""
+"Asynchronous calls follow a standard pattern in GLib code. For an operation named "
+"<code>load_data</code> on the <code>File</code> class in the <code>Foo</code> "
+"namespace, there will be:"
+msgstr ""
+
+#. (itstool) path: item/code
+#: C/async-programming.page:98
+#, no-wrap
+#| msgid ""
+#| "\n"
+#| "return_type          function_name           (type   argument,\n"
+#| "                                              type   argument,\n"
+#| "                                              type   argument);"
+msgid ""
+"\n"
+"foo_file_load_data_async (FooFile             *self,\n"
+"                          …,\n"
+"                          GCancellable        *cancellable,\n"
+"                          GAsyncReadyCallback  callback,\n"
+"                          gpointer             user_data)"
+msgstr ""
+"\n"
+"foo_file_load_data_async (FooFile             *self,\n"
+"                          …,\n"
+"                          GCancellable        *cancellable,\n"
+"                          GAsyncReadyCallback  callback,\n"
+"                          gpointer             user_data)"
+
+#. (itstool) path: item/code
+#: C/async-programming.page:106
+#, no-wrap
+#| msgid ""
+#| "\n"
+#| "return_type          function_name           (type   argument,\n"
+#| "                                              type   argument,\n"
+#| "                                              type   argument);"
+msgid ""
+"\n"
+"foo_file_load_data_finish (FooFile       *self,\n"
+"                           GAsyncResult  *result,\n"
+"                           …,\n"
+"                           GError       **error)"
+msgstr ""
+"\n"
+"foo_file_load_data_finish (FooFile       *self,\n"
+"                           GAsyncResult  *result,\n"
+"                           …,\n"
+"                           GError       **error)"
+
+#. (itstool) path: section/p
+#: C/async-programming.page:114
+msgid ""
+"The <code>…</code> parameters to <code>foo_file_load_data_async()</code> are those "
+"specific to the operation — in this case, perhaps the size of a buffer to load into. "
+"Similarly for <code>foo_file_load_data_finish()</code> they are the operation-"
+"specific return values — perhaps a location to return a content type string in this "
+"case."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:123
+msgid ""
+"When <code>foo_file_load_data_async()</code> is called, it schedules the load "
+"operation in the background (as a new file descriptor on the <link xref=\"main-"
+"contexts\"><code>GMainContext</code></link> or as a worker thread, for example), "
+"then returns without blocking."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:130
+msgid ""
+"When the operation is complete, the <code>callback</code> is executed in the same "
+"<code>GMainContext</code> as the original asynchronous call. The callback is invoked "
+"<em>exactly</em> once, whether the operation succeeded or failed."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:137
+msgid ""
+"From the callback, <code>foo_file_load_data_finish()</code> may be called by the "
+"user’s code to retrieve return values and error details, passing the <link href="
+"\"https://developer.gnome.org/gio/stable/GAsyncResult.html\"><code>GAsyncResult</"
+"code></link> instance which was passed to the callback."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:146
+msgid "Operation Lifetimes"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:148
+msgid ""
+"When writing asynchronous operations, it is common to write them as methods of a "
+"class. In this case, it is important to define how ongoing operations on a class "
+"instance interact with finalization of that instance. There are two approaches:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/async-programming.page:157
+msgid "Strong"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:158
+msgid ""
+"The ongoing operation keeps a reference to the class instance, forcing it to remain "
+"alive for the duration of the operation. The class should provide some kind of "
+"‘close’ or ‘cancel’ method which can be used by other classes to force cancellation "
+"of the operation and allow that instance to be finalized."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/async-programming.page:168
+msgid "Weak"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:169
+msgid ""
+"The ongoing operation does <em>not</em> keep a reference to the class instance, and "
+"the class cancels the operation (using <link href=\"https://developer.gnome.org/gio/"
+"stable/GCancellable.html#g-cancellable-cancel\"><code>g_cancellable_cancel()</code></"
+"link>) in its dispose function."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:178
+msgid ""
+"Which approach is used depends on the class’ design. A class which wraps a "
+"particular operation (perhaps a <code>MyFileTransfer</code> class, for example) "
+"might want to use the <em style=\"strong\">weak</em> approach. A class which manages "
+"multiple network connections and asynchronous operations on them may use the <em "
+"style=\"strong\">strong</em> approach instead. Due to incoming network connections, "
+"for example, it might not be in complete control of the scheduling of its "
+"asynchronous calls, so the weak approach would not be appropriate — any code "
+"dropping a reference to the object could not be sure it was not accidentally killing "
+"a new network connection."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:193
+msgid "Examples of Using Asynchronous Functions"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:195
+msgid ""
+"It is often the case that multiple asynchronous calls need to be used to complete an "
+"operation. For example, opening a file for reading, then performing a couple of "
+"reads, and then closing the file. Or opening several network sockets in parallel and "
+"waiting until they are all open before continuing with other work. Some examples of "
+"these situations are given below."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:205
+msgid "Single Operation"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:207
+msgid ""
+"A single asynchronous call requires two functions: one to start the operation, and "
+"one to complete it. In C, the demanding part of performing an asynchronous call is "
+"correctly storing state between these two functions, and handling changes to that "
+"state in the time between those two functions being called. For example, "
+"cancellation of an ongoing asynchronous call is a state change, and if not "
+"implemented carefully, any UI updates (for example) made when cancelling an "
+"operation will be undone by updates in the operation’s callback."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:219
+msgid ""
+"This example demonstrates copying a file from one location in the file system to "
+"another. The key principles demonstrated here are:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:224
+msgid ""
+"Placing the <code>copy_button_clicked_cb()</code> (start) and "
+"<code>copy_finish_cb()</code> (finish) functions in order by using a forward "
+"declaration for <code>copy_finish_cb()</code>. This means the control flow continues "
+"linearly down the file, rather than getting to the bottom of "
+"<code>copy_button_clicked_cb()</code> and resuming in <code>copy_finish_cb()</code> "
+"somewhere else in the file."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:233
+msgid ""
+"Use of a <link href=\"https://developer.gnome.org/gio/stable/GCancellable.html"
+"\"><code>GCancellable</code></link> to allow cancelling the operation after it has "
+"started. The code in <code>cancel_button_clicked_cb()</code> is very simple: as the "
+"<code>copy_finish_cb()</code> callback is <em>guaranteed</em> to be invoked when the "
+"operation completes (even when completing early due to cancellation), all the UI and "
+"state updates for cancellation can be handled there, rather than in "
+"<code>cancel_button_clicked_cb()</code>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:245
+msgid ""
+"An operation is ongoing exactly while <code>MyObjectPrivate.copy_cancellable</code> "
+"is non-<code>NULL</code>, making it easy to track running operations. Note that this "
+"means only one file copy operation can be started via "
+"<code>copy_button_clicked_cb()</code> at a time. One <code>GCancellable</code> "
+"cannot easily be used for multiple operations like this."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:256
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"copy_finish_cb (GObject      *source_object,\n"
+"                GAsyncResult *result,\n"
+"                gpointer      user_data);\n"
+"\n"
+"static void\n"
+"copy_button_clicked_cb (GtkButton *button\n"
+"                        gpointer   user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *source = NULL, *destination = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (user_data));\n"
+"\n"
+"  /* Operation already in progress? */\n"
+"  if (priv-&gt;copy_cancellable != NULL)\n"
+"    {\n"
+"      g_debug (\"Copy already in progress.\");\n"
+"      return;\n"
+"    }\n"
+"\n"
+"  /* Build source and destination file paths. */\n"
+"  source = g_file_new_for_path (/* some path generated from UI */);\n"
+"  destination = g_file_new_for_path (/* some other path generated from UI */);\n"
+"\n"
+"  /* Set up a cancellable. */\n"
+"  priv-&gt;copy_cancellable = g_cancellable_new ();\n"
+"\n"
+"  g_file_copy_async (source, destination, G_FILE_COPY_NONE, G_PRIORITY_DEFAULT,\n"
+"                     priv-&gt;copy_cancellable, NULL, NULL,\n"
+"                     copy_finish_cb, user_data);\n"
+"\n"
+"  g_object_unref (destination);\n"
+"  g_object_unref (source);\n"
+"\n"
+"  /* Update UI to show copy is in progress. */\n"
+"  …\n"
+"}\n"
+"\n"
+"static void\n"
+"copy_finish_cb (GObject      *source_object,\n"
+"                GAsyncResult *result,\n"
+"                gpointer      user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *source;  /* unowned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  source = G_FILE (source_object);\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (user_data));\n"
+"\n"
+"  /* Handle completion of the operation. */\n"
+"  g_file_copy_finish (source, result, &amp;error);\n"
+"\n"
+"  if (error != NULL &amp;&amp;\n"
+"      !g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"    {\n"
+"      /* Should update the UI to signal failure.\n"
+"       * Ignore failure due to cancellation. */\n"
+"      g_warning (\"Failed to copy file: %s\", error-&gt;message);\n"
+"    }\n"
+"\n"
+"  g_clear_error (&amp;error);\n"
+"\n"
+"  /* Clear the cancellable to signify the operation has finished. */\n"
+"  g_clear_object (&amp;priv-&gt;copy_cancellable);\n"
+"\n"
+"  /* Update UI to show copy as complete. */\n"
+"  …\n"
+"}\n"
+"\n"
+"static void\n"
+"cancel_button_clicked_cb (GtkButton *button,\n"
+"                          gpointer   user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *source = NULL, *destination = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (user_data));\n"
+"\n"
+"  /* Operation in progress? No-op if @copy_cancellable is %NULL. */\n"
+"  g_cancellable_cancel (priv-&gt;copy_cancellable);\n"
+"}\n"
+"\n"
+"static void\n"
+"my_object_dispose (GObject *obj)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (obj));\n"
+"\n"
+"  /* Cancel any ongoing copy operation.\n"
+"   *\n"
+"   * This ensures that if #MyObject is disposed part-way through a copy, the\n"
+"   * callback doesn’t get invoked with an invalid #MyObject pointer. */\n"
+"  g_cancellable_cancel (priv-&gt;copy_cancellable);\n"
+"\n"
+"  /* Do other dispose calls here. */\n"
+"  …\n"
+"\n"
+"  /* Chain up. */\n"
+"  G_OBJECT_CLASS (my_object_parent_class)-&gt;dispose (obj);\n"
+"}"
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:361
+msgid ""
+"For comparison, here is the same code implemented using the <em>synchronous</em> "
+"version of <link href=\"https://developer.gnome.org/gio/stable/GFile.html#g-file-copy"
+"\"><code>g_file_copy()</code></link>. Note how the order of statements is almost "
+"identical. Cancellation cannot be supported here, as the UI is blocked from "
+"receiving ‘click’ events on the cancellation button while the copy is ongoing, so "
+"<code>NULL</code> is passed to the <code>GCancellable</code> parameter. This is the "
+"main reason why this code should <em>not</em> be used in practice."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:373
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"copy_button_clicked_cb (GtkButton *button\n"
+"                        gpointer   user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *source = NULL, *destination = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (user_data));\n"
+"\n"
+"  /* Build source and destination file paths. */\n"
+"  source = g_file_new_for_path (/* some path generated from UI */);\n"
+"  destination = g_file_new_for_path (/* some other path generated from UI */);\n"
+"\n"
+"  g_file_copy (source, destination, G_FILE_COPY_NONE,\n"
+"               NULL  /* cancellable */, NULL, NULL,\n"
+"               &amp;error);\n"
+"\n"
+"  g_object_unref (destination);\n"
+"  g_object_unref (source);\n"
+"\n"
+"  /* Handle completion of the operation. */\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Should update the UI to signal failure.\n"
+"       * Ignore failure due to cancellation. */\n"
+"      g_warning (\"Failed to copy file: %s\", error-&gt;message);\n"
+"    }\n"
+"\n"
+"  g_clear_error (&amp;error);\n"
+"\n"
+"  /* Update UI to show copy as complete. */\n"
+"  …\n"
+"}"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:411
+msgid "Operations in Series"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:413
+msgid ""
+"A common situation is to run multiple asynchronous operations in series, when each "
+"operation depends on the previous one completing."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:419
+msgid ""
+"In this example, the application reads a socket address from a file, opens a "
+"connection to that address, reads a message, and then finishes."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:425 C/async-programming.page:710
+#: C/async-programming.page:880
+msgid "Key points in this example are:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:429
+msgid ""
+"Each callback is numbered consistently, and they are all placed in order in the file "
+"so the code follows sequentially."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:433
+msgid ""
+"As in <link xref=\"#single-call\"/>, a single <code>GCancellable</code> indicates "
+"that the series of operations is ongoing. Cancelling it aborts the entire sequence."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:438
+msgid ""
+"As in <link xref=\"#single-call\"/>, the pending operation is cancelled if the "
+"owning <code>MyObject</code> instance is disposed, to prevent callbacks being called "
+"later with an invalid <code>MyObject</code> pointer."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:446
+msgid ""
+"<link xref=\"#gtask\"/> gives a version of this example wrapped in a <link href="
+"\"https://developer.gnome.org/gio/stable/GTask.html\"><code>GTask</code></link> for "
+"convenience."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:452
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"connect_to_server_cb1 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"static void\n"
+"connect_to_server_cb2 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"static void\n"
+"connect_to_server_cb3 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"\n"
+"static void\n"
+"connect_to_server (MyObject *self)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *address_file = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  if (priv-&gt;connect_cancellable != NULL)\n"
+"    {\n"
+"      /* Already connecting. */\n"
+"      return;\n"
+"    }\n"
+"\n"
+"  /* Set up a cancellable. */\n"
+"  priv-&gt;connect_cancellable = g_cancellable_new ();\n"
+"\n"
+"  /* Read the socket address. */\n"
+"  address_file = build_address_file ();\n"
+"  g_file_load_contents_async (address_file, priv-&gt;connect_cancellable,\n"
+"                              connect_to_server_cb1, self);\n"
+"  g_object_unref (address_file);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb1 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *address_file;  /* unowned */\n"
+"  gchar *address = NULL;  /* owned */\n"
+"  gsize address_size = 0;\n"
+"  GInetAddress *inet_address = NULL;  /* owned */\n"
+"  GInetSocketAddress *inet_socket_address = NULL;  /* owned */\n"
+"  guint16 port = 123;\n"
+"  GSocketClient *socket_client = NULL;  /* owned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  address_file = G_FILE (source_object);\n"
+"  self = MY_OBJECT (user_data);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish loading the address. */\n"
+"  g_file_load_contents_finish (address_file, result, &amp;address,\n"
+"                               &amp;address_size, NULL, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Parse the address. */\n"
+"  inet_address = g_inet_address_new_from_string (address);\n"
+"\n"
+"  if (inet_address == NULL)\n"
+"    {\n"
+"      /* Error. */\n"
+"      g_set_error (&amp;error, G_IO_ERROR, G_IO_ERROR_INVALID_ARGUMENT,\n"
+"                   \"Invalid address ‘%s’.\", address);\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  inet_socket_address = g_inet_socket_address_new (inet_address, port);\n"
+"\n"
+"  /* Connect to the given address. */\n"
+"  socket_client = g_socket_client_new ();\n"
+"\n"
+"  g_socket_client_connect_async (socket_client,\n"
+"                                 G_SOCKET_CONNECTABLE (inet_socket_address),\n"
+"                                 priv-&gt;connect_cancellable,\n"
+"                                 connect_to_server_cb2,\n"
+"                                 self);\n"
+"\n"
+"done:\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation. */\n"
+"      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"        {\n"
+"          g_warning (\"Failed to load server address: %s\", error-&gt;message);\n"
+"        }\n"
+"\n"
+"      g_clear_object (&amp;priv-&gt;connect_cancellable);\n"
+"      g_error_free (error);\n"
+"    }\n"
+"\n"
+"  g_free (address);\n"
+"  g_clear_object (&amp;inet_address);\n"
+"  g_clear_object (&amp;inet_socket_address);\n"
+"  g_clear_object (&amp;socket_client);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb2 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GSocketClient *socket_client;  /* unowned */\n"
+"  GSocketConnection *connection = NULL;  /* owned */\n"
+"  GInputStream *input_stream;  /* unowned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  socket_client = G_SOCKET_CLIENT (source_object);\n"
+"  self = MY_OBJECT (user_data);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish connecting to the socket. */\n"
+"  connection = g_socket_client_connect_finish (socket_client, result,\n"
+"                                               &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Store a reference to the connection so it is kept open while we read from\n"
+"   * it: #GInputStream does not keep a reference to a #GIOStream which contains\n"
+"   * it. */\n"
+"  priv-&gt;connection = g_object_ref (connection);\n"
+"\n"
+"  /* Read a message from the connection. This uses a single buffer stored in\n"
+"   * #MyObject, meaning that only one connect_to_server() operation can run at\n"
+"   * any time. The buffer could instead be allocated dynamically if this is a\n"
+"   * problem. */\n"
+"  input_stream = g_io_stream_get_input_stream (G_IO_STREAM (connection));\n"
+"\n"
+"  g_input_stream_read_async (input_stream,\n"
+"                             priv-&gt;message_buffer,\n"
+"                             sizeof (priv-&gt;message_buffer),\n"
+"                             G_PRIORITY_DEFAULT, priv-&gt;connect_cancellable,\n"
+"                             connect_to_server_cb3, self);\n"
+"\n"
+"done:\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation. */\n"
+"      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"        {\n"
+"          g_warning (\"Failed to connect to server: %s\", error-&gt;message);\n"
+"        }\n"
+"\n"
+"      g_clear_object (&amp;priv-&gt;connect_cancellable);\n"
+"      g_clear_object (&amp;priv-&gt;connection);\n"
+"      g_error_free (error);\n"
+"    }\n"
+"\n"
+"  g_clear_object (&amp;connection);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb3 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GInputStream *input_stream;  /* unowned */\n"
+"  gssize len = 0;\n"
+"  GError *error = NULL;\n"
+"\n"
+"  input_stream = G_INPUT_STREAM (source_object);\n"
+"  self = MY_OBJECT (user_data);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish reading from the socket. */\n"
+"  len = g_input_stream_read_finish (input_stream, result, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Handle the message. */\n"
+"  g_assert_cmpint (len, &gt;=, 0);\n"
+"  g_assert_cmpuint ((gsize) len, &lt;=, sizeof (priv-&gt;message_buffer));\n"
+"\n"
+"  handle_received_message (self, priv-&gt;message_buffer, len, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"done:\n"
+"  /* Unconditionally mark the operation as finished.\n"
+"   *\n"
+"   * The streams should automatically close as this\n"
+"   * last reference is dropped. */\n"
+"  g_clear_object (&amp;priv-&gt;connect_cancellable);\n"
+"  g_clear_object (&amp;priv-&gt;connection);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Warn about the error. */\n"
+"      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"        {\n"
+"          g_warning (\"Failed to read from the server: %s\", error-&gt;message);\n"
+"        }\n"
+"\n"
+"      g_error_free (error);\n"
+"    }\n"
+"}\n"
+"\n"
+"static void\n"
+"my_object_dispose (GObject *obj)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (obj));\n"
+"\n"
+"  /* Cancel any ongoing connection operations.\n"
+"   *\n"
+"   * This ensures that if #MyObject is disposed part-way through the\n"
+"   * connect_to_server() sequence of operations, the sequence gets cancelled and\n"
+"   * doesn’t continue with an invalid #MyObject pointer. */\n"
+"  g_cancellable_cancel (priv-&gt;connect_cancellable);\n"
+"\n"
+"  /* Do other dispose calls here. */\n"
+"  …\n"
+"\n"
+"  /* Chain up. */\n"
+"  G_OBJECT_CLASS (my_object_parent_class)-&gt;dispose (obj);\n"
+"}"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:697
+msgid "Operations in Parallel"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:699
+msgid ""
+"Another common situation is to run multiple asynchronous operations in parallel, "
+"considering the overall operation complete when all its constituents are complete."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:706
+msgid "In this example, the application deletes multiple files in parallel."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:714
+msgid ""
+"The number of pending asynchronous operations (ones which have started but not yet "
+"finished) is tracked as <code>n_deletions_pending</code>. The "
+"<code>delete_files_cb()</code> callback only considers the entire operation complete "
+"once this reaches zero."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:721
+msgid ""
+"<code>n_deletions_to_start</code> tracks deletion operations being started, in case "
+"<link href=\"https://developer.gnome.org/gio/stable/GFile.html#g-file-delete-async"
+"\"><code>g_file_delete_async()</code></link> manages to use a fast path and complete "
+"synchronously (without blocking)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:728
+msgid ""
+"As in <link xref=\"#single-call\"/>, all pending deletions are cancelled if the "
+"owning <code>MyObject</code> instance is disposed, to prevent callbacks being called "
+"later with an invalid <code>MyObject</code> pointer."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:736
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"delete_files_cb (GObject      *source_object,\n"
+"                 GAsyncResult *result,\n"
+"                 gpointer      user_data);\n"
+"\n"
+"static void\n"
+"delete_files (MyObject *self,\n"
+"              GPtrArray/*&lt;owned GFile*&gt;&gt;*/ *files)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *address_file = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Set up a cancellable if no operation is ongoing already. */\n"
+"  if (priv-&gt;delete_cancellable == NULL)\n"
+"    {\n"
+"      priv-&gt;delete_cancellable = g_cancellable_new ();\n"
+"      priv-&gt;n_deletions_pending = 0;\n"
+"      priv-&gt;n_deletions_total = 0;\n"
+"    }\n"
+"\n"
+"  /* Update internal state, and temporarily set @n_deletions_to_start. This is\n"
+"   * used in delete_files_cb() to avoid indicating the overall operation has\n"
+"   * completed while deletions are still being started. This can happen if\n"
+"   * g_file_delete_async() completes synchronously, for example if there’s a\n"
+"   * non-blocking fast path for the given file system. */\n"
+"  priv-&gt;n_deletions_pending += files-&gt;len;\n"
+"  priv-&gt;n_deletions_total += files-&gt;len;\n"
+"  priv-&gt;n_deletions_to_start = files-&gt;len;\n"
+"\n"
+"  /* Update the UI to indicate the files are being deleted. */\n"
+"  update_ui_to_show_progress (self,\n"
+"                              priv-&gt;n_deletions_pending,\n"
+"                              priv-&gt;n_deletions_total);\n"
+"\n"
+"  /* Start all the deletion operations in parallel. They share the same\n"
+"   * #GCancellable. */\n"
+"  for (i = 0; i &lt; files-&gt;len; i++)\n"
+"    {\n"
+"      GFile *file = files-&gt;pdata[i];\n"
+"\n"
+"      priv-&gt;n_deletions_to_start--;\n"
+"      g_file_delete_async (file, G_PRIORITY_DEFAULT, priv-&gt;delete_cancellable,\n"
+"                           delete_files_cb, self);\n"
+"    }\n"
+"}\n"
+"\n"
+"static void\n"
+"delete_files_cb (GObject      *source_object,\n"
+"                 GAsyncResult *result,\n"
+"                 gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *file;  /* unowned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  file = G_FILE (source_object);\n"
+"  self = MY_OBJECT (user_data);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish deleting the file. */\n"
+"  g_file_delete_finish (file, result, &amp;error);\n"
+"\n"
+"  if (error != NULL &amp;&amp;\n"
+"      !g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"    {\n"
+"      g_warning (\"Error deleting file: %s\", error-&gt;message);\n"
+"    }\n"
+"\n"
+"  g_clear_error (&amp;error);\n"
+"\n"
+"  /* Update the internal state. */\n"
+"  g_assert_cmpuint (priv-&gt;n_deletions_pending, &gt;, 0);\n"
+"  priv-&gt;n_deletions_pending--;\n"
+"\n"
+"  /* Update the UI to show progress. */\n"
+"  update_ui_to_show_progress (self,\n"
+"                              priv-&gt;n_deletions_pending,\n"
+"                              priv-&gt;n_deletions_total);\n"
+"\n"
+"  /* If all deletions have completed, and no more are being started,\n"
+"   * update the UI to show completion. */\n"
+"  if (priv-&gt;n_deletions_pending == 0 &amp;&amp; priv-&gt;n_deletions_to_start == 0)\n"
+"    {\n"
+"      update_ui_to_show_completion (self);\n"
+"\n"
+"      /* Clear the operation state. */\n"
+"      g_clear_object (&amp;priv-&gt;delete_cancellable);\n"
+"      priv-&gt;n_deletions_total = 0;\n"
+"    }\n"
+"}\n"
+"\n"
+"static void\n"
+"my_object_dispose (GObject *obj)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (obj));\n"
+"\n"
+"  /* Cancel any ongoing deletion operations.\n"
+"   *\n"
+"   * This ensures that if #MyObject is disposed part-way through the\n"
+"   * delete_files() set of operations, the set gets cancelled and\n"
+"   * doesn’t continue with an invalid #MyObject pointer. */\n"
+"  g_cancellable_cancel (priv-&gt;delete_cancellable);\n"
+"\n"
+"  /* Do other dispose calls here. */\n"
+"  …\n"
+"\n"
+"  /* Chain up. */\n"
+"  G_OBJECT_CLASS (my_object_parent_class)-&gt;dispose (obj);\n"
+"}"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:855
+#, fuzzy
+#| msgid "<code>GTask</code>"
+msgid "Wrapping with <code>GTask</code>"
+msgstr "<code>GTask</code>"
+
+#. (itstool) path: section/p
+#: C/async-programming.page:857
+msgid ""
+"Often when an asynchronous operation (or set of operations) becomes more complex, it "
+"needs associated state. This is typically stored in a custom structure — but "
+"defining a new structure to store the standard callback, user data and cancellable "
+"tuple is laborious. <link href=\"https://developer.gnome.org/gio/stable/GTask.html"
+"\"><code>GTask</code></link> eases this by providing a standardized way to wrap all "
+"three, plus extra custom ‘task data’."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:867
+msgid ""
+"The use of a <code>GTask</code> can replace the use of a <link href=\"https://"
+"developer.gnome.org/gio/stable/GCancellable.html\"><code>GCancellable</code></link> "
+"for indicating whether an operation is ongoing."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:874
+msgid ""
+"This example is functionally the same as <link xref=\"#series\"/>, but refactored to "
+"use a <code>GTask</code> to wrap the sequence of operations."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:884
+msgid ""
+"State which was in <code>MyObjectPrivate</code> in <link xref=\"#series\"/> is now "
+"in the <code>ConnectToServerData</code> closure, which is set as the ‘task data’ of "
+"the <code>GTask</code> representing the overall operation. This means it’s "
+"automatically freed after the operation returns."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:891
+msgid ""
+"Furthermore, this means that manipulations of <code>MyObjectPrivate</code> state are "
+"limited to the start and end of the sequence of operations, so reusing the task in "
+"different situations becomes easier — for example, it is now a lot easier to support "
+"running multiple such tasks in parallel."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:898
+msgid ""
+"As the <code>GTask</code> holds a reference to <code>MyObject</code>, it is "
+"impossible for the object to be disposed while the sequence of operations is "
+"ongoing, so the <code>my_object_dispose()</code> code has been removed. Instead, a "
+"<code>my_object_close()</code> method exists to allow any pending operations can be "
+"cancelled so <code>MyObject</code> can be disposed when desired."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:909
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"connect_to_server_cb1 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"static void\n"
+"connect_to_server_cb2 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"static void\n"
+"connect_to_server_cb3 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"\n"
+"typedef struct {\n"
+"  GSocketConnection *connection;  /* nullable; owned */\n"
+"  guint8 message_buffer[128];\n"
+"} ConnectToServerData;\n"
+"\n"
+"static void\n"
+"connect_to_server_data_free (ConnectToServerData *data)\n"
+"{\n"
+"  g_clear_object (&amp;data-&gt;connection);\n"
+"}\n"
+"\n"
+"void\n"
+"my_object_connect_to_server_async (MyObject            *self,\n"
+"                                   GCancellable        *cancellable,\n"
+"                                   GAsyncReadyCallback  callback,\n"
+"                                   gpointer             user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  ConnectToServerData *data = NULL;  /* owned */\n"
+"  GFile *address_file = NULL;  /* owned */\n"
+"\n"
+"  g_return_if_fail (MY_IS_OBJECT (self));\n"
+"  g_return_if_fail (cancellable == NULL || G_IS_CANCELLABLE (cancellable));\n"
+"\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  if (priv-&gt;connect_task != NULL)\n"
+"    {\n"
+"      g_task_report_new_error (self, callback, user_data, NULL,\n"
+"                               G_IO_ERROR, G_IO_ERROR_PENDING,\n"
+"                               \"Already connecting to the server.\");\n"
+"      return;\n"
+"    }\n"
+"\n"
+"  /* Set up a cancellable. */\n"
+"  if (cancellable != NULL)\n"
+"    {\n"
+"      g_object_ref (cancellable);\n"
+"    }\n"
+"  else\n"
+"    {\n"
+"      cancellable = g_cancellable_new ();\n"
+"    }\n"
+"\n"
+"  /* Set up the task. */\n"
+"  task = g_task_new (self, cancellable, callback, user_data);\n"
+"  g_task_set_check_cancellable (task, FALSE);\n"
+"\n"
+"  data = g_malloc0 (sizeof (ConnectToServerData));\n"
+"  g_task_set_task_data (task, data,\n"
+"                        (GDestroyNotify) connect_to_server_data_free);\n"
+"\n"
+"  g_object_unref (cancellable);\n"
+"\n"
+"  priv-&gt;connect_task = g_object_ref (task);\n"
+"\n"
+"  /* Read the socket address. */\n"
+"  address_file = build_address_file ();\n"
+"  g_file_load_contents_async (address_file, g_task_get_cancellable (task),\n"
+"                              connect_to_server_cb1, g_object_ref (task));\n"
+"  g_object_unref (address_file);\n"
+"\n"
+"  g_clear_object (&amp;task);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb1 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  GFile *address_file;  /* unowned */\n"
+"  gchar *address = NULL;  /* owned */\n"
+"  gsize address_size = 0;\n"
+"  GInetAddress *inet_address = NULL;  /* owned */\n"
+"  GInetSocketAddress *inet_socket_address = NULL;  /* owned */\n"
+"  guint16 port = 123;\n"
+"  GSocketClient *socket_client = NULL;  /* owned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  address_file = G_FILE (source_object);\n"
+"  task = G_TASK (user_data);\n"
+"  self = g_task_get_source_object (task);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish loading the address. */\n"
+"  g_file_load_contents_finish (address_file, result, &amp;address,\n"
+"                               &amp;address_size, NULL, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Parse the address. */\n"
+"  inet_address = g_inet_address_new_from_string (address);\n"
+"\n"
+"  if (inet_address == NULL)\n"
+"    {\n"
+"      /* Error. */\n"
+"      g_set_error (&amp;error, G_IO_ERROR, G_IO_ERROR_INVALID_ARGUMENT,\n"
+"                   \"Invalid address ‘%s’.\", address);\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  inet_socket_address = g_inet_socket_address_new (inet_address, port);\n"
+"\n"
+"  /* Connect to the given address. */\n"
+"  socket_client = g_socket_client_new ();\n"
+"\n"
+"  g_socket_client_connect_async (socket_client,\n"
+"                                 G_SOCKET_CONNECTABLE (inet_socket_address),\n"
+"                                 g_task_get_cancellable (task),\n"
+"                                 connect_to_server_cb2,\n"
+"                                 g_object_ref (task));\n"
+"\n"
+"done:\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation and propagate the error. */\n"
+"      g_clear_object (&amp;priv-&gt;connect_task);\n"
+"      g_task_return_error (task, error);\n"
+"    }\n"
+"\n"
+"  g_free (address);\n"
+"  g_clear_object (&amp;inet_address);\n"
+"  g_clear_object (&amp;inet_socket_address);\n"
+"  g_clear_object (&amp;socket_client);\n"
+"  g_clear_object (&amp;task);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb2 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  ConnectToServerData *data;  /* unowned */\n"
+"  GSocketClient *socket_client;  /* unowned */\n"
+"  GSocketConnection *connection = NULL;  /* owned */\n"
+"  GInputStream *input_stream;  /* unowned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  socket_client = G_SOCKET_CLIENT (source_object);\n"
+"  task = G_TASK (user_data);\n"
+"  data = g_task_get_task_data (task);\n"
+"  self = g_task_get_source_object (task);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish connecting to the socket. */\n"
+"  connection = g_socket_client_connect_finish (socket_client, result,\n"
+"                                               &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Store a reference to the connection so it is kept open while we read from\n"
+"   * it: #GInputStream does not keep a reference to a #GIOStream which contains\n"
+"   * it. */\n"
+"  data-&gt;connection = g_object_ref (connection);\n"
+"\n"
+"  /* Read a message from the connection. As the buffer is allocated as part of\n"
+"   * the per-task @data, multiple tasks can run concurrently. */\n"
+"  input_stream = g_io_stream_get_input_stream (G_IO_STREAM (connection));\n"
+"\n"
+"  g_input_stream_read_async (input_stream,\n"
+"                             data-&gt;message_buffer,\n"
+"                             sizeof (data-&gt;message_buffer),\n"
+"                             G_PRIORITY_DEFAULT, g_task_get_cancellable (task),\n"
+"                             connect_to_server_cb3, g_object_ref (task));\n"
+"\n"
+"done:\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation and propagate the error. */\n"
+"      g_clear_object (&amp;priv-&gt;connect_task);\n"
+"      g_task_return_error (task, error);\n"
+"    }\n"
+"\n"
+"  g_clear_object (&amp;connection);\n"
+"  g_clear_object (&amp;task);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb3 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  ConnectToServerData *data;  /* unowned */\n"
+"  GInputStream *input_stream;  /* unowned */\n"
+"  gssize len = 0;\n"
+"  GError *error = NULL;\n"
+"\n"
+"  input_stream = G_INPUT_STREAM (source_object);\n"
+"  task = G_TASK (user_data);\n"
+"  data = g_task_get_task_data (task);\n"
+"  self = g_task_get_source_object (task);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish reading from the socket. */\n"
+"  len = g_input_stream_read_finish (input_stream, result, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Handle the message. */\n"
+"  g_assert_cmpint (len, &gt;=, 0);\n"
+"  g_assert_cmpuint ((gsize) len, &lt;=, sizeof (data-&gt;message_buffer));\n"
+"\n"
+"  handle_received_message (self, data-&gt;message_buffer, len, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Success! */\n"
+"  g_task_return_boolean (task, TRUE);\n"
+"\n"
+"done:\n"
+"  /* Unconditionally mark the operation as finished.\n"
+"   *\n"
+"   * The streams should automatically close as this\n"
+"   * last reference is dropped. */\n"
+"  g_clear_object (&amp;priv-&gt;connect_task);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation and propagate the error. */\n"
+"      g_task_return_error (task, error);\n"
+"    }\n"
+"\n"
+"  g_clear_object (&amp;task);\n"
+"}\n"
+"\n"
+"void\n"
+"my_object_connect_to_server_finish (MyObject      *self,\n"
+"                                    GAsyncResult  *result,\n"
+"                                    GError       **error)\n"
+"{\n"
+"  g_return_if_fail (MY_IS_OBJECT (self));\n"
+"  g_return_if_fail (g_task_is_valid (result, self));\n"
+"  g_return_if_fail (error == NULL || *error == NULL);\n"
+"\n"
+"  g_task_propagate_boolean (G_TASK (result), error);\n"
+"}\n"
+"\n"
+"void\n"
+"my_object_close (MyObject *self)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"\n"
+"  g_return_if_fail (MY_IS_OBJECT (self));\n"
+"\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  if (priv-&gt;connect_task != NULL)\n"
+"    {\n"
+"      GCancellable *cancellable = g_task_get_cancellable (priv-&gt;connect_task);\n"
+"      g_cancellable_cancel (cancellable);\n"
+"    }\n"
+"}"
+msgstr ""
+
 #. (itstool) path: credit/name
 #: C/c-coding-style.page:15 C/documentation.page:21
 msgid "The GTK+ Team"
-msgstr ""
+msgstr "GTK+-gruppen"
 
 #. (itstool) path: info/desc
 #: C/c-coding-style.page:20
@@ -400,6 +1752,9 @@ msgid ""
 "coding style is very much a matter of taste, in GNOME we favor a coding style that "
 "promotes consistency, readability, and maintainability."
 msgstr ""
+"Detta dokument presenterar den föredragna kodstilen för C-program i GNOME. Medan "
+"kodstil väldigt mycket är en fråga om smak så föredrar vi i GNOME en kodstil som "
+"främjar konsekvens, läsbarhet och lätthet att underhålla."
 
 #. (itstool) path: page/p
 #: C/c-coding-style.page:32
@@ -410,6 +1765,10 @@ msgid ""
 "of long-term maintainability. Patches with GNOME’s coding style will also be easier "
 "to review!"
 msgstr ""
+"Vi presenterar exempel på bra kodstil så väl som exempel på dålig stil som inte är "
+"acceptabel i GNOME. Försök att skicka in patchar som följer GNOME:s kodstil, detta "
+"antyder att du gjort din läxa att respektera projektets mål av underhållbarhet i det "
+"långa loppet. Patchar med GNOME:s kodstil kommer också vara lättare att granska!"
 
 #. (itstool) path: note/p
 #: C/c-coding-style.page:42
@@ -417,20 +1776,27 @@ msgid ""
 "This document is for C code. For other languages, check the <link xref=\"index"
 "\">main page</link> of the GNOME Programming Guidelines."
 msgstr ""
+"Detta dokument är för C-kod. För andra språk, se <link xref=\"index\">huvudsidan</"
+"link> för programmeringsriktlinjerna för GNOME."
 
 #. (itstool) path: page/p
 #: C/c-coding-style.page:49
+#, fuzzy
 msgid ""
 "These guidelines are heavily inspired by GTK’s CODING-STYLE document, the Linux "
 "Kernel’s CodingStyle, and the GNU Coding Standards. These are slight variations of "
 "each other, with particular modifications for each project’s particular needs and "
 "culture, and GNOME’s version is no different."
 msgstr ""
+"Dessa riktlinjer är kraftigt inspirerade av GTK:s dokument CODING-STYLE, "
+"Linuxkärnans CodingStyle samt GNU Coding Standards. Dessa är små variationer av "
+"varandra, med vissa modifieringar för varje projekts specifika behov och kultur, och "
+"GNOME:s version skiljer sig ej från detta."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:58
 msgid "The Single Most Important Rule"
-msgstr ""
+msgstr "Den absolut viktigaste regeln"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:60
@@ -438,14 +1804,20 @@ msgid ""
 "The single most important rule when writing code is this: <em>check the surrounding "
 "code and try to imitate it</em>."
 msgstr ""
+"Den absolut viktigaste regeln vid skrivning av kod är detta: <em>titta på omgivande "
+"kod och försök imitera den</em>."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:65
+#, fuzzy
 msgid ""
 "As a maintainer it is dismaying to receive a patch that is obviously in a different "
 "coding style to the surrounding code. This is disrespectful, like someone tromping "
 "into a spotlessly-clean house with muddy shoes."
 msgstr ""
+"Som paketansvarig är det förfärligt att ta emot en patch som uppenbarligen är i en "
+"annan kodstil än omgivande kod. Detta är respektlöst, som att trampa runt i ett "
+"nystädat hus med leriga skor."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:72
@@ -453,11 +1825,13 @@ msgid ""
 "So, whatever this document recommends, if there is already written code and you are "
 "patching it, keep its current style consistent even if it is not your favorite style."
 msgstr ""
+"Så, vad än detta dokument rekommenderar, om det redan finns skriven kod som du "
+"patchar, behåll dess aktuella stil konsekvent även om det inte är din favoritstil."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:80
 msgid "Line Width"
-msgstr ""
+msgstr "Radbredd"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:82
@@ -467,6 +1841,11 @@ msgid ""
 "hard to read, and they mean that you should probably restructure your code. If you "
 "have too many levels of indentation, it means that you should fix your code anyway."
 msgstr ""
+"Försök att använda kodrader från 80 till 120 tecken långa. Denna textmängd passar "
+"lätt på de flesta skärmar med en rimlig typsnittsstorlek. Längre rader än så blir "
+"svåra att läsa, och betyder att du troligen bör strukturera om din kod. Om du har "
+"för många indenteringsnivåer betyder det i vilket fall att du borde fixa till din "
+"kod."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:93
@@ -476,14 +1855,17 @@ msgstr "Indentering"
 #. (itstool) path: section/p
 #: C/c-coding-style.page:95
 msgid "In general there are two preferred indentation styles for code in GNOME."
-msgstr ""
+msgstr "Allmänt finns det två föredragna indenteringsstilar för kod i GNOME."
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:102
+#, fuzzy
 msgid ""
 "Linux Kernel style. Tabs with a length of 8 characters are used for the indentation, "
 "with K&amp;R brace placement:"
 msgstr ""
+"Linuxkärnans stil. Tabbar med längden 8 tecken används för indenteringen, med "
+"parentesplacering enligt K&amp;R:"
 
 #. (itstool) path: item/code
 #: C/c-coding-style.page:107
@@ -502,13 +1884,28 @@ msgid ""
 "\t}\n"
 "}"
 msgstr ""
+"\n"
+"for (i = 0; i &lt; num_elements; i++) {\n"
+"\tfoo[i] = foo[i] + 42;\n"
+"\n"
+"\tif (foo[i] &lt; 35) {\n"
+"\t\tprintf (\"Foo!\");\n"
+"\t\tfoo[i]--;\n"
+"\t} else {\n"
+"\t\tprintf (\"Bar!\");\n"
+"\t\tfoo[i]++;\n"
+"\t}\n"
+"}"
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:122
+#, fuzzy
 msgid ""
 "GNU style. Each new level is indented by 2 spaces, braces go on a line by "
 "themselves, and they are indented as well."
 msgstr ""
+"GNU-stilen. Varje ny nivå indenteras 2 blanksteg, parenteser hamnar på en egen rad, "
+"och de indenteras också."
 
 #. (itstool) path: item/code
 #: C/c-coding-style.page:128
@@ -531,6 +1928,22 @@ msgid ""
 "      }\n"
 "  }"
 msgstr ""
+"\n"
+"for (i = 0; i &lt; num_elements; i++)\n"
+"  {\n"
+"    foo[i] = foo[i] + 42;\n"
+"\n"
+"    if (foo[i] &lt; 35)\n"
+"      {\n"
+"        printf (\"Foo!\");\n"
+"        foo[i]--;\n"
+"      }\n"
+"    else\n"
+"      {\n"
+"        printf (\"Bar!\");\n"
+"        foo[i]++;\n"
+"      }\n"
+"  }"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:148
@@ -541,6 +1954,11 @@ msgid ""
 "manager, is written in Linux kernel style. Both styles are perfectly readable and "
 "consistent when you get used to them."
 msgstr ""
+"Båda stilarna har sina för- och nackdelar. Det viktigaste är att <em>vara "
+"konsekvent</em> med omgivande kod. Exempelvis så är GTK+-biblioteket, GNOME:s "
+"komponentverktygslåda, skriven med GNU-stilen. Nautilus, GNOME:s filhanterare, är "
+"skriven i Linux-kärnans stil. Båda stilarna är fullständigt läsbara och konsekventa "
+"då du vant dig med dem."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:157
@@ -556,7 +1974,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/c-coding-style.page:170
 msgid "Tab Characters"
-msgstr ""
+msgstr "Tabbtecken"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:172
@@ -577,13 +1995,15 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:188
+#, fuzzy
 msgid "Braces"
-msgstr ""
+msgstr "Parenteser"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:190
+#, fuzzy
 msgid "Curly braces should not be used for single statement blocks:"
-msgstr ""
+msgstr "Klammerparenteser bör inte användas för enkla satsblock:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:194
@@ -596,6 +2016,12 @@ msgid ""
 "else\n"
 "\tanother_single_statement (arg1);"
 msgstr ""
+"\n"
+"/* giltig */\n"
+"if (condition)\n"
+"\tsingle_statement ();\n"
+"else\n"
+"\tanother_single_statement (arg1);"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:201
@@ -625,6 +2051,17 @@ msgid ""
 "    baz ();\n"
 "  }"
 msgstr ""
+"\n"
+"/* giltig GNU-stil */\n"
+"if (condition)\n"
+"  {\n"
+"    foo ();\n"
+"    bar ();\n"
+"  }\n"
+"else\n"
+"  {\n"
+"    baz ();\n"
+"  }"
 
 #. (itstool) path: item/code
 #: C/c-coding-style.page:225
@@ -640,6 +2077,15 @@ msgid ""
 "else\n"
 "  baz ();"
 msgstr ""
+"\n"
+"/* ogiltig */\n"
+"if (condition)\n"
+"  {\n"
+"    foo ();\n"
+"    bar ();\n"
+"  }\n"
+"else\n"
+"  baz ();"
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:237
@@ -675,6 +2121,28 @@ msgid ""
 "    another_single_statement (arg1, arg2);\n"
 "  }"
 msgstr ""
+"\n"
+"/* giltig stil för Linux-kärnan */\n"
+"if (condition) {\n"
+"\ta_single_statement_with_many_arguments (some_lengthy_argument,\n"
+"\t\t\t\t\t\tanother_lengthy_argument,\n"
+"\t\t\t\t\t\tand_another_one,\n"
+"\t\t\t\t\t\tplus_one);\n"
+"} else\n"
+"\tanother_single_statement (arg1, arg2);\n"
+"\n"
+"/* giltig GNU-stil */\n"
+"if (condition)\n"
+"  {\n"
+"    a_single_statement_with_many_arguments (some_lengthy_argument,\n"
+"                                            another_lengthy_argument,\n"
+"                                            and_another_one,\n"
+"                                            plus_one);\n"
+"  }\n"
+"else\n"
+"  {\n"
+"    another_single_statement (arg1, arg2);\n"
+"  }"
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:268
@@ -703,6 +2171,23 @@ msgid ""
 "    a_single_statement ();\n"
 "  }"
 msgstr ""
+"\n"
+"/* giltig stil för Linux-kärnan */\n"
+"if (condition1 ||\n"
+"    (condition2 &amp;&amp; condition3) ||\n"
+"    condition4 ||\n"
+"    (condition5 &amp;&amp; (condition6 || condition7))) {\n"
+"\ta_single_statement ();\n"
+"}\n"
+"\n"
+"/* giltig GNU-stil */\n"
+"if (condition1 ||\n"
+"    (condition2 &amp;&amp; condition3) ||\n"
+"    condition4 ||\n"
+"    (condition5 &amp;&amp; (condition6 || condition7)))\n"
+"  {\n"
+"    a_single_statement ();\n"
+"  }"
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:290
@@ -741,6 +2226,23 @@ msgid ""
 "      another_single_statement ();\n"
 "  }"
 msgstr ""
+"\n"
+"/* giltig stil för Linux-kärnan */\n"
+"if (condition) {\n"
+"\tif (another_condition)\n"
+"\t\tsingle_statement ();\n"
+"\telse\n"
+"\t\tanother_single_statement ();\n"
+"}\n"
+"\n"
+"/* giltig GNU-stil */\n"
+"if (condition)\n"
+"  {\n"
+"    if (another_condition)\n"
+"      single_statement ();\n"
+"    else\n"
+"      another_single_statement ();\n"
+"  }"
 
 #. (itstool) path: item/code
 #: C/c-coding-style.page:322
@@ -754,6 +2256,13 @@ msgid ""
 "\telse if (yet_another_condition)\n"
 "\t\tanother_single_statement ();"
 msgstr ""
+"\n"
+"/* ogiltig */\n"
+"if (condition)\n"
+"\tif (another_condition)\n"
+"\t\tsingle_statement ();\n"
+"\telse if (yet_another_condition)\n"
+"\t\tanother_single_statement ();"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:332
@@ -779,6 +2288,20 @@ msgid ""
 "\tretval = res ? -1 : 1;\n"
 "}"
 msgstr ""
+"\n"
+"int retval = 0;\n"
+"\n"
+"statement_1 ();\n"
+"statement_2 ();\n"
+"\n"
+"{\n"
+"\tint var1 = 42;\n"
+"\tgboolean res = FALSE;\n"
+"\n"
+"\tres = statement_3 (var1);\n"
+"\n"
+"\tretval = res ? -1 : 1;\n"
+"}"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:352
@@ -806,6 +2329,20 @@ msgid ""
 "  do_my_things ();\n"
 "}"
 msgstr ""
+"\n"
+"/* giltig stil för Linux-kärnan*/\n"
+"static void\n"
+"my_function (int argument)\n"
+"{\n"
+"\tdo_my_things ();\n"
+"}\n"
+"\n"
+"/* giltig GNU-stil*/\n"
+"static void\n"
+"my_function (int argument)\n"
+"{\n"
+"  do_my_things ();\n"
+"}"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:372
@@ -825,20 +2362,38 @@ msgid ""
 "    do_my_things ();\n"
 "  }"
 msgstr ""
+"\n"
+"/* ogiltig */\n"
+"static void\n"
+"my_function (int argument) {\n"
+"\tdo_my_things ();\n"
+"}\n"
+"\n"
+"/* ogiltig */\n"
+"static void\n"
+"my_function (int argument)\n"
+"  {\n"
+"    do_my_things ();\n"
+"  }"
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:388
 msgid "Conditions"
-msgstr ""
+msgstr "Villkor"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:390
+#, fuzzy
 msgid ""
 "Do not check boolean values for equality. By using implicit comparisons, the "
 "resulting code can be read more like conversational English. Another rationale is "
 "that a ‘true’ value may not be necessarily equal to whatever the <code>TRUE</code> "
 "macro uses. For example:"
 msgstr ""
+"Testa inte booleska värden för likhet. Genom att använda implicit jämförelse kan den "
+"resulterande koden läsas mer som talad engelska. En annan logisk grund är att ett "
+"”sant” värde inte nödvändigtvis är samma som vad makrot <code>TRUE</code> använder. "
+"Till exempel:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:397
@@ -853,6 +2408,14 @@ msgid ""
 "if (found == FALSE)\n"
 "\tdo_bar ();"
 msgstr ""
+"\n"
+"/* ogiltig */\n"
+"if (found == TRUE)\n"
+"\tdo_foo ();\n"
+"\n"
+"/* ogiltig */\n"
+"if (found == FALSE)\n"
+"\tdo_bar ();"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:406
@@ -867,6 +2430,14 @@ msgid ""
 "if (!found)\n"
 "\tdo_bar ();"
 msgstr ""
+"\n"
+"/* giltig */\n"
+"if (found)\n"
+"\tdo_foo ();\n"
+"\n"
+"/* giltig */\n"
+"if (!found)\n"
+"\tdo_bar ();"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:415
@@ -897,6 +2468,18 @@ msgid ""
 "if (str != NULL &amp;&amp; *str != '\\0')\n"
 "\tdo_bar ();"
 msgstr ""
+"\n"
+"/* giltig */\n"
+"if (some_pointer == NULL)\n"
+"\tdo_blah ();\n"
+"\n"
+"/* giltig */\n"
+"if (number == 0)\n"
+"\tdo_foo ();\n"
+"\n"
+"/* giltig */\n"
+"if (str != NULL &amp;&amp; *str != '\\0')\n"
+"\tdo_bar ();"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:439
@@ -915,11 +2498,23 @@ msgid ""
 "if (str &amp;&amp; *str)\n"
 "\tdo_bar ();"
 msgstr ""
+"\n"
+"/* ogiltig */\n"
+"if (!some_pointer)\n"
+"\tdo_blah ();\n"
+"\n"
+"/* ogiltig */\n"
+"if (!number)\n"
+"\tdo_foo ();\n"
+"\n"
+"/* ogiltig */\n"
+"if (str &amp;&amp; *str)\n"
+"\tdo_bar ();"
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:454
 msgid "Functions"
-msgstr ""
+msgstr "Funktioner"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:456
@@ -927,6 +2522,8 @@ msgid ""
 "Functions should be declared by placing the returned value on a separate line from "
 "the function name:"
 msgstr ""
+"Funktioner bör deklareras genom att placera det returnerade värdet på en separat rad "
+"från funktionsnamnet:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:461
@@ -939,13 +2536,22 @@ msgid ""
 "  …\n"
 "}"
 msgstr ""
+"\n"
+"void\n"
+"my_function (void)\n"
+"{\n"
+"  …\n"
+"}"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:468
+#, fuzzy
 msgid ""
 "The argument list must be broken into a new line for each argument, with the "
 "argument names right aligned, taking into account pointers:"
 msgstr ""
+"Argumentlistan måste brytas till en ny rad för varje argument, med argumentnamnen "
+"högerjusterade efter att ha tagit hänsyn till pekare:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:474
@@ -961,14 +2567,27 @@ msgid ""
 "  …\n"
 "}"
 msgstr ""
+"\n"
+"void\n"
+"my_function (some_type_t      type,\n"
+"             another_type_t  *a_pointer,\n"
+"             double_ptr_t   **double_pointer,\n"
+"             final_type_t     another_type)\n"
+"{\n"
+"  …\n"
+"}"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:484
+#, fuzzy
 msgid ""
 "If you use Emacs, you can use <code>M-x align</code> to do this kind of alignment "
 "automatically. Just put the point and mark around the function’s prototype, and "
 "invoke that command."
 msgstr ""
+"Om du använder Emacs kan du använda <code>M-x align</code> för att göra denna sorts "
+"justering automatiskt. Sätt bara punkten och markera runt funktionens prototyp, och "
+"kör kommandot."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:490
@@ -986,16 +2605,21 @@ msgid ""
 "                          second_argument,\n"
 "                          third_argument);"
 msgstr ""
+"\n"
+"align_function_arguments (first_argument,\n"
+"                          second_argument,\n"
+"                          third_argument);"
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:502
+#, fuzzy
 msgid "Whitespace"
-msgstr ""
+msgstr "Blanksteg"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:504
 msgid "Always put a space before an opening parenthesis but never after:"
-msgstr ""
+msgstr "Placera alltid ett blanksteg före en inledande parentes men aldrig efter:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:508
@@ -1010,6 +2634,14 @@ msgid ""
 "switch (condition) {\n"
 "}"
 msgstr ""
+"\n"
+"/* giltig */\n"
+"if (condition)\n"
+"\tdo_my_things ();\n"
+"\n"
+"/* giltig */\n"
+"switch (condition) {\n"
+"}"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:517
@@ -1024,6 +2656,14 @@ msgid ""
 "if ( condition )\n"
 "\tdo_my_things ( );"
 msgstr ""
+"\n"
+"/* ogiltig */\n"
+"if(condition)\n"
+"\tdo_my_things();\n"
+"\n"
+"/* ogiltig */\n"
+"if ( condition )\n"
+"\tdo_my_things ( );"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:526
@@ -1031,6 +2671,8 @@ msgid ""
 "When declaring a structure type use newlines to separate logical sections of the "
 "structure:"
 msgstr ""
+"Vid deklaration av en strukturtyp, använd nya rader för att separera logiska avsnitt "
+"av strukturen:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:531
@@ -1054,6 +2696,23 @@ msgid ""
 "\tGList                *children;\n"
 "};"
 msgstr ""
+"\n"
+"struct _GtkWrapBoxPrivate\n"
+"{\n"
+"\tGtkOrientation        orientation;\n"
+"\tGtkWrapAllocationMode mode;\n"
+"\n"
+"\tGtkWrapBoxSpreading   horizontal_spreading;\n"
+"\tGtkWrapBoxSpreading   vertical_spreading;\n"
+"\n"
+"\tguint16               vertical_spacing;\n"
+"\tguint16               horizontal_spacing;\n"
+"\n"
+"\tguint16               minimum_line_children;\n"
+"\tguint16               natural_line_children;\n"
+"\n"
+"\tGList                *children;\n"
+"};"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:549
@@ -1061,6 +2720,7 @@ msgid ""
 "Do not eliminate whitespace and newlines just because something would fit on a "
 "single line:"
 msgstr ""
+"Ta inte bort blanksteg och nyrader bara för att något skulle rymmas på en enda rad:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:554
@@ -1070,6 +2730,9 @@ msgid ""
 "/* invalid */\n"
 "if (condition) foo (); else bar ();"
 msgstr ""
+"\n"
+"/* ogiltig */\n"
+"if (condition) foo (); else bar ();"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:558
@@ -1077,6 +2740,8 @@ msgid ""
 "Do eliminate trailing whitespace on any line, preferably as a separate patch or "
 "commit. Never use empty lines at the beginning or at the end of a file."
 msgstr ""
+"Eliminera efterföljande blanksteg på alla rader, förslagsvis som en separat patch "
+"eller incheckning. Använd aldrig tomma rader i början eller i slutet på en fil."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:564
@@ -1084,6 +2749,8 @@ msgid ""
 "This is a little Emacs function that you can use to clean up lines with trailing "
 "whitespace:"
 msgstr ""
+"Det här är en liten Emacs-funktion som du kan använda för att rensa rader med "
+"efterföljande blanksteg:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:569
@@ -1101,19 +2768,34 @@ msgid ""
 "\t    (replace-match \"\" t t))\n"
 "\t  (message \"Cleaned %d lines\" count)))))"
 msgstr ""
+"\n"
+"(defun clean-line-ends ()\n"
+"  (interactive)\n"
+"  (if (not buffer-read-only)\n"
+"      (save-excursion\n"
+"\t(goto-char (point-min))\n"
+"\t(let ((count 0))\n"
+"\t  (while (re-search-forward \"[ \t]+$\" nil t)\n"
+"\t    (setq count (+ count 1))\n"
+"\t    (replace-match \"\" t t))\n"
+"\t  (message \"Rensade %d rader\" count)))))"
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:583
 msgid "The <code>switch</code> Statement"
-msgstr ""
+msgstr "<code>switch</code>-satsen"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:585
+#, fuzzy
 msgid ""
 "A <code>switch</code> should open a block on a new indentation level, and each "
 "<code>case</code> should start on the same indentation level as the curly braces, "
 "with the case block on a new indentation level:"
 msgstr ""
+"En <code>switch</code> bör inleda ett block på en ny indenteringsnivå, och varje "
+"<code>case</code> bör inledas på på samma indenteringsnivå som klammerparenteserna, "
+"med case-blocket på en ny indenteringsnivå:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:592
@@ -1143,6 +2825,29 @@ msgid ""
 "    break;\n"
 "  }"
 msgstr ""
+"\n"
+"/* giltig stil för Linux-kärnan */\n"
+"switch (condition) {\n"
+"case FOO:\n"
+"\tdo_foo ();\n"
+"\tbreak;\n"
+"\n"
+"case BAR:\n"
+"\tdo_bar ();\n"
+"\tbreak;\n"
+"}\n"
+"\n"
+"/* giltig GNU-stil */\n"
+"switch (condition)\n"
+"  {\n"
+"  case FOO:\n"
+"    do_foo ();\n"
+"    break;\n"
+"\n"
+"  case BAR:\n"
+"    do_bar ();\n"
+"    break;\n"
+"  }"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:616
@@ -1175,12 +2880,40 @@ msgid ""
 "    break;\n"
 "  }"
 msgstr ""
+"\n"
+"/* ogiltig */\n"
+"switch (condition) {\n"
+"  case FOO: do_foo (); break;\n"
+"  case BAR: do_bar (); break;\n"
+"}\n"
+"\n"
+"/* ogiltig */\n"
+"switch (condition)\n"
+"  {\n"
+"  case FOO: do_foo ();\n"
+"    break;\n"
+"  case BAR: do_bar ();\n"
+"    break;\n"
+"  }\n"
+"\n"
+"/* ogiltig */\n"
+"switch (condition)\n"
+"  {\n"
+"    case FOO:\n"
+"    do_foo ();\n"
+"    break;\n"
+"    case BAR:\n"
+"    do_bar ();\n"
+"    break;\n"
+"  }"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:643
 msgid ""
 "It is preferable, though not mandatory, to separate the various cases with a newline:"
 msgstr ""
+"Det är önskvärt, men inte obligatoriskt, att separera de olika case-alternativen med "
+"en nyrad:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:648
@@ -1200,20 +2933,38 @@ msgid ""
 "\tdo_default ();\n"
 "}"
 msgstr ""
+"\n"
+"switch (condition) {\n"
+"case FOO:\n"
+"\tdo_foo ();\n"
+"\tbreak;\n"
+"\n"
+"case BAR:\n"
+"\tdo_bar ();\n"
+"\tbreak;\n"
+"\n"
+"default:\n"
+"\tdo_default ();\n"
+"}"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:662
 msgid ""
 "The <code>break</code> statement for the <code>default</code> case is not mandatory."
 msgstr ""
+"<code>break</code>-satsen för <code>default</code>-fallet är inte obligatorisk."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:667
+#, fuzzy
 msgid ""
 "If switching over an enumerated type, a <code>case</code> statement must exist for "
 "every member of the enumerated type. For members you do not want to handle, alias "
 "their <code>case</code> statements to <code>default</code>:"
 msgstr ""
+"Vid switch över en uppräknad typ måste en <code>case</code>-sats finnas för varje "
+"medlem av den uppräknade typen. För medlemmar som du inte vill hantera så kan du "
+"sätta deras <code>case</code>-satser som ett alias till <code>default</code>:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:674
@@ -1235,13 +2986,31 @@ msgid ""
 "\tdo_default ();\n"
 "}"
 msgstr ""
+"\n"
+"switch (enumerated_condition) {\n"
+"case HANDLED_1:\n"
+"\tdo_foo ();\n"
+"\tbreak;\n"
+"\n"
+"case HANDLED_2:\n"
+"\tdo_bar ();\n"
+"\tbreak;\n"
+"\n"
+"case IGNORED_1:\n"
+"case IGNORED_2:\n"
+"default:\n"
+"\tdo_default ();\n"
+"}"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:690
+#, fuzzy
 msgid ""
 "If most members of the enumerated type should not be handled, consider using an "
 "<code>if</code> statement instead of a <code>switch</code>."
 msgstr ""
+"Om de flesta medlemmarna i den uppräknade typen inte ska hanteras, överväg att "
+"använda en <code>if</code>-sats istället för en <code>switch</code>."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:695
@@ -1270,11 +3039,25 @@ msgid ""
 "  …\n"
 "  }"
 msgstr ""
+"\n"
+"/* giltig GNU-stil */\n"
+"switch (condition)\n"
+"  {\n"
+"  case FOO:\n"
+"    {\n"
+"      int foo;\n"
+"\n"
+"      foo = do_foo ();\n"
+"    }\n"
+"    break;\n"
+"\n"
+"  …\n"
+"  }"
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:718
 msgid "Header Files"
-msgstr ""
+msgstr "Header-filer"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:720
@@ -1282,6 +3065,8 @@ msgid ""
 "The only major rule for headers is that the function definitions should be "
 "vertically aligned in three columns:"
 msgstr ""
+"Den enda stora regeln för header-filer är att funktionsdefinitionerna bör vara "
+"vertikalt justerade i tre kolumner:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:725
@@ -1292,11 +3077,15 @@ msgid ""
 "                                              type   argument,\n"
 "                                              type   argument);"
 msgstr ""
+"\n"
+"return_type          function_name           (type   argument,\n"
+"                                              type   argument,\n"
+"                                              type   argument);"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:730
 msgid "The maximum width of each column is given by the longest element in the column:"
-msgstr ""
+msgstr "Den maximala bredden för varje kolumn ges av det längsta elementet i kolumnen:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:735
@@ -1308,11 +3097,16 @@ msgid ""
 "                                    GError      **error);\n"
 "const gchar *gtk_type_get_property (GtkType      *type);"
 msgstr ""
+"\n"
+"void         gtk_type_set_property (GtkType      *type,\n"
+"                                    const gchar  *value,\n"
+"                                    GError      **error);\n"
+"const gchar *gtk_type_get_property (GtkType      *type);"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:741
 msgid "It is also possible to align the columns to the next tab:"
-msgstr ""
+msgstr "Det är också möjligt att justera kolumnerna till nästa tabb:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:745
@@ -1324,12 +3118,19 @@ msgid ""
 "gfloat        gtk_type_get_prop           (GtkType *type);\n"
 "gint          gtk_type_update_foobar      (GtkType *type);"
 msgstr ""
+"\n"
+"void          gtk_type_set_prop           (GtkType *type,\n"
+"                                           gfloat   value);\n"
+"gfloat        gtk_type_get_prop           (GtkType *type);\n"
+"gint          gtk_type_update_foobar      (GtkType *type);"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:751
 msgid ""
 "As before, you can use <code>M-x align</code> in Emacs to do this automatically."
 msgstr ""
+"Som tidigare kan du använda <code>M-x align</code> i Emacs för att göra detta "
+"automatiskt."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:756
@@ -1343,13 +3144,17 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:766
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "#if !defined (__GTK_H_INSIDE__) &amp;&amp; !defined (GTK_COMPILATION)\n"
 "#error \"Only &lt;gtk/gtk.h&gt; can be included directly.\"\n"
 "#endif"
 msgstr ""
+"\n"
+"#if !defined (__GTK_H_INSIDE__) &amp;&amp; !defined (GTK_COMPILATION)\n"
+"#error \"Only &lt;gtk/gtk.h&gt; can be included directly.\"\n"
+"#endif"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:771
@@ -1377,11 +3182,24 @@ msgid ""
 "\n"
 "#endif /* MYLIB_FOO_H_ */"
 msgstr ""
+"\n"
+"#ifndef MYLIB_FOO_H_\n"
+"#define MYLIB_FOO_H_\n"
+"\n"
+"#include &lt;gtk/gtk.h&gt;\n"
+"\n"
+"G_BEGIN_DECLS\n"
+"\n"
+"…\n"
+"\n"
+"G_END_DECLS\n"
+"\n"
+"#endif /* MYLIB_FOO_H_ */"
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:793
 msgid "GObject Classes"
-msgstr ""
+msgstr "GObject-klasser"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:795
@@ -1404,6 +3222,9 @@ msgid ""
 "typedef struct _GtkBoxedStruct       GtkBoxedStruct;\n"
 "typedef struct _GtkMoreBoxedStruct   GtkMoreBoxedStruct;"
 msgstr ""
+"\n"
+"typedef struct _GtkBoxedStruct       GtkBoxedStruct;\n"
+"typedef struct _GtkMoreBoxedStruct   GtkMoreBoxedStruct;"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:809
@@ -1421,6 +3242,12 @@ msgid ""
 "  GTK_SIZE_REQUEST_HEIGHT_FOR_WIDTH\n"
 "} GtkSizeRequestMode;"
 msgstr ""
+"\n"
+"typedef enum\n"
+"{\n"
+"  GTK_SIZE_REQUEST_WIDTH_FOR_HEIGHT,\n"
+"  GTK_SIZE_REQUEST_HEIGHT_FOR_WIDTH\n"
+"} GtkSizeRequestMode;"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:820
@@ -1435,6 +3262,9 @@ msgid ""
 "typedef void (* GtkCallback) (GtkWidget *widget,\n"
 "                              gpointer   user_data);"
 msgstr ""
+"\n"
+"typedef void (* GtkCallback) (GtkWidget *widget,\n"
+"                              gpointer   user_data);"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:828
@@ -1451,6 +3281,9 @@ msgid ""
 "#define GTK_TYPE_FOO (gtk_foo_get_type ())\n"
 "G_DECLARE_FINAL_TYPE (GtkFoo, gtk_foo, GTK, FOO, GtkWidget)"
 msgstr ""
+"\n"
+"#define GTK_TYPE_FOO (gtk_foo_get_type ())\n"
+"G_DECLARE_FINAL_TYPE (GtkFoo, gtk_foo, GTK, FOO, GtkWidget)"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:838
@@ -1472,6 +3305,14 @@ msgid ""
 "  gpointer  more_private_data;\n"
 "};"
 msgstr ""
+"\n"
+"struct _GtkFoo\n"
+"{\n"
+"  GObject   parent_instance;\n"
+"\n"
+"  guint     private_data;\n"
+"  gpointer  more_private_data;\n"
+"};"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:852
@@ -1499,6 +3340,19 @@ msgid ""
 "  gpointer padding[12];\n"
 "};"
 msgstr ""
+"\n"
+"#define GTK_TYPE_FOO gtk_foo_get_type ()\n"
+"G_DECLARE_DERIVABLE_TYPE (GtkFoo, gtk_foo, GTK, FOO, GtkWidget)\n"
+"\n"
+"struct _GtkFooClass\n"
+"{\n"
+"  GtkWidgetClass parent_class;\n"
+"\n"
+"  void (* handle_frob)  (GtkFrobber *frobber,\n"
+"                         guint       n_frobs);\n"
+"\n"
+"  gpointer padding[12];\n"
+"};"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:872
@@ -1522,6 +3376,8 @@ msgid ""
 "\n"
 "typedef struct _GtkFooable          GtkFooable;"
 msgstr ""
+"\n"
+"typedef struct _GtkFooable          GtkFooable;"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:890
@@ -1535,21 +3391,23 @@ msgid ""
 "\n"
 "typedef struct _GtkFooableInterface     GtkFooableInterface;"
 msgstr ""
+"\n"
+"typedef struct _GtkFooableInterface     GtkFooableInterface;"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:898
 msgid "Interfaces must have the following macros:"
-msgstr ""
+msgstr "Gränssnitt måste ha följande makron:"
 
 #. (itstool) path: td/p
 #: C/c-coding-style.page:905
 msgid "Macro"
-msgstr ""
+msgstr "Makro"
 
 #. (itstool) path: td/p
 #: C/c-coding-style.page:906
 msgid "Expands to"
-msgstr ""
+msgstr "Expanderas till"
 
 #. (itstool) path: td/p
 #: C/c-coding-style.page:911
@@ -1569,7 +3427,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/c-coding-style.page:916
 msgid "<code>G_TYPE_CHECK_INSTANCE_CAST</code>"
-msgstr ""
+msgstr "<code>G_TYPE_CHECK_INSTANCE_CAST</code>"
 
 #. (itstool) path: td/p
 #: C/c-coding-style.page:919
@@ -1579,7 +3437,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/c-coding-style.page:920
 msgid "<code>G_TYPE_CHECK_INSTANCE_TYPE</code>"
-msgstr ""
+msgstr "<code>G_TYPE_CHECK_INSTANCE_TYPE</code>"
 
 #. (itstool) path: td/p
 #: C/c-coding-style.page:923
@@ -1589,12 +3447,12 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/c-coding-style.page:924
 msgid "<code>G_TYPE_INSTANCE_GET_INTERFACE</code>"
-msgstr ""
+msgstr "<code>G_TYPE_INSTANCE_GET_INTERFACE</code>"
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:932
 msgid "Memory Allocation"
-msgstr ""
+msgstr "Minnesallokering"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:934
@@ -1611,12 +3469,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/c-coding-style.page:944
 msgid "See <link xref=\"memory-management\"/> for more details."
-msgstr ""
+msgstr "Se <link xref=\"memory-management\"/> för mer detaljer."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:950
 msgid "Macros"
-msgstr ""
+msgstr "Makron"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:952
@@ -1638,7 +3496,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/c-coding-style.page:969
 msgid "Public API"
-msgstr ""
+msgstr "Öppet API"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:971
@@ -1651,7 +3509,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/c-coding-style.page:980
 msgid "Private API"
-msgstr ""
+msgstr "Privat API"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:982
@@ -1664,7 +3522,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/c-coding-style.page:988
 msgid "Underscore-prefixed functions are never exported."
-msgstr ""
+msgstr "Funktioner som inleds med understreck exporteras aldrig."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:992
@@ -1672,6 +3530,7 @@ msgid ""
 "Non-exported functions that are only needed in one source file should be declared "
 "static."
 msgstr ""
+"Ej exporterade funktioner som bara behövs i en källkodsfil bör deklareras static."
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -1710,6 +3569,8 @@ msgid ""
 "Use databases for appropriate use cases: not configuration data (use GSettings). "
 "(<link xref=\"#when-to-use-databases\"/>)"
 msgstr ""
+"Använd databaser för lämpliga användningsområden: inte konfigurationsdata (använd "
+"GSettings). (<link xref=\"#when-to-use-databases\"/>)"
 
 #. (itstool) path: item/p
 #: C/databases.page:31
@@ -1717,6 +3578,8 @@ msgid ""
 "Choose between GOM and GVDB based on whether indexing is required. (<link xref="
 "\"#when-to-use-databases\"/>)"
 msgstr ""
+"Välj mellan GOM och GVDB beroende på om indexering krävs. (<link xref=\"#when-to-use-"
+"databases\"/>)"
 
 #. (itstool) path: item/p
 #: C/databases.page:35
@@ -1731,14 +3594,17 @@ msgid ""
 "Avoid SQL injection vulnerabilities by using prepared statements. (<link xref=\"#sql-"
 "injection\"/>)"
 msgstr ""
+"Undvik SQL-injektionssårbarheter genom att använda förberedda satser. (<link xref="
+"\"#sql-injection\"/>)"
 
 #. (itstool) path: section/title
 #: C/databases.page:47
 msgid "When to Use Databases"
-msgstr ""
+msgstr "När databaser bör användas"
 
 #. (itstool) path: section/p
 #: C/databases.page:49
+#, fuzzy
 msgid ""
 "Configuration data should be stored in <link href=\"https://developer.gnome.org/gio/"
 "stable/GSettings.html\">GSettings</link>. As a rule of thumb, if some data needs to "
@@ -1747,6 +3613,13 @@ msgid ""
 "(such as proxy or lockdown settings), it is configuration data. If it contains user "
 "created content, it is not configuration data, and should not be stored in GSettings."
 msgstr ""
+"Konfigurationsdata bör lagras i <link href=\"https://developer.gnome.org/gio/stable/"
+"GSettings.html\">GSettings</link>. Som en tumregel, om några data behöver vara "
+"beständiga och påverkar hur ett program beter sig, så är de konfigurationsdata. Om "
+"det potentiellt kunde styras av policyer påtvingade av systemadministratören (så som "
+"prox- eller nedlåsningsinställningar) så är det konfigurationsdata. Om det "
+"innehåller användarskapat innehåll så är det inte konfigurationsdata, och bör inte "
+"lagras i GSettings."
 
 #. (itstool) path: section/p
 #: C/databases.page:60
@@ -1764,6 +3637,8 @@ msgid ""
 "GOM should be used if you need advanced features, especially indexing. GVDB should "
 "be used otherwise."
 msgstr ""
+"GOM bör användas om du behöver avancerade funktioner, i synnerhet indexering. I "
+"annat fall bör GVDB användas."
 
 #. (itstool) path: section/p
 #: C/databases.page:74
@@ -1779,17 +3654,23 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/databases.page:86
+#, fuzzy
 msgid ""
 "GNOME has another database library: GNOME Data Access (GDA). This is targeted at "
 "abstracting access to various types of relational database, for use in a database "
 "utility program or office program, for example. It is not suitable for storing <link "
 "href=\"https://developer.gnome.org/gio/stable/GSettings.html\">user settings</link>."
 msgstr ""
+"GNOME har ett annat databasbibliotek: GNOME Data Access (GDA). Detta har som mål att "
+"abstrahera åtkomst till diverse typer av relationella databaser, exempelvis för "
+"användning i ett databasnyttoprogram eller kontorsprogram. Det är inte lämpligt för "
+"att lagra <link href=\"https://developer.gnome.org/gio/stable/GSettings.html"
+"\">användarinställningar</link>."
 
 #. (itstool) path: section/title
 #: C/databases.page:97
 msgid "Using GOM"
-msgstr ""
+msgstr "Använda GOM"
 
 #. (itstool) path: section/p
 #: C/databases.page:99
@@ -1797,11 +3678,14 @@ msgid ""
 "Providing a GOM tutorial is beyond the scope of this document, but a <link href="
 "\"https://developer.gnome.org/gom/\">reference manual is available</link>."
 msgstr ""
+"Att tillhandahålla en GOM-handledning är utanför ändamålet för detta dokument, men "
+"en <link href=\"https://developer.gnome.org/gom/\">referenshandbok finns "
+"tillgänglig</link>."
 
 #. (itstool) path: section/title
 #: C/databases.page:113
 msgid "SQL Injection"
-msgstr ""
+msgstr "SQL-injektion"
 
 #. (itstool) path: section/p
 #: C/databases.page:115
@@ -1811,29 +3695,34 @@ msgid ""
 "www.sqlite.org/c3ref/stmt.html\">prepared statement</link> and <link href=\"https://"
 "www.sqlite.org/c3ref/bind_blob.html\">value binding</link> API, rather than by "
 "constructing SQL strings then passing them to SQLite to parse. Constructing strings "
-"makes <link href=\"http://en.wikipedia.org/wiki/SQL_injection\">SQL injection</link> "
-"vulnerabilities very likely, which can give attackers access to arbitrary user data "
-"from the database."
+"makes <link href=\"https://en.wikipedia.org/wiki/SQL_injection\">SQL injection</"
+"link> vulnerabilities very likely, which can give attackers access to arbitrary user "
+"data from the database."
 msgstr ""
 
 #. (itstool) path: section/title
 #: C/databases.page:131
 msgid "Using GVDB"
-msgstr ""
+msgstr "Använda GVDB"
 
 #. (itstool) path: section/p
 #: C/databases.page:133
+#, fuzzy
 msgid ""
 "GVDB has a simple API which mirrors a conventional hash table. Presently, GVDB is "
 "only available as a copy-and-paste library; fetch the most recent copy of the code "
-"from <link href=\"https://git.gnome.org/browse/gvdb\">GVDB git</link> and copy it "
-"into your project. It is licenced under LGPLv2.1+."
+"from <link href=\"https://gitlab.gnome.org/GNOME/gvdb\">GVDB git</link> and copy it "
+"into your project. It is licensed under LGPLv2.1+."
 msgstr ""
+"GVDB har ett enkelt API som speglar en konventiell hashtabell. För närvarande finns "
+"GVDB endast tillgängligt som ett kopiera-och-klistra-bibliotek; hämta den senaste "
+"versionen av koden från <link href=\"https://git.gnome.org/browse/gvdb\">GVDB:s git</"
+"link> och kopiera den till ditt projekt. Det är licensierat under LGPLv2.1+."
 
 #. (itstool) path: section/p
 #: C/databases.page:141
 msgid "A full GVDB tutorial is beyond the scope of this document."
-msgstr ""
+msgstr "En fullständig GVDB-handledning är utanför ändamålet för detta dokument."
 
 #. (itstool) path: info/desc
 #: C/documentation.page:26
@@ -1852,6 +3741,8 @@ msgid ""
 "Use gtk-doc with up-to-date settings for API documentation. (<link xref=\"#gtk-doc\"/"
 ">)"
 msgstr ""
+"Använd gtk-doc med uppdaterade inställningar för API-dokumentation. (<link xref="
+"\"#gtk-doc\"/>)"
 
 #. (itstool) path: item/p
 #: C/documentation.page:39
@@ -1859,13 +3750,18 @@ msgid ""
 "Use XML entities for including external symbols into the documentation. (<link xref="
 "\"#build-system\"/>)"
 msgstr ""
+"Använd XML-entiteter för att inkludera externa symboler i dokumentationen. (<link "
+"xref=\"#build-system\"/>)"
 
 #. (itstool) path: item/p
 #: C/documentation.page:43
+#, fuzzy
 msgid ""
 "Use a consistent, standard, table of contents for all API documentation to maintain "
 "familiarity. (<link xref=\"#standard-layout\"/>)"
 msgstr ""
+"Använd en konsekvent, standardiserad innehållsförteckning för all API-dokumentation "
+"för att uppehålla igenkänning. (<link xref=\"#standard-layout\"/>)"
 
 #. (itstool) path: item/p
 #: C/documentation.page:47
@@ -1873,25 +3769,33 @@ msgid ""
 "Use <cmd>gdbus-codegen</cmd> to generate D-Bus API documentation to include in the "
 "gtk-doc build. (<link xref=\"#dbus-api\"/>)"
 msgstr ""
+"Använd <cmd>gdbus-codegen</cmd> för att generera D-Bus-API-dokumentation att "
+"inkludera i gtk-doc-bygget. (<link xref=\"#dbus-api\"/>)"
 
 #. (itstool) path: item/p
 #: C/documentation.page:51
+#, fuzzy
 msgid ""
 "Add introspection annotations to all API documentation. (<link xref=\"#introspection-"
 "annotations\"/>)"
 msgstr ""
+"Lägg till introspektionsanteckningar till all API-dokumentation. (<link xref="
+"\"#introspection-annotations\"/>)"
 
 #. (itstool) path: item/p
 #: C/documentation.page:55
+#, fuzzy
 msgid ""
 "Add <code>Since</code> lines to all API documentation. (<link xref=\"#symbol-"
 "versioning\"/>)"
 msgstr ""
+"Lägg till <code>Since</code>-rader till all API-dokumentation. (<link xref=\"#symbol-"
+"versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/documentation.page:59
 msgid "Enable gtk-doc tests. (<link xref=\"#keeping-up-to-date\"/>)"
-msgstr ""
+msgstr "Aktivera gtk-doc-tester. (<link xref=\"#keeping-up-to-date\"/>)"
 
 #. (itstool) path: section/title
 #: C/documentation.page:66
@@ -1900,6 +3804,7 @@ msgstr "gtk-doc"
 
 #. (itstool) path: section/p
 #: C/documentation.page:68
+#, fuzzy
 msgid ""
 "The preferred documentation system for GNOME libraries is <link href=\"http://www."
 "gtk.org/gtk-doc/\">gtk-doc</link>, which extracts inline comments from the code to "
@@ -1908,11 +3813,17 @@ msgid ""
 "org/Apps/Devhelp\">Devhelp</link>. A lot of GNOME’s infrastructure is built to "
 "handle with documentation written using gtk-doc."
 msgstr ""
+"Det föredragna dokumentationssystemet för GNOME-bibliotek är <link href=\"http://www."
+"gtk.org/gtk-doc/\">gtk-doc</link>, vilket extraherar kommentarsrader från koden för "
+"att låta dig bygga ett <link href=\"http://docbook.org/\">DocBook</link>-dokument "
+"och en samling av HTML-sidor. Dessa kan sedan läsas i <link href=\"https://wiki."
+"gnome.org/Apps/Devhelp\">Devhelp</link>. Mycket av GNOME:s infrastruktur är byggd "
+"för att hantera dokumentation skriven med gtk-doc."
 
 #. (itstool) path: section/title
 #: C/documentation.page:81
 msgid "Build System"
-msgstr ""
+msgstr "Byggsystem"
 
 #. (itstool) path: section/p
 #: C/documentation.page:83
@@ -1944,7 +3855,7 @@ msgstr ""
 #: C/documentation.page:110
 #, no-wrap
 msgid "@PACKAGE_VERSION@"
-msgstr ""
+msgstr "@PACKAGE_VERSION@"
 
 #. (itstool) path: section/p
 #: C/documentation.page:111
@@ -1959,26 +3870,31 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/documentation.page:121
 msgid "Standard Layout"
-msgstr ""
+msgstr "Standardlayout"
 
 #. (itstool) path: section/p
 #: C/documentation.page:123
+#, fuzzy
 msgid ""
 "Using a standard layout for the table of contents, sections, appendices, etc. means "
 "the same <file><var>project-name</var>-docs.xml</file> template can be reused with "
 "few changes between projects. It also means the documentation layout is similar "
 "across all projects, making it more familiar to developers."
 msgstr ""
+"Att använda en standardlayout för innehållsförteckningen, avsnitt, appendix o.s.v. "
+"betyder att samma mall <file><var>projektnamn</var>-docs.xml</file> kan användas med "
+"få ändringar mellan projekt. Det betyder också att dokumentationslayouten är "
+"liknande mellan alla projekt, vilket gör det mer bekant för utvecklare."
 
 #. (itstool) path: section/p
 #: C/documentation.page:131
 msgid "The following layout is suggested:"
-msgstr ""
+msgstr "Den följande layouten föreslås:"
 
 #. (itstool) path: listing/title
 #: C/documentation.page:135
 msgid "<file><var>project-name</var>-docs.xml</file>"
-msgstr ""
+msgstr "<file><var>projektnamn</var>-docs.xml</file>"
 
 #. (itstool) path: listing/desc
 #: C/documentation.page:136
@@ -1988,7 +3904,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/documentation.page:142
 msgid "Licensing"
-msgstr ""
+msgstr "Licensiering"
 
 #. (itstool) path: section/p
 #: C/documentation.page:150
@@ -2016,7 +3932,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/documentation.page:169
 msgid "Public APIs"
-msgstr ""
+msgstr "Öppna API:er"
 
 #. (itstool) path: section/p
 #: C/documentation.page:171
@@ -2024,6 +3940,8 @@ msgid ""
 "All public APIs must have gtk-doc comments. For functions, these should be placed in "
 "the source file, directly above the function."
 msgstr ""
+"Alla öppna API:er måste ha gtk-doc-kommentarer. För funktioner bör dessa placeras i "
+"källkodsfilen, direkt ovanför funktionen."
 
 #. (itstool) path: section/code
 #: C/documentation.page:176
@@ -2140,7 +4058,7 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/documentation.page:264
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "/**\n"
 " * my_function:\n"
@@ -2149,15 +4067,21 @@ msgid ""
 " * Body of the function documentation.\n"
 " */"
 msgstr ""
+"/**\n"
+" * my_function:\n"
+" * @parameter: (nullable): some parameter which affects something\n"
+" *\n"
+" * Body of the function documentation.\n"
+" */"
 
 #. (itstool) path: section/p
 #: C/documentation.page:271
 msgid "Instead of:"
-msgstr ""
+msgstr "Istället för:"
 
 #. (itstool) path: section/code
 #: C/documentation.page:274
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "/**\n"
 " * my_bad_function:\n"
@@ -2166,6 +4090,12 @@ msgid ""
 " * Bad body of the function documentation.\n"
 " */"
 msgstr ""
+"/**\n"
+" * my_bad_function:\n"
+" * @parameter: some parameter which affects something, or %NULL to ignore\n"
+" *\n"
+" * Bad body of the function documentation.\n"
+" */"
 
 #. (itstool) path: section/p
 #: C/documentation.page:281
@@ -2173,11 +4103,13 @@ msgid ""
 "For more information on introspection, see the <link xref=\"introspection"
 "\">introspection guidelines</link>."
 msgstr ""
+"För mer information om introspektion, se <link xref=\"introspection\">riktlinjerna "
+"för introspektion</link>."
 
 #. (itstool) path: section/title
 #: C/documentation.page:288
 msgid "Symbol Versioning"
-msgstr ""
+msgstr "Symbolversionering"
 
 #. (itstool) path: section/p
 #: C/documentation.page:290
@@ -2193,11 +4125,11 @@ msgstr ""
 #. (itstool) path: example/p
 #: C/documentation.page:300 C/memory-management.page:494 C/threading.page:79
 msgid "For example:"
-msgstr ""
+msgstr "Till exempel:"
 
 #. (itstool) path: section/code
 #: C/documentation.page:303
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "/**\n"
 " * my_function:\n"
@@ -2208,6 +4140,14 @@ msgid ""
 " * Since: 0.5.0\n"
 " */"
 msgstr ""
+"/**\n"
+" * my_function:\n"
+" * @param: some parameter\n"
+" *\n"
+" * Body of the function documentation.\n"
+" *\n"
+" * Since: 0.5.0\n"
+" */"
 
 #. (itstool) path: section/p
 #: C/documentation.page:312
@@ -2218,7 +4158,7 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/documentation.page:317
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "&lt;part&gt;\n"
 "\t&lt;title&gt;Appendices&lt;/title&gt;\n"
@@ -2238,11 +4178,28 @@ msgid ""
 "\t&lt;xi:include href=\"xml/annotation-glossary.xml\"&gt;&lt;xi:fallback /&gt;&lt;/xi:include&gt;\n"
 "&lt;/part&gt;"
 msgstr ""
+"&lt;part&gt;\n"
+"\t&lt;title&gt;Appendices&lt;/title&gt;\n"
+"\t&lt;index id=\"api-index-full\"&gt;\n"
+"\t\t&lt;title&gt;API Index&lt;/title&gt;\n"
+"\t\t&lt;xi:include href=\"xml/api-index-full.xml\"&gt;&lt;xi:fallback/&gt;&lt;/xi:include&gt;\n"
+"\t&lt;/index&gt;\n"
+"\t&lt;index id=\"api-index-deprecated\"&gt;\n"
+"\t\t&lt;title&gt;Index of deprecated symbols&lt;/title&gt;\n"
+"\t\t&lt;xi:include href=\"xml/api-index-deprecated.xml\"&gt;&lt;xi:fallback/&gt;&lt;/xi:include&gt;\n"
+"\t&lt;/index&gt;\n"
+"\t&lt;index role=\"0.1.0\"&gt;\n"
+"\t\t&lt;title&gt;Index of new symbols in 0.1.0&lt;/title&gt;\n"
+"\t\t&lt;xi:include href=\"xml/api-index-0.1.0.xml\"&gt;&lt;xi:fallback/&gt;&lt;/xi:include&gt;\n"
+"\t&lt;/index&gt;\n"
+"\t&lt;!-- More versions here. --&gt;\n"
+"\t&lt;xi:include href=\"xml/annotation-glossary.xml\"&gt;&lt;xi:fallback /&gt;&lt;/xi:include&gt;\n"
+"&lt;/part&gt;"
 
 #. (itstool) path: section/title
 #: C/documentation.page:337
 msgid "D-Bus APIs"
-msgstr ""
+msgstr "D-Bus-API:er"
 
 #. (itstool) path: section/p
 #: C/documentation.page:339
@@ -2260,7 +4217,7 @@ msgstr ""
 
 #. (itstool) path: section/code
 #: C/documentation.page:356
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "&lt;chapter&gt;\n"
 "  &lt;title&gt;C Interfaces&lt;/title&gt;\n"
@@ -2272,6 +4229,15 @@ msgid ""
 "  &lt;xi:include href=\"xml/SomeOtherService.xml\"/&gt;\n"
 "&lt;/chapter&gt;"
 msgstr ""
+"&lt;chapter&gt;\n"
+"  &lt;title&gt;C Interfaces&lt;/title&gt;\n"
+"  &lt;partintro&gt;\n"
+"    &lt;para&gt;C wrappers for the D-Bus interfaces.&lt;/para&gt;\n"
+"  &lt;/partintro&gt;\n"
+"\n"
+"  &lt;xi:include href=\"xml/SomeDBusService.xml\"/&gt;\n"
+"  &lt;xi:include href=\"xml/SomeOtherService.xml\"/&gt;\n"
+"&lt;/chapter&gt;"
 
 #. (itstool) path: section/p
 #: C/documentation.page:366
@@ -2285,7 +4251,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/documentation.page:375
 msgid "Keeping Documentation Up to Date"
-msgstr ""
+msgstr "Hålla dokumentation uppdaterad"
 
 #. (itstool) path: section/p
 #: C/documentation.page:377
@@ -2306,22 +4272,22 @@ msgstr ""
 #: C/documentation.page:388
 #, no-wrap
 msgid "TESTS = $(GTKDOC_CHECK)"
-msgstr ""
+msgstr "TESTS = $(GTKDOC_CHECK)"
 
 #. (itstool) path: section/p
 #: C/documentation.page:390
 msgid "They will then be run as part of <cmd>make check</cmd>."
-msgstr ""
+msgstr "De kommer sedan att köras som en del av <cmd>make check</cmd>."
 
 #. (itstool) path: info/desc
 #: C/file-system.page:18
 msgid "Accessing the file system"
-msgstr ""
+msgstr "Komma åt filsystemet"
 
 #. (itstool) path: page/title
 #: C/file-system.page:21
 msgid "File System Access"
-msgstr ""
+msgstr "Filsystemsåtkomst:"
 
 #. (itstool) path: synopsis/p
 #: C/file-system.page:26
@@ -2333,11 +4299,18 @@ msgid ""
 "href=\"https://developer.gnome.org/gio/stable/GOutputStream.html"
 "\"><code>GOutputStream</code></link> APIs."
 msgstr ""
+"Det finns några få antimönster att överväga vid åtkomst till filsystemet. Denna "
+"artikel antar kunskap om standard-API:erna för <link href=\"https://developer.gnome."
+"org/gio/stable/GFile.html\"><code>GFile</code></link>, <link href=\"https://"
+"developer.gnome.org/gio/stable/GInputStream.html\"><code>GInputStream</code></link> "
+"och <link href=\"https://developer.gnome.org/gio/stable/GOutputStream.html"
+"\"><code>GOutputStream</code></link>"
 
 #. (itstool) path: item/p
 #: C/file-system.page:37
+#, fuzzy
 msgid "Use asynchronous I/O for file access. (<link xref=\"#asynchronous-io\"/>)"
-msgstr ""
+msgstr "Använd asynkron I/O för filåtkomst. (<link xref=\"#asynchronous-io\"/>)"
 
 #. (itstool) path: item/p
 #: C/file-system.page:41
@@ -2345,6 +4318,8 @@ msgid ""
 "Always use appropriate functions to construct file names and paths. (<link xref="
 "\"#file-path-construction\"/>)"
 msgstr ""
+"Använd alltid lämpliga funktioner för att konstruera filnamn och sökvägar. (<link "
+"xref=\"#file-path-construction\"/>)"
 
 #. (itstool) path: item/p
 #: C/file-system.page:45
@@ -2352,6 +4327,8 @@ msgid ""
 "Validate file paths are in the expected directories before using them. (<link xref="
 "\"#path-validation-and-sandboxing\"/>)"
 msgstr ""
+"Validera att sökvägar till filer är i de förväntade katalogerna innan de används. "
+"(<link xref=\"#path-validation-and-sandboxing\"/>)"
 
 #. (itstool) path: item/p
 #: C/file-system.page:49
@@ -2443,6 +4420,11 @@ msgid ""
 "gnome.org/glib/stable/glib-String-Utility-Functions.html#g-strconcat"
 "\"><code>g_strconcat()</code></link>."
 msgstr ""
+"Till exempel bör filsökvägar byggas med <link href=\"https://developer.gnome.org/"
+"glib/stable/glib-Miscellaneous-Utility-Functions.html#g-build-filename"
+"\"><code>g_build_filename()</code></link> snarare än <link href=\"https://developer."
+"gnome.org/glib/stable/glib-String-Utility-Functions.html#g-strconcat"
+"\"><code>g_strconcat()</code></link>."
 
 #. (itstool) path: section/p
 #: C/file-system.page:128
@@ -2497,7 +4479,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/file-system.page:172
 msgid ""
-"As a second line of defence, all projects which access the file system should "
+"As a second line of defense, all projects which access the file system should "
 "consider providing a mandatory access control profile, using a system such as <link "
 "href=\"http://apparmor.net/\">AppArmor</link> or <link href=\"http://selinuxproject."
 "org/\">SELinux</link>, which limits the directories and files they can read from and "
@@ -2517,15 +4499,15 @@ msgstr "GError"
 #. (itstool) path: section/title
 #: C/gerror.page:24
 msgid "GError Usage"
-msgstr ""
+msgstr "GError-användning"
 
 #. (itstool) path: section/p
 #: C/gerror.page:26
 msgid ""
 "<link href=\"https://developer.gnome.org/glib/stable/glib-Error-Reporting.html"
 "\"><code>GError</code></link> is the standard error reporting mechanism for GLib-"
-"using code, and can be thought of as a C implementation of an <link href=\"http://en."
-"wikipedia.org/wiki/Exception_handling\">exception</link>."
+"using code, and can be thought of as a C implementation of an <link href=\"https://"
+"en.wikipedia.org/wiki/Exception_handling\">exception</link>."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -2586,10 +4568,11 @@ msgstr "GList"
 #. (itstool) path: section/title
 #: C/glist.page:24
 msgid "GList Usage"
-msgstr ""
+msgstr "GList-användning"
 
 #. (itstool) path: section/p
 #: C/glist.page:26
+#, fuzzy
 msgid ""
 "GLib provides several container types for sets of data: <link href=\"https://"
 "developer.gnome.org/glib/stable/glib-Doubly-Linked-Lists.html\"><code>GList</code></"
@@ -2599,6 +4582,13 @@ msgid ""
 "\"https://developer.gnome.org/glib/stable/glib-Arrays.html\"><code>GArray</code></"
 "link>."
 msgstr ""
+"GLib tillhandahåller flera behållartyper för mängder av data: <link href=\"https://"
+"developer.gnome.org/glib/stable/glib-Doubly-Linked-Lists.html\"><code>GList</code></"
+"link>, <link href=\"https://developer.gnome.org/glib/stable/glib-Singly-Linked-Lists."
+"html\"><code>GSList</code></link>, <link href=\"https://developer.gnome.org/glib/"
+"stable/glib-Pointer-Arrays.html\"><code>GPtrArray</code></link> och <link href="
+"\"https://developer.gnome.org/glib/stable/glib-Arrays.html\"><code>GArray</code></"
+"link>."
 
 #. (itstool) path: section/p
 #: C/glist.page:34
@@ -2637,6 +4627,14 @@ msgid ""
 "    /* Do something with @element_data. */\n"
 "  }"
 msgstr ""
+"GList *some_list, *l;\n"
+"\n"
+"for (l = some_list; l != NULL; l = l-&gt;next)\n"
+"  {\n"
+"    gpointer element_data = l-&gt;data;\n"
+"\n"
+"    /* Gör något med @element_data. */\n"
+"  }"
 
 #. (itstool) path: section/p
 #: C/glist.page:63
@@ -2660,6 +4658,16 @@ msgid ""
 "    /* Do something with @element_data. */\n"
 "  }"
 msgstr ""
+"GList *some_list;\n"
+"guint i;\n"
+"\n"
+"/* Denna kod är ineffektiv och bör inte användas professionellt. */\n"
+"for (i = 0; i &lt; g_list_length (some_list); i++)\n"
+"  {\n"
+"    gpointer element_data = g_list_nth_data (some_list, i);\n"
+"\n"
+"    /* Gör något med @element_data. */\n"
+"  }"
 
 #. (itstool) path: section/p
 #: C/glist.page:78
@@ -2691,6 +4699,15 @@ msgid ""
 "    /* Do something with @element_data. */\n"
 "  }"
 msgstr ""
+"GPtrArray *some_array;\n"
+"guint i;\n"
+"\n"
+"for (i = 0; i &lt; some_array-&gt;len; i++)\n"
+"  {\n"
+"    gpointer element_data = some_array-&gt;pdata[i];\n"
+"\n"
+"    /* Gör något med @element_data. */\n"
+"  }"
 
 #. (itstool) path: credit/name
 #: C/index.page:13 C/writing-good-code.page:15
@@ -2784,25 +4801,27 @@ msgstr "Allmänna riktlinjer"
 
 #. (itstool) path: info/title
 #: C/index.page:83
+#, fuzzy
 msgctxt "link:trail"
 msgid "Maintainer Guidelines"
-msgstr ""
+msgstr "Riktlinjer för paketansvariga"
 
 #. (itstool) path: section/title
 #: C/index.page:85
+#, fuzzy
 msgid "Maintainer Guidelines"
-msgstr ""
+msgstr "Riktlinjer för paketansvariga"
 
 #. (itstool) path: info/title
 #: C/index.page:91
 msgctxt "link:trail"
 msgid "Specific How-Tos"
-msgstr ""
+msgstr "Specifika guider"
 
 #. (itstool) path: section/title
 #: C/index.page:93
 msgid "Specific How-Tos"
-msgstr ""
+msgstr "Specifika guider"
 
 #. (itstool) path: info/title
 #: C/index.page:99
@@ -2818,12 +4837,12 @@ msgstr "Referenser"
 #. (itstool) path: info/desc
 #: C/introspection.page:17
 msgid "GObject Introspection support in library code"
-msgstr ""
+msgstr "GObject-introspektionsstöd i bibliotekskod"
 
 #. (itstool) path: page/title
 #: C/introspection.page:20
 msgid "Introspection"
-msgstr ""
+msgstr "Introspektion"
 
 #. (itstool) path: synopsis/p
 #: C/introspection.page:25
@@ -2831,8 +4850,8 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/GObjectIntrospection\"> GObject "
 "introspection</link> (abbreviated ‘GIR’) is a system which extracts APIs from C code "
 "and produces binary type libraries which can be used by non-C language bindings, and "
-"other tools, to <link href=\"http://en.wikipedia.org/wiki/Type_introspection"
-"\">introspect</link> or <link href=\"http://en.wikipedia.org/wiki/Language_binding"
+"other tools, to <link href=\"https://en.wikipedia.org/wiki/Type_introspection"
+"\">introspect</link> or <link href=\"https://en.wikipedia.org/wiki/Language_binding"
 "\">wrap</link> the original C libraries. It uses a system of annotations in "
 "documentation comments in the C code to expose extra information about the APIs "
 "which is not machine readable from the code itself."
@@ -2851,13 +4870,17 @@ msgstr ""
 #: C/introspection.page:46
 msgid "Enable introspection for all libraries. (<link xref=\"#using-introspection\"/>)"
 msgstr ""
+"Aktivera introspektion för alla bibliotek. (<link xref=\"#using-introspection\"/>)"
 
 #. (itstool) path: item/p
 #: C/introspection.page:50
+#, fuzzy
 msgid ""
 "Pay attention to warnings from <cmd>g-ir-scanner</cmd> and <code>introspectable="
 "\"0\"</code> attributes in GIR files. (<link xref=\"#using-introspection\"/>)"
 msgstr ""
+"Var uppmärksam på varningar från <cmd>g-ir-scanner</cmd> och <code>introspectable="
+"\"0\"</code>-attribut i GIR-filer. (<link xref=\"#using-introspection\"/>)"
 
 #. (itstool) path: item/p
 #: C/introspection.page:55
@@ -2870,11 +4893,13 @@ msgstr ""
 #: C/introspection.page:59
 msgid "Design APIs to be introspectable from the start. (<link xref=\"#api-design\"/>)"
 msgstr ""
+"Designa API:er för att vara introspekterbara från första början. (<link xref=\"#api-"
+"design\"/>)"
 
 #. (itstool) path: section/title
 #: C/introspection.page:67
 msgid "Using Introspection"
-msgstr ""
+msgstr "Använda introspektion"
 
 #. (itstool) path: section/p
 #: C/introspection.page:69
@@ -2934,7 +4959,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/introspection.page:119
 msgid "API Design"
-msgstr ""
+msgstr "API-design"
 
 #. (itstool) path: section/p
 #: C/introspection.page:121
@@ -2983,12 +5008,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/logging.page:18
 msgid "Logging debug and information output from libraries and programs"
-msgstr ""
+msgstr "Logga felsöknings- och informationsutdata från bibliotek och program"
 
 #. (itstool) path: page/title
 #: C/logging.page:23
 msgid "Logging"
-msgstr ""
+msgstr "Loggning"
 
 #. (itstool) path: synopsis/p
 #: C/logging.page:28
@@ -3008,6 +5033,8 @@ msgid ""
 "Use the GLib logging framework instead of logging directly to stderr and stdout. "
 "(<link xref=\"#glib-logging-framework\"/>)"
 msgstr ""
+"Använd GLibs ramverk för loggning istället för att logga direkt till stderr och "
+"stdout. (<link xref=\"#glib-logging-framework\"/>)"
 
 #. (itstool) path: item/p
 #: C/logging.page:44
@@ -3022,11 +5049,13 @@ msgid ""
 "Do not implement log rotation and deletion; leave that to system services. (<link "
 "xref=\"#log-rotation\"/>)"
 msgstr ""
+"Implementera inte rotation och borttagning av loggar, lämna det till systemtjänster. "
+"(<link xref=\"#log-rotation\"/>)"
 
 #. (itstool) path: section/title
 #: C/logging.page:56
 msgid "GLib Logging Framework"
-msgstr ""
+msgstr "GLib-ramverk för loggning"
 
 #. (itstool) path: section/p
 #: C/logging.page:58
@@ -3161,7 +5190,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/logging.page:166
 msgid "Exceptions"
-msgstr ""
+msgstr "Undantag"
 
 #. (itstool) path: item/p
 #: C/logging.page:169
@@ -3177,6 +5206,8 @@ msgid ""
 "Do not use <code>g_warning()</code> in library code. Use <link xref=\"gerror"
 "\"><code>GError</code>s</link> instead."
 msgstr ""
+"Använd inte <code>g_warning()</code> i bibliotekskod. Använd <link xref=\"gerror"
+"\"><code>GError</code></link> istället."
 
 #. (itstool) path: item/p
 #: C/logging.page:179
@@ -3189,7 +5220,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/logging.page:189
 msgid "journald Integration"
-msgstr ""
+msgstr "journald-integration"
 
 #. (itstool) path: section/p
 #: C/logging.page:191
@@ -3209,11 +5240,13 @@ msgid ""
 "For more information, see this <link href=\"http://0pointer.de/blog/projects/journal-"
 "submit.html\">article on logging to the journal</link>."
 msgstr ""
+"För mer information, se denna <link href=\"http://0pointer.de/blog/projects/journal-"
+"submit.html\">artikel om att logga till journalen</link>."
 
 #. (itstool) path: section/title
 #: C/logging.page:210
 msgid "Log Rotation"
-msgstr ""
+msgstr "Rotation av loggar"
 
 #. (itstool) path: section/p
 #: C/logging.page:212
@@ -3282,14 +5315,14 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/main-contexts.page:62
 msgid "What is <code>GMainContext</code>?"
-msgstr ""
+msgstr "Vad är <code>GMainContext</code>?"
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:64
 msgid ""
 "<link href=\"https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop."
 "html#GMainContext\"><code>GMainContext</code></link> is a generalized implementation "
-"of an <link href=\"http://en.wikipedia.org/wiki/Event_loop\">event loop</link>, "
+"of an <link href=\"https://en.wikipedia.org/wiki/Event_loop\">event loop</link>, "
 "useful for implementing polled file I/O or event-based widget systems (such as GTK"
 "+). It is at the core of almost every GLib application. To understand "
 "<code>GMainContext</code> requires understanding <link href=\"man:poll(2)\">poll()</"
@@ -3382,7 +5415,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/main-contexts.page:149
 msgid "What is <code>GMainLoop</code>?"
-msgstr ""
+msgstr "Vad är <code>GMainLoop</code>?"
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:151
@@ -3404,6 +5437,11 @@ msgid ""
 "    g_main_context_iteration (context, TRUE);\n"
 "  }"
 msgstr ""
+"loop-&gt;is_running = TRUE;\n"
+"while (loop-&gt;is_running)\n"
+"  {\n"
+"    g_main_context_iteration (context, TRUE);\n"
+"  }"
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:163
@@ -3617,12 +5655,12 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/main-contexts.page:356
 msgid "Do not use"
-msgstr ""
+msgstr "Använd inte"
 
 #. (itstool) path: td/p
 #: C/main-contexts.page:357
 msgid "Use instead"
-msgstr ""
+msgstr "Använd istället"
 
 #. (itstool) path: td/p
 #: C/main-contexts.page:362
@@ -3694,7 +5732,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/main-contexts.page:412
 msgid "Using <code>GMainContext</code> in a Library"
-msgstr ""
+msgstr "Använda <code>GMainContext</code> i ett bibliotek"
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:414
@@ -3711,7 +5749,7 @@ msgid ""
 "Never iterate a context created outside the library, including the global-default or "
 "thread-default contexts. Otherwise, <code>GSource</code>s created in the application "
 "may be dispatched when the application is not expecting it, causing <link href="
-"\"http://en.wikipedia.org/wiki/Reentrancy_%28computing%29\">re-entrancy problems</"
+"\"https://en.wikipedia.org/wiki/Reentrancy_%28computing%29\">re-entrancy problems</"
 "link> for the application code."
 msgstr ""
 
@@ -3760,17 +5798,19 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/main-contexts.page:468
 msgid ""
-"Always write things asynchronously internally (using <link xref=\"#gtask"
-"\"><code>GTask</code></link> where appropriate), and keep synchronous wrappers at "
-"the very top level of an API, where they can be implemented by calling "
-"<code>g_main_context_iteration()</code> on a specific <code>GMainContext</code>. "
-"Again, this makes future refactoring easier. This is demonstrated in the above "
-"example: the thread uses <code>g_output_stream_write_async()</code> rather than "
-"<code>g_output_stream_write()</code>."
+"<link xref=\"async-programming\">Write things asynchronously</link> internally "
+"(using <link xref=\"#gtask\"><code>GTask</code></link> where appropriate), and keep "
+"synchronous wrappers at the very top level of an API, where they can be implemented "
+"by calling <code>g_main_context_iteration()</code> on a specific <code>GMainContext</"
+"code>. Again, this makes future refactoring easier. This is demonstrated in the "
+"above example: the thread uses <code>g_output_stream_write_async()</code> rather "
+"than <code>g_output_stream_write()</code>. A worker thread may be used instead, and "
+"this can simplify the callback chain for long series of asynchronous calls; but at "
+"the cost of increased complexity in verifying the code is race-free."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:479
+#: C/main-contexts.page:483
 msgid ""
 "Always match pushes and pops of the thread-default main context: "
 "<code>g_main_context_push_thread_default()</code> and "
@@ -3778,17 +5818,17 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:487
+#: C/main-contexts.page:491
 msgid "Ensuring Functions are Called in the Right Context"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:489
+#: C/main-contexts.page:493
 msgid ""
 "The ‘right context’ is the thread-default main context of the <em>thread the "
 "function should be executing in</em>. This assumes the typical case that every "
 "thread has a <em>single</em> main context running in a main loop. A main context "
-"effectively provides a work or <link href=\"http://en.wikipedia.org/wiki/"
+"effectively provides a work or <link href=\"https://en.wikipedia.org/wiki/"
 "Message_queue\">message queue</link> for the thread — something which the thread can "
 "periodically check to determine if there is work pending from another thread. "
 "Putting a message on this queue – invoking a function in another main context – will "
@@ -3796,7 +5836,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:503
+#: C/main-contexts.page:507
 msgid ""
 "For example, if an application does a long and CPU-intensive computation it should "
 "schedule this in a background thread so that UI updates in the main thread are not "
@@ -3806,18 +5846,18 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:511
+#: C/main-contexts.page:515
 msgid ""
 "Furthermore, if the computation function can be limited to a single thread, it "
 "becomes easy to eliminate the need for locking a lot of the data it accesses. This "
 "assumes that other threads are implemented similarly and hence most data is only "
-"accessed by a single thread, with threads communicating by <link href=\"http://en."
+"accessed by a single thread, with threads communicating by <link href=\"https://en."
 "wikipedia.org/wiki/Message_passing\">message passing</link>. This allows each thread "
 "to update its data at its leisure, which significantly simplifies locking."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:523
+#: C/main-contexts.page:527
 msgid ""
 "For some functions, there might be no reason to care which context they’re executed "
 "in, perhaps because they’re asynchronous and hence do not block the context. "
@@ -3828,7 +5868,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:533
+#: C/main-contexts.page:537
 msgid ""
 "For example, the progress callback in <link href=\"https://developer.gnome.org/gio/"
 "stable/GFile.html#g-file-copy-async\"><code>g_file_copy_async()</code></link> is "
@@ -3837,12 +5877,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:542
+#: C/main-contexts.page:546
 msgid "Principles of Invocation"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:544
+#: C/main-contexts.page:548
 msgid ""
 "The core principle of invoking a function in a specific context is simple, and is "
 "walked through below to explain the concepts. In practice the <link xref=\"#g-main-"
@@ -3851,7 +5891,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:551
+#: C/main-contexts.page:555
 msgid ""
 "A <link href=\"https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop."
 "html#GSource\"><code>GSource</code></link> has to be added to the target "
@@ -3864,7 +5904,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:562
+#: C/main-contexts.page:566
 msgid ""
 "The <code>GSource</code> will be <link xref=\"#what-is-gmaincontext\">dispatched as "
 "soon as it’s ready</link>, calling the function on the thread’s stack. In the case "
@@ -3877,7 +5917,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:574
+#: C/main-contexts.page:578
 msgid ""
 "Data can be passed between threads as the <code>user_data</code> passed to the "
 "<code>GSource</code>’s callback. This is set on the source using <link href="
@@ -3888,14 +5928,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:584
+#: C/main-contexts.page:588
 msgid ""
 "The example below demonstrates the underlying principles, but there are convenience "
 "methods explained below which simplify things."
 msgstr ""
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:589
+#: C/main-contexts.page:593
 #, no-wrap
 msgid ""
 "\n"
@@ -4009,7 +6049,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:698
+#: C/main-contexts.page:702
 msgid ""
 "This invocation is <em style=\"strong\">uni-directional</em>: it calls "
 "<code>my_func()</code> in <code>thread1</code>, but there’s no way to return a value "
@@ -4019,12 +6059,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:706
+#: C/main-contexts.page:710
 msgid ""
 "To maintain thread safety, data which is potentially accessed by multiple threads "
-"must make those accesses mutually exclusive using a <link href=\"http://en.wikipedia."
-"org/wiki/Mutual_exclusion\">mutex</link>. Data potentially accessed by multiple "
-"threads: <code>thread1_main_context</code>, passed in the fork call to "
+"must make those accesses mutually exclusive using a <link href=\"https://en."
+"wikipedia.org/wiki/Mutual_exclusion\">mutex</link>. Data potentially accessed by "
+"multiple threads: <code>thread1_main_context</code>, passed in the fork call to "
 "<code>thread1_main</code>; and <code>some_object</code>, a reference to which is "
 "passed in the data closure. Critically, GLib guarantees that <code>GMainContext</"
 "code> is thread safe, so sharing <code>thread1_main_context</code> between threads "
@@ -4033,7 +6073,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:720
+#: C/main-contexts.page:724
 msgid ""
 "Note that <code>some_string</code> and <code>some_int</code> cannot be accessed from "
 "both threads, because <em>copies</em> of them are passed to <code>thread1</code>, "
@@ -4043,7 +6083,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:729
+#: C/main-contexts.page:733
 msgid ""
 "Similarly, a reference to <code>some_object</code> is transferred to <code>thread1</"
 "code>, which works around the issue of synchronizing destruction of the object (see "
@@ -4051,19 +6091,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:735
+#: C/main-contexts.page:739
 msgid ""
 "<code>g_idle_source_new()</code> is used rather than the simpler <code>g_idle_add()</"
 "code> so the <code>GMainContext</code> to attach to can be specified."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:744
+#: C/main-contexts.page:748
 msgid "Convenience Method: <code>g_main_context_invoke_full()</code>"
-msgstr ""
+msgstr "Bekvämlighetsmetod: <code>g_main_context_invoke_full()</code>"
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:748
+#: C/main-contexts.page:752
 msgid ""
 "This is simplified greatly by the convenience method, <link href=\"https://developer."
 "gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-main-context-invoke-full"
@@ -4074,7 +6114,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:757
+#: C/main-contexts.page:761
 msgid ""
 "<code>g_main_context_invoke()</code> can be used instead if the user data does not "
 "need to be freed by a <code>GDestroyNotify</code> callback after the invocation "
@@ -4082,14 +6122,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:764
+#: C/main-contexts.page:768
 msgid ""
 "Modifying the earlier example, the <code>invoke_my_func()</code> function can be "
 "replaced by the following:"
 msgstr ""
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:769
+#: C/main-contexts.page:773
 #, no-wrap
 msgid ""
 "\n"
@@ -4117,7 +6157,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:792
+#: C/main-contexts.page:796
 msgid ""
 "Consider what happens if <code>invoke_my_func()</code> were called from "
 "<code>thread1</code>, rather than from the main thread. With the original "
@@ -4131,7 +6171,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:806
+#: C/main-contexts.page:810
 msgid ""
 "This subtle behavior difference doesn’t matter in most cases, but is worth bearing "
 "in mind since it can affect blocking behavior (<code>invoke_my_func()</code> would "
@@ -4140,27 +6180,29 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:818
+#: C/main-contexts.page:822
 msgid "Checking Threading"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:820
+#: C/main-contexts.page:824
 msgid ""
 "It is useful to document which thread each function should be called in, in the form "
 "of an assertion:"
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/main-contexts.page:824
+#: C/main-contexts.page:828
 #, no-wrap
 msgid ""
 "\n"
 "g_assert (g_main_context_is_owner (expected_main_context));"
 msgstr ""
+"\n"
+"g_assert (g_main_context_is_owner (expected_main_context));"
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:827
+#: C/main-contexts.page:831
 msgid ""
 "If that’s put at the top of each function, any assertion failure will highlight a "
 "case where a function has been called from the wrong thread. It is much easier to "
@@ -4169,7 +6211,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:835
+#: C/main-contexts.page:839
 msgid ""
 "This technique can also be applied to signal emissions and callbacks, improving type "
 "safety as well as asserting the right context is used. Note that signal emission via "
@@ -4179,12 +6221,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:844
+#: C/main-contexts.page:848
 msgid "For example, instead of using the following when emitting a signal:"
 msgstr ""
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:847
+#: C/main-contexts.page:851
 #, no-wrap
 msgid ""
 "\n"
@@ -4197,12 +6239,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:855
+#: C/main-contexts.page:859
+#, fuzzy
 msgid "The following can be used:"
-msgstr ""
+msgstr "Så kan följande användas:"
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:858
+#: C/main-contexts.page:862
 #, no-wrap
 msgid ""
 "\n"
@@ -4221,14 +6264,29 @@ msgid ""
 "  return retval;\n"
 "}"
 msgstr ""
+"\n"
+"static guint\n"
+"emit_some_signal (GObject     *my_object,\n"
+"                  guint        param1,\n"
+"                  const gchar *param2)\n"
+"{\n"
+"  guint retval = 0;\n"
+"\n"
+"  g_assert (g_main_context_is_owner (expected_main_context));\n"
+"\n"
+"  g_signal_emit_by_name (my_object, \"some-signal\",\n"
+"                         param1, param2, &amp;retval);\n"
+"\n"
+"  return retval;\n"
+"}"
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:877
+#: C/main-contexts.page:881
 msgid "<code>GTask</code>"
 msgstr "<code>GTask</code>"
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:879
+#: C/main-contexts.page:883
 msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/GTask.html\"><code>GTask</code></"
 "link> provides a slightly different approach to invoking functions in other threads, "
@@ -4237,7 +6295,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:886
+#: C/main-contexts.page:890
 msgid ""
 "<code>GTask</code> takes a data closure and a function to execute, and provides ways "
 "to return the result from this function. It handles everything necessary to run that "
@@ -4245,7 +6303,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:894
+#: C/main-contexts.page:898
 msgid ""
 "By combining <link xref=\"#g-main-context-invoke-full"
 "\"><code>g_main_context_invoke_full()</code></link> and <code>GTask</code>, it is "
@@ -4254,7 +6312,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:900
+#: C/main-contexts.page:904
 #, no-wrap
 msgid ""
 "\n"
@@ -4317,7 +6375,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/memory-management.page:20
 msgid "Memory Management"
-msgstr ""
+msgstr "Minneshantering"
 
 #. (itstool) path: page/p
 #: C/memory-management.page:50
@@ -4420,7 +6478,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/memory-management.page:121
 msgid "Principles of Memory Management"
-msgstr ""
+msgstr "Principer för minneshantering"
 
 #. (itstool) path: section/p
 #: C/memory-management.page:123
@@ -4469,6 +6527,8 @@ msgid ""
 "gchar *generate_string (const gchar *template);\n"
 "void print_string (const gchar *str);"
 msgstr ""
+"gchar *generate_string (const gchar *template);\n"
+"void print_string (const gchar *str);"
 
 #. (itstool) path: section/p
 #: C/memory-management.page:162
@@ -4544,7 +6604,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/memory-management.page:229
 msgid "Function name"
-msgstr ""
+msgstr "Funktionsnamn"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:230
@@ -5126,7 +7186,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/memory-management.page:658
 msgid "Convenience Functions"
-msgstr ""
+msgstr "Bekvämlighetsfunktioner"
 
 #. (itstool) path: section/p
 #: C/memory-management.page:660
@@ -5140,7 +7200,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/memory-management.page:669
 msgid "<code>g_clear_object()</code>"
-msgstr ""
+msgstr "<code>g_clear_object()</code>"
 
 #. (itstool) path: section/p
 #: C/memory-management.page:671
@@ -5190,7 +7250,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/memory-management.page:707
 msgid "<code>g_list_free_full()</code>"
-msgstr ""
+msgstr "<code>g_list_free_full()</code>"
 
 #. (itstool) path: section/p
 #: C/memory-management.page:709
@@ -5206,7 +7266,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/memory-management.page:721
 msgid "<code>g_hash_table_new_full()</code>"
-msgstr ""
+msgstr "<code>g_hash_table_new_full()</code>"
 
 #. (itstool) path: section/p
 #: C/memory-management.page:723
@@ -5485,13 +7545,16 @@ msgstr "2015, 2016"
 
 #. (itstool) path: info/desc
 #: C/namespacing.page:17
+#, fuzzy
 msgid "Avoiding symbol conflicts between libraries by namespacing all APIs"
 msgstr ""
+"Undvika symbolkonflikter mellan bibliotek genom att använda namnrymder för alla API:"
+"er"
 
 #. (itstool) path: page/title
 #: C/namespacing.page:22
 msgid "Namespacing"
-msgstr ""
+msgstr "Namnrymder"
 
 #. (itstool) path: synopsis/p
 #: C/namespacing.page:27
@@ -5505,7 +7568,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/namespacing.page:36
 msgid "GObject APIs"
-msgstr ""
+msgstr "GObject-API:er"
 
 #. (itstool) path: section/p
 #: C/namespacing.page:38
@@ -5674,12 +7737,12 @@ msgstr "2002"
 #. (itstool) path: info/desc
 #: C/parallel-installability.page:25
 msgid "Writing libraries to be future proof through parallel installation"
-msgstr ""
+msgstr "Skriva paket för att vara framtidssäkra genom parallell installation"
 
 #. (itstool) path: page/title
 #: C/parallel-installability.page:30
 msgid "Parallel Installability"
-msgstr ""
+msgstr "Parallell installerbarhet"
 
 #. (itstool) path: synopsis/p
 #: C/parallel-installability.page:35
@@ -5822,7 +7885,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/parallel-installability.page:145
 msgid "Solution"
-msgstr ""
+msgstr "Lösning"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:147
@@ -5838,6 +7901,8 @@ msgstr ""
 msgid ""
 "For example, say that library <code>Foo</code> traditionally installs these files:"
 msgstr ""
+"Säg till exempel att biblioteket <code>Foo</code> traditionellt installerar dessa "
+"filer:"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:159 C/parallel-installability.page:284
@@ -5873,6 +7938,8 @@ msgstr "<file>/usr/bin/foo-utility</file>"
 #: C/parallel-installability.page:167
 msgid "You might modify <code>Foo</code> version 4 to install these files instead:"
 msgstr ""
+"Du skulle kunna modifiera <code>Foo</code> version 4 så att det istället installerar "
+"dessa filer:"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:172 C/parallel-installability.page:261
@@ -5907,7 +7974,7 @@ msgstr "<file>/usr/bin/foo-utility-4</file>"
 #. (itstool) path: section/p
 #: C/parallel-installability.page:180
 msgid "It could then be parallel installed with version 5:"
-msgstr ""
+msgstr "Det skulle sedan kunna installeras parallellt med version 5:"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:184 C/parallel-installability.page:262
@@ -5952,7 +8019,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/parallel-installability.page:204
 msgid "Version Numbers"
-msgstr ""
+msgstr "Versionsnummer"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:206
@@ -6026,7 +8093,7 @@ msgstr ""
 #: C/parallel-installability.page:256
 #, no-wrap
 msgid "#include &lt;foo/foo.h&gt;"
-msgstr ""
+msgstr "#include &lt;foo/foo.h&gt;"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:257
@@ -6060,7 +8127,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/parallel-installability.page:285
 msgid "<file>/usr/include/foo-5/foo.h</file>"
-msgstr ""
+msgstr "<file>/usr/include/foo-5/foo.h</file>"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:288
@@ -6120,7 +8187,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/parallel-installability.page:332
 msgid "Libraries"
-msgstr ""
+msgstr "Bibliotek"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:334
@@ -6144,7 +8211,7 @@ msgstr ""
 #. (itstool) path: listing/title
 #: C/parallel-installability.page:352
 msgid "Libraries in Automake"
-msgstr ""
+msgstr "Bibliotek i Automake"
 
 #. (itstool) path: listing/desc
 #: C/parallel-installability.page:353
@@ -6255,7 +8322,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/parallel-installability.page:436
 msgid "Configuration Files"
-msgstr ""
+msgstr "Konfigurationsfiler"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:438
@@ -6277,7 +8344,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/parallel-installability.page:455
 msgid "Gettext Translations"
-msgstr ""
+msgstr "Gettext-översättningar"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:457
@@ -6309,7 +8376,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/parallel-installability.page:482
 msgid "D-Bus Interfaces"
-msgstr ""
+msgstr "D-Bus-gränssnitt"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:484
@@ -6336,17 +8403,17 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/parallel-installability.page:500
 msgid "<code>org.example.Foo4</code>"
-msgstr ""
+msgstr "<code>org.example.Foo4</code>"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:501
 msgid "<code>org.example.Foo5</code>"
-msgstr ""
+msgstr "<code>org.example.Foo5</code>"
 
 #. (itstool) path: list/title
 #: C/parallel-installability.page:504
 msgid "Interface Names"
-msgstr ""
+msgstr "Gränssnittsnamn"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:505
@@ -6414,12 +8481,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/parallel-installability.page:540
 msgid "<file>/usr/libexec/foo-daemon</file>"
-msgstr ""
+msgstr "<file>/usr/libexec/foo-daemon</file>"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:541
 msgid "<file>/usr/bin/foo-lookup-utility</file>"
-msgstr ""
+msgstr "<file>/usr/bin/foo-lookup-utility</file>"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:543
@@ -6429,12 +8496,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/parallel-installability.page:547
 msgid "<file>/usr/libexec/foo-daemon-4</file>"
-msgstr ""
+msgstr "<file>/usr/libexec/foo-daemon-4</file>"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:548
 msgid "<file>/usr/bin/foo-lookup-utility-4</file>"
-msgstr ""
+msgstr "<file>/usr/bin/foo-lookup-utility-4</file>"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:551
@@ -6540,18 +8607,20 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/threading.page:18
 msgid "Moving computation out of the main thread into worker threads"
-msgstr ""
+msgstr "Flytta beräkning ut ur huvudtråden till arbetstrådar"
 
 #. (itstool) path: page/title
 #: C/threading.page:21
 msgid "Threading"
-msgstr ""
+msgstr "Trådning på"
 
 #. (itstool) path: item/p
 #: C/threading.page:27
 msgid ""
 "Do not use threads if at all possible. (<link xref=\"#when-to-use-threading\"/>)"
 msgstr ""
+"Använd inte trådar om det är möjligt att undvika. (<link xref=\"#when-to-use-"
+"threading\"/>)"
 
 #. (itstool) path: item/p
 #: C/threading.page:31
@@ -6559,6 +8628,9 @@ msgid ""
 "If threads have to be used, use <code>GTask</code> or <code>GThreadPool</code> and "
 "isolate the threaded code as much as possible. (<link xref=\"#using-threading\"/>)"
 msgstr ""
+"Om trådar måste användas, använd <code>GTask</code> eller <code>GThreadPool</code> "
+"och isolera den trådade koden så mycket som möjligt. (<link xref=\"#using-threading"
+"\"/>)"
 
 #. (itstool) path: item/p
 #: C/threading.page:37
@@ -6566,6 +8638,8 @@ msgid ""
 "Use <code>g_thread_join()</code> to avoid leaking thread resources if using "
 "<code>GThread</code> manually. (<link xref=\"#using-threading\"/>)"
 msgstr ""
+"Använd <code>g_thread_join()</code> för att undvika att läcka trådresurser om du "
+"använder <code>GThread</code> manuellt. (<link xref=\"#using-threading\"/>)"
 
 #. (itstool) path: item/p
 #: C/threading.page:42
@@ -6578,17 +8652,17 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/threading.page:52
 msgid "When to Use Threading"
-msgstr ""
+msgstr "När trådning ska användas"
 
 #. (itstool) path: section/p
 #: C/threading.page:54
 msgid ""
 "When writing projects using GLib, the default approach should be to <em style="
 "\"strong\">never use threads</em>. Instead, make proper use of the <link xref=\"main-"
-"contexts\">GLib main context</link> which, through the use of asynchronous "
-"operations, allows most blocking I/O operations to continue in the background while "
-"the main context continues to process other events. Analysis, review and debugging "
-"of threaded code becomes very hard, very quickly."
+"contexts\">GLib main context</link> which, through the use of <link xref=\"async-"
+"programming\">asynchronous operations</link>, allows most blocking I/O operations to "
+"continue in the background while the main context continues to process other events. "
+"Analysis, review and debugging of threaded code becomes very hard, very quickly."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -6639,11 +8713,11 @@ msgstr ""
 #. (itstool) path: example/p
 #: C/threading.page:102
 msgid "With an implementation something like:"
-msgstr ""
+msgstr "Med en implementering i stil med:"
 
 #. (itstool) path: example/code
 #: C/threading.page:105
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "/* Closure for the call’s parameters. */\n"
 "typedef struct {\n"
@@ -6728,6 +8802,88 @@ msgid ""
 "  return g_task_propagate_int (G_TASK (result), error);\n"
 "}"
 msgstr ""
+"/* Closure for the call’s parameters. */\n"
+"typedef struct {\n"
+"  void *param1;\n"
+"  void *param2;\n"
+"} SomeBlockingFunctionData;\n"
+"\n"
+"static void\n"
+"some_blocking_function_data_free (SomeBlockingFunctionData *data)\n"
+"{\n"
+"  free_param (data-&gt;param1);\n"
+"  free_param (data-&gt;param2);\n"
+"\n"
+"  g_free (data);\n"
+"}\n"
+"\n"
+"static void\n"
+"some_blocking_function_thread_cb (GTask         *task,\n"
+"                                  gpointer       source_object,\n"
+"                                  gpointer       task_data,\n"
+"                                  GCancellable  *cancellable)\n"
+"{\n"
+"  SomeBlockingFunctionData *data = task_data;\n"
+"  int retval;\n"
+"\n"
+"  /* Handle cancellation. */\n"
+"  if (g_task_return_error_if_cancelled (task))\n"
+"    {\n"
+"      return;\n"
+"    }\n"
+"\n"
+"  /* Run the blocking function. */\n"
+"  retval = some_blocking_function (data-&gt;param1, data-&gt;param2);\n"
+"  g_task_return_int (task, retval);\n"
+"}\n"
+"\n"
+"void\n"
+"some_blocking_function_async (void                 *param1,\n"
+"                              void                 *param2,\n"
+"                              GCancellable         *cancellable,\n"
+"                              GAsyncReadyCallback   callback,\n"
+"                              gpointer              user_data)\n"
+"{\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  SomeBlockingFunctionData *data = NULL;  /* owned */\n"
+"\n"
+"  g_return_if_fail (validate_param (param1));\n"
+"  g_return_if_fail (validate_param (param2));\n"
+"  g_return_if_fail (cancellable == NULL || G_IS_CANCELLABLE (cancellable));\n"
+"\n"
+"  task = g_task_new (NULL, cancellable, callback, user_data);\n"
+"  g_task_set_source_tag (task, some_blocking_function_async);\n"
+"\n"
+"  /* Cancellation should be handled manually using mechanisms specific to\n"
+"   * some_blocking_function(). */\n"
+"  g_task_set_return_on_cancel (task, FALSE);\n"
+"\n"
+"  /* Set up a closure containing the call’s parameters. Copy them to avoid\n"
+"   * locking issues between the calling thread and the worker thread. */\n"
+"  data = g_new0 (SomeBlockingFunctionData, 1);\n"
+"  data-&gt;param1 = copy_param (param1);\n"
+"  data-&gt;param2 = copy_param (param2);\n"
+"\n"
+"  g_task_set_task_data (task, data, some_blocking_function_data_free);\n"
+"\n"
+"  /* Run the task in a worker thread and return immediately while that continues\n"
+"   * in the background. When it’s done it will call @callback in the current\n"
+"   * thread default main context. */\n"
+"  g_task_run_in_thread (task, some_blocking_function_thread_cb);\n"
+"\n"
+"  g_object_unref (task);\n"
+"}\n"
+"\n"
+"int\n"
+"some_blocking_function_finish (GAsyncResult  *result,\n"
+"                               GError       **error)\n"
+"{\n"
+"  g_return_val_if_fail (g_task_is_valid (result,\n"
+"                                         some_blocking_function_async), -1);\n"
+"  g_return_val_if_fail (error == NULL || *error == NULL, -1);\n"
+"\n"
+"  return g_task_propagate_int (G_TASK (result), error);\n"
+"}"
 
 #. (itstool) path: example/p
 #: C/threading.page:187
@@ -6743,7 +8899,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/threading.page:200
 msgid "Using Threading"
-msgstr ""
+msgstr "Använda trådning"
 
 #. (itstool) path: section/p
 #: C/threading.page:202
@@ -6844,7 +9000,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/threading.page:304
 msgid "Debugging"
-msgstr ""
+msgstr "Felsökning"
 
 #. (itstool) path: section/p
 #: C/threading.page:306
@@ -6951,7 +9107,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/tooling.page:83
 msgid "GCC and Clang"
-msgstr ""
+msgstr "GCC och Clang"
 
 #. (itstool) path: section/p
 #: C/tooling.page:85
@@ -7002,7 +9158,7 @@ msgid ""
 "org/gitweb/?p=autoconf-archive.git;a=blob_plain;f=m4/ax_compiler_flags.m4\"> "
 "<file>ax_compiler_flags.m4</file></link> to the <file>m4/</file> directory of your "
 "project. Note that it depends on the following autoconf-archive macros which are GPL-"
-"licenced so potentially cannot be copied in-tree. They may have to remain in "
+"licensed so potentially cannot be copied in-tree. They may have to remain in "
 "autoconf-archive, with that as a build time dependency of the project:"
 msgstr ""
 
@@ -7134,11 +9290,14 @@ msgid ""
 "a=blob_plain;f=m4/ax_valgrind_check.m4\"> <file>ax_valgrind_check.m4</file></link> "
 "to the <file>m4/</file> directory of your project."
 msgstr ""
+"Kopiera <link href=\"http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;"
+"a=blob_plain;f=m4/ax_valgrind_check.m4\"> <file>ax_valgrind_check.m4</file></link> "
+"till <file>m4/</file>-katalogen för ditt projekt."
 
 #. (itstool) path: item/p
 #: C/tooling.page:230
 msgid "Add <code>AX_VALGRIND_CHECK</code> to <file>configure.ac</file>."
-msgstr ""
+msgstr "Lägg till <code>AX_VALGRIND_CHECK</code> till <file>configure.ac</file>."
 
 #. (itstool) path: item/p
 #: C/tooling.page:233
@@ -7146,6 +9305,8 @@ msgid ""
 "Add <code>@VALGRIND_CHECK_RULES@</code> to the <file>Makefile.am</file> in each "
 "directory which contains unit tests."
 msgstr ""
+"Lägg till <code>@VALGRIND_CHECK_RULES@</code> till <file>Makefile.am</file> i varje "
+"katalog som innehåller enhetstester."
 
 #. (itstool) path: section/p
 #: C/tooling.page:239
@@ -7203,13 +9364,14 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/tooling.page:286
 msgid "To run memcheck manually on an installed program, use:"
-msgstr ""
+msgstr "För att köra memcheck manuellt på ett installerat program, använd:"
 
 #. (itstool) path: section/p
 #: C/tooling.page:289
 msgid ""
 "<cmd>valgrind --tool=memcheck --leak-check=full <var>my-program-name</var></cmd>"
 msgstr ""
+"<cmd>valgrind --tool=memcheck --leak-check=full <var>mitt-programnamn</var></cmd>"
 
 #. (itstool) path: section/p
 #: C/tooling.page:293
@@ -7224,6 +9386,8 @@ msgid ""
 "<cmd>libtool exec valgrind --tool=memcheck --leak-check=full <var>./my-program-name</"
 "var></cmd>"
 msgstr ""
+"<cmd>libtool exec valgrind --tool=memcheck --leak-check=full <var>./mitt-"
+"programnamn</var></cmd>"
 
 #. (itstool) path: section/p
 #: C/tooling.page:301
@@ -7239,11 +9403,13 @@ msgid ""
 "A full tutorial on using memcheck is <link href=\"http://valgrind.org/docs/manual/mc-"
 "manual.html\">here</link>."
 msgstr ""
+"En fullständig handledning i att använda memcheck finns <link href=\"http://valgrind."
+"org/docs/manual/mc-manual.html\">här</link>."
 
 #. (itstool) path: section/title
 #: C/tooling.page:314
 msgid "cachegrind and KCacheGrind"
-msgstr ""
+msgstr "cachegrind och KCacheGrind"
 
 #. (itstool) path: section/p
 #: C/tooling.page:316
@@ -7271,11 +9437,13 @@ msgid ""
 "A full tutorial on using cachegrind is <link href=\"http://valgrind.org/docs/manual/"
 "cg-manual.html\">here</link>."
 msgstr ""
+"En fullständig handledning i att använda cachegrind finns <link href=\"http://"
+"valgrind.org/docs/manual/cg-manual.html\">här</link>."
 
 #. (itstool) path: section/title
 #: C/tooling.page:342
 msgid "helgrind and drd"
-msgstr ""
+msgstr "helgrind och drd"
 
 #. (itstool) path: section/p
 #: C/tooling.page:344
@@ -7314,6 +9482,9 @@ msgid ""
 "manual/hg-manual.html\">here</link> and <link href=\"http://valgrind.org/docs/manual/"
 "drd-manual.html\"> here</link>."
 msgstr ""
+"Fullständiga handledningar i att använda helgrind and drd finns <link href=\"http://"
+"valgrind.org/docs/manual/hg-manual.html\">här</link> och <link href=\"http://"
+"valgrind.org/docs/manual/drd-manual.html\"> här</link>."
 
 #. (itstool) path: section/title
 #: C/tooling.page:378
@@ -7334,6 +9505,8 @@ msgid ""
 "As it is experimental, sgcheck must be run by passing <cmd>--tool=exp-sgcheck</cmd> "
 "to Valgrind, rather than <cmd>--tool=sgcheck</cmd>."
 msgstr ""
+"Eftersom den är experimentell måste sgcheck köras genom att skicka <cmd>--tool=exp-"
+"sgcheck</cmd> till Valgrind snarare än <cmd>--tool=sgcheck</cmd>."
 
 #. (itstool) path: section/p
 #: C/tooling.page:393
@@ -7341,11 +9514,13 @@ msgid ""
 "A full tutorial on using sgcheck is <link href=\"http://valgrind.org/docs/manual/sg-"
 "manual.html\">here</link>."
 msgstr ""
+"En fullständig handledning i att använda sgcheck finns <link href=\"http://valgrind."
+"org/docs/manual/sg-manual.html\">här</link>."
 
 #. (itstool) path: section/title
 #: C/tooling.page:401
 msgid "gcov and lcov"
-msgstr ""
+msgstr "gcov och lcov"
 
 #. (itstool) path: section/p
 #: C/tooling.page:403
@@ -7373,7 +9548,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/tooling.page:424
 msgid ""
-"lcov supports <link href=\"http://en.wikipedia.org/wiki/"
+"lcov supports <link href=\"https://en.wikipedia.org/wiki/"
 "Code_coverage#Basic_coverage_criteria\"> branch coverage measurement</link>, so is "
 "not suitable for demonstrating coverage of safety critical code. It is perfectly "
 "suitable for non-safety critical code."
@@ -7612,7 +9787,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/unit-testing.page:20
 msgid "Unit Testing"
-msgstr ""
+msgstr "Enhetstestning"
 
 #. (itstool) path: synopsis/p
 #: C/unit-testing.page:25
@@ -7668,7 +9843,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/unit-testing.page:62
 msgid "Writing Unit Tests"
-msgstr ""
+msgstr "Skriva enhetstester"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:64
@@ -7710,7 +9885,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/unit-testing.page:101
 msgid "Installed Tests"
-msgstr ""
+msgstr "Installerade tester"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:103
@@ -7795,6 +9970,37 @@ msgid ""
 "\techo 'Exec=$(insttestdir)/$&lt;' &gt;&gt; $@.tmp; \\\n"
 "\tmv $@.tmp $@)"
 msgstr ""
+"insttestdir = $(libexecdir)/installed-tests/[project]\n"
+"\n"
+"all_test_programs = \\\n"
+"\ttest-program1 \\\n"
+"\ttest-program2 \\\n"
+"\ttest-program3 \\\n"
+"\t$(NULL)\n"
+"if BUILD_MODULAR_TESTS\n"
+"TESTS = $(all_test_programs)\n"
+"noinst_PROGRAMS = $(TESTS)\n"
+"endif\n"
+"\n"
+"if BUILDOPT_INSTALL_TESTS\n"
+"insttest_PROGRAMS = $(all_test_programs)\n"
+"\n"
+"testmetadir = $(datadir)/installed-tests/[project]\n"
+"testmeta_DATA = $(all_test_programs:=.test)\n"
+"\n"
+"testdatadir = $(insttestdir)\n"
+"testdata_DATA = $(test_files)\n"
+"\n"
+"testdata_SCRIPTS = $(test_script_files)\n"
+"endif\n"
+"\n"
+"EXTRA_DIST = $(test_files)\n"
+"\n"
+"%.test: % Makefile\n"
+"\t$(AM_V_GEN) (echo '[Test]' &gt; $@.tmp; \\\n"
+"\techo 'Type=session' &gt;&gt; $@.tmp; \\\n"
+"\techo 'Exec=$(insttestdir)/$&lt;' &gt;&gt; $@.tmp; \\\n"
+"\tmv $@.tmp $@)"
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:171
@@ -7824,13 +10030,13 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/unit-testing.page:193
 msgid "Test Generation"
-msgstr ""
+msgstr "Testgenerering"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:195
 msgid ""
 "Certain types of code are quite repetitive, and require a lot of unit tests to gain "
-"good coverage; but are appropriate for <link href=\"http://en.wikipedia.org/wiki/"
+"good coverage; but are appropriate for <link href=\"https://en.wikipedia.org/wiki/"
 "Test_data_generation\">test data generation</link>, where a tool is used to "
 "automatically generate test vectors for the code. This can drastically reduce the "
 "time needed for writing unit tests, for code in these specific domains."
@@ -7867,6 +10073,9 @@ msgid ""
 "json-schema-generate --valid-only schema.json\n"
 "json-schema-generate --invalid-only schema.json"
 msgstr ""
+"\n"
+"json-schema-generate --valid-only schema.json\n"
+"json-schema-generate --invalid-only schema.json"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:225
@@ -7879,7 +10088,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/unit-testing.page:234
 msgid "Writing Testable Code"
-msgstr ""
+msgstr "Skriva testbar kod"
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:236
@@ -7928,43 +10137,53 @@ msgstr ""
 msgid "The topic of software testability is covered in the following articles:"
 msgstr ""
 
+# TODO: Dead link
 #. (itstool) path: item/p
 #: C/unit-testing.page:278
 msgid ""
 "<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Design for "
 "testability</link>"
 msgstr ""
+"<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Design for "
+"testability</link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:282
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Software_testability\">Software "
+"<link href=\"https://en.wikipedia.org/wiki/Software_testability\">Software "
 "testability</link>"
 msgstr ""
+"<link href=\"https://en.wikipedia.org/wiki/Software_testability\">Testbarhet av "
+"programvara</link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:286
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Dependency_injection\">Dependency "
+"<link href=\"https://en.wikipedia.org/wiki/Dependency_injection\">Dependency "
 "injection</link>"
 msgstr ""
+"<link href=\"https://en.wikipedia.org/wiki/Dependency_injection\">Beroendeinjektion</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:290
+#, fuzzy
 msgid ""
 "<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Software design for "
 "testing</link>"
 msgstr ""
+"<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Programvarudesign för "
+"testning</link>"
 
 #. (itstool) path: info/desc
 #: C/version-control.page:17
 msgid "Source code version control with git"
-msgstr ""
+msgstr "Versionshantering av källkod med Git"
 
 #. (itstool) path: page/title
 #: C/version-control.page:20
 msgid "Version Control"
-msgstr ""
+msgstr "Versionshantering"
 
 #. (itstool) path: synopsis/p
 #: C/version-control.page:25
@@ -7975,12 +10194,19 @@ msgid ""
 "training.github.com/kit/downloads/github-git-cheat-sheet.pdf\">git cheatsheet is "
 "here</link>."
 msgstr ""
+"git används för versionshantering för alla GNOME-projekt. Denna sida förutsätter god "
+"kunskap om git-användning, visst inledande material finns tillgängligt <link href="
+"\"https://www.atlassian.com/git/tutorials/\">här</link>, och en <link href=\"https://"
+"training.github.com/kit/downloads/github-git-cheat-sheet.pdf\">fusklapp för git "
+"finns här</link>."
 
 #. (itstool) path: item/p
 #: C/version-control.page:34
 msgid ""
 "Make atomic, revertable commits. (<link xref=\"#guidelines-for-making-commits\"/>)"
 msgstr ""
+"Gör odelbara, återställningsbara incheckningar. (<link xref=\"#guidelines-for-making-"
+"commits\"/>)"
 
 #. (itstool) path: item/p
 #: C/version-control.page:38
@@ -7988,6 +10214,9 @@ msgid ""
 "Include full reasoning in commit messages, plus links to relevant bug reports or "
 "specifications. (<link xref=\"#guidelines-for-making-commits\"/>)"
 msgstr ""
+"Inkludera ett fullständigt resonemang i incheckningsmeddelanden, samt länkar till "
+"relevanta felrapporter eller specifikationer. (<link xref=\"#guidelines-for-making-"
+"commits\"/>)"
 
 #. (itstool) path: item/p
 #: C/version-control.page:43
@@ -7995,6 +10224,8 @@ msgid ""
 "Keep large changes, such as renames, in separate commits. (<link xref=\"#guidelines-"
 "for-making-commits\"/>)"
 msgstr ""
+"Håll stora ändringar, så som namnändringar, i separata incheckningar. (<link xref="
+"\"#guidelines-for-making-commits\"/>)"
 
 #. (itstool) path: item/p
 #: C/version-control.page:47
@@ -8004,12 +10235,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/version-control.page:55
 msgid "Use of Git"
-msgstr ""
+msgstr "Användning av Git"
 
 #. (itstool) path: section/p
 #: C/version-control.page:57
 msgid "Most GNOME repositories follow these rules:"
-msgstr ""
+msgstr "De flesta GNOME-arkiven följer dessa regler:"
 
 #. (itstool) path: item/p
 #: C/version-control.page:61
@@ -8043,7 +10274,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/version-control.page:84
 msgid "Guidelines for Making Commits"
-msgstr ""
+msgstr "Riktlinjer för att göra incheckningar"
 
 #. (itstool) path: section/p
 #: C/version-control.page:86
@@ -8104,6 +10335,8 @@ msgid ""
 "Each commit should be written once, and designed to be read many times, by many "
 "reviewers and future programmers."
 msgstr ""
+"Varje incheckning bör skrivas en gång, och vara designad för att läsas många gånger, "
+"av många granskare och framtida programmerare."
 
 #. (itstool) path: section/title
 #: C/version-control.page:137
@@ -8137,6 +10370,21 @@ msgid ""
 "git push origin :wip/<var>my-branch</var>\n"
 "git branch -D wip/<var>my-branch</var>"
 msgstr ""
+"\n"
+"git checkout master\n"
+"git pull\n"
+"\n"
+"git checkout wip/<var>min-gren</var>\n"
+"git rebase --interactive master\n"
+"# Säkerställ att ombasering lyckades; testa ändringarna\n"
+"\n"
+"git checkout master\n"
+"git merge wip/<var>min-gren</var>\n"
+"git push\n"
+"\n"
+"# wip/<var>min-gren</var> kan nu tas bort\n"
+"git push origin :wip/<var>min-gren</var>\n"
+"git branch -D wip/<var>min-gren</var>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:164
@@ -8144,37 +10392,45 @@ msgid ""
 "<link href=\"https://sethrobertson.github.io/GitBestPractices/\">Git best practices</"
 "link>"
 msgstr ""
+"<link href=\"https://sethrobertson.github.io/GitBestPractices/\">Bästa "
+"tillvägagångssätt för Git</link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:167
 msgid "<link href=\"https://help.github.com/categories/using-git/\">Git FAQ</link>"
 msgstr ""
+"<link href=\"https://help.github.com/categories/using-git/\">Frågor och svar om Git</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:170
 msgid ""
 "<link href=\"https://www.atlassian.com/git/tutorials/\">Atlassian git tutorial</link>"
 msgstr ""
+"<link href=\"https://www.atlassian.com/git/tutorials/\">Atlassians git-handledning</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:173
 msgid "<link href=\"http://git-scm.com/docs/gittutorial\">Official git tutorial</link>"
 msgstr ""
+"<link href=\"http://git-scm.com/docs/gittutorial\">Officiell git-handledning</link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:176
 msgid "<link href=\"https://try.github.io/\">Interactive git tutorial</link>"
-msgstr ""
+msgstr "<link href=\"https://try.github.io/\">Interaktiv git-handledning</link>"
 
 #. (itstool) path: item/p
 #: C/version-control.page:179
 msgid "<link href=\"http://www.git-tower.com/learn/\">git-tower tutorial</link>"
 msgstr ""
+"<link href=\"http://www.git-tower.com/learn/\">Handledning från git-tower</link>"
 
 #. (itstool) path: info/desc
 #: C/versioning.page:17
 msgid "Versioning and releasing libraries and applications"
-msgstr ""
+msgstr "Versionering och utgåvor av bibliotek och program"
 
 #. (itstool) path: synopsis/p
 #: C/versioning.page:25
@@ -8183,27 +10439,39 @@ msgid ""
 "version specified in addition to their package version. Applications just have a "
 "package version."
 msgstr ""
+"Versionering för moduler skiljer sig åt för bibliotek och program: bibliotek behöver "
+"en libtool-version angiven utöver sin paketversion. Program behöver bara ha en "
+"paketversion."
 
 #. (itstool) path: item/p
 #: C/versioning.page:32
+#, fuzzy
 msgid ""
 "Libraries and applications have a package version of the form <em>major.minor.micro</"
 "em>. (<link xref=\"#package-versioning\"/>)"
 msgstr ""
+"Bibliotek och program har en paketversion på formen <em>major.minor.micro</em>. "
+"(<link xref=\"#package-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:36
+#, fuzzy
 msgid ""
 "Libraries additionally have a libtool version of the form <em>current:revision:age</"
 "em>. (<link xref=\"#libtool-versioning\"/>)"
 msgstr ""
+"Bibliotek har dessutom en libtool-version på formen <em>current:revision:age</em>. "
+"(<link xref=\"#libtool-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:40
+#, fuzzy
 msgid ""
 "Version numbers should be updated for each release (using release and post-release "
 "increments). (<link xref=\"#release-process\"/>)"
 msgstr ""
+"Versionsnummer bör uppdateras för varje utgåva (med release- och post-release-"
+"ökningar). (<link xref=\"#release-process\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:44
@@ -8211,6 +10479,8 @@ msgid ""
 "Package versions should be incremented for feature changes or additions. (<link xref="
 "\"#package-versioning\"/>)"
 msgstr ""
+"Paketversioner bör öka vid funktionsändringar eller tillägg. (<link xref=\"#package-"
+"versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:48
@@ -8218,28 +10488,36 @@ msgid ""
 "Libtool versions should be updated for API changes or additions. (<link xref="
 "\"#libtool-versioning\"/>)"
 msgstr ""
+"Libtool-versioner bör uppdateras vid ändringar eller tillägg till API:t. (<link xref="
+"\"#libtool-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:52
+#, fuzzy
 msgid ""
 "Even/odd <em>minor</em> package versions can be used respectively for stable/"
 "unstable releases. (<link xref=\"#stable-unstable-versions\"/>)"
 msgstr ""
+"Jämna/udda <em>mindre</em> paketversioner kan användas för stabila respektive "
+"instabila utgåvor. (<link xref=\"#stable-unstable-versions\"/>)"
 
 #. (itstool) path: section/title
 #: C/versioning.page:60
 msgid "Package Versioning"
-msgstr ""
+msgstr "Paketversionering"
 
 #. (itstool) path: section/p
 #: C/versioning.page:62
+#, fuzzy
 msgid ""
 "Both libraries and applications have a package version of the form <em>major.minor."
 "micro</em>."
 msgstr ""
+"Både bibliotek och program har en paketversion på formen <em>major.minor.micro</em>."
 
 #. (itstool) path: section/p
 #: C/versioning.page:67
+#, fuzzy
 msgid ""
 "The package version number is that passed to <code>AC_INIT()</code>, and the one "
 "which is typically known as the project’s version number. For example, the Debian "
@@ -8248,41 +10526,60 @@ msgid ""
 "\"parallel-installability\">parallel installability</link>). Package versions are "
 "updated by the following rules:"
 msgstr ""
+"Paketets versionsnummer är det som skickas till <code>AC_INIT()</code>, och är det "
+"som typiskt är känt som projektet projektets versionsnummer. Till exempel kommer "
+"Debian-paketet för ett bibliotek att använda bibliotekets paketversion (men kan "
+"också inkludera det större versionsnumret i paketnamnet för att tillåta <link xref="
+"\"parallel-installability\">parallell installerbarhet</link>). Paketversioner "
+"uppdateras enligt följande regler:"
 
 #. (itstool) path: item/p
 #: C/versioning.page:77
+#, fuzzy
 msgid ""
 "If breaking <link xref=\"api-stability\">API compatibility</link> in a library, or "
 "making a large change to an application which affects everything (such as a UI "
 "redesign), increment major and set minor and micro to 0."
 msgstr ""
+"Om du bryter <link xref=\"api-stability\">API-kompatibilitet</link> i ett bibliotek, "
+"eller gör en stor ändring i ett program som påverkar allting (så som en omdesign av "
+"användargränssnittet), öka major och sätt minor och micro till 0."
 
 #. (itstool) path: item/p
 #: C/versioning.page:83
+#, fuzzy
 msgid ""
 "Otherwise, if changing or adding a feature, or adding any API, increment minor and "
 "set micro to 0."
 msgstr ""
+"I annat fall om du ändrar eller lägger till en funktion, eller lägger till något "
+"API, öka minor och sätt micro till 0."
 
 #. (itstool) path: item/p
 #: C/versioning.page:87
+#, fuzzy
 msgid ""
 "Otherwise (if making a release containing only bug fixes and translation updates), "
 "increment micro."
 msgstr ""
+"I annat fall (om du gör en utgåva som bara innehåller felkorrigeringar och "
+"översättningsuppdateringar), öka mikro."
 
 #. (itstool) path: section/p
 #: C/versioning.page:93
+#, fuzzy
 msgid "Note that the minor version number should be updated if any API is added."
 msgstr ""
+"Observera att det mindre versionsnumret ska uppdateras om något API läggs till."
 
 #. (itstool) path: section/title
 #: C/versioning.page:99
 msgid "Libtool Versioning"
-msgstr ""
+msgstr "Libtool-versionering"
 
 #. (itstool) path: section/p
 #: C/versioning.page:101
+#, fuzzy
 msgid ""
 "Libraries have two version numbers: a libtool version which tracks ABI backwards "
 "compatibility (see <link xref=\"api-stability\"/>), and a package version which "
@@ -8291,6 +10588,12 @@ msgid ""
 "related to feature changes or bug fixes. Furthermore, the two version numbers have "
 "different semantics, and cannot be automatically generated from each other."
 msgstr ""
+"Bibliotek har två versionsnummer: en libtool-version som spårar ABI-"
+"bakåtkompatibilitet (se <link xref=\"api-stability\"/>), och en paketversion som "
+"spårar funktionsändringar. Dessa ökas vanligen synkroniserat, men bör hållas "
+"åtskilda eftersom ABI-bakåtkompatibilitet inte nödvändigtvis är relaterad till "
+"funktionsändringar och felkorrigeringar. Vidare har de två versionsnumren olika "
+"semantisk mening, och kan inte automatiskt genereras från varandra."
 
 #. (itstool) path: section/p
 #: C/versioning.page:112
@@ -8300,6 +10603,10 @@ msgid ""
 "Mythbuster</link>; another is in the <link href=\"http://www.gnu.org/s/libtool/"
 "manual/html_node/Updating-version-info.html\">libtool manual</link>."
 msgstr ""
+"En bra överblick för libtool-versionering, och skillnaderna mot paketversionering "
+"ges i <link href=\"https://autotools.io/libtool/version.html\">Autotools Mythbuster</"
+"link>; en annan finns i <link href=\"http://www.gnu.org/s/libtool/manual/html_node/"
+"Updating-version-info.html\">libtool-handboken</link>."
 
 #. (itstool) path: section/p
 #: C/versioning.page:121
@@ -8308,10 +10615,13 @@ msgid ""
 "This is a typical <file>configure.ac</file> snippet for setting up libtool "
 "versioning:"
 msgstr ""
+"För att uppdatera libtool-versionen, följ algoritmen given i kommentarerna nedan. "
+"Detta är en typisk <file>configure.ac</file>-kodsnutt för att konfigurera libtool-"
+"versionering:"
 
 #. (itstool) path: section/code
 #: C/versioning.page:127
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "# Before making a release, the LT_VERSION string should be modified. The\n"
@@ -8326,6 +10636,18 @@ msgid ""
 "#      release, then set age to 0.\n"
 "AC_SUBST([LT_VERSION],[0:0:0])"
 msgstr ""
+"\n"
+"# Före en utgåva släpps bör LT_VERSION-strängen ändras. Strängen\n"
+"# är på formen c:r:a. Följ dessa instruktioner i tur och ordning:\n"
+"#   1. Om bibliotekets källkod ändrats något sedan senaste uppdateringen\n"
+"#      öka revision (‘c:r:a’ blir ‘c:r+1:a’).\n"
+"#   2. Om några gränssnitt lagts till, tagits bort eller ändrats sedan sista\n"
+"#      uppdateringen, öka current, och sätt revision till 0.\n"
+"#   3. Om några gränssnitt lagts till sedan senaste offentliga utgåvan\n"
+"#      öka age.\n"
+"#   4. Om några gränssnitt tagits bort eller ändrats sedan den senaste\n"
+"#      offentliga utgåvan, sätt age till 0.\n"
+"AC_SUBST([LT_VERSION],[0:0:0])"
 
 #. (itstool) path: section/p
 #: C/versioning.page:140
@@ -8333,17 +10655,19 @@ msgid ""
 "The following snippet can be used in a <file>Makefile.am</file> to pass that version "
 "info to libtool:"
 msgstr ""
+"Följande kodsnutt kan användas i <file>Makefile.am</file> för att skicka "
+"versionsinformationen till libtool:"
 
 #. (itstool) path: section/code
 #: C/versioning.page:144
 #, no-wrap
 msgid "my_library_la_LDFLAGS = -version-info $(LT_VERSION)"
-msgstr ""
+msgstr "my_library_la_LDFLAGS = -version-info $(LT_VERSION)"
 
 #. (itstool) path: section/title
 #: C/versioning.page:148
 msgid "Stable and Unstable Package Versions"
-msgstr ""
+msgstr "Stabila och instabila paketversioner"
 
 #. (itstool) path: section/p
 #: C/versioning.page:150
@@ -8366,12 +10690,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/versioning.page:166
 msgid "The libtool version should be updated only for stable package versions."
-msgstr ""
+msgstr "libtool-versionen bör endast uppdateras för stabila paketversioner."
 
 #. (itstool) path: section/title
 #: C/versioning.page:172
 msgid "Release Process"
-msgstr ""
+msgstr "Utgåveprocess"
 
 #. (itstool) path: section/p
 #: C/versioning.page:174
@@ -8392,20 +10716,24 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/versioning.page:189
+#, fuzzy
 msgid ""
 "The release process (based on the <link href=\"https://wiki.gnome.org/"
 "MaintainersCorner/Releasing\">GNOME release process</link>):"
 msgstr ""
+"Utgåveprocessen (baserad på <link href=\"https://wiki.gnome.org/MaintainersCorner/"
+"Releasing\">GNOME release process</link>):"
 
 #. (itstool) path: item/p
 #: C/versioning.page:195
+#, fuzzy
 msgid "Make sure code is up to date: <cmd>git pull</cmd>"
-msgstr ""
+msgstr "Säkerställ att din kod är ajour: <cmd>git pull</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:199
 msgid "Make sure you have no local changes: <cmd>git status</cmd>"
-msgstr ""
+msgstr "Säkerställ att du inte har några lokala ändringar: <cmd>git status</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:202
@@ -8413,11 +10741,13 @@ msgid ""
 "If the release is for a stable package version, increment the libtool version number "
 "in <file>configure.ac</file> (if it exists)"
 msgstr ""
+"Om utgåvan är för en stabil paketversion, öka libtool-versionsnumret i "
+"<file>configure.ac</file> (om den existerar)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:206
 msgid "Add an entry to the <file>NEWS</file> file"
-msgstr ""
+msgstr "Lägg till en post i <file>NEWS</file>-filen"
 
 #. (itstool) path: item/p
 #: C/versioning.page:210
@@ -8425,24 +10755,30 @@ msgid ""
 "Run <cmd>./autogen.sh &amp;&amp; make &amp;&amp; make install &amp;&amp; make "
 "distcheck</cmd> and ensure it succeeds"
 msgstr ""
+"Kör <cmd>./autogen.sh &amp;&amp; make &amp;&amp; make install &amp;&amp; make "
+"distcheck</cmd> och säkerställ att det lyckas"
 
 #. (itstool) path: item/p
 #: C/versioning.page:216
 msgid "Fix any issues which come up, commit those changes, and restart at step 3"
-msgstr ""
+msgstr "Fixa alla problem som dyker upp, checka in ändringarna, och börja om på steg 3"
 
 #. (itstool) path: item/p
 #: C/versioning.page:222
+#, fuzzy
 msgid ""
 "If <cmd>make distcheck</cmd> finishes with “[archive] is ready for distribution”, "
 "run <cmd>git commit -a -m \"Release version x.y.z\"</cmd> (where ‘x.y.z’ is the "
 "package version number)"
 msgstr ""
+"Om <cmd>make distcheck</cmd> avslutar med ”[archive] is ready for distribution”, kör "
+"<cmd>git commit -a -m \"Release version x.y.z\"</cmd> (där ”x.y.z” är paketets "
+"versionsnummer)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:228 C/versioning.page:263
 msgid "Run <cmd>git push</cmd>"
-msgstr ""
+msgstr "Kör <cmd>git push</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:232
@@ -8460,28 +10796,30 @@ msgid ""
 "Tag the release: <cmd>git tag -s x.y.z</cmd> (where ‘x.y.z’ is the package version "
 "number)"
 msgstr ""
+"Tagga utgåvan: <cmd>git tag -s x.y.z</cmd> (där ”x.y.z” är paketets versionsnummer)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:246
 msgid ""
 "Run <cmd>git push origin x.y.z</cmd> (where ‘x.y.z’ is the package version number)"
-msgstr ""
+msgstr "Kör <cmd>git push origin x.y.z</cmd> (där ”x.y.z” är paketets versionsnummer)"
 
 #. (itstool) path: section/p
 #: C/versioning.page:252
+#, fuzzy
 msgid ""
 "The release is now complete, and the post-release version increment can be done:"
-msgstr ""
+msgstr "Utgåvan är nu klar, och versionsökningen efter utgåvans släppande kan göras:"
 
 #. (itstool) path: item/p
 #: C/versioning.page:257
 msgid "Increment the package version number in <file>configure.ac</file>"
-msgstr ""
+msgstr "Öka paketets versionsnummer i <file>configure.ac</file>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:260
 msgid "Run <cmd>git commit -a -m \"Post-release version increment\"</cmd>"
-msgstr ""
+msgstr "Kör <cmd>git commit -a -m \"Post-release version increment\"</cmd>"
 
 #. (itstool) path: section/p
 #: C/versioning.page:268
@@ -8489,6 +10827,8 @@ msgid ""
 "The package archive generated by <cmd>make distcheck</cmd> can now be uploaded to "
 "download.gnome.org or distributed in other ways."
 msgstr ""
+"Paketarkivet som genererats av <cmd>make distcheck</cmd> kan nu skickas till "
+"download.gnome.org eller distribueras på andra sätt."
 
 #. (itstool) path: info/desc
 #: C/writing-good-code.page:25
@@ -8512,6 +10852,14 @@ msgid ""
 "change, and this will be reflected in the amount of time that they can devote to "
 "GNOME."
 msgstr ""
+"GNOME är ett väldigt ambitiöst projekt inom fri programvara, och består av många "
+"programvarupaket som är mer eller mindre oberoende av varandra. En stor del av "
+"arbetet i GNOME utförs av frivilliga: även om det finns många som arbetar med GNOME "
+"som ett heltids- eller deltidsjobb, så är frivilliga fortfarande en stor andel av "
+"våra bidragsgivare. Programmerare kan komma och gå när som helst, och de kommer "
+"kunna ägna olika mängder tid till GNOME-projektet. Det ansvar folk har i ”verkliga "
+"livet” kan ändras, och detta kommer reflekteras i hur mycket tid de kan lägga ner på "
+"GNOME."
 
 #. (itstool) path: page/p
 #: C/writing-good-code.page:43
@@ -8521,6 +10869,10 @@ msgid ""
 "and more rewarding to contribute to existing projects, as this yields results that "
 "are immediately visible and usable."
 msgstr ""
+"Programvaruutveckling tar mycket tid och stor möda i anspråk. Detta är orsaken till "
+"att de flesta deltidsfrivilliga inte kan starta stora projekt på egen hand; det är "
+"mycket enklare och mer belönande att bidra till befintliga projekt, då detta ger "
+"resultat som omedelbart är synliga och användbara."
 
 #. (itstool) path: page/p
 #: C/writing-good-code.page:51
@@ -8529,6 +10881,10 @@ msgid ""
 "as possible for people to contribute to them. One way of doing this is by making "
 "sure that programs are easy to read, understand, modify, and maintain."
 msgstr ""
+"Vi kan därför dra slutsatsen att det är mycket viktigt för befintliga projekt att "
+"göra det så enkelt som möjligt för folk att bidra till dem. Ett sätt att göra detta "
+"är genom att säkerställa att program är lätta att läsa, förstå, modifiera och "
+"underhålla."
 
 #. (itstool) path: page/p
 #: C/writing-good-code.page:58
@@ -8541,16 +10897,23 @@ msgid ""
 "read a novel with spelling errors, bad grammar, and sloppy punctuation, programmers "
 "should strive to write good code that is easy to understand and modify by others."
 msgstr ""
+"Rörig kod är svårläst, och folk kan tappa intresset om de inte kan tolka vad koden "
+"försöker göra. Det är också viktigt att programmerare kan förstå koden snabbt så att "
+"de på kort tid kan börja bidra med felkorrigeringar och förbättringar. Källkod är en "
+"sorts <em>kommunikation</em>, och det är mer för människor än för datorer. Precis "
+"som få personer skulle vilja läsa en roman med stavfel, dålig grammatik och slarvig "
+"användning av skiljetecken, så bör programmerare sträva efter att skriva bra kod som "
+"är lätt att förstå och modifiera för andra."
 
 #. (itstool) path: page/p
 #: C/writing-good-code.page:71
 msgid "The following are some important qualities of good code:"
-msgstr ""
+msgstr "Följande är några viktiga kvaliteter hos bra kod:"
 
 #. (itstool) path: item/title
 #: C/writing-good-code.page:77
 msgid "Cleanliness"
-msgstr ""
+msgstr "Renhet"
 
 #. (itstool) path: item/p
 #: C/writing-good-code.page:78
@@ -8559,11 +10922,14 @@ msgid ""
 "it easily. This includes the coding style itself (brace placement, indentation, "
 "variable names), and the actual control flow of the code."
 msgstr ""
+"Ren kod är enkel att läsa med minimal ansträngning. Detta låter folk börja förstå "
+"den lätt. Detta inkluderar både kodstilen själv (parentesplacering, indentering, "
+"variabelnamn) och kodens faktiska kontrollflöde."
 
 #. (itstool) path: item/title
 #: C/writing-good-code.page:87
 msgid "Consistency"
-msgstr ""
+msgstr "Konsekvens"
 
 #. (itstool) path: item/p
 #: C/writing-good-code.page:88
@@ -8574,11 +10940,16 @@ msgid ""
 "modifications to it. Code that <em>looks</em> the same in two places should "
 "<em>work</em> the same, too."
 msgstr ""
+"Konsekvent kod gör det lätt för folk att förstå hur ett program fungerar. Då man "
+"läser konsekvent kod formar man undermedvetet ett antal antaganden och förväntningar "
+"på hur koden fungerar, så det är lättare och säkrare att göra ändringar i den. Kod "
+"som <em>ser ut</em> på samma sätt på två ställen bör också <em>fungera</em> på samma "
+"sätt."
 
 #. (itstool) path: item/title
 #: C/writing-good-code.page:99
 msgid "Extensibility"
-msgstr ""
+msgstr "Utökningsbarhet"
 
 #. (itstool) path: item/p
 #: C/writing-good-code.page:100
@@ -8589,11 +10960,16 @@ msgid ""
 "beginning. Code that was not written this way may lead people into having to "
 "implement ugly hacks to add features."
 msgstr ""
+"Kod för allmänna syften är lättare att återanvända och modifiera än väldigt specifik "
+"kod med många hårdkodade antaganden. Då någon vill lägga till ny funktionalitet till "
+"ett program kommer det uppenbart vara lättare att göra detta om koden från början "
+"designats för att vara utökningsbar. Kod som inte har skrivits på detta sätt kan "
+"leda folk till att behöva implementera fula hack för att lägga till funktionalitet."
 
 #. (itstool) path: item/title
 #: C/writing-good-code.page:112
 msgid "Correctness"
-msgstr ""
+msgstr "Korrekthet"
 
 #. (itstool) path: item/p
 #: C/writing-good-code.page:113
@@ -8604,6 +10980,12 @@ msgid ""
 "correctness and safety (i.e. code that explicitly tries to ensure that the program "
 "remains in a consistent state) prevents many kinds of silly bugs."
 msgstr ""
+"Slutligen låter kod som designats för att vara korrekt folk spendera mindre tid på "
+"att oroa sig om fel, och mer tid på att förbättra ett programs funktioner. Användare "
+"uppskattar korrekt kod, eftersom ingen tycker om programvara som kraschar. Kod som "
+"skrivits för korrekthet och säkerhet (d.v.s. kod som explicit försöker försäkra sig "
+"om att programmet förblir i ett konsekvent tillstånd) förhindrar många sorters "
+"fåniga fel."
 
 #. (itstool) path: section/title
 #: C/writing-good-code.page:126
@@ -8627,11 +11009,11 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/writing-good-code.page:137
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Design_Patterns\"> Design Patterns: "
+"<link href=\"https://en.wikipedia.org/wiki/Design_Patterns\"> Design Patterns: "
 "Elements of Reusable Object-Oriented Software </link>, by Erich Gamma, Richard Helm, "
 "Ralph Johnson and John Vlissides."
 msgstr ""
-"<link href=\"http://en.wikipedia.org/wiki/Design_Patterns\"> Design Patterns: "
+"<link href=\"https://en.wikipedia.org/wiki/Design_Patterns\"> Design Patterns: "
 "Elements of Reusable Object-Oriented Software</link>, av Erich Gamma, Richard Helm, "
 "Ralph Johnson och John Vlissides."
 
