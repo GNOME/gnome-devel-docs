@@ -1,13 +1,13 @@
 # Czech translation of GNOME User Guide.
 #
 # Lucas Lommer <llommer@svn.gnome.org>, 2008, 2009.
-# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: user-guide\n"
-"POT-Creation-Date: 2017-12-04 19:33+0000\n"
-"PO-Revision-Date: 2018-03-02 12:25+0100\n"
+"POT-Creation-Date: 2019-03-01 02:11+0000\n"
+"PO-Revision-Date: 2019-03-05 10:35+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -106,13 +106,13 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/dev-help-appmenu.page:37
 msgid ""
-"This example, based on <app href=\"https://git.gnome.org/browse/cheese/tree/"
-"src/cheese-main.vala\">Cheese</app>, assumes that your application is "
-"written in Vala. It will be slightly different for other programming "
-"languages."
+"This example, based on <app href=\"https://gitlab.gnome.org/GNOME/cheese/"
+"blob/master/src/cheese-main.vala\">Cheese</app>, assumes that your "
+"application is written in Vala. It will be slightly different for other "
+"programming languages."
 msgstr ""
-"Tento příklad vycházející z aplikace <app href=\"https://git.gnome.org/"
-"browse/cheese/tree/src/cheese-main.vala\">Chees</app> předpokládá, že "
+"Tento příklad vycházející z aplikace <app href=\"https://gitlab.gnome.org/"
+"GNOME/cheese/blob/master/src/cheese-main.vala\">Chees</app> předpokládá, že "
 "aplikace je napsána v jazyce Vala. U jiných jazyků se to může lechce lišit."
 
 #. (itstool) path: example/p
@@ -1591,14 +1591,14 @@ msgstr ""
 #: C/overview-communication.page:91
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Website</link> | <link "
-"href=\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;"
-"target=empathy.png\">Screenshot</link> | <link href=\"https://git.gnome.org/"
-"browse/empathy/\">Empathy source code</link> )"
+"href=\"https://wiki.gnome.org/Apps/Empathy#Screenshots\">Screenshots</link> "
+"| <link href=\"https://gitlab.gnome.org/GNOME/empathy/\">Empathy source "
+"code</link> )"
 msgstr ""
-"(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Webové stránky</link> | "
-"<link href=\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;"
-"do=get&amp;target=empathy.png\">Snímky obrazovky</link> | <link href="
-"\"https://git.gnome.org/browse/empathy/\">Zdrojový kód Empathy</link>)"
+"( <link href=\"https://wiki.gnome.org/Apps/Empathy\">Webové stránky</link> "
+"| <link href=\"https://wiki.gnome.org/Apps/Empathy#Screenshots\">Snímky "
+"obrazovky</link> | <link href=\"https://gitlab.gnome.org/GNOME/empathy/"
+"\">Zdrojový kód</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:95
@@ -1614,15 +1614,14 @@ msgstr ""
 #: C/overview-communication.page:96
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Projects/Games\">Website</link> | <link "
-"href=\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;"
-"target=gnome-chess.png\">Screenshot</link> | <link href=\"https://git.gnome."
-"org/browse/gnome-chess/\">GLChess online multiplayer code</link> )"
+"href=\"https://wiki.gnome.org/Apps/Chess#Screenshots\">Screenshot</link> | "
+"<link href=\"https://gitlab.gnome.org/GNOME/gnome-chess/\">GNOME Chess "
+"online multiplayer code</link> )"
 msgstr ""
 "(<link href=\"https://wiki.gnome.org/Projects/Games\">Webové stránky</link> "
-"| <link href=\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;"
-"do=get&amp;target=gnome-chess.png\">Snímky obrazovky</link> | <link href="
-"\"https://git.gnome.org/browse/gnome-chess/\">Kód pro hraní GLChess on-line "
-"více hráči</link>)"
+"| <link href=\"https://wiki.gnome.org/Apps/Chess#Screenshots\">Snímky "
+"obrazovky</link> | <link href=\"https://gitlab.gnome.org/GNOME/gnome-chess/\">"
+"Kód pro hraní GLChess on-line více hráči</link>)"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:100
@@ -1639,13 +1638,13 @@ msgstr ""
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Website</link> | <link "
 "href=\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Screenshots</"
-"link> | <link href=\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap"
-"\">DAAP Code</link> )"
+"link> | <link href=\"https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/"
+"plugins/daap\">DAAP Code</link> )"
 msgstr ""
 "(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Webové stránky</link> "
 "| <link href=\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Snímky "
-"obrazovky</link> | <link href=\"https://git.gnome.org/browse/rhythmbox/tree/"
-"plugins/daap\">Kód DAAP</link> )"
+"obrazovky</link> | <link href=\"https://gitlab.gnome.org/GNOME/rhythmbox/tree/"
+"master/plugins/daap\">Kód DAAP</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-io.page:22
@@ -1733,11 +1732,11 @@ msgstr ""
 #: C/overview-io.page:74
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Website</link> | "
-"<link href=\"https://git.gnome.org/browse/gnome-documents\">Source code</"
+"<link href=\"https://gitlab.gnome.org/GNOME/gnome-documents\">Source code</"
 "link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Webové stránky</link> "
-"| <link href=\"https://git.gnome.org/browse/gnome-documents\">Zdrojový kód</"
+"| <link href=\"https://gitlab.gnome.org/GNOME/gnome-documents\">Zdrojový kód</"
 "link> )"
 
 #. (itstool) path: item/p
@@ -1754,12 +1753,12 @@ msgstr ""
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Website</link> | <link "
 "href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Screenshots</link> "
-"| <link href=\"https://git.gnome.org/browse/nautilus\">Source code</link> )"
+"| <link href=\"https://gitlab.gnome.org/GNOME/nautilus\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Webové stránky</link> "
 "| <link href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Snímky "
-"obrazovky</link> | <link href=\"https://git.gnome.org/browse/nautilus"
-"\">Zdrojový kód</link> )"
+"obrazovky</link> | <link href=\"https://gitlab.gnome.org/GNOME/nautilus\">"
+"Zdrojový kód</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
@@ -1918,14 +1917,14 @@ msgstr "<em style=\"strong\">Videa</em> je multimediální přehrávač GNOME."
 #: C/overview-media.page:99
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
-"href=\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png"
-"\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/totem/"
-"\">Source code</link> )"
+"href=\"https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-"
+"videos.png\">Screenshot</link> | <link href=\"https://gitlab.gnome.org/GNOME/"
+"totem/\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Webové stránky</link> | "
-"<link href=\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main."
-"png\">Snímek obrazovky</link> | <link href=\"https://git.gnome.org/browse/"
-"totem/\">Zdrojový kód</link> )"
+"<link href=\"https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-"
+"videos.png\">Snímek obrazovky</link> | <link href=\"https://gitlab.gnome.org/"
+"GNOME/totem/\">Zdrojový kód</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:102
@@ -1940,11 +1939,11 @@ msgstr ""
 #: C/overview-media.page:104
 msgid ""
 "( <link href=\"http://www.pitivi.org/\">Website</link> | <link href=\"http://"
-"www.pitivi.org/?go=screenshots\">Screenshots</link> | <link href=\"http://"
-"www.pitivi.org/?go=download\">Source code</link> )"
+"www.pitivi.org/?go=tour\">Screenshot</link> | <link href=\"http://www.pitivi."
+"org/?go=download\">Source code</link> )"
 msgstr ""
 "( <link href=\"http://www.pitivi.org/\">Webové stránky</link> | <link href="
-"\"http://www.pitivi.org/?go=screenshots\">Snímky obrazovky</link> | <link "
+"\"http://www.pitivi.org/?go=tour\">Snímky obrazovky</link> | <link "
 "href=\"http://www.pitivi.org/?go=download\">Zdrojový kód</link> )"
 
 #. (itstool) path: info/desc
@@ -2059,14 +2058,14 @@ msgstr ""
 #: C/overview-net.page:84
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/epiphany/plain/data/screenshot.png"
-"\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/epiphany/"
+"\"https://gitlab.gnome.org/GNOME/epiphany/raw/master/data/screenshot.png"
+"\">Screenshot</link> | <link href=\"https://gitlab.gnome.org/GNOME/epiphany/"
 "\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Webové stránky</link> | "
-"<link href=\"https://git.gnome.org/browse/epiphany/plain/data/screenshot.png"
-"\">Snímek obrazovky</link> | <link href=\"https://git.gnome.org/browse/"
-"epiphany/\">Zdrojový kód</link> )"
+"<link href=\"https://gitlab.gnome.org/GNOME/epiphany/raw/master/data/"
+"screenshot.png\">Snímek obrazovky</link> | <link href=\"https://gitlab.gnome."
+"org/GNOME/epiphany/\">Zdrojový kód</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:87
@@ -2085,11 +2084,11 @@ msgstr ""
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Website</link> | "
 "<link href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
-"\"https://git.gnome.org/browse/gnome-shell/\">Source Code</link> )"
+"\"https://gitlab.gnome.org/GNOME/gnome-shell/\">Source Code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Webové stránky</"
 "link> | <link href=\"http://www.gnome.org/gnome-3/\">Snímek obrazovky</link> "
-"| <link href=\"https://git.gnome.org/browse/gnome-shell/\">Zdrojový kód</"
+"| <link href=\"https://gitlab.gnome.org/GNOME/gnome-shell/\">Zdrojový kód</"
 "link> )"
 
 #. (itstool) path: info/desc
@@ -2170,13 +2169,13 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-settings.page:70
 msgid ""
-"( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
-"\">Website</link> | <link href=\"https://git.gnome.org/browse/dconf/tree/"
-"editor\">Source code</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/DconfEditor\">Website</link> | "
+"<link href=\"https://gitlab.gnome.org/GNOME/dconf-editor/\">Source code</"
+"link> )"
 msgstr ""
-"( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
-"\">Webové stránky</link> | <link href=\"https://git.gnome.org/browse/dconf/"
-"tree/editor\">Zdrojový kód</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/DconfEditor\">Webové stránky"
+"</link> | <link href=\"https://gitlab.gnome.org/GNOME/dconf-editor/\">"
+"Zdrojový kód</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-ui.page:17
@@ -2332,10 +2331,10 @@ msgstr ""
 #: C/overview-ui.page:98
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/epiphany/\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/epiphany/\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Webové stránky</link> | "
-"<link href=\"https://git.gnome.org/browse/epiphany/\">Zdrojový kód</link> )"
+"<link href=\"https://gitlab.gnome.org/GNOME/epiphany/\">Zdrojový kód</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:101
@@ -2349,13 +2348,13 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-ui.page:104
 msgid ""
-"( <link href=\"http://monodevelop.com/\">Website</link> | <link href="
-"\"http://monodevelop.com/Screenshots\">Screenshots</link> | <link href="
+"( <link href=\"https://www.monodevelop.com/\">Website</link> | <link href="
+"\"https://www.monodevelop.com/screenshots/\">Screenshots</link> | <link href="
 "\"https://github.com/mono/monodevelop\">Source code</link> )"
 msgstr ""
-"( <link href=\"http://monodevelop.com/\">Webové stránky</link> | <link href="
-"\"http://monodevelop.com/Screenshots\">Snímky obrazovky</link> | <link href="
-"\"https://github.com/mono/monodevelop\">Zdrojový kód</link> )"
+"( <link href=\"https://www.monodevelop.com/\">Webové stránky</link> | <link "
+"href=\"https://www.monodevelop.com/screenshots/\">Snímky obrazovky</link> | "
+"<link href=\"https://github.com/mono/monodevelop\">Zdrojový kód</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:107
@@ -2370,10 +2369,10 @@ msgstr ""
 #: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
-"href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
+"href=\"https://gitlab.gnome.org/GNOME/totem/\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Webové stránky</link> | "
-"<link href=\"https://git.gnome.org/browse/totem/\">Zdrojový kód</link> )"
+"<link href=\"https://gitlab.gnome.org/GNOME/totem/\">Zdrojový kód</link> )"
 
 #. (itstool) path: credit/years
 #: C/tech-atk.page:14 C/tech-cairo.page:13 C/tech-clutter.page:13
@@ -2979,7 +2978,7 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/tech-eds.page:18
-msgid "Desktop-wide addressbook for contacts and calendar"
+msgid "Desktop-wide address book for contacts and calendar"
 msgstr "Adresář s kontakty a kalendářem k dispozici napříč celým systémem"
 
 #. (itstool) path: page/title
@@ -3848,31 +3847,31 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-msgid "<link href=\"http://gtk.org/\">Official web site</link>"
-msgstr "<link href=\"http://gtk.org/\">Oficiální webové stránky</link>"
+msgid "<link href=\"https://www.gtk.org/\">Official web site</link>"
+msgstr "<link href=\"https://www.gtk.org/\">Oficiální webové stránky</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
 msgid ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo "
+"<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\">Demo "
 "tutorial</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Průvodce "
+"<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\">Průvodce "
 "ukázkami</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
 msgid ""
-"<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</"
+"<link href=\"https://developer.gnome.org/gtk3/stable/\">Reference Manual</"
 "link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gtk3/stable/\">Referenční příručka</"
+"<link href=\"https://developer.gnome.org/gtk3/stable/\">Referenční příručka</"
 "link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:54
-msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
-msgstr "<link href=\"https://git.gnome.org/browse/gtk+/\">Repozitář git</link>"
+msgid "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">git repository</link>"
+msgstr "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">Repozitář git</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:55
@@ -5407,29 +5406,3 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
-
-#~ msgid ""
-#~ "Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs "
-#~ "requires classes to have the Name property defined."
-#~ msgstr ""
-#~ "Deklarujte <code>HelloWorld</code> jako novou třídu jazyka <code>Lang</"
-#~ "code>. Gjs vyžaduje, aby třídy měly definovánu vlastnost Name."
-
-#~ msgid ""
-#~ "\n"
-#~ "const HelloWorld = new Lang.Class({\n"
-#~ "    Name: 'HelloWorld',\n"
-#~ msgstr ""
-#~ "\n"
-#~ "const HelloWorld = new Lang.Class({\n"
-#~ "    Name: 'HelloWorld',\n"
-
-#~ msgid ""
-#~ "Import <code>lang</code> for the <code>bind</code> function and <code>gi."
-#~ "Gtk</code> for <code>Gtk</code> functions."
-#~ msgstr ""
-#~ "Naimportujte <code>lang</code> pro funkci <code>bind</code> a <code>gi."
-#~ "Gtk</code> pro funkce <code>Gtk</code>."
-
-#~ msgid "Enchant"
-#~ msgstr "Enchant"

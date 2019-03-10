@@ -1,13 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs\n"
-"POT-Creation-Date: 2018-07-07 08:43+0000\n"
-"PO-Revision-Date: 2018-09-03 17:54+0200\n"
+"POT-Creation-Date: 2019-03-01 18:07+0000\n"
+"PO-Revision-Date: 2019-03-06 09:03+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -3283,7 +3283,7 @@ msgid ""
 "\n"
 "  about_dialog = gtk_about_dialog_new ();\n"
 "\n"
-"  /* Lists of authors/ documentators to be used later, they must be initialized\n"
+"  /* Lists of authors/ documenters to be used later, they must be initialized\n"
 "   * in a null terminated array of strings.\n"
 "   */\n"
 "  const gchar *authors[] = {\"GNOME Documentation Team\", NULL};\n"
@@ -5604,7 +5604,7 @@ msgid ""
 "\n"
 "class ButtonBoxExample {\n"
 "\n"
-"    // Create the application itthis\n"
+"    // Create the application itself\n"
 "    constructor() {\n"
 "        this.application = new Gtk.Application({\n"
 "            application_id: 'org.example.jsbuttonbox'\n"
@@ -10076,11 +10076,13 @@ msgstr ""
 #: C/treeview_advanced_liststore.py.page:49
 #: C/treeview_simple_liststore.py.page:50
 msgid ""
-"<link href=\"http://git.gnome.org/browse/pygobject/tree/gi/overrides/Gtk.py"
-"\">pygobject - Python bindings for GObject Introspection</link>"
+"<link href=\"https://gitlab.gnome.org/GNOME/pygobject/blob/master/gi/"
+"overrides/Gtk.py\">pygobject - Python bindings for GObject Introspection</"
+"link>"
 msgstr ""
-"<link href=\"http://git.gnome.org/browse/pygobject/tree/gi/overrides/Gtk.py"
-"\">pygobject – vazba jazyka Python pro GObject Introspection</link>"
+"<link href=\"https://gitlab.gnome.org/GNOME/pygobject/blob/master/gi/"
+"overrides/Gtk.py\">pygobject – vazba jazyka Python pro GObject Introspection"
+"</link>"
 
 #. (itstool) path: info/title
 #: C/combobox.vala.page:8 C/combobox_multicolumn.vala.page:8
@@ -13731,7 +13733,7 @@ msgid ""
 "\n"
 "class FontChooserWidgetExample {\n"
 "\n"
-"    // Create the application itthis\n"
+"    // Create the application itself\n"
 "    constructor() {\n"
 "        this.application = new Gtk.Application({ application_id: 'org.example.fontchooserwidget' });\n"
 "\n"
@@ -17873,7 +17875,7 @@ msgstr ""
 "ladicích tónů."
 
 #. (itstool) path: section/title
-#: C/guitar-tuner.js.page:64 C/hello-world.js.page:59 C/hello-world.py.page:52
+#: C/guitar-tuner.js.page:64 C/hello-world.js.page:61 C/hello-world.py.page:52
 #: C/hello-world.vala.page:44 C/weatherAppMain.js.page:49
 msgid "Creating the main window for the application"
 msgstr "Vytvoření hlavního okna pro aplikaci"
@@ -20581,13 +20583,17 @@ msgstr ""
 #, no-wrap
 msgid ""
 "const Lang = imports.lang;\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0'\n"
 "const Gtk = imports.gi.Gtk;"
 msgstr ""
 "const Lang = imports.lang;\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0'\n"
 "const Gtk = imports.gi.Gtk;"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:56 C/hello-world.py.page:49
+#: C/hello-world.js.page:58 C/hello-world.py.page:49
 msgid ""
 "In order for our script to work with GNOME, we need to import GNOME "
 "libraries via GObject Introspection. Here we import the language bindings "
@@ -20599,7 +20605,7 @@ msgstr ""
 "která obsahuje grafické widgety používané k vytvoření aplikací GNOME."
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:60
+#: C/hello-world.js.page:62
 #, no-wrap
 msgid ""
 "const Application = new Lang.Class({\n"
@@ -20665,7 +20671,7 @@ msgstr ""
 "});\n"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:92
+#: C/hello-world.js.page:94
 msgid ""
 "GtkApplication initializes GTK+. It also connects the <gui>x</gui> button "
 "that's automatically generated along with the window to the \"destroy\" "
@@ -20675,7 +20681,7 @@ msgstr ""
 "je u okna vygenerováno automaticky, k signálu <code>\"destroy\"</code>."
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:93
+#: C/hello-world.js.page:95
 msgid ""
 "We can start building our first window. We do this by creating a variable "
 "called <var>_window</var> and assigning it a new Gtk.ApplicationWindow."
@@ -20685,7 +20691,7 @@ msgstr ""
 "code>."
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:94 C/hello-world.py.page:73
+#: C/hello-world.js.page:96 C/hello-world.py.page:73
 msgid ""
 "We give the window a property called <var>title</var>. The title can be any "
 "string you want it to be. To be on the safe side, it's best to stick to "
@@ -20696,7 +20702,7 @@ msgstr ""
 "kódování UTF-8."
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:95 C/hello-world.py.page:74 C/hello-world.vala.page:57
+#: C/hello-world.js.page:97 C/hello-world.py.page:74 C/hello-world.vala.page:57
 msgid ""
 "Now we have a window which has a title and a working \"close\" button. Let's "
 "add the actual \"Hello World\" text."
@@ -20705,12 +20711,13 @@ msgstr ""
 "pořádný text „Hello World“."
 
 #. (itstool) path: section/title
-#: C/hello-world.js.page:98 C/hello-world.py.page:77 C/hello-world.vala.page:60
+#: C/hello-world.js.page:100 C/hello-world.py.page:77
+#: C/hello-world.vala.page:60
 msgid "Label for the window"
 msgstr "Popisek pro okno"
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:99
+#: C/hello-world.js.page:101
 #, no-wrap
 msgid ""
 "// Add a label widget to your window\n"
@@ -20724,7 +20731,7 @@ msgstr ""
 "this._window.set_default_size(200, 200);"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:104
+#: C/hello-world.js.page:106
 msgid ""
 "A text label is one of the GTK+ widgets we can use, on account of having "
 "imported the GTK+ library. To use it, we create a new variable called label, "
@@ -20740,7 +20747,7 @@ msgstr ""
 "aplikaci:"
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:106
+#: C/hello-world.js.page:108
 #, no-wrap
 msgid ""
 "//run the application\n"
@@ -20752,7 +20759,7 @@ msgstr ""
 "app.application.run(ARGV);"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:110 C/hello-world.py.page:97
+#: C/hello-world.js.page:112 C/hello-world.py.page:97
 #: C/hello-world.vala.page:71
 msgid ""
 "Gtk.ApplicationWindow can only hold one widget at a time. To construct more "
@@ -20765,21 +20772,23 @@ msgstr ""
 "widgety přidat do něj."
 
 #. (itstool) path: section/title
-#: C/hello-world.js.page:114
+#: C/hello-world.js.page:116
 msgid "hello-world.js"
 msgstr "hello-world.js"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:115 C/hello-world.py.page:102
+#: C/hello-world.js.page:117 C/hello-world.py.page:102
 #: C/hello-world.vala.page:76
 msgid "The complete file:"
 msgstr "Celý soubor:"
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:116
+#: C/hello-world.js.page:118
 #, no-wrap
 msgid ""
 "#!/usr/bin/gjs\n"
+"\n"
+"const Lang = imports.lang;\n"
 "\n"
 "imports.gi.versions.Gtk = '3.0'\n"
 "const Gtk = imports.gi.Gtk;\n"
@@ -20822,6 +20831,8 @@ msgid ""
 msgstr ""
 "#!/usr/bin/gjs\n"
 "\n"
+"const Lang = imports.lang;\n"
+"\n"
 "imports.gi.versions.Gtk = '3.0'\n"
 "const Gtk = imports.gi.Gtk;\n"
 "\n"
@@ -20862,13 +20873,13 @@ msgstr ""
 "app.application.run(ARGV);\n"
 
 #. (itstool) path: section/title
-#: C/hello-world.js.page:119 C/hello-world.py.page:106
+#: C/hello-world.js.page:121 C/hello-world.py.page:106
 #: C/hello-world.vala.page:80
 msgid "Running the application from terminal"
 msgstr "Spuštění aplikace z terminálu"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:120
+#: C/hello-world.js.page:122
 msgid ""
 "To run this application, first save it as hello-world.js. Then open "
 "Terminal, go to the folder where your application is stored and run:"
@@ -20878,19 +20889,19 @@ msgstr ""
 "spusťte:"
 
 #. (itstool) path: section/screen
-#: C/hello-world.js.page:121
+#: C/hello-world.js.page:123
 #, no-wrap
 msgid "<output style=\"prompt\">$ </output><input>gjs hello-world.js</input>"
 msgstr "<output style=\"prompt\">$ </output><input>gjs hello-world.js</input>"
 
 #. (itstool) path: section/title
-#: C/hello-world.js.page:127 C/hello-world.py.page:112
+#: C/hello-world.js.page:129 C/hello-world.py.page:112
 #: C/hello-world.vala.page:89
 msgid "The <file>.desktop.in</file> file"
 msgstr "Soubor <file>.desktop.in</file>"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:128 C/hello-world.py.page:113
+#: C/hello-world.js.page:130 C/hello-world.py.page:113
 #: C/hello-world.vala.page:90
 msgid ""
 "Running applications from the Terminal is useful at the beginning of the "
@@ -20914,7 +20925,7 @@ msgstr ""
 "<file>.desktop.in</file> se vytvoří soubor <file>.desktop</file>."
 
 #. (itstool) path: note/p
-#: C/hello-world.js.page:131
+#: C/hello-world.js.page:133
 msgid ""
 "Before continuing, resave <file>hello-world.js</file> as <file>hello-world</"
 "file>. Then run this in the command line:"
@@ -20923,13 +20934,13 @@ msgstr ""
 "<file>hello-world</file>. Pak spusťte v příkazovém řádku:"
 
 #. (itstool) path: note/screen
-#: C/hello-world.js.page:132
+#: C/hello-world.js.page:134
 #, no-wrap
 msgid "<output style=\"prompt\">$ </output><input>chmod +x hello-world</input>"
 msgstr "<output style=\"prompt\">$ </output><input>chmod +x hello-world</input>"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:135 C/hello-world.py.page:115
+#: C/hello-world.js.page:137 C/hello-world.py.page:115
 #: C/hello-world.vala.page:92
 msgid ""
 "The example shows you the minimum requirements for a <code>.desktop.in</"
@@ -20938,7 +20949,7 @@ msgstr ""
 "Příklad ukazuje minimální požadavky pro soubor <code>.desktop.in</code>."
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:136 C/hello-world.py.page:116
+#: C/hello-world.js.page:138 C/hello-world.py.page:116
 #: C/hello-world.vala.page:93
 #, no-wrap
 msgid ""
@@ -20967,46 +20978,48 @@ msgstr ""
 "Categories=GNOME;GTK;Utility;\n"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:138 C/hello-world.py.page:118
-#: C/hello-world.vala.page:95
-msgid "Now let's go through some parts of the <code>.desktop.in</code> file."
+#: C/hello-world.js.page:140
+msgid ""
+"Save this as <file>hello-world.desktop.in</file>. Now let's go through some "
+"parts of the <code>.desktop.in</code> file."
 msgstr ""
-"Nyní se pojďme podívat na některé části souboru <code>.desktop.in</code>."
+"Uložte jej jako <file>hello-world.desktop.in</file>. Nyní se pojďme podívat "
+"na některé části souboru <code>.desktop.in</code>."
 
 #. (itstool) path: item/title
 #. (itstool) path: td/p
-#: C/hello-world.js.page:140 C/hello-world.py.page:120
+#: C/hello-world.js.page:142 C/hello-world.py.page:120
 #: C/hello-world.vala.page:97 C/toolbar_builder.py.page:95
 #: C/toolbar_builder.vala.page:78
 msgid "Name"
 msgstr "Name"
 
 #. (itstool) path: item/p
-#: C/hello-world.js.page:140 C/hello-world.py.page:120
+#: C/hello-world.js.page:142 C/hello-world.py.page:120
 #: C/hello-world.vala.page:97
 msgid "The application name."
 msgstr "Název aplikace."
 
 #. (itstool) path: item/title
-#: C/hello-world.js.page:141 C/hello-world.py.page:121
+#: C/hello-world.js.page:143 C/hello-world.py.page:121
 #: C/hello-world.vala.page:98
 msgid "Comment"
 msgstr "Comment"
 
 #. (itstool) path: item/p
-#: C/hello-world.js.page:141 C/hello-world.py.page:121
+#: C/hello-world.js.page:143 C/hello-world.py.page:121
 #: C/hello-world.vala.page:98
 msgid "A short description of the application."
 msgstr "Krátký popis aplikace."
 
 #. (itstool) path: item/title
-#: C/hello-world.js.page:142 C/hello-world.py.page:122
+#: C/hello-world.js.page:144 C/hello-world.py.page:122
 #: C/hello-world.vala.page:99
 msgid "Exec"
 msgstr "Exec"
 
 #. (itstool) path: item/p
-#: C/hello-world.js.page:142 C/hello-world.py.page:122
+#: C/hello-world.js.page:144 C/hello-world.py.page:122
 #: C/hello-world.vala.page:99
 msgid ""
 "Specifies a command to execute when you choose the application from the "
@@ -21018,20 +21031,20 @@ msgstr ""
 "file> a tento soubor se už postará o zbytek."
 
 #. (itstool) path: item/title
-#: C/hello-world.js.page:143 C/hello-world.py.page:123
+#: C/hello-world.js.page:145 C/hello-world.py.page:123
 #: C/hello-world.vala.page:100
 msgid "Terminal"
 msgstr "Terminal"
 
 #. (itstool) path: item/p
-#: C/hello-world.js.page:143 C/hello-world.py.page:123
+#: C/hello-world.js.page:145 C/hello-world.py.page:123
 #: C/hello-world.vala.page:100
 msgid ""
 "Specifies whether the command in the Exec key runs in a terminal window."
 msgstr "Určuje, jestli příkaz v klíči Exec běží v terminálu."
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:146 C/hello-world.py.page:126
+#: C/hello-world.js.page:148 C/hello-world.py.page:126
 #: C/hello-world.vala.page:103
 msgid ""
 "To put your application into the appropriate category, you need to add the "
@@ -21045,33 +21058,33 @@ msgstr ""
 "menu-spec/latest/apa.html\">specifikaci nabídky</link>."
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:147 C/hello-world.py.page:127
+#: C/hello-world.js.page:149 C/hello-world.py.page:127
 #: C/hello-world.vala.page:104
 msgid ""
 "In this example we use an existing icon. For a custom icon you need to have "
 "a .svg file of your icon, stored in <file>/usr/share/icons/hicolor/scalable/"
 "apps</file>. Write the name of your icon file to the .desktop.in file, on "
-"line 7. More information on icons in: <link href=\"https://live.gnome.org/"
-"GnomeGoals/AppIcon\">Installing Icons for Themes</link> and <link href="
-"\"http://freedesktop.org/wiki/Specifications/icon-theme-spec\">on "
+"line 7. More information on icons in: <link href=\"https://wiki.gnome.org/"
+"Initiatives/GnomeGoals/AppIcon\">Installing Icons for Themes</link> and "
+"<link href=\"http://freedesktop.org/wiki/Specifications/icon-theme-spec\">on "
 "freedesktop.org: Specifications/icon-theme-spec</link>."
 msgstr ""
 "V tomto příkladu používáme existující ikonu. Pro vlastní ikonu potřebujete "
 "mít soubor SVG se svojí ikonou uložený v <file>/usr/share/icons/hicolor/"
 "scalable/apps</file>. Napište název svého souboru s ikonou do souboru ."
-"desktop.in na řádek 7. Více informací o ikonách: <link href=\"https://live."
-"gnome.org/GnomeGoals/AppIcon\">Instalace ikon pro motivy</link> a <link href="
-"\"http://freedesktop.org/wiki/Specifications/icon-theme-spec\">Specifikace/"
-"icon-theme-spec na freedesktop.org</link>."
+"desktop.in na řádek 7. Více informací o ikonách: <link href=\"https://wiki."
+"gnome.org/Initiatives/GnomeGoals/AppIcon\">Instalace ikon pro motivy</link> a "
+"<link href=\"http://freedesktop.org/wiki/Specifications/icon-theme-spec\">"
+"Specifikace/icon-theme-spec na freedesktop.org</link>."
 
 #. (itstool) path: section/title
-#: C/hello-world.js.page:150 C/hello-world.py.page:130
+#: C/hello-world.js.page:152 C/hello-world.py.page:130
 #: C/hello-world.vala.page:107
 msgid "The build system"
 msgstr "Sestavovací systém"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:151 C/hello-world.py.page:131
+#: C/hello-world.js.page:153 C/hello-world.py.page:131
 #: C/hello-world.vala.page:108
 msgid ""
 "To make your application truly a part of the GNOME 3 system you need to "
@@ -21083,7 +21096,7 @@ msgstr ""
 "soubory na správná místa."
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:152 C/hello-world.py.page:132
+#: C/hello-world.js.page:154 C/hello-world.py.page:132
 #: C/hello-world.vala.page:109
 msgid "For this you need to have the following files:"
 msgstr "K tomu budete potřebovat následující soubory:"
@@ -21091,14 +21104,14 @@ msgstr "K tomu budete potřebovat následující soubory:"
 #. (itstool) path: section/title
 #. (itstool) path: item/p
 #. (itstool) path: section/p
-#: C/hello-world.js.page:155 C/hello-world.py.page:135
+#: C/hello-world.js.page:157 C/hello-world.py.page:135
 #: C/hello-world.vala.page:112 C/weatherAutotools.js.page:40
 #: C/weatherAutotools.js.page:138
 msgid "autogen.sh"
 msgstr "autogen.sh"
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:156 C/hello-world.py.page:136
+#: C/hello-world.js.page:158 C/hello-world.py.page:136
 #: C/hello-world.vala.page:113
 #, no-wrap
 msgid ""
@@ -21141,14 +21154,14 @@ msgstr ""
 "fi\n"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:158 C/hello-world.py.page:138
+#: C/hello-world.js.page:160 C/hello-world.py.page:138
 #: C/hello-world.vala.page:115
 msgid "After the <file>autogen.sh</file> file is ready and saved, run:"
 msgstr ""
 "Když máme soubor <file>autogen.sh</file> připravený a uložený, spusťte:"
 
 #. (itstool) path: section/screen
-#: C/hello-world.js.page:159 C/hello-world.py.page:139
+#: C/hello-world.js.page:161 C/hello-world.py.page:139
 #: C/hello-world.vala.page:116
 #, no-wrap
 msgid "<output style=\"prompt\">$ </output><input>chmod +x autogen.sh</input>"
@@ -21157,14 +21170,14 @@ msgstr "<output style=\"prompt\">$ </output><input>chmod +x autogen.sh</input>"
 #. (itstool) path: section/title
 #. (itstool) path: item/p
 #. (itstool) path: section/p
-#: C/hello-world.js.page:163 C/hello-world.py.page:143
+#: C/hello-world.js.page:165 C/hello-world.py.page:143
 #: C/hello-world.vala.page:120 C/weatherAutotools.js.page:38
 #: C/weatherAutotools.js.page:64
 msgid "Makefile.am"
 msgstr "Makefile.am"
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:164
+#: C/hello-world.js.page:166
 #, no-wrap
 msgid ""
 "# The actual runnable program is set to the SCRIPTS primitive.\n"
@@ -21194,14 +21207,14 @@ msgstr ""
 #. (itstool) path: section/title
 #. (itstool) path: item/p
 #. (itstool) path: section/p
-#: C/hello-world.js.page:168 C/hello-world.py.page:148
+#: C/hello-world.js.page:170 C/hello-world.py.page:148
 #: C/hello-world.vala.page:125 C/weatherAutotools.js.page:39
 #: C/weatherAutotools.js.page:131
 msgid "configure.ac"
 msgstr "configure.ac"
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:169 C/hello-world.py.page:149
+#: C/hello-world.js.page:171 C/hello-world.py.page:149
 #, no-wrap
 msgid ""
 "# This file is processed by autoconf to create a configure script\n"
@@ -21217,13 +21230,13 @@ msgstr ""
 "AC_OUTPUT\n"
 
 #. (itstool) path: section/title
-#: C/hello-world.js.page:173 C/hello-world.py.page:153
+#: C/hello-world.js.page:175 C/hello-world.py.page:153
 #: C/hello-world.vala.page:130
 msgid "README"
 msgstr "README"
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:174 C/hello-world.py.page:154
+#: C/hello-world.js.page:176 C/hello-world.py.page:154
 #: C/hello-world.vala.page:131
 msgid "Information users should read first. This file can be blank."
 msgstr ""
@@ -21231,29 +21244,33 @@ msgstr ""
 "být prázdný."
 
 #. (itstool) path: section/p
-#: C/hello-world.js.page:176 C/hello-world.py.page:156
+#: C/hello-world.js.page:178
 msgid ""
 "When you have the <file>hello-world</file>, <file>hello-world.desktop.in</"
 "file>, <file>Makefile.am</file>, <file>configure.ac</file> and <file>autogen."
-"sh</file> files with correct information and rights, the <file>README</file> "
-"file can include the following instructions:"
+"sh</file> files with correct information and permissions, create a "
+"<file>README</file> file with installation instructions. Below is a sample "
+"of what suitable README instructions may look like:"
 msgstr ""
 "Když máme soubory <file>hello-world</file>, <file>hello-world.desktop.in</"
 "file>, <file>Makefile.am</file>, <file>configure.ac</file> a <file>autogen."
-"sh</file> se správnými informacemi a v pořádku, může soubor <file>README</"
-"file> obsahovat následující instrukce:"
+"sh</file> se správnými informacemi a oprávněními, můžeme vytvořit soubor "
+"<file>README</file> s intrukcemi pro instalaci. Níže je příklad, jak může "
+"README s vhodným popisem vypadat:"
 
 #. (itstool) path: section/code
-#: C/hello-world.js.page:177 C/hello-world.py.page:157
+#: C/hello-world.js.page:179
 #, no-wrap
 msgid ""
-"To build and install this program:\n"
+"To build and install this program, run these commands from a terminal:\n"
 "\n"
-"./autogen.sh --prefix=/home/your_username/.local\n"
+"./autogen.sh --prefix=/home/$USER/.local\n"
 "make install\n"
 "\n"
 "-------------\n"
-"Running the first line above creates the following files:\n"
+"When running the first command $USER will be replaced by your username.\n"
+"\n"
+"Running the first command above creates the following files:\n"
 "\n"
 "aclocal.m4\n"
 "autom4te.cache\n"
@@ -21283,13 +21300,15 @@ msgid ""
 "\n"
 "This will create hello-world-1.0.tar.xz\n"
 msgstr ""
-"To build and install this program:\n"
+"To build and install this program, run these commands from a terminal:\n"
 "\n"
-"./autogen.sh --prefix=/home/your_username/.local\n"
+"./autogen.sh --prefix=/home/$USER/.local\n"
 "make install\n"
 "\n"
 "-------------\n"
-"Running the first line above creates the following files:\n"
+"When running the first command $USER will be replaced by your username.\n"
+"\n"
+"Running the first command above creates the following files:\n"
 "\n"
 "aclocal.m4\n"
 "autom4te.cache\n"
@@ -21551,6 +21570,12 @@ msgstr ""
 msgid "<output style=\"prompt\">$ </output><input>python hello-world.py</input>"
 msgstr "<output style=\"prompt\">$ </output><input>python hello-world.py</input>"
 
+#. (itstool) path: section/p
+#: C/hello-world.py.page:118 C/hello-world.vala.page:95
+msgid "Now let's go through some parts of the <code>.desktop.in</code> file."
+msgstr ""
+"Nyní se pojďme podívat na některé části souboru <code>.desktop.in</code>."
+
 #. (itstool) path: section/code
 #: C/hello-world.py.page:144
 #, no-wrap
@@ -21578,6 +21603,95 @@ msgstr ""
 "desktopdir = $(datadir)/applications\n"
 "desktop_DATA = \\\n"
 "\thello-world.desktop\n"
+
+#. (itstool) path: section/p
+#: C/hello-world.py.page:156
+msgid ""
+"When you have the <file>hello-world</file>, <file>hello-world.desktop.in</"
+"file>, <file>Makefile.am</file>, <file>configure.ac</file> and <file>autogen."
+"sh</file> files with correct information and rights, the <file>README</file> "
+"file can include the following instructions:"
+msgstr ""
+"Když máme soubory <file>hello-world</file>, <file>hello-world.desktop.in</"
+"file>, <file>Makefile.am</file>, <file>configure.ac</file> a <file>autogen."
+"sh</file> se správnými informacemi a v pořádku, může soubor <file>README</"
+"file> obsahovat následující instrukce:"
+
+#. (itstool) path: section/code
+#: C/hello-world.py.page:157
+#, no-wrap
+msgid ""
+"To build and install this program:\n"
+"\n"
+"./autogen.sh --prefix=/home/your_username/.local\n"
+"make install\n"
+"\n"
+"-------------\n"
+"Running the first line above creates the following files:\n"
+"\n"
+"aclocal.m4\n"
+"autom4te.cache\n"
+"config.log\n"
+"config.status\n"
+"configure\n"
+"hello-world.desktop\n"
+"install-sh\n"
+"missing\n"
+"Makefile.in\n"
+"Makefile\n"
+"\n"
+"Running \"make install\", installs the application in /home/your_username/.local/bin\n"
+"and installs the hello-world.desktop file in /home/your_username/.local/share/applications\n"
+"\n"
+"You can now run the application by typing \"Hello World\" in the Overview.\n"
+"\n"
+"----------------\n"
+"To uninstall, type:\n"
+"\n"
+"make uninstall\n"
+"\n"
+"----------------\n"
+"To create a tarball type:\n"
+"\n"
+"make distcheck\n"
+"\n"
+"This will create hello-world-1.0.tar.xz\n"
+msgstr ""
+"To build and install this program:\n"
+"\n"
+"./autogen.sh --prefix=/home/your_username/.local\n"
+"make install\n"
+"\n"
+"-------------\n"
+"Running the first line above creates the following files:\n"
+"\n"
+"aclocal.m4\n"
+"autom4te.cache\n"
+"config.log\n"
+"config.status\n"
+"configure\n"
+"hello-world.desktop\n"
+"install-sh\n"
+"missing\n"
+"Makefile.in\n"
+"Makefile\n"
+"\n"
+"Running \"make install\", installs the application in /home/your_username/.local/bin\n"
+"and installs the hello-world.desktop file in /home/your_username/.local/share/applications\n"
+"\n"
+"You can now run the application by typing \"Hello World\" in the Overview.\n"
+"\n"
+"----------------\n"
+"To uninstall, type:\n"
+"\n"
+"make uninstall\n"
+"\n"
+"----------------\n"
+"To create a tarball type:\n"
+"\n"
+"make distcheck\n"
+"\n"
+"This will create hello-world-1.0.tar.xz\n"
 
 #. (itstool) path: info/title
 #: C/hello-world.vala.page:9
@@ -30172,10 +30286,10 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/menubutton.js.page:33 C/menubutton.vala.page:33
 msgid ""
-"<link href=\"http://developer.gnome.org/gtk3/3.5/gtk3-GtkMenuButton.html"
+"<link href=\"https://developer.gnome.org/gtk3/unstable/GtkMenuButton.html"
 "\">MenuButton</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gtk3/3.5/gtk3-GtkMenuButton.html"
+"<link href=\"https://developer.gnome.org/gtk3/unstable/GtkMenuButton.html"
 "\">MenuButton</link>"
 
 #. (itstool) path: note/p
@@ -38998,7 +39112,7 @@ msgid ""
 "\n"
 "\n"
 "  /* Create the Vertical scale. This time, we will see what happens \n"
-"   * when the digits arent initially set.\n"
+"   * when the digits aren't initially set.\n"
 "   */\n"
 "  v_scale = gtk_scale_new (GTK_ORIENTATION_VERTICAL, vadjustment);\n"
 "  gtk_widget_set_vexpand (v_scale, TRUE);\n"
@@ -43498,19 +43612,19 @@ msgstr ""
 "sys.exit(exit_status)\n"
 
 #. (itstool) path: note/p
-#: C/spinner.py.page:33
+#: C/spinner.py.page:33 C/statusbar.py.page:34
 msgid ""
 "<code>Gdk.keyval_name(event.keyval)</code> converts the key value "
 "<code>event.keyval</code> into a symbolic name. The names and corresponding "
-"key values can be found <link href=\"http://git.gnome.org/browse/gtk+/tree/"
-"gdk/gdkkeysyms.h\">here</link>,but for instance <code>GDK_KEY_BackSpace</"
-"code> becomes the string <code>\"BackSpace\"</code>."
+"key values can be found <link href=\"https://gitlab.gnome.org/GNOME/gtk/blob/"
+"master/gdk/gdkkeysyms.h\">here</link>, but for instance "
+"<code>GDK_KEY_BackSpace</code> becomes the string <code>\"BackSpace\"</code>."
 msgstr ""
 "<code>Gdk.keyval_name(event.keyval)</code> převádí hodnotu klávesy "
 "<code>event.keyval</code> na symbolický název. Názvy a odpovídající hodnoty "
-"kláves můžete najít <link href=\"http://git.gnome.org/browse/gtk+/tree/gdk/"
-"gdkkeysyms.h\">zde</link>, ale například <code>GDK_KEY_BackSpace</code> se "
-"změní na řetězec <code>\"BackSpace\"</code>."
+"kláves můžete najít <link href=\"https://gitlab.gnome.org/GNOME/gtk/blob/"
+"master/gdk/gdkkeysyms.h\">zde</link>, ale například <code>GDK_KEY_BackSpace"
+"</code> se změní na řetězec <code>\"BackSpace\"</code>."
 
 #. (itstool) path: item/p
 #: C/spinner.py.page:42 C/togglebutton.py.page:46
@@ -44960,21 +45074,6 @@ msgstr ""
 "exit_status = app.run(sys.argv)\n"
 "sys.exit(exit_status)\n"
 
-#. (itstool) path: note/p
-#: C/statusbar.py.page:34
-msgid ""
-"<code>Gdk.keyval_name(event.keyval)</code> converts the key value "
-"<code>event.keyval</code> into a symbolic name. The names and corresponding "
-"key values can be found <link href=\"http://git.gnome.org/browse/gtk+/tree/"
-"gdk/gdkkeysyms.h\">here</link>, but for instance <code>GDK_KEY_BackSpace</"
-"code> becomes the string <code>\"BackSpace\"</code>."
-msgstr ""
-"<code>Gdk.keyval_name(event.keyval)</code> převádí hodnotu klávesy "
-"<code>event.keyval</code> na symbolický název. Názvy a odpovídající hodnoty "
-"kláves můžete najít <link href=\"http://git.gnome.org/browse/gtk+/tree/gdk/"
-"gdkkeysyms.h\">zde</link>, ale například <code>GDK_KEY_BackSpace</code> se "
-"změní na řetězec <code>\"BackSpace\"</code>."
-
 #. (itstool) path: section/title
 #: C/statusbar.py.page:40
 msgid "Useful methods for a Statusbar widget"
@@ -45038,11 +45137,11 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/statusbar.py.page:54
 msgid ""
-"<link href=\"http://developer.gnome.org/gdk/stable/gdk-Keyboard-Handling.html"
-"\">Gdk - Key Values</link>"
+"<link href=\"https://developer.gnome.org/gdk3/stable/gdk3-Keyboard-Handling."
+"html\">Gdk - Key Values</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gdk/stable/gdk-Keyboard-Handling.html"
-"\">Gdk - Key Values</link>"
+"<link href=\"https://developer.gnome.org/gdk3/stable/gdk3-Keyboard-Handling."
+"html\">Gdk - Key Values</link>"
 
 #. (itstool) path: info/title
 #: C/statusbar.vala.page:8
@@ -52623,7 +52722,7 @@ msgid ""
 "  /* set the text for the tooltip */\n"
 "  gtk_tooltip_set_text (tooltip, \"Undo your last action\");\n"
 "   \n"
-"  /* set an icon fot the tooltip */\n"
+"  /* set an icon for the tooltip */\n"
 "  gtk_tooltip_set_icon_from_stock(tooltip, \"gtk-undo\", GTK_ICON_SIZE_MENU);\n"
 "\n"
 "  /* show the tooltip */\n"
@@ -53155,7 +53254,7 @@ msgid ""
 "    _undoTooltipCallback(widget, x, y, keyboard_mode, tooltip) {\n"
 "        // set the text for the tooltip\n"
 "        tooltip.set_text(\"Undo your last action\");\n"
-"        // set an icon fot the tooltip\n"
+"        // set an icon for the tooltip\n"
 "        tooltip.set_icon_from_stock(Gtk.STOCK_UNDO, Gtk.IconSize.MENU);\n"
 "        // show the tooltip\n"
 "        return true;\n"
@@ -53463,7 +53562,7 @@ msgid ""
 "    def undo_tooltip_callback(self, widget, x, y, keyboard_mode, tooltip):\n"
 "        # set the text for the tooltip\n"
 "        tooltip.set_text(\"Undo your last action\")\n"
-"        # set an icon fot the tooltip\n"
+"        # set an icon for the tooltip\n"
 "        tooltip.set_icon_from_stock(\"gtk-undo\", Gtk.IconSize.MENU)\n"
 "        # show the tooltip\n"
 "        return True\n"
@@ -53807,7 +53906,7 @@ msgid ""
 "\t\t/* set the text for the tooltip */\n"
 "        \ttooltip.set_text (\"Undo your last action\");\n"
 "\t\t\n"
-"\t\t/* set an icon fot the tooltip */\n"
+"\t\t/* set an icon for the tooltip */\n"
 "\t\ttooltip.set_icon_from_stock(\"gtk-undo\", Gtk.IconSize.MENU);\n"
 "\n"
 "        \t/* show the tooltip */\n"
@@ -57558,7 +57657,7 @@ msgid ""
 "You need the .desktop file, autogen.sh, Makefile.am, configure.ac and as a "
 "new file: myapp.sh.in file. Hacking the autotools file is a complicated "
 "field. More information can be found in many different sources, <link href="
-"\"http://en.wikipedia.org/wiki/GNU_build_system\">the wikipedia article</"
+"\"http://en.wikipedia.org/wiki/GNU_build_system\">the Wikipedia article</"
 "link> provides a good overview on the subject."
 msgstr ""
 "To, že máté ve své složce více než jeden soubor, trochu komplikuje použití "
@@ -59776,14 +59875,14 @@ msgstr ""
 #: C/custom-gsource.c.page:293
 msgid ""
 "Another example is a custom source to interface GnuTLS with GLib in its "
-"<code>GTlsConnection</code> implementation. <link href=\"https://git.gnome."
-"org/browse/glib-networking/tree/tls/gnutls/gtlsconnection-gnutls."
-"c#n871\"><code>GTlsConnectionGnutlsSource</code></link> synchronizes the "
+"<code>GTlsConnection</code> implementation. <link href=\"https://gitlab."
+"gnome.org/GNOME/glib-networking/blob/master/tls/gnutls/gtlsconnection-gnutls."
+"c#L1154\"><code>GTlsConnectionGnutlsSource</code></link> synchronizes the "
 "main thread and a TLS worker thread which performs the blocking TLS "
 "operations."
 msgstr ""
-"Jiným příkladem je vlastní zdroj k rozhraní GnuTLS s GLib v jeho "
-"implementaci <code>GTlsConnection</code>. <link href=\"https://git.gnome.org/"
-"browse/glib-networking/tree/tls/gnutls/gtlsconnection-gnutls."
-"c#n871\"><code>GTlsConnectionGnutlsSource</code></link> synchronizuje hlavní "
-"vlákno s pracovním vláknem TLS, které provádí blokování operací TLS."
+"Jiným příkladem je vlastní zdroj k rozhraní GnuTLS s GLib v jeho implementaci "
+"<code>GTlsConnection</code>. <link href=\"https://gitlab.gnome.org/GNOME/"
+"glib-networking/blob/master/tls/gnutls/gtlsconnection-gnutls.c#L1154\"><code>"
+"GTlsConnectionGnutlsSource</code></link> synchronizuje hlavní vlákno s "
+"pracovním vláknem TLS, které provádí blokování operací TLS."

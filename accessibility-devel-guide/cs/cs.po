@@ -2,13 +2,13 @@
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 #
-# Marek Černocký <marek@manet.cz>, 2015, 2017.
+# Marek Černocký <marek@manet.cz>, 2015, 2017, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-08-16 16:08+0000\n"
-"PO-Revision-Date: 2017-08-17 18:48+0200\n"
+"POT-Creation-Date: 2019-02-03 09:38+0000\n"
+"PO-Revision-Date: 2019-03-05 10:29+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -2318,8 +2318,8 @@ msgid ""
 "according to the widget's feature set and function;"
 msgstr ""
 "určit, která <ulink url=\"https://developer.gnome.org/atk/stable/interfaces."
-"html\">rozhraní ATK</ulink> by měl vlastní widget implementovat, s ohledem na "
-"množinu vlastnosí widgetu a funkci"
+"html\">rozhraní ATK</ulink> by měl vlastní widget implementovat, s ohledem "
+"na množinu vlastnosí widgetu a funkci"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:818
@@ -2328,8 +2328,8 @@ msgid ""
 "html\">ATK interfaces</ulink> can be inherited from the parent widget class;"
 msgstr ""
 "vyhodnotit, která <ulink url=\"https://developer.gnome.org/atk/stable/"
-"interfaces.html\">rozhraní ATK</ulink> mohou být zděděna z třídy rodičovského "
-"widgetu"
+"interfaces.html\">rozhraní ATK</ulink> mohou být zděděna z třídy "
+"rodičovského widgetu"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:823
@@ -5476,7 +5476,7 @@ msgid ""
 "documentation can be found <ulink url=\"http://library.gnome.org/devel/"
 "accerciser/stable\">in the Official Accerciser Manual</ulink>. For a "
 "demonstration of <application>Accerciser</application> and "
-"<application>PyATSPI</application> (Python-wrappered access and usage of AT-"
+"<application>PyATSPI</application> (Python-wrapped access and usage of AT-"
 "SPI), see <ulink url=\"http://live.gnome.org/Accessibility/"
 "PythonPoweredAccessibility\">this article</ulink>. For an excellent "
 "walkthrough from the author, see the article titled <ulink url=\"http://www."
@@ -5493,7 +5493,7 @@ msgstr ""
 "najdete <ulink url=\"http://library.gnome.org/devel/accerciser/stable\">v "
 "oficiální příručce k aplikaci Accerciser</ulink>. Na ukázku použití aplikace "
 "<application>Accerciser</application> a <application>PyATSPI</application> "
-"(Python-wrappered access and usage of AT-SPI) se podívejte do <ulink url="
+"(Python-wrapped access and usage of AT-SPI) se podívejte do <ulink url="
 "\"http://live.gnome.org/Accessibility/PythonPoweredAccessibility\">tohoto "
 "článku</ulink>. Skvělou procházku zpřístupněním aplikace přímo od autorů "
 "najdete v článku s názvem <ulink url=\"http://www.linuxjournal.com/"
