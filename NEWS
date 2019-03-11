@@ -1,3 +1,20 @@
+3.32.0
+======
+* Updated palette in the HIG (Jakub Steiner)
+* Added page on async programming to Programming Guidelines (Philip Withnall)
+* Fixed typos and links in Platform Demos (Andre Klapper)
+* Clarified instructions in Platform Demos (Sebastian Rasmussen)
+* Fixed various types in all documents (Sebastian Rasmussen)
+* Updated translations:
+  cs    (Marek Cernocky)
+  de    (Piotr Drąg)
+  es    (Daniel Mustieles)
+  fr    (Charles Monzat)
+  gl    (Fran Dieguez)
+  ko    (Seong-ho Cho)
+  pt_BR (Rafael Fontenelle)
+  sv    (Anders Jonsson)
+
 3.30.2
 ======
 * updated HIG banner

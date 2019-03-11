@@ -1,4 +1,4 @@
-AC_INIT([gnome-devel-docs],[3.30.2])
+AC_INIT([gnome-devel-docs],[3.32.0])
 
 AM_INIT_AUTOMAKE([no-dist-gzip dist-xz])
 AM_SILENT_RULES([yes])
