@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2017-12-20 17:16+0000\n"
-"PO-Revision-Date: 2018-01-18 18:48+0100\n"
-"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
+"POT-Creation-Date: 2019-03-01 02:11+0000\n"
+"PO-Revision-Date: 2019-03-12 22:41+0100\n"
+"Last-Translator: Tim Sabsch <tim@sabsch.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -45,7 +45,8 @@ msgid "translator-credits"
 msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016\n"
 "Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2012, 2015, 2017, 2018\n"
-"Aljosha Papsch <al@rpapsch.de>, 2012"
+"Aljosha Papsch <al@rpapsch.de>, 2012\n"
+"Tim Sabsch <tim@sabsch.com>, 2019"
 
 #. (itstool) path: credit/name
 #: C/dev-help-appmenu.page:11 C/dev-help-build.page:11 C/dev-help.page:14
@@ -105,12 +106,12 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/dev-help-appmenu.page:37
 msgid ""
-"This example, based on <app href=\"https://git.gnome.org/browse/cheese/tree/src/cheese-"
-"main.vala\">Cheese</app>, assumes that your application is written in Vala. It will be "
-"slightly different for other programming languages."
+"This example, based on <app href=\"https://gitlab.gnome.org/GNOME/cheese/blob/master/src/"
+"cheese-main.vala\">Cheese</app>, assumes that your application is written in Vala. It "
+"will be slightly different for other programming languages."
 msgstr ""
-"Dieses auf <app href=\"https://git.gnome.org/browse/cheese/tree/src/cheese-main.vala"
-"\">Cheese</app> basierende Beispiel setzt voraus, dass Ihre Anwendung in Vala "
+"Dieses auf <app href=\"https://gitlab.gnome.org/GNOME/cheese/blob/master/src/cheese-main."
+"vala\">Cheese</app> basierende Beispiel setzt voraus, dass Ihre Anwendung in Vala "
 "geschrieben ist. Es wird für andere Programmiersprachen etwas abweichen."
 
 #. (itstool) path: example/p
@@ -694,7 +695,7 @@ msgid ""
 "If your application opens files of a certain type, such as PNG images, you can add an "
 "association with the MIME type of the file. This is added to the desktop file."
 msgstr ""
-"Wenn Ihre Anwendung Dateien eines bestimmten Typs öffnet, zum Beispiel PNG-bilder, "
+"Wenn Ihre Anwendung Dateien eines bestimmten Typs öffnet, zum Beispiel PNG-Bilder, "
 "können Sie deren MIME-Typ der Datei zuordnen. Diese Zuordnung wird zur *.desktop-Datei "
 "hinzugefügt."
 
@@ -821,8 +822,8 @@ msgid ""
 "that correspond to the document."
 msgstr ""
 "Wenn Ihre Anwendung mit Dateien umgehen kann, die ausgedruckt oder als Dokument "
-"angezeigt werden können, fügen Sie einen Thumbnailer hinzu, damit diese in der "
-"Dateiverwaltung mit Vorschaubildern angezeigt werden können."
+"angezeigt werden können, fügen Sie einen Thumbnailer hinzu, damit diese in <app>Dateien</"
+"app> mit Vorschaubildern angezeigt werden können."
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:30
@@ -1540,14 +1541,12 @@ msgstr ""
 #: C/overview-communication.page:91
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Website</link> | <link href="
-"\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy.png"
-"\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/empathy/\">Empathy "
-"source code</link> )"
+"\"https://wiki.gnome.org/Apps/Empathy#Screenshots\">Screenshots</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/empathy/\">Empathy source code</link> )"
 msgstr ""
-"(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Webseite</link> | <link href="
-"\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy.png"
-"\">Bildschirmfoto</link> | <link href=\"https://git.gnome.org/browse/empathy/\">Empathy-"
-"Quellcode</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Empathy\">Internetseite</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Empathy#Screenshots\">Bildschirmfotos</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/empathy/\">Empathy-Quellcode</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:95
@@ -1562,14 +1561,14 @@ msgstr ""
 #: C/overview-communication.page:96
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Projects/Games\">Website</link> | <link href="
-"\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;target=gnome-chess."
-"png\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/gnome-chess/"
-"\">GLChess online multiplayer code</link> )"
+"\"https://wiki.gnome.org/Apps/Chess#Screenshots\">Screenshot</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/gnome-chess/\">GNOME Chess online multiplayer code</"
+"link> )"
 msgstr ""
-"(<link href=\"https://wiki.gnome.org/Projects/Games\">Webseite</link> | <link href="
-"\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;target=gnome-chess."
-"png\">Bildschirmfoto</link> | <link href=\"https://git.gnome.org/browse/gnome-chess/"
-"\">Online-Mehrspieler-Code in GLChess</link> )"
+"(<link href=\"https://wiki.gnome.org/Projects/Games\">Internetseite</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Chess#Screenshots\">Bildschirmfoto</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/gnome-chess/\">GNOME Schach Online-Mehrspieler-Code</"
+"link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:100
@@ -1585,11 +1584,12 @@ msgstr ""
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Website</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Screenshots</link> | <link href="
-"\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap\">DAAP Code</link> )"
+"\"https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/plugins/daap\">DAAP Code</link> )"
 msgstr ""
-"(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Webseite</link> | <link href="
+"(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Internetseite</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Bildschirmfotos</link> | <link "
-"href=\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap\">DAAP-Code</link> )"
+"href=\"https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/plugins/daap\">DAAP-Code</"
+"link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-io.page:22
@@ -1670,10 +1670,10 @@ msgstr ""
 #: C/overview-io.page:74
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/gnome-documents\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/gnome-documents\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Internetseite</link> | <link href="
-"\"https://git.gnome.org/browse/gnome-documents\">Quellcode</link> )"
+"\"https://gitlab.gnome.org/GNOME/gnome-documents\">Quellcode</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:77
@@ -1689,11 +1689,11 @@ msgstr ""
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Website</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Screenshots</link> | <link href="
-"\"https://git.gnome.org/browse/nautilus\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/nautilus\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Internetseite</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Bildschirmfotos</link> | <link href="
-"\"https://git.gnome.org/browse/nautilus\">Quellcode</link> )"
+"\"https://gitlab.gnome.org/GNOME/nautilus\">Quellcode</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
@@ -1836,12 +1836,14 @@ msgstr "<em style=\"strong\">Videos</em> ist das Multimedia-Wiedergabeprogramm f
 #: C/overview-media.page:99
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png\">Screenshot</link> "
-"| <link href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-videos.png"
+"\">Screenshot</link> | <link href=\"https://gitlab.gnome.org/GNOME/totem/\">Source code</"
+"link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Internetseite</link> | <link href="
-"\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png\">Bildschirmfoto</"
-"link> | <link href=\"https://git.gnome.org/browse/totem/\">Quellcode</link> )"
+"\"https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-videos.png"
+"\">Bildschirmfoto</link> | <link href=\"https://gitlab.gnome.org/GNOME/totem/"
+"\">Quellcode</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:102
@@ -1856,12 +1858,12 @@ msgstr ""
 #: C/overview-media.page:104
 msgid ""
 "( <link href=\"http://www.pitivi.org/\">Website</link> | <link href=\"http://www.pitivi."
-"org/?go=screenshots\">Screenshots</link> | <link href=\"http://www.pitivi.org/?"
-"go=download\">Source code</link> )"
+"org/?go=tour\">Screenshot</link> | <link href=\"http://www.pitivi.org/?go=download"
+"\">Source code</link> )"
 msgstr ""
 "( <link href=\"http://www.pitivi.org/\">Internetseite</link> | <link href=\"http://www."
-"pitivi.org/?go=screenshots\">Bildschirmfotos</link> | <link href=\"http://www.pitivi."
-"org/?go=download\">Quellcode</link> )"
+"pitivi.org/?go=tour\">Bildschirmfotos</link> | <link href=\"http://www.pitivi.org/?"
+"go=download\">Quellcode</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-net.page:17
@@ -1966,12 +1968,13 @@ msgstr ""
 #: C/overview-net.page:84
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
-"git.gnome.org/browse/epiphany/plain/data/screenshot.png\">Screenshot</link> | <link href="
-"\"https://git.gnome.org/browse/epiphany/\">Source code</link> )"
+"gitlab.gnome.org/GNOME/epiphany/raw/master/data/screenshot.png\">Screenshot</link> | "
+"<link href=\"https://gitlab.gnome.org/GNOME/epiphany/\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Internetseite</link> | <link href="
-"\"https://git.gnome.org/browse/epiphany/plain/data/screenshot.png\">Bildschirmfoto</"
-"link> | <link href=\"https://git.gnome.org/browse/epiphany/\">Quellcode</link> )"
+"\"https://gitlab.gnome.org/GNOME/epiphany/raw/master/data/screenshot.png"
+"\">Bildschirmfoto</link> | <link href=\"https://gitlab.gnome.org/GNOME/epiphany/"
+"\">Quellcode</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:87
@@ -1989,12 +1992,12 @@ msgstr ""
 #: C/overview-net.page:90
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Website</link> | <link href="
-"\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href=\"https://git.gnome.org/"
-"browse/gnome-shell/\">Source Code</link> )"
+"\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href=\"https://gitlab.gnome."
+"org/GNOME/gnome-shell/\">Source Code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Internetseite</link> | <link "
-"href=\"http://www.gnome.org/gnome-3/\">Bildschirmfoto</link> | <link href=\"https://git."
-"gnome.org/browse/gnome-shell/\">Quellcode</link> )"
+"href=\"http://www.gnome.org/gnome-3/\">Bildschirmfoto</link> | <link href=\"https://"
+"gitlab.gnome.org/GNOME/gnome-shell/\">Quellcode</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-settings.page:17
@@ -2068,13 +2071,11 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-settings.page:70
 msgid ""
-"( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html\">Website</"
-"link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor\">Source code</"
-"link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/DconfEditor\">Website</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/dconf-editor/\">Source code</link> )"
 msgstr ""
-"( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
-"\">Internetseite</link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor"
-"\">Quellcode</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/DconfEditor\">Internetseite</link> | <link "
+"href=\"https://gitlab.gnome.org/GNOME/dconf-editor/\">Quellcode</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-ui.page:17
@@ -2219,10 +2220,10 @@ msgstr ""
 #: C/overview-ui.page:98
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
-"git.gnome.org/browse/epiphany/\">Source code</link> )"
+"gitlab.gnome.org/GNOME/epiphany/\">Source code</link> )"
 msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Internetseite</link> | <link href="
-"\"https://git.gnome.org/browse/epiphany/\">Quellcode</link> )"
+"\"https://gitlab.gnome.org/GNOME/epiphany/\">Quellcode</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:101
@@ -2237,13 +2238,13 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-ui.page:104
 msgid ""
-"( <link href=\"http://monodevelop.com/\">Website</link> | <link href=\"http://"
-"monodevelop.com/Screenshots\">Screenshots</link> | <link href=\"https://github.com/mono/"
+"( <link href=\"https://www.monodevelop.com/\">Website</link> | <link href=\"https://www."
+"monodevelop.com/screenshots/\">Screenshots</link> | <link href=\"https://github.com/mono/"
 "monodevelop\">Source code</link> )"
 msgstr ""
-"( <link href=\"http://monodevelop.com/\">Internetseite</link> | <link href=\"http://"
-"monodevelop.com/Screenshots\">Bildschirmfotos</link> | <link href=\"https://github.com/"
-"mono/monodevelop\">Quellcode</link> )"
+"( <link href=\"https://www.monodevelop.com/\">Internetseite</link> | <link href="
+"\"https://www.monodevelop.com/screenshots/\">Bildschirmfotos</link> | <link href="
+"\"https://github.com/mono/monodevelop\">Quellcode</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:107
@@ -2258,10 +2259,10 @@ msgstr ""
 #: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/totem/\">Source code</link> )"
+"\"https://gitlab.gnome.org/GNOME/totem/\">Source code</link> )"
 msgstr ""
-"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
-"\"https://git.gnome.org/browse/totem/\">Quellcode</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Internetseite</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/totem/\">Quellcode</link> )"
 
 #. (itstool) path: credit/years
 #: C/tech-atk.page:14 C/tech-cairo.page:13 C/tech-clutter.page:13 C/tech-d-bus.page:13
@@ -2659,8 +2660,8 @@ msgid ""
 msgstr ""
 "Clutter spezifiziert keinen visuellen Stil und stellt keine vordefinierten, komplexen "
 "Steuerungen für Benutzerschnittstellen bereit. Es lässt dem Entwickler offen was "
-"benötigt wird. Durch eine flexible Szenengraphen-API können Szeneelemente (d.h. "
-"»Akteure«) frei auf dem Hauptsichtfeld (d.h. »Stage«) platziert werden."
+"benötigt wird. Durch eine flexible Szenengraphen-API können Szenenelemente (oder "
+"<em>Akteure</em>) frei auf dem Hauptsichtfeld (oder <em>Stage</em>) platziert werden."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:39
@@ -2833,7 +2834,7 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/tech-eds.page:18
-msgid "Desktop-wide addressbook for contacts and calendar"
+msgid "Desktop-wide address book for contacts and calendar"
 msgstr "Globales Adressbuch für Kontakte und Kalender"
 
 #. (itstool) path: page/title
@@ -3097,7 +3098,7 @@ msgstr ""
 #: C/tech-gdk.page:62
 msgid "<link href=\"https://developer.gnome.org/gdk3/stable/\">GDK Reference Manual</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gdk3/stable/\">Das Referenzhandbuch von GDK</"
+"<link href=\"https://developer.gnome.org/gdk3/stable/\">Das Referenzhandbuch von GDK</"
 "link>"
 
 #. (itstool) path: info/desc
@@ -3656,25 +3657,25 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-msgid "<link href=\"http://gtk.org/\">Official web site</link>"
-msgstr "<link href=\"http://gtk.org/\">Offizielle Webseite</link>"
+msgid "<link href=\"https://www.gtk.org/\">Official web site</link>"
+msgstr "<link href=\"https://www.gtk.org/\">Offizielle Webseite</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
 msgid ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo tutorial</link>"
+"<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\">Demo tutorial</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo-Tutorial</link>"
+"<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\">Demo-Tutorial</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-msgid "<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</link>"
-msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/\">Referenzhandbuch</link>"
+msgid "<link href=\"https://developer.gnome.org/gtk3/stable/\">Reference Manual</link>"
+msgstr "<link href=\"https://developer.gnome.org/gtk3/stable/\">Referenzhandbuch</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:54
-msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
-msgstr "<link href=\"https://git.gnome.org/browse/gtk+/\">Git-Softwarebestand</link>"
+msgid "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">git repository</link>"
+msgstr "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">Git-Softwarebestand</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:55
@@ -4580,11 +4581,10 @@ msgid ""
 "titles and authors, such as <code>Othello:has-author:William Shakespeare</code>. A "
 "standardized set of triplet forms is called an <em>ontology</em>."
 msgstr ""
-"Tracker ist eine Speicher-Engine für das <em>Resource Data Format</em> (RDF). RDF "
-"besteht aus <em>Tripeln</em> der Form subjekt:verb:objekt. Zum Beispiel sind Standard-"
-"Tripel für Buchtitel und Autor möglich, etwa <code>Othello:has-author:William "
-"Shakespeare</code>. Ein standardisierter Satz von Tripeln wird <em>Ontologie</em> "
-"genannt."
+"Tracker ist eine Speicher-Engine für das »Resource Data Format« (RDF). RDF besteht aus "
+"<em>Tripeln</em> der Form subjekt:verb:objekt. Zum Beispiel sind Standard-Tripel für "
+"Buchtitel und Autor möglich, etwa <code>Othello:has-author:William Shakespeare</code>. "
+"Ein standardisierter Satz von Tripeln wird <em>Ontologie</em> genannt."
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:30
@@ -5152,3 +5152,23 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
+#~ msgid ""
+#~ "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Website</link> | <link href="
+#~ "\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy."
+#~ "png\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/empathy/"
+#~ "\">Empathy source code</link> )"
+#~ msgstr ""
+#~ "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Webseite</link> | <link href="
+#~ "\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy."
+#~ "png\">Bildschirmfoto</link> | <link href=\"https://git.gnome.org/browse/empathy/"
+#~ "\">Empathy-Quellcode</link> )"
+
+#~ msgid ""
+#~ "( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
+#~ "\">Website</link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor"
+#~ "\">Source code</link> )"
+#~ msgstr ""
+#~ "( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
+#~ "\">Internetseite</link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor"
+#~ "\">Quellcode</link> )"
