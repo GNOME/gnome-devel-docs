@@ -1,21 +1,22 @@
 # Brazilian Portuguese translation for HIG gnome-devel-docs.
-# Copyright (C) 2018 gnome-devel-docs's COPYRIGHT HOLDER
+# Copyright (C) 2019 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Georges Neto <georges.stavracas@gmail.com>, 2014.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2018.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2017-2019.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2018-09-25 10:18+0000\n"
-"PO-Revision-Date: 2018-09-25 12:47-0200\n"
+"POT-Creation-Date: 2019-03-08 11:06+0000\n"
+"PO-Revision-Date: 2019-03-19 08:43-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"Language-Team: Portuguese - Brazil <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 1.0.0-beta1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 3.32.0\n"
 "X-Project-Style: gnome\n"
 
 #. (itstool) path: p/link
@@ -33,7 +34,7 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Georges Neto <georges.stavracas@gmail.com>, 2014,\n"
-"Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2018"
+"Rafael Fontenelle <rafaelff@gnome.org>, 2017-2019"
 
 #. (itstool) path: info/desc
 #: C/action-bars.page:7
@@ -342,10 +343,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/application-basics.page:55
-#| msgid ""
-#| "Ensure that your application name is short - fewer than 15 characters. "
-#| "This will ensure that it is always displayed in full within a GNOME 3 "
-#| "environment."
 msgid ""
 "Ensure that your application name is short — fewer than 15 characters. This "
 "will ensure that it is always displayed in full within a GNOME 3 environment."
@@ -665,15 +662,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/button-menus.page:37
-#| msgid ""
-#| "Evaluate each function within a button menu, in order to decide whether "
-#| "it would be better served by a different <link xref=\"ui-elements\">user "
-#| "interface element</link>. While simple actions or settings can be "
-#| "effectively represented by menu items, others cannot. In particular, "
-#| "sliders, spin buttons, switches and text entries provide functionality "
-#| "that cannot be easily reproduced with a menu. Likewise, some entries "
-#| "might be better represented as icons rather than text - in which case, "
-#| "buttons could be more appropriate than a menu."
 msgid ""
 "Evaluate each function within a button menu, in order to decide whether it "
 "would be better served by a different <link xref=\"ui-elements\">user "
@@ -685,8 +673,8 @@ msgid ""
 "be more appropriate than a menu."
 msgstr ""
 "Avalie cada função dentro de um menu de botão, para decidir se seria melhor "
-"servido por um <link xref=\"ui-elements\">elemento de interface de "
-"usuário</link> diferente. Embora ações ou configurações simples possam ser "
+"servido por um <link xref=\"ui-elements\">elemento de interface de usuário</"
+"link> diferente. Embora ações ou configurações simples possam ser "
 "efetivamente representadas por itens de menu, outros não podem. Em "
 "particular, controles deslizantes, botões de rotação, interruptores e "
 "entradas de texto fornecem funcionalidades que não podem ser facilmente "
@@ -744,9 +732,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/button-menus.page:50
-#| msgid ""
-#| "Each context - whether it is a view or delineated area of your interface "
-#| "- should only include one generic button menu."
 msgid ""
 "Each context — whether it is a view or delineated area of your interface — "
 "should only include one generic button menu."
@@ -867,9 +852,6 @@ msgstr "Diretrizes gerais"
 
 #. (itstool) path: item/p
 #: C/buttons.page:40
-#| msgid ""
-#| "A button can contain an icon, button, or - more unusually - an image. "
-#| "Follow the icons and artwork guidelines when deciding which to use."
 msgid ""
 "A button can contain an icon, button, or — more unusually — an image. Follow "
 "the icons and artwork guidelines when deciding which to use."
@@ -1467,12 +1449,6 @@ msgstr "Mantenha a complexidade da interface de usuário em um mínimo"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:30
-#| msgid ""
-#| "Every control or piece of information that you add to your application "
-#| "creates additional work for users, and increases the complexity of your "
-#| "application - potentially making it more difficult and less pleasurable "
-#| "to use. Therefore, only include essential controls and information in "
-#| "your application interface."
 msgid ""
 "Every control or piece of information that you add to your application "
 "creates additional work for users, and increases the complexity of your "
@@ -1755,12 +1731,6 @@ msgstr "Use emoção e humor (moderadamente)"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:116
-#| msgid ""
-#| "Used effectively, emotion and humor can lift the experience provided by "
-#| "your application, and help to develop a positive relationship with your "
-#| "users. Be careful not to over-use these techniques, though - it is far "
-#| "more effective to pick a small number of moments to use emotion, rather "
-#| "than spraying them throughout your user interface."
 msgid ""
 "Used effectively, emotion and humor can lift the experience provided by your "
 "application, and help to develop a positive relationship with your users. Be "
@@ -1770,9 +1740,9 @@ msgid ""
 msgstr ""
 "Usados efetivamente, emoções e humor podem aumentar a experiência fornecida "
 "por seu aplicativo, e ajudam a desenvolver um relacionamento positivo com "
-"seus usuários. Mas tenha cuidado para não extrapolar no uso dessas técnicas –"
-" é muito mais efetivo pegar um número pequeno de momentos para usar emoções, "
-"em vez de sair espalhando-os por toda interface de usuário."
+"seus usuários. Mas tenha cuidado para não extrapolar no uso dessas técnicas "
+"– é muito mais efetivo pegar um número pequeno de momentos para usar "
+"emoções, em vez de sair espalhando-os por toda interface de usuário."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:118
@@ -1910,11 +1880,6 @@ msgstr "Exemplos"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:62
-#| msgid ""
-#| "Confirmation dialogs use a message dialog to check - or confirm - that "
-#| "the user wants to carry out an action. They have two buttons: one to "
-#| "confirm that the action should be carried out and one to cancel the "
-#| "action."
 msgid ""
 "Confirmation dialogs use a message dialog to check — or confirm — that the "
 "user wants to carry out an action. They have two buttons: one to confirm "
@@ -1978,11 +1943,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/dialogs.page:78
-#| msgid ""
-#| "Action dialogs present options and information about a specific action "
-#| "before it is carried out. They have a heading (which typically describes "
-#| "the action) and two primary buttons - one which allows the action to be "
-#| "carried out and one which cancels it."
 msgid ""
 "Action dialogs present options and information about a specific action "
 "before it is carried out. They have a heading (which typically describes the "
@@ -2791,10 +2751,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/full-screen.page:34
-#| msgid ""
-#| "If an application uses different views, it is only necessary to enable "
-#| "fullscreen for those views where it is useful - primarily those that "
-#| "display content items."
 msgid ""
 "If an application uses different views, it is only necessary to enable "
 "fullscreen for those views where it is useful — primarily those that display "
@@ -3039,10 +2995,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:23
-#| msgid ""
-#| "Window controls - header bars allow windows to be moved by dragging, "
-#| "include window control buttons (typically a single close button), and "
-#| "provide access to a window controls menu."
 msgid ""
 "Window controls — header bars allow windows to be moved by dragging, include "
 "window control buttons (typically a single close button), and provide access "
@@ -3054,9 +3006,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:24
-#| msgid ""
-#| "Headings - a key role of a header bar is to provide context for the "
-#| "content of the window, either through a heading or view switcher."
 msgid ""
 "Headings — a key role of a header bar is to provide context for the content "
 "of the window, either through a heading or view switcher."
@@ -3066,9 +3015,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:25
-#| msgid ""
-#| "Controls - header bars provide a place for key controls, typically in the "
-#| "form of buttons."
 msgid ""
 "Controls — header bars provide a place for key controls, typically in the "
 "form of buttons."
@@ -3124,11 +3070,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/header-bars.page:42
-#| msgid ""
-#| "Ensure that your header bar only contains a small number of key controls "
-#| "- this will help users to understand the primary functionality provided "
-#| "by the window, and will ensure that the window can be resized to narrow "
-#| "widths."
 msgid ""
 "Ensure that your header bar only contains a small number of key controls — "
 "this will help users to understand the primary functionality provided by the "
@@ -3157,10 +3098,6 @@ msgstr "Barras de cabeçalho são dinâmicas"
 
 #. (itstool) path: section/p
 #: C/header-bars.page:51
-#| msgid ""
-#| "A header bar can - and should - update along with view or mode changes. "
-#| "This ensures that header bar controls are always relevant to the current "
-#| "context."
 msgid ""
 "A header bar can — and should — update along with view or mode changes. This "
 "ensures that header bar controls are always relevant to the current context."
@@ -3213,18 +3150,14 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/header-bars.page:64
-#| msgid ""
-#| "Arrange controls within the header bar according to the three alignment "
-#| "points described in the <link xref=\"visual-layout\">visual layout "
-#| "guidelines</link> - left, center and right."
 msgid ""
 "Arrange controls within the header bar according to the three alignment "
 "points described in the <link xref=\"visual-layout\">visual layout "
 "guidelines</link> — left, center and right."
 msgstr ""
 "Organize os controles dentro da barra de cabeçalho de acordo com os três "
-"pontos de alinhamento descritos nas diretrizes de <link xref=\"visual-"
-"layout\">layout visual</link> – esquerda, centro e direita."
+"pontos de alinhamento descritos nas diretrizes de <link xref=\"visual-layout"
+"\">layout visual</link> – esquerda, centro e direita."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:65
@@ -3499,8 +3432,8 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/icon-design.page:71
-msgid "Cyan"
-msgstr "Ciano"
+msgid "Green"
+msgstr "Verde"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3510,16 +3443,16 @@ msgstr "Ciano"
 #: C/icon-design.page:72
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/cyan.png' "
-"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
 msgstr ""
-"external ref='figures/icons/palette/cyan.png' "
-"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:75
-msgid "Green"
-msgstr "Verde"
+msgid "Yellow"
+msgstr "Amarelo"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3529,16 +3462,16 @@ msgstr "Verde"
 #: C/icon-design.page:76
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/green.png' "
-"md5='5b19c078da23f4462a697f7469dc1620'"
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
 msgstr ""
-"external ref='figures/icons/palette/green.png' "
-"md5='5b19c078da23f4462a697f7469dc1620'"
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:79
-msgid "Yellow"
-msgstr "Amarelo"
+msgid "Orange"
+msgstr "Laranja"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3548,16 +3481,16 @@ msgstr "Amarelo"
 #: C/icon-design.page:80
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/yellow.png' "
-"md5='1cfcf8657720355a24dd457923a540c3'"
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
 msgstr ""
-"external ref='figures/icons/palette/yellow.png' "
-"md5='1cfcf8657720355a24dd457923a540c3'"
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:83
-msgid "Orange"
-msgstr "Laranja"
+msgid "Red"
+msgstr "Vermelho"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3567,16 +3500,16 @@ msgstr "Laranja"
 #: C/icon-design.page:84
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/orange.png' "
-"md5='2aca9f2cca26e646b289ee00542b1690'"
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
 msgstr ""
-"external ref='figures/icons/palette/orange.png' "
-"md5='2aca9f2cca26e646b289ee00542b1690'"
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:87
-msgid "Red"
-msgstr "Vermelho"
+msgid "Purple"
+msgstr "Roxo"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3586,16 +3519,16 @@ msgstr "Vermelho"
 #: C/icon-design.page:88
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/red.png' "
-"md5='f3ec5513b9be713a1de46b2f524452dd'"
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
 msgstr ""
-"external ref='figures/icons/palette/red.png' "
-"md5='f3ec5513b9be713a1de46b2f524452dd'"
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:91
-msgid "Purple"
-msgstr "Roxo"
+msgid "Brown"
+msgstr "Marrom"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3605,16 +3538,16 @@ msgstr "Roxo"
 #: C/icon-design.page:92
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/purple.png' "
-"md5='5077e893507ac99732017e9f254886c1'"
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
 msgstr ""
-"external ref='figures/icons/palette/purple.png' "
-"md5='5077e893507ac99732017e9f254886c1'"
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:95
-msgid "Brown"
-msgstr "Marrom"
+msgid "Neutral"
+msgstr "Neutro"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -3624,25 +3557,6 @@ msgstr "Marrom"
 #: C/icon-design.page:96
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/brown.png' "
-"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
-msgstr ""
-"external ref='figures/icons/palette/brown.png' "
-"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
-
-#. (itstool) path: td/p
-#: C/icon-design.page:99
-msgid "Neutral"
-msgstr "Neutro"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icon-design.page:100
-msgctxt "_"
-msgid ""
 "external ref='figures/icons/palette/neutral.png' "
 "md5='54148d53f6fb3563dd8454f39845d467'"
 msgstr ""
@@ -3650,23 +3564,29 @@ msgstr ""
 "md5='54148d53f6fb3563dd8454f39845d467'"
 
 #. (itstool) path: section/p
-#: C/icon-design.page:105
+#: C/icon-design.page:101
+#| msgid ""
+#| "You are free to use different shades of these colors depending on the "
+#| "desired material effect. However, these primary colors are a good "
+#| "baseline to start from. A GIMP/Inkscape format palette <link href="
+#| "\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/"
+#| "raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">is available</"
+#| "link>."
 msgid ""
 "You are free to use different shades of these colors depending on the "
 "desired material effect. However, these primary colors are a good baseline "
 "to start from. A GIMP/Inkscape format palette <link href=\"https://gitlab."
-"gnome.org/Community/Design/HIG-app-icons/"
-"raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">is available</link>."
+"gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false"
+"\">is available</link>."
 msgstr ""
 "Você é livre para usar tons diferentes dessas cores, dependendo do efeito "
 "material desejado. No entanto, essas cores primárias são uma boa linha de "
 "base para começar. Uma paleta no formato do GIMP/Inkscape <link href="
-"\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/"
-"raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">está disponível</"
-"link>."
+"\"https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG."
+"gpl?inline=false\">está disponível</link>."
 
 #. (itstool) path: section/p
-#: C/icon-design.page:107
+#: C/icon-design.page:103
 msgid ""
 "It is recommended to keep flat surfaces unshaded, but using gradients to "
 "signify bent surfaces is allowed."
@@ -3675,12 +3595,12 @@ msgstr ""
 "gradientes para indicar superfícies tortas."
 
 #. (itstool) path: section/title
-#: C/icon-design.page:114
+#: C/icon-design.page:110
 msgid "Symbolic icons"
 msgstr "Ícones simbólicos"
 
 #. (itstool) path: section/p
-#: C/icon-design.page:116
+#: C/icon-design.page:112
 msgid ""
 "Symbolic icons have a simple form and are drawn within a 16×16 pixel grid. "
 "They are then programmatically scaled and colored within the user interface "
@@ -3691,7 +3611,7 @@ msgstr ""
 "programada dentro da própria interface do usuário."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:119
+#: C/icon-design.page:115
 msgid ""
 "Identify a single property when looking for an appropriate metaphor for an "
 "icon, and focus on what distinguishes the idea you want to communicate. For "
@@ -3707,7 +3627,7 @@ msgstr ""
 "alinhar)."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:120
+#: C/icon-design.page:116
 msgid ""
 "Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
 "view."
@@ -3716,17 +3636,20 @@ msgstr ""
 "ortogonal simples."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:121
+#: C/icon-design.page:117
+#| msgid ""
+#| "When using unfilled strokes for an outline, try avoiding hairline (1px) "
+#| "and do at least a 2px stroke for the meain feature of the icon."
 msgid ""
 "When using unfilled strokes for an outline, try avoiding hairline (1px) and "
-"do at least a 2px stroke for the meain feature of the icon."
+"do at least a 2px stroke for the main feature of the icon."
 msgstr ""
 "Ao usar traços não preenchidos para uma estrutura de tópicos, tente evitar "
 "linha fina (1px) e faça pelo menos um traçado de 2px para o recurso "
 "principal do ícone."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:122
+#: C/icon-design.page:118
 msgid ""
 "Symbolic icons are recolored at runtime to match the context, very much like "
 "a piece of text. While there are ways to “shade” parts of an icon by using "
@@ -3739,7 +3662,7 @@ msgstr ""
 "duotone/dithering de padrão, tente evitá-las o máximo possível."
 
 #. (itstool) path: item/p
-#: C/icon-design.page:123
+#: C/icon-design.page:119
 msgid ""
 "When a metaphor relies on the negative space, make sure it will work with "
 "the colors inverted. For example a camera lens spec/highlight will only work "
@@ -3754,7 +3677,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icon-design.page:126
+#: C/icon-design.page:122
 msgctxt "_"
 msgid ""
 "external ref='figures/icons/inverting.svg' "
@@ -3764,12 +3687,12 @@ msgstr ""
 "md5='e4155d9e87e2abe95e70c42185686b5e'"
 
 #. (itstool) path: section/title
-#: C/icon-design.page:129
+#: C/icon-design.page:125
 msgid "Size and grid"
 msgstr "Tamanho e grade"
 
 #. (itstool) path: section/p
-#: C/icon-design.page:131
+#: C/icon-design.page:127
 msgid ""
 "While symbolic icons are scalable and should work at any size, the basic "
 "canvas size is 16×16 grid units. You have the whole canvas to fill, but note "
@@ -3817,12 +3740,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:26
-#| msgid ""
-#| "Full-color icons are colorful and detailed, and are optimized for larger "
-#| "sizes. They are defined as 128x128px SVGs, and are sharpest when scaled "
-#| "up in multiples of 128 (such as 256✕256 and 512✕512).The design of full-"
-#| "color icons also allows them to be rendered sharp at 64x64px and 32x32px, "
-#| "but is not advised to make them any smaller."
 msgid ""
 "Full-color icons are colorful and detailed, and are optimized for larger "
 "sizes. They are defined as 128×128px SVGs, and are sharpest when scaled up "
@@ -3831,11 +3748,11 @@ msgid ""
 "not advised to make them any smaller."
 msgstr ""
 "Os ícones coloridos (full-color, em inglês) são cheios cores e detalhados, e "
-"são otimizados para tamanhos maiores. Eles são definidos como SVGs de 128×"
-"128px e são mais nítidos quando ampliados em múltiplos de 128 (como 256×256 "
-"e 512×512). O design dos ícones coloridos também permite que eles sejam "
-"renderizados com nitidez em 64×64px e 32×32px, mas é não é aconselhável "
-"torná-los menores."
+"são otimizados para tamanhos maiores. Eles são definidos como SVGs de "
+"128×128px e são mais nítidos quando ampliados em múltiplos de 128 (como "
+"256×256 e 512×512). O design dos ícones coloridos também permite que eles "
+"sejam renderizados com nitidez em 64×64px e 32×32px, mas é não é "
+"aconselhável torná-los menores."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -3996,10 +3913,6 @@ msgstr "Outras coisas para considerar quando estiver usando ícones:"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:67
-#| msgid ""
-#| "Think about which icons will be meaningful in the specific context of "
-#| "your application - users of specialist tools will often be familiar with "
-#| "domain-specific symbols."
 msgid ""
 "Think about which icons will be meaningful in the specific context of your "
 "application — users of specialist tools will often be familiar with domain-"
@@ -4011,12 +3924,19 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:68
+#| msgid ""
+#| "Remember that some icons are only meaningful alongside other icons of the "
+#| "same type. For example, a media icon for stop is simply a square, and may "
+#| "not be identified as a stop icon without other media controls (like play, "
+#| "pause, or skip) being visible close by. Likewise, the icon to remove an "
+#| "item from a list is a subtract symbol (ie. a single line), and will not "
+#| "be recognizable without a corresponding “plus” add icon."
 msgid ""
 "Remember that some icons are only meaningful alongside other icons of the "
 "same type. For example, a media icon for stop is simply a square, and may "
 "not be identified as a stop icon without other media controls (like play, "
 "pause, or skip) being visible close by. Likewise, the icon to remove an item "
-"from a list is a subtract symbol (ie. a single line), and will not be "
+"from a list is a subtract symbol (i.e. a single line), and will not be "
 "recognizable without a corresponding “plus” add icon."
 msgstr ""
 "Lembre-se de que alguns ícones só são úteis ao lado de outros ícones do "
@@ -4024,7 +3944,7 @@ msgstr ""
 "quadrado e pode não ser identificado como um ícone de parada sem outros "
 "controles de mídia (como reproduzir, pausar ou ignorar) sendo visíveis por "
 "perto. Da mesma forma, o ícone para remover um item de uma lista é um "
-"símbolo de subtração (i.e., uma única linha) e não será reconhecível sem um "
+"símbolo de subtração (p.ex., uma única linha) e não será reconhecível sem um "
 "ícone de “mais” correspondente."
 
 #. (itstool) path: page/title
@@ -7278,12 +7198,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:96
-#| msgid ""
-#| "The menubar is normally visible at all times and is always accessible "
-#| "from the keyboard, so make all the commands available in your application "
-#| "available on the menubar. (This guideline is unique to menu bars - other "
-#| "menus should not seek to reproduce functionality that is made available "
-#| "by other controls)."
 msgid ""
 "The menubar is normally visible at all times and is always accessible from "
 "the keyboard, so make all the commands available in your application "
@@ -7299,10 +7213,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:97
-#| msgid ""
-#| "Treat <link xref=\"application-menus\">application menus</link> as part "
-#| "of the menu bar - it is not necessary to reproduce items from the "
-#| "application menu in other menus."
 msgid ""
 "Treat <link xref=\"application-menus\">application menus</link> as part of "
 "the menu bar — it is not necessary to reproduce items from the application "
@@ -7478,9 +7388,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/menus.page:50
-#| msgid ""
-#| "Organize similar menu items into groups using dividers - this will make "
-#| "them easier to understand and quicker to use. When creating groups:"
 msgid ""
 "Organize similar menu items into groups using dividers — this will make them "
 "easier to understand and quicker to use. When creating groups:"
@@ -7513,9 +7420,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menus.page:55
-#| msgid ""
-#| "Do not mix different types of menu item within each group - actions, "
-#| "check box and radio button items should be kept separate."
 msgid ""
 "Do not mix different types of menu item within each group — actions, check "
 "box and radio button items should be kept separate."
@@ -7562,13 +7466,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menus.page:67
-#| msgid ""
-#| "Two linked actions can be combined into a single menu item, by changing "
-#| "the label when the item is selected. For example, a <gui>Play</gui> item "
-#| "may change to <gui>Pause</gui>. However, only use this type of item when "
-#| "actions are logical opposites which are obvious to users. Likewise, do "
-#| "not use this technique for settings - use check boxes or radio buttons "
-#| "instead."
 msgid ""
 "Two linked actions can be combined into a single menu item, by changing the "
 "label when the item is selected. For example, a <gui>Play</gui> item may "
@@ -7797,9 +7694,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/notifications.page:81
-#| msgid ""
-#| "Actions should not replace user interface controls elsewhere - it should "
-#| "be possible to take the same actions from your application’s windows."
 msgid ""
 "Actions should not replace user interface controls elsewhere — it should be "
 "possible to take the same actions from your application’s windows."
@@ -7945,12 +7839,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overlaid-controls.page:24
-#| msgid ""
-#| "Since overlaid controls hide when they are not in use, they help to "
-#| "provide an uncluttered viewing experience. They are appropriate when it "
-#| "is desirable to present a clean and distraction-free view on a content "
-#| "item - this is particularly (although not exclusively) appropriate for "
-#| "images and video."
 msgid ""
 "Since overlaid controls hide when they are not in use, they help to provide "
 "an uncluttered viewing experience. They are appropriate when it is desirable "
@@ -8007,7 +7895,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:37
-#| msgid "Use the standard \"OSD\" theme style for overlaid controls."
 msgid "Use the standard “OSD” theme style for overlaid controls."
 msgstr "Use o estilo de tema padrão “OSD” para controles sobrepostos."
 
@@ -8090,12 +7977,6 @@ msgstr "Entrada do ponteiro"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:24
-#| msgid ""
-#| "A pointing device is any input device that allows the manipulation of a "
-#| "pointer - typically represented as an arrow, and often called a cursor - "
-#| "on screen. While mice and touchpads are the most common, there are a wide "
-#| "variety of such devices, including graphics tablets, track balls, track "
-#| "points and joysticks."
 msgid ""
 "A pointing device is any input device that allows the manipulation of a "
 "pointer — typically represented as an arrow, and often called a cursor — on "
@@ -8425,9 +8306,6 @@ msgstr "Tocar em um item."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:130
-#| msgid ""
-#| "Primary action. Item opens - photo is shown full size, application "
-#| "launches, song starts playing."
 msgid ""
 "Primary action. Item opens — photo is shown full size, application launches, "
 "song starts playing."
@@ -8526,8 +8404,8 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:154
-msgid "Changes the zoom level of the view (eg. Maps, Photos)."
-msgstr "Altera o nível de zoom da visão (p. ex., Mapas e Fotos)."
+msgid "Changes the zoom level of the view (e.g. Maps, Photos)."
+msgstr "Altera o nível de zoom da visão (p.ex., Mapas e Fotos)."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:157
@@ -9252,9 +9130,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:76
-#| msgid ""
-#| "Primary windows should be independent - closing one primary window should "
-#| "not result in other primary windows being closed."
 msgid ""
 "Primary windows should be independent — closing one primary window should "
 "not result in other primary windows being closed."
@@ -9799,10 +9674,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:43
-#| msgid ""
-#| "Generally, only one progress spinner should be displayed at once. Avoid "
-#| "showing a large number of spinners simultaneously - this will often be "
-#| "visually overwhelming."
 msgid ""
 "Generally, only one progress spinner should be displayed at once. Avoid "
 "showing a large number of spinners simultaneously — this will often be "
@@ -9827,13 +9698,12 @@ msgid ""
 "If a spinner is displayed for a long time, a label can indicate both the "
 "identity of the task and progress through it. This can take the form of a "
 "percentage, an indication of the time remaining, or progress through sub-"
-"components of the task (eg. modules downloaded, or pages exported)."
+"components of the task (e.g. modules downloaded, or pages exported)."
 msgstr ""
 "Se um spinner for exibido por um longo período, um rótulo pode indicar a "
 "identidade da tarefa e progredir através dela. Isso pode assumir a forma de "
 "uma porcentagem, uma indicação do tempo restante ou progredir através de "
-"subcomponentes da tarefa (por exemplo, módulos baixados ou páginas "
-"exportadas)."
+"subcomponentes da tarefa (p.ex., módulos baixados ou páginas exportadas)."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:54
@@ -10116,9 +9986,6 @@ msgstr "Resultados de pesquisa"
 
 #. (itstool) path: item/p
 #: C/search.page:53
-#| msgid ""
-#| "Search should be “live” wherever possible - the content view should "
-#| "update to display search results as they are entered."
 msgid ""
 "Search should be “live” wherever possible — the content view should update "
 "to display search results as they are entered."
@@ -10138,10 +10005,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/search.page:55
-#| msgid ""
-#| "If a search term does not return any results, ensure that feedback is "
-#| "given in the content view. Often a simple \"No results\" label is "
-#| "sufficient."
 msgid ""
 "If a search term does not return any results, ensure that feedback is given "
 "in the content view. Often a simple “No results” label is sufficient."
@@ -10936,17 +10799,23 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/switches.page:27
+#| msgid ""
+#| "Switches should be used for controlling services or hardware that have a "
+#| "clear on/off logic. They are particularly appropriate when those services "
+#| "or hardware do not activate immediately (ie. there is a delay between the "
+#| "switch being operated and it having an effect), or when they affect the "
+#| "operation of the application in a significant way."
 msgid ""
 "Switches should be used for controlling services or hardware that have a "
 "clear on/off logic. They are particularly appropriate when those services or "
-"hardware do not activate immediately (ie. there is a delay between the "
+"hardware do not activate immediately (i.e. there is a delay between the "
 "switch being operated and it having an effect), or when they affect the "
 "operation of the application in a significant way."
 msgstr ""
 "Os alternadores devem ser usados para controlar serviços ou hardware que "
 "tenham uma lógica de ativação/desativação clara. Eles são particularmente "
 "apropriados quando esses serviços ou hardware não são ativados imediatamente "
-"(ou seja, há um atraso entre a operação do comutador e seu efeito) ou quando "
+"(p.ex., há um atraso entre a operação do comutador e seu efeito) ou quando "
 "afetam a operação do aplicativo de maneira significativa."
 
 #. (itstool) path: section/p
@@ -11167,11 +11036,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tabs.page:67
-#| msgid ""
-#| "If tabs are an important part of the application, a new tab button can be "
-#| "placed in the header bar or toolbar. Do not show a new tab button in "
-#| "applications where tabs will not always be used - keyboard shortcuts and/"
-#| "or menu items are sufficient in these cases."
 msgid ""
 "If tabs are an important part of the application, a new tab button can be "
 "placed in the header bar or toolbar. Do not show a new tab button in "
@@ -11366,11 +11230,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/text-fields.page:57
-#| msgid ""
-#| "An icon at the beginning of the entry can be used to indicate its purpose "
-#| "- replacing the need for the entry to be labelled. Search entry fields "
-#| "are the classic example of this, where a search icon is placed on the "
-#| "left side of the entry field."
 msgid ""
 "An icon at the beginning of the entry can be used to indicate its purpose — "
 "replacing the need for the entry to be labelled. Search entry fields are the "
@@ -11678,9 +11537,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/typography.page:37
-#| msgid ""
-#| "Do not use graphical backdrops or \"watermarks\" behind text. These "
-#| "interfere with the contrast between the text and its background."
 msgid ""
 "Do not use graphical backdrops or “watermarks” behind text. These interfere "
 "with the contrast between the text and its background."
@@ -12008,12 +11864,6 @@ msgstr "Layout visual"
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:28
-#| msgid ""
-#| "The visual layout of controls, information and content affects how easy "
-#| "it is to understand your application. As part of this, it is important to "
-#| "recognise that visual design has a strong impact on how much work is "
-#| "involved in using an application - poor layout results in users having to "
-#| "put in additional effort, while good layout requires less effort."
 msgid ""
 "The visual layout of controls, information and content affects how easy it "
 "is to understand your application. As part of this, it is important to "
@@ -12048,12 +11898,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:38
-#| msgid ""
-#| "An alignment point is an imaginary vertical or horizontal line through "
-#| "your window that touches the edge of one or more labels or controls in "
-#| "the window. Minimize the number of these - the fewer there are, the "
-#| "cleaner and simpler your layout will appear, and the easier it will be "
-#| "for people to understand."
 msgid ""
 "An alignment point is an imaginary vertical or horizontal line through your "
 "window that touches the edge of one or more labels or controls in the "
@@ -12135,9 +11979,6 @@ msgstr "Recue os elementos em 12 pixels para denotar hierarquia e associação."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:49
-#| msgid ""
-#| "Avoid using frames with visible borders to separate groups of controls - "
-#| "use spacing and headers instead."
 msgid ""
 "Avoid using frames with visible borders to separate groups of controls — use "
 "spacing and headers instead."
@@ -12339,11 +12180,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:50
-#| msgid ""
-#| "Text should adopt a neutral tone and speak from the point of view of the "
-#| "product. Pronouns like “you” or \"my” should therefore be avoided "
-#| "wherever possible. However, if they are unavoidable “your” is preferable "
-#| "to “my”."
 msgid ""
 "Text should adopt a neutral tone and speak from the point of view of the "
 "product. Pronouns like “you” or “my” should therefore be avoided wherever "
@@ -12384,14 +12220,19 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:54
+#| msgid ""
+#| "Latin abbreviations such as “ie” or “eg” should be avoided, since they "
+#| "can't always be easily translated and can be unintelligible when read by "
+#| "screen readers. Instead, use full words like “for example”."
 msgid ""
-"Latin abbreviations such as “ie” or “eg” should be avoided, since they can't "
-"always be easily translated and can be unintelligible when read by screen "
-"readers. Instead, use full words like “for example”."
+"Latin abbreviations such as “i.e.” or “e.g.” should be avoided, since they "
+"can't always be easily translated and can be unintelligible when read by "
+"screen readers. Instead, use full words like “for example”."
 msgstr ""
-"Abreviações latinas como “ie” ou “eg” devem ser evitadas, pois nem sempre "
-"podem ser facilmente traduzidas e podem ser ininteligíveis quando lidas por "
-"leitores de tela. Em vez disso, use palavras completas como “for example”."
+"Abreviações latinas como “i.e.” ou “e.g.” devem ser evitadas, pois nem "
+"sempre podem ser facilmente traduzidas e podem ser ininteligíveis quando "
+"lidas por leitores de tela. Em vez disso, use palavras completas como “for "
+"example”."
 
 #. (itstool) path: section/title
 #: C/writing-style.page:60
@@ -12528,6 +12369,17 @@ msgstr ""
 "<gui>Preferences</gui>. Enquanto esses comandos abrem janelas que podem "
 "incorporar outras funcionalidades, o rótulo não especifica uma ação e, "
 "portanto, não precisa se comunicar com essa entrada ou confirmação adicional."
+
+#~ msgid "Cyan"
+#~ msgstr "Ciano"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/icons/palette/cyan.png' "
+#~ "md5='d3973cbeaf6b494cf5726c8acff35d74'"
+#~ msgstr ""
+#~ "external ref='figures/icons/palette/cyan.png' "
+#~ "md5='d3973cbeaf6b494cf5726c8acff35d74'"
 
 #~ msgid ""
 #~ "These Human Interface Guidelines are intended to help with the creation "
