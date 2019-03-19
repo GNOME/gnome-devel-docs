@@ -1,22 +1,23 @@
 # Brazilian Portuguese translation for gnome-devel-docs (accessibility-devel-guide).
-# Copyright (C) 2017 gnome-devel-docs's COPYRIGHT HOLDER
+# Copyright (C) 2019 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Tatiana Wells <tati.xx@gmail.com>, 2011.
 # Djavan Fagundes <djavan@comum.org>, 2011.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2017, 2018.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2017-2019.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2017-09-23 21:50+0000\n"
-"PO-Revision-Date: 2018-01-23 09:30-0200\n"
+"POT-Creation-Date: 2019-02-03 09:38+0000\n"
+"PO-Revision-Date: 2019-03-19 09:01-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"Language-Team: Portuguese - Brazil <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 1.0.0-beta1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 3.32.0\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -911,8 +912,8 @@ msgstr ""
 "personalizados</link> e <link linkend=\"gad-api-examples\">Exemplos que usam "
 "a API de acessibilidade</link> para mais informações. Informações detalhadas "
 "adicionais podem ser localizadas na apresentação de Marc Mulcahy no GUADEC "
-"2002, <ulink url=\"https://projects.gnome.org/accessibility/talks/GUAD3C"
-"/making-apps-accessible/start.html\">\"Tornando aplicativos do GNOME "
+"2002, <ulink url=\"https://projects.gnome.org/accessibility/talks/GUAD3C/"
+"making-apps-accessible/start.html\">\"Tornando aplicativos do GNOME "
 "acessíveis\"</ulink> (em inglês)."
 
 #. (itstool) path: section/title
@@ -1353,11 +1354,10 @@ msgstr ""
 "ser interessantes se você está escrevendo seus próprios widets "
 "personalizados (veja <link linkend=\"gad-custom\">Criando componentes "
 "acessíveis personalizados</link>) ou se você deseja escrever um aplicativo "
-"de tecnologia assistiva. Seja qual for o propósito, o <ulink url=\""
-"ftp://ftp.gnome.org/pub/GNOME/sources/gail/\">código-fonte do GAIL</ulink> "
-"serve como um tutorial excelente para uso avançado do ATK. Por favor, note "
-"que desde o GTK+ 3.1.10, Gail foi mesclado com GTK+ e deixou de ser um "
-"módulo autônomo."
+"de tecnologia assistiva. Seja qual for o propósito, o <ulink url=\"ftp://ftp."
+"gnome.org/pub/GNOME/sources/gail/\">código-fonte do GAIL</ulink> serve como "
+"um tutorial excelente para uso avançado do ATK. Por favor, note que desde o "
+"GTK+ 3.1.10, Gail foi mesclado com GTK+ e deixou de ser um módulo autônomo."
 
 #. (itstool) path: section/title
 #: C/index.docbook:392
@@ -1578,8 +1578,8 @@ msgid ""
 "type> <varname>my_atk_object</varname>."
 msgstr ""
 "Isso fará com que <function>_my_table_column_inserted_func()</function> seja "
-"chamado sempre que um sinal column_inserted seja emitido no "
-"<type>AtkObject</type> <varname>my_atk_object</varname>"
+"chamado sempre que um sinal column_inserted seja emitido no <type>AtkObject</"
+"type> <varname>my_atk_object</varname>"
 
 #. (itstool) path: section/para
 #: C/index.docbook:494
@@ -1753,10 +1753,9 @@ msgid ""
 "function. Using the above example the naming convention for this function "
 "name would be <function>myatkimp_mytype_get_type()</function>."
 msgstr ""
-"Todos <type>GObject</type>s implementam uma função "
-"<function>get_type()</function>. Usando o exemplo acima, a convenção de nome "
-"para esse nome de função seria "
-"<function>myatkimp_mytype_get_type()</function>."
+"Todos <type>GObject</type>s implementam uma função <function>get_type()</"
+"function>. Usando o exemplo acima, a convenção de nome para esse nome de "
+"função seria <function>myatkimp_mytype_get_type()</function>."
 
 #. (itstool) path: section/para
 #: C/index.docbook:554
@@ -3213,8 +3212,8 @@ msgid ""
 "> </imageobject> <textobject> <phrase>Small toolbar icon with label to its "
 "right</phrase> </textobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"figures/label_right.png\" format=\"PNG\"/>"
-" </imageobject> <textobject> <phrase>Ícone pequeno da barra de ferramentas "
+"<imageobject> <imagedata fileref=\"figures/label_right.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>Ícone pequeno da barra de ferramentas "
 "com rótulo a sua direita</phrase> </textobject>"
 
 #. (itstool) path: row/entry
@@ -5474,12 +5473,12 @@ msgid ""
 msgstr ""
 "Verifique se o botão <guibutton>Capturar UI</guibutton> mostra todos os "
 "itens de objetos para a janela do aplicativo selecionado. Por exemplo, abra "
-"o miniaplicativo “Propriedades de fonte” e clique no botão <guibutton>"
-"Capturar UI</guibutton> na janela <application>GOK</application>. A janela "
-"do aplicativo <application>GOK</application> deve mostrar os nomes de botões "
-"no miniaplicativo – <guibutton>Sans</guibutton>, <guibutton>Sans-"
-"serif</guibutton>, <guibutton>Fechar</guibutton> e "
-"<guibutton>Ajuda</guibutton>."
+"o miniaplicativo “Propriedades de fonte” e clique no botão "
+"<guibutton>Capturar UI</guibutton> na janela <application>GOK</application>. "
+"A janela do aplicativo <application>GOK</application> deve mostrar os nomes "
+"de botões no miniaplicativo – <guibutton>Sans</guibutton>, <guibutton>Sans-"
+"serif</guibutton>, <guibutton>Fechar</guibutton> e <guibutton>Ajuda</"
+"guibutton>."
 
 #. (itstool) path: section/title
 #: C/index.docbook:782
@@ -5511,6 +5510,22 @@ msgstr ""
 
 #. (itstool) path: section/para
 #: C/index.docbook:796
+#| msgid ""
+#| "<application>Accerciser</application> is an interactive Python "
+#| "accessibility explorer for the GNOME Desktop. It uses AT-SPI to inspect "
+#| "and control widgets, allowing you to check if an application is providing "
+#| "correct information to assistive technologies and automated test "
+#| "frameworks. <application>Accerciser</application> has a simple plugin "
+#| "framework which you can use to create custom views of accessibility "
+#| "information. Full documentation can be found <ulink url=\"http://library."
+#| "gnome.org/devel/accerciser/stable\">in the Official Accerciser Manual</"
+#| "ulink>. For a demonstration of <application>Accerciser</application> and "
+#| "<application>PyATSPI</application> (Python-wrappered access and usage of "
+#| "AT-SPI), see <ulink url=\"http://live.gnome.org/Accessibility/"
+#| "PythonPoweredAccessibility\">this article</ulink>. For an excellent "
+#| "walkthrough from the author, see the article titled <ulink url=\"http://"
+#| "www.linuxjournal.com/article/9991\">Make Your Application Accessible with "
+#| "Accerciser</ulink>."
 msgid ""
 "<application>Accerciser</application> is an interactive Python accessibility "
 "explorer for the GNOME Desktop. It uses AT-SPI to inspect and control "
@@ -5521,7 +5536,7 @@ msgid ""
 "documentation can be found <ulink url=\"http://library.gnome.org/devel/"
 "accerciser/stable\">in the Official Accerciser Manual</ulink>. For a "
 "demonstration of <application>Accerciser</application> and "
-"<application>PyATSPI</application> (Python-wrappered access and usage of AT-"
+"<application>PyATSPI</application> (Python-wrapped access and usage of AT-"
 "SPI), see <ulink url=\"http://live.gnome.org/Accessibility/"
 "PythonPoweredAccessibility\">this article</ulink>. For an excellent "
 "walkthrough from the author, see the article titled <ulink url=\"http://www."
