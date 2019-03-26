@@ -17,27 +17,61 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/primary-menu.svg"/>
 
-<p>Primary menus are a standard design pattern that is found in most applications. They are labelled with the menu icon (named <code>menu-open</code>) and contain the top-level menu items for the application. This can include standard items like <gui>Preferences</gui>, <gui>Help</gui> and <gui>About</gui>, as well as other application-specific items.</p>
+<p>Primary menus are a standard design pattern that is found in most applications. They are labelled with the menu icon (named <code>menu-open</code>) and contain the top-level menu items for the application. This can include standard items like <gui>Preferences</gui>, <gui>Help</gui> and <gui>About Application</gui>, as well as other application-specific items.</p>
 
-<p>Primary menus are typically located on the right side of the header bar. When used in combination with a <link xref="sidebar-lists">sidebar list</link>, the primary menu should be placed above the sidebar list.</p>
 
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Most applications have primary menus, since they are the standard location for <gui>About</gui>, which every application is expected to have.</p>
+<p>Most applications have primary menus, since they are the standard location for <gui>About Application</gui>, which every application is expected to have.</p>
 
 </section>
 
 <section id="guidance">
 <title>Guidance</title>
 
+<p>Primary menus are typically placed on the right side of the header bar. However, there are two variations on this rule:</p>
+
+<list>
+<item><p>If the application incorporates in-window navigation, with a top-level location and sub-pages, the primary menu should only be placed on the top level: sub-pages can include a <link xref="secondary-menu">secondary menu</link>, if a menu is required.</p></item>
+<item><p>When used in combination with a <link xref="sidebar-lists">sidebar list</link>, the primary menu should be placed above the sidebar list on the right. If a menu is required for items shown in the content side of the window, a <link xref="secondary-menu">secondary menu</link> can be used.</p></item>
+</list>
+
+<p>Other guidelines:</p>
+
 <list>
 <item><p>Primary menus can contain items for both the current window or view, as well as the application as a whole. This differentiates them from <link xref="secondary-menus">secondary menus</link>, which only contain menu items that relate to a specific view or item.</p></item>
-<item><p>Applications which use in-window navigation should only show the primary menu on the top-level view (typically the main view that is shown when the app is launched). Child views, such as those that show individual items of content, should use <link xref="secondary-menus">secondary</link> rather than primary menus.</p></item>
 <item><p>Follow the <link xref="menus">standard guidelines for menus</link> when deciding on primary menu content and arrangement.</p></item>
-<item><p>A primary menu is contained within a <link xref="popovers">popover</link>. As such, a header bar menu can include a variety of controls, such as groups of buttons.</p></item>
-<item><p>Primary menus shouldn’t include menu items for close or quit: windows can already be closed using the close button in the header bar, and it can be ambiguous as to what a close menu item refers to. Users don't readily differentiate between quit and close, and it can therefore be misleading.</p></item>
+<item><p>A primary menu is contained within a <link xref="popovers">popover</link>. As such, a primary menu can include a variety of controls, such as groups of buttons.</p></item>
 </list>
+
+</section>
+
+<section id="standard-menu-items">
+<title>Standard menu items</title>
+
+<p>The following are standard primary menu items, and should be placed in a group at the end of the menu:</p>
+
+<table>
+<tr>
+<td><p><gui>Preferences</gui></p></td>
+<td><p>Opens the application's preferences dialog, if it has one.</p></td>
+</tr>
+<tr>
+<td><p><gui>Keyboard Shortcuts</gui></p></td>
+<td><p>Opens the application's keyboard shortcuts window, if it has one.</p></td>
+</tr>
+<tr>
+<td><p><gui>Help</gui></p></td>
+<td><p>Opens the application's user documentation in the <app>Help</app> application.</p></td>
+</tr>
+<tr>
+<td><p><gui>About Application</gui></p></td>
+<td><p>Opens the application's about dialog. This item should include the application's name, such as <gui>About Photos</gui> or <gui>About Calculator</gui>. Every primary menu should include this item.</p></td>
+</tr>
+</table>
+
+<p>Primary menus shouldn’t include menu items for close or quit: windows can already be closed using the close button in the header bar, and it can be ambiguous as to what a close menu item refers to. Users don't readily differentiate between quit and close, and it can therefore be misleading.</p>
 
 </section>
 

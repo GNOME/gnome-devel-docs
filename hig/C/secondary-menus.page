@@ -17,7 +17,7 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/secondary-menu.svg"/>
 
-<p>Secondary menus are located in the header bar and include menu items for the current view or content item. This differentiates them from <link xref="primary-menus">primary menus</link>, which include menu items that relate to an entire application (such as <gui>Preferences</gui> and <gui>About</gui>).</p>
+<p>Secondary menus are located in the header bar and include menu items for the current view or content item. This differentiates them from <link xref="primary-menus">primary menus</link>, which include menu items that relate to an entire application (such as <gui>Preferences</gui> and <gui>About "Name"</gui>).</p>
 
 <section id="when-to-use">
 <title>When to use</title>

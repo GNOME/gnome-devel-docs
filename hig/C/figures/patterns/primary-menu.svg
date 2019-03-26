@@ -13,7 +13,7 @@
    height="540"
    id="svg6276"
    version="1.1"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="primary-menu.svg">
   <defs
      id="defs6278" />
@@ -25,14 +25,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="504.68651"
-     inkscape:cy="252.01575"
+     inkscape:cx="663.68651"
+     inkscape:cy="277.01575"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:showpageshadow="false"
      inkscape:window-width="1920"
-     inkscape:window-height="953"
+     inkscape:window-height="1073"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -417,7 +417,7 @@
          style="font-size:14px;line-height:1.25">New</tspan></text>
     <path
        style="fill:#f2f2f2;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1"
-       d="M 550.5,624.8621 H 735 l 14,-12 14,12 h 7.5 c 0,0 6,2.676 6,6 v 285 c 0,3.324 -2.676,6 -6,6 h -220 c -3.324,0 -6,-2.676 -6,-6 v -285 c 0,-3.324 2.6768,-6.0707 6,-6 z"
+       d="M 550.5,624.8621 H 735 l 14,-12 14,12 h 7.5 c 0,0 6,2.676 6,6 v 297 c 0,3.324 -2.676,6 -6,6 h -220 c -3.324,0 -6,-2.676 -6,-6 v -297 c 0,-3.324 2.6768,-6.0707 6,-6 z"
        id="path9277"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="scccssssssss" />
@@ -558,41 +558,35 @@
       </g>
     </g>
     <text
-       id="text1743"
-       y="816.36218"
-       x="563"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         id="tspan1741"
-         style="font-size:14px;line-height:2.20000005"
-         y="816.36218"
-         x="563"
-         sodipodi:role="line">Preferences</tspan></text>
-    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none"
        x="563"
-       y="864.36218"
+       y="816.36218"
        id="text1752"><tspan
          sodipodi:role="line"
          x="563"
-         y="864.36218"
+         y="816.36218"
          style="font-size:14px;line-height:2.20000005"
-         id="tspan1750">Help</tspan><tspan
+         id="tspan1750">Preferences</tspan><tspan
          sodipodi:role="line"
          x="563"
-         y="895.16217"
+         y="847.16217"
          style="font-size:14px;line-height:2.20000005"
-         id="tspan1754">About</tspan></text>
+         id="tspan901">Keyboard Shortcuts</tspan><tspan
+         sodipodi:role="line"
+         x="563"
+         y="877.96216"
+         style="font-size:14px;line-height:2.20000005"
+         id="tspan899">Help</tspan><tspan
+         sodipodi:role="line"
+         x="563"
+         y="908.76221"
+         style="font-size:14px;line-height:2.20000005"
+         id="tspan1754">About Application</tspan></text>
     <path
        style="fill:none;stroke:#dbdbdb;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 557,785.86218 H 763.00001"
        id="path1756"
        inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path1758"
-       d="M 557,835.86218 H 763.00001"
-       style="fill:none;stroke:#dbdbdb;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>

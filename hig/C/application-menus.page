@@ -16,62 +16,6 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/application-menu.svg"/>
 
-<p><em>Application menus are no longer recommended, and will not be displayed in GNOME 3's top bar from GNOME 3.32. <link xref="primary-menus">Primary</link> and <link xref="secondary-menus">secondary menus</link> should be used as alternatives.</em></p>
+<p><em>Application menus are no longer recommended, and their contents will not be included in GNOME 3's top bar from GNOME 3.32. <link xref="primary-menus">Primary</link> and <link xref="secondary-menus">secondary menus</link> should be used as alternatives.</em></p>
 
-<p>Application menus provide access to global, top level actions and options for your application. These include standard items for accessing documentation and information about the application.</p>
-
-<section id="when-to-use">
-<title>When to use</title>
-
-<p>Application menus are a standard part of GNOME 3, and every application that runs under GNOME 3 should have one.</p>
-
-</section>
-
-<section id="general-guidelines">
-<title>General guidelines</title>
-
-<list>
-<item><p>Follow the standard <link xref="menus">guidance for menus</link>.</p></item>
-<item><p>Only include menu items that relate to the application as a whole, such as application preferences. Items that are specific to a particular window or view, or which act on content within an application window, should not be included.</p></item>
-<item><p>If an item from the application menu is frequently used, consider moving it to a more accessible location.</p></item>
-</list>
-
-</section>
-
-<section id="standard-menu-items">
-<title>Standard menu items</title>
-
-<p>Common application menu items include <gui>New Window</gui>, <gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be contained within their own group at the bottom of the menu.</p>
-
-<table>
-<tr>
-<td><p><gui>New Window</gui></p></td>
-<td><p>Opens a new window. Only <link xref="primary-windows#application-types">multiple instance applications</link> should include this menu item. If the new window contains a specific type of content item, or simultaneously performs an action, rename it to be less generic. For example: <gui>New Connection</gui> or <gui>New Document</gui>.</p></td>
-</tr>
-<tr>
-<td><p><gui>Preferences</gui></p></td>
-<td><p>Opens the application's preferences dialog. Only show this menu item if your application has a preferences dialog.</p></td>
-</tr>
-<tr>
-<td><p><gui>Help</gui></p></td>
-<td><p>Opens your application's user documentation in the <app>Help</app> application. Only show this menu item if your application has user documentation.</p></td>
-</tr>
-<tr>
-<td><p><gui>About</gui></p></td>
-<td><p>Opens the application's about dialog. Every application menu should include this item.</p></td>
-</tr>
-<tr>
-<td><p><gui>Quit</gui></p></td>
-<td><p>Closes the application, including all application windows. Every application menu should include this item.</p></td>
-</tr>
-</table>
-
-</section>
-
-<section id="api-reference">
-<title>API reference</title>
-<list>
-<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkApplication.html">GtkApplication</link></p></item>
-</list>
-</section>
 </page>
