@@ -121,7 +121,7 @@
 
 <p>Use adaptive design to make your application a great experience across this range of devices. This means responding to properties of the environment (such as a small screen or lack of a physical keyboard) individually, rather than having device-specific modes.</p>
 
-<p>This can be done by hiding things that are specific to an input method that is not available, moving interface elements around to make them fit onto smaller screens, or using adaptive navigation patterns such as the Leaflet.</p>
+<p>This can be done by hiding things that are specific to an input method that is not available, moving interface elements around to make them fit onto smaller screens, or using adaptive navigation patterns.</p>
 
 </section>
 
