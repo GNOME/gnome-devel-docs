@@ -1,3 +1,11 @@
+3.32.1
+======
+* Updated HIG guidance for menus (Allan Day)
+* Updated translations:
+  de    (Mario Blättermann, Tim Sabsch)
+  es    (Daniel Mustieles)
+  pt_BR (Rafael Fontenelle)
+
 3.32.0
 ======
 * Updated palette in the HIG (Jakub Steiner)
