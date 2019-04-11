@@ -33,8 +33,8 @@
 <p>Primary menus are typically placed on the right side of the header bar. However, there are two variations on this rule:</p>
 
 <list>
-<item><p>If the application incorporates in-window navigation, with a top-level location and sub-pages, the primary menu should only be placed on the top level: sub-pages can include a <link xref="secondary-menu">secondary menu</link>, if a menu is required.</p></item>
-<item><p>When used in combination with a <link xref="sidebar-lists">sidebar list</link>, the primary menu should be placed above the sidebar list on the right. If a menu is required for items shown in the content side of the window, a <link xref="secondary-menu">secondary menu</link> can be used.</p></item>
+<item><p>If the application incorporates in-window navigation, with a top-level location and sub-pages, the primary menu should only be placed on the top level: sub-pages can include a <link xref="secondary-menus">secondary menu</link>, if a menu is required.</p></item>
+<item><p>When used in combination with a <link xref="sidebar-lists">sidebar list</link>, the primary menu should be placed above the sidebar list on the right. If a menu is required for items shown in the content side of the window, a <link xref="secondary-menus">secondary menu</link> can be used.</p></item>
 </list>
 
 <p>Other guidelines:</p>
