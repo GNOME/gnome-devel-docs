@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2019-04-05 12:46+0000\n"
-"PO-Revision-Date: 2019-04-08 21:30+0200\n"
+"PO-Revision-Date: 2019-04-12 23:59+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -2721,7 +2721,7 @@ msgstr ""
 "Ein Gitter ist eine der primären Methoden zur Präsentation inhaltlicher "
 "Sammlungen in GNOME 3. Gitter werden oft mit einer Reihe von anderen "
 "Designmustern kombiniert, wie <link xref=\"search\">Suche</link> und <link "
-"xref=\"selection-mode\">Auswahlmodus</link>."
+"xref=\"selection-mode\">Markierungsmodus</link>."
 
 #. (itstool) path: section/p
 #: C/grids.page:25
@@ -2776,7 +2776,7 @@ msgstr ""
 msgid ""
 "Consider combining the grid view search, selection mode and collections."
 msgstr ""
-"Denken Sie darüber nach, ob Sie Gitteransicht, Auswahlmodus und Sammlungen"
+"Denken Sie darüber nach, ob Sie Gitteransicht, Markierungsmodus und Sammlungen"
 " kombinieren könnten."
 
 #. (itstool) path: item/p
@@ -2872,7 +2872,7 @@ msgstr ""
 "der traditionellen Kombination aus Titelleiste, Menüleiste und "
 "Werkzeugleiste eine Reihe von Vorzügen. Dazu gehören eine schmalere "
 "vertikale Abbildung, dynamische Navigation und Moduswechsel (wie der <link "
-"xref=\"selection-mode\">Auswahlmodus</link>)."
+"xref=\"selection-mode\">Markierungsmodus</link>)."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:33
@@ -6583,7 +6583,8 @@ msgstr ""
 "link> und <link xref=\"header-bar-menus\">Kopfleistenmenüs</link> generell "
 "gegenüber Menüleisten bevorzugt werden, zusammen mit weiteren Designmustern "
 "zum bedarfsweisen Darstellen von Bedienelementen, wie <link xref=\"selection-"
-"mode\">Auswahlmodus</link>, <link xref=\"action-bars\">Aktionsleisten</link> "
+"mode\">Markierungsmodus</link>, <link xref=\"action-bars\">Aktionsleisten<"
+"/link> "
 "und <link xref=\"popovers\">Einblendmenüs</link>."
 
 # Siehe da, Apple kommt doch nicht aus dem Mustopf… -mb
@@ -6953,7 +6954,8 @@ msgid ""
 "relevant pages for advice on when to use these elements."
 msgstr ""
 "Menüs können als Teil einer <link xref=\"menu-bars\">Menüleiste</link>, als "
-"Kontextmenüs (siehe <link xref=\"selection-mode\">Auswahlmodus</link>) oder "
+"Kontextmenüs (siehe <link xref=\"selection-mode\">Markierungsmodus</link>)"
+" oder "
 "als Teil eines <link xref=\"button-menus\">Knopfmenüs</link> auftreten. In "
 "den verlinkten Seiten finden Sie Anweisungen, wann Sie welche Elemente "
 "verwenden sollten."
@@ -8187,6 +8189,11 @@ msgid ""
 "However, don’t mix too many different types of control within the same "
 "popover, and try to group controls of the same type together."
 msgstr ""
+"Ein Einblenddialog ist ein generischer Container und kann als solcher eine"
+" breite Auswahl an Bedienelementen enthalten, zum Beispiel Knöpfe,"
+" Schieberegler, Listen, Schalter und Textfelder. Dennoch sollten Sie nicht zu"
+" viele verschiedene Elementtypen im gleichen Einblenddialog miteinander"
+" mischen und versuchen, Bedienelemente des gleichen Typs zu gruppieren."
 
 #. (itstool) path: item/p
 #: C/popovers.page:46
@@ -8194,6 +8201,8 @@ msgid ""
 "Popovers can function as a container for a menu, or for a menu in "
 "combination with a small number of supplementary controls."
 msgstr ""
+"Einblenddialoge können als Container für ein Menü fungieren, oder auch für"
+" ein Menü in Verbindung mit wenigen ergänzenden Bedienelementen."
 
 #. (itstool) path: item/p
 #: C/popovers.page:47
@@ -8201,6 +8210,8 @@ msgid ""
 "If the purpose of a popover’s controls is ambiguous, the popover can be "
 "given a heading."
 msgstr ""
+"Wenn der Zweck der Bedienelemente in einem Einblenddialog nicht eindeutig"
+" ist, können Sie den Einblenddialog mit einer Überschrift versehen."
 
 #. (itstool) path: item/p
 #: C/popovers.page:48
@@ -8218,6 +8229,10 @@ msgid ""
 "cover more than a third of their parent window) and low in complexity. They "
 "should always appear as subordinates to their parent windows."
 msgstr ""
+"Einblenddialoge sollten nicht zu groß und auch nicht zu komplex sein. Als"
+" Faustregel gilt, dass sie nicht mehr als ein Drittel der Größe ihres"
+" Elternfensters einnehmen sollten. Sie sollten immer als »Untergebene« ihrer"
+" Elternfenster zu erkennen sein."
 
 #. (itstool) path: section/p
 #: C/popovers.page:58
@@ -8225,6 +8240,8 @@ msgid ""
 "A popover should only ever appear in response to a user action, and should "
 "never appear in a surprising or unintended manner."
 msgstr ""
+"Ein Einblenddialog sollte immer nur als Ergebnis einer Benutzeraktion"
+" erscheinen, niemals in einer überraschenden oder unbeabsichtigten Weise."
 
 #. (itstool) path: item/p
 #: C/popovers.page:67
@@ -8239,6 +8256,8 @@ msgstr ""
 #: C/primary-menus.page:8
 msgid "The application's main menu, denoted by three stacked horizontal lines"
 msgstr ""
+"Das Hauptmenü der Anwendung, durch drei übereinander liegende horizontale"
+" Linien angedeutet"
 
 #. (itstool) path: page/title
 #: C/primary-menus.page:16
@@ -8266,6 +8285,12 @@ msgid ""
 "include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
 "<gui>About Application</gui>, as well as other application-specific items."
 msgstr ""
+"Primäre Menüs sind ein Standard-Designmuster, das in den meisten Anwendungen"
+" zu finden ist. Sie sind mit dem Menü-Symbol beschriftet (namens <code"
+">menu-open</code>) und enthalten das Menü der obersten Ebene der Anwendung."
+" Dieses kann Standardeinträge wie <gui>Preferences</gui>, <gui>Help</gui> und"
+" <gui>About Application</gui> sowie weitere anwendungsspezifische Einträge"
+" enthalten."
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:26
@@ -8274,11 +8299,13 @@ msgid ""
 "for <gui>About Application</gui>, which every application is expected to "
 "have."
 msgstr ""
+"Die meisten Anwendungen haben primäre Menüs, da diese der Standardort für <"
+"gui>About Application</gui> sind, was jede Anwendung haben sollte."
 
 #. (itstool) path: section/title
 #: C/primary-menus.page:31 C/secondary-menus.page:32
 msgid "Guidance"
-msgstr ""
+msgstr "Richtlinien"
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:33
@@ -8286,6 +8313,8 @@ msgid ""
 "Primary menus are typically placed on the right side of the header bar. "
 "However, there are two variations on this rule:"
 msgstr ""
+"Primäre Menüs werden typischerweise am rechten Ende der Kopfleiste platziert."
+" Jedoch gibt es eine Reihe von Abweichungen von dieser Regel:"
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:36
@@ -8295,6 +8324,11 @@ msgid ""
 "level: sub-pages can include a <link xref=\"secondary-menu\">secondary menu</"
 "link>, if a menu is required."
 msgstr ""
+"Wenn die Anwendung Navigation im Fenster mit einem Ort der obersten Ebene und"
+" dazugehörigen Unterseiten ermöglicht, sollte das primäre Menü nur in der"
+" obersten Ebene platziert werden: Unterseiten können ein <link"
+" xref=\"secondary-menu\">sekundäres Menü</link> enthalten, sofern ein Menü"
+" erforderlich ist."
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:37
@@ -8304,6 +8338,11 @@ msgid ""
 "right. If a menu is required for items shown in the content side of the "
 "window, a <link xref=\"secondary-menu\">secondary menu</link> can be used."
 msgstr ""
+"Wenn ein primäres Menü mit einer <link xref=\"sidebar-lists\""
+">Seitenleistenliste</link> kombiniert wird, sollte es oberhalb der rechten"
+" Seitenleistenliste platziert werden. Wenn für die im Inhaltsbereich des"
+" Fensters angezeigten Elemente ein Menü notwendig ist, können Sie dafür ein <"
+"link xref=\"secondary-menu\">sekundäres Menü</link> verwenden."
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:40
@@ -8318,6 +8357,12 @@ msgid ""
 "\"secondary-menus\">secondary menus</link>, which only contain menu items "
 "that relate to a specific view or item."
 msgstr ""
+"Primäre Menüs können Einträge für sowohl das aktuelle Fenster oder die"
+" aktuelle Ansicht, aber auch für die Anwendung als Ganzes enthalten. Dies"
+" unterscheidet sie von <link xref="
+"\"secondary-menus\">sekundären Menüs</link>, welche nur Menüeinträge"
+" enthalten, die sich auf eine spezifische Ansicht oder ein spezifisches"
+" Objekt beziehen."
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:44
@@ -8351,6 +8396,8 @@ msgid ""
 "The following are standard primary menu items, and should be placed in a "
 "group at the end of the menu:"
 msgstr ""
+"Die folgenden Einträge gelten als Standards für ein primäres Menü und sollten"
+" an dessen Ende platziert werden:"
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:57
@@ -8508,22 +8555,24 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/primary-windows.page:48
 msgid "Viewing several content items alongside each other."
-msgstr ""
+msgstr "Anzeige verschiedener Inhaltsobjekte nebeneinander."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:49
 msgid "Placing content on different workspaces."
-msgstr ""
+msgstr "Platzierung von Inhalten auf verschiedenen Arbeitsflächen."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:50
 msgid "Organizing sets of content into different windows (if using tabs)."
 msgstr ""
+"Organisieren von Inhalten in verschiedenen Fenstern (falls Reiter verwendet"
+" werden)."
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:54
 msgid "Parent/child primary windows"
-msgstr ""
+msgstr "Primäre Eltern-/Kind-Fenster"
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:56
@@ -8532,6 +8581,9 @@ msgid ""
 "the case multiple web browser windows, for example). However, this is not "
 "always the case."
 msgstr ""
+"Anwendungen mit mehreren Instanzen haben typischerweise identische primäre"
+" Fenster (zum Beispiel mehrere Webbrowser-Fenster). Dies ist jedoch nicht"
+" immer der Fall."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:58
@@ -8542,6 +8594,11 @@ msgid ""
 "a separate child window. This allows multiple content items to be "
 "simultaneously open."
 msgstr ""
+"Primäre Fenster können eine Eltern-/Kind-Beziehung haben. In diesem"
+" Anwendungstyp gibt es immer nur ein Eltern-Fenster. Dieses enthält"
+" typischerweise Inhaltsobjekte, die im Eltern-Fenster oder in einem separaten"
+" Kind-Fenster geöffnet werden könnten. Dies ermöglicht, dass mehrere"
+" Inhaltsobjekte gleichzeitig geöffnet sein können."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:60
@@ -8550,6 +8607,10 @@ msgid ""
 "dependent on them in order to stay open: closing the parent window does not "
 "result in the closure of the application's child windows."
 msgstr ""
+"Da Kind-Fenster nur über ein Eltern-Fenster geöffnet werden können, sind"
+" diese nicht von diesen abhängig, wenn es darum geht, sie geöffnet zu halten:"
+" Das Schließen eines Eltern-Fensters bedingt nicht das Schließen aller ihrer"
+" Kind-Fenster."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:62
@@ -8557,6 +8618,8 @@ msgid ""
 "GNOME's <app>Notes</app> application is a good example of parent/child "
 "primary windows."
 msgstr ""
+"Die <app>Notes</app>-Anwendung von GNOME ist ein gutes Beispiel für primäre"
+" Eltern-/Kind-Fenster."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:73
@@ -8573,6 +8636,8 @@ msgid ""
 "If your application launcher is activated while your application is running, "
 "all its primary windows should be displayed."
 msgstr ""
+"Falls Ihr Anwendungsstarter aktiviert wird, während Ihre Anwendung läuft,"
+" sollten alle primären Fenster der Anwendung angezeigt werden."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:75
@@ -8675,6 +8740,9 @@ msgid ""
 "an operation takes more than around three seconds. This ensures that users "
 "understand that they have to wait, and that an error has not occurred."
 msgstr ""
+"Es ist normalerweise notwendig, den Fortschritt anzuzeigen, wenn der Vorgang"
+" länger als etwa drei Sekunden dauert. Dadurch können Benutzer besser"
+" verstehen, dass sie warten müssen und dass kein Fehler aufgetreten ist."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:41
@@ -8687,6 +8755,14 @@ msgid ""
 "<link xref=\"progress-spinners\">progress spinners</link> are often a better "
 "choice."
 msgstr ""
+"Beim Anzeigen des Fortschritts besteht die primäre Auswahl aus einem"
+" Fortschrittsbalken und einem <link xref=\"progress-spinners\""
+">Fortschritts-Spinner</link>. Fortschrittsbalken zeigen an, wie weit die"
+" Aufgabe bereits abgeschlossen ist. Sie sind daher für Aufgaben sinnvoll, die"
+" lange Zeit erfordern. Als Faustregel gilt, dass Sie Fortschrittsbalken nur"
+" dann verwenden sollten, wenn die Erledigung der Aufgabe länger als 30"
+" Sekunden dauert. Für kürzere Aufgaben sind <link xref=\"progress-spinners\""
+">Fortschritts-Spinner</link> oft die bessere Wahl."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:46
@@ -8730,6 +8806,10 @@ msgid ""
 "remaining progress bar, followed by typical-time. Try to avoid using "
 "indeterminate progress bars."
 msgstr ""
+"Genauigkeit ist für Fortschrittsbalken vorzuziehen. Wo immer es möglich ist,"
+" sollte ein Fortschrittsbalken die verbleibende Zeit anzeigen, gefolgt von"
+" der typischen Zeit. Versuchen Sie, Fortschrittsbalken mit unbestimmten"
+" Zeitangaben zu vermeiden."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:61
@@ -8972,7 +9052,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/progress-spinners.page:18
 msgid "Progress spinners"
-msgstr ""
+msgstr "Fortschritts-Spinner"
 
 #. (itstool) path: page/p
 #: C/progress-spinners.page:20
@@ -9058,6 +9138,9 @@ msgid ""
 "showing a large number of spinners simultaneously — this will often be "
 "visually overwhelming."
 msgstr ""
+"Generell sollten nicht mehrere Fortschritts-Spinner gleichzeitig angezeigt"
+" werden. Vermeiden Sie es, eine große Anzahl Spinner simultan anzuzeigen –"
+" dies führt oft zur visuellen Überfrachtung."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:44
@@ -9065,6 +9148,8 @@ msgid ""
 "A label can be shown next to a spinner if it is helpful to clarify the task "
 "which a spinner relates to."
 msgstr ""
+"Neben dem Fortschritts-Spinner kann eine Beschriftung platziert werden, wenn"
+" verdeutlicht werden soll, worauf sich der Spinner bezieht."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:45
@@ -9131,6 +9216,9 @@ msgid ""
 "exception is when the group is showing the properties of a multiple "
 "selection, when one or more of the buttons may be in their mixed state."
 msgstr ""
+"In einer Gruppe sollte immer nur ein Radioknopf aktiviert sein. Die einzige"
+" Ausnahme ist, wenn die Gruppe die Eigenschaften einer Mehrfachauswahl"
+" anzeigt, wenn einer oder mehrere der Knöpfe in gemischtem Zustand sind."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:42
@@ -9304,6 +9392,9 @@ msgid ""
 "A search button in the header bar should allow the search bar to be "
 "displayed (the search button should toggle)."
 msgstr ""
+"Ein Suchknopf in der Kopfleiste sollte dazu bereit stehen, die Suchleiste"
+" anzuzeigen (der Suchknopf  sollte die Anzeige der Suchleiste ein- oder"
+" ausschalten)."
 
 #. (itstool) path: section/p
 #: C/search.page:45
@@ -9327,6 +9418,8 @@ msgid ""
 "Search should be “live” wherever possible — the content view should update "
 "to display search results as they are entered."
 msgstr ""
+"Wann immer möglich, sollte die Suche »lebendig« sein – die Inhaltsansicht"
+" sollte schon bei der Eingabe durch die Suchergebnisse aktualisiert werden."
 
 #. (itstool) path: item/p
 #: C/search.page:54
@@ -9334,6 +9427,8 @@ msgid ""
 "In order to be effective, it is important that search results are quickly "
 "returned."
 msgstr ""
+"Für die Effektivität ist es wichtig, dass die Suchergebnisse schnell"
+" ausgegeben werden."
 
 #. (itstool) path: item/p
 #: C/search.page:55
@@ -9486,7 +9581,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/selection-mode.page:7
 msgid "Pattern for selecting content items"
-msgstr ""
+msgstr "Muster für die Auswahl von Inhaltsobjekten"
 
 #. (itstool) path: page/title
 #: C/selection-mode.page:15
@@ -9569,7 +9664,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/selection-mode.page:39
 msgid "Activating selection mode"
-msgstr "Aktivieren des Auswahlmodus"
+msgstr "Aktivieren des Markierungsmodus"
 
 #. (itstool) path: section/p
 #: C/selection-mode.page:41
@@ -10099,7 +10194,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/switches.page:36
 msgid "Switch labels"
-msgstr ""
+msgstr "Beschriftung von Schaltern"
 
 #. (itstool) path: section/p
 #: C/switches.page:38
@@ -11556,7 +11651,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/writing-style.page:83
 msgid "Sentence capitalization"
-msgstr "Großschreibung in Sätzen"
+msgstr "Satz-Großschreibung"
 
 #. (itstool) path: section/p
 #: C/writing-style.page:85
