@@ -7,16 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-03-08 11:06+0000\n"
-"PO-Revision-Date: 2019-03-08 21:46+0100\n"
+"POT-Creation-Date: 2019-04-12 22:01+0000\n"
+"PO-Revision-Date: 2019-09-07 22:40+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.see.org>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -92,17 +92,16 @@ msgstr ""
 "visas ovanför."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
-#: C/dialogs.page:36 C/empty-placeholders.page:23 C/full-screen.page:22
-#: C/grids.page:23 C/header-bars.page:29 C/in-app-notifications.page:23
-#: C/info-bars.page:23 C/initial-state-placeholders.page:23 C/lists.page:24
-#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
-#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
-#: C/primary-windows.page:22 C/progress-bars.page:37
-#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
-#: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
-#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
-#: C/view-switchers.page:22
+#: C/action-bars.page:22 C/button-menus.page:25 C/dialogs.page:36
+#: C/empty-placeholders.page:23 C/full-screen.page:22 C/grids.page:23
+#: C/header-bars.page:29 C/in-app-notifications.page:23 C/info-bars.page:23
+#: C/initial-state-placeholders.page:23 C/lists.page:24 C/menu-bars.page:37
+#: C/menus.page:37 C/notifications.page:21 C/overlaid-controls.page:22
+#: C/popovers.page:25 C/primary-menus.page:24 C/primary-windows.page:22
+#: C/progress-bars.page:37 C/progress-spinners.page:25 C/search.page:22
+#: C/secondary-menus.page:23 C/selection-mode.page:24 C/sidebar-lists.page:26
+#: C/sliders.page:37 C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39
+#: C/toolbars.page:36 C/view-switchers.page:22
 msgid "When to use"
 msgstr "När ska de användas"
 
@@ -160,15 +159,15 @@ msgstr ""
 "\"buttons#suggested-and-destructive\">ge dem en lämplig stil</link>."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:41 C/application-menus.page:72 C/buttons.page:89
-#: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
-#: C/header-bars.page:72 C/info-bars.page:46 C/lists.page:148
-#: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
-#: C/popovers.page:64 C/primary-menus.page:45 C/primary-windows.page:85
-#: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
-#: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
-#: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
-#: C/text-fields.page:68 C/toolbars.page:59 C/view-switchers.page:46
+#: C/action-bars.page:41 C/buttons.page:89 C/check-boxes.page:59
+#: C/dialogs.page:169 C/grids.page:44 C/header-bars.page:72 C/info-bars.page:46
+#: C/lists.page:148 C/menu-bars.page:106 C/menus.page:73
+#: C/notifications.page:105 C/popovers.page:64 C/primary-menus.page:79
+#: C/primary-windows.page:85 C/progress-bars.page:129
+#: C/progress-spinners.page:51 C/radio-buttons.page:53 C/search.page:72
+#: C/secondary-menus.page:44 C/sidebar-lists.page:54 C/sliders.page:69
+#: C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99 C/text-fields.page:68
+#: C/toolbars.page:59 C/view-switchers.page:46
 msgid "API reference"
 msgstr "API-referens"
 
@@ -390,177 +389,15 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/application-menus.page:19
 msgid ""
-"<em>Application menus are no longer recommended, and will not be displayed "
-"in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus\">Primary</"
-"link> and <link xref=\"secondary-menus\">secondary menus</link> should be "
-"used as alternatives.</em>"
+"<em>Application menus are no longer recommended, and their contents will not "
+"be included in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus"
+"\">Primary</link> and <link xref=\"secondary-menus\">secondary menus</link> "
+"should be used as alternatives.</em>"
 msgstr ""
-"<em>Programmenyer rekommenderas inte längre och kommer inte att visas i "
-"GNOME 3:s systemrad från och med GNOME 3.32. <link xref=\"primary-menus"
-"\">Primär-</link> och <link xref=\"secondary-menus\">sekundärmenyer</link> "
-"bör användas som alternativ.</em>"
-
-#. (itstool) path: page/p
-#: C/application-menus.page:21
-msgid ""
-"Application menus provide access to global, top level actions and options "
-"for your application. These include standard items for accessing "
-"documentation and information about the application."
-msgstr ""
-"Programmenyer tillhandahåller åtkomst till globala toppnivååtgärder och "
-"alternativ för ditt program. Dessa inkluderar standardobjekt för att nå "
-"dokumentation och information om programmet."
-
-#. (itstool) path: section/p
-#: C/application-menus.page:26
-msgid ""
-"Application menus are a standard part of GNOME 3, and every application that "
-"runs under GNOME 3 should have one."
-msgstr ""
-"Programmenyer är en standarddel av GNOME 3 och varje program som kör under "
-"GNOME 3 borde ha en."
-
-#. (itstool) path: section/title
-#: C/application-menus.page:31 C/button-menus.page:47 C/dialogs.page:155
-#: C/display-compatibility.page:21 C/drop-down-lists.page:34 C/grids.page:32
-#: C/lists.page:133 C/menu-bars.page:93 C/menus.page:61
-#: C/pointer-and-touch-input.page:40 C/popovers.page:55
-#: C/primary-windows.page:70 C/progress-bars.page:117
-#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
-#: C/visual-layout.page:35
-msgid "General guidelines"
-msgstr "Allmänna riktlinjer"
-
-#. (itstool) path: item/p
-#: C/application-menus.page:34
-msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
-msgstr "Följ standarden för <link xref=\"menus\">menyriktlinjer</link>."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:35
-msgid ""
-"Only include menu items that relate to the application as a whole, such as "
-"application preferences. Items that are specific to a particular window or "
-"view, or which act on content within an application window, should not be "
-"included."
-msgstr ""
-"Inkludera endast menyobjekt som relaterar till programmet som helhet, så som "
-"programinställningar. Objekt som är specifika för ett specifikt fönster "
-"eller vy eller som agerar på innehåll inom ett programfönster bör inte "
-"inkluderas."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:36
-msgid ""
-"If an item from the application menu is frequently used, consider moving it "
-"to a more accessible location."
-msgstr ""
-"Om ett objekt från programmenyn används ofta, överväg att flytta det till en "
-"mer lättåtkomlig plats."
-
-#. (itstool) path: section/title
-#: C/application-menus.page:42
-msgid "Standard menu items"
-msgstr "Standardmenyobjekt"
-
-#. (itstool) path: section/p
-#: C/application-menus.page:44
-msgid ""
-"Common application menu items include <gui>New Window</gui>, "
-"<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
-"gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be "
-"contained within their own group at the bottom of the menu."
-msgstr ""
-"Vanliga programmenyobjekt innefattar <gui>Nytt fönster</gui>, "
-"<gui>Inställningar</gui>, <gui>Hjälp</gui>, <gui>Om</gui> samt <gui>Avsluta</"
-"gui>. <gui>Hjälp</gui>, <gui>Om</gui> och <gui>Avsluta</gui> bör finnas i en "
-"egen grupp längst ner i menyn."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:48
-msgid "<gui>New Window</gui>"
-msgstr "<gui>Nytt fönster</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:49
-msgid ""
-"Opens a new window. Only <link xref=\"primary-windows#application-types"
-"\">multiple instance applications</link> should include this menu item. If "
-"the new window contains a specific type of content item, or simultaneously "
-"performs an action, rename it to be less generic. For example: <gui>New "
-"Connection</gui> or <gui>New Document</gui>."
-msgstr ""
-"Öppnar ett nytt fönster. Endast <link xref=\"primary-windows#application-"
-"types\">program med multipla instanser</link> bör ha detta menyobjekt. Om "
-"det nya fönstret innehåller en specifik typ av innehållsobjekt eller "
-"samtidigt utför en åtgärd, bör du ändra dess namn till att vara mindre "
-"allmänt. Till exempel: <gui>Ny anslutning</gui> eller <gui>Nytt dokument</"
-"gui>."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:52
-msgid "<gui>Preferences</gui>"
-msgstr "<gui>Inställningar</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:53
-msgid ""
-"Opens the application's preferences dialog. Only show this menu item if your "
-"application has a preferences dialog."
-msgstr ""
-"Öppnar programmets inställningsdialog. Visa endast detta menyobjekt om ditt "
-"program har en inställningsdialog."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:56 C/keyboard-input.page:286
-msgid "<gui>Help</gui>"
-msgstr "<gui>Hjälp</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:57
-msgid ""
-"Opens your application's user documentation in the <app>Help</app> "
-"application. Only show this menu item if your application has user "
-"documentation."
-msgstr ""
-"Öppnar ditt programs användardokumentation i programmet <app>Hjälp</app>. "
-"Visa endast detta menyobjekt om ditt program har användardokumentation."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:60 C/keyboard-input.page:291
-msgid "<gui>About</gui>"
-msgstr "<gui>Om</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:61
-msgid ""
-"Opens the application's about dialog. Every application menu should include "
-"this item."
-msgstr ""
-"Öppna programmets om-dialog. Varje programmeny bör ha detta menyobjekt."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:64 C/keyboard-input.page:296
-msgid "<gui>Quit</gui>"
-msgstr "<gui>Avsluta</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:65
-msgid ""
-"Closes the application, including all application windows. Every application "
-"menu should include this item."
-msgstr ""
-"Stänger programmet, inklusive alla programfönster. Varje programmeny bör ha "
-"detta menyobjekt."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:74
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
-"\">GtkApplication</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
-"\">GtkApplication</link>"
+"<em>Programmenyer rekommenderas inte längre och deras innehåll kommer inte "
+"att visas i GNOME 3:s systemrad från och med GNOME 3.32. <link xref="
+"\"primary-menus\">Primär-</link> och <link xref=\"secondary-menus"
+"\">sekundärmenyer</link> bör användas som alternativ.</em>"
 
 #. (itstool) path: page/title
 #: C/button-menus.page:18
@@ -721,6 +558,16 @@ msgid ""
 msgstr ""
 "external ref='figures/ui-elements/hybrid-button-menu.svg' "
 "md5='f007dc2c5dc0c25ee85483f31ca85917'"
+
+#. (itstool) path: section/title
+#: C/button-menus.page:47 C/dialogs.page:155 C/display-compatibility.page:21
+#: C/drop-down-lists.page:34 C/grids.page:32 C/lists.page:133
+#: C/menu-bars.page:93 C/menus.page:61 C/pointer-and-touch-input.page:40
+#: C/popovers.page:55 C/primary-windows.page:70 C/progress-bars.page:117
+#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
+#: C/visual-layout.page:35
+msgid "General guidelines"
+msgstr "Allmänna riktlinjer"
 
 #. (itstool) path: item/p
 #: C/button-menus.page:50
@@ -5311,6 +5158,11 @@ msgid "Label"
 msgstr "Etikett"
 
 #. (itstool) path: td/p
+#: C/keyboard-input.page:286 C/primary-menus.page:65
+msgid "<gui>Help</gui>"
+msgstr "<gui>Hjälp</gui>"
+
+#. (itstool) path: td/p
 #: C/keyboard-input.page:287
 msgid "<key>F1</key>"
 msgstr "<key>F1</key>"
@@ -5322,12 +5174,22 @@ msgid ""
 msgstr "Öppnar standardhjälpbläddraren på innehållssidan för programmet."
 
 #. (itstool) path: td/p
+#: C/keyboard-input.page:291
+msgid "<gui>About</gui>"
+msgstr "<gui>Om</gui>"
+
+#. (itstool) path: td/p
 #: C/keyboard-input.page:293
 msgid ""
 "Opens the About dialog for the application. Use the standard GNOME 3 dialog "
 "for this."
 msgstr ""
 "Öppnar Om-dialogen för programmet. Använd GNOME 3:s standarddialog för detta."
+
+#. (itstool) path: td/p
+#: C/keyboard-input.page:296
+msgid "<gui>Quit</gui>"
+msgstr "<gui>Avsluta</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:297
@@ -7440,7 +7302,7 @@ msgstr ""
 "istället."
 
 #. (itstool) path: item/p
-#: C/menus.page:78 C/primary-menus.page:48 C/secondary-menus.page:47
+#: C/menus.page:78 C/primary-menus.page:82 C/secondary-menus.page:47
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
 "\">GtkMenuButton</link>"
@@ -7449,7 +7311,7 @@ msgstr ""
 "\">GtkMenuButton</link>"
 
 #. (itstool) path: item/p
-#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:49
+#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:83
 #: C/secondary-menus.page:48
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
@@ -8746,10 +8608,10 @@ msgstr "Primärmenyer"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/primary-menu.svg' "
-"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+"md5='78f497d54c3ba45846f409ef81debad2'"
 msgstr ""
 "external ref='figures/patterns/primary-menu.svg' "
-"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+"md5='78f497d54c3ba45846f409ef81debad2'"
 
 #. (itstool) path: page/p
 #: C/primary-menus.page:20
@@ -8758,41 +8620,71 @@ msgid ""
 "applications. They are labelled with the menu icon (named <code>menu-open</"
 "code>) and contain the top-level menu items for the application. This can "
 "include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
-"<gui>About</gui>, as well as other application-specific items."
+"<gui>About Application</gui>, as well as other application-specific items."
 msgstr ""
 "Primärmenyer är ett standardiserat designmönster som finns i de flesta "
 "program. De har menyikonen som etikett (vid namn <code>menu-open</code>) och "
-"innehåller toppnivåobjekt för programmets meny. Detta kan omfatta "
-"standardobjekt så som <gui>Inställningar</gui>, <gui>Hjälp</gui> och "
-"<gui>Om</gui> så väl som andra programspecifika objekt."
-
-#. (itstool) path: page/p
-#: C/primary-menus.page:22
-msgid ""
-"Primary menus are typically located on the right side of the header bar. "
-"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
-"link>, the primary menu should be placed above the sidebar list."
-msgstr ""
-"Primärmenyer finns typiskt på högra sidan av rubrikraden. När de används i "
-"kombination med en <link xref=\"sidebar-lists\">sidopanelslista</link>, bör "
-"primärmenyn placeras ovanför sidopanelslistan."
+"innehåller toppnivåobjekten för programmets meny. Detta kan omfatta "
+"standardobjekt så som <gui>Inställningar</gui>, <gui>Hjälp</gui> och <gui>Om "
+"Program</gui> så väl som andra programspecifika objekt."
 
 #. (itstool) path: section/p
-#: C/primary-menus.page:27
+#: C/primary-menus.page:26
 msgid ""
 "Most applications have primary menus, since they are the standard location "
-"for <gui>About</gui>, which every application is expected to have."
+"for <gui>About Application</gui>, which every application is expected to "
+"have."
 msgstr ""
 "De flesta program har primärmenyer, då de är standardplatsen för "
-"menyobjektet <gui>Om</gui>, vilket varje program förväntas ha."
+"menyobjektet <gui>Om Program</gui>, vilket varje program förväntas ha."
 
 #. (itstool) path: section/title
-#: C/primary-menus.page:32 C/secondary-menus.page:32
+#: C/primary-menus.page:31 C/secondary-menus.page:32
 msgid "Guidance"
 msgstr "Råd"
 
+#. (itstool) path: section/p
+#: C/primary-menus.page:33
+msgid ""
+"Primary menus are typically placed on the right side of the header bar. "
+"However, there are two variations on this rule:"
+msgstr ""
+"Primärmenyer placeras typiskt på höger sida av rubrikraden. Det finns dock "
+"två variationer på denna regel:"
+
 #. (itstool) path: item/p
-#: C/primary-menus.page:35
+#: C/primary-menus.page:36
+msgid ""
+"If the application incorporates in-window navigation, with a top-level "
+"location and sub-pages, the primary menu should only be placed on the top "
+"level: sub-pages can include a <link xref=\"secondary-menus\">secondary "
+"menu</link>, if a menu is required."
+msgstr ""
+"Om programmet använder navigering i fönster, med toppnivåplats och "
+"undersidor, bör primärmenyn bara placeras på toppnivån: undersidor kan "
+"inkludera en <link xref=\"secondary-menus\">sekundärmeny</link> om en meny "
+"behövs."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:37
+msgid ""
+"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
+"link>, the primary menu should be placed above the sidebar list on the "
+"right. If a menu is required for items shown in the content side of the "
+"window, a <link xref=\"secondary-menus\">secondary menu</link> can be used."
+msgstr ""
+"Då den används i kombination med en <link xref=\"sidebar-lists"
+"\">sidopanelslista</link> bör primärmenyn placeras ovanför sidopanelslistan "
+"till höger. Om en meny krävs för objekt som visas i fönstrets innehållssida "
+"kan en <link xref=\"secondary-menus\">sekundärmeny</link> användas."
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:40
+msgid "Other guidelines:"
+msgstr "Andra riktlinjer:"
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:43
 msgid ""
 "Primary menus can contain items for both the current window or view, as well "
 "as the application as a whole. This differentiates them from <link xref="
@@ -8805,21 +8697,7 @@ msgstr ""
 "relaterar till en specifik vy eller objekt."
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:36
-msgid ""
-"Applications which use in-window navigation should only show the primary "
-"menu on the top-level view (typically the main view that is shown when the "
-"app is launched). Child views, such as those that show individual items of "
-"content, should use <link xref=\"secondary-menus\">secondary</link> rather "
-"than primary menus."
-msgstr ""
-"Program som använder navigering inom fönstret bör endast visa primärmenyn "
-"för toppnivåvyn (typiskt huvudvyn som visas när programmet startas). "
-"Underordnade vyer som visar individuella innehållsobjekt bör använda <link "
-"xref=\"secondary-menus\">sekundärmenyer</link> snarare än primärmenyer."
-
-#. (itstool) path: item/p
-#: C/primary-menus.page:37
+#: C/primary-menus.page:44
 msgid ""
 "Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
 "deciding on primary menu content and arrangement."
@@ -8828,18 +8706,77 @@ msgstr ""
 "bestämmer innehåll och ordning för primärmenyer."
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:38
+#: C/primary-menus.page:45
 msgid ""
 "A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
-"As such, a header bar menu can include a variety of controls, such as groups "
-"of buttons."
+"As such, a primary menu can include a variety of controls, such as groups of "
+"buttons."
 msgstr ""
 "En primärmeny finns inuti i ett <link xref=\"popovers\">kontextfönster</"
-"link>. Som sådan kan en rubrikradsmeny inkludera en mängd olika komponenter "
-"så som grupper av knappar."
+"link>. Som sådan kan en primärmeny inkludera en mängd olika komponenter så "
+"som grupper av knappar."
 
-#. (itstool) path: item/p
-#: C/primary-menus.page:39
+#. (itstool) path: section/title
+#: C/primary-menus.page:51
+msgid "Standard menu items"
+msgstr "Standardmenyobjekt"
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:53
+msgid ""
+"The following are standard primary menu items, and should be placed in a "
+"group at the end of the menu:"
+msgstr ""
+"Följande är standardobjekt i primärmenyer, och bör placeras i en grupp i "
+"slutet på menyn:"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:57
+msgid "<gui>Preferences</gui>"
+msgstr "<gui>Inställningar</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:58
+msgid "Opens the application's preferences dialog, if it has one."
+msgstr "Öppnar programmets inställningsdialog om det har någon sådan."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:61
+msgid "<gui>Keyboard Shortcuts</gui>"
+msgstr "<gui>Tangentbordsgenvägar</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:62
+msgid "Opens the application's keyboard shortcuts window, if it has one."
+msgstr ""
+"Öppnar programmets fönster för tangentbordsgenvägar, om det har något sådant."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:66
+msgid ""
+"Opens the application's user documentation in the <app>Help</app> "
+"application."
+msgstr ""
+"Öppnar programmets användardokumentation i programmet <app>Hjälp</app>."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:69
+msgid "<gui>About Application</gui>"
+msgstr "<gui>Om Program</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:70
+msgid ""
+"Opens the application's about dialog. This item should include the "
+"application's name, such as <gui>About Photos</gui> or <gui>About "
+"Calculator</gui>. Every primary menu should include this item."
+msgstr ""
+"Öppnar programmets Om-dialogruta. Detta objekt bör innehålla programmets "
+"namn, så som <gui>Om Foton</gui> eller <gui>Om Kalkylator</gui>. Varje "
+"primärmeny bör innehålla detta objekt."
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:74
 msgid ""
 "Primary menus shouldn’t include menu items for close or quit: windows can "
 "already be closed using the close button in the header bar, and it can be "
@@ -10003,14 +9940,14 @@ msgid ""
 "Secondary menus are located in the header bar and include menu items for the "
 "current view or content item. This differentiates them from <link xref="
 "\"primary-menus\">primary menus</link>, which include menu items that relate "
-"to an entire application (such as <gui>Preferences</gui> and <gui>About</"
-"gui>)."
+"to an entire application (such as <gui>Preferences</gui> and <gui>About "
+"\"Name\"</gui>)."
 msgstr ""
 "Sekundärmenyer återfinns i rubrikraden och innehåller menyobjekt för den "
-"aktuella vyn eller innehållsobjektet. Detta skiljer dem från en <link xref="
-"\"primary-menus\">primärmeny</link>, vilken innehåller menyobjekt som "
-"relaterar till hela programmet (så som <gui>Inställningar</gui> och <gui>Om</"
-"gui>)."
+"aktuella vyn eller innehållsobjektet. Detta skiljer dem från <link xref="
+"\"primary-menus\">primärmenyer</link>, vilka innehåller menyobjekt som "
+"relaterar till hela programmet (så som <gui>Inställningar</gui> och <gui>Om "
+"”Namn”</gui>)."
 
 #. (itstool) path: section/p
 #: C/secondary-menus.page:25
@@ -12263,6 +12200,113 @@ msgstr ""
 "<gui>Preferences</gui>. Även om dessa kommandon öppnar fönster som kan "
 "innehålla vidare funktionalitet så anger etiketten inte en åtgärd och "
 "behöver därför inte kommunicera att vidare inmatning eller bekräftelse krävs."
+
+#~ msgid ""
+#~ "Application menus provide access to global, top level actions and options "
+#~ "for your application. These include standard items for accessing "
+#~ "documentation and information about the application."
+#~ msgstr ""
+#~ "Programmenyer tillhandahåller åtkomst till globala toppnivååtgärder och "
+#~ "alternativ för ditt program. Dessa inkluderar standardobjekt för att nå "
+#~ "dokumentation och information om programmet."
+
+#~ msgid ""
+#~ "Application menus are a standard part of GNOME 3, and every application "
+#~ "that runs under GNOME 3 should have one."
+#~ msgstr ""
+#~ "Programmenyer är en standarddel av GNOME 3 och varje program som kör "
+#~ "under GNOME 3 borde ha en."
+
+#~ msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
+#~ msgstr "Följ standarden för <link xref=\"menus\">menyriktlinjer</link>."
+
+#~ msgid ""
+#~ "Only include menu items that relate to the application as a whole, such "
+#~ "as application preferences. Items that are specific to a particular "
+#~ "window or view, or which act on content within an application window, "
+#~ "should not be included."
+#~ msgstr ""
+#~ "Inkludera endast menyobjekt som relaterar till programmet som helhet, så "
+#~ "som programinställningar. Objekt som är specifika för ett specifikt "
+#~ "fönster eller vy eller som agerar på innehåll inom ett programfönster bör "
+#~ "inte inkluderas."
+
+#~ msgid ""
+#~ "If an item from the application menu is frequently used, consider moving "
+#~ "it to a more accessible location."
+#~ msgstr ""
+#~ "Om ett objekt från programmenyn används ofta, överväg att flytta det till "
+#~ "en mer lättåtkomlig plats."
+
+#~ msgid ""
+#~ "Common application menu items include <gui>New Window</gui>, "
+#~ "<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
+#~ "gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be "
+#~ "contained within their own group at the bottom of the menu."
+#~ msgstr ""
+#~ "Vanliga programmenyobjekt innefattar <gui>Nytt fönster</gui>, "
+#~ "<gui>Inställningar</gui>, <gui>Hjälp</gui>, <gui>Om</gui> samt "
+#~ "<gui>Avsluta</gui>. <gui>Hjälp</gui>, <gui>Om</gui> och <gui>Avsluta</"
+#~ "gui> bör finnas i en egen grupp längst ner i menyn."
+
+#~ msgid "<gui>New Window</gui>"
+#~ msgstr "<gui>Nytt fönster</gui>"
+
+#~ msgid ""
+#~ "Opens a new window. Only <link xref=\"primary-windows#application-types"
+#~ "\">multiple instance applications</link> should include this menu item. "
+#~ "If the new window contains a specific type of content item, or "
+#~ "simultaneously performs an action, rename it to be less generic. For "
+#~ "example: <gui>New Connection</gui> or <gui>New Document</gui>."
+#~ msgstr ""
+#~ "Öppnar ett nytt fönster. Endast <link xref=\"primary-windows#application-"
+#~ "types\">program med multipla instanser</link> bör ha detta menyobjekt. Om "
+#~ "det nya fönstret innehåller en specifik typ av innehållsobjekt eller "
+#~ "samtidigt utför en åtgärd, bör du ändra dess namn till att vara mindre "
+#~ "allmänt. Till exempel: <gui>Ny anslutning</gui> eller <gui>Nytt dokument</"
+#~ "gui>."
+
+#~ msgid ""
+#~ "Opens the application's about dialog. Every application menu should "
+#~ "include this item."
+#~ msgstr ""
+#~ "Öppna programmets om-dialog. Varje programmeny bör ha detta menyobjekt."
+
+#~ msgid ""
+#~ "Closes the application, including all application windows. Every "
+#~ "application menu should include this item."
+#~ msgstr ""
+#~ "Stänger programmet, inklusive alla programfönster. Varje programmeny bör "
+#~ "ha detta menyobjekt."
+
+#~ msgid ""
+#~ "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
+#~ "\">GtkApplication</link>"
+#~ msgstr ""
+#~ "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
+#~ "\">GtkApplication</link>"
+
+#~ msgid ""
+#~ "Primary menus are typically located on the right side of the header bar. "
+#~ "When used in combination with a <link xref=\"sidebar-lists\">sidebar "
+#~ "list</link>, the primary menu should be placed above the sidebar list."
+#~ msgstr ""
+#~ "Primärmenyer finns typiskt på högra sidan av rubrikraden. När de används "
+#~ "i kombination med en <link xref=\"sidebar-lists\">sidopanelslista</link>, "
+#~ "bör primärmenyn placeras ovanför sidopanelslistan."
+
+#~ msgid ""
+#~ "Applications which use in-window navigation should only show the primary "
+#~ "menu on the top-level view (typically the main view that is shown when "
+#~ "the app is launched). Child views, such as those that show individual "
+#~ "items of content, should use <link xref=\"secondary-menus\">secondary</"
+#~ "link> rather than primary menus."
+#~ msgstr ""
+#~ "Program som använder navigering inom fönstret bör endast visa primärmenyn "
+#~ "för toppnivåvyn (typiskt huvudvyn som visas när programmet startas). "
+#~ "Underordnade vyer som visar individuella innehållsobjekt bör använda "
+#~ "<link xref=\"secondary-menus\">sekundärmenyer</link> snarare än "
+#~ "primärmenyer."
 
 #~ msgid "Cyan"
 #~ msgstr "Cyan"
