@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-03-10 06:44+0000\n"
-"PO-Revision-Date: 2019-03-05 10:32+0100\n"
+"POT-Creation-Date: 2019-04-11 06:45+0000\n"
+"PO-Revision-Date: 2019-09-08 10:12+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -88,17 +88,16 @@ msgstr ""
 "okna. Používá se k poskytnutí činností pro obsah, který je zobrazen na dní."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
-#: C/dialogs.page:36 C/empty-placeholders.page:23 C/full-screen.page:22
-#: C/grids.page:23 C/header-bars.page:29 C/in-app-notifications.page:23
-#: C/info-bars.page:23 C/initial-state-placeholders.page:23 C/lists.page:24
-#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
-#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
-#: C/primary-windows.page:22 C/progress-bars.page:37
-#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
-#: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
-#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
-#: C/view-switchers.page:22
+#: C/action-bars.page:22 C/button-menus.page:25 C/dialogs.page:36
+#: C/empty-placeholders.page:23 C/full-screen.page:22 C/grids.page:23
+#: C/header-bars.page:29 C/in-app-notifications.page:23 C/info-bars.page:23
+#: C/initial-state-placeholders.page:23 C/lists.page:24 C/menu-bars.page:37
+#: C/menus.page:37 C/notifications.page:21 C/overlaid-controls.page:22
+#: C/popovers.page:25 C/primary-menus.page:24 C/primary-windows.page:22
+#: C/progress-bars.page:37 C/progress-spinners.page:25 C/search.page:22
+#: C/secondary-menus.page:23 C/selection-mode.page:24 C/sidebar-lists.page:26
+#: C/sliders.page:37 C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39
+#: C/toolbars.page:36 C/view-switchers.page:22
 msgid "When to use"
 msgstr "Kdy použít"
 
@@ -133,7 +132,7 @@ msgstr ""
 #: C/radio-buttons.page:37 C/sidebar-lists.page:43 C/sliders.page:53
 #: C/writing-style.page:42
 msgid "Guidelines"
-msgstr "Rady"
+msgstr "Zásady"
 
 #. (itstool) path: item/p
 #: C/action-bars.page:34
@@ -156,15 +155,15 @@ msgstr ""
 "\"buttons#suggested-and-destructive\">příslušně je zvýrazněte</link>."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:41 C/application-menus.page:72 C/buttons.page:89
-#: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
-#: C/header-bars.page:72 C/info-bars.page:46 C/lists.page:148
-#: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
-#: C/popovers.page:64 C/primary-menus.page:45 C/primary-windows.page:85
-#: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
-#: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
-#: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
-#: C/text-fields.page:68 C/toolbars.page:59 C/view-switchers.page:46
+#: C/action-bars.page:41 C/buttons.page:89 C/check-boxes.page:59
+#: C/dialogs.page:169 C/grids.page:44 C/header-bars.page:72 C/info-bars.page:46
+#: C/lists.page:148 C/menu-bars.page:106 C/menus.page:73
+#: C/notifications.page:105 C/popovers.page:64 C/primary-menus.page:79
+#: C/primary-windows.page:85 C/progress-bars.page:129
+#: C/progress-spinners.page:51 C/radio-buttons.page:53 C/search.page:72
+#: C/secondary-menus.page:44 C/sidebar-lists.page:54 C/sliders.page:69
+#: C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99 C/text-fields.page:68
+#: C/toolbars.page:59 C/view-switchers.page:46
 msgid "API reference"
 msgstr "Referenční příručka API"
 
@@ -195,10 +194,10 @@ msgid ""
 "definition of applications from a user experience perspective. It also "
 "provides guidance on basic application behavior and characteristics."
 msgstr ""
-"Pokyny k rozhraní pro člověka poskytují rady k designu při vytváření "
+"Pokyny k rozhraní pro člověka poskytují vedení návrhem designu při vytváření "
 "aplikací GNOME. Protože důraz je kladen na aplikace, poskytuje tato stránka "
 "definici aplikace z pohledu uživatele. Navíc poskytuje rady k základnímu "
-"chování aplikací a jejich hlavní rysy."
+"chování aplikací a jejich hlavním rysům."
 
 #. (itstool) path: page/p
 #: C/application-basics.page:18
@@ -386,187 +385,15 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/application-menus.page:19
 msgid ""
-"<em>Application menus are no longer recommended, and will not be displayed "
-"in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus\">Primary</"
-"link> and <link xref=\"secondary-menus\">secondary menus</link> should be "
-"used as alternatives.</em>"
+"<em>Application menus are no longer recommended, and their contents will not "
+"be included in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus"
+"\">Primary</link> and <link xref=\"secondary-menus\">secondary menus</link> "
+"should be used as alternatives.</em>"
 msgstr ""
 "<em>Nabídky aplikace nejsou již nadále doporučovány a od verze GNOME 3.32 "
-"nebudou již zobrazovány v horní liště. Jako náhrada by měly být používány "
-"<link xref=\"primary-menus\">hlavní</link> a <link xref=\"secondary-menus"
-"\">podružné</link> nabídky.</em>"
-
-#. (itstool) path: page/p
-#: C/application-menus.page:21
-msgid ""
-"Application menus provide access to global, top level actions and options "
-"for your application. These include standard items for accessing "
-"documentation and information about the application."
-msgstr ""
-"Nabídka aplikace poskytuje globální přístup k činnostem a volbám nejvyšší "
-"úrovně pro vaši aplikaci. Obsahuje standardní položky pro přístup k "
-"dokumentaci a informacím o aplikaci."
-
-#. (itstool) path: section/p
-#: C/application-menus.page:26
-msgid ""
-"Application menus are a standard part of GNOME 3, and every application that "
-"runs under GNOME 3 should have one."
-msgstr ""
-"Nabídka aplikace je standardní součástí GNOME 3 a každá aplikace, která běží "
-"pod GNOME 3, by ji měla mít."
-
-#. (itstool) path: section/title
-#: C/application-menus.page:31 C/button-menus.page:47 C/dialogs.page:155
-#: C/display-compatibility.page:21 C/drop-down-lists.page:34 C/grids.page:32
-#: C/lists.page:133 C/menu-bars.page:93 C/menus.page:61
-#: C/pointer-and-touch-input.page:40 C/popovers.page:55
-#: C/primary-windows.page:70 C/progress-bars.page:117
-#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
-#: C/visual-layout.page:35
-msgid "General guidelines"
-msgstr "Obecné rady"
-
-#. (itstool) path: item/p
-#: C/application-menus.page:34
-msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
-msgstr "Řiďte se standardními <link xref=\"menus\">pokyny pro nabídky</link>."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:35
-msgid ""
-"Only include menu items that relate to the application as a whole, such as "
-"application preferences. Items that are specific to a particular window or "
-"view, or which act on content within an application window, should not be "
-"included."
-msgstr ""
-"Do nabídky zahrňte jen položky, které se vztahují k aplikaci jako celku, "
-"například předvolby aplikace. Položky mající význam jen pro konkrétní okno "
-"nebo zobrazení, nebo které působí na obsah v rámci okna aplikace, by neměly "
-"být součástí této nabídky."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:36
-msgid ""
-"If an item from the application menu is frequently used, consider moving it "
-"to a more accessible location."
-msgstr ""
-"Pokud je některá položka z nabídky aplikace používána opravdu často, zvažte "
-"její přesunutí na přístupnější místo."
-
-#. (itstool) path: section/title
-#: C/application-menus.page:42
-msgid "Standard menu items"
-msgstr "Standardní položky nabídky"
-
-#. (itstool) path: section/p
-#: C/application-menus.page:44
-msgid ""
-"Common application menu items include <gui>New Window</gui>, "
-"<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
-"gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be "
-"contained within their own group at the bottom of the menu."
-msgstr ""
-"K běžným položkám nabídky aplikace patří <gui>New Window</gui>, "
-"<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> a <gui>Quit</gui>. "
-"Položky <gui>Help</gui>, <gui>About</gui> a <gui>Quit</gui> by se měly "
-"nacházet ve své vlastní skupině ve spodní části nabídky."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:48
-msgid "<gui>New Window</gui>"
-msgstr ""
-"<gui>New Window</gui>\n"
-"(<gui>Nové okno</gui>)"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:49
-msgid ""
-"Opens a new window. Only <link xref=\"primary-windows#application-types"
-"\">multiple instance applications</link> should include this menu item. If "
-"the new window contains a specific type of content item, or simultaneously "
-"performs an action, rename it to be less generic. For example: <gui>New "
-"Connection</gui> or <gui>New Document</gui>."
-msgstr ""
-"Otevře nové okno. Tuto položku by měly v nabídce obsahovat jen <link xref="
-"\"primary-windows#application-types\">aplikace s více instancemi</link>. "
-"Pokud nové okno obsahuje konkrétní typ obsahu nebo souběžně provádí nějakou "
-"činnost, přejmenujte položku, aby nebyla tak obecná. Například: <gui>Nové "
-"připojení</gui> nebo <gui>Nový dokument</gui>."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:52
-msgid "<gui>Preferences</gui>"
-msgstr ""
-"<gui>Preferences</gui>\n"
-"(<gui>Předvolby</gui>)"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:53
-msgid ""
-"Opens the application's preferences dialog. Only show this menu item if your "
-"application has a preferences dialog."
-msgstr ""
-"Otevře dialogové okno s předvolbami aplikace. Položku zobrazte, jen když "
-"vaše aplikace nějaké předvolby má."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:56 C/keyboard-input.page:286
-msgid "<gui>Help</gui>"
-msgstr ""
-"<gui>Help</gui>\n"
-"(<gui>Nápověda</gui>)"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:57
-msgid ""
-"Opens your application's user documentation in the <app>Help</app> "
-"application. Only show this menu item if your application has user "
-"documentation."
-msgstr ""
-"Otevře uživatelskou dokumentaci aplikace v aplikaci <app>Nápověda</app>. "
-"Položku zobrazte, jen když vaše aplikace nějakou dokumentaci má."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:60 C/keyboard-input.page:291
-msgid "<gui>About</gui>"
-msgstr ""
-"<gui>About</gui>\n"
-"(<gui>O aplikaci</gui>)"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:61
-msgid ""
-"Opens the application's about dialog. Every application menu should include "
-"this item."
-msgstr ""
-"Otevře dialogové okno s informacemi o aplikaci. Tuto položku by měla mít "
-"každá aplikace."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:64 C/keyboard-input.page:296
-msgid "<gui>Quit</gui>"
-msgstr ""
-"<gui>Quit</gui>\n"
-"(<gui>Ukončit</gui>)"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:65
-msgid ""
-"Closes the application, including all application windows. Every application "
-"menu should include this item."
-msgstr ""
-"Zavře aplikaci, včetně všech jejích oken. Tuto položku by měla mít každá "
-"aplikace."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:74
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
-"\">GtkApplication</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
-"\">GtkApplication</link>"
+"nebude již jejich obsah zobrazován v horní liště GNOME 3. Jako náhrada by ""
+měly být používány <link xref=\"primary-menus\">hlavní</link> a <link xref="
+"\"secondary-menus\">podružné</link> nabídky.</em>"
 
 #. (itstool) path: page/title
 #: C/button-menus.page:18
@@ -726,6 +553,16 @@ msgstr ""
 "external ref='figures/ui-elements/hybrid-button-menu.svg' "
 "md5='f007dc2c5dc0c25ee85483f31ca85917'"
 
+#. (itstool) path: section/title
+#: C/button-menus.page:47 C/dialogs.page:155 C/display-compatibility.page:21
+#: C/drop-down-lists.page:34 C/grids.page:32 C/lists.page:133
+#: C/menu-bars.page:93 C/menus.page:61 C/pointer-and-touch-input.page:40
+#: C/popovers.page:55 C/primary-windows.page:70 C/progress-bars.page:117
+#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
+#: C/visual-layout.page:35
+msgid "General guidelines"
+msgstr "Obecné zásady"
+
 #. (itstool) path: item/p
 #: C/button-menus.page:50
 msgid ""
@@ -841,7 +678,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:37 C/text-fields.page:37
 msgid "General Guidelines"
-msgstr "Obecné rady"
+msgstr "Obecné zásady"
 
 #. (itstool) path: item/p
 #: C/buttons.page:40
@@ -3553,9 +3390,9 @@ msgid ""
 msgstr ""
 "Můžete volně používat jakékoliv odstíny z těchto barev, podle toho jakého "
 "materiálového efektu potřebujete dosáhnout. Je ale dobré z těchto základních "
-"barev vycházet. K <link href=\"https://gitlab.gnome.org/Teams/Design/"
-"HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false\">dispozici je</link> "
-"paleta ve formátu GIMP/Inkscape."
+"barev vycházet. K <link href=\"https://gitlab.gnome.org/Teams/Design/HIG-app-"
+"icons/raw/master/GNOME%20HIG.gpl?inline=false\">dispozici je</link> paleta "
+"ve formátu GIMP/Inkscape."
 
 #. (itstool) path: section/p
 #: C/icon-design.page:103
@@ -5304,6 +5141,13 @@ msgid "Label"
 msgstr "Popisek"
 
 #. (itstool) path: td/p
+#: C/keyboard-input.page:286 C/primary-menus.page:65
+msgid "<gui>Help</gui>"
+msgstr ""
+"<gui>Help</gui>\n"
+"(<gui>Nápověda</gui>)"
+
+#. (itstool) path: td/p
 #: C/keyboard-input.page:287
 msgid "<key>F1</key>"
 msgstr "<key>F1</key>"
@@ -5316,6 +5160,13 @@ msgstr ""
 "Otevře výchozí prohlížeč nápovědy na stránce s obsahem pro danou aplikaci"
 
 #. (itstool) path: td/p
+#: C/keyboard-input.page:291
+msgid "<gui>About</gui>"
+msgstr ""
+"<gui>About</gui>\n"
+"(<gui>O aplikaci</gui>)"
+
+#. (itstool) path: td/p
 #: C/keyboard-input.page:293
 msgid ""
 "Opens the About dialog for the application. Use the standard GNOME 3 dialog "
@@ -5323,6 +5174,13 @@ msgid ""
 msgstr ""
 "Otevře dialogové okno <gui>O aplikaci</gui>. Používejte k tomu standardní "
 "dialogové okno z GNOME 3."
+
+#. (itstool) path: td/p
+#: C/keyboard-input.page:296
+msgid "<gui>Quit</gui>"
+msgstr ""
+"<gui>Quit</gui>\n"
+"(<gui>Ukončit</gui>)"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:297
@@ -7557,7 +7415,7 @@ msgstr ""
 "skupinové přepínače."
 
 #. (itstool) path: item/p
-#: C/menus.page:78 C/primary-menus.page:48 C/secondary-menus.page:47
+#: C/menus.page:78 C/primary-menus.page:82 C/secondary-menus.page:47
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
 "\">GtkMenuButton</link>"
@@ -7566,7 +7424,7 @@ msgstr ""
 "\">GtkMenuButton</link>"
 
 #. (itstool) path: item/p
-#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:49
+#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:83
 #: C/secondary-menus.page:48
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
@@ -8857,10 +8715,10 @@ msgstr "Hlavní nabídky"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/primary-menu.svg' "
-"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+"md5='78f497d54c3ba45846f409ef81debad2'"
 msgstr ""
 "external ref='figures/patterns/primary-menu.svg' "
-"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+"md5='78f497d54c3ba45846f409ef81debad2'"
 
 #. (itstool) path: page/p
 #: C/primary-menus.page:20
@@ -8869,43 +8727,74 @@ msgid ""
 "applications. They are labelled with the menu icon (named <code>menu-open</"
 "code>) and contain the top-level menu items for the application. This can "
 "include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
-"<gui>About</gui>, as well as other application-specific items."
+"<gui>About Application</gui>, as well as other application-specific items."
 msgstr ""
 "Hlavní nabídky jsou standardním návrhovým vzorem, který najdete ve většině "
 "aplikací. Jsou označeny ikonou nabídky (nazvané <code>menu-open</code>) a "
 "obsahují položky nejvyšší úrovně pro aplikaci. Může jít o standardní "
 "položky, jako jsou <gui>Prferences</gui> (Předvolby), <gui>Help</gui> "
-"(Nápověda) a <gui>About</gui> (O aplikaci) a stejně tak o položky specifické "
-"pro aplikaci."
-
-#. (itstool) path: page/p
-#: C/primary-menus.page:22
-msgid ""
-"Primary menus are typically located on the right side of the header bar. "
-"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
-"link>, the primary menu should be placed above the sidebar list."
-msgstr ""
-"Hlavní nabídka bývá typicky umístěná na pravé straně hlavičkové lišty. Když "
-"je použita v kombinaci se <link xref=\"sidebar-lists\">seznamem v postranním "
-"panelu</link>, měla by být umístěná nad ním."
+"(Nápověda) a <gui>About Application</gui> (O aplikaci Aplikace) a stejně tak "
+"o položky specifické pro aplikaci."
 
 #. (itstool) path: section/p
-#: C/primary-menus.page:27
+#: C/primary-menus.page:26
 msgid ""
 "Most applications have primary menus, since they are the standard location "
-"for <gui>About</gui>, which every application is expected to have."
+"for <gui>About Application</gui>, which every application is expected to "
+"have."
 msgstr ""
 "Většina aplikací má hlavní nabídku, protože slouží standardně k umístění "
-"položky <gui>About</gui> (O aplikaci), u která se očekává, že ji bude mít "
-"každá aplikace."
+"položky <gui>About Application</gui> (O aplikaci Aplikace), u která se "
+"očekává, že ji bude mít každá aplikace."
 
 #. (itstool) path: section/title
-#: C/primary-menus.page:32 C/secondary-menus.page:32
+#: C/primary-menus.page:31 C/secondary-menus.page:32
 msgid "Guidance"
 msgstr "Pokyny"
 
+#. (itstool) path: section/p
+#: C/primary-menus.page:33
+msgid ""
+"Primary menus are typically placed on the right side of the header bar. "
+"However, there are two variations on this rule:"
+msgstr ""
+"Hlavní nabídky bývají typicky umístěné na pravé straně záhlavní lišty. "
+"Existují ale dvě varianty tohoto pravidla:"
+
 #. (itstool) path: item/p
-#: C/primary-menus.page:35
+#: C/primary-menus.page:36
+msgid ""
+"If the application incorporates in-window navigation, with a top-level "
+"location and sub-pages, the primary menu should only be placed on the top "
+"level: sub-pages can include a <link xref=\"secondary-menus\">secondary "
+"menu</link>, if a menu is required."
+msgstr ""
+"Když aplikace obsahuje navigaci v okně, s nejvyšší úrovní a podstránkami, "
+"měla by být hlavní nabídka umístěná jen v nejvyšší úrovni. Pokud potřebují "
+"nabídku i podstránky, mohou používat <link xref=\"secondary-menus"
+"\">podružnou nabídku</link>."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:37
+msgid ""
+"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
+"link>, the primary menu should be placed above the sidebar list on the "
+"right. If a menu is required for items shown in the content side of the "
+"window, a <link xref=\"secondary-menus\">secondary menu</link> can be used."
+msgstr ""
+"Když je hlavní nabídka použita spolu se <link xref=\"sidebar-lists"
+"\">seznamem v postranním panelu</link>, měla by být umístěná vpravo nad "
+"postranním panelem. Pokud potřebují nabídku i položky zobrazené v části okna "
+"s obsahem, mohou používat <link xref=\"secondary-menus\">podružnou nabídku</"
+"link>."
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:40
+msgid "Other guidelines:"
+msgstr "Další zásady:"
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:43
 msgid ""
 "Primary menus can contain items for both the current window or view, as well "
 "as the application as a whole. This differentiates them from <link xref="
@@ -8918,22 +8807,7 @@ msgstr ""
 "konkrétnímu zobrazení nebo položce."
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:36
-msgid ""
-"Applications which use in-window navigation should only show the primary "
-"menu on the top-level view (typically the main view that is shown when the "
-"app is launched). Child views, such as those that show individual items of "
-"content, should use <link xref=\"secondary-menus\">secondary</link> rather "
-"than primary menus."
-msgstr ""
-"Aplikace, které používají navigaci v okně, by měly obrazit hlavní nabídku "
-"jen v zobrazení nejvyšší úrovně (typicky v hlavním zobrazení, které se ukáže "
-"po spuštění aplikace). Podřízená zobrazení, což jsou třeba ta, která "
-"zobrazují jednotlivé položky obsahu, by měla místo nich používat <link xref="
-"\"secondary-menus\">podružné nabídky</link>."
-
-#. (itstool) path: item/p
-#: C/primary-menus.page:37
+#: C/primary-menus.page:44
 msgid ""
 "Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
 "deciding on primary menu content and arrangement."
@@ -8942,18 +8816,86 @@ msgstr ""
 "\"menus\">standardními pokyny pro nabídky</link>."
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:38
+#: C/primary-menus.page:45
 msgid ""
 "A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
-"As such, a header bar menu can include a variety of controls, such as groups "
-"of buttons."
+"As such, a primary menu can include a variety of controls, such as groups of "
+"buttons."
 msgstr ""
 "Hlavní nabídka bývá vložená do <link xref=\"popovers\">rozbalovacího "
 "dialogu</link>. Díky tomu může obsahovat i různé ovládací prvky, třeba "
 "skupinu tlačítek."
 
-#. (itstool) path: item/p
-#: C/primary-menus.page:39
+#. (itstool) path: section/title
+#: C/primary-menus.page:51
+msgid "Standard menu items"
+msgstr "Standardní položky nabídky"
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:53
+msgid ""
+"The following are standard primary menu items, and should be placed in a "
+"group at the end of the menu:"
+msgstr ""
+"Následují standardní položky hlavní nabídky, které by měly být umístěné v "
+"jedné skupině na konci nabídky:"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:57
+msgid "<gui>Preferences</gui>"
+msgstr ""
+"<gui>Preferences</gui>\n"
+"(<gui>Předvolby</gui>)"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:58
+msgid "Opens the application's preferences dialog, if it has one."
+msgstr ""
+"Otevře dialogové okno s předvolbami aplikace, pokud aplikace nějaké "
+"předvolby má."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:61
+msgid "<gui>Keyboard Shortcuts</gui>"
+msgstr ""
+"<gui>Keyboard Shortcuts</gui>\n"
+"(<gui>Klávesové zkratky</gui>)"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:62
+msgid "Opens the application's keyboard shortcuts window, if it has one."
+msgstr ""
+"Otevře okno se seznamem klávesových zkratek aplikace, pokud aplikace nějaké "
+"klávesové zkratky má."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:66
+msgid ""
+"Opens the application's user documentation in the <app>Help</app> "
+"application."
+msgstr ""
+"Otevře uživatelskou dokumentaci aplikace v aplikaci <app>Nápověda</app>."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:69
+msgid "<gui>About Application</gui>"
+msgstr ""
+"<gui>About Application</gui>\n"
+"(<gui>O aplikaci Aplikace</gui>)"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:70
+msgid ""
+"Opens the application's about dialog. This item should include the "
+"application's name, such as <gui>About Photos</gui> or <gui>About "
+"Calculator</gui>. Every primary menu should include this item."
+msgstr ""
+"Otevře dialogové okno s informacemi o aplikaci. Součástí názvu této položky "
+"by měl být název aplikace, například <gui>O aplikaci Fotky</gui> nebo <gui>O "
+"kalkulačce</gui>. Každá hlavní nabídka by měla obsahovat tuto položku."
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:74
 msgid ""
 "Primary menus shouldn’t include menu items for close or quit: windows can "
 "already be closed using the close button in the header bar, and it can be "
@@ -10097,13 +10039,13 @@ msgid ""
 "Secondary menus are located in the header bar and include menu items for the "
 "current view or content item. This differentiates them from <link xref="
 "\"primary-menus\">primary menus</link>, which include menu items that relate "
-"to an entire application (such as <gui>Preferences</gui> and <gui>About</"
-"gui>)."
+"to an entire application (such as <gui>Preferences</gui> and <gui>About "
+"\"Name\"</gui>)."
 msgstr ""
 "Podružné nabídky jsou umístěné v hlavičkové liště a obsahují položky pro "
 "aktuální zobrazení nebo obsah. To je odlišuje od <link xref=\"primary-menus"
 "\">hlavních nabídek</link>, které obsahují položky vztahující se k celé "
-"aplikaci (jako jsou <gui>Předvolby</gui> a <gui>O aplikaci</gui>)."
+"aplikaci (jako jsou <gui>Předvolby</gui> a <gui>O aplikaci „Název“</gui>)."
 
 #. (itstool) path: section/p
 #: C/secondary-menus.page:25
@@ -12339,14 +12281,3 @@ msgstr ""
 "<gui>Předvolby</gui>. I když tyto příkazy otevřou okna, která obsahují další "
 "funkčnost, popisek neoznačuje konkrétní činnost a proto není potřeba "
 "komunikovat ohledně nějaké vstupu nebo potvrzení."
-
-#~ msgid "Cyan"
-#~ msgstr "Azurová"
-
-#~ msgctxt "_"
-#~ msgid ""
-#~ "external ref='figures/icons/palette/cyan.png' "
-#~ "md5='d3973cbeaf6b494cf5726c8acff35d74'"
-#~ msgstr ""
-#~ "external ref='figures/icons/palette/cyan.png' "
-#~ "md5='d3973cbeaf6b494cf5726c8acff35d74'"
