@@ -391,8 +391,8 @@ msgid ""
 "should be used as alternatives.</em>"
 msgstr ""
 "<em>Nabídky aplikace nejsou již nadále doporučovány a od verze GNOME 3.32 "
-"nebude již jejich obsah zobrazován v horní liště GNOME 3. Jako náhrada by ""
-měly být používány <link xref=\"primary-menus\">hlavní</link> a <link xref="
+"nebude již jejich obsah zobrazován v horní liště GNOME 3. Jako náhrada by "
+"měly být používány <link xref=\"primary-menus\">hlavní</link> a <link xref="
 "\"secondary-menus\">podružné</link> nabídky.</em>"
 
 #. (itstool) path: page/title
