@@ -17130,7 +17130,7 @@ msgstr "Zde je pár nápadů, jak byste mohli tuto jednoduchou ukázku rozšíř
 #: C/guitar-tuner.c.page:271 C/guitar-tuner.cpp.page:278
 #: C/guitar-tuner.py.page:249 C/guitar-tuner.vala.page:274
 msgid "Have the program automatically cycle through the notes."
-msgstr "Přidat do programu možnost cyklicky procházet tóny."
+msgstr "Přidat do programu možnost dokola procházet tóny."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:274 C/guitar-tuner.cpp.page:281
@@ -42304,8 +42304,8 @@ msgid ""
 msgstr ""
 "Řádky zde zakomentované ukazují věci, které si můžete u číselníků "
 "přizpůsobit. Můžete například nastavit počet číslic za desetinnou čárkou "
-"nebo říci, aby se při dosažení nastavené horní nebo dolní meze cyklicky "
-"přešlo na opačný konec."
+"nebo říci, aby se při dosažení nastavené horní nebo dolní meze přešlo "
+"dokola na opačný konec."
 
 #. (itstool) path: note/p
 #: C/spinbutton.js.page:114
@@ -42944,7 +42944,7 @@ msgid ""
 "maximum or the minimum, set <code>set_wrap(True)</code>. The <code>\"wrapped"
 "\"</code> signal is emitted when this happens."
 msgstr ""
-"Pokud chcete, aby hodnota v číselníku cyklicky přecházela přes meze, když "
+"Pokud chcete, aby hodnota v číselníku přecházela dokola přes meze, když "
 "dosáhne maxima nebo minima, nastavte <code>set_wrap(True)</code>. Když se "
 "tak stane, je vyslán signál <code>\"wrapped\"</code>."
 
