@@ -16,7 +16,7 @@
 
 <title>Pointer and touch input</title>
 
-<p>Pointer and touch input are two of the primary means through which users will interact with your application.</p>
+<p>This page includes basic information about how to design for pointer and touch input. It covers standard conventions for input of this type, as well as considerations for handling different types of input devices.</p>
 
 <section id="pointer-input">
 <title>Pointer input</title>
@@ -105,7 +105,9 @@
 <section id="touch-input">
 <title>Touch input</title>
 
-<p>Touch screens are also an increasingly common part of modern computer hardware, and applications created with GTK+ are likely to be used with hardware that incorporates a touch screen. To make the most of this hardware, and to conform to users’ expectations, it is therefore important to consider touch input as a part of application design.</p>
+<p>Touch screens are a common part of modern computer hardware, and applications created with GTK+ are likely to be used with hardware that incorporates a touch screen. To make the most of this hardware, and to conform to users’ expectations, it is therefore important to consider touch input as a part of application design.</p>
+
+<p>One important aspect of this is ensuring that the touch target sizes of UI elements are big enough to be usable by most people. The minimum recommended target size is 9 millimeters. This translates to about 34 pixels on regular DPI screens.</p>
 
 <section id="application-touch-conventions">
 <title>Application touch conventions</title>
@@ -217,5 +219,21 @@
 </table>
 
 </section>
+
+</section>
+
+<section id="adaptive">
+<title>Adaptive Considerations</title>
+
+<p>Modern hardware means that people can use a variety of input devices. Input devices can change as they are added and removed, and multiple pointing devices can sometimes be used in combination. It is therefore important that, as far as possible, applications accommodate the full range of pointing and touch devices, and adapt to hardware changes.</p>
+
+<list>
+<item><p>Most applications should assume that they will be used on devices with and without keyboard or pointing device.</p></item>
+<item><p>Pay particular attention to actions or information that are shown on pointer hover, as these will not be available with touch screens. Any action that is only shown on hover should also be available on touch through some other means.</p></item>
+<item><p>It is often possible to create interfaces which work well with both pointer and touch input. However, it can be appropriate to change the UI depending on the input devices that are present.</p></item>
+<item><p>One useful technique can be to expose actions that are typically acheived with touch gestures only on pointer hover. For example, zoom controls can be shown on pointer hover or movement, while being acheived with pinch gestures on touch. This means that unnecessary controls aren't shown when using touch, but are still available with pointer devices.</p></item>
+<item><p>Since displays of any size can be touch-enabled, click targets sizes should always be large enough to be usable on touch.</p></item>
+</list>
+
 </section>
 </page>

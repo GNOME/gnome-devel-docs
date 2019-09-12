@@ -7,6 +7,10 @@
       <name>Allan Day</name>
       <email>aday@gnome.org</email>
     </credit>
+    <credit type="author">
+      <name>Tobias Bernard</name>
+      <email>tbernard@gnome.org</email>
+    </credit>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
     <desc>General design guidelines and advice.</desc>
   </info>
@@ -110,12 +114,14 @@
 
 </section>
 
-<section id="emotion">
-<title>Use emotion and humor (sparingly)</title>
+<section id="hardware-support">
+<title>Design for a range of hardware</title>
 
-<p>Used effectively, emotion and humor can lift the experience provided by your application, and help to develop a positive relationship with your users. Be careful not to over-use these techniques, though — it is far more effective to pick a small number of moments to use emotion, rather than spraying them throughout your user interface.</p>
+<p>Modern hardware includes a range of device types, including different screen sizes and input devices. These can vary dynamically during a session as displays and input devices are added and removed.</p>
 
-<p>Be welcoming when your application is used for the first time. Using humor when things go wrong is another effective technique.</p>
+<p>Use adaptive design to make your application a great experience across this range of devices. This means responding to properties of the environment (such as a small screen or lack of a physical keyboard) individually, rather than having device-specific modes.</p>
+
+<p>This can be done by hiding things that are specific to an input method that is not available, moving interface elements around to make them fit onto smaller screens, or using adaptive navigation patterns.</p>
 
 </section>
 
