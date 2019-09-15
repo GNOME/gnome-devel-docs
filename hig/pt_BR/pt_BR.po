@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-03-08 11:06+0000\n"
-"PO-Revision-Date: 2019-03-19 08:43-0300\n"
+"POT-Creation-Date: 2019-09-15 09:21+0000\n"
+"PO-Revision-Date: 2019-09-15 04:34-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Portuguese - Brazil <gnome-pt_br-list@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,17 +93,16 @@ msgstr ""
 "exibido acima."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
-#: C/dialogs.page:36 C/empty-placeholders.page:23 C/full-screen.page:22
-#: C/grids.page:23 C/header-bars.page:29 C/in-app-notifications.page:23
-#: C/info-bars.page:23 C/initial-state-placeholders.page:23 C/lists.page:24
-#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
-#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
-#: C/primary-windows.page:22 C/progress-bars.page:37
-#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
-#: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
-#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
-#: C/view-switchers.page:22
+#: C/action-bars.page:22 C/button-menus.page:25 C/dialogs.page:36
+#: C/empty-placeholders.page:23 C/full-screen.page:22 C/grids.page:23
+#: C/header-bars.page:29 C/in-app-notifications.page:23 C/info-bars.page:23
+#: C/initial-state-placeholders.page:23 C/lists.page:24 C/menu-bars.page:37
+#: C/menus.page:37 C/notifications.page:21 C/overlaid-controls.page:22
+#: C/popovers.page:25 C/primary-menus.page:24 C/primary-windows.page:22
+#: C/progress-bars.page:37 C/progress-spinners.page:25 C/search.page:22
+#: C/secondary-menus.page:23 C/selection-mode.page:24 C/sidebar-lists.page:26
+#: C/sliders.page:37 C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39
+#: C/toolbars.page:36 C/view-switchers.page:22
 msgid "When to use"
 msgstr "Quando usar"
 
@@ -162,15 +161,15 @@ msgstr ""
 "\"buttons#suggested-and-destructive\">estilize-as apropriadamente</link>."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:41 C/application-menus.page:72 C/buttons.page:89
-#: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
-#: C/header-bars.page:72 C/info-bars.page:46 C/lists.page:148
-#: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
-#: C/popovers.page:64 C/primary-menus.page:45 C/primary-windows.page:85
-#: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
-#: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
-#: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
-#: C/text-fields.page:68 C/toolbars.page:59 C/view-switchers.page:46
+#: C/action-bars.page:41 C/buttons.page:89 C/check-boxes.page:59
+#: C/dialogs.page:169 C/grids.page:44 C/header-bars.page:72 C/info-bars.page:46
+#: C/lists.page:148 C/menu-bars.page:106 C/menus.page:73
+#: C/notifications.page:105 C/popovers.page:64 C/primary-menus.page:79
+#: C/primary-windows.page:85 C/progress-bars.page:129
+#: C/progress-spinners.page:51 C/radio-buttons.page:53 C/search.page:72
+#: C/secondary-menus.page:44 C/sidebar-lists.page:54 C/sliders.page:69
+#: C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99 C/text-fields.page:68
+#: C/toolbars.page:59 C/view-switchers.page:46
 msgid "API reference"
 msgstr "Referência de API"
 
@@ -393,178 +392,15 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/application-menus.page:19
 msgid ""
-"<em>Application menus are no longer recommended, and will not be displayed "
-"in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus\">Primary</"
-"link> and <link xref=\"secondary-menus\">secondary menus</link> should be "
-"used as alternatives.</em>"
+"<em>Application menus are no longer recommended, and their contents will not "
+"be included in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus"
+"\">Primary</link> and <link xref=\"secondary-menus\">secondary menus</link> "
+"should be used as alternatives.</em>"
 msgstr ""
-"<em>Os menus de aplicativos não são mais recomendados e não serão exibidos "
-"na barra superior do GNOME 3 a partir do GNOME 3.32. Os <link xref=\"primary-"
-"menus\">menus primário</link> e <link xref=\"secondary-menus\">secundários</"
-"link> devem ser usados como alternativas.</em>"
-
-#. (itstool) path: page/p
-#: C/application-menus.page:21
-msgid ""
-"Application menus provide access to global, top level actions and options "
-"for your application. These include standard items for accessing "
-"documentation and information about the application."
-msgstr ""
-"Menus de aplicativo fornecem acesso à ações e opções globais e de nível "
-"superior para seu aplicativo. Isto inclui itens padrão para acessar "
-"documentação e informação sobre o aplicativo."
-
-#. (itstool) path: section/p
-#: C/application-menus.page:26
-msgid ""
-"Application menus are a standard part of GNOME 3, and every application that "
-"runs under GNOME 3 should have one."
-msgstr ""
-"Menus de aplicativo são uma parte padrão do GNOME 3, e todo aplicativo que "
-"executa sob o GNOME 3 deveria ter um."
-
-#. (itstool) path: section/title
-#: C/application-menus.page:31 C/button-menus.page:47 C/dialogs.page:155
-#: C/display-compatibility.page:21 C/drop-down-lists.page:34 C/grids.page:32
-#: C/lists.page:133 C/menu-bars.page:93 C/menus.page:61
-#: C/pointer-and-touch-input.page:40 C/popovers.page:55
-#: C/primary-windows.page:70 C/progress-bars.page:117
-#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
-#: C/visual-layout.page:35
-msgid "General guidelines"
-msgstr "Diretrizes gerais"
-
-#. (itstool) path: item/p
-#: C/application-menus.page:34
-msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
-msgstr "Siga a <link xref=\"menus\">orientação para menus</link> padrão."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:35
-msgid ""
-"Only include menu items that relate to the application as a whole, such as "
-"application preferences. Items that are specific to a particular window or "
-"view, or which act on content within an application window, should not be "
-"included."
-msgstr ""
-"Inclua apenas itens de menu que são relacionados ao aplicativo como um todo, "
-"como as preferências de aplicativo. Ações que são específicas a uma janela "
-"ou visão particular, ou que agem sobre o conteúdo de uma janela de "
-"aplicativo, não devem ser incluídas."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:36
-msgid ""
-"If an item from the application menu is frequently used, consider moving it "
-"to a more accessible location."
-msgstr ""
-"Se um item do menu de aplicativo é usado frequentemente, considere movê-lo "
-"para um local mais acessível."
-
-#. (itstool) path: section/title
-#: C/application-menus.page:42
-msgid "Standard menu items"
-msgstr "Itens de menu padrão"
-
-#. (itstool) path: section/p
-#: C/application-menus.page:44
-msgid ""
-"Common application menu items include <gui>New Window</gui>, "
-"<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
-"gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be "
-"contained within their own group at the bottom of the menu."
-msgstr ""
-"Itens comuns de menu de aplicativo incluem <gui>New Window</gui>, "
-"<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> e <gui>Quit</gui>. "
-"<gui>Help</gui>, <gui>About</gui> e <gui>Quit</gui> devem estar contidos "
-"dentro de seu próprio grupo na parte inferior do menu."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:48
-msgid "<gui>New Window</gui>"
-msgstr "<gui>New Window</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:49
-msgid ""
-"Opens a new window. Only <link xref=\"primary-windows#application-types"
-"\">multiple instance applications</link> should include this menu item. If "
-"the new window contains a specific type of content item, or simultaneously "
-"performs an action, rename it to be less generic. For example: <gui>New "
-"Connection</gui> or <gui>New Document</gui>."
-msgstr ""
-"Abre uma nova janela. Somente <link xref=\"primary-windows#application-types"
-"\">aplicativos de múltiplas instâncias</link> devem incluir esse item de "
-"menu. Se a nova janela contiver um tipo específico de item de conteúdo, ou "
-"simultaneamente executa uma ação, renomeie-a para ser menos genérica. Por "
-"exemplo: <gui>New Connection</gui> ou <gui>New Document</gui>."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:52
-msgid "<gui>Preferences</gui>"
-msgstr "<gui>Preferences</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:53
-msgid ""
-"Opens the application's preferences dialog. Only show this menu item if your "
-"application has a preferences dialog."
-msgstr ""
-"Abre a caixa de diálogo de preferências do aplicativo. Apenas mostre este "
-"item de menu se o seu aplicativo tiver uma caixa de diálogo de preferências."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:56 C/keyboard-input.page:286
-msgid "<gui>Help</gui>"
-msgstr "<gui>Help</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:57
-msgid ""
-"Opens your application's user documentation in the <app>Help</app> "
-"application. Only show this menu item if your application has user "
-"documentation."
-msgstr ""
-"Abre a documentação do usuário do aplicativo no aplicativo <app>Ajuda</app>. "
-"Apenas mostre este item de menu se o seu aplicativo tiver documentação do "
-"usuário."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:60 C/keyboard-input.page:291
-msgid "<gui>About</gui>"
-msgstr "<gui>About</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:61
-msgid ""
-"Opens the application's about dialog. Every application menu should include "
-"this item."
-msgstr ""
-"Abre o diálogo sobre o aplicativo. Todo menu de aplicativo deve incluir esse "
-"item."
-
-#. (itstool) path: td/p
-#: C/application-menus.page:64 C/keyboard-input.page:296
-msgid "<gui>Quit</gui>"
-msgstr "<gui>Quit</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:65
-msgid ""
-"Closes the application, including all application windows. Every application "
-"menu should include this item."
-msgstr ""
-"Fecha o aplicativo, incluindo todas as janelas de aplicativos. Todo menu de "
-"aplicativo deve incluir esse item."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:74
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
-"\">GtkApplication</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
-"\">GtkApplication</link>"
+"<em>Os menus de aplicativos não são mais recomendados e seu conteúdo não "
+"será incluído na barra superior do GNOME 3 a partir do GNOME 3.32. Os <link "
+"xref=\"primary-menus\">menus primário</link> e <link xref=\"secondary-menus"
+"\">secundários</link> devem ser usados como alternativas.</em>"
 
 #. (itstool) path: page/title
 #: C/button-menus.page:18
@@ -729,6 +565,16 @@ msgid ""
 msgstr ""
 "external ref='figures/ui-elements/hybrid-button-menu.svg' "
 "md5='f007dc2c5dc0c25ee85483f31ca85917'"
+
+#. (itstool) path: section/title
+#: C/button-menus.page:47 C/dialogs.page:155 C/display-compatibility.page:21
+#: C/drop-down-lists.page:34 C/grids.page:32 C/lists.page:133
+#: C/menu-bars.page:93 C/menus.page:61 C/pointer-and-touch-input.page:40
+#: C/popovers.page:55 C/primary-windows.page:70 C/progress-bars.page:117
+#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
+#: C/visual-layout.page:35
+msgid "General guidelines"
+msgstr "Diretrizes gerais"
 
 #. (itstool) path: item/p
 #: C/button-menus.page:50
@@ -3565,13 +3411,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icon-design.page:101
-#| msgid ""
-#| "You are free to use different shades of these colors depending on the "
-#| "desired material effect. However, these primary colors are a good "
-#| "baseline to start from. A GIMP/Inkscape format palette <link href="
-#| "\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/"
-#| "raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">is available</"
-#| "link>."
 msgid ""
 "You are free to use different shades of these colors depending on the "
 "desired material effect. However, these primary colors are a good baseline "
@@ -3637,9 +3476,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/icon-design.page:117
-#| msgid ""
-#| "When using unfilled strokes for an outline, try avoiding hairline (1px) "
-#| "and do at least a 2px stroke for the meain feature of the icon."
 msgid ""
 "When using unfilled strokes for an outline, try avoiding hairline (1px) and "
 "do at least a 2px stroke for the main feature of the icon."
@@ -3924,13 +3760,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:68
-#| msgid ""
-#| "Remember that some icons are only meaningful alongside other icons of the "
-#| "same type. For example, a media icon for stop is simply a square, and may "
-#| "not be identified as a stop icon without other media controls (like play, "
-#| "pause, or skip) being visible close by. Likewise, the icon to remove an "
-#| "item from a list is a subtract symbol (ie. a single line), and will not "
-#| "be recognizable without a corresponding “plus” add icon."
 msgid ""
 "Remember that some icons are only meaningful alongside other icons of the "
 "same type. For example, a media icon for stop is simply a square, and may "
@@ -5348,6 +5177,11 @@ msgid "Label"
 msgstr "Rótulo"
 
 #. (itstool) path: td/p
+#: C/keyboard-input.page:286 C/primary-menus.page:65
+msgid "<gui>Help</gui>"
+msgstr "<gui>Help</gui>"
+
+#. (itstool) path: td/p
 #: C/keyboard-input.page:287
 msgid "<key>F1</key>"
 msgstr "<key>F1</key>"
@@ -5360,6 +5194,11 @@ msgstr ""
 "Abre o navegador padrão de ajuda sobre página de conteúdo para o aplicativo."
 
 #. (itstool) path: td/p
+#: C/keyboard-input.page:291
+msgid "<gui>About</gui>"
+msgstr "<gui>About</gui>"
+
+#. (itstool) path: td/p
 #: C/keyboard-input.page:293
 msgid ""
 "Opens the About dialog for the application. Use the standard GNOME 3 dialog "
@@ -5367,6 +5206,11 @@ msgid ""
 msgstr ""
 "Abre o diálogo de Sobre para o aplicativo. Usa o diálogo padrão do GNOME 3 "
 "para isso."
+
+#. (itstool) path: td/p
+#: C/keyboard-input.page:296
+msgid "<gui>Quit</gui>"
+msgstr "<gui>Quit</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:297
@@ -7481,7 +7325,7 @@ msgstr ""
 "caixas de seleção ou botões de opção em vez disso."
 
 #. (itstool) path: item/p
-#: C/menus.page:78 C/primary-menus.page:48 C/secondary-menus.page:47
+#: C/menus.page:78 C/primary-menus.page:82 C/secondary-menus.page:47
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
 "\">GtkMenuButton</link>"
@@ -7490,7 +7334,7 @@ msgstr ""
 "\">GtkMenuButton</link>"
 
 #. (itstool) path: item/p
-#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:49
+#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:83
 #: C/secondary-menus.page:48
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
@@ -8825,10 +8669,10 @@ msgstr "Menus primários"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/primary-menu.svg' "
-"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+"md5='78f497d54c3ba45846f409ef81debad2'"
 msgstr ""
 "external ref='figures/patterns/primary-menu.svg' "
-"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+"md5='78f497d54c3ba45846f409ef81debad2'"
 
 #. (itstool) path: page/p
 #: C/primary-menus.page:20
@@ -8837,42 +8681,74 @@ msgid ""
 "applications. They are labelled with the menu icon (named <code>menu-open</"
 "code>) and contain the top-level menu items for the application. This can "
 "include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
-"<gui>About</gui>, as well as other application-specific items."
+"<gui>About Application</gui>, as well as other application-specific items."
 msgstr ""
 "Os menus primários são um padrão de design padrão encontrado na maioria dos "
 "aplicativos. Eles são rotulados com o ícone de menu (chamado <code>menu-"
 "open</code>) e contêm os itens de menu de nível superior para o aplicativo. "
 "Isso pode incluir itens padrão como <gui>Preferences</gui>, <gui>Help</gui> "
-"e <gui>About</gui>, além de outros itens específicos do aplicativo."
-
-#. (itstool) path: page/p
-#: C/primary-menus.page:22
-msgid ""
-"Primary menus are typically located on the right side of the header bar. "
-"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
-"link>, the primary menu should be placed above the sidebar list."
-msgstr ""
-"Os menus principais geralmente estão localizados no lado direito da barra de "
-"cabeçalho. Quando usado em combinação com uma <link xref=\"sidebar-lists"
-"\">lista de barra lateral</link>, o menu primário deve ser colocado acima da "
-"lista da barra lateral."
+"e <gui>About Application</gui>, além de outros itens específicos do "
+"aplicativo."
 
 #. (itstool) path: section/p
-#: C/primary-menus.page:27
+#: C/primary-menus.page:26
 msgid ""
 "Most applications have primary menus, since they are the standard location "
-"for <gui>About</gui>, which every application is expected to have."
+"for <gui>About Application</gui>, which every application is expected to "
+"have."
 msgstr ""
 "A maioria dos aplicativos tem menu primário, já que este é o local padrão "
-"para <gui>About</gui>, o qual é esperado que todo aplicativo tenha."
+"para <gui>About Application</gui>, o qual é esperado que todo aplicativo "
+"tenha."
 
 #. (itstool) path: section/title
-#: C/primary-menus.page:32 C/secondary-menus.page:32
+#: C/primary-menus.page:31 C/secondary-menus.page:32
 msgid "Guidance"
 msgstr "Orientação"
 
+#. (itstool) path: section/p
+#: C/primary-menus.page:33
+msgid ""
+"Primary menus are typically placed on the right side of the header bar. "
+"However, there are two variations on this rule:"
+msgstr ""
+"Os menus primários geralmente são colocados no lado direito da barra de "
+"cabeçalho. No entanto, existem duas variações nessa regra:"
+
 #. (itstool) path: item/p
-#: C/primary-menus.page:35
+#: C/primary-menus.page:36
+msgid ""
+"If the application incorporates in-window navigation, with a top-level "
+"location and sub-pages, the primary menu should only be placed on the top "
+"level: sub-pages can include a <link xref=\"secondary-menus\">secondary "
+"menu</link>, if a menu is required."
+msgstr ""
+"Se o aplicativo incorporar a navegação na janela, com um local e subpáginas "
+"de nível superior, o menu primário deverá ser colocado apenas no nível "
+"superior: as subpáginas podem incluir um <link xref=\"secondary-menus\">menu "
+"secundário</link>, se um menu for necessário."
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:37
+msgid ""
+"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
+"link>, the primary menu should be placed above the sidebar list on the "
+"right. If a menu is required for items shown in the content side of the "
+"window, a <link xref=\"secondary-menus\">secondary menu</link> can be used."
+msgstr ""
+"Quando usado em combinação com uma <link xref=\"sidebar-lists\">lista da "
+"barra lateral</link>, o menu primário deve ser colocado acima da lista da "
+"barra lateral à direita. Se um menu for necessário para os itens mostrados "
+"no lado do conteúdo da janela, um <link xref=\"secondary-menus\">menu "
+"secundário</link> poderá ser usado."
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:40
+msgid "Other guidelines:"
+msgstr "Outras diretrizes:"
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:43
 msgid ""
 "Primary menus can contain items for both the current window or view, as well "
 "as the application as a whole. This differentiates them from <link xref="
@@ -8885,22 +8761,7 @@ msgstr ""
 "menu relacionados a uma visão ou item específico."
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:36
-msgid ""
-"Applications which use in-window navigation should only show the primary "
-"menu on the top-level view (typically the main view that is shown when the "
-"app is launched). Child views, such as those that show individual items of "
-"content, should use <link xref=\"secondary-menus\">secondary</link> rather "
-"than primary menus."
-msgstr ""
-"Os aplicativos que usam a navegação na janela só devem mostrar o menu "
-"primário na visualização de nível superior (normalmente, a exibição "
-"principal mostrada quando o aplicativo é iniciado). As visões de criança, "
-"como aquelas que mostram itens individuais de conteúdo, devem usar <link "
-"xref=\"secondary-menus\">secundários</link> em vez de menus primários."
-
-#. (itstool) path: item/p
-#: C/primary-menus.page:37
+#: C/primary-menus.page:44
 msgid ""
 "Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
 "deciding on primary menu content and arrangement."
@@ -8909,18 +8770,77 @@ msgstr ""
 "sobre o conteúdo e organização do menu primário."
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:38
+#: C/primary-menus.page:45
 msgid ""
 "A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
-"As such, a header bar menu can include a variety of controls, such as groups "
-"of buttons."
+"As such, a primary menu can include a variety of controls, such as groups of "
+"buttons."
 msgstr ""
 "Um menu de primário está contido dentro de uma <link xref=\"popovers"
-"\">janela sobreposta</link>. Como tal, um menu de barra de cabeçalho pode "
-"incluir uma variedade de controles, como grupos de botões."
+"\">janela sobreposta</link>. Como tal, um menu primário pode incluir uma "
+"variedade de controles, como grupos de botões."
 
-#. (itstool) path: item/p
-#: C/primary-menus.page:39
+#. (itstool) path: section/title
+#: C/primary-menus.page:51
+msgid "Standard menu items"
+msgstr "Itens de menu padrão"
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:53
+msgid ""
+"The following are standard primary menu items, and should be placed in a "
+"group at the end of the menu:"
+msgstr ""
+"Os itens a seguir são itens de menu primários padrão e devem ser colocados "
+"em um grupo no final do menu:"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:57
+msgid "<gui>Preferences</gui>"
+msgstr "<gui>Preferences</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:58
+msgid "Opens the application's preferences dialog, if it has one."
+msgstr ""
+"Abre a caixa de diálogo de preferências do aplicativo, se ele tiver uma."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:61
+msgid "<gui>Keyboard Shortcuts</gui>"
+msgstr "<gui>Keyboard Shortcuts</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:62
+msgid "Opens the application's keyboard shortcuts window, if it has one."
+msgstr "Abre a janela de atalhos de teclado do aplicativo, se ele tiver uma."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:66
+msgid ""
+"Opens the application's user documentation in the <app>Help</app> "
+"application."
+msgstr ""
+"Abre a documentação do usuário do aplicativo no aplicativo <app>Ajuda</app>."
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:69
+msgid "<gui>About Application</gui>"
+msgstr "<gui>About Application</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:70
+msgid ""
+"Opens the application's about dialog. This item should include the "
+"application's name, such as <gui>About Photos</gui> or <gui>About "
+"Calculator</gui>. Every primary menu should include this item."
+msgstr ""
+"Abre a caixa de diálogo de “sobre” do aplicativo. Este item deve incluir o "
+"nome do aplicativo, como <gui>About Photos</gui> ou <gui>About Calculator</"
+"gui>. Todo menu primário deve incluir este item."
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:74
 msgid ""
 "Primary menus shouldn’t include menu items for close or quit: windows can "
 "already be closed using the close button in the header bar, and it can be "
@@ -10094,14 +10014,14 @@ msgid ""
 "Secondary menus are located in the header bar and include menu items for the "
 "current view or content item. This differentiates them from <link xref="
 "\"primary-menus\">primary menus</link>, which include menu items that relate "
-"to an entire application (such as <gui>Preferences</gui> and <gui>About</"
-"gui>)."
+"to an entire application (such as <gui>Preferences</gui> and <gui>About "
+"\"Name\"</gui>)."
 msgstr ""
 "Os menus secundários estão localizados na barra de cabeçalho e incluem itens "
 "de menu para a exibição atual ou o item de conteúdo. Isso os diferencia de "
 "<link xref=\"primary-menus\">menus primários</link>, que incluem itens de "
 "menu relacionados a um aplicativo inteiro (como <gui>Preferences</gui> e "
-"<gui>About</gui>)."
+"<gui>About “Name”</gui>)."
 
 #. (itstool) path: section/p
 #: C/secondary-menus.page:25
@@ -10799,12 +10719,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/switches.page:27
-#| msgid ""
-#| "Switches should be used for controlling services or hardware that have a "
-#| "clear on/off logic. They are particularly appropriate when those services "
-#| "or hardware do not activate immediately (ie. there is a delay between the "
-#| "switch being operated and it having an effect), or when they affect the "
-#| "operation of the application in a significant way."
 msgid ""
 "Switches should be used for controlling services or hardware that have a "
 "clear on/off logic. They are particularly appropriate when those services or "
@@ -12220,10 +12134,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:54
-#| msgid ""
-#| "Latin abbreviations such as “ie” or “eg” should be avoided, since they "
-#| "can't always be easily translated and can be unintelligible when read by "
-#| "screen readers. Instead, use full words like “for example”."
 msgid ""
 "Latin abbreviations such as “i.e.” or “e.g.” should be avoided, since they "
 "can't always be easily translated and can be unintelligible when read by "
@@ -12369,6 +12279,115 @@ msgstr ""
 "<gui>Preferences</gui>. Enquanto esses comandos abrem janelas que podem "
 "incorporar outras funcionalidades, o rótulo não especifica uma ação e, "
 "portanto, não precisa se comunicar com essa entrada ou confirmação adicional."
+
+#~ msgid ""
+#~ "Application menus provide access to global, top level actions and options "
+#~ "for your application. These include standard items for accessing "
+#~ "documentation and information about the application."
+#~ msgstr ""
+#~ "Menus de aplicativo fornecem acesso à ações e opções globais e de nível "
+#~ "superior para seu aplicativo. Isto inclui itens padrão para acessar "
+#~ "documentação e informação sobre o aplicativo."
+
+#~ msgid ""
+#~ "Application menus are a standard part of GNOME 3, and every application "
+#~ "that runs under GNOME 3 should have one."
+#~ msgstr ""
+#~ "Menus de aplicativo são uma parte padrão do GNOME 3, e todo aplicativo "
+#~ "que executa sob o GNOME 3 deveria ter um."
+
+#~ msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
+#~ msgstr "Siga a <link xref=\"menus\">orientação para menus</link> padrão."
+
+#~ msgid ""
+#~ "Only include menu items that relate to the application as a whole, such "
+#~ "as application preferences. Items that are specific to a particular "
+#~ "window or view, or which act on content within an application window, "
+#~ "should not be included."
+#~ msgstr ""
+#~ "Inclua apenas itens de menu que são relacionados ao aplicativo como um "
+#~ "todo, como as preferências de aplicativo. Ações que são específicas a uma "
+#~ "janela ou visão particular, ou que agem sobre o conteúdo de uma janela de "
+#~ "aplicativo, não devem ser incluídas."
+
+#~ msgid ""
+#~ "If an item from the application menu is frequently used, consider moving "
+#~ "it to a more accessible location."
+#~ msgstr ""
+#~ "Se um item do menu de aplicativo é usado frequentemente, considere movê-"
+#~ "lo para um local mais acessível."
+
+#~ msgid ""
+#~ "Common application menu items include <gui>New Window</gui>, "
+#~ "<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
+#~ "gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be "
+#~ "contained within their own group at the bottom of the menu."
+#~ msgstr ""
+#~ "Itens comuns de menu de aplicativo incluem <gui>New Window</gui>, "
+#~ "<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> e <gui>Quit</"
+#~ "gui>. <gui>Help</gui>, <gui>About</gui> e <gui>Quit</gui> devem estar "
+#~ "contidos dentro de seu próprio grupo na parte inferior do menu."
+
+#~ msgid "<gui>New Window</gui>"
+#~ msgstr "<gui>New Window</gui>"
+
+#~ msgid ""
+#~ "Opens a new window. Only <link xref=\"primary-windows#application-types"
+#~ "\">multiple instance applications</link> should include this menu item. "
+#~ "If the new window contains a specific type of content item, or "
+#~ "simultaneously performs an action, rename it to be less generic. For "
+#~ "example: <gui>New Connection</gui> or <gui>New Document</gui>."
+#~ msgstr ""
+#~ "Abre uma nova janela. Somente <link xref=\"primary-windows#application-"
+#~ "types\">aplicativos de múltiplas instâncias</link> devem incluir esse "
+#~ "item de menu. Se a nova janela contiver um tipo específico de item de "
+#~ "conteúdo, ou simultaneamente executa uma ação, renomeie-a para ser menos "
+#~ "genérica. Por exemplo: <gui>New Connection</gui> ou <gui>New Document</"
+#~ "gui>."
+
+#~ msgid ""
+#~ "Opens the application's about dialog. Every application menu should "
+#~ "include this item."
+#~ msgstr ""
+#~ "Abre o diálogo sobre o aplicativo. Todo menu de aplicativo deve incluir "
+#~ "esse item."
+
+#~ msgid ""
+#~ "Closes the application, including all application windows. Every "
+#~ "application menu should include this item."
+#~ msgstr ""
+#~ "Fecha o aplicativo, incluindo todas as janelas de aplicativos. Todo menu "
+#~ "de aplicativo deve incluir esse item."
+
+#~ msgid ""
+#~ "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
+#~ "\">GtkApplication</link>"
+#~ msgstr ""
+#~ "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
+#~ "\">GtkApplication</link>"
+
+#~ msgid ""
+#~ "Primary menus are typically located on the right side of the header bar. "
+#~ "When used in combination with a <link xref=\"sidebar-lists\">sidebar "
+#~ "list</link>, the primary menu should be placed above the sidebar list."
+#~ msgstr ""
+#~ "Os menus principais geralmente estão localizados no lado direito da barra "
+#~ "de cabeçalho. Quando usado em combinação com uma <link xref=\"sidebar-"
+#~ "lists\">lista de barra lateral</link>, o menu primário deve ser colocado "
+#~ "acima da lista da barra lateral."
+
+#~ msgid ""
+#~ "Applications which use in-window navigation should only show the primary "
+#~ "menu on the top-level view (typically the main view that is shown when "
+#~ "the app is launched). Child views, such as those that show individual "
+#~ "items of content, should use <link xref=\"secondary-menus\">secondary</"
+#~ "link> rather than primary menus."
+#~ msgstr ""
+#~ "Os aplicativos que usam a navegação na janela só devem mostrar o menu "
+#~ "primário na visualização de nível superior (normalmente, a exibição "
+#~ "principal mostrada quando o aplicativo é iniciado). As visões de criança, "
+#~ "como aquelas que mostram itens individuais de conteúdo, devem usar <link "
+#~ "xref=\"secondary-menus\">secundários</link> em vez de menus primários."
 
 #~ msgid "Cyan"
 #~ msgstr "Ciano"
