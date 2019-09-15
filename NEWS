@@ -51,7 +51,7 @@
 3.26.0
 ======
 
-* Add description of GNOM and GVDB to programming guidlines (Philip Withnall)
+* Add description of GNOM and GVDB to programming guidelines (Philip Withnall)
 * Add a fullscreen mode pattern to the HIG (Allan Day)
 * Improvements to platform demos (David King, Sebastian Rasmussen)
 * HIG-compliant applications may run without open windows (Allan Day)
@@ -427,7 +427,7 @@
   es (Gladys Guerrero-Lozano)
 
 * Accessibility Development Guide
-  - Removed references to these non-existant figures (Jasper Lievisse Adriaanse)
+  - Removed references to these non-existent figures (Jasper Lievisse Adriaanse)
 
 3.4.1
 =====

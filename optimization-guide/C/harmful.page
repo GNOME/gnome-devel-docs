@@ -61,7 +61,7 @@
         </item>
         <item>
             <p>
-                Consider caching all of the data in a single binary file that is properly aligned and can be mmaped.
+                Consider caching all of the data in a single binary file that is properly aligned and can be mmapped.
             </p>
         </item>
     </list>
