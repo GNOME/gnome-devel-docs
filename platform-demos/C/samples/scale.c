@@ -32,6 +32,7 @@ hscale_moved (GtkRange *range,
  * reacts to the signal. It does the same thing as the function above, except with
  * the vertical scale.
  */
+static void
 vscale_moved (GtkRange *range,
               gpointer  user_data)
 {
