@@ -41,7 +41,7 @@ entry.set_width_chars(50);
 var label = new Gtk.Label({label: "Entry widget: "});
 //create the button for connecting
 var connectionbutton = new Gtk.Button({label: "Click to update label"});
-//create the label for updating the entrys information
+//create the label for updating entry information
 this.resultlabel = new Gtk.Label({
   label: "Entry contents go here after the click"
 });

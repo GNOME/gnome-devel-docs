@@ -52,7 +52,7 @@ const WeatherService = imports.geonames;]]></code>
 Gtk.init(null, 0);
 //create your window, name it and connect the x to quit function. Remember that window is a taken word
 var weatherwindow = new Gtk.Window({type: Gtk.WindowType.TOPLEVEL});
-weatherwindow.title = "Todays weather";
+weatherwindow.title = "Today's weather";
 //Window only accepts one widget and a title. Further structure with Gtk.boxes of similar
 weatherwindow.connect("destroy", function(){Gtk.main_quit()});
 
@@ -66,7 +66,7 @@ Gtk.main();]]></code>
 var grid = new Gtk.Grid();
 weatherwindow.add(grid);
 
-//We initialize the icon here, but deside the file later in geonames.js.
+//We initialize the icon here, but decide the file later in geonames.js.
 var weatherIcon = new Gtk.Image();
 
 //Set some labels to your window
@@ -155,10 +155,10 @@ const WeatherService = imports.geonames;
 Gtk.init(null, 0);
 //create your window, name it and connect the x to quit function. Remember that window is a taken word
 var weatherwindow = new Gtk.Window({type: Gtk.WindowType.TOPLEVEL});
-weatherwindow.title = "Todays weather";
+weatherwindow.title = "Today's weather";
 //Window only accepts one widget and a title. Further structure with Gtk.boxes of similar
 weatherwindow.connect("destroy", function(){Gtk.main_quit()});
-//We initialize the icon here, but deside the file later in geonames.js.
+//We initialize the icon here, but decide the file later in geonames.js.
 
 var weatherIcon = new Gtk.Image();
 
