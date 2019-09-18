@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-02-02 20:55+0000\n"
-"PO-Revision-Date: 2016-02-03 00:36+0100\n"
+"POT-Creation-Date: 2019-09-15 09:21+0000\n"
+"PO-Revision-Date: 2019-09-18 20:24+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -106,7 +106,7 @@ msgstr ""
 #: C/harmful.page:63
 msgid ""
 "Consider caching all of the data in a single binary file that is properly "
-"aligned and can be mmaped."
+"aligned and can be mmapped."
 msgstr ""
 "Överväg att cacha alla data i en enstaka binärfil som är korrekt justerad "
 "och du kan köra mmap på."
@@ -665,34 +665,6 @@ msgstr ""
 "du bara presenterat resultaten, men de vet i alla fall att programmet inte "
 "har kraschat och att de kan gå och ta sig en kopp kaffe."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/massif.page:50
-msgctxt "_"
-msgid ""
-"external ref='figures/massif-before.png' "
-"md5='1a6b2ace548e6789ab8bfacb3727b345'"
-msgstr ""
-"external ref='figures/massif-before.png' "
-"md5='1a6b2ace548e6789ab8bfacb3727b345'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/massif.page:124
-msgctxt "_"
-msgid ""
-"external ref='figures/massif-after.png' "
-"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
-msgstr ""
-"external ref='figures/massif-after.png' "
-"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
-
 #. (itstool) path: page/title
 #: C/massif.page:7
 msgid "Using <app>Massif</app> for Profiling Memory Use in GNOME Software"
@@ -860,6 +832,20 @@ msgid ""
 msgstr ""
 "Utdata från <app>Massif</app> för den ej optimerade versionen av programmet "
 "<app>Swell Foop</app>."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:50
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+msgstr ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
 
 #. (itstool) path: section/p
 #: C/massif.page:52
@@ -1078,6 +1064,20 @@ msgid ""
 "<app>Massif</app> output for the optimized <app>Swell Foop</app> program."
 msgstr ""
 "<app>Massif</app>-utdata för det optimerade <app>Swell Foop</app>-programmet."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:124
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+msgstr ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
 
 #. (itstool) path: section/p
 #: C/massif.page:126
