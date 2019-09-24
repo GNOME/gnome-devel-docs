@@ -1,13 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2010 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Marek Černocký <marek@manet.cz>, 2010, 2011, 2013, 2014, 2015.
+# Marek Černocký <marek@manet.cz>, 2010, 2011, 2013, 2014, 2015, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-11-12 08:51+0000\n"
-"PO-Revision-Date: 2015-11-12 16:32+0100\n"
+"POT-Creation-Date: 2019-09-18 18:27+0000\n"
+"PO-Revision-Date: 2019-09-24 12:41+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -112,7 +112,7 @@ msgstr ""
 #: C/harmful.page:63
 msgid ""
 "Consider caching all of the data in a single binary file that is properly "
-"aligned and can be mmaped."
+"aligned and can be mmapped."
 msgstr ""
 "Zvažte ukládání všech dat do mezipaměti v podobě jednoho binárního souboru, "
 "který je správně zarovnán a lze pro něj použít mmap."
@@ -188,8 +188,8 @@ msgid ""
 "use. This section contains guides and tutorials for optimizing your software."
 msgstr ""
 "Software je možné optimalizovat z řady důvodů: na rychlost, na velikost "
-"programu nebo využití paměti. Zde najdete příručku a průvodce, kteří vám "
-"s tím pomohou u vašeho softwaru."
+"programu nebo využití paměti. Zde najdete příručku a průvodce, kteří vám s "
+"tím pomohou u vašeho softwaru."
 
 #. (itstool) path: page/title
 #: C/index.page:35
@@ -673,34 +673,6 @@ msgstr ""
 "zobrazili výsledky, ale aspoň bude vědět, že program nezkolaboval a že si "
 "může zatím dát kávičku."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/massif.page:50
-msgctxt "_"
-msgid ""
-"external ref='figures/massif-before.png' "
-"md5='1a6b2ace548e6789ab8bfacb3727b345'"
-msgstr ""
-"external ref='figures/massif-before.png' "
-"md5='1a6b2ace548e6789ab8bfacb3727b345'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/massif.page:124
-msgctxt "_"
-msgid ""
-"external ref='figures/massif-after.png' "
-"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
-msgstr ""
-"external ref='figures/massif-after.png' "
-"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
-
 #. (itstool) path: page/title
 #: C/massif.page:7
 msgid "Using <app>Massif</app> for Profiling Memory Use in GNOME Software"
@@ -868,6 +840,20 @@ msgid ""
 msgstr ""
 "Výstup z aplikace <app>Massif</app> pro neoptimalizovanou verzi programu "
 "<app>Swell Foop</app>."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:50
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+msgstr ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
 
 #. (itstool) path: section/p
 #: C/massif.page:52
@@ -1086,6 +1072,20 @@ msgid ""
 msgstr ""
 "Výstup z aplikace <app>Massif</app> pro optimalizovanou verzi programu "
 "<app>Swell Foop</app>."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:124
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+msgstr ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
 
 #. (itstool) path: section/p
 #: C/massif.page:126
