@@ -3,22 +3,22 @@
 # Copyright (C) 2009 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2015.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs.optimization-guide.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-15 20:47+0000\n"
-"PO-Revision-Date: 2015-11-17 09:21+0100\n"
+"POT-Creation-Date: 2019-09-18 18:27+0000\n"
+"PO-Revision-Date: 2019-10-03 13:00+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
-"Language: \n"
+"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 3.34.0\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -115,9 +115,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/harmful.page:63
+#| msgid ""
+#| "Consider caching all of the data in a single binary file that is properly "
+#| "aligned and can be mmaped."
 msgid ""
 "Consider caching all of the data in a single binary file that is properly "
-"aligned and can be mmaped."
+"aligned and can be mmapped."
 msgstr ""
 "Considerar cachear todos los datos en un archivo binario único que está "
 "alineado apropiadamente y se puede mapear."
@@ -138,15 +141,6 @@ msgstr ""
 
 #. (itstool) path: license/p
 #: C/index.page:7
-#| msgid ""
-#| "Permission is granted to copy, distribute and/or modify this document "
-#| "under the terms of the GNU Free Documentation License, Version 1.1 or any "
-#| "later version published by the Free Software Foundation with no Invariant "
-#| "Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
-#| "copy of the GNU Free Documentation License from the Free Software "
-#| "Foundation by visiting <link href=\"http://www.fsf.org\">their Web site</"
-#| "link> or by writing to: Free Software Foundation, Inc., 59 Temple Place - "
-#| "Suite 330, Boston, MA 02111-1307, USA."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License, Version 1.1 or any later "
@@ -219,10 +213,6 @@ msgstr "Introducción"
 
 #. (itstool) path: section/p
 #: C/index.page:39
-#| msgid ""
-#| "This is a brief introduction to optimization, both the hows and thewhys. "
-#| "Details of individual tools and techniques are left for later articles, "
-#| "but a collection of hints and tricks is provided."
 msgid ""
 "This is a brief introduction to optimization, both the hows and the whys. "
 "Details of individual tools and techniques are left for later articles, but "
@@ -700,34 +690,6 @@ msgstr ""
 "mostrado el resultado pero al menos sabrán que el programa no se ha colgado "
 "y que se pueden ir a preparar un café."
 
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/massif.page:50
-msgctxt "_"
-msgid ""
-"external ref='figures/massif-before.png' "
-"md5='1a6b2ace548e6789ab8bfacb3727b345'"
-msgstr ""
-"external ref='figures/massif-before.png' "
-"md5='1a6b2ace548e6789ab8bfacb3727b345'"
-
-#. (itstool) path: media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/massif.page:124
-msgctxt "_"
-msgid ""
-"external ref='figures/massif-after.png' "
-"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
-msgstr ""
-"external ref='figures/massif-after.png' "
-"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
-
 #. (itstool) path: page/title
 #: C/massif.page:7
 msgid "Using <app>Massif</app> for Profiling Memory Use in GNOME Software"
@@ -900,20 +862,22 @@ msgstr ""
 "La salida de <app>Massif</app> para la versión no optimizada del programa "
 "<app>Swell Foop</app>."
 
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:50
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+msgstr ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+
 #. (itstool) path: section/p
 #: C/massif.page:52
-#| msgid ""
-#| "<link xref=\"optimization-massif-FIG-output-unoptimized\"/> shows a "
-#| "typical postscript output from <app>Massif</app>. This is the result you "
-#| "would get from playing a single game of <app>Swell Foop</app> (version "
-#| "2.8.0) and then quitting. The postscript file will have a name like "
-#| "<file>massif.12345.ps</file> and the text file will be called "
-#| "<file>massif.12345.txt</file>. The number in the middle is the process ID "
-#| "of the program that was examined. If you actually try this example you "
-#| "will find two versions of each file, with slightly different numbers, "
-#| "this is because <app>Swell Foop</app> starts a second process and "
-#| "<app>Massif</app> follows that too. We will ignore this second process, "
-#| "it consumes very little memory."
 msgid ""
 "The image above shows a typical postscript output from <app>Massif</app>. "
 "This is the result you would get from playing a single game of <app>Swell "
@@ -1110,15 +1074,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:114
-#| msgid ""
-#| "Unfortunately, the choice of optimization is also constrained by the "
-#| "needs of the program. The size of the pixbuf data in <app>Swell Foop</"
-#| "app> is determined by the size of the game's graphics and cannot be "
-#| "easily reduced. However, the amount of time it spends loaded into memory "
-#| "can be drastically reduced. <link xref=\"optimization-massif-FIG-output-"
-#| "optimized\"/> shows the <app>Massif</app> analysis of <app>Swell Foop</"
-#| "app> after being altered to dispose of the pixbufs once the images have "
-#| "been loaded into the X server."
 msgid ""
 "Unfortunately, the choice of optimization is also constrained by the needs "
 "of the program. The size of the pixbuf data in <app>Swell Foop</app> is "
@@ -1144,6 +1099,20 @@ msgid ""
 msgstr ""
 "La salida de <app>Massif</app> para el programa optimizado <app>Swell Foop</"
 "app>."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:124
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+msgstr ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
 
 #. (itstool) path: section/p
 #: C/massif.page:126
