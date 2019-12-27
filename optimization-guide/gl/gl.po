@@ -5,72 +5,174 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2012-10-31 14:51+0000\n"
-"PO-Revision-Date: 2013-03-27 13:43+0200\n"
-"Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
+"POT-Creation-Date: 2019-09-18 18:27+0000\n"
+"PO-Revision-Date: 2019-12-27 16:58+0100\n"
+"Last-Translator: Fran Diéguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bits\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Fran Dieguez <frandieguez@gnome.org>, 2011-2013."
+msgstr "Fran Diéguez <frandieguez@gnome.org>, 2011-2020"
 
-#: C/index.docbook:5(book/title)
-msgid "Optimizing GNOME Software"
-msgstr "Optimizar software para GNOME"
+#. (itstool) path: page/title
+#: C/harmful.page:7
+msgid "Disk Seeks Considered Harmful"
+msgstr "Buscas de disco consideradas dañinas"
 
-#: C/index.docbook:8(publisher/publishername)
-#: C/index.docbook:56(revdescription/para)
-msgid "GNOME Documentation Project"
-msgstr "GNOME Documentation Project"
+#. (itstool) path: page/p
+#. (itstool) path: section/p
+#: C/harmful.page:8 C/index.page:54
+msgid ""
+"Disk seeks are one of the most expensive operations you can possibly "
+"perform. You might not know this from looking at how many of them we "
+"perform, but trust me, they are. Consequently, please refrain from the "
+"following suboptimal behavior:"
+msgstr ""
+"As buscas de disco son unha das operacións máis caras que pode realizar. "
+"Pode que non saiba isto simplemente mirando cantas se realizan, pero crea "
+"que realmente o son. Por iso, evite os seguintes comportamentos:"
 
-#: C/index.docbook:10(bookinfo/copyright)
-msgid "<year>2004-2005</year> <holder>Callum McKenzie</holder>"
-msgstr "<year>2004-2005</year> <holder>Callum McKenzie</holder>"
+#. (itstool) path: item/p
+#: C/harmful.page:13
+msgid "Placing lots of small files all over the disk."
+msgstr "Localizar montóns de pequenos ficheiros por todo o disco."
 
-#: C/index.docbook:14(bookinfo/copyright)
-msgid "<year>2004-2005</year> <holder>Robert Love</holder>"
-msgstr "<year>2004-2005</year> <holder>Robert Love</holder>"
+#. (itstool) path: item/p
+#: C/harmful.page:18
+msgid "Opening, stating, and reading lots of files all over the disk"
+msgstr "Abrir, iniciar e ler montóns de ficheiros por todo o disco"
 
-#: C/index.docbook:19(bookinfo/author)
-msgid "<firstname>Callum</firstname> <surname>McKenzie</surname>"
-msgstr "<firstname>Callum</firstname> <surname>McKenzie</surname>"
+#. (itstool) path: item/p
+#: C/harmful.page:23
+msgid ""
+"Doing the above on files that are laid out at different times, so as to "
+"ensure that they are fragmented and cause even more seeking."
+msgstr ""
+"Realizar o anterior sobre ficheiros que se abren en diferentes momentos, "
+"para asegurarse de que están fragmentados e causan aínda máis buscas no "
+"disco."
 
-#: C/index.docbook:23(bookinfo/author)
-msgid "<firstname>Robert</firstname> <surname>Love</surname>"
-msgstr "<firstname>Robert</firstname> <surname>Love</surname>"
+#. (itstool) path: item/p
+#: C/harmful.page:28
+#, fuzzy
+#| msgid ""
+#| "Doing the above on files that are in different directories, so as to "
+#| "ensure that they are in different cylinder groups and and cause even more "
+#| "seeking."
+msgid ""
+"Doing the above on files that are in different directories, so as to ensure "
+"that they are in different cylinder groups and cause even more seeking."
+msgstr ""
+"Realizar o seguinte sobre ficheiros que están en diferentes cartafoles, para "
+"asegurarse de que están en grupos de cilindros diferentes e poden causar "
+"incluso máis buscas."
 
-#: C/index.docbook:29(legalnotice/para)
+#. (itstool) path: item/p
+#: C/harmful.page:33
+msgid "Repeatedly doing the above when it only needs to be done once."
+msgstr ""
+"Realizar de forma repetida o anterior cando só se precisa realizar unha vez."
+
+#. (itstool) path: page/p
+#: C/harmful.page:38
+msgid "Ways in which you can optimize your code to be seek-friendly:"
+msgstr ""
+"Formas nas que pode optimizar o seu código para que sexa amigábel á hora de "
+"facer buscas:"
+
+#. (itstool) path: item/p
+#: C/harmful.page:43
+msgid "Consolidate data into a single file."
+msgstr "Consolidar os datos nun só ficheiro."
+
+#. (itstool) path: item/p
+#: C/harmful.page:48
+msgid "Keep data together in the same directory."
+msgstr "Manter os datos xuntos no mesmo cartafol."
+
+#. (itstool) path: item/p
+#: C/harmful.page:53
+msgid "Cache data so as to not need to reread constantly."
+msgstr "Cachear os datos para non ter que volver a lelos constantemente."
+
+#. (itstool) path: item/p
+#: C/harmful.page:58
+msgid ""
+"Share data so as not to have to reread it from disk when each application "
+"loads."
+msgstr ""
+"Compartir os datos para non ter que volver a lelos do disco cada vez que "
+"unha aplicación se carga."
+
+#. (itstool) path: item/p
+#: C/harmful.page:63
+#, fuzzy
+#| msgid ""
+#| "Consider caching all of the data in a single binary file that is properly "
+#| "aligned and can be mmaped."
+msgid ""
+"Consider caching all of the data in a single binary file that is properly "
+"aligned and can be mmapped."
+msgstr ""
+"Considerar cachear tódolos datos nun ficheiro binario único que está aliñado "
+"axeitadamente e pódse mapear."
+
+#. (itstool) path: page/p
+#: C/harmful.page:68
+msgid ""
+"The trouble with disk seeks are compounded for reads, which is unfortunately "
+"what we are doing. Remember, reads are generally synchronous while writes "
+"are asynchronous. This only compounds the problem, serializing each read, "
+"and contributing to program latency."
+msgstr ""
+"O problema coas buscas nos discos complícase para as lecturas, que é "
+"desafortunadamente o que se busca. Lembre, as lecturas son xeralmente "
+"síncronas mentres que as escrituras son asíncronas. Isto só complica o "
+"problema, serializando cada lectura e contribuíndo á latencia do programa."
+
+#. (itstool) path: license/p
+#: C/index.page:7
+#, fuzzy
+#| msgid ""
+#| "Permission is granted to copy, distribute and/or modify this document "
+#| "under the terms of the <citetitle>GNU Free Documentation License</"
+#| "citetitle>, Version 1.1 or any later version published by the Free "
+#| "Software Foundation with no Invariant Sections, no Front-Cover Texts, and "
+#| "no Back-Cover Texts. You may obtain a copy of the <citetitle>GNU Free "
+#| "Documentation License</citetitle> from the Free Software Foundation by "
+#| "visiting <ulink type=\"http\" url=\"http://www.fsf.org\">their Web site</"
+#| "ulink> or by writing to: Free Software Foundation, Inc., 59 Temple Place "
+#| "- Suite 330, Boston, MA 02111-1307, USA."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the <citetitle>GNU Free Documentation License</citetitle>, "
-"Version 1.1 or any later version published by the Free Software Foundation "
-"with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. "
-"You may obtain a copy of the <citetitle>GNU Free Documentation License</"
-"citetitle> from the Free Software Foundation by visiting <ulink type=\"http"
-"\" url=\"http://www.fsf.org\">their Web site</ulink> or by writing to: Free "
-"Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
-"02111-1307, USA."
+"the terms of the GNU Free Documentation License, Version 1.1 or any later "
+"version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
+"copy of the GNU Free Documentation License from the Free Software Foundation "
+"by visiting <link href=\"http://www.fsf.org\">their Web site</link> or by "
+"writing to: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor "
+"Boston, MA 02110-1335, USA."
 msgstr ""
 "Concédese o permiso para copiar, distribuír e/ou modificar este documento "
-"baixo os termos da <citetitle>Licenza de documentación libre de "
-"GNU</citetitle>, versión 1.1 ou calquera versión publicada pola Free "
-"Software Foundation con seccións invariantes, sen textos de portada e sen "
-"textos de portada traseira. Pode obter unha copia da <citetitle>Licenza de "
+"baixo os termos da <citetitle>Licenza de documentación libre de GNU</"
+"citetitle>, versión 1.1 ou calquera versión publicada pola Free Software "
+"Foundation con seccións invariantes, sen textos de portada e sen textos de "
+"portada traseira. Pode obter unha copia da <citetitle>Licenza de "
 "documentación libre de GNU</citetitle> da Free Software Foundation visitando "
 "<ulink type=\"http\" url=\"http://www.fsf.org\">a súa páxina web</ulink> ou "
 "enviando unha carta a: Free Software Foundation, Inc., 59 Temple Place - "
 "Suite 330, Boston, MA 02111-1307, USA."
 
-#: C/index.docbook:41(legalnotice/para)
+#. (itstool) path: license/p
+#: C/index.page:16
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any GNOME "
@@ -84,21 +186,23 @@ msgstr ""
 "de Documentación de GNOME, os nomes son escritos en maiúsculas ou maiúscula "
 "inicial."
 
-#: C/index.docbook:55(revdescription/para)
-msgid "William Johnston"
-msgstr "William Johnston"
+#. (itstool) path: credit/years
+#: C/index.page:24 C/index.page:28
+msgid "2004-2005"
+msgstr "2004-2005"
 
-#: C/index.docbook:57(revdescription/para)
-msgid "Intial conversion to docbook format."
-msgstr "Conversión inicial ao formato docbook."
+#. (itstool) path: credit/name
+#: C/index.page:25
+msgid "Callum McKenzie"
+msgstr "Callum McKenzie"
 
-#: C/index.docbook:51(revhistory/revision)
-msgid ""
-"<revnumber>0.1</revnumber> <date>November 2007</date> <_:revdescription-1/>"
-msgstr ""
-"<revnumber>0.1</revnumber> <date>Novembro 2007</date> <_:revdescription-1/>"
+#. (itstool) path: credit/name
+#: C/index.page:29
+msgid "Robert Love"
+msgstr "Robert Love"
 
-#: C/index.docbook:63(abstract/para)
+#. (itstool) path: info/desc
+#: C/index.page:32
 msgid ""
 "Software can be optimized in many ways: for speed, program size, or memory "
 "use. This section contains guides and tutorials for optimizing your software."
@@ -107,159 +211,536 @@ msgstr ""
 "do programa ou uso de memoria. Esta sección contén guías e titoriais para "
 "optimizar o seu software."
 
-#: C/optimization-harmful.xml:3(chapter/title)
-msgid "Disk Seeks Considered Harmful"
-msgstr "Buscas de disco consideradas dañinas"
+#. (itstool) path: page/title
+#: C/index.page:35
+#, fuzzy
+#| msgid "Doing the Optimization"
+msgid "Optimization Guide"
+msgstr "Realizar a optimización"
 
-#: C/optimization-harmful.xml:5(chapter/para)
+#. (itstool) path: section/title
+#: C/index.page:38 C/massif.page:12
+msgid "Introduction"
+msgstr "Introdución"
+
+#. (itstool) path: section/p
+#: C/index.page:39
 msgid ""
-"Disk seeks are one of the most expensive operations you can possibly "
-"perform. You might not know this from looking at how many of them we "
-"perform, but trust me, they are. Consequently, please refrain from the "
-"following suboptimal behavior:"
+"This is a brief introduction to optimization, both the hows and the whys. "
+"Details of individual tools and techniques are left for later articles, but "
+"a collection of hints and tricks is provided."
 msgstr ""
-"As buscas de disco son unha das operacións máis caras que pode realizar. "
-"Pode que non saiba isto simplemente mirando cantas se realizan, pero crea "
-"que realmente o son. Por iso, evite os seguintes comportamentos:"
+"Esta é unha breve introdución á optimización, dos cómos tanto dos porqués. "
+"Déixanse para posteriores artigos os detalles de ferramentas e técnicas "
+"individuais pero fornécese unha colección de suxestións e trucos."
 
-#: C/optimization-harmful.xml:10(listitem/para)
-msgid "Placing lots of small files all over the disk."
-msgstr "Localizar montóns de pequenos ficheiros por todo o disco."
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Massif"
+msgstr "Massif"
 
-#: C/optimization-harmful.xml:15(listitem/para)
-msgid "Opening, stating, and reading lots of files all over the disk"
-msgstr "Abrir, iniciar e ler montóns de ficheiros por todo o disco"
-
-#: C/optimization-harmful.xml:20(listitem/para)
+#. (itstool) path: section/p
+#. (itstool) path: page/p
+#: C/index.page:46 C/massif.page:9
 msgid ""
-"Doing the above on files that are laid out at different times, so as to "
-"ensure that they are fragmented and cause even more seeking."
+"This article describes how to use the <app>Massif</app> heap profiler with "
+"GNOME applications. We describe how to invoke, interpret, and act on the "
+"output of <app>Massif</app>. The <app>Swell Foop</app> game is used as an "
+"example."
 msgstr ""
-"Realizar o anterior sobre ficheiros que se abren en diferentes momentos, "
-"para asegurarse de que están fragmentados e causan aínda máis buscas no "
-"disco."
+"Este artigo describe como usar o perfilador de pila <application>Massif</"
+"application> con aplicacións de GNOME. Describirémoslle como invocalo, "
+"interpretar e actual sobre a saída de <application>Massif</application>. "
+"Usaremos o xogo <application>Swell Foop</application> para este exemplo."
 
-#: C/optimization-harmful.xml:25(listitem/para)
+#. (itstool) path: section/title
+#: C/index.page:53
+msgid "Harmfulness"
+msgstr "Harmfulness"
+
+#. (itstool) path: page/title
+#: C/introduction.page:7
+msgid "What are we Optimizing?"
+msgstr "Que se está optimizando?"
+
+#. (itstool) path: page/p
+#: C/introduction.page:8
 msgid ""
-"Doing the above on files that are in different directories, so as to ensure "
-"that they are in different cylinder groups and and cause even more seeking."
+"When we optimize for GNOME the first thing to remember is this: we are not "
+"trying to make the program better, we are trying to make the person using "
+"the computer happier."
 msgstr ""
-"Realizar o seguinte sobre ficheiros que están en diferentes cartafoles, para "
-"asegurarse de que están en grupos de cilindros diferentes e poden causar "
-"incluso máis buscas."
+"Ao optimizar GNOME o primeiro que hai que lembrar é isto: non se está "
+"tentando mellorar o programa, estase tentando mellorando facer que as "
+"persoas usen o equipo máis felices."
 
-#: C/optimization-harmful.xml:30(listitem/para)
-msgid "Repeatedly doing the above when it only needs to be done once."
-msgstr ""
-"Realizar de forma repetida o anterior cando só se precisa realizar unha vez."
-
-#: C/optimization-harmful.xml:35(chapter/para)
-msgid "Ways in which you can optimize your code to be seek-friendly:"
-msgstr ""
-"Formas nas que pode optimizar o seu código para que sexa amigábel á hora de "
-"facer buscas:"
-
-#: C/optimization-harmful.xml:40(listitem/para)
-msgid "Consolidate data into a single file."
-msgstr "Consolidar os datos nun só ficheiro."
-
-#: C/optimization-harmful.xml:45(listitem/para)
-msgid "Keep data together in the same directory."
-msgstr "Manter os datos xuntos no mesmo cartafol."
-
-#: C/optimization-harmful.xml:50(listitem/para)
-msgid "Cache data so as to not need to reread constantly."
-msgstr "Cachear os datos para non ter que volver a lelos constantemente."
-
-#: C/optimization-harmful.xml:55(listitem/para)
+#. (itstool) path: page/p
+#: C/introduction.page:10
 msgid ""
-"Share data so as not to have to reread it from disk when each application "
-"loads."
+"Better programs make people happier, but there are some improvements that "
+"will make them a lot happier than others: Responsiveness, start-up time, "
+"easy to access commands and not having the computer go into swap the moment "
+"more than two programs are open."
 msgstr ""
-"Compartir os datos para non ter que volver a lelos do disco cada vez que un "
-"aplicativo se carga."
+"Programas mellores fan á xente máis feliz pero existen algunhas mellores que "
+"faranos máis felices que outras: tempo de resposta, tempo de inicio, "
+"facilidade para acceder a ordes e que o equipo non teña que usar a memoria "
+"de intercambio cando máis de dous programas estean abertos."
 
-#: C/optimization-harmful.xml:60(listitem/para)
+#. (itstool) path: page/p
+#: C/introduction.page:13
 msgid ""
-"Consider caching all of the data in a single binary file that is properly "
-"aligned and can be mmaped."
+"Traditional optimization tackles concepts like CPU use, code size, the "
+"number of mouse clicks and the memory use of the program. This second list "
+"has been chosen to correlate with the first list, however there is an "
+"important difference: The person using GNOME doesn't care about the second "
+"list, but they care a lot about the first list. When optimizing GNOME "
+"programs we will reduce CPU use, memory use and all those things, but these "
+"are the means to the end, not the final goal. We are optimizing for people."
 msgstr ""
-"Considerar cachear tódolos datos nun ficheiro binario único que está aliñado "
-"axeitadamente e pódse mapear."
+"A optimización tradicional contempla conceptos como o uso de CPI, o tamaño "
+"do código, o número de pulsacións do reato e o uso de memoria de programa. "
+"Elixiuse esta segunda lista para correlar como a primeira, porén existe unha "
+"diferenza importante. Á persoa que usa GNOME non lle importa a segunda "
+"lista, pero sí a primeira. Ao optimizar os programas de GNOME reducirase o "
+"uso de CPU, o uso de memoria e todo aquelo, pero son conceptos para o fin, "
+"non o obxectivo final. Optimízase para as persoas."
 
-#: C/optimization-harmful.xml:65(chapter/para)
+#. (itstool) path: section/title
+#: C/introduction.page:18
+msgid "Doing the Optimization"
+msgstr "Realizar a optimización"
+
+#. (itstool) path: section/p
+#: C/introduction.page:19
 msgid ""
-"The trouble with disk seeks are compounded for reads, which is unfortunately "
-"what we are doing. Remember, reads are generally synchronous while writes "
-"are asynchronous. This only compounds the problem, serializing each read, "
-"and contributing to program latency."
+"The previous section omitted one important qualifier: To optimize something "
+"it has to be measurable. You can't measure happiness. However, you can "
+"measure start-up time so you can tell if you have improved it. Happiness "
+"will then, hopefully, follow."
 msgstr ""
-"O problema coas buscas nos discos complícase para as lecturas, que é "
-"desafortunadamente o que se busca. Lembre, as lecturas son xeralmente "
-"síncronas mentres que as escrituras son asíncronas. Isto só complica o "
-"problema, serializando cada lectura e contribuíndo á latencia do programa."
+"Na sección anterior omitiuse un calificador importante: optimizar algo debe "
+"ser medíbel. Non se pode medir a felicidade. Porén pódese medir o tempo de "
+"inicio dun programa para saber se se mellorou. A felicidade do usuario "
+"aumentará pois."
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/optimization-massif.xml:52(imagedata)
+#. (itstool) path: section/p
+#: C/introduction.page:22
+#, fuzzy
 #| msgid ""
-#| "@@image: 'figures/massif-before.png'; md5=1a6b2ace548e6789ab8bfacb3727b345"
-msgctxt "_"
+#| "Optimization is the process of measurement, refinement and re-"
+#| "measurement. So the first thing you must do is find a way to measure what "
+#| "you are optimizing. Ideally this measurement is a single number, for "
+#| "example: the time taken to perform a task. This is your benchmark, it is "
+#| "the only way to tell if you are winning or losing. There is a big "
+#| "difference between a program that <emphasis>should</emphasis> be fast and "
+#| "a program that <emphasis>is</emphasis> fast."
 msgid ""
-"external ref='figures/massif-before.png' "
-"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+"Optimization is the process of measurement, refinement and re-measurement. "
+"So the first thing you must do is find a way to measure what you are "
+"optimizing. Ideally this measurement is a single number, for example: the "
+"time taken to perform a task. This is your benchmark, it is the only way to "
+"tell if you are winning or losing. There is a big difference between a "
+"program that <em>should</em> be fast and a program that <em>is</em> fast."
 msgstr ""
-"external ref='figures/massif-before.png' "
-"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+"A optimización é un proceso de medida, refinamento e remedida. O primeiro "
+"que debe facer é atopar unha forma de medir o que está optimizando. "
+"Idealmente a medida é un simple número, por exemplo: o tempo que se tarda en "
+"realiar unha tarefa. ESta é a súa proba, é a única forma de saber se está "
+"ganando ou perdendo. Existe unha gran diferenza entre un programa que "
+"<emphasis>deería</emphasis> ser rápido e un programa que <emphasis>é</"
+"emphasis> rápido."
 
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/optimization-massif.xml:114(imagedata)
+#. (itstool) path: section/p
+#: C/introduction.page:25
+msgid ""
+"Once you have a basic benchmark you need to find out why your code is not "
+"doing as well as it should. It is tempting to do this by inspection: just "
+"looking at the code and trying to spot something that looks like it needs "
+"improvement. You will invariably be wrong. Using a profiler to get a "
+"detailed break-down of what your program really does is the only way to be "
+"sure."
+msgstr ""
+"Unha vez que ten unha proba de rendemento básica debe atopar por que o seu "
+"código non o está facendo tan ben como debería. É tentado facelo "
+"inspeccionando: simplemente mirar o código e tratar de atopar algo que "
+"parece que precisa unha mellora. Estará perdendo o tempo, usar un perfilador "
+"para obter unha lista detallada do que o seu programa está facendo é, "
+"realmente, a única forma de estar seguro."
+
+#. (itstool) path: section/p
+#: C/introduction.page:28
+msgid ""
+"Usually the problem is isolated to small sections of code. Pick the worst "
+"place and concentrate on that first. Once that is done, rerun the profiler "
+"and repeat. As you proceed the gains made at each step will get less and "
+"less, at some point you will have to decide that the results are good "
+"enough. If your efforts are only extracting 10% improvements then you are "
+"well past the point where you should have stopped."
+msgstr ""
+"Xeralmente o problema está illado en pequenas partes do código. Elixa a peor "
+"parte e concéntrese nesa primeiro. Unha vez que o teña feito, volva ao "
+"perfilador e repita o proceso. Segundo proceda, as melloras obtidas en cada "
+"paso faranse cada vez máis pequenas, nalgún punto terá que decidir que os "
+"resultados son suficientes. Se os seus esforzos só están obtendo un 10% de "
+"melloras entón fai tempo que pasou o punto en que debería ter parado."
+
+#. (itstool) path: section/p
+#: C/introduction.page:31
+msgid ""
+"Don't forget the big picture. For example, rather than just trying to speed "
+"up a piece of code, ask yourself if it needs to be run at all. Could it be "
+"combined with another piece of code? Can the results of previous "
+"calculations be saved and reused? It won't even need to be optimized if it "
+"is in a place where the user is never going to notice it. Worse still, the "
+"code may already be optimized and is doing the heavy calculations now to "
+"avoid doing them later. Code does not run in isolation and neither does the "
+"optimization process."
+msgstr ""
+"Non esqueza a visión xeral. Por exemplo, fronte a só tentar incrementar o "
+"rendemento dunha parte do código, pregúntese se realmente se precisa dita "
+"parte. Pode ser fornecida por outra parte do seu código? Poden os resultados "
+"de cálculos previos gardados e ser reusados? Podería non ser nin preciso "
+"optimizalo se é un lugar onde nunca vai ir o usuario para que poida notalo. "
+"Ou peor aínda, que o código xa estea optimizado e está facendo un cálculo "
+"moi grande agora para evitar facelo máis tarde. O código non se executa en "
+"separación e tampouco o fai nun proceso de optimizado."
+
+#. (itstool) path: section/title
+#: C/introduction.page:37
+msgid "Hints"
+msgstr "Suxestións"
+
+#. (itstool) path: item/title
+#: C/introduction.page:41
+msgid "The Fundamentals"
+msgstr "O fundamental"
+
+#. (itstool) path: item/p
+#: C/introduction.page:44
+msgid ""
+"Re-run your benchmark after every change you make to the code and keep a log "
+"of everything you change and how it affects the benchmark. This lets you "
+"undo mistakes and also helps you not to repeat mistakes."
+msgstr ""
+"Volva a executar a súa proba de rendemento despois de cada cambio que "
+"realice sobre o código e manteña un rexistro de todo o que cambia e de como "
+"afecta ao rendemento. Isto permítelle desfacer erros e tamén axúdalle a non "
+"repetilos."
+
+#. (itstool) path: item/p
+#: C/introduction.page:49
+msgid ""
+"Make sure your code is correct and bug-free before optimizing it. Check that "
+"it remains correct and bug-free after optimization."
+msgstr ""
+"Asegúrse de que o seu código é correcto e está libre de erros antes de "
+"optimizalo. Comprobe que permanece correcto e libre de erros desois de telo "
+"optimizado."
+
+#. (itstool) path: item/p
+#: C/introduction.page:54
+msgid "Optimize at the high level before optimizing the details."
+msgstr "Optimizar ao nivel máis alto antes de optimizar os detalles."
+
+#. (itstool) path: item/p
+#: C/introduction.page:59
+msgid ""
+"Use the right algorithm. The classic text-book example is using quick-sort "
+"instead of bubble-sort. There are many others, some save memory, some save "
+"CPU. Also, see what shortcuts you can make: you can do quicker than quick-"
+"sort if you are prepared to make some compromises."
+msgstr ""
+"Use o algoritmo correcto. O clásico exemplo de libro de texto é usar "
+"ordenación rápida no lugar de ordenación por burbulla. Existen moitos "
+"outros, algúns aforran memoria, alguns aforran CPU. Tamén debe ver que "
+"atallos de teclado pode crear: pode facelo máis rápido que unha ordenación "
+"rápida se está preparado para tomar certos compromisos."
+
+#. (itstool) path: item/p
+#: C/introduction.page:64
+msgid ""
+"Optimization is a trade-off. Caching results speeds up calculations, but "
+"increases memory use. Saving data to disk saves memory, but costs time when "
+"it is loaded back from disk."
+msgstr ""
+"A optimización é intercambio. Obter resultados mellora os cálculos pero "
+"aumenta a memoria en uso. Gardar datos ao disco aforra memoria pero custa "
+"tempo ao cargalos de novo desde o disco."
+
+#. (itstool) path: item/p
+#: C/introduction.page:69
+msgid ""
+"Make sure you choose a wide variety of inputs to optimize against. If you "
+"don't it is easy to end up with a piece of code carefully optimized for one "
+"file and no others."
+msgstr ""
+"Asegúrese de elixir certa variedade de entradas que optimizar. SE non o fai "
+"é doado que remate cun trozo de código coidadosamente optimizado par aun "
+"campo e non para outros."
+
+#. (itstool) path: item/p
+#: C/introduction.page:74
+msgid ""
+"Avoid expensive operations: Multiple small disk reads. Using up lots of "
+"memory so disk swapping becomes necessary. Avoid anything that writes or "
+"reads from the hard disk unnecessarily. The network is slow too. Also avoid "
+"graphics operations that need a response from the X server."
+msgstr ""
+"Evite as operacións caras: múltiples lecturas de disco pequenas. Use un "
+"montón de memoria para que a área de intercambio («swap») fágase "
+"innecesario. Evite calquera cousa que escriba ou lea innecesariamente do "
+"disco. A rede tamén é lenta. Evite tamén operacións gráficas que precisan "
+"unha resposta do servidor X."
+
+#. (itstool) path: item/title
+#: C/introduction.page:81
+msgid "Traps for the Unwary"
+msgstr "Trampas para os imprudentes"
+
+#. (itstool) path: item/p
+#: C/introduction.page:84
+msgid ""
+"Beware of side effects. There can often be strange interactions between "
+"different sections of code, a speed-up in one part can slow another part "
+"down."
+msgstr ""
+"Estea atento aos efectos colaterais. Xeralmente son interaccións estranas "
+"entre diferentes seccións do código, unha extensión dunha parte pode "
+"retardar outra."
+
+#. (itstool) path: item/p
+#: C/introduction.page:89
+msgid ""
+"When timing code, even on a quiet system, events outside the program add "
+"noise to the timing results. Average over multiple runs. If the code is very "
+"short, timer resolution is also a problem. In this case measure the time the "
+"computer takes to run the code 100 or 1000 times. If the times you are "
+"recording are longer than a few seconds, you should be OK."
+msgstr ""
+"Ao cronometrar o tempo do código, incluso nun sistema parado, os eventos "
+"fora do programa engaden ruido aos resultados de tempo. Faga unha medida "
+"sobre múltiples execucións. Se o código é moi pequeno a resolución do tempo "
+"tamén é un problema. Neste caso mida o tempo que o equipo tarda en executar "
+"o código 100 ou 1000 veces. Se os tempos que está obtendo son algo "
+"superiores a uns poucos segundos todo debería estar correcto."
+
+#. (itstool) path: item/p
+#: C/introduction.page:94
+msgid ""
+"It is very easy to be misled by the profiler. There are stories of people "
+"optimizing the operating system idle-loop because that is where it spent all "
+"its time! Don't optimize code that does nothing the user cares about."
+msgstr ""
+"É moi doado perferse co perfilador. Existen historias de programadores "
+"optimizando o búcle de inactividade porque é onde se perdía todo o seu "
+"tempo. Non optimice código do que o usuario non se preocupe."
+
+#. (itstool) path: item/p
+#: C/introduction.page:99
+msgid ""
+"Remember the resources on the X server. Your program's memory usage doesn't "
+"include the pixmaps that are stored in the X server's process, but they are "
+"still using up memory. Use xrestop to see what resources your program is "
+"using."
+msgstr ""
+"Lembre os resultados do servidor X. O uso de memoria do seu programa non "
+"inclúe os pixmaps almacenados nos procesos do servidor X, pero aínda seguen "
+"usando memoria. Use xrestop para ver os recursos que está usando o seu "
+"programa."
+
+#. (itstool) path: item/title
+#: C/introduction.page:106
+msgid "Low Level Hints"
+msgstr "Consellos de baixo nivel"
+
+#. (itstool) path: item/p
+#: C/introduction.page:109
+msgid ""
+"When optimizing memory use, be wary of the difference between peak usage and "
+"average memory usage. Some memory is almost always allocated, this is "
+"usually bad. Some is only briefly allocated, this may be quite acceptable. "
+"Tools like massif use the concept of space-time, the product of memory used "
+"and the duration it was allocated for, instead."
+msgstr ""
+"Ao optimizar o uso de memoria considere a diferenza entre o uso de pico e o "
+"uso medio de memoria. Algunha memoria sempre está reservada, isto xeralmente "
+"é malo. Algunha está temporalmente reservada, isto pode ser aceptábel. "
+"Ferramentas como massif usan o concepto de espazo-tempo, o produto da "
+"memoria usada e o tempo durante o que estivo reservada."
+
+#. (itstool) path: item/p
+#: C/introduction.page:114
+msgid ""
+"Time simplified bits of code that do only the things you know are essential, "
+"this gives an absolute lower limit on the time your code will take. For "
+"example, when optimizing a loop time the empty loop. If that is still too "
+"long no amount of micro-optimization will help and you will have to change "
+"your design. Make sure the compiler doesn't optimize away your empty loop."
+msgstr ""
+"Controle o tempo de trozos de código simplificados que só fan cousas "
+"esenciais, isto fornece un límite absoluto inferior no tempo que usará o "
+"código. Por exemplo, ao optimizar un búcle, controle o tempo do búcle "
+"baleiro. Se aínda é moito tempo calquera intento de optimización non axudará "
+"e deberá cambiar o seu deseño. Asegúrese de que o compilador non desoptimiza "
+"o búcle baleiro."
+
+#. (itstool) path: item/p
+#: C/introduction.page:119
+msgid ""
+"Move code out from inside loops. A slightly more complicated piece of code "
+"that is executed once is far quicker than a simple piece of code executed a "
+"thousand times. Avoid calling slow code often."
+msgstr ""
+"Mova o código fóra dos bucles internos. Un anaco de código máis complicado "
+"que se executa unha soa vez é moito máis rápido que un anaco de código máis "
+"sinxelo que se executa mil veces. Evite chamar habitualmente a código lento."
+
+#. (itstool) path: item/p
+#: C/introduction.page:124
+#, fuzzy
 #| msgid ""
-#| "@@image: 'figures/massif-after.png'; md5=36d1b4ad7ab49b28b69ad3eabbaa7069"
-msgctxt "_"
+#| "Give the compiler as many hints as possible. Use the const keyword. Use "
+#| "<envar>G_INLINE_FUNC</envar> for short, frequently called, functions. "
+#| "Look up <envar>G_GNUC_PURE</envar>, <envar>G_LIKELY</envar> and the other "
+#| "glib miscellaneous macros. Use the macros instead of gcc-specific "
+#| "keywords to ensure portability."
 msgid ""
-"external ref='figures/massif-after.png' "
-"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+"Give the compiler as many hints as possible. Use the const keyword. Use "
+"<code>G_INLINE_FUNC</code> for short, frequently called, functions. Look up "
+"<code>G_GNUC_PURE</code>, <code>G_LIKELY</code> and the other glib "
+"miscellaneous macros. Use the macros instead of gcc-specific keywords to "
+"ensure portability."
 msgstr ""
-"external ref='figures/massif-after.png' "
-"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+"Forneza ao compilador tantas suxestións como lle sea posíbel. Usa a palabra "
+"chave «const». Use <envar>G_INLINE_FUNC</envar> para funcións curtas "
+"frecuentemente chamadas. Busque <envar>G_GNUC_PURE</envar>, <envar>G_LIKELY</"
+"envar> e outras macros misceláneas de glib. Use as macros no lugar de "
+"palabras chave específicas de gcc para asegurar a portabilidade."
 
-#: C/optimization-massif.xml:3(chapter/title)
+#. (itstool) path: item/p
+#: C/introduction.page:129
 msgid ""
-"Using <application>Massif</application> for Profiling Memory Use in GNOME "
-"Software"
+"Don't use assembly language. It is not portable and, while it may be fast on "
+"one processor, it is not even guaranteed to be fast on every processor that "
+"supports that architecture (e.g. Athlon vs. Pentium 4)."
+msgstr ""
+"Non use linguaxes de ensamblado. O código non é portábel e pode ser máis "
+"rápido nun procesador que noutro, ademais non está garantizado que sea "
+"rápido en cada procesador que admite esa arquitectura (p.ex. Athlon contra "
+"Pentium 4)."
+
+#. (itstool) path: item/p
+#: C/introduction.page:134
+msgid ""
+"Don't rewrite an existing library routine unless you are sure it is "
+"unnecessarily slow. Many CPU-intensive library routines have already been "
+"optimized. Conversely, some library routines are slow, especially ones that "
+"make system calls to the operating system."
+msgstr ""
+"Non rescriba unha rutina existente dunha biblioteca a non ser que estea "
+"seguro de que é demasiado lenta. Moitas rutinas de bibliotecas de uso "
+"intensivo pola CPU xa se optimizaron. Algunhas rutinas de bibliotecas son "
+"lentas, especialmente aquelas que realizan chamadas ao sistema operativo."
+
+#. (itstool) path: item/p
+#: C/introduction.page:139
+msgid ""
+"Minimize the number of libraries you link to. The fewer libraries to link "
+"in, the faster the program starts. This is a difficult thing to do with "
+"GNOME."
+msgstr ""
+"Minimice o número de bibliotecas ás que liga. Canto menor sexa o número de "
+"bibliotecas a ligar, máis rápido se iniciará o programa. É unha tarefa "
+"difícil en GNOME."
+
+#. (itstool) path: item/title
+#: C/introduction.page:146
+msgid "High Level Tricks"
+msgstr "Trucos de alto nivel"
+
+#. (itstool) path: item/p
+#: C/introduction.page:149
+msgid ""
+"Take advantage of concurrency. This doesn't just mean using multiple "
+"processors, it also means taking advantage of the time the user spends "
+"thinking about what they are going to do next to perform some calculations "
+"in anticipation. Do calculations while waiting for data to be loaded off "
+"disk. Take advantage of multiple resources, use them all at once."
+msgstr ""
+"A ventaxa da concurrencia. Isto non significa simplemente usar varios "
+"procesadores, tamén significa aproveitarse do tempo que o usuario pasa "
+"pensando en que fará despois, para realizar algúns cálculos anticipados. "
+"Faga cálculos mentres se agarda a carga de datos desde o disco. Aprovéitese "
+"dos recursos múltiples, úseos todos á vez."
+
+#. (itstool) path: item/p
+#: C/introduction.page:154
+msgid ""
+"Cheat. The user only has to think that the computer is fast, it doesn't "
+"matter whether it actually is or not. It is the time between the command and "
+"the answer that is important, it doesn't matter if the response is pre-"
+"calculated, cached, or will in fact be worked out later at a more convenient "
+"time, as long as the user gets what they expect."
+msgstr ""
+"Engane. O usuario só ten que pensar que o equipo é rápido, non importa se "
+"realmente o é ou non. É o tempo entre a orde e a resposta o que importa, non "
+"importa se a resposta esta precalculada, cacheada ou se traballará nela en "
+"calquera momento posterior conveniente, sempre que o usuario obteña o que "
+"agarda."
+
+#. (itstool) path: item/p
+#: C/introduction.page:159
+msgid ""
+"Do things in the idle loop. It is easier to program than using full multi-"
+"threading but still gets things done out of the users eye. Be careful "
+"though, if you spend too long in the idle loop your program will become "
+"sluggish. So regularly give control back to the main loop."
+msgstr ""
+"Facer cousas no búcle ocioso. É máis doado programar usando multifíos e "
+"facer cousas por detrás dos ollos do usuario. Teña coidado, se pasa gasta "
+"moito tempo no bucle ocioso o seu programa podería volverse lento. Polo que "
+"de forma regular déalle de novo o control ao bucle principal."
+
+#. (itstool) path: item/p
+#: C/introduction.page:164
+msgid ""
+"If all else fails, tell the user that the code is going to be slow and put "
+"up a progress bar. They won't be as happy as if you had just presented the "
+"results, but they will at least know the program hasn't crashed and they can "
+"go get a cup of coffee."
+msgstr ""
+"Se todo isto falla, dígalle ao usuario que o código vai a executarse vai ser "
+"lento e móstrelle unha barra de progreso. Non estará tan contento con isto "
+"como se simplemente lle mostrara os resultados, porén cando menos saberá que "
+"o programa non se pechou ou ten problemas e pode ir a tomarse un café "
+"mentres."
+
+#. (itstool) path: page/title
+#: C/massif.page:7
+#, fuzzy
+#| msgid ""
+#| "Using <application>Massif</application> for Profiling Memory Use in GNOME "
+#| "Software"
+msgid "Using <app>Massif</app> for Profiling Memory Use in GNOME Software"
 msgstr ""
 "Usando <application>Massif</application> para perfila o uso de memoria en "
 "software de GNOME"
 
-#: C/optimization-massif.xml:5(chapter/para)
+#. (itstool) path: section/p
+#: C/massif.page:13
+#, fuzzy
+#| msgid ""
+#| "<application>Massif</application> is a member of the <ulink type=\"http\" "
+#| "url=\"http://valgrind.org/\">valgrind</ulink> suite of memory-profiling "
+#| "tools. Its purpose is to give a detailed view of dynamic memory usage "
+#| "during the lifetime of the program. Specifically it records the memory "
+#| "use of the heap and the stack."
 msgid ""
-"This article describes how to use the <application>Massif</application> heap "
-"profiler with GNOME applications. We describe how to invoke, interpret, and "
-"act on the output of <application>Massif</application>. The "
-"<application>Swell Foop</application> game is used as an example."
-msgstr ""
-"Este artigo describe como usar o perfilador de pila <application>Massif</"
-"application> con aplicativos de GNOME. Describirémoslle como invocalo, "
-"interpretar e actual sobre a saída de <application>Massif</application>. "
-"Usaremos o xogo <application>Swell Foop</application> para este exemplo."
-
-#: C/optimization-massif.xml:10(sect1/title)
-msgid "Introduction"
-msgstr "Introdución"
-
-#: C/optimization-massif.xml:11(sect1/para)
-msgid ""
-"<application>Massif</application> is a member of the <ulink type=\"http\" "
-"url=\"http://valgrind.org/\">valgrind</ulink> suite of memory-profiling "
-"tools. Its purpose is to give a detailed view of dynamic memory usage during "
-"the lifetime of the program. Specifically it records the memory use of the "
-"heap and the stack."
+"<app>Massif</app> is a member of the <link href=\"http://valgrind.org/"
+"\">valgrind</link> suite of memory-profiling tools. Its purpose is to give a "
+"detailed view of dynamic memory usage during the lifetime of the program. "
+"Specifically it records the memory use of the heap and the stack."
 msgstr ""
 "<application>Massif</application> é un membro da suite de ferramentas de "
 "perfilado de memoria <ulink type=\"http\" url=\"http://valgrind.org/"
@@ -267,17 +748,28 @@ msgstr ""
 "do uso da memoria dinámica durante o ciclo de vida dun programa. "
 "Específicamente garda a memoria usada no heap e na stack."
 
-#: C/optimization-massif.xml:14(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:16
+#, fuzzy
+#| msgid ""
+#| "The heap is the region of memory which is allocated with functions like "
+#| "malloc. It grows on demand and is usually the largest region of memory in "
+#| "a program. The stack is where all the local data for functions is stored. "
+#| "This includes the \"automatic\" variables in C and the return address for "
+#| "subroutines. The stack is typically a lot smaller and a lot more active "
+#| "than the heap. We won't consider the stack explicitly since "
+#| "<application>Massif</application> treats it as though it were just "
+#| "another part of the heap. <application>Massif</application> also gives "
+#| "information about how much memory is used to manage the heap."
 msgid ""
 "The heap is the region of memory which is allocated with functions like "
 "malloc. It grows on demand and is usually the largest region of memory in a "
 "program. The stack is where all the local data for functions is stored. This "
 "includes the \"automatic\" variables in C and the return address for "
 "subroutines. The stack is typically a lot smaller and a lot more active than "
-"the heap. We won't consider the stack explicitly since <application>Massif</"
-"application> treats it as though it were just another part of the heap. "
-"<application>Massif</application> also gives information about how much "
-"memory is used to manage the heap."
+"the heap. We won't consider the stack explicitly since <app>Massif</app> "
+"treats it as though it were just another part of the heap. <app>Massif</app> "
+"also gives information about how much memory is used to manage the heap."
 msgstr ""
 "A pila é a rexión da memoria que está reservada para funcións como malloc. "
 "Crece baixo demanda e é normalmente a rexión máis grande da memoria nun "
@@ -289,34 +781,43 @@ msgstr ""
 "application> tamén lle fornece información sobre canta memoria se usa para "
 "xestionar a pila."
 
-#: C/optimization-massif.xml:17(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:18
+#, fuzzy
+#| msgid ""
+#| "<application>Massif</application> produces two output files: a graphical "
+#| "overview in a postscript file and a detailed breakdown in a text file."
 msgid ""
-"<application>Massif</application> produces two output files: a graphical "
-"overview in a postscript file and a detailed breakdown in a text file."
+"<app>Massif</app> produces two output files: a graphical overview in a "
+"postscript file and a detailed breakdown in a text file."
 msgstr ""
 "<application>Massif</application> produce dous ficheiros de saída: unha "
 "vista gráfica xeral nun ficheiro postscript e unha explicación detallada nun "
 "ficheiro de texto."
 
-#: C/optimization-massif.xml:22(sect1/title)
-msgid "Using <application>Massif</application> with GNOME"
+#. (itstool) path: section/title
+#: C/massif.page:23
+#, fuzzy
+#| msgid "Using <application>Massif</application> with GNOME"
+msgid "Using <app>Massif</app> with GNOME"
 msgstr "Usar <application>Massif</application> con GNOME"
 
-#: C/optimization-massif.xml:23(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:24
 msgid ""
-"<application>Massif</application> has very few options and for many programs "
-"does not need them. However for GNOME applications, where memory allocation "
-"might be buried deep in either glib or GTK, the number of levels down the "
-"call-stack Massif descends needs to be increased. This is achieved using the "
-"--depth parameter. By default this is 3; increasing it to 5 will guarantee "
-"the call-stack reaches down to your code. One or two more levels may also be "
+"<app>Massif</app> has very few options and for many programs does not need "
+"them. However for GNOME applications, where memory allocation might be "
+"buried deep in either glib or GTK, the number of levels down the call-stack "
+"Massif descends needs to be increased. This is achieved using the --depth "
+"parameter. By default this is 3; increasing it to 5 will guarantee the call-"
+"stack reaches down to your code. One or two more levels may also be "
 "desirable to provide your code with some context. Since the level of detail "
 "becomes quickly overwhelming it is best to start with the smaller depth "
 "parameter and only increase it when it becomes apparent that it isn't "
 "sufficient."
 msgstr ""
 "<application>Massif</application> ten varias opcións e algúns programas non "
-"as precisan. Porén para os aplicativos GNOME, a medida que baixa nos niveles "
+"as precisan. Porén para as aplicacións GNOME, a medida que baixa nos niveles "
 "da pila de chamadas os descendentes de Massif deben incrementarse. Isto "
 "pódese facer empregando o parámetro --depth. Por omisión isto é 3; "
 "incrementándoa a 5 garantizaralle que a pila de chamadas alcanza o seu "
@@ -325,12 +826,21 @@ msgstr ""
 "inxestionábel é mellor comezar con un valor de profundidade menos profundo e "
 "só incrementalo cando aparentemente non sexa dabondo."
 
-#: C/optimization-massif.xml:26(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:27
+#, fuzzy
+#| msgid ""
+#| "It is also useful to tell <application>Massif</application> which "
+#| "functions allocate memory in glib. It removes an unnecessary layer of "
+#| "function calls from the reports and gives you a clearer idea of what code "
+#| "is allocating memory. The allocating functions in glib are g_malloc, "
+#| "g_malloc0, g_realloc, g_try_malloc, and g_mem_chunk_alloc. You use the --"
+#| "alloc-fn option to tell Massif about them."
 msgid ""
-"It is also useful to tell <application>Massif</application> which functions "
-"allocate memory in glib. It removes an unnecessary layer of function calls "
-"from the reports and gives you a clearer idea of what code is allocating "
-"memory. The allocating functions in glib are g_malloc, g_malloc0, g_realloc, "
+"It is also useful to tell <app>Massif</app> which functions allocate memory "
+"in glib. It removes an unnecessary layer of function calls from the reports "
+"and gives you a clearer idea of what code is allocating memory. The "
+"allocating functions in glib are g_malloc, g_malloc0, g_realloc, "
 "g_try_malloc, and g_mem_chunk_alloc. You use the --alloc-fn option to tell "
 "Massif about them."
 msgstr ""
@@ -341,11 +851,13 @@ msgstr ""
 "g_realloc, g_try_malloc e g_mem_chunk_alloc. Usará a opción --alloc-fn para "
 "dicirlle a Massif sobre elas."
 
-#: C/optimization-massif.xml:29(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:30
 msgid "Your command-line should therefore look something like:"
 msgstr "A súa liña de orde debería semellarse a esta:"
 
-#: C/optimization-massif.xml:32(sect1/programlisting)
+#. (itstool) path: section/code
+#: C/massif.page:33
 #, no-wrap
 msgid ""
 "\n"
@@ -358,27 +870,41 @@ msgstr ""
 "         --alloc-fn=g_malloc0 --alloc-fn=g_mem_chunk_alloc swell-foop\n"
 "        "
 
-#: C/optimization-massif.xml:36(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:37
+#, fuzzy
+#| msgid ""
+#| "<application>Swell Foop</application> is the program we will be using as "
+#| "an example. Be warned that, since valgrind emulates the CPU, it will run "
+#| "<emphasis>very</emphasis> slowly. You will also need a lot of memory."
 msgid ""
-"<application>Swell Foop</application> is the program we will be using as an "
-"example. Be warned that, since valgrind emulates the CPU, it will run "
-"<emphasis>very</emphasis> slowly. You will also need a lot of memory."
+"<app>Swell Foop</app> is the program we will be using as an example. Be "
+"warned that, since valgrind emulates the CPU, it will run <em>very</em> "
+"slowly. You will also need a lot of memory."
 msgstr ""
 "<application>Swell Foop</application> é o programa que usaremos como "
 "exemplo. Teña en conta isto, xa que valgrind emula o CPU, executarase "
 "<emphasis>moi</emphasis> lento. E tamén precisara moita memoria."
 
-#: C/optimization-massif.xml:41(sect1/title)
+#. (itstool) path: section/title
+#: C/massif.page:41
 msgid "Interpreting the Results"
 msgstr "Interpretar os resultados"
 
-#: C/optimization-massif.xml:42(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:42
+#, fuzzy
+#| msgid ""
+#| "The graphical output of <application>Massif</application> is largely self "
+#| "explanatory. Each band represents the memory allocated by one function "
+#| "over time. Once you identify which bands are using the most memory, "
+#| "usually the big thick ones at the top you will have to consult the text "
+#| "file for the details."
 msgid ""
-"The graphical output of <application>Massif</application> is largely self "
-"explanatory. Each band represents the memory allocated by one function over "
-"time. Once you identify which bands are using the most memory, usually the "
-"big thick ones at the top you will have to consult the text file for the "
-"details."
+"The graphical output of <app>Massif</app> is largely self explanatory. Each "
+"band represents the memory allocated by one function over time. Once you "
+"identify which bands are using the most memory, usually the big thick ones "
+"at the top you will have to consult the text file for the details."
 msgstr ""
 "A saída gráfica de <application>Massif</application> é moi autoexplicativa. "
 "Cada banda representa a memoria asignada a unha función ao longo do tempo. "
@@ -386,7 +912,8 @@ msgstr ""
 "normalmente a máis ancha estará na parte superior polo que terá que "
 "consultar o ficheiro de texto para obter máis detalles."
 
-#: C/optimization-massif.xml:45(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:45
 msgid ""
 "The text file is arranged as a hierarchy of sections, at the top is a list "
 "of the worst memory users arranged in order of decreasing spacetime. Below "
@@ -400,27 +927,60 @@ msgstr ""
 "dividindo os resultados en maior detalle como se procedera cara abaixo na "
 "pila de chamadas. Para ilustrar isto usaremos a saída da orde de arriba."
 
-#: C/optimization-massif.xml:49(figure/title)
+#. (itstool) path: figure/title
+#: C/massif.page:49
+#, fuzzy
+#| msgid ""
+#| "<application>Massif</application> output for the unoptimized version of "
+#| "the <application>Swell Foop</application> program."
 msgid ""
-"<application>Massif</application> output for the unoptimized version of the "
-"<application>Swell Foop</application> program."
+"<app>Massif</app> output for the unoptimized version of the <app>Swell Foop</"
+"app> program."
 msgstr ""
 "A saída de <application>Massif</application> para a versión non optimizada "
 "do programa <application>Swell GNOME</application>."
 
-#: C/optimization-massif.xml:56(sect1/para)
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:50
+msgctxt "_"
 msgid ""
-"<xref linkend=\"optimization-massif-FIG-output-unoptimized\"/> shows a "
-"typical postscript output from <application>Massif</application>. This is "
-"the result you would get from playing a single game of <application>Swell "
-"Foop</application> (version 2.8.0) and then quitting. The postscript file "
-"will have a name like <filename>massif.12345.ps</filename> and the text file "
-"will be called <filename>massif.12345.txt</filename>. The number in the "
-"middle is the process ID of the program that was examined. If you actually "
-"try this example you will find two versions of each file, with slightly "
-"different numbers, this is because <application>Swell Foop</application> "
-"starts a second process and <application>Massif</application> follows that "
-"too. We will ignore this second process, it consumes very little memory."
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+msgstr ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+
+#. (itstool) path: section/p
+#: C/massif.page:52
+#, fuzzy
+#| msgid ""
+#| "<xref linkend=\"optimization-massif-FIG-output-unoptimized\"/> shows a "
+#| "typical postscript output from <application>Massif</application>. This is "
+#| "the result you would get from playing a single game of <application>Swell "
+#| "Foop</application> (version 2.8.0) and then quitting. The postscript file "
+#| "will have a name like <filename>massif.12345.ps</filename> and the text "
+#| "file will be called <filename>massif.12345.txt</filename>. The number in "
+#| "the middle is the process ID of the program that was examined. If you "
+#| "actually try this example you will find two versions of each file, with "
+#| "slightly different numbers, this is because <application>Swell Foop</"
+#| "application> starts a second process and <application>Massif</"
+#| "application> follows that too. We will ignore this second process, it "
+#| "consumes very little memory."
+msgid ""
+"The image above shows a typical postscript output from <app>Massif</app>. "
+"This is the result you would get from playing a single game of <app>Swell "
+"Foop</app> (version 2.8.0) and then quitting. The postscript file will have "
+"a name like <file>massif.12345.ps</file> and the text file will be called "
+"<file>massif.12345.txt</file>. The number in the middle is the process ID of "
+"the program that was examined. If you actually try this example you will "
+"find two versions of each file, with slightly different numbers, this is "
+"because <app>Swell Foop</app> starts a second process and <app>Massif</app> "
+"follows that too. We will ignore this second process, it consumes very "
+"little memory."
 msgstr ""
 "<xref linkend=\"optimization-massif-FIG-output-unoptimized\"/> mostra unha "
 "saída postscript típica de <application>Massif</application>. Este é o "
@@ -433,7 +993,8 @@ msgstr ""
 "segundo proceso e <application>Massif</application> segue os dous. "
 "Ignoraremos ese segundo proceso xa que consume moi pouca memoria."
 
-#: C/optimization-massif.xml:59(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:66
 msgid ""
 "At the top of the graph we see a large yellow band labelled gdk_pixbuf_new. "
 "This seems like an ideal candidate for optimization, but we will need to use "
@@ -446,7 +1007,8 @@ msgstr ""
 "gdk_pixbuf_new. A parte superior do ficheiro de texto mostrará algo como o "
 "seguinte:"
 
-#: C/optimization-massif.xml:62(sect1/programlisting)
+#. (itstool) path: section/code
+#: C/massif.page:69
 #, no-wrap
 msgid ""
 "\n"
@@ -481,7 +1043,8 @@ msgstr ""
 "    3.5% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
 "        "
 
-#: C/optimization-massif.xml:77(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:84
 msgid ""
 "The line with the '=' signs indicates how far down the stack trace we are, "
 "in this case we are at the top. After this it lists the heaviest users of "
@@ -492,7 +1055,8 @@ msgid ""
 "out what called gdk_pixbuf_new we need to search further down the text file:"
 msgstr ""
 
-#: C/optimization-massif.xml:80(sect1/programlisting)
+#. (itstool) path: section/code
+#: C/massif.page:87
 #, no-wrap
 msgid ""
 "\n"
@@ -527,26 +1091,38 @@ msgstr ""
 "  and 1 other insignificant place\n"
 "        "
 
-#: C/optimization-massif.xml:95(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:102
+#, fuzzy
+#| msgid ""
+#| "The first line tells us we are now four levels deep into the stack. Below "
+#| "it is a listing of the function calls that leads from here to "
+#| "gdk_pixbuf_new. Finally there is a list of functions that are at the next "
+#| "level down and call these functions. There are, of course, also entries "
+#| "for levels 1, 2, and 3, but this is the first level to reach right down "
+#| "through the GDK code to the <application>Swell Foop</application> code. "
+#| "From this listing, we can see instantly that the problem code is "
+#| "load_scenario."
 msgid ""
 "The first line tells us we are now four levels deep into the stack. Below it "
 "is a listing of the function calls that leads from here to gdk_pixbuf_new. "
 "Finally there is a list of functions that are at the next level down and "
 "call these functions. There are, of course, also entries for levels 1, 2, "
 "and 3, but this is the first level to reach right down through the GDK code "
-"to the <application>Swell Foop</application> code. From this listing, we can "
-"see instantly that the problem code is load_scenario."
+"to the <app>Swell Foop</app> code. From this listing, we can see instantly "
+"that the problem code is load_scenario."
 msgstr ""
 "A primeira liña dinos que agora temos catro niveis de profundidade para cada "
 "pila. Embaixo hai unha lista das chamadas de funcións que lle leva desde "
 "aquí até gdk_pixbuf_new. Finalmente hai unha lista de funcións que están no "
 "nivel inmediatamente inferior e chama a esas funcións. Hai, por suposto, "
 "tamén entradas para os niveis 1, 2 e 3 pero este é o primeiro nivel a "
-"alcazar mediante o código GDK do código de <application>Swell-"
-"Foop</application>. Deste esta lista, podemos ver instantaneamente que o "
-"código problemático é load_scenario."
+"alcazar mediante o código GDK do código de <application>Swell-Foop</"
+"application>. Deste esta lista, podemos ver instantaneamente que o código "
+"problemático é load_scenario."
 
-#: C/optimization-massif.xml:98(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:105
 msgid ""
 "Now that we know what part of our code is using all the spacetime we can "
 "look at it and find out why. It turns out that the load_scenario is loading "
@@ -558,11 +1134,13 @@ msgstr ""
 "nunca libera esa memoria. Tendo identificado o código do problema pódese "
 "comezar a arranxalo."
 
-#: C/optimization-massif.xml:103(sect1/title)
+#. (itstool) path: section/title
+#: C/massif.page:110
 msgid "Acting on the Results"
 msgstr "Actuar sobre os resultados"
 
-#: C/optimization-massif.xml:104(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:111
 msgid ""
 "Reducing spacetime consumption is good, but there are two ways of reducing "
 "it and they are not equal. You can either reduce the amount of memory "
@@ -587,36 +1165,66 @@ msgstr ""
 "memoria non se superpoñan. Polo tanto é mellor reducir o consumo de memoria "
 "reservada."
 
-#: C/optimization-massif.xml:107(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:114
+#, fuzzy
+#| msgid ""
+#| "Unfortunately, the choice of optimization is also constrained by the "
+#| "needs of the program. The size of the pixbuf data in <application>Swell "
+#| "Foop</application> is determined by the size of the game's graphics and "
+#| "cannot be easily reduced. However, the amount of time it spends loaded "
+#| "into memory can be drastically reduced. <xref linkend=\"optimization-"
+#| "massif-FIG-output-optimized\"/> shows the <application>Massif</"
+#| "application> analysis of <application>Swell Foop</application> after "
+#| "being altered to dispose of the pixbufs once the images have been loaded "
+#| "into the X server."
 msgid ""
 "Unfortunately, the choice of optimization is also constrained by the needs "
-"of the program. The size of the pixbuf data in <application>Swell Foop</"
-"application> is determined by the size of the game's graphics and cannot be "
-"easily reduced. However, the amount of time it spends loaded into memory can "
-"be drastically reduced. <xref linkend=\"optimization-massif-FIG-output-"
-"optimized\"/> shows the <application>Massif</application> analysis of "
-"<application>Swell Foop</application> after being altered to dispose of the "
-"pixbufs once the images have been loaded into the X server."
+"of the program. The size of the pixbuf data in <app>Swell Foop</app> is "
+"determined by the size of the game's graphics and cannot be easily reduced. "
+"However, the amount of time it spends loaded into memory can be drastically "
+"reduced. The image below shows the <app>Massif</app> analysis of <app>Swell "
+"Foop</app> after being altered to dispose of the pixbufs once the images "
+"have been loaded into the X server."
 msgstr ""
 "Desafortunadamente, a elección da optimización tamén está limitada polas "
 "necesidades do programa. O tamaño dos datos pixbuf en <application>Swell "
 "Foop</application> está determinado polo tamaño dos gráficos do xogo e non "
 "poden reducirse de forma doada. porén, a cantidade de tempo que gasta "
-"cargando en memoria pode reducirse drasticamente. <xref linkend"
-"=\"optimization-massif-FIG-output-optimized\"/> mostra o análise de "
+"cargando en memoria pode reducirse drasticamente. <xref linkend="
+"\"optimization-massif-FIG-output-optimized\"/> mostra o análise de "
 "<application>Massif</application> de <application>Swell Foop</application> "
 "despois de cambiar a disposición dos pixbuf en canto as imaxes se cargan no "
 "servidor X."
 
-#: C/optimization-massif.xml:111(figure/title)
+#. (itstool) path: figure/title
+#: C/massif.page:123
+#, fuzzy
+#| msgid ""
+#| "<application>Massif</application> output for the optimized "
+#| "<application>Swell Foop</application> program."
 msgid ""
-"<application>Massif</application> output for the optimized "
-"<application>Swell Foop</application> program."
+"<app>Massif</app> output for the optimized <app>Swell Foop</app> program."
 msgstr ""
 "A saída de <application>Massif</application> para o programa optimizado "
 "<application>Swell GNOME</application>."
 
-#: C/optimization-massif.xml:118(sect1/para)
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:124
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+msgstr ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+
+#. (itstool) path: section/p
+#: C/massif.page:126
 msgid ""
 "The spacetime use of gdk_pixbuf_new is now a thin band that only spikes "
 "briefly (it is now the sixteenth band down and shaded magenta). As a bonus, "
@@ -632,16 +1240,22 @@ msgstr ""
 "estiveran executándose á vez as opcións dun pico de uso de memoria "
 "coincidente, e polo tanto o risco de facer swapping, serán moi poucas."
 
-#: C/optimization-massif.xml:121(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:129
+#, fuzzy
+#| msgid ""
+#| "Can we do better ? A quick examination of <application>Massif</"
+#| "application>'s text output reveals: g_strdup to be the new major offender."
 msgid ""
-"Can we do better ? A quick examination of <application>Massif</"
-"application>'s text output reveals: g_strdup to be the new major offender."
+"Can we do better ? A quick examination of <app>Massif</app>'s text output "
+"reveals: g_strdup to be the new major offender."
 msgstr ""
 "Podémolo facer mellor? Unha examinación rápida mo texto de saída de "
 "<application>Massif</application> revela: g_strdup para ser un ofensor máis "
 "importante."
 
-#: C/optimization-massif.xml:124(sect1/programlisting)
+#. (itstool) path: section/code
+#: C/massif.page:132
 #, no-wrap
 msgid ""
 "\n"
@@ -676,13 +1290,15 @@ msgstr ""
 "    5.2% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
 "        "
 
-#: C/optimization-massif.xml:139(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:147
 msgid ""
 "If we look closer though we see that it is called from many, many, places."
 msgstr ""
 "Se miramos máis cerca nas partes que vemos se chaman desde moitas partes."
 
-#: C/optimization-massif.xml:142(sect1/programlisting)
+#. (itstool) path: section/code
+#: C/massif.page:150
 #, no-wrap
 msgid ""
 "\n"
@@ -719,7 +1335,8 @@ msgstr ""
 "  and 155 other insignificant places\n"
 "        "
 
-#: C/optimization-massif.xml:158(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:166
 msgid ""
 "We now face diminishing returns for our optimization efforts. The graph "
 "hints at another possible approach: Both the \"other\" and \"heap admin\" "
@@ -735,11 +1352,13 @@ msgstr ""
 "será difícil, pero se se poden agrupar, entón as reservas son individuais "
 "poden ser máis grandes e a elevada banda «heap admin» pode reducirse."
 
-#: C/optimization-massif.xml:163(sect1/title)
+#. (itstool) path: section/title
+#: C/massif.page:171
 msgid "Caveats"
 msgstr "Advertencias"
 
-#: C/optimization-massif.xml:164(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:172
 msgid ""
 "There are a couple of things to watch out for: Firstly, spacetime is only "
 "reported as a percentage, you have to compare it to the overall size of the "
@@ -751,450 +1370,55 @@ msgstr ""
 "programa para decidir se merece a pena perseguir a cantidade total de "
 "memoria. O gráfico, co seu eixe vertical de kilobytes, é bo para iso."
 
-#: C/optimization-massif.xml:167(sect1/para)
+#. (itstool) path: section/p
+#: C/massif.page:175
 msgid ""
-"Secondly, <application>Massif</application> only takes into account the "
-"memory used by your own program. Resources like pixmaps are stored in the X "
-"server and aren't considered by <application>Massif</application>. In the "
-"<application>Swell Foop</application> example we have actually only moved "
-"the memory consumption from client-side pixbufs to server-side pixmaps. Even "
-"though we cheated there are performance gains. Keeping the image data in the "
-"X server makes the graphics routines quicker and removes a lot of inter-"
-"process communication. Also, the pixmaps will be stored in a native graphics "
-"format which is often more compact than the 32-bit RGBA format used by "
-"gdk_pixbuf. To measure the effect of pixmaps, and other X resources use the "
-"<ulink type=\"http\" url=\"http://www.freedesktop.org/Software/xrestop"
-"\">xrestop</ulink> program."
+"Secondly, <app>Massif</app> only takes into account the memory used by your "
+"own program. Resources like pixmaps are stored in the X server and aren't "
+"considered by <app>Massif</app>. In the <app>Swell Foop</app> example we "
+"have actually only moved the memory consumption from client-side pixbufs to "
+"server-side pixmaps. Even though we cheated there are performance gains. "
+"Keeping the image data in the X server makes the graphics routines quicker "
+"and removes a lot of inter-process communication. Also, the pixmaps will be "
+"stored in a native graphics format which is often more compact than the 32-"
+"bit RGBA format used by gdk_pixbuf. To measure the effect of pixmaps, and "
+"other X resources use the <link href=\"http://www.freedesktop.org/Software/"
+"xrestop\">xrestop</link> program."
 msgstr ""
 
-#: C/optimization-intro.xml:3(chapter/title)
-msgid "The Quick Guide to Optimizing GNOME Programs"
-msgstr "Guía rápida para optimizar programas de GNOME"
+#~ msgid "Optimizing GNOME Software"
+#~ msgstr "Optimizar software para GNOME"
 
-#: C/optimization-intro.xml:5(chapter/para)
-msgid ""
-"This is a brief introduction to optimization, both the hows and the whys. "
-"Details of individual tools and techniques are left for later articles, but "
-"a collection of hints and tricks is provided."
-msgstr ""
-"Esta é unha breve introdución á optimización, dos cómos tanto dos porqués. "
-"Déixanse para posteriores artigos os detalles de ferramentas e técnicas "
-"individuais pero fornécese unha colección de suxestións e trucos."
+#~ msgid "GNOME Documentation Project"
+#~ msgstr "GNOME Documentation Project"
 
-#: C/optimization-intro.xml:10(sect1/title)
-msgid "What are we Optimizing?"
-msgstr "Que se está optimizando?"
+#~ msgid "<year>2004-2005</year> <holder>Callum McKenzie</holder>"
+#~ msgstr "<year>2004-2005</year> <holder>Callum McKenzie</holder>"
 
-#: C/optimization-intro.xml:11(sect1/para)
-msgid ""
-"When we optimize for GNOME the first thing to remember is this: we are not "
-"trying to make the program better, we are trying to make the person using "
-"the computer happier."
-msgstr ""
-"Ao optimizar GNOME o primeiro que hai que lembrar é isto: non se está "
-"tentando mellorar o programa, estase tentando mellorando facer que as "
-"persoas usen o equipo máis felices."
+#~ msgid "<year>2004-2005</year> <holder>Robert Love</holder>"
+#~ msgstr "<year>2004-2005</year> <holder>Robert Love</holder>"
 
-#: C/optimization-intro.xml:14(sect1/para)
-msgid ""
-"Better programs make people happier, but there are some improvements that "
-"will make them a lot happier than others: Responsiveness, start-up time, "
-"easy to access commands and not having the computer go into swap the moment "
-"more than two programs are open."
-msgstr ""
-"Programas mellores fan á xente máis feliz pero existen algunhas mellores que "
-"faranos máis felices que outras: tempo de resposta, tempo de inicio, "
-"facilidade para acceder a ordes e que o equipo non teña que usar a memoria "
-"de intercambio cando máis de dous programas estean abertos."
+#~ msgid "<firstname>Callum</firstname> <surname>McKenzie</surname>"
+#~ msgstr "<firstname>Callum</firstname> <surname>McKenzie</surname>"
 
-#: C/optimization-intro.xml:17(sect1/para)
-msgid ""
-"Traditional optimization tackles concepts like CPU use, code size, the "
-"number of mouse clicks and the memory use of the program. This second list "
-"has been chosen to correlate with the first list, however there is an "
-"important difference: The person using GNOME doesn't care about the second "
-"list, but they care a lot about the first list. When optimizing GNOME "
-"programs we will reduce CPU use, memory use and all those things, but these "
-"are the means to the end, not the final goal. We are optimizing for people."
-msgstr ""
-"A optimización tradicional contempla conceptos como o uso de CPI, o tamaño "
-"do código, o número de pulsacións do reato e o uso de memoria de programa. "
-"Elixiuse esta segunda lista para correlar como a primeira, porén existe unha "
-"diferenza importante. Á persoa que usa GNOME non lle importa a segunda "
-"lista, pero sí a primeira. Ao optimizar os programas de GNOME reducirase o "
-"uso de CPU, o uso de memoria e todo aquelo, pero son conceptos para o fin, "
-"non o obxectivo final. Optimízase para as persoas."
+#~ msgid "<firstname>Robert</firstname> <surname>Love</surname>"
+#~ msgstr "<firstname>Robert</firstname> <surname>Love</surname>"
 
-#: C/optimization-intro.xml:23(sect1/title)
-msgid "Doing the Optimization"
-msgstr "Realizar a optimización"
+#~ msgid "William Johnston"
+#~ msgstr "William Johnston"
 
-#: C/optimization-intro.xml:24(sect1/para)
-msgid ""
-"The previous section omitted one important qualifier: To optimize something "
-"it has to be measurable. You can't measure happiness. However, you can "
-"measure start-up time so you can tell if you have improved it. Happiness "
-"will then, hopefully, follow."
-msgstr ""
-"Na sección anterior omitiuse un calificador importante: optimizar algo debe "
-"ser medíbel. Non se pode medir a felicidade. Porén pódese medir o tempo de "
-"inicio dun programa para saber se se mellorou. A felicidade do usuario "
-"aumentará pois."
+#~ msgid "Intial conversion to docbook format."
+#~ msgstr "Conversión inicial ao formato docbook."
 
-#: C/optimization-intro.xml:27(sect1/para)
-msgid ""
-"Optimization is the process of measurement, refinement and re-measurement. "
-"So the first thing you must do is find a way to measure what you are "
-"optimizing. Ideally this measurement is a single number, for example: the "
-"time taken to perform a task. This is your benchmark, it is the only way to "
-"tell if you are winning or losing. There is a big difference between a "
-"program that <emphasis>should</emphasis> be fast and a program that "
-"<emphasis>is</emphasis> fast."
-msgstr ""
-"A optimización é un proceso de medida, refinamento e remedida. O primeiro "
-"que debe facer é atopar unha forma de medir o que está optimizando. "
-"Idealmente a medida é un simple número, por exemplo: o tempo que se tarda en "
-"realiar unha tarefa. ESta é a súa proba, é a única forma de saber se está "
-"ganando ou perdendo. Existe unha gran diferenza entre un programa que "
-"<emphasis>deería</emphasis> ser rápido e un programa que <emphasis>é</"
-"emphasis> rápido."
+#~ msgid ""
+#~ "<revnumber>0.1</revnumber> <date>November 2007</date> <_:revdescription-1/"
+#~ ">"
+#~ msgstr ""
+#~ "<revnumber>0.1</revnumber> <date>Novembro 2007</date> <_:revdescription-1/"
+#~ ">"
 
-#: C/optimization-intro.xml:30(sect1/para)
-msgid ""
-"Once you have a basic benchmark you need to find out why your code is not "
-"doing as well as it should. It is tempting to do this by inspection: just "
-"looking at the code and trying to spot something that looks like it needs "
-"improvement. You will invariably be wrong. Using a profiler to get a "
-"detailed break-down of what your program really does is the only way to be "
-"sure."
-msgstr ""
-"Unha vez que ten unha proba de rendemento básica debe atopar por que o seu "
-"código non o está facendo tan ben como debería. É tentado facelo "
-"inspeccionando: simplemente mirar o código e tratar de atopar algo que "
-"parece que precisa unha mellora. Estará perdendo o tempo, usar un perfilador "
-"para obter unha lista detallada do que o seu programa está facendo é, "
-"realmente, a única forma de estar seguro."
-
-#: C/optimization-intro.xml:33(sect1/para)
-msgid ""
-"Usually the problem is isolated to small sections of code. Pick the worst "
-"place and concentrate on that first. Once that is done, rerun the profiler "
-"and repeat. As you proceed the gains made at each step will get less and "
-"less, at some point you will have to decide that the results are good "
-"enough. If your efforts are only extracting 10% improvements then you are "
-"well past the point where you should have stopped."
-msgstr ""
-"Xeralmente o problema está illado en pequenas partes do código. Elixa a peor "
-"parte e concéntrese nesa primeiro. Unha vez que o teña feito, volva ao "
-"perfilador e repita o proceso. Segundo proceda, as melloras obtidas en cada "
-"paso faranse cada vez máis pequenas, nalgún punto terá que decidir que os "
-"resultados son suficientes. Se os seus esforzos só están obtendo un 10% de "
-"melloras entón fai tempo que pasou o punto en que debería ter parado."
-
-#: C/optimization-intro.xml:36(sect1/para)
-msgid ""
-"Don't forget the big picture. For example, rather than just trying to speed "
-"up a piece of code, ask yourself if it needs to be run at all. Could it be "
-"combined with another piece of code? Can the results of previous "
-"calculations be saved and reused? It won't even need to be optimized if it "
-"is in a place where the user is never going to notice it. Worse still, the "
-"code may already be optimized and is doing the heavy calculations now to "
-"avoid doing them later. Code does not run in isolation and neither does the "
-"optimization process."
-msgstr ""
-"Non esqueza a visión xeral. Por exemplo, fronte a só tentar incrementar o "
-"rendemento dunha parte do código, pregúntese se realmente se precisa dita "
-"parte. Pode ser fornecida por outra parte do seu código? Poden os resultados "
-"de cálculos previos gardados e ser reusados? Podería non ser nin preciso "
-"optimizalo se é un lugar onde nunca vai ir o usuario para que poida notalo. "
-"Ou peor aínda, que o código xa estea optimizado e está facendo un cálculo "
-"moi grande agora para evitar facelo máis tarde. O código non se executa en "
-"separación e tampouco o fai nun proceso de optimizado."
-
-#: C/optimization-intro.xml:41(sect1/title)
-msgid "Hints"
-msgstr "Suxestións"
-
-#: C/optimization-intro.xml:43(itemizedlist/title)
-msgid "The Fundamentals"
-msgstr "O fundamental"
-
-#: C/optimization-intro.xml:45(listitem/para)
-msgid ""
-"Re-run your benchmark after every change you make to the code and keep a log "
-"of everything you change and how it affects the benchmark. This lets you "
-"undo mistakes and also helps you not to repeat mistakes."
-msgstr ""
-"Volva a executar a súa proba de rendemento despois de cada cambio que "
-"realice sobre o código e manteña un rexistro de todo o que cambia e de como "
-"afecta ao rendemento. Isto permítelle desfacer erros e tamén axúdalle a non "
-"repetilos."
-
-#: C/optimization-intro.xml:50(listitem/para)
-msgid ""
-"Make sure your code is correct and bug-free before optimizing it. Check that "
-"it remains correct and bug-free after optimization."
-msgstr ""
-"Asegúrse de que o seu código é correcto e está libre de erros antes de "
-"optimizalo. Comprobe que permanece correcto e libre de erros desois de telo "
-"optimizado."
-
-#: C/optimization-intro.xml:55(listitem/para)
-msgid "Optimize at the high level before optimizing the details."
-msgstr "Optimizar ao nivel máis alto antes de optimizar os detalles."
-
-#: C/optimization-intro.xml:60(listitem/para)
-msgid ""
-"Use the right algorithm. The classic text-book example is using quick-sort "
-"instead of bubble-sort. There are many others, some save memory, some save "
-"CPU. Also, see what shortcuts you can make: you can do quicker than quick-"
-"sort if you are prepared to make some compromises."
-msgstr ""
-"Use o algoritmo correcto. O clásico exemplo de libro de texto é usar "
-"ordenación rápida no lugar de ordenación por burbulla. Existen moitos "
-"outros, algúns aforran memoria, alguns aforran CPU. Tamén debe ver que "
-"atallos de teclado pode crear: pode facelo máis rápido que unha ordenación "
-"rápida se está preparado para tomar certos compromisos."
-
-#: C/optimization-intro.xml:65(listitem/para)
-msgid ""
-"Optimization is a trade-off. Caching results speeds up calculations, but "
-"increases memory use. Saving data to disk saves memory, but costs time when "
-"it is loaded back from disk."
-msgstr ""
-"A optimización é intercambio. Obter resultados mellora os cálculos pero "
-"aumenta a memoria en uso. Gardar datos ao disco aforra memoria pero custa "
-"tempo ao cargalos de novo desde o disco."
-
-#: C/optimization-intro.xml:70(listitem/para)
-msgid ""
-"Make sure you choose a wide variety of inputs to optimize against. If you "
-"don't it is easy to end up with a piece of code carefully optimized for one "
-"file and no others."
-msgstr ""
-"Asegúrese de elixir certa variedade de entradas que optimizar. SE non o fai "
-"é doado que remate cun trozo de código coidadosamente optimizado par aun "
-"campo e non para outros."
-
-#: C/optimization-intro.xml:75(listitem/para)
-msgid ""
-"Avoid expensive operations: Multiple small disk reads. Using up lots of "
-"memory so disk swapping becomes necessary. Avoid anything that writes or "
-"reads from the hard disk unnecessarily. The network is slow too. Also avoid "
-"graphics operations that need a response from the X server."
-msgstr ""
-"Evite as operacións caras: múltiples lecturas de disco pequenas. Use un "
-"montón de memoria para que a área de intercambio («swap») fágase "
-"innecesario. Evite calquera cousa que escriba ou lea innecesariamente do "
-"disco. A rede tamén é lenta. Evite tamén operacións gráficas que precisan "
-"unha resposta do servidor X."
-
-#: C/optimization-intro.xml:81(itemizedlist/title)
-msgid "Traps for the Unwary"
-msgstr "Trampas para os imprudentes"
-
-#: C/optimization-intro.xml:83(listitem/para)
-msgid ""
-"Beware of side effects. There can often be strange interactions between "
-"different sections of code, a speed-up in one part can slow another part "
-"down."
-msgstr ""
-"Estea atento aos efectos colaterais. Xeralmente son interaccións estranas "
-"entre diferentes seccións do código, unha extensión dunha parte pode "
-"retardar outra."
-
-#: C/optimization-intro.xml:88(listitem/para)
-msgid ""
-"When timing code, even on a quiet system, events outside the program add "
-"noise to the timing results. Average over multiple runs. If the code is very "
-"short, timer resolution is also a problem. In this case measure the time the "
-"computer takes to run the code 100 or 1000 times. If the times you are "
-"recording are longer than a few seconds, you should be OK."
-msgstr ""
-"Ao cronometrar o tempo do código, incluso nun sistema parado, os eventos "
-"fora do programa engaden ruido aos resultados de tempo. Faga unha medida "
-"sobre múltiples execucións. Se o código é moi pequeno a resolución do tempo "
-"tamén é un problema. Neste caso mida o tempo que o equipo tarda en executar "
-"o código 100 ou 1000 veces. Se os tempos que está obtendo son algo "
-"superiores a uns poucos segundos todo debería estar correcto."
-
-#: C/optimization-intro.xml:93(listitem/para)
-msgid ""
-"It is very easy to be misled by the profiler. There are stories of people "
-"optimizing the operating system idle-loop because that is where it spent all "
-"its time! Don't optimize code that does nothing the user cares about."
-msgstr ""
-"É moi doado perferse co perfilador. Existen historias de programadores "
-"optimizando o búcle de inactividade porque é onde se perdía todo o seu "
-"tempo. Non optimice código do que o usuario non se preocupe."
-
-#: C/optimization-intro.xml:98(listitem/para)
-msgid ""
-"Remember the resources on the X server. Your program's memory usage doesn't "
-"include the pixmaps that are stored in the X server's process, but they are "
-"still using up memory. Use xrestop to see what resources your program is "
-"using."
-msgstr ""
-"Lembre os resultados do servidor X. O uso de memoria do seu programa non "
-"inclúe os pixmaps almacenados nos procesos do servidor X, pero aínda seguen "
-"usando memoria. Use xrestop para ver os recursos que está usando o seu "
-"programa."
-
-#: C/optimization-intro.xml:104(itemizedlist/title)
-msgid "Low Level Hints"
-msgstr "Consellos de baixo nivel"
-
-#: C/optimization-intro.xml:106(listitem/para)
-msgid ""
-"When optimizing memory use, be wary of the difference between peak usage and "
-"average memory usage. Some memory is almost always allocated, this is "
-"usually bad. Some is only briefly allocated, this may be quite acceptable. "
-"Tools like massif use the concept of space-time, the product of memory used "
-"and the duration it was allocated for, instead."
-msgstr ""
-"Ao optimizar o uso de memoria considere a diferenza entre o uso de pico e o "
-"uso medio de memoria. Algunha memoria sempre está reservada, isto xeralmente "
-"é malo. Algunha está temporalmente reservada, isto pode ser aceptábel. "
-"Ferramentas como massif usan o concepto de espazo-tempo, o produto da "
-"memoria usada e o tempo durante o que estivo reservada."
-
-#: C/optimization-intro.xml:111(listitem/para)
-msgid ""
-"Time simplified bits of code that do only the things you know are essential, "
-"this gives an absolute lower limit on the time your code will take. For "
-"example, when optimizing a loop time the empty loop. If that is still too "
-"long no amount of micro-optimization will help and you will have to change "
-"your design. Make sure the compiler doesn't optimize away your empty loop."
-msgstr ""
-"Controle o tempo de trozos de código simplificados que só fan cousas "
-"esenciais, isto fornece un límite absoluto inferior no tempo que usará o "
-"código. Por exemplo, ao optimizar un búcle, controle o tempo do búcle "
-"baleiro. Se aínda é moito tempo calquera intento de optimización non axudará "
-"e deberá cambiar o seu deseño. Asegúrese de que o compilador non desoptimiza "
-"o búcle baleiro."
-
-#: C/optimization-intro.xml:116(listitem/para)
-msgid ""
-"Move code out from inside loops. A slightly more complicated piece of code "
-"that is executed once is far quicker than a simple piece of code executed a "
-"thousand times. Avoid calling slow code often."
-msgstr ""
-"mova o código fora dos bucles internos. Un anaco de código máis complicado "
-"que se executa unha soa vez é moito máis rápido que un trozo de código máis "
-"sinxelo que se executa mil veces. Evite chamar habitualmente a código lento."
-
-#: C/optimization-intro.xml:121(listitem/para)
-msgid ""
-"Give the compiler as many hints as possible. Use the const keyword. Use "
-"<envar>G_INLINE_FUNC</envar> for short, frequently called, functions. Look "
-"up <envar>G_GNUC_PURE</envar>, <envar>G_LIKELY</envar> and the other glib "
-"miscellaneous macros. Use the macros instead of gcc-specific keywords to "
-"ensure portability."
-msgstr ""
-"Forneza ao compilador tantas suxestións como lle sea posíbel. Usa a palabra "
-"chave «const». Use <envar>G_INLINE_FUNC</envar> para funcións curtas "
-"frecuentemente chamadas. Busque <envar>G_GNUC_PURE</envar>, <envar>G_LIKELY</"
-"envar> e outras macros misceláneas de glib. Use as macros no lugar de "
-"palabras chave específicas de gcc para asegurar a portabilidade."
-
-#: C/optimization-intro.xml:126(listitem/para)
-msgid ""
-"Don't use assembly language. It is not portable and, while it may be fast on "
-"one processor, it is not even guaranteed to be fast on every processor that "
-"supports that architecture (e.g. Athlon vs. Pentium 4)."
-msgstr ""
-"Non use linguaxes de ensamblado. O código non é portábel e pode ser máis "
-"rápido nun procesador que noutro, ademais non está garantizado que sea "
-"rápido en cada procesador que admite esa arquitectura (p.ex. Athlon contra "
-"Pentium 4)."
-
-#: C/optimization-intro.xml:131(listitem/para)
-msgid ""
-"Don't rewrite an existing library routine unless you are sure it is "
-"unnecessarily slow. Many CPU-intensive library routines have already been "
-"optimized. Conversely, some library routines are slow, especially ones that "
-"make system calls to the operating system."
-msgstr ""
-"Non rescriba unha rutina existente dunha biblioteca a non ser que estea "
-"seguro de que é demasiado lenta. Moitas rutinas de bibliotecas de uso "
-"intensivo pola CPU xa se optimizaron. Algunhas rutinas de bibliotecas son "
-"lentas, especialmente aquelas que realizan chamadas ao sistema operativo."
-
-#: C/optimization-intro.xml:136(listitem/para)
-msgid ""
-"Minimize the number of libraries you link to. The fewer libraries to link "
-"in, the faster the program starts. This is a difficult thing to do with "
-"GNOME."
-msgstr ""
-"Minimice o número de bibliotecas ás que liga. Canto menor sexa o número de "
-"bibliotecas a ligar, máis rápido se iniciará o programa. É unha tarefa "
-"difícil en GNOME."
-
-#: C/optimization-intro.xml:142(itemizedlist/title)
-msgid "High Level Tricks"
-msgstr "Trucos de alto nivel"
-
-#: C/optimization-intro.xml:144(listitem/para)
-msgid ""
-"Take advantage of concurrency. This doesn't just mean using multiple "
-"processors, it also means taking advantage of the time the user spends "
-"thinking about what they are going to do next to perform some calculations "
-"in anticipation. Do calculations while waiting for data to be loaded off "
-"disk. Take advantage of multiple resources, use them all at once."
-msgstr ""
-"A ventaxa da concurrencia. Isto non significa simplemente usar varios "
-"procesadores, tamén significa aproveitarse do tempo que o usuario pasa "
-"pensando en que fará despois, para realizar algúns cálculos anticipados. "
-"Faga cálculos mentres se agarda a carga de datos desde o disco. Aprovéitese "
-"dos recursos múltiples, úseos todos á vez."
-
-#: C/optimization-intro.xml:149(listitem/para)
-msgid ""
-"Cheat. The user only has to think that the computer is fast, it doesn't "
-"matter whether it actually is or not. It is the time between the command and "
-"the answer that is important, it doesn't matter if the response is pre-"
-"calculated, cached, or will in fact be worked out later at a more convenient "
-"time, as long as the user gets what they expect."
-msgstr ""
-"Engane. O usuario só ten que pensar que o equipo é rápido, non importa se "
-"realmente o é ou non. É o tempo entre a orde e a resposta o que importa, non "
-"importa se a resposta esta precalculada, cacheada ou se traballará nela en "
-"calquera momento posterior conveniente, sempre que o usuario obteña o que "
-"agarda."
-
-#: C/optimization-intro.xml:154(listitem/para)
-msgid ""
-"Do things in the idle loop. It is easier to program than using full multi-"
-"threading but still gets things done out of the users eye. Be careful "
-"though, if you spend too long in the idle loop your program will become "
-"sluggish. So regularly give control back to the main loop."
-msgstr ""
-"Facer cousas no búcle ocioso. É máis doado programar usando multifíos e "
-"facer cousas por detrás dos ollos do usuario. Teña coidado, se pasa gasta "
-"moito tempo no bucle ocioso o seu programa podería volverse lento. Polo que "
-"de forma regular déalle de novo o control ao bucle principal."
-
-#: C/optimization-intro.xml:159(listitem/para)
-msgid ""
-"If all else fails, tell the user that the code is going to be slow and put "
-"up a progress bar. They won't be as happy as if you had just presented the "
-"results, but they will at least know the program hasn't crashed and they can "
-"go get a cup of coffee."
-msgstr ""
-"Se todo isto falla, dígalle ao usuario que o código vai a executarse vai ser "
-"lento e móstrelle unha barra de progreso. Non estará tan contento con isto "
-"como se simplemente lle mostrara os resultados, porén cando menos saberá que "
-"o programa non se pechou ou ten problemas e pode ir a tomarse un café "
-"mentres."
-
-#~ msgid "2004-2005"
-#~ msgstr "2004-2005"
-
-#~ msgid "Callum McKenzie"
-#~ msgstr "Callum McKenzie"
-
-#~ msgid "Robert Love"
-#~ msgstr "Robert Love"
+#~ msgid "The Quick Guide to Optimizing GNOME Programs"
+#~ msgstr "Guía rápida para optimizar programas de GNOME"
 
 #~ msgid "Callum"
 #~ msgstr "Callum"
