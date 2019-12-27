@@ -5,16 +5,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-02-15 12:36+0000\n"
-"PO-Revision-Date: 2019-02-16 23:23+0200\n"
-"Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
+"POT-Creation-Date: 2019-10-03 11:04+0000\n"
+"PO-Revision-Date: 2019-12-27 17:01+0100\n"
+"Last-Translator: Fran Diéguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 2.2.4\n"
 "X-Project-Style: gnome\n"
 
 #. (itstool) path: p/link
@@ -89,17 +89,16 @@ msgstr ""
 "se mostra arriba."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:22 C/application-menus.page:24 C/button-menus.page:25
-#: C/dialogs.page:36 C/empty-placeholders.page:23 C/full-screen.page:22
-#: C/grids.page:23 C/header-bars.page:29 C/in-app-notifications.page:23
-#: C/info-bars.page:23 C/initial-state-placeholders.page:23 C/lists.page:24
-#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
-#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-menus.page:25
-#: C/primary-windows.page:22 C/progress-bars.page:37
-#: C/progress-spinners.page:25 C/search.page:22 C/secondary-menus.page:23
-#: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
-#: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:36
-#: C/view-switchers.page:22
+#: C/action-bars.page:22 C/button-menus.page:25 C/dialogs.page:36
+#: C/empty-placeholders.page:23 C/full-screen.page:22 C/grids.page:23
+#: C/header-bars.page:29 C/in-app-notifications.page:23 C/info-bars.page:23
+#: C/initial-state-placeholders.page:23 C/lists.page:24 C/menu-bars.page:37
+#: C/menus.page:37 C/notifications.page:21 C/overlaid-controls.page:22
+#: C/popovers.page:25 C/primary-menus.page:24 C/primary-windows.page:22
+#: C/progress-bars.page:37 C/progress-spinners.page:25 C/search.page:22
+#: C/secondary-menus.page:23 C/selection-mode.page:24 C/sidebar-lists.page:26
+#: C/sliders.page:37 C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39
+#: C/toolbars.page:36 C/view-switchers.page:22
 msgid "When to use"
 msgstr "Cando usala"
 
@@ -147,15 +146,15 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/action-bars.page:41 C/application-menus.page:72 C/buttons.page:89
-#: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
-#: C/header-bars.page:72 C/info-bars.page:46 C/lists.page:148
-#: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
-#: C/popovers.page:64 C/primary-menus.page:45 C/primary-windows.page:85
-#: C/progress-bars.page:129 C/progress-spinners.page:51 C/radio-buttons.page:53
-#: C/search.page:72 C/secondary-menus.page:44 C/sidebar-lists.page:54
-#: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
-#: C/text-fields.page:68 C/toolbars.page:59 C/view-switchers.page:46
+#: C/action-bars.page:41 C/buttons.page:89 C/check-boxes.page:59
+#: C/dialogs.page:169 C/grids.page:44 C/header-bars.page:72 C/info-bars.page:46
+#: C/lists.page:148 C/menu-bars.page:106 C/menus.page:73
+#: C/notifications.page:105 C/popovers.page:64 C/primary-menus.page:79
+#: C/primary-windows.page:85 C/progress-bars.page:129
+#: C/progress-spinners.page:51 C/radio-buttons.page:53 C/search.page:72
+#: C/secondary-menus.page:44 C/sidebar-lists.page:54 C/sliders.page:69
+#: C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99 C/text-fields.page:68
+#: C/toolbars.page:59 C/view-switchers.page:46
 msgid "API reference"
 msgstr "Referencia da API"
 
@@ -171,12 +170,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/application-basics.page:11
 msgid "Basic application characteristics."
-msgstr "Características de aplicativo básicas"
+msgstr "Características de aplicacións básicas"
 
 #. (itstool) path: page/title
 #: C/application-basics.page:14
 msgid "Application basics"
-msgstr "Básicos de aplicativo"
+msgstr "Básicos de aplicacións"
 
 #. (itstool) path: page/p
 #: C/application-basics.page:16
@@ -201,7 +200,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/application-basics.page:21
 msgid "What is an application?"
-msgstr "Que é un aplicativo?"
+msgstr "Que é unha aplicación?"
 
 #. (itstool) path: section/p
 #: C/application-basics.page:23
@@ -209,8 +208,8 @@ msgid ""
 "The following list of characteristics provides a basic definition of an "
 "application. An application is a distinct piece of software which:"
 msgstr ""
-"A seguinte lista de características fornece unha definición básica dun "
-"aplicativo. Un aplicativo é unha peza distinta de software que:"
+"A seguinte lista de características fornece unha definición básica dunha "
+"aplicación. Unha aplicación é unha peza distinta de software que:"
 
 #. (itstool) path: item/p
 #: C/application-basics.page:26
@@ -220,12 +219,12 @@ msgstr "Pode instalarse e eliminarse de forma individual dun sistema."
 #. (itstool) path: item/p
 #: C/application-basics.page:27
 msgid "Does not affect or interfere with the behavior of other applications."
-msgstr "Non afecta nin interfire no comportamento doutros aplicativos."
+msgstr "Non afecta nin interfire no comportamento doutras aplicacións."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:28
 msgid "Does not rely on other applications in order to run."
-msgstr "Non depende doutros aplicativos para poder executarse."
+msgstr "Non depende doutras aplicacións para poder executarse."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:29
@@ -247,7 +246,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/application-basics.page:31
 msgid "Has an application launcher."
-msgstr "Ten un iniciador de aplicativo."
+msgstr "Ten un iniciador de aplicación."
 
 #. (itstool) path: section/p
 #: C/application-basics.page:34
@@ -269,7 +268,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/application-basics.page:43
 msgid "Naming your application"
-msgstr "Nomeando o seu aplicativo"
+msgstr "Nomeando a súa aplicación"
 
 #. (itstool) path: section/p
 #: C/application-basics.page:45
@@ -282,12 +281,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/application-basics.page:47
 msgid "An application name plays a number of functions:"
-msgstr "Un nome de aplicativo ten varias funcións:"
+msgstr "Un nome de aplicación ten varias funcións:"
 
 #. (itstool) path: item/p
 #: C/application-basics.page:50
 msgid "It must advertise your application to potential users."
-msgstr "Debe publicitar o seu aplicativo a usuarios potenciais."
+msgstr "Debe publicitar a súa aplicación a usuarios potenciais."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:51
@@ -304,7 +303,7 @@ msgid ""
 "It needs to identify your application in the systems where it is installed "
 "and run."
 msgstr ""
-"Precisa identificar o seu aplicativo nos sistemas nos que se instala e se "
+"Precisa identificar a súa aplicación nos sistemas nos que se instala e se "
 "executa."
 
 #. (itstool) path: section/p
@@ -313,7 +312,7 @@ msgid ""
 "Ensure that your application name is short — fewer than 15 characters. This "
 "will ensure that it is always displayed in full within a GNOME 3 environment."
 msgstr ""
-"Asegúrese que o nome do seu aplicativo é curto — menos de 15 caracters. Isto "
+"Asegúrese que o nome da súa aplicación é curto — menos de 15 caracters. Isto "
 "asegurará que sempre se mostra o nome completo no ambiente de GNOME 3."
 
 #. (itstool) path: section/p
@@ -329,12 +328,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/application-menus.page:7
 msgid "Global application menu that is accessed from the top bar"
-msgstr "O menú global de aplicativo móstrase na barra superior"
+msgstr "O menú global de aplicación móstrase na barra superior"
 
 #. (itstool) path: page/title
 #: C/application-menus.page:15
 msgid "Application menus"
-msgstr "Menús de aplicativo"
+msgstr "Menús de aplicación"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -353,147 +352,11 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/application-menus.page:19
 msgid ""
-"<em>Application menus are no longer recommended, and will not be displayed "
-"in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus\">Primary</"
-"link> and <link xref=\"secondary-menus\">secondary menus</link> should be "
-"used as alternatives.</em>"
+"<em>Application menus are no longer recommended, and their contents will not "
+"be included in GNOME 3's top bar from GNOME 3.32. <link xref=\"primary-menus"
+"\">Primary</link> and <link xref=\"secondary-menus\">secondary menus</link> "
+"should be used as alternatives.</em>"
 msgstr ""
-
-#. (itstool) path: page/p
-#: C/application-menus.page:21
-msgid ""
-"Application menus provide access to global, top level actions and options "
-"for your application. These include standard items for accessing "
-"documentation and information about the application."
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/application-menus.page:26
-msgid ""
-"Application menus are a standard part of GNOME 3, and every application that "
-"runs under GNOME 3 should have one."
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/application-menus.page:31 C/button-menus.page:47 C/dialogs.page:155
-#: C/display-compatibility.page:21 C/drop-down-lists.page:34 C/grids.page:32
-#: C/lists.page:133 C/menu-bars.page:93 C/menus.page:61
-#: C/pointer-and-touch-input.page:40 C/popovers.page:55
-#: C/primary-windows.page:70 C/progress-bars.page:117
-#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
-#: C/visual-layout.page:35
-msgid "General guidelines"
-msgstr "Liñas de guía xerais"
-
-#. (itstool) path: item/p
-#: C/application-menus.page:34
-msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/application-menus.page:35
-msgid ""
-"Only include menu items that relate to the application as a whole, such as "
-"application preferences. Items that are specific to a particular window or "
-"view, or which act on content within an application window, should not be "
-"included."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/application-menus.page:36
-msgid ""
-"If an item from the application menu is frequently used, consider moving it "
-"to a more accessible location."
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/application-menus.page:42
-msgid "Standard menu items"
-msgstr "Elementos de menú estándares"
-
-#. (itstool) path: section/p
-#: C/application-menus.page:44
-msgid ""
-"Common application menu items include <gui>New Window</gui>, "
-"<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</"
-"gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be "
-"contained within their own group at the bottom of the menu."
-msgstr ""
-
-#. (itstool) path: td/p
-#: C/application-menus.page:48
-msgid "<gui>New Window</gui>"
-msgstr "<gui>Nova xanela</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:49
-msgid ""
-"Opens a new window. Only <link xref=\"primary-windows#application-types"
-"\">multiple instance applications</link> should include this menu item. If "
-"the new window contains a specific type of content item, or simultaneously "
-"performs an action, rename it to be less generic. For example: <gui>New "
-"Connection</gui> or <gui>New Document</gui>."
-msgstr ""
-
-#. (itstool) path: td/p
-#: C/application-menus.page:52
-msgid "<gui>Preferences</gui>"
-msgstr "<gui>Preferencias</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:53
-msgid ""
-"Opens the application's preferences dialog. Only show this menu item if your "
-"application has a preferences dialog."
-msgstr ""
-
-#. (itstool) path: td/p
-#: C/application-menus.page:56 C/keyboard-input.page:286
-msgid "<gui>Help</gui>"
-msgstr "<gui>Axuda</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:57
-msgid ""
-"Opens your application's user documentation in the <app>Help</app> "
-"application. Only show this menu item if your application has user "
-"documentation."
-msgstr ""
-
-#. (itstool) path: td/p
-#: C/application-menus.page:60 C/keyboard-input.page:291
-msgid "<gui>About</gui>"
-msgstr "<gui>Sobre</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:61
-msgid ""
-"Opens the application's about dialog. Every application menu should include "
-"this item."
-msgstr ""
-
-#. (itstool) path: td/p
-#: C/application-menus.page:64 C/keyboard-input.page:296
-msgid "<gui>Quit</gui>"
-msgstr "<gui>Saír</gui>"
-
-#. (itstool) path: td/p
-#: C/application-menus.page:65
-msgid ""
-"Closes the application, including all application windows. Every application "
-"menu should include this item."
-msgstr ""
-"Pecha o aplicativo, incluíndo todas as xanelas do aplicativo. Cada menú de "
-"aplicativo debería incluír este elemento."
-
-#. (itstool) path: item/p
-#: C/application-menus.page:74
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
-"\">GtkApplication</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
-"\">GtkApplication</link>"
 
 #. (itstool) path: page/title
 #: C/button-menus.page:18
@@ -608,6 +471,18 @@ msgid ""
 "external ref='figures/ui-elements/hybrid-button-menu.svg' "
 "md5='f007dc2c5dc0c25ee85483f31ca85917'"
 msgstr ""
+"external ref='figures/ui-elements/hybrid-button-menu.svg' "
+"md5='f007dc2c5dc0c25ee85483f31ca85917'"
+
+#. (itstool) path: section/title
+#: C/button-menus.page:47 C/dialogs.page:155 C/display-compatibility.page:21
+#: C/drop-down-lists.page:34 C/grids.page:32 C/lists.page:133
+#: C/menu-bars.page:93 C/menus.page:61 C/pointer-and-touch-input.page:40
+#: C/popovers.page:55 C/primary-windows.page:70 C/progress-bars.page:117
+#: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:45
+#: C/visual-layout.page:35
+msgid "General guidelines"
+msgstr "Liñas de guía xerais"
 
 #. (itstool) path: item/p
 #: C/button-menus.page:50
@@ -767,7 +642,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:52
 msgid "Text buttons"
-msgstr ""
+msgstr "Botóns de texto"
 
 #. (itstool) path: item/p
 #: C/buttons.page:55
@@ -802,7 +677,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:64
 msgid "Toggle buttons"
-msgstr ""
+msgstr "Botóns de trocar"
 
 #. (itstool) path: section/p
 #: C/buttons.page:66
@@ -816,7 +691,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:71
 msgid "Linked buttons"
-msgstr ""
+msgstr "Botóns ligados"
 
 #. (itstool) path: section/p
 #: C/buttons.page:73
@@ -1897,6 +1772,8 @@ msgid ""
 "external ref='figures/ui-elements/drop-down-list.svg' "
 "md5='61a8c690fc1b8f2f72bf825eaf94cb5b'"
 msgstr ""
+"external ref='figures/ui-elements/drop-down-list.svg' "
+"md5='61a8c690fc1b8f2f72bf825eaf94cb5b'"
 
 #. (itstool) path: page/p
 #: C/drop-down-lists.page:24
@@ -1980,6 +1857,8 @@ msgid ""
 "external ref='figures/ui-elements/drop-down-list-custom-values.svg' "
 "md5='352a5302b7cdf1c2bc669bf15176130e'"
 msgstr ""
+"external ref='figures/ui-elements/drop-down-list-custom-values.svg' "
+"md5='352a5302b7cdf1c2bc669bf15176130e'"
 
 #. (itstool) path: section/p
 #: C/drop-down-lists.page:50
@@ -2041,6 +1920,8 @@ msgid ""
 "external ref='figures/patterns/empty-placeholder.svg' "
 "md5='ef36d4ef97fdbc3b43d44e3d355c40c6'"
 msgstr ""
+"external ref='figures/patterns/empty-placeholder.svg' "
+"md5='ef36d4ef97fdbc3b43d44e3d355c40c6'"
 
 #. (itstool) path: page/p
 #: C/empty-placeholders.page:20
@@ -2572,6 +2453,7 @@ msgctxt "_"
 msgid ""
 "external ref='figures/icons/sizes.svg' md5='8850ec96befdacb8c095656cba52cd62'"
 msgstr ""
+"external ref='figures/icons/sizes.svg' md5='8850ec96befdacb8c095656cba52cd62'"
 
 #. (itstool) path: section/title
 #: C/icon-design.page:33
@@ -2607,6 +2489,8 @@ msgid ""
 "external ref='figures/icons/aspect-ratio.svg' "
 "md5='acbe590cea6f62958cb2fd98a08d7425'"
 msgstr ""
+"external ref='figures/icons/aspect-ratio.svg' "
+"md5='acbe590cea6f62958cb2fd98a08d7425'"
 
 #. (itstool) path: section/p
 #: C/icon-design.page:41
@@ -2629,6 +2513,8 @@ msgid ""
 "external ref='figures/icons/whitespace.svg' "
 "md5='757ca4673077580b5fcf3b2ccd230ce1'"
 msgstr ""
+"external ref='figures/icons/whitespace.svg' "
+"md5='757ca4673077580b5fcf3b2ccd230ce1'"
 
 #. (itstool) path: section/title
 #: C/icon-design.page:48
@@ -2657,6 +2543,8 @@ msgid ""
 "external ref='figures/icons/dropshadow.png' "
 "md5='04d7779eaa9b2a019b7474dd7f689673'"
 msgstr ""
+"external ref='figures/icons/dropshadow.png' "
+"md5='04d7779eaa9b2a019b7474dd7f689673'"
 
 #. (itstool) path: section/p
 #: C/icon-design.page:54
@@ -2696,8 +2584,8 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/icon-design.page:71
-msgid "Cyan"
-msgstr "Cian"
+msgid "Green"
+msgstr "Verde"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -2707,16 +2595,16 @@ msgstr "Cian"
 #: C/icon-design.page:72
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/cyan.png' "
-"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
 msgstr ""
-"external ref='figures/icons/palette/cyan.png' "
-"md5='d3973cbeaf6b494cf5726c8acff35d74'"
+"external ref='figures/icons/palette/green.png' "
+"md5='5b19c078da23f4462a697f7469dc1620'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:75
-msgid "Green"
-msgstr "Verde"
+msgid "Yellow"
+msgstr "Amarelo"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -2726,16 +2614,16 @@ msgstr "Verde"
 #: C/icon-design.page:76
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/green.png' "
-"md5='5b19c078da23f4462a697f7469dc1620'"
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
 msgstr ""
-"external ref='figures/icons/palette/green.png' "
-"md5='5b19c078da23f4462a697f7469dc1620'"
+"external ref='figures/icons/palette/yellow.png' "
+"md5='1cfcf8657720355a24dd457923a540c3'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:79
-msgid "Yellow"
-msgstr "Amarelo"
+msgid "Orange"
+msgstr "Laranxa"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -2745,16 +2633,16 @@ msgstr "Amarelo"
 #: C/icon-design.page:80
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/yellow.png' "
-"md5='1cfcf8657720355a24dd457923a540c3'"
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
 msgstr ""
-"external ref='figures/icons/palette/yellow.png' "
-"md5='1cfcf8657720355a24dd457923a540c3'"
+"external ref='figures/icons/palette/orange.png' "
+"md5='2aca9f2cca26e646b289ee00542b1690'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:83
-msgid "Orange"
-msgstr "Laranxa"
+msgid "Red"
+msgstr "Vermello"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -2764,16 +2652,16 @@ msgstr "Laranxa"
 #: C/icon-design.page:84
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/orange.png' "
-"md5='2aca9f2cca26e646b289ee00542b1690'"
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
 msgstr ""
-"external ref='figures/icons/palette/orange.png' "
-"md5='2aca9f2cca26e646b289ee00542b1690'"
+"external ref='figures/icons/palette/red.png' "
+"md5='f3ec5513b9be713a1de46b2f524452dd'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:87
-msgid "Red"
-msgstr "Vermello"
+msgid "Purple"
+msgstr "Violeta"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -2783,16 +2671,16 @@ msgstr "Vermello"
 #: C/icon-design.page:88
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/red.png' "
-"md5='f3ec5513b9be713a1de46b2f524452dd'"
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
 msgstr ""
-"external ref='figures/icons/palette/red.png' "
-"md5='f3ec5513b9be713a1de46b2f524452dd'"
+"external ref='figures/icons/palette/purple.png' "
+"md5='5077e893507ac99732017e9f254886c1'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:91
-msgid "Purple"
-msgstr "Violeta"
+msgid "Brown"
+msgstr "Marrón"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -2802,16 +2690,16 @@ msgstr "Violeta"
 #: C/icon-design.page:92
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/purple.png' "
-"md5='5077e893507ac99732017e9f254886c1'"
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
 msgstr ""
-"external ref='figures/icons/palette/purple.png' "
-"md5='5077e893507ac99732017e9f254886c1'"
+"external ref='figures/icons/palette/brown.png' "
+"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
 
 #. (itstool) path: td/p
 #: C/icon-design.page:95
-msgid "Brown"
-msgstr "Marrón"
+msgid "Neutral"
+msgstr "Neutral"
 
 #. (itstool) path: td/media
 #. This is a reference to an external file such as an image or video. When
@@ -2821,25 +2709,6 @@ msgstr "Marrón"
 #: C/icon-design.page:96
 msgctxt "_"
 msgid ""
-"external ref='figures/icons/palette/brown.png' "
-"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
-msgstr ""
-"external ref='figures/icons/palette/brown.png' "
-"md5='2ba8f21b8b0f2566360a43ebe65ed7e0'"
-
-#. (itstool) path: td/p
-#: C/icon-design.page:99
-msgid "Neutral"
-msgstr "Neutral"
-
-#. (itstool) path: td/media
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/icon-design.page:100
-msgctxt "_"
-msgid ""
 "external ref='figures/icons/palette/neutral.png' "
 "md5='54148d53f6fb3563dd8454f39845d467'"
 msgstr ""
@@ -2847,29 +2716,29 @@ msgstr ""
 "md5='54148d53f6fb3563dd8454f39845d467'"
 
 #. (itstool) path: section/p
-#: C/icon-design.page:105
+#: C/icon-design.page:101
 msgid ""
 "You are free to use different shades of these colors depending on the "
 "desired material effect. However, these primary colors are a good baseline "
 "to start from. A GIMP/Inkscape format palette <link href=\"https://gitlab."
-"gnome.org/Community/Design/HIG-app-icons/"
-"raw/62cb512ff95b2b3d57aeb5f806726d6be2eca74a/HIG.gpl\">is available</link>."
+"gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false"
+"\">is available</link>."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/icon-design.page:107
+#: C/icon-design.page:103
 msgid ""
 "It is recommended to keep flat surfaces unshaded, but using gradients to "
 "signify bent surfaces is allowed."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/icon-design.page:114
+#: C/icon-design.page:110
 msgid "Symbolic icons"
 msgstr "Iconas de símbolos"
 
 #. (itstool) path: section/p
-#: C/icon-design.page:116
+#: C/icon-design.page:112
 msgid ""
 "Symbolic icons have a simple form and are drawn within a 16×16 pixel grid. "
 "They are then programmatically scaled and colored within the user interface "
@@ -2877,7 +2746,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/icon-design.page:119
+#: C/icon-design.page:115
 msgid ""
 "Identify a single property when looking for an appropriate metaphor for an "
 "icon, and focus on what distinguishes the idea you want to communicate. For "
@@ -2887,21 +2756,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/icon-design.page:120
+#: C/icon-design.page:116
 msgid ""
 "Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
 "view."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/icon-design.page:121
+#: C/icon-design.page:117
 msgid ""
 "When using unfilled strokes for an outline, try avoiding hairline (1px) and "
 "do at least a 2px stroke for the main feature of the icon."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/icon-design.page:122
+#: C/icon-design.page:118
 msgid ""
 "Symbolic icons are recolored at runtime to match the context, very much like "
 "a piece of text. While there are ways to “shade” parts of an icon by using "
@@ -2910,7 +2779,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/icon-design.page:123
+#: C/icon-design.page:119
 msgid ""
 "When a metaphor relies on the negative space, make sure it will work with "
 "the colors inverted. For example a camera lens spec/highlight will only work "
@@ -2922,20 +2791,22 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/icon-design.page:126
+#: C/icon-design.page:122
 msgctxt "_"
 msgid ""
 "external ref='figures/icons/inverting.svg' "
 "md5='e4155d9e87e2abe95e70c42185686b5e'"
 msgstr ""
+"external ref='figures/icons/inverting.svg' "
+"md5='e4155d9e87e2abe95e70c42185686b5e'"
 
 #. (itstool) path: section/title
-#: C/icon-design.page:129
+#: C/icon-design.page:125
 msgid "Size and grid"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/icon-design.page:131
+#: C/icon-design.page:127
 msgid ""
 "While symbolic icons are scalable and should work at any size, the basic "
 "canvas size is 16×16 grid units. You have the whole canvas to fill, but note "
@@ -2990,6 +2861,8 @@ msgid ""
 "external ref='figures/icons/fullcolor-v-symbolic.svg' "
 "md5='33921c0746746de2adce51279dbc8606'"
 msgstr ""
+"external ref='figures/icons/fullcolor-v-symbolic.svg' "
+"md5='33921c0746746de2adce51279dbc8606'"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:30
@@ -3204,7 +3077,7 @@ msgid ""
 "em></link>"
 msgstr ""
 "<link xref=\"application-basics\"><em style=\"strong\">Básicos de "
-"aplicativo</em></link>"
+"aplicación</em></link>"
 
 #. (itstool) path: td/p
 #: C/index.page:51
@@ -3322,7 +3195,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/in-app-notifications.page:16
 msgid "In-app notifications"
-msgstr "Notificacións en aplicativo"
+msgstr "Notificacións en aplicación"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -3412,6 +3285,8 @@ msgid ""
 "external ref='figures/patterns/info-bar.svg' "
 "md5='8182fc0c20fd860a617c8b382579e6f2'"
 msgstr ""
+"external ref='figures/patterns/info-bar.svg' "
+"md5='8182fc0c20fd860a617c8b382579e6f2'"
 
 #. (itstool) path: page/p
 #: C/info-bars.page:20
@@ -4293,6 +4168,11 @@ msgid "Label"
 msgstr ""
 
 #. (itstool) path: td/p
+#: C/keyboard-input.page:286 C/primary-menus.page:65
+msgid "<gui>Help</gui>"
+msgstr "<gui>Axuda</gui>"
+
+#. (itstool) path: td/p
 #: C/keyboard-input.page:287
 msgid "<key>F1</key>"
 msgstr ""
@@ -4304,11 +4184,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: td/p
+#: C/keyboard-input.page:291
+msgid "<gui>About</gui>"
+msgstr "<gui>Sobre</gui>"
+
+#. (itstool) path: td/p
 #: C/keyboard-input.page:293
 msgid ""
 "Opens the About dialog for the application. Use the standard GNOME 3 dialog "
 "for this."
 msgstr ""
+
+#. (itstool) path: td/p
+#: C/keyboard-input.page:296
+msgid "<gui>Quit</gui>"
+msgstr "<gui>Saír</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:297
@@ -4553,7 +4443,7 @@ msgstr ""
 #: C/keyboard-input.page:386
 msgctxt "menu"
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:388
@@ -5424,6 +5314,8 @@ msgid ""
 "external ref='figures/patterns/list-styles.svg' "
 "md5='61f37ec31df8748207a9152ea0589da0'"
 msgstr ""
+"external ref='figures/patterns/list-styles.svg' "
+"md5='61f37ec31df8748207a9152ea0589da0'"
 
 #. (itstool) path: section/title
 #: C/lists.page:57
@@ -5458,6 +5350,8 @@ msgid ""
 "external ref='figures/patterns/editable-lists.svg' "
 "md5='182e1ead38431882471350da832751d1'"
 msgstr ""
+"external ref='figures/patterns/editable-lists.svg' "
+"md5='182e1ead38431882471350da832751d1'"
 
 #. (itstool) path: section/title
 #: C/lists.page:69
@@ -5576,7 +5470,7 @@ msgstr ""
 #: C/lists.page:122
 msgctxt "list-type"
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #. (itstool) path: td/p
 #: C/lists.page:123
@@ -5686,6 +5580,8 @@ msgid ""
 "external ref='figures/ui-elements/menu-bar.svg' "
 "md5='126e396f29c93fb7e15bc1ed5c1b94ea'"
 msgstr ""
+"external ref='figures/ui-elements/menu-bar.svg' "
+"md5='126e396f29c93fb7e15bc1ed5c1b94ea'"
 
 #. (itstool) path: section/p
 #: C/menu-bars.page:39
@@ -5970,6 +5866,8 @@ msgid ""
 "external ref='figures/ui-elements/menu.svg' "
 "md5='1997424d43df9bee4a79276f2f7ec305'"
 msgstr ""
+"external ref='figures/ui-elements/menu.svg' "
+"md5='1997424d43df9bee4a79276f2f7ec305'"
 
 #. (itstool) path: section/p
 #: C/menus.page:39
@@ -6068,14 +5966,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/menus.page:78 C/primary-menus.page:48 C/secondary-menus.page:47
+#: C/menus.page:78 C/primary-menus.page:82 C/secondary-menus.page:47
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
 "\">GtkMenuButton</link>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:49
+#: C/menus.page:83 C/popovers.page:68 C/primary-menus.page:83
 #: C/secondary-menus.page:48
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
@@ -6344,6 +6242,8 @@ msgid ""
 "external ref='figures/patterns/overlaid-controls.svg' "
 "md5='14e776e3385eeafe86fbdd64c9efe595'"
 msgstr ""
+"external ref='figures/patterns/overlaid-controls.svg' "
+"md5='14e776e3385eeafe86fbdd64c9efe595'"
 
 #. (itstool) path: page/p
 #: C/overlaid-controls.page:19
@@ -6433,6 +6333,8 @@ msgid ""
 "external ref='figures/patterns/patterns.svg' "
 "md5='3702bfc5fa36705341014c7df1f4a5af'"
 msgstr ""
+"external ref='figures/patterns/patterns.svg' "
+"md5='3702bfc5fa36705341014c7df1f4a5af'"
 
 #. (itstool) path: section/title
 #: C/patterns.page:24
@@ -6720,6 +6622,7 @@ msgctxt "_"
 msgid ""
 "external ref='figures/touch/tap.svg' md5='542dacd6f7b5d2a559c0941fd43c1271'"
 msgstr ""
+"external ref='figures/touch/tap.svg' md5='542dacd6f7b5d2a559c0941fd43c1271'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:129
@@ -6749,6 +6652,8 @@ msgid ""
 "external ref='figures/touch/tap-and-hold.svg' "
 "md5='758a756e51dcdc6790ad8d6dfec30a61'"
 msgstr ""
+"external ref='figures/touch/tap-and-hold.svg' "
+"md5='758a756e51dcdc6790ad8d6dfec30a61'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:137
@@ -6776,6 +6681,7 @@ msgctxt "_"
 msgid ""
 "external ref='figures/touch/drag.svg' md5='56fa4d12196bb021a0c0b3c601b66879'"
 msgstr ""
+"external ref='figures/touch/drag.svg' md5='56fa4d12196bb021a0c0b3c601b66879'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:145
@@ -6803,6 +6709,8 @@ msgid ""
 "external ref='figures/touch/pinch-or-stretch.svg' "
 "md5='4c4ee87ce1441e624ed512d86b18feab'"
 msgstr ""
+"external ref='figures/touch/pinch-or-stretch.svg' "
+"md5='4c4ee87ce1441e624ed512d86b18feab'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:153
@@ -6831,6 +6739,8 @@ msgid ""
 "external ref='figures/touch/double-tap.svg' "
 "md5='1f07b8f4aa0e035dfda6396f34181400'"
 msgstr ""
+"external ref='figures/touch/double-tap.svg' "
+"md5='1f07b8f4aa0e035dfda6396f34181400'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:161
@@ -6857,6 +6767,7 @@ msgctxt "_"
 msgid ""
 "external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
 msgstr ""
+"external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:169
@@ -6897,6 +6808,8 @@ msgid ""
 "external ref='figures/touch/edge-drag.svg' "
 "md5='7d7ca541e9451653ace9c73f94485cd6'"
 msgstr ""
+"external ref='figures/touch/edge-drag.svg' "
+"md5='7d7ca541e9451653ace9c73f94485cd6'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:188
@@ -6935,6 +6848,8 @@ msgid ""
 "external ref='figures/touch/3-finger-pinch.svg' "
 "md5='3d665caebb2ce8be56beebfcaa8619a1'"
 msgstr ""
+"external ref='figures/touch/3-finger-pinch.svg' "
+"md5='3d665caebb2ce8be56beebfcaa8619a1'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:198
@@ -6962,6 +6877,8 @@ msgid ""
 "external ref='figures/touch/4-finger-drag.svg' "
 "md5='d4ad2c4258656637d39fcbe7bd94783c'"
 msgstr ""
+"external ref='figures/touch/4-finger-drag.svg' "
+"md5='d4ad2c4258656637d39fcbe7bd94783c'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:206
@@ -6989,6 +6906,8 @@ msgid ""
 "external ref='figures/touch/3-finger-hold-and-tap.svg' "
 "md5='e37c9a8b7f4c24f19368550bcc8309d5'"
 msgstr ""
+"external ref='figures/touch/3-finger-hold-and-tap.svg' "
+"md5='e37c9a8b7f4c24f19368550bcc8309d5'"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:214
@@ -7025,6 +6944,8 @@ msgid ""
 "external ref='figures/ui-elements/popover.svg' "
 "md5='c228a892a76a914660a76aa77830924c'"
 msgstr ""
+"external ref='figures/ui-elements/popover.svg' "
+"md5='c228a892a76a914660a76aa77830924c'"
 
 #. (itstool) path: section/p
 #: C/popovers.page:27
@@ -7148,11 +7069,18 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/primary-menus.page:18
+#, fuzzy
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/application-menu.svg' "
+#| "md5='8bea5133bb3717c30f4719c98cf38180'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/primary-menu.svg' "
-"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+"md5='78f497d54c3ba45846f409ef81debad2'"
 msgstr ""
+"external ref='figures/patterns/application-menu.svg' "
+"md5='8bea5133bb3717c30f4719c98cf38180'"
 
 #. (itstool) path: page/p
 #: C/primary-menus.page:20
@@ -7161,31 +7089,56 @@ msgid ""
 "applications. They are labelled with the menu icon (named <code>menu-open</"
 "code>) and contain the top-level menu items for the application. This can "
 "include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
-"<gui>About</gui>, as well as other application-specific items."
-msgstr ""
-
-#. (itstool) path: page/p
-#: C/primary-menus.page:22
-msgid ""
-"Primary menus are typically located on the right side of the header bar. "
-"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
-"link>, the primary menu should be placed above the sidebar list."
+"<gui>About Application</gui>, as well as other application-specific items."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/primary-menus.page:27
+#: C/primary-menus.page:26
 msgid ""
 "Most applications have primary menus, since they are the standard location "
-"for <gui>About</gui>, which every application is expected to have."
+"for <gui>About Application</gui>, which every application is expected to "
+"have."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/primary-menus.page:32 C/secondary-menus.page:32
+#: C/primary-menus.page:31 C/secondary-menus.page:32
 msgid "Guidance"
 msgstr ""
 
+#. (itstool) path: section/p
+#: C/primary-menus.page:33
+msgid ""
+"Primary menus are typically placed on the right side of the header bar. "
+"However, there are two variations on this rule:"
+msgstr ""
+
 #. (itstool) path: item/p
-#: C/primary-menus.page:35
+#: C/primary-menus.page:36
+msgid ""
+"If the application incorporates in-window navigation, with a top-level "
+"location and sub-pages, the primary menu should only be placed on the top "
+"level: sub-pages can include a <link xref=\"secondary-menus\">secondary "
+"menu</link>, if a menu is required."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:37
+msgid ""
+"When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
+"link>, the primary menu should be placed above the sidebar list on the "
+"right. If a menu is required for items shown in the content side of the "
+"window, a <link xref=\"secondary-menus\">secondary menu</link> can be used."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:40
+#, fuzzy
+#| msgid "General guidelines"
+msgid "Other guidelines:"
+msgstr "Liñas de guía xerais"
+
+#. (itstool) path: item/p
+#: C/primary-menus.page:43
 msgid ""
 "Primary menus can contain items for both the current window or view, as well "
 "as the application as a whole. This differentiates them from <link xref="
@@ -7194,32 +7147,78 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:36
-msgid ""
-"Applications which use in-window navigation should only show the primary "
-"menu on the top-level view (typically the main view that is shown when the "
-"app is launched). Child views, such as those that show individual items of "
-"content, should use <link xref=\"secondary-menus\">secondary</link> rather "
-"than primary menus."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/primary-menus.page:37
+#: C/primary-menus.page:44
 msgid ""
 "Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
 "deciding on primary menu content and arrangement."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/primary-menus.page:38
+#: C/primary-menus.page:45
 msgid ""
 "A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
-"As such, a header bar menu can include a variety of controls, such as groups "
-"of buttons."
+"As such, a primary menu can include a variety of controls, such as groups of "
+"buttons."
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/primary-menus.page:39
+#. (itstool) path: section/title
+#: C/primary-menus.page:51
+msgid "Standard menu items"
+msgstr "Elementos de menú estándares"
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:53
+msgid ""
+"The following are standard primary menu items, and should be placed in a "
+"group at the end of the menu:"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:57
+msgid "<gui>Preferences</gui>"
+msgstr "<gui>Preferencias</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:58
+msgid "Opens the application's preferences dialog, if it has one."
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:61
+#, fuzzy
+#| msgid "<gui>About</gui>"
+msgid "<gui>Keyboard Shortcuts</gui>"
+msgstr "<gui>Sobre</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:62
+msgid "Opens the application's keyboard shortcuts window, if it has one."
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:66
+msgid ""
+"Opens the application's user documentation in the <app>Help</app> "
+"application."
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:69
+#, fuzzy
+#| msgid "<gui>About</gui>"
+msgid "<gui>About Application</gui>"
+msgstr "<gui>Sobre</gui>"
+
+#. (itstool) path: td/p
+#: C/primary-menus.page:70
+msgid ""
+"Opens the application's about dialog. This item should include the "
+"application's name, such as <gui>About Photos</gui> or <gui>About "
+"Calculator</gui>. Every primary menu should include this item."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/primary-menus.page:74
 msgid ""
 "Primary menus shouldn’t include menu items for close or quit: windows can "
 "already be closed using the close button in the header bar, and it can be "
@@ -7248,6 +7247,8 @@ msgid ""
 "external ref='figures/patterns/primary-windows.svg' "
 "md5='8a8e74a81b080c85bffc31e154705200'"
 msgstr ""
+"external ref='figures/patterns/primary-windows.svg' "
+"md5='8a8e74a81b080c85bffc31e154705200'"
 
 #. (itstool) path: page/p
 #: C/primary-windows.page:19
@@ -7448,6 +7449,8 @@ msgid ""
 "external ref='figures/ui-elements/progress-bars.svg' "
 "md5='7f66ae7b98f62e50dec20a577f85ad46'"
 msgstr ""
+"external ref='figures/ui-elements/progress-bars.svg' "
+"md5='7f66ae7b98f62e50dec20a577f85ad46'"
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:39
@@ -7732,6 +7735,8 @@ msgid ""
 "external ref='figures/ui-elements/progress-spinner.svg' "
 "md5='9cfe1a10877e6776257f97c3011e17e0'"
 msgstr ""
+"external ref='figures/ui-elements/progress-spinner.svg' "
+"md5='9cfe1a10877e6776257f97c3011e17e0'"
 
 #. (itstool) path: section/p
 #: C/progress-spinners.page:27
@@ -7844,6 +7849,8 @@ msgid ""
 "external ref='figures/ui-elements/radio-buttons.svg' "
 "md5='6e392d4dfb0529a9c7ca892d80dfd22d'"
 msgstr ""
+"external ref='figures/ui-elements/radio-buttons.svg' "
+"md5='6e392d4dfb0529a9c7ca892d80dfd22d'"
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:40
@@ -7940,6 +7947,8 @@ msgid ""
 "external ref='figures/patterns/search.svg' "
 "md5='f46da86233f8152b6acb5a06a6afd3b3'"
 msgstr ""
+"external ref='figures/patterns/search.svg' "
+"md5='f46da86233f8152b6acb5a06a6afd3b3'"
 
 #. (itstool) path: page/p
 #: C/search.page:19
@@ -8102,6 +8111,8 @@ msgid ""
 "external ref='figures/patterns/secondary-menu.svg' "
 "md5='fe768e135e16ad22527cc97ecfd9a076'"
 msgstr ""
+"external ref='figures/patterns/secondary-menu.svg' "
+"md5='fe768e135e16ad22527cc97ecfd9a076'"
 
 #. (itstool) path: page/p
 #: C/secondary-menus.page:20
@@ -8109,8 +8120,8 @@ msgid ""
 "Secondary menus are located in the header bar and include menu items for the "
 "current view or content item. This differentiates them from <link xref="
 "\"primary-menus\">primary menus</link>, which include menu items that relate "
-"to an entire application (such as <gui>Preferences</gui> and <gui>About</"
-"gui>)."
+"to an entire application (such as <gui>Preferences</gui> and <gui>About "
+"\"Name\"</gui>)."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -8181,6 +8192,8 @@ msgid ""
 "external ref='figures/patterns/selection-mode.svg' "
 "md5='4e42fe1dc48ff2341a1354c0f8fec61a'"
 msgstr ""
+"external ref='figures/patterns/selection-mode.svg' "
+"md5='4e42fe1dc48ff2341a1354c0f8fec61a'"
 
 #. (itstool) path: page/p
 #: C/selection-mode.page:19
@@ -8293,6 +8306,8 @@ msgid ""
 "external ref='figures/patterns/sidebar-list.svg' "
 "md5='5efb0b438e622f93a9f420f161fefc58'"
 msgstr ""
+"external ref='figures/patterns/sidebar-list.svg' "
+"md5='5efb0b438e622f93a9f420f161fefc58'"
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:19
@@ -8425,6 +8440,8 @@ msgid ""
 "external ref='figures/ui-elements/sliders.svg' "
 "md5='08c58644b98d60ed3066db2d1b9cb765'"
 msgstr ""
+"external ref='figures/ui-elements/sliders.svg' "
+"md5='08c58644b98d60ed3066db2d1b9cb765'"
 
 #. (itstool) path: section/p
 #: C/sliders.page:39
@@ -8549,6 +8566,8 @@ msgid ""
 "external ref='figures/ui-elements/spin-boxes.svg' "
 "md5='20028165e8679a34052a6d0b3342e088'"
 msgstr ""
+"external ref='figures/ui-elements/spin-boxes.svg' "
+"md5='20028165e8679a34052a6d0b3342e088'"
 
 #. (itstool) path: section/p
 #: C/spin-boxes.page:39
@@ -8636,6 +8655,8 @@ msgid ""
 "external ref='figures/ui-elements/switches.svg' "
 "md5='fcdd09d24a52d974f966c174b6ca04ad'"
 msgstr ""
+"external ref='figures/ui-elements/switches.svg' "
+"md5='fcdd09d24a52d974f966c174b6ca04ad'"
 
 #. (itstool) path: section/p
 #: C/switches.page:27
@@ -8721,6 +8742,8 @@ msgid ""
 "external ref='figures/ui-elements/tabs.svg' "
 "md5='3649ebe9f3c4137ac97afd407063585c'"
 msgstr ""
+"external ref='figures/ui-elements/tabs.svg' "
+"md5='3649ebe9f3c4137ac97afd407063585c'"
 
 #. (itstool) path: section/p
 #: C/tabs.page:41
@@ -8896,6 +8919,8 @@ msgid ""
 "external ref='figures/ui-elements/text-fields.svg' "
 "md5='6ba8005ee1d8eaa67df3bbf77dbe1d2f'"
 msgstr ""
+"external ref='figures/ui-elements/text-fields.svg' "
+"md5='6ba8005ee1d8eaa67df3bbf77dbe1d2f'"
 
 #. (itstool) path: item/p
 #: C/text-fields.page:40
@@ -9033,6 +9058,8 @@ msgid ""
 "external ref='figures/ui-elements/toolbar.svg' "
 "md5='381167837829a44d064aedec78b58b95'"
 msgstr ""
+"external ref='figures/ui-elements/toolbar.svg' "
+"md5='381167837829a44d064aedec78b58b95'"
 
 #. (itstool) path: section/p
 #: C/toolbars.page:38
@@ -9404,6 +9431,8 @@ msgid ""
 "external ref='figures/patterns/view-switcher.svg' "
 "md5='9cbb7e513e48f505ce15d67a9d44e833'"
 msgstr ""
+"external ref='figures/patterns/view-switcher.svg' "
+"md5='9cbb7e513e48f505ce15d67a9d44e833'"
 
 #. (itstool) path: page/p
 #: C/view-switchers.page:19
@@ -9591,6 +9620,8 @@ msgid ""
 "external ref='figures/visual-alignment-incorrect.svg' "
 "md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
 msgstr ""
+"external ref='figures/visual-alignment-incorrect.svg' "
+"md5='d9dbdd27f8309e13ca2b7d71f51c0ca2'"
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:55
@@ -9608,6 +9639,8 @@ msgid ""
 "external ref='figures/visual-alignment-correct.svg' "
 "md5='c918add24fa74f4eda5cde1c0ec61163'"
 msgstr ""
+"external ref='figures/visual-alignment-correct.svg' "
+"md5='c918add24fa74f4eda5cde1c0ec61163'"
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:58
@@ -9625,6 +9658,8 @@ msgid ""
 "external ref='figures/visual-alignment-spacing.svg' "
 "md5='66643d65d5c1359f986331ee691410d6'"
 msgstr ""
+"external ref='figures/visual-alignment-spacing.svg' "
+"md5='66643d65d5c1359f986331ee691410d6'"
 
 #. (itstool) path: section/title
 #: C/visual-layout.page:64
@@ -9651,6 +9686,8 @@ msgid ""
 "external ref='figures/label-alignment.svg' "
 "md5='a55236576c454a29127913bf6fc6335e'"
 msgstr ""
+"external ref='figures/label-alignment.svg' "
+"md5='a55236576c454a29127913bf6fc6335e'"
 
 #. (itstool) path: section/title
 #: C/visual-layout.page:73
