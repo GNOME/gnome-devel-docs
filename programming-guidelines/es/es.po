@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-03-09 08:55+0000\n"
+"POT-Creation-Date: 2019-09-18 18:28+0000\n"
 "PO-Revision-Date: 2016-03-17 10:08+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
@@ -64,8 +64,17 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:32
+#, fuzzy
+#| msgid ""
+#| "<link href=\"http://producingoss.com/\">Produducing Open Source Software</"
+#| "link>, by Karl Fogel. This is a truly excellent book of good practices "
+#| "that free software projects should follow. This is about <em>social "
+#| "aspects</em> of the project: how to treat contributors, how to organize "
+#| "and moderate communication, how to deal with non-profit foundations. If "
+#| "you ask yourself at any time, \"how should I deal with $human_situation "
+#| "in the project?\", this book may provide the answer."
 msgid ""
-"<link href=\"http://producingoss.com/\">Produducing Open Source Software</"
+"<link href=\"http://producingoss.com/\">Producing Open Source Software</"
 "link>, by Karl Fogel. This is a truly excellent book of good practices that "
 "free software projects should follow. This is about <em>social aspects</em> "
 "of the project: how to treat contributors, how to organize and moderate "
@@ -100,11 +109,17 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:57
+#, fuzzy
+#| msgid ""
+#| "<link href=\"https://www.kernel.org/doc/Documentation/CodingStyle\">Linux "
+#| "Kernel Coding Style</link>. Explains the rationale for \"big indentation"
+#| "\", brace placement, concise but unambiguous naming, and centralized exit "
+#| "of functions."
 msgid ""
-"<link href=\"https://www.kernel.org/doc/Documentation/CodingStyle\">Linux "
-"Kernel Coding Style</link>. Explains the rationale for \"big indentation\", "
-"brace placement, concise but unambiguous naming, and centralized exit of "
-"functions."
+"<link href=\"https://www.kernel.org/doc/Documentation/process/coding-style."
+"rst\"> Linux Kernel Coding Style</link>. Explains the rationale for \"big "
+"indentation\", brace placement, concise but unambiguous naming, and "
+"centralized exit of functions."
 msgstr ""
 "<link href=\"https://www.kernel.org/doc/Documentation/CodingStyle\">Linux "
 "Kernel Coding Style</link>. Explica la lógica de «la gran sangría», el lugar "
@@ -112,10 +127,10 @@ msgstr ""
 "centralizada de funciones."
 
 #. (itstool) path: credit/name
-#: C/api-stability.page:10 C/databases.page:11 C/documentation.page:16
-#: C/file-system.page:11 C/gerror.page:11 C/glist.page:11 C/index.page:21
-#: C/introspection.page:10 C/logging.page:11 C/main-contexts.page:11
-#: C/memory-management.page:10 C/namespacing.page:10
+#: C/api-stability.page:10 C/async-programming.page:11 C/databases.page:11
+#: C/documentation.page:16 C/file-system.page:11 C/gerror.page:11
+#: C/glist.page:11 C/index.page:21 C/introspection.page:10 C/logging.page:11
+#: C/main-contexts.page:11 C/memory-management.page:10 C/namespacing.page:10
 #: C/parallel-installability.page:18 C/preconditions.page:11
 #: C/threading.page:11 C/tooling.page:10 C/unit-testing.page:10
 #: C/version-control.page:10 C/versioning.page:10
@@ -123,12 +138,12 @@ msgid "Philip Withnall"
 msgstr "Philip Withnall"
 
 #. (itstool) path: credit/years
-#: C/api-stability.page:12 C/databases.page:13 C/documentation.page:18
-#: C/file-system.page:13 C/gerror.page:13 C/glist.page:13 C/index.page:23
-#: C/introspection.page:12 C/logging.page:13 C/memory-management.page:12
-#: C/parallel-installability.page:20 C/preconditions.page:13
-#: C/threading.page:13 C/tooling.page:12 C/unit-testing.page:12
-#: C/version-control.page:12 C/versioning.page:12
+#: C/api-stability.page:12 C/async-programming.page:13 C/databases.page:13
+#: C/documentation.page:18 C/file-system.page:13 C/gerror.page:13
+#: C/glist.page:13 C/index.page:23 C/introspection.page:12 C/logging.page:13
+#: C/memory-management.page:12 C/parallel-installability.page:20
+#: C/preconditions.page:13 C/threading.page:13 C/tooling.page:12
+#: C/unit-testing.page:12 C/version-control.page:12 C/versioning.page:12
 msgid "2015"
 msgstr "2015"
 
@@ -143,11 +158,12 @@ msgid "API stability"
 msgstr "Estabilidad de la API"
 
 #. (itstool) path: synopsis/title
-#: C/api-stability.page:23 C/databases.page:24 C/documentation.page:32
-#: C/file-system.page:24 C/introspection.page:23 C/logging.page:26
-#: C/main-contexts.page:27 C/memory-management.page:65 C/namespacing.page:25
-#: C/parallel-installability.page:33 C/threading.page:24 C/tooling.page:45
-#: C/unit-testing.page:23 C/version-control.page:23 C/versioning.page:23
+#: C/api-stability.page:23 C/async-programming.page:26 C/databases.page:24
+#: C/documentation.page:32 C/file-system.page:24 C/introspection.page:23
+#: C/logging.page:26 C/main-contexts.page:27 C/memory-management.page:65
+#: C/namespacing.page:25 C/parallel-installability.page:33 C/threading.page:24
+#: C/tooling.page:45 C/unit-testing.page:23 C/version-control.page:23
+#: C/versioning.page:23
 msgid "Summary"
 msgstr "Resumen"
 
@@ -189,11 +205,11 @@ msgid ""
 "But these differences are mostly academic, and for all practical purposes, "
 "API and ABI can be treated interchangeably."
 msgstr ""
-"En un nivel superior, una API (<em>interfaz de programación de "
-"aplicaciones</em>) es el límite entre dos componentes cuando se desarrolla "
-"contra ellos. Está estrechamente relacionado con una ABI (<em>interfaz "
-"binaria de aplicación</em>) que es el límite en tiempo de ejecución. Define "
-"las posibles formas en que otros componentes pueden interactuar con un "
+"En un nivel superior, una API (<em>interfaz de programación de aplicaciones</"
+"em>) es el límite entre dos componentes cuando se desarrolla contra ellos. "
+"Está estrechamente relacionado con una ABI (<em>interfaz binaria de "
+"aplicación</em>) que es el límite en tiempo de ejecución. Define las "
+"posibles formas en que otros componentes pueden interactuar con un "
 "componente. Más concretamente, esto significa que normalmente las cabeceras "
 "C de una biblioteca forman su API, y los símbolos compilados de la "
 "biblioteca su ABI. La diferencia entre una API y ABI viene dada por la "
@@ -380,8 +396,8 @@ msgstr ""
 "versiones del proyecto; ambas versiones del paquete y de libtool. El "
 "versionado libtool existe completamente con el propósito de trazar la "
 "estabilidad de la ABI, y se explica con detalle en <link href=\"https://"
-"autotools.io/libtool/version.htm\">Autotools Mythbuster</link> o <link "
-"xref=\"versionin\"/>."
+"autotools.io/libtool/version.htm\">Autotools Mythbuster</link> o <link xref="
+"\"versionin\"/>."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:151
@@ -402,7 +418,7 @@ msgstr ""
 "eliminan funciones). El número de versión secundaria se incrementa cuando se "
 "hacen cambios incompatibles hacia delante (piro ejemplo, cuando se añade una "
 "API pública nueva). El número de la micro versión se incrementa cuando se "
-"hacen cambios en el código sin modificar la API. Consulte la <link xref="
+"hacen cambios en el código sin modificar la API. Consulte la sección <link xref="
 "\"versioning\"/> para más información."
 
 #. (itstool) path: section/p
@@ -446,8 +462,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/api-stability.page:185
+#, fuzzy
+#| msgid ""
+#| "<link href=\"http://en.wikipedia.org/wiki/"
+#| "Application_programming_interface\">Wikipedia page on APIs</link>"
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Application_programming_interface"
+"<link href=\"https://en.wikipedia.org/wiki/Application_programming_interface"
 "\">Wikipedia page on APIs</link>"
 msgstr ""
 "<link href=\"http://en.wikipedia.org/wiki/Application_programming_interface"
@@ -455,8 +475,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/api-stability.page:189
+#, fuzzy
+#| msgid ""
+#| "<link href=\"http://en.wikipedia.org/wiki/Application_binary_interface"
+#| "\">Wikipedia page on ABIs</link>"
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Application_binary_interface"
+"<link href=\"https://en.wikipedia.org/wiki/Application_binary_interface"
 "\">Wikipedia page on ABIs</link>"
 msgstr ""
 "<link href=\"http://en.wikipedia.org/wiki/Application_binary_interface"
@@ -470,6 +494,1325 @@ msgid ""
 msgstr ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-api-design.html#api-"
 "versioning\">Versionado de la documentación de la API de D-Bus</link>"
+
+#. (itstool) path: info/desc
+#: C/async-programming.page:18
+msgid "Use of GLib-style asynchronous methods in various situations"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/async-programming.page:23
+#, fuzzy
+#| msgid "Asynchronous I/O"
+msgid "Asynchronous Programming"
+msgstr "E/S asíncrona"
+
+#. (itstool) path: item/p
+#: C/async-programming.page:29
+msgid ""
+"Use asynchronous calls in preference to synchronous calls or explicit use of "
+"threads (<link xref=\"#concepts\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:33
+msgid ""
+"Learn and follow the GLib pattern for declaring asynchronous APIs (<link "
+"xref=\"#api-pattern\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:37
+msgid ""
+"Place callbacks from asynchronous functions in order down the file, so "
+"control flow is easy to follow (<link xref=\"#single-call\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:41
+msgid ""
+"Use the presence of a <link href=\"https://developer.gnome.org/gio/stable/"
+"GTask.html\"><code>GTask</code></link> or <link href=\"https://developer."
+"gnome.org/gio/stable/GCancellable.html\"><code>GCancellable</code></link> to "
+"indicate whether an operation is ongoing (<link xref=\"#single-call\"/>, "
+"<link xref=\"#gtask\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:48
+msgid ""
+"If running operations in parallel, track how many operations are yet to "
+"start, and how many are yet to finish — the overall operation is complete "
+"once both counts are zero (<link xref=\"#parallel\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:54
+msgid ""
+"Separate state for operations into ‘task data’ structures for <link href="
+"\"https://developer.gnome.org/gio/stable/GTask.html\"><code>GTask</code>s</"
+"link>, allowing operations to be reused more easily without needing changes "
+"to global state handling (<link xref=\"#gtask\"/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:60
+msgid ""
+"Consider how asynchronous methods on an object instance interact with "
+"finalization of that instance (<link xref=\"#lifetimes\"/>)"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:68
+msgid "Concepts"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:70
+msgid ""
+"GLib supports <em>asynchronous</em> programming, where long-running "
+"operations can be started, run ‘in the background’, and a callback invoked "
+"when they are finished and their results are available. This is in direct "
+"contrast to <em>synchronous</em> long-running operations, which are a single "
+"function call which blocks program control flow until complete."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:78
+msgid ""
+"As discussed in <link xref=\"main-contexts\"/> and <link xref="
+"\"threading#when-to-use-threading\"/>, asynchronous operations should be "
+"favoured over synchronous ones and over explicit use of threading. They do "
+"not block the main context like sychronous operations do; and are easier to "
+"use correctly than threads. They often also have a lower performance penalty "
+"than spawning a thread and sending work to it."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:89
+msgid "API Pattern"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:91
+msgid ""
+"Asynchronous calls follow a standard pattern in GLib code. For an operation "
+"named <code>load_data</code> on the <code>File</code> class in the "
+"<code>Foo</code> namespace, there will be:"
+msgstr ""
+
+#. (itstool) path: item/code
+#: C/async-programming.page:98
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "void\n"
+#| "some_blocking_function_async (void                 *param1,\n"
+#| "                              void                 *param2,\n"
+#| "                              GCancellable         *cancellable,\n"
+#| "                              GAsyncReadyCallback   callback,\n"
+#| "                              gpointer              user_data);\n"
+#| "int\n"
+#| "some_blocking_function_finish (GAsyncResult        *result,\n"
+#| "                               GError             **error);\n"
+msgid ""
+"\n"
+"foo_file_load_data_async (FooFile             *self,\n"
+"                          …,\n"
+"                          GCancellable        *cancellable,\n"
+"                          GAsyncReadyCallback  callback,\n"
+"                          gpointer             user_data)"
+msgstr ""
+"\n"
+"void\n"
+"some_blocking_function_async (void                 *param1,\n"
+"                              void                 *param2,\n"
+"                              GCancellable         *cancellable,\n"
+"                              GAsyncReadyCallback   callback,\n"
+"                              gpointer              user_data);\n"
+"int\n"
+"some_blocking_function_finish (GAsyncResult        *result,\n"
+"                               GError             **error);\n"
+
+#. (itstool) path: item/code
+#: C/async-programming.page:106
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "return_type          function_name           (type   argument,\n"
+#| "                                              type   argument,\n"
+#| "                                              type   argument);"
+msgid ""
+"\n"
+"foo_file_load_data_finish (FooFile       *self,\n"
+"                           GAsyncResult  *result,\n"
+"                           …,\n"
+"                           GError       **error)"
+msgstr ""
+"\n"
+"return_type          function_name           (type   argument,\n"
+"                                              type   argument,\n"
+"                                              type   argument);"
+
+#. (itstool) path: section/p
+#: C/async-programming.page:114
+msgid ""
+"The <code>…</code> parameters to <code>foo_file_load_data_async()</code> are "
+"those specific to the operation — in this case, perhaps the size of a buffer "
+"to load into. Similarly for <code>foo_file_load_data_finish()</code> they "
+"are the operation-specific return values — perhaps a location to return a "
+"content type string in this case."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:123
+msgid ""
+"When <code>foo_file_load_data_async()</code> is called, it schedules the "
+"load operation in the background (as a new file descriptor on the <link xref="
+"\"main-contexts\"><code>GMainContext</code></link> or as a worker thread, "
+"for example), then returns without blocking."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:130
+msgid ""
+"When the operation is complete, the <code>callback</code> is executed in the "
+"same <code>GMainContext</code> as the original asynchronous call. The "
+"callback is invoked <em>exactly</em> once, whether the operation succeeded "
+"or failed."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:137
+msgid ""
+"From the callback, <code>foo_file_load_data_finish()</code> may be called by "
+"the user’s code to retrieve return values and error details, passing the "
+"<link href=\"https://developer.gnome.org/gio/stable/GAsyncResult.html"
+"\"><code>GAsyncResult</code></link> instance which was passed to the "
+"callback."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:146
+msgid "Operation Lifetimes"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:148
+msgid ""
+"When writing asynchronous operations, it is common to write them as methods "
+"of a class. In this case, it is important to define how ongoing operations "
+"on a class instance interact with finalization of that instance. There are "
+"two approaches:"
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/async-programming.page:157
+msgid "Strong"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:158
+msgid ""
+"The ongoing operation keeps a reference to the class instance, forcing it to "
+"remain alive for the duration of the operation. The class should provide "
+"some kind of ‘close’ or ‘cancel’ method which can be used by other classes "
+"to force cancellation of the operation and allow that instance to be "
+"finalized."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/async-programming.page:168
+msgid "Weak"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:169
+msgid ""
+"The ongoing operation does <em>not</em> keep a reference to the class "
+"instance, and the class cancels the operation (using <link href=\"https://"
+"developer.gnome.org/gio/stable/GCancellable.html#g-cancellable-cancel"
+"\"><code>g_cancellable_cancel()</code></link>) in its dispose function."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:178
+msgid ""
+"Which approach is used depends on the class’ design. A class which wraps a "
+"particular operation (perhaps a <code>MyFileTransfer</code> class, for "
+"example) might want to use the <em style=\"strong\">weak</em> approach. A "
+"class which manages multiple network connections and asynchronous operations "
+"on them may use the <em style=\"strong\">strong</em> approach instead. Due "
+"to incoming network connections, for example, it might not be in complete "
+"control of the scheduling of its asynchronous calls, so the weak approach "
+"would not be appropriate — any code dropping a reference to the object could "
+"not be sure it was not accidentally killing a new network connection."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:193
+msgid "Examples of Using Asynchronous Functions"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:195
+msgid ""
+"It is often the case that multiple asynchronous calls need to be used to "
+"complete an operation. For example, opening a file for reading, then "
+"performing a couple of reads, and then closing the file. Or opening several "
+"network sockets in parallel and waiting until they are all open before "
+"continuing with other work. Some examples of these situations are given "
+"below."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:205
+msgid "Single Operation"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:207
+msgid ""
+"A single asynchronous call requires two functions: one to start the "
+"operation, and one to complete it. In C, the demanding part of performing an "
+"asynchronous call is correctly storing state between these two functions, "
+"and handling changes to that state in the time between those two functions "
+"being called. For example, cancellation of an ongoing asynchronous call is a "
+"state change, and if not implemented carefully, any UI updates (for example) "
+"made when cancelling an operation will be undone by updates in the "
+"operation’s callback."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:219
+msgid ""
+"This example demonstrates copying a file from one location in the file "
+"system to another. The key principles demonstrated here are:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:224
+msgid ""
+"Placing the <code>copy_button_clicked_cb()</code> (start) and "
+"<code>copy_finish_cb()</code> (finish) functions in order by using a forward "
+"declaration for <code>copy_finish_cb()</code>. This means the control flow "
+"continues linearly down the file, rather than getting to the bottom of "
+"<code>copy_button_clicked_cb()</code> and resuming in "
+"<code>copy_finish_cb()</code> somewhere else in the file."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:233
+msgid ""
+"Use of a <link href=\"https://developer.gnome.org/gio/stable/GCancellable."
+"html\"><code>GCancellable</code></link> to allow cancelling the operation "
+"after it has started. The code in <code>cancel_button_clicked_cb()</code> is "
+"very simple: as the <code>copy_finish_cb()</code> callback is "
+"<em>guaranteed</em> to be invoked when the operation completes (even when "
+"completing early due to cancellation), all the UI and state updates for "
+"cancellation can be handled there, rather than in "
+"<code>cancel_button_clicked_cb()</code>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:245
+msgid ""
+"An operation is ongoing exactly while <code>MyObjectPrivate."
+"copy_cancellable</code> is non-<code>NULL</code>, making it easy to track "
+"running operations. Note that this means only one file copy operation can be "
+"started via <code>copy_button_clicked_cb()</code> at a time. One "
+"<code>GCancellable</code> cannot easily be used for multiple operations like "
+"this."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:256
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"copy_finish_cb (GObject      *source_object,\n"
+"                GAsyncResult *result,\n"
+"                gpointer      user_data);\n"
+"\n"
+"static void\n"
+"copy_button_clicked_cb (GtkButton *button\n"
+"                        gpointer   user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *source = NULL, *destination = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (user_data));\n"
+"\n"
+"  /* Operation already in progress? */\n"
+"  if (priv-&gt;copy_cancellable != NULL)\n"
+"    {\n"
+"      g_debug (\"Copy already in progress.\");\n"
+"      return;\n"
+"    }\n"
+"\n"
+"  /* Build source and destination file paths. */\n"
+"  source = g_file_new_for_path (/* some path generated from UI */);\n"
+"  destination = g_file_new_for_path (/* some other path generated from UI */);\n"
+"\n"
+"  /* Set up a cancellable. */\n"
+"  priv-&gt;copy_cancellable = g_cancellable_new ();\n"
+"\n"
+"  g_file_copy_async (source, destination, G_FILE_COPY_NONE, G_PRIORITY_DEFAULT,\n"
+"                     priv-&gt;copy_cancellable, NULL, NULL,\n"
+"                     copy_finish_cb, user_data);\n"
+"\n"
+"  g_object_unref (destination);\n"
+"  g_object_unref (source);\n"
+"\n"
+"  /* Update UI to show copy is in progress. */\n"
+"  …\n"
+"}\n"
+"\n"
+"static void\n"
+"copy_finish_cb (GObject      *source_object,\n"
+"                GAsyncResult *result,\n"
+"                gpointer      user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *source;  /* unowned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  source = G_FILE (source_object);\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (user_data));\n"
+"\n"
+"  /* Handle completion of the operation. */\n"
+"  g_file_copy_finish (source, result, &amp;error);\n"
+"\n"
+"  if (error != NULL &amp;&amp;\n"
+"      !g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"    {\n"
+"      /* Should update the UI to signal failure.\n"
+"       * Ignore failure due to cancellation. */\n"
+"      g_warning (\"Failed to copy file: %s\", error-&gt;message);\n"
+"    }\n"
+"\n"
+"  g_clear_error (&amp;error);\n"
+"\n"
+"  /* Clear the cancellable to signify the operation has finished. */\n"
+"  g_clear_object (&amp;priv-&gt;copy_cancellable);\n"
+"\n"
+"  /* Update UI to show copy as complete. */\n"
+"  …\n"
+"}\n"
+"\n"
+"static void\n"
+"cancel_button_clicked_cb (GtkButton *button,\n"
+"                          gpointer   user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *source = NULL, *destination = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (user_data));\n"
+"\n"
+"  /* Operation in progress? No-op if @copy_cancellable is %NULL. */\n"
+"  g_cancellable_cancel (priv-&gt;copy_cancellable);\n"
+"}\n"
+"\n"
+"static void\n"
+"my_object_dispose (GObject *obj)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (obj));\n"
+"\n"
+"  /* Cancel any ongoing copy operation.\n"
+"   *\n"
+"   * This ensures that if #MyObject is disposed part-way through a copy, the\n"
+"   * callback doesn’t get invoked with an invalid #MyObject pointer. */\n"
+"  g_cancellable_cancel (priv-&gt;copy_cancellable);\n"
+"\n"
+"  /* Do other dispose calls here. */\n"
+"  …\n"
+"\n"
+"  /* Chain up. */\n"
+"  G_OBJECT_CLASS (my_object_parent_class)-&gt;dispose (obj);\n"
+"}"
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:361
+msgid ""
+"For comparison, here is the same code implemented using the <em>synchronous</"
+"em> version of <link href=\"https://developer.gnome.org/gio/stable/GFile."
+"html#g-file-copy\"><code>g_file_copy()</code></link>. Note how the order of "
+"statements is almost identical. Cancellation cannot be supported here, as "
+"the UI is blocked from receiving ‘click’ events on the cancellation button "
+"while the copy is ongoing, so <code>NULL</code> is passed to the "
+"<code>GCancellable</code> parameter. This is the main reason why this code "
+"should <em>not</em> be used in practice."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:373
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"copy_button_clicked_cb (GtkButton *button\n"
+"                        gpointer   user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *source = NULL, *destination = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (user_data));\n"
+"\n"
+"  /* Build source and destination file paths. */\n"
+"  source = g_file_new_for_path (/* some path generated from UI */);\n"
+"  destination = g_file_new_for_path (/* some other path generated from UI */);\n"
+"\n"
+"  g_file_copy (source, destination, G_FILE_COPY_NONE,\n"
+"               NULL  /* cancellable */, NULL, NULL,\n"
+"               &amp;error);\n"
+"\n"
+"  g_object_unref (destination);\n"
+"  g_object_unref (source);\n"
+"\n"
+"  /* Handle completion of the operation. */\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Should update the UI to signal failure.\n"
+"       * Ignore failure due to cancellation. */\n"
+"      g_warning (\"Failed to copy file: %s\", error-&gt;message);\n"
+"    }\n"
+"\n"
+"  g_clear_error (&amp;error);\n"
+"\n"
+"  /* Update UI to show copy as complete. */\n"
+"  …\n"
+"}"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:411
+msgid "Operations in Series"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:413
+msgid ""
+"A common situation is to run multiple asynchronous operations in series, "
+"when each operation depends on the previous one completing."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:419
+msgid ""
+"In this example, the application reads a socket address from a file, opens a "
+"connection to that address, reads a message, and then finishes."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:425 C/async-programming.page:710
+#: C/async-programming.page:880
+msgid "Key points in this example are:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:429
+msgid ""
+"Each callback is numbered consistently, and they are all placed in order in "
+"the file so the code follows sequentially."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:433
+msgid ""
+"As in <link xref=\"#single-call\"/>, a single <code>GCancellable</code> "
+"indicates that the series of operations is ongoing. Cancelling it aborts the "
+"entire sequence."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:438
+msgid ""
+"As in <link xref=\"#single-call\"/>, the pending operation is cancelled if "
+"the owning <code>MyObject</code> instance is disposed, to prevent callbacks "
+"being called later with an invalid <code>MyObject</code> pointer."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:446
+msgid ""
+"<link xref=\"#gtask\"/> gives a version of this example wrapped in a <link "
+"href=\"https://developer.gnome.org/gio/stable/GTask.html\"><code>GTask</"
+"code></link> for convenience."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:452
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"connect_to_server_cb1 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"static void\n"
+"connect_to_server_cb2 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"static void\n"
+"connect_to_server_cb3 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"\n"
+"static void\n"
+"connect_to_server (MyObject *self)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *address_file = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  if (priv-&gt;connect_cancellable != NULL)\n"
+"    {\n"
+"      /* Already connecting. */\n"
+"      return;\n"
+"    }\n"
+"\n"
+"  /* Set up a cancellable. */\n"
+"  priv-&gt;connect_cancellable = g_cancellable_new ();\n"
+"\n"
+"  /* Read the socket address. */\n"
+"  address_file = build_address_file ();\n"
+"  g_file_load_contents_async (address_file, priv-&gt;connect_cancellable,\n"
+"                              connect_to_server_cb1, self);\n"
+"  g_object_unref (address_file);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb1 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *address_file;  /* unowned */\n"
+"  gchar *address = NULL;  /* owned */\n"
+"  gsize address_size = 0;\n"
+"  GInetAddress *inet_address = NULL;  /* owned */\n"
+"  GInetSocketAddress *inet_socket_address = NULL;  /* owned */\n"
+"  guint16 port = 123;\n"
+"  GSocketClient *socket_client = NULL;  /* owned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  address_file = G_FILE (source_object);\n"
+"  self = MY_OBJECT (user_data);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish loading the address. */\n"
+"  g_file_load_contents_finish (address_file, result, &amp;address,\n"
+"                               &amp;address_size, NULL, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Parse the address. */\n"
+"  inet_address = g_inet_address_new_from_string (address);\n"
+"\n"
+"  if (inet_address == NULL)\n"
+"    {\n"
+"      /* Error. */\n"
+"      g_set_error (&amp;error, G_IO_ERROR, G_IO_ERROR_INVALID_ARGUMENT,\n"
+"                   \"Invalid address ‘%s’.\", address);\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  inet_socket_address = g_inet_socket_address_new (inet_address, port);\n"
+"\n"
+"  /* Connect to the given address. */\n"
+"  socket_client = g_socket_client_new ();\n"
+"\n"
+"  g_socket_client_connect_async (socket_client,\n"
+"                                 G_SOCKET_CONNECTABLE (inet_socket_address),\n"
+"                                 priv-&gt;connect_cancellable,\n"
+"                                 connect_to_server_cb2,\n"
+"                                 self);\n"
+"\n"
+"done:\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation. */\n"
+"      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"        {\n"
+"          g_warning (\"Failed to load server address: %s\", error-&gt;message);\n"
+"        }\n"
+"\n"
+"      g_clear_object (&amp;priv-&gt;connect_cancellable);\n"
+"      g_error_free (error);\n"
+"    }\n"
+"\n"
+"  g_free (address);\n"
+"  g_clear_object (&amp;inet_address);\n"
+"  g_clear_object (&amp;inet_socket_address);\n"
+"  g_clear_object (&amp;socket_client);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb2 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GSocketClient *socket_client;  /* unowned */\n"
+"  GSocketConnection *connection = NULL;  /* owned */\n"
+"  GInputStream *input_stream;  /* unowned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  socket_client = G_SOCKET_CLIENT (source_object);\n"
+"  self = MY_OBJECT (user_data);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish connecting to the socket. */\n"
+"  connection = g_socket_client_connect_finish (socket_client, result,\n"
+"                                               &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Store a reference to the connection so it is kept open while we read from\n"
+"   * it: #GInputStream does not keep a reference to a #GIOStream which contains\n"
+"   * it. */\n"
+"  priv-&gt;connection = g_object_ref (connection);\n"
+"\n"
+"  /* Read a message from the connection. This uses a single buffer stored in\n"
+"   * #MyObject, meaning that only one connect_to_server() operation can run at\n"
+"   * any time. The buffer could instead be allocated dynamically if this is a\n"
+"   * problem. */\n"
+"  input_stream = g_io_stream_get_input_stream (G_IO_STREAM (connection));\n"
+"\n"
+"  g_input_stream_read_async (input_stream,\n"
+"                             priv-&gt;message_buffer,\n"
+"                             sizeof (priv-&gt;message_buffer),\n"
+"                             G_PRIORITY_DEFAULT, priv-&gt;connect_cancellable,\n"
+"                             connect_to_server_cb3, self);\n"
+"\n"
+"done:\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation. */\n"
+"      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"        {\n"
+"          g_warning (\"Failed to connect to server: %s\", error-&gt;message);\n"
+"        }\n"
+"\n"
+"      g_clear_object (&amp;priv-&gt;connect_cancellable);\n"
+"      g_clear_object (&amp;priv-&gt;connection);\n"
+"      g_error_free (error);\n"
+"    }\n"
+"\n"
+"  g_clear_object (&amp;connection);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb3 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GInputStream *input_stream;  /* unowned */\n"
+"  gssize len = 0;\n"
+"  GError *error = NULL;\n"
+"\n"
+"  input_stream = G_INPUT_STREAM (source_object);\n"
+"  self = MY_OBJECT (user_data);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish reading from the socket. */\n"
+"  len = g_input_stream_read_finish (input_stream, result, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Handle the message. */\n"
+"  g_assert_cmpint (len, &gt;=, 0);\n"
+"  g_assert_cmpuint ((gsize) len, &lt;=, sizeof (priv-&gt;message_buffer));\n"
+"\n"
+"  handle_received_message (self, priv-&gt;message_buffer, len, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"done:\n"
+"  /* Unconditionally mark the operation as finished.\n"
+"   *\n"
+"   * The streams should automatically close as this\n"
+"   * last reference is dropped. */\n"
+"  g_clear_object (&amp;priv-&gt;connect_cancellable);\n"
+"  g_clear_object (&amp;priv-&gt;connection);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Warn about the error. */\n"
+"      if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"        {\n"
+"          g_warning (\"Failed to read from the server: %s\", error-&gt;message);\n"
+"        }\n"
+"\n"
+"      g_error_free (error);\n"
+"    }\n"
+"}\n"
+"\n"
+"static void\n"
+"my_object_dispose (GObject *obj)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (obj));\n"
+"\n"
+"  /* Cancel any ongoing connection operations.\n"
+"   *\n"
+"   * This ensures that if #MyObject is disposed part-way through the\n"
+"   * connect_to_server() sequence of operations, the sequence gets cancelled and\n"
+"   * doesn’t continue with an invalid #MyObject pointer. */\n"
+"  g_cancellable_cancel (priv-&gt;connect_cancellable);\n"
+"\n"
+"  /* Do other dispose calls here. */\n"
+"  …\n"
+"\n"
+"  /* Chain up. */\n"
+"  G_OBJECT_CLASS (my_object_parent_class)-&gt;dispose (obj);\n"
+"}"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:697
+msgid "Operations in Parallel"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:699
+msgid ""
+"Another common situation is to run multiple asynchronous operations in "
+"parallel, considering the overall operation complete when all its "
+"constituents are complete."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:706
+msgid "In this example, the application deletes multiple files in parallel."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:714
+msgid ""
+"The number of pending asynchronous operations (ones which have started but "
+"not yet finished) is tracked as <code>n_deletions_pending</code>. The "
+"<code>delete_files_cb()</code> callback only considers the entire operation "
+"complete once this reaches zero."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:721
+msgid ""
+"<code>n_deletions_to_start</code> tracks deletion operations being started, "
+"in case <link href=\"https://developer.gnome.org/gio/stable/GFile.html#g-"
+"file-delete-async\"><code>g_file_delete_async()</code></link> manages to use "
+"a fast path and complete synchronously (without blocking)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:728
+msgid ""
+"As in <link xref=\"#single-call\"/>, all pending deletions are cancelled if "
+"the owning <code>MyObject</code> instance is disposed, to prevent callbacks "
+"being called later with an invalid <code>MyObject</code> pointer."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:736
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"delete_files_cb (GObject      *source_object,\n"
+"                 GAsyncResult *result,\n"
+"                 gpointer      user_data);\n"
+"\n"
+"static void\n"
+"delete_files (MyObject *self,\n"
+"              GPtrArray/*&lt;owned GFile*&gt;&gt;*/ *files)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *address_file = NULL;  /* owned */\n"
+"\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Set up a cancellable if no operation is ongoing already. */\n"
+"  if (priv-&gt;delete_cancellable == NULL)\n"
+"    {\n"
+"      priv-&gt;delete_cancellable = g_cancellable_new ();\n"
+"      priv-&gt;n_deletions_pending = 0;\n"
+"      priv-&gt;n_deletions_total = 0;\n"
+"    }\n"
+"\n"
+"  /* Update internal state, and temporarily set @n_deletions_to_start. This is\n"
+"   * used in delete_files_cb() to avoid indicating the overall operation has\n"
+"   * completed while deletions are still being started. This can happen if\n"
+"   * g_file_delete_async() completes synchronously, for example if there’s a\n"
+"   * non-blocking fast path for the given file system. */\n"
+"  priv-&gt;n_deletions_pending += files-&gt;len;\n"
+"  priv-&gt;n_deletions_total += files-&gt;len;\n"
+"  priv-&gt;n_deletions_to_start = files-&gt;len;\n"
+"\n"
+"  /* Update the UI to indicate the files are being deleted. */\n"
+"  update_ui_to_show_progress (self,\n"
+"                              priv-&gt;n_deletions_pending,\n"
+"                              priv-&gt;n_deletions_total);\n"
+"\n"
+"  /* Start all the deletion operations in parallel. They share the same\n"
+"   * #GCancellable. */\n"
+"  for (i = 0; i &lt; files-&gt;len; i++)\n"
+"    {\n"
+"      GFile *file = files-&gt;pdata[i];\n"
+"\n"
+"      priv-&gt;n_deletions_to_start--;\n"
+"      g_file_delete_async (file, G_PRIORITY_DEFAULT, priv-&gt;delete_cancellable,\n"
+"                           delete_files_cb, self);\n"
+"    }\n"
+"}\n"
+"\n"
+"static void\n"
+"delete_files_cb (GObject      *source_object,\n"
+"                 GAsyncResult *result,\n"
+"                 gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GFile *file;  /* unowned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  file = G_FILE (source_object);\n"
+"  self = MY_OBJECT (user_data);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish deleting the file. */\n"
+"  g_file_delete_finish (file, result, &amp;error);\n"
+"\n"
+"  if (error != NULL &amp;&amp;\n"
+"      !g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))\n"
+"    {\n"
+"      g_warning (\"Error deleting file: %s\", error-&gt;message);\n"
+"    }\n"
+"\n"
+"  g_clear_error (&amp;error);\n"
+"\n"
+"  /* Update the internal state. */\n"
+"  g_assert_cmpuint (priv-&gt;n_deletions_pending, &gt;, 0);\n"
+"  priv-&gt;n_deletions_pending--;\n"
+"\n"
+"  /* Update the UI to show progress. */\n"
+"  update_ui_to_show_progress (self,\n"
+"                              priv-&gt;n_deletions_pending,\n"
+"                              priv-&gt;n_deletions_total);\n"
+"\n"
+"  /* If all deletions have completed, and no more are being started,\n"
+"   * update the UI to show completion. */\n"
+"  if (priv-&gt;n_deletions_pending == 0 &amp;&amp; priv-&gt;n_deletions_to_start == 0)\n"
+"    {\n"
+"      update_ui_to_show_completion (self);\n"
+"\n"
+"      /* Clear the operation state. */\n"
+"      g_clear_object (&amp;priv-&gt;delete_cancellable);\n"
+"      priv-&gt;n_deletions_total = 0;\n"
+"    }\n"
+"}\n"
+"\n"
+"static void\n"
+"my_object_dispose (GObject *obj)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"\n"
+"  priv = my_object_get_instance_private (MY_OBJECT (obj));\n"
+"\n"
+"  /* Cancel any ongoing deletion operations.\n"
+"   *\n"
+"   * This ensures that if #MyObject is disposed part-way through the\n"
+"   * delete_files() set of operations, the set gets cancelled and\n"
+"   * doesn’t continue with an invalid #MyObject pointer. */\n"
+"  g_cancellable_cancel (priv-&gt;delete_cancellable);\n"
+"\n"
+"  /* Do other dispose calls here. */\n"
+"  …\n"
+"\n"
+"  /* Chain up. */\n"
+"  G_OBJECT_CLASS (my_object_parent_class)-&gt;dispose (obj);\n"
+"}"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/async-programming.page:855
+#, fuzzy
+#| msgid "<code>GTask</code>"
+msgid "Wrapping with <code>GTask</code>"
+msgstr "<code>GTask</code>"
+
+#. (itstool) path: section/p
+#: C/async-programming.page:857
+msgid ""
+"Often when an asynchronous operation (or set of operations) becomes more "
+"complex, it needs associated state. This is typically stored in a custom "
+"structure — but defining a new structure to store the standard callback, "
+"user data and cancellable tuple is laborious. <link href=\"https://developer."
+"gnome.org/gio/stable/GTask.html\"><code>GTask</code></link> eases this by "
+"providing a standardized way to wrap all three, plus extra custom ‘task "
+"data’."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/async-programming.page:867
+msgid ""
+"The use of a <code>GTask</code> can replace the use of a <link href="
+"\"https://developer.gnome.org/gio/stable/GCancellable.html"
+"\"><code>GCancellable</code></link> for indicating whether an operation is "
+"ongoing."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/async-programming.page:874
+msgid ""
+"This example is functionally the same as <link xref=\"#series\"/>, but "
+"refactored to use a <code>GTask</code> to wrap the sequence of operations."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:884
+msgid ""
+"State which was in <code>MyObjectPrivate</code> in <link xref=\"#series\"/> "
+"is now in the <code>ConnectToServerData</code> closure, which is set as the "
+"‘task data’ of the <code>GTask</code> representing the overall operation. "
+"This means it’s automatically freed after the operation returns."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:891
+msgid ""
+"Furthermore, this means that manipulations of <code>MyObjectPrivate</code> "
+"state are limited to the start and end of the sequence of operations, so "
+"reusing the task in different situations becomes easier — for example, it is "
+"now a lot easier to support running multiple such tasks in parallel."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/async-programming.page:898
+msgid ""
+"As the <code>GTask</code> holds a reference to <code>MyObject</code>, it is "
+"impossible for the object to be disposed while the sequence of operations is "
+"ongoing, so the <code>my_object_dispose()</code> code has been removed. "
+"Instead, a <code>my_object_close()</code> method exists to allow any pending "
+"operations can be cancelled so <code>MyObject</code> can be disposed when "
+"desired."
+msgstr ""
+
+#. (itstool) path: example/code
+#: C/async-programming.page:909
+#, no-wrap
+msgid ""
+"\n"
+"static void\n"
+"connect_to_server_cb1 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"static void\n"
+"connect_to_server_cb2 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"static void\n"
+"connect_to_server_cb3 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data);\n"
+"\n"
+"typedef struct {\n"
+"  GSocketConnection *connection;  /* nullable; owned */\n"
+"  guint8 message_buffer[128];\n"
+"} ConnectToServerData;\n"
+"\n"
+"static void\n"
+"connect_to_server_data_free (ConnectToServerData *data)\n"
+"{\n"
+"  g_clear_object (&amp;data-&gt;connection);\n"
+"}\n"
+"\n"
+"void\n"
+"my_object_connect_to_server_async (MyObject            *self,\n"
+"                                   GCancellable        *cancellable,\n"
+"                                   GAsyncReadyCallback  callback,\n"
+"                                   gpointer             user_data)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  ConnectToServerData *data = NULL;  /* owned */\n"
+"  GFile *address_file = NULL;  /* owned */\n"
+"\n"
+"  g_return_if_fail (MY_IS_OBJECT (self));\n"
+"  g_return_if_fail (cancellable == NULL || G_IS_CANCELLABLE (cancellable));\n"
+"\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  if (priv-&gt;connect_task != NULL)\n"
+"    {\n"
+"      g_task_report_new_error (self, callback, user_data, NULL,\n"
+"                               G_IO_ERROR, G_IO_ERROR_PENDING,\n"
+"                               \"Already connecting to the server.\");\n"
+"      return;\n"
+"    }\n"
+"\n"
+"  /* Set up a cancellable. */\n"
+"  if (cancellable != NULL)\n"
+"    {\n"
+"      g_object_ref (cancellable);\n"
+"    }\n"
+"  else\n"
+"    {\n"
+"      cancellable = g_cancellable_new ();\n"
+"    }\n"
+"\n"
+"  /* Set up the task. */\n"
+"  task = g_task_new (self, cancellable, callback, user_data);\n"
+"  g_task_set_check_cancellable (task, FALSE);\n"
+"\n"
+"  data = g_malloc0 (sizeof (ConnectToServerData));\n"
+"  g_task_set_task_data (task, data,\n"
+"                        (GDestroyNotify) connect_to_server_data_free);\n"
+"\n"
+"  g_object_unref (cancellable);\n"
+"\n"
+"  priv-&gt;connect_task = g_object_ref (task);\n"
+"\n"
+"  /* Read the socket address. */\n"
+"  address_file = build_address_file ();\n"
+"  g_file_load_contents_async (address_file, g_task_get_cancellable (task),\n"
+"                              connect_to_server_cb1, g_object_ref (task));\n"
+"  g_object_unref (address_file);\n"
+"\n"
+"  g_clear_object (&amp;task);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb1 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  GFile *address_file;  /* unowned */\n"
+"  gchar *address = NULL;  /* owned */\n"
+"  gsize address_size = 0;\n"
+"  GInetAddress *inet_address = NULL;  /* owned */\n"
+"  GInetSocketAddress *inet_socket_address = NULL;  /* owned */\n"
+"  guint16 port = 123;\n"
+"  GSocketClient *socket_client = NULL;  /* owned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  address_file = G_FILE (source_object);\n"
+"  task = G_TASK (user_data);\n"
+"  self = g_task_get_source_object (task);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish loading the address. */\n"
+"  g_file_load_contents_finish (address_file, result, &amp;address,\n"
+"                               &amp;address_size, NULL, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Parse the address. */\n"
+"  inet_address = g_inet_address_new_from_string (address);\n"
+"\n"
+"  if (inet_address == NULL)\n"
+"    {\n"
+"      /* Error. */\n"
+"      g_set_error (&amp;error, G_IO_ERROR, G_IO_ERROR_INVALID_ARGUMENT,\n"
+"                   \"Invalid address ‘%s’.\", address);\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  inet_socket_address = g_inet_socket_address_new (inet_address, port);\n"
+"\n"
+"  /* Connect to the given address. */\n"
+"  socket_client = g_socket_client_new ();\n"
+"\n"
+"  g_socket_client_connect_async (socket_client,\n"
+"                                 G_SOCKET_CONNECTABLE (inet_socket_address),\n"
+"                                 g_task_get_cancellable (task),\n"
+"                                 connect_to_server_cb2,\n"
+"                                 g_object_ref (task));\n"
+"\n"
+"done:\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation and propagate the error. */\n"
+"      g_clear_object (&amp;priv-&gt;connect_task);\n"
+"      g_task_return_error (task, error);\n"
+"    }\n"
+"\n"
+"  g_free (address);\n"
+"  g_clear_object (&amp;inet_address);\n"
+"  g_clear_object (&amp;inet_socket_address);\n"
+"  g_clear_object (&amp;socket_client);\n"
+"  g_clear_object (&amp;task);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb2 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  ConnectToServerData *data;  /* unowned */\n"
+"  GSocketClient *socket_client;  /* unowned */\n"
+"  GSocketConnection *connection = NULL;  /* owned */\n"
+"  GInputStream *input_stream;  /* unowned */\n"
+"  GError *error = NULL;\n"
+"\n"
+"  socket_client = G_SOCKET_CLIENT (source_object);\n"
+"  task = G_TASK (user_data);\n"
+"  data = g_task_get_task_data (task);\n"
+"  self = g_task_get_source_object (task);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish connecting to the socket. */\n"
+"  connection = g_socket_client_connect_finish (socket_client, result,\n"
+"                                               &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Store a reference to the connection so it is kept open while we read from\n"
+"   * it: #GInputStream does not keep a reference to a #GIOStream which contains\n"
+"   * it. */\n"
+"  data-&gt;connection = g_object_ref (connection);\n"
+"\n"
+"  /* Read a message from the connection. As the buffer is allocated as part of\n"
+"   * the per-task @data, multiple tasks can run concurrently. */\n"
+"  input_stream = g_io_stream_get_input_stream (G_IO_STREAM (connection));\n"
+"\n"
+"  g_input_stream_read_async (input_stream,\n"
+"                             data-&gt;message_buffer,\n"
+"                             sizeof (data-&gt;message_buffer),\n"
+"                             G_PRIORITY_DEFAULT, g_task_get_cancellable (task),\n"
+"                             connect_to_server_cb3, g_object_ref (task));\n"
+"\n"
+"done:\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation and propagate the error. */\n"
+"      g_clear_object (&amp;priv-&gt;connect_task);\n"
+"      g_task_return_error (task, error);\n"
+"    }\n"
+"\n"
+"  g_clear_object (&amp;connection);\n"
+"  g_clear_object (&amp;task);\n"
+"}\n"
+"\n"
+"static void\n"
+"connect_to_server_cb3 (GObject      *source_object,\n"
+"                       GAsyncResult *result,\n"
+"                       gpointer      user_data)\n"
+"{\n"
+"  MyObject *self;\n"
+"  MyObjectPrivate *priv;\n"
+"  GTask *task = NULL;  /* owned */\n"
+"  ConnectToServerData *data;  /* unowned */\n"
+"  GInputStream *input_stream;  /* unowned */\n"
+"  gssize len = 0;\n"
+"  GError *error = NULL;\n"
+"\n"
+"  input_stream = G_INPUT_STREAM (source_object);\n"
+"  task = G_TASK (user_data);\n"
+"  data = g_task_get_task_data (task);\n"
+"  self = g_task_get_source_object (task);\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  /* Finish reading from the socket. */\n"
+"  len = g_input_stream_read_finish (input_stream, result, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Handle the message. */\n"
+"  g_assert_cmpint (len, &gt;=, 0);\n"
+"  g_assert_cmpuint ((gsize) len, &lt;=, sizeof (data-&gt;message_buffer));\n"
+"\n"
+"  handle_received_message (self, data-&gt;message_buffer, len, &amp;error);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      goto done;\n"
+"    }\n"
+"\n"
+"  /* Success! */\n"
+"  g_task_return_boolean (task, TRUE);\n"
+"\n"
+"done:\n"
+"  /* Unconditionally mark the operation as finished.\n"
+"   *\n"
+"   * The streams should automatically close as this\n"
+"   * last reference is dropped. */\n"
+"  g_clear_object (&amp;priv-&gt;connect_task);\n"
+"\n"
+"  if (error != NULL)\n"
+"    {\n"
+"      /* Stop the operation and propagate the error. */\n"
+"      g_task_return_error (task, error);\n"
+"    }\n"
+"\n"
+"  g_clear_object (&amp;task);\n"
+"}\n"
+"\n"
+"void\n"
+"my_object_connect_to_server_finish (MyObject      *self,\n"
+"                                    GAsyncResult  *result,\n"
+"                                    GError       **error)\n"
+"{\n"
+"  g_return_if_fail (MY_IS_OBJECT (self));\n"
+"  g_return_if_fail (g_task_is_valid (result, self));\n"
+"  g_return_if_fail (error == NULL || *error == NULL);\n"
+"\n"
+"  g_task_propagate_boolean (G_TASK (result), error);\n"
+"}\n"
+"\n"
+"void\n"
+"my_object_close (MyObject *self)\n"
+"{\n"
+"  MyObjectPrivate *priv;\n"
+"\n"
+"  g_return_if_fail (MY_IS_OBJECT (self));\n"
+"\n"
+"  priv = my_object_get_instance_private (self);\n"
+"\n"
+"  if (priv-&gt;connect_task != NULL)\n"
+"    {\n"
+"      GCancellable *cancellable = g_task_get_cancellable (priv-&gt;connect_task);\n"
+"      g_cancellable_cancel (cancellable);\n"
+"    }\n"
+"}"
+msgstr ""
 
 #. (itstool) path: credit/name
 #: C/c-coding-style.page:15 C/documentation.page:21
@@ -2208,7 +3551,7 @@ msgstr ""
 #: C/c-coding-style.page:944
 msgid "See <link xref=\"memory-management\"/> for more details."
 msgstr ""
-"Consulte la <link xref=\"memory-management\"/> para obtener más detalles."
+"Consulte la sección <link xref=\"memory-management\"/> para obtener más detalles."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:950
@@ -2269,6 +3612,24 @@ msgstr "Las funciones con un guión bajo al principio nunca se exportan."
 msgid ""
 "Non-exported functions that are only needed in one source file should be "
 "declared static."
+msgstr ""
+
+#. (itstool) path: p/link
+#: C/cc-by-sa-3-0.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/cc-by-sa-3-0.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/cc-by-sa-3-0.xml:6
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -2356,13 +3717,23 @@ msgid ""
 "please consider it before choosing to use GOM."
 msgstr ""
 
+#. (itstool) path: section/p
+#: C/databases.page:86
+msgid ""
+"GNOME has another database library: GNOME Data Access (GDA). This is "
+"targeted at abstracting access to various types of relational database, for "
+"use in a database utility program or office program, for example. It is not "
+"suitable for storing <link href=\"https://developer.gnome.org/gio/stable/"
+"GSettings.html\">user settings</link>."
+msgstr ""
+
 #. (itstool) path: section/title
-#: C/databases.page:88
+#: C/databases.page:97
 msgid "Using GOM"
 msgstr "Usar GOM"
 
 #. (itstool) path: section/p
-#: C/databases.page:90
+#: C/databases.page:99
 msgid ""
 "Providing a GOM tutorial is beyond the scope of this document, but a <link "
 "href=\"https://developer.gnome.org/gom/\">reference manual is available</"
@@ -2370,40 +3741,41 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/databases.page:104
+#: C/databases.page:113
 msgid "SQL Injection"
 msgstr "Inyección SQL"
 
 #. (itstool) path: section/p
-#: C/databases.page:106
+#: C/databases.page:115
 msgid ""
 "GOM does allow access to the lower level SQLite query APIs. When using them, "
 "queries <em style=\"strong\">must</em> be constructed using SQLite’s <link "
 "href=\"https://www.sqlite.org/c3ref/stmt.html\">prepared statement</link> "
 "and <link href=\"https://www.sqlite.org/c3ref/bind_blob.html\">value "
 "binding</link> API, rather than by constructing SQL strings then passing "
-"them to SQLite to parse. Constructing strings makes <link href=\"http://en."
+"them to SQLite to parse. Constructing strings makes <link href=\"https://en."
 "wikipedia.org/wiki/SQL_injection\">SQL injection</link> vulnerabilities very "
 "likely, which can give attackers access to arbitrary user data from the "
 "database."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/databases.page:122
+#: C/databases.page:131
 msgid "Using GVDB"
 msgstr "Usar GVDB"
 
 #. (itstool) path: section/p
-#: C/databases.page:124
+#: C/databases.page:133
 msgid ""
 "GVDB has a simple API which mirrors a conventional hash table. Presently, "
 "GVDB is only available as a copy-and-paste library; fetch the most recent "
-"copy of the code from <link href=\"https://git.gnome.org/browse/gvdb\">GVDB "
-"git</link> and copy it into your project. It is licenced under LGPLv2.1+."
+"copy of the code from <link href=\"https://gitlab.gnome.org/GNOME/gvdb"
+"\">GVDB git</link> and copy it into your project. It is licensed under "
+"LGPLv2.1+."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/databases.page:132
+#: C/databases.page:141
 msgid "A full GVDB tutorial is beyond the scope of this document."
 msgstr "Un manual completo de GVDB está fuera del alcance de este documento."
 
@@ -2425,7 +3797,7 @@ msgid ""
 "\"#gtk-doc\"/>)"
 msgstr ""
 "Use gtk-doc con una configuración actualizada para la documentación de la "
-"API. (Consulte la <link xref=\"#gtk-doc\"/>)"
+"API. (Consulte la sección <link xref=\"#gtk-doc\"/>)"
 
 #. (itstool) path: item/p
 #: C/documentation.page:39
@@ -2448,7 +3820,7 @@ msgid ""
 "in the gtk-doc build. (<link xref=\"#dbus-api\"/>)"
 msgstr ""
 "Use <cmd>gdbus-codegen</cmd> para generar la documentación de la API de D-"
-"Bus que incluir en la construcción de gtk-doc. (Consulte la <link xref="
+"Bus que incluir en la construcción de gtk-doc. (Consulte la sección <link xref="
 "\"#dbus-api\"/>)"
 
 #. (itstool) path: item/p
@@ -2458,7 +3830,7 @@ msgid ""
 "\"#introspection-annotations\"/>)"
 msgstr ""
 "Añada anotaciones de instrospección a toda la documentación de la API. "
-"(Consulte la <link xref=\"#introspection-annotations\"/>)"
+"(Consulte la sección <link xref=\"#introspection-annotations\"/>)"
 
 #. (itstool) path: item/p
 #: C/documentation.page:55
@@ -2953,8 +4325,7 @@ msgstr "Mantener la documentación actualizada"
 msgid ""
 "gtk-doc comes with support for checking the documentation with some basic "
 "tests. These check that all version indexes are included in the main <file>*-"
-"docs.xml</file> file and that all symbols are documented, amongst other "
-"things."
+"docs.xml</file> file and that all symbols are documented, among other things."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -3001,7 +4372,7 @@ msgstr ""
 msgid ""
 "Use asynchronous I/O for file access. (<link xref=\"#asynchronous-io\"/>)"
 msgstr ""
-"Use E/S asíncrona para acceder a archivos. (Consulte la <link xref="
+"Use E/S asíncrona para acceder a archivos. (Consulte la sección <link xref="
 "\"#asynchronous-io\"/>)"
 
 #. (itstool) path: item/p
@@ -3171,7 +4542,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/file-system.page:172
 msgid ""
-"As a second line of defence, all projects which access the file system "
+"As a second line of defense, all projects which access the file system "
 "should consider providing a mandatory access control profile, using a system "
 "such as <link href=\"http://apparmor.net/\">AppArmor</link> or <link href="
 "\"http://selinuxproject.org/\">SELinux</link>, which limits the directories "
@@ -3199,7 +4570,7 @@ msgid ""
 "<link href=\"https://developer.gnome.org/glib/stable/glib-Error-Reporting."
 "html\"><code>GError</code></link> is the standard error reporting mechanism "
 "for GLib-using code, and can be thought of as a C implementation of an <link "
-"href=\"http://en.wikipedia.org/wiki/Exception_handling\">exception</link>."
+"href=\"https://en.wikipedia.org/wiki/Exception_handling\">exception</link>."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -3529,8 +4900,8 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/GObjectIntrospection\"> GObject "
 "introspection</link> (abbreviated ‘GIR’) is a system which extracts APIs "
 "from C code and produces binary type libraries which can be used by non-C "
-"language bindings, and other tools, to <link href=\"http://en.wikipedia.org/"
-"wiki/Type_introspection\">introspect</link> or <link href=\"http://en."
+"language bindings, and other tools, to <link href=\"https://en.wikipedia.org/"
+"wiki/Type_introspection\">introspect</link> or <link href=\"https://en."
 "wikipedia.org/wiki/Language_binding\">wrap</link> the original C libraries. "
 "It uses a system of annotations in documentation comments in the C code to "
 "expose extra information about the APIs which is not machine readable from "
@@ -3553,7 +4924,7 @@ msgid ""
 "Enable introspection for all libraries. (<link xref=\"#using-introspection\"/"
 ">)"
 msgstr ""
-"Active la introspección para todas las bibliotecas. (Consulte la <link xref="
+"Active la introspección para todas las bibliotecas. (Consulte la sección <link xref="
 "\"#using-introspection\"/>)"
 
 #. (itstool) path: item/p
@@ -4055,7 +5426,7 @@ msgstr "¿Qué es <code>GMainContext</code>?"
 msgid ""
 "<link href=\"https://developer.gnome.org/glib/stable/glib-The-Main-Event-"
 "Loop.html#GMainContext\"><code>GMainContext</code></link> is a generalized "
-"implementation of an <link href=\"http://en.wikipedia.org/wiki/Event_loop"
+"implementation of an <link href=\"https://en.wikipedia.org/wiki/Event_loop"
 "\">event loop</link>, useful for implementing polled file I/O or event-based "
 "widget systems (such as GTK+). It is at the core of almost every GLib "
 "application. To understand <code>GMainContext</code> requires understanding "
@@ -4617,8 +5988,8 @@ msgid ""
 "Never iterate a context created outside the library, including the global-"
 "default or thread-default contexts. Otherwise, <code>GSource</code>s created "
 "in the application may be dispatched when the application is not expecting "
-"it, causing <link href=\"http://en.wikipedia.org/wiki/Reentrancy_%28computing"
-"%29\">re-entrancy problems</link> for the application code."
+"it, causing <link href=\"https://en.wikipedia.org/wiki/Reentrancy_"
+"%28computing%29\">re-entrancy problems</link> for the application code."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -4667,18 +6038,21 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/main-contexts.page:468
 msgid ""
-"Always write things asynchronously internally (using <link xref=\"#gtask"
-"\"><code>GTask</code></link> where appropriate), and keep synchronous "
-"wrappers at the very top level of an API, where they can be implemented by "
-"calling <code>g_main_context_iteration()</code> on a specific "
-"<code>GMainContext</code>. Again, this makes future refactoring easier. This "
-"is demonstrated in the above example: the thread uses "
-"<code>g_output_stream_write_async()</code> rather than "
-"<code>g_output_stream_write()</code>."
+"<link xref=\"async-programming\">Write things asynchronously</link> "
+"internally (using <link xref=\"#gtask\"><code>GTask</code></link> where "
+"appropriate), and keep synchronous wrappers at the very top level of an API, "
+"where they can be implemented by calling <code>g_main_context_iteration()</"
+"code> on a specific <code>GMainContext</code>. Again, this makes future "
+"refactoring easier. This is demonstrated in the above example: the thread "
+"uses <code>g_output_stream_write_async()</code> rather than "
+"<code>g_output_stream_write()</code>. A worker thread may be used instead, "
+"and this can simplify the callback chain for long series of asynchronous "
+"calls; but at the cost of increased complexity in verifying the code is race-"
+"free."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:479
+#: C/main-contexts.page:483
 msgid ""
 "Always match pushes and pops of the thread-default main context: "
 "<code>g_main_context_push_thread_default()</code> and "
@@ -4686,26 +6060,26 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:487
+#: C/main-contexts.page:491
 msgid "Ensuring Functions are Called in the Right Context"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:489
+#: C/main-contexts.page:493
 msgid ""
 "The ‘right context’ is the thread-default main context of the <em>thread the "
 "function should be executing in</em>. This assumes the typical case that "
 "every thread has a <em>single</em> main context running in a main loop. A "
-"main context effectively provides a work or <link href=\"http://en.wikipedia."
-"org/wiki/Message_queue\">message queue</link> for the thread — something "
-"which the thread can periodically check to determine if there is work "
-"pending from another thread. Putting a message on this queue – invoking a "
-"function in another main context – will result in it eventually being "
+"main context effectively provides a work or <link href=\"https://en."
+"wikipedia.org/wiki/Message_queue\">message queue</link> for the thread — "
+"something which the thread can periodically check to determine if there is "
+"work pending from another thread. Putting a message on this queue – invoking "
+"a function in another main context – will result in it eventually being "
 "dispatched in that thread."
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:503
+#: C/main-contexts.page:507
 msgid ""
 "For example, if an application does a long and CPU-intensive computation it "
 "should schedule this in a background thread so that UI updates in the main "
@@ -4715,19 +6089,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:511
+#: C/main-contexts.page:515
 msgid ""
 "Furthermore, if the computation function can be limited to a single thread, "
 "it becomes easy to eliminate the need for locking a lot of the data it "
 "accesses. This assumes that other threads are implemented similarly and "
 "hence most data is only accessed by a single thread, with threads "
-"communicating by <link href=\"http://en.wikipedia.org/wiki/Message_passing"
+"communicating by <link href=\"https://en.wikipedia.org/wiki/Message_passing"
 "\">message passing</link>. This allows each thread to update its data at its "
 "leisure, which significantly simplifies locking."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:523
+#: C/main-contexts.page:527
 msgid ""
 "For some functions, there might be no reason to care which context they’re "
 "executed in, perhaps because they’re asynchronous and hence do not block the "
@@ -4738,7 +6112,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:533
+#: C/main-contexts.page:537
 msgid ""
 "For example, the progress callback in <link href=\"https://developer.gnome."
 "org/gio/stable/GFile.html#g-file-copy-async\"><code>g_file_copy_async()</"
@@ -4747,12 +6121,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:542
+#: C/main-contexts.page:546
 msgid "Principles of Invocation"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:544
+#: C/main-contexts.page:548
 msgid ""
 "The core principle of invoking a function in a specific context is simple, "
 "and is walked through below to explain the concepts. In practice the <link "
@@ -4761,7 +6135,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:551
+#: C/main-contexts.page:555
 msgid ""
 "A <link href=\"https://developer.gnome.org/glib/stable/glib-The-Main-Event-"
 "Loop.html#GSource\"><code>GSource</code></link> has to be added to the "
@@ -4774,7 +6148,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:562
+#: C/main-contexts.page:566
 msgid ""
 "The <code>GSource</code> will be <link xref=\"#what-is-gmaincontext"
 "\">dispatched as soon as it’s ready</link>, calling the function on the "
@@ -4788,7 +6162,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:574
+#: C/main-contexts.page:578
 msgid ""
 "Data can be passed between threads as the <code>user_data</code> passed to "
 "the <code>GSource</code>’s callback. This is set on the source using <link "
@@ -4800,14 +6174,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:584
+#: C/main-contexts.page:588
 msgid ""
 "The example below demonstrates the underlying principles, but there are "
 "convenience methods explained below which simplify things."
 msgstr ""
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:589
+#: C/main-contexts.page:593
 #, no-wrap
 msgid ""
 "\n"
@@ -5029,7 +6403,7 @@ msgstr ""
 "}"
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:698
+#: C/main-contexts.page:702
 msgid ""
 "This invocation is <em style=\"strong\">uni-directional</em>: it calls "
 "<code>my_func()</code> in <code>thread1</code>, but there’s no way to return "
@@ -5039,11 +6413,11 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:706
+#: C/main-contexts.page:710
 msgid ""
 "To maintain thread safety, data which is potentially accessed by multiple "
 "threads must make those accesses mutually exclusive using a <link href="
-"\"http://en.wikipedia.org/wiki/Mutual_exclusion\">mutex</link>. Data "
+"\"https://en.wikipedia.org/wiki/Mutual_exclusion\">mutex</link>. Data "
 "potentially accessed by multiple threads: <code>thread1_main_context</code>, "
 "passed in the fork call to <code>thread1_main</code>; and <code>some_object</"
 "code>, a reference to which is passed in the data closure. Critically, GLib "
@@ -5053,7 +6427,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:720
+#: C/main-contexts.page:724
 msgid ""
 "Note that <code>some_string</code> and <code>some_int</code> cannot be "
 "accessed from both threads, because <em>copies</em> of them are passed to "
@@ -5064,7 +6438,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:729
+#: C/main-contexts.page:733
 msgid ""
 "Similarly, a reference to <code>some_object</code> is transferred to "
 "<code>thread1</code>, which works around the issue of synchronizing "
@@ -5072,7 +6446,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:735
+#: C/main-contexts.page:739
 msgid ""
 "<code>g_idle_source_new()</code> is used rather than the simpler "
 "<code>g_idle_add()</code> so the <code>GMainContext</code> to attach to can "
@@ -5080,12 +6454,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:744
+#: C/main-contexts.page:748
 msgid "Convenience Method: <code>g_main_context_invoke_full()</code>"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:748
+#: C/main-contexts.page:752
 msgid ""
 "This is simplified greatly by the convenience method, <link href=\"https://"
 "developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-main-context-"
@@ -5097,7 +6471,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:757
+#: C/main-contexts.page:761
 msgid ""
 "<code>g_main_context_invoke()</code> can be used instead if the user data "
 "does not need to be freed by a <code>GDestroyNotify</code> callback after "
@@ -5105,14 +6479,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:764
+#: C/main-contexts.page:768
 msgid ""
 "Modifying the earlier example, the <code>invoke_my_func()</code> function "
 "can be replaced by the following:"
 msgstr ""
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:769
+#: C/main-contexts.page:773
 #, no-wrap
 msgid ""
 "\n"
@@ -5162,7 +6536,7 @@ msgstr ""
 "}"
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:792
+#: C/main-contexts.page:796
 msgid ""
 "Consider what happens if <code>invoke_my_func()</code> were called from "
 "<code>thread1</code>, rather than from the main thread. With the original "
@@ -5177,7 +6551,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:806
+#: C/main-contexts.page:810
 msgid ""
 "This subtle behavior difference doesn’t matter in most cases, but is worth "
 "bearing in mind since it can affect blocking behavior "
@@ -5186,19 +6560,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:818
+#: C/main-contexts.page:822
 msgid "Checking Threading"
 msgstr "Comprobar los hilos"
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:820
+#: C/main-contexts.page:824
 msgid ""
 "It is useful to document which thread each function should be called in, in "
 "the form of an assertion:"
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/main-contexts.page:824
+#: C/main-contexts.page:828
 #, no-wrap
 msgid ""
 "\n"
@@ -5208,17 +6582,17 @@ msgstr ""
 "g_assert (g_main_context_is_owner (expected_main_context));"
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:827
+#: C/main-contexts.page:831
 msgid ""
 "If that’s put at the top of each function, any assertion failure will "
 "highlight a case where a function has been called from the wrong thread. It "
 "is much easier to write these assertions when initially developing code, "
-"rather than debuging race conditions which can easily result from a function "
-"being called in the wrong thread."
+"rather than debugging race conditions which can easily result from a "
+"function being called in the wrong thread."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:835
+#: C/main-contexts.page:839
 msgid ""
 "This technique can also be applied to signal emissions and callbacks, "
 "improving type safety as well as asserting the right context is used. Note "
@@ -5228,12 +6602,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:844
+#: C/main-contexts.page:848
 msgid "For example, instead of using the following when emitting a signal:"
 msgstr ""
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:847
+#: C/main-contexts.page:851
 #, no-wrap
 msgid ""
 "\n"
@@ -5253,12 +6627,12 @@ msgstr ""
 "                       param1, param2, &amp;retval);"
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:855
+#: C/main-contexts.page:859
 msgid "The following can be used:"
 msgstr "Se puede usar lo siguiente:"
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:858
+#: C/main-contexts.page:862
 #, no-wrap
 msgid ""
 "\n"
@@ -5294,12 +6668,12 @@ msgstr ""
 "}"
 
 #. (itstool) path: section/title
-#: C/main-contexts.page:877
+#: C/main-contexts.page:881
 msgid "<code>GTask</code>"
 msgstr "<code>GTask</code>"
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:879
+#: C/main-contexts.page:883
 msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/GTask.html"
 "\"><code>GTask</code></link> provides a slightly different approach to "
@@ -5309,7 +6683,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/main-contexts.page:886
+#: C/main-contexts.page:890
 msgid ""
 "<code>GTask</code> takes a data closure and a function to execute, and "
 "provides ways to return the result from this function. It handles everything "
@@ -5318,7 +6692,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/p
-#: C/main-contexts.page:894
+#: C/main-contexts.page:898
 msgid ""
 "By combining <link xref=\"#g-main-context-invoke-full"
 "\"><code>g_main_context_invoke_full()</code></link> and <code>GTask</code>, "
@@ -5327,7 +6701,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: example/code
-#: C/main-contexts.page:900
+#: C/main-contexts.page:904
 #, no-wrap
 msgid ""
 "\n"
@@ -7967,10 +9341,10 @@ msgid ""
 "When writing projects using GLib, the default approach should be to <em "
 "style=\"strong\">never use threads</em>. Instead, make proper use of the "
 "<link xref=\"main-contexts\">GLib main context</link> which, through the use "
-"of asynchronous operations, allows most blocking I/O operations to continue "
-"in the background while the main context continues to process other events. "
-"Analysis, review and debugging of threaded code becomes very hard, very "
-"quickly."
+"of <link xref=\"async-programming\">asynchronous operations</link>, allows "
+"most blocking I/O operations to continue in the background while the main "
+"context continues to process other events. Analysis, review and debugging of "
+"threaded code becomes very hard, very quickly."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -8484,6 +9858,20 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/tooling.page:121
+#, fuzzy
+#| msgid ""
+#| "<code>AX_COMPILER_FLAGS</code> enables a consistent set of compiler "
+#| "warnings, and also tests that the compiler supports each flag before "
+#| "enabling it. This accounts for differences in the set of flags supported "
+#| "by GCC and Clang. To use it, add <code>AX_COMPILER_FLAGS</code> to "
+#| "<file>configure.ac</file>. If you are using in-tree copies of autoconf-"
+#| "archive macros, copy <link href=\"http://git.savannah.gnu.org/gitweb/?"
+#| "p=autoconf-archive.git;a=blob_plain;f=m4/ax_compiler_flags.m4\"> "
+#| "<file>ax_compiler_flags.m4</file></link> to the <file>m4/</file> "
+#| "directory of your project. Note that it depends on the following autoconf-"
+#| "archive macros which are GPL-licenced so potentially cannot be copied in-"
+#| "tree. They may have to remain in autoconf-archive, with that as a build "
+#| "time dependency of the project:"
 msgid ""
 "<code>AX_COMPILER_FLAGS</code> enables a consistent set of compiler "
 "warnings, and also tests that the compiler supports each flag before "
@@ -8494,7 +9882,7 @@ msgid ""
 "p=autoconf-archive.git;a=blob_plain;f=m4/ax_compiler_flags.m4\"> "
 "<file>ax_compiler_flags.m4</file></link> to the <file>m4/</file> directory "
 "of your project. Note that it depends on the following autoconf-archive "
-"macros which are GPL-licenced so potentially cannot be copied in-tree. They "
+"macros which are GPL-licensed so potentially cannot be copied in-tree. They "
 "may have to remain in autoconf-archive, with that as a build time dependency "
 "of the project:"
 msgstr ""
@@ -8661,24 +10049,33 @@ msgstr "Añada <code>AX_VALGRIND_CHECK</code> a <file>configure.ac</file>."
 
 #. (itstool) path: item/p
 #: C/tooling.page:233
+#, fuzzy
+#| msgid ""
+#| "Add <code>@VALGRIND_CHECK_RULES</code> to the top-level <file>Makefile."
+#| "am</file>."
 msgid ""
-"Add <code>@VALGRIND_CHECK_RULES</code> to the top-level <file>Makefile.am</"
-"file>."
+"Add <code>@VALGRIND_CHECK_RULES@</code> to the <file>Makefile.am</file> in "
+"each directory which contains unit tests."
 msgstr ""
 "Añada <code>@VALGRIND_CHECK_RULES</code> al nivel superior de <file>Makefile."
 "am</file>."
 
 #. (itstool) path: section/p
 #: C/tooling.page:239
+#, fuzzy
+#| msgid ""
+#| "When <cmd>make check-valgrind</cmd> is run, it will save its results in "
+#| "<file>test-suite-*.log</file>, one log file per tool."
 msgid ""
 "When <cmd>make check-valgrind</cmd> is run, it will save its results in "
-"<file>test-suite-*.log</file>, one log file per tool."
+"<file>test-suite-*.log</file>, one log file per tool. Note that you will "
+"need to run it from the directory containing the unit tests."
 msgstr ""
 "Cuando se ejecuta <cmd>make check-valgrind</cmd> guardad los resultados en "
 "<file>test-suite-*.log</file>, un archivo de registro por herramienta."
 
 #. (itstool) path: section/p
-#: C/tooling.page:250
+#: C/tooling.page:251
 msgid ""
 "Valgrind has a way to suppress false positives, by using <link href=\"http://"
 "valgrind.org/docs/manual/manual-core.html#manual-core.suppress\"> "
@@ -8692,13 +10089,13 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:263
+#: C/tooling.page:264
 msgid ""
 "Suppression files are supported by the <code>AX_VALGRIND_CHECK</code> macro:"
 msgstr ""
 
 #. (itstool) path: section/code
-#: C/tooling.page:267
+#: C/tooling.page:268
 #, no-wrap
 msgid ""
 "@VALGRIND_CHECK_RULES@\n"
@@ -8710,12 +10107,12 @@ msgstr ""
 "EXTRA_DIST = $(VALGRIND_SUPPRESSIONS_FILES)"
 
 #. (itstool) path: section/title
-#: C/tooling.page:272
+#: C/tooling.page:273
 msgid "memcheck"
 msgstr "memcheck"
 
 #. (itstool) path: section/p
-#: C/tooling.page:274
+#: C/tooling.page:275
 msgid ""
 "memcheck is a memory usage and allocation analyzer. It detects problems with "
 "memory accesses and modifications of the heap (allocations and frees). It is "
@@ -8728,12 +10125,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:285
+#: C/tooling.page:286
 msgid "To run memcheck manually on an installed program, use:"
 msgstr "Para ejecutar memcheck manualmente en un programa instalado, use:"
 
 #. (itstool) path: section/p
-#: C/tooling.page:288
+#: C/tooling.page:289
 msgid ""
 "<cmd>valgrind --tool=memcheck --leak-check=full <var>my-program-name</var></"
 "cmd>"
@@ -8742,14 +10139,14 @@ msgstr ""
 "var></cmd>"
 
 #. (itstool) path: section/p
-#: C/tooling.page:292
+#: C/tooling.page:293
 msgid ""
 "Or, if running your program from the source directory, use the following to "
 "avoid running leak checking on the libtool helper scripts:"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:296
+#: C/tooling.page:297
 msgid ""
 "<cmd>libtool exec valgrind --tool=memcheck --leak-check=full <var>./my-"
 "program-name</var></cmd>"
@@ -8758,7 +10155,7 @@ msgstr ""
 "del-programa</var></cmd>"
 
 #. (itstool) path: section/p
-#: C/tooling.page:300
+#: C/tooling.page:301
 msgid ""
 "Valgrind lists each memory problem it detects, along with a short backtrace "
 "(if you’ve compiled your program with debug symbols), allowing the cause of "
@@ -8766,19 +10163,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:306
+#: C/tooling.page:307
 msgid ""
 "A full tutorial on using memcheck is <link href=\"http://valgrind.org/docs/"
 "manual/mc-manual.html\">here</link>."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:313
+#: C/tooling.page:314
 msgid "cachegrind and KCacheGrind"
 msgstr "cachegrind y KCacheGrind"
 
 #. (itstool) path: section/p
-#: C/tooling.page:315
+#: C/tooling.page:316
 msgid ""
 "cachegrind is a cache performance profiler which can also measure "
 "instruction execution, and hence is very useful for profiling general "
@@ -8789,7 +10186,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:325
+#: C/tooling.page:326
 msgid ""
 "cachegrind works by simulating the processor’s memory hierarchy, so there "
 "are situations where it is <link href=\"http://valgrind.org/docs/manual/cg-"
@@ -8799,19 +10196,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:334
+#: C/tooling.page:335
 msgid ""
 "A full tutorial on using cachegrind is <link href=\"http://valgrind.org/docs/"
 "manual/cg-manual.html\">here</link>."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:341
+#: C/tooling.page:342
 msgid "helgrind and drd"
 msgstr "helgrind y drd"
 
 #. (itstool) path: section/p
-#: C/tooling.page:343
+#: C/tooling.page:344
 msgid ""
 "helgrind and drd are threading error detectors, checking for race conditions "
 "in memory accesses, and abuses of the <link href=\"http://pubs.opengroup.org/"
@@ -8821,7 +10218,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:351
+#: C/tooling.page:352
 msgid ""
 "The kinds of errors detected by helgrind and drd are: data accessed from "
 "multiple threads without consistent locking, changes in lock acquisition "
@@ -8833,7 +10230,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:361
+#: C/tooling.page:362
 msgid ""
 "helgrind and drd can produce more false positives than memcheck or "
 "cachegrind, so their output should be studied a little more carefully. "
@@ -8842,7 +10239,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:368
+#: C/tooling.page:369
 msgid ""
 "Full tutorials on using helgrind and drd are <link href=\"http://valgrind."
 "org/docs/manual/hg-manual.html\">here</link> and <link href=\"http://"
@@ -8850,12 +10247,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:377
+#: C/tooling.page:378
 msgid "sgcheck"
 msgstr "sgcheck"
 
 #. (itstool) path: section/p
-#: C/tooling.page:379
+#: C/tooling.page:380
 msgid ""
 "sgcheck is an array bounds checker, which detects accesses to arrays which "
 "have overstepped the length of the array. However, it is a very young tool, "
@@ -8864,26 +10261,26 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:386
+#: C/tooling.page:387
 msgid ""
 "As it is experimental, sgcheck must be run by passing <cmd>--tool=exp-"
 "sgcheck</cmd> to Valgrind, rather than <cmd>--tool=sgcheck</cmd>."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:392
+#: C/tooling.page:393
 msgid ""
 "A full tutorial on using sgcheck is <link href=\"http://valgrind.org/docs/"
 "manual/sg-manual.html\">here</link>."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:400
+#: C/tooling.page:401
 msgid "gcov and lcov"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:402
+#: C/tooling.page:403
 msgid ""
 "<link href=\"https://gcc.gnu.org/onlinedocs/gcc/Gcov.html\">gcov</link> is a "
 "profiling tool built into GCC, which instruments code by adding extra "
@@ -8895,7 +10292,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:412
+#: C/tooling.page:413
 msgid ""
 "A critical use for this code coverage data collection is when running the "
 "unit tests: if the amount of code covered (for example, which particular "
@@ -8908,16 +10305,16 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:423
+#: C/tooling.page:424
 msgid ""
-"lcov supports <link href=\"http://en.wikipedia.org/wiki/"
+"lcov supports <link href=\"https://en.wikipedia.org/wiki/"
 "Code_coverage#Basic_coverage_criteria\"> branch coverage measurement</link>, "
 "so is not suitable for demonstrating coverage of safety critical code. It is "
 "perfectly suitable for non-safety critical code."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:431
+#: C/tooling.page:432
 msgid ""
 "As code coverage has to be enabled at both compile time and run time, a "
 "macro is provided to make things simpler. The <link href=\"http://www.gnu."
@@ -8928,12 +10325,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:441
+#: C/tooling.page:442
 msgid "To add <code>AX_CODE_COVERAGE</code> support to a project:"
 msgstr "Para añadir soporte de <code>AX_CODE_COVERAGE</code> a un proyecto:"
 
 #. (itstool) path: item/p
-#: C/tooling.page:445
+#: C/tooling.page:446
 msgid ""
 "Copy <link href=\"http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;"
 "a=blob_plain;f=m4/ax_code_coverage.m4\"> <file>ax_code_coverage.m4</file></"
@@ -8944,12 +10341,12 @@ msgstr ""
 "file></link> al a carpeta <file>m4/</file> de su proyecto."
 
 #. (itstool) path: item/p
-#: C/tooling.page:451
+#: C/tooling.page:452
 msgid "Add <code>AX_CODE_COVERAGE</code> to <file>configure.ac</file>."
 msgstr "Añada <code>AX_CODE_COVERAGE</code> a <file>configure.ac</file>."
 
 #. (itstool) path: item/p
-#: C/tooling.page:454
+#: C/tooling.page:455
 msgid ""
 "Add <code>@CODE_COVERAGE_RULES</code> to the top-level <file>Makefile.am</"
 "file>."
@@ -8958,7 +10355,7 @@ msgstr ""
 "am</file>."
 
 #. (itstool) path: item/p
-#: C/tooling.page:458
+#: C/tooling.page:459
 msgid ""
 "Add <code>$(CODE_COVERAGE_CFLAGS)</code> to the automake <code><var>*</"
 "var>_CFLAGS</code> variable for each target you want coverage for, for "
@@ -8967,19 +10364,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:467
+#: C/tooling.page:468
 msgid ""
 "Documentation on using gcov and lcov is <link href=\"http://ltp.sourceforge."
 "net/coverage/lcov.php\">here</link>."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:474
+#: C/tooling.page:475
 msgid "Address, Thread and Undefined Behavior Sanitizers"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:476
+#: C/tooling.page:477
 msgid ""
 "GCC and Clang both support several sanitizers: sets of extra code and checks "
 "which can be optionally compiled in to an application and used to flag "
@@ -8991,19 +10388,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:486
+#: C/tooling.page:487
 msgid ""
 "All sanitizers are available for both GCC and Clang, accepting the same set "
 "of compiler options."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:499
+#: C/tooling.page:500
 msgid "Address Sanitizer"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:501
+#: C/tooling.page:502
 msgid ""
 "The <link href=\"https://code.google.com/p/address-sanitizer/\">address "
 "sanitizer</link> (‘asan’) detects use-after-free and buffer overflow bugs in "
@@ -9013,12 +10410,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:511
+#: C/tooling.page:512
 msgid "Thread Sanitizer"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:513
+#: C/tooling.page:514
 msgid ""
 "The <link href=\"https://code.google.com/p/thread-sanitizer/\">thread "
 "sanitizer</link> (‘tsan’) detects data races on memory locations, plus a "
@@ -9028,12 +10425,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:524
+#: C/tooling.page:525
 msgid "Undefined Behavior Sanitizer"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:526
+#: C/tooling.page:527
 msgid ""
 "The undefined behavior sanitizer (‘ubsan’) is a collection of smaller "
 "instrumentations which detect various potentially undefined behaviors in C "
@@ -9043,12 +10440,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:537
+#: C/tooling.page:538
 msgid "Coverity"
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:539
+#: C/tooling.page:540
 msgid ""
 "<link href=\"http://scan.coverity.com/\">Coverity</link> is one of the most "
 "popular and biggest commercial static analyzer tools available. However, it "
@@ -9063,7 +10460,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:552
+#: C/tooling.page:553
 msgid ""
 "As Coverity cannot be run entirely locally, it cannot be integrated properly "
 "into the build system. However, scripts do exist to automatically scan a "
@@ -9077,19 +10474,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:565
+#: C/tooling.page:566
 msgid ""
 "Coverity is good, but it is not perfect, and it does produce a number of "
 "false positives. These should be marked as ignored in the online interface."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:573
+#: C/tooling.page:574
 msgid "Clang Static Analyzer"
 msgstr "Analizador estático Clang"
 
 #. (itstool) path: section/p
-#: C/tooling.page:575
+#: C/tooling.page:576
 msgid ""
 "One tool which can be used to perform static analysis locally is the <link "
 "href=\"http://clang-analyzer.llvm.org/\">Clang static analyzer</link>, which "
@@ -9100,7 +10497,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:584
+#: C/tooling.page:585
 msgid ""
 "Clang produces some false positives, and there is no easy way to ignore "
 "them. The recommended thing to do is to <link href=\"http://clang-analyzer."
@@ -9109,19 +10506,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:592
+#: C/tooling.page:593
 msgid ""
 "A full tutorial on using Clang is <link href=\"http://clang-analyzer.llvm."
 "org/scan-build.html\">here</link>."
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/tooling.page:598
+#: C/tooling.page:599
 msgid "Tartan"
 msgstr "Tartan"
 
 #. (itstool) path: section/p
-#: C/tooling.page:600
+#: C/tooling.page:601
 msgid ""
 "However, for all the power of the Clang static analyzer, it cannot detect "
 "problems with specific libraries, such as GLib. This is a problem if a "
@@ -9133,7 +10530,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:611
+#: C/tooling.page:612
 msgid ""
 "Tartan is still young software, and will produce false positives and may "
 "crash when run on some code. However, it can find legitimate bugs quite "
@@ -9144,7 +10541,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/tooling.page:620
+#: C/tooling.page:621
 msgid ""
 "A full tutorial on enabling Tartan for use with the Clang static analyzer is "
 "<link href=\"http://people.collabora.com/~pwith/tartan/#usage-standalone\"> "
@@ -9428,7 +10825,7 @@ msgstr "Generación de pruebas"
 #: C/unit-testing.page:195
 msgid ""
 "Certain types of code are quite repetitive, and require a lot of unit tests "
-"to gain good coverage; but are appropriate for <link href=\"http://en."
+"to gain good coverage; but are appropriate for <link href=\"https://en."
 "wikipedia.org/wiki/Test_data_generation\">test data generation</link>, where "
 "a tool is used to automatically generate test vectors for the code. This can "
 "drastically reduce the time needed for writing unit tests, for code in these "
@@ -9542,15 +10939,25 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:282
+#, fuzzy
+#| msgid ""
+#| "<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Software "
+#| "design for testing</link>"
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Software_testability\">Software "
+"<link href=\"https://en.wikipedia.org/wiki/Software_testability\">Software "
 "testability</link>"
 msgstr ""
+"<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Diseño de "
+"software para pruebas</link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:286
+#, fuzzy
+#| msgid ""
+#| "<link href=\"http://en.wikipedia.org/wiki/Dependency_injection"
+#| "\">Dependency injection</link>"
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Dependency_injection\">Dependency "
+"<link href=\"https://en.wikipedia.org/wiki/Dependency_injection\">Dependency "
 "injection</link>"
 msgstr ""
 "<link href=\"http://en.wikipedia.org/wiki/Dependency_injection\">Inyección "
@@ -9601,7 +11008,7 @@ msgid ""
 "reports or specifications. (<link xref=\"#guidelines-for-making-commits\"/>)"
 msgstr ""
 "Incluya un razonamiento completo en los mensajes de commit, así como enlaces "
-"a los informes de error o a la especificaciones. (Consulte la <link xref="
+"a los informes de error o a la especificaciones. (Consulte la sección <link xref="
 "\"#guidelines-for-making-commits\"/>)"
 
 #. (itstool) path: item/p
@@ -9611,7 +11018,7 @@ msgid ""
 "\"#guidelines-for-making-commits\"/>)"
 msgstr ""
 "Haga los cambios grandes, como los renombrados, en commits separados. "
-"(Consulte la <link xref=\"#guidelines-for-making-commits\"/>)"
+"(Consulte la sección <link xref=\"#guidelines-for-making-commits\"/>)"
 
 #. (itstool) path: item/p
 #: C/version-control.page:47
@@ -9972,9 +11379,9 @@ msgid ""
 msgstr ""
 "Un buen resumen del versionado libtool, y las diferencias con el versionado "
 "del paquete, se da en el <link href=\"https://autotools.io/libtool/version."
-"html\">cazador de mitos de Autotools</link>; otro está en el <link "
-"href=\"http://www.gnu.org/s/libtool/manual/html_node/Updating-version-info."
-"html\">manual de libtool</link>."
+"html\">cazador de mitos de Autotools</link>; otro está en el <link href="
+"\"http://www.gnu.org/s/libtool/manual/html_node/Updating-version-info.html"
+"\">manual de libtool</link>."
 
 #. (itstool) path: section/p
 #: C/versioning.page:121
@@ -10430,8 +11837,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-good-code.page:137
+#, fuzzy
+#| msgid ""
+#| "<link href=\"http://en.wikipedia.org/wiki/Design_Patterns\"> Design "
+#| "Patterns: Elements of Reusable Object-Oriented Software </link>, by Erich "
+#| "Gamma, Richard Helm, Ralph Johnson and John Vlissides."
 msgid ""
-"<link href=\"http://en.wikipedia.org/wiki/Design_Patterns\"> Design "
+"<link href=\"https://en.wikipedia.org/wiki/Design_Patterns\"> Design "
 "Patterns: Elements of Reusable Object-Oriented Software </link>, by Erich "
 "Gamma, Richard Helm, Ralph Johnson and John Vlissides."
 msgstr ""
