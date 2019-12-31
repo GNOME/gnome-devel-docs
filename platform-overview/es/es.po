@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 02:11+0000\n"
+"POT-Creation-Date: 2019-12-27 16:13+0000\n"
 "PO-Revision-Date: 2019-03-14 15:55+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
@@ -111,11 +111,6 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/dev-help-appmenu.page:37
-#| msgid ""
-#| "This example, based on <app href=\"https://git.gnome.org/browse/cheese/"
-#| "tree/src/cheese-main.vala\">Cheese</app>, assumes that your application "
-#| "is written in Vala. It will be slightly different for other programming "
-#| "languages."
 msgid ""
 "This example, based on <app href=\"https://gitlab.gnome.org/GNOME/cheese/"
 "blob/master/src/cheese-main.vala\">Cheese</app>, assumes that your "
@@ -1613,11 +1608,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:91
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Website</link> | "
-#| "<link href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots"
-#| "\">Screenshots</link> | <link href=\"https://git.gnome.org/browse/nautilus"
-#| "\">Source code</link> )"
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Website</link> | <link "
 "href=\"https://wiki.gnome.org/Apps/Empathy#Screenshots\">Screenshots</link> "
@@ -1642,12 +1632,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:96
-#| msgid ""
-#| "(<link href=\"https://wiki.gnome.org/Projects/Games\">Website</link> | "
-#| "<link href=\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;"
-#| "do=get&amp;target=gnome-chess.png\">Screenshot</link> | <link href="
-#| "\"https://git.gnome.org/browse/gnome-chess/\">GLChess online multiplayer "
-#| "code</link> )"
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Projects/Games\">Website</link> | <link "
 "href=\"https://wiki.gnome.org/Apps/Chess#Screenshots\">Screenshot</link> | "
@@ -1670,11 +1654,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:101
-#| msgid ""
-#| "(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Website</link> | "
-#| "<link href=\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots"
-#| "\">Screenshots</link> | <link href=\"https://git.gnome.org/browse/"
-#| "rhythmbox/tree/plugins/daap\">DAAP Code</link> )"
 msgid ""
 "(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Website</link> | <link "
 "href=\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Screenshots</"
@@ -1771,10 +1750,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-io.page:74
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Website</link> | "
-#| "<link href=\"https://git.gnome.org/browse/gnome-documents\">Source code</"
-#| "link> )"
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Website</link> | "
 "<link href=\"https://gitlab.gnome.org/GNOME/gnome-documents\">Source code</"
@@ -1795,11 +1770,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-io.page:79
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Website</link> | "
-#| "<link href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots"
-#| "\">Screenshots</link> | <link href=\"https://git.gnome.org/browse/nautilus"
-#| "\">Source code</link> )"
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Website</link> | <link "
 "href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Screenshots</link> "
@@ -1968,11 +1938,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-media.page:99
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | "
-#| "<link href=\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-"
-#| "main.png\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/"
-#| "totem/\">Source code</link> )"
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
 "href=\"https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-"
@@ -1995,10 +1960,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-media.page:104
-#| msgid ""
-#| "( <link href=\"http://www.pitivi.org/\">Website</link> | <link href="
-#| "\"http://www.pitivi.org/?go=screenshots\">Screenshots</link> | <link href="
-#| "\"http://www.pitivi.org/?go=download\">Source code</link> )"
 msgid ""
 "( <link href=\"http://www.pitivi.org/\">Website</link> | <link href=\"http://"
 "www.pitivi.org/?go=tour\">Screenshot</link> | <link href=\"http://www.pitivi."
@@ -2121,11 +2082,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-net.page:84
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link "
-#| "href=\"https://git.gnome.org/browse/epiphany/plain/data/screenshot.png"
-#| "\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/epiphany/"
-#| "\">Source code</link> )"
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
 "\"https://gitlab.gnome.org/GNOME/epiphany/raw/master/data/screenshot.png"
@@ -2150,11 +2106,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-net.page:90
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Website</"
-#| "link> | <link href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | "
-#| "<link href=\"https://git.gnome.org/browse/gnome-shell/\">Source Code</"
-#| "link> )"
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Website</link> | "
 "<link href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
@@ -2246,9 +2197,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:70
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | "
-#| "<link href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/DconfEditor\">Website</link> | "
 "<link href=\"https://gitlab.gnome.org/GNOME/dconf-editor/\">Source code</"
@@ -2411,9 +2359,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:98
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link "
-#| "href=\"https://git.gnome.org/browse/epiphany/\">Source code</link> )"
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
 "\"https://gitlab.gnome.org/GNOME/epiphany/\">Source code</link> )"
@@ -2433,10 +2378,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:104
-#| msgid ""
-#| "( <link href=\"http://monodevelop.com/\">Website</link> | <link href="
-#| "\"http://monodevelop.com/Screenshots\">Screenshots</link> | <link href="
-#| "\"https://github.com/mono/monodevelop\">Source code</link> )"
 msgid ""
 "( <link href=\"https://www.monodevelop.com/\">Website</link> | <link href="
 "\"https://www.monodevelop.com/screenshots/\">Screenshots</link> | <link href="
@@ -2457,9 +2398,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:108
-#| msgid ""
-#| "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | "
-#| "<link href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
 "href=\"https://gitlab.gnome.org/GNOME/totem/\">Source code</link> )"
@@ -3963,15 +3901,11 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-#| msgid "<link href=\"http://gtk.org/\">Official web site</link>"
 msgid "<link href=\"https://www.gtk.org/\">Official web site</link>"
 msgstr "<link href=\"https://www.gtk.org/\">Página web oficial</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo "
-#| "tutorial</link>"
 msgid ""
 "<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\">Demo "
 "tutorial</link>"
@@ -3981,9 +3915,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</"
-#| "link>"
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/\">Reference Manual</"
 "link>"
@@ -3993,8 +3924,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:54
-#| msgid ""
-#| "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
 msgid ""
 "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">git repository</link>"
 msgstr ""
@@ -7669,7 +7598,7 @@ msgstr ""
 #~ "En este tutorial se asume que está familiarizado con el lenguaje de "
 #~ "programación C y que tiene un conocimiento básico de GTK+, incluyendo "
 #~ "cómo crear y colocar widgets y cómo conectar funciones de retorno de "
-#~ "llamadas a señales. Consulte la <link xref=\"image-viewer.c\"/> para "
+#~ "llamadas a señales. Consulte la sección <link xref=\"image-viewer.c\"/> para "
 #~ "aprender las nociones básicas de GTK+."
 
 #~ msgid ""
