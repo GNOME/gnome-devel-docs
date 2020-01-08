@@ -10,21 +10,21 @@
 # Javi Ribera <javiribera@gmail.com>, 2013.
 # Alex Puchades <alex94puchades@gmail.com>, 2015.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2017, 2019.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2019-09-24 10:46+0000\n"
-"PO-Revision-Date: 2019-01-10 11:35+0100\n"
+"POT-Creation-Date: 2019-12-31 08:52+0000\n"
+"PO-Revision-Date: 2020-01-08 17:02+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: es <gnome-es-list@gnome.org>\n"
-"Language: es\n"
+"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"X-Generator: Gtranslator 3.34.0\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -41,7 +41,7 @@ msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2019\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2020\n"
 "Alex Puchades <alex94puchades@gmail.com>, 2015\n"
 "Nicolás Satragno <nsatragno@gnome.org>, 2013\n"
 "Benjamín Valero Espinosa <benjavalero@gmail.com>, 2011\n"
@@ -1302,7 +1302,6 @@ msgstr "Mantenga la complejidad de la interfaz de usuario al mínimo"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:30
-#, fuzzy
 #| msgid ""
 #| "Every control or piece of information that you add to your application "
 #| "creates additional work for users, and increases the complexity of your "
@@ -1317,7 +1316,7 @@ msgid ""
 "application interface."
 msgstr ""
 "Cada control o fragmento de información que añade a su aplicación genera "
-"trabajo adicional a los usuarios, e incrementa la complejidad de su "
+"trabajo adicional a los usuarios e incrementa la complejidad de su "
 "aplicación, haciéndola potencialmente más difícil y menos amigable de usar. "
 "Por lo tanto, incluya sólo los controles y la información esenciales en la "
 "interfaz de su aplicación."
@@ -1591,7 +1590,6 @@ msgstr "Use de emoción y humor (con moderación)"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:116
-#, fuzzy
 #| msgid ""
 #| "Used effectively, emotion and humor can lift the experience provided by "
 #| "your application, and help to develop a positive relationship with your "
@@ -1608,9 +1606,9 @@ msgstr ""
 "Utilizados eficazmente, la emoción y el humor pueden mejorar la experiencia "
 "proporcionada por su aplicación, y ayudar a desarrollar una relación "
 "positiva con los usuarios. Sin embargo, tenga cuidado de no abusar de estas "
-"técnicas, sin embargo (es mucho más efectivo elegir una pequeña cantidad de "
-"momentos para utilizar la emoción, en lugar de usarlas a lo largo de toda la "
-"interfaz de usuario)."
+"técnicas, (es mucho más efectivo elegir una pequeña cantidad de momentos "
+"para utilizar la emoción, en lugar de usarla a lo largo de toda la interfaz "
+"de usuario)."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:118
@@ -1751,7 +1749,6 @@ msgstr "Ejemplos"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:62
-#, fuzzy
 #| msgid ""
 #| "Confirmation dialogs use a message dialog to check - or confirm - that "
 #| "the user wants to carry out an action. They have two buttons: one to "
@@ -1763,9 +1760,9 @@ msgid ""
 "that the action should be carried out and one to cancel the action."
 msgstr ""
 "Los diálogos de confirmación utilizan un mensaje de diálogo para comprobar "
-"(o confirmar) que el usuario quiere realizar una acción. Estos tienen dos "
-"botones: uno para confirmar que la acción debe llevarse a cabo y otro para "
-"cancelar la acción."
+"(o confirmar) que el usuario quiere realizar una acción. Tienen dos botones: "
+"uno para confirmar que la acción debe llevarse a cabo y otro para cancelar "
+"la acción."
 
 #. (itstool) path: note/p
 #: C/dialogs.page:64
@@ -1819,7 +1816,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/dialogs.page:78
-#, fuzzy
 #| msgid ""
 #| "Action dialogs present options and information about a specific action "
 #| "before it is carried out. They have a heading (which typically describes "
@@ -1832,7 +1828,7 @@ msgid ""
 "out and one which cancels it."
 msgstr ""
 "Los diálogos de acción presentan opciones e información sobre una acción "
-"específica antes de que se lleva a cabo. Tienen un título (que normalmente "
+"específica antes de que se lleve a cabo. Tienen un título (que normalmente "
 "describe la acción) y dos botones primarios: uno que permite llevar a cabo "
 "la acción y uno que la cancela."
 
@@ -2680,7 +2676,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/full-screen.page:40
-#, fuzzy
 #| msgid ""
 #| "Controls should be displayed when the pointer is moved over the content, "
 #| "or when it is tapped (on touch devices)."
@@ -2688,8 +2683,8 @@ msgid ""
 "Controls, including the header bar, should be revealed when the pointer is "
 "moved or the screen is tapped."
 msgstr ""
-"Los controles se deben mostrar cuando se mueva el puntero sobre el "
-"contenido, o cuando se pulse (en dispositivos táctiles)."
+"Los controles, incluyendo la barra de cabecera, se deben mostrar cuando se "
+"mueva el puntero o cuando se pulse en la pantalla."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:41
@@ -2697,6 +2692,8 @@ msgid ""
 "The window close button should be replaced with a view restore button, which "
 "disables fullscreen mode."
 msgstr ""
+"El botón de cerrar la ventana se debe reemplazar con un botón para restaurar "
+"la vista, lo que desactiva el modo a pantalla completa."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:42
@@ -2926,8 +2923,8 @@ msgid ""
 msgstr ""
 "Las barras de cabecera son incompatibles con las barras de menú. Si su "
 "aplicación ya incorpora una barra de menú, debe evaluar la alternativa "
-"sugerida en esta guía. Consulte la sección <link xref=\"menu-bars\">guía de barras "
-"de menú</link> para obtener más detalles."
+"sugerida en esta guía. Consulte la sección <link xref=\"menu-bars\">guía de "
+"barras de menú</link> para obtener más detalles."
 
 #. (itstool) path: section/title
 #: C/header-bars.page:38
@@ -3568,7 +3565,7 @@ msgstr "Estilos de iconos"
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:24
 msgid "Two styles of icon are used in GNOME 3: full-color and symbolic icons."
-msgstr ""
+msgstr "En GNOME 3 se usan dos estilos de iconos: a todo color y simbólicos"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:26
@@ -3659,10 +3656,9 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:49
-#, fuzzy
 #| msgid "Selecting and creating icons."
 msgid "Stock icons and creating your own"
-msgstr "Seleccionar y crear iconos."
+msgstr "Iconos de almacén y crear el suyo propio"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:51
@@ -4061,7 +4057,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:29
-#, fuzzy
 #| msgid ""
 #| "In-app notifications are not a good solution for communicating ongoing "
 #| "states. <link xref=\"info-bars\">Info bars</link> offer one alternative "
@@ -4071,8 +4066,7 @@ msgid ""
 "states."
 msgstr ""
 "Las notificaciones integradas en las aplicaciones no son una buena solución "
-"para comunicar los estados en curso. <link xref=\"info-bars\">Las barras de "
-"información</link> ofrecen una alternativa que puede considerar."
+"para comunicar los estados en curso."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:37
@@ -4228,10 +4222,9 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/initial-state-placeholders.page:8
-#, fuzzy
 #| msgid "Image and text shown when a grid or list is empty"
 msgid "Image and text shown when an application is initially empty"
-msgstr "Imagen y texto mostrados cuando una rejilla o lista está vacía"
+msgstr "Imagen y texto mostrados cuando una aplicación está vacía inicialmente"
 
 #. (itstool) path: page/title
 #: C/initial-state-placeholders.page:16
@@ -6862,8 +6855,8 @@ msgid ""
 msgstr ""
 "Esta sección detalla los menús más comunes y los elementos del menú en una "
 "barra de menú. Para obtener más detalles sobre los elementos estándar que "
-"incluir en cada uno de estos menús, consulte la sección <link xref=\"keyboard-"
-"input#application-shortcuts\">entrada de teclado</link>."
+"incluir en cada uno de estos menús, consulte la sección <link xref="
+"\"keyboard-input#application-shortcuts\">entrada de teclado</link>."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:52
@@ -8246,7 +8239,6 @@ msgstr "Toque la superficie con dos dedos mientras los junta o los separa."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:154
-#, fuzzy
 #| msgid "Changes the zoom level of the view (eg. Maps, Photos)."
 msgid "Changes the zoom level of the view (e.g. Maps, Photos)."
 msgstr "Cambia el nivel de ampliación de la vista (ej. Mapas, Fotos)."
@@ -8643,7 +8635,6 @@ msgstr "Menús primarios"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/primary-menus.page:18
-#, fuzzy
 #| msgctxt "_"
 #| msgid ""
 #| "external ref='figures/patterns/primary-menu.svg' "
@@ -8654,7 +8645,7 @@ msgid ""
 "md5='78f497d54c3ba45846f409ef81debad2'"
 msgstr ""
 "external ref='figures/patterns/primary-menu.svg' "
-"md5='4bbf02fe148cb52af80ce5565c97eefe'"
+"md5='78f497d54c3ba45846f409ef81debad2'"
 
 #. (itstool) path: page/p
 #: C/primary-menus.page:20
@@ -8706,10 +8697,9 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:40
-#, fuzzy
 #| msgid "General guidelines"
 msgid "Other guidelines:"
-msgstr "Guías Generales"
+msgstr "Otras guías:"
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:43
@@ -8765,30 +8755,25 @@ msgstr "<gui>Preferencias</gui>"
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:58
-#, fuzzy
 #| msgid ""
 #| "Opens the application's preferences dialog. Only show this menu item if "
 #| "your application has a preferences dialog."
 msgid "Opens the application's preferences dialog, if it has one."
-msgstr ""
-"Abre el diálogo de preferencias de la aplicación. Muestre este elemento de "
-"menú sólo si su aplicación tiene un diálogo de preferencias."
+msgstr "Abre el diálogo de preferencias de la aplicación, si existe."
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:61
-#, fuzzy
 #| msgid "<gui>About</gui>"
 msgid "<gui>Keyboard Shortcuts</gui>"
-msgstr "<gui>Acerca de</gui>"
+msgstr "<gui>Atajos del teclado</gui>"
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:62
 msgid "Opens the application's keyboard shortcuts window, if it has one."
-msgstr ""
+msgstr "Abre la ventana de atajos del teclado de la aplicación, si existe."
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:66
-#, fuzzy
 #| msgid ""
 #| "Opens your application's user documentation in the <app>Help</app> "
 #| "application. Only show this menu item if your application has user "
@@ -8798,15 +8783,13 @@ msgid ""
 "application."
 msgstr ""
 "Abre la documentación del usuario de la aplicación en el programa de "
-"<app>Ayuda</app>. Muestre este elemento de menú sólo si su aplicación tiene "
-"documentación del usuario."
+"<app>Ayuda</app>."
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:69
-#, fuzzy
 #| msgid "<gui>Duplicate</gui>"
 msgid "<gui>About Application</gui>"
-msgstr "<gui>Duplicar</gui>"
+msgstr "<gui>Acerca de la aplicación</gui>"
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:70
@@ -9324,8 +9307,9 @@ msgid ""
 "If it might be necessary to pause or stop a sub-task (see the <link xref="
 "\"#general-guidelines\">general guidelines</link> on this, below)."
 msgstr ""
-"Si puede ser necesario pausar o detener una subtarea (consulte la sección <link xref="
-"\"#general-guidelines\">guía general</link> sobre esto, más abajo)."
+"Si puede ser necesario pausar o detener una subtarea (consulte la sección "
+"<link xref=\"#general-guidelines\">guía general</link> sobre esto, más "
+"abajo)."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:95
@@ -9961,6 +9945,8 @@ msgstr ""
 msgid ""
 "The application's secondary menu, denoted by three stacked horizontal dots"
 msgstr ""
+"El menú secundario de la aplicación, denotado por por tres puntos en "
+"horizonal"
 
 #. (itstool) path: page/title
 #: C/secondary-menus.page:16
@@ -10008,6 +9994,8 @@ msgid ""
 "Secondary menus are optional and only need to be used if there are enough "
 "controls to require a menu."
 msgstr ""
+"Los menús secundarios son opcionales y sólo se necesitan si hay suficientes "
+"controles que requieran un menú."
 
 #. (itstool) path: item/p
 #: C/secondary-menus.page:35
@@ -10017,6 +10005,10 @@ msgid ""
 "gui> and <gui>About</gui>. However, it can sometimes be useful to show "
 "<gui>Help</gui>."
 msgstr ""
+"Los menús secundarios no deberían reproducir elementos de menú incluidos en "
+"<link xref=\"primary-menus\">menús primarios</link>, tales como "
+"<gui>Preferencias</gui> o <gui>Acerca de</gui>. Sin embargo, a veces puede "
+"ser útil mostrar la <gui>Ayuda</gui>."
 
 #. (itstool) path: item/p
 #: C/secondary-menus.page:36
@@ -10042,6 +10034,7 @@ msgstr ""
 #: C/secondary-menus.page:38
 msgid "Secondary menus shouldn’t include menu items for close or quit."
 msgstr ""
+"Los menús secundarios deben incluir elementos de menú para salir o cerrar."
 
 #. (itstool) path: info/desc
 #: C/selection-mode.page:7
@@ -10677,7 +10670,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/switches.page:27
-#, fuzzy
 #| msgid ""
 #| "Switches should be used for controlling services or hardware that have a "
 #| "clear on/off logic. They are particularly appropriate when those services "
@@ -10692,7 +10684,7 @@ msgid ""
 "operation of the application in a significant way."
 msgstr ""
 "Los interruptores se pueden usar para controlar servicios o hardware que "
-"tenga un estado lógico activado/desactivado claro. So especialmente "
+"tenga un estado lógico activado/desactivado claro. Son especialmente "
 "apropiados cuando estos servicios o hardware no se activan inmediatamente "
 "(es decir, hay un retardo entre la activación del interruptor y su efecto), "
 "o cuando afecta a la operativa de la aplicación de una manera significante."
