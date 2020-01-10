@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2019-12-31 08:52+0000\n"
-"PO-Revision-Date: 2020-01-08 17:02+0100\n"
+"POT-Creation-Date: 2020-01-08 16:04+0000\n"
+"PO-Revision-Date: 2020-01-10 13:29+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -300,6 +300,9 @@ msgid ""
 "independent of other applications. This ensures flexibility, predictability, "
 "and simplicity of use."
 msgstr ""
+"Un tema clave de esta definición es que las aplicaciones deben ser "
+"independientes unas de otras. Esto asegura flexibilidad, predictibilidad y "
+"simplicidad de uso."
 
 #. (itstool) path: section/p
 #: C/application-basics.page:36
@@ -1137,6 +1140,10 @@ msgid ""
 "views and view switchers, and popovers, are common and will be generally "
 "understood."
 msgstr ""
+"En términos generales, los patrones de diseño de la guía de interfaz humana "
+"se pueden usar en cualquier plataforma de escritorio. La mayoría de los "
+"convenios, tales como menús y botones de menú, vistas e intercambiadores de "
+"vista  ventanas emergentes son comunes y se entenderán."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:23
@@ -1302,12 +1309,6 @@ msgstr "Mantenga la complejidad de la interfaz de usuario al mínimo"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:30
-#| msgid ""
-#| "Every control or piece of information that you add to your application "
-#| "creates additional work for users, and increases the complexity of your "
-#| "application - potentially making it more difficult and less pleasurable "
-#| "to use. Therefore, only include essential controls and information in "
-#| "your application interface."
 msgid ""
 "Every control or piece of information that you add to your application "
 "creates additional work for users, and increases the complexity of your "
@@ -1590,12 +1591,6 @@ msgstr "Use de emoción y humor (con moderación)"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:116
-#| msgid ""
-#| "Used effectively, emotion and humor can lift the experience provided by "
-#| "your application, and help to develop a positive relationship with your "
-#| "users. Be careful not to over-use these techniques, though - it is far "
-#| "more effective to pick a small number of moments to use emotion, rather "
-#| "than spraying them throughout your user interface."
 msgid ""
 "Used effectively, emotion and humor can lift the experience provided by your "
 "application, and help to develop a positive relationship with your users. Be "
@@ -1749,11 +1744,6 @@ msgstr "Ejemplos"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:62
-#| msgid ""
-#| "Confirmation dialogs use a message dialog to check - or confirm - that "
-#| "the user wants to carry out an action. They have two buttons: one to "
-#| "confirm that the action should be carried out and one to cancel the "
-#| "action."
 msgid ""
 "Confirmation dialogs use a message dialog to check — or confirm — that the "
 "user wants to carry out an action. They have two buttons: one to confirm "
@@ -1816,11 +1806,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/dialogs.page:78
-#| msgid ""
-#| "Action dialogs present options and information about a specific action "
-#| "before it is carried out. They have a heading (which typically describes "
-#| "the action) and two primary buttons - one which allows the action to be "
-#| "carried out and one which cancels it."
 msgid ""
 "Action dialogs present options and information about a specific action "
 "before it is carried out. They have a heading (which typically describes the "
@@ -2221,7 +2206,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:27
-#, fuzzy
 #| msgid ""
 #| "Test to make sure that your interface works well on large displays. Where "
 #| "possible, scale content to make the best use of available space, or used "
@@ -2608,6 +2592,9 @@ msgid ""
 "fullscreen is active, controls are typically hidden in order to provide an "
 "immersive content view."
 msgstr ""
+"En el modo a pantalla completa una ventana ocupa toda la pantalla. Cuando "
+"está activo normalmente los controles se ocultan para proporcionar una vista "
+"del contenido más inmersiva."
 
 #. (itstool) path: section/p
 #: C/full-screen.page:24
@@ -2660,7 +2647,6 @@ msgstr "Cuando la pantalla completa está activa"
 
 #. (itstool) path: item/p
 #: C/full-screen.page:39
-#, fuzzy
 #| msgid ""
 #| "Overlaid controls can be attached to the edge of the content/window, or "
 #| "can be free-floating. <link xref=\"action-bars\">Action bars</link> can "
@@ -2670,15 +2656,12 @@ msgid ""
 "\"action-bars\">action bars</link> or <link xref=\"overlaid-controls"
 "\">overlaid controls</link>."
 msgstr ""
-"Los controles superpuestos se pueden acoplar al borde inferior del contenido/"
-"ventana, o pueden flotar libremente. Las <link xref=\"action-bars\">barras "
-"de acción</link> se pueden tratar como controles superpuestos."
+"Se deben ocultar todos los controles, incluyendo la barra de cabecera de la "
+"ventana, las <link xref=\"action-bars\">barras de acción</link> o los <link "
+"xref=\"overlaid-controls\">controles superpuestos</link>."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:40
-#| msgid ""
-#| "Controls should be displayed when the pointer is moved over the content, "
-#| "or when it is tapped (on touch devices)."
 msgid ""
 "Controls, including the header bar, should be revealed when the pointer is "
 "moved or the screen is tapped."
@@ -2702,6 +2685,9 @@ msgid ""
 "This includes any navigation controls that would simultaneously exit "
 "fullscreen, such as back buttons."
 msgstr ""
+"Cualquier control que no se ajuste al modo en pantalla completa se debe "
+"ocultar o reemplazar. Esto incluye cualquier control de navegación que pueda "
+"a la vez salir del modo a pantalla completa, como los botones de retroceso."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:43
@@ -3237,6 +3223,8 @@ msgid ""
 "Versions of application icons can also be programmatically generated for "
 "development or nightly builds."
 msgstr ""
+"Las versiones de los iconos de la aplicación se pueden generar mediante "
+"código para desarrollo o construcciones nocturnas."
 
 #. (itstool) path: section/title
 #: C/icon-design.page:58
@@ -3404,7 +3392,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icon-design.page:101
-#, fuzzy
 #| msgid ""
 #| "You are free to use different shades of these colors depending on the "
 #| "desired material effect. However, these primary colors are a good "
@@ -3419,8 +3406,9 @@ msgid ""
 msgstr ""
 "Es libre de usar diferentes sombras de estos colores, dependiendo del efecto "
 "de material que quiera. Sin embargo, estos colores primarios son una buena "
-"base para empezar. Todos los paquetes de gráficos libres incluyen la paleta "
-"de Tango preinstalada."
+"base para empezar. Tiene una paleta de GIMP/Inkscape <link href=\"https://"
+"gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?"
+"inline=false\">disponible</link>."
 
 #. (itstool) path: section/p
 #: C/icon-design.page:103
@@ -3522,7 +3510,6 @@ msgstr "Tamaño y cuadrícula"
 
 #. (itstool) path: section/p
 #: C/icon-design.page:127
-#, fuzzy
 #| msgid ""
 #| "While the icons are scalable and should work in any size, the basic "
 #| "canvas size is 16x16 grid units. You have the whole canvas to fill, but "
@@ -3539,7 +3526,7 @@ msgstr ""
 "Aunque los iconos son escalables y deben funcionar en cualquier tamaño, el "
 "tamaño básico del lienzo es de 16x16 unidades. Puede rellenar todo el "
 "lienzo, pero tenga en cuenta que un objeto rectangular completo aparecerá "
-"más grande cuando se coloque junto a otros elementos que usar trazos más "
+"más grande cuando se coloque junto a otros elementos que usen trazos más "
 "finos. Intente mantener el contraste del conjunto completo."
 
 #. (itstool) path: page/title
@@ -3602,10 +3589,9 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:35
-#, fuzzy
 #| msgid "Icons"
 msgid "Icon uses"
-msgstr "Iconos"
+msgstr "Usos de iconos"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:38
@@ -3656,7 +3642,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:49
-#| msgid "Selecting and creating icons."
 msgid "Stock icons and creating your own"
 msgstr "Iconos de almacén y crear el suyo propio"
 
@@ -4030,10 +4015,12 @@ msgid ""
 "system-wide alerts, and which persist after the notification has been "
 "initially displayed."
 msgstr ""
-"Las notificaciones integradas en las aplicaciones son apropiadas para "
-"informar al usuario de un evento relevante al uso actual de una aplicación. "
-"Son la mejor manera de ofrecer comentarios inmediatamente. Esto contrasta "
-"con las <link xref=\"notifications\">notificaciones estándar</link>, que "
+"Las notificaciones integradas en las aplicaciones se pueden usar para "
+"informar al usuario sobre eventos inmediatamente relevantes a su actividad "
+"en la aplicación, pero que no tienen interés a largo plazo.Un uso común es "
+"proporcionar información en respuesta a las acciones del usuario.  Son la "
+"mejor manera de ofrecer comentarios inmediatamente. Esto contrasta con las "
+"<link xref=\"notifications\">notificaciones estándar</link>, que "
 "proporcionan alertas de todo el sistema y que se mantienen después de que la "
 "notificación se ha mostrado inicialmente."
 
@@ -4057,10 +4044,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:29
-#| msgid ""
-#| "In-app notifications are not a good solution for communicating ongoing "
-#| "states. <link xref=\"info-bars\">Info bars</link> offer one alternative "
-#| "you can consider."
 msgid ""
 "In-app notifications are not a good solution for communicating ongoing "
 "states."
@@ -4222,7 +4205,6 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/initial-state-placeholders.page:8
-#| msgid "Image and text shown when a grid or list is empty"
 msgid "Image and text shown when an application is initially empty"
 msgstr "Imagen y texto mostrados cuando una aplicación está vacía inicialmente"
 
@@ -4247,7 +4229,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/initial-state-placeholders.page:20
-#, fuzzy
 #| msgid ""
 #| "An empty placeholder is an image and text which fills the space in an "
 #| "empty list or grid."
@@ -4255,8 +4236,9 @@ msgid ""
 "An initial state placeholder is an image and text which fills the space in "
 "an application that has never contained any content."
 msgstr ""
-"Un marcador de posición vacío es una imagen, acompañada de un texto, que "
-"rellena el espacio en una lista o rejilla vacía."
+"Un estado vacío de un marcador de posición vacío es una imagen, acompañada "
+"de un texto, que rellena el espacio en una aplicación que nunca ha tenido "
+"contenido."
 
 #. (itstool) path: section/p
 #: C/initial-state-placeholders.page:25
@@ -8239,7 +8221,6 @@ msgstr "Toque la superficie con dos dedos mientras los junta o los separa."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:154
-#| msgid "Changes the zoom level of the view (eg. Maps, Photos)."
 msgid "Changes the zoom level of the view (e.g. Maps, Photos)."
 msgstr "Cambia el nivel de ampliación de la vista (ej. Mapas, Fotos)."
 
@@ -8635,10 +8616,6 @@ msgstr "Menús primarios"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/primary-menus.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/primary-menu.svg' "
-#| "md5='4bbf02fe148cb52af80ce5565c97eefe'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/primary-menu.svg' "
@@ -8697,7 +8674,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:40
-#| msgid "General guidelines"
 msgid "Other guidelines:"
 msgstr "Otras guías:"
 
@@ -8712,17 +8688,17 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:44
-#, fuzzy
 #| msgid ""
 #| "Follow the <link xref=\"menus\">standard guidelines for menus</link>."
 msgid ""
 "Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
 "deciding on primary menu content and arrangement."
-msgstr "Sigua las <link xref=\"menus\">directrices estándar para menús</link>."
+msgstr ""
+"Sigua las <link xref=\"menus\">directrices estándar para menús</link> al "
+"decidir sobre el contenido y el orden de un menú primario."
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:45
-#, fuzzy
 #| msgid ""
 #| "A header bar menu is contained within a <link xref=\"popovers\">popover</"
 #| "link>. As such, a header bar menu can include a variety of controls, such "
@@ -8732,9 +8708,9 @@ msgid ""
 "As such, a primary menu can include a variety of controls, such as groups of "
 "buttons."
 msgstr ""
-"Un menú de la barra de cabecera está dentro de una <link xref=\"popovers"
-"\">ventana emergente</link>. Como tal, un menú de la barra de cabecera puede "
-"incluir una variedad de controles, como un grupo de botones."
+"Un menú primario está dentro de una <link xref=\"popovers\">ventana "
+"emergente</link>. Como tal, un menú primario puede incluir varios controles, "
+"como un grupo de botones."
 
 #. (itstool) path: section/title
 #: C/primary-menus.page:51
@@ -8747,6 +8723,8 @@ msgid ""
 "The following are standard primary menu items, and should be placed in a "
 "group at the end of the menu:"
 msgstr ""
+"Las siguientes opciones son elementos estándar de un menú primario y se "
+"deben colocar en un grupo al final el menú:"
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:57
@@ -8755,15 +8733,11 @@ msgstr "<gui>Preferencias</gui>"
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:58
-#| msgid ""
-#| "Opens the application's preferences dialog. Only show this menu item if "
-#| "your application has a preferences dialog."
 msgid "Opens the application's preferences dialog, if it has one."
 msgstr "Abre el diálogo de preferencias de la aplicación, si existe."
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:61
-#| msgid "<gui>About</gui>"
 msgid "<gui>Keyboard Shortcuts</gui>"
 msgstr "<gui>Atajos del teclado</gui>"
 
@@ -8774,10 +8748,6 @@ msgstr "Abre la ventana de atajos del teclado de la aplicación, si existe."
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:66
-#| msgid ""
-#| "Opens your application's user documentation in the <app>Help</app> "
-#| "application. Only show this menu item if your application has user "
-#| "documentation."
 msgid ""
 "Opens the application's user documentation in the <app>Help</app> "
 "application."
@@ -8787,7 +8757,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:69
-#| msgid "<gui>Duplicate</gui>"
 msgid "<gui>About Application</gui>"
 msgstr "<gui>Acerca de la aplicación</gui>"
 
@@ -9567,7 +9536,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:45
-#, fuzzy
 #| msgid ""
 #| "If a spinner is displayed for a long time, a label can indicate both the "
 #| "identity of the task and progress through it. This can take the form of a "
@@ -9579,10 +9547,10 @@ msgid ""
 "percentage, an indication of the time remaining, or progress through sub-"
 "components of the task (e.g. modules downloaded, or pages exported)."
 msgstr ""
-"Si es muestra un indicador de progreso durante mucho tiempo, una etiqueta "
-"puede indicar tanto la identidad de la tarea como el proceso que realiza."
-"Esto puede ser en forma de porcentaje, de indicación del tiempo restante o "
-"del progreso de las subtareas (ej. módulos descargados o páginas exportadas)"
+"Si es muestra un botón incremental durante mucho tiempo, una etiqueta puede "
+"indicar tanto la identidad de la tarea como el proceso que realiza.Esto "
+"puede ser en forma de porcentaje, de indicación del tiempo restante o del "
+"progreso de las subtareas (ej. módulos descargados o páginas exportadas)"
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:54
@@ -10670,12 +10638,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/switches.page:27
-#| msgid ""
-#| "Switches should be used for controlling services or hardware that have a "
-#| "clear on/off logic. They are particularly appropriate when those services "
-#| "or hardware do not activate immediately (ie. there is a delay between the "
-#| "switch being operated and it having an effect), or when they affect the "
-#| "operation of the application in a significant way."
 msgid ""
 "Switches should be used for controlling services or hardware that have a "
 "clear on/off logic. They are particularly appropriate when those services or "
@@ -12091,7 +12053,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:54
-#, fuzzy
 #| msgid ""
 #| "Latin abbreviations such as “ie” or “eg” should be avoided, since they "
 #| "can't always be easily translated and can be unintelligible when read by "
@@ -12101,7 +12062,7 @@ msgid ""
 "can't always be easily translated and can be unintelligible when read by "
 "screen readers. Instead, use full words like “for example”."
 msgstr ""
-"Se deben evitar las abreviaturas del latín como «ie» o «eg», ya que no "
+"Se deben evitar las abreviaturas del latín como «i.e.» o «e.g.», ya que no "
 "siempre se pueden traducir fácilmente y pueden se ininteligibles para los "
 "lectores de pantallas. En su lugar, use para completas como «por ejemplo.»"
 
