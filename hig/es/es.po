@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2020-01-08 16:04+0000\n"
-"PO-Revision-Date: 2020-01-10 13:29+0100\n"
+"POT-Creation-Date: 2020-01-10 13:02+0000\n"
+"PO-Revision-Date: 2020-01-14 11:54+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -224,6 +224,11 @@ msgid ""
 "definition of applications from a user experience perspective. It also "
 "provides guidance on basic application behavior and characteristics."
 msgstr ""
+"Esta guía de interfaz humana proporciona una ayuda para el diseño a la hora "
+"de crear aplicaciones de GNOME. Poniendo el foco en las aplicaciones, esta "
+"página proporciona una definición de las aplicaciones desde un punto de "
+"vista de la experiencia del usuario. También proporciona una guía sobre el "
+"comportamiento básico de la aplicación y sus características."
 
 #. (itstool) path: page/p
 #: C/application-basics.page:18
@@ -312,6 +317,10 @@ msgid ""
 "application metadata. Guidance on these aspects of applications can be found "
 "elsewhere."
 msgstr ""
+"Por supuesto hay otras características que se esperan de las aplicaciones, "
+"incluyendo un comportamiento estándar de la ventana, integración con el "
+"sistema y metadatos de la aplicación. La guía sobre estos aspectos de las "
+"aplicaciones se puede encontrar en cualquier otro lado."
 
 #. (itstool) path: section/title
 #: C/application-basics.page:43
@@ -413,6 +422,10 @@ msgid ""
 "\">Primary</link> and <link xref=\"secondary-menus\">secondary menus</link> "
 "should be used as alternatives.</em>"
 msgstr ""
+"<em>Los menús de las aplicaciones ya no se recomienda usarlos y su contenido "
+"no estará presente en la barra superior de GNOME 3 desde GNOME 3.32. Los "
+"menús <link xref=\"primary-menus\">primario</link> y <link xref=\"secondary-"
+"menus\">secundario</link> serán las alternativas que usar.</em>"
 
 #. (itstool) path: page/title
 #: C/button-menus.page:18
@@ -1153,6 +1166,10 @@ msgid ""
 "on different platforms. See the design page on this for more guidance on "
 "cross-platform considerations."
 msgstr ""
+"Un ejemplo de patrón de diseño que varía entre plataformas de escritorio es "
+"la <link xref=\"menu-bars\">barra de menú</link>, que toma diferentes formas "
+"en las distintas plataformas. Vea la página de diseño sobre esto para "
+"obtener más información sobre consideraciones entre plataformas."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
@@ -2206,11 +2223,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:27
-#| msgid ""
-#| "Test to make sure that your interface works well on large displays. Where "
-#| "possible, scale content to make the best use of available space, or used "
-#| "fixed width layouts to ensure that interface elements maintain effective "
-#| "grouping and alignment."
 msgid ""
 "Test to make sure that your interface works well on large displays. Where "
 "possible, scale content to make the best use of available space, or use "
@@ -2606,6 +2618,13 @@ msgid ""
 "in less screen space for the content. However, fullscreen can be used for "
 "other types of content including documents or images."
 msgstr ""
+"Es apropiado ofrecer un modo a pantalla completa cuando los usuarios "
+"probablemente quieran tener una vista del contenido sin obstáculos, "
+"particularmente si van a ver contenidos durante un período largo de tiempo. "
+"El ejemplo clásico del modo a pantalla completa es para ver vídeos, donde "
+"los controles visibles puede distraer y reducir el espacio de la pantalla "
+"para el contenido. Sin embargo, el modo a pantalla completa se puede usar "
+"para otros tipos de contenido, incluyendo los documentos o las imágenes."
 
 #. (itstool) path: section/p
 #: C/full-screen.page:26
@@ -2629,6 +2648,9 @@ msgid ""
 "Fullscreen can be triggered automatically when a content item is opened, or "
 "can be offered as a mode that can be activated by the user."
 msgstr ""
+"El modo a pantalla completa se puede lanzar automáticamente cuando se abre "
+"un elemento de contenido, o se puede ofrecer como un modo que puede activar "
+"el usuario."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:36
@@ -2647,10 +2669,6 @@ msgstr "Cuando la pantalla completa está activa"
 
 #. (itstool) path: item/p
 #: C/full-screen.page:39
-#| msgid ""
-#| "Overlaid controls can be attached to the edge of the content/window, or "
-#| "can be free-floating. <link xref=\"action-bars\">Action bars</link> can "
-#| "be treated as overlaid controls."
 msgid ""
 "All controls should be hidden, including the window's header bar, <link xref="
 "\"action-bars\">action bars</link> or <link xref=\"overlaid-controls"
@@ -3392,11 +3410,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icon-design.page:101
-#| msgid ""
-#| "You are free to use different shades of these colors depending on the "
-#| "desired material effect. However, these primary colors are a good "
-#| "baseline to start from. All major libre graphics packages come with the "
-#| "Tango palette pre-installed."
 msgid ""
 "You are free to use different shades of these colors depending on the "
 "desired material effect. However, these primary colors are a good baseline "
@@ -3510,12 +3523,6 @@ msgstr "Tamaño y cuadrícula"
 
 #. (itstool) path: section/p
 #: C/icon-design.page:127
-#| msgid ""
-#| "While the icons are scalable and should work in any size, the basic "
-#| "canvas size is 16x16 grid units. You have the whole canvas to fill, but "
-#| "note that a filled rectangular object will appear stronger/larger when "
-#| "placed next to items that only use thinner strokes. Try to keep the "
-#| "contrast of your whole set."
 msgid ""
 "While symbolic icons are scalable and should work at any size, the basic "
 "canvas size is 16×16 grid units. You have the whole canvas to fill, but note "
@@ -3589,7 +3596,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:35
-#| msgid "Icons"
 msgid "Icon uses"
 msgstr "Usos de iconos"
 
@@ -3695,7 +3701,6 @@ msgstr "Otras cosas que tener en cuenta al usar iconos:"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:67
-#, fuzzy
 #| msgid ""
 #| "Consider which icons will be meaningful in the specific context of your "
 #| "application - users of specialist tools will often be familiar with "
@@ -3711,7 +3716,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:68
-#, fuzzy
 #| msgid ""
 #| "Remember that some icons are only meaningful alongside other icons of the "
 #| "same type. For example, a media icon for stop is simply a square, and may "
@@ -3998,7 +4002,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:25
-#, fuzzy
 #| msgid ""
 #| "In-app notifications are appropriate when you want to inform the user "
 #| "about an event that is relevant to their ongoing use of an application. "
@@ -4017,7 +4020,7 @@ msgid ""
 msgstr ""
 "Las notificaciones integradas en las aplicaciones se pueden usar para "
 "informar al usuario sobre eventos inmediatamente relevantes a su actividad "
-"en la aplicación, pero que no tienen interés a largo plazo.Un uso común es "
+"en la aplicación, pero que no tienen interés a largo plazo. Un uso común es "
 "proporcionar información en respuesta a las acciones del usuario.  Son la "
 "mejor manera de ofrecer comentarios inmediatamente. Esto contrasta con las "
 "<link xref=\"notifications\">notificaciones estándar</link>, que "
@@ -4026,7 +4029,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:27
-#, fuzzy
 #| msgid ""
 #| "Allowing the user to undo a destructive action is an example of a good "
 #| "use of in-app notifications: the notification is not needed outside of "
@@ -4038,9 +4040,9 @@ msgid ""
 "action, and is shown in the most relevant context."
 msgstr ""
 "Permitir al usuario deshacer una acción destructiva es un ejemplo de buen "
-"uso de las notificaciones integradas en la aplicación: la notificación no es "
-"necesaria fuera de la ventana de la aplicación, y es relevante de inmediato. "
-"El botón permite al usuario responder al evento pulsándolo."
+"uso de las notificaciones integradas en la aplicación: la notificación se "
+"muestra inmediatamente después de la acción del usuario y es relevante en el "
+"contexto inmediato."
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:29
@@ -4229,9 +4231,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/initial-state-placeholders.page:20
-#| msgid ""
-#| "An empty placeholder is an image and text which fills the space in an "
-#| "empty list or grid."
 msgid ""
 "An initial state placeholder is an image and text which fills the space in "
 "an application that has never contained any content."
@@ -8688,8 +8687,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:44
-#| msgid ""
-#| "Follow the <link xref=\"menus\">standard guidelines for menus</link>."
 msgid ""
 "Follow the <link xref=\"menus\">standard guidelines for menus</link> when "
 "deciding on primary menu content and arrangement."
@@ -8699,10 +8696,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:45
-#| msgid ""
-#| "A header bar menu is contained within a <link xref=\"popovers\">popover</"
-#| "link>. As such, a header bar menu can include a variety of controls, such "
-#| "as groups of buttons."
 msgid ""
 "A primary menu is contained within a <link xref=\"popovers\">popover</link>. "
 "As such, a primary menu can include a variety of controls, such as groups of "
@@ -8818,6 +8811,9 @@ msgid ""
 "activated. This includes applications that mainly provide a background "
 "service."
 msgstr ""
+"Cada aplicación debe mostrar una ventana principal cuando se lanza. Esto "
+"incluye aplicaciones que proporcionen principalmente un servicio se segundo "
+"plano."
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:29
@@ -9536,11 +9532,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:45
-#| msgid ""
-#| "If a spinner is displayed for a long time, a label can indicate both the "
-#| "identity of the task and progress through it. This can take the form of a "
-#| "percentage, an indication of the time remaining, or progress through sub-"
-#| "components of the task (eg. modules downloaded, or pages exported)."
 msgid ""
 "If a spinner is displayed for a long time, a label can indicate both the "
 "identity of the task and progress through it. This can take the form of a "
@@ -11723,6 +11714,8 @@ msgid ""
 "Good visual layout also obviously makes applications more attractive and "
 "visually pleasing."
 msgstr ""
+"Un buen estilo visual hace que la aplicación sea más atractiva y amable "
+"visualmente."
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:32
@@ -12053,10 +12046,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:54
-#| msgid ""
-#| "Latin abbreviations such as “ie” or “eg” should be avoided, since they "
-#| "can't always be easily translated and can be unintelligible when read by "
-#| "screen readers. Instead, use full words like “for example”."
 msgid ""
 "Latin abbreviations such as “i.e.” or “e.g.” should be avoided, since they "
 "can't always be easily translated and can be unintelligible when read by "
