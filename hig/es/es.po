@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2020-01-10 13:02+0000\n"
-"PO-Revision-Date: 2020-01-14 11:54+0100\n"
+"POT-Creation-Date: 2020-01-14 11:41+0000\n"
+"PO-Revision-Date: 2020-01-16 12:51+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -2633,6 +2633,10 @@ msgid ""
 "it can be useful for editing tasks. Fullscreen is also typical for many "
 "games (how games should use fullscreen is not covered in this page)."
 msgstr ""
+"La pantalla completa se usa típicamente en situaciones de visualización. Sin "
+"embargo, en algunos casos puede ser útil para editar tareas. La pantalla "
+"completa también es típica en muchos juegos (en esta página no se explica "
+"cómo los juegos deberían usar la pantalla completa)."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:34
@@ -2641,6 +2645,9 @@ msgid ""
 "fullscreen for those views where it is useful — primarily those that display "
 "content items."
 msgstr ""
+"Si una aplicación usa vistas diferentes, solo es necesario activar la "
+"pantalla completa para las vistas donde es útil, principalmente aquellas que "
+"muestran elementos de contenido."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:35
@@ -2661,6 +2668,12 @@ msgid ""
 "xref=\"header-bars\">header bar</link> or <link xref=\"header-bar-menus"
 "\">header bar menu</link>."
 msgstr ""
+"Si la pantalla completa se ofrece como un modo que los usuarios activan, "
+"juzgue cómo de prominente debe hacer que el control entre en el modo a "
+"pantalla completa de acuerdo con la frecuencia con la que se usará. Por lo "
+"general, se debe colocar un botón de pantalla completa en la <link xref="
+"\"header-bars\">barra de cabecera</link> o el <link xref=\"header-bar-menus"
+"\">menú del barra de cabecera</link>."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:37
@@ -2714,6 +2727,10 @@ msgid ""
 "dialog windows that overlap content will be distracting and will detract "
 "from the immersive nature of fullscreen."
 msgstr ""
+"Haga un esfuerzo para no permitir que los controles o la interfaz de usuario "
+"obstruyan el contenido. Por ejemplo, las ventanas de diálogo que superponen "
+"contenido distraerán y restarán valor a la naturaleza inmersiva de la "
+"pantalla completa."
 
 #. (itstool) path: item/p
 #: C/full-screen.page:46
@@ -3093,6 +3110,12 @@ msgid ""
 "overview of icon styles and usage, including the stock icons that are "
 "available, see <link xref=\"icons-and-artwork\">icons and artwork</link>."
 msgstr ""
+"Esta página proporciona pautas para aquellos que crean sus propios iconos, "
+"incluidos los que son a todo color (típicamente utilizados para iconos de "
+"aplicaciones) e iconos simbólicos (típicamente utilizados para controles de "
+"interfaz de usuario). Para obtener una descripción más general de los "
+"estilos y el uso de los iconos, incluidos los disponibles, consulte la "
+"sección <link xref=\"icons-and-artwork\">iconos y arte</link>."
 
 #. (itstool) path: section/title
 #: C/icon-design.page:22
@@ -3122,6 +3145,12 @@ msgid ""
 "detail that is presentable at 64×64px resolution: anything more detailed "
 "would get lost by filtering/scaling down."
 msgstr ""
+"El estilo de ícono a todo color se usa más comúnmente para íconos de "
+"aplicaciones. El tamaño nominal de los iconos a todo color es de 128×128px. "
+"Sin embargo, debido a que los íconos de las aplicaciones a veces se "
+"presentan en resoluciones más bajas, solo deben presentar detalles que sean "
+"presentables a una resolución de 64 × 64px: cualquier cosa más detallada se "
+"perdería al filtrar / reducir."
 
 #. (itstool) path: section/p
 #: C/icon-design.page:28
@@ -3157,6 +3186,11 @@ msgid ""
 "applied to mimic the Z-axis. Please keep the effect subtle though! Raising "
 "the object more than 2 detail units (4 nominal pixels) is not recommended."
 msgstr ""
+"Los iconos a todo color deben representarse con una vista ortogonal simple y "
+"sin perspectiva real o isométrica. Para proporcionar profundidad, se puede "
+"aplicar un efecto elevado para imitar el eje Z. Mantenga el efecto sutil. No "
+"se recomienda elevar el objeto más de 2 unidades de detalle (4 píxeles "
+"nominales)."
 
 #. (itstool) path: section/p
 #: C/icon-design.page:37
@@ -3166,6 +3200,10 @@ msgid ""
 "the aspect ratio should not be extreme. Very narrow or very wide shapes "
 "should be avoided."
 msgstr ""
+"Para facilitar el reconocimiento, cada icono de la aplicación debe tener una "
+"silueta única. Sin embargo, para garantizar el equilibrio visual con otros "
+"iconos de aplicaciones, la relación de aspecto no debe ser extrema. Deben "
+"evitarse las formas muy estrechas o muy anchas."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -3220,6 +3258,12 @@ msgid ""
 "white background, for example, a strong drop shadow is rendered to help "
 "define the contours."
 msgstr ""
+"Las sombras se pueden dibujar internamente, dentro de un icono a todo color, "
+"con la fuente de luz apuntando directamente desde arriba. Sin embargo, las "
+"sombras no deben dibujarse fuera de la silueta principal del icono, ya que "
+"se generan mediante programación según el contexto. Cuando los iconos de "
+"aplicaciones se presentan sobre un fondo blanco, por ejemplo, se muestra una "
+"fuerte sombra para ayudar a definir los contornos."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -3429,6 +3473,8 @@ msgid ""
 "It is recommended to keep flat surfaces unshaded, but using gradients to "
 "signify bent surfaces is allowed."
 msgstr ""
+"Se recomienda mantener las superficies planas sin sombra, pero se permite el "
+"uso de degradados para resaltar superficies dobladas."
 
 #. (itstool) path: section/title
 #: C/icon-design.page:110
@@ -3550,6 +3596,12 @@ msgid ""
 "platform, introduces resources for creating new icons, and includes some "
 "general guidelines on using icons in user interfaces."
 msgstr ""
+"Los iconos son un elemento básico en las interfaces de usuario. También "
+"constituyen una parte fundamental de las identidades de las aplicaciones. "
+"Esta página proporciona una descripción general del uso de iconos. También "
+"describe qué iconos están disponibles a través de la plataforma GNOME, "
+"presenta recursos para crear nuevos iconos e incluye algunas pautas "
+"generales sobre el uso de iconos en las interfaces de usuario."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:22
@@ -3682,6 +3734,11 @@ msgid ""
 "use of icons can lead to confusion and a poor user experience. Likewise, the "
 "use of inappropriate icons can often make an interface difficult to use."
 msgstr ""
+"Los iconos son un elemento común de la interfaz de usuario y tienen algunas "
+"ventajas prácticas sobre las etiquetas de texto (como ser más pequeños). Al "
+"mismo tiempo, el uso excesivo de iconos puede generar confusión y una "
+"experiencia de usuario deficiente. Del mismo modo, el uso de iconos "
+"inapropiados a menudo puede dificultar el uso de una interfaz."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:62
@@ -3701,10 +3758,6 @@ msgstr "Otras cosas que tener en cuenta al usar iconos:"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:67
-#| msgid ""
-#| "Consider which icons will be meaningful in the specific context of your "
-#| "application - users of specialist tools will often be familiar with "
-#| "domain-specific symbols."
 msgid ""
 "Think about which icons will be meaningful in the specific context of your "
 "application — users of specialist tools will often be familiar with domain-"
@@ -3716,13 +3769,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:68
-#| msgid ""
-#| "Remember that some icons are only meaningful alongside other icons of the "
-#| "same type. For example, a media icon for stop is simply a square, and may "
-#| "not be identified as a stop icon without other media controls (like play, "
-#| "pause, or skip) being visible close by. Likewise, the icon to remove an "
-#| "item from a list is a subtract symbol (ie. a single line), and will not "
-#| "be recognizable without a corresponding “plus” add icon."
 msgid ""
 "Remember that some icons are only meaningful alongside other icons of the "
 "same type. For example, a media icon for stop is simply a square, and may "
@@ -4002,13 +4048,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:25
-#| msgid ""
-#| "In-app notifications are appropriate when you want to inform the user "
-#| "about an event that is relevant to their ongoing use of an application. "
-#| "They are best used to provide immediate feedback. This contrasts with "
-#| "<link xref=\"notifications\">standard notifications</link>, which provide "
-#| "system-wide alerts, and which persist after the notification has been "
-#| "initially displayed."
 msgid ""
 "In-app notifications can be used to inform users about events that are "
 "immediately relevant to their activity in an application, but which don't "
@@ -4029,11 +4068,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:27
-#| msgid ""
-#| "Allowing the user to undo a destructive action is an example of a good "
-#| "use of in-app notifications: the notification is not needed outside of "
-#| "the application window, and is immediately relevant. The button that "
-#| "allows the user to respond to the event, by pressing ."
 msgid ""
 "Allowing the user to undo a destructive action is an example of a good use "
 "of in-app notifications: the notification is shown immediately after a user "
@@ -8769,6 +8803,11 @@ msgid ""
 "ambiguous as to what a close menu item refers to. Users don't readily "
 "differentiate between quit and close, and it can therefore be misleading."
 msgstr ""
+"Los menús primarios no deben incluir elementos de menú para cerrar o salir: "
+"las ventanas ya se pueden cerrar con el botón Cerrar en la barra de "
+"encabezado, y puede ser ambiguo a qué se refiere un elemento de menú de "
+"cierre. Los usuarios no diferencian fácilmente entre salir y cerrar, y por "
+"lo tanto puede ser engañoso."
 
 #. (itstool) path: info/desc
 #: C/primary-windows.page:7
