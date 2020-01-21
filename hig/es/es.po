@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2020-01-14 11:41+0000\n"
-"PO-Revision-Date: 2020-01-16 12:51+0100\n"
+"POT-Creation-Date: 2020-01-16 11:56+0000\n"
+"PO-Revision-Date: 2020-01-21 12:15+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -3145,11 +3145,11 @@ msgid ""
 "detail that is presentable at 64×64px resolution: anything more detailed "
 "would get lost by filtering/scaling down."
 msgstr ""
-"El estilo de ícono a todo color se usa más comúnmente para íconos de "
+"El estilo de icono a todo color se usa más comúnmente para iconos de "
 "aplicaciones. El tamaño nominal de los iconos a todo color es de 128×128px. "
 "Sin embargo, debido a que los íconos de las aplicaciones a veces se "
 "presentan en resoluciones más bajas, solo deben presentar detalles que sean "
-"presentables a una resolución de 64 × 64px: cualquier cosa más detallada se "
+"presentables a una resolución de 64×64px: cualquier cosa más detallada se "
 "perdería al filtrar / reducir."
 
 #. (itstool) path: section/p
@@ -3160,6 +3160,10 @@ msgid ""
 "grid which should help you avoid adding detail that's finer than the desired "
 "threshold."
 msgstr ""
+"La <link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/blob/"
+"master/template.svg\">plantilla de icono a todo color</link> incluye una "
+"cuadrícula de 2 píxeles que debería ayudarle a evitar más detalles que sean "
+"más finos que el umbral deseado."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -3228,6 +3232,12 @@ msgid ""
 "the outside margin should be left empty. In some circumstances a small "
 "detail can be extended into this margin space."
 msgstr ""
+"Una <link href=\"https://gitlab.gnome.org/Community/Design/HIG-app-icons/raw/"
+"master/template.svg\">plantilla de cuadrícula</link> está disponible para "
+"ayudarle a colocar el contorno del icono. No intente cubrir un área máxima "
+"del lienzo: el margen exterior debe dejarse vacío. En algunas "
+"circunstancias, se puede extender un pequeño detalle en este espacio de "
+"margen."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -3523,6 +3533,9 @@ msgid ""
 "When using unfilled strokes for an outline, try avoiding hairline (1px) and "
 "do at least a 2px stroke for the main feature of the icon."
 msgstr ""
+"Cuando use trazos sin relleno para un contorno, intente evitar las líneas de "
+"1px y haga al menos un trazo de 2px para la característica principal del "
+"icono."
 
 #. (itstool) path: item/p
 #: C/icon-design.page:118
@@ -3622,6 +3635,11 @@ msgid ""
 "icons also allows them to be rendered sharp at 64×64px and 32×32px, but is "
 "not advised to make them any smaller."
 msgstr ""
+"Los iconos a todo color son coloridos y detallados, y están optimizados para "
+"tamaños más grandes. Se definen como SVG de 128×128px, y son más nítidos "
+"cuando se amplían en múltiplos de 128 (como 256✕256 y 512✕512). El diseño de "
+"iconos a todo color también les permite ser nítidos a 64×64px y 32×32px, "
+"pero no se recomienda hacerlos más pequeños."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -3645,6 +3663,11 @@ msgid ""
 "multiples of 16 (such as 32✕32, 64✕64, 128✕128). Symbolic icons generally "
 "have a neutral color, although their color can be changed programmatically."
 msgstr ""
+"Los iconos simbólicos son simples y monocromáticos, y están diseñados para "
+"funcionar bien en tamaños más pequeños. Se definen como 16✕16px SVG y se "
+"pueden escalar a múltiplos de 16 (como 32✕32, 64✕64, 128✕128). Los iconos "
+"simbólicos generalmente tienen un color neutro, aunque su color se puede "
+"cambiar mediante programación."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:35
@@ -3653,7 +3676,6 @@ msgstr "Usos de iconos"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:38
-#, fuzzy
 #| msgid ""
 #| "Every application should have a unique and beautiful application icon. It "
 #| "is the face of the application, and the first visual element a user sees "
@@ -3666,11 +3688,10 @@ msgid ""
 "the application, and the first visual element a user sees when browsing for "
 "new applications."
 msgstr ""
-"Cada aplicación debe tener un icono de aplicación único y bonito. Es la cara "
-"de la aplicación y el primer elemento visual que un usuario ve al buscar "
-"aplicaciones nuevas. La <link xref=\"application-basics\">página de "
-"conceptos básicos de aplicaciones</link> incluye detalles sobre qué es una "
-"aplicación y cuándo proporcionar un icono de aplicación."
+"Los iconos de aplicaciones son el tipo de iconos más destacado. Cada "
+"aplicación debe tener su propio icono de aplicación único y bonito: es la "
+"cara de la aplicación y el primer elemento visual que ve un usuario cuando "
+"busca nuevas aplicaciones."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:40
@@ -3680,6 +3701,10 @@ msgid ""
 "the high-contrast accessibility feature, as well as in contexts where a "
 "legible low-resolution icon is required."
 msgstr ""
+"Los iconos de las aplicaciones usan el estilo a todo color. También se "
+"recomienda que las aplicaciones proporcionen una versión simbólica de su "
+"icono, que se utiliza para la función de accesibilidad de alto contraste, "
+"así como en contextos donde se requiere un icono legible de baja resolución."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:42
@@ -3688,6 +3713,10 @@ msgid ""
 "primary icon style used for user interface controls. The most common and "
 "obvious example of symbolic icon usage is on buttons."
 msgstr ""
+"Los iconos de la interfaz de usuario suelen usar el estilo simbólico y este "
+"es el estilo de icono principal utilizado para los controles de la interfaz "
+"de usuario. El ejemplo más común y obvio del uso de iconos simbólicos está "
+"en los botones."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:44
@@ -3697,6 +3726,11 @@ msgid ""
 "focus of attention. File and folder icons in a file manager are a good "
 "example of this."
 msgstr ""
+"Además de los iconos de las aplicaciones, el estilo de ícono a todo color "
+"también se puede usar en los casos en que los iconos se muestran en tamaños "
+"grandes y están destinados a ser el centro de atención. Los iconos de "
+"archivos y carpetas en un administrador de archivos son un buen ejemplo de "
+"esto."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:49
@@ -3713,6 +3747,12 @@ msgid ""
 "have the <code>-symbolic</code> name ending, such as <code>open-menu-"
 "symbolic</code>."
 msgstr ""
+"GNOME proporciona un conjunto de iconos estándar que las aplicaciones pueden "
+"usar. Se puede acceder directamente a través de GTK. Los nombres de los "
+"iconos siguen la <link href=\"https://standards.freedesktop.org/icon-naming-"
+"spec/icon-naming-spec-latest.html\">especificación de iconos de Freedesktop</"
+"link>. Las versiones simbólicas de los iconos tienen el sufijo <code>-"
+"symbolic</code>, como <code>open-menu-symbolic</code>."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:53
@@ -3720,6 +3760,9 @@ msgid ""
 "The <link xref=\"icon-design\">icon design guidelines</link> provide more "
 "details on how to create your own icons, including application icons."
 msgstr ""
+"Las <link xref=\"icon-design\">directrices de diseño de iconos</link> "
+"proporcionan más detalles sobre cómo crear sus propios iconos, incluidos los "
+"de aplicaciones."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:58
@@ -3750,6 +3793,13 @@ msgid ""
 "icons such as search, menu, forward, back and share. If you are in doubt, "
 "only use icons which are frequently used in other applications."
 msgstr ""
+"Por lo tanto, use solo iconos cuyo significado sea comúnmente reconocido. Si "
+"un icono comúnmente reconocido no está disponible, podría ser mejor usar una "
+"etiqueta de texto. Típicamente, la convención establece qué iconos son "
+"comúnmente reconocidos. Este conjunto de iconos es bastante pequeño e "
+"incluye iconos estándar como búsqueda, menú, reenviar, retroceder y "
+"compartir. Si tiene dudas, use solo iconos que se usen con frecuencia en "
+"otras aplicaciones."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:64
@@ -4281,6 +4331,10 @@ msgid ""
 "and inviting experience. This helps to avoid the first use of the "
 "application being downbeat and unwelcoming."
 msgstr ""
+"En algunos casos, una aplicación puede estar vacía hasta que un usuario le "
+"agregue algún contenido. En estos escenarios, se puede usar un estado "
+"inicial para proporcionar una experiencia rica y atractiva. Esto ayuda a "
+"evitar que el primer uso de la aplicación sea pesimista y poco acogedor."
 
 #. (itstool) path: section/p
 #: C/initial-state-placeholders.page:27
@@ -4289,6 +4343,9 @@ msgid ""
 "going to be unavoidably empty. In many cases it is often better to pre-"
 "populate the application."
 msgstr ""
+"Un marcador de posición de estado inicial solo debe usarse cuando una "
+"aplicación va a estar inevitablemente vacía. En muchos casos, a menudo es "
+"mejor poblar previamente la aplicación."
 
 #. (itstool) path: item/p
 #: C/initial-state-placeholders.page:36
@@ -4303,6 +4360,10 @@ msgid ""
 "for it. It can also be an opportunity to strike up a relationship with the "
 "user by addressing them directly."
 msgstr ""
+"El texto que acompaña a la imagen debe ser positivo y optimista. Este es un "
+"momento en el que puede vender su aplicación y establecer una identidad "
+"positiva para ella. También puede ser una oportunidad para entablar una "
+"relación con el usuario dirigiéndose directamente a él."
 
 #. (itstool) path: item/p
 #: C/initial-state-placeholders.page:39
@@ -4312,6 +4373,10 @@ msgid ""
 "these controls insensitive will help to avoid the user being disappointed, "
 "or trying features that won't work."
 msgstr ""
+"Si bien una aplicación está inicialmente vacía, algunos controles no tienen "
+"un propósito (como los de navegar por el contenido, cambiar de vista o "
+"buscar). Hacer que estos controles sean insensibles ayudará a evitar que el "
+"usuario se decepcione o pruebe funciones que no funcionarán."
 
 #. (itstool) path: item/p
 #: C/initial-state-placeholders.page:40
@@ -4321,6 +4386,10 @@ msgid ""
 "subsequently, an <link xref=\"empty-placeholder\">empty state can be used</"
 "link>."
 msgstr ""
+"Un estado inicial debe perseverar hasta que se agregue contenido a la "
+"aplicación, después de lo cual no se debe volver a ver. Si la aplicación se "
+"vacía posteriormente, se puede usar un <link xref=\"empty-placeholder"
+"\">estado vacío</link>."
 
 #. (itstool) path: page/title
 #: C/keyboard-input.page:27
@@ -8666,6 +8735,12 @@ msgid ""
 "include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
 "<gui>About Application</gui>, as well as other application-specific items."
 msgstr ""
+"Los menús principales son un patrón de diseño estándar que se encuentra en "
+"la mayoría de las aplicaciones. Están etiquetados con el icono de menú "
+"(llamado <code>menu-open</code>) y contienen los elementos de menú de nivel "
+"superior para la aplicación. Esto puede incluir elementos estándar como "
+"<gui>Preferencias</gui>, <gui>Ayuda</gui> y <gui>Acerca de la aplicación</"
+"gui>, así como otros elementos específicos de la aplicación."
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:26
@@ -8674,6 +8749,9 @@ msgid ""
 "for <gui>About Application</gui>, which every application is expected to "
 "have."
 msgstr ""
+"La mayoría de las aplicaciones tienen menús primarios, ya que son la "
+"ubicación estándar para <gui>Acerca de la aplicación</gui>, que se espera "
+"que tenga cada aplicación."
 
 #. (itstool) path: section/title
 #: C/primary-menus.page:31 C/secondary-menus.page:32
@@ -8686,6 +8764,8 @@ msgid ""
 "Primary menus are typically placed on the right side of the header bar. "
 "However, there are two variations on this rule:"
 msgstr ""
+"Los menús principales generalmente se colocan en el lado derecho de la barra "
+"de cabecera. Sin embargo, hay dos variaciones en esta regla:"
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:36
@@ -8695,6 +8775,10 @@ msgid ""
 "level: sub-pages can include a <link xref=\"secondary-menus\">secondary "
 "menu</link>, if a menu is required."
 msgstr ""
+"Si la aplicación incorpora navegación en la ventana, con una ubicación de "
+"nivel superior y subpáginas, el menú principal solo debe colocarse en el "
+"nivel superior: las subpáginas pueden incluir un menú secundario <link xref="
+"\"secondary-menús\"> </link>, si se requiere un menú."
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:37
@@ -8704,6 +8788,11 @@ msgid ""
 "right. If a menu is required for items shown in the content side of the "
 "window, a <link xref=\"secondary-menus\">secondary menu</link> can be used."
 msgstr ""
+"Cuando se usa en combinación con una <link xref=\"sidebar-lists\">lista en "
+"la barra lateral</link>, el menú principal debe colocarse encima de la lista "
+"de la barra lateral a la derecha. Si se necesita un menú para los elementos "
+"que se muestran en el lado del contenido de la ventana, se puede usar un "
+"<link xref=\"secundario-menús\">menú secundario</link>."
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:40
@@ -8718,6 +8807,10 @@ msgid ""
 "\"secondary-menus\">secondary menus</link>, which only contain menu items "
 "that relate to a specific view or item."
 msgstr ""
+"Los menús primarios pueden contener elementos tanto para la ventana o vista "
+"actual, como para la aplicación en su conjunto. Esto los diferencia de <link "
+"xref=\"secundario-menús\">menús secundarios</link>, que solo contienen "
+"elementos de menú que se relacionan con una vista o elemento específico."
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:44
@@ -8794,6 +8887,9 @@ msgid ""
 "application's name, such as <gui>About Photos</gui> or <gui>About "
 "Calculator</gui>. Every primary menu should include this item."
 msgstr ""
+"Abre el cuadro de diálogo sobre la aplicación. Este elemento debe incluir el "
+"nombre de la aplicación, como <gui>Acerca de las fotos</gui> o <gui>Acerca "
+"de la calculadora</gui>. Cada menú principal debe incluir este elemento."
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:74
@@ -9974,6 +10070,11 @@ msgid ""
 "to an entire application (such as <gui>Preferences</gui> and <gui>About "
 "\"Name\"</gui>)."
 msgstr ""
+"Los menús secundarios se encuentran en la barra de encabezado e incluyen "
+"elementos de menú para la vista actual o el elemento de contenido. Esto los "
+"diferencia de <link xref=\"primary-menus\">menús primarios</link>, que "
+"incluyen elementos de menú que se relacionan con una aplicación completa "
+"(como <gui>Preferencias</gui> y <gui>Acerca de «Nombre»</gui>)."
 
 #. (itstool) path: section/p
 #: C/secondary-menus.page:25
@@ -9985,6 +10086,12 @@ msgid ""
 "\">sidebar lists</link>, since both these arrangements feature separate "
 "views or areas for content items to be shown."
 msgstr ""
+"Los menús secundarios se pueden usar para alojar controles relacionados con "
+"un elemento de contenido particular que se muestra en la ventana de la "
+"aplicación (como un documento, contacto, conversación o foto). Por lo "
+"general, se usan en combinación con la navegación en la ventana o <link xref="
+"\"sidebar-lists\">listas en la barra lateral</link>, ya que ambos arreglos "
+"cuentan con vistas o áreas separadas para mostrar elementos de contenido."
 
 #. (itstool) path: section/p
 #: C/secondary-menus.page:27
