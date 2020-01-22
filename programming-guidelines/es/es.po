@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-12-31 08:53+0000\n"
-"PO-Revision-Date: 2020-01-21 12:55+0100\n"
+"POT-Creation-Date: 2020-01-21 11:57+0000\n"
+"PO-Revision-Date: 2020-01-22 13:26+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -64,7 +64,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:32
-#, fuzzy
 #| msgid ""
 #| "<link href=\"http://producingoss.com/\">Produducing Open Source Software</"
 #| "link>, by Karl Fogel. This is a truly excellent book of good practices "
@@ -109,7 +108,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:57
-#, fuzzy
 #| msgid ""
 #| "<link href=\"https://www.kernel.org/doc/Documentation/CodingStyle\">Linux "
 #| "Kernel Coding Style</link>. Explains the rationale for \"big indentation"
@@ -121,10 +119,10 @@ msgid ""
 "indentation\", brace placement, concise but unambiguous naming, and "
 "centralized exit of functions."
 msgstr ""
-"<link href=\"https://www.kernel.org/doc/Documentation/CodingStyle\">Linux "
-"Kernel Coding Style</link>. Explica la lógica de «la gran sangría», el lugar "
-"de las llaves, denominación concisa pero sin ambigüedades, y la salida "
-"centralizada de funciones."
+"<link href=\"https://www.kernel.org/doc/Documentation/process/coding-style."
+"rst\">Linux Kernel Coding Style</link>. Explica la lógica de «la gran "
+"sangría», el lugar de las llaves, denominación concisa pero sin "
+"ambigüedades, y la salida centralizada de funciones."
 
 #. (itstool) path: credit/name
 #: C/api-stability.page:10 C/async-programming.page:11 C/databases.page:11
@@ -462,7 +460,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/api-stability.page:185
-#, fuzzy
 #| msgid ""
 #| "<link href=\"http://en.wikipedia.org/wiki/"
 #| "Application_programming_interface\">Wikipedia page on APIs</link>"
@@ -470,14 +467,11 @@ msgid ""
 "<link href=\"https://en.wikipedia.org/wiki/Application_programming_interface"
 "\">Wikipedia page on APIs</link>"
 msgstr ""
-"<link href=\"http://en.wikipedia.org/wiki/Application_programming_interface"
+"<link href=\"https://en.wikipedia.org/wiki/Application_programming_interface"
 "\">Página de la Wikipedia sobre API</link>"
 
 #. (itstool) path: item/p
 #: C/api-stability.page:189
-#| msgid ""
-#| "<link href=\"http://en.wikipedia.org/wiki/Application_binary_interface"
-#| "\">Wikipedia page on ABIs</link>"
 msgid ""
 "<link href=\"https://en.wikipedia.org/wiki/Application_binary_interface"
 "\">Wikipedia page on ABIs</link>"
@@ -501,7 +495,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/async-programming.page:23
-#| msgid "Asynchronous I/O"
 msgid "Asynchronous Programming"
 msgstr "Programación asíncrona"
 
@@ -602,17 +595,6 @@ msgstr ""
 #. (itstool) path: item/code
 #: C/async-programming.page:98
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "void\n"
-#| "some_blocking_function_async (void                 *param1,\n"
-#| "                              void                 *param2,\n"
-#| "                              GCancellable         *cancellable,\n"
-#| "                              GAsyncReadyCallback   callback,\n"
-#| "                              gpointer              user_data);\n"
-#| "int\n"
-#| "some_blocking_function_finish (GAsyncResult        *result,\n"
-#| "                               GError             **error);\n"
 msgid ""
 "\n"
 "foo_file_load_data_async (FooFile             *self,\n"
@@ -631,11 +613,6 @@ msgstr ""
 #. (itstool) path: item/code
 #: C/async-programming.page:106
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "return_type          function_name           (type   argument,\n"
-#| "                                              type   argument,\n"
-#| "                                              type   argument);"
 msgid ""
 "\n"
 "foo_file_load_data_finish (FooFile       *self,\n"
@@ -772,7 +749,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/async-programming.page:205
 msgid "Single Operation"
-msgstr ""
+msgstr "Operación individual"
 
 #. (itstool) path: section/p
 #: C/async-programming.page:207
@@ -1135,7 +1112,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/async-programming.page:411
 msgid "Operations in Series"
-msgstr ""
+msgstr "Operaciones en serie"
 
 #. (itstool) path: section/p
 #: C/async-programming.page:413
@@ -1157,7 +1134,7 @@ msgstr ""
 #: C/async-programming.page:425 C/async-programming.page:710
 #: C/async-programming.page:880
 msgid "Key points in this example are:"
-msgstr ""
+msgstr "Los puntos clave en este ejemplo son:"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:429
@@ -1963,10 +1940,9 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/async-programming.page:855
-#, fuzzy
 #| msgid "<code>GTask</code>"
 msgid "Wrapping with <code>GTask</code>"
-msgstr "<code>GTask</code>"
+msgstr "Envoltorio con <code>GTask</code>"
 
 #. (itstool) path: section/p
 #: C/async-programming.page:857
@@ -2882,6 +2858,11 @@ msgid ""
 "may even want to tell your editor to automatically convert all tabs to 8 "
 "spaces, so that there is no ambiguity about the intended amount of space."
 msgstr ""
+"En su lugar, configure el <em>tamaño de sangría</em> según corresponda para "
+"el código que está editando. Al escribir en algo que no sea el estilo del "
+"kernel de Linux, incluso puede pedirle a su editor que convierta "
+"automáticamente todos los tabuladores a 8 espacios, para que no haya "
+"ambigüedad sobre la cantidad de espacio prevista."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:188
@@ -2915,6 +2896,8 @@ msgstr ""
 #: C/c-coding-style.page:201
 msgid "The “no block for single statements” rule has only four exceptions:"
 msgstr ""
+"La regla «sin bloqueo para declaraciones únicas» tiene solo cuatro "
+"excepciones:"
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:208
@@ -3201,6 +3184,8 @@ msgid ""
 "While curly braces for function definitions should rest on a new line they "
 "should not add an indentation level:"
 msgstr ""
+"Si bien las llaves para las definiciones de funciones deben descansar en una "
+"nueva línea, no deben agregar un nivel de sangría:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:357
@@ -3436,6 +3421,9 @@ msgid ""
 "The argument list must be broken into a new line for each argument, with the "
 "argument names right aligned, taking into account pointers:"
 msgstr ""
+"La lista de argumentos debe dividirse en una nueva línea para cada "
+"argumento, con los nombres de los argumentos alineados a la derecha, "
+"teniendo en cuenta los punteros:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:474
@@ -3475,6 +3463,8 @@ msgid ""
 "The alignment also holds when invoking a function without breaking the line "
 "length limit:"
 msgstr ""
+"La alineación también se mantiene cuando se invoca una función sin romper el "
+"límite de longitud de línea:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:495
@@ -3551,6 +3541,8 @@ msgid ""
 "When declaring a structure type use newlines to separate logical sections of "
 "the structure:"
 msgstr ""
+"Al declarar un tipo de estructura, utilice líneas nuevas para separar "
+"secciones lógicas de la estructura:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:531
@@ -3629,6 +3621,8 @@ msgid ""
 "This is a little Emacs function that you can use to clean up lines with "
 "trailing whitespace:"
 msgstr ""
+"Esta es una pequeña función de Emacs que puede usar para limpiar líneas con "
+"espacios en blanco al final:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:569
@@ -4378,6 +4372,8 @@ msgstr "Normalmente, se prefieren las funciones en línea a las macros privadas"
 #: C/c-coding-style.page:962
 msgid "Public macros should not be used unless they evaluate to a constant."
 msgstr ""
+"Las macros públicas no deben usarse a menos que se evalúen como una "
+"constante."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:969
@@ -4391,6 +4387,9 @@ msgid ""
 "platforms. It is always preferable to add getters and setters instead. Also, "
 "beware global variables in general."
 msgstr ""
+"Evite exportar variables como API públicas, ya que esto es engorroso en "
+"algunas plataformas. Siempre es preferible agregar «getters» y «setters» en "
+"su lugar. También tenga cuidado con las variables globales en general."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:980
@@ -4514,6 +4513,8 @@ msgid ""
 "GOM should be used if you need advanced features, especially indexing. GVDB "
 "should be used otherwise."
 msgstr ""
+"GOM debe usarse si necesita funciones avanzadas, especialmente indexación. "
+"En otros casos debe usarse GVDB."
 
 #. (itstool) path: section/p
 #: C/databases.page:74
@@ -4840,6 +4841,9 @@ msgid ""
 "Documentation comments for macros, function types, class structs, etc. "
 "should be placed next to the definitions, typically in header files."
 msgstr ""
+"Los comentarios de documentación para macros, tipos de funciones, "
+"estructuras de clase, etc. deben colocarse junto a las definiciones, "
+"generalmente en archivos de encabezado."
 
 #. (itstool) path: section/p
 #: C/documentation.page:200
@@ -4847,6 +4851,8 @@ msgid ""
 "Section introductions should be placed in the source file they describe, "
 "after the license header:"
 msgstr ""
+"Las introducciones de la sección deben colocarse en el archivo fuente que "
+"describen, después del encabezado de la licencia:"
 
 #. (itstool) path: section/code
 #: C/documentation.page:205
@@ -4908,6 +4914,9 @@ msgid ""
 "They add important information about parameter types, nullability and memory "
 "management to the C API documentation generated by gtk-doc."
 msgstr ""
+"Añaden información importante sobre los tipos de parámetros, la nulabilidad "
+"y la administración de memoria a la documentación de la API C generada por "
+"gtk-doc."
 
 #. (itstool) path: item/p
 #: C/documentation.page:244
@@ -4915,6 +4924,8 @@ msgid ""
 "They allow public APIs to be automatically bound in other languages, such as "
 "Python or JavaScript."
 msgstr ""
+"Permiten que las API públicas se vinculen automáticamente en otros "
+"lenguajes, como Python o JavaScript."
 
 #. (itstool) path: section/p
 #: C/documentation.page:250
@@ -4925,6 +4936,11 @@ msgid ""
 "only exists in the form of human readable documentation or convention. They "
 "are very important."
 msgstr ""
+"Las anotaciones de introspección agregan información a las API (funciones, "
+"parámetros de función, valores de retorno de función, estructuras, "
+"propiedades de GObject, señales de GObject) que de otro modo no está "
+"presente en la API de C legible por máquina y solo existe en forma de "
+"documentación o convenio legible por humanos. Son muy importantes"
 
 #. (itstool) path: section/p
 #: C/documentation.page:258
@@ -5246,6 +5262,10 @@ msgid ""
 "user input, incoming networking packets, timeouts and idle callbacks, are "
 "not handled until the blocking function returns."
 msgstr ""
+"La E / S síncrona bloquea el bucle principal, lo que significa que otros "
+"eventos, como la entrada del usuario, los paquetes de red entrantes, los "
+"tiempos de espera y las devoluciones de llamadas inactivas, no se manejan "
+"hasta que vuelve la función de bloqueo."
 
 #. (itstool) path: section/p
 #: C/file-system.page:84
@@ -5647,7 +5667,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/index.page:50
 msgid "This guide has a two-fold purpose:"
-msgstr ""
+msgstr "Esta guía tiene un doble propósito:"
 
 #. (itstool) path: item/p
 #: C/index.page:56
@@ -5720,7 +5740,7 @@ msgstr "Referencias"
 #. (itstool) path: info/desc
 #: C/introspection.page:17
 msgid "GObject Introspection support in library code"
-msgstr ""
+msgstr "Soporte de introspección GObject en código de biblioteca"
 
 #. (itstool) path: page/title
 #: C/introspection.page:20
@@ -6219,7 +6239,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/main-contexts.page:24
 msgid "GLib Main Contexts"
-msgstr ""
+msgstr "Contextos principales de GLib"
 
 #. (itstool) path: item/p
 #: C/main-contexts.page:30
@@ -6314,7 +6334,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/main-contexts.page:95
 msgid "Dispatch callbacks from those sources."
-msgstr ""
+msgstr "Enviar retrollamadas de esas fuentes."
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:100
@@ -8350,6 +8370,9 @@ msgid ""
 "non-standard, and not read by any tools, but can form a convention if used "
 "consistently."
 msgstr ""
+"La propiedad de las variables se puede documentar mediante comentarios en "
+"línea. Estos no son estándar y no se leen por ninguna herramienta, pero "
+"pueden formar un convenio si se usan de manera consistente."
 
 #. (itstool) path: section/code
 #: C/memory-management.page:519
@@ -10737,7 +10760,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/tooling.page:121
-#, fuzzy
 #| msgid ""
 #| "<code>AX_COMPILER_FLAGS</code> enables a consistent set of compiler "
 #| "warnings, and also tests that the compiler supports each flag before "
@@ -10765,18 +10787,6 @@ msgid ""
 "may have to remain in autoconf-archive, with that as a build time dependency "
 "of the project:"
 msgstr ""
-"<code>AX_COMPILER_FLAGS</code> enables a consistent set of compiler "
-"warnings, and also tests that the compiler supports each flag before "
-"enabling it. This accounts for differences in the set of flags supported by "
-"GCC and Clang. To use it, add <code>AX_COMPILER_FLAGS</code> to "
-"<file>configure.ac</file>. If you are using in-tree copies of autoconf-"
-"archive macros, copy <link href=\"http://git.savannah.gnu.org/gitweb/?"
-"p=autoconf-archive.git;a=blob_plain;f=m4/ax_compiler_flags.m4\"> "
-"<file>ax_compiler_flags.m4</file></link> to the <file>m4/</file> directory "
-"of your project. Note that it depends on the following autoconf-archive "
-"macros which are GPL-licenced so potentially cannot be copied in-tree. They "
-"may have to remain in autoconf-archive, with that as a build time dependency "
-"of the project:"
 
 #. (itstool) path: item/p
 #: C/tooling.page:136
@@ -10928,9 +10938,6 @@ msgstr "Añada <code>AX_VALGRIND_CHECK</code> a <file>configure.ac</file>."
 
 #. (itstool) path: item/p
 #: C/tooling.page:233
-#| msgid ""
-#| "Add <code>@VALGRIND_CHECK_RULES</code> to the top-level <file>Makefile."
-#| "am</file>."
 msgid ""
 "Add <code>@VALGRIND_CHECK_RULES@</code> to the <file>Makefile.am</file> in "
 "each directory which contains unit tests."
@@ -10940,7 +10947,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/tooling.page:239
-#, fuzzy
 #| msgid ""
 #| "When <cmd>make check-valgrind</cmd> is run, it will save its results in "
 #| "<file>test-suite-*.log</file>, one log file per tool."
@@ -10949,8 +10955,10 @@ msgid ""
 "<file>test-suite-*.log</file>, one log file per tool. Note that you will "
 "need to run it from the directory containing the unit tests."
 msgstr ""
-"Cuando se ejecuta <cmd>make check-valgrind</cmd> guardad los resultados en "
-"<file>test-suite-*.log</file>, un archivo de registro por herramienta."
+"Cuando se ejecuta <cmd>make check-valgrind</cmd> guarda los resultados en "
+"<file>test-suite-*.log</file>, un archivo de registro por herramienta. Tenga "
+"en cuenta que necesitará ejecutarlo en la carpeta que contiene las pruebas "
+"unitarias."
 
 #. (itstool) path: section/p
 #: C/tooling.page:251
@@ -11817,7 +11825,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:282
-#, fuzzy
 #| msgid ""
 #| "<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Software "
 #| "design for testing</link>"
@@ -11825,14 +11832,11 @@ msgid ""
 "<link href=\"https://en.wikipedia.org/wiki/Software_testability\">Software "
 "testability</link>"
 msgstr ""
-"<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Diseño de "
-"software para pruebas</link>"
+"<link href=\"https://en.wikipedia.org/wiki/Software_testability"
+"\">Verificación de software</link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:286
-#| msgid ""
-#| "<link href=\"http://en.wikipedia.org/wiki/Dependency_injection"
-#| "\">Dependency injection</link>"
 msgid ""
 "<link href=\"https://en.wikipedia.org/wiki/Dependency_injection\">Dependency "
 "injection</link>"
@@ -12122,6 +12126,9 @@ msgid ""
 "libtool version specified in addition to their package version. Applications "
 "just have a package version."
 msgstr ""
+"La versión del módulo difiere para bibliotecas y aplicaciones: las "
+"bibliotecas necesitan una versión de libtool especificada además de su "
+"versión de paquete. Las aplicaciones solo tienen una versión de paquete."
 
 #. (itstool) path: item/p
 #: C/versioning.page:32
@@ -12202,6 +12209,8 @@ msgid ""
 "Otherwise, if changing or adding a feature, or adding any API, increment "
 "minor and set micro to 0."
 msgstr ""
+"De lo contrario, si cambia o agrega una característica, o agrega cualquier "
+"API, incremente la menor y establezca la micro en 0."
 
 #. (itstool) path: item/p
 #: C/versioning.page:87
@@ -12714,10 +12723,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-good-code.page:137
-#| msgid ""
-#| "<link href=\"http://en.wikipedia.org/wiki/Design_Patterns\"> Design "
-#| "Patterns: Elements of Reusable Object-Oriented Software </link>, by Erich "
-#| "Gamma, Richard Helm, Ralph Johnson and John Vlissides."
 msgid ""
 "<link href=\"https://en.wikipedia.org/wiki/Design_Patterns\"> Design "
 "Patterns: Elements of Reusable Object-Oriented Software </link>, by Erich "
