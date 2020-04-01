@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2020-01-21 11:57+0000\n"
-"PO-Revision-Date: 2020-01-22 13:26+0100\n"
+"POT-Creation-Date: 2020-01-22 12:27+0000\n"
+"PO-Revision-Date: 2020-04-01 11:50+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 3.34.0\n"
+"X-Generator: Gtranslator 3.36.0\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -24,7 +24,7 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Daniel Mustieles <daniel.mustieles@gmail.com>, 2016-2020\n"
-"Javier Mazorra <mazi.debian@gmail.com>, 2016"
+"Javier Mazorra <mazi.debian@gmail.com>, 2016, 2020"
 
 #. (itstool) path: credit/name
 #: C/additional-materials.page:10 C/c-coding-style.page:10
@@ -64,14 +64,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:32
-#| msgid ""
-#| "<link href=\"http://producingoss.com/\">Produducing Open Source Software</"
-#| "link>, by Karl Fogel. This is a truly excellent book of good practices "
-#| "that free software projects should follow. This is about <em>social "
-#| "aspects</em> of the project: how to treat contributors, how to organize "
-#| "and moderate communication, how to deal with non-profit foundations. If "
-#| "you ask yourself at any time, \"how should I deal with $human_situation "
-#| "in the project?\", this book may provide the answer."
 msgid ""
 "<link href=\"http://producingoss.com/\">Producing Open Source Software</"
 "link>, by Karl Fogel. This is a truly excellent book of good practices that "
@@ -108,11 +100,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:57
-#| msgid ""
-#| "<link href=\"https://www.kernel.org/doc/Documentation/CodingStyle\">Linux "
-#| "Kernel Coding Style</link>. Explains the rationale for \"big indentation"
-#| "\", brace placement, concise but unambiguous naming, and centralized exit "
-#| "of functions."
 msgid ""
 "<link href=\"https://www.kernel.org/doc/Documentation/process/coding-style."
 "rst\"> Linux Kernel Coding Style</link>. Explains the rationale for \"big "
@@ -460,9 +447,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/api-stability.page:185
-#| msgid ""
-#| "<link href=\"http://en.wikipedia.org/wiki/"
-#| "Application_programming_interface\">Wikipedia page on APIs</link>"
 msgid ""
 "<link href=\"https://en.wikipedia.org/wiki/Application_programming_interface"
 "\">Wikipedia page on APIs</link>"
@@ -491,7 +475,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/async-programming.page:18
 msgid "Use of GLib-style asynchronous methods in various situations"
-msgstr ""
+msgstr "Uso de métodos asíncronos al estilo de GLib en varias situaciones"
 
 #. (itstool) path: page/title
 #: C/async-programming.page:23
@@ -504,6 +488,8 @@ msgid ""
 "Use asynchronous calls in preference to synchronous calls or explicit use of "
 "threads (<link xref=\"#concepts\"/>)"
 msgstr ""
+"Uso de llamadas asíncronas con preferencia a las llamadas síncronas o uso "
+"explícito de hilos (<link xref=“#concepts”/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:33
@@ -511,6 +497,8 @@ msgid ""
 "Learn and follow the GLib pattern for declaring asynchronous APIs (<link "
 "xref=\"#api-pattern\"/>)"
 msgstr ""
+"Aprenda y siga el patrón de GLib para declarar API asíncronas (<link "
+"xref=“#api-pattern”/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:37
@@ -518,6 +506,9 @@ msgid ""
 "Place callbacks from asynchronous functions in order down the file, so "
 "control flow is easy to follow (<link xref=\"#single-call\"/>)"
 msgstr ""
+"Coloque el retorno de llamadas de funciones asíncronas en orden descendente "
+"del archivo para que el control del flujo sea fácil de seguir (<link "
+"xref=“#single-call”/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:41
@@ -536,6 +527,10 @@ msgid ""
 "start, and how many are yet to finish — the overall operation is complete "
 "once both counts are zero (<link xref=\"#parallel\"/>)"
 msgstr ""
+"Si ejecuta operaciones en paralelo, realice un seguimiento de cuántas "
+"operaciones aún deben comenzar y cuántas aún deben finalizar — la operación "
+"global se completa una vez que ambos recuentos son cero (<link xref = “# "
+"parallel” />)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:54
@@ -552,6 +547,8 @@ msgid ""
 "Consider how asynchronous methods on an object instance interact with "
 "finalization of that instance (<link xref=\"#lifetimes\"/>)"
 msgstr ""
+"Considere cómo los métodos asíncronos en una instancia de un objeto "
+"interactúan con la finalización de esa instancia (<link xref=“#lifetimes”/>)"
 
 #. (itstool) path: section/title
 #: C/async-programming.page:68
@@ -582,7 +579,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/async-programming.page:89
 msgid "API Pattern"
-msgstr ""
+msgstr "Patrón API"
 
 #. (itstool) path: section/p
 #: C/async-programming.page:91
@@ -591,6 +588,9 @@ msgid ""
 "named <code>load_data</code> on the <code>File</code> class in the "
 "<code>Foo</code> namespace, there will be:"
 msgstr ""
+"Las llamadas asíncronas siguen un patrón estándar en código GLib. Para una "
+"operación llamada <code>load_data</code> en la clase <code>File</code> en el "
+"espacio de nombres <code>Foo</code>, habrá:"
 
 #. (itstool) path: item/code
 #: C/async-programming.page:98
@@ -733,7 +733,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/async-programming.page:193
 msgid "Examples of Using Asynchronous Functions"
-msgstr ""
+msgstr "Ejemplos de uso de funciones asíncronas"
 
 #. (itstool) path: section/p
 #: C/async-programming.page:195
@@ -1142,6 +1142,8 @@ msgid ""
 "Each callback is numbered consistently, and they are all placed in order in "
 "the file so the code follows sequentially."
 msgstr ""
+"Cada retorno de llamada es numerada consistentemente y están todas colocadas "
+"en orden en el archivo para que el código siga secuencialmente."
 
 #. (itstool) path: item/p
 #: C/async-programming.page:433
@@ -1940,7 +1942,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/async-programming.page:855
-#| msgid "<code>GTask</code>"
 msgid "Wrapping with <code>GTask</code>"
 msgstr "Envoltorio con <code>GTask</code>"
 
@@ -4424,7 +4425,7 @@ msgstr ""
 #. (itstool) path: license/p
 #: C/cc-by-sa-3-0.xml:3
 msgid "This work is licensed under a <_:link-1/>."
-msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
+msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
 
 #. (itstool) path: license/p
 #: C/cc-by-sa-3-0.xml:6
@@ -10760,19 +10761,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/tooling.page:121
-#| msgid ""
-#| "<code>AX_COMPILER_FLAGS</code> enables a consistent set of compiler "
-#| "warnings, and also tests that the compiler supports each flag before "
-#| "enabling it. This accounts for differences in the set of flags supported "
-#| "by GCC and Clang. To use it, add <code>AX_COMPILER_FLAGS</code> to "
-#| "<file>configure.ac</file>. If you are using in-tree copies of autoconf-"
-#| "archive macros, copy <link href=\"http://git.savannah.gnu.org/gitweb/?"
-#| "p=autoconf-archive.git;a=blob_plain;f=m4/ax_compiler_flags.m4\"> "
-#| "<file>ax_compiler_flags.m4</file></link> to the <file>m4/</file> "
-#| "directory of your project. Note that it depends on the following autoconf-"
-#| "archive macros which are GPL-licenced so potentially cannot be copied in-"
-#| "tree. They may have to remain in autoconf-archive, with that as a build "
-#| "time dependency of the project:"
 msgid ""
 "<code>AX_COMPILER_FLAGS</code> enables a consistent set of compiler "
 "warnings, and also tests that the compiler supports each flag before "
@@ -10947,9 +10935,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/tooling.page:239
-#| msgid ""
-#| "When <cmd>make check-valgrind</cmd> is run, it will save its results in "
-#| "<file>test-suite-*.log</file>, one log file per tool."
 msgid ""
 "When <cmd>make check-valgrind</cmd> is run, it will save its results in "
 "<file>test-suite-*.log</file>, one log file per tool. Note that you will "
@@ -11825,9 +11810,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:282
-#| msgid ""
-#| "<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Software "
-#| "design for testing</link>"
 msgid ""
 "<link href=\"https://en.wikipedia.org/wiki/Software_testability\">Software "
 "testability</link>"
