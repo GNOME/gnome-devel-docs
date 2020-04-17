@@ -11,7 +11,7 @@
       <name>Jakub Steiner</name>
     </credit>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
-    <desc>Mouse, touchpad and touchscreen interaction.</desc>  
+    <desc>Mouse, touchpad and touchscreen interaction.</desc>
   </info>
 
 <title>Pointer and touch input</title>
@@ -105,7 +105,7 @@
 <section id="touch-input">
 <title>Touch input</title>
 
-<p>Touch screens are also an increasingly common part of modern computer hardware, and applications created with GTK+ are likely to be used with hardware that incorporates a touch screen. To make the most of this hardware, and to conform to users’ expectations, it is therefore important to consider touch input as a part of application design.</p>
+<p>Touch screens are also an increasingly common part of modern computer hardware, and applications created with GTK are likely to be used with hardware that incorporates a touch screen. To make the most of this hardware, and to conform to users’ expectations, it is therefore important to consider touch input as a part of application design.</p>
 
 <section id="application-touch-conventions">
 <title>Application touch conventions</title>

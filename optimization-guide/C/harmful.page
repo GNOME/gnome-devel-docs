@@ -68,4 +68,4 @@
     <p>
         The trouble with disk seeks are compounded for reads, which is unfortunately what we are doing.  Remember, reads are generally synchronous while writes are asynchronous.  This only compounds the problem, serializing each read, and contributing to program latency.
     </p>
-</page>        
+</page>

@@ -4,7 +4,7 @@
 
   <info>
     <link type="guide" xref="patterns#primary"/>
-    <desc>Pattern for selecting content items</desc>  
+    <desc>Pattern for selecting content items</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

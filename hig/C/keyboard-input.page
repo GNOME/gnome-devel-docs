@@ -21,7 +21,7 @@
       <name>Colin Robertson</name>
     </credit>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
-    <desc>Keyboard navigation, access and shortcut keys.</desc>  
+    <desc>Keyboard navigation, access and shortcut keys.</desc>
   </info>
 
 <title>Keyboard input</title>
@@ -30,7 +30,7 @@
 
 <p>You should ensure that all the functionality provided by your application can be accessed using a keyboard. Trying to use your application with only a keyboard is a great way to test this.</p>
 
-<p>Keyboard interaction has three aspects in GNOME and GTK+: navigation, access keys, and shortcut keys. <link xref="search">Search</link> is another, additional aspect.</p>
+<p>Keyboard interaction has three aspects in GNOME and GTK: navigation, access keys, and shortcut keys. <link xref="search">Search</link> is another, additional aspect.</p>
 
 <section id="keyboard-navigation">
 <title>Keyboard navigation</title>
@@ -38,7 +38,7 @@
 <p>Make sure that it is possible to move around and interact with every part of your user interface using the keyboard, by following these guidelines.</p>
 
 <list>
-<item><p>Follow the standard GNOME keys for navigation. <key>Tab</key> is the standard key for moving around an interface with GTK+ and GNOME.</p></item>
+<item><p>Follow the standard GNOME keys for navigation. <key>Tab</key> is the standard key for moving around an interface with GTK and GNOME.</p></item>
 <item><p>Use a logical keyboard navigation order. When navigating around a window with <key>Tab</key>, keyboard focus should move between controls in a predictable order. In Western locales, this is normally left to right and top to bottom.</p></item>
 <item><p>In addition to navigation using <key>Tab</key>, make an effort to allow movement using the arrow keys, both within user interface elements (such as lists, icon grids or sidebars), and between them.</p></item>
 </list>

@@ -4,7 +4,7 @@
 
   <info>
     <link type="guide" xref="patterns#primary"/>
-    <desc>Find and filter content by typing</desc> 
+    <desc>Find and filter content by typing</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

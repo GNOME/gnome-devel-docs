@@ -4,7 +4,7 @@
 
   <info>
     <link type="guide" xref="patterns#primary"/>
-    <desc>Secondary windows that appear over primary, parent windows</desc>  
+    <desc>Secondary windows that appear over primary, parent windows</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>
@@ -28,7 +28,7 @@
 
 <p>Dialogs are secondary windows that appear over a primary, parent window. They are used to present additional information or controls, including preferences and properties, or to present messages or questions.</p>
 
-<p>GTK+ provides a number of stock dialogs that can be used, such as for printing or color selection.</p>
+<p>GTK provides a number of stock dialogs that can be used, such as for printing or color selection.</p>
 
 <p>There are three basic types of dialogs.</p>
 
@@ -82,7 +82,7 @@
 <section id="action-dialog-examples">
 <title>Examples</title>
 
-<p>Many of the stock GTK+ dialogs are action dialogs. The print dialog is a good example: it is displayed in response to the user using the print action, and presents information and options for that print action. The two header bar buttons allow the print action to either be cancelled or carried out.</p>
+<p>Many of the stock GTK dialogs are action dialogs. The print dialog is a good example: it is displayed in response to the user using the print action, and presents information and options for that print action. The two header bar buttons allow the print action to either be cancelled or carried out.</p>
 
 </section>
 </section>

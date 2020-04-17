@@ -3,18 +3,18 @@
       id="style-language-conventions">
 
   <info>
-  
+
     <link type="guide" xref="index#style"/>
-    
+
     <desc>How you should construct sentences.</desc>
-    
+
     <revision pkgversion="3.0" version="0.1" date="2010-12-23" status="stub"/>
-    
+
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
     </credit>
-    
+
   </info>
 
 <title>Language Conventions</title>

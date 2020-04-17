@@ -8,7 +8,7 @@
       <email>aday@gnome.org</email>
     </credit>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
-    <desc>Basic application characteristics.</desc>    
+    <desc>Basic application characteristics.</desc>
   </info>
 
 <title>Application basics</title>

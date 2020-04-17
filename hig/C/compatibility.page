@@ -8,12 +8,12 @@
       <email>aday@gnome.org</email>
     </credit>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
-    <desc>Using the HIG for cross-platform or GNOME 2 style applications.</desc>   
+    <desc>Using the HIG for cross-platform or GNOME 2 style applications.</desc>
   </info>
 
 <title>Compatibility</title>
 
-<p>These Human Interface Guidelines are primarily targeted towards new GTK+ and GNOME applications, with an emphasis on GNOME 3 integration. However, they are also intended to be useful to cross-platform applications, as well as older applications, which may have been designed and implemented in accordance with the GNOME 2 HIG.</p>
+<p>These Human Interface Guidelines are primarily targeted towards new GTK and GNOME applications, with an emphasis on GNOME 3 integration. However, they are also intended to be useful to cross-platform applications, as well as older applications, which may have been designed and implemented in accordance with the GNOME 2 HIG.</p>
 
 <section id="cross-platform-compatibility">
 <title>Cross-platform compatibility</title>
@@ -35,11 +35,11 @@
 
 <list>
 <item><p>Utilizing new user interface elements, such as popovers.</p></item>
-<item><p>Guidance on new GTK+ abilities, like animations.</p></item>
+<item><p>Guidance on new GTK abilities, like animations.</p></item>
 <item><p>Modernized guidance on subjects such as visual layout, typography and icon usage.</p></item>
 </list>
 
-<p>Incorporating these elements of the guidelines can enhance your application without requiring a major redesign, and all GTK+ and GNOME applications can benefit from them.</p>
+<p>Incorporating these elements of the guidelines can enhance your application without requiring a major redesign, and all GTK and GNOME applications can benefit from them.</p>
 
 <p>These Human Interface Guidelines have been designed to assist you in determining the best design for your application, rather than proposing a single template to be used in all applications. As such, while they recommend <link xref="header-bars">header bars</link> over <link xref="menu-bars">menu bars</link>, they provide guidance on both approaches.</p>
 

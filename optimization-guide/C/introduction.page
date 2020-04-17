@@ -14,7 +14,7 @@
             Traditional optimization tackles concepts like CPU use, code size, the number of mouse clicks and the memory use of the program. This second list has been chosen to correlate with the first list, however there is an important difference: The person using GNOME doesn't care about the second list, but they care a lot about the first list. When optimizing GNOME programs we will reduce CPU use, memory use and all those things, but these are the means to the end, not the final goal. We are optimizing for people.
         </p>
 
-	<section id="doing-the-optimization">        
+	<section id="doing-the-optimization">
           <title>Doing the Optimization</title>
         <p>
             The previous section omitted one important qualifier: To optimize something it has to be measurable. You can't measure happiness. However, you can measure start-up time so you can tell if you have improved it. Happiness will then, hopefully, follow.
@@ -170,6 +170,5 @@
       </terms>
     </section>
   </page>
-
 
 

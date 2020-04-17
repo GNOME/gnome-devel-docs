@@ -3,18 +3,18 @@
       id="terms-desktop">
 
   <info>
-  
+
     <link type="guide" xref="index#terms"/>
-    
+
     <desc>Terms to be used when referring to the major components of the desktop environment.</desc>
-    
+
     <revision pkgversion="3.0" version="0.1" date="2010-12-23" status="stub"/>
-    
+
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
     </credit>
-    
+
   </info>
 
 <title>Desktop components</title>

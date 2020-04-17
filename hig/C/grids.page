@@ -4,7 +4,7 @@
       id="grids">
 
   <info>
-    <link type="guide" xref="patterns#primary"/>   
+    <link type="guide" xref="patterns#primary"/>
     <desc>Grids of thumbnails or icons</desc>
     <credit type="author">
       <name>Allan Day</name>

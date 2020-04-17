@@ -3,18 +3,18 @@
       id="style-tone">
 
   <info>
-  
+
     <link type="guide" xref="index#style"/>
-    
+
     <desc>Writing in an appropriate tone will help readers relate to the text.</desc>
-    
+
     <revision pkgversion="3.0" version="0.1" date="2010-12-23" status="draft"/>
-    
+
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
     </credit>
-    
+
   </info>
 
 <title>Tone</title>

@@ -30,7 +30,7 @@
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Writing text for your user interface, including capitalization rules.</desc>    
+    <desc>Writing text for your user interface, including capitalization rules.</desc>
 
   </info>
 
@@ -112,5 +112,4 @@
 </section>
 
 </page>
-
 

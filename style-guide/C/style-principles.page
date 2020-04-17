@@ -3,18 +3,18 @@
       id="style-principles">
 
   <info>
-  
+
     <link type="guide" xref="index#style"/>
-    
+
     <desc>Guiding principles for writing documentation.</desc>
-    
+
     <revision pkgversion="3.0" version="0.1" date="2010-12-23" status="draft"/>
-    
+
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
     </credit>
-    
+
   </info>
 
 <title>Style Principles</title>
@@ -23,22 +23,22 @@
   <cite>Henry David Thoreau</cite>
   <p>Our life is frittered away by detail.... Simplify, simplify.</p>
  </quote>
- 
+
  <quote>
   <cite><em>The Elements of Style</em>, William Strunck Jr. and E. B. White</cite>
   <p>Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts. This requires not that the writer make all his sentences short, or that he should avoid all detail and treat his subjects only in outline, but that every sentence tell.</p>
  </quote>
- 
+
  <quote>
   <cite>Thomas Mann</cite>
   <p>A writer is someone for whom writing is more difficult than it is for other people.</p>
  </quote>
- 
+
  <quote>
   <cite>John Ruskin</cite>
   <p>Say all you have to say in the fewest possible words, or your reader will be sure to skip them; and in the plainest possible words or he will certainly misunderstand them.</p>
  </quote>
- 
+
 <section id="human">
  <title>You are human, and so are your readers</title>
  <p>There is a tendency in technical writing to be formulaic, to rely on using the same structures again and again. This makes your writing boring and unsatisfying. Avoid this at all costs - readers won't take the information on board as effectively if they are bored, and you won't be getting the satisfaction of exercising your creativity.</p>

@@ -3,16 +3,16 @@
       id="index">
 
   <info>
-  
+
     <desc>Guidelines for writers for the GNOME platform.</desc>
-    
+
     <revision pkgversion="3.0" version="0.1" date="2010-12-23" status="stub"/>
-    
+
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
     </credit>
-    
+
   </info>
 
 <title>Style and Terminology</title>

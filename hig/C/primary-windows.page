@@ -4,7 +4,7 @@
 
   <info>
     <link type="guide" xref="patterns#primary"/>
-    <desc>The main window(s) for your application</desc> 
+    <desc>The main window(s) for your application</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

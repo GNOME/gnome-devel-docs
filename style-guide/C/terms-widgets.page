@@ -3,18 +3,18 @@
       id="terms-widgets">
 
   <info>
-  
+
     <link type="guide" xref="index#terms"/>
-    
+
     <desc>The terms to use when referring to a widget in the user interface.</desc>
-    
+
     <revision pkgversion="3.0" version="0.1" date="2010-12-23" status="stub"/>
-    
+
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
     </credit>
-    
+
   </info>
 
 <title>Widgets</title>
@@ -28,7 +28,7 @@
   </media>
   <p></p>
  </item>
- 
+
  <item>
   <title>List</title>
   <media type="image" mime="image/png" src="media/list.png">
@@ -36,7 +36,7 @@
   </media>
   <p></p>
  </item>
- 
+
  <item>
   <title>Checkbox</title>
   <media type="image" mime="image/png" src="media/checkbox.png">

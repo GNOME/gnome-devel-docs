@@ -34,7 +34,7 @@
 <title>General guidelines</title>
 
 <list>
-<item><p>While GTK+ does provide a specific combobox widget, it is recommended that drop-down lists are constructed using a combination of a button and a popover. This allows more comfortable scrolling for long lists, and allows search to be integrated into the list. Using this approach also allows the current selected item to always be displayed.</p></item>
+<item><p>While GTK does provide a specific combobox widget, it is recommended that drop-down lists are constructed using a combination of a button and a popover. This allows more comfortable scrolling for long lists, and allows search to be integrated into the list. Using this approach also allows the current selected item to always be displayed.</p></item>
 <item><p>If the number of items is very large, provide a search function that filters the list.</p></item>
 <item><p>Label the drop-down list button with a text label above it or to its left, using <link xref="writing-style#capitalization">sentence capitalization</link>. Provide an access key in the label that allows the user to give focus directly to the drop-down list.</p></item>
 <item><p>Use <link xref="writing-style#capitalization">sentence capitalization</link> for drop-down list items, for example <gui>Switched movement</gui>.</p></item>
