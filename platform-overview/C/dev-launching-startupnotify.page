@@ -24,13 +24,13 @@
   </links>
 
   <p>Notify the user when your application has finished starting up.</p>
-  
+
   <p>GNOME implements the
   <link href="http://standards.freedesktop.org/desktop-entry-spec/latest/index.html">Startup
   Notification protocol</link>, to give feedback to the user when application
   startup finishes.</p>
-  
-  <p>GTK+ applications automatically support startup notification, and by
+
+  <p>GTK applications automatically support startup notification, and by
   default notify that application startup is complete when the first window is
   shown. Your application must declare that it supports startup notification by
   adding <code>StartupNotify=true</code> to its desktop file.</p>

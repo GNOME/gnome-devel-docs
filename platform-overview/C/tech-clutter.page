@@ -40,7 +40,7 @@ scene elements (or <em>actors</em>) on the main viewport (or <em>stage</em>).</p
   data, text and custom high-precision 2D drawing using the
   <link xref="tech-cairo">Cairo</link> API. Clutter also provides generic
   classes for structuring a user interface using both a box-packing model like
-  <link xref="tech-gtk">GTK+</link>, and a series of free-form
+  <link xref="tech-gtk">GTK</link>, and a series of free-form
   <em>constraints</em>.</p>
 
 <p>Clutter provides an extensible animation framework and graphical
@@ -50,7 +50,7 @@ rotation in a particular dimension, scale, size, opacity, etc.</p>
 
 <p>A number of third-party libraries allow integration with other
 technologies, such as: Clutter-GTK, for embedding a Clutter stage inside a
-GTK+ application; Clutter-GStreamer, for embedding GStreamer video and audio
+GTK application; Clutter-GStreamer, for embedding GStreamer video and audio
 pipelines; Clutter-Box2D and Clutter-Bullet, for adding physics interaction
 in both 2D and 3D environments.</p>
 

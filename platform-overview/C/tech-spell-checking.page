@@ -32,7 +32,7 @@
   <p>
     Enchant provides a low-level API.  You can ask it if a word is misspelled,
     or ask for suggestions for a misspelled word.  On a higher level, gspell
-    integrates spell-checking for GTK+ text widgets (both <code>GtkEntry</code>
+    integrates spell-checking for GTK text widgets (both <code>GtkEntry</code>
     and <code>GtkTextView</code>).
   </p>
 

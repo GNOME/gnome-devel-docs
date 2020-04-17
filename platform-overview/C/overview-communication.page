@@ -38,7 +38,7 @@
 
 <section id="what">
  <title>What can you do?</title>
- 
+
  <p>For <em style="strong">connecting to instant messaging services</em>, use
  <em style="strong">Telepathy</em>. It provides a powerful framework for
  interacting with the user's instant messaging contacts, and has support for a
@@ -46,7 +46,7 @@
  connections are handled by a D-Bus session service that's deeply integrated
  into GNOME. Applications can tie into this service to communicate with
  contacts.</p>
-  
+
  <p>Create multi-player games or collaborative editors that integrate with the
  desktop-wide instant messaging services. With the <em style="strong"
  xref="tech-telepathy">Telepathy Tubes</em> API, you can <em
@@ -63,7 +63,7 @@
 
  <p>With <em style="strong" xref="tech-folks">Folks</em>, you will have access to a single API for
  handling social networking, chat, email, and audio/video communications. </p>
- 
+
 </section>
 
 <!--<section id="samples">
@@ -78,24 +78,24 @@
 
 <section id="realworld">
  <title>Real-world examples</title>
- 
+
  <comment>
   <cite>Phil Bull</cite>
   <p>Need to use better links than these.</p>
  </comment>
- 
+
  <p>You can see lots of real-world applications of the GNOME communications technologies in open source projects, like the examples given below.</p>
  <list>
   <item>
    <p><em style="strong">Empathy</em> is an instant messaging app with support for a wide range of messaging services. It uses Telepathy to handle connections, presence, and contact information for all of the protocols that it supports.</p>
    <p>(<link href="https://wiki.gnome.org/Apps/Empathy">Website</link> | <link href="https://wiki.gnome.org/Apps/Empathy#Screenshots">Screenshots</link> | <link href="https://gitlab.gnome.org/GNOME/empathy/">Empathy source code</link> )</p>
   </item>
-  
+
   <item>
    <p>With Telepathy Tubes support, the <em style="strong">GNOME Games</em> collection was able to add multi-player gaming support through the Jabber protocol.</p>
    <p>(<link href="https://wiki.gnome.org/Projects/Games">Website</link> | <link href="https://wiki.gnome.org/Apps/Chess#Screenshots">Screenshot</link> | <link href="https://gitlab.gnome.org/GNOME/gnome-chess/">GNOME Chess online multiplayer code</link> )</p>
   </item>
-  
+
   <item>
    <p>Avahi support allows users of the <em style="strong">Rhythmbox</em> music player to see shared music collections on their local network, using DAAP.</p>
    <p>(<link href="https://wiki.gnome.org/Apps/Rhythmbox">Website</link> | <link href="https://wiki.gnome.org/Apps/Rhythmbox/Screenshots">Screenshots</link> | <link href="https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/plugins/daap">DAAP Code</link> )</p>

@@ -33,8 +33,8 @@ more people to use it effectively, even if they are not disabled.</p>
 which stands for Accessibility Tool Kit.  This framework defines a set of
 interfaces to which graphical interface components adhere.  This allows, for
 instance, screen readers to read the text of an interface and interact with its
-controls.  ATK support is built into GTK+ and the rest of the GNOME platform,
-so any application using GTK+ will have reasonable accessibility support for
+controls.  ATK support is built into GTK and the rest of the GNOME platform,
+so any application using GTK will have reasonable accessibility support for
 free.</p>
 
 <p>ATK solves the problem of plugging many different kinds of widgets (text
@@ -48,7 +48,7 @@ use a standard "get the text contents" interface in ATK for all widgets with
 textual information.</p>
 
 <p>Nonetheless, you should be aware of accessibility issues when
-when developing your applications.  Although GTK+ interfaces provide
+when developing your applications.  Although GTK interfaces provide
 reasonable accessibility by default, you can often improve how well
 your program behaves with accessibility tools by providing additional
 information to ATK.  If you develop custom widgets, you should ensure

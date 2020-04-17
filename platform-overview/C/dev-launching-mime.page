@@ -23,7 +23,7 @@
   </links>
 
   <p>Associate files with your application, using MIME types.</p>
-  
+
   <p>If your application opens files of a certain type, such as PNG images, you
   can add an association with the MIME type of the file. This is added to the
   desktop file.</p>

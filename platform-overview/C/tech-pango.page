@@ -22,7 +22,7 @@
 
 <p>Pango is the core text and font handling library in the GNOME
 platform.  It is responsible for laying out and rendering text, and
-is used throughout GTK+.</p>
+is used throughout GTK.</p>
 
 <note><p>The Pango layout engine can be used with different font
 backends and drawing backends.  On most GNOME systems, Pango
@@ -46,12 +46,12 @@ Pango uses a simple XML-like vocabulary called PangoMarkup which
 enables you to set font size, color, styles, and other text
 attributes.  Using PangoMarkup, you can specify inline styles
 without manually iterating over text blocks.  PangoMarkup can
-be used directly from GTK+, enabling you to style text in your
+be used directly from GTK, enabling you to style text in your
 graphical interfaces easily.</p>
 
 <p>You should use Pango directly whenever you need to lay
 text out on the screen or on a different medium.  Using Pango
-will allow your text layout to work seamlessly with GTK+ and
+will allow your text layout to work seamlessly with GTK and
 the rest of the GNOME platform.  It will help you create
 portable code, and most importantly, it will ensure that your
 application can render text correctly in hundreds of different

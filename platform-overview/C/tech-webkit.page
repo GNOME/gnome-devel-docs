@@ -26,19 +26,19 @@
 <title>WebKit</title>
 
   <p>WebKit is a powerful, multi-platform HTML engine used in open source and
-  commercial/proprietary products alike. WebKitGTK+ is the port of WebKit built
-  on <link xref="tech-gtk">GTK+</link> and integrated into the GNOME developer
-  platform. WebKitGTK+ is developed upstream as part of the main WebKit
+  commercial/proprietary products alike. WebKitGTK is the port of WebKit built
+  on <link xref="tech-gtk">GTK</link> and integrated into the GNOME developer
+  platform. WebKitGTK is developed upstream as part of the main WebKit
   project, so it's always up to date with the latest HTML5 features.</p>
 
-<p>WebKitGTK+ makes it easy to add web functionality to your
+<p>WebKitGTK makes it easy to add web functionality to your
 application, or to use HTML5 and associated technologies to
 create dynamic user interfaces quickly.</p>
 
 <list style="compact">
-  <item><p><link href="http://developer.gnome.org/gnome-devel-demos/stable/message-board.c.html">WebKitGTK+ demo tutorial</link></p></item>
-  <item><p><link href="http://webkitgtk.org/reference/webkit2gtk/stable/">WebKitGTK+ Reference Manual</link></p></item>
-  <item><p><link href="http://webkitgtk.org/">The WebKitGTK+ web site</link></p></item>
+  <item><p><link href="http://developer.gnome.org/gnome-devel-demos/stable/message-board.c.html">WebKitGTK demo tutorial</link></p></item>
+  <item><p><link href="http://webkitgtk.org/reference/webkit2gtk/stable/">WebKitGTK Reference Manual</link></p></item>
+  <item><p><link href="http://webkitgtk.org/">The WebKitGTK web site</link></p></item>
 </list>
 
 </page>

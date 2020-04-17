@@ -40,16 +40,16 @@ metadata to describe documents.</p>
 
 <section id="what">
  <title>What can you do?</title>
- 
+
   <p>To <em style="strong">asynchronously read and write files and other
   streams</em>, use <em style="strong" xref="tech-gio">GIO</em>. A high-level
   VFS (virtual filesystem) API is provided, as well as utilities such as icons
   and application launching</p>
- 
+
   <p>Use <em style="strong" xref="tech-tracker">Tracker</em> to
   <em style="strong">store and retrieve document metadata</em>, as well as
   <em style="strong">structured data</em> such as contacts.</p>
- 
+
 </section>
 
 <!-- TODO Add link to code examples.
@@ -64,7 +64,7 @@ metadata to describe documents.</p>
 
 <section id="realworld">
   <title>Real-world examples</title>
- 
+
   <p>You can see lots of real-world applications of GNOME IO technologies in
   open source projects, like the examples given below.</p>
   <list>

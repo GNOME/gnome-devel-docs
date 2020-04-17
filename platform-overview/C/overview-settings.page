@@ -39,14 +39,14 @@ ease.</p>
 
 <section id="what">
   <title>What can you do?</title>
- 
+
   <p>Use the <em style="strong" xref="tech-gsettings">GSettings</em> API of
   GIO to read and write <em style="strong">application settings</em>. GSettings
   <em style="strong">transparently uses the platform configuration
   database</em> so that platform-specific configuration tools can be
   used. Make <em style="strong">UI controls update according to settings</em>
   with a single function.</p>
- 
+
 </section>
 
 <!-- TODO: Write code sample.
@@ -61,7 +61,7 @@ ease.</p>
 
 <section id="realworld">
   <title>Real-world examples</title>
- 
+
   <p>Nearly all GNOME applications use GSettings.</p>
   <list>
     <item>

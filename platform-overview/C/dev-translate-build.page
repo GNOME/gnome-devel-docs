@@ -22,7 +22,7 @@
 
   <links type="series" style="floatend">
     <title>Set up translations</title>
-  </links> 
+  </links>
 
   <p>You will need to set up your project and build system to work with
   translations.</p>

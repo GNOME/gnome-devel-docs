@@ -42,7 +42,7 @@ need more control.</p>
 
 <section id="what">
  <title>What can you do?</title>
- 
+
   <p><em style="strong">Multimedia</em> in GNOME is built on the
   <em style="strong"><link xref="tech-gstreamer">GStreamer</link></em>
   framework. With GStreamer, flexible <em>pipelines</em> of media can be
@@ -75,7 +75,7 @@ need more control.</p>
   when taking a photo, use
   <em style="strong"><link xref="tech-canberra">libcanberra</link></em>, which
   implements the freedesktop.org sound theme specification.</p>
- 
+
 </section>
 
 <!-- TODO: Link to code examples if they are moved to the platform overview
@@ -90,7 +90,7 @@ need more control.</p>
 
 <section id="realworld">
  <title>Real-world examples</title>
- 
+
   <p>You can see lots of real-world applications of GNOME multimedia
   technologies in open source projects, like the examples given below.</p>
   <list>

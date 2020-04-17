@@ -39,8 +39,8 @@ graphics and text, to render images, or create crisp output suitable
 for printing.</p>
 
 <p>You should use Cairo whenever you need to draw graphics in your
-application beyond the widgets provided by GTK+.  Almost all of the drawing
-inside GTK+ is done using Cairo.  Using Cairo for your custom drawing
+application beyond the widgets provided by GTK.  Almost all of the drawing
+inside GTK is done using Cairo.  Using Cairo for your custom drawing
 will allow your application to have high-quality, anti-aliased, and
 resolution-independent graphics.</p>
 

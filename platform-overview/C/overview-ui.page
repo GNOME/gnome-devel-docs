@@ -45,11 +45,11 @@ custom UI elements that you create.</p>
 
 <section id="what">
  <title>What can you do?</title>
- 
+
   <p>For applications with <em style="strong">standard controls</em> which
   would be familiar to most users, use
-  <em style="strong"><link xref="tech-gtk">GTK+</link></em>. Every application
-  that is part of GNOME uses GTK+, so use it to be consistent, and to access
+  <em style="strong"><link xref="tech-gtk">GTK</link></em>. Every application
+  that is part of GNOME uses GTK, so use it to be consistent, and to access
   the many widgets and features such as printing support and CSS theming.</p>
 
   <p><em style="strong">Animations, effects and fluid
@@ -60,18 +60,18 @@ custom UI elements that you create.</p>
   <p><em style="strong">High quality, antialiased and resolution-independent 2D
   graphics</em> are provided by
   <em style="strong"><link xref="tech-cairo">Cairo</link></em>. Cairo is used
-  for drawing widgets in GTK+, and can also be used to output to PDF and
+  for drawing widgets in GTK, and can also be used to output to PDF and
   SVG.</p>
 
-  <p><em style="strong"><link xref="tech-webkit">WebKitGTK+</link></em> makes
+  <p><em style="strong"><link xref="tech-webkit">WebKitGTK</link></em> makes
   it easy to add <em style="strong">web functionality</em> to your
   application, whether that is rendering an HTML file or having a complete
   HTML5 UI.</p>
 
-  <p>GTK+, Clutter and WebKitGTK+ have <em style="strong">built-in support for
+  <p>GTK, Clutter and WebKitGTK have <em style="strong">built-in support for
   assistive technologies</em> with
   <em style="strong"><link xref="tech-atk">ATK</link></em>. Use Orca, Caribou
-  OSK, and the GTK+ built-in accessibility tools, or build custom tools on top
+  OSK, and the GTK built-in accessibility tools, or build custom tools on top
   of ATK.</p>
 
 </section>
@@ -88,13 +88,13 @@ custom UI elements that you create.</p>
 
 <section id="realworld">
  <title>Real-world examples</title>
- 
+
   <p>You can see lots of real-world applications of GNOME UI technologies in
   open source projects, like the examples given below.</p>
   <list>
   <item>
-    <p><em style="strong">Web</em> is the GNOME browser, which uses GTK+ and
-    WebKitGTK+, and is fully accessible.</p>
+    <p><em style="strong">Web</em> is the GNOME browser, which uses GTK and
+    WebKitGTK, and is fully accessible.</p>
     <p>( <link href="https://wiki.gnome.org/Apps/Web">Website</link> | <link href="https://gitlab.gnome.org/GNOME/epiphany/">Source code</link> )</p>
   </item>
   <item>

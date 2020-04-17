@@ -25,7 +25,7 @@
 
   <p>Write and install a desktop file so that users can discover and launch
   your application.</p>
-  
+
   <p>GNOME uses the
   <link href="http://standards.freedesktop.org/desktop-entry-spec/latest/index.html">freedesktop.org
   Desktop Entry</link> and
@@ -33,7 +33,7 @@
   Menu specifications</link> to describe application launchers. Installing a
   desktop file is the standard way to register your application with GNOME and
   other desktops.</p>
-  
+
   <p>A desktop file lists your application binary, name and type, and can also
   list an icon, description and several other pieces of information about
   launching an application.</p>
@@ -72,5 +72,5 @@ Categories=GTK;GNOME;Utility;</code>
 
   <p>There are several other keys that can be added to desktop files, which are
   listed and described in the Desktop Entry Specification.</p>
- 
+
 </page>

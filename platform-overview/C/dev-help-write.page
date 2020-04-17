@@ -25,11 +25,11 @@
 
   <p>Write some <link href="http://www.projectmallard.org/">Mallard</link>
   pages and add them to <file>help/C/</file>.</p>
-  
+
   <p>Most projects should have an <file>index.page</file> and some content
   pages, although you may not need an <file>index.page</file> if you are
   dropping plugin help into another project.</p>
-  
+
   <example>
     <listing>
       <title><file>help/C/index.page</file></title>
@@ -57,7 +57,7 @@
 </page>
 ]]></code>
     </listing>
-  
+
     <listing>
       <title><file>help/C/introduction.page</file></title>
 <code><![CDATA[
@@ -73,13 +73,13 @@
     <link type="seealso" xref="anotherpageid"/>
 -->
     <revision pkgversion="3.9" date="2013-06-19" status="stub"/>
- 
+
     <credit type="author">
       <name>Your Name</name>
       <email its:translate="no">mail@example.com</email>
       <years>2013</years>
     </credit>
- 
+
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
     <desc>Welcome to _Application name_</desc>
@@ -93,5 +93,5 @@
 ]]></code>
     </listing>
   </example>
- 
+
 </page>

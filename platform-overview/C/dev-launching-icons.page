@@ -24,7 +24,7 @@
   </links>
 
   <p>Install an icon to identify your application.</p>
-  
+
   <p>When listing an icon in a desktop file, the image must be installed in a
   standard location, given by the
   <link href="http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html">freedesktop.org
@@ -37,5 +37,5 @@
   <p>To match with other icons, both in GNOME and other platforms, follow the
   <link href="http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines">Tango
   Icon Theme guidelines</link> when creating icons and application artwork.</p>
- 
+
 </page>

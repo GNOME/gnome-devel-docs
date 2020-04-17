@@ -5,7 +5,7 @@
   <info>
     <revision version="0.1" date="2012-02-19" status="stub"/>
     <link type="guide" xref="index" group="tech" />
-	
+
     <credit type="author copyright">
       <name>Phil Bull</name>
       <email its:translate="no">philbull@gmail.com</email>
@@ -20,7 +20,7 @@
 <p>The GNOME platform is a rich collection of libraries.  This is a
 list of all the platform libraries in GNOME, sorted by purpose.</p>
 
-<links type="topic" 
+<links type="topic"
        style="linklist"
        groups="gtk gdk cairo pango clutter webkit atk">
   <title>User interface and display</title>
@@ -73,8 +73,8 @@ list of all the platform libraries in GNOME, sorted by purpose.</p>
        groups="glib gobject">
   <title>Foundational C utilities and object system</title>
 </links>
-  
-<!-- 
+
+<!--
 <links type="topic" style="linklist"
        groups="gtk clutter webkit gstreamer">
   <title>Graphics and Multimedia</title>
