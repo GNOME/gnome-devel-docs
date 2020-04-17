@@ -48,16 +48,10 @@ support all the features that GTK has:  right-to-left language support,
 accessibility interfaces, keyboard navigation, and automatic sizing.</p>
 
 <list style="compact">
-  <item><p><link href="https://www.gtk.org/">Official web site</link></p></item>
+  <item><p><link href="https://www.gtk.org/">Official website</link></p></item>
   <item><p><link href="https://developer.gnome.org/gnome-devel-demos/stable/">Demo tutorial</link></p></item>
   <item><p><link href="https://developer.gnome.org/gtk3/stable/">Reference Manual</link></p></item>
-  <item><p><link href="https://gitlab.gnome.org/GNOME/gtk/">git repository</link></p></item>
-  <item><p>Mailing lists:</p>
-    <list style="compact">
-      <item><p><link href="https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list">Writing GTK applications</link></p></item>
-      <item><p><link href="https://mail.gnome.org/mailman/listinfo/gtk-list">General discussion about GTK</link></p></item>
-      <item><p><link href="https://mail.gnome.org/mailman/listinfo/gtk-devel-list">Development of GTK</link></p></item>
-    </list>
-  </item>
+  <item><p><link href="https://gitlab.gnome.org/GNOME/gtk/">Git repository</link></p></item>
+  <item><p><link href="https://discourse.gnome.org/">Discussion about GTK and getting help</link></p></item>
 </list>
 </page>
