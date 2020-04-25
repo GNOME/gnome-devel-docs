@@ -20,7 +20,7 @@
 
   <title>Statusbar</title>
   <media type="image" mime="image/png" src="media/statusbar2.png"/>
-  <p>This statusbar keeps track of how many times you've clicked a button. Applications like <link href="http://projects.gnome.org/gedit/">gedit</link> use statusbars to display information at a glance, and show notifications without interrupting the user.</p>
+  <p>This statusbar keeps track of how many times you've clicked a button. Applications like <link href="https://wiki.gnome.org/Apps/Gedit">gedit</link> use statusbars to display information at a glance, and show notifications without interrupting the user.</p>
   <p>Messages pushed to a statusbar go on top of its stack, and can be popped off to show the next-most recent one. You can also clear away every message of a specific type all at once. This sample application demonstrates these functions.</p>
     <links type="section" />
 

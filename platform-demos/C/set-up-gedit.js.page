@@ -17,7 +17,7 @@
   </info>
 
   <title>Set up gedit for JavaScript development</title>
-  <p>This tutorial will show you how to set up <link href="http://projects.gnome.org/gedit/">gedit</link>, GNOME's basic text editor, so that it has a handful of extra features which are useful for writing JavaScript code.</p>
+  <p>This tutorial will show you how to set up <link href="https://wiki.gnome.org/Apps/Gedit">gedit</link>, GNOME's basic text editor, so that it has a handful of extra features which are useful for writing JavaScript code.</p>
 
   <section id="view">
     <title>Making code clearer</title>
