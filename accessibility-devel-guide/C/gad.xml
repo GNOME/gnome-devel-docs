@@ -169,7 +169,7 @@ If your application only uses standard GTK widgets, you will probably have to do
 You can probably also improve on the default descriptions provided for some of the widgets, and tailor them to that widget's specific purpose in your application. You should add or change the textual descriptions for these widgets with the appropriate ATK function call, so that an assistive technology can describe their purpose or state to the user. See <link linkend="gad-coding-guidelines">Coding Guidelines for Supporting Accessibility</link> for more information.
 </para>
 <para>
-If your application uses custom widgets, you may have to do some work to expose those widgets' properties to assistive technologies.  See <link linkend="gad-custom">Making Custom Components Accessible</link> and <link linkend="gad-api-examples">Examples that Use the Accessibility API</link> for more information. Additional detailed information can be found in Marc Mulcahy's 2002 GUADEC presentation, <ulink url="https://projects.gnome.org/accessibility/talks/GUAD3C/making-apps-accessible/start.html">"Making GNOME Applications Accessible".</ulink>
+If your application uses custom widgets, you may have to do some work to expose those widgets' properties to assistive technologies.  See <link linkend="gad-custom">Making Custom Components Accessible</link> and <link linkend="gad-api-examples">Examples that Use the Accessibility API</link> for more information.
 </para>
 </section>
 
