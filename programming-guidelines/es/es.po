@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2020-04-01 09:53+0000\n"
-"PO-Revision-Date: 2020-04-21 18:57+0200\n"
+"POT-Creation-Date: 2020-04-23 07:31+0000\n"
+"PO-Revision-Date: 2020-04-28 19:23+0200\n"
 "Last-Translator: Javier Mazorra <mazi.debian@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -566,7 +566,7 @@ msgstr ""
 "síncronas y sobre el uso explícito de hilos. No bloquean el contexto principal como "
 "las operaciones síncronas y son más fáciles de utilizar correctamente que los hilos. "
 "Frecuentemente tienen una menor penalización en el rendimiento que generar un hilo y "
-"enviarle trabajo. "
+"enviarle trabajo."
 
 #. (itstool) path: section/title
 #: C/async-programming.page:89
@@ -627,6 +627,11 @@ msgid ""
 "specific return values — perhaps a location to return a content type string in this "
 "case."
 msgstr ""
+"Los parámetros <code>…</code> para <code>foo_file_load_data_async()</code> son los "
+"específicos para la operación, en este caso, quizá el tamaño de un búfer para "
+"cargar. De manera similar para <code>foo_file_load_data_finish()</code> son los "
+"valores de retorno específicos de la operación, quizá una ubicación para devolver "
+"una cadena de tipo de contenido en este caso."
 
 #. (itstool) path: section/p
 #: C/async-programming.page:123
@@ -661,6 +666,10 @@ msgid ""
 "\"https://developer.gnome.org/gio/stable/GAsyncResult.html\"><code>GAsyncResult</"
 "code></link> instance which was passed to the callback."
 msgstr ""
+"Desde el retorno de llamada <code>foo_file_data_finish()</code> se puede llamar por "
+"el código del usuario para obtener valores de retorno y detalles de error, pasando "
+"la instancia <link href=“https://developer.gnome.org/gio/stable/GAsyncResult."
+"html”><code>GAsyncResult</code></link> que se pasó al retorno de llamada."
 
 #. (itstool) path: section/title
 #: C/async-programming.page:146
@@ -759,6 +768,14 @@ msgid ""
 "implemented carefully, any UI updates (for example) made when cancelling an "
 "operation will be undone by updates in the operation’s callback."
 msgstr ""
+"Una sola llamada asincrónica requiere dos funciones: una para iniciar la operación y "
+"otra para completarla. En C, la parte exigente de ejecarut una llamada asíncrona es "
+"almacenar correctamente el estado entre estas dos funciones y manejar los cambios a "
+"ese estado en el tiempo entre esas dos funciones que se están llamando. Por ejemplo, "
+"la cancelación de una llamada asíncrona en curso es un cambio de estado, y si no se "
+"implementa con cuidado, algunas actualizaciones de la IU (por ejemplo) realizadas al "
+"cancelar una operación serán deshechas por las actualizaciones en el retorno de "
+"llamada de la operación."
 
 #. (itstool) path: example/p
 #: C/async-programming.page:219
@@ -1122,6 +1139,8 @@ msgid ""
 "In this example, the application reads a socket address from a file, opens a "
 "connection to that address, reads a message, and then finishes."
 msgstr ""
+"En este ejemplo, la aplicación lee una dirección de socket desde un archivo, abre "
+"una conexión a esa dirección, lee un mensaje y luego termina."
 
 #. (itstool) path: example/p
 #: C/async-programming.page:425 C/async-programming.page:710
@@ -1145,7 +1164,7 @@ msgid ""
 "that the series of operations is ongoing. Cancelling it aborts the entire sequence."
 msgstr ""
 "Como en <link xref=“#single-call”/>, un único <code>GCancellable</code> indica que "
-"la serie de operaciones está en curso. Al cancelarlo se aborta toda la secuencia. "
+"la serie de operaciones está en curso. Al cancelarlo se aborta toda la secuencia."
 
 #. (itstool) path: item/p
 #: C/async-programming.page:438
@@ -11896,6 +11915,8 @@ msgid ""
 "Package versions should be incremented for feature changes or additions. (<link xref="
 "\"#package-versioning\"/>)"
 msgstr ""
+"Las versiones de paquete se deben incrementar  para cambios de características o "
+"adiciones. (<link xref=“#package-versioning”/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:48
@@ -11903,6 +11924,8 @@ msgid ""
 "Libtool versions should be updated for API changes or additions. (<link xref="
 "\"#libtool-versioning\"/>)"
 msgstr ""
+"Las versiones de Libtool deben actualizarse para cambios o adiciones de API. (<link "
+"xref=“#libtool-versioning”/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:52
@@ -11910,6 +11933,9 @@ msgid ""
 "Even/odd <em>minor</em> package versions can be used respectively for stable/"
 "unstable releases. (<link xref=\"#stable-unstable-versions\"/>)"
 msgstr ""
+"Las versiones <em>menores</em> pares/impares de paquetes se pueden usar "
+"respectivamente para versiones estables/inestables. (<link xref=“#stable-unstable-"
+"versions”/>)"
 
 #. (itstool) path: section/title
 #: C/versioning.page:60
@@ -11922,6 +11948,8 @@ msgid ""
 "Both libraries and applications have a package version of the form <em>major.minor."
 "micro</em>."
 msgstr ""
+"Tanto las bibliotecas como las aplicaciones tienen una versión de paquete de la "
+"forma <em>major.minor.micro</em>."
 
 #. (itstool) path: section/p
 #: C/versioning.page:67
@@ -11933,6 +11961,12 @@ msgid ""
 "\"parallel-installability\">parallel installability</link>). Package versions are "
 "updated by the following rules:"
 msgstr ""
+"El número de versión del paquete es el que se pasa a <code>AC_INIT()</code>, y el "
+"que se suele conocer como número de versión del proyecto. Por ejemplo, el paquete "
+"Debian para una biblioteca  utilizará la versión del paquete de la biblioteca "
+"(aunque también puede incluir el numero de versión principal en el nombre del "
+"paquete para permitir <link xref=“parallel-installability”>instabilidad en paralelo</"
+"link>). Las versiones del paquete son actualizadas con las siguientes reglas:"
 
 #. (itstool) path: item/p
 #: C/versioning.page:77
@@ -11941,6 +11975,9 @@ msgid ""
 "making a large change to an application which affects everything (such as a UI "
 "redesign), increment major and set minor and micro to 0."
 msgstr ""
+"Si en una biblioteca se rompe <link xref=“api-stability”>la compatibilidad API</"
+"link>, o se hace un gran cambio a una aplicación que afecta a todo (como un rediseño "
+"de IU), incremente la  versión principal, y establezca la menor y la micro a 0."
 
 #. (itstool) path: item/p
 #: C/versioning.page:83
