@@ -1,14 +1,14 @@
 # Swedish translation for gnome-devel-docs.
-# Copyright © 2015-2019 gnome-devel-docs's COPYRIGHT HOLDER
+# Copyright © 2015-2020 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2018, 2019.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2018, 2019, 2020.
 # Sebastian Rasmussen <sebras@gmail.com>, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-04-12 22:01+0000\n"
-"PO-Revision-Date: 2019-09-07 22:40+0200\n"
+"POT-Creation-Date: 2020-04-17 15:50+0000\n"
+"PO-Revision-Date: 2020-05-01 22:15+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.3\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -1094,17 +1094,17 @@ msgstr "Kompatibilitet"
 #. (itstool) path: page/p
 #: C/compatibility.page:16
 msgid ""
-"These Human Interface Guidelines are primarily targeted towards new GTK+ and "
+"These Human Interface Guidelines are primarily targeted towards new GTK and "
 "GNOME applications, with an emphasis on GNOME 3 integration. However, they "
 "are also intended to be useful to cross-platform applications, as well as "
 "older applications, which may have been designed and implemented in "
 "accordance with the GNOME 2 HIG."
 msgstr ""
-"Dessa riktlinjer för mänskliga gränssnitt riktar sig främst mot nya GTK+- "
-"och GNOME-program, med betoning på GNOME 3-integration. De är dock även "
-"avsedda att vara användbara för plattformsoberoende program, så väl som för "
-"äldre program som kan ha designats och implementerats i enlighet med "
-"riktlinjerna för GNOME 2."
+"Dessa riktlinjer för mänskliga gränssnitt riktar sig främst mot nya GTK- och "
+"GNOME-program, med betoning på GNOME 3-integration. De är dock även avsedda "
+"att vara användbara för plattformsoberoende program, så väl som för äldre "
+"program som kan ha designats och implementerats i enlighet med riktlinjerna "
+"för GNOME 2."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:19
@@ -1191,8 +1191,8 @@ msgstr "Att använda nya användargränssnittselement så som kontextfönster."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:38
-msgid "Guidance on new GTK+ abilities, like animations."
-msgstr "Råd om nya GTK+-möjligheter, som animationer."
+msgid "Guidance on new GTK abilities, like animations."
+msgstr "Råd om nya GTK-möjligheter, som animationer."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:39
@@ -1207,11 +1207,11 @@ msgstr ""
 #: C/compatibility.page:42
 msgid ""
 "Incorporating these elements of the guidelines can enhance your application "
-"without requiring a major redesign, and all GTK+ and GNOME applications can "
+"without requiring a major redesign, and all GTK and GNOME applications can "
 "benefit from them."
 msgstr ""
 "Att införliva dessa element ur riktlinjerna kan förbättra ditt program utan "
-"att kräva en stor designändring, och alla GTK+- och GNOME-program kan dra "
+"att kräva en stor designändring, och alla GTK- och GNOME-program kan dra "
 "nytta av dem."
 
 #. (itstool) path: section/p
@@ -1614,10 +1614,10 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dialogs.page:31
 msgid ""
-"GTK+ provides a number of stock dialogs that can be used, such as for "
+"GTK provides a number of stock dialogs that can be used, such as for "
 "printing or color selection."
 msgstr ""
-"GTK+ tillhandahåller ett antal standarddialoger som kan användas, så som de "
+"GTK tillhandahåller ett antal standarddialoger som kan användas, så som de "
 "för utskrifter eller färgval."
 
 #. (itstool) path: page/p
@@ -1805,13 +1805,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/dialogs.page:85
 msgid ""
-"Many of the stock GTK+ dialogs are action dialogs. The print dialog is a "
-"good example: it is displayed in response to the user using the print "
-"action, and presents information and options for that print action. The two "
-"header bar buttons allow the print action to either be cancelled or carried "
-"out."
+"Many of the stock GTK dialogs are action dialogs. The print dialog is a good "
+"example: it is displayed in response to the user using the print action, and "
+"presents information and options for that print action. The two header bar "
+"buttons allow the print action to either be cancelled or carried out."
 msgstr ""
-"Många av standarddialogerna i GTK+ är åtgärdsdialoger. Utskriftsdialogen är "
+"Många av standarddialogerna i GTK är åtgärdsdialoger. Utskriftsdialogen är "
 "ett bra exempel: den visas när användaren använder utskriftsåtgärden och "
 "presenterar information och alternativ för utskriftsåtgärden. De två "
 "rubrikradsknapparna låter utskriftsåtgärden antingen avbrytas eller utföras."
@@ -2300,13 +2299,13 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:37
 msgid ""
-"While GTK+ does provide a specific combobox widget, it is recommended that "
+"While GTK does provide a specific combobox widget, it is recommended that "
 "drop-down lists are constructed using a combination of a button and a "
 "popover. This allows more comfortable scrolling for long lists, and allows "
 "search to be integrated into the list. Using this approach also allows the "
 "current selected item to always be displayed."
 msgstr ""
-"Även om GTK+ tillhandahåller en specifik komponent för kombinationsrutor "
+"Även om GTK tillhandahåller en specifik komponent för kombinationsrutor "
 "rekommenderas det att rullgardinslistor konstrueras från en kombination av "
 "en knapp och ett kontextfönster. Detta tillåter bekvämare rullning i långa "
 "listor och tillåter sökningar att integreras i listan. Att använda detta "
@@ -3769,13 +3768,13 @@ msgstr "GNOME:s riktlinjer för mänskliga gränssnitt"
 #: C/index.page:17
 msgid ""
 "Whether you are a developer or a designer, these guidelines contain "
-"everything you need to design effective applications using GTK+. They cover "
+"everything you need to design effective applications using GTK. They cover "
 "design principles for GNOME 3, common guidelines such as how to write text "
 "and use images and icons, as well as a library of design patterns which you "
 "can use in your application."
 msgstr ""
 "Oavsett om du är en utvecklare eller en designer så innehåller dessa "
-"riktlinjer allt du behöver för att designa effektiva program med GTK+. De "
+"riktlinjer allt du behöver för att designa effektiva program med GTK. De "
 "täcker designprinciper för GNOME 3, gemensamma riktlinjer som hur text ska "
 "skrivas och hur bilder och ikoner ska användas, så väl som ett bibliotek av "
 "designmönster som du kan använda i ditt program."
@@ -4340,11 +4339,11 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/keyboard-input.page:33
 msgid ""
-"Keyboard interaction has three aspects in GNOME and GTK+: navigation, access "
+"Keyboard interaction has three aspects in GNOME and GTK: navigation, access "
 "keys, and shortcut keys. <link xref=\"search\">Search</link> is another, "
 "additional aspect."
 msgstr ""
-"Tangentbordsinteraktion har tre aspekter i GNOME och GTK+: navigering, "
+"Tangentbordsinteraktion har tre aspekter i GNOME och GTK: navigering, "
 "snabbtangenter och kortkommandon. <link xref=\"search\">Sökning</link> är "
 "ytterligare en annan aspekt."
 
@@ -4366,10 +4365,10 @@ msgstr ""
 #: C/keyboard-input.page:41
 msgid ""
 "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
-"standard key for moving around an interface with GTK+ and GNOME."
+"standard key for moving around an interface with GTK and GNOME."
 msgstr ""
 "Följ GNOME:s standardtangenter för navigering. <key>Tabb</key> är "
-"standardtangenten för att flytta runt i ett gränssnitt med GTK+ och GNOME."
+"standardtangenten för att flytta runt i ett gränssnitt med GTK och GNOME."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:42
@@ -8060,13 +8059,13 @@ msgstr "Pekinmatning"
 #: C/pointer-and-touch-input.page:108
 msgid ""
 "Touch screens are also an increasingly common part of modern computer "
-"hardware, and applications created with GTK+ are likely to be used with "
+"hardware, and applications created with GTK are likely to be used with "
 "hardware that incorporates a touch screen. To make the most of this "
 "hardware, and to conform to users’ expectations, it is therefore important "
 "to consider touch input as a part of application design."
 msgstr ""
 "Pekskärmar är också en alltmer vanlig del av modern datorhårdvara, och "
-"program som skapats med GTK+ är troliga att användas med hårdvara som "
+"program som skapats med GTK är troliga att användas med hårdvara som "
 "innehåller en pekskärm. För att få ut det mesta av den här hårdvaran, och "
 "för att följa användares förväntningar så är det därför viktigt att överväga "
 "pekinmatning som en del av programdesignen."
