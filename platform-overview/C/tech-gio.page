@@ -27,7 +27,7 @@
 <title>GIO Files</title>
 
 <p>GIO provides APIs for asynchronously reading and writing files and
-other streams. Files are referenced by URIs (uniform resource locators), and backends can
+other streams. Files are referenced by URIs (uniform resource identifiers), and backends can
 provide access to more than just local files. When running under the
 GNOME desktop, GIO uses GVFS to allow access to files over SFTP, FTP,
 WebDAV, SMB, and other popular protocols. This transparent network

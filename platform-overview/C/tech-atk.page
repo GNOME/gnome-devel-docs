@@ -40,7 +40,7 @@ free.</p>
 <p>ATK solves the problem of plugging many different kinds of widgets (text
 entries, text areas, buttons, menus) with many different types of accessibility
 technologies (screen readers, braille displays, sip-and-puff control devices).
-Instead of writing NxM interfaces, from each widget to each accessibility
+Instead of writing N×M interfaces, from each widget to each accessibility
 device, one just has to expose a widget through ATK's interfaces.
 Accessibility devices will in turn use these interfaces to query accessible
 widgets.  For example, an aural screen reader and a braille display will both

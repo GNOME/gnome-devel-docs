@@ -32,7 +32,7 @@
 input devices.  Implementations of widgets in GTK use this functionality, and
 translate the events into higher-level signals that can in turn be used from
 application code.  For example, a <code>GtkButton</code> widget will track
-<code>GDK_BUTTON_PRESS</code> and <code>GTK_BUTTON_RELEASE</code> events,
+<code>GDK_BUTTON_PRESS</code> and <code>GDK_BUTTON_RELEASE</code> events,
 which come from the mouse, and translate them as appropriate into a
 <code>GtkButton::clicked</code> signal when the user presses and releases
 the button in the right location.</p>

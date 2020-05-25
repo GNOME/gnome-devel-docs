@@ -35,7 +35,7 @@
 
 <p>Seamlessly access local and remote files using the core GNOME IO libraries.
 Make your application responsive by using the extensive support for
-asynchronous IO operations. Allow users to find files easily be providing
+asynchronous IO operations. Allow users to find files easily by providing
 metadata to describe documents.</p>
 
 <section id="what">
