@@ -4,15 +4,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview\n"
-"POT-Creation-Date: 2020-04-17 14:57+0000\n"
-"PO-Revision-Date: 2020-05-10 19:10+0200\n"
+"POT-Creation-Date: 2020-06-12 10:35+0000\n"
+"PO-Revision-Date: 2020-08-02 01:17+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -701,13 +701,12 @@ msgid ""
 "MIME type."
 msgstr "För detta tänkta program listas <code>image/png</code> som den MIME-typ som stöds."
 
-# TODO: "*See* the ... for details."
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:45
 msgid ""
 "Custom MIME types can be added to the system-wide MIME database, but this is outside the "
-"scope of this guide. The <link href=\"http://standards.freedesktop.org/shared-mime-info-"
-"spec/latest/\">Shared MIME-Info Database</link> specification for more details."
+"scope of this guide. See the <link href=\"http://standards.freedesktop.org/shared-mime-"
+"info-spec/latest/\">Shared MIME-Info Database</link> specification for more details."
 msgstr ""
 "Anpassade MIME-typer kan läggas till i den systemomfattande MIME-databasen, men det är "
 "utanför omfattningen för denna guide. Se <link href=\"http://standards.freedesktop.org/"
@@ -724,17 +723,16 @@ msgstr "Uppstartsavisering"
 msgid "Notify the user when your application has finished starting up."
 msgstr "Avisera användaren då ditt program har startats färdigt."
 
-# TODO: should be https://www.freedesktop.org/wiki/Specifications/startup-notification-spec/
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:28
 msgid ""
-"GNOME implements the <link href=\"http://standards.freedesktop.org/desktop-entry-spec/"
-"latest/index.html\">Startup Notification protocol</link>, to give feedback to the user "
-"when application startup finishes."
+"GNOME implements the <link href=\"https://standards.freedesktop.org/startup-notification-"
+"spec/startup-notification-latest.txt\">Startup Notification protocol</link>, to give "
+"feedback to the user when application startup finishes."
 msgstr ""
-"GNOME implementerar <link href=\"http://standards.freedesktop.org/desktop-entry-spec/"
-"latest/index.html\">Startup Notification-protokollet</link> för att ge återkoppling till "
-"användaren då programmets uppstart är klar."
+"GNOME implementerar <link href=\"https://standards.freedesktop.org/startup-notification-"
+"spec/startup-notification-latest.txt\">Startup Notification-protokollet</link> för att "
+"ge återkoppling till användaren då programmets uppstart är klar."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:33
@@ -1577,13 +1575,12 @@ msgstr "<em style=\"strong\">Läs och skriv asynkront filer och andra strömmar<
 msgid "<em style=\"strong\">Store and retrieve document metadata</em>"
 msgstr "<em style=\"strong\">Lagra och ta fram dokumentmetadata</em>"
 
-# TODO: be providing -> by providing?
 #. (itstool) path: page/p
 #: C/overview-io.page:36
 msgid ""
 "Seamlessly access local and remote files using the core GNOME IO libraries. Make your "
 "application responsive by using the extensive support for asynchronous IO operations. "
-"Allow users to find files easily be providing metadata to describe documents."
+"Allow users to find files easily by providing metadata to describe documents."
 msgstr ""
 "Kom sömlöst åt lokala filer och fjärrfiler med GNOME:s kärnbibliotek för inmatning/"
 "utmatning. Gör ditt program kvickt att reagera genom att använda det omfattande stödet "
@@ -2271,13 +2268,12 @@ msgstr ""
 "plattformen, så varje program som använder GTK kommer att få ett rimligt hjälpmedelsstöd "
 "på köpet."
 
-# TODO: NxM -> N×M
 #. (itstool) path: page/p
 #: C/tech-atk.page:40
 msgid ""
 "ATK solves the problem of plugging many different kinds of widgets (text entries, text "
 "areas, buttons, menus) with many different types of accessibility technologies (screen "
-"readers, braille displays, sip-and-puff control devices). Instead of writing NxM "
+"readers, braille displays, sip-and-puff control devices). Instead of writing N×M "
 "interfaces, from each widget to each accessibility device, one just has to expose a "
 "widget through ATK's interfaces. Accessibility devices will in turn use these interfaces "
 "to query accessible widgets. For example, an aural screen reader and a braille display "
@@ -2542,12 +2538,11 @@ msgstr ""
 "Kartor kan erhållas från diverse källor, inklusive <link href=\"http://www.openstreetmap."
 "org/\">Open Street Map</link>."
 
-# TODO: which was the -> *which had its*
 #. (itstool) path: note/p
 #: C/tech-champlain.page:27
 msgid ""
 "libchamplain is named after Samuel de Champlain, famous French navigator, explorer and "
-"cartographer. He is the “father of New-France” and founder of Québec City, which was the "
+"cartographer. He is the “father of New-France” and founder of Québec City, which had its "
 "400th anniversary in 2008, the year this library was created."
 msgstr ""
 "libchamplain har fått sitt namn efter Samuel de Champlain, berömd fransk navigatör, "
@@ -2966,7 +2961,6 @@ msgstr ""
 "inmatningsenheter. GDK agerar som en abstraktion över diverse fönstersystem, så att GTK "
 "kan porteras till dem alla: X Window System (X11), Microsoft Windows, Mac OS X Quartz."
 
-# TODO: GTK_BUTTON_RELEASE -> GDK_BUTTON_RELEASE
 #. (itstool) path: page/p
 #: C/tech-gdk.page:31
 msgid ""
@@ -2974,7 +2968,7 @@ msgid ""
 "Implementations of widgets in GTK use this functionality, and translate the events into "
 "higher-level signals that can in turn be used from application code. For example, a "
 "<code>GtkButton</code> widget will track <code>GDK_BUTTON_PRESS</code> and "
-"<code>GTK_BUTTON_RELEASE</code> events, which come from the mouse, and translate them as "
+"<code>GDK_BUTTON_RELEASE</code> events, which come from the mouse, and translate them as "
 "appropriate into a <code>GtkButton::clicked</code> signal when the user presses and "
 "releases the button in the right location."
 msgstr ""
@@ -2982,7 +2976,7 @@ msgstr ""
 "Implementationer av komponenter i GTK använder denna funktionalitet och översätter "
 "händelserna till signaler på högre nivå som i sin tur kan användas från programkod. Till "
 "exempel kommer en <code>GtkButton</code>-komponent att spåra <code>GDK_BUTTON_PRESS</"
-"code>- och <code>GTK_BUTTON_RELEASE</code>-händelser, vilka kommer från musen, och "
+"code>- och <code>GDK_BUTTON_RELEASE</code>-händelser, vilka kommer från musen, och "
 "översätta dem som lämpligt till en <code>GtkButton::clicked</code>-signal när användaren "
 "trycker ner och släpper upp knappen på rätt plats."
 
@@ -3175,18 +3169,17 @@ msgstr "Fil- och URI-hantering, asynkrona filoperationer, volymhantering"
 msgid "GIO Files"
 msgstr "GIO-filer"
 
-# TODO: Not URL for *uniform resource locators* ?
 #. (itstool) path: page/p
 #: C/tech-gio.page:29
 msgid ""
 "GIO provides APIs for asynchronously reading and writing files and other streams. Files "
-"are referenced by URIs (uniform resource locators), and backends can provide access to "
-"more than just local files. When running under the GNOME desktop, GIO uses GVFS to allow "
-"access to files over SFTP, FTP, WebDAV, SMB, and other popular protocols. This "
+"are referenced by URIs (uniform resource identifiers), and backends can provide access "
+"to more than just local files. When running under the GNOME desktop, GIO uses GVFS to "
+"allow access to files over SFTP, FTP, WebDAV, SMB, and other popular protocols. This "
 "transparent network file access is free to all applications using GIO."
 msgstr ""
 "GIO tillhandahåller API:er för att asynkront läsa och skriva filer och andra strömmar. "
-"Filer hänvisas till med URI:er (uniform resource locators), och gränssnitt kan "
+"Filer hänvisas till med URI:er (uniform resource identifiers), och gränssnitt kan "
 "tillhandahålla åtkomst till mer än bara lokala filer. Då det körs under GNOME-"
 "skrivbordet använder GIO sig av GVFS för att tillåta åtkomst till filer över SFTP, FTP, "
 "WebDAV, SMB och andra populära protokoll. Denna transparenta nätverksfilåtkomst är fri "
