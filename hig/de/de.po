@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the gnome-devel-docs package.
 #
 # Christian Kirbach <christian.kirbach@gmail.com>, 2014.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2015-2019.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2015-2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-04-05 12:46+0000\n"
-"PO-Revision-Date: 2019-04-12 23:59+0200\n"
+"POT-Creation-Date: 2020-06-12 10:34+0000\n"
+"PO-Revision-Date: 2020-09-04 21:39+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 20.08.0\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -1106,15 +1106,21 @@ msgstr "Kompatibilität"
 
 #. (itstool) path: page/p
 #: C/compatibility.page:16
+#| msgid ""
+#| "These Human Interface Guidelines are primarily targeted towards new GTK+ "
+#| "and GNOME applications, with an emphasis on GNOME 3 integration. However, "
+#| "they are also intended to be useful to cross-platform applications, as "
+#| "well as older applications, which may have been designed and implemented "
+#| "in accordance with the GNOME 2 HIG."
 msgid ""
-"These Human Interface Guidelines are primarily targeted towards new GTK+ and "
+"These Human Interface Guidelines are primarily targeted towards new GTK and "
 "GNOME applications, with an emphasis on GNOME 3 integration. However, they "
 "are also intended to be useful to cross-platform applications, as well as "
 "older applications, which may have been designed and implemented in "
 "accordance with the GNOME 2 HIG."
 msgstr ""
 "Diese Richtlinien für Benutzeroberflächen zielen primär auf neue GNOME- und "
-"GTK+-Anwendungen ab, wobei der Schwerpunkt wiederum auf der Integration in "
+"GTK-Anwendungen ab, wobei der Schwerpunkt wiederum auf der Integration in "
 "GNOME 3 liegt. Jedoch sind sie auch für plattformübergreifende und ältere "
 "Anwendungen anwendbar, die auf der Grundlage der Richtlinien für GNOME-2-"
 "Benutzeroberflächen entworfen und implementiert wurden."
@@ -1208,8 +1214,9 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/compatibility.page:38
-msgid "Guidance on new GTK+ abilities, like animations."
-msgstr "Einführung in neue Fähigkeiten von GTK+, zum Beispiel Animationen."
+#| msgid "Guidance on new GTK+ abilities, like animations."
+msgid "Guidance on new GTK abilities, like animations."
+msgstr "Einführung in neue Fähigkeiten von GTK, zum Beispiel Animationen."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:39
@@ -1222,13 +1229,17 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/compatibility.page:42
+#| msgid ""
+#| "Incorporating these elements of the guidelines can enhance your "
+#| "application without requiring a major redesign, and all GTK+ and GNOME "
+#| "applications can benefit from them."
 msgid ""
 "Incorporating these elements of the guidelines can enhance your application "
-"without requiring a major redesign, and all GTK+ and GNOME applications can "
+"without requiring a major redesign, and all GTK and GNOME applications can "
 "benefit from them."
 msgstr ""
 "Die Integration dieser Elemente kann Ihre Anwendung verbessern, ohne dass "
-"ein völliger Umbau des Designs nötig ist. Alle GTK+- und GNOME-Anwendungen "
+"ein völliger Umbau des Designs nötig ist. Alle GTK- und GNOME-Anwendungen "
 "können davon profitieren."
 
 #. (itstool) path: section/p
@@ -1649,11 +1660,14 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dialogs.page:31
+#| msgid ""
+#| "GTK+ provides a number of stock dialogs that can be used, such as for "
+#| "printing or color selection."
 msgid ""
-"GTK+ provides a number of stock dialogs that can be used, such as for "
+"GTK provides a number of stock dialogs that can be used, such as for "
 "printing or color selection."
 msgstr ""
-"GTK+ liefert bereits eine Anzahl vorgefertigter Dialoge mit, die Sie "
+"GTK liefert bereits eine Anzahl vorgefertigter Dialoge mit, die Sie "
 "verwenden können, wie beispielsweise zum Drucken oder zur Farbauswahl."
 
 #. (itstool) path: page/p
@@ -1838,14 +1852,19 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/dialogs.page:85
+#| msgid ""
+#| "Many of the stock GTK+ dialogs are action dialogs. The print dialog is a "
+#| "good example: it is displayed in response to the user using the print "
+#| "action, and presents information and options for that print action. The "
+#| "two header bar buttons allow the print action to either be cancelled or "
+#| "carried out."
 msgid ""
-"Many of the stock GTK+ dialogs are action dialogs. The print dialog is a "
-"good example: it is displayed in response to the user using the print "
-"action, and presents information and options for that print action. The two "
-"header bar buttons allow the print action to either be cancelled or carried "
-"out."
+"Many of the stock GTK dialogs are action dialogs. The print dialog is a good "
+"example: it is displayed in response to the user using the print action, and "
+"presents information and options for that print action. The two header bar "
+"buttons allow the print action to either be cancelled or carried out."
 msgstr ""
-"Viele der vorgefertigten GTK+-Dialoge sind Aktionsdialoge. Der Druckdialog "
+"Viele der vorgefertigten GTK-Dialoge sind Aktionsdialoge. Der Druckdialog "
 "ist dafür ein gutes Beispiel: Er erscheint als Reaktion darauf, wenn der "
 "Benutzer die Drucken-Aktion anstößt und zeigt Informationen und Optionen zu "
 "dieser Aktion an. Mit den zwei Knöpfen in der Kopfleiste kann der "
@@ -2322,7 +2341,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:37
 msgid ""
-"While GTK+ does provide a specific combobox widget, it is recommended that "
+"While GTK does provide a specific combobox widget, it is recommended that "
 "drop-down lists are constructed using a combination of a button and a "
 "popover. This allows more comfortable scrolling for long lists, and allows "
 "search to be integrated into the list. Using this approach also allows the "
@@ -2685,8 +2704,8 @@ msgstr ""
 msgid ""
 "The Videos application is a good example of how fullscreen should behave."
 msgstr ""
-"Die Anwendung »Videos« ist ein gutes Beispiel dafür, wie sich der"
-" Vollbildmodus verhalten sollte."
+"Die Anwendung »Videos« ist ein gutes Beispiel dafür, wie sich der "
+"Vollbildmodus verhalten sollte."
 
 #. (itstool) path: info/desc
 #: C/grids.page:8
@@ -2776,8 +2795,8 @@ msgstr ""
 msgid ""
 "Consider combining the grid view search, selection mode and collections."
 msgstr ""
-"Denken Sie darüber nach, ob Sie Gitteransicht, Markierungsmodus und Sammlungen"
-" kombinieren könnten."
+"Denken Sie darüber nach, ob Sie Gitteransicht, Markierungsmodus und "
+"Sammlungen kombinieren könnten."
 
 #. (itstool) path: item/p
 #: C/grids.page:46
@@ -3629,7 +3648,7 @@ msgstr "GNOMEs Richtlinien für Benutzeroberflächen"
 #: C/index.page:17
 msgid ""
 "Whether you are a developer or a designer, these guidelines contain "
-"everything you need to design effective applications using GTK+. They cover "
+"everything you need to design effective applications using GTK. They cover "
 "design principles for GNOME 3, common guidelines such as how to write text "
 "and use images and icons, as well as a library of design patterns which you "
 "can use in your application."
@@ -3644,12 +3663,12 @@ msgid ""
 "xref=\"compatibility\">compatibility guidelines</link> contain more "
 "information on this."
 msgstr ""
-"Zwar zielen die Richtlinien für Benutzeroberflächen primär auf die"
-" Anwendungsentwicklung für GNOME 3 ab, sie können aber auch beim Entwickeln"
-" plattformübergreifender Anwendungen oder für jene, die bereits nach den"
-" Richtlinien für GNOME 2 folgten, nützlich sein. Die The <link"
-" xref=\"compatibility\">Kompatibilitätsrichtlinien</link> halten weitere"
-" Informationen hierzu bereit."
+"Zwar zielen die Richtlinien für Benutzeroberflächen primär auf die "
+"Anwendungsentwicklung für GNOME 3 ab, sie können aber auch beim Entwickeln "
+"plattformübergreifender Anwendungen oder für jene, die bereits nach den "
+"Richtlinien für GNOME 2 folgten, nützlich sein. Die The <link xref="
+"\"compatibility\">Kompatibilitätsrichtlinien</link> halten weitere "
+"Informationen hierzu bereit."
 
 #. (itstool) path: section/title
 #: C/index.page:22
@@ -3664,11 +3683,11 @@ msgid ""
 "HIG, it is recommended that you start with the page on design principles and "
 "then browse the patterns, before going on to other material."
 msgstr ""
-"Muster und Elemente der Benutzeroberfläche bilden den Kern der Richtlinien"
-" für Benutzeroberflächen. Zusammen sind sie die Bausteine für das"
-" Anwendungsdesign. Wenn sie Neuling sind, empfehlen wir, auf der Seite mit"
-" den Designprinzipien zu beginnen und dann die Muster zu erkunden, bevor Sie"
-" sich dem übrigen Material zuwenden."
+"Muster und Elemente der Benutzeroberfläche bilden den Kern der Richtlinien "
+"für Benutzeroberflächen. Zusammen sind sie die Bausteine für das "
+"Anwendungsdesign. Wenn sie Neuling sind, empfehlen wir, auf der Seite mit "
+"den Designprinzipien zu beginnen und dann die Muster zu erkunden, bevor Sie "
+"sich dem übrigen Material zuwenden."
 
 #. (itstool) path: td/p
 #: C/index.page:28
@@ -3870,11 +3889,11 @@ msgid ""
 "happened, and can also include a button that allows the user to respond. "
 "They are always transient and user dismissable."
 msgstr ""
-"In Anwendungen eingebettete Benachrichtigungen sind sich informative Fenster,"
-" die innerhalb einer Anwendung geöffnet werden. Sie enthalten eine"
-" Beschriftung, die das auslösende Ereignis beschreibt und können auch einen"
-" Knopf enthalten, der dem Benutzer ermöglicht, darauf zu reagieren. Sie sind"
-" immer flüchtig und können vom Benutzer verworfen werden."
+"In Anwendungen eingebettete Benachrichtigungen sind sich informative "
+"Fenster, die innerhalb einer Anwendung geöffnet werden. Sie enthalten eine "
+"Beschriftung, die das auslösende Ereignis beschreibt und können auch einen "
+"Knopf enthalten, der dem Benutzer ermöglicht, darauf zu reagieren. Sie sind "
+"immer flüchtig und können vom Benutzer verworfen werden."
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:25
@@ -3887,14 +3906,14 @@ msgid ""
 "system-wide alerts, and which persist after the notification has been "
 "initially displayed."
 msgstr ""
-"Diese anwendungseigenen Benachrichtigungen können dazu verwendet werden, den"
-" Benutzer über Ereignisse zu informieren, die für dessen Aktivität in einer"
-" Anwendung unmittelbar relevant sind, aber nicht von dauerhaftem Interesse"
-" sind. Ein typischer Anwendungsfall sind Rückmeldungen zu Aktionen des"
-" Benutzers während der Arbeit in der Anwendung. Dies steht im Kontrast zu <"
-"link xref=\"notifications\">Standard-Benachrichtigungen</link>, die"
-" systemweite Warnungen enthalten und nach der erstmaligen Anzeige der"
-" Benachrichtigung bestehen bleiben."
+"Diese anwendungseigenen Benachrichtigungen können dazu verwendet werden, den "
+"Benutzer über Ereignisse zu informieren, die für dessen Aktivität in einer "
+"Anwendung unmittelbar relevant sind, aber nicht von dauerhaftem Interesse "
+"sind. Ein typischer Anwendungsfall sind Rückmeldungen zu Aktionen des "
+"Benutzers während der Arbeit in der Anwendung. Dies steht im Kontrast zu "
+"<link xref=\"notifications\">Standard-Benachrichtigungen</link>, die "
+"systemweite Warnungen enthalten und nach der erstmaligen Anzeige der "
+"Benachrichtigung bestehen bleiben."
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:27
@@ -3903,10 +3922,10 @@ msgid ""
 "of in-app notifications: the notification is shown immediately after a user "
 "action, and is shown in the most relevant context."
 msgstr ""
-"Es dem Benutzer zu ermöglichen, eine zerstörerische Aktion rückgängig zu"
-" machen, ist ein Beispiel für eine passende Nutzung anwendungseigener"
-" Benbachrichtigungen: Die Benachrichtigung erscheint unmittelbar nach der"
-" Aktion des Benutzers und wird im am meisten relevanten Kontext angezeigt."
+"Es dem Benutzer zu ermöglichen, eine zerstörerische Aktion rückgängig zu "
+"machen, ist ein Beispiel für eine passende Nutzung anwendungseigener "
+"Benbachrichtigungen: Die Benachrichtigung erscheint unmittelbar nach der "
+"Aktion des Benutzers und wird im am meisten relevanten Kontext angezeigt."
 
 #. (itstool) path: section/p
 #: C/in-app-notifications.page:29
@@ -3914,8 +3933,8 @@ msgid ""
 "In-app notifications are not a good solution for communicating ongoing "
 "states."
 msgstr ""
-"Anwendungseigene Benachrichtigungen sind keine gute Lösung zum Übermitteln"
-" veränderlicher Zustände."
+"Anwendungseigene Benachrichtigungen sind keine gute Lösung zum Übermitteln "
+"veränderlicher Zustände."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:37
@@ -4151,7 +4170,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/keyboard-input.page:33
 msgid ""
-"Keyboard interaction has three aspects in GNOME and GTK+: navigation, access "
+"Keyboard interaction has three aspects in GNOME and GTK: navigation, access "
 "keys, and shortcut keys. <link xref=\"search\">Search</link> is another, "
 "additional aspect."
 msgstr ""
@@ -4167,19 +4186,22 @@ msgid ""
 "Make sure that it is possible to move around and interact with every part of "
 "your user interface using the keyboard, by following these guidelines."
 msgstr ""
-"Stellen Sie sicher, dass es stets möglich ist, sich mithilfe der Tastatur in"
-" der Benutzeroberfläche zu bewegen und mit jedem Teil zu interagieren, indem"
-" Sie diesen Richtlinien folgen."
+"Stellen Sie sicher, dass es stets möglich ist, sich mithilfe der Tastatur in "
+"der Benutzeroberfläche zu bewegen und mit jedem Teil zu interagieren, indem "
+"Sie diesen Richtlinien folgen."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:41
+#| msgid ""
+#| "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
+#| "standard key for moving around an interface with GTK+ and GNOME."
 msgid ""
 "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
-"standard key for moving around an interface with GTK+ and GNOME."
+"standard key for moving around an interface with GTK and GNOME."
 msgstr ""
 "Folgen Sie den GNOME-Standards für Navigation. Die <key>Tabulatortaste</key> "
 "ist die Standardtaste für das Bewegen innerhalb einer Benutzeroberfläche mit "
-"GTK+ und GNOME."
+"GTK und GNOME."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:42
@@ -4431,12 +4453,12 @@ msgid ""
 "letter provides a better association (for example: “x” in “Extra Large”) , "
 "consider using that letter instead."
 msgstr ""
-"Wählen Sie Zugriffstasten, die leicht zu merken sind. Normalerweise sollte es"
-" der erste Buchstabe der Beschriftung sein. Besteht die Beschriftung aus"
-" mehreren Wörtern, kann auch der erste Buchstabe eines der anderen Wörter"
-" verwendet werden. Sollte ein anderer Buchstabe eine bessere Assoziation"
-" ermöglichen (wie das »x« in »Extra Large«), sollten Sie stattdessen diesen"
-" Buchstaben in erwägung ziehen."
+"Wählen Sie Zugriffstasten, die leicht zu merken sind. Normalerweise sollte "
+"es der erste Buchstabe der Beschriftung sein. Besteht die Beschriftung aus "
+"mehreren Wörtern, kann auch der erste Buchstabe eines der anderen Wörter "
+"verwendet werden. Sollte ein anderer Buchstabe eine bessere Assoziation "
+"ermöglichen (wie das »x« in »Extra Large«), sollten Sie stattdessen diesen "
+"Buchstaben in erwägung ziehen."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:125
@@ -4445,10 +4467,10 @@ msgid ""
 "letters with descenders (such as lowercase g or y), unless it is "
 "unavoidable. The underline is sometimes not as clear with these characters."
 msgstr ""
-"Vermeiden Sie die Zuweisung von Zugriffstasten zu »dünnen« Buchstaben, wie"
-" »i« oder »l«, oder Buchstaben mit Anhängseln, wie »g« oder »y«, außer wenn"
-" es wirklich nicht anders möglich ist. Die Unterstreichung ist bei solchen"
-" Buchstaben manchmal nicht klar zu erkennen."
+"Vermeiden Sie die Zuweisung von Zugriffstasten zu »dünnen« Buchstaben, wie "
+"»i« oder »l«, oder Buchstaben mit Anhängseln, wie »g« oder »y«, außer wenn "
+"es wirklich nicht anders möglich ist. Die Unterstreichung ist bei solchen "
+"Buchstaben manchmal nicht klar zu erkennen."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:126
@@ -4458,11 +4480,11 @@ msgid ""
 "an easy to remember consonant from the label, for example, “p” in “Replace”. "
 "Only assign vowels once no consonants are available."
 msgstr ""
-"Wenn Ihnen die Wahl schwerfällt, weisen Sie Zugriffstasten zuerst den am"
-" häufigsten verwendeten Bedienelementen zu. Wenn der erste Buchstabe nicht"
-" verfügbar ist, wählen Sie einen leicht zu merkenden Konsonanten aus der"
-" Beschriftung aus, zum Beispiel »p« in »Replace«. Wählen Sie nur dann Vokale,"
-" wenn keine Konsonanten mehr verfügbar sind."
+"Wenn Ihnen die Wahl schwerfällt, weisen Sie Zugriffstasten zuerst den am "
+"häufigsten verwendeten Bedienelementen zu. Wenn der erste Buchstabe nicht "
+"verfügbar ist, wählen Sie einen leicht zu merkenden Konsonanten aus der "
+"Beschriftung aus, zum Beispiel »p« in »Replace«. Wählen Sie nur dann Vokale, "
+"wenn keine Konsonanten mehr verfügbar sind."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:127
@@ -4471,10 +4493,10 @@ msgid ""
 "that they are taken from, so even if there are no conflicts in your native "
 "language, they may occur in translations."
 msgstr ""
-"Denken Sie daran, dass Zugriffstasten zusammen mit den Zeichenketten"
-" übersetzt werden müsse, in denen sie enthalten sind. Selbst wenn es in Ihrer"
-" eigenen Sprache keine Konflikte gibt, könnten diese in den Übersetzungen"
-" dennoch auftreten."
+"Denken Sie daran, dass Zugriffstasten zusammen mit den Zeichenketten "
+"übersetzt werden müsse, in denen sie enthalten sind. Selbst wenn es in Ihrer "
+"eigenen Sprache keine Konflikte gibt, könnten diese in den Übersetzungen "
+"dennoch auftreten."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:133
@@ -6583,9 +6605,8 @@ msgstr ""
 "link> und <link xref=\"header-bar-menus\">Kopfleistenmenüs</link> generell "
 "gegenüber Menüleisten bevorzugt werden, zusammen mit weiteren Designmustern "
 "zum bedarfsweisen Darstellen von Bedienelementen, wie <link xref=\"selection-"
-"mode\">Markierungsmodus</link>, <link xref=\"action-bars\">Aktionsleisten<"
-"/link> "
-"und <link xref=\"popovers\">Einblendmenüs</link>."
+"mode\">Markierungsmodus</link>, <link xref=\"action-bars\">Aktionsleisten</"
+"link> und <link xref=\"popovers\">Einblendmenüs</link>."
 
 # Siehe da, Apple kommt doch nicht aus dem Mustopf… -mb
 #. (itstool) path: section/p
@@ -6954,10 +6975,9 @@ msgid ""
 "relevant pages for advice on when to use these elements."
 msgstr ""
 "Menüs können als Teil einer <link xref=\"menu-bars\">Menüleiste</link>, als "
-"Kontextmenüs (siehe <link xref=\"selection-mode\">Markierungsmodus</link>)"
-" oder "
-"als Teil eines <link xref=\"button-menus\">Knopfmenüs</link> auftreten. In "
-"den verlinkten Seiten finden Sie Anweisungen, wann Sie welche Elemente "
+"Kontextmenüs (siehe <link xref=\"selection-mode\">Markierungsmodus</link>) "
+"oder als Teil eines <link xref=\"button-menus\">Knopfmenüs</link> auftreten. "
+"In den verlinkten Seiten finden Sie Anweisungen, wann Sie welche Elemente "
 "verwenden sollten."
 
 #. (itstool) path: section/title
@@ -7519,12 +7539,12 @@ msgstr "original'"
 #. (itstool) path: section/title
 #: C/patterns.page:24
 msgid "Core design patterns"
-msgstr ""
+msgstr "Grundlegende Designmuster"
 
 #. (itstool) path: section/title
 #: C/patterns.page:30
 msgid "Supplementary design patterns"
-msgstr ""
+msgstr "Ergänzende Designmuster"
 
 #. (itstool) path: page/title
 #: C/pointer-and-touch-input.page:17
@@ -7782,7 +7802,7 @@ msgstr "Eingabe über Berührung"
 #: C/pointer-and-touch-input.page:108
 msgid ""
 "Touch screens are also an increasingly common part of modern computer "
-"hardware, and applications created with GTK+ are likely to be used with "
+"hardware, and applications created with GTK are likely to be used with "
 "hardware that incorporates a touch screen. To make the most of this "
 "hardware, and to conform to users’ expectations, it is therefore important "
 "to consider touch input as a part of application design."
@@ -8189,11 +8209,11 @@ msgid ""
 "However, don’t mix too many different types of control within the same "
 "popover, and try to group controls of the same type together."
 msgstr ""
-"Ein Einblenddialog ist ein generischer Container und kann als solcher eine"
-" breite Auswahl an Bedienelementen enthalten, zum Beispiel Knöpfe,"
-" Schieberegler, Listen, Schalter und Textfelder. Dennoch sollten Sie nicht zu"
-" viele verschiedene Elementtypen im gleichen Einblenddialog miteinander"
-" mischen und versuchen, Bedienelemente des gleichen Typs zu gruppieren."
+"Ein Einblenddialog ist ein generischer Container und kann als solcher eine "
+"breite Auswahl an Bedienelementen enthalten, zum Beispiel Knöpfe, "
+"Schieberegler, Listen, Schalter und Textfelder. Dennoch sollten Sie nicht zu "
+"viele verschiedene Elementtypen im gleichen Einblenddialog miteinander "
+"mischen und versuchen, Bedienelemente des gleichen Typs zu gruppieren."
 
 #. (itstool) path: item/p
 #: C/popovers.page:46
@@ -8201,8 +8221,8 @@ msgid ""
 "Popovers can function as a container for a menu, or for a menu in "
 "combination with a small number of supplementary controls."
 msgstr ""
-"Einblenddialoge können als Container für ein Menü fungieren, oder auch für"
-" ein Menü in Verbindung mit wenigen ergänzenden Bedienelementen."
+"Einblenddialoge können als Container für ein Menü fungieren, oder auch für "
+"ein Menü in Verbindung mit wenigen ergänzenden Bedienelementen."
 
 #. (itstool) path: item/p
 #: C/popovers.page:47
@@ -8210,8 +8230,8 @@ msgid ""
 "If the purpose of a popover’s controls is ambiguous, the popover can be "
 "given a heading."
 msgstr ""
-"Wenn der Zweck der Bedienelemente in einem Einblenddialog nicht eindeutig"
-" ist, können Sie den Einblenddialog mit einer Überschrift versehen."
+"Wenn der Zweck der Bedienelemente in einem Einblenddialog nicht eindeutig "
+"ist, können Sie den Einblenddialog mit einer Überschrift versehen."
 
 #. (itstool) path: item/p
 #: C/popovers.page:48
@@ -8229,10 +8249,10 @@ msgid ""
 "cover more than a third of their parent window) and low in complexity. They "
 "should always appear as subordinates to their parent windows."
 msgstr ""
-"Einblenddialoge sollten nicht zu groß und auch nicht zu komplex sein. Als"
-" Faustregel gilt, dass sie nicht mehr als ein Drittel der Größe ihres"
-" Elternfensters einnehmen sollten. Sie sollten immer als »Untergebene« ihrer"
-" Elternfenster zu erkennen sein."
+"Einblenddialoge sollten nicht zu groß und auch nicht zu komplex sein. Als "
+"Faustregel gilt, dass sie nicht mehr als ein Drittel der Größe ihres "
+"Elternfensters einnehmen sollten. Sie sollten immer als »Untergebene« ihrer "
+"Elternfenster zu erkennen sein."
 
 #. (itstool) path: section/p
 #: C/popovers.page:58
@@ -8240,8 +8260,8 @@ msgid ""
 "A popover should only ever appear in response to a user action, and should "
 "never appear in a surprising or unintended manner."
 msgstr ""
-"Ein Einblenddialog sollte immer nur als Ergebnis einer Benutzeraktion"
-" erscheinen, niemals in einer überraschenden oder unbeabsichtigten Weise."
+"Ein Einblenddialog sollte immer nur als Ergebnis einer Benutzeraktion "
+"erscheinen, niemals in einer überraschenden oder unbeabsichtigten Weise."
 
 #. (itstool) path: item/p
 #: C/popovers.page:67
@@ -8256,8 +8276,8 @@ msgstr ""
 #: C/primary-menus.page:8
 msgid "The application's main menu, denoted by three stacked horizontal lines"
 msgstr ""
-"Das Hauptmenü der Anwendung, durch drei übereinander liegende horizontale"
-" Linien angedeutet"
+"Das Hauptmenü der Anwendung, durch drei übereinander liegende horizontale "
+"Linien angedeutet"
 
 #. (itstool) path: page/title
 #: C/primary-menus.page:16
@@ -8285,12 +8305,12 @@ msgid ""
 "include standard items like <gui>Preferences</gui>, <gui>Help</gui> and "
 "<gui>About Application</gui>, as well as other application-specific items."
 msgstr ""
-"Primäre Menüs sind ein Standard-Designmuster, das in den meisten Anwendungen"
-" zu finden ist. Sie sind mit dem Menü-Symbol beschriftet (namens <code"
-">menu-open</code>) und enthalten das Menü der obersten Ebene der Anwendung."
-" Dieses kann Standardeinträge wie <gui>Preferences</gui>, <gui>Help</gui> und"
-" <gui>About Application</gui> sowie weitere anwendungsspezifische Einträge"
-" enthalten."
+"Primäre Menüs sind ein Standard-Designmuster, das in den meisten Anwendungen "
+"zu finden ist. Sie sind mit dem Menü-Symbol beschriftet (namens <code>menu-"
+"open</code>) und enthalten das Menü der obersten Ebene der Anwendung. Dieses "
+"kann Standardeinträge wie <gui>Preferences</gui>, <gui>Help</gui> und "
+"<gui>About Application</gui> sowie weitere anwendungsspezifische Einträge "
+"enthalten."
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:26
@@ -8299,8 +8319,8 @@ msgid ""
 "for <gui>About Application</gui>, which every application is expected to "
 "have."
 msgstr ""
-"Die meisten Anwendungen haben primäre Menüs, da diese der Standardort für <"
-"gui>About Application</gui> sind, was jede Anwendung haben sollte."
+"Die meisten Anwendungen haben primäre Menüs, da diese der Standardort für "
+"<gui>About Application</gui> sind, was jede Anwendung haben sollte."
 
 #. (itstool) path: section/title
 #: C/primary-menus.page:31 C/secondary-menus.page:32
@@ -8313,36 +8333,47 @@ msgid ""
 "Primary menus are typically placed on the right side of the header bar. "
 "However, there are two variations on this rule:"
 msgstr ""
-"Primäre Menüs werden typischerweise am rechten Ende der Kopfleiste platziert."
-" Jedoch gibt es eine Reihe von Abweichungen von dieser Regel:"
+"Primäre Menüs werden typischerweise am rechten Ende der Kopfleiste "
+"platziert. Jedoch gibt es eine Reihe von Abweichungen von dieser Regel:"
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:36
+#| msgid ""
+#| "If the application incorporates in-window navigation, with a top-level "
+#| "location and sub-pages, the primary menu should only be placed on the top "
+#| "level: sub-pages can include a <link xref=\"secondary-menu\">secondary "
+#| "menu</link>, if a menu is required."
 msgid ""
 "If the application incorporates in-window navigation, with a top-level "
 "location and sub-pages, the primary menu should only be placed on the top "
-"level: sub-pages can include a <link xref=\"secondary-menu\">secondary menu</"
-"link>, if a menu is required."
+"level: sub-pages can include a <link xref=\"secondary-menus\">secondary "
+"menu</link>, if a menu is required."
 msgstr ""
-"Wenn die Anwendung Navigation im Fenster mit einem Ort der obersten Ebene und"
-" dazugehörigen Unterseiten ermöglicht, sollte das primäre Menü nur in der"
-" obersten Ebene platziert werden: Unterseiten können ein <link"
-" xref=\"secondary-menu\">sekundäres Menü</link> enthalten, sofern ein Menü"
-" erforderlich ist."
+"Wenn die Anwendung Navigation im Fenster mit einem Ort der obersten Ebene "
+"und dazugehörigen Unterseiten ermöglicht, sollte das primäre Menü nur in der "
+"obersten Ebene platziert werden: Unterseiten können ein <link xref="
+"\"secondary-menus\">sekundäres Menü</link> enthalten, sofern ein Menü "
+"erforderlich ist."
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:37
+#| msgid ""
+#| "When used in combination with a <link xref=\"sidebar-lists\">sidebar "
+#| "list</link>, the primary menu should be placed above the sidebar list on "
+#| "the right. If a menu is required for items shown in the content side of "
+#| "the window, a <link xref=\"secondary-menu\">secondary menu</link> can be "
+#| "used."
 msgid ""
 "When used in combination with a <link xref=\"sidebar-lists\">sidebar list</"
 "link>, the primary menu should be placed above the sidebar list on the "
 "right. If a menu is required for items shown in the content side of the "
-"window, a <link xref=\"secondary-menu\">secondary menu</link> can be used."
+"window, a <link xref=\"secondary-menus\">secondary menu</link> can be used."
 msgstr ""
-"Wenn ein primäres Menü mit einer <link xref=\"sidebar-lists\""
-">Seitenleistenliste</link> kombiniert wird, sollte es oberhalb der rechten"
-" Seitenleistenliste platziert werden. Wenn für die im Inhaltsbereich des"
-" Fensters angezeigten Elemente ein Menü notwendig ist, können Sie dafür ein <"
-"link xref=\"secondary-menu\">sekundäres Menü</link> verwenden."
+"Wenn ein primäres Menü mit einer <link xref=\"sidebar-lists"
+"\">Seitenleistenliste</link> kombiniert wird, sollte es oberhalb der rechten "
+"Seitenleistenliste platziert werden. Wenn für die im Inhaltsbereich des "
+"Fensters angezeigten Elemente ein Menü notwendig ist, können Sie dafür ein "
+"<link xref=\"secondary-menus\">sekundäres Menü</link> verwenden."
 
 #. (itstool) path: section/p
 #: C/primary-menus.page:40
@@ -8357,12 +8388,11 @@ msgid ""
 "\"secondary-menus\">secondary menus</link>, which only contain menu items "
 "that relate to a specific view or item."
 msgstr ""
-"Primäre Menüs können Einträge für sowohl das aktuelle Fenster oder die"
-" aktuelle Ansicht, aber auch für die Anwendung als Ganzes enthalten. Dies"
-" unterscheidet sie von <link xref="
-"\"secondary-menus\">sekundären Menüs</link>, welche nur Menüeinträge"
-" enthalten, die sich auf eine spezifische Ansicht oder ein spezifisches"
-" Objekt beziehen."
+"Primäre Menüs können Einträge für sowohl das aktuelle Fenster oder die "
+"aktuelle Ansicht, aber auch für die Anwendung als Ganzes enthalten. Dies "
+"unterscheidet sie von <link xref=\"secondary-menus\">sekundären Menüs</"
+"link>, welche nur Menüeinträge enthalten, die sich auf eine spezifische "
+"Ansicht oder ein spezifisches Objekt beziehen."
 
 #. (itstool) path: item/p
 #: C/primary-menus.page:44
@@ -8396,8 +8426,8 @@ msgid ""
 "The following are standard primary menu items, and should be placed in a "
 "group at the end of the menu:"
 msgstr ""
-"Die folgenden Einträge gelten als Standards für ein primäres Menü und sollten"
-" an dessen Ende platziert werden:"
+"Die folgenden Einträge gelten als Standards für ein primäres Menü und "
+"sollten an dessen Ende platziert werden:"
 
 #. (itstool) path: td/p
 #: C/primary-menus.page:57
@@ -8566,8 +8596,8 @@ msgstr "Platzierung von Inhalten auf verschiedenen Arbeitsflächen."
 #: C/primary-windows.page:50
 msgid "Organizing sets of content into different windows (if using tabs)."
 msgstr ""
-"Organisieren von Inhalten in verschiedenen Fenstern (falls Reiter verwendet"
-" werden)."
+"Organisieren von Inhalten in verschiedenen Fenstern (falls Reiter verwendet "
+"werden)."
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:54
@@ -8581,9 +8611,9 @@ msgid ""
 "the case multiple web browser windows, for example). However, this is not "
 "always the case."
 msgstr ""
-"Anwendungen mit mehreren Instanzen haben typischerweise identische primäre"
-" Fenster (zum Beispiel mehrere Webbrowser-Fenster). Dies ist jedoch nicht"
-" immer der Fall."
+"Anwendungen mit mehreren Instanzen haben typischerweise identische primäre "
+"Fenster (zum Beispiel mehrere Webbrowser-Fenster). Dies ist jedoch nicht "
+"immer der Fall."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:58
@@ -8594,11 +8624,11 @@ msgid ""
 "a separate child window. This allows multiple content items to be "
 "simultaneously open."
 msgstr ""
-"Primäre Fenster können eine Eltern-/Kind-Beziehung haben. In diesem"
-" Anwendungstyp gibt es immer nur ein Eltern-Fenster. Dieses enthält"
-" typischerweise Inhaltsobjekte, die im Eltern-Fenster oder in einem separaten"
-" Kind-Fenster geöffnet werden könnten. Dies ermöglicht, dass mehrere"
-" Inhaltsobjekte gleichzeitig geöffnet sein können."
+"Primäre Fenster können eine Eltern-/Kind-Beziehung haben. In diesem "
+"Anwendungstyp gibt es immer nur ein Eltern-Fenster. Dieses enthält "
+"typischerweise Inhaltsobjekte, die im Eltern-Fenster oder in einem separaten "
+"Kind-Fenster geöffnet werden könnten. Dies ermöglicht, dass mehrere "
+"Inhaltsobjekte gleichzeitig geöffnet sein können."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:60
@@ -8607,10 +8637,10 @@ msgid ""
 "dependent on them in order to stay open: closing the parent window does not "
 "result in the closure of the application's child windows."
 msgstr ""
-"Da Kind-Fenster nur über ein Eltern-Fenster geöffnet werden können, sind"
-" diese nicht von diesen abhängig, wenn es darum geht, sie geöffnet zu halten:"
-" Das Schließen eines Eltern-Fensters bedingt nicht das Schließen aller ihrer"
-" Kind-Fenster."
+"Da Kind-Fenster nur über ein Eltern-Fenster geöffnet werden können, sind "
+"diese nicht von diesen abhängig, wenn es darum geht, sie geöffnet zu halten: "
+"Das Schließen eines Eltern-Fensters bedingt nicht das Schließen aller ihrer "
+"Kind-Fenster."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:62
@@ -8618,8 +8648,8 @@ msgid ""
 "GNOME's <app>Notes</app> application is a good example of parent/child "
 "primary windows."
 msgstr ""
-"Die <app>Notes</app>-Anwendung von GNOME ist ein gutes Beispiel für primäre"
-" Eltern-/Kind-Fenster."
+"Die <app>Notes</app>-Anwendung von GNOME ist ein gutes Beispiel für primäre "
+"Eltern-/Kind-Fenster."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:73
@@ -8636,8 +8666,8 @@ msgid ""
 "If your application launcher is activated while your application is running, "
 "all its primary windows should be displayed."
 msgstr ""
-"Falls Ihr Anwendungsstarter aktiviert wird, während Ihre Anwendung läuft,"
-" sollten alle primären Fenster der Anwendung angezeigt werden."
+"Falls Ihr Anwendungsstarter aktiviert wird, während Ihre Anwendung läuft, "
+"sollten alle primären Fenster der Anwendung angezeigt werden."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:75
@@ -8740,9 +8770,9 @@ msgid ""
 "an operation takes more than around three seconds. This ensures that users "
 "understand that they have to wait, and that an error has not occurred."
 msgstr ""
-"Es ist normalerweise notwendig, den Fortschritt anzuzeigen, wenn der Vorgang"
-" länger als etwa drei Sekunden dauert. Dadurch können Benutzer besser"
-" verstehen, dass sie warten müssen und dass kein Fehler aufgetreten ist."
+"Es ist normalerweise notwendig, den Fortschritt anzuzeigen, wenn der Vorgang "
+"länger als etwa drei Sekunden dauert. Dadurch können Benutzer besser "
+"verstehen, dass sie warten müssen und dass kein Fehler aufgetreten ist."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:41
@@ -8755,14 +8785,14 @@ msgid ""
 "<link xref=\"progress-spinners\">progress spinners</link> are often a better "
 "choice."
 msgstr ""
-"Beim Anzeigen des Fortschritts besteht die primäre Auswahl aus einem"
-" Fortschrittsbalken und einem <link xref=\"progress-spinners\""
-">Fortschritts-Spinner</link>. Fortschrittsbalken zeigen an, wie weit die"
-" Aufgabe bereits abgeschlossen ist. Sie sind daher für Aufgaben sinnvoll, die"
-" lange Zeit erfordern. Als Faustregel gilt, dass Sie Fortschrittsbalken nur"
-" dann verwenden sollten, wenn die Erledigung der Aufgabe länger als 30"
-" Sekunden dauert. Für kürzere Aufgaben sind <link xref=\"progress-spinners\""
-">Fortschritts-Spinner</link> oft die bessere Wahl."
+"Beim Anzeigen des Fortschritts besteht die primäre Auswahl aus einem "
+"Fortschrittsbalken und einem <link xref=\"progress-spinners\">Fortschritts-"
+"Spinner</link>. Fortschrittsbalken zeigen an, wie weit die Aufgabe bereits "
+"abgeschlossen ist. Sie sind daher für Aufgaben sinnvoll, die lange Zeit "
+"erfordern. Als Faustregel gilt, dass Sie Fortschrittsbalken nur dann "
+"verwenden sollten, wenn die Erledigung der Aufgabe länger als 30 Sekunden "
+"dauert. Für kürzere Aufgaben sind <link xref=\"progress-spinners"
+"\">Fortschritts-Spinner</link> oft die bessere Wahl."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:46
@@ -8806,10 +8836,10 @@ msgid ""
 "remaining progress bar, followed by typical-time. Try to avoid using "
 "indeterminate progress bars."
 msgstr ""
-"Genauigkeit ist für Fortschrittsbalken vorzuziehen. Wo immer es möglich ist,"
-" sollte ein Fortschrittsbalken die verbleibende Zeit anzeigen, gefolgt von"
-" der typischen Zeit. Versuchen Sie, Fortschrittsbalken mit unbestimmten"
-" Zeitangaben zu vermeiden."
+"Genauigkeit ist für Fortschrittsbalken vorzuziehen. Wo immer es möglich ist, "
+"sollte ein Fortschrittsbalken die verbleibende Zeit anzeigen, gefolgt von "
+"der typischen Zeit. Versuchen Sie, Fortschrittsbalken mit unbestimmten "
+"Zeitangaben zu vermeiden."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:61
@@ -9138,9 +9168,9 @@ msgid ""
 "showing a large number of spinners simultaneously — this will often be "
 "visually overwhelming."
 msgstr ""
-"Generell sollten nicht mehrere Fortschritts-Spinner gleichzeitig angezeigt"
-" werden. Vermeiden Sie es, eine große Anzahl Spinner simultan anzuzeigen –"
-" dies führt oft zur visuellen Überfrachtung."
+"Generell sollten nicht mehrere Fortschritts-Spinner gleichzeitig angezeigt "
+"werden. Vermeiden Sie es, eine große Anzahl Spinner simultan anzuzeigen – "
+"dies führt oft zur visuellen Überfrachtung."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:44
@@ -9148,8 +9178,8 @@ msgid ""
 "A label can be shown next to a spinner if it is helpful to clarify the task "
 "which a spinner relates to."
 msgstr ""
-"Neben dem Fortschritts-Spinner kann eine Beschriftung platziert werden, wenn"
-" verdeutlicht werden soll, worauf sich der Spinner bezieht."
+"Neben dem Fortschritts-Spinner kann eine Beschriftung platziert werden, wenn "
+"verdeutlicht werden soll, worauf sich der Spinner bezieht."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:45
@@ -9216,9 +9246,9 @@ msgid ""
 "exception is when the group is showing the properties of a multiple "
 "selection, when one or more of the buttons may be in their mixed state."
 msgstr ""
-"In einer Gruppe sollte immer nur ein Radioknopf aktiviert sein. Die einzige"
-" Ausnahme ist, wenn die Gruppe die Eigenschaften einer Mehrfachauswahl"
-" anzeigt, wenn einer oder mehrere der Knöpfe in gemischtem Zustand sind."
+"In einer Gruppe sollte immer nur ein Radioknopf aktiviert sein. Die einzige "
+"Ausnahme ist, wenn die Gruppe die Eigenschaften einer Mehrfachauswahl "
+"anzeigt, wenn einer oder mehrere der Knöpfe in gemischtem Zustand sind."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:42
@@ -9392,9 +9422,9 @@ msgid ""
 "A search button in the header bar should allow the search bar to be "
 "displayed (the search button should toggle)."
 msgstr ""
-"Ein Suchknopf in der Kopfleiste sollte dazu bereit stehen, die Suchleiste"
-" anzuzeigen (der Suchknopf  sollte die Anzeige der Suchleiste ein- oder"
-" ausschalten)."
+"Ein Suchknopf in der Kopfleiste sollte dazu bereit stehen, die Suchleiste "
+"anzuzeigen (der Suchknopf  sollte die Anzeige der Suchleiste ein- oder "
+"ausschalten)."
 
 #. (itstool) path: section/p
 #: C/search.page:45
@@ -9418,8 +9448,8 @@ msgid ""
 "Search should be “live” wherever possible — the content view should update "
 "to display search results as they are entered."
 msgstr ""
-"Wann immer möglich, sollte die Suche »lebendig« sein – die Inhaltsansicht"
-" sollte schon bei der Eingabe durch die Suchergebnisse aktualisiert werden."
+"Wann immer möglich, sollte die Suche »lebendig« sein – die Inhaltsansicht "
+"sollte schon bei der Eingabe durch die Suchergebnisse aktualisiert werden."
 
 #. (itstool) path: item/p
 #: C/search.page:54
@@ -9427,8 +9457,8 @@ msgid ""
 "In order to be effective, it is important that search results are quickly "
 "returned."
 msgstr ""
-"Für die Effektivität ist es wichtig, dass die Suchergebnisse schnell"
-" ausgegeben werden."
+"Für die Effektivität ist es wichtig, dass die Suchergebnisse schnell "
+"ausgegeben werden."
 
 #. (itstool) path: item/p
 #: C/search.page:55
