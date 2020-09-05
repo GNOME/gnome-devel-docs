@@ -1,3 +1,22 @@
+3.37.92
+=======
+* Fixed typos in Platform Overview (Anders Jonsson)
+* Updated project URLs in Platform Demos (Andre Klapper)
+* Fixed broken link in Accessibility Devel Guide (Andre Klapper)
+* Various style improvements (J Arun Mani)
+* Fix function declaration that breaks the build (Luis Menina)
+* Fixed misspellings (Rafael Fontenelle)
+* Fixed broken links in HIG (Caleb Maclennan)
+* Updated translations:
+  ca    (Jordi Mas)
+  cs    (Marek Černocký)
+  de    (Mario Blättermann)
+  es    (Daniel Mustieles, Javier Mazorra)
+  gl    (Fran Dieguez)
+  pt_BR (Rafael Fontenelle)
+  sv    (Anders Jonsson)
+  uk    (Yuri Chornoivan)
+
 3.32.1
 ======
 * Updated HIG guidance for menus (Allan Day)
