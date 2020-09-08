@@ -1,13 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018, 2019.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs\n"
-"POT-Creation-Date: 2019-09-18 18:27+0000\n"
-"PO-Revision-Date: 2019-09-24 12:36+0200\n"
+"POT-Creation-Date: 2020-06-12 10:34+0000\n"
+"PO-Revision-Date: 2020-09-07 19:02+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -39033,6 +39033,7 @@ msgid ""
 " * reacts to the signal. It does the same thing as the function above, except with\n"
 " * the vertical scale.\n"
 " */\n"
+"static void\n"
 "vscale_moved (GtkRange *range,\n"
 "              gpointer  user_data)\n"
 "{\n"
@@ -39191,6 +39192,7 @@ msgstr ""
 " * reaguje na signál. Dělá stejnou věc, jako funkce výše, akorát pro svislou\n"
 " * stupnici\n"
 " */\n"
+"static void\n"
 "vscale_moved (GtkRange *range,\n"
 "              gpointer  user_data)\n"
 "{\n"
@@ -41578,14 +41580,13 @@ msgstr "Jak nastavit editor gedit pro vývoj v jazyce JavaScript."
 #. (itstool) path: page/p
 #: C/set-up-gedit.js.page:20
 msgid ""
-"This tutorial will show you how to set up <link href=\"http://projects.gnome."
-"org/gedit/\">gedit</link>, GNOME's basic text editor, so that it has a "
+"This tutorial will show you how to set up <link href=\"https://wiki.gnome."
+"org/Apps/Gedit\">gedit</link>, GNOME's basic text editor, so that it has a "
 "handful of extra features which are useful for writing JavaScript code."
 msgstr ""
-"V této lekci si ukážeme, jak nastavit <link href=\"http://projects.gnome.org/"
-"gedit/\">gedit</link>, což je základní textový editor v GNOME, tak, aby měl "
-"sadu doplňkových funkcí, které jsou užitečné pro psaní kódu v jazyce "
-"JavaScript."
+"V této lekci si ukážeme, jak nastavit <link href=\"https://wiki.gnome.org/"
+"Apps/Gedit\">gedit</link>, což je základní textový editor v GNOME, tak, aby "
+"měl doplňkové funkce, které jsou užitečné pro psaní kódu v jazyce JavaScript."
 
 #. (itstool) path: section/title
 #: C/set-up-gedit.js.page:23
@@ -44080,12 +44081,12 @@ msgstr ""
 #: C/statusbar.js.page:23
 msgid ""
 "This statusbar keeps track of how many times you've clicked a button. "
-"Applications like <link href=\"http://projects.gnome.org/gedit/\">gedit</"
+"Applications like <link href=\"https://wiki.gnome.org/Apps/Gedit\">gedit</"
 "link> use statusbars to display information at a glance, and show "
 "notifications without interrupting the user."
 msgstr ""
 "Tato stavová lišta sleduje, kolikrát jste klikli na tlačítko. Aplikace, jako "
-"je <link href=\"http://projects.gnome.org/gedit/\">gedit</link>, používají "
+"je <link href=\"https://wiki.gnome.org/Apps/Gedit\">gedit</link>, používají "
 "stavovou lištu k přehlednému zobrazení informací a k upozorněním, která "
 "uživatele nepřeruší v práci."
 

@@ -1,13 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018, 2019.
+# Marek Černocký <marek@manet.cz>, 2015, 2016, 2017, 2018, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-04-11 06:45+0000\n"
-"PO-Revision-Date: 2019-09-08 10:12+0200\n"
+"POT-Creation-Date: 2020-06-12 10:34+0000\n"
+"PO-Revision-Date: 2020-09-07 19:09+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1086,13 +1086,13 @@ msgstr "Kompatibilita"
 #. (itstool) path: page/p
 #: C/compatibility.page:16
 msgid ""
-"These Human Interface Guidelines are primarily targeted towards new GTK+ and "
+"These Human Interface Guidelines are primarily targeted towards new GTK and "
 "GNOME applications, with an emphasis on GNOME 3 integration. However, they "
 "are also intended to be useful to cross-platform applications, as well as "
 "older applications, which may have been designed and implemented in "
 "accordance with the GNOME 2 HIG."
 msgstr ""
-"Pokyny k rozhraní pro člověka se zaměřuje hlavně na nové aplikace GTK+ a "
+"Pokyny k rozhraní pro člověka se zaměřuje hlavně na nové aplikace GTK a "
 "GNOME, s důrazem na integraci do GNOME 3. Jejím cílem je ale i to, aby byla "
 "užitečná pro multiplatformní aplikace a starší aplikace, které původně byly "
 "navržené a implementované podle HIG pro GNOME 2."
@@ -1182,8 +1182,8 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/compatibility.page:38
-msgid "Guidance on new GTK+ abilities, like animations."
-msgstr "Poučení o nových schopnostech GTK+, jako jsou animace."
+msgid "Guidance on new GTK abilities, like animations."
+msgstr "Poučení o nových schopnostech GTK, jako jsou animace."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:39
@@ -1198,12 +1198,12 @@ msgstr ""
 #: C/compatibility.page:42
 msgid ""
 "Incorporating these elements of the guidelines can enhance your application "
-"without requiring a major redesign, and all GTK+ and GNOME applications can "
+"without requiring a major redesign, and all GTK and GNOME applications can "
 "benefit from them."
 msgstr ""
 "Začlenění těchto prvků z příručky může vaši aplikaci vylepšit, aniž by to "
 "vyžadovalo její kompletní předělání a budou z toho mít prospěch všechny "
-"aplikace v GTK+ a GNOME."
+"aplikace v GTK a GNOME."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:44
@@ -1602,10 +1602,10 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dialogs.page:31
 msgid ""
-"GTK+ provides a number of stock dialogs that can be used, such as for "
+"GTK provides a number of stock dialogs that can be used, such as for "
 "printing or color selection."
 msgstr ""
-"GTK+ poskytuje řadu standardních dialogových oken, která můžete použít, "
+"GTK poskytuje řadu standardních dialogových oken, která můžete použít, "
 "například pro tisk nebo výběr barvy."
 
 #. (itstool) path: page/p
@@ -1791,13 +1791,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/dialogs.page:85
 msgid ""
-"Many of the stock GTK+ dialogs are action dialogs. The print dialog is a "
-"good example: it is displayed in response to the user using the print "
-"action, and presents information and options for that print action. The two "
-"header bar buttons allow the print action to either be cancelled or carried "
-"out."
+"Many of the stock GTK dialogs are action dialogs. The print dialog is a good "
+"example: it is displayed in response to the user using the print action, and "
+"presents information and options for that print action. The two header bar "
+"buttons allow the print action to either be cancelled or carried out."
 msgstr ""
-"Velká část standardních dialogových oken GTK+ jsou právě akční dialogová "
+"Velká část standardních dialogových oken GTK jsou právě akční dialogová "
 "okna. Dobrým příkladem je dialogové okno tisku: zobrazí se jako odezva na "
 "uživatelův požadavek tisku a nabídne informace a volby pro tisk. Dvě "
 "tlačítka v hlavičkové liště dávají na výběr činnost zrušit nebo provést."
@@ -2282,13 +2281,13 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:37
 msgid ""
-"While GTK+ does provide a specific combobox widget, it is recommended that "
+"While GTK does provide a specific combobox widget, it is recommended that "
 "drop-down lists are constructed using a combination of a button and a "
 "popover. This allows more comfortable scrolling for long lists, and allows "
 "search to be integrated into the list. Using this approach also allows the "
 "current selected item to always be displayed."
 msgstr ""
-"Přestože GTK+ poskytuje přímo widget rozbalovacího seznamu, doporučuje se "
+"Přestože GTK poskytuje přímo widget rozbalovacího seznamu, doporučuje se "
 "jej realizovat pomocí kombinace tlačítka a rozbalovacího dialogu. Umožňuje "
 "to pohodlnější posuv v dlouhých seznamech a integrovat do seznamu "
 "vyhledávání. Použití tohoto přístupu zároveň zajistí, že aktuálně vybraná "
@@ -3749,14 +3748,14 @@ msgstr "Pokyny k rozhraní pro člověka v GNOME"
 #: C/index.page:17
 msgid ""
 "Whether you are a developer or a designer, these guidelines contain "
-"everything you need to design effective applications using GTK+. They cover "
+"everything you need to design effective applications using GTK. They cover "
 "design principles for GNOME 3, common guidelines such as how to write text "
 "and use images and icons, as well as a library of design patterns which you "
 "can use in your application."
 msgstr ""
 "Ať už jste vývojář nebo návrhář, tato příručka, v originále nazvaná Human "
 "Interface Guidelines (zkráceně HIG), obsahuje vše, co byste mohli potřebovat "
-"k návrhu efektivní aplikace používající GKT+. Pokrývá to principy návrhu pro "
+"k návrhu efektivní aplikace používající GKT. Pokrývá to principy návrhu pro "
 "GNOME 3, obecné pokyny typu jak psát text a používat obrázky a ikony, a také "
 "k tomu patří knihovny s návrhovými vzory, které můžete ve svých aplikacích "
 "použít."
@@ -4321,11 +4320,11 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/keyboard-input.page:33
 msgid ""
-"Keyboard interaction has three aspects in GNOME and GTK+: navigation, access "
+"Keyboard interaction has three aspects in GNOME and GTK: navigation, access "
 "keys, and shortcut keys. <link xref=\"search\">Search</link> is another, "
 "additional aspect."
 msgstr ""
-"Práce s klávesnicí v GNOME a GTK+ má tři aspekty: navigaci, horké klávesy a "
+"Práce s klávesnicí v GNOME a GTK má tři aspekty: navigaci, horké klávesy a "
 "klávesové zkratky. Dalším doplňujícím aspektem je <link xref=\"search"
 "\">vyhledávání</link>."
 
@@ -4347,10 +4346,10 @@ msgstr ""
 #: C/keyboard-input.page:41
 msgid ""
 "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
-"standard key for moving around an interface with GTK+ and GNOME."
+"standard key for moving around an interface with GTK and GNOME."
 msgstr ""
 "Dodržujte standardní klávesy GNOME pro navigaci. <key>Tab</key> je "
-"standardní klávesou pro pohyb po uživatelském rozhraní GTK+ a GNOME."
+"standardní klávesou pro pohyb po uživatelském rozhraní GTK a GNOME."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:42
@@ -8172,13 +8171,13 @@ msgstr "Vstup z dotykového zařízení"
 #: C/pointer-and-touch-input.page:108
 msgid ""
 "Touch screens are also an increasingly common part of modern computer "
-"hardware, and applications created with GTK+ are likely to be used with "
+"hardware, and applications created with GTK are likely to be used with "
 "hardware that incorporates a touch screen. To make the most of this "
 "hardware, and to conform to users’ expectations, it is therefore important "
 "to consider touch input as a part of application design."
 msgstr ""
 "Dotykové obrazovky jsou stále běžnější součástí moderního počítačového "
-"vybavení a je tak pravděpodobnější, že aplikace vytvoření s GTK+ budou "
+"vybavení a je tak pravděpodobnější, že aplikace vytvoření s GTK budou "
 "požívané s hardwarem, který zahrnuje dotykovou obrazovku. Aby byl tento "
 "hardware co nejlépe využit a aby to odpovídalo očekávání uživatelů, je "
 "důležité zvážit dotykové ovládání jako součást návrhu aplikace."
