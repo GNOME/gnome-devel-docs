@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2020-04-17 14:57+0000\n"
-"PO-Revision-Date: 2020-04-18 18:49+0300\n"
+"POT-Creation-Date: 2020-06-12 10:35+0000\n"
+"PO-Revision-Date: 2020-09-09 19:29+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
 "=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 20.07.70\n"
+"X-Generator: Lokalize 20.11.70\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -41,7 +41,6 @@ msgstr ""
 "документі, за довільних умов, без обмежень."
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
@@ -87,13 +86,13 @@ msgstr "Єкатерина Герасимова (Ekaterina Gerasimova)"
 #. (itstool) path: page/title
 #: C/dev-help-appmenu.page:25
 msgid "Add <gui>Help</gui> to the application menu"
-msgstr ""
+msgstr "Додавання пункту <gui>Довідка</gui> до меню програми"
 
 #. (itstool) path: links/title
 #: C/dev-help-appmenu.page:28 C/dev-help-build.page:28 C/dev-help.page:33
 #: C/dev-help-write.page:23
 msgid "Set up help"
-msgstr ""
+msgstr "Налаштовування довідки"
 
 #. (itstool) path: page/p
 #: C/dev-help-appmenu.page:31
@@ -102,6 +101,9 @@ msgid ""
 "\"menuitem\">Help</gui> menu item should go above the <gui style=\"menuitem"
 "\">About</gui> menu item."
 msgstr ""
+"У більшості програм GNOME має бути меню програми. Пункт меню <gui style="
+"\"menuitem\">Довідка</gui> має розташовуватися над пунктом меню <gui"
+" style=\"menuitem\">Про програму</gui>."
 
 #. (itstool) path: note/p
 #: C/dev-help-appmenu.page:37
@@ -111,11 +113,17 @@ msgid ""
 "application is written in Vala. It will be slightly different for other "
 "programming languages."
 msgstr ""
+"У цьому прикладі, заснованому на коді <app"
+" href=\"https://gitlab.gnome.org/GNOME/cheese/"
+"blob/master/src/cheese-main.vala\">Cheese</app>, ми припускаємо, що вашу"
+" програму написано мовою Vala. У інших мовах програмування код буде дещо"
+" іншим."
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:43
 msgid "Add the <gui style=\"menuitem\">Help</gui> item to the list of actions:"
 msgstr ""
+"Додавання пункту <gui style=\"menuitem\">Довідка</gui> до списку пунктів дій:"
 
 #. (itstool) path: example/code
 #: C/dev-help-appmenu.page:44
@@ -130,12 +138,21 @@ msgid ""
 "\n"
 "   add_action_entries (action_entries, my_Gtk_Application);\n"
 msgstr ""
+"\n"
+"   private const GLib.ActionEntry action_entries[] = {\n"
+"        <input>{ \"help\", on_help },</input>\n"
+"        { \"about\", on_about },\n"
+"        { \"quit\", on_quit }\n"
+"    };\n"
+"\n"
+"   add_action_entries (action_entries, my_Gtk_Application);\n"
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:54
 msgid ""
 "Add the <gui style=\"menuitem\">Help</gui> menu item to the application menu:"
 msgstr ""
+"Додавання пункту меню <gui style=\"menuitem\">Довідка</gui> до меню програми:"
 
 #. (itstool) path: example/code
 #: C/dev-help-appmenu.page:57
@@ -149,6 +166,13 @@ msgid ""
 "  item.set_attribute (\"accel\", \"s\", \"F1\");\n"
 "  section.append_item (item);</input>\n"
 msgstr ""
+"\n"
+"  var menu = new GLib.Menu ();\n"
+"  var section = new GLib.Menu ();\n"
+"\n"
+"  <input>var item = new GLib.MenuItem (_(\"_Help\"), \"app.help\");\n"
+"  item.set_attribute (\"accel\", \"s\", \"F1\");\n"
+"  section.append_item (item);</input>\n"
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:66
@@ -156,6 +180,9 @@ msgid ""
 "View the help with <app>Yelp</app> when the <gui style=\"menuitem\">Help</"
 "gui> menu item is clicked:"
 msgstr ""
+"Перегляд довідки за допомогою <app>Yelp</app>, якщо натиснуто пункт меню <gui"
+" style=\"menuitem\">Довідка</"
+"gui>:"
 
 #. (itstool) path: example/code
 #: C/dev-help-appmenu.page:69
@@ -176,6 +203,20 @@ msgid ""
 "    }\n"
 "  }\n"
 msgstr ""
+"\n"
+"  private void on_help ()\n"
+"  {\n"
+"    var screen = main_window.get_screen ();\n"
+"    try\n"
+"    {\n"
+"      Gtk.show_uri (screen, <input>\"help:cheese\"</input>,"
+" Gtk.get_current_event_time ());\n"
+"    }\n"
+"    catch (Error err)\n"
+"    {\n"
+"      message (\"Error opening help: %s\", err.message);\n"
+"    }\n"
+"  }\n"
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:84
@@ -183,27 +224,30 @@ msgid ""
 "To link to a section on the <file>index.page</file>, use <code>\"help:"
 "<input>applicationname</input>/index#<input>sectionid</input>\"</code>."
 msgstr ""
+"Для прив'язки до розділу у <file>index.page</file> скористайтеся <code>\"help:"
+"<input>назва_програми</input>/index#<input>ідентифікатор_розділу</input>\"<"
+"/code>."
 
 #. (itstool) path: page/title
 #: C/dev-help-build.page:25
 msgid "Set up your build system"
-msgstr ""
+msgstr "Налаштовування вашої системи збирання"
 
 #. (itstool) path: page/p
 #: C/dev-help-build.page:31
 msgid "Help is normally installed into the <_:file-1/> directory."
-msgstr ""
+msgstr "Довідку, зазвичай, встановлено до каталогу <_:file-1/>."
 
 #. (itstool) path: page/p
 #: C/dev-help-build.page:34
 msgid "Add the following lines in the file <file>configure.ac</file>:"
-msgstr ""
+msgstr "Додайте вказані нижче рядки до файла <file>configure.ac</file>:"
 
 #. (itstool) path: page/code
 #: C/dev-help-build.page:36
 #, no-wrap
 msgid "YELP_HELP_INIT"
-msgstr ""
+msgstr "YELP_HELP_INIT"
 
 #. (itstool) path: page/code
 #: C/dev-help-build.page:38
@@ -213,17 +257,20 @@ msgid ""
 "help/Makefile\n"
 "])"
 msgstr ""
+"AC_CONFIG_FILES([\n"
+"help/Makefile\n"
+"])"
 
 #. (itstool) path: page/p
 #: C/dev-help-build.page:42
 msgid "Add the following line to the <file>Makefile.am</file>:"
-msgstr ""
+msgstr "Додайте вказаний ниже рядок до <file>Makefile.am</file>:"
 
 #. (itstool) path: page/code
 #: C/dev-help-build.page:43
 #, no-wrap
 msgid "SUBDIRS = help"
-msgstr ""
+msgstr "SUBDIRS = help"
 
 #. (itstool) path: page/p
 #: C/dev-help-build.page:45
@@ -231,6 +278,8 @@ msgid ""
 "Add a <file>help/Makefile.am</file>, it should list the help files in your "
 "project that you want to install:"
 msgstr ""
+"Додайте <file>help/Makefile.am</file>, у ньому має бути список усіх файлів"
+" довідки у вашому проєкті, які ви хочете встановити:"
 
 #. (itstool) path: page/code
 #: C/dev-help-build.page:47
@@ -254,11 +303,29 @@ msgid ""
 "# Translated languages, blank if no translations exist\n"
 "HELP_LINGUAS = en_GB\n"
 msgstr ""
+"\n"
+"@YELP_HELP_RULES@\n"
+"\n"
+"HELP_ID = <input>назва_програми</input>\n"
+"\n"
+"# Мультимедійні файли\n"
+"HELP_MEDIA = \\\n"
+"\tfigures/icon.png\n"
+"\n"
+"# Сторінки довідки\n"
+"HELP_FILES = \\\n"
+"\tindex.page \\\n"
+"\tintroduction.page \\\n"
+"\tanotherpage.page\n"
+"\n"
+"# Мови перекладу, порожнє значення, якщо перекладів не існує\n"
+"HELP_LINGUAS = en_GB\n"
 
 #. (itstool) path: info/desc
 #: C/dev-help.page:26
 msgid "Application and context sensitive user help and documentation."
 msgstr ""
+"Залежна від програми і контексту довідка і документація для користувачів."
 
 #. (itstool) path: page/title
 #: C/dev-help.page:30
@@ -271,6 +338,8 @@ msgid ""
 "You may want to add help, such as an introduction to your application or a "
 "list of keyboard shortcuts, to your application."
 msgstr ""
+"У вас може виникнути потреба у додаванні довідки, зокрема вступних зауважень"
+" щодо вашої програми або списку клавіатурних скорочень, до вашої програми."
 
 #. (itstool) path: page/p
 #: C/dev-help.page:39
@@ -279,16 +348,21 @@ msgid ""
 "org/\">Mallard</link> help which can be discrete or integrated with other "
 "application help."
 msgstr ""
+"Скористайтеся <app>yelp-tools</app> для збирання довідки у форматі <link"
+" href=\"http://www.projectmallard."
+"org/\">Mallard</link>, яка може бути дискретною або інтегрованою із іншою"
+" довідкою до програм."
 
 #. (itstool) path: page/p
 #: C/dev-help.page:43
 msgid "Mallard is a markup language which is designed for topic-oriented help."
 msgstr ""
+"Mallard — мова розмітки, яку розроблено для зорієнтованої на теми довідки."
 
 #. (itstool) path: page/title
 #: C/dev-help-write.page:20
 msgid "Write some help"
-msgstr ""
+msgstr "Написання довідки"
 
 #. (itstool) path: page/p
 #: C/dev-help-write.page:26
@@ -296,6 +370,8 @@ msgid ""
 "Write some <link href=\"http://www.projectmallard.org/\">Mallard</link> "
 "pages and add them to <file>help/C/</file>."
 msgstr ""
+"Напишіть декілька сторінок <link href=\"http://www.projectmallard.org/\""
+">Mallard</link> і запишіть їх до каталогу <file>help/C/</file>."
 
 #. (itstool) path: page/p
 #: C/dev-help-write.page:29
@@ -304,6 +380,9 @@ msgid ""
 "although you may not need an <file>index.page</file> if you are dropping "
 "plugin help into another project."
 msgstr ""
+"У більшості проєктів має бути <file>index.page</file> та декілька сторінок"
+" вмісту, хоча файла <file>index.page</file> може і не бути, якщо ви готуєте"
+" довідку як додаток до іншого проєкту."
 
 #. (itstool) path: listing/title
 #: C/dev-help-write.page:35
@@ -461,7 +540,6 @@ msgstr "Встановлення файла desktop"
 #: C/dev-launching-desktop.page:23 C/dev-launching-icons.page:23
 #: C/dev-launching-mime.page:22 C/dev-launching-startupnotify.page:23
 #: C/dev-launching.page:28
-#| msgid "The command to run your application."
 msgid "Launch your application"
 msgstr "Команда для запуску цієї програми."
 
@@ -471,6 +549,8 @@ msgid ""
 "Write and install a desktop file so that users can discover and launch your "
 "application."
 msgstr ""
+"Напишіть і встановіть файл desktop, щоб користувачі могли знаходити і"
+" запускати вашу програму."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:29
@@ -482,6 +562,14 @@ msgid ""
 "desktop file is the standard way to register your application with GNOME and "
 "other desktops."
 msgstr ""
+"У GNOME використовуються специфікації <link"
+" href=\"http://standards.freedesktop.org/desktop-entry-"
+"spec/latest/index.html\">стільничного запису freedesktop.org</link> та <link"
+" href="
+"\"http://standards.freedesktop.org/menu-spec/latest/\">стільничного меню<"
+"/link> для опису засобів запуску програм. Встановлення файла desktop є"
+" стандартним способом реєстрації вашої програми у GNOME та інших стільничних"
+" середовищах."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:37
@@ -490,6 +578,9 @@ msgid ""
 "list an icon, description and several other pieces of information about "
 "launching an application."
 msgstr ""
+"У файлі desktop визначається виконуваний файл вашої програми, її назва та"
+" тип. Ви також можете вказати піктограму, опис та деякі інші дані щодо"
+" запуску програми."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:41
@@ -554,7 +645,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:26
-#| msgid "The command to run your application."
 msgid "Install an icon to identify your application."
 msgstr "Встановлення піктограми для ідентифікації вашої програми."
 
@@ -619,14 +709,13 @@ msgstr ""
 #: C/dev-launching-mime.page:45
 msgid ""
 "Custom MIME types can be added to the system-wide MIME database, but this is "
-"outside the scope of this guide. The <link href=\"http://standards."
+"outside the scope of this guide. See the <link href=\"http://standards."
 "freedesktop.org/shared-mime-info-spec/latest/\">Shared MIME-Info Database</"
 "link> specification for more details."
 msgstr ""
 
 #. (itstool) path: page/title
 #: C/dev-launching-startupnotify.page:20
-#| msgid "Notification Area"
 msgid "Startup Notification"
 msgstr "Сповіщення про запуск"
 
@@ -638,9 +727,10 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:28
 msgid ""
-"GNOME implements the <link href=\"http://standards.freedesktop.org/desktop-"
-"entry-spec/latest/index.html\">Startup Notification protocol</link>, to give "
-"feedback to the user when application startup finishes."
+"GNOME implements the <link href=\"https://standards.freedesktop.org/startup-"
+"notification-spec/startup-notification-latest.txt\">Startup Notification "
+"protocol</link>, to give feedback to the user when application startup "
+"finishes."
 msgstr ""
 
 #. (itstool) path: page/p
@@ -663,7 +753,6 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/dev-launching.page:21
-#| msgid "The command to run your application."
 msgid "Showing a launcher and starting your application."
 msgstr "Показ засобу запуску і запуск вашої програми."
 
@@ -877,7 +966,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/dev-translate.page:22
-#| msgid "translator-credits"
 msgid "Translations"
 msgstr "Переклади"
 
@@ -907,18 +995,14 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:41
-#| msgid ""
-#| "For more information on internationalization in GNOME, see <ulink url="
-#| "\"http://www.gnome.org/~malcolm/i18n/\">Internationalizing GNOME "
-#| "Applications</ulink>."
 msgid ""
 "For more information about translating GNOME projects, see the GNOME <link "
 "href=\"https://wiki.gnome.org/TranslationProject/DevGuidelines\">Translation "
 "Project</link>."
 msgstr ""
-"Щоб дізнатися більше про переклад проєктів GNOME, ознайомтеся із сайтом <link"
-" href=\"https://wiki.gnome.org/TranslationProject/DevGuidelines\">проєкту"
-" перекладу GNOME</link>."
+"Щоб дізнатися більше про переклад проєктів GNOME, ознайомтеся із сайтом "
+"<link href=\"https://wiki.gnome.org/TranslationProject/DevGuidelines"
+"\">проєкту перекладу GNOME</link>."
 
 #. (itstool) path: page/title
 #: C/dev-translate-setup.page:21
@@ -992,7 +1076,6 @@ msgstr "Shaun McCance"
 
 #. (itstool) path: credit/years
 #: C/index.page:14
-#| msgid "2005"
 msgid "2005-2011"
 msgstr "2005-2011"
 
@@ -1037,7 +1120,6 @@ msgstr "Фундація GNOME"
 
 #. (itstool) path: credit/page
 #: C/index.page:33
-#| msgid "foundation.gnome.org"
 msgid "http://foundation.gnome.org/"
 msgstr "http://foundation.gnome.org/"
 
@@ -1053,7 +1135,6 @@ msgstr "Настанови щодо платформи і бібліотек GNO
 
 #. (itstool) path: info/title
 #: C/index.page:45
-#| msgid "Platform Overview"
 msgctxt "link:trail"
 msgid "Platform overview"
 msgstr "Огляд платформи"
@@ -1072,7 +1153,6 @@ msgstr ""
 
 #. (itstool) path: links/title
 #: C/index.page:56
-#| msgid "Core Technologies"
 msgid "Core technologies"
 msgstr "Основні технології"
 
@@ -1083,7 +1163,6 @@ msgstr "Настанови з інтеграції"
 
 #. (itstool) path: links/title
 #: C/index.page:64
-#| msgid "Overview of the GNOME Platform"
 msgid "Develop for the platform"
 msgstr "Розробка для платформи"
 
@@ -1107,13 +1186,11 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/license.page:17
-#| msgid "The command to run your application."
 msgid "Which license should you use for your application?"
 msgstr "Які умови ліцензування слід використовувати для вашої програми?"
 
 #. (itstool) path: page/title
 #: C/license.page:21
-#| msgid "The command to run your application."
 msgid "License your application"
 msgstr "Ліцензування вашої програми"
 
@@ -1175,7 +1252,6 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/overview-communication.page:15
-#| msgid "Documentation"
 msgctxt "link:trail"
 msgid "Communication"
 msgstr "Зв'язок"
@@ -1384,7 +1460,7 @@ msgstr ""
 msgid ""
 "Seamlessly access local and remote files using the core GNOME IO libraries. "
 "Make your application responsive by using the extensive support for "
-"asynchronous IO operations. Allow users to find files easily be providing "
+"asynchronous IO operations. Allow users to find files easily by providing "
 "metadata to describe documents."
 msgstr ""
 
@@ -1697,7 +1773,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/overview-settings.page:20
-#| msgid "Session Management"
 msgid "Settings management"
 msgstr "Керування параметрами"
 
@@ -1952,7 +2027,7 @@ msgid ""
 "ATK solves the problem of plugging many different kinds of widgets (text "
 "entries, text areas, buttons, menus) with many different types of "
 "accessibility technologies (screen readers, braille displays, sip-and-puff "
-"control devices). Instead of writing NxM interfaces, from each widget to "
+"control devices). Instead of writing N×M interfaces, from each widget to "
 "each accessibility device, one just has to expose a widget through ATK's "
 "interfaces. Accessibility devices will in turn use these interfaces to query "
 "accessible widgets. For example, an aural screen reader and a braille "
@@ -2107,9 +2182,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-cairo.page:48
-#| msgid ""
-#| "For more information on Cairo, see <ulink url=\"http://www.cairographics."
-#| "org/manual/\">Cairo: A Vector Graphics Library</ulink>."
 msgid "<link href=\"http://www.cairographics.org/manual/\">Cairo Manual</link>"
 msgstr ""
 "<link href=\"http://www.cairographics.org/manual/\">Підручник з Cairo</link>"
@@ -2169,7 +2241,7 @@ msgstr ""
 msgid ""
 "libchamplain is named after Samuel de Champlain, famous French navigator, "
 "explorer and cartographer. He is the “father of New-France” and founder of "
-"Québec City, which was the 400th anniversary in 2008, the year this library "
+"Québec City, which had its 400th anniversary in 2008, the year this library "
 "was created."
 msgstr ""
 
@@ -2255,15 +2327,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-clutter.page:59
-#| msgid ""
-#| "For more information on GDK, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gdk/stable/\">GDK Reference Manual</ulink>."
 msgid ""
 "<link href=\"http://developer.gnome.org/clutter/stable\">Clutter Reference "
 "Manual</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/clutter/stable\">Довідник-підручник з"
-" Clutter</link>"
+"<link href=\"http://developer.gnome.org/clutter/stable\">Довідник-підручник "
+"з Clutter</link>"
 
 #. (itstool) path: item/p
 #: C/tech-clutter.page:60
@@ -2283,14 +2352,6 @@ msgstr "D-Bus"
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:24
-#| msgid ""
-#| "D-Bus is a cross-desktop message bus for sending events between various "
-#| "applications, the desktop, and low-level components of the system. D-Bus "
-#| "provides a simple API for sending messages to particular services and for "
-#| "broadcasting messages to all interested services. D-Bus enables different "
-#| "types of applications to communicate and integrate with each other and "
-#| "with the desktop, providing better interaction and a richer experience "
-#| "for the user."
 msgid ""
 "D-Bus is a message bus for sending messages between various applications, "
 "the desktop, and low-level components of the system. D-Bus provides a simple "
@@ -2348,16 +2409,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-d-bus.page:58 C/tech-gio-network.page:31
-#| msgid ""
-#| "For more information on GIO, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gio/stable/\">GIO Reference Manual</ulink>."
 msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
 "link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gio/stable/\">Підручник-довідник з"
-" GIO</"
-"link>"
+"<link href=\"https://developer.gnome.org/gio/stable/\">Підручник-довідник з "
+"GIO</link>"
 
 #. (itstool) path: item/p
 #: C/tech-d-bus.page:59
@@ -2380,7 +2437,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/tech-eds.page:21
-#| msgid "evolution-data-server"
 msgid "Evolution Data Server"
 msgstr "Сервер даних Evolution"
 
@@ -2537,7 +2593,7 @@ msgid ""
 "devices. Implementations of widgets in GTK use this functionality, and "
 "translate the events into higher-level signals that can in turn be used from "
 "application code. For example, a <code>GtkButton</code> widget will track "
-"<code>GDK_BUTTON_PRESS</code> and <code>GTK_BUTTON_RELEASE</code> events, "
+"<code>GDK_BUTTON_PRESS</code> and <code>GDK_BUTTON_RELEASE</code> events, "
 "which come from the mouse, and translate them as appropriate into a "
 "<code>GtkButton::clicked</code> signal when the user presses and releases "
 "the button in the right location."
@@ -2576,15 +2632,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gdk.page:62
-#| msgid ""
-#| "For more information on GDK, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gdk/stable/\">GDK Reference Manual</ulink>."
 msgid ""
 "<link href=\"https://developer.gnome.org/gdk3/stable/\">GDK Reference "
 "Manual</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gdk3/stable/\">Довідник-підручник з"
-" GDK</link>"
+"<link href=\"https://developer.gnome.org/gdk3/stable/\">Довідник-підручник з "
+"GDK</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-geoclue2.page:17
@@ -2662,7 +2715,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/tech-gio-network.page:21
-#| msgid "IPC and Networking"
 msgid "GIO Networking"
 msgstr "Робота у мережі з GIO"
 
@@ -2705,7 +2757,7 @@ msgstr ""
 #: C/tech-gio.page:29
 msgid ""
 "GIO provides APIs for asynchronously reading and writing files and other "
-"streams. Files are referenced by URIs (uniform resource locators), and "
+"streams. Files are referenced by URIs (uniform resource identifiers), and "
 "backends can provide access to more than just local files. When running "
 "under the GNOME desktop, GIO uses GVFS to allow access to files over SFTP, "
 "FTP, WebDAV, SMB, and other popular protocols. This transparent network file "
@@ -2731,16 +2783,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gio.page:46
-#| msgid ""
-#| "For more information on GIO, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gio/stable/\">GIO Reference Manual</ulink>."
 msgid ""
 "<link href=\"http://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
 "link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gio/stable/\">Підручник-довідник з"
-" GIO</"
-"link>"
+"<link href=\"http://developer.gnome.org/gio/stable/\">Підручник-довідник з "
+"GIO</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-glib.page:17
@@ -2770,15 +2818,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-glib.page:35
-#| msgid ""
-#| "For more information on GIO, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gio/stable/\">GIO Reference Manual</ulink>."
 msgid ""
 "<link href=\"http://developer.gnome.org/glib/stable/\">GLib reference "
 "manual</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/glib/stable/\">Довідник-підручник з"
-" GLib</link>"
+"<link href=\"http://developer.gnome.org/glib/stable/\">Довідник-підручник з "
+"GLib</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gobject.page:16
@@ -2833,15 +2878,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gobject.page:53
-#| msgid ""
-#| "For more information on GIO, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gio/stable/\">GIO Reference Manual</ulink>."
 msgid ""
 "<link href=\"http://developer.gnome.org/gobject/stable/\">GObject reference "
 "manual</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/\">Довідник-підручник"
-" з GObject</link>"
+"<link href=\"http://developer.gnome.org/gobject/stable/\">Довідник-підручник "
+"з GObject</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gsettings.page:18
@@ -2889,15 +2931,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gsettings.page:48
-#| msgid ""
-#| "For more information on GIO, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gio/stable/\">GIO Reference Manual</ulink>."
 msgid ""
 "<link href=\"http://developer.gnome.org/gio/stable/GSettings.html"
 "\">GSettings Reference Manual</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gio/stable/GSettings.html\""
-">Довідник-підручник з GSettings</link>"
+"<link href=\"http://developer.gnome.org/gio/stable/GSettings.html\">Довідник-"
+"підручник з GSettings</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gstreamer.page:18
@@ -2906,7 +2945,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/tech-gstreamer.page:21
-#| msgid "gstreamer"
 msgid "GStreamer"
 msgstr "GStreamer"
 
@@ -2991,13 +3029,11 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/tech-gtk.page:18
-#| msgid "Graphical Interfaces"
 msgid "Widget toolkit for graphical interfaces"
 msgstr "Набір інструментів віджетів для графічних інтерфейсів"
 
 #. (itstool) path: page/title
 #: C/tech-gtk.page:21
-#| msgid "GTK+"
 msgid "GTK"
 msgstr "GTK"
 
@@ -3056,9 +3092,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-#| msgid ""
-#| "For more information on GDK, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gdk/stable/\">GDK Reference Manual</ulink>."
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/\">Reference Manual</"
 "link>"
@@ -3177,7 +3210,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/tech-network-manager.page:20
-#| msgid "File Manager"
 msgid "NetworkManager"
 msgstr "NetworkManager"
 
@@ -3249,15 +3281,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-notify.page:40
-#| msgid ""
-#| "For more information on Pango, see the <ulink url=\"http://library.gnome."
-#| "org/devel/pango/stable/\">Pango Reference Manual</ulink>."
 msgid ""
 "<link href=\"http://developer.gnome.org/libnotify/unstable/\">Libnotify "
 "Reference Manual</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/libnotify/unstable/\""
-">Довідник-підручник з Libnotify</link>"
+"<link href=\"http://developer.gnome.org/libnotify/unstable/\">Довідник-"
+"підручник з Libnotify</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-packagekit.page:17
@@ -3302,7 +3331,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/tech.page:18
-#| msgid "Platform Modules"
 msgid "Platform libraries"
 msgstr "Бібліотеки платформи"
 
@@ -3325,13 +3353,11 @@ msgstr ""
 
 #. (itstool) path: links/title
 #: C/tech.page:38
-#| msgid "File Manager"
 msgid "File access"
 msgstr "Доступ до файлів"
 
 #. (itstool) path: links/title
 #: C/tech.page:44
-#| msgid "IPC and Networking"
 msgid "Networking"
 msgstr "Робота у мережі"
 
@@ -3367,11 +3393,6 @@ msgstr "Pango"
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:23
-#| msgid ""
-#| "Pango is the core text and font handling library used in GNOME "
-#| "applications. It has extensive support for the different writing systems "
-#| "used throughout the world. Pango is discussed in <xref linkend=\"pango\"/"
-#| ">."
 msgid ""
 "Pango is the core text and font handling library in the GNOME platform. It "
 "is responsible for laying out and rendering text, and is used throughout GTK."
@@ -3423,15 +3444,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-pango.page:61
-#| msgid ""
-#| "For more information on Pango, see the <ulink url=\"http://library.gnome."
-#| "org/devel/pango/stable/\">Pango Reference Manual</ulink>."
 msgid ""
 "<link href=\"https://developer.gnome.org/pango/stable/\">Pango Reference "
 "Manual</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/pango/stable/\">Довідник-підручник з"
-" Pango</link>"
+"<link href=\"https://developer.gnome.org/pango/stable/\">Довідник-підручник "
+"з Pango</link>"
 
 #. (itstool) path: item/p
 #: C/tech-pango.page:62
@@ -3507,7 +3525,8 @@ msgstr ""
 #: C/tech-poppler.page:31
 msgid "<link href=\"http://poppler.freedesktop.org/\">Poppler home page</link>"
 msgstr ""
-"<link href=\"http://poppler.freedesktop.org/\">Домашня сторінка Poppler</link>"
+"<link href=\"http://poppler.freedesktop.org/\">Домашня сторінка Poppler</"
+"link>"
 
 #. (itstool) path: info/desc
 #: C/tech-pulseaudio.page:17
@@ -3542,8 +3561,8 @@ msgid ""
 "<link href=\"http://www.freedesktop.org/wiki/Software/PulseAudio"
 "\">PulseAudio home page</link>"
 msgstr ""
-"<link href=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">Домашня"
-" сторінка PulseAudio</link>"
+"<link href=\"http://www.freedesktop.org/wiki/Software/PulseAudio\">Домашня "
+"сторінка PulseAudio</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-secret.page:18
@@ -3633,15 +3652,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-secret.page:75
-#| msgid ""
-#| "For more information on GDK, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gdk/stable/\">GDK Reference Manual</ulink>."
 msgid ""
 "<link href=\"http://developer.gnome.org/libsecret/unstable/\">Libsecret "
 "Reference Manual</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/libsecret/unstable/\""
-">Довідник-підручник з Libsecret</link>"
+"<link href=\"http://developer.gnome.org/libsecret/unstable/\">Довідник-"
+"підручник з Libsecret</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-soup.page:17
@@ -3679,15 +3695,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-soup.page:43
-#| msgid ""
-#| "For more information on GIO, see the <ulink url=\"http://library.gnome."
-#| "org/devel/gio/stable/\">GIO Reference Manual</ulink>."
 msgid ""
 "<link href=\"https://developer.gnome.org/libsoup/stable/\">Soup reference "
 "manual</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/libsoup/stable/\">Підручник-довідник"
-" з Soup</link>"
+"<link href=\"https://developer.gnome.org/libsoup/stable/\">Підручник-"
+"довідник з Soup</link>"
 
 #. (itstool) path: credit/name
 #: C/tech-spell-checking.page:15
@@ -3738,16 +3751,16 @@ msgid ""
 "<link href=\"https://www.abisource.com/projects/enchant/\">Enchant home "
 "page</link>"
 msgstr ""
-"<link href=\"https://www.abisource.com/projects/enchant/\">Домашня сторінка"
-" Enchant</link>"
+"<link href=\"https://www.abisource.com/projects/enchant/\">Домашня сторінка "
+"Enchant</link>"
 
 #. (itstool) path: item/p
 #: C/tech-spell-checking.page:46
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/gspell\">gspell home page</link>"
 msgstr ""
-"<link href=\"https://wiki.gnome.org/Projects/gspell\">Домашня сторінка"
-" gspell</link>"
+"<link href=\"https://wiki.gnome.org/Projects/gspell\">Домашня сторінка "
+"gspell</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-telepathy.page:23
@@ -3784,8 +3797,8 @@ msgid ""
 "<link href=\"http://telepathy.freedesktop.org/doc/book/\">Telepathy "
 "Developer's Manual</link>"
 msgstr ""
-"<link href=\"http://telepathy.freedesktop.org/doc/book/\">Підручник"
-" розробника Telepathy</link>"
+"<link href=\"http://telepathy.freedesktop.org/doc/book/\">Підручник "
+"розробника Telepathy</link>"
 
 #. (itstool) path: item/p
 #: C/tech-telepathy.page:42
@@ -3840,8 +3853,8 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/Tracker\">Tracker Home Page</"
 "link>"
 msgstr ""
-"<link href=\"https://wiki.gnome.org/Projects/Tracker\">Домашня сторінка"
-" Tracker</link>"
+"<link href=\"https://wiki.gnome.org/Projects/Tracker\">Домашня сторінка "
+"Tracker</link>"
 
 #. (itstool) path: item/p
 #: C/tech-tracker.page:47
@@ -3849,8 +3862,8 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/Tracker/Documentation\">Tracker "
 "documentation</link>"
 msgstr ""
-"<link href=\"https://wiki.gnome.org/Projects/Tracker/Documentation\""
-">Документація з Tracker</link>"
+"<link href=\"https://wiki.gnome.org/Projects/Tracker/Documentation"
+"\">Документація з Tracker</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-webkit.page:23
@@ -3895,8 +3908,8 @@ msgid ""
 "<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">WebKitGTK "
 "Reference Manual</link>"
 msgstr ""
-"<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\""
-">Підручник-довіддник WebKitGTK</link>"
+"<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">Підручник-"
+"довіддник WebKitGTK</link>"
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:41
@@ -3917,7 +3930,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/tour-application.page:26
-#| msgid "The command to run your application."
 msgid "Run your application"
 msgstr "Запуск вашої програми"
 
