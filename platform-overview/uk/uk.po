@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-09 19:29+0300\n"
+"PO-Revision-Date: 2020-09-10 21:05+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -588,11 +588,13 @@ msgid ""
 "For a hypothetical application <app>My Application</app>, a desktop file "
 "would look as follows:"
 msgstr ""
+"Для гіпотетичної програми <app>My Application</app> файл desktop має"
+" виглядати так:"
 
 #. (itstool) path: listing/title
 #: C/dev-launching-desktop.page:45 C/dev-launching-mime.page:33
 msgid "<file>myapplication.desktop</file>"
-msgstr ""
+msgstr "<file>myapplication.desktop</file>"
 
 #. (itstool) path: listing/code
 #: C/dev-launching-desktop.page:46
@@ -606,6 +608,13 @@ msgid ""
 "Comment=Do the thing that the application does\n"
 "Categories=GTK;GNOME;Utility;"
 msgstr ""
+"[Desktop Entry]\n"
+"Name=My Application\n"
+"Exec=myapplication\n"
+"Type=Application\n"
+"Icon=myapplication\n"
+"Comment=Do the thing that the application does\n"
+"Categories=GTK;GNOME;Utility;"
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:56
@@ -641,7 +650,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/dev-launching-icons.page:20
 msgid "Install an icon"
-msgstr ""
+msgstr "Встановлення піктограми"
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:26
@@ -672,12 +681,12 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/dev-launching-mime.page:19
 msgid "Associate MIME types"
-msgstr ""
+msgstr "Прив'язка до типів MIME"
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:25
 msgid "Associate files with your application, using MIME types."
-msgstr ""
+msgstr "Прив'язування файлів до вашої програми за допомогою типів MIME."
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:27
@@ -686,6 +695,8 @@ msgid ""
 "can add an association with the MIME type of the file. This is added to the "
 "desktop file."
 msgstr ""
+"Якщо ваша програма відкриває файли певного типу, зокрема файли PNG, ви можете"
+" додати прив'язку до типу MIME файла. Цю прив'язку додають до файла desktop."
 
 #. (itstool) path: listing/code
 #: C/dev-launching-mime.page:34
@@ -697,6 +708,11 @@ msgid ""
 "Type=Application\n"
 "MimeType=image/png"
 msgstr ""
+"[Desktop Entry]\n"
+"Name=My Application\n"
+"Exec=myapplication\n"
+"Type=Application\n"
+"MimeType=image/png"
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:42
@@ -704,6 +720,8 @@ msgid ""
 "For this hypothetical application, <code>image/png</code> is listed as the "
 "supported MIME type."
 msgstr ""
+"Для цієї гіпотетичної програми у списку підтримуваних типів MIME є запис <"
+"code>image/png</code>."
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:45
@@ -713,6 +731,12 @@ msgid ""
 "freedesktop.org/shared-mime-info-spec/latest/\">Shared MIME-Info Database</"
 "link> specification for more details."
 msgstr ""
+"Нестандартні типи MIME може бути додано до загальносистемної бази даних MIME,"
+" але опис цього не є предметом цього підручника. Щоб дізнатися більше,"
+" ознайомтеся із <link href=\"http://standards."
+"freedesktop.org/shared-mime-info-spec/latest/\">спільною базою даних"
+" відомостей MIME</"
+"link>."
 
 #. (itstool) path: page/title
 #: C/dev-launching-startupnotify.page:20
@@ -722,7 +746,7 @@ msgstr "Сповіщення про запуск"
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:26
 msgid "Notify the user when your application has finished starting up."
-msgstr ""
+msgstr "Сповіщення користувача про те, що ваша програма завершила запуск."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:28
@@ -732,6 +756,10 @@ msgid ""
 "protocol</link>, to give feedback to the user when application startup "
 "finishes."
 msgstr ""
+"У GNOME реалізовано <link href=\"https://standards.freedesktop.org/startup-not"
+"ification-spec/startup-notification-latest.txt\">протокол сповіщення щодо"
+" запуску</link> для надання користувачів даних про момент завершення запуску"
+" програми."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:33
@@ -741,6 +769,11 @@ msgid ""
 "Your application must declare that it supports startup notification by "
 "adding <code>StartupNotify=true</code> to its desktop file."
 msgstr ""
+"У програмах GTK реалізовано автоматичну підтримку сповіщення щодо запуску. Ці"
+" програми, типово, сповіщають про завершення запуску програми, коли на екрані"
+" з'являється її перше вікно. Ваша програма має оголошувати, що у ній"
+" передбачено підтримку сповіщень щодо запуску, — має бути додано <code"
+">StartupNotify=true</code> до її файла desktop."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:38
@@ -750,6 +783,11 @@ msgid ""
 "gnome.org/gdk3/stable/gdk3-General.html#gdk-notify-startup-complete"
 "\">gdk_notify_startup_complete()</code>."
 msgstr ""
+"У складніших сценаріях запуску, зокрема із показом вікна вітання під час"
+" запуску, потрібна нетипова обробка за допомогою <code"
+" href=\"https://developer."
+"gnome.org/gdk3/stable/gdk3-General.html#gdk-notify-startup-complete"
+"\">gdk_notify_startup_complete()</code>."
 
 #. (itstool) path: info/desc
 #: C/dev-launching.page:21
@@ -759,7 +797,7 @@ msgstr "Показ засобу запуску і запуск вашої про
 #. (itstool) path: page/title
 #: C/dev-launching.page:25
 msgid "Application launching"
-msgstr ""
+msgstr "Запуск програми"
 
 #. (itstool) path: page/p
 #: C/dev-launching.page:31
@@ -772,12 +810,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/dev-thumbnailer.page:20
 msgid "Thumbnails for document-like files."
-msgstr ""
+msgstr "Мініатюри для подібних до документів файлів."
 
 #. (itstool) path: page/title
 #: C/dev-thumbnailer.page:24
 msgid "File thumbnails"
-msgstr ""
+msgstr "Мініатюри файлів"
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:26
@@ -786,6 +824,9 @@ msgid ""
 "represented well as a document, adding a thumbnailer makes the files show up "
 "in <app>Files</app> with images that correspond to the document."
 msgstr ""
+"Якщо ваша програма працює з файлами, які може бути надруковано або"
+" представлено як документи, додавання засобу обробки мініатюр надасть змогу <"
+"app>Файлам</app> показувати зображення, які відповідають документу."
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:30
@@ -808,13 +849,13 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/dev-translate-build.page:21
 msgid "Set up your build system for translation"
-msgstr ""
+msgstr "Налаштовування системи збирання для роботи з перекладами"
 
 #. (itstool) path: links/title
 #: C/dev-translate-build.page:24 C/dev-translate.page:25
 #: C/dev-translate-setup.page:24 C/dev-translate-tools.page:23
 msgid "Set up translations"
-msgstr ""
+msgstr "Налаштовування перекладів"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:27
@@ -822,6 +863,7 @@ msgid ""
 "You will need to set up your project and build system to work with "
 "translations."
 msgstr ""
+"Вам слід налаштувати ваш проєкт і систему збирання для роботи з перекладами."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:30
@@ -835,7 +877,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:35
 msgid "Add the following lines to your <file>configure.ac</file>:"
-msgstr ""
+msgstr "Додайте такі рядки до вашого <file>configure.ac</file>:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:36
@@ -847,11 +889,16 @@ msgid ""
 "AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], [\"$GETTEXT_PACKAGE\"], [Package name"
 " for gettext])"
 msgstr ""
+"\n"
+"IT_PROG_INTLTOOL([0.50.0])\n"
+"AC_SUBST([GETTEXT_PACKAGE], [$PACKAGE_TARNAME])\n"
+"AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], [\"$GETTEXT_PACKAGE\"], [Package name"
+" for gettext])"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:41
 msgid "Add the following lines to your <file>Makefile.am</file>:"
-msgstr ""
+msgstr "Додайте такі рядки до вашого <file>Makefile.am</file>:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:42
@@ -860,6 +907,8 @@ msgid ""
 "\n"
 "SUBDIRS = po\n"
 msgstr ""
+"\n"
+"SUBDIRS = po\n"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:45
@@ -868,6 +917,8 @@ msgid ""
 "\n"
 "AM_CPPFLAGS = -DPACKAGE_LOCALEDIR=\\\"\"$(datadir)/locale\"\\\"\n"
 msgstr ""
+"\n"
+"AM_CPPFLAGS = -DPACKAGE_LOCALEDIR=\\\"\"$(datadir)/locale\"\\\"\n"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:48
@@ -879,6 +930,11 @@ msgid ""
 "desktop_in_files = data/<input>applicationname</input>.desktop.in\n"
 "desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)\n"
 msgstr ""
+"\n"
+"@INTLTOOL_DESKTOP_RULE@\n"
+"desktopdir = $(datadir)/applications\n"
+"desktop_in_files = data/<input>applicationname</input>.desktop.in\n"
+"desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)\n"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:55
@@ -886,6 +942,8 @@ msgid ""
 "Run <cmd>intltoolize</cmd> to copy the intltool build infrastructure to the "
 "build tree before running <cmd>autoreconf</cmd>."
 msgstr ""
+"Запустіть <cmd>intltoolize</cmd> для копіювання інфраструктури збирання"
+" intltool до ієрархії збирання перед запуском <cmd>autoreconf</cmd>."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:58
@@ -893,22 +951,24 @@ msgid ""
 "Now that your build system and your source strings are ready for "
 "translation, you need to tell <app>gettext</app> three things:"
 msgstr ""
+"Тепер, коли ваша система збирання і ваші початкові рядки готові до перекладу,"
+" вам слід повідомити <app>gettext</app> три речі:"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:62
 msgid ""
 "the <em>translation domain</em>, generally the same as the application name"
-msgstr ""
+msgstr "<em>домен перекладу</em>, зазвичай, він збігається із назвою програми"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:64
 msgid "the location where the built translations are installed"
-msgstr ""
+msgstr "місце, куди буде встановлено зібрані переклади"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:65
 msgid "the character encoding of the translations, generally UTF-8"
-msgstr ""
+msgstr "кодування символів для перекладів, типово UTF-8"
 
 #. (itstool) path: note/p
 #: C/dev-translate-build.page:71
@@ -916,6 +976,8 @@ msgid ""
 "This example assumes that your application is written in C. It will be "
 "slightly different for other programming languages."
 msgstr ""
+"У цьому прикладі ми припускаємо, що вашу програму написано на C. У інших"
+" мовах програмування код буде дещо іншим."
 
 #. (itstool) path: example/p
 #: C/dev-translate-build.page:75
@@ -923,17 +985,18 @@ msgid ""
 "Add the following line to the source file which contains your <code>main()</"
 "code> function:"
 msgstr ""
+"Додайте такий рядок до файла коду, який містить функцію <code>main()</code>on:"
 
 #. (itstool) path: example/code
 #: C/dev-translate-build.page:78
 #, no-wrap
 msgid "#include \"config.h\""
-msgstr ""
+msgstr "#include \"config.h\""
 
 #. (itstool) path: example/p
 #: C/dev-translate-build.page:80
 msgid "Then, add the following lines to your <code>main()</code> function:"
-msgstr ""
+msgstr "Далі, додайте такі рядки до вашої функції <code>main()</code>:"
 
 #. (itstool) path: example/code
 #: C/dev-translate-build.page:82
@@ -944,6 +1007,10 @@ msgid ""
 "bind_textdomain_codeset (PACKAGE_TARNAME, \"UTF-8\");\n"
 "textdomain (GETTEXT_PACKAGE);\n"
 msgstr ""
+"\n"
+"bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALEDIR);\n"
+"bind_textdomain_codeset (PACKAGE_TARNAME, \"UTF-8\");\n"
+"textdomain (GETTEXT_PACKAGE);\n"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:89
@@ -962,7 +1029,7 @@ msgstr "Майкл Гілл (Michael Hill)"
 #. (itstool) path: info/desc
 #: C/dev-translate.page:19
 msgid "Localization for user-visible application content."
-msgstr ""
+msgstr "Локалізація видимих користувачам даних."
 
 #. (itstool) path: page/title
 #: C/dev-translate.page:22
@@ -977,6 +1044,11 @@ msgid ""
 "<app href=\"http://www.gnu.org/software/gettext/manual/gettext.html"
 "\">gettext</app>."
 msgstr ""
+"Ви можете зробити вашу програму придатною до перекладу іншими мовами за"
+" допомогою <app "
+"href=\"http://freedesktop.org/wiki/Software/intltool/\">intltool</app> та "
+"<app href=\"http://www.gnu.org/software/gettext/manual/gettext.html"
+"\">gettext</app>."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:33
@@ -992,6 +1064,8 @@ msgstr ""
 msgid ""
 "You should use <code>ngettext</code> for translation of strings with plurals."
 msgstr ""
+"Вам слід користуватися <code>ngettext</code> для перекладу рядків із формами"
+" множини."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:41
@@ -1015,6 +1089,8 @@ msgid ""
 "Before the strings from your application can be translated, they need to be "
 "extracted from the source code."
 msgstr ""
+"Перш ніж рядки з вашої програми можна буде перекладати, їх слід видобути з"
+" початкового коду."
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:30
@@ -1022,6 +1098,8 @@ msgid ""
 "Wrap messages or <em>string literals</em> in your code with the '<code>_()</"
 "code>' macro."
 msgstr ""
+"Огорніть повідомлення або <em>рядкові літерали</em> у вашому коді у макрос «<"
+"code>_()</code>."
 
 #. (itstool) path: note/p
 #: C/dev-translate-setup.page:34
@@ -1033,13 +1111,13 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:38
 msgid "Your wrapped strings should look like this:"
-msgstr ""
+msgstr "Огорнуті рядки мають виглядати ось так:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-setup.page:39
 #, no-wrap
 msgid "_(\"Press a key to continue\")"
-msgstr ""
+msgstr "_(\"Press a key to continue\")"
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:41
@@ -1051,7 +1129,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/dev-translate-tools.page:20
 msgid "Translation tools"
-msgstr ""
+msgstr "Інструменти перекладу"
 
 #. (itstool) path: page/p
 #: C/dev-translate-tools.page:26
@@ -1169,12 +1247,12 @@ msgstr "Розробка для платформи"
 #. (itstool) path: p/link
 #: C/legal.xml:5
 msgid "Creative Commons Attribution-ShareAlike 4.0 International"
-msgstr ""
+msgstr "Непортованої ліцензії Creative Commons Attribution-ShareAlike 4.0"
 
 #. (itstool) path: license/p
 #: C/legal.xml:4
 msgid "This work is licensed under a <_:link-1/> license."
-msgstr ""
+msgstr "Ця робота розповсюджується за умов дотримання <_:link-1/>."
 
 #. (itstool) path: license/p
 #: C/legal.xml:8
@@ -1183,6 +1261,9 @@ msgid ""
 "modify, and distribute the example code contained in this documentation "
 "under the terms of your choosing, without restriction."
 msgstr ""
+"За виняткових обставин власники авторських прав можу надати вам дозвіл "
+"копіювати, змінювати і розповсюджувати приклади коду, що містяться у цьому "
+"документі, за довільних умов, без обмежень."
 
 #. (itstool) path: info/desc
 #: C/license.page:17
@@ -1265,7 +1346,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/overview-communication.page:19
 msgid "Communication and social networking"
-msgstr ""
+msgstr "Спілкування і соціальні мережі"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:23
@@ -1373,7 +1454,7 @@ msgstr ""
 #: C/overview-media.page:92 C/overview-net.page:76 C/overview-settings.page:63
 #: C/overview-ui.page:90
 msgid "Real-world examples"
-msgstr ""
+msgstr "Приклади з реального життя"
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:87
