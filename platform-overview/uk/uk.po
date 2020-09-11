@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-10 21:05+0300\n"
+"PO-Revision-Date: 2020-09-11 20:39+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -1058,6 +1058,10 @@ msgid ""
 "such as desktop files and UI files, then merges them back into the XML and "
 "desktop files with the strings from the source code."
 msgstr ""
+"<app>gettext</app> — набір інструментів для видобування рядків із файлів"
+" початкового коду. <app>intltool</app> видобуває придатні до перекладу рядки"
+" з інших файлів, зокрема файлів desktop та UI, а потім записує переклади"
+" назад до файлів XML і desktop із рядками з початкового коду."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:38
@@ -1107,6 +1111,8 @@ msgid ""
 "For C, this macro is defined in the <file>glib/gi18n.h</file> header file, "
 "which must be included at the top of your application source."
 msgstr ""
+"Для C цей макрос визначається у файлів заголовків <file>glib/gi18n.h</file>,"
+" який має бути включено на початку коду вашої програми."
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:38
@@ -1125,6 +1131,9 @@ msgid ""
 "This marks the strings as translatable, and at runtime calls <app>gettext</"
 "app> to substitute the translated strings."
 msgstr ""
+"Таким чином рядки буде позначено як придатні до перекладу, під час роботи"
+" програми буде викликано <app>gettext</app> для заміни початкових рядків на"
+" переклади."
 
 #. (itstool) path: page/title
 #: C/dev-translate-tools.page:20
@@ -1141,6 +1150,13 @@ msgid ""
 "files. Other online and offline localization tools include <app>Transifex</"
 "app>, <app>Virtaal</app>, <app>KBabel</app> or <app>Pootle</app>."
 msgstr ""
+"На цьому етапі рядки готові до перекладу або <em>локалізації</em>. Для"
+" проєктів, код яких зберігається у сховищах Git GNOME, це завдання виконує"
+" проєкт перекладу GNOME. <app href=\"https://wiki.gnome.org/Apps/"
+"Gtranslator\">Gtranslator</app> — інструмент GNOME для редагування файлів <"
+"file>.po</file>. Іншими інструментами для локалізації у інтернеті та на"
+" персональних комп'ютерах є <app>Transifex</"
+"app>, <app>Virtaal</app>, <app>Lokalize</app> та <app>Pootle</app>."
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/tech-atk.page:12 C/tech-cairo.page:11
@@ -1228,6 +1244,8 @@ msgid ""
 "Welcome to the GNOME developer overview. GNOME offers a range of tools that "
 "can be used in your application."
 msgstr ""
+"Вітаємо у огляді GNOME для розробників. GNOME пропонує широкий діапазон"
+" інструментів, якими можна скористатися у вашій програмі."
 
 #. (itstool) path: links/title
 #: C/index.page:56
@@ -1281,6 +1299,9 @@ msgid ""
 "When you write a new application or library, you will need to choose a "
 "license so that others know how they can use or reuse your work."
 msgstr ""
+"Перед написанням нової програми або бібліотеки слід вибрати умови"
+" ліцензування, щоб інші люди знали, як можна використовувати або доповнювати"
+" вашу роботу."
 
 #. (itstool) path: page/p
 #: C/license.page:26
@@ -1289,6 +1310,10 @@ msgid ""
 "\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/"
 "old-licenses/lgpl-2.1.html\">LGPL 2.1+</link>."
 msgstr ""
+"Бібліотеки, які використовуються у GNOME зазвичай ліцензуються за умов"
+" дотримання <link href="
+"\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/"
+"old-licenses/lgpl-2.1.html\">LGPL 2.1+</link>."
 
 #. (itstool) path: page/p
 #: C/license.page:30
@@ -1298,6 +1323,11 @@ msgid ""
 "applications are licensed under <link href=\"http://www.gnu.org/licenses/"
 "gpl-2.0.html\">GPL2+</link>."
 msgstr ""
+"Найновіші програми GNOME ліцензовано за умов дотримання <link"
+" href=\"http://www.gnu."
+"org/licenses/gpl-3.0.html\">GPL3+</link>, а деякі давніші програми"
+" ліцензовано за умов дотримання <link href=\"http://www.gnu.org/licenses/"
+"gpl-2.0.html\">GPL2+</link>."
 
 #. (itstool) path: page/p
 #: C/license.page:35
@@ -1308,6 +1338,12 @@ msgid ""
 "consistently as it allows re-use of text from Wikipedia and many other "
 "reference sources."
 msgstr ""
+"Документацію для користувачів написано командою з документування GNOME і"
+" ліцензовано за умов дотримання "
+"<link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC-by-SA 3.0 "
+"Unported</link>. Команда з документування намагається використовувати ці"
+" умови ліцензування послідовно, оскільки вони уможливлюють повторне"
+" використання тексту з Вікіпедії та багатьох інших довідкових джерел."
 
 #. (itstool) path: page/p
 #: C/license.page:41
@@ -1316,6 +1352,10 @@ msgid ""
 "strings from the applications are usually GPL2+ or GPL3+, while user "
 "documentation is usually CC-by-SA 3.0."
 msgstr ""
+"Переклади розповсюджуються за тих самих умов, що і початкові рядки."
+" Наприклад, рядки, які походять з програм, зазвичай, розповсюджуються за умов"
+" дотримання GPL2+ або GPL3+, а документація для користувачів, зазвичай, —"
+" CC-by-SA 3.0."
 
 #. (itstool) path: page/p
 #: C/license.page:45
@@ -1342,6 +1382,8 @@ msgstr "Зв'язок"
 msgid ""
 "Instant messaging, networking, social media, email, and calendaring support."
 msgstr ""
+"Підтримка миттєвого обміну повідомленнями, роботи у мережі, соціальних"
+" мережах, роботи із електронною поштою та календарями."
 
 #. (itstool) path: page/title
 #: C/overview-communication.page:19
@@ -1354,6 +1396,8 @@ msgid ""
 "<em style=\"strong\">Connect to instant messaging and social networking "
 "services</em>"
 msgstr ""
+"<em style=\"strong\">Встановлення з'єднання зі службами миттєвого обміну"
+" повідомленнями та соціальними мережами</em>"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:26
@@ -1361,12 +1405,16 @@ msgid ""
 "<em style=\"strong\">Set up multi-protocol connections with web services or "
 "other clients</em>"
 msgstr ""
+"<em style=\"strong\">Налаштовування багатопротокольних з'єднань із службами"
+" мережі та іншими клієнтами</em>"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:29
 msgid ""
 "<em style=\"strong\">Handle mail, online contacts and calendar services</em>"
 msgstr ""
+"<em style=\"strong\">Робота з поштою, службами інтернет-контактів та"
+" календарів</em>"
 
 #. (itstool) path: page/p
 #: C/overview-communication.page:33
@@ -1391,14 +1439,14 @@ msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 #. (itstool) path: media/p
 #: C/overview-communication.page:36
 msgid "Empathy instant messaging client"
-msgstr ""
+msgstr "Клієнт обміну миттєвими повідомленнями Empathy"
 
 #. (itstool) path: section/title
 #: C/overview-communication.page:40 C/overview-io.page:42
 #: C/overview-media.page:44 C/overview-net.page:46 C/overview-settings.page:41
 #: C/overview-ui.page:47
 msgid "What can you do?"
-msgstr ""
+msgstr "Що робити?"
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:42
@@ -1522,7 +1570,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/overview-io.page:25
 msgid "Files &amp; data access"
-msgstr ""
+msgstr "Доступ до файлів і даних"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:29
@@ -1530,11 +1578,14 @@ msgid ""
 "<em style=\"strong\">Asynchronously read and write files and other streams</"
 "em>"
 msgstr ""
+"<em style=\"strong\">Асинхронне читання і запис файлів та інших потокових"
+" даних</"
+"em>"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:32
 msgid "<em style=\"strong\">Store and retrieve document metadata</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Зберігання і отримання метаданих документів</em>"
 
 #. (itstool) path: page/p
 #: C/overview-io.page:36
@@ -1583,6 +1634,9 @@ msgid ""
 "<link href=\"https://gitlab.gnome.org/GNOME/gnome-documents\">Source code</"
 "link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Documents\">Сайт</link> | "
+"<link href=\"https://gitlab.gnome.org/GNOME/gnome-documents\">Початковий код</"
+"link> )"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:77
@@ -1598,6 +1652,10 @@ msgid ""
 "href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Screenshots</link> "
 "| <link href=\"https://gitlab.gnome.org/GNOME/nautilus\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Сайт</link> | <link "
+"href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Знімки вікон</link> "
+"| <link href=\"https://gitlab.gnome.org/GNOME/nautilus\">Початковий код</link"
+"> )"
 
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
@@ -1605,6 +1663,8 @@ msgid ""
 "Multi-format audio and video playback and editing, streaming from the web, "
 "and webcam support."
 msgstr ""
+"Відтворення та редагування звукових даних та відеоданих у багатьох форматах,"
+" потокове мовлення в інтернеті та підтримка вебкамер."
 
 #. (itstool) path: page/title
 #. (itstool) path: links/title
@@ -1618,6 +1678,9 @@ msgid ""
 "<em style=\"strong\">Play and record a multitude of audio and video formats</"
 "em>"
 msgstr ""
+"<em style=\"strong\">Відтворення і запис даних у широкому діапазоні форматів"
+" звукових даних та відеоданих</"
+"em>"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:27
@@ -1625,11 +1688,15 @@ msgid ""
 "<em style=\"strong\">Access webcams and other media devices connected to the "
 "system</em>"
 msgstr ""
+"<em style=\"strong\">Доступ до вебкамер та інших мультимедійних пристроїв,"
+" які з'єднано із системою</em>"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:30
 msgid "<em style=\"strong\">Share and stream media with remote devices</em>"
 msgstr ""
+"<em style=\"strong\">Поширення та потокове мовлення даних за допомогою"
+" віддалених пристроїв</em>"
 
 #. (itstool) path: page/p
 #: C/overview-media.page:34
@@ -1714,7 +1781,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-media.page:98
 msgid "<em style=\"strong\">Videos</em> is the GNOME multimedia player."
-msgstr ""
+msgstr "<em style=\"strong\">Відео</em> — мультимедійний програвач GNOME."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:99
@@ -1724,6 +1791,11 @@ msgid ""
 "videos.png\">Screenshot</link> | <link href=\"https://gitlab.gnome.org/GNOME/"
 "totem/\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Сайт</link> | <link "
+"href=\"https://gitlab.gnome.org/GNOME/totem/blob/master/data/appdata/ss-"
+"videos.png\">Знімок вікна</link> | <link"
+" href=\"https://gitlab.gnome.org/GNOME/"
+"totem/\">Початковий код</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:102
@@ -1731,6 +1803,8 @@ msgid ""
 "<em style=\"strong\">PiTiVi</em> is a non-linear video editor, which makes "
 "extensive use of GStreamer."
 msgstr ""
+"<em style=\"strong\">PiTiVi</em> — нелінійний редактор відео, який широко"
+" використовує GStreamer."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:104
@@ -1739,6 +1813,9 @@ msgid ""
 "www.pitivi.org/?go=tour\">Screenshot</link> | <link href=\"http://www.pitivi."
 "org/?go=download\">Source code</link> )"
 msgstr ""
+"( <link href=\"http://www.pitivi.org/\">Сайт</link> | <link href=\"http://"
+"www.pitivi.org/?go=tour\">Знімок вікна</link> | <link"
+" href=\"http://www.pitivi.org/?go=download\">Початковий код</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-net.page:17
@@ -1750,7 +1827,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/overview-net.page:20
 msgid "Low-level networking"
-msgstr ""
+msgstr "Низькорівнева робота у мережі"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:24
@@ -1758,6 +1835,8 @@ msgid ""
 "<em style=\"strong\">Create powerful and flexible HTTP servers and clients</"
 "em>"
 msgstr ""
+"<em style=\"strong\">Створення потужних і гнучких серверів і клієнтів HTTP</"
+"em>"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:27
@@ -1765,12 +1844,15 @@ msgid ""
 "<em style=\"strong\">Use portable socket-based APIs in a UI without "
 "blocking</em>"
 msgstr ""
+"<em style=\"strong\">Використання портативних програмних інтерфейсів на"
+" основі сокетів у інтерфейсі користувача без блокування</em>"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:30
 msgid ""
 "<em style=\"strong\">Detect and manage the network connection state</em>"
 msgstr ""
+"<em style=\"strong\">Виявлення стану з'єднання мережі та керування ним</em>"
 
 #. (itstool) path: page/p
 #: C/overview-net.page:34
@@ -1830,6 +1912,10 @@ msgid ""
 "\">Screenshot</link> | <link href=\"https://gitlab.gnome.org/GNOME/epiphany/"
 "\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Web\">Сайт</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/epiphany/raw/master/data/screenshot.png"
+"\">Знімок вікна</link> | <link href=\"https://gitlab.gnome.org/GNOME/epiphany/"
+"\">Початковий код</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:87
@@ -1846,11 +1932,14 @@ msgid ""
 "<link href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
 "\"https://gitlab.gnome.org/GNOME/gnome-shell/\">Source Code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Сайт</link> | "
+"<link href=\"http://www.gnome.org/gnome-3/\">Знімок вікна</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/gnome-shell/\">Початковий код</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-settings.page:17
 msgid "Flexible user configuration system."
-msgstr ""
+msgstr "Гнучка система налаштовування користувачем."
 
 #. (itstool) path: page/title
 #: C/overview-settings.page:20
@@ -1860,12 +1949,14 @@ msgstr "Керування параметрами"
 #. (itstool) path: item/p
 #: C/overview-settings.page:24
 msgid "<em style=\"strong\">High-level access for application settings</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Високорівневий доступ до параметрів програм</em>"
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:27
 msgid "<em style=\"strong\">Easily bind settings to UI elements</em>"
 msgstr ""
+"<em style=\"strong\">Просте прив'язування параметрів до елементів інтерфейсу<"
+"/em>"
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:30
@@ -1873,6 +1964,8 @@ msgid ""
 "<em style=\"strong\">Flexible overrides for packagers and system "
 "administrators</em>"
 msgstr ""
+"<em style=\"strong\">Гнучкі перевизначення для пакувальників та"
+" адміністраторів системи</em>"
 
 #. (itstool) path: page/p
 #: C/overview-settings.page:35
@@ -1897,7 +1990,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/overview-settings.page:65
 msgid "Nearly all GNOME applications use GSettings."
-msgstr ""
+msgstr "Майже в усіх програмах GNOME використовуються GSettings."
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:68
@@ -1905,6 +1998,9 @@ msgid ""
 "<em style=\"strong\">Dconf editor</em> is the GUI tool for managing "
 "preferences stored in the dconf database with GSettings."
 msgstr ""
+"<em style=\"strong\">Редактор Dconf</em> є інструментом з графічним"
+" інтерфейсом для керування налаштуваннями, які зберігаються у базі даних"
+" dconf за допомогою GSettings."
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:70
@@ -1913,16 +2009,19 @@ msgid ""
 "<link href=\"https://gitlab.gnome.org/GNOME/dconf-editor/\">Source code</"
 "link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/DconfEditor\">Сайт</link> | "
+"<link href=\"https://gitlab.gnome.org/GNOME/dconf-editor/\">Початковий код</"
+"link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-ui.page:17
 msgid "Standard user interface elements, rendering, and animation."
-msgstr ""
+msgstr "Стандартні елементи інтерфейсу користувача, обробка і анімація."
 
 #. (itstool) path: page/title
 #: C/overview-ui.page:20
 msgid "User interface &amp; graphics"
-msgstr ""
+msgstr "Інтерфейс користувача і графіка"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:24
@@ -1930,12 +2029,16 @@ msgid ""
 "<em style=\"strong\">Use a single toolkit for all the standard widgets in "
 "your application</em>"
 msgstr ""
+"<em style=\"strong\">Використання єдиного набору інструментів для усіх"
+" стандартних віджетів у вашій програмі</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:27
 msgid ""
 "<em style=\"strong\">Create fast, visually rich graphical interfaces</em>"
 msgstr ""
+"<em style=\"strong\">Створення швидкого візуально багатого графічного"
+" інтерфейсу</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:30
@@ -1943,17 +2046,21 @@ msgid ""
 "<em style=\"strong\">Have high quality, antialiased and resolution-"
 "independent graphics</em>"
 msgstr ""
+"<em style=\"strong\">Високоякісна, згладжена та незалежна від роздільності"
+" екрана графіка</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:33
 msgid ""
 "<em style=\"strong\">Easily add web functionality to your application</em>"
 msgstr ""
+"<em style=\"strong\">Просте додавання інтернет-можливостей до вашої програми<"
+"/em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:36
 msgid "<em style=\"strong\">Access built-in assistive technologies</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Доступ до вбудованих допоміжних технологій</em>"
 
 #. (itstool) path: page/p
 #: C/overview-ui.page:40
@@ -2030,6 +2137,8 @@ msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
 "\"https://gitlab.gnome.org/GNOME/epiphany/\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://wiki.gnome.org/Apps/Web\">Сайт</link> | <link href="
+"\"https://gitlab.gnome.org/GNOME/epiphany/\">Початковий код</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:101
