@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-11 20:39+0300\n"
+"PO-Revision-Date: 2020-09-12 19:22+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -3382,21 +3382,25 @@ msgid ""
 "<link href=\"http://projectmallard.org/about/learn/tenminutes.html\">Ten "
 "Minute Mallard Tour</link>"
 msgstr ""
+"<link href=\"http://projectmallard.org/about/learn/tenminutes.html\""
+">Десятихвилинний тур Mallard</link>"
 
 #. (itstool) path: item/p
 #: C/tech-help.page:39
 msgid "<link href=\"http://projectmallard.org/\">The Mallard web site</link>"
-msgstr ""
+msgstr "<link href=\"http://projectmallard.org/\">Сайт Mallard</link>"
 
 #. (itstool) path: item/p
 #: C/tech-help.page:40
 msgid "<link href=\"http://docbook.org/\">The DocBook web site</link>"
-msgstr ""
+msgstr "<link href=\"http://docbook.org/\">Сайт DocBook</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-network-manager.page:17
 msgid "Manage network connections and monitor online/offline status"
 msgstr ""
+"Керування з'єднаннями мережі і спостереження за станом «у мережі»/«поза"
+" мережею»"
 
 #. (itstool) path: page/title
 #: C/tech-network-manager.page:20
@@ -3438,6 +3442,8 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/NetworkManager\">NetworkManager "
 "home page</link>"
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/NetworkManager\">Домашня"
+" сторінка NetworkManager</link>"
 
 #. (itstool) path: item/p
 #: C/tech-network-manager.page:48
@@ -3445,11 +3451,13 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/NetworkManager/Developers"
 "\">NetworkManager API reference</link>"
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/NetworkManager/Developers"
+"\">Довідник з програмного інтерфейсу NetworkManager</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-notify.page:23
 msgid "Interactive notifications in the desktop's message tray"
-msgstr ""
+msgstr "Інтерактивні сповіщення у лотку повідомлень стільничного середовища"
 
 #. (itstool) path: page/title
 #: C/tech-notify.page:26
@@ -3481,12 +3489,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-packagekit.page:17
 msgid "Software installation and management"
-msgstr ""
+msgstr "Встановлення програмного забезпечення та керування ним"
 
 #. (itstool) path: page/title
 #: C/tech-packagekit.page:20
 msgid "PackageKit"
-msgstr ""
+msgstr "PackageKit"
 
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:22
@@ -3513,11 +3521,12 @@ msgstr ""
 #: C/tech-packagekit.page:40
 msgid "<link href=\"http://www.packagekit.org/\">PackageKit home page</link>"
 msgstr ""
+"<link href=\"http://www.packagekit.org/\">Домашня сторінка PackageKit</link>"
 
 #. (itstool) path: info/desc
 #: C/tech.page:15
 msgid "See a list of all of the development libraries in GNOME."
-msgstr ""
+msgstr "Див. список усіх бібліотек для розробки у GNOME."
 
 #. (itstool) path: page/title
 #: C/tech.page:18
@@ -3530,16 +3539,18 @@ msgid ""
 "The GNOME platform is a rich collection of libraries. This is a list of all "
 "the platform libraries in GNOME, sorted by purpose."
 msgstr ""
+"У платформі GNOME передбачено велику збірку бібліотек. У цьому списку"
+" наведено усі бібліотеки платформи у GNOME, упорядковані за призначенням."
 
 #. (itstool) path: links/title
 #: C/tech.page:26
 msgid "User interface and display"
-msgstr ""
+msgstr "Інтерфейс користувача і показ даних"
 
 #. (itstool) path: links/title
 #: C/tech.page:32
 msgid "Storage of the user's data"
-msgstr ""
+msgstr "Сховище даних користувача"
 
 #. (itstool) path: links/title
 #: C/tech.page:38
@@ -3554,27 +3565,27 @@ msgstr "Робота у мережі"
 #. (itstool) path: links/title
 #: C/tech.page:50
 msgid "Application support"
-msgstr ""
+msgstr "Підтримка програм"
 
 #. (itstool) path: links/title
 #: C/tech.page:62
 msgid "Inter-process communication"
-msgstr ""
+msgstr "Обмін даними між процесами"
 
 #. (itstool) path: links/title
 #: C/tech.page:68
 msgid "Geographical"
-msgstr ""
+msgstr "Географія"
 
 #. (itstool) path: links/title
 #: C/tech.page:74
 msgid "Foundational C utilities and object system"
-msgstr ""
+msgstr "Базові допоміжні інструменти C та система об'єктів"
 
 #. (itstool) path: info/desc
 #: C/tech-pango.page:18
 msgid "International text rendering with full Unicode support"
-msgstr ""
+msgstr "Показ текстів різними мовами із повною підтримкою Unicode"
 
 #. (itstool) path: page/title
 #: C/tech-pango.page:21
@@ -3644,12 +3655,14 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/tech-pango.page:62
 msgid "<link href=\"http://www.pango.org\">The Pango web site</link>"
-msgstr ""
+msgstr "<link href=\"http://www.pango.org\">Сайт Pango</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-polkit.page:17
 msgid "Access control for system-level services provided through D-Bus"
 msgstr ""
+"Керування доступом для служб на рівні системи забезпечується за допомогою"
+" D-Bus"
 
 #. (itstool) path: page/title
 #: C/tech-polkit.page:20
@@ -3690,6 +3703,8 @@ msgid ""
 "<link href=\"http://www.freedesktop.org/wiki/Software/polkit\">Polkit home "
 "page</link>"
 msgstr ""
+"<link href=\"http://www.freedesktop.org/wiki/Software/polkit\">Домашня"
+" сторінка Polkit</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-poppler.page:17
@@ -3852,7 +3867,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-soup.page:17
 msgid "Asynchronous HTTP library with cookies, SSL, and XML-RPC"
-msgstr ""
+msgstr "Асинхронна бібліотека HTTP з куками, SSL і XML-RPC"
 
 #. (itstool) path: page/title
 #: C/tech-soup.page:20
@@ -4000,12 +4015,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-tracker.page:17
 msgid "Storage and retrieval for document metadata"
-msgstr ""
+msgstr "Зберігання і отримання метаданих документів"
 
 #. (itstool) path: page/title
 #: C/tech-tracker.page:20
 msgid "Tracker"
-msgstr "Стеження"
+msgstr "Tracker"
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:22
@@ -4023,6 +4038,8 @@ msgid ""
 "Tracker provides a storage for such triplets, and a query engine in the form "
 "of the SPARQL query language."
 msgstr ""
+"Tracker надає сховище для таких триплетів та рушій обробки запитів у форматі"
+" запитів мови SPARQL."
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:35
@@ -4058,7 +4075,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-webkit.page:23
 msgid "HTML5 web page rendering"
-msgstr ""
+msgstr "Показ вебсторінок HTML5"
 
 #. (itstool) path: page/title
 #: C/tech-webkit.page:26
@@ -4116,7 +4133,7 @@ msgstr "Gordon Hill"
 #. (itstool) path: info/desc
 #: C/tour-application.page:23
 msgid "Finish the application and run the script."
-msgstr ""
+msgstr "Завершення програми і запуск скрипту."
 
 #. (itstool) path: page/title
 #: C/tour-application.page:26
@@ -4136,6 +4153,8 @@ msgid ""
 "Make the new object <code>app</code> and call the method <code>run</code> to "
 "run the application:"
 msgstr ""
+"Створіть об'єкт <code>app</code> і викличте метод <code>run</code>, щоб"
+" запустити програму:"
 
 #. (itstool) path: example/code
 #: C/tour-application.page:35
@@ -4155,6 +4174,9 @@ msgid ""
 "Save the script as <file>helloworld.js</file>, run <cmd>chmod +x helloworld."
 "js</cmd> to mark it executable, and run it with <cmd>./helloworld.js</cmd>."
 msgstr ""
+"Збережієть скрипт із назвою <file>helloworld.js</file>, віддайте команду <cmd"
+">chmod +x helloworld.js</cmd>, щоб позначити скрипт як виконуваний, і"
+" запустіть його за допомогою команди <cmd>./helloworld.js</cmd>."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -4171,7 +4193,7 @@ msgstr ""
 #. (itstool) path: media/p
 #: C/tour-application.page:46
 msgid "Screenshot of a basic window."
-msgstr ""
+msgstr "Знімок базового вікна."
 
 #. (itstool) path: page/p
 #: C/tour-application.page:48
@@ -4179,27 +4201,31 @@ msgid ""
 "This window is generated from the <app>Glade</app> file and linked to "
 "<app>Gtk</app> events. You now have a fully functional Gtk application!"
 msgstr ""
+"Це вікно створено з файла <app>Glade</app> і пов'язано із подіями <app>Gtk<"
+"/app>. Тепер у вас є повноцінна програма Gtk!"
 
 #. (itstool) path: info/desc
 #: C/tour-events.page:23
 msgid "Bind functions to events using Lang."
-msgstr ""
+msgstr "Прив'язка функцій до подій за допомогою Lang."
 
 #. (itstool) path: page/title
 #: C/tour-events.page:26
 msgid "Actions and signals"
-msgstr ""
+msgstr "Дії і сигнали"
 
 #. (itstool) path: page/p
 #: C/tour-events.page:33
 msgid ""
 "Gtk has a set of predefined events that you can use in your application."
 msgstr ""
+"У Gtk передбачено набір попередньо визначених подій, яким ви можете"
+" скористатися у вашій програмі."
 
 #. (itstool) path: example/p
 #: C/tour-events.page:35
 msgid "Declare <code>HelloWorld</code> as a new class."
-msgstr ""
+msgstr "Оголосіть <code>HelloWorld</code> як новий клас."
 
 #. (itstool) path: example/code
 #: C/tour-events.page:37
@@ -4208,6 +4234,8 @@ msgid ""
 "\n"
 "class HelloWorld {\n"
 msgstr ""
+"\n"
+"class HelloWorld {\n"
 
 #. (itstool) path: example/p
 #: C/tour-events.page:41
@@ -4229,11 +4257,17 @@ msgid ""
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
 msgstr ""
+"\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application();\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
 
 #. (itstool) path: example/p
 #: C/tour-events.page:54
 msgid "Show the window upon application activation:"
-msgstr ""
+msgstr "Показ вікна при активації програми:"
 
 #. (itstool) path: example/code
 #: C/tour-events.page:55
@@ -4244,17 +4278,23 @@ msgid ""
 "        this._window.show_all();\n"
 "    }\n"
 msgstr ""
+"\n"
+"    _onActivate() {\n"
+"        this._window.show_all();\n"
+"    }\n"
 
 #. (itstool) path: info/desc
 #: C/tour-get_object.page:23
 msgid ""
 "Add the window specified in the UI file to the application using GtkBuilder."
 msgstr ""
+"Додавання вікна, вказаного у файлі інтерфейсу користувача, до програми за"
+" допомогою GtkBuilder."
 
 #. (itstool) path: page/title
 #: C/tour-get_object.page:27
 msgid "GtkBuilder"
-msgstr ""
+msgstr "GtkBuilder"
 
 #. (itstool) path: page/p
 #: C/tour-get_object.page:33
@@ -4285,16 +4325,24 @@ msgid ""
 "    }\n"
 "};\n"
 msgstr ""
+"\n"
+"    _onStartup() {\n"
+"        let builder = new Gtk.Builder();\n"
+"        builder.add_from_file('helloworld.glade');\n"
+"        this._window = builder.get_object('window1');\n"
+"        this.application.add_window(this._window);\n"
+"    }\n"
+"};\n"
 
 #. (itstool) path: info/desc
 #: C/tour-gjs.page:23
 msgid "Include bindings necessary to run your script."
-msgstr ""
+msgstr "Прив'язки включення, потрібні для запуску вашого скрипту."
 
 #. (itstool) path: page/title
 #: C/tour-gjs.page:26
 msgid "Gjs and Gtk"
-msgstr ""
+msgstr "Gjs і Gtk"
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:32
@@ -4318,6 +4366,8 @@ msgid ""
 "Create an <code>object</code> using your <code>class</code> and call the "
 "<code>run()</code> method:"
 msgstr ""
+"Створіть <code>object</code> за допомогою вашого <code>class</code> і"
+" викличте метод <code>run()</code>:"
 
 #. (itstool) path: example/p
 #: C/tour-gjs.page:39
@@ -4333,6 +4383,8 @@ msgid ""
 "\n"
 "#!/usr/bin/gjs\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
 
 #. (itstool) path: example/p
 #: C/tour-gjs.page:46
@@ -4350,11 +4402,14 @@ msgid ""
 "imports.gi.versions.Gtk = '3.0';\n"
 "const Gtk = imports.gi.Gtk;\n"
 msgstr ""
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"const Gtk = imports.gi.Gtk;\n"
 
 #. (itstool) path: info/desc
 #: C/tour-glade.page:23
 msgid "Use Glade to generate a UI file."
-msgstr ""
+msgstr "Використання Glade для створення файла інтерфейсу користувача."
 
 #. (itstool) path: page/title
 #: C/tour-glade.page:26
@@ -4401,7 +4456,7 @@ msgstr ""
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
 msgid "Screenshot of value attribution in Glade."
-msgstr ""
+msgstr "Знімок вікна прив'язки значення у Glade."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:46
@@ -4409,6 +4464,8 @@ msgid ""
 "Save the file with <guiseq><gui>File</gui><gui>Save As</gui></guiseq> and "
 "name it <file>helloworld.glade</file>."
 msgstr ""
+"Збережіть файл за допомогою пункту меню <guiseq><gui>Файл</gui><gui>Зберегти"
+" як</gui></guiseq> і надайте йому назву <file>helloworld.glade</file>."
 
 #. (itstool) path: info/desc
 #: C/tour.page:24
