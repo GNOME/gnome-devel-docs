@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-12 19:22+0300\n"
+"PO-Revision-Date: 2020-09-13 19:25+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -628,6 +628,15 @@ msgid ""
 "applications is always <code>Application</code>. Alternative types are "
 "listed in the desktop entry specification."
 msgstr ""
+"Рядок <code>[Desktop Entry]</code> вказує на те, що це файл desktop. За цим"
+" записом йдуть ключі, які описують засіб запуску програм. Ключ <code>Name<"
+"/code> визначає зручну для читання назву програми, яку буде показано у"
+" інтерфейсі користувача. Виконуваний файл програми зазначають у ключі <code"
+">Exec</code>. Можна вказати або шлях повністю, або просто назву виконуваного"
+" файла, якщо він зберігається в одному з каталогів змінної середовища <code"
+">PATH</code>. Останнім обов'язковим ключем є <code>Type</code>. Його"
+" значенням для програм завжди є <code>Application</code>. Інші типи наведено"
+" у списку специфікації записів desktop."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:65
@@ -639,6 +648,12 @@ msgid ""
 "the <code>Categories</code> key should be populated with a list of "
 "categories, separated by a semicolon, from the Desktop Menu Specification."
 msgstr ""
+"Інші поля у файлі desktop є необов'язковими, але рекомендованими. Програми"
+" мають встановлювати піктограму і вказувати назву піктограми (без суфікса) за"
+" допомогою ключа <code>Icon</code>. У ключі <code>Comment</code> має бути"
+" наведено короткий опис програми. Для полегшення навігації програмами у ключі"
+" <code>Categories</code> можна вказати список категорій, відокремлених"
+" крапкою з комою, зі специфікації стільничного меню."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:73
@@ -646,6 +661,8 @@ msgid ""
 "There are several other keys that can be added to desktop files, which are "
 "listed and described in the Desktop Entry Specification."
 msgstr ""
+"До файлів desktop можна додати декілька інших ключів, список і опис яких"
+" наведено у специфікації стільничних записів."
 
 #. (itstool) path: page/title
 #: C/dev-launching-icons.page:20
@@ -668,6 +685,14 @@ msgid ""
 "minimum, an application should install a 48×48 pixel icon into <file><var>"
 "$prefix</var>/share/icons/hicolor/48x48/apps</file> in PNG format."
 msgstr ""
+"Якщо у файлі desktop вказано піктограму, зображення має бути встановлено до"
+" стандартного каталогу, заданого <link href=\"http://standards.freedesktop.org"
+"/icon-theme-spec/icon-theme-spec-latest.html\">темою піктограм"
+" freedesktop.org</link> і <link href=\"http://standards.freedesktop.org/icon-n"
+"aming-spec/icon-naming-spec-latest.html\">специфікацією назв піктограм</link"
+">. Мінімально, піктограма має встановлювати піктограму розміром 48×48"
+" пікселів до <file><var>$prefix</var>/share/icons/hicolor/48x48/apps</file> у"
+" форматі PNG."
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:37
@@ -677,6 +702,10 @@ msgid ""
 "\">Tango Icon Theme guidelines</link> when creating icons and application "
 "artwork."
 msgstr ""
+"Щоб піктограма була відповідною до інших піктограм, для платформи GNOME та"
+" інших платформ, виконайте <link href=\"http://tango.freedesktop.org/Tango_Ico"
+"n_Theme_Guidelines\">настанови щодо теми піктограм Tango</link> при створенні"
+" піктограм та художньої частини інтерфейсу."
 
 #. (itstool) path: page/title
 #: C/dev-launching-mime.page:19
@@ -806,6 +835,10 @@ msgid ""
 "the freedesktop.org Desktop Entry Specification standard to create a desktop "
 "file, giving your application name, icon and a brief description."
 msgstr ""
+"Піктограма на панелі запуску є стандартним способом запуску вашої програми."
+" Скористайтеся стандартом специфікації стільничного запису freedesktop.org"
+" для створення файла desktop, вказавши назву вашої програми, піктограми та"
+" короткий опис."
 
 #. (itstool) path: info/desc
 #: C/dev-thumbnailer.page:20
@@ -837,6 +870,12 @@ msgid ""
 "stable/GnomeDesktopThumbnailFactory.html\">GnomeDesktopThumbnailFactory</"
 "link>."
 msgstr ""
+"Бібліотека gnome-desktop визначає інтерфейс та пов'язані файли, які має"
+" реалізовувати засіб створення піктограм. Компонентом, що відповідає за"
+" виклик засобу створення піктограм, є <link"
+" href=\"https://developer.gnome.org/gnome-desktop3/stable/GnomeDesktopThumbnai"
+"lFactory.html\">GnomeDesktopThumbnailFactory</"
+"link>."
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:34
@@ -845,6 +884,10 @@ msgid ""
 "output file generation, is <link href=\"https://github.com/hadess/gnome-"
 "thumbnailer-skeleton\">gnome-thumbnailer-skeleton</link>."
 msgstr ""
+"Загальним допоміжним засобом для засобів створення піктограм, який обробляє"
+" командний рядок та виведення створених файлів, є <link"
+" href=\"https://github.com/hadess/gnome-"
+"thumbnailer-skeleton\">gnome-thumbnailer-skeleton</link>."
 
 #. (itstool) path: page/title
 #: C/dev-translate-build.page:21
@@ -873,6 +916,10 @@ msgid ""
 "List files <em>without</em> translatable strings in <file>po/POTFILES.skip</"
 "file>."
 msgstr ""
+"Створіть підкаталог <file>po/</file> у каталозі вашого проєкту і запишіть"
+" список файлів, у яких містяться придатні до перекладу рядки, до файла <file"
+">po/POTFILES.in</file>. Список файлів, які <em>не містять</em> придатних до"
+" перекладу рядків, слід вказати у файлі <file>po/POTFILES.skip</file>."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:35
@@ -1019,6 +1066,10 @@ msgid ""
 "directory. This runs <cmd>intltool-extract</cmd> to extract the translatable "
 "strings and put them in a po template (POT) file."
 msgstr ""
+"Віддайте команду <cmd>make <input>назва_проєкту</input>.pot</cmd> у каталозі"
+" <file>po</file>. У відповідь буде запущено <cmd>intltool-extract</cmd> для"
+" видобування придатних до перекладу рядків і записування їх до файла шаблона"
+" po (POT)."
 
 #. (itstool) path: credit/name
 #: C/dev-translate.page:12 C/dev-translate-setup.page:11
@@ -1496,6 +1547,10 @@ msgid ""
 "access to a single API for handling social networking, chat, email, and "
 "audio/video communications."
 msgstr ""
+"За допомогою <em style=\"strong\" xref=\"tech-folks\">Folks</em> ви матимете"
+" доступ до єдиного програмного інтерфейсу для роботи у соціальних мережах,"
+" текстового спілкування, електронної пошти та спілкування за допомогою обміну"
+" звуковими та відеоданими."
 
 #. (itstool) path: section/title
 #: C/overview-communication.page:80 C/overview-io.page:66
@@ -1510,6 +1565,8 @@ msgid ""
 "You can see lots of real-world applications of the GNOME communications "
 "technologies in open source projects, like the examples given below."
 msgstr ""
+"Технології комунікації GNOME використовуються у багатьох реальних програмах у"
+" проєктах із відкритим кодом, подібно до прикладів, які описано нижче."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:90
@@ -1519,6 +1576,10 @@ msgid ""
 "connections, presence, and contact information for all of the protocols that "
 "it supports."
 msgstr ""
+"<em style=\"strong\">Empathy</em> — програма для обміну миттєвими"
+" повідомленнями, у якій передбачено підтримку широкого діапазону служб обміну"
+" повідомленнями. У ній використовується Telepathy для обробки з'єднань, даних"
+" щодо присутності та контактів для усіх підтримуваних протоколів."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:91
@@ -1528,6 +1589,10 @@ msgid ""
 "| <link href=\"https://gitlab.gnome.org/GNOME/empathy/\">Empathy source "
 "code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Сайт</link> | <link "
+"href=\"https://wiki.gnome.org/Apps/Empathy#Screenshots\">Знімки вікон</link> "
+"| <link href=\"https://gitlab.gnome.org/GNOME/empathy/\">Початковий код"
+" Empathy</link>)"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:95
@@ -1545,6 +1610,10 @@ msgid ""
 "<link href=\"https://gitlab.gnome.org/GNOME/gnome-chess/\">GNOME Chess "
 "online multiplayer code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Projects/Games\">Сайт</link> | <link "
+"href=\"https://wiki.gnome.org/Apps/Chess#Screenshots\">Знімок вікна</link> | "
+"<link href=\"https://gitlab.gnome.org/GNOME/gnome-chess/\">Код"
+" інтернет-версії гри у шахи із багатьма гравцями для GNOME</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:100
@@ -1552,6 +1621,9 @@ msgid ""
 "Avahi support allows users of the <em style=\"strong\">Rhythmbox</em> music "
 "player to see shared music collections on their local network, using DAAP."
 msgstr ""
+"Підтримка Avahi надає змогу користувачам музичного програвача <em"
+" style=\"strong\">Rhythmbox</em> переглядати спільні музичні збірки у їхній"
+" локальній мережі за допомогою DAAP."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:101
@@ -1561,11 +1633,16 @@ msgid ""
 "link> | <link href=\"https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/"
 "plugins/daap\">DAAP Code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Сайт</link> | <link "
+"href=\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Знімки вікон</"
+"link> | <link href=\"https://gitlab.gnome.org/GNOME/rhythmbox/tree/master/"
+"plugins/daap\">Код DAAP</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-io.page:22
 msgid "Access structured data storage, networking shares, and files."
 msgstr ""
+"Доступ до структурованих сховища даних, спільних ресурсів у мережі та файлів."
 
 #. (itstool) path: page/title
 #: C/overview-io.page:25
@@ -1612,6 +1689,11 @@ msgid ""
 "\"strong\">store and retrieve document metadata</em>, as well as <em style="
 "\"strong\">structured data</em> such as contacts."
 msgstr ""
+"Скористайтеся <em style=\"strong\" xref=\"tech-tracker\">Tracker</em> для <em"
+" style="
+"\"strong\">зберігання і отримання метаданих документів</em>, а також <em"
+" style="
+"\"strong\">структурованих даних</em>, зокрема записів контактів."
 
 #. (itstool) path: section/p
 #: C/overview-io.page:68
@@ -1619,6 +1701,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME IO technologies in open "
 "source projects, like the examples given below."
 msgstr ""
+"Технології введення та виведення даних GNOME застосовуються у багатьох"
+" проєктах із відкритим кодом. Деякі з прикладів наведено нижче."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:72
@@ -1626,6 +1710,8 @@ msgid ""
 "<em style=\"strong\">Documents</em> makes it easy to find your files with "
 "<em style=\"strong\">Tracker</em>."
 msgstr ""
+"<em style=\"strong\">Документи</em> спрощують пошук файлів за допомогою <em"
+" style=\"strong\">Tracker</em>."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:74
@@ -1644,6 +1730,8 @@ msgid ""
 "<em style=\"strong\">Files</em> leverages <em style=\"strong\">GIO</em> to "
 "make it easy to manage both local and remote files."
 msgstr ""
+"<em style=\"strong\">Файли</em> використовують <em style=\"strong\">GIO</em>"
+" для спрощення керування локальними та віддаленими файлами."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:79
@@ -1777,6 +1865,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME multimedia technologies "
 "in open source projects, like the examples given below."
 msgstr ""
+"Мультимедійні технології GNOME застосовуються у багатьох проєктах із"
+" відкритим кодом. Деякі з прикладів наведено нижче."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:98
@@ -1896,6 +1986,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME networking technologies "
 "in open source projects, like the examples given below."
 msgstr ""
+"Мережеві технології GNOME застосовуються у багатьох проєктах із відкритим"
+" кодом. Деякі з прикладів наведено нижче."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:82
@@ -1903,6 +1995,8 @@ msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses libsoup to "
 "access HTTP services."
 msgstr ""
+"<em style=\"strong\">Тенета</em> — браузер GNOME, у якому для доступу до"
+" служб HTTP використовується libsoup."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:84
