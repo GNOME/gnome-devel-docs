@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-13 19:25+0300\n"
+"PO-Revision-Date: 2020-09-15 20:02+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -1421,6 +1421,16 @@ msgid ""
 "html\">GStreamer licensing information</link> of interest, as GStreamer uses "
 "plugins."
 msgstr ""
+"GNOME не може надати вам юридичних порад щодо вибору умов ліцензування, але"
+" ви можете ознайомитися із відомостями, які надаються <link href=\"http://"
+"opensource.org/licenses\">Ініціативою з відкритості коду</link>, <link href="
+"\"http://www.gnu.org/licenses/license-recommendations.html\">FSF</link> та <"
+"link href=\"https://blogs.gnome.org/bolsh/2014/04/17/choosing-a-license/"
+"\">дописом Дейва Нірі щодо вибору умов ліцензування</link>. Вас також може"
+" зацікавити <link href=\"http://gstreamer.freedesktop.org/documentation/licens"
+"ing."
+"html\">інформація щодо ліцензування GStreamer</link>, оскільки GStreamer"
+" використовує додатки."
 
 #. (itstool) path: info/title
 #: C/overview-communication.page:15
@@ -1476,6 +1486,13 @@ msgid ""
 "instant messaging and email protocols. For more specialised communication "
 "needs, there's access to the nuts and bolts through lower level APIs too."
 msgstr ""
+"Надайте вашим користувачам змогу зв'язуватися і спілкуватися із їхніми"
+" друзями та контактами за допомогою обміну миттєвими повідомленнями,"
+" соціальних мереж та електронної пошти. Широкий стос бібліотек для"
+" спілкування GNOME надає у ваше розпорядження високорівневий абстрактний"
+" доступ до складних протоколів миттєвого обміну повідомленнями та електронної"
+" пошти. Для спеціалізованіших потреб у спілкування передбачено також і доступ"
+" до основ за допомогою низькорівневих програмних інтерфейсів."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -1510,6 +1527,14 @@ msgid ""
 "into GNOME. Applications can tie into this service to communicate with "
 "contacts."
 msgstr ""
+"Для <em style=\"strong\">встановлення з'єднання зі службами миттєвого обміну"
+" повідомленнями</em> скористайтеся <em style=\"strong\">Telepathy</em>. Ця"
+" програма надає потужні бібліотеки для взаємодії із контактами миттєвого"
+" обміну повідомленнями користувача, у ній реалізовано широкий діапазон для"
+" протоколів обміну повідомленнями. За допомогою Telepathy усі облікові записи"
+" і з'єднання обробляються службою сеансів D-Bus, яку тісно інтегровано із"
+" GNOME. Програми можуть прив'язуватися до цієї служби для того, щоб"
+" обмінюватися даним з контактами."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:50
@@ -1520,6 +1545,12 @@ msgid ""
 "\">tunnel an arbitrary protocol</em> over modern instant messaging protocols "
 "like Jabber to create interactive applications."
 msgstr ""
+"Створюйте ігри із декількома гравцями або редактори для спільного"
+" редагування, які інтегруються із загальними службами миттєвого обміну"
+" повідомленнями. За допомогою програмного інтерфейсу <em style=\"strong\""
+" xref=\"tech-telepathy\">Telepathy Tubes</em> ви можете <em style=\"strong\""
+">тунелювати довільний протокол</em> крізь сучасні протоколи миттєвого обміну"
+" повідомленнями, подібні до Jabber, для створення інтерактивних програм."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:56
@@ -1531,6 +1562,13 @@ msgid ""
 "the mDNS/DNS-SD protocol suite. It's compatible with similar technology "
 "found in MacOS X and Windows."
 msgstr ""
+"Надайте користувачам змогу переглядати список тих, із ким вони можуть"
+" спілкуватися, знаходити принтери, спільні файли та спільні збірки музичних"
+" творів, щойно буде встановлено з'єднання з мережею. Програмний інтерфейс <em"
+" style=\"strong\" xref=\"tech-avahi\">Avahi</em> забезпечує <em"
+" style=\"strong\">виявлення служб</em> у локальній мережі за допомогою"
+" комплексу протоколів mDNS/DNS-SD. Він сумісний із подібною технологією, яка"
+" використовується у MacOS X та Windows."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:61
@@ -1539,6 +1577,10 @@ msgid ""
 "\"strong\" xref=\"tech-eds\">Evolution Data Server</em> (EDS). It provides a "
 "way of storing account information and interacting with..."
 msgstr ""
+"Обробляйте локальні та мережеві адресні книги користувачів та календарі за"
+" допомогою <em style=\"strong\" xref=\"tech-eds\">сервера даних Evolution</em"
+"> (EDS). Сервер надає спосіб зберігання відомостей щодо облікових записів та"
+" спосіб роботи з ними…"
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:64
@@ -1601,6 +1643,9 @@ msgid ""
 "collection was able to add multi-player gaming support through the Jabber "
 "protocol."
 msgstr ""
+"Використовуючи підтримку Telepathy Tubes, у збірці <em style=\"strong\">ігор"
+" GNOME</em> реалізовано підтримку ігор із декількома гравцями за допомогою"
+" протоколу Jabber."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:96
@@ -1672,6 +1717,11 @@ msgid ""
 "asynchronous IO operations. Allow users to find files easily by providing "
 "metadata to describe documents."
 msgstr ""
+"Реалізуйте безшовний доступ до локальних і віддалених файлів за допомогою"
+" базових бібліотек введення-виведення GNOME. Зробіть так, щоб ваша програма"
+" реагувала миттєво, скориставшись широкою підтримкою асинхронних дій з"
+" введення-виведення. Надайте користувачам змогу без проблем шукати файли на"
+" основі метаданих, які описують документи."
 
 #. (itstool) path: section/p
 #: C/overview-io.page:44
@@ -1681,6 +1731,11 @@ msgid ""
 "level VFS (virtual filesystem) API is provided, as well as utilities such as "
 "icons and application launching"
 msgstr ""
+"Для <em style=\"strong\">асинхронного читання та запису файлів та інших"
+" потоків даних</em> скористайтеся <em style=\"strong\" xref=\"tech-gio\">GIO<"
+"/em>. У вашому розпорядженні будуть високорівневий програмний інтерфейс до"
+" віртуальних файлових систем, а також допоміжні програми, зокрема для роботи"
+" з піктограмами та запуску програм."
 
 #. (itstool) path: section/p
 #: C/overview-io.page:49
@@ -1794,6 +1849,11 @@ msgid ""
 "or remotely over the network. The underlying low-level API is available if "
 "you need more control."
 msgstr ""
+"Додайте до вашої програми мультимедійні можливості, щоб користувачі могли без"
+" проблем відтворювати відео та звукові дані. Реалізуйте можливості споживання"
+" та оприлюднення даних для інших пристроїв, які долучено до системи"
+" безпосередньо або за допомогою мережі. Якщо вам потрібні додаткові"
+" інструменти керування, доступним є низькорівневий програмний інтерфейс."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -1822,6 +1882,11 @@ msgid ""
 "With GStreamer, flexible <em>pipelines</em> of media can be created, from "
 "simple playback of audio and video to complex non-linear editing."
 msgstr ""
+"<em style=\"strong\">Мультимедійні можливості</em> у GNOME побудовано на"
+" основі бібліотек <em style=\"strong\"><link xref=\"tech-gstreamer\""
+">GStreamer</link></em>. З використанням GStreamer можна створювати гнучкі <em"
+">конвеєри</em> обробки мультимедійних даних, від простого відтворення звуку і"
+" відео до складного нелінійного редагування."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:52
@@ -1831,6 +1896,11 @@ msgid ""
 "many types of output hardware. PulseAudio also handles dynamic output "
 "switching and application-specific volume control."
 msgstr ""
+"Для виведення звукових даних GStreamer використовує <em style=\"strong\"><"
+"link xref=\"tech-pulseaudio"
+"\">PulseAudio</link></em>, тому його бібліотеки можна використовувати для"
+" широкого діапазону типів апаратури. Крім того, PulseAudio обробляє динамічне"
+" перемикання контексту та керування гучністю на рівні програм."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:63
@@ -1839,6 +1909,10 @@ msgid ""
 "It provides a simple interface to webcams connected to the system, and an "
 "easy way to add an avatar chooser to your application."
 msgstr ""
+"Для роботи з <em style=\"strong\">вебкамерами</em> скористайтеся <em"
+" style=\"strong\">Cheese</em>. Ця програма має простий інтерфейс до вебкамер,"
+" які з'єднано із системою і є простим способом додавання засобу вибору"
+" аватара для вашої програми."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:68
@@ -1849,6 +1923,13 @@ msgid ""
 "which is a low-level API to access content with <em style=\"strong\">UPnP</"
 "em> protocols."
 msgstr ""
+"Скористайтеся <em style=\"strong\">Rygel</em> для <em style=\"strong\""
+">оприлюднення даних у мережі</em> на пристроях, подібних до телевізорів та"
+" ігрових консолей. Rygel на базовому рівні використовує <em style=\"strong\""
+"><link xref=\"tech-gupnp\">GUPnP</link></em> — низькорівневий програмний"
+" інтерфейс для доступу до даних за допомогою протоколів <em style=\"strong\""
+">UPnP</"
+"em>."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:74
@@ -1858,6 +1939,11 @@ msgid ""
 "\">libcanberra</link></em>, which implements the freedesktop.org sound theme "
 "specification."
 msgstr ""
+"Для простого <em style=\"strong\">звукового супроводу подій</em>, зокрема"
+" звуку затвору під час створення фотографій, скористайтеся <em"
+" style=\"strong\"><link xref=\"tech-canberra"
+"\">libcanberra</link></em>, у якій реалізовано специфікацію звукових тем"
+" freedesktop.org."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:94
@@ -1913,6 +1999,9 @@ msgid ""
 "Client and server HTTP communication, portable socket-based networking IO, "
 "and network device management."
 msgstr ""
+"Обмін даними HTTP між клієнтом і сервером, придатні до портування засоби для"
+" обробки вхідних і вихідних даних у мережі на основі сокетів та керування"
+" пристроями для роботи у мережі."
 
 #. (itstool) path: page/title
 #: C/overview-net.page:20
@@ -1952,6 +2041,12 @@ msgid ""
 "in progress. Detect changes in the system networking state, to make your "
 "application respond appropriately when there is no Internet access."
 msgstr ""
+"Скористайтеся перевагами портативних програмних інтерфейсів мережі для"
+" доступу до служб мережі. Асинхронний підхід до введення-виведення надаватиме"
+" можливість користуватися графічним інтерфейсом вашої програми, доки"
+" виконуються дії із введення та виведення даних. Виявляйте зміни у стані"
+" мережі системи, щоб ваша програма належним чином відповідала на виклики,"
+" коли немає доступу до інтернету."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:48
@@ -1962,6 +2057,12 @@ msgid ""
 "DNS records</em> as well as using <em style=\"strong\">secure sockets (TLS)</"
 "em>."
 msgstr ""
+"Для <em style=\"strong\">асинхронного доступу до низькорівневих програмних"
+" інтерфейсів</em> скористайтеся <em style=\"strong\""
+" xref=\"tech-gio-network\">мережевим GIO</em>. Для <em style=\"strong\""
+">роботи з проксі та записами DNS</em> доступний високорівневий інтерфейс,"
+" також реалізовано використання <em style=\"strong\">безпечних сокетів (TLS)</"
+"em>."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:54
@@ -1971,6 +2072,10 @@ msgid ""
 "style=\"strong\">comprehensive support for networking devices</em> and "
 "network topologies."
 msgstr ""
+"У GIO є доступним просте спостереження за станом мережі, а <em"
+" style=\"strong\" xref=\"tech-network-manager\">NetworkManager</em> надає"
+" можливості з <em style=\"strong\">повноцінної підтримки пристроїв мережі</em"
+"> та топології мережі."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:59
@@ -1979,6 +2084,10 @@ msgid ""
 "interface for <em style=\"strong\">HTTP servers and clients</em>. Both "
 "synchronous and asynchronous APIs are provided."
 msgstr ""
+"<em style=\"strong\" xref=\"tech-soup\">Libsoup</em> забезпечує роботу"
+" гнучкого інтерфейсу до <em style=\"strong\">серверів і клієнтів HTTP</em>."
+" Надається доступ як до синхронних, так і до асинхронних програмних"
+" інтерфейсів."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:78
@@ -2018,6 +2127,10 @@ msgid ""
 "which uses NetworkManager for the network status menu, including managing "
 "wired, wireless, 3G modem and VPN networking systems."
 msgstr ""
+"<em style=\"strong\">GNOME Shell</em> — видиме для користувача стільничне"
+" середовище GNOME, яке використовує NetworkManager для меню стану мережі,"
+" включно з керування дротовими, бездротовими мережами, 3G модемами та"
+" мережевими системами VPN."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:90
@@ -2069,6 +2182,11 @@ msgid ""
 "Store a wide variety of data, such as integers and arrays of strings, with "
 "ease."
 msgstr ""
+"Зберігайте вказані користувачами параметри та реалізуйте автоматичну"
+" відповідь на їхню зміну у ваших програмах за допомогою GSettings. Без"
+" проблем перевизначайте типові значення параметрів як адміністратор системи."
+" Без проблем зберігайте дані у широкому діапазоні форматів, зокрема у форматі"
+" цілих чисел, масивів рядків тощо."
 
 #. (itstool) path: section/p
 #: C/overview-settings.page:43
@@ -2080,6 +2198,14 @@ msgid ""
 "Make <em style=\"strong\">UI controls update according to settings</em> with "
 "a single function."
 msgstr ""
+"Скористайтеся програмним інтерфейсом <em style=\"strong\""
+" xref=\"tech-gsettings\">GSettings</em> для GIO для читання і запису <em"
+" style=\"strong\">параметрів програм</em>. "
+"GSettings <em style=\"strong\">прозоро використовує базу даних налаштувань"
+" платформи</em>, отже, можна користуватися специфічними для платформи"
+" засобами налаштовування. Зробіть так, щоб <em style=\"strong\">елементи"
+" керування інтерфейсу користувача оновлювалися відповідно до параметрів</em>"
+" за допомогою єдиної функції."
 
 #. (itstool) path: section/p
 #: C/overview-settings.page:65
@@ -2165,6 +2291,12 @@ msgid ""
 "accessible by default, and it is easy to add accessibility support to any "
 "custom UI elements that you create."
 msgstr ""
+"Скористайтеся потужними основами платформи GNOME для створення однорідних і"
+" гнучких інтерфейсів. Зробіть так, щоб ваші програми були доступними"
+" якнайширшій аудиторії, розгорнувши їх на інших платформах. Стандартні"
+" елементи інтерфейсу користувача є типово доступними. Ви також можете доволі"
+" просто додати підтримку доступності до будь-яких створених вами нетипових"
+" елементів інтерфейсу користувача."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:49
@@ -2175,6 +2307,13 @@ msgid ""
 "use it to be consistent, and to access the many widgets and features such as "
 "printing support and CSS theming."
 msgstr ""
+"Для програм із <em style=\"strong\">стандартними елементами керування</em>,"
+" які будуть звичними для більшості користувачів, скористайтеся <em"
+" style=\"strong\"><link xref=\"tech-gtk\">GTK</link></em>. Будь-яка програма,"
+" яка є частиною GNOME, використовує GTK, тому вам слід використовувати саме"
+" цей набір бібліотек для того, щоб ваша програма була схожою на інші і мала"
+" доступ до багатьох віджетів, можливостей, зокрема підтримки друку, та тем у"
+" форматі CSS."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
@@ -2183,6 +2322,10 @@ msgid ""
 "with <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, "
 "and it also supports touch input and gestures."
 msgstr ""
+"Створювати <em style=\"strong\">анімації, ефекти та красиві компонування</em>"
+" дуже просто, якщо користуватися <em style=\"strong\"><link"
+" xref=\"tech-clutter\">Clutter</link></em>. Крім того, у цій бібліотеці"
+" передбачено підтримку сенсорного введення та жестів."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:60
@@ -2192,6 +2335,11 @@ msgid ""
 "\">Cairo</link></em>. Cairo is used for drawing widgets in GTK, and can also "
 "be used to output to PDF and SVG."
 msgstr ""
+"<em style=\"strong\">Високоякісна, згладжена та незалежна від роздільної"
+" здатності плоска графіка</em> забезпечується бібліотекою <em"
+" style=\"strong\"><link xref=\"tech-cairo"
+"\">Cairo</link></em>. Cairo використовується для малювання віджетів у GTK. Її"
+" також можна використати для виведення даних у форматах PDF та SVG."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:66
@@ -2201,6 +2349,10 @@ msgid ""
 "application, whether that is rendering an HTML file or having a complete "
 "HTML5 UI."
 msgstr ""
+"<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK</link></em> спрощує"
+" додавання <em style=\"strong\">вебможливостей</em> до вашої програми — від"
+" показу вмісту файла HTML до забезпечення роботи повноцінного інтерфейсу"
+" користувача у HTML5."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:71
@@ -2217,6 +2369,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open "
 "source projects, like the examples given below."
 msgstr ""
+"Технології інтерфейсу користувача GNOME застосовуються у багатьох"
+" проєктах із відкритим кодом. Деякі з прикладів наведено нижче."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:96
@@ -2224,6 +2378,8 @@ msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK and "
 "WebKitGTK, and is fully accessible."
 msgstr ""
+"<em style=\"strong\">Тенета</em> — браузер GNOME, у якому використано GTK і"
+" WebKitGTK. У цьому браузері повністю реалізовано можливості доступності."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:98
