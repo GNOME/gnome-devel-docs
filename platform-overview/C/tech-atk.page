@@ -48,7 +48,7 @@ use a standard "get the text contents" interface in ATK for all widgets with
 textual information.</p>
 
 <p>Nonetheless, you should be aware of accessibility issues when
-when developing your applications.  Although GTK interfaces provide
+developing your applications.  Although GTK interfaces provide
 reasonable accessibility by default, you can often improve how well
 your program behaves with accessibility tools by providing additional
 information to ATK.  If you develop custom widgets, you should ensure
