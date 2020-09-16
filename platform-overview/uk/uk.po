@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-15 20:02+0300\n"
+"PO-Revision-Date: 2020-09-16 20:10+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -2362,6 +2362,11 @@ msgid ""
 "\">ATK</link></em>. Use Orca, Caribou OSK, and the GTK built-in "
 "accessibility tools, or build custom tools on top of ATK."
 msgstr ""
+"У GTK, Clutter і WebKitGTK є <em style=\"strong\">вбудована підтримка"
+" допоміжних технологій</em> на основі <em style=\"strong\"><link"
+" xref=\"tech-atk"
+"\">ATK</link></em>. Скористайтеся Orca, Caribou OSK та вбудованими засобами"
+" доступності GTK або побудуйте нетипові інструменти на основі ATK."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:92
@@ -2396,6 +2401,9 @@ msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for "
 "C# and other .NET languages. It works on Linux, Mac OS X and Windows"
 msgstr ""
+"<em style=\"strong\">MonoDevelop</em> — багатоплаформове комплексне"
+" середовище розробки, яке створено для роботи із мовою програмування C# та"
+" іншими мовами .NET. Воно працює у Linux, Mac OS X та Windows."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:104
@@ -2404,6 +2412,9 @@ msgid ""
 "\"https://www.monodevelop.com/screenshots/\">Screenshots</link> | <link href="
 "\"https://github.com/mono/monodevelop\">Source code</link> )"
 msgstr ""
+"( <link href=\"https://www.monodevelop.com/\">Сайт</link> | <link href="
+"\"https://www.monodevelop.com/screenshots/\">Знімки вікон</link> | <link href="
+"\"https://github.com/mono/monodevelop\">Початковий код</link>)"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:107
@@ -2411,6 +2422,8 @@ msgid ""
 "<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses "
 "Clutter to display video content."
 msgstr ""
+"<em style=\"strong\">Відео</em> — мультимедійний програвач GNOME, у якому"
+" використано Clutter для показу відеоданих."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:108
@@ -2418,6 +2431,8 @@ msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
 "href=\"https://gitlab.gnome.org/GNOME/totem/\">Source code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Apps/Videos\">Сайт</link> | <link "
+"href=\"https://gitlab.gnome.org/GNOME/totem/\">Початковий код</link>)"
 
 #. (itstool) path: credit/years
 #: C/tech-atk.page:14 C/tech-cairo.page:13 C/tech-clutter.page:13
@@ -2425,18 +2440,20 @@ msgstr ""
 #: C/tech-gstreamer.page:13 C/tech-gtk.page:13 C/tech-help.page:13
 #: C/tech-packagekit.page:12 C/tech-pango.page:13 C/tech-telepathy.page:13
 msgid "2011–2012"
-msgstr ""
+msgstr "2011–2012"
 
 #. (itstool) path: info/desc
 #: C/tech-atk.page:19
 msgid ""
 "Accessibility toolkit to implement support for screen readers and other tools"
 msgstr ""
+"Набір інструментів доступності для реалізації підтримки засобів читання з"
+" екрана та інших інструментів"
 
 #. (itstool) path: page/title
 #: C/tech-atk.page:23
 msgid "ATK"
-msgstr ""
+msgstr "ATK"
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:25
@@ -2448,6 +2465,13 @@ msgid ""
 "disability, and making your application accessible will allow more people to "
 "use it effectively, even if they are not disabled."
 msgstr ""
+"Доступність — процедура забезпечення можливості користування вашою програмою"
+" людям із різними обмеженнями можливостей. Обмежені можливості можуть"
+" проявлятися у багатьох формах: вади зору, проблеми із руховою активністю,"
+" проблеми зі слухом, когнітивні та мовні вади та епілепсія. У багатьох людей"
+" є вади певного рівня, тому реалізація доступності у програмах надасть змогу"
+" користуватися нею ширшому колу людей, навіть якщо у них немає жодної"
+" офіційної інвалідності."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:32
@@ -2460,6 +2484,14 @@ msgid ""
 "platform, so any application using GTK will have reasonable accessibility "
 "support for free."
 msgstr ""
+"У GNOME передбачено підтримку пристроїв доступності на основі використання"
+" бібліотек ATK (абревіатура від Accessibility Tool Kit — «набір інструментів"
+" доступності»). Ці бібліотеки визначають набір інтерфейсів, з якими"
+" з'єднується компоненти графічного інтерфейсу. Це надає, зокрема, змогу"
+" засобам читання з екрана читати текст інтерфейсу та взаємодіяти із його"
+" елементами керування. Підтримку ATK вбудовано до GTK та решти платформи"
+" GNOME, отже будь-які програми, які використовують GTK, матимуть належний"
+" рівень доступності без додаткових зусиль з боку програмістів."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:40
@@ -2474,6 +2506,16 @@ msgid ""
 "display will both use a standard \"get the text contents\" interface in ATK "
 "for all widgets with textual information."
 msgstr ""
+"ATK вирішує проблему з'єднання багатьох різних типів віджетів (віджетів для"
+" введення тексту, текстових областей, кнопок, меню) із різними типами"
+" технологій доступності (засобами читання з екрана, дисплеями Брайля,"
+" пристроями керування диханням). Замість написання N×M інтерфейсів з кожного"
+" з віджетів до кожного з пристроїв доступності, достатньо надати доступ до"
+" віджета крізь інтерфейси ATK. З іншого боку, пристрої доступності"
+" використовуватимуть ці інтерфейси для опитування віджетів доступності."
+" Наприклад, засіб читання з екрана та дисплей Брайля обидва"
+" використовуватимуть стандартний інтерфейс «отримати текстові дані» в ATK для"
+" усіх віджетів із текстовими даними."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:50
@@ -2488,6 +2530,15 @@ msgid ""
 "providing this information instead of relying on the user being able to "
 "perceive a particular medium."
 msgstr ""
+"Щоб там не було, вам слід зважати на проблеми доступності при розробці вашої"
+" програми. Хоча інтерфейси GTK типово забезпечують пристойну доступність, ви"
+" часто можете удосконалити поведінку програми з точки зору доступності,"
+" надавши ATK додаткові відомості. Якщо ви розробляєте нетипові віджети, вам"
+" слід забезпечити розкриття їхніх властивостей для ATK. Вам слід також"
+" уникати використання звуку, графіки або кольорів як єдиного джерела надання"
+" даних користувачеві; слід передбачити надання інформації у декілька"
+" способів, а не покладатися на те, що користувач зможе отримувати від"
+" комп'ютера відгук лише у якийсь один спосіб."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:60
@@ -2499,6 +2550,13 @@ msgid ""
 "magnifier, an on-screen keyboard, and <app>Dasher</app>, an innovative "
 "predictive text entry tool."
 msgstr ""
+"Разом зі стільничним середовищем GNOME постачається декілька засобів"
+" забезпечення доступності, які надають змогу користувачам із вадами повністю"
+" скористатися їхнім стільничним середовищем та програмами. Програми, у яких"
+" повністю реалізовано ATK зможуть працювати із засобами забезпечення"
+" доступності. Це стосується засобу читання з екрана, екранного"
+" збільшувального скла, екранної клавіатури та <app>Dasher</app>,"
+" інноваційного засобу передбачення введення тексту."
 
 #. (itstool) path: item/p
 #: C/tech-atk.page:68
@@ -2506,12 +2564,15 @@ msgid ""
 "<link href=\"http://developer.gnome.org/accessibility-devel-guide/\">GNOME "
 "Accessibility for Developers</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/accessibility-devel-guide/\""
+">Доступність у GNOME для розробників</link>"
 
 #. (itstool) path: item/p
 #: C/tech-atk.page:69
 msgid ""
 "<link href=\"https://developer.gnome.org/atk/stable/\">ATK Reference</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/atk/stable/\">Довідник з ATK</link>"
 
 #. (itstool) path: credit/name
 #: C/tech-avahi.page:10 C/tech-canberra.page:11 C/tech-champlain.page:10
@@ -2522,17 +2583,17 @@ msgstr ""
 #: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-spell-checking.page:10
 #: C/tech-telepathy.page:16 C/tech-tracker.page:10 C/tech-webkit.page:16
 msgid "Federico Mena Quintero"
-msgstr ""
+msgstr "Federico Mena Quintero"
 
 #. (itstool) path: info/desc
 #: C/tech-avahi.page:17
 msgid "Zeroconf service discovery on local networks"
-msgstr ""
+msgstr "Виявлення служб Zeroconf у локальних мережах"
 
 #. (itstool) path: page/title
 #: C/tech-avahi.page:20
 msgid "Avahi"
-msgstr ""
+msgstr "Avahi"
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:22
@@ -2544,6 +2605,14 @@ msgid ""
 "for example, a chat program that \"finds\" other chat users in a LAN without "
 "having to set up a central chat server first."
 msgstr ""
+"У Avahi реалізовано схему роботи у мережі <link"
+" href=\"http://www.zeroconf.org/\">Zeroconf</link>. Вона надає програмам"
+" змогу виявляти служби, зокрема принтери, у локальних мережах без"
+" попереднього налаштовування. Також вона уможливлює встановлення без"
+" налаштовування служб, які будуть доступними у локальній мережі; наприклад,"
+" програми для спілкування, яка «знаходитиме» інших користувачів служби"
+" спілкування у локальній мережі без початкового встановлення централізованого"
+" сервера спілкування."
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:29
@@ -2572,11 +2641,13 @@ msgid ""
 "<link href=\"http://avahi.org/wiki/ProgrammingDocs\">Avahi reference "
 "documentation</link>"
 msgstr ""
+"<link href=\"http://avahi.org/wiki/ProgrammingDocs\">Довідкова документація"
+" до Avahi</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-cairo.page:18
 msgid "2D, vector-based drawing for high-quality graphics"
-msgstr ""
+msgstr "Двовимірне малювання на основі векторів для високоякісної графіки"
 
 #. (itstool) path: page/title
 #: C/tech-cairo.page:21
@@ -2629,12 +2700,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/tech-cairo.page:49
 msgid "<link href=\"http://www.cairographics.org\">The Cairo web site</link>"
-msgstr ""
+msgstr "<link href=\"http://www.cairographics.org\">Сайт Cairo</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-canberra.page:18
 msgid "Simple audio API for notifications and events"
-msgstr ""
+msgstr "Простий звуковий програмний інтерфейс для сповіщень та подій"
 
 #. (itstool) path: page/title
 #: C/tech-canberra.page:21
@@ -2657,16 +2728,18 @@ msgid ""
 "<link href=\"https://developer.gnome.org/libcanberra/unstable/\">Canberra "
 "Reference</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/libcanberra/unstable/\">Довідка з"
+" Canberra</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-champlain.page:17
 msgid "Map rendering"
-msgstr ""
+msgstr "Показ мап"
 
 #. (itstool) path: page/title
 #: C/tech-champlain.page:20
 msgid "Champlain"
-msgstr ""
+msgstr "Champlain"
 
 #. (itstool) path: page/p
 #: C/tech-champlain.page:22
@@ -2675,6 +2748,9 @@ msgid ""
 "obtained from various source, including <link href=\"http://www."
 "openstreetmap.org/\">Open Street Map</link>."
 msgstr ""
+"Champlain — бібліотека, яка забезпечує роботу віджетів для показу мап. Мапи"
+" може бути отримано з різних джерел, зокрема з <link href=\"http://www."
+"openstreetmap.org/\">Open Street Map</link>."
 
 #. (itstool) path: note/p
 #: C/tech-champlain.page:27
@@ -2691,16 +2767,18 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/libchamplain\">Champlain home "
 "page</link>"
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/libchamplain\">Домашня сторінка"
+" Champlain</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-clutter.page:18
 msgid "Animations and scene graph"
-msgstr ""
+msgstr "Анімація та сценічна графіка"
 
 #. (itstool) path: page/title
 #: C/tech-clutter.page:21
 msgid "Clutter"
-msgstr ""
+msgstr "Clutter"
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:23
@@ -2764,6 +2842,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/clutter-cookbook/stable/\">The "
 "Clutter Cookbook</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/clutter-cookbook/stable/\">Кухарська"
+" книга з Clutter</link>"
 
 #. (itstool) path: item/p
 #: C/tech-clutter.page:59
@@ -2778,12 +2858,14 @@ msgstr ""
 #: C/tech-clutter.page:60
 msgid ""
 "<link href=\"http://www.clutter-project.org\">The Clutter web site</link>"
-msgstr ""
+msgstr "<link href=\"http://www.clutter-project.org\">Сайт Clutter</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-d-bus.page:18
 msgid "Inter-process communication bus to provide APIs to other processes"
 msgstr ""
+"Канал обміну даними між процесами для надання програмного інтерфейсу для"
+" інших процесів"
 
 #. (itstool) path: page/title
 #: C/tech-d-bus.page:22
@@ -2846,6 +2928,9 @@ msgid ""
 "GNOME provides full support for D-Bus using the GDBus APIs in <link xref="
 "\"tech-gio\">GIO</link>."
 msgstr ""
+"У GNOME реалізовано повну підтримку D-Bus на основі програмних інтерфейсів"
+" GDBus у <link xref="
+"\"tech-gio\">GIO</link>."
 
 #. (itstool) path: item/p
 #: C/tech-d-bus.page:58 C/tech-gio-network.page:31
@@ -2862,6 +2947,8 @@ msgid ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-tutorial.html\">D-Bus "
 "Tutorial</link>"
 msgstr ""
+"<link href=\"http://dbus.freedesktop.org/doc/dbus-tutorial.html\">Настанови"
+" щодо D-Bus</link>"
 
 #. (itstool) path: item/p
 #: C/tech-d-bus.page:60
@@ -2869,11 +2956,13 @@ msgid ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-specification.html\">D-Bus "
 "Specification</link>"
 msgstr ""
+"<link href=\"http://dbus.freedesktop.org/doc/dbus-specification.html\""
+">Специфікація D-Bus</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-eds.page:18
 msgid "Desktop-wide address book for contacts and calendar"
-msgstr ""
+msgstr "Загальна адресна книга середовища для записів контактів та календаря"
 
 #. (itstool) path: page/title
 #: C/tech-eds.page:21
@@ -2918,6 +3007,8 @@ msgid ""
 "<link href=\"http://developer.gnome.org/libebook/stable/\">Evolution API "
 "Reference: libebook</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/libebook/stable/\">Довідник із"
+" програмного інтерфейсу Evolution: libebook</link>"
 
 #. (itstool) path: item/p
 #: C/tech-eds.page:45
@@ -2925,16 +3016,19 @@ msgid ""
 "<link href=\"http://developer.gnome.org/libecal/stable/\">Evolution API "
 "Reference: libecal</link>"
 msgstr ""
+"<link href=\"http://developer.gnome.org/libecal/stable/\">Довідник із"
+" програмного інтерфейсу Evolution: libecal</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-folks.page:17
 msgid "Aggregate contacts from multiple local and online sources"
 msgstr ""
+"Збирання записів контактів з декількох локальних джерел та джерел у мережі"
 
 #. (itstool) path: page/title
 #: C/tech-folks.page:20
 msgid "Folks"
-msgstr ""
+msgstr "Folks"
 
 #. (itstool) path: page/p
 #: C/tech-folks.page:22
@@ -2965,16 +3059,19 @@ msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/Folks\">Libfolks home page</"
 "link>"
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/Folks\">Домашня сторінка"
+" libfolks</"
+"link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gda.page:18
 msgid "Unified access to relational databases"
-msgstr ""
+msgstr "Уніфікований доступ до реляційних баз даних"
 
 #. (itstool) path: page/title
 #: C/tech-gda.page:21
 msgid "GNOME Data Access"
-msgstr ""
+msgstr "Доступ до даних у GNOME"
 
 #. (itstool) path: page/p
 #: C/tech-gda.page:23
@@ -2998,16 +3095,18 @@ msgid ""
 "<link href=\"https://developer.gnome.org/libgda/stable/\">GNOME Data Access "
 "Manual</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/libgda/stable/\">Підручник з доступу"
+" до даних у GNOME</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gda.page:34
 msgid "<link href=\"http://www.gnome-db.org/\">GDA Home Page</link>"
-msgstr ""
+msgstr "<link href=\"http://www.gnome-db.org/\">Домашня сторінка GDA</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gdk.page:18
 msgid "Low-level abstraction for the windowing system"
-msgstr ""
+msgstr "Низькорівнева абстракція для систем керування вікнами"
 
 #. (itstool) path: page/title
 #: C/tech-gdk.page:21
@@ -3082,12 +3181,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-geoclue2.page:17
 msgid "Geolocation - finding the user's geographical location"
-msgstr ""
+msgstr "Геопозиціювання — пошук географічного розташування користувача"
 
 #. (itstool) path: page/title
 #: C/tech-geoclue2.page:20
 msgid "Geoclue2"
-msgstr ""
+msgstr "Geoclue2"
 
 #. (itstool) path: page/p
 #: C/tech-geoclue2.page:22
@@ -3123,7 +3222,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/tech-geocode-glib.page:21
 msgid "Geocode-glib"
-msgstr ""
+msgstr "Geocode-glib"
 
 #. (itstool) path: page/p
 #: C/tech-geocode-glib.page:23
@@ -3147,11 +3246,15 @@ msgid ""
 "<link href=\"https://developer.gnome.org/geocode-glib/unstable/index.html"
 "\">Geocode-glib reference documentation</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/geocode-glib/unstable/index.html"
+"\">Довідкова документація з geocode-glib</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gio-network.page:18
 msgid "Networking and sockets API with streams"
 msgstr ""
+"Програмний інтерфейс для роботи із мережею і сокетами з реалізацією потоків"
+" даних"
 
 #. (itstool) path: page/title
 #: C/tech-gio-network.page:21
@@ -3175,6 +3278,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/networking.html"
 "\">Lowlevel network support</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gio/stable/networking.html"
+"\">Низькорівнева підтримка мережі</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gio-network.page:33
@@ -3182,16 +3287,19 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/highlevel-socket.html"
 "\">Highlevel network functionality</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gio/stable/highlevel-socket.html"
+"\">Високорівневі функціональні можливості мережі</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gio.page:23
 msgid "File and URI handling, asynchronous file operations, volume handling"
 msgstr ""
+"Робота із файлами і адресами, асинхронна обробка файлів, робота із томами"
 
 #. (itstool) path: page/title
 #: C/tech-gio.page:27
 msgid "GIO Files"
-msgstr ""
+msgstr "Файли GIO"
 
 #. (itstool) path: page/p
 #: C/tech-gio.page:29
@@ -3233,12 +3341,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-glib.page:17
 msgid "Data structures and utilities for C programs"
-msgstr ""
+msgstr "Структури даних та допоміжні засоби для програм C"
 
 #. (itstool) path: page/title
 #: C/tech-glib.page:20
 msgid "GLib"
-msgstr ""
+msgstr "GLib"
 
 #. (itstool) path: page/p
 #: C/tech-glib.page:22
@@ -3273,7 +3381,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/tech-gobject.page:19
 msgid "GObject"
-msgstr ""
+msgstr "GObject"
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:21
@@ -3328,12 +3436,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-gsettings.page:18
 msgid "Configuration storage for application preferences"
-msgstr ""
+msgstr "Сховище налаштувань для значень параметрів роботи програм"
 
 #. (itstool) path: page/title
 #: C/tech-gsettings.page:21
 msgid "GSettings"
-msgstr ""
+msgstr "GSettings"
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:23
@@ -3381,7 +3489,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-gstreamer.page:18
 msgid "Playing, mixing, and manipulating sound and video"
-msgstr ""
+msgstr "Відтворення звуків та відео, мікшування та керування звуком та відео"
 
 #. (itstool) path: page/title
 #: C/tech-gstreamer.page:21
@@ -3446,6 +3554,8 @@ msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/"
 "html/index.html\">The GStreamer Application Development Manual</link>"
 msgstr ""
+"<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/"
+"html/index.html\">Підручник з розробки програм на основі GStreamer</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gstreamer.page:60
@@ -3453,6 +3563,8 @@ msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/"
 "gstreamer/html/\">The GStreamer 1.0 Core Reference Manual</link>"
 msgstr ""
+"<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/"
+"gstreamer/html/\">Підручник-довідник з основ GStreamer 1.0</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gstreamer.page:61
@@ -3460,12 +3572,14 @@ msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/documentation/\">The GStreamer "
 "documentation page</link>"
 msgstr ""
+"<link href=\"http://gstreamer.freedesktop.org/documentation/\">Сторінка"
+" документації з GStreamer</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gstreamer.page:62
 msgid ""
 "<link href=\"http://gstreamer.freedesktop.org\">The GStreamer web site</link>"
-msgstr ""
+msgstr "<link href=\"http://gstreamer.freedesktop.org\">Сайт GStreamer</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gtk.page:18
@@ -3521,7 +3635,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
 msgid "<link href=\"https://www.gtk.org/\">Official website</link>"
-msgstr ""
+msgstr "<link href=\"https://www.gtk.org/\">Офіційний сайт</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
@@ -3529,6 +3643,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\">Demo "
 "tutorial</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gnome-devel-demos/stable/\""
+">Підручник-демонстрація</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
@@ -3543,7 +3659,7 @@ msgstr ""
 #: C/tech-gtk.page:54
 msgid ""
 "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">Git repository</link>"
-msgstr ""
+msgstr "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">Сховище Git</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:55
@@ -3551,11 +3667,13 @@ msgid ""
 "<link href=\"https://discourse.gnome.org/\">Discussion about GTK and getting "
 "help</link>"
 msgstr ""
+"<link href=\"https://discourse.gnome.org/\">Обговорення GTK та місце, де вам"
+" допоможуть</link>"
 
 #. (itstool) path: credit/name
 #: C/tech-gupnp.page:11
 msgid "Zeeshan Ali (Khattak)"
-msgstr ""
+msgstr "Zeeshan Ali (Khattak)"
 
 #. (itstool) path: info/desc
 #: C/tech-gupnp.page:18
@@ -3565,7 +3683,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/tech-gupnp.page:21
 msgid "GUPnP"
-msgstr ""
+msgstr "GUPnP"
 
 #. (itstool) path: page/p
 #: C/tech-gupnp.page:23
@@ -3594,12 +3712,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/tech-gupnp.page:42
 msgid "<link href=\"http://www.gupnp.org\">GUPnP home page</link>"
-msgstr ""
+msgstr "<link href=\"http://www.gupnp.org\">Домашня сторінка GUPnP</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-help.page:18
 msgid "Topic-oriented online help system"
-msgstr ""
+msgstr "Зорієнтована на тематику система довідки"
 
 #. (itstool) path: page/title
 #: C/tech-help.page:21
@@ -4220,7 +4338,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-telepathy.page:23
 msgid "Unified instant-messaging and communications service"
-msgstr ""
+msgstr "Уніфікована служба миттєвого обміну повідомленнями та спілкування"
 
 #. (itstool) path: page/title
 #: C/tech-telepathy.page:26
