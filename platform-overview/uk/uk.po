@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-16 20:10+0300\n"
+"PO-Revision-Date: 2020-09-17 18:34+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -2622,6 +2622,10 @@ msgid ""
 "\">Multicast DNS</link> specifications, which are part of <link href="
 "\"http://www.zeroconf.org/\">Zeroconf</link> Networking."
 msgstr ""
+"Avahi — реалізація специфікацій <link href=\"http://www.dns-sd.org/\""
+">виявлення служб DNS</link> і <link href=\"http://www.multicastdns.org/\""
+">універсальної трансляції DNS</link>, які є частиною схеми роботи у мережі за"
+" допомогою <link href=\"http://www.zeroconf.org/\">Zeroconf</link>."
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:35
@@ -2634,6 +2638,14 @@ msgid ""
 "audio API, uses Avahi to make it possible to route sound through local "
 "networks."
 msgstr ""
+"Avahi для виявлення служб використовують різноманітні програми у GNOME."
+" Gnome-user-share (модуль програми для керування файлами Nautilus) надає"
+" змогу користувачам локальної мережі ділитися файлами один з одним і"
+" знаходить комп'ютери, які надають файли у спільне користування за допомогою"
+" Avahi. Vino, програма для перегляду віддалених стільниць, використовує Avahi"
+" для пошуку віддалених серверів стільниць. <link xref=\"tech-pulseaudio\""
+">PulseAudio</link>, низькорівневий звуковий програмний інтерфейс GNOME,"
+" використовує Avahi для уможливлення маршрутизації звуку локальними мережами."
 
 #. (itstool) path: item/p
 #: C/tech-avahi.page:44
@@ -2663,6 +2675,13 @@ msgid ""
 "Microsoft Windows, and image buffers in memory, allowing you to write "
 "platform-independent code to draw graphics on different media."
 msgstr ""
+"Cairo — бібліотека для роботи із двовимірною графікою, у якій реалізовано"
+" продуманий програмний інтерфейс для малювання векторної графіки,"
+" компонування зображень та показу тексту зі згладжуванням. У Cairo"
+" реалізовано підтримку роботи із декількома пристроями виведення даних,"
+" зокрема системою керування вікнами X, Microsoft Windows та буферами"
+" зображень у пам'яті, уможливлюючи для вас написання незалежного від"
+" програмної платформи коду для малювання графіки на різних носіях."
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:30
@@ -2672,6 +2691,11 @@ msgid ""
 "Bézier splines, compositing images, and performing affine transformations. "
 "These vector operations allow for rich, anti-aliased graphics."
 msgstr ""
+"Модель малювання Cairo є подібною до тієї, яку реалізовано у PostScript і"
+" PDF. У програмному інтерфейсі Cairo передбачено функції для таких дій з"
+" малювання, як штрихування та заповнення кубічними сплайнами Безьє,"
+" компонування зображень та виконання афінних перетворень. За допомогою цих"
+" векторних операцій можна отримувати красиву згладжену графіку."
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:36
@@ -2680,6 +2704,10 @@ msgid ""
 "media. The same API can be used to create on-screen graphics and text, to "
 "render images, or create crisp output suitable for printing."
 msgstr ""
+"Багата на можливості модель малювання Cairo забезпечує високоякісний показ"
+" даних на різних носіях. Тим самим програмним інтерфейсом можна скористатися"
+" для створення графіки і тексту на екрані, для показу зображень або для"
+" створення чітких зображень для друку."
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:41
@@ -2690,6 +2718,11 @@ msgid ""
 "application to have high-quality, anti-aliased, and resolution-independent "
 "graphics."
 msgstr ""
+"Вам слід використовувати Cairo кожного разу, коли ви малюєте графіку у вашій"
+" програмі поза межами віджетів, які надаються у ваше розпорядження GTK. Майже"
+" усі дії з малювання у GTK виконуються із використанням Cairo. Використання"
+" Cairo для ваших нетипових креслень надасть вашій програмі змогу показувати"
+" високоякісну, згладжену та незалежну від роздільної здатності графіку."
 
 #. (itstool) path: item/p
 #: C/tech-cairo.page:48
@@ -2721,6 +2754,12 @@ msgid ""
 "accessibility features of the desktop to provide alternate notification for "
 "hearing-impaired users."
 msgstr ""
+"Canberra — проста бібліотека для відтворення звукових подій та сповіщень,"
+" зокрема при отриманні користувачем повідомлення або тоді, коли станеться"
+" помилка. Окрім забезпечення роботи зручного програмного інтерфейсу, Canberra"
+" може працювати із можливостями доступності стільничного середовища для"
+" забезпечення роботи альтернативної системи сповіщень для користувачів із"
+" вадами слуху."
 
 #. (itstool) path: item/p
 #: C/tech-canberra.page:30
@@ -2760,6 +2799,10 @@ msgid ""
 "Québec City, which had its 400th anniversary in 2008, the year this library "
 "was created."
 msgstr ""
+"libchamplain названо на честь Самюєля де Шамплена, знаменитого французького"
+" мореплавця, дослідника та картографа. Він є «батьком Нової Франції» та"
+" засновником Квебек-сіті. У 2008 році відзначено 400 років з дня його"
+" народження. Саме цього року було створено відповідну програмну бібліотеку."
 
 #. (itstool) path: item/p
 #: C/tech-champlain.page:36
@@ -2787,6 +2830,10 @@ msgid ""
 "create graphical objects out of images, and you can manipulate them later to "
 "move them, rotate them, or give them quasi-3D effects."
 msgstr ""
+"Clutter — бібліотека для створення анімацій і використання напівпросторових"
+" полотен. За її допомогою ви можете створювати графічні об'єкти із зображень"
+" та працювати з ними з метою пересування, обертання та надання їм"
+" квазіпросторового вигляду."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:28
@@ -2797,6 +2844,12 @@ msgid ""
 "desktop and mobile environments alike, without exposing the complexities of "
 "GPU pipeline programming."
 msgstr ""
+"У Clutter використано стандартні для індустрії програмні інтерфейси <link"
+" href=\"http://www.khronos.org/opengl/\">OpenGL</link> та <link"
+" href=\"http://www.khronos.org/opengles/\">OpenGL|ES</link> для доступу до"
+" апаратного прискорення показу графіки у середовищах робочих станцій та"
+" мобільних пристроїв. Бібліотека надає змогу уникнути складної роботи із"
+" конвеєрним програмуванням для графічних процесорів."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:34
@@ -2806,6 +2859,12 @@ msgid ""
 "needed, using a flexible scene graph API, with free-form placement of the "
 "scene elements (or <em>actors</em>) on the main viewport (or <em>stage</em>)."
 msgstr ""
+"Clutter не визначає жодного візуального стилю і не надає жодних складних"
+" попередньо визначених засобів керування інтерфейсом користувача — бібліотека"
+" просто забезпечує для розробника можливість визначення потрібних йому"
+" засобів за допомогою гнучкого програмного інтерфейсу сценічної графіки із"
+" довільним розташуванням елементів сцени (або <em>акторів</em>) у основній"
+" області перегляду (або <em>сцені</em>)."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:39
@@ -2816,6 +2875,13 @@ msgid ""
 "structuring a user interface using both a box-packing model like <link xref="
 "\"tech-gtk\">GTK</link>, and a series of free-form <em>constraints</em>."
 msgstr ""
+"Clutter постачається із попередньо визначеними акторами для показу суцільних"
+" кольорів, даних зображень, тексту та нетипових високоточних плоских креслень"
+" за допомогою програмного інтерфейсу <link xref=\"tech-"
+"cairo\">Cairo</link>. Крім того, у Clutter реалізовано загальні класи для"
+" структурування інтерфейсу користувача за допомогою одразу моделі пакування"
+" прямокутників, подібної до <link xref="
+"\"tech-gtk\">GTK</link>, та послідовності <em>обмежень</em> довільної форми."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:46
@@ -2825,6 +2891,11 @@ msgid ""
 "of one or more actors over time, for example their rotation in a particular "
 "dimension, scale, size, opacity, etc."
 msgstr ""
+"Clutter надає у ваше розпорядження придатну до розширення бібліотеку анімації"
+" та графічних ефектів. Анімацію прив'язано до шкали часу і зміни однієї або"
+" декількох властивостей одного або декількох акторів з часом, наприклад,"
+" їхнього обертання у певному вимірі, масштабування, розміру, непрозорості"
+" тощо."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:51
@@ -2835,6 +2906,11 @@ msgid ""
 "pipelines; Clutter-Box2D and Clutter-Bullet, for adding physics interaction "
 "in both 2D and 3D environments."
 msgstr ""
+"Декілька сторонніх бібліотек уможливлюють інтеграцію із іншими технологіями,"
+" зокрема, Clutter-GTK, для вбудовування сцени Clutter до програми на основі"
+" GTK; Clutter-GStreamer, для вбудовування конвеєрів обробки відео та звуку"
+" GStreamer; Clutter-Box2D і Clutter-Bullet, для додавання фізичної взаємодії"
+" у середовищах дво- та тривимірної графіки."
 
 #. (itstool) path: item/p
 #: C/tech-clutter.page:58
@@ -2899,6 +2975,12 @@ msgid ""
 "players can send a D-Bus message to prevent the screensaver from activating "
 "while the user is watching a movie."
 msgstr ""
+"D-Bus надає у ваше розпорядження канали обміну даними сеансу та системи."
+" Канал обміну даними сеансу використовується програмами у окремому сеансі"
+" роботи користувача і уможливлює для цих програм обмін даними та сповіщеннями"
+" щодо подій і інтеграцію у стільничне середовище користувача. Наприклад,"
+" програвачі відео можуть надсилати повідомлення D-Bus для запобігання"
+" активації зберігача екрана, доки користувач дивиться відео."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:38
@@ -2911,6 +2993,16 @@ msgid ""
 "system bus is used to monitor when network interfaces go up or down, when "
 "external drives get plugged in, and when laptop batteries are low."
 msgstr ""
+"Канал обміну даними системи є єдиним каналом обміну повідомленнями, який"
+" працює незалежно від сеансів користувача. Канал може обмінюватися даними із"
+" програмами у будь-якому сеансі, уможливлюючи взаємодію цих програм із"
+" загальносистемними компонентами без потреби у роботі із низькорівневими"
+" параметрами системи. Канал обміну даними системи використовують для"
+" забезпечення важливих функціональних можливостей, які потрібні користувачам"
+" для роботи їхніх систем. Наприклад, канал обміну даними системи"
+" використовується для спостереження за встановленням і розірванням з'єднань"
+" із мережею, реєстрації з'єднання із системою зовнішніх дисків та визначення"
+" моменту критичного розряджання акумуляторів."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:47
@@ -2921,6 +3013,13 @@ msgid ""
 "use it to create portable and versatile software that seamlessly integrates "
 "with the user's desktop, regardless of which desktop it is."
 msgstr ""
+"Розробку D-Bus виконують спільно на <link href=\"http://www.freedesktop.org/"
+"\">freedesktop.org</link>, тому ним можна скористатися у різних стільничних"
+" середовищах і у різних програмах. Оскільки D-Bus є спільним проєктом, ви"
+" можете користуватися ним для створення придатного до портування та"
+" універсального програмного забезпечення, яке без проблем інтегрується із"
+" стільничним середовищем користувача, незалежно від назви цього стільничного"
+" середовища."
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:54
@@ -2978,6 +3077,11 @@ msgid ""
 "separate lists of contacts in each application, or manually copy events to "
 "their calendar."
 msgstr ""
+"Сервер даних Evolution забезпечує GNOME єдиною адресною книгою та календарем,"
+" яким користуються усі програми для зберігання та отримання даних."
+" Використання сервера даних Evolution усуває для користувачів потребу у"
+" супроводі окремих списків контактів у кожній програмі або у копіювання"
+" записів подій до календаря вручну."
 
 #. (itstool) path: page/p
 #: C/tech-eds.page:29
@@ -2990,6 +3094,14 @@ msgid ""
 "single location, allowing all applications to see all the pertinent data "
 "about users' contacts."
 msgstr ""
+"Люди все ширше використовують комп'ютери для взаємодії із друзями та"
+" колегами. Програми, зокрема програми для обміну електронною поштою,"
+" миттєвими повідомленнями та програми для проведення телефонних та"
+" відеоконференцій використовуються для спілкування із іншими людьми. Часто у"
+" цих програмах реалізовано допоміжні списки контактів. Використання сервера"
+" даних Evolution надає програмам змогу зберігати дані контактів у єдиному"
+" сховищі, забезпечуючи програмам доступ до усіх потрібних даних щодо записів"
+" контактів користувачів."
 
 #. (itstool) path: page/p
 #: C/tech-eds.page:37
@@ -3000,6 +3112,12 @@ msgid ""
 "scheduled, they are shown alongside the calendar. This makes it easy to see "
 "upcoming appointments without opening a full calendar application."
 msgstr ""
+"Крім того, програми можуть використовувати сервер даних Evolution для"
+" зберігання і отримання даних щодо зустрічей у календарі користувача."
+" Наприклад, годинник на панелі може показувати простий календар, коли"
+" користувач клацне на ньому. Якщо у користувача призначено якісь зустрічі,"
+" їхні дані буде показано поруч із календарем. Це надає змогу бачити наступні"
+" зустрічі без потреби у запуску повноцінної програми-календаря."
 
 #. (itstool) path: item/p
 #: C/tech-eds.page:44
@@ -3043,6 +3161,16 @@ msgid ""
 "of showing duplicated people whenever they have more than one account "
 "associated to them."
 msgstr ""
+"У різних системах передбачено різне представлення облікових записів"
+" користувачів. Наприклад, на <link xref=\"tech-eds\">сервері даних Evolution<"
+"/link> зберігається список контактів електронної пошти користувача. У <link"
+" xref=\"tech-telepathy\">Telepathy</link> зберігається список контактів"
+" миттєвого обміну повідомленнями користувача. На різних вебслужбах"
+" зберігаються записи «друзів» користувача. Libfolks збирає усі ці форми"
+" запису контактів так, щоб зібрати дані усіх облікових записів, які належать"
+" одній особі. Це надає змогу програмному забезпеченню представляти списки у"
+" зручніший спосіб: немає дублювання записів осіб, які мають декілька різних"
+" облікових записів."
 
 #. (itstool) path: page/p
 #: C/tech-folks.page:32
@@ -3052,6 +3180,11 @@ msgid ""
 "disparate accounts for the same person (\"Person X at AIM, Person X at "
 "GTalk, Person X at Yahoo! Messenger\")."
 msgstr ""
+"У GNOME Empathy (програма для миттєвого обміну повідомленнями) використовує"
+" Folks для представлення уніфікованого перегляду записів осіб («Особа X має"
+" такі облікові записи миттєвого обміну повідомленнями»), замість поділу"
+" облікових записів однієї особи («Особу X зареєстровано AIM, особу X — на "
+"GTalk, особу X — на Yahoo! Messenger»)."
 
 #. (itstool) path: item/p
 #: C/tech-folks.page:40
@@ -3080,6 +3213,9 @@ msgid ""
 "databases, which allows you to easily store and retrieve data in many "
 "different common database systems."
 msgstr ""
+"Доступ до даних GNOME (GNOME Data Access або просто GDA) є обгорткою для"
+" реляційних баз даних, яка спрощує зберігання і отримання даних багатьох"
+" різних типових систем роботи із базами даних."
 
 #. (itstool) path: page/p
 #: C/tech-gda.page:27
@@ -3088,6 +3224,10 @@ msgid ""
 "provides a unified interface to them. GDA supports SQLite, MySQL, PostreSQL, "
 "Microsoft Access, Berkeley DB, Oracle, and JDBC."
 msgstr ""
+"Замість різних інтерфейсів, що враховують особливості різних систем роботи з"
+" базами даних, GDA надає у ваше розпорядження уніфікований інтерфейс. У GDA"
+" передбачено підтримку SQLite, MySQL, PostreSQL, "
+"Microsoft Access, Berkeley DB, Oracle і JDBC."
 
 #. (itstool) path: item/p
 #: C/tech-gda.page:33
@@ -3124,6 +3264,15 @@ msgid ""
 "abstraction over various windowing systems, so that GTK can be portable to "
 "all of them: the X Window System (X11), Microsoft Windows, Mac OS X Quartz."
 msgstr ""
+"GDK є низькорівневою бібліотекою, яку використовує <link xref=\"tech-gtk\""
+">GTK</link> для взаємодії із системою керування вікнами для роботи із"
+" графічними пристроями та пристроями введення. Хоча вам не доведеться надто"
+" часто використовувати GDK безпосередньо у коді, у цій бібліотеці містяться"
+" усі потрібні функціональні можливості для створення низькорівневих вікон на"
+" екрані і взаємодії із користувачем за допомогою різноманітних пристроїв"
+" введення. GDK працює як рівень абстракції над різноманітними системами"
+" керування вікнами, забезпечуючи можливість портування GTK на усі ці системи:"
+" X Window System (X11), Microsoft Windows, Mac OS X Quartz."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:31
