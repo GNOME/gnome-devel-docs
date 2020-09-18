@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-17 18:34+0300\n"
+"PO-Revision-Date: 2020-09-18 20:37+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -3286,6 +3286,15 @@ msgid ""
 "<code>GtkButton::clicked</code> signal when the user presses and releases "
 "the button in the right location."
 msgstr ""
+"GDK надає вам достпу до подій з клавіатур, мишей та інших пристроїв для"
+" введення. Реалізації віджетів на GTK використовують цю функціональну"
+" можливість і передають події до високорівневих сигналів, якими, надалі,"
+" можна скористатися з коду програми. Наприклад, віджет <code>GtkButton</code>"
+" стежить за подіями <code>GDK_BUTTON_PRESS</code> і <code>GDK_BUTTON_RELEASE<"
+"/code>, "
+"які надходять від миші, і транслює їх відповідним чином до сигналу <code"
+">GtkButton::clicked</code>, коли користувач натискає і відпускає кнопку у"
+" належному місці."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:40
@@ -3294,6 +3303,10 @@ msgid ""
 "data from the system. When implementing custom controls, you may need to "
 "access these features to implement proper user interaction behavior."
 msgstr ""
+"Крім того, GDK надає у ваше розпорядження низькорівневі процедури для доступу"
+" до перетягування зі скиданням та даних буфера обміну даними з системи. При"
+" реалізації нетипових засобів керування вам може знадобитися доступ до цих"
+" можливостей для реалізації належної поведінки при взаємодії із користувачем."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:45
@@ -3304,6 +3317,13 @@ msgid ""
 "of the system functionality needed by GTK. This includes information about "
 "multi-head displays, resolution and color depth, colormaps, and cursors."
 msgstr ""
+"GDK надає інші функціональні можливості, які потрібні для реалізації повного"
+" графічного набору інструментів, подібного до GTK. Оскільки GDK працює як"
+" абстракція платформи, надаючи GTK змогу працювати у декількох середовищах,"
+" вона надає програмний інтерфейс до усіх функціональних можливостей системи,"
+" які потрібні GTK. Це стосується відомостей щодо роботи із декількома"
+" дисплеями, роздільної здатності та глибини кольорів, мап кольорів та"
+" курсорів."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:52
@@ -3317,6 +3337,16 @@ msgid ""
 "the extensive functionality provided by <link xref=\"tech-cairo\">Cairo</"
 "link> to draw high-quality 2D graphics."
 msgstr ""
+"Вам слід використовувати GDK усюди, де вам потрібен низькорівневий доступ до"
+" підлеглої системи вікон, включно із низькорівневим доступом до подій, вікон"
+" та буфера обміну даними. Використання GDK для виконання цих завдань"
+" забезпечує портованість вашого коду та інтегрованість його із рештою вашого"
+" коду GTK. Загалом, не слід використовувати прості підпрограми для малювання"
+" у GDK; ці підпрограми є залишками того періоду, коли GDK був простою"
+" обгорткою для малювання примітивів системи керування вікнами. Вам слід"
+" користуватися широкими функціональними можливостями, які надаються <link"
+" xref=\"tech-cairo\">Cairo</link> для малювання високоякісної двовимірної"
+" графіки."
 
 #. (itstool) path: item/p
 #: C/tech-gdk.page:62
@@ -3344,6 +3374,10 @@ msgid ""
 "applications find the user's geographical position. A mapping application "
 "could use this to present a \"where am I\" view, for example."
 msgstr ""
+"Geoclue2 надає доступ до служб <em>геопозиціювання</em>, тобто надає програма"
+" змогу визначати географічне місце перебування користувача. Наприклад,"
+" програма для роботи із мапами може використовувати ці дані для показу мапи"
+" прилеглої до вас території."
 
 #. (itstool) path: page/p
 #: C/tech-geoclue2.page:29
@@ -3352,6 +3386,9 @@ msgid ""
 "ways: from the GPS in a WWAN modem, from a Wi-Fi access point's data, or "
 "from the computer's IP address."
 msgstr ""
+"Geoclue2 уможливлює надання даних щодо розташування у декілька способів: на"
+" основі даних GPS у модемі WWAN, на основі даних точки доступу Wi-Fi або на"
+" основі IP-адреси комп'ютера."
 
 #. (itstool) path: page/p
 #: C/tech-geoclue2.page:35
@@ -3360,6 +3397,9 @@ msgid ""
 "their geographical location. Only applications allowed by the user will be "
 "able to get geolocation information."
 msgstr ""
+"Крім того, Geoclue2 забезпечує конфіденційність користувачів, які не хочуть"
+" надавати дані щодо власного місця перебування. Отримувати дані щодо"
+" геопозиціювання зможуть лише програми, яким це дозволено робити користувачем."
 
 #. (itstool) path: info/desc
 #: C/tech-geocode-glib.page:17
@@ -3367,6 +3407,8 @@ msgid ""
 "Geocoding and reverse geocoding - conversion of street addresses to/from "
 "geographical coordinates"
 msgstr ""
+"Геокодування та зворотне геокодування — перетворення даних щодо поштових"
+" адрес на географічні координати, і навпаки."
 
 #. (itstool) path: page/title
 #: C/tech-geocode-glib.page:21
@@ -3381,6 +3423,10 @@ msgid ""
 "SomeTown, SomeCountry\") to a pair of latitude/longitude values. Reverse "
 "geocoding is the opposite process."
 msgstr ""
+"Geocode-glib забезпечує роботу <em>геокодування</em> та <em>зворотного"
+" геокодування</em>. Геокодування є процесом перетворення адреси («Центральна"
+" вулиця, 123, Якесьмісто, Якаськраїна») на пару значень широта-довгота."
+" Зворотне геокодування є оберненою процедурою."
 
 #. (itstool) path: page/p
 #: C/tech-geocode-glib.page:30
@@ -3388,6 +3434,9 @@ msgid ""
 "Geocode-glib uses the Yahoo! Place Finder API internally to do its work. In "
 "the future it will support the free Nominatim service and OpenStreetMap data."
 msgstr ""
+"Geocode-glib на внутрішньому рівні використовує програмний інтерфейс Yahoo!"
+" Place Finder для виконання покладених на неї завдань. У майбутньому у ній"
+" буде реалізовано підтримку вільної служби Nominatim та даних OpenStreetMap."
 
 #. (itstool) path: item/p
 #: C/tech-geocode-glib.page:37
@@ -3408,7 +3457,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/tech-gio-network.page:21
 msgid "GIO Networking"
-msgstr "Робота у мережі з GIO"
+msgstr "GIO Networking"
 
 #. (itstool) path: page/p
 #: C/tech-gio-network.page:23
@@ -3420,6 +3469,14 @@ msgid ""
 "API means your application doesn't block waiting for a response from the "
 "network."
 msgstr ""
+"GIO Networking побудовано на основі програмних інтерфейсів для роботи з"
+" потоками даних, які <link xref=\"tech-gio\">використовуються для файлів<"
+"/link>. Вона надає високорівневі програмні інтерфейси для обміну даними крізь"
+" TCP/IP і сокети доменів UNIX. Ви можете скористатися програмними"
+" інтерфейсами GIO networking для встановлення з'єднання із сервером,"
+" очікування на події та читання ресурсів. Асинхронність програмного"
+" інтерфейсу означає, що ваші програми не блокуватимуть свою роботу, очікуючи"
+" на відповідь з мережі."
 
 #. (itstool) path: item/p
 #: C/tech-gio-network.page:32
@@ -3460,6 +3517,14 @@ msgid ""
 "FTP, WebDAV, SMB, and other popular protocols. This transparent network file "
 "access is free to all applications using GIO."
 msgstr ""
+"GIO надає програмні інтерфейси для асинхронного читання та запису файлів та"
+" інших потоків даних. Звертання до файлів відбувається за адресами"
+" (універсальними ідентифікаторами ресурсів або URI). Модулі обробки можуть"
+" надавати доступ не лише до локальних файлів. При запуску у стільничному"
+" середовищі GNOME GIO використовує GVFS для уможливлення доступу до файлів з"
+" використанням SFTP, FTP, WebDAV, SMB та інших популярних протоколів. Цей"
+" прозорий доступ до файлів у мережі надається усім програмах, де"
+" використовується GIO, без додаткових зусиль з боку програмістів."
 
 #. (itstool) path: page/p
 #: C/tech-gio.page:36
@@ -3470,6 +3535,11 @@ msgid ""
 "of the APIs available, which are sometimes more convenient for worker "
 "threads or processes."
 msgstr ""
+"Програмні інтерфейси для роботи з файлами GIO було розроблено для"
+" використання у графічних інтерфейсах із керуванням на основі подій."
+" Асинхронний дизайн без блокування означає, що ваш інтерфейс користувача не"
+" зависатиме, очікуючи на файл. Доступні також синхронні версії програмних"
+" інтерфейсів, які іноді є зручнішими для потоків обробки або процесів."
 
 #. (itstool) path: page/p
 #: C/tech-gio.page:42
@@ -3477,6 +3547,9 @@ msgid ""
 "GIO also provides routines for managing drives and volumes, querying file "
 "types and icons, and finding applications to open files."
 msgstr ""
+"Крім того, GIO надає у ваше розпорядження підпрограми для керування дисками"
+" та томами, визначення типів файлів і піктограм, а також пошуку програм для"
+" відкриття файлів."
 
 #. (itstool) path: item/p
 #: C/tech-gio.page:46
@@ -3504,6 +3577,10 @@ msgid ""
 "data structures for C programs (linked lists, binary trees, hash tables) and "
 "various utilities such as string manipulation functions."
 msgstr ""
+"GLib є базовою для усіх інших бібліотек GNOME. У ній реалізовано прості"
+" структури даних для програм мовою C (пов'язані списки, двійкові дерева,"
+" хеш-таблиці) та різні допоміжні програми, зокрема функції для роботи з"
+" рядками."
 
 #. (itstool) path: page/p
 #: C/tech-glib.page:28
@@ -3512,6 +3589,9 @@ msgid ""
 "with GLib. If you are, however, GLib will make your life as a C programmer "
 "much easier."
 msgstr ""
+"Якщо ви не пишете програми мовою C, зазвичай, вам не слід перейматися роботою"
+" з GLib. Втім, якщо ви все ж пишете мовою C, GLib значно спростить ваше життя"
+" програміста мовою C."
 
 #. (itstool) path: item/p
 #: C/tech-glib.page:35
@@ -3525,7 +3605,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-gobject.page:16
 msgid "C-based object and type system with signals and slots"
-msgstr ""
+msgstr "Заснована на C система об'єктів та типів із сигналами та слотами"
 
 #. (itstool) path: page/title
 #: C/tech-gobject.page:19
@@ -3540,6 +3620,10 @@ msgid ""
 "does not provide objects or classes, GObject makes it possible to write "
 "object-oriented C programs."
 msgstr ""
+"GObject є частиною бібліотеки <link xref=\"tech-glib\">GLib</link>, яка надає"
+" у ваше розпорядження систему об'єктів і типів для програм мовою C. Хоча у C,"
+" як мові програмування, не передбачено об'єктів і класів, GObject уможливлює"
+" написання об'єктно-орієнтованих програм мовою C."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:26
@@ -3551,6 +3635,12 @@ msgid ""
 "For example, a <code>Button</code> object could emit a <code>clicked</code> "
 "signal to indicate that it has been pressed and released."
 msgstr ""
+"У GObject реалізовано базовий GType — основу усієї системи типів, похідними"
+" від якого є інші типи, зокрема цілочисельні та рядкові. Далі, є сам GObject,"
+" базовий клас для усіх інших класів. Об'єкти можуть видавати <em>сигнали</em>"
+" для сповіщення функції, яка їх викликає, про те, що сталося щось цікаве."
+" Наприклад, об'єкт <code>Button</code> може видати сигнал <code>clicked</code"
+">, який повідомлятиме, що кнопку було натиснуто і відпущено."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:35
@@ -3563,6 +3653,13 @@ msgid ""
 "introspection information from GObject to auto-generate those wrappers "
 "themselves."
 msgstr ""
+"GObject є придатним до <em>інтроспекції</em>, що означає, що ви можете"
+" опитати систему GObject щодо типів класів, які визначено, методів, підтримку"
+" яких передбачено, їхніх сигналів тощо. На основі цих даних інтроспекції"
+" побудовано прив'язки GNOME до мов програмування. Замість написання обгорток"
+" для уможливлення викликів програмного інтерфейсу GNOME з інших мов"
+" програмування вручну, прив'язки до мов використовують дані інтроспекції з"
+" GObject для автоматичного створення цих обгорток."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:45
@@ -3572,6 +3669,10 @@ msgid ""
 "yourself familiar with GObject's concepts, such as signals and slots, will "
 "make your life easier as a GNOME programmer."
 msgstr ""
+"Зазвичай, якщо ви програмуєте для GNOME об'єктно-орієнтованою мовою, вам не"
+" слід перейматися питаннями самого GObject. Втім, знайомство із поняттями"
+" GObject, зокрема сигналами і слотами, спростить ваше життя як програміста"
+" GNOME."
 
 #. (itstool) path: item/p
 #: C/tech-gobject.page:53
@@ -3599,6 +3700,9 @@ msgid ""
 "applications to save their configuration settings and user's preferences in "
 "a standard way."
 msgstr ""
+"GSettings є частиною <link xref=\"tech-glib\">GLib</link>, яка надає змогу"
+" програмам зберігати їхні параметри роботи та налаштування користувача у"
+" стандартизований спосіб."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:27
@@ -3608,6 +3712,10 @@ msgid ""
 "readable description of what the key is for, a type for the key (string, "
 "integer, etc.), and a default value."
 msgstr ""
+"Програма, яка використовує GSettings визначає <em>схему</em> ключів"
+" налаштувань. Схема для кожного ключа містить назву ключа, зручний для"
+" читання опис призначення ключа, тип ключа (рядок, ціле число тощо) та типове"
+" значення."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:34
@@ -3616,6 +3724,9 @@ msgid ""
 "systems this is DConf; on Windows it is the Registry, and on Mac OS it is "
 "the NextStep property list mechanism."
 msgstr ""
+"GSettings використовує для зберігання даних налаштувань сховища даних"
+" операційної системи. У системах GNU це DConf; у Windows це реєстр, а у Mac"
+" OS це механізм списків властивостей NextStep."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:40
@@ -3625,6 +3736,12 @@ msgid ""
 "applications that display clocks can respond to a global setting for 12-"
 "hour/24-hour display immediately, without having to restart."
 msgstr ""
+"GSettings надає вам змогу стежити за змінами значень ключів, отже ваша"
+" програма зможе динамічно відповідати на загальні зміни у налаштуваннях."
+" Наприклад, усі програми, які показують годинники, зможуть скоригувати"
+" показаний час у відповідь на зміну параметра формату показу часу у"
+" дванадцятигодинному або двадцятичотиригодинному вигляді без потреби у"
+" перезапуску."
 
 #. (itstool) path: item/p
 #: C/tech-gsettings.page:48
@@ -3655,6 +3772,13 @@ msgid ""
 "formats by default, and support for additional formats can be added with "
 "plug-ins."
 msgstr ""
+"GStreamer — потужна мультимедійна бібліотека для відтворення, створення та"
+" роботи зі звуком, відео та іншими мультимедійними даними. Ви можете"
+" скористатися GStreamer для забезпечення відтворення звуку та відео,"
+" записування даних з декількох джерел та редагування мультимедійних даних."
+" Типово, у GStreamer передбачено підтримку кодування і декодування даних у"
+" багатьох форматах, а підтримку додаткових форматів можна реалізувати за"
+" допомогою додатків."
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:30
@@ -3667,6 +3791,14 @@ msgid ""
 "effect using GStreamer. Furthermore, GStreamer is designed to have low "
 "overhead, so it can be used in applications with high demands on latency."
 msgstr ""
+"GStreamer надає у ваше розпорядження гнучку архітектуру, у якій мультимедійні"
+" дані обробляються конвеєром елементів. Кожен елемент може застосовувати"
+" фільтри до даних, зокрема кодування або декодування, поєднання декількох"
+" джерел або перетворення мультимедійних даних. Ця архітектура уможливлює"
+" довільне упорядковування елементів, тому за допомогою GStreamer ви можете"
+" досягти фактично будь-якого результату. Крім того, GStreamer розроблено так,"
+" що накладні витрати при цьому є мінімальними, тому ви можете використовувати"
+" бібліотеку у програмах із високими вимогами щодо латентності."
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:39
@@ -3677,6 +3809,11 @@ msgid ""
 "supported format, allowing you to use sound and video in your application "
 "easily."
 msgstr ""
+"GStreamer, забезпечуючи роботу потужного інтерфейсу для роботи із"
+" мультимедійними даними, надає у ваше розпорядження зручні підпрограми для"
+" простого відтворення даних. GStreamer може автоматично будувати конвеєр для"
+" читання і відтворення файлів у будь-яких підтримуваних форматах, надаючи вам"
+" змогу без проблем використовувати звукові дані та відеодані у вашій програмі."
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:45
@@ -3687,6 +3824,12 @@ msgid ""
 "GStreamer. Plugins can provide support for other multimedia formats or "
 "provide additional functionality and effects."
 msgstr ""
+"Архітектура GStreamer уможливлює використання додатків для додавання засобів"
+" кодування, декодування та усіх різновидів фільтрів даних. Сторонні"
+" розробники можуть реалізовувати додатки GStreamer, які будуть автоматично"
+" доступними іншим програмам, які використовують GStreamer. Додатки можуть"
+" реалізовувати підтримку інших форматів мультимедійних даних або надавати у"
+" розпорядження програм додаткові функціональні можливості або ефекти."
 
 #. (itstool) path: page/p
 #: C/tech-gstreamer.page:52
@@ -3696,6 +3839,11 @@ msgid ""
 "sound or video. Using GStreamer makes your application development easy, and "
 "it provides you well-tested elements for many of your needs."
 msgstr ""
+"Вам слід використовувати GStreamer усюди, де потрібно читати або відтворювати"
+" мультимедійні дані у вашій програмі, або там, де ваша програма має працювати"
+" із звуковими даними або відеоданими. Використання GStreamer спростить"
+" розробку вашої програми та надасть у ваше розпорядження добре перевірені"
+" елементи для задоволення багатьох ваших потреб."
 
 #. (itstool) path: item/p
 #: C/tech-gstreamer.page:59
@@ -3759,6 +3907,11 @@ msgid ""
 "entries, GTK also provides Model-View-Controller (MVC) APIs for tree views, "
 "multi-line text fields, and menu and toolbar actions."
 msgstr ""
+"Окрім базових віджетів, зокрема кнопок, пунктів для позначення та полів для"
+" введення тексту, у GTK передбачено програмні інтерфейси"
+" «модель-перегляд-контролер» (Model-View-Controller або MVC) для ієрархічних"
+" панелей перегляду, багаторядкових полів для тексту, а також пунктів меню та"
+" панелі інструментів."
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:37
@@ -3827,7 +3980,7 @@ msgstr "Zeeshan Ali (Khattak)"
 #. (itstool) path: info/desc
 #: C/tech-gupnp.page:18
 msgid "Wireless, peer-to-peer, plug-and-play RPC"
-msgstr ""
+msgstr "Бездротовий RPC у форматі вузол-вузол та увімкнув-користуйся (PnP)"
 
 #. (itstool) path: page/title
 #: C/tech-gupnp.page:21
