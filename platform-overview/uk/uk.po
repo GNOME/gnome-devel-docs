@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-18 20:37+0300\n"
+"PO-Revision-Date: 2020-09-19 21:51+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -3899,6 +3899,15 @@ msgid ""
 "you to construct user interfaces without dealing with the low-level details "
 "of drawing and device interaction."
 msgstr ""
+"GTK — головна бібліотека для побудови інтерфейсів користувача у GNOME. Її"
+" назва є абревіатурою від «GIMP Tool Kit», оскільки спочатку бібліотеку було"
+" написано для відповідної програми для роботи із зображеннями, і лише згодом"
+" відокремлено від неї як окрему бібліотеку. У ній передбачено усі елементи"
+" керування інтерфейсом користувача або <em>віджети</em>, які використовують у"
+" типовій програмі із графічним інтерфейсом. Її об'єктно-орієнтований"
+" програмний інтерфейс надає вам змогу будувати інтерфейси користувача без"
+" потреби вдаватися до програмування низькорівневих процедур малювання та"
+" взаємодії із пристроями."
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:32
@@ -3924,6 +3933,14 @@ msgid ""
 "Arabic and Hebrew, GTK automatically reverses the user interface from left "
 "to right so that controls have the expected visual order."
 msgstr ""
+"Віджети у GTK розташовують на вікнах за допомогою <em>моделі складання до"
+" коробки</em>. Програмісти лише вказують, як пакувати віджети до"
+" панелей-контейнерів, замість розташовування їх безпосередньо у абсолютних"
+" координатах. Отже, GTK забезпечує визначення належних розмірів вікон за"
+" вмістом та автоматичну обробку зміни розмірів вікон. Для мов із записом"
+" справа ліворуч, подібних до арабської та івриту, GTK автоматично розвертає"
+" інтерфейс користувача так, щоб елементи керування у вікнах мали очікуване"
+" розташування."
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:45
@@ -3933,6 +3950,11 @@ msgid ""
 "that GTK has: right-to-left language support, accessibility interfaces, "
 "keyboard navigation, and automatic sizing."
 msgstr ""
+"У GTK ви можете створювати нетипові віджети для використання у програмах."
+" Подібно до природних або типових віджетів, ці нетипові віджети можуть"
+" підтримувати усі можливості, які реалізовано у GTK: підтримка мов із записом"
+" справа ліворуч, інтерфейси доступності, навігація за допомогою клавіатури та"
+" автоматичне визначення розмірів."
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
@@ -3995,6 +4017,11 @@ msgid ""
 "(Universal Plug and Play). GUPnP lets GNOME applications discover UPnP "
 "devices on the network, and publish services themselves."
 msgstr ""
+"У багатьох пристроях «побутової електроніки», які можуть використовувати"
+" локальну домашню мережу, передбачено підтримку виявлення пристроїв і служб"
+" за допомогою протоколу, який має назву UPnP (Universal Plug and Play або"
+" універсальний «увімкнув-користуйся»). GUPnP надає змогу програмам GNOME"
+" виявляти пристрої UPnP у мережі і оприлюднювати себе службам."
 
 #. (itstool) path: page/p
 #: C/tech-gupnp.page:30
@@ -4003,6 +4030,10 @@ msgid ""
 "standard formats. GUPnP can also perform DLNA-related tasks such as media "
 "profile guessing, transcoding to a given profile, etc."
 msgstr ""
+"DLNA — набір стандартів, які надають пристроям змогу оприлюднювати"
+" мультимедійні дані у стандартних форматах. Крім того, GUPnP може виконувати"
+" пов'язані із DLNA завдання, зокрема визначення профілів мультимедійних"
+" даних, перекодування до вказаного профілю тощо."
 
 #. (itstool) path: page/p
 #: C/tech-gupnp.page:36
@@ -4010,6 +4041,9 @@ msgid ""
 "In GNOME, GUPnP is one of the basic building blocks of home-multimedia "
 "software like Rygel, a home media server."
 msgstr ""
+"У GNOME GUPnP є одним із базових будівельних блоків для домашнього"
+" мультимедійного програмного забезпечення, зокрема Rygel, домашнього"
+" мультимедійного сервера."
 
 #. (itstool) path: item/p
 #: C/tech-gupnp.page:42
@@ -4038,6 +4072,16 @@ msgid ""
 "manual. With its unique linking and organization system, Mallard is the only "
 "language designed to handle plugin and vendor help in one coherent document."
 msgstr ""
+"Інколи користувачам потрібна деяка допомога, навіть у програмах із найкращим"
+" дизайном. У GNOME передбачено вбудовану поділену за темами систему довідки,"
+" у якій використано мову розмітки <link href=\"http://projectmallard.org/\""
+">Mallard</link>. Створена розробниками GNOME мова Mallard є зрілою динамічною"
+" мовою, яка допомагає у швидкому написанні і переписуванні документації."
+" Орієнтація на поділ за темами означає, що користувачі можуть знаходити"
+" потрібні їм відповіді без прочитання усього підручника. Унікальні можливості"
+" із поєднання та упорядковування роблять Mallard єдиною мовою, яку розроблено"
+" для збирання довідки з додатків та довідки постачальника у єдиному"
+" однорідному документі."
 
 #. (itstool) path: page/p
 #: C/tech-help.page:33
@@ -4045,6 +4089,9 @@ msgid ""
 "When you do need linear manuals, GNOME also supports the industry-standard "
 "<link href=\"http://docbook.org/\">DocBook</link> format."
 msgstr ""
+"Якщо вам потрібен лінійний підручник, у GNOME також передбачено можливість"
+" використання стандартного формату <link href=\"http://docbook.org/\""
+">DocBook</link>."
 
 #. (itstool) path: item/p
 #: C/tech-help.page:38
@@ -4086,6 +4133,12 @@ msgid ""
 "wireless networks, configure Virtual Private Networks (VPNs), and connect to "
 "the network with modems."
 msgstr ""
+"NetworkManager керує з'єднаннями комп'ютера із мережею. Він може виконувати"
+" дії з узгодження DHCP для отримання IP-адреси для комп'ютера під час"
+" початкової активації мережі. NetworkManager надає користувачам змогу"
+" вибирати між різними дротовими та бездротовими мережами, налаштовувати"
+" віртуальні приватні мережі (VPNs) та встановлювати з'єднання із мережами за"
+" допомогою модемів."
 
 #. (itstool) path: page/p
 #: C/tech-network-manager.page:30
@@ -4096,6 +4149,13 @@ msgid ""
 "use NetworkManager's API to monitor the online/offline state of the "
 "computer, and perform other high-level tasks related to the network."
 msgstr ""
+"NetworkManager надає у ваше розпорядження багатий на можливості програмний"
+" інтерфейс, за допомогою якого програми можуть керувати з'єднаннями мережі."
+" Втім, цей інтерфейс буде цікавим лише для розробників програмного"
+" забезпечення, яке реалізує базові можливості стільничного середовища."
+" Звичайні програми можуть користуватися програмним інтерфейсом NetworkManager"
+" для спостереження за станом «у мережі»-«поза мережею» для комп'ютера і"
+" виконання інших високорівневих завдань, які пов'язано із мережею."
 
 #. (itstool) path: page/p
 #: C/tech-network-manager.page:38
@@ -4105,6 +4165,11 @@ msgid ""
 "on the user's choices. Applications such as Evolution, which need to know "
 "about the online/offline status of the computer, use NetworkManager as well."
 msgstr ""
+"Базова оболонка стільниці у GNOME містить добре помітну піктограму"
+" NetworkManager. На внутрішньому рівні вона використовує програмний інтерфейс"
+" NetworkManager для зміни параметрів роботи мережі на основі вибору"
+" користувача. Крім того, NetworkManager використовують програми, зокрема"
+" Evolution, яким потрібні дані щодо стану роботи комп'ютера у мережі."
 
 #. (itstool) path: item/p
 #: C/tech-network-manager.page:47
@@ -4146,6 +4211,15 @@ msgid ""
 "bottom of the screen and then put into the messaging tray, while other "
 "desktop shells may choose to show them differently."
 msgstr ""
+"Libnotify надає у ваше розпорядження програмний інтерфейс для показу"
+" сповіщень користувачеві. Сповіщеннями можуть бути прості повідомлення."
+" Передбачено також можливість відповіді користувача на сповіщення. Наприклад,"
+" Empathy (програма для миттєвого обміну повідомленнями GNOME) використовує"
+" сповіщення для повідомлення користувачу про надходження миттєвого"
+" повідомлення. Сповіщення, які створює Libnotify, використовують належний"
+" інтерфейс середовища, у якому запущено програму: у GNOME 3 сповіщення буде"
+" показано у нижній частині екрана, а потім розміщено у лотку повідомлень. У"
+" інших стільничних оболонках сповіщення може бути показано в інший спосіб."
 
 #. (itstool) path: item/p
 #: C/tech-notify.page:40
@@ -4176,6 +4250,12 @@ msgid ""
 "may need to download a codec, or an illustration program may need to "
 "download fonts as needed."
 msgstr ""
+"PackageKit надає змогу програмам надсилати запити щодо того, чи встановлено"
+" інші пакунки, незалежно від дистрибутива GNU/Linux, у якому їх запущено."
+" Якщо ваша програма потребує встановлення додаткового пакунка під час роботи,"
+" вона може попросити PackageKit отримати і встановити пакунок. Наприклад,"
+" мультимедійна програма може потребувати отримання кодека, а програма для"
+" ілюстрування може потребувати отримання потрібних шрифтів."
 
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:31
@@ -4186,6 +4266,13 @@ msgid ""
 "printer, a program to configure printers when they are plugged in, uses "
 "PackageKit to download and install printer drivers as needed."
 msgstr ""
+"У подібних ситуаціях PackageKit використовують різноманітні програми GNOME."
+" Totem, мультимедійний програвач, використовує PackageKit для створення"
+" запитів щодо встановлення кодеків, якщо отримує на відтворення"
+" мультимедійний файл, який не може розпізнати. System-config-printer,"
+" програма для налаштовування принтерів при з'єднанні з комп'ютером"
+" використовує PackageKit для отримання і встановлення потрібних драйверів до"
+" принтера."
 
 #. (itstool) path: item/p
 #: C/tech-packagekit.page:40
@@ -4268,6 +4355,9 @@ msgid ""
 "Pango is the core text and font handling library in the GNOME platform. It "
 "is responsible for laying out and rendering text, and is used throughout GTK."
 msgstr ""
+"Pango — базова бібліотека для обробки тексту і шрифтів на платформі GNOME."
+" Вона відповідає за компонування та показ текстових даних і використовується"
+" у всьому GTK."
 
 #. (itstool) path: note/p
 #: C/tech-pango.page:27
@@ -4278,6 +4368,12 @@ msgid ""
 "native font systems, such as Uniscribe on Microsoft Windows and ATSUI on "
 "MacOS"
 msgstr ""
+"Рушій компонування Pango можна використовувати із різними модулями обробки"
+" шрифтів та модулями малювання. У більшості систем GNOME Pango"
+" використовуватиме FreeType, fontconfig та Cairo для доступу до шрифтів та"
+" показу текстових даних. У інших системах Pango використовуватиме власні"
+" системи роботи із шрифтами операційної системи, зокрема Uniscribe у"
+" Microsoft Windows і ATSUI у MacOS."
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:34
@@ -4290,6 +4386,14 @@ msgid ""
 "systems is automatic; application developers do not have to write any "
 "special code to support other languages."
 msgstr ""
+"У Pango реалізовано широку підтримку різноманітних систем писемності, які"
+" використовуються у різних куточках світу. У багатьох системах писемності,"
+" які використовуються для запису мов, передбачено складні правила для"
+" компонування гліфів та символів. За допомогою Pango можна записувати та"
+" належним чином показувати майже усі мови. Це надає змогу користувачам"
+" переглядати текст рідними мовами будь-де. Підтримка у Pango систем"
+" писемності є автоматичною — розробникам програм не доведеться писати"
+" спеціалізований код для реалізації підтримки інших мов."
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:43
@@ -4302,6 +4406,15 @@ msgid ""
 "PangoMarkup can be used directly from GTK, enabling you to style text in "
 "your graphical interfaces easily."
 msgstr ""
+"У Pango передбачено підтримку типів стилізації тексту, які використовуються у"
+" типових документах та інтерфейсах, зокрема використання курсиву, ваги"
+" шрифтів та підкреслювання. У Pango використано простий XML-подібний словник,"
+" який називається PangoMarkup і який уможливлює встановлення розміру,"
+" кольору, стилю та інших атрибутів тексту. PangoMarkup надає вам змогу"
+" скористатися вбудованими стильовими командами без потреби у ітераціях"
+" текстовими блоками вручну. PangoMarkup можна безпосередньо скористатися з"
+" GTK — це надає вам змогу без проблем стилізувати текст у ваших графічних"
+" інтерфейсах."
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:52
@@ -4312,6 +4425,12 @@ msgid ""
 "you create portable code, and most importantly, it will ensure that your "
 "application can render text correctly in hundreds of different languages."
 msgstr ""
+"Вам слід безпосередньо використовувати Pango усюди, де потрібно виконати"
+" компонування тексту на екрані або на іншому носії. Використання Pango"
+" уможливить безшовну роботу вашого компонування тексту з GTK і рештою"
+" платформи GNOME. Це допоможе у створенні придатного до портування коду, і,"
+" що важливіше, забезпечить належний показ тексту у вашій програмі сотнями"
+" різних мов."
 
 #. (itstool) path: item/p
 #: C/tech-pango.page:61
@@ -4348,6 +4467,12 @@ msgid ""
 "disconnected from the network via the <link xref=\"tech-network-manager"
 "\">NetworkManager</link> service."
 msgstr ""
+"Polkit або Policy Kit обробляє правила, які надають змогу непривілейованим"
+" процесам обмінюватися даними із привілейованими процесами за допомогою"
+" програмних інтерфейсів <link xref=\"tech-d-bus\">D-Bus</link>. Наприклад,"
+" доступ до надсилання запиту щодо від'єднання комп'ютера від мережі за"
+" допомогою служби <link xref=\"tech-network-manager\">NetworkManager</link>"
+" повинні мати не усі програми."
 
 #. (itstool) path: page/p
 #: C/tech-polkit.page:28
@@ -4359,6 +4484,13 @@ msgid ""
 "policies will be rather liberal, as the users can be trusted to take care of "
 "the machine. On corporate settings, policies may be more restricted."
 msgstr ""
+"Polkit надає змогу системному адміністратору визначати різні правила для"
+" різних служб. Наприклад, лише користувач із фізичним доступом до консолі"
+" може монтувати або демонтувати диски і томи — користувачам, у яких немає"
+" консолі, доведеться вводити пароль адміністратора. На комп'ютері для"
+" домашнього користування більшість правил будуть доволі ліберальними,"
+" оскільки користувачам можна довіряти керування комп'ютером. У корпоративних"
+" умовах правила можуть бути більш жорсткими."
 
 #. (itstool) path: page/p
 #: C/tech-polkit.page:38
@@ -4366,6 +4498,8 @@ msgid ""
 "GNOME uses PolicyKit whenever applications need to request privileged "
 "operations."
 msgstr ""
+"У GNOME PolicyKit використано всюди, де програми мають надсилати запит щодо"
+" привілейованих дій."
 
 #. (itstool) path: item/p
 #: C/tech-polkit.page:44
@@ -4395,6 +4529,13 @@ msgid ""
 "thumbnail icons for PDF files also uses Poppler. You could even use it to "
 "create software that lets the user re-arrange or extract pages from PDFs."
 msgstr ""
+"Poppler — спеціалізована бібліотека для показу документів PDF. Нею можна"
+" скористатися для задоволення різних потреб. Наприклад, у Evince, програмі"
+" для перегляду PDF GNOME, Poppler використано для показу документів. Крім"
+" того, у програмному забезпеченні, яке створює піктограми мініатюр для файлів"
+" PDF, також використовується Poppler. Ви навіть можете скористатися цією"
+" бібліотекою для створення програмного забезпечення, яке надає змогу"
+" перевпорядковувати та видобувати сторінки з файлів PDF."
 
 #. (itstool) path: item/p
 #: C/tech-poppler.page:31
@@ -4421,6 +4562,12 @@ msgid ""
 "through the network, or to a Bluetooth headset. It can mix several sources "
 "of audio, or change the sample rate of an audio stream."
 msgstr ""
+"PulseAudio — низькорівневий програмний інтерфейс для роботи зі звуком GNOME."
+" Це те, що є проміжним елементом між програмами та звуковим програмним"
+" інтерфейсом ядра системи. PulseAudio надає вам змогу переспрямовувати звук"
+" мережею або спрямувати його до гарнітури Bluetooth. Ви можете змішувати"
+" декілька джерел звуку або змінювати частоту дискретизації потоку звукових"
+" даних."
 
 #. (itstool) path: page/p
 #: C/tech-pulseaudio.page:29
@@ -4429,6 +4576,10 @@ msgid ""
 "another, either directly, or indirectly through higher-level sound "
 "manipulation APIs like <link xref=\"tech-gstreamer\">GStreamer</link>."
 msgstr ""
+"Усі частини GNOME, які пов'язано із відтворенням звуку, використовують"
+" PulseAudio у той чи інший спосіб, або безпосередньо, або опосередковано за"
+" допомогою високорівневих програмних інтерфейсів для роботи зі звуком,"
+" подібних до <link xref=\"tech-gstreamer\">GStreamer</link>."
 
 #. (itstool) path: item/p
 #: C/tech-pulseaudio.page:34
@@ -4457,6 +4608,11 @@ msgid ""
 "to store and access passwords, and users can manage their passwords using "
 "GNOME's <app>Seahorse</app> application."
 msgstr ""
+"У GNOME для безпечного зберігання паролів та інших конфіденційних даних"
+" використано libsecret. Програми можуть використовувати бібліотеку для"
+" керування сховищем ключів для зберігання паролів і доступу до них, а"
+" користувачі можуть керувати своїми паролями за допомогою програми GNOME <app"
+">Seahorse</app>."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:29
@@ -4467,6 +4623,12 @@ msgid ""
 "provide a password to unlock the keyring. Once a keyring has been unlocked, "
 "the user has access to all of the items in that keyring."
 msgstr ""
+"У засобах керування сховищем паролів передбачено можливість роботи із"
+" декількома сховищами ключів, де кожне сховище ключів може містити довільну"
+" кількість записів. Записи у сховищі ключів є певними фрагментами даних,"
+" часто паролями. Кожне сховище ключів замикається окремо. Для доступу до"
+" сховища користувачам доведеться вводити пароль. Після розблокування сховища"
+" користувач отримує доступ до усіх записів у відповідному сховищі."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:36
@@ -4478,6 +4640,13 @@ msgid ""
 "prevent malicious or poorly-written programs from accessing the user's "
 "sensitive data."
 msgstr ""
+"Засіб керування сховищем ключів надає доступ до списків керування для кожного"
+" запису сховища ключів, визначаючи, яким програмам буде надано доступ до"
+" відповідного запису. Якщо доступ до запису сховища ключів спробує отримати"
+" невідома програма, засіб керування сховищем ключів попросить користувача"
+" дозволити або заборонити доступ до програми. Це запобігає доступу програм"
+" зловмисників або погано написаних програм до конфіденційних даних"
+" користувача."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:43
@@ -4488,6 +4657,12 @@ msgid ""
 "applications without ever unlocking the keyring. The keyring has to be "
 "unlocked when a matching item is found and accessed."
 msgstr ""
+"Дані сховища ключів, які зберігаються у файловій системі, шифруються за"
+" допомогою блокового шифру AES, а для хешування атрибутів запису"
+" використовується SHA1. За допомогою хешування атрибутів засіб керування"
+" сховищем ключів зможе шукати записи, які потрібні програмам без"
+" розблоковування сховища ключів. Сховище ключів має бути розблоковано, якщо"
+" буде знайдено відповідний запис і буде отримано до нього доступ."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:50
@@ -4497,6 +4672,11 @@ msgid ""
 "ends. The session keyring can be used to store passwords to be used in the "
 "current session only."
 msgstr ""
+"У засобі керування сховищами ключів також передбачено сховище ключів сеансу."
+" Записи у сховищі ключів сеансу ніколи не зберігаються на диску і"
+" втрачаються, щойно завершується сеанс користувача. Сховищем ключів сеансу"
+" можна скористатися для зберігання паролів, які слід використовувати лише у"
+" поточному сеансу."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:55
@@ -4558,6 +4738,8 @@ msgid ""
 "Soup provides functionality for using HTTP cookies, SSL encrypted "
 "connections, and the XML-RPC protocol based on HTTP."
 msgstr ""
+"У Soup передбачено функціональні можливості для використання кук HTTP,"
+" зашифрованих з'єднань SSL та протоколу XML-RPC на основі HTTP."
 
 #. (itstool) path: note/p
 #: C/tech-soup.page:34
@@ -5063,6 +5245,9 @@ msgid ""
 "3.0 and 4.0 may be installed, make sure that the desired version is imported "
 "first."
 msgstr ""
+"Імпортуйте <code>gi.Gtk</code> для отримання доступу до функцій <code>Gtk<"
+"/code>. Оскільки може бути встановлено одночасно версії 3.0 і 4.0, спочатку"
+" слід переконатися, що імпортовано бажану версію."
 
 #. (itstool) path: example/code
 #: C/tour-gjs.page:50
@@ -5093,6 +5278,9 @@ msgid ""
 "GNOME to create a user interface. Glade produces XML files that describe "
 "attributes of an application."
 msgstr ""
+"Для створення інтерфейсу користувача скористайтеся <link"
+" href=\"http://glade.gnome.org/\">Glade</link>, редактором інтерфейсів"
+" користувача для GNOME. Glade створює файли XML із описом атрибутів програми."
 
 #. (itstool) path: page/p
 #: C/tour-glade.page:36
@@ -5108,6 +5296,9 @@ msgid ""
 "Create a new window, then set <gui>ID</gui> to <code>window1</code> and "
 "<gui>Title</gui> to <code>Hello World</code>:"
 msgstr ""
+"Створіть нове вікно, потім встановіть для <gui>Ідентифікатора</gui> значення"
+" <code>window1</code>, а для "
+"<gui>Заголовка</gui> значення <code>Hello World</code>:"
 
 #. (itstool) path: example/media
 #. This is a reference to an external file such as an image or video. When
@@ -5142,6 +5333,8 @@ msgstr ""
 msgid ""
 "Get your GtkApplication started in JavaScript and create a UI using Glade."
 msgstr ""
+"Почніть створювати вашу програму на основі Gtk мовою JavaScript і створіть"
+" інтерфейс користувача за допомогою Glade."
 
 #. (itstool) path: page/title
 #: C/tour.page:28
