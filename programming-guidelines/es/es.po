@@ -490,7 +490,7 @@ msgid ""
 "threads (<link xref=\"#concepts\"/>)"
 msgstr ""
 "Uso de llamadas asíncronas con preferencia a las llamadas síncronas o uso "
-"explícito de hilos (<link xref=“#concepts”/>)"
+"explícito de hilos (<link xref=\"#concepts\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:33
@@ -499,7 +499,7 @@ msgid ""
 "xref=\"#api-pattern\"/>)"
 msgstr ""
 "Aprenda y siga el patrón de GLib para declarar API asíncronas (<link "
-"xref=“#api-pattern”/>)"
+"xref=\"#api-pattern\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:37
@@ -509,7 +509,7 @@ msgid ""
 msgstr ""
 "Coloque el retorno de llamadas de funciones asíncronas en orden descendente "
 "del archivo para que el control del flujo sea fácil de seguir (<link "
-"xref=“#single-call”/>)"
+"xref=\"#single-call\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:41
@@ -520,11 +520,11 @@ msgid ""
 "indicate whether an operation is ongoing (<link xref=\"#single-call\"/>, "
 "<link xref=\"#gtask\"/>)"
 msgstr ""
-"Use la presencia de un <link href=“https://developer.gnome.org/gio/stable/"
-"GTask.html”><code>GTask</code></link> o <link href=“https://developer.gnome."
-"org/gio/stable/GCancellable.html”><code>GCancellable</code></link> para "
-"indicar si una operación está en curso (<link xref=“#single-call”/>, <link "
-"xref=“#gtask”/>)"
+"Use la presencia de un <link href=\"https://developer.gnome.org/gio/stable/"
+"GTask.html\"><code>GTask</code></link> o <link href=\"https://developer.gnome."
+"org/gio/stable/GCancellable.html\"><code>GCancellable</code></link> para "
+"indicar si una operación está en curso (<link xref=\"#single-call\"/>, <link "
+"xref=\"#gtask\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:48
@@ -535,8 +535,7 @@ msgid ""
 msgstr ""
 "Si ejecuta operaciones en paralelo, realice un seguimiento de cuántas "
 "operaciones aún deben comenzar y cuántas aún deben finalizar — la operación "
-"global se completa una vez que ambos recuentos son cero (<link xref = “# "
-"parallel” />)"
+"global se completa una vez que ambos recuentos son cero (<link xref=\"#parallel\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:54
@@ -547,10 +546,10 @@ msgid ""
 "to global state handling (<link xref=\"#gtask\"/>)"
 msgstr ""
 "Separe el estado de las operaciones en estructuras ‘task data’ para <link "
-"href=“https://developer.gnome.org/gio/stable/GTask.html”><code>GTask</"
+"href=\"https://developer.gnome.org/gio/stable/GTask.html\"><code>GTask</"
 "code>s</link>, permitiendo que se reutilicen las operaciones más fácilmente "
 "sin necesidad de cambios en la gestión del estado global (<link "
-"xref=“#gtask”/>)"
+"xref=\"#gtask\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:60
@@ -559,7 +558,7 @@ msgid ""
 "finalization of that instance (<link xref=\"#lifetimes\"/>)"
 msgstr ""
 "Considere cómo los métodos asíncronos en una instancia de un objeto "
-"interactúan con la finalización de esa instancia (<link xref=“#lifetimes”/>)"
+"interactúan con la finalización de esa instancia (<link xref=\"#lifetimes\"/>)"
 
 #. (itstool) path: section/title
 #: C/async-programming.page:68
@@ -592,8 +591,8 @@ msgid ""
 "use correctly than threads. They often also have a lower performance penalty "
 "than spawning a thread and sending work to it."
 msgstr ""
-"Como se discutió en <link xref=“main-contexts”/> y <link "
-"xref=“threading#when-to-use-threading”/>, las operaciones asíncronas "
+"Como se discutió en <link xref=\"main-contexts\"/> y <link "
+"xref=\"threading#when-to-use-threading\"/>, las operaciones asíncronas "
 "deberían ser favorecidas sobre las síncronas y sobre el uso explícito de "
 "hilos. No bloquean el contexto principal como las operaciones síncronas y "
 "son más fáciles de utilizar correctamente que los hilos. Frecuentemente "
@@ -675,7 +674,7 @@ msgid ""
 msgstr ""
 "Cuando se llama a <code>foo_file_load_data_async()</code>, planifica la "
 "carga de la operación en segundo plano (como un nuevo descriptor de un "
-"archivo en el <link xref=“main-contexts”><code>GMainContext</code></link> o "
+"archivo en el <link xref=\"main-contexts\"><code>GMainContext</code></link> o "
 "como un nuevo hilo activo, por ejemplo), después vuelve sin bloquear."
 
 #. (itstool) path: section/p
@@ -702,8 +701,8 @@ msgid ""
 msgstr ""
 "Desde el retorno de llamada <code>foo_file_data_finish()</code> se puede "
 "llamar por el código del usuario para obtener valores de retorno y detalles "
-"de error, pasando la instancia <link href=“https://developer.gnome.org/gio/"
-"stable/GAsyncResult.html”><code>GAsyncResult</code></link> que se pasó al "
+"de error, pasando la instancia <link href=\"https://developer.gnome.org/gio/"
+"stable/GAsyncResult.html\"><code>GAsyncResult</code></link> que se pasó al "
 "retorno de llamada."
 
 #. (itstool) path: section/title
@@ -758,9 +757,9 @@ msgid ""
 "\"><code>g_cancellable_cancel()</code></link>) in its dispose function."
 msgstr ""
 "La operación en curso <em>no</em> mantiene una referencia a la instancia de "
-"la clase, y la clase cancela la operación (usando <link href=“https://"
+"la clase, y la clase cancela la operación (usando <link href=\"https://"
 "developer.gnome.org/gio/stable/GCancellable.html#g-cancellable-"
-"cancel”><code>g_cancellable_cancel()</code></link>) en su función de "
+"cancel\"><code>g_cancellable_cancel()</code></link>) en su función de "
 "disposición."
 
 #. (itstool) path: section/p
@@ -1210,7 +1209,7 @@ msgid ""
 "indicates that the series of operations is ongoing. Cancelling it aborts the "
 "entire sequence."
 msgstr ""
-"Como en <link xref=“#single-call”/>, un único <code>GCancellable</code> "
+"Como en <link xref=\"#single-call\"/>, un único <code>GCancellable</code> "
 "indica que la serie de operaciones está en curso. Al cancelarlo se aborta "
 "toda la secuencia."
 
@@ -1221,7 +1220,7 @@ msgid ""
 "the owning <code>MyObject</code> instance is disposed, to prevent callbacks "
 "being called later with an invalid <code>MyObject</code> pointer."
 msgstr ""
-"Como en <link xref=“#single-call”/>, la operación pendiente se cancela si se "
+"Como en <link xref=\"#single-call\"/>, la operación pendiente se cancela si se "
 "elimina la instancia propietaria de <code>MyObject</code> para evitar que se "
 "llame a los retornos de función después con un puntero a <code>MyObject</"
 "code> no válido."
@@ -11451,7 +11450,7 @@ msgid ""
 "A full tutorial on using Clang is <link href=\"http://clang-analyzer.llvm."
 "org/scan-build.html\">here</link>."
 msgstr ""
-"<link href=“http://clang-analyzer.llvm.org/scan-build.html”>Aquí</link> "
+"<link href=\"http://clang-analyzer.llvm.org/scan-build.html\">Aquí</link> "
 "tiene un tutorial completo del uso de Clang."
 
 #. (itstool) path: section/title
@@ -11496,8 +11495,8 @@ msgid ""
 "here</link>. If set up correctly, the output from Tartan will be mixed "
 "together with the normal static analyzer output."
 msgstr ""
-"<link href=“http://people.collabora.com/~pwith/tartan/#usage-"
-"standalone”>Aquí</link> tiene un tutorial completo sobre la habilitación de "
+"<link href=\"http://people.collabora.com/~pwith/tartan/#usage-"
+"standalone\">Aquí</link> tiene un tutorial completo sobre la habilitación de "
 "Tartan para usarlo con el analizador estático de Clang. Si se configura "
 "correctamente, la salida del Tartan se mezclará junto con la salida normal "
 "del analizador estático."
@@ -11561,7 +11560,7 @@ msgid ""
 "(<link xref=\"#leak-checking\"/>)"
 msgstr ""
 "Ejecute todas las pruebas unitarias en Valgrind para comprobar si hay fugas "
-"y otros problemas. (<link xref=“#leak-checking”/>)"
+"y otros problemas. (<link xref=\"#leak-checking\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:50
@@ -11570,7 +11569,7 @@ msgid ""
 "(<link xref=\"#test-generation\"/>)"
 msgstr ""
 "Utilice herramientas apropiadas para generar pruebas unitarias "
-"automáticamente donde sea posible. (<link xref=“#test-generation”/>)"
+"automáticamente donde sea posible. (<link xref=\"#test-generation\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:54
@@ -11579,7 +11578,7 @@ msgid ""
 "testable-code\"/>)"
 msgstr ""
 "Diseñe el código para ser comprobable desde el principio. (<link "
-"xref=“#writing-testable-code”/>)"
+"xref=\"#writing-testable-code\"/>)"
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:62
@@ -11602,7 +11601,7 @@ msgid ""
 "test cases covered by project requirements, test everything."
 msgstr ""
 "Las pruebas unitarias deben escribirse junto con la observación de la  <link "
-"xref=“tooling#gcov-and-lcov”>información de cobertura obtenida de la "
+"xref=\"tooling#gcov-and-lcov\">información de cobertura obtenida de la "
 "ejecución de las pruebas</link>. Por lo general, esto significa escribir un "
 "conjunto inicial de pruebas unitarias, ejecutarlas para obtener datos de "
 "cobertura, luego volver a trabajar y expandirlas para aumentar los niveles "
@@ -11628,7 +11627,7 @@ msgid ""
 "be traced back to a specific API, rather than a generic ‘unit tests failed "
 "somewhere’ message."
 msgstr ""
-"Al igual que con <link xref=“version-control”>git commits</link>,  cada "
+"Al igual que con <link xref=\"version-control\">git commits</link>,  cada "
 "prueba unitaria debería ser “tan pequeña como sea posible, pero no más "
 "pequeña”, probando una sola API o comportamiento. Cada caso de prueba debe "
 "ser capaz de ejecutarse individualmente, sin depender del estado de otros "
@@ -11648,8 +11647,8 @@ msgid ""
 "test binary with the <cmd>-p</cmd> argument: <cmd>./test-suite-name -p /path/"
 "to/test/group</cmd>."
 msgstr ""
-"GLib tiene soporte para pruebas unitarias con su <link href=“https://"
-"developer.gnome.org/glib/stable/glib-Testing.html”>GTest framework</link>, "
+"GLib tiene soporte para pruebas unitarias con su <link href=\"https://"
+"developer.gnome.org/glib/stable/glib-Testing.html\">GTest framework</link>, "
 "que permite organizar las pruebas en grupos y jerarquías. Esto significa que "
 "los grupos de pruebas relacionadas también se pueden ejecutar juntos para "
 "una mejor depuración, ejecutando el binario de prueba con el argumento <cmd>-"
@@ -11668,8 +11667,8 @@ msgid ""
 "tests standard</link>."
 msgstr ""
 "Todas las pruebas unitarias deberían instalarse en todo el sistema, "
-"siguiendo el <link href=“https://wiki.gnome.org/Initiatives/GnomeGoals/"
-"InstalledTests”>estándar de pruebas instaladas</link>."
+"siguiendo el <link href=\"https://wiki.gnome.org/Initiatives/GnomeGoals/"
+"InstalledTests\">estándar de pruebas instaladas</link>."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:109
@@ -11817,10 +11816,10 @@ msgid ""
 msgstr ""
 "Una vez se han escrito pruebas unitarias con alta cobertura de código, se "
 "pueden ejecutar bajo varias herramientas de análisis dinámico, como <link "
-"xref=“tooling#valgrind”>Valgrind</link> para comprobar si hay fugas, errores "
+"xref=\"tooling#valgrind\">Valgrind</link> para comprobar si hay fugas, errores "
 "de ejecución de hilos, problemas de asignación, etc. en toda la base del "
 "código. Cuanto mayor sea la cobertura del código de las pruebas unitarias, "
-"más fiables serás los resultados de Valgrind. Véase <link xref=“tooling”/> "
+"más fiables serás los resultados de Valgrind. Véase <link xref=\"tooling\"/> "
 "para más información, incluyendo las instrucciones de integración de "
 "sistemas de compilación."
 
@@ -11856,7 +11855,7 @@ msgid ""
 msgstr ""
 "Ciertos tipos de código son bastante repetitivos y requieren muchas pruebas "
 "unitarias para obtener una buena cobertura; pero son apropiados para la "
-"<link href=“https://en.wikipedia.org/wiki/Test_data_generation”>generación "
+"<link href=\"https://en.wikipedia.org/wiki/Test_data_generation\">generación "
 "de datos de prueba</link>, donde se utiliza una herramienta para generar "
 "automáticamente vectores de prueba para el código. Esto puede reducir "
 "drásticamente el tiempo necesario para escribir pruebas unitarias para el "
@@ -11880,8 +11879,8 @@ msgstr ""
 "Un ejemplo de dominio dispuesto para probar la generación de datos es el "
 "análisis, donde los datos que se van a analizar deben seguir un esquema "
 "estricto — este es el caso de los documentos XML y JSON. Para JSON una "
-"herramienta como <link href=“http://people.collabora.com/~pwith/"
-"walbottle/“>Walbottle</link> se puede utilizar para generar vectores de "
+"herramienta como <link href=\"http://people.collabora.com/~pwith/"
+"walbottle/\">Walbottle</link> se puede utilizar para generar vectores de "
 "prueba para todo tipo de entradas válidas y no válidas de acuerdo con el "
 "esquema."
 
@@ -11892,8 +11891,8 @@ msgid ""
 "org/\">JSON Schema</link> defined for it, which can then be passed to "
 "Walbottle to generate test vectors:"
 msgstr ""
-"Cada tipo de documento JSON debe tener un <link href=“http://json-schema."
-"org/“>esquema JSON</link> definido para él, que luego puede  pasarse a "
+"Cada tipo de documento JSON debe tener un <link href=\"http://json-schema."
+"org/\">esquema JSON</link> definido para él, que luego puede  pasarse a "
 "Walbottle para generar vectores de prueba:"
 
 #. (itstool) path: section/code
@@ -12002,7 +12001,7 @@ msgid ""
 "<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Design "
 "for testability</link>"
 msgstr ""
-"<link href=“http://msdn.microsoft.com/en-us/magazine/dd263069.aspx”>Diseño "
+"<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Diseño "
 "para la comprobabilidad</link>"
 
 #. (itstool) path: item/p
@@ -12053,9 +12052,9 @@ msgid ""
 msgstr ""
 "git se utiliza como control de versiones para todos los proyecto de GNOME. "
 "Esta página asume un buen conocimiento de trabajo con git; algunos "
-"materiales introductorios están disponibles<link href=“https://www.atlassian."
-"com/git/tutorials/“>aquí</link>, y <link href=“https://training.github.com/"
-"kit/downloads/github-git-cheat-sheet.pdf”>aquí hay una chuleta de git</link>."
+"materiales introductorios están disponibles<link href=\"https://www.atlassian."
+"com/git/tutorials/\">aquí</link>, y <link href=\"https://training.github.com/"
+"kit/downloads/github-git-cheat-sheet.pdf\">aquí hay una chuleta de git</link>."
 
 #. (itstool) path: item/p
 #: C/version-control.page:34
@@ -12092,7 +12091,7 @@ msgid ""
 ">)"
 msgstr ""
 "Fusione los cambios de las ramas de características haciendo rebase.  (<link "
-"xref=“#use-of-git”/>)"
+"xref=\"#use-of-git\"/>)"
 
 #. (itstool) path: section/title
 #: C/version-control.page:55
@@ -12143,8 +12142,8 @@ msgid ""
 "Hide <link href=\"https://sethrobertson.github.io/GitBestPractices/#sausage"
 "\">sausage making</link> by squashing commits before merging."
 msgstr ""
-"Ocultar <link href=“https://sethrobertson.github.io/GitBestPractices/"
-"#sausage”>elaboración de salchichas</link> juntando los commits antes de "
+"Ocultar <link href=\"https://sethrobertson.github.io/GitBestPractices/"
+"#sausage\">elaboración de salchichas</link> juntando los commits antes de "
 "fusionarlos."
 
 #. (itstool) path: section/title
@@ -12206,8 +12205,8 @@ msgid ""
 "with-Git#Binary-Search\">bisection</link> is impossible."
 msgstr ""
 "Cada commit debe llevar el repositorio de un estado de trabajo a otro, de lo "
-"contrario la <link href=“http://git-scm.com/book/en/v2/Git-Tools-Debugging-"
-"with-Git#Binary-Search”>búsqueda binaria</link> es imposible."
+"contrario la <link href=\"http://git-scm.com/book/en/v2/Git-Tools-Debugging-"
+"with-Git#Binary-Search\">búsqueda binaria</link> es imposible."
 
 #. (itstool) path: item/p
 #: C/version-control.page:116
@@ -12365,7 +12364,7 @@ msgid ""
 "minor.micro</em>. (<link xref=\"#package-versioning\"/>)"
 msgstr ""
 "Las bibliotecas y aplicaciones tienen una versión de paquete de la forma "
-"<em>major.minor.micro</em>. (<link xref=“#package-versioning”/>)"
+"<em>major.minor.micro</em>. (<link xref=\"#package-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:36
@@ -12374,7 +12373,7 @@ msgid ""
 "revision:age</em>. (<link xref=\"#libtool-versioning\"/>)"
 msgstr ""
 "Las bibliotecas además tienen una versión de libtool de la forma <em>current:"
-"revision:age</em>. (<link xref=“#libtool-versioning”/>)"
+"revision:age</em>. (<link xref=\"#libtool-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:40
@@ -12383,7 +12382,7 @@ msgid ""
 "release increments). (<link xref=\"#release-process\"/>)"
 msgstr ""
 "Los números de versión deben actualizarse para cada versión (usando "
-"incrementos de versión y post-versión). (<link xref=“#release-process”/>)"
+"incrementos de versión y post-versión). (<link xref=\"#release-process\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:44
@@ -12392,7 +12391,7 @@ msgid ""
 "(<link xref=\"#package-versioning\"/>)"
 msgstr ""
 "Las versiones de paquete se deben incrementar  para cambios de "
-"características o adiciones. (<link xref=“#package-versioning”/>)"
+"características o adiciones. (<link xref=\"#package-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:48
@@ -12401,7 +12400,7 @@ msgid ""
 "\"#libtool-versioning\"/>)"
 msgstr ""
 "Las versiones de Libtool deben actualizarse para cambios o adiciones de API. "
-"(<link xref=“#libtool-versioning”/>)"
+"(<link xref=\"#libtool-versioning\"/>)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:52
@@ -12410,8 +12409,8 @@ msgid ""
 "unstable releases. (<link xref=\"#stable-unstable-versions\"/>)"
 msgstr ""
 "Las versiones <em>menores</em> pares/impares de paquetes se pueden usar "
-"respectivamente para versiones estables/inestables. (<link xref=“#stable-"
-"unstable-versions”/>)"
+"respectivamente para versiones estables/inestables. (<link xref=\"#stable-"
+"unstable-versions\"/>)"
 
 #. (itstool) path: section/title
 #: C/versioning.page:60
@@ -12441,8 +12440,8 @@ msgstr ""
 "y el que se suele conocer como número de versión del proyecto. Por ejemplo, "
 "el paquete Debian para una biblioteca  utilizará la versión del paquete de "
 "la biblioteca (aunque también puede incluir el numero de versión principal "
-"en el nombre del paquete para permitir <link xref=“parallel-"
-"installability”>instabilidad en paralelo</link>). Las versiones del paquete "
+"en el nombre del paquete para permitir <link xref=\"parallel-"
+"installability\">instabilidad en paralelo</link>). Las versiones del paquete "
 "son actualizadas con las siguientes reglas:"
 
 #. (itstool) path: item/p
@@ -12452,7 +12451,7 @@ msgid ""
 "library, or making a large change to an application which affects everything "
 "(such as a UI redesign), increment major and set minor and micro to 0."
 msgstr ""
-"Si en una biblioteca se rompe <link xref=“api-stability”>la compatibilidad "
+"Si en una biblioteca se rompe <link xref=\"api-stability\">la compatibilidad "
 "API</link>, o se hace un gran cambio a una aplicación que afecta a todo "
 "(como un rediseño de IU), incremente la  versión principal, y establezca la "
 "menor y la micro a 0."
