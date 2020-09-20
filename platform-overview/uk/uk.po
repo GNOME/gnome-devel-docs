@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-19 21:51+0300\n"
+"PO-Revision-Date: 2020-09-20 13:24+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -4686,6 +4686,11 @@ msgid ""
 "authenticate the user, it provides the option to store the password, either "
 "in the default keyring or in the session keyring."
 msgstr ""
+"Якщо ви користуєтеся <link xref=\"tech-gio\">GIO</link> для доступу до"
+" віддалених серверів, ви автоматично отримаєте усі переваги засобу керування"
+" сховищем ключів. Кожного разу, коли GIO потребує розпізнавання користувача,"
+" програма пропонує зберегти пароль, або у типовому сховищі ключів, або у"
+" сховищі ключів сеансу."
 
 #. (itstool) path: page/p
 #: C/tech-secret.page:60
@@ -4695,6 +4700,10 @@ msgid ""
 "manager provides a better user experience while still keeping user data safe "
 "and secure."
 msgstr ""
+"Вам слід використовувати засіб для керування сховищем ключів усюди, де ваша"
+" програма має зберігати паролі або інші конфіденційні дані користувачів."
+" Використання засобу керування сховищем ключів робить користування програмою"
+" зручнішим, одночасно підтримуючи безпеку і захист даних."
 
 #. (itstool) path: note/p
 #: C/tech-secret.page:66
@@ -4704,6 +4713,10 @@ msgid ""
 "keyring service between GNOME and other desktop environments and "
 "applications."
 msgstr ""
+"У GNOME до версії 3.6 було використано бібліотеку із назвою gnome-keyring."
+" Починаючи з версії 3.6, замість неї використано libsecret. Нова бібліотека"
+" уможливила спільне використання служби сховища ключів у GNOME та інших"
+" стільничних середовищах та програмах."
 
 #. (itstool) path: item/p
 #: C/tech-secret.page:75
@@ -4731,6 +4744,10 @@ msgid ""
 "used in graphical applications which need asynchronous operations to avoid "
 "blocking the user interface while network requests are going on."
 msgstr ""
+"Soup або libsoup, як її часто називають, — бібліотека HTTP, яку розроблено"
+" для використання у програмах із графічним інтерфейсом там, де потрібні"
+" асинхронні операції для уникнення блокування інтерфейсу користувача на час"
+" виконання запитів до мережі."
 
 #. (itstool) path: page/p
 #: C/tech-soup.page:28
@@ -4749,6 +4766,10 @@ msgid ""
 "frequently confuse the words \"soup\" and \"soap\", and this seemed like a "
 "funny and interesting name to use."
 msgstr ""
+"Несуттєве пояснення: Soup називається «soup» («суп»), оскільки започатковано"
+" як бібліотеку для виконання запитів SOAP крізь HTTP. Іспаномовні люди, які"
+" вивчають англійську, часто плутають слова «soup» (суп) і «soap» («мило»)."
+" Здається, це смішна і цікава назва бібліотеки."
 
 #. (itstool) path: item/p
 #: C/tech-soup.page:43
@@ -4785,6 +4806,8 @@ msgid ""
 "Several libraries are available to do spell-checking related tasks: Enchant "
 "and gspell."
 msgstr ""
+"Перевірка правопису та пов'язані завдання здійснюється за допомогою декількох"
+" бібліотек: Enchant і gspell."
 
 #. (itstool) path: page/p
 #: C/tech-spell-checking.page:32
@@ -4794,6 +4817,10 @@ msgid ""
 "integrates spell-checking for GTK text widgets (both <code>GtkEntry</code> "
 "and <code>GtkTextView</code>)."
 msgstr ""
+"Enchant надає у ваше розпорядження низькорівневий інтерфейс. Ви можете"
+" перевірити правопис слова або отримати список пропозицій щодо неправильно"
+" написаного слова. На вищому рівні, gspell інтегрує перевірку правопису до"
+" текстових віджетів GTK (і <code>GtkEntry</code>, і <code>GtkTextView</code>)."
 
 #. (itstool) path: page/p
 #: C/tech-spell-checking.page:39
@@ -4801,6 +4828,9 @@ msgid ""
 "In GNOME, those libraries get used in text-heavy applications like gedit (a "
 "text editor) and Epiphany (a web browser, for text entry in web forms)."
 msgstr ""
+"У GNOME ці бібліотеки використовують у програмах, які тісно працюють із"
+" текстом, зокрема у gedit (текстовому редакторі) і Epiphany (веббраузер, для"
+" введення тексту до вебформ)."
 
 #. (itstool) path: item/p
 #: C/tech-spell-checking.page:45
@@ -4838,6 +4868,12 @@ msgid ""
 "deeply integrated into the GNOME desktop. Applications can tie into this "
 "service to communicate with contacts."
 msgstr ""
+"Програма Telepathy надає потужні бібліотеки для взаємодії із контактами"
+" миттєвого обміну повідомленнями користувача. За допомогою Telepathy усі"
+" облікові записи і з'єднання обробляються службою сеансів <link"
+" xref=\"tech-d-bus\">D-Bus</link>, яку тісно інтегровано із GNOME. Програми"
+" можуть прив'язуватися до цієї служби для того, щоб обмінюватися даним з"
+" контактами."
 
 #. (itstool) path: page/p
 #: C/tech-telepathy.page:34
@@ -4847,6 +4883,12 @@ msgid ""
 "applications. You can create multi-player games or collaborative editors "
 "that integrate with the desktop-wide instant messaging services."
 msgstr ""
+"За допомогою програмного інтерфейсу Telepathy Tubes ви навіть можете"
+" тунелювати довільний протокол крізь сучасні протоколи миттєвого обміну"
+" повідомленнями, подібні до Jabber, для створення інтерактивних програм. ви"
+" можете створювати ігри із багатьма гравцями або редактори для спільної"
+" роботи, які інтегруються із загальностільничними службами миттєвого обміну"
+" повідомленнями."
 
 #. (itstool) path: item/p
 #: C/tech-telepathy.page:41
@@ -4883,6 +4925,11 @@ msgid ""
 "author:William Shakespeare</code>. A standardized set of triplet forms is "
 "called an <em>ontology</em>."
 msgstr ""
+"Tracker — рушій зберігання RDF (формату даних ресурсів). RDF складається з <"
+"em>триплетів</em>, зокрема комбінацій тема:дія:об'єкт. Наприклад, можуть бути"
+" стандартні триплети для заголовків книг та авторів, зокрема <code"
+">Othello:has-author:William Shakespeare</code>. Стандартний набір форм"
+" триплетів називається <em>онтологією</em>."
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:30
@@ -4905,6 +4952,17 @@ msgid ""
 "\">Dublin Core</link> for document metadata, and <link href=\"http://nepomuk."
 "kde.org/\">NEPOMUK</link> for annotations, files, contacts and other items."
 msgstr ""
+"GNOME використовує Tracker як сховище для метаданих документів. Метадані"
+" документа можуть включати його заголовок, авторів, авторські права, дату"
+" внесення змін та ключові слова. Усі ці метадані зберігаються як триплети RDF"
+" у Tracker. Запити щодо них подаються за допомогою SPARQL програмами,"
+" подібними до «Документів» GNOME. Вибір <link"
+" href=\"http://developer.gnome.org/ontology/unstable/\">використаної"
+" онтології</link> засновано на різноманітних стандартних підонтологіях: <link"
+" href=\"http://dublincore.org/"
+"\">Dublin Core</link> для метаданих документів і <link"
+" href=\"http://nepomuk.kde.org/\">NEPOMUK</link> для анотацій, файлів,"
+" записів контактів та інших даних."
 
 #. (itstool) path: item/p
 #: C/tech-tracker.page:46
@@ -4943,6 +5001,13 @@ msgid ""
 "developer platform. WebKitGTK is developed upstream as part of the main "
 "WebKit project, so it's always up to date with the latest HTML5 features."
 msgstr ""
+"WebKit потужний рушій обробки HTML, який працює на багатьох платформах і"
+" використовується у продуктах із відкритим кодом та комерційних і"
+" пропрієтарних продуктах. WebKitGTK є портом WebKit, побудованим на основі <"
+"link xref=\"tech-gtk\">GTK</link> та інтегрованим до платформи для"
+" розробників GNOME. WebKitGTK розробляється у основній гілці розробки проєкту"
+" WebKit, тому у ньому використовується найсвіжіший код та найновіші"
+" можливості HTML5."
 
 #. (itstool) path: page/p
 #: C/tech-webkit.page:34
@@ -4951,6 +5016,9 @@ msgid ""
 "use HTML5 and associated technologies to create dynamic user interfaces "
 "quickly."
 msgstr ""
+"WebKitGTK спрощує додавання до вашої програми можливостей із перегляду"
+" сторінок інтернету та використання HTML5 та пов'язаних технологій для"
+" швидкого створення динамічних інтерфейсів користувача."
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:39
@@ -5097,6 +5165,10 @@ msgid ""
 "existing Gtk event <code>_onActivate</code> and <code>startup</code> to "
 "<code>_onStartup</code>:"
 msgstr ""
+"<code>constructor</code> викликають при створенні нового екземпляра. Створіть"
+" <code>GtkApplication</code> і з'єднайте <code>activate</code> із наявною"
+" подією Gtk <code>_onActivate</code>, а <code>startup</code> — із "
+"<code>_onStartup</code>:"
 
 #. (itstool) path: example/code
 #: C/tour-events.page:46
@@ -5155,6 +5227,10 @@ msgid ""
 "this case, the UI description is in the file <file>helloworld.glade</file> "
 "and can be read by the <code>get_object()</code> method."
 msgstr ""
+"GtkBuilder отримує описи інтерфейсу користувача і перетворює їх на програми"
+" Gtk. У цьому випадку опис інтерфейсу користувача зберігається у файлі <file"
+">helloworld.glade</file>, а прочитати його можна за допомогою методу <code"
+">get_object()</code>."
 
 #. (itstool) path: example/p
 #: C/tour-get_object.page:38
@@ -5163,6 +5239,9 @@ msgid ""
 "using the <gui>Name</gui> (or <gui>ID</gui>) chosen in Glade, and add the "
 "window object to the application:"
 msgstr ""
+"Завантажте файл інтерфейсу користувача за допомогою <code>GtkBuilder</code>,"
+" отримайте об'єкт вікна за допомогою вибору полів <gui>Назва</gui> (або <gui"
+">Ідентифікатор</gui>) у Glade і додайте об'єкт вікна до програми:"
 
 #. (itstool) path: example/code
 #: C/tour-get_object.page:42
@@ -5204,6 +5283,10 @@ msgid ""
 "href=\"http://www.gtk.org/\">Gtk</link> is a toolkit for creating graphical "
 "user interfaces."
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/Gjs\">Gjs</link> — прив'язка до"
+" JavaScript для GNOME. Нею можна скористатися для взаємодії із Gtk. <link"
+" href=\"http://www.gtk.org/\">Gtk</link> — набір інструментів для створення"
+" графічних інтерфейсів користувача."
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:35
@@ -5211,6 +5294,8 @@ msgid ""
 "Open a text editor and paste in the lines of code. The complete script is "
 "available in the <link xref=\"tour-summary\">Summary</link>."
 msgstr ""
+"Відкрийте текстовий редактор і вставте до нього ці рядки коду. Повний текст"
+" скрипту можна знайти у <link xref=\"tour-summary\">резюме</link>."
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:37
@@ -5227,6 +5312,8 @@ msgid ""
 "Call the Gjs JavaScript binding. This instructs the shell to run this script "
 "with Gjs."
 msgstr ""
+"Викличте прив'язку Gjs до JavaScript. Це призведе до запуску цього скрипту з"
+" використанням Gjs."
 
 #. (itstool) path: example/code
 #: C/tour-gjs.page:42
@@ -5289,6 +5376,9 @@ msgid ""
 "Glade is the ID that you will later need to use to get the object from the "
 "UI file."
 msgstr ""
+"При створенні файла інтерфейсу користувача за допомогою Glade, <gui"
+">Ідентифікатором</gui>, який ви вказуєте у Glade, є ідентифікатор, який"
+" пізніше знадобиться вам для отримання об'єкта з файла інтерфейсу користувача."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:41
@@ -5348,6 +5438,9 @@ msgid ""
 "editor for GNOME. Glade produces XML files that describe attributes of an "
 "application."
 msgstr ""
+"Інтерфейс користувача (User interface або UI) можна побудувати за допомогою"
+" коду або створити у Glade, редакторі інтерфейсів користувача для GNOME."
+" Glade створює файли XML із описом атрибутів вікна програми."
 
 #. (itstool) path: page/p
 #: C/tour.page:38
@@ -5356,6 +5449,9 @@ msgid ""
 "based on the contents of that file with a Gjs script. The script is examined "
 "in multiple parts and included in full in the summary."
 msgstr ""
+"Ви створите файл GtkBuilder у Glade і отримаєте доступ до вікна на основі"
+" вмісту цього файла і покажете це вікно за допомогою скрипту Gjs. Розбір"
+" різних частин скрипту та повний його текст включено до резюме."
 
 #. (itstool) path: info/desc
 #: C/tour-summary.page:22
