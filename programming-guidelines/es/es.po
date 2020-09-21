@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2020-09-12 16:24+0000\n"
-"PO-Revision-Date: 2020-09-14 17:05+0200\n"
+"POT-Creation-Date: 2020-09-19 09:15+0000\n"
+"PO-Revision-Date: 2020-09-21 08:32+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -498,8 +498,8 @@ msgid ""
 "Learn and follow the GLib pattern for declaring asynchronous APIs (<link "
 "xref=\"#api-pattern\"/>)"
 msgstr ""
-"Aprenda y siga el patrón de GLib para declarar API asíncronas (<link "
-"xref=\"#api-pattern\"/>)"
+"Aprenda y siga el patrón de GLib para declarar API asíncronas (<link xref="
+"\"#api-pattern\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:37
@@ -508,8 +508,8 @@ msgid ""
 "control flow is easy to follow (<link xref=\"#single-call\"/>)"
 msgstr ""
 "Coloque el retorno de llamadas de funciones asíncronas en orden descendente "
-"del archivo para que el control del flujo sea fácil de seguir (<link "
-"xref=\"#single-call\"/>)"
+"del archivo para que el control del flujo sea fácil de seguir (<link xref="
+"\"#single-call\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:41
@@ -521,10 +521,10 @@ msgid ""
 "<link xref=\"#gtask\"/>)"
 msgstr ""
 "Use la presencia de un <link href=\"https://developer.gnome.org/gio/stable/"
-"GTask.html\"><code>GTask</code></link> o <link href=\"https://developer.gnome."
-"org/gio/stable/GCancellable.html\"><code>GCancellable</code></link> para "
-"indicar si una operación está en curso (<link xref=\"#single-call\"/>, <link "
-"xref=\"#gtask\"/>)"
+"GTask.html\"><code>GTask</code></link> o <link href=\"https://developer."
+"gnome.org/gio/stable/GCancellable.html\"><code>GCancellable</code></link> "
+"para indicar si una operación está en curso (<link xref=\"#single-call\"/>, "
+"<link xref=\"#gtask\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:48
@@ -535,7 +535,8 @@ msgid ""
 msgstr ""
 "Si ejecuta operaciones en paralelo, realice un seguimiento de cuántas "
 "operaciones aún deben comenzar y cuántas aún deben finalizar — la operación "
-"global se completa una vez que ambos recuentos son cero (<link xref=\"#parallel\"/>)"
+"global se completa una vez que ambos recuentos son cero (<link xref="
+"\"#parallel\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:54
@@ -548,8 +549,8 @@ msgstr ""
 "Separe el estado de las operaciones en estructuras ‘task data’ para <link "
 "href=\"https://developer.gnome.org/gio/stable/GTask.html\"><code>GTask</"
 "code>s</link>, permitiendo que se reutilicen las operaciones más fácilmente "
-"sin necesidad de cambios en la gestión del estado global (<link "
-"xref=\"#gtask\"/>)"
+"sin necesidad de cambios en la gestión del estado global (<link xref=\"#gtask"
+"\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:60
@@ -558,7 +559,8 @@ msgid ""
 "finalization of that instance (<link xref=\"#lifetimes\"/>)"
 msgstr ""
 "Considere cómo los métodos asíncronos en una instancia de un objeto "
-"interactúan con la finalización de esa instancia (<link xref=\"#lifetimes\"/>)"
+"interactúan con la finalización de esa instancia (<link xref=\"#lifetimes\"/"
+">)"
 
 #. (itstool) path: section/title
 #: C/async-programming.page:68
@@ -591,13 +593,12 @@ msgid ""
 "use correctly than threads. They often also have a lower performance penalty "
 "than spawning a thread and sending work to it."
 msgstr ""
-"Como se discutió en <link xref=\"main-contexts\"/> y <link "
-"xref=\"threading#when-to-use-threading\"/>, las operaciones asíncronas "
-"deberían ser favorecidas sobre las síncronas y sobre el uso explícito de "
-"hilos. No bloquean el contexto principal como las operaciones síncronas y "
-"son más fáciles de utilizar correctamente que los hilos. Frecuentemente "
-"tienen una menor penalización en el rendimiento que generar un hilo y "
-"enviarle trabajo."
+"Como se discutió en <link xref=\"main-contexts\"/> y <link xref="
+"\"threading#when-to-use-threading\"/>, las operaciones asíncronas deberían "
+"ser favorecidas sobre las síncronas y sobre el uso explícito de hilos. No "
+"bloquean el contexto principal como las operaciones síncronas y son más "
+"fáciles de utilizar correctamente que los hilos. Frecuentemente tienen una "
+"menor penalización en el rendimiento que generar un hilo y enviarle trabajo."
 
 #. (itstool) path: section/title
 #: C/async-programming.page:89
@@ -674,8 +675,8 @@ msgid ""
 msgstr ""
 "Cuando se llama a <code>foo_file_load_data_async()</code>, planifica la "
 "carga de la operación en segundo plano (como un nuevo descriptor de un "
-"archivo en el <link xref=\"main-contexts\"><code>GMainContext</code></link> o "
-"como un nuevo hilo activo, por ejemplo), después vuelve sin bloquear."
+"archivo en el <link xref=\"main-contexts\"><code>GMainContext</code></link> "
+"o como un nuevo hilo activo, por ejemplo), después vuelve sin bloquear."
 
 #. (itstool) path: section/p
 #: C/async-programming.page:130
@@ -758,9 +759,8 @@ msgid ""
 msgstr ""
 "La operación en curso <em>no</em> mantiene una referencia a la instancia de "
 "la clase, y la clase cancela la operación (usando <link href=\"https://"
-"developer.gnome.org/gio/stable/GCancellable.html#g-cancellable-"
-"cancel\"><code>g_cancellable_cancel()</code></link>) en su función de "
-"disposición."
+"developer.gnome.org/gio/stable/GCancellable.html#g-cancellable-cancel"
+"\"><code>g_cancellable_cancel()</code></link>) en su función de disposición."
 
 #. (itstool) path: section/p
 #: C/async-programming.page:178
@@ -1220,9 +1220,9 @@ msgid ""
 "the owning <code>MyObject</code> instance is disposed, to prevent callbacks "
 "being called later with an invalid <code>MyObject</code> pointer."
 msgstr ""
-"Como en <link xref=\"#single-call\"/>, la operación pendiente se cancela si se "
-"elimina la instancia propietaria de <code>MyObject</code> para evitar que se "
-"llame a los retornos de función después con un puntero a <code>MyObject</"
+"Como en <link xref=\"#single-call\"/>, la operación pendiente se cancela si "
+"se elimina la instancia propietaria de <code>MyObject</code> para evitar que "
+"se llame a los retornos de función después con un puntero a <code>MyObject</"
 "code> no válido."
 
 #. (itstool) path: example/p
@@ -11495,9 +11495,9 @@ msgid ""
 "here</link>. If set up correctly, the output from Tartan will be mixed "
 "together with the normal static analyzer output."
 msgstr ""
-"<link href=\"http://people.collabora.com/~pwith/tartan/#usage-"
-"standalone\">Aquí</link> tiene un tutorial completo sobre la habilitación de "
-"Tartan para usarlo con el analizador estático de Clang. Si se configura "
+"<link href=\"http://people.collabora.com/~pwith/tartan/#usage-standalone"
+"\">Aquí</link> tiene un tutorial completo sobre la habilitación de Tartan "
+"para usarlo con el analizador estático de Clang. Si se configura "
 "correctamente, la salida del Tartan se mezclará junto con la salida normal "
 "del analizador estático."
 
@@ -11577,8 +11577,8 @@ msgid ""
 "Design code to be testable from the beginning. (<link xref=\"#writing-"
 "testable-code\"/>)"
 msgstr ""
-"Diseñe el código para ser comprobable desde el principio. (<link "
-"xref=\"#writing-testable-code\"/>)"
+"Diseñe el código para ser comprobable desde el principio. (<link xref="
+"\"#writing-testable-code\"/>)"
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:62
@@ -11816,12 +11816,12 @@ msgid ""
 msgstr ""
 "Una vez se han escrito pruebas unitarias con alta cobertura de código, se "
 "pueden ejecutar bajo varias herramientas de análisis dinámico, como <link "
-"xref=\"tooling#valgrind\">Valgrind</link> para comprobar si hay fugas, errores "
-"de ejecución de hilos, problemas de asignación, etc. en toda la base del "
-"código. Cuanto mayor sea la cobertura del código de las pruebas unitarias, "
-"más fiables serás los resultados de Valgrind. Véase <link xref=\"tooling\"/> "
-"para más información, incluyendo las instrucciones de integración de "
-"sistemas de compilación."
+"xref=\"tooling#valgrind\">Valgrind</link> para comprobar si hay fugas, "
+"errores de ejecución de hilos, problemas de asignación, etc. en toda la base "
+"del código. Cuanto mayor sea la cobertura del código de las pruebas "
+"unitarias, más fiables serás los resultados de Valgrind. Véase <link xref="
+"\"tooling\"/> para más información, incluyendo las instrucciones de "
+"integración de sistemas de compilación."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:183
@@ -11879,10 +11879,9 @@ msgstr ""
 "Un ejemplo de dominio dispuesto para probar la generación de datos es el "
 "análisis, donde los datos que se van a analizar deben seguir un esquema "
 "estricto — este es el caso de los documentos XML y JSON. Para JSON una "
-"herramienta como <link href=\"http://people.collabora.com/~pwith/"
-"walbottle/\">Walbottle</link> se puede utilizar para generar vectores de "
-"prueba para todo tipo de entradas válidas y no válidas de acuerdo con el "
-"esquema."
+"herramienta como <link href=\"http://people.collabora.com/~pwith/walbottle/"
+"\">Walbottle</link> se puede utilizar para generar vectores de prueba para "
+"todo tipo de entradas válidas y no válidas de acuerdo con el esquema."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:216
@@ -12052,9 +12051,10 @@ msgid ""
 msgstr ""
 "git se utiliza como control de versiones para todos los proyecto de GNOME. "
 "Esta página asume un buen conocimiento de trabajo con git; algunos "
-"materiales introductorios están disponibles<link href=\"https://www.atlassian."
-"com/git/tutorials/\">aquí</link>, y <link href=\"https://training.github.com/"
-"kit/downloads/github-git-cheat-sheet.pdf\">aquí hay una chuleta de git</link>."
+"materiales introductorios están disponibles<link href=\"https://www."
+"atlassian.com/git/tutorials/\">aquí</link>, y <link href=\"https://training."
+"github.com/kit/downloads/github-git-cheat-sheet.pdf\">aquí hay una chuleta "
+"de git</link>."
 
 #. (itstool) path: item/p
 #: C/version-control.page:34
@@ -12440,9 +12440,9 @@ msgstr ""
 "y el que se suele conocer como número de versión del proyecto. Por ejemplo, "
 "el paquete Debian para una biblioteca  utilizará la versión del paquete de "
 "la biblioteca (aunque también puede incluir el numero de versión principal "
-"en el nombre del paquete para permitir <link xref=\"parallel-"
-"installability\">instabilidad en paralelo</link>). Las versiones del paquete "
-"son actualizadas con las siguientes reglas:"
+"en el nombre del paquete para permitir <link xref=\"parallel-installability"
+"\">instabilidad en paralelo</link>). Las versiones del paquete son "
+"actualizadas con las siguientes reglas:"
 
 #. (itstool) path: item/p
 #: C/versioning.page:77
