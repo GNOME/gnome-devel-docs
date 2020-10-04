@@ -1,3 +1,14 @@
+3.38.1
+======
+* Fixed broken markup in Spanish translation (Andre Klapper)
+* Typo fixes (Yuri Chornoivan)
+* Updated translations:
+  cs    (Marek Černocký)
+  de    (Mario Blättermann)
+  es    (Daniel Mustieles, Javier Mazorra)
+  sv    (Anders Jonsson)
+  uk    (Yuri Chornoivan)
+
 3.38.0
 ======
 * Updated translations:
