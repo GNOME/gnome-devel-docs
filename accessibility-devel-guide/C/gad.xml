@@ -55,16 +55,14 @@ hand-eye coordination (such as moving the mouse) can cause problems for these us
 The Accessibility Toolkit (ATK) describes a set of interfaces that need to be implemented by GUI components to make them accessible. The interfaces are toolkit-independent - implementations could be written for any widget set, such as GTK, Motif or Qt.
 </para>
 <para>
-The implementation for the GTK widgets is in a module called GAIL (GNOME Accessibility Implementation Library), which is dynamically loadable at runtime by a GTK application. Once
-loaded, those parts of your application that use standard GTK widgets will have a basic level of accessibility, without you having to modify your application at all. If GAIL is not
-loaded, GTK widgets will have a default accessibility implementation that essentially returns no information, though it nominally conforms to the ATK API. Applications which use
-Bonobo controls, particularly out-of-process ones, also load accessibility support code from module libgail-gnome. Whether or not applications on the GNOME desktop automatically load these accessibility support libraries depends on the value of a <application>gconf</application> key, "/desktop/gnome/interface/accessibility"; a boolean value of "true" enables support for assistive technologies and applications which call gnome_program_init will automatically load the appropriate accessibility libraries at runtime. "Pure GTK+ applications", e.g. those that use gtk+ but do not link to libgnome, rely on the value of the GTK_MODULES environment variable, which must be set to "gail:atk-bridge" in order to enable assistive technology support.
+The implementation for the GTK widgets is done via the GtkAccessible class. It is the base class for accessible implementations for GtkWidget subclasses. It is a thin wrapper around AtkObject, which adds facilities for associating a widget with its accessible object. Those parts of your application that use standard GTK widgets will have a basic level of accessibility, without you having to modify your application at all.
 </para>
 <para>
 Most assistive technologies running on other desktops have historically found it necessary to maintain a complex off-screen model of
 the desktop applications, based on snooping of OS events, use of unsupported OS and application features and API, and other highly
 non-portable techniques. This has made assistive technology support somewhat "brittle" and highly OS- and application-specific, even application-version specific. In contrast, on the GNOME Desktop, all the information required by the ATs is provided by the running applications, via the GNOME Accessibility Framework, to a toolkit-independent Service Provider Interface (SPI). The SPI provides a means for UNIX-based ATs, such as screen readers and screen magnifiers, to obtain accessibility information from running applications via a consistent, stable API, and can eliminate the need for an off-screen model in many cases. Accessibility support for applications is "built in" to application toolkits via toolkit-appropriate APIs (for instance, ATK for most native C applications and the Java Accessibility API for Java apps), and exported to the common "AT-SPI" interface via the relevant "bridge" (see diagram below).
 </para>
+<!--
 <figure id="gad-architecture">
 <title>GNOME Accessibility Architecture</title>
 <mediaobject>
@@ -76,6 +74,7 @@ non-portable techniques. This has made assistive technology support somewhat "br
 </textobject>
 </mediaobject>
 </figure>
+-->
 <para>
 GNOME's built-in accessibility support means that applications created using stock GNOME widgets get support for assistive technologies "for free", provided the widgets are not used in unusual ways which conflict with this built-in support.
 </para>
@@ -90,7 +89,7 @@ Though GNOME's built-in accessibility support provides significant functionality
 If your application uses custom widgets, you may have to do some work to expose those widgets' properties to assistive technologies. See <link linkend="gad-custom">Making Custom Components Accessible</link> and <link linkend="gad-api-examples">Examples that Use the Accessibility API</link> for more information.
 </para>
 <para>
-For additional, in-depth information regarding GTK/GTK+, see the <ulink url="http://library.gnome.org/devel/gtk">GTK+ Reference Manual</ulink>, <ulink url="http://live.gnome.org/GAP/AtkGuide/Gtk">the GTK section of the ATK Guide</ulink>, the GNOME-hosted <ulink url="http://library.gnome.org/devel/gtk-tutorial/stable/">GTK+ 2.0 Tutorial</ulink> and the official <ulink url="http://library.gnome.org/devel/gtk-faq/stable/">GTK+ FAQ</ulink>.
+For additional, in-depth information regarding GTK/GTK+, see the <ulink url="https://developer.gnome.org/gtk3/">GTK+ Reference Manual</ulink>, the outdated <ulink url="https://developer.gnome.org/gtk-tutorial/stable/">GTK+ 2.0 Tutorial</ulink> and the official <ulink url="https://developer.gnome.org/gtk3/stable/gtk-question-index.html">GTK+ FAQ</ulink>.
 </para>
 </section>
 
@@ -129,7 +128,7 @@ See <link linkend="gad-custom">Making Custom Components Accessible</link> and <l
 </section>
 
 <section id="dev-start-5">
-<title>Introducing ATK, AT-SPI, GAIL and GTK+</title>
+<title>Introducing ATK, AT-SPI and GTK+</title>
 <screenshot>
 <mediaobject>
 <imageobject>
@@ -143,19 +142,17 @@ GNOME Accessibility Architecture
 </mediaobject>
 </screenshot>
 <para>
-ATK is the toolkit that GNOME uses to enable accessibility for users needing extra support to make the most of their computers. ATK is used by tools such as screen readers, magnifiers, and input devices to permit a rich interaction with the desktop through alternative means. See <ulink url="http://java-gnome.sourceforge.net/4.0/doc/api/org/gnome/atk/package-summary.html">the ATK SourceForge Project</ulink> and <ulink url="http://library.gnome.org/devel/atk/stable/">the ATK Library</ulink> for more information.
+ATK is the toolkit that GNOME uses to enable accessibility for users needing extra support to make the most of their computers. ATK is used by tools such as screen readers, magnifiers, and input devices to permit a rich interaction with the desktop through alternative means. See <ulink url="http://java-gnome.sourceforge.net/doc/api/4.1/org/gnome/atk/package-summary.html">the ATK SourceForge Project</ulink> and <ulink url="https://developer.gnome.org/atk/stable/">the ATK Library</ulink> for more information.
 </para>
 <para>
-AT-SPI is the primary service interface by which assistive technologies query and receive notifications from running applications. The full API can be explored <ulink url="http://library.gnome.org/devel/at-spi-cspi/stable/">here</ulink>. Additional material is available from <ulink url="http://accessibility.kde.org/developer/atk.php#coreclasses">the KDE Accessibility Development Community</ulink>.
-</para>
-<para>
-GAIL (GNOME Accessibility Implementation Library) is an implementation of the accessibility interfaces defined by ATK. GTK is a toolkit which is already mapped to ATK by the GAIL module. License, download and other information can be found <ulink url="http://www.t2-project.org/packages/gail.html">here</ulink>. The <ulink url="ftp://ftp.gnome.org/pub/GNOME/sources/gail/">GAIL source code</ulink> also serves as an excellent tutorial for advanced ATK usage. In addition, you may be interested in the <ulink url="http://library.gnome.org/devel/gail-libgail-util/stable/">GAIL Reference Manual</ulink>.
+AT-SPI is the primary service interface by which assistive technologies query and receive notifications from running applications. The full API can be explored <ulink url="https://developer.gnome.org/at-spi-cspi/stable/">here</ulink>.
 </para>
 <para>
 GTK+ is a library for creating graphical user interfaces. It works on many UNIX-like platforms, Windows, and on framebuffer devices. GTK+ is released under the GNU Library General Public License (GNU LGPL), which allows for flexible licensing of client applications. GTK+ has a C-based object-oriented architecture that allows for maximum flexibility. Bindings for other languages have been written, including C++, Objective-C, Guile/Scheme, Perl, Python, TOM, Ada95, Free Pascal, and Eiffel.
+Its GtkAccessible class is the base class for accessible implementations for GtkWidget subclasses. It is a thin wrapper around AtkObject, which adds facilities for associating a widget with its accessible object.
 </para>
 <para>
-For additional, in-depth information regarding GTK/GTK+, see the <ulink url="http://library.gnome.org/devel/gtk">GTK+ Reference Manual</ulink>, <ulink url="http://wiki.gnome.org/Accessibility/Documentation/GNOME2/AtkGuide/Gtk">the GTK section of the ATK Guide</ulink>, the GNOME-hosted <ulink url="http://library.gnome.org/devel/gtk-tutorial/stable/">GTK+ 2.0 Tutorial</ulink> and the official <ulink url="http://library.gnome.org/devel/gtk-faq/stable/">GTK+ FAQ</ulink>.
+For additional, in-depth information regarding GTK/GTK+, see the <ulink url="https://developer.gnome.org/gtk3/">GTK+ Reference Manual</ulink>, <ulink url="https://wiki.gnome.org/Accessibility/Documentation/GNOME2/AtkGuide/Gtk">the GTK section of the ATK Guide</ulink>, the outdated GNOME-hosted <ulink url="https://developer.gnome.org/gtk-tutorial/stable/">GTK+ 2.0 Tutorial</ulink> and the official <ulink url="https://developer.gnome.org/gtk3/stable/gtk-question-index.html">GTK+ FAQ</ulink>.
 </para>
 </section>
 </section>
@@ -385,21 +382,8 @@ Specify relationships between any unusual groupings of widgets using <function>a
 </listitem>
 </itemizedlist>
 <para>
-The examples in the rest of this section are mostly to give you a flavor of the scope of the ATK. They cover techniques that you may never need to use as an application developer, although they may be of interest if you are writing your own custom widgets (see <link linkend="gad-custom">Making Custom Components Accessible</link>) or if you want to write an assistive technology application. Whatever the purpose, the <ulink url="ftp://ftp.gnome.org/pub/GNOME/sources/gail/">GAIL source code</ulink> serves as an excellent tutorial for advanced ATK usage. Please note that since GTK+ 3.1.10, Gail has been merged into GTK+ and is no longer a module on its own.
+The examples in the rest of this section are mostly to give you a flavor of the scope of the ATK. They cover techniques that you may never need to use as an application developer, although they may be of interest if you are writing your own custom widgets (see <link linkend="gad-custom">Making Custom Components Accessible</link>) or if you want to write an assistive technology application.
 </para>
-
-<section>
-<title>Gtk Modules</title>
-<para>
-Programs that make use of GAIL (the accessibility implementation library for GTK widgets) are written as GTK modules. GTK modules are loaded into the program space if the <varname>GTK_MODULES</varname> environment variable specifies the module library name(s). If there are multiple module libraries, separate them with colons. For example:
-</para>
-<para>
-<userinput>setenv GTK_MODULES "libgail:libtestprops"</userinput>
-</para>
-<para>
-All GTK modules have a <function>gtk_module_init()</function> function. 
-</para>
-</section>
 
 <section>
 <title>Gathering accessibility information from an application</title>
@@ -505,10 +489,6 @@ This will cause <function>_my_children_changed_func()</function> to be called wh
 
 <section>
 <title>Implementing an ATK Object</title>
-<para>
-You will need to implement your own ATK objects for any widgets that do not already have an accessible implementation in GAIL (or the equivalent library for other widget sets).  This should be implemented as a GTK module, which, as before, should be included in the <envar>GTK_MODULES</envar> environment variable so it is loaded at runtime.
-</para>
-
 <section>
 <title>Registry</title>
 <para>
@@ -600,6 +580,7 @@ Then the functions <function>myatkimp_mytype_get_text()</function>, <function>my
 <para>
 <type>AtkObject</type>s are <type>GObjects</type>, and all <type>GObject</type>s need to specify the <function>get_type()</function> function. Here is an example that sets up a class and instance initializer. This <function>get_type()</function> function also specifies that the object implements <type>ATK_TEXT</type> and specifies the parent object to be <type>MYATKIMP_MYPARENTTYPE</type>.
 </para>
+<!--
 <example>
 <title>Sample <function>get_type()</function> implementation</title>
 <programlisting>
@@ -644,6 +625,7 @@ myatkimp_mytype_get_type (void)
 } 
 </programlisting>
 </example>
+-->
 </section>
 
 <section>
@@ -656,6 +638,7 @@ You will have to set up a class initializer for the <type>GObject</type> if your
 <para>
 Redefines any function calls defined by the object's parent. This is typically necessary when an object needs to implement a function like <function>atk_object_get_n_accessible_children()</function>.  This is necessary if the object has children, but they are not represented with widgets.
 </para>
+<!--
 <para>
 For example, if your ATK implementation needs to over-ride the <type>AtkObject</type> function <function>get_name()</function>, then the class initializer would look like:
 </para>
@@ -669,8 +652,12 @@ myatkimp_mytype_class_init (GailLabelClass *klass)
 } 
 </programlisting>
 </example>
+-->
 </listitem>
-<listitem><para>Requires a <function>parent->init</function>, <function>parent->notify_gtk</function>, or <function>parent->finalize</function> function. This example defines all three:
+<listitem><para>Requires a <function>parent->init</function>, <function>parent->notify_gtk</function>, or <function>parent->finalize</function> function.</para>
+<!--
+<para>
+This example defines all three:
 </para>
 <example>
 <title>Class initializer that defines its own <function>init()</function>, <function>notify_gtk()</function> and <function>finalize()</function> functions</title>
@@ -693,6 +680,7 @@ myatkimp_mytype_class_init (GailLabelClass *klass)
 }
 </programlisting>
 </example>
+-->
 <orderedlist>
 <listitem>
 <para>
@@ -713,6 +701,7 @@ Listen to any signals from the backing GTK widget.
 </para>
 </listitem>
 </orderedlist>
+<!--
 <para>
 Here is an example of both:
 </para>
@@ -740,6 +729,7 @@ gail_tree_view_widget_init (MyatkimpMytype  *mytype,
 <para>
 In this example, if the specified <type>signal-type</type> signal were generated on the backing <varname>gtk_widget</varname>, then the <function>_myatkimp_mytype_signal_type()</function> function would be called.
 </para>
+-->
 </listitem>
 <listitem>
 <para>
@@ -831,7 +821,7 @@ directly by the custom widget, or
 </listitem>
 <listitem>
 <para>
-in an <ulink url="http://library.gnome.org/devel/atk/stable/AtkObject.html"><type>AtkObject</type></ulink> subtype created by a new <ulink url="http://library.gnome.org/devel/atk/stable/AtkObjectFactory.html"><type>AtkObjectFactory</type></ulink> subclass
+in an <ulink url="https://developer.gnome.org/atk/stable/AtkObject.html"><type>AtkObject</type></ulink> subtype created by a new <ulink url="https://developer.gnome.org/atk/stable/AtkObjectFactory.html"><type>AtkObjectFactory</type></ulink> subclass
 </para>
 </listitem>
 </itemizedlist>
@@ -840,9 +830,6 @@ If the second method is used, the appropriate factory type must be registered wi
 </para>
 </listitem>
 </itemizedlist>
-<para>
-The <ulink url="ftp://ftp.gnome.org/pub/GNOME/sources/gail/">GAIL source code</ulink> serves as an excellent tutorial for advanced ATK usage. 
-</para>
 </section>
 
 <section id="gad-ui-guidelines">
@@ -924,7 +911,7 @@ Ensure correct tab order for controls whose enabled state is dependent on checkb
 </listitem>
 <listitem>
 <para>
-Don't override existing system-level accessibility features. For example, <ulink url="http://www.rehab.uiuc.edu/accessx/overview.html">AccessX</ulink> is an Xserver extension that has been supported since X11R6. The MouseKeys feature of this extension allows mouse movement and button clicks to be simulated using the keypad. Therefore you should not add features to your application that can only be accessed by pressing keys on the keypad, as users relying on the MouseKeys feature will not be able to use them.
+Don't override existing system-level accessibility features. For example, AccessX is an Xserver extension that has been supported since X11R6. The MouseKeys feature of this extension allows mouse movement and button clicks to be simulated using the keypad. Therefore you should not add features to your application that can only be accessed by pressing keys on the keypad, as users relying on the MouseKeys feature will not be able to use them.
 </para>
 </listitem>
 <listitem>
@@ -1032,7 +1019,7 @@ Don't hard-code graphic attributes such as line, border or shadow thickness. The
 </listitem>
 <listitem>
 <para>
-Provide descriptive names for all interface components. The GAIL library provides default accessible descriptions for many GTK widgets, but you will still need to add your own in some cases, such as for widgets that use graphics instead of text (e.g. a well in a color palette, or an icon without a label). Consider overriding the defaults with more helpful or application-specific descriptions where possible.
+Provide descriptive names for all interface components. GTK provides default accessible descriptions for many GTK widgets, but you will still need to add your own in some cases, such as for widgets that use graphics instead of text (e.g. a well in a color palette, or an icon without a label). Consider overriding the defaults with more helpful or application-specific descriptions where possible.
 </para>
 </listitem>
 <listitem>
