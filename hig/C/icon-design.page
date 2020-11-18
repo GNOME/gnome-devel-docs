@@ -98,7 +98,12 @@
 </table>
 
 
-<p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. A GIMP/Inkscape format palette <link href="https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false">is available</link>.</p>
+<p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from.</p>
+
+<list>
+  <item><p><link href="https://gitlab.gnome.org/Teams/Design/HIG-app-icons/raw/master/GNOME%20HIG.gpl?inline=false">Download the palette for GIMP and Inkscape.</link></p></item>
+  <item><p><link href="https://flathub.org/apps/details/org.gnome.design.Palette">Download the Color Palette app.</link></p></item>
+</list>
 
 <p>It is recommended to keep flat surfaces unshaded, but using gradients to signify bent surfaces is allowed.</p>
 
