@@ -1,3 +1,9 @@
+3.38.2
+======
+* Removed outdated GAIL references in accessibility docs (Andre Klapper)
+* Updated translations:
+  cs    (Marek Černocký)
+
 3.38.1
 ======
 * Fixed broken markup in Spanish translation (Andre Klapper)
