@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2019-03-01 02:11+0000\n"
-"PO-Revision-Date: 2019-03-09 13:35+0100\n"
+"POT-Creation-Date: 2020-05-01 20:17+0000\n"
+"PO-Revision-Date: 2020-11-27 22:44+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -441,7 +441,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/async-programming.page:18
 msgid "Use of GLib-style asynchronous methods in various situations"
-msgstr ""
+msgstr "Användning av asynkrona metoder av GLib-stil i olika situationer"
 
 #. (itstool) path: page/title
 #: C/async-programming.page:23
@@ -454,6 +454,8 @@ msgid ""
 "Use asynchronous calls in preference to synchronous calls or explicit use of threads "
 "(<link xref=\"#concepts\"/>)"
 msgstr ""
+"Använd asynkrona anrop hellre än synkrona anrop eller explicit användning av trådar "
+"(<link xref=\"#concepts\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:33
@@ -461,6 +463,8 @@ msgid ""
 "Learn and follow the GLib pattern for declaring asynchronous APIs (<link xref=\"#api-"
 "pattern\"/>)"
 msgstr ""
+"Lär dig och följ GLib-mönstret för att deklarera asynkrona API:er (<link xref=\"#api-"
+"pattern\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:37
@@ -471,12 +475,17 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/async-programming.page:41
+#, fuzzy
 msgid ""
 "Use the presence of a <link href=\"https://developer.gnome.org/gio/stable/GTask.html"
 "\"><code>GTask</code></link> or <link href=\"https://developer.gnome.org/gio/stable/"
 "GCancellable.html\"><code>GCancellable</code></link> to indicate whether an "
 "operation is ongoing (<link xref=\"#single-call\"/>, <link xref=\"#gtask\"/>)"
 msgstr ""
+"Använd närvaron av en <link href=\"https://developer.gnome.org/gio/stable/GTask.html"
+"\"><code>GTask</code></link> eller <link href=\"https://developer.gnome.org/gio/"
+"stable/GCancellable.html\"><code>GCancellable</code></link> för att visa om en "
+"operation är pågående (<link xref=\"#single-call\"/>, <link xref=\"#gtask\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:48
@@ -543,11 +552,6 @@ msgstr ""
 #. (itstool) path: item/code
 #: C/async-programming.page:98
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "return_type          function_name           (type   argument,\n"
-#| "                                              type   argument,\n"
-#| "                                              type   argument);"
 msgid ""
 "\n"
 "foo_file_load_data_async (FooFile             *self,\n"
@@ -566,11 +570,6 @@ msgstr ""
 #. (itstool) path: item/code
 #: C/async-programming.page:106
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "return_type          function_name           (type   argument,\n"
-#| "                                              type   argument,\n"
-#| "                                              type   argument);"
 msgid ""
 "\n"
 "foo_file_load_data_finish (FooFile       *self,\n"
@@ -678,7 +677,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/async-programming.page:193
 msgid "Examples of Using Asynchronous Functions"
-msgstr ""
+msgstr "Exempel på användning av asynkrona funktioner"
 
 #. (itstool) path: section/p
 #: C/async-programming.page:195
@@ -1978,11 +1977,15 @@ msgstr "Tabbtecken"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:172
+#, fuzzy
 msgid ""
 "<em>Do not ever change the size of tabs in your editor</em>; leave them as 8 spaces. "
 "Changing the size of tabs means that code that you didn’t write yourself will be "
 "perpetually misaligned."
 msgstr ""
+"<em>Ändra aldrig storleken på tabbar i din redigerare</em>, lämna dem som 8 "
+"blanksteg. Att ändra tabbstorleken innebär att kod som du inte skrivit själv för "
+"alltid kommer vara förskjuten."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:178
@@ -3617,7 +3620,7 @@ msgstr ""
 "GSettings.html\">GSettings</link>. Som en tumregel, om några data behöver vara "
 "beständiga och påverkar hur ett program beter sig, så är de konfigurationsdata. Om "
 "det potentiellt kunde styras av policyer påtvingade av systemadministratören (så som "
-"prox- eller nedlåsningsinställningar) så är det konfigurationsdata. Om det "
+"proxy- eller nedlåsningsinställningar) så är det konfigurationsdata. Om det "
 "innehåller användarskapat innehåll så är det inte konfigurationsdata, och bör inte "
 "lagras i GSettings."
 
@@ -3707,7 +3710,6 @@ msgstr "Använda GVDB"
 
 #. (itstool) path: section/p
 #: C/databases.page:133
-#, fuzzy
 msgid ""
 "GVDB has a simple API which mirrors a conventional hash table. Presently, GVDB is "
 "only available as a copy-and-paste library; fetch the most recent copy of the code "
@@ -3716,8 +3718,8 @@ msgid ""
 msgstr ""
 "GVDB har ett enkelt API som speglar en konventiell hashtabell. För närvarande finns "
 "GVDB endast tillgängligt som ett kopiera-och-klistra-bibliotek; hämta den senaste "
-"versionen av koden från <link href=\"https://git.gnome.org/browse/gvdb\">GVDB:s git</"
-"link> och kopiera den till ditt projekt. Det är licensierat under LGPLv2.1+."
+"versionen av koden från <link href=\"https://gitlab.gnome.org/GNOME/gvdb\">GVDB:s "
+"git</link> och kopiera den till ditt projekt. Det är licensierat under LGPLv2.1+."
 
 #. (itstool) path: section/p
 #: C/databases.page:141
@@ -4287,7 +4289,7 @@ msgstr "Komma åt filsystemet"
 #. (itstool) path: page/title
 #: C/file-system.page:21
 msgid "File System Access"
-msgstr "Filsystemsåtkomst:"
+msgstr "Filsystemsåtkomst"
 
 #. (itstool) path: synopsis/p
 #: C/file-system.page:26
@@ -4304,7 +4306,7 @@ msgstr ""
 "org/gio/stable/GFile.html\"><code>GFile</code></link>, <link href=\"https://"
 "developer.gnome.org/gio/stable/GInputStream.html\"><code>GInputStream</code></link> "
 "och <link href=\"https://developer.gnome.org/gio/stable/GOutputStream.html"
-"\"><code>GOutputStream</code></link>"
+"\"><code>GOutputStream</code></link>."
 
 #. (itstool) path: item/p
 #: C/file-system.page:37
@@ -4558,7 +4560,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/glist.page:18
 msgid "Linked lists and container types"
-msgstr ""
+msgstr "Länkade listor och behållartyper"
 
 #. (itstool) path: page/title
 #: C/glist.page:21
@@ -4582,7 +4584,7 @@ msgid ""
 "\"https://developer.gnome.org/glib/stable/glib-Arrays.html\"><code>GArray</code></"
 "link>."
 msgstr ""
-"GLib tillhandahåller flera behållartyper för mängder av data: <link href=\"https://"
+"GLib tillhandahåller flera behållartyper för datauppsättningar: <link href=\"https://"
 "developer.gnome.org/glib/stable/glib-Doubly-Linked-Lists.html\"><code>GList</code></"
 "link>, <link href=\"https://developer.gnome.org/glib/stable/glib-Singly-Linked-Lists."
 "html\"><code>GSList</code></link>, <link href=\"https://developer.gnome.org/glib/"
@@ -4592,6 +4594,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/glist.page:34
+#, fuzzy
 msgid ""
 "It has been common practice in the past to use GList in all situations where a "
 "sequence or set of data needs to be stored. This is inadvisable — in most "
@@ -4601,6 +4604,14 @@ msgid ""
 "GList may be more appropriate is when dealing with ordered data, which requires "
 "expensive insertions at arbitrary indexes in the array."
 msgstr ""
+"Det har varit tidigare varit ett vanligt tillvägagångssätt att använda GList i alla "
+"situationer där en sekvens eller uppsättning data behöver lagras. Detta "
+"rekommenderas ej — i de flesta situationer bör en GPtrArray användas istället. Den "
+"har lägre minneskostnad (en tredjedel till hälften av en ekvivalent lista), bättre "
+"cacheplacering, och samma eller lägre algoritmiska komplexitet för alla vanliga "
+"operationer. Den enda typiska situation där en GList kan vara mer lämplig är vid "
+"hantering av ordnade data, vilket kräver dyra insättningar på godtyckliga index i "
+"vektorn."
 
 #. (itstool) path: section/p
 #: C/glist.page:45
@@ -5084,14 +5095,17 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/logging.page:76
 msgid "Multiple logging domains, which can be processed separately."
-msgstr ""
+msgstr "Flera loggningsdomäner, vilka kan bearbetas separat."
 
 #. (itstool) path: item/p
 #: C/logging.page:79
+#, fuzzy
 msgid ""
 "Multiple log levels, which can be processed separately. For example, this allows "
 "debug messages to be turned on and off at runtime."
 msgstr ""
+"Flera loggningsnivåer, vilka kan bearbetas separat. Detta möjliggör exempelvis för "
+"felsökningsmeddelanden att aktiveras eller inaktiveras under körning."
 
 #. (itstool) path: item/p
 #: C/logging.page:83
@@ -5288,6 +5302,9 @@ msgid ""
 "code></link> to run a function in the background without caring about the specific "
 "thread used (<link xref=\"#gtask\"/>)"
 msgstr ""
+"Använd <link href=\"https://developer.gnome.org/gio/stable/GTask.html\"><code>GTask</"
+"code></link> för att köra en funktion i bakgrunden utan att bry dig om vilken "
+"specifik tråd som används (<link xref=\"#gtask\"/>)"
 
 #. (itstool) path: item/p
 #: C/main-contexts.page:43
@@ -5933,6 +5950,8 @@ msgid ""
 "The example below demonstrates the underlying principles, but there are convenience "
 "methods explained below which simplify things."
 msgstr ""
+"Exemplet nedan demonstrerar de underliggande principerna, men det finns "
+"bekvämlighetsmetoder förklarade nedan vilka förenklar saker."
 
 #. (itstool) path: example/code
 #: C/main-contexts.page:593
@@ -6370,7 +6389,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/memory-management.page:17
 msgid "Managing memory allocation and deallocation in C"
-msgstr ""
+msgstr "Hantera minnesallokering och avallokering i C"
 
 #. (itstool) path: page/title
 #: C/memory-management.page:20
@@ -7545,7 +7564,6 @@ msgstr "2015, 2016"
 
 #. (itstool) path: info/desc
 #: C/namespacing.page:17
-#, fuzzy
 msgid "Avoiding symbol conflicts between libraries by namespacing all APIs"
 msgstr ""
 "Undvika symbolkonflikter mellan bibliotek genom att använda namnrymder för alla API:"
@@ -7746,12 +7764,17 @@ msgstr "Parallell installerbarhet"
 
 #. (itstool) path: synopsis/p
 #: C/parallel-installability.page:35
+#, fuzzy
 msgid ""
 "If two packages can be parallel installed, then they have no filenames in common, "
 "and people developing against the package always compile against the version they "
 "expected. This applies to daemons, utility programs and configuration files as it "
 "does to header files and library binaries."
 msgstr ""
+"Om två paket kan installeras parallellt så har de inga filnamn gemensamt, och folk "
+"som utvecklar mot paketet kompilerar alltid mot versionen de förväntar sig. Detta "
+"gäller demoner, nyttoprogram och konfigurationsfiler så väl som huvudfiler och "
+"biblioteksbinärer."
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:43
@@ -7759,11 +7782,14 @@ msgid ""
 "Ensure all versions of a library are parallel installable. (<link xref="
 "\"#justification\"/>)"
 msgstr ""
+"Säkerställ att alla versioner av ett bibliotek är parallellt installerbara. (<link "
+"xref=\"#justification\"/>)"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:47
 msgid "Version all files installed by a library. (<link xref=\"#solution\"/>)"
 msgstr ""
+"Versionera alla filer som installeras av ett bibliotek. (<link xref=\"#solution\"/>)"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:51
@@ -7782,10 +7808,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:62
+#, fuzzy
 msgid ""
 "Install library binaries to <file><var>$(libdir)</var>/lib<var>library</var>-"
 "<var>version</var>.so.<var>soname</var></file>. (<link xref=\"#libraries\"/>)"
 msgstr ""
+"Installera biblioteksbinärer till <file><var>$(libdir)</var>/lib<var>library</var>-"
+"<var>version</var>.so.<var>soname</var></file>. (<link xref=\"#libraries\"/>)"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:67
@@ -7889,12 +7918,17 @@ msgstr "Lösning"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:147
+#, fuzzy
 msgid ""
 "The solution to the problem is essentially to rename the library, and in most cases "
 "the nicest way to do so is to include the version number in the path of every file "
 "it installs. This means multiple versions of the library can be installed at the "
 "same time."
 msgstr ""
+"Lösningen på problemet är i princip att byta namn på biblioteket, och i de flesta "
+"fall är bästa sättet att göra detta att inkludera versionsnumret i sökvägen för "
+"varje fil det installerar. Detta betyder att flera versioner av biblioteket kan "
+"installeras samtidigt."
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:154
@@ -8207,6 +8241,7 @@ msgid ""
 "Versioned libraries can be built and installed from automake using the following "
 "code:"
 msgstr ""
+"Versionerade bibliotek kan byggas och installeras från automake med följande kod:"
 
 #. (itstool) path: listing/title
 #: C/parallel-installability.page:352
@@ -8217,6 +8252,7 @@ msgstr "Bibliotek i Automake"
 #: C/parallel-installability.page:353
 msgid "Code to build and install versioned libraries from <file>Makefile.am</file>"
 msgstr ""
+"Kod för att bygga och installera versionerade bibliotek från <file>Makefile.am</file>"
 
 #. (itstool) path: listing/code
 #: C/parallel-installability.page:357
@@ -8398,7 +8434,7 @@ msgstr ""
 #. (itstool) path: list/title
 #: C/parallel-installability.page:499
 msgid "Service Names"
-msgstr ""
+msgstr "Tjänstenamn"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:500
@@ -8438,7 +8474,7 @@ msgstr ""
 #. (itstool) path: list/title
 #: C/parallel-installability.page:511
 msgid "Object Paths"
-msgstr ""
+msgstr "Objektsökvägar"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:512
@@ -8491,7 +8527,7 @@ msgstr "<file>/usr/bin/foo-lookup-utility</file>"
 #. (itstool) path: section/p
 #: C/parallel-installability.page:543
 msgid "these should be versioned as:"
-msgstr ""
+msgstr "så bör dessa versioneras som:"
 
 #. (itstool) path: item/p
 #: C/parallel-installability.page:547
@@ -8505,11 +8541,15 @@ msgstr "<file>/usr/bin/foo-lookup-utility-4</file>"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:551
+#, fuzzy
 msgid ""
 "You may want to install a symbolic link from <file>/usr/bin/foo-lookup-utility</"
 "file> to the recommended versioned copy of the utility, to make it more convenient "
 "for users to use."
 msgstr ""
+"Du kan vilja installera en symbolisk länk från <file>/usr/bin/foo-lookup-utility</"
+"file> till den rekommenderade versionerade kopian av nyttoverktyget, för att göra "
+"det lättare att använda för användare."
 
 #. (itstool) path: info/desc
 #: C/preconditions.page:18
@@ -8551,7 +8591,7 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/preconditions.page:46
 msgid "Validation"
-msgstr ""
+msgstr "Validering"
 
 #. (itstool) path: item/p
 #: C/preconditions.page:47
@@ -8612,7 +8652,7 @@ msgstr "Flytta beräkning ut ur huvudtråden till arbetstrådar"
 #. (itstool) path: page/title
 #: C/threading.page:21
 msgid "Threading"
-msgstr "Trådning på"
+msgstr "Trådning"
 
 #. (itstool) path: item/p
 #: C/threading.page:27
@@ -8895,6 +8935,13 @@ msgid ""
 "gnome.org/gio/stable/GTask.html#g-task-run-in-thread\"><code>g_task_run_in_thread()</"
 "code></link>. (See also: <link xref=\"main-contexts#gtask\"/>.)"
 msgstr ""
+"Se <link href=\"https://developer.gnome.org/gio/stable/GAsyncResult.html"
+"\">dokumentationen för <code>GAsyncResult</code></link> för mer detaljer. Ett enkelt "
+"sätt att implementera arbetstråden är att använda <link href=\"https://developer."
+"gnome.org/gio/stable/GTask.html\"><code>GTask</code></link> och <link href=\"https://"
+"developer.gnome.org/gio/stable/GTask.html#g-task-run-in-thread"
+"\"><code>g_task_run_in_thread()</code></link>. (Se även: <link xref=\"main-"
+"contexts#gtask\"/>.)"
 
 #. (itstool) path: section/title
 #: C/threading.page:200
@@ -9020,12 +9067,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tooling.page:17
 msgid "Using the right tool for various tasks"
-msgstr ""
+msgstr "Använda rätt verktyg för olika uppgifter"
 
 #. (itstool) path: page/title
 #: C/tooling.page:20
 msgid "Tooling"
-msgstr ""
+msgstr "Verktyg"
 
 #. (itstool) path: page/p
 #: C/tooling.page:22
@@ -9568,7 +9615,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/tooling.page:442
 msgid "To add <code>AX_CODE_COVERAGE</code> support to a project:"
-msgstr ""
+msgstr "För att lägga till stöd för <code>AX_CODE_COVERAGE</code> till ett projekt:"
 
 #. (itstool) path: item/p
 #: C/tooling.page:446
@@ -9577,11 +9624,14 @@ msgid ""
 "a=blob_plain;f=m4/ax_code_coverage.m4\"> <file>ax_code_coverage.m4</file></link> to "
 "the <file>m4/</file> directory of your project."
 msgstr ""
+"Kopiera <link href=\"http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;"
+"a=blob_plain;f=m4/ax_code_coverage.m4\"> <file>ax_code_coverage.m4</file></link> "
+"till ditt projekts <file>m4/</file>-katalog."
 
 #. (itstool) path: item/p
 #: C/tooling.page:452
 msgid "Add <code>AX_CODE_COVERAGE</code> to <file>configure.ac</file>."
-msgstr ""
+msgstr "Lägg till <code>AX_CODE_COVERAGE</code> till <file>configure.ac</file>."
 
 #. (itstool) path: item/p
 #: C/tooling.page:455
@@ -9604,6 +9654,8 @@ msgid ""
 "Documentation on using gcov and lcov is <link href=\"http://ltp.sourceforge.net/"
 "coverage/lcov.php\">here</link>."
 msgstr ""
+"Dokumentation för användning av gcov och lcov finns <link href=\"http://ltp."
+"sourceforge.net/coverage/lcov.php\">här</link>."
 
 #. (itstool) path: section/title
 #: C/tooling.page:475
@@ -9782,7 +9834,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/unit-testing.page:17
 msgid "Designing software to be tested and writing unit tests for it"
-msgstr ""
+msgstr "Designa programvara för testning och skriva enhetstester för den"
 
 #. (itstool) path: page/title
 #: C/unit-testing.page:20
@@ -9811,6 +9863,8 @@ msgid ""
 "Write unit tests to be as small as possible, but no smaller. (<link xref=\"#writing-"
 "unit-tests\"/>)"
 msgstr ""
+"Skriv enhetstester så de är så små som möjligt, men inte mindre än så. (<link xref="
+"\"#writing-unit-tests\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:42
@@ -9825,6 +9879,8 @@ msgid ""
 "Run all unit tests under Valgrind to check for leaks and other problems. (<link xref="
 "\"#leak-checking\"/>)"
 msgstr ""
+"Kör alla enhetstester under Valgrind för att söka läckor och andra problem. (<link "
+"xref=\"#leak-checking\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:50
@@ -9832,6 +9888,8 @@ msgid ""
 "Use appropriate tools to automatically generate unit tests where possible. (<link "
 "xref=\"#test-generation\"/>)"
 msgstr ""
+"Använd lämpliga verktyg för att automatiskt generera enhetstester när det är "
+"möjligt. (<link xref=\"#test-generation\"/>)"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:54
@@ -9839,6 +9897,7 @@ msgid ""
 "Design code to be testable from the beginning. (<link xref=\"#writing-testable-code"
 "\"/>)"
 msgstr ""
+"Designa kod så den är testbar från början. (<link xref=\"#writing-testable-code\"/>)"
 
 #. (itstool) path: section/title
 #: C/unit-testing.page:62
@@ -10137,15 +10196,15 @@ msgstr ""
 msgid "The topic of software testability is covered in the following articles:"
 msgstr ""
 
-# TODO: Dead link
+# TODO: semi-dead MS link
 #. (itstool) path: item/p
 #: C/unit-testing.page:278
 msgid ""
 "<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Design for "
 "testability</link>"
 msgstr ""
-"<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Design for "
-"testability</link>"
+"<link href=\"http://msdn.microsoft.com/en-us/magazine/dd263069.aspx\">Design för "
+"testbarhet</link>"
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:282
@@ -10167,7 +10226,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/unit-testing.page:290
-#, fuzzy
 msgid ""
 "<link href=\"http://c2.com/cgi/wiki?SoftwareDesignForTesting\">Software design for "
 "testing</link>"
