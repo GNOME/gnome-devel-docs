@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2020-04-17 15:50+0000\n"
-"PO-Revision-Date: 2020-05-01 22:15+0200\n"
+"POT-Creation-Date: 2020-06-12 10:34+0000\n"
+"PO-Revision-Date: 2020-11-27 10:53+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -8527,9 +8527,9 @@ msgid ""
 "popover, and try to group controls of the same type together."
 msgstr ""
 "Ett kontextfönster är en generisk behållare, och kan innehålla en stor bredd "
-"av komponenter så som knappar, skjutreglage, listor, växelknappar och "
-"textfält. Blanda dock inte för många olika sorters komponenter i samma "
-"kontextfönster, och försök gruppera komponenter av samma typ tillsammans."
+"av komponenter så som knappar, skjutreglage, listor, brytare och textfält. "
+"Blanda dock inte för många olika sorters komponenter i samma kontextfönster, "
+"och försök gruppera komponenter av samma typ tillsammans."
 
 #. (itstool) path: item/p
 #: C/popovers.page:46
@@ -10613,14 +10613,13 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/switches.page:18
 msgid "Switches"
-msgstr "Växelknappar"
+msgstr "Brytare"
 
 #. (itstool) path: page/p
 #: C/switches.page:20
 msgid "A switch is a simple interface element which has an on and off state."
 msgstr ""
-"En växelknapp är ett enkelt gränssnittselement som har ett på- och ett "
-"avläge."
+"En brytare är ett enkelt gränssnittselement som har ett på- och ett avläge."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -10645,11 +10644,11 @@ msgid ""
 "switch being operated and it having an effect), or when they affect the "
 "operation of the application in a significant way."
 msgstr ""
-"Växelknappar bör användas för att styra tjänster eller hårdvara som har en "
-"tydlig på-/av-logik. De är särskilt lämpliga när dessa tjänster eller denna "
+"Brytare bör användas för att styra tjänster eller hårdvara som har en tydlig "
+"på-/av-logik. De är särskilt lämpliga när dessa tjänster eller denna "
 "hårdvara inte aktiveras omedelbart (d.v.s. om det finns en fördröjning "
-"mellan att växelknappen interageras med och när det får effekt), eller när "
-"de påverkar programmets beteende på ett signifikant sätt."
+"mellan att brytaren interageras med och när det får effekt), eller när de "
+"påverkar programmets beteende på ett signifikant sätt."
 
 #. (itstool) path: section/p
 #: C/switches.page:29
@@ -10665,7 +10664,7 @@ msgstr ""
 "När komponenten inte slår på eller av en funktion, eller när en funktion "
 "inte har en tydlig på-/av-logik, är en <link xref=\"check-boxes\">kryssruta</"
 "link> ett lämpligare alternativ. Till exempel kan ett alarm styras med en "
-"växelknapp, då det kan slås på eller av. Men en kryssruta är ett bättre "
+"brytare, då det kan slås på eller av. Men en kryssruta är ett bättre "
 "alternativ för en inställning för att repetera alarmet på en daglig basis, "
 "då alarmrepetition är en konfigurationsinställning snarare än att starta/"
 "avsluta en viss funktion."
@@ -10676,13 +10675,13 @@ msgid ""
 "When in doubt, use switches for important configuration options, and check "
 "boxes for minor sub-options."
 msgstr ""
-"När du är tveksam använd växelknappar endast för viktiga "
-"konfigurationsflaggor och kryssrutor för mindre underalternativ."
+"När du är tveksam använd brytare endast för viktiga konfigurationsflaggor "
+"och kryssrutor för mindre underalternativ."
 
 #. (itstool) path: section/title
 #: C/switches.page:36
 msgid "Switch labels"
-msgstr "Växelknappsetiketter"
+msgstr "Brytaretiketter"
 
 #. (itstool) path: section/p
 #: C/switches.page:38
@@ -10693,12 +10692,11 @@ msgid ""
 "Location</gui> or <gui>Notifications</gui> are examples of good switch "
 "labels."
 msgstr ""
-"Växelknappsetiketter bör skrivas med <link xref=\"writing-"
-"style#capitalization\">rubrikversalisering</link> (Detta gäller för "
-"engelska. För svenska är meningsversalisering att föredra). Namnet på "
-"funktionen som påverkas av växelknappen bör användas som etikett. "
-"<gui>Automatisk plats</gui> eller <gui>Aviseringar</gui> är exempel på bra "
-"växelknappsetiketter."
+"Brytaretiketter bör skrivas med <link xref=\"writing-style#capitalization"
+"\">rubrikversalisering</link> (Detta gäller för engelska. För svenska är "
+"meningsversalisering att föredra). Namnet på funktionen som påverkas av "
+"brytaren bör användas som etikett. <gui>Automatisk plats</gui> eller "
+"<gui>Aviseringar</gui> är exempel på bra brytaretiketter."
 
 #. (itstool) path: item/p
 #: C/switches.page:46
@@ -12096,7 +12094,7 @@ msgstr ""
 "Rubrikversalisering bör endast användas för rubriker, inklusive "
 "rubrikradstitlar samt sid-, flik- och menytitlar. Den bör också användas för "
 "korta komponentetiketter som normalt inte bildar fullständiga meningar, så "
-"som knappetiketter, växelknappsetiketter och menyobjekt."
+"som knappetiketter, brytaretiketter och menyobjekt."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:69 C/writing-style.page:87
