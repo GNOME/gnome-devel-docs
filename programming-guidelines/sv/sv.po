@@ -1,13 +1,13 @@
 # Swedish translation for gnome-devel-docs.
-# Copyright © 2018 gnome-devel-docs's COPYRIGHT HOLDER
+# Copyright © 2018-2021 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2018.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2018, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2020-05-01 20:17+0000\n"
-"PO-Revision-Date: 2020-11-27 22:44+0100\n"
+"POT-Creation-Date: 2020-11-27 21:46+0000\n"
+"PO-Revision-Date: 2021-02-05 12:59+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -204,7 +204,7 @@ msgid ""
 "exposed in higher level languages by use of GIR, the GIR file forms another API — if "
 "it changes, any higher level code using it must also change."
 msgstr ""
-"Många andra delar av ett projekt kan dock forma ett API. If a daemon exponerar sig "
+"Många andra delar av ett projekt kan dock forma ett API. Om en demon exponerar sig "
 "på D-Bus så formar gränssnitten som exporteras där ett API. Om ett C-API på samma "
 "sätt exponeras i språk på högre nivå genom GIR, formar GIR-filen ett annat API — om "
 "den ändras måste all kod på högre nivå som använder den också ändras."
@@ -250,9 +250,9 @@ msgstr ""
 "uppdatera sin kod för att hålla jämn takt med API-ändringar. Typiska API-"
 "stabilitetsgarantier betyder att kod som kompileras mot en version av ett bibliotek "
 "kommer att kunna köras utan problem mot alla framtida versioner av det biblioteket "
-"med samma stora versionsnummer — eller liknande att kod som körs mot en daemon "
-"kommer att fortsätta kunna köras mot alla framtida versioner av daemonen med samma "
-"stora versionsnummer."
+"med samma stora versionsnummer — eller liknande att kod som körs mot en demon kommer "
+"att fortsätta kunna köras mot alla framtida versioner av demonen med samma stora "
+"versionsnummer."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:93
@@ -468,10 +468,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/async-programming.page:37
+#, fuzzy
 msgid ""
 "Place callbacks from asynchronous functions in order down the file, so control flow "
 "is easy to follow (<link xref=\"#single-call\"/>)"
 msgstr ""
+"Placera återanrop från asynkrona funktioner i ordning nedåt i filen, så att "
+"kontrollflödet är lätt att följa (<link xref=\"#single-call\"/>)"
 
 #. (itstool) path: item/p
 #: C/async-programming.page:41
@@ -1377,9 +1380,8 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/async-programming.page:855
 #, fuzzy
-#| msgid "<code>GTask</code>"
 msgid "Wrapping with <code>GTask</code>"
-msgstr "<code>GTask</code>"
+msgstr "Omslag med <code>GTask</code>"
 
 #. (itstool) path: section/p
 #: C/async-programming.page:857
@@ -1780,7 +1782,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/c-coding-style.page:49
-#, fuzzy
 msgid ""
 "These guidelines are heavily inspired by GTK’s CODING-STYLE document, the Linux "
 "Kernel’s CodingStyle, and the GNU Coding Standards. These are slight variations of "
@@ -3060,7 +3061,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/c-coding-style.page:718
 msgid "Header Files"
-msgstr "Header-filer"
+msgstr "Headerfiler"
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:720
@@ -3068,7 +3069,7 @@ msgid ""
 "The only major rule for headers is that the function definitions should be "
 "vertically aligned in three columns:"
 msgstr ""
-"Den enda stora regeln för header-filer är att funktionsdefinitionerna bör vara "
+"Den enda stora regeln för headerfiler är att funktionsdefinitionerna bör vara "
 "vertikalt justerade i tre kolumner:"
 
 #. (itstool) path: section/code
@@ -3786,7 +3787,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/documentation.page:55
-#, fuzzy
 msgid ""
 "Add <code>Since</code> lines to all API documentation. (<link xref=\"#symbol-"
 "versioning\"/>)"
@@ -4812,14 +4812,12 @@ msgstr "Allmänna riktlinjer"
 
 #. (itstool) path: info/title
 #: C/index.page:83
-#, fuzzy
 msgctxt "link:trail"
 msgid "Maintainer Guidelines"
 msgstr "Riktlinjer för paketansvariga"
 
 #. (itstool) path: section/title
 #: C/index.page:85
-#, fuzzy
 msgid "Maintainer Guidelines"
 msgstr "Riktlinjer för paketansvariga"
 
@@ -5388,6 +5386,10 @@ msgid ""
 "developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GSourceFuncs\">GLib "
 "documentation</link>."
 msgstr ""
+"Detta <link href=\"https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop."
+"html#mainloop-states\">förklaras väldigt bra</link> i <link href=\"https://developer."
+"gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GSourceFuncs\">dokumentationen "
+"för GLib</link>."
 
 #. (itstool) path: section/p
 #: C/main-contexts.page:108
@@ -6259,7 +6261,6 @@ msgstr ""
 
 #. (itstool) path: example/p
 #: C/main-contexts.page:859
-#, fuzzy
 msgid "The following can be used:"
 msgstr "Så kan följande användas:"
 
@@ -6398,11 +6399,15 @@ msgstr "Minneshantering"
 
 #. (itstool) path: page/p
 #: C/memory-management.page:50
+#, fuzzy
 msgid ""
 "The GNOME stack is predominantly written in C, so dynamically allocated memory has "
 "to be managed manually. Through use of GLib convenience APIs, memory management can "
 "be trivial, but programmers always need to keep memory in mind when writing code."
 msgstr ""
+"GNOME-stacken är främst skriven i C, så dynamiskt allokerat minne måste hanteras "
+"manuellt. Genom användning av bekvämlighets-API:erna i GLib kan minneshantering bli "
+"enkel, men programmerare behöver alltid hålla minne i tankarna då de skriver kod."
 
 #. (itstool) path: page/p
 #: C/memory-management.page:57
@@ -6415,27 +6420,27 @@ msgstr ""
 #. (itstool) path: synopsis/p
 #: C/memory-management.page:67
 msgid "There are three situations to avoid, in order of descending importance:"
-msgstr ""
+msgstr "Det finns tre situationer att undvika, i sjunkande viktighetsordning:"
 
 #. (itstool) path: item/p
 #: C/memory-management.page:72
 msgid "Using memory after freeing it (use-after-free)."
-msgstr ""
+msgstr "Använda minne efter att det frigjorts (use-after-free)."
 
 #. (itstool) path: item/p
 #: C/memory-management.page:73
 msgid "Using memory before allocating it."
-msgstr ""
+msgstr "Använda minne innan det allokerats."
 
 #. (itstool) path: item/p
 #: C/memory-management.page:74
 msgid "Not freeing memory after allocating it (leaking)."
-msgstr ""
+msgstr "Inte frigöra minne efter att ha allokerat det (läckor)."
 
 #. (itstool) path: synopsis/p
 #: C/memory-management.page:77
 msgid "Key principles, in no particular order:"
-msgstr ""
+msgstr "Nyckelprinciper utan inbördes ordning:"
 
 #. (itstool) path: item/p
 #: C/memory-management.page:82
@@ -6537,7 +6542,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/memory-management.page:155
 msgid "For example, consider the functions:"
-msgstr ""
+msgstr "Betänk exempelvis följande funktioner:"
 
 #. (itstool) path: section/code
 #: C/memory-management.page:159
@@ -6628,29 +6633,30 @@ msgstr "Funktionsnamn"
 #. (itstool) path: td/p
 #: C/memory-management.page:230
 msgid "Convention 1 (standard)"
-msgstr ""
+msgstr "Konvention 1 (standard)"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:231
 msgid "Convention 2 (alternate)"
-msgstr ""
+msgstr "Konvention 2 (alternativ)"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:232
 msgid "Convention 3 (<cmd>gdbus-codegen</cmd>)"
-msgstr ""
+msgstr "Konvention 3 (<cmd>gdbus-codegen</cmd>)"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:237
 msgid "get"
-msgstr ""
+msgstr "get"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:238 C/memory-management.page:254
 #: C/memory-management.page:259 C/memory-management.page:260
 #: C/memory-management.page:261
+#, fuzzy
 msgid "No transfer"
-msgstr ""
+msgstr "Ingen överföring"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:239
@@ -6661,40 +6667,42 @@ msgstr ""
 #: C/memory-management.page:240 C/memory-management.page:245
 #: C/memory-management.page:266 C/memory-management.page:273
 #: C/memory-management.page:274 C/memory-management.page:275
+#, fuzzy
 msgid "Full transfer"
-msgstr ""
+msgstr "Fullständig överföring"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:244
 msgid "dup"
-msgstr ""
+msgstr "dup"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:246 C/memory-management.page:247
 #: C/memory-management.page:252 C/memory-management.page:253
 #: C/memory-management.page:267 C/memory-management.page:268
+#, fuzzy
 msgid "Unused"
-msgstr ""
+msgstr "Oanvänt"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:251
 msgid "peek"
-msgstr ""
+msgstr "peek"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:258
 msgid "set"
-msgstr ""
+msgstr "set"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:265
 msgid "take"
-msgstr ""
+msgstr "take"
 
 #. (itstool) path: td/p
 #: C/memory-management.page:272
 msgid "steal"
-msgstr ""
+msgstr "steal"
 
 #. (itstool) path: section/p
 #: C/memory-management.page:280
@@ -7556,6 +7564,7 @@ msgstr ""
 #: C/memory-management.page:942
 msgid "See <link xref=\"tooling#valgrind\"/> for more information on using Valgrind."
 msgstr ""
+"Se <link xref=\"tooling#valgrind\"/> för mer information om att använda Valgrind."
 
 #. (itstool) path: credit/years
 #: C/namespacing.page:12
@@ -7764,7 +7773,6 @@ msgstr "Parallell installerbarhet"
 
 #. (itstool) path: synopsis/p
 #: C/parallel-installability.page:35
-#, fuzzy
 msgid ""
 "If two packages can be parallel installed, then they have no filenames in common, "
 "and people developing against the package always compile against the version they "
@@ -7773,7 +7781,7 @@ msgid ""
 msgstr ""
 "Om två paket kan installeras parallellt så har de inga filnamn gemensamt, och folk "
 "som utvecklar mot paketet kompilerar alltid mot versionen de förväntar sig. Detta "
-"gäller demoner, nyttoprogram och konfigurationsfiler så väl som huvudfiler och "
+"gäller demoner, nyttoprogram och konfigurationsfiler så väl som headerfiler och "
 "biblioteksbinärer."
 
 #. (itstool) path: item/p
@@ -7918,7 +7926,6 @@ msgstr "Lösning"
 
 #. (itstool) path: section/p
 #: C/parallel-installability.page:147
-#, fuzzy
 msgid ""
 "The solution to the problem is essentially to rename the library, and in most cases "
 "the nicest way to do so is to include the version number in the path of every file "
@@ -9104,6 +9111,7 @@ msgstr ""
 #: C/tooling.page:48
 msgid "Compile frequently with a second compiler. (<link xref=\"#gcc-and-clang\"/>)"
 msgstr ""
+"Kompilera regelbundet med en andra kompilator. (<link xref=\"#gcc-and-clang\"/>)"
 
 #. (itstool) path: item/p
 #: C/tooling.page:52
@@ -9111,11 +9119,13 @@ msgid ""
 "Enable a large selection of compiler warnings and make them fatal. (<link xref="
 "\"#gcc-and-clang\"/>)"
 msgstr ""
+"Aktivera ett stort urval av kompilatorvarningar och gör dem ödesdigra. (<link xref="
+"\"#gcc-and-clang\"/>)"
 
 #. (itstool) path: item/p
 #: C/tooling.page:56
 msgid "Use GDB to debug and step through code. (<link xref=\"#gdb\"/>)"
-msgstr ""
+msgstr "Använd GDB för att felsöka och stega igenom kod. (<link xref=\"#gdb\"/>)"
 
 #. (itstool) path: item/p
 #: C/tooling.page:59
@@ -9795,6 +9805,8 @@ msgid ""
 "A full tutorial on using Clang is <link href=\"http://clang-analyzer.llvm.org/scan-"
 "build.html\">here</link>."
 msgstr ""
+"En fullständig handledning i att använda Clang finns <link href=\"http://clang-"
+"analyzer.llvm.org/scan-build.html\">här</link>."
 
 #. (itstool) path: section/title
 #: C/tooling.page:599
@@ -9953,6 +9965,9 @@ msgid ""
 "wiki.gnome.org/Initiatives/GnomeGoals/InstalledTests\">installed-tests standard</"
 "link>."
 msgstr ""
+"Alla enhetstester bör installeras systemomfattande, i enlighet med <link href="
+"\"https://wiki.gnome.org/Initiatives/GnomeGoals/InstalledTests\">standarden "
+"installed-tests</link>."
 
 #. (itstool) path: section/p
 #: C/unit-testing.page:109
@@ -9968,6 +9983,8 @@ msgstr ""
 msgid ""
 "To add support for installed-tests, add the following to <file>configure.ac</file>:"
 msgstr ""
+"För att lägga till stöd för installed-tests, lägg till följande till <file>configure."
+"ac</file>:"
 
 #. (itstool) path: section/code
 #: C/unit-testing.page:120
@@ -9991,7 +10008,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/unit-testing.page:134
 msgid "Then in <file>tests/Makefile.am</file>:"
-msgstr ""
+msgstr "Och sedan i <file>tests/Makefile.am</file>:"
 
 #. (itstool) path: section/code
 #: C/unit-testing.page:137
@@ -10621,7 +10638,7 @@ msgid ""
 "increment micro."
 msgstr ""
 "I annat fall (om du gör en utgåva som bara innehåller felkorrigeringar och "
-"översättningsuppdateringar), öka mikro."
+"översättningsuppdateringar), öka micro."
 
 #. (itstool) path: section/p
 #: C/versioning.page:93
@@ -10637,7 +10654,6 @@ msgstr "Libtool-versionering"
 
 #. (itstool) path: section/p
 #: C/versioning.page:101
-#, fuzzy
 msgid ""
 "Libraries have two version numbers: a libtool version which tracks ABI backwards "
 "compatibility (see <link xref=\"api-stability\"/>), and a package version which "
@@ -10774,19 +10790,17 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/versioning.page:189
-#, fuzzy
 msgid ""
 "The release process (based on the <link href=\"https://wiki.gnome.org/"
 "MaintainersCorner/Releasing\">GNOME release process</link>):"
 msgstr ""
 "Utgåveprocessen (baserad på <link href=\"https://wiki.gnome.org/MaintainersCorner/"
-"Releasing\">GNOME release process</link>):"
+"Releasing\">GNOME:s utgåveprocess</link>):"
 
 #. (itstool) path: item/p
 #: C/versioning.page:195
-#, fuzzy
 msgid "Make sure code is up to date: <cmd>git pull</cmd>"
-msgstr "Säkerställ att din kod är ajour: <cmd>git pull</cmd>"
+msgstr "Säkerställ att din kod är à jour: <cmd>git pull</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:199
@@ -10823,13 +10837,12 @@ msgstr "Fixa alla problem som dyker upp, checka in ändringarna, och börja om p
 
 #. (itstool) path: item/p
 #: C/versioning.page:222
-#, fuzzy
 msgid ""
 "If <cmd>make distcheck</cmd> finishes with “[archive] is ready for distribution”, "
 "run <cmd>git commit -a -m \"Release version x.y.z\"</cmd> (where ‘x.y.z’ is the "
 "package version number)"
 msgstr ""
-"Om <cmd>make distcheck</cmd> avslutar med ”[archive] is ready for distribution”, kör "
+"Om <cmd>make distcheck</cmd> avslutar med ”[arkiv] is ready for distribution”, kör "
 "<cmd>git commit -a -m \"Release version x.y.z\"</cmd> (där ”x.y.z” är paketets "
 "versionsnummer)"
 
@@ -10864,7 +10877,6 @@ msgstr "Kör <cmd>git push origin x.y.z</cmd> (där ”x.y.z” är paketets ver
 
 #. (itstool) path: section/p
 #: C/versioning.page:252
-#, fuzzy
 msgid ""
 "The release is now complete, and the post-release version increment can be done:"
 msgstr "Utgåvan är nu klar, och versionsökningen efter utgåvans släppande kan göras:"
