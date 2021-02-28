@@ -1,22 +1,22 @@
 # German translation of the platform-overview documentation.
 #
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016-2017, 2020.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016-2017, 2020-2021.
 # Wolfgang Stöggl <c72578@yahoo.de>, 2011, 2015.
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2011, 2012.
 # Aljosha Papsch <al@papsch.ara.uberspace.de>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2020-09-03 20:52+0200\n"
+"POT-Creation-Date: 2020-09-25 12:43+0000\n"
+"PO-Revision-Date: 2021-02-28 15:44+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
-"Language-Team: Deutsch <gnome-de@gnome.org>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 20.08.0\n"
+"X-Generator: Lokalize 20.12.2\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -288,24 +288,6 @@ msgstr ""
 #. (itstool) path: page/code
 #: C/dev-help-build.page:47
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "@YELP_HELP_RULES@\n"
-#| "\n"
-#| "HELP_ID = <input>applicationname</input>\n"
-#| "\n"
-#| "# Media files\n"
-#| "HELP_MEDIA = \\\n"
-#| "\tfigures/icon.png\n"
-#| "\n"
-#| "# Help pages\n"
-#| "HELP_FILES = \\\n"
-#| "\tindex.page \\\n"
-#| "\tintroduction.page \\\n"
-#| "\tanotherpage.page\n"
-#| "\n"
-#| "# Translated languages, blank if no translations exist\n"
-#| "HELP_LINGUAS = en_GB \n"
 msgid ""
 "\n"
 "@YELP_HELP_RULES@\n"
@@ -477,37 +459,6 @@ msgstr "<file>help/C/introduction.page</file>"
 #. (itstool) path: listing/code
 #: C/dev-help-write.page:63
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "&lt;page xmlns=\"http://projectmallard.org/1.0/\"\n"
-#| "      xmlns:its=\"http://www.w3.org/2005/11/its\"\n"
-#| "      type=\"topic\"\n"
-#| "      id=\"introduction\"&gt;\n"
-#| "\n"
-#| "  &lt;info&gt;\n"
-#| "    &lt;link type=\"guide\" xref=\"index\"/&gt;\n"
-#| "&lt;!--\n"
-#| "    &lt;link type=\"guide\" xref=\"index#features\"/&gt;\n"
-#| "    &lt;link type=\"seealso\" xref=\"anotherpageid\"/&gt;\n"
-#| "--&gt;\n"
-#| "    &lt;revision pkgversion=\"3.9\" date=\"2013-06-19\" status=\"stub\"/&gt;\n"
-#| " \n"
-#| "    &lt;credit type=\"author\"&gt;\n"
-#| "      &lt;name&gt;Your Name&lt;/name&gt;\n"
-#| "      &lt;email its:translate=\"no\"&gt;mail@example.com&lt;/email&gt;\n"
-#| "      &lt;years&gt;2013&lt;/years&gt;\n"
-#| "    &lt;/credit&gt;\n"
-#| " \n"
-#| "    &lt;include href=\"legal.xml\" xmlns=\"http://www.w3.org/2001/XInclude\"/&gt;\n"
-#| "\n"
-#| "    &lt;desc&gt;Welcome to _Application name_&lt;/desc&gt;\n"
-#| "  &lt;/info&gt;\n"
-#| "\n"
-#| "  &lt;title&gt;Introduction&lt;/title&gt;\n"
-#| "\n"
-#| "  &lt;p&gt;This application is awesome!&lt;/p&gt;\n"
-#| "\n"
-#| "&lt;/page&gt;\n"
 msgid ""
 "\n"
 "&lt;page xmlns=\"http://projectmallard.org/1.0/\"\n"
@@ -815,11 +766,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:45
-#| msgid ""
-#| "Custom MIME types can be added to the system-wide MIME database, but this "
-#| "is outside the scope of this guide. The <link href=\"http://standards."
-#| "freedesktop.org/shared-mime-info-spec/latest/\">Shared MIME-Info "
-#| "Database</link> specification for more details."
 msgid ""
 "Custom MIME types can be added to the system-wide MIME database, but this is "
 "outside the scope of this guide. See the <link href=\"http://standards."
@@ -846,31 +792,19 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:28
-#| msgid ""
-#| "GNOME implements the <link href=\"http://standards.freedesktop.org/"
-#| "desktop-entry-spec/latest/index.html\">Startup Notification protocol</"
-#| "link>, to give feedback to the user when application startup finishes."
 msgid ""
 "GNOME implements the <link href=\"https://standards.freedesktop.org/startup-"
 "notification-spec/startup-notification-latest.txt\">Startup Notification "
 "protocol</link>, to give feedback to the user when application startup "
 "finishes."
 msgstr ""
-"GNOME implementiert das <link href=\"https://standards.freedesktop.org/startup"
-"-"
-"notification-spec/startup-notification-latest.txt\">Startup Notification"
-" protocol</link>, "
-"um dem Benutzer Rückmeldungen zu geben, wenn der Start einer Anwendung "
-"abgeschlossen ist."
+"GNOME implementiert das <link href=\"https://standards.freedesktop.org/"
+"startup-notification-spec/startup-notification-latest.txt\">Startup "
+"Notification protocol</link>, um dem Benutzer Rückmeldungen zu geben, wenn "
+"der Start einer Anwendung abgeschlossen ist."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:33
-#| msgid ""
-#| "GTK+ applications automatically support startup notification, and by "
-#| "default notify that application startup is complete when the first window "
-#| "is shown. Your application must declare that it supports startup "
-#| "notification by adding <code>StartupNotify=true</code> to its desktop "
-#| "file."
 msgid ""
 "GTK applications automatically support startup notification, and by default "
 "notify that application startup is complete when the first window is shown. "
@@ -1787,11 +1721,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/overview-io.page:36
-#| msgid ""
-#| "Seamlessly access local and remote files using the core GNOME IO "
-#| "libraries. Make your application responsive by using the extensive "
-#| "support for asynchronous IO operations. Allow users to find files easily "
-#| "be providing metadata to describe documents."
 msgid ""
 "Seamlessly access local and remote files using the core GNOME IO libraries. "
 "Make your application responsive by using the extensive support for "
@@ -2376,12 +2305,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:49
-#| msgid ""
-#| "For applications with <em style=\"strong\">standard controls</em> which "
-#| "would be familiar to most users, use <em style=\"strong\"><link xref="
-#| "\"tech-gtk\">GTK+</link></em>. Every application that is part of GNOME "
-#| "uses GTK+, so use it to be consistent, and to access the many widgets and "
-#| "features such as printing support and CSS theming."
 msgid ""
 "For applications with <em style=\"strong\">standard controls</em> which "
 "would be familiar to most users, use <em style=\"strong\"><link xref=\"tech-"
@@ -2409,11 +2332,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:60
-#| msgid ""
-#| "<em style=\"strong\">High quality, antialiased and resolution-independent "
-#| "2D graphics</em> are provided by <em style=\"strong\"><link xref=\"tech-"
-#| "cairo\">Cairo</link></em>. Cairo is used for drawing widgets in GTK+, and "
-#| "can also be used to output to PDF and SVG."
 msgid ""
 "<em style=\"strong\">High quality, antialiased and resolution-independent 2D "
 "graphics</em> are provided by <em style=\"strong\"><link xref=\"tech-cairo"
@@ -2428,11 +2346,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:66
-#| msgid ""
-#| "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> "
-#| "makes it easy to add <em style=\"strong\">web functionality</em> to your "
-#| "application, whether that is rendering an HTML file or having a complete "
-#| "HTML5 UI."
 msgid ""
 "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK</link></em> makes "
 "it easy to add <em style=\"strong\">web functionality</em> to your "
@@ -2446,23 +2359,18 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:71
-#| msgid ""
-#| "GTK+, Clutter and WebKitGTK+ have <em style=\"strong\">built-in support "
-#| "for assistive technologies</em> with <em style=\"strong\"><link xref="
-#| "\"tech-atk\">ATK</link></em>. Use Orca, Caribou OSK, and the GTK+ built-"
-#| "in accessibility tools, or build custom tools on top of ATK."
 msgid ""
 "GTK, Clutter and WebKitGTK have <em style=\"strong\">built-in support for "
 "assistive technologies</em> with <em style=\"strong\"><link xref=\"tech-atk"
 "\">ATK</link></em>. Use Orca, Caribou OSK, and the GTK built-in "
 "accessibility tools, or build custom tools on top of ATK."
 msgstr ""
-"In GTK, Clutter und WebKitGTK ist die <em style=\"strong\">Unterstützung "
-"für Barrierefreiheits-Technologien</em> mittels <em style=\"strong\"><link "
-"xref=\"tech-atk\">ATK</link></em> bereits eingebaut. Verwenden Sie Orca, die "
-"Bildschirmtastatur Caribou und die in GTK bereits eingebauten"
-" Barrierefreiheitswerkzeuge oder bauen Sie eigene Werkzeuge auf der "
-"Grundlage von ATK."
+"In GTK, Clutter und WebKitGTK ist die <em style=\"strong\">Unterstützung für "
+"Barrierefreiheits-Technologien</em> mittels <em style=\"strong\"><link xref="
+"\"tech-atk\">ATK</link></em> bereits eingebaut. Verwenden Sie Orca, die "
+"Bildschirmtastatur Caribou und die in GTK bereits eingebauten "
+"Barrierefreiheitswerkzeuge oder bauen Sie eigene Werkzeuge auf der Grundlage "
+"von ATK."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:92
@@ -2476,9 +2384,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:96
-#| msgid ""
-#| "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and "
-#| "WebKitGTK+, and is fully accessible."
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK and "
 "WebKitGTK, and is fully accessible."
@@ -2576,14 +2481,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:32
-#| msgid ""
-#| "GNOME provides support for accessibility devices using the ATK framework, "
-#| "which stands for Accessibility Tool Kit. This framework defines a set of "
-#| "interfaces to which graphical interface components adhere. This allows, "
-#| "for instance, screen readers to read the text of an interface and "
-#| "interact with its controls. ATK support is built into GTK+ and the rest "
-#| "of the GNOME platform, so any application using GTK+ will have reasonable "
-#| "accessibility support for free."
 msgid ""
 "GNOME provides support for accessibility devices using the ATK framework, "
 "which stands for Accessibility Tool Kit. This framework defines a set of "
@@ -2598,22 +2495,12 @@ msgstr ""
 "definiert einige Schnittstellen, an die sich Komponenten grafischer "
 "Schnittstellen richten. Dies erlaubt zum Beispiel Bildschirmlesern den Text "
 "einer Schnittstelle zu lesen und mit ihren Kontrollfeldern zu interagieren. "
-"Unterstützung für ATK ist in GTK und den Rest der GNOME-Plattform "
-"eingebaut. Damit ist jede Anwendung, die GTK verwendet, bereits von Haus "
-"mit einer angemessen Unterstützung für Barrierefreiheit ausgestattet."
+"Unterstützung für ATK ist in GTK und den Rest der GNOME-Plattform eingebaut. "
+"Damit ist jede Anwendung, die GTK verwendet, bereits von Haus mit einer "
+"angemessen Unterstützung für Barrierefreiheit ausgestattet."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:40
-#| msgid ""
-#| "ATK solves the problem of plugging many different kinds of widgets (text "
-#| "entries, text areas, buttons, menus) with many different types of "
-#| "accessibility technologies (screen readers, braille displays, sip-and-"
-#| "puff control devices). Instead of writing NxM interfaces, from each "
-#| "widget to each accessibility device, one just has to expose a widget "
-#| "through ATK's interfaces. Accessibility devices will in turn use these "
-#| "interfaces to query accessible widgets. For example, an aural screen "
-#| "reader and a braille display will both use a standard \"get the text "
-#| "contents\" interface in ATK for all widgets with textual information."
 msgid ""
 "ATK solves the problem of plugging many different kinds of widgets (text "
 "entries, text areas, buttons, menus) with many different types of "
@@ -2640,7 +2527,7 @@ msgstr ""
 #: C/tech-atk.page:50
 #| msgid ""
 #| "Nonetheless, you should be aware of accessibility issues when when "
-#| "developing your applications. Although GTK+ interfaces provide reasonable "
+#| "developing your applications. Although GTK interfaces provide reasonable "
 #| "accessibility by default, you can often improve how well your program "
 #| "behaves with accessibility tools by providing additional information to "
 #| "ATK. If you develop custom widgets, you should ensure that they expose "
@@ -2649,19 +2536,19 @@ msgstr ""
 #| "redundant ways of providing this information instead of relying on the "
 #| "user being able to perceive a particular medium."
 msgid ""
-"Nonetheless, you should be aware of accessibility issues when when "
-"developing your applications. Although GTK interfaces provide reasonable "
-"accessibility by default, you can often improve how well your program "
-"behaves with accessibility tools by providing additional information to ATK. "
-"If you develop custom widgets, you should ensure that they expose their "
-"properties to ATK. You should also avoid using sound, graphics, or color as "
-"the sole means of conveying information to the user; have redundant ways of "
-"providing this information instead of relying on the user being able to "
-"perceive a particular medium."
+"Nonetheless, you should be aware of accessibility issues when developing "
+"your applications. Although GTK interfaces provide reasonable accessibility "
+"by default, you can often improve how well your program behaves with "
+"accessibility tools by providing additional information to ATK. If you "
+"develop custom widgets, you should ensure that they expose their properties "
+"to ATK. You should also avoid using sound, graphics, or color as the sole "
+"means of conveying information to the user; have redundant ways of providing "
+"this information instead of relying on the user being able to perceive a "
+"particular medium."
 msgstr ""
 "Nichtsdestotrotz sollten Sie auf Probleme mit Barrierefreiheit bei der "
-"Anwendungsentwicklung achten. Auch wenn GTK-Schnittstellen standardmäßig "
-"mit angemessener Barrierefreiheit ausgestattet sind, können Sie oft das "
+"Anwendungsentwicklung achten. Auch wenn GTK-Schnittstellen standardmäßig mit "
+"angemessener Barrierefreiheit ausgestattet sind, können Sie oft das "
 "Zusammenspiel Ihres Programms mit barrierefreien Werkzeugen verbessern, "
 "indem Sie ATK weitere Informationen zur Verfügung stellen. Wenn Sie eigene "
 "Bedienelemente entwickeln, sollten Sie sicherstellen, dass sie deren "
@@ -2839,12 +2726,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-cairo.page:41
-#| msgid ""
-#| "You should use Cairo whenever you need to draw graphics in your "
-#| "application beyond the widgets provided by GTK+. Almost all of the "
-#| "drawing inside GTK+ is done using Cairo. Using Cairo for your custom "
-#| "drawing will allow your application to have high-quality, anti-aliased, "
-#| "and resolution-independent graphics."
 msgid ""
 "You should use Cairo whenever you need to draw graphics in your application "
 "beyond the widgets provided by GTK. Almost all of the drawing inside GTK is "
@@ -2927,11 +2808,6 @@ msgstr ""
 
 #. (itstool) path: note/p
 #: C/tech-champlain.page:27
-#| msgid ""
-#| "libchamplain is named after Samuel de Champlain, famous French navigator, "
-#| "explorer and cartographer. He is the “father of New-France” and founder "
-#| "of Québec City, which was the 400th anniversary in 2008, the year this "
-#| "library was created."
 msgid ""
 "libchamplain is named after Samuel de Champlain, famous French navigator, "
 "explorer and cartographer. He is the “father of New-France” and founder of "
@@ -3005,13 +2881,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:39
-#| msgid ""
-#| "Clutter comes with pre-defined actors for displaying solid colors, image "
-#| "data, text and custom high-precision 2D drawing using the <link xref="
-#| "\"tech-cairo\">Cairo</link> API. Clutter also provides generic classes "
-#| "for structuring a user interface using both a box-packing model like "
-#| "<link xref=\"tech-gtk\">GTK+</link>, and a series of free-form "
-#| "<em>constraints</em>."
 msgid ""
 "Clutter comes with pre-defined actors for displaying solid colors, image "
 "data, text and custom high-precision 2D drawing using the <link xref=\"tech-"
@@ -3042,12 +2911,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:51
-#| msgid ""
-#| "A number of third-party libraries allow integration with other "
-#| "technologies, such as: Clutter-GTK, for embedding a Clutter stage inside "
-#| "a GTK+ application; Clutter-GStreamer, for embedding GStreamer video and "
-#| "audio pipelines; Clutter-Box2D and Clutter-Bullet, for adding physics "
-#| "interaction in both 2D and 3D environments."
 msgid ""
 "A number of third-party libraries allow integration with other technologies, "
 "such as: Clutter-GTK, for embedding a Clutter stage inside a GTK "
@@ -3396,15 +3259,6 @@ msgstr "GDK"
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:23
-#| msgid ""
-#| "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> "
-#| "to interact with the windowing system for graphics and input devices. "
-#| "Although you will rarely use GDK directly in application code, it "
-#| "contains all the necessary functionality to create low-level windows in "
-#| "the screen and to interact with the user with various input devices. GDK "
-#| "acts as an abstraction over various windowing systems, so that GTK+ can "
-#| "be portable to all of them: the X Window System (X11), Microsoft Windows, "
-#| "Mac OS X Quartz."
 msgid ""
 "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK</link> to "
 "interact with the windowing system for graphics and input devices. Although "
@@ -3425,15 +3279,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:31
-#| msgid ""
-#| "GDK enables you to access events from keyboards, mice, and other input "
-#| "devices. Implementations of widgets in GTK+ use this functionality, and "
-#| "translate the events into higher-level signals that can in turn be used "
-#| "from application code. For example, a <code>GtkButton</code> widget will "
-#| "track <code>GDK_BUTTON_PRESS</code> and <code>GTK_BUTTON_RELEASE</code> "
-#| "events, which come from the mouse, and translate them as appropriate into "
-#| "a <code>GtkButton::clicked</code> signal when the user presses and "
-#| "releases the button in the right location."
 msgid ""
 "GDK enables you to access events from keyboards, mice, and other input "
 "devices. Implementations of widgets in GTK use this functionality, and "
@@ -3467,13 +3312,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:45
-#| msgid ""
-#| "GDK provides other functionality which is needed to implement a complete "
-#| "graphical toolkit like GTK+. Since GDK acts as a platform abstraction, "
-#| "allowing GTK+ to run under multiple environments, it provides an API for "
-#| "all of the system functionality needed by GTK+. This includes information "
-#| "about multi-head displays, resolution and color depth, colormaps, and "
-#| "cursors."
 msgid ""
 "GDK provides other functionality which is needed to implement a complete "
 "graphical toolkit like GTK. Since GDK acts as a platform abstraction, "
@@ -3490,15 +3328,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:52
-#| msgid ""
-#| "You should use GDK whenever you need low-level access to the underlying "
-#| "windowing system, including low-level access to events, windows, and the "
-#| "clipboard. Using GDK for these tasks ensures that your code is portable "
-#| "and integrates with the rest of your GTK+ code. The simple drawing "
-#| "routines in GDK should generally not be used; these are a left-over from "
-#| "when GDK simply wrapped the windowing system's drawing primitives. "
-#| "Instead, you should use the extensive functionality provided by <link "
-#| "xref=\"tech-cairo\">Cairo</link> to draw high-quality 2D graphics."
 msgid ""
 "You should use GDK whenever you need low-level access to the underlying "
 "windowing system, including low-level access to events, windows, and the "
@@ -3678,13 +3507,6 @@ msgstr "GIO-Dateien"
 
 #. (itstool) path: page/p
 #: C/tech-gio.page:29
-#| msgid ""
-#| "GIO provides APIs for asynchronously reading and writing files and other "
-#| "streams. Files are referenced by URIs (uniform resource locators), and "
-#| "backends can provide access to more than just local files. When running "
-#| "under the GNOME desktop, GIO uses GVFS to allow access to files over "
-#| "SFTP, FTP, WebDAV, SMB, and other popular protocols. This transparent "
-#| "network file access is free to all applications using GIO."
 msgid ""
 "GIO provides APIs for asynchronously reading and writing files and other "
 "streams. Files are referenced by URIs (uniform resource identifiers), and "
@@ -4063,20 +3885,11 @@ msgstr "Werkzeugsatz zum Erstellen von grafischen Benutzeroberflächen"
 
 #. (itstool) path: page/title
 #: C/tech-gtk.page:21
-#| msgid "GTK+"
 msgid "GTK"
 msgstr "GTK"
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:23
-#| msgid ""
-#| "GTK+ is the primary library used to construct user interfaces in GNOME. "
-#| "Its name stands for \"GIMP Tool Kit\", as originally it was explicitly "
-#| "written for that image manipulation program, and later extracted from it "
-#| "as a stand-alone library. It provides all the user interface controls, or "
-#| "<em>widgets</em>, used in a common graphical application. Its object-"
-#| "oriented API allows you to construct user interfaces without dealing with "
-#| "the low-level details of drawing and device interaction."
 msgid ""
 "GTK is the primary library used to construct user interfaces in GNOME. Its "
 "name stands for \"GIMP Tool Kit\", as originally it was explicitly written "
@@ -4098,10 +3911,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:32
-#| msgid ""
-#| "In addition to basic widgets, such as buttons, check boxes, and text "
-#| "entries, GTK+ also provides Model-View-Controller (MVC) APIs for tree "
-#| "views, multi-line text fields, and menu and toolbar actions."
 msgid ""
 "In addition to basic widgets, such as buttons, check boxes, and text "
 "entries, GTK also provides Model-View-Controller (MVC) APIs for tree views, "
@@ -4115,14 +3924,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:37
-#| msgid ""
-#| "Widgets in GTK+ are placed on windows using a <em>box-packing model</em>. "
-#| "Programmers specify only how to pack widgets together in container boxes, "
-#| "instead of positioning them directly with absolute coordinates. Thus, GTK"
-#| "+ ensures that windows are sized correctly to fit their contents, and it "
-#| "automatically handles window resizing. For right-to-left languages like "
-#| "Arabic and Hebrew, GTK+ automatically reverses the user interface from "
-#| "left to right so that controls have the expected visual order."
 msgid ""
 "Widgets in GTK are placed on windows using a <em>box-packing model</em>. "
 "Programmers specify only how to pack widgets together in container boxes, "
@@ -4132,23 +3933,17 @@ msgid ""
 "Arabic and Hebrew, GTK automatically reverses the user interface from left "
 "to right so that controls have the expected visual order."
 msgstr ""
-"Bedienelemente werden in GTK unter Verwendung eines <em>Boxenmodells</em> "
-"in Fenstern platziert. Programmierer geben lediglich an, wie Bedienelemente "
+"Bedienelemente werden in GTK unter Verwendung eines <em>Boxenmodells</em> in "
+"Fenstern platziert. Programmierer geben lediglich an, wie Bedienelemente "
 "miteinander in Containerboxen gepackt werden sollen, statt sie direkt mit "
-"absoluten Koordinaten zu positionieren. GTK stellt sicher, dass Fenster "
-"groß genug für ihren Inhalt sind und es handhabt automatisch "
-"Größenänderungen der Fenster. Für Schriften wie Arabisch und Hebräisch, die "
-"von rechts nach links verlaufen, kehrt GTK automatisch die "
-"Benutzerschnittstelle um, so dass Bedienelemente die erwartete optische "
-"Reihenfolge haben."
+"absoluten Koordinaten zu positionieren. GTK stellt sicher, dass Fenster groß "
+"genug für ihren Inhalt sind und es handhabt automatisch Größenänderungen der "
+"Fenster. Für Schriften wie Arabisch und Hebräisch, die von rechts nach links "
+"verlaufen, kehrt GTK automatisch die Benutzerschnittstelle um, so dass "
+"Bedienelemente die erwartete optische Reihenfolge haben."
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:45
-#| msgid ""
-#| "GTK+ allows you to develop custom widgets for use in applications. "
-#| "Similar to native or stock widgets, these custom widgets can support all "
-#| "the features that GTK+ has: right-to-left language support, accessibility "
-#| "interfaces, keyboard navigation, and automatic sizing."
 msgid ""
 "GTK allows you to develop custom widgets for use in applications. Similar to "
 "native or stock widgets, these custom widgets can support all the features "
@@ -4163,7 +3958,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-#| msgid "<link href=\"https://www.gtk.org/\">Official web site</link>"
 msgid "<link href=\"https://www.gtk.org/\">Official website</link>"
 msgstr "<link href=\"https://www.gtk.org/\">Offizielle Webseite</link>"
 
@@ -4187,8 +3981,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:54
-#| msgid ""
-#| "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">git repository</link>"
 msgid ""
 "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">Git repository</link>"
 msgstr ""
@@ -4196,15 +3988,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:55
-#| msgid ""
-#| "<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">General "
-#| "discussion about GTK+</link>"
 msgid ""
 "<link href=\"https://discourse.gnome.org/\">Discussion about GTK and getting "
 "help</link>"
 msgstr ""
-"<link href=\"https://discourse.gnome.org/\">Allgemeine "
-"Diskussionen über GTK, wo Sie auch Hilfe erhalten</link>"
+"<link href=\"https://discourse.gnome.org/\">Allgemeine Diskussionen über "
+"GTK, wo Sie auch Hilfe erhalten</link>"
 
 #. (itstool) path: credit/name
 #: C/tech-gupnp.page:11
@@ -4567,10 +4356,6 @@ msgstr "Pango"
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:23
-#| msgid ""
-#| "Pango is the core text and font handling library in the GNOME platform. "
-#| "It is responsible for laying out and rendering text, and is used "
-#| "throughout GTK+."
 msgid ""
 "Pango is the core text and font handling library in the GNOME platform. It "
 "is responsible for laying out and rendering text, and is used throughout GTK."
@@ -4617,14 +4402,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:43
-#| msgid ""
-#| "Pango supports the kind of text styling used in typical documents and "
-#| "interfaces, including italics, font weights, and underlines. Pango uses a "
-#| "simple XML-like vocabulary called PangoMarkup which enables you to set "
-#| "font size, color, styles, and other text attributes. Using PangoMarkup, "
-#| "you can specify inline styles without manually iterating over text "
-#| "blocks. PangoMarkup can be used directly from GTK+, enabling you to style "
-#| "text in your graphical interfaces easily."
 msgid ""
 "Pango supports the kind of text styling used in typical documents and "
 "interfaces, including italics, font weights, and underlines. Pango uses a "
@@ -4640,19 +4417,11 @@ msgstr ""
 "Ihnen ermöglicht, Schriftgrößen, Farben, Stile und andere Textattribute "
 "anzupassen. Mit PangoMarkup können Sie beispielsweise durchgehende Stile "
 "verwenden, ohne Textblöcke manuell wieder und wieder bearbeiten zu müssen. "
-"Die Benutzung von Pango ist direkt aus GTK heraus möglich, was die "
-"Anpassung des Textstils in Ihren grafischen Benutzeroberflächen erheblich "
-"erleichtert."
+"Die Benutzung von Pango ist direkt aus GTK heraus möglich, was die Anpassung "
+"des Textstils in Ihren grafischen Benutzeroberflächen erheblich erleichtert."
 
 #. (itstool) path: page/p
 #: C/tech-pango.page:52
-#| msgid ""
-#| "You should use Pango directly whenever you need to lay text out on the "
-#| "screen or on a different medium. Using Pango will allow your text layout "
-#| "to work seamlessly with GTK+ and the rest of the GNOME platform. It will "
-#| "help you create portable code, and most importantly, it will ensure that "
-#| "your application can render text correctly in hundreds of different "
-#| "languages."
 msgid ""
 "You should use Pango directly whenever you need to lay text out on the "
 "screen or on a different medium. Using Pango will allow your text layout to "
@@ -5044,11 +4813,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-spell-checking.page:32
-#| msgid ""
-#| "Enchant provides a low-level API. You can ask it if a word is misspelled, "
-#| "or ask for suggestions for a misspelled word. On a higher level, gspell "
-#| "integrates spell-checking for GTK+ text widgets (both <code>GtkEntry</"
-#| "code> and <code>GtkTextView</code>)."
 msgid ""
 "Enchant provides a low-level API. You can ask it if a word is misspelled, or "
 "ask for suggestions for a misspelled word. On a higher level, gspell "
@@ -5231,13 +4995,6 @@ msgstr "WebKit"
 
 #. (itstool) path: page/p
 #: C/tech-webkit.page:28
-#| msgid ""
-#| "WebKit is a powerful, multi-platform HTML engine used in open source and "
-#| "commercial/proprietary products alike. WebKitGTK+ is the port of WebKit "
-#| "built on <link xref=\"tech-gtk\">GTK+</link> and integrated into the "
-#| "GNOME developer platform. WebKitGTK+ is developed upstream as part of the "
-#| "main WebKit project, so it's always up to date with the latest HTML5 "
-#| "features."
 msgid ""
 "WebKit is a powerful, multi-platform HTML engine used in open source and "
 "commercial/proprietary products alike. WebKitGTK is the port of WebKit built "
@@ -5254,10 +5011,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-webkit.page:34
-#| msgid ""
-#| "WebKitGTK+ makes it easy to add web functionality to your application, or "
-#| "to use HTML5 and associated technologies to create dynamic user "
-#| "interfaces quickly."
 msgid ""
 "WebKitGTK makes it easy to add web functionality to your application, or to "
 "use HTML5 and associated technologies to create dynamic user interfaces "
@@ -5269,9 +5022,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:39
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/message-"
-#| "board.c.html\">WebKitGTK+ demo tutorial</link>"
 msgid ""
 "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/message-"
 "board.c.html\">WebKitGTK demo tutorial</link>"
@@ -5281,9 +5031,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:40
-#| msgid ""
-#| "<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">WebKitGTK"
-#| "+ Reference Manual</link>"
 msgid ""
 "<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">WebKitGTK "
 "Reference Manual</link>"
@@ -5293,7 +5040,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:41
-#| msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK+ web site</link>"
 msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK web site</link>"
 msgstr "<link href=\"http://webkitgtk.org/\">Die Webseite von WebKitGTK</link>"
 
