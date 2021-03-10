@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-demos\n"
-"POT-Creation-Date: 2021-02-05 12:00+0000\n"
-"PO-Revision-Date: 2021-02-19 22:46+0100\n"
+"POT-Creation-Date: 2021-02-19 21:52+0000\n"
+"PO-Revision-Date: 2021-03-10 20:21+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Svenska <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -112,7 +112,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/02_welcome_to_the_grid.js.page:32
 msgid "Going native"
-msgstr "Att köra inbyggt"
+msgstr "Att köra inhemskt"
 
 #. (itstool) path: section/p
 #: C/02_welcome_to_the_grid.js.page:34
@@ -135,8 +135,8 @@ msgid ""
 "like the button and header in the web app we wrote. Because instead of using web code, these are going to be 100 "
 "percent GNOME, using GTK+."
 msgstr ""
-"Denna gång kommer vi att enbart använda inbyggda GNOME-komponenter. En komponent är en sak, så som en kryssruta "
-"eller en bild, och GNOME har en uppsjö att välja bland. Vi kallar dem ”inbyggda” komponenter för att särskilja dem "
+"Denna gång kommer vi att enbart använda inhemska GNOME-komponenter. En komponent är en sak, så som en kryssruta "
+"eller en bild, och GNOME har en uppsjö att välja bland. Vi kallar dem ”inhemska” komponenter för att särskilja dem "
 "från saker som knappen och rubriken i webbapplikationen vi skrev. Istället för att använda webbkod kommer dessa "
 "att vara 100 procent GNOME, genom att använda GTK+."
 
@@ -3593,6 +3593,7 @@ msgstr ""
 "let app = new AboutDialogExample();\n"
 "app.application.run(ARGV);\n"
 
+# TODO: dead link
 #. (itstool) path: item/p
 #: C/aboutdialog.js.page:29 C/gmenu.c.page:32 C/gmenu.js.page:30 C/gmenu.py.page:80 C/messagedialog.js.page:194
 #: C/switch.js.page:266
@@ -4225,7 +4226,7 @@ msgstr "Handledningar"
 #. (itstool) path: section/title
 #: C/beginner.js.page:46 C/beginner.vala.page:46 C/py.page:32
 msgid "Code samples"
-msgstr ""
+msgstr "Kodexempel"
 
 #. (itstool) path: section/p
 #: C/beginner.js.page:47
@@ -4234,11 +4235,14 @@ msgid ""
 "which showcases the featured widget. At the end of each sample, you will find links to more detailed reference "
 "material."
 msgstr ""
+"Dessa exempel visar hur du använder komponenter i dina GNOME-program. Varje exempel demonstrerar ett komplett "
+"program som visar upp den presenterade komponenten. I slutet på varje exempel kommer du hitta länkar till mer "
+"detaljerat referensmaterial."
 
 #. (itstool) path: section/p
 #: C/beginner.js.page:48 C/beginner.vala.page:47 C/c.page:91
 msgid "To run the code samples:"
-msgstr ""
+msgstr "För att köra kodexemplen:"
 
 #. (itstool) path: item/p
 #: C/beginner.js.page:50
@@ -4248,7 +4252,7 @@ msgstr "Kopiera och klistra in koden i <var>filnamn</var>.js"
 #. (itstool) path: item/p
 #: C/beginner.js.page:51
 msgid "In the terminal, type:"
-msgstr ""
+msgstr "Skriv följande i terminalen:"
 
 #. (itstool) path: item/screen
 #: C/beginner.js.page:52
@@ -4264,7 +4268,7 @@ msgstr "Fönster"
 #. (itstool) path: section/title
 #: C/beginner.js.page:57 C/beginner.py.page:34 C/beginner.vala.page:61 C/c.page:121
 msgid "Display widgets"
-msgstr ""
+msgstr "Visningskomponenter"
 
 #. (itstool) path: section/title
 #: C/beginner.js.page:59 C/beginner.py.page:36 C/beginner.vala.page:63 C/c.page:123
@@ -4450,7 +4454,7 @@ msgstr "En knappkomponent vilken sänder ut en signal när den klickas på"
 #. (itstool) path: page/title
 #: C/button.c.page:23 C/button.js.page:21 C/button.py.page:23
 msgid "Button"
-msgstr "Knapp"
+msgstr "Button"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -4978,7 +4982,7 @@ msgstr "Meg Ford"
 #. (itstool) path: info/desc
 #: C/buttonbox.js.page:19 C/buttonbox.py.page:20
 msgid "A container for arranging buttons"
-msgstr ""
+msgstr "En behållare för att arrangera knappar"
 
 #. (itstool) path: page/title
 #. (itstool) path: steps/title
@@ -5445,12 +5449,12 @@ msgstr "Bastian Ilsø"
 #. (itstool) path: info/desc
 #: C/c.page:24
 msgid "Tutorials and code samples in C."
-msgstr ""
+msgstr "Handledningar och kodexempel i C."
 
 #. (itstool) path: page/title
 #: C/c.page:27
 msgid "Platform Demos in C"
-msgstr ""
+msgstr "Plattformsdemonstrationer i C"
 
 #. (itstool) path: section/title
 #: C/c.page:31
@@ -5468,7 +5472,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/c.page:44
 msgid "Guidelines for new developers"
-msgstr ""
+msgstr "Riktlinjer för nya utvecklare"
 
 #. (itstool) path: section/p
 #: C/c.page:46
@@ -5481,7 +5485,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/c.page:52
 msgid "Recommended tools"
-msgstr ""
+msgstr "Rekommenderade verktyg"
 
 #. (itstool) path: item/p
 #: C/c.page:56
@@ -5530,13 +5534,13 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/c.page:95
 msgid "Copy and paste the code into <var>filename</var>.c"
-msgstr ""
+msgstr "Kopiera och klistra in koden i <var>filnamn</var>.c"
 
 #. (itstool) path: item/screen
 #: C/c.page:99
 #, no-wrap
 msgid "gcc <var>filename</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>filename</var>"
-msgstr ""
+msgstr "gcc <var>filnamn</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>filnamn</var>"
 
 #. (itstool) path: note/p
 #: C/c.page:105
@@ -5669,7 +5673,7 @@ msgstr ""
 #: C/scale.js.page:28 C/spinbutton.js.page:31 C/statusbar.js.page:28 C/switch.js.page:35 C/textview.js.page:38
 #: C/togglebutton.js.page:28 C/treeview_simple_liststore.js.page:37 C/weatherAppMain.js.page:41
 msgid "Libraries to import"
-msgstr ""
+msgstr "Bibliotek att importera"
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:29
@@ -6123,7 +6127,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.CheckButton.html\">Gtk.
 #: C/colorbutton.js.page:8
 msgctxt "text"
 msgid "ColorButton (JavaScript)"
-msgstr ""
+msgstr "ColorButton (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/colorbutton.js.page:18 C/colorbutton.py.page:19 C/colorbutton.vala.page:20
@@ -6133,7 +6137,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/colorbutton.js.page:21 C/colorbutton.py.page:22 C/colorbutton.vala.page:23
 msgid "ColorButton"
-msgstr ""
+msgstr "ColorButton"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -6239,7 +6243,7 @@ msgstr "<link href=\"http://developer.gnome.org/gdk3/stable/gdk3-RGBA-Colors.htm
 #: C/colorbutton.py.page:8
 msgctxt "text"
 msgid "ColorButton (Python)"
-msgstr ""
+msgstr "ColorButton (Python)"
 
 #. (itstool) path: section/code
 #: C/colorbutton.py.page:30
@@ -6337,7 +6341,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorChooser.ht
 #: C/colorbutton.vala.page:8
 msgctxt "text"
 msgid "ColorButton (Vala)"
-msgstr ""
+msgstr "ColorButton (Vala)"
 
 #. (itstool) path: page/p
 #: C/colorbutton.vala.page:25
@@ -6403,7 +6407,7 @@ msgstr "<link href=\"http://valadoc.org/gdk-3.0/Gdk.RGBA.html\">Gdk.RGBA</link>"
 #: C/comboboxtext.js.page:8
 msgctxt "text"
 msgid "ComboBoxText (JavaScript)"
-msgstr ""
+msgstr "ComboBoxText (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/comboboxtext.js.page:20
@@ -6413,7 +6417,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/comboboxtext.js.page:23
 msgid "ComboBoxText"
-msgstr ""
+msgstr "ComboBoxText"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -7333,6 +7337,10 @@ msgid ""
 "let app = new ComboBoxExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new ComboBoxExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/combobox.js.page:224
@@ -7515,7 +7523,7 @@ msgstr "ComboBox (Python)"
 #. (itstool) path: page/title
 #: C/combobox.py.page:23
 msgid "ComboBox (one column)"
-msgstr ""
+msgstr "ComboBox (en kolumn)"
 
 #. (itstool) path: page/p
 #: C/combobox.py.page:25 C/combobox_multicolumn.py.page:24 C/combobox_multicolumn.vala.page:24
@@ -7759,7 +7767,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.CellLayout.set_attribut
 #. (itstool) path: page/title
 #: C/combobox_multicolumn.py.page:22 C/combobox_multicolumn.vala.page:22
 msgid "ComboBox (two columns)"
-msgstr ""
+msgstr "ComboBox (två kolumner)"
 
 #. (itstool) path: section/code
 #: C/combobox_multicolumn.py.page:30
@@ -7973,12 +7981,12 @@ msgstr "C++"
 #. (itstool) path: page/title
 #: C/cpp.page:16
 msgid "Code samples and platform demos in C++"
-msgstr ""
+msgstr "Kodexempel och plattformsdemonstrationer i C++"
 
 #. (itstool) path: section/title
 #: C/cpp.page:21 C/js.page:36 C/py.page:39 C/vala.page:30
 msgid "Examples of applications"
-msgstr ""
+msgstr "Exempel på program"
 
 #. (itstool) path: info/title
 #: C/dialog.c.page:8
@@ -7989,7 +7997,7 @@ msgstr "Dialog (C)"
 #. (itstool) path: info/desc
 #: C/dialog.c.page:20 C/dialog.js.page:18 C/dialog.py.page:20 C/dialog.vala.page:18
 msgid "A popup window"
-msgstr ""
+msgstr "Ett poppuppfönster"
 
 #. (itstool) path: page/title
 #: C/dialog.c.page:23 C/dialog.js.page:21 C/dialog.py.page:23 C/dialog.vala.page:21
@@ -8009,7 +8017,7 @@ msgstr "external ref='media/dialog.png' md5='c90a33386a600e892fe623d4072c8c38'"
 #. (itstool) path: page/p
 #: C/dialog.c.page:26
 msgid "A dialog window that pops up when a button is pressed."
-msgstr ""
+msgstr "Ett dialogfönster som poppar upp då en knapp trycks ned."
 
 #. (itstool) path: page/code
 #: C/dialog.c.page:28
@@ -8951,7 +8959,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Entry.html\">Gtk.Entry<
 #: C/filechooserdialog.py.page:8
 msgctxt "text"
 msgid "FileChooserDialog (Python)"
-msgstr ""
+msgstr "FileChooserDialog (Python)"
 
 #. (itstool) path: info/desc
 #: C/filechooserdialog.py.page:22
@@ -8961,7 +8969,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/filechooserdialog.py.page:25 C/filechooserdialog.vala.page:24
 msgid "FileChooserDialog"
-msgstr ""
+msgstr "FileChooserDialog"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -9412,7 +9420,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkBuilder.html\">Gt
 #: C/filechooserdialog.vala.page:8
 msgctxt "text"
 msgid "FileChooserDialog (Vala)"
-msgstr ""
+msgstr "FileChooserDialog (Vala)"
 
 #. (itstool) path: info/desc
 #: C/filechooserdialog.vala.page:21
@@ -9441,7 +9449,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/filechooserdialog.vala.page:32
 msgid "Vala Code"
-msgstr ""
+msgstr "Vala-kod"
 
 #. (itstool) path: section/code
 #: C/filechooserdialog.vala.page:33
@@ -9648,7 +9656,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/filechooserdialog.vala.page:35 C/menubar.vala.page:187
 msgid "Relevant API documentation"
-msgstr ""
+msgstr "Relevant API-dokumentation"
 
 #. (itstool) path: item/p
 #: C/filechooserdialog.vala.page:40
@@ -9674,17 +9682,17 @@ msgstr "<link href=\"http://valadoc.org/gio-2.0/GLib.ActionEntry.html\">GLib.Act
 #: C/fontchooserwidget.js.page:8
 msgctxt "text"
 msgid "FontChooserWidget (JavaScript)"
-msgstr ""
+msgstr "FontChooserWidget (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/fontchooserwidget.js.page:18 C/fontchooserwidget.py.page:20 C/fontchooserwidget.vala.page:18
 msgid "A widget to choose a font"
-msgstr ""
+msgstr "En komponent för att välja ett typsnitt"
 
 #. (itstool) path: page/title
 #: C/fontchooserwidget.js.page:21 C/fontchooserwidget.py.page:23 C/fontchooserwidget.vala.page:21
 msgid "FontChooserWidget"
-msgstr ""
+msgstr "FontChooserWidget"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -9777,7 +9785,7 @@ msgstr ""
 #: C/fontchooserwidget.py.page:8
 msgctxt "text"
 msgid "FontChooserWidget (Python)"
-msgstr ""
+msgstr "FontChooserWidget (Python)"
 
 #. (itstool) path: section/code
 #: C/fontchooserwidget.py.page:32
@@ -9863,7 +9871,7 @@ msgstr ""
 #: C/fontchooserwidget.vala.page:8
 msgctxt "text"
 msgid "FontChooserWidget (Vala)"
-msgstr ""
+msgstr "FontChooserWidget (Vala)"
 
 # TODO: Antopolski
 #. (itstool) path: credit/name
@@ -9923,7 +9931,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.FontChooserWidget.html\
 #: C/gmenu.c.page:8
 msgctxt "text"
 msgid "GMenu (C)"
-msgstr ""
+msgstr "GMenu (C)"
 
 #. (itstool) path: info/desc
 #: C/gmenu.c.page:18 C/gmenu.js.page:18 C/gmenu.vala.page:24
@@ -9933,7 +9941,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/gmenu.c.page:21 C/gmenu.js.page:21 C/gmenu.py.page:29 C/gmenu.vala.page:27
 msgid "GMenu"
-msgstr ""
+msgstr "GMenu"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -10028,7 +10036,7 @@ msgstr ""
 #: C/gmenu.js.page:8
 msgctxt "text"
 msgid "GMenu (JavaScript)"
-msgstr ""
+msgstr "GMenu (Javascript)"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -10130,7 +10138,7 @@ msgstr ""
 #: C/gmenu.py.page:8
 msgctxt "text"
 msgid "GMenu (Python)"
-msgstr ""
+msgstr "GMenu (Python)"
 
 #. (itstool) path: info/desc
 #: C/gmenu.py.page:26
@@ -10374,7 +10382,7 @@ msgstr "<link href=\"http://developer.gnome.org/glib/unstable/glib-GVariant.html
 #: C/gmenu.vala.page:8
 msgctxt "text"
 msgid "GMenu (Vala)"
-msgstr ""
+msgstr "GMenu (Vala)"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -10486,7 +10494,7 @@ msgstr "Grid (C)"
 #. (itstool) path: info/desc
 #: C/grid.c.page:18 C/grid.js.page:22 C/grid.py.page:26 C/grid.vala.page:20
 msgid "Pack widgets in rows and columns"
-msgstr ""
+msgstr "Packa komponenter i rader och kolumner"
 
 #. (itstool) path: page/title
 #: C/grid.c.page:21 C/grid.js.page:25 C/grid.py.page:29
@@ -12135,7 +12143,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.cpp.page:266
 msgid "Further Reading"
-msgstr ""
+msgstr "Vidare läsning"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.cpp.page:267
@@ -12178,7 +12186,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/guitar-tuner.js.page:27 C/weatherAppMain.js.page:24
 msgid "<link xref=\"#imports\">Libraries to import</link>"
-msgstr ""
+msgstr "<link xref=\"#imports\">Bibliotek att importera</link>"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.js.page:28 C/weatherAppMain.js.page:25
@@ -12519,6 +12527,7 @@ msgid ""
 "Gtk.main();"
 msgstr ""
 
+# TODO: from terminal
 #. (itstool) path: section/title
 #: C/guitar-tuner.js.page:237
 msgid "Running the application form Terminal"
@@ -13295,7 +13304,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.vala.page:264 C/magic-mirror.vala.page:157
 msgid "Further reading"
-msgstr ""
+msgstr "Vidare läsning"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.vala.page:265
@@ -13308,12 +13317,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/hellognome.js.page:17
 msgid "Your first GNOME application!"
-msgstr ""
+msgstr "Ditt första GNOME-program!"
 
 #. (itstool) path: page/title
 #: C/hellognome.js.page:20
 msgid "1. Hello, GNOME!"
-msgstr ""
+msgstr "1. Hej GNOME!"
 
 #. (itstool) path: synopsis/p
 #: C/hellognome.js.page:22
@@ -13322,6 +13331,9 @@ msgid ""
 "write for GNOME the same way you would for the web. Afterwards, you will learn how to use \"native\" widgets, to "
 "write applications that look and feel like other GNOME apps."
 msgstr ""
+"Denna handledning kommer visa dig hur du skriver ditt första GNOME-program i Javascript. Du kommer använda "
+"Javascript för att skriva för GNOME på samma sätt som du skulle skriva för webben. Efteråt kommer du lära dig hur "
+"du använder ”inhemska” komponenter för att skriva program som ser ut som och känns som andra GNOME-program."
 
 #. (itstool) path: note/p
 #: C/hellognome.js.page:23
@@ -13329,16 +13341,18 @@ msgid ""
 "Have you gotten GNOME installed on your computer, and <link xref=\"set-up-gedit.js\">gedit</link> set up to write "
 "code with? You'll want to do these things first."
 msgstr ""
+"Har du GNOME installerat på din dator, och <link xref=\"set-up-gedit.js\">gedit</link> konfigurerat för att skriva "
+"kod med? Du kommer vilja göra dessa saker först."
 
 #. (itstool) path: section/title
 #: C/hellognome.js.page:29
 msgid "Let's start with a web page"
-msgstr ""
+msgstr "Låt oss börja med en webbsida"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:31
 msgid "Here's some basic HTML, CSS, and JavaScript code. Does this look familiar?"
-msgstr ""
+msgstr "Här är lite grundläggande HTML-, CSS- och Javascript-kod. Verkar det bekant?"
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:32
@@ -13375,11 +13389,41 @@ msgid ""
 "    &lt;/body&gt;\n"
 "&lt;/html&gt;\n"
 msgstr ""
+"\n"
+"&lt;!DOCTYPE html&gt;\n"
+"&lt;html&gt;\n"
+"    &lt;head&gt;\n"
+"        &lt;meta charset=\"utf-8\"&gt;\n"
+"        &lt;title&gt;Hej GNOME!&lt;/title&gt;\n"
+"\n"
+"        &lt;!-- Använd Javascript för att visa en hälsning när någon klickar på knappen --&gt;\n"
+"        &lt;script type=\"application/javascript\"&gt;\n"
+"        function greeting () {\n"
+"            document.getElementById (\"greeting\").innerHTML = (\"O hai!\");\n"
+"        }\n"
+"        &lt;/script&gt;\n"
+"\n"
+"        &lt;!-- Väldigt enkel CSS-stil som använder GNOME-typsnittet --&gt;\n"
+"        &lt;style type=\"text/css\"&gt;\n"
+"            body {\n"
+"                font-face: Cantarell, sans-serif;\n"
+"                text-align: center; }\n"
+"        &lt;/style&gt;\n"
+"\n"
+"    &lt;/head&gt;\n"
+"    &lt;body&gt;\n"
+"        &lt;br /&gt; &lt;br /&gt;\n"
+"        &lt;button type=\"button\" onclick=\"greeting()\"&gt;Hej GNOME!&lt;/button&gt;\n"
+"\n"
+"        &lt;!-- Tomt H1-element som blir ifyllt när knappen klickas på --&gt;\n"
+"        &lt;h1 id=\"greeting\"&gt;&lt;/h1&gt;\n"
+"    &lt;/body&gt;\n"
+"&lt;/html&gt;\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:64
 msgid "Let's save this as <file>hellognome.html</file>, and see what it looks like when we run it!"
-msgstr ""
+msgstr "Låt oss spara detta som <file>hellognome.html</file>, och se hur det ser ut när vi kör det!"
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -13399,6 +13443,10 @@ msgid ""
 "You'll be able to resize and maximize the window, and click the X in the corner to close it, just like you'd "
 "expect from any other GNOME app. The difference is that this one will run our web code inside of it."
 msgstr ""
+"Du <em>kan</em> köra koden ovan genom att öppna <file>hellognome.html</file> i en webbläsare. Men här kommer vi "
+"skapa ett GNOME-program som kör vår webbapplikation inuti sig, precis som du ser i skärmbilden. Du kommer kunna "
+"ändra storlek på och maximera fönstret, och klicka på X i hörnet för att stänga det, precis som du skulle förvänta "
+"dig från vilket annat GNOME-program som helst. Skillnaden är att detta kommer att köra vår webbkod i sig."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:69
@@ -13406,11 +13454,13 @@ msgid ""
 "The best part? We're going to continue to use JavaScript, to write all the parts that make our app work with "
 "GNOME. Let's look at the code, and see how it's done!"
 msgstr ""
+"Det bästa med det? Vi kommer fortsätta använda Javascript för alla delar som gör att vårt program fungerar med "
+"GNOME. Låt oss ta en titt på koden, och se hur det görs!"
 
 #. (itstool) path: section/title
 #: C/hellognome.js.page:73
 msgid "Creating a GNOME window to frame our web app"
-msgstr ""
+msgstr "Skapa ett GNOME-fönster för att rama in vår webbapplikation"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:75
@@ -13419,6 +13469,9 @@ msgid ""
 "your JavaScript code into instructions it understands, so this line always has to go at the start of your "
 "applications."
 msgstr ""
+"Först behöver vi säga till GNOME att detta är ett Javascript-program som använder gjs. Gjs är GNOME:s sätt att "
+"förvandla din Javascript-kod till instruktioner som det förstår, så denna rad måste alltid finnas i början av dina "
+"program."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:76
@@ -13433,7 +13486,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/hellognome.js.page:79
 msgid "Then we should set the versions of the libraries we'll be using."
-msgstr ""
+msgstr "Sedan ska vi ställa in versionerna av biblioteken som vi kommer använda."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:80
@@ -13443,11 +13496,14 @@ msgid ""
 "imports.gi.versions.Gtk = '3.0';\n"
 "imports.gi.versions.WebKit2 = '4.0';\n"
 msgstr ""
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:84
 msgid "After that, we need to tell GNOME which libraries we want to import."
-msgstr ""
+msgstr "Efter det behöver vi säga till GNOME vilka bibliotek som vi vill importera."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:85
@@ -13458,6 +13514,10 @@ msgid ""
 "const Gtk = imports.gi.Gtk;\n"
 "const Webkit = imports.gi.WebKit2;\n"
 msgstr ""
+"\n"
+"const GLib = imports.gi.GLib;\n"
+"const Gtk = imports.gi.Gtk;\n"
+"const Webkit = imports.gi.WebKit2;\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:90
@@ -13465,6 +13525,8 @@ msgid ""
 "Just like how add-on libraries like jQuery let us do extra things with JavaScript, each of these libraries gives "
 "us new capabilities for our GNOME apps:"
 msgstr ""
+"Precis som hur tilläggsbibliotek som jQuery låter oss göra extra saker med Javascript så ger vart och ett av dessa "
+"bibliotek oss nya förmågor till våra GNOME-program:"
 
 #. (itstool) path: item/p
 #: C/hellognome.js.page:92
@@ -13472,6 +13534,8 @@ msgid ""
 "<file>Gtk</file> is the basic part of any GNOME application, which lets you create windows and widgets and tie "
 "them together."
 msgstr ""
+"<file>Gtk</file> är den grundläggande delen av alla GNOME-program, vilket låter dig skapa fönster och komponenter "
+"och binda ihop dem."
 
 #. (itstool) path: item/p
 #: C/hellognome.js.page:93
@@ -13479,6 +13543,8 @@ msgid ""
 "<file>GLib</file> is a helper library, which lets us do things like tell GNOME where the <file>hellognome.html</"
 "file> file we created is."
 msgstr ""
+"<file>GLib</file> är ett hjälpbibliotek, vilket låter oss göra saker som att säga till GNOME var filen "
+"<file>hellognome.html</file> som vi skapade finns."
 
 #. (itstool) path: item/p
 #: C/hellognome.js.page:94
@@ -13486,11 +13552,13 @@ msgid ""
 "And <file>Webkit</file> is a web rendering engine, which we'll use to basically create a browser window to open "
 "our HTML file with."
 msgstr ""
+"<file>Webkit</file> är slutligen en webbrenderingsmotor, vilken vi kommer använda för att praktiskt taget skapa "
+"ett webbläsarfönster att öppna vår HTML-fil med."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:97
 msgid "Now we create the application itself:"
-msgstr ""
+msgstr "Nu skapar vi programmet i sig:"
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:98
@@ -13499,6 +13567,8 @@ msgid ""
 "\n"
 "class HelloGNOME {\n"
 msgstr ""
+"\n"
+"class HelloGNOME {\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:101
@@ -13506,6 +13576,8 @@ msgid ""
 "This will look familiar to you if you've worked with object-oriented JavaScript before. That's right; our whole "
 "application is a class called HelloGNOME."
 msgstr ""
+"Detta kommer verka bekant för dig om du har arbetat med objektorienterad Javascript innan. Det stämmer: hela vårt "
+"program är en klass med namnet HelloGNOME."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:103
@@ -13531,6 +13603,25 @@ msgid ""
 "        this._buildUI();\n"
 "    }\n"
 msgstr ""
+"\n"
+"    // Skapa programmet i sig\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application();\n"
+"\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktioner\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
+"\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönster när den aktiveras\n"
+"    _onActivate() {\n"
+"        this._window.present();\n"
+"    }\n"
+"\n"
+"    // Återanropsfunktion för ”startup”-signal bygger användargränssnittet\n"
+"    _onStartup() {\n"
+"        this._buildUI();\n"
+"    }\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:123
@@ -13539,6 +13630,9 @@ msgid ""
 "Application, and then binds its activate and startup signals to functions that make the window show itself and "
 "build its user interface, respectively."
 msgstr ""
+"Här är lite kod du mer eller mindre kommer kopiera och klistra för varje Javascript-program som du bygger. Det "
+"skapar en ny Application, och binder sedan dess ”activate”- och ”startup”-signaler till funktioner som får "
+"fönstret att visa sig respektive bygga sitt användargränssnitt."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:124
@@ -13549,6 +13643,11 @@ msgid ""
 "object's connect method, which takes two arguments: The signal we want to handle, and the bound function, which we "
 "have to use to tell connect which function we want to have handle the signal."
 msgstr ""
+"Vad betyder det här? Tja, allt i ett GNOME-program skickar ut en signal då något viktigt händer. En knapp kan "
+"exempelvis skicka ut signalen ”clicked” när du klickar på den. Vårt jobb är att ansluta signalerna till funktioner "
+"som hanterar dem, och får de saker som vill ska hända att inträffa. Vi gör detta genom att använda varje objekts "
+"”connect”-metod, vilken tar två argument: signalen som vi vill hantera, och den bundna funktionen, vilken vi måste "
+"använda för att säga till ”connect” vilken funktion vi vill ska hantera signalen."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:125
@@ -13558,6 +13657,11 @@ msgid ""
 "key></keyseq> to the application it appears, like you would expect it to. _onStartup calls _buildUI, which is the "
 "function that creates our user interface and is the next part that we will look at."
 msgstr ""
+"I detta fall vill vi att _onActivate ska hantera ”activate”-signalen, och att _onStartup ska hantera ”startup”-"
+"signalen. _onActivate säger bara till fönstret att visa sig; i princip så att närhelst du använder "
+"<keyseq><key>Alt</key> <key>Tabb</key></keyseq> för att växla till programmet så visas det, som du skulle förvänta "
+"dig. _onStartup anropar _buildUI vilket är funktionen som skapar vårt användargränssnitt och är nästa del som vi "
+"kommer att ta en titt på."
 
 #. (itstool) path: note/p
 #: C/hellognome.js.page:126
@@ -13565,11 +13669,13 @@ msgid ""
 "When you copy and paste the above code for your own applications, be sure to change the class name to a unique one "
 "each time."
 msgstr ""
+"När du kopierar och klistrar in koden ovan för dina egna program, säkerställ att du ändrar klassnamnet till ett "
+"unikt namn varje gång."
 
 #. (itstool) path: section/title
 #: C/hellognome.js.page:130
 msgid "Designing our window's UI"
-msgstr ""
+msgstr "Designa vårt fönsters användargränssnitt"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:131
@@ -13577,6 +13683,8 @@ msgid ""
 "In the _buildUI function, we're going to tell GNOME about our window and the things inside it, one at a time. "
 "After that, we're going to connect everything together and put it all on display."
 msgstr ""
+"I _buildUI-funktionen kommer vi säga till GNOME om vårt fönster och sakerna i det, en åt gången. Efter det kommer "
+"vi koppla ihop allting och visa upp det."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:133
@@ -13594,6 +13702,17 @@ msgid ""
 "            default_width: 400,\n"
 "            window_position: Gtk.WindowPosition.CENTER });\n"
 msgstr ""
+"\n"
+"    // Bygg programmets användargränssnitt\n"
+"    _buildUI() {\n"
+"\n"
+"        // Skapa programfönstret\n"
+"        this._window = new Gtk.ApplicationWindow  ({\n"
+"            application: this.application,\n"
+"            title: \"Välkommen till GNOME\",\n"
+"            default_height: 200,\n"
+"            default_width: 400,\n"
+"            window_position: Gtk.WindowPosition.CENTER });\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:146
@@ -13604,6 +13723,11 @@ msgid ""
 "into more detail about. As you can see here, we gave it a default height and width (measured in pixels), and told "
 "GNOME we want our window to appear in the center of the screen."
 msgstr ""
+"Det första objektet vi skapar är ett ApplicationWindow. Det behöver en titel till namnlisten, och dess "
+"”application”-egenskap måste vara programmet vi skapade ovan. Bortom det så finns det olika sätt att anpassa hur "
+"det ser ut, vilket referenssidan <link xref=\"GtkApplicationWindow.js\">ApplicationWindow</link> kommer gå in på "
+"mer detaljerat. Som du kan se här så gav vi den en standardbredd och standardhöjd (mätt i bildpunkter), och sa "
+"till GNOME att vi vill att vårt fönster ska dyka upp i mitten på skärmen."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:147
@@ -13617,6 +13741,13 @@ msgid ""
 "        this._webView.load_uri (GLib.filename_to_uri (GLib.get_current_dir() +\n"
 "            \"/hellognome.html\", null));\n"
 msgstr ""
+"\n"
+"        // Skapa en webbvy för att visa webbapplikationen\n"
+"        this._webView = new Webkit.WebView ();\n"
+"\n"
+"        // Stoppa webbapplikationen i webbvyn\n"
+"        this._webView.load_uri (GLib.filename_to_uri (GLib.get_current_dir() +\n"
+"            \"/hellognome.html\", null));\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:155
@@ -13625,6 +13756,9 @@ msgid ""
 "WebView, which is more or less a browser window you can put inside of your app. After that, we then give it the "
 "URI that we want it to load when the application starts up."
 msgstr ""
+"Kommer du ihåg hur vi importerade Webkit i början? Här skapar vi en ny instans av en Webkit-klass som kallas en "
+"WebView, vilket mer eller mindre är ett webbläsarfönster som du kan stoppa i ditt program. Efter det ger vi den "
+"URI:n som vi vill att den ska läsa in när programmet startar."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:156
@@ -13650,6 +13784,15 @@ msgid ""
 "\n"
 "});\n"
 msgstr ""
+"\n"
+"        // Stoppa webbvyn i fönstret\n"
+"        this._window.add (this._webView);\n"
+"\n"
+"        // Visa fönstret och alla barnkomponenter\n"
+"        this._window.show_all();\n"
+"    },\n"
+"\n"
+"});\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:167
@@ -13669,16 +13812,20 @@ msgid ""
 "let app = new HelloGNOME ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new HelloGNOME ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:173
 msgid "Finally, we create a new instance of our HelloGNOME class, and tell GNOME to run it."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av vår HelloGNOME-klass, och säger till GNOME att köra den."
 
 #. (itstool) path: section/title
 #: C/hellognome.js.page:177
 msgid "Running your GNOME application"
-msgstr ""
+msgstr "Köra ditt GNOME-program"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:179
@@ -13694,7 +13841,7 @@ msgstr ""
 #: C/hellognome.js.page:180
 #, no-wrap
 msgid " <output style=\"prompt\">$ </output>gjs hellognome.js "
-msgstr ""
+msgstr " <output style=\"prompt\">$ </output>gjs hellognome.js "
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:181
@@ -13702,17 +13849,19 @@ msgid ""
 "You should see more or less the same screenshot as before, with a button that you can click to make a short "
 "message appear."
 msgstr ""
+"Du bör se mer eller mindre samma skärmbild som tidigare, med en knapp som du kan klicka på för att få ett kort "
+"meddelande att dyka upp."
 
 #. (itstool) path: note/p
 #: C/hellognome.js.page:184
 msgid "You can use the terminal command"
-msgstr ""
+msgstr "Du kan använda terminalkommandot"
 
 #. (itstool) path: note/screen
 #: C/hellognome.js.page:185
 #, no-wrap
 msgid " <output style=\"prompt\">$ </output>cd <var>(directory name)</var> "
-msgstr ""
+msgstr " <output style=\"prompt\">$ </output>cd <var>(katalognamn)</var> "
 
 #. (itstool) path: note/p
 #: C/hellognome.js.page:186
@@ -13731,6 +13880,10 @@ msgid ""
 "at some <link xref=\"beginner.js#samples\">code samples</link>, if you'd like to see example code for each Gtk "
 "widget."
 msgstr ""
+"<link xref=\"02_welcome_to_the_grid.js\">Fortsätt till nästa handledning</link> för att lära dig hur du bygger "
+"”inhemska” GNOME-program som ser ut och känns som de andra, istället för en webbvy med HTML-kod inuti. Eller ta en "
+"titt på några <link xref=\"beginner.js#samples\">kodexempel</link>, om du vill se exempelkod för varje Gtk-"
+"komponent."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:194
@@ -13806,12 +13959,72 @@ msgid ""
 "let app = new HelloGNOME ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"#!/usr/bin/gjs\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"imports.gi.versions.WebKit2 = '4.0';\n"
+"\n"
+"const GLib = imports.gi.GLib;\n"
+"const Gtk = imports.gi.Gtk;\n"
+"const Webkit = imports.gi.WebKit2;\n"
+"\n"
+"class HelloGNOME {\n"
+"\n"
+"    // Skapa programmet i sig\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application ();\n"
+"\n"
+"        // Anslut ”activate”- och ”startup”-signalerna till återanropsfunktionerna\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
+"\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönster när den aktiveras\n"
+"    _onActivate() {\n"
+"        this._window.present();\n"
+"    }\n"
+"\n"
+"    // Återanropsfunktion för ”startup”-signal bygger användargränssnittet\n"
+"    _onStartup() {\n"
+"        this._buildUI();\n"
+"    }\n"
+"\n"
+"    // Build the application's UI\n"
+"    _buildUI() {\n"
+"\n"
+"        // Create the application window\n"
+"        this._window = new Gtk.ApplicationWindow  ({\n"
+"            application: this.application,\n"
+"            title: \"Välkommen till GNOME\",\n"
+"            default_height: 200,\n"
+"            default_width: 400,\n"
+"            window_position: Gtk.WindowPosition.CENTER });\n"
+"\n"
+"        // Skapa en webbvy för att visa webbapplikationen\n"
+"        this._webView = new Webkit.WebView ();\n"
+"\n"
+"        // Stoppa webbapplikationen i webbvyn\n"
+"        this._webView.load_uri (GLib.filename_to_uri (GLib.get_current_dir() +\n"
+"            \"/hellognome.html\", null));\n"
+"\n"
+"        // Stoppa webbvyn i fönstret\n"
+"        this._window.add (this._webView);\n"
+"\n"
+"        // Visa fönstret och alla barnkomponenter\n"
+"        this._window.show_all();\n"
+"    }\n"
+"\n"
+"};\n"
+"\n"
+"// Kör programmet\n"
+"let app = new HelloGNOME ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: info/title
 #: C/hello-world.c.page:10
 msgctxt "link"
 msgid "Hello World (C)"
-msgstr ""
+msgstr "Hej världen (C)"
 
 #. (itstool) path: credit/name
 #: C/hello-world.c.page:24
@@ -13821,12 +14034,12 @@ msgstr "Bastian Ilsø"
 #. (itstool) path: info/desc
 #: C/hello-world.c.page:28
 msgid "Creating a small \"Hello, World\" application using GTK+."
-msgstr ""
+msgstr "Skapa ett litet ”Hej världen”-program med GTK+."
 
 #. (itstool) path: page/title
 #: C/hello-world.c.page:31
 msgid "Hello world"
-msgstr ""
+msgstr "Hej världen"
 
 #. (itstool) path: note/p
 #: C/hello-world.c.page:34
@@ -13834,11 +14047,13 @@ msgid ""
 "For a detailed walk-through of creating a GTK+ dialog in C, see <link href=\"https://developer.gnome.org/gtk3/"
 "stable/gtk-getting-started.html\">Getting Started with GTK+</link>"
 msgstr ""
+"För en detaljerad genomgång om hur man skapar en GTK+-dialog i C, se <link href=\"https://developer.gnome.org/gtk3/"
+"stable/gtk-getting-started.html\">Getting Started with GTK+</link>"
 
 #. (itstool) path: page/p
 #: C/hello-world.c.page:38
 msgid "Writing a hello world GTK+ dialog in C can be done as seen in the code sample below:"
-msgstr ""
+msgstr "Att skriva en GTK+-dialog av ”Hej världen”-typ i C kan göras som i kodexemplet nedan:"
 
 #. (itstool) path: page/code
 #: C/hello-world.c.page:39
@@ -13879,6 +14094,40 @@ msgid ""
 "\n"
 "  "
 msgstr ""
+"\n"
+"    #include &lt;gtk/gtk.h&gt;\n"
+"\n"
+"static void\n"
+"activate (GtkApplication* app,\n"
+"          gpointer        user_data)\n"
+"{\n"
+"  GtkWidget *window;\n"
+"  GtkWidget *label;\n"
+"\n"
+"  window = gtk_application_window_new (app);\n"
+"  label = gtk_label_new (\"Hej GNOME!\");\n"
+"  gtk_container_add (GTK_CONTAINER (window), label);\n"
+"  gtk_window_set_title (GTK_WINDOW (window), \"Välkommen till GNOME\");\n"
+"  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
+"  gtk_widget_show_all (window);\n"
+"}\n"
+"\n"
+"int\n"
+"main (int    argc,\n"
+"      char **argv)\n"
+"{\n"
+"  GtkApplication *app;\n"
+"  int status;\n"
+"\n"
+"  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
+"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+"  g_object_unref (app);\n"
+"\n"
+"  return status;\n"
+"}\n"
+"\n"
+"  "
 
 #. (itstool) path: page/p
 #: C/hello-world.c.page:43
@@ -13889,6 +14138,11 @@ msgid ""
 "string you want it to be. To be on the safe side, it's best to stick to UTF-8 encoding. The code above will create "
 "a dialog window similar to what can be seen below:"
 msgstr ""
+"GtkApplication initierar GTK+. Det ansluter också knappen <gui>x</gui> som genereras automatiskt tillsammans med "
+"fönstret till signalen ”destroy”. Vi kan börja med att bygga vårt första fönster. Vi gör detta genom att skapa en "
+"variabel med namnet <var>window</var> och tilldela den ett gtk_application_window_new. Fönstrets titel kan vara "
+"vilken sträng som du vill. För att vara på den säkra sidan är det bäst att hålla sig till UTF-8-kodning. Koden "
+"ovan kommer skapa ett dialogfönster som liknar det som kan ses nedan:"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -13904,47 +14158,47 @@ msgstr "external ref='media/hello-world.png' md5='4c88a27211dfd1b33e504c9f78602f
 #: C/hello-world.js.page:9
 msgctxt "text"
 msgid "Hello World (JavaScript)"
-msgstr ""
+msgstr "Hej världen (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/hello-world.js.page:24 C/hello-world.py.page:24 C/hello-world.vala.page:24
 msgid "A basic \"hello, world\" application"
-msgstr ""
+msgstr "Ett grundläggande ”Hej världen”-program"
 
 #. (itstool) path: page/title
 #: C/hello-world.js.page:27 C/hello-world.py.page:27 C/hello-world.vala.page:27
 msgid "How to build, install and create a <file>tar.xz</file> of a Hello World program"
-msgstr ""
+msgstr "Hur du bygger, installerar och skapar en <file>tar.xz</file> för ett ”Hej världen”-program"
 
 #. (itstool) path: synopsis/p
 #: C/hello-world.js.page:30 C/hello-world.py.page:30 C/hello-world.vala.page:30
 msgid "This tutorial will demonstrate how to:"
-msgstr ""
+msgstr "Denna handledning kommer demonstrera hur du:"
 
 #. (itstool) path: item/p
 #: C/hello-world.js.page:32
 msgid "create a small \"Hello, World\" application using JavaScript and GTK+"
-msgstr ""
+msgstr "skapar ett litet ”Hej världen”-program med Javascript och GTK+"
 
 #. (itstool) path: item/p
 #: C/hello-world.js.page:33 C/hello-world.py.page:33 C/hello-world.vala.page:33
 msgid "make the <file>.desktop</file> file"
-msgstr ""
+msgstr "gör <file>.desktop</file>-filen"
 
 #. (itstool) path: item/p
 #: C/hello-world.js.page:34 C/hello-world.py.page:34 C/hello-world.vala.page:34
 msgid "how to set up the build system"
-msgstr ""
+msgstr "konfigurerar byggsystemet"
 
 #. (itstool) path: section/title
 #: C/hello-world.js.page:42 C/hello-world.py.page:42 C/hello-world.vala.page:40
 msgid "Create the program"
-msgstr ""
+msgstr "Skapa programmet"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:47
 msgid "This needs to be the first line of your script:"
-msgstr ""
+msgstr "Detta måste vara den första raden i ditt skript:"
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:48
@@ -13958,6 +14212,8 @@ msgid ""
 "It tells the script to use <link href=\"https://live.gnome.org/Gjs/\">Gjs</link>. Gjs is a JavaScript binding for "
 "GNOME."
 msgstr ""
+"Den säger till skriptet att använda <link href=\"https://live.gnome.org/Gjs/\">Gjs</link>. Gjs är en Javascript-"
+"bindning för GNOME."
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:54
@@ -13968,6 +14224,10 @@ msgid ""
 "imports.gi.versions.Gtk = '3.0'\n"
 "const Gtk = imports.gi.Gtk;"
 msgstr ""
+"const Lang = imports.lang;\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0'\n"
+"const Gtk = imports.gi.Gtk;"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:58 C/hello-world.py.page:49
@@ -13976,6 +14236,9 @@ msgid ""
 "import the language bindings and GTK+, the library which contains the graphical widgets used to make GNOME "
 "applications."
 msgstr ""
+"För att vårt skript ska fungera med GNOME behöver vi importera GNOME-bibliotek via GObject Introspection. Här "
+"importerar vi språkbindningarna och GTK+, biblioteket som innehåller de grafiska komponenterna som används för att "
+"göra GNOME-program."
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:62
@@ -14012,6 +14275,36 @@ msgid ""
 "    }\n"
 "});\n"
 msgstr ""
+"const Application = new Lang.Class({\n"
+"    //En Class kräver en explicit parameter Name. Detta är klassens namn.\n"
+"    Name: 'Application',\n"
+"\n"
+"    //skapa programmet\n"
+"    _init: function() {\n"
+"        this.application = new Gtk.Application();\n"
+"\n"
+"       //anslut ”activate”- och ”startup”-signaler till hanterare.\n"
+"       this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
+"       this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
+"    },\n"
+"\n"
+"    //skapa användargränssnittet\n"
+"    _buildUI: function() {\n"
+"        this._window = new Gtk.ApplicationWindow({ application: this.application,\n"
+"                                                   title: \"Hej världen!\" });\n"
+"    },\n"
+"\n"
+"    //hanterare för ”activate”-signal\n"
+"    _onActivate: function() {\n"
+"        //show the window and all child widgets\n"
+"        this._window.show_all();\n"
+"    },\n"
+"\n"
+"    //hanterare för ”startup”-signal\n"
+"    _onStartup: function() {\n"
+"        this._buildUI();\n"
+"    }\n"
+"});\n"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:94
@@ -14019,6 +14312,8 @@ msgid ""
 "GtkApplication initializes GTK+. It also connects the <gui>x</gui> button that's automatically generated along "
 "with the window to the \"destroy\" signal."
 msgstr ""
+"GtkApplication initierar GTK+. Det ansluter också knappen <gui>x</gui> som genereras automatiskt tillsammans med "
+"fönstret till signalen ”destroy”."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:95
@@ -14026,6 +14321,8 @@ msgid ""
 "We can start building our first window. We do this by creating a variable called <var>_window</var> and assigning "
 "it a new Gtk.ApplicationWindow."
 msgstr ""
+"Vi kan börja med att bygga vårt första fönster. Vi gör detta genom att skapa en variabel med namnet <var>_window</"
+"var> och tilldela den ett Gtk.ApplicationWindow."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:96 C/hello-world.py.page:73
@@ -14033,17 +14330,21 @@ msgid ""
 "We give the window a property called <var>title</var>. The title can be any string you want it to be. To be on the "
 "safe side, it's best to stick to UTF-8 encoding."
 msgstr ""
+"Vi ger fönstret en egenskap med namnet <var>title</var>. Titeln kan vara vilken sträng som du vill. För att vara "
+"på den säkra sidan är det bäst att hålla sig till UTF-8-kodning."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:97 C/hello-world.py.page:74 C/hello-world.vala.page:57
 msgid ""
 "Now we have a window which has a title and a working \"close\" button. Let's add the actual \"Hello World\" text."
 msgstr ""
+"Nu har vi ett fönster som har en titel och en fungerande ”stäng”-knapp. Låt oss lägga till den faktiska texten "
+"”Hej världen”."
 
 #. (itstool) path: section/title
 #: C/hello-world.js.page:100 C/hello-world.py.page:77 C/hello-world.vala.page:60
 msgid "Label for the window"
-msgstr ""
+msgstr "Etikett för fönstret"
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:101
@@ -14054,6 +14355,10 @@ msgid ""
 "this._window.add(this.label);\n"
 "this._window.set_default_size(200, 200);"
 msgstr ""
+"// Lägg till en etikettkomponent till ditt fönster\n"
+"this.label = new Gtk.Label({ label: \"Hej världen\" });\n"
+"this._window.add(this.label);\n"
+"this._window.set_default_size(200, 200);"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:106
@@ -14063,6 +14368,10 @@ msgid ""
 "braces {}. In this case, we're setting the text that the label will hold. Finally, we create and run the "
 "application:"
 msgstr ""
+"En textetikett är en av GTK+-komponenterna vi kan använda eftersom vi har importerat GTK+-biblioteket. För att "
+"använda den skapar vi en ny variabel med namnet label, och tilldelar den en ny Gtk.Label. Sedan ger vi den "
+"egenskaper inom klammerparenteserna {}. I detta fall ställer vi in texten som etiketten ska innehålla. Slutligen "
+"skapar vi och kör programmet:"
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:108
@@ -14072,6 +14381,9 @@ msgid ""
 "let app = new Application();\n"
 "app.application.run(ARGV);"
 msgstr ""
+"//kör programmet\n"
+"let app = new Application();\n"
+"app.application.run(ARGV);"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:112 C/hello-world.py.page:97 C/hello-world.vala.page:71
@@ -14079,16 +14391,19 @@ msgid ""
 "Gtk.ApplicationWindow can only hold one widget at a time. To construct more elaborate programs you need to create "
 "a holder widget like Gtk.Grid inside the window, and then add all the other widgets to it."
 msgstr ""
+"Gtk.ApplicationWindow kan endast innehålla en komponent åt gången. För att konstruera mer avancerade program "
+"behöver du skapa en behållarkomponent som Gtk.Grid inuti fönstret, och sedan lägga till alla andra komponenter "
+"till den."
 
 #. (itstool) path: section/title
 #: C/hello-world.js.page:116
 msgid "hello-world.js"
-msgstr ""
+msgstr "hello-world.js"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:117 C/hello-world.py.page:102 C/hello-world.vala.page:76
 msgid "The complete file:"
-msgstr ""
+msgstr "Den fullständiga filen:"
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:118
@@ -14137,11 +14452,53 @@ msgid ""
 "let app = new Application();\n"
 "app.application.run(ARGV);\n"
 msgstr ""
+"#!/usr/bin/gjs\n"
+"\n"
+"const Lang = imports.lang;\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0'\n"
+"const Gtk = imports.gi.Gtk;\n"
+"\n"
+"class Application {\n"
+"\n"
+"    //skapa programmet\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application();\n"
+"\n"
+"       //anslut ”activate”- och ”startup”-signaler till hanterare.\n"
+"       this.application.connect('activate', this._onActivate.bind(this));\n"
+"       this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
+"\n"
+"    //skapa användargränssnittet\n"
+"    _buildUI() {\n"
+"        this._window = new Gtk.ApplicationWindow({ application: this.application,\n"
+"                                                   title: \"Hej världen!\" });\n"
+"        this._window.set_default_size(200, 200);\n"
+"        this.label = new Gtk.Label({ label: \"Hej världen\" });\n"
+"        this._window.add(this.label);\n"
+"    }\n"
+"\n"
+"    //hanterare för ”activate”-signal\n"
+"    _onActivate() {\n"
+"        //show the window and all child widgets\n"
+"        this._window.show_all();\n"
+"    }\n"
+"\n"
+"    //hanterare för ”startup”-signal\n"
+"    _onStartup() {\n"
+"        this._buildUI();\n"
+"    }\n"
+"};\n"
+"\n"
+"//kör programmet\n"
+"let app = new Application();\n"
+"app.application.run(ARGV);\n"
 
 #. (itstool) path: section/title
 #: C/hello-world.js.page:121 C/hello-world.py.page:106 C/hello-world.vala.page:80
 msgid "Running the application from terminal"
-msgstr ""
+msgstr "Köra programmet från terminalen"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:122
@@ -14149,17 +14506,19 @@ msgid ""
 "To run this application, first save it as hello-world.js. Then open Terminal, go to the folder where your "
 "application is stored and run:"
 msgstr ""
+"För att köra detta program, spara det först som hello-world.js. Öppna sedan Terminal, gå till mappen där ditt "
+"program lagras och kör:"
 
 #. (itstool) path: section/screen
 #: C/hello-world.js.page:123
 #, no-wrap
 msgid "<output style=\"prompt\">$ </output><input>gjs hello-world.js</input>"
-msgstr ""
+msgstr "<output style=\"prompt\">$ </output><input>gjs hello-world.js</input>"
 
 #. (itstool) path: section/title
 #: C/hello-world.js.page:129 C/hello-world.py.page:112 C/hello-world.vala.page:89
 msgid "The <file>.desktop.in</file> file"
-msgstr ""
+msgstr "<file>.desktop.in</file>-filen"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:130 C/hello-world.py.page:113 C/hello-world.vala.page:90
@@ -14178,17 +14537,19 @@ msgid ""
 "Before continuing, resave <file>hello-world.js</file> as <file>hello-world</file>. Then run this in the command "
 "line:"
 msgstr ""
+"Innan du fortsätter, spara om <file>hello-world.js</file> som <file>hello-world</file>. Kör sedan följande på "
+"kommandoraden:"
 
 #. (itstool) path: note/screen
 #: C/hello-world.js.page:134
 #, no-wrap
 msgid "<output style=\"prompt\">$ </output><input>chmod +x hello-world</input>"
-msgstr ""
+msgstr "<output style=\"prompt\">$ </output><input>chmod +x hello-world</input>"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:137 C/hello-world.py.page:115 C/hello-world.vala.page:92
 msgid "The example shows you the minimum requirements for a <code>.desktop.in</code> file."
-msgstr ""
+msgstr "Exemplet visar dig minimikraven för en <code>.desktop.in</code>-fil."
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:138 C/hello-world.py.page:116 C/hello-world.vala.page:93
@@ -14206,6 +14567,17 @@ msgid ""
 "StartupNotify=true\n"
 "Categories=GNOME;GTK;Utility;\n"
 msgstr ""
+"[Desktop Entry]\n"
+"Version=1.0\n"
+"Encoding=UTF-8\n"
+"Name=Hello World\n"
+"Comment=Säg hej\n"
+"Exec=@prefix@/bin/hello-world\n"
+"Icon=application-default-icon\n"
+"Terminal=false\n"
+"Type=Application\n"
+"StartupNotify=true\n"
+"Categories=GNOME;GTK;Utility;\n"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:140
@@ -14213,6 +14585,8 @@ msgid ""
 "Save this as <file>hello-world.desktop.in</file>. Now let's go through some parts of the <code>.desktop.in</code> "
 "file."
 msgstr ""
+"Spara detta som <file>hello-world.desktop.in</file>. Låt oss nu gå igenom några delar av <code>.desktop.in</code>-"
+"filen."
 
 #. (itstool) path: item/title
 #. (itstool) path: td/p
@@ -14224,7 +14598,7 @@ msgstr "Name"
 #. (itstool) path: item/p
 #: C/hello-world.js.page:142 C/hello-world.py.page:120 C/hello-world.vala.page:97
 msgid "The application name."
-msgstr ""
+msgstr "Programmets namn."
 
 #. (itstool) path: item/title
 #: C/hello-world.js.page:143 C/hello-world.py.page:121 C/hello-world.vala.page:98
@@ -14234,7 +14608,7 @@ msgstr "Comment"
 #. (itstool) path: item/p
 #: C/hello-world.js.page:143 C/hello-world.py.page:121 C/hello-world.vala.page:98
 msgid "A short description of the application."
-msgstr ""
+msgstr "En kort beskrivning av programmet."
 
 #. (itstool) path: item/title
 #: C/hello-world.js.page:144 C/hello-world.py.page:122 C/hello-world.vala.page:99
@@ -14247,6 +14621,8 @@ msgid ""
 "Specifies a command to execute when you choose the application from the menu. In this example exec just tells "
 "where to find the <file>hello-world</file> file and the file takes care of the rest."
 msgstr ""
+"Anger ett kommando att köra när du väljer programmet från menyn. I detta exempel säger exec bara till var filen "
+"<file>hello-world</file> kan hittas, så tar filen hand om resten."
 
 #. (itstool) path: item/title
 #: C/hello-world.js.page:145 C/hello-world.py.page:123 C/hello-world.vala.page:100
@@ -14256,7 +14632,7 @@ msgstr "Terminal"
 #. (itstool) path: item/p
 #: C/hello-world.js.page:145 C/hello-world.py.page:123 C/hello-world.vala.page:100
 msgid "Specifies whether the command in the Exec key runs in a terminal window."
-msgstr ""
+msgstr "Anger huruvida kommandot i Exec-nyckeln körs i ett terminalfönster."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:148 C/hello-world.py.page:126 C/hello-world.vala.page:103
@@ -14265,6 +14641,9 @@ msgid ""
 "line. More information on the different categories can be found in the <link href=\"http://standards.freedesktop."
 "org/menu-spec/latest/apa.html\">menu specification</link>."
 msgstr ""
+"För att lägga ditt program i rätt kategori behöver du lägga till de nödvändiga kategorierna till raden Categories. "
+"Mer information om det olika kategorierna kan hittas i <link href=\"http://standards.freedesktop.org/menu-spec/"
+"latest/apa.html\">menyspecifikationen</link>."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:149 C/hello-world.py.page:127 C/hello-world.vala.page:104
@@ -14275,11 +14654,16 @@ msgid ""
 "\">Installing Icons for Themes</link> and <link href=\"http://freedesktop.org/wiki/Specifications/icon-theme-spec"
 "\">on freedesktop.org: Specifications/icon-theme-spec</link>."
 msgstr ""
+"I detta exempel använder vi en befintlig ikon. För en anpassad ikon behöver du ha en .svg-fil av din ikon, lagrad "
+"i <file>/usr/share/icons/hicolor/scalable/apps</file>. Skriv namnet på din ikonfil i .desktop.in-filen, på rad 7. "
+"Mer information om ikoner finns i: <link href=\"https://wiki.gnome.org/Initiatives/GnomeGoals/AppIcon\">Installing "
+"Icons for Themes</link> och <link href=\"http://freedesktop.org/wiki/Specifications/icon-theme-spec\">på "
+"freedesktop.org: Specifications/icon-theme-spec</link>."
 
 #. (itstool) path: section/title
 #: C/hello-world.js.page:152 C/hello-world.py.page:130 C/hello-world.vala.page:107
 msgid "The build system"
-msgstr ""
+msgstr "Byggsystemet"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:153 C/hello-world.py.page:131 C/hello-world.vala.page:108
@@ -14287,11 +14671,13 @@ msgid ""
 "To make your application truly a part of the GNOME 3 system you need to install it with the help of autotools. The "
 "autotools build will install all the necessary files to all the right places."
 msgstr ""
+"För att verkligen göra ditt program till en del av GNOME 3-systemet behöver du installera det med hjälp av "
+"autotools. Detta autotools-bygge kommer installera alla nödvändiga filer till rätt plats."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:154 C/hello-world.py.page:132 C/hello-world.vala.page:109
 msgid "For this you need to have the following files:"
-msgstr ""
+msgstr "För detta behöver du ha följande filer:"
 
 #. (itstool) path: section/title
 #. (itstool) path: item/p
@@ -14324,17 +14710,35 @@ msgid ""
 "  \"$srcdir\"/configure \"$@\"\n"
 "fi\n"
 msgstr ""
+"#!/bin/sh\n"
+"\n"
+"set -e\n"
+"\n"
+"test -n \"$srcdir\" || srcdir=`dirname \"$0\"`\n"
+"test -n \"$srcdir\" || srcdir=.\n"
+"\n"
+"olddir=`pwd`\n"
+"cd \"$srcdir\"\n"
+"\n"
+"# Detta kommer köra autoconf, automake o.s.v. åt oss\n"
+"autoreconf --force --install\n"
+"\n"
+"cd \"$olddir\"\n"
+"\n"
+"if test -z \"$NOCONFIGURE\"; then\n"
+"  \"$srcdir\"/configure \"$@\"\n"
+"fi\n"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:160 C/hello-world.py.page:138 C/hello-world.vala.page:115
 msgid "After the <file>autogen.sh</file> file is ready and saved, run:"
-msgstr ""
+msgstr "Efter att filen <file>autogen.sh</file> är klar och sparad, kör:"
 
 #. (itstool) path: section/screen
 #: C/hello-world.js.page:161 C/hello-world.py.page:139 C/hello-world.vala.page:116
 #, no-wrap
 msgid "<output style=\"prompt\">$ </output><input>chmod +x autogen.sh</input>"
-msgstr ""
+msgstr "<output style=\"prompt\">$ </output><input>chmod +x autogen.sh</input>"
 
 #. (itstool) path: section/title
 #. (itstool) path: item/p
@@ -14388,7 +14792,7 @@ msgstr "README"
 #. (itstool) path: section/p
 #: C/hello-world.js.page:176 C/hello-world.py.page:154 C/hello-world.vala.page:131
 msgid "Information users should read first. This file can be blank."
-msgstr ""
+msgstr "Information som användare bör läsa först. Denna fil kan vara tom."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:178
@@ -14398,7 +14802,11 @@ msgid ""
 "<file>README</file> file with installation instructions. Below is a sample of what suitable README instructions "
 "may look like:"
 msgstr ""
+"När du har filerna <file>hello-world</file>, <file>hello-world.desktop.in</file>, <file>Makefile.am</file>, "
+"<file>configure.ac</file> och <file>autogen.sh</file> med rätt information och rättigheter, skapa en <file>README</"
+"file>-fil med installationsinstruktioner. Nedan är ett exempel på hur lämpliga README-instruktioner kan se ut:"
 
+# Exempel på en README-fil.
 #. (itstool) path: section/code
 #: C/hello-world.js.page:179
 #, no-wrap
@@ -14441,17 +14849,54 @@ msgid ""
 "\n"
 "This will create hello-world-1.0.tar.xz\n"
 msgstr ""
+"To build and install this program, run these commands from a terminal:\n"
+"\n"
+"./autogen.sh --prefix=/home/$USER/.local\n"
+"make install\n"
+"\n"
+"-------------\n"
+"When running the first command $USER will be replaced by your username.\n"
+"\n"
+"Running the first command above creates the following files:\n"
+"\n"
+"aclocal.m4\n"
+"autom4te.cache\n"
+"config.log\n"
+"config.status\n"
+"configure\n"
+"hello-world.desktop\n"
+"install-sh\n"
+"missing\n"
+"Makefile.in\n"
+"Makefile\n"
+"\n"
+"Running \"make install\", installs the application in /home/your_username/.local/bin\n"
+"and installs the hello-world.desktop file in /home/your_username/.local/share/applications\n"
+"\n"
+"You can now run the application by typing \"Hello World\" in the Overview.\n"
+"\n"
+"----------------\n"
+"To uninstall, type:\n"
+"\n"
+"make uninstall\n"
+"\n"
+"----------------\n"
+"To create a tarball type:\n"
+"\n"
+"make distcheck\n"
+"\n"
+"This will create hello-world-1.0.tar.xz\n"
 
 #. (itstool) path: info/title
 #: C/hello-world.py.page:9
 msgctxt "text"
 msgid "Hello World (Python)"
-msgstr ""
+msgstr "Hej världen (Python)"
 
 #. (itstool) path: item/p
 #: C/hello-world.py.page:32
 msgid "create a small \"Hello, World\" application using Python and GTK+"
-msgstr ""
+msgstr "skapa ett litet ”Hej världen”-program med Python och GTK+"
 
 #. (itstool) path: section/code
 #: C/hello-world.py.page:47
@@ -14460,6 +14905,8 @@ msgid ""
 "from gi.repository import Gtk\n"
 "import sys"
 msgstr ""
+"from gi.repository import Gtk\n"
+"import sys"
 
 #. (itstool) path: section/code
 #: C/hello-world.py.page:53
@@ -14483,6 +14930,23 @@ msgid ""
 "    def do_startup(self):\n"
 "        Gtk.Application.do_startup(self)"
 msgstr ""
+"class MyWindow(Gtk.ApplicationWindow):\n"
+"\n"
+"    # constructor for a Gtk.ApplicationWindow\n"
+"    def __init__(self, app):\n"
+"        Gtk.Window.__init__(self, title=\"Hej världen!\", application=app)\n"
+"        self.set_default_size(200, 100)\n"
+"\n"
+"class MyApplication(Gtk.Application):\n"
+"    def __init__(self):\n"
+"        Gtk.Application.__init__(self)\n"
+"\n"
+"    def do_activate(self):\n"
+"        win = MyWindow(self)\n"
+"        win.show_all()\n"
+"\n"
+"    def do_startup(self):\n"
+"        Gtk.Application.do_startup(self)"
 
 #. (itstool) path: section/p
 #: C/hello-world.py.page:71 C/hello-world.vala.page:54
@@ -14490,6 +14954,8 @@ msgid ""
 "Gtk.Application initializes GTK+. It also connects the <gui>x</gui> button that's automatically generated along "
 "with the window to the \"destroy\" signal."
 msgstr ""
+"Gtk.Application initierar GTK+. Det ansluter också knappen <gui>x</gui> som genereras automatiskt tillsammans med "
+"fönstret till signalen ”destroy”."
 
 #. (itstool) path: section/p
 #: C/hello-world.py.page:72
@@ -14497,6 +14963,8 @@ msgid ""
 "We can start building our first window. We do this by creating a class called <var>MyWindow</var> and assigning it "
 "a Gtk.ApplicationWindow."
 msgstr ""
+"Vi kan börja med att bygga vårt första fönster. Vi gör detta genom att skapa en klass med namnet <var>MyWindow</"
+"var> och tilldela den ett Gtk.ApplicationWindow."
 
 #. (itstool) path: section/code
 #: C/hello-world.py.page:78
@@ -14513,6 +14981,16 @@ msgid ""
 "        # add the label to the window\n"
 "        self.add(label)"
 msgstr ""
+"# Lägg till en etikettkomponent till ditt fönster\n"
+"\n"
+"        # skapa en etikett\n"
+"        label = Gtk.Label()\n"
+"\n"
+"        # ställ in etikettens text\n"
+"        label.set_text(\"Hej GNOME!\")\n"
+"\n"
+"        # lägg till etiketten till fönstret\n"
+"        self.add(label)"
 
 #. (itstool) path: section/p
 #: C/hello-world.py.page:89
@@ -14521,6 +14999,9 @@ msgid ""
 "create a variable called <var>label</var> and set the text that the label will hold. Finally, we create and run "
 "the application:"
 msgstr ""
+"En textetikett är en av GTK+-komponenterna vi kan använda eftersom vi har importerat GTK+-biblioteket. För att "
+"använda den skapar vi en ny variabel med namnet <var>label</var>, och ställer in texten som etiketten ska "
+"innehålla. Slutligen skapar vi och kör programmet:"
 
 #. (itstool) path: section/code
 #: C/hello-world.py.page:91
@@ -14532,11 +15013,16 @@ msgid ""
 "exit_status = app.run(sys.argv)\n"
 "sys.exit(exit_status)"
 msgstr ""
+"#kör programmet\n"
+"\n"
+"app = MyApplication()\n"
+"exit_status = app.run(sys.argv)\n"
+"sys.exit(exit_status)"
 
 #. (itstool) path: section/title
 #: C/hello-world.py.page:101
 msgid "hello-world.py"
-msgstr ""
+msgstr "hello-world.py"
 
 #. (itstool) path: section/code
 #: C/hello-world.py.page:103 C/label.py.page:39
@@ -14577,6 +15063,40 @@ msgid ""
 "exit_status = app.run(sys.argv)\n"
 "sys.exit(exit_status)\n"
 msgstr ""
+"from gi.repository import Gtk\n"
+"import sys\n"
+"\n"
+"\n"
+"class MyWindow(Gtk.ApplicationWindow):\n"
+"    # constructor for a Gtk.ApplicationWindow\n"
+"\n"
+"    def __init__(self, app):\n"
+"        Gtk.Window.__init__(self, title=\"Välkommen till GNOME\", application=app)\n"
+"        self.set_default_size(200, 100)\n"
+"\n"
+"        # skapa en etikett\n"
+"        label = Gtk.Label()\n"
+"        # ställ in etikettens text\n"
+"        label.set_text(\"Hej GNOME!\")\n"
+"        # lägg till etiketten till fönstret\n"
+"        self.add(label)\n"
+"\n"
+"\n"
+"class MyApplication(Gtk.Application):\n"
+"\n"
+"    def __init__(self):\n"
+"        Gtk.Application.__init__(self)\n"
+"\n"
+"    def do_activate(self):\n"
+"        win = MyWindow(self)\n"
+"        win.show_all()\n"
+"\n"
+"    def do_startup(self):\n"
+"        Gtk.Application.do_startup(self)\n"
+"\n"
+"app = MyApplication()\n"
+"exit_status = app.run(sys.argv)\n"
+"sys.exit(exit_status)\n"
 
 #. (itstool) path: section/p
 #: C/hello-world.py.page:107
@@ -14584,17 +15104,19 @@ msgid ""
 "To run this application, first save it as hello-world.py. Then open Terminal, go to the folder where your "
 "application is stored and run:"
 msgstr ""
+"För att köra detta program, spara det först som hello-world.py. Öppna sedan Terminal, gå till mappen där ditt "
+"program lagras och kör:"
 
 #. (itstool) path: section/screen
 #: C/hello-world.py.page:108
 #, no-wrap
 msgid "<output style=\"prompt\">$ </output><input>python hello-world.py</input>"
-msgstr ""
+msgstr "<output style=\"prompt\">$ </output><input>python hello-world.py</input>"
 
 #. (itstool) path: section/p
 #: C/hello-world.py.page:118 C/hello-world.vala.page:95
 msgid "Now let's go through some parts of the <code>.desktop.in</code> file."
-msgstr ""
+msgstr "Låt oss nu gå igenom några delar av <code>.desktop.in</code>-filen."
 
 #. (itstool) path: section/code
 #: C/hello-world.py.page:144
@@ -14620,7 +15142,11 @@ msgid ""
 "<file>configure.ac</file> and <file>autogen.sh</file> files with correct information and rights, the <file>README</"
 "file> file can include the following instructions:"
 msgstr ""
+"När du har filerna <file>hello-world</file>, <file>hello-world.desktop.in</file>, <file>Makefile.am</file>, "
+"<file>configure.ac</file> och <file>autogen.sh</file> med rätt information och rättigheter, kan filen "
+"<file>README</file> innehålla följande instruktioner:"
 
+# Exempel på en README-fil
 #. (itstool) path: section/code
 #: C/hello-world.py.page:157
 #, no-wrap
@@ -14661,17 +15187,52 @@ msgid ""
 "\n"
 "This will create hello-world-1.0.tar.xz\n"
 msgstr ""
+"To build and install this program:\n"
+"\n"
+"./autogen.sh --prefix=/home/your_username/.local\n"
+"make install\n"
+"\n"
+"-------------\n"
+"Running the first line above creates the following files:\n"
+"\n"
+"aclocal.m4\n"
+"autom4te.cache\n"
+"config.log\n"
+"config.status\n"
+"configure\n"
+"hello-world.desktop\n"
+"install-sh\n"
+"missing\n"
+"Makefile.in\n"
+"Makefile\n"
+"\n"
+"Running \"make install\", installs the application in /home/your_username/.local/bin\n"
+"and installs the hello-world.desktop file in /home/your_username/.local/share/applications\n"
+"\n"
+"You can now run the application by typing \"Hello World\" in the Overview.\n"
+"\n"
+"----------------\n"
+"To uninstall, type:\n"
+"\n"
+"make uninstall\n"
+"\n"
+"----------------\n"
+"To create a tarball type:\n"
+"\n"
+"make distcheck\n"
+"\n"
+"This will create hello-world-1.0.tar.xz\n"
 
 #. (itstool) path: info/title
 #: C/hello-world.vala.page:9
 msgctxt "text"
 msgid "Hello World (Vala)"
-msgstr ""
+msgstr "Hej världen (Vala)"
 
 #. (itstool) path: item/p
 #: C/hello-world.vala.page:32
 msgid "create a small \"Hello, World\" application using GTK+"
-msgstr ""
+msgstr "skapa ett litet ”Hej världen”-program med GTK+"
 
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:45
@@ -14686,6 +15247,14 @@ msgid ""
 "        }\n"
 "}"
 msgstr ""
+"class MyApplication : Gtk.Application {\n"
+"        protected override void activate () {\n"
+"                var window = new Gtk.ApplicationWindow (this);\n"
+"                window.set_title (\"Välkommen till GNOME\");\n"
+"                window.set_default_size (200, 100);\n"
+"                window.show_all ();\n"
+"        }\n"
+"}"
 
 #. (itstool) path: section/p
 #: C/hello-world.vala.page:55
@@ -14693,6 +15262,8 @@ msgid ""
 "We can start building our first window. We do this by creating a variable called <var>window</var> and assigning "
 "it a new Gtk.ApplicationWindow."
 msgstr ""
+"Vi kan börja med att bygga vårt första fönster. Vi gör detta genom att skapa en variabel med namnet <var>window</"
+"var> och tilldela den ett nytt Gtk.ApplicationWindow."
 
 #. (itstool) path: section/p
 #: C/hello-world.vala.page:56
@@ -14700,6 +15271,8 @@ msgid ""
 "We give the window a title using <code>set_title</code>. The title can be any string you want it to be. To be on "
 "the safe side, it's best to stick to UTF-8 encoding."
 msgstr ""
+"Vi ger fönstret en titel med <code>set_title</code>. Titeln kan vara vilken sträng som du vill. För att vara på "
+"den säkra sidan är det bäst att hålla sig till UTF-8-kodning."
 
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:61
@@ -14708,11 +15281,13 @@ msgid ""
 "var label = new Gtk.Label (\"Hello GNOME!\");\n"
 "                window.add (label);\n"
 msgstr ""
+"var label = new Gtk.Label (\"Hej GNOME!\");\n"
+"                window.add (label);\n"
 
 #. (itstool) path: section/p
 #: C/hello-world.vala.page:65
 msgid "Finally, we create and run the application:"
-msgstr ""
+msgstr "Slutligen skapar och kör vi programmet:"
 
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:67
@@ -14722,11 +15297,14 @@ msgid ""
 "        return new MyApplication ().run (args);\n"
 "}"
 msgstr ""
+"int main (string[] args) {\n"
+"        return new MyApplication ().run (args);\n"
+"}"
 
 #. (itstool) path: section/title
 #: C/hello-world.vala.page:75
 msgid "hello-world.vala"
-msgstr ""
+msgstr "hello-world.vala"
 
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:77
@@ -14747,6 +15325,20 @@ msgid ""
 "\treturn new MyApplication ().run (args);\n"
 "}\n"
 msgstr ""
+"public class MyApplication : Gtk.Application {\n"
+"\tprotected override void activate () {\n"
+"\t\tvar window = new Gtk.ApplicationWindow (this);\n"
+"\t\tvar label = new Gtk.Label (\"Hej GNOME!\");\n"
+"\t\twindow.add (label);\n"
+"\t\twindow.set_title (\"Välkommen till GNOME\");\n"
+"\t\twindow.set_default_size (200, 100);\n"
+"\t\twindow.show_all ();\n"
+"\t}\n"
+"}\n"
+"\n"
+"public int main (string[] args) {\n"
+"\treturn new MyApplication ().run (args);\n"
+"}\n"
 
 #. (itstool) path: section/p
 #: C/hello-world.vala.page:81
@@ -14754,28 +15346,30 @@ msgid ""
 "To run this application, first save it as hello-world.vala. Then open Terminal, go to the folder where your "
 "application is stored."
 msgstr ""
+"För att köra detta program, spara det först som hello-world.vala. Öppna sedan Terminal och gå till mappen där ditt "
+"program lagras."
 
 #. (itstool) path: section/p
 #: C/hello-world.vala.page:82
 msgid "Compile the program:"
-msgstr ""
+msgstr "Kompilera programmet:"
 
 #. (itstool) path: section/screen
 #: C/hello-world.vala.page:83
 #, no-wrap
 msgid "valac --pkg gtk+-3.0 <file>hello-world.vala</file>"
-msgstr ""
+msgstr "valac --pkg gtk+-3.0 <file>hello-world.vala</file>"
 
 #. (itstool) path: section/p
 #: C/hello-world.vala.page:84
 msgid "Run the program:"
-msgstr ""
+msgstr "Kör programmet:"
 
 #. (itstool) path: section/screen
 #: C/hello-world.vala.page:85
 #, no-wrap
 msgid "./<var>hello-world</var>"
-msgstr ""
+msgstr "./<var>hello-world</var>"
 
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:121
@@ -14816,7 +15410,11 @@ msgid ""
 "<file>configure.ac</file> and <file>autogen.sh</file> files with correct information and rights, the <file>README</"
 "file> file can include the following instructions:"
 msgstr ""
+"När du har filerna <file>hello-world.c</file>, <file>hello-world.desktop.in</file>, <file>Makefile.am</file>, "
+"<file>configure.ac</file> och <file>autogen.sh</file> med rätt information och rättigheter, kan filen "
+"<file>README</file> innehålla följande instruktioner:"
 
+# Exempel på en README-fil
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:134
 #, no-wrap
@@ -14865,6 +15463,49 @@ msgid ""
 "\n"
 "This will create hello-world-1.0.tar.xz\n"
 msgstr ""
+"To build and install this program:\n"
+"\n"
+"./autogen.sh --prefix=/home/your_username/.local\n"
+"make\n"
+"make install\n"
+"\n"
+"-------------\n"
+"Running the first line above creates the following files:\n"
+"\n"
+"aclocal.m4\n"
+"autom4te.cache\n"
+"config.log\n"
+"config.status\n"
+"configure\n"
+"depcomp\n"
+"hello-world\n"
+"hello-world.c\n"
+"hello-world.desktop\n"
+"hello_world-hello-world.o\n"
+"hello_world_vala.stamp\n"
+"install-sh\n"
+"missing\n"
+"Makefile.in\n"
+"Makefile\n"
+"\n"
+"Running \"make\" links all the appropriate libraries.\n"
+"\n"
+"Running \"make install\", installs the application in /home/your_username/.local/bin\n"
+"and installs the hello-world.desktop file in /home/your_username/.local/share/applications\n"
+"\n"
+"You can now run the application by typing \"Hello World\" in the Overview.\n"
+"\n"
+"----------------\n"
+"To uninstall, type:\n"
+"\n"
+"make uninstall\n"
+"\n"
+"----------------\n"
+"To create a tarball type:\n"
+"\n"
+"make distcheck\n"
+"\n"
+"This will create hello-world-1.0.tar.xz\n"
 
 #. (itstool) path: info/title
 #: C/image.c.page:8
@@ -14875,7 +15516,7 @@ msgstr "Image (C)"
 #. (itstool) path: info/desc
 #: C/image.c.page:18 C/image.js.page:17 C/image.py.page:25 C/image.vala.page:18
 msgid "A widget displaying an image"
-msgstr ""
+msgstr "En komponent som visar en bild"
 
 #. (itstool) path: page/title
 #: C/image.c.page:21 C/image.js.page:20 C/image.py.page:28 C/image.vala.page:21
@@ -14895,7 +15536,7 @@ msgstr "external ref='media/image.png' md5='9416aa74d9d6a857783f7a36338e7a02'"
 #. (itstool) path: page/p
 #: C/image.c.page:23 C/image.js.page:22 C/image.py.page:30 C/image.vala.page:23
 msgid "This GtkApplication displays an image file from the current directory."
-msgstr ""
+msgstr "Denna GtkApplication visar en bildfil från aktuell katalog."
 
 #. (itstool) path: note/p
 #: C/image.c.page:24 C/image.js.page:23 C/image.vala.page:24
@@ -17305,7 +17946,7 @@ msgstr "2010"
 #. (itstool) path: page/title
 #: C/index.page:28
 msgid "GNOME Developer Platform Demos"
-msgstr ""
+msgstr "Demonstrationer för GNOME-utvecklarplattformen"
 
 #. (itstool) path: page/p
 #: C/index.page:30
@@ -17314,16 +17955,20 @@ msgid ""
 "comes with code that you can try, and explains how each example works. They are a great way to get started with "
 "the GNOME developer platform."
 msgstr ""
+"Denna guide innehåller en mängd kodningsexempel, så som att skriva en bildvisare eller ett väderprogram. Varje "
+"demonstration kommer med kod som du kan använda, och förklarar hur varje exempel fungerar. De är ett utmärkt sätt "
+"att komma igång med GNOME-utvecklarplattformen."
 
 #. (itstool) path: section/title
 #: C/index.page:36
 msgid "Pick a Language"
-msgstr ""
+msgstr "Välj ett språk"
 
 #. (itstool) path: section/p
 #: C/index.page:37
 msgid "These developer demos are available in a range of programming languages. Pick one to get started:"
 msgstr ""
+"Dessa utvecklardemonstrationer finns tillgängliga i en rad programmeringsspråk. Välj ett för att komma igång:"
 
 #. (itstool) path: info/title
 #: C/js.page:8
@@ -17339,12 +17984,12 @@ msgstr "Ekaterina Gerasimova"
 #. (itstool) path: page/title
 #: C/js.page:26
 msgid "Tutorials, code samples and platform demos in JavaScript"
-msgstr ""
+msgstr "Handledningar, kodexempel och plattformsdemonstrationer i Javascript"
 
 #. (itstool) path: section/title
 #: C/js.page:31
 msgid "Code samples and tutorials"
-msgstr ""
+msgstr "Kodexempel och handledningar"
 
 #. (itstool) path: info/title
 #: C/label.c.page:8
@@ -17675,6 +18320,9 @@ msgid ""
 "copy, modify, and distribute the example code contained in this documentation under the terms of your choosing, "
 "without restriction."
 msgstr ""
+"Detta verk är licensierat under licensen <_:link-1/>. Som ett speciellt undantag ger upphovsrättsinnehavarna dig "
+"tillåtelse att kopiera, modifiera och distribuera exempelkoden som finns i denna dokumentation under de villkor "
+"som du väljer, utan restriktioner."
 
 #. (itstool) path: info/desc
 #: C/license.page:8
@@ -17694,37 +18342,37 @@ msgstr "Det här verket är distribuerat under licensen CreativeCommons Erkänna
 #. (itstool) path: page/p
 #: C/license.page:20
 msgid "You are free:"
-msgstr ""
+msgstr "Du har rätt:"
 
 #. (itstool) path: item/title
 #: C/license.page:25
 msgid "<em>To share</em>"
-msgstr ""
+msgstr "<em>Att dela</em>"
 
 #. (itstool) path: item/p
 #: C/license.page:26
 msgid "To copy, distribute and transmit the work."
-msgstr ""
+msgstr "Att kopiera, distribuera och vidarebefordra verket."
 
 #. (itstool) path: item/title
 #: C/license.page:29
 msgid "<em>To remix</em>"
-msgstr ""
+msgstr "<em>Att remixa</em>"
 
 #. (itstool) path: item/p
 #: C/license.page:30
 msgid "To adapt the work."
-msgstr ""
+msgstr "Att anpassa verket."
 
 #. (itstool) path: page/p
 #: C/license.page:33
 msgid "Under the following conditions:"
-msgstr ""
+msgstr "Under följande villkor:"
 
 #. (itstool) path: item/title
 #: C/license.page:38
 msgid "<em>Attribution</em>"
-msgstr ""
+msgstr "<em>Erkännande</em>"
 
 #. (itstool) path: item/p
 #: C/license.page:39
@@ -17732,11 +18380,13 @@ msgid ""
 "You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests "
 "that they endorse you or your use of the work)."
 msgstr ""
+"Du måste ge erkännande åt arbetet på det sätt som anges av författaren eller licensgivaren (men inte på ett sätt "
+"som antyder att de godkänt eller rekommenderar din användning av verket)."
 
 #. (itstool) path: item/title
 #: C/license.page:46
 msgid "<em>Share Alike</em>"
-msgstr ""
+msgstr "<em>Dela lika</em>"
 
 #. (itstool) path: item/p
 #: C/license.page:47
@@ -17744,6 +18394,8 @@ msgid ""
 "If you alter, transform, or build upon this work, you may distribute the resulting work only under the same, "
 "similar or a compatible license."
 msgstr ""
+"Om du ändrar, bearbetar, eller bygger vidare på verket, får du distribuera resultatet endast under samma, "
+"liknande, eller en kompatibel licens."
 
 #. (itstool) path: page/p
 #: C/license.page:53
@@ -17752,6 +18404,9 @@ msgid ""
 "\">CreativeCommons website</link>, or read the full <link href=\"http://creativecommons.org/licenses/by-sa/3.0/"
 "\">Commons Deed</link>."
 msgstr ""
+"För den fullständiga lydelsen av licensen, se <link href=\"http://creativecommons.org/licenses/by-sa/3.0/legalcode"
+"\">CreativeCommons webbplats</link>, eller läs hela <link href=\"http://creativecommons.org/licenses/by-sa/3.0/"
+"\">Commons Deed</link>."
 
 #. (itstool) path: note/p
 #: C/license.page:60
@@ -17759,6 +18414,8 @@ msgid ""
 "As a special exception, the copyright holders give you permission to copy, modify, and distribute the example code "
 "contained in this documentation under the terms of your choosing, without restriction."
 msgstr ""
+"Som ett speciellt undantag ger upphovsrättsinnehavarna dig tillåtelse att kopiera, modifiera och distribuera "
+"exempelkoden som finns i denna dokumentation under de villkor som du väljer, utan restriktioner."
 
 #. (itstool) path: info/title
 #: C/linkbutton.c.page:8
@@ -22116,7 +22773,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/model-view-controller.py.page:184 C/properties.py.page:57 C/signals-callbacks.py.page:46 C/strings.py.page:112
 msgid "References"
-msgstr ""
+msgstr "Referenser"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:187 C/treeview_advanced_liststore.py.page:45
@@ -22150,7 +22807,7 @@ msgstr "Paned (C)"
 #. (itstool) path: info/desc
 #: C/paned.c.page:18 C/paned.js.page:18 C/paned.py.page:19 C/paned.vala.page:18
 msgid "A widget with two adjustable panes"
-msgstr ""
+msgstr "En komponent med två justerbara paneler"
 
 #. (itstool) path: page/title
 #: C/paned.c.page:21 C/paned.js.page:21 C/paned.py.page:22 C/paned.vala.page:21
@@ -23644,13 +24301,13 @@ msgstr "Python"
 #. (itstool) path: page/title
 #: C/py.page:21
 msgid "Tutorials, code samples and platform demos in Python"
-msgstr ""
+msgstr "Handledningar, kodexempel och plattformsdemonstrationer i Python"
 
 #. (itstool) path: section/title
 #. (itstool) path: page/title
 #: C/py.page:26 C/tutorial.py.page:31
 msgid "Tutorial for beginners"
-msgstr ""
+msgstr "Handledning för nybörjare"
 
 #. (itstool) path: info/title
 #: C/radiobutton.c.page:8
@@ -26679,7 +27336,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/separator.c.page:35 C/separator.py.page:36 C/separator.vala.page:37
 msgid "API Reference"
-msgstr ""
+msgstr "API-referens"
 
 #. (itstool) path: item/p
 #: C/separator.c.page:39 C/separator.py.page:40
@@ -26824,7 +27481,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Label.html\">GtkLabel</
 #. (itstool) path: page/title
 #: C/set-up-gedit.js.page:19
 msgid "Set up gedit for JavaScript development"
-msgstr ""
+msgstr "Konfigurera gedit för Javascript-utveckling"
 
 #. (itstool) path: page/p
 #: C/set-up-gedit.js.page:20
@@ -26832,11 +27489,14 @@ msgid ""
 "This tutorial will show you how to set up <link href=\"https://wiki.gnome.org/Apps/Gedit\">gedit</link>, GNOME's "
 "basic text editor, so that it has a handful of extra features which are useful for writing JavaScript code."
 msgstr ""
+"Denna handledning kommer visa dig hur du konfigurerar <link href=\"https://wiki.gnome.org/Apps/Gedit\">gedit</"
+"link>, GNOME:s enkla textredigerare, så att den har en handfull extra funktioner som är användbara för att skriva "
+"Javascript-kod."
 
 #. (itstool) path: section/title
 #: C/set-up-gedit.js.page:23
 msgid "Making code clearer"
-msgstr ""
+msgstr "Göra kod tydligare"
 
 #. (itstool) path: section/p
 #: C/set-up-gedit.js.page:24
@@ -26844,6 +27504,8 @@ msgid ""
 "Click on <gui>Edit</gui> in gedit's menu bar, then click on <gui>Preferences</gui>. You should see something like "
 "this:"
 msgstr ""
+"Klicka på <gui>Redigera</gui> i gedits menyrad, klicka sedan på <gui>Inställningar</gui>. Du bör se något i stil "
+"med detta:"
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -26858,7 +27520,7 @@ msgstr "external ref='media/geditview.png' md5='f1438295662d95f56fcd1d8200efaaf2
 #. (itstool) path: section/p
 #: C/set-up-gedit.js.page:26
 msgid "Here are the options you want to make sure are turned on."
-msgstr ""
+msgstr "Här är alternativen du kommer vilja säkerställa är aktiverade."
 
 #. (itstool) path: item/p
 #: C/set-up-gedit.js.page:28
@@ -26866,6 +27528,8 @@ msgid ""
 "<gui>Display line numbers</gui> will help you compare the code you type in with the original, and make it easier "
 "to see which line is causing an error if there is a bug."
 msgstr ""
+"<gui>Visa radnummer</gui> kommer hjälpa dig att jämföra koden du skriver in med originalet, och göra det lättare "
+"att se vilken rad som orsakar problem om ett fel uppstår."
 
 #. (itstool) path: item/p
 #: C/set-up-gedit.js.page:29
@@ -26873,22 +27537,26 @@ msgid ""
 "<gui>Highlight current line</gui> makes it easier to see which line you're on, when you have to go back and forth "
 "a lot."
 msgstr ""
+"<gui>Färgmarkera aktuell rad</gui> gör det lättare att se vilken rad du är på när du måste gå mycket fram och "
+"tillbaka."
 
 #. (itstool) path: item/p
 #: C/set-up-gedit.js.page:30
 msgid "<gui>Highlight matching brackets</gui> helps you make sure you didn't leave out a bracket by accident."
 msgstr ""
+"<gui>Färgmarkera matchande parenteser</gui> hjälper dig att säkerställa att du inte glömde en parentes av misstag."
 
 #. (itstool) path: section/title
 #: C/set-up-gedit.js.page:35
 msgid "Making editing easier"
-msgstr ""
+msgstr "Göra redigering enklare"
 
 #. (itstool) path: section/p
 #: C/set-up-gedit.js.page:36
 msgid ""
 "In gedit's <gui>Preferences</gui> dialog, click on the <gui>Editor</gui> tab. You should see something like this:"
 msgstr ""
+"Klicka på fliken <gui>Editor</gui> i gedits dialogruta <gui>Inställningar</gui>. Du bör se något i stil med detta:"
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -26907,6 +27575,9 @@ msgid ""
 "key> the cursor stays indented as far as the last line was. This is extremely useful when writing JavaScript code, "
 "since it uses indentation to make it clearer which parts do what."
 msgstr ""
+"Här kommer du vilja ha <gui>Aktivera automatisk indentering</gui> påslaget. Detta betyder att när du trycker "
+"<key>Retur</key> kommer markören förbli indenterad lika långt som föregående rad var. Detta är extremt användbart "
+"vid skrivning av Javascript-kod, då den använder indentering för att göra det tydligare vilka delar som gör vad."
 
 #. (itstool) path: note/p
 #: C/set-up-gedit.js.page:39
@@ -26914,6 +27585,8 @@ msgid ""
 "If you want to share code with other people who write GNOME JavaScript applications, you'll also want to set "
 "<gui>Tab width</gui> to 4 and turn on <gui>Insert spaces instead of tabs</gui>."
 msgstr ""
+"Om du vill dela kod med andra personer som skriver Javascript-program för GNOME kommer du också vilja ställa in "
+"<gui>Tabulatorbredd</gui> till 4 och slå på <gui>Infoga blanksteg istället för tabulatortecken</gui>."
 
 #. (itstool) path: info/title
 #: C/signals-callbacks.py.page:9
@@ -28764,7 +29437,7 @@ msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.Statusbar
 #: C/statusbar.py.page:8
 msgctxt "text"
 msgid "Statusbar (Python)"
-msgstr ""
+msgstr "Statusbar (Python)"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -28909,7 +29582,7 @@ msgstr ""
 #: C/statusbar.vala.page:8
 msgctxt "text"
 msgid "Statusbar (Vala)"
-msgstr ""
+msgstr "Statusbar (Vala)"
 
 #. (itstool) path: page/p
 #: C/statusbar.vala.page:26
@@ -29187,7 +29860,7 @@ msgstr ""
 #: C/switch.c.page:8
 msgctxt "text"
 msgid "Switch (C)"
-msgstr ""
+msgstr "Switch (C)"
 
 #. (itstool) path: info/desc
 #: C/switch.c.page:18 C/switch.py.page:19 C/switch.vala.page:22
@@ -29197,7 +29870,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/switch.c.page:21 C/switch.js.page:21 C/switch.py.page:22 C/switch.vala.page:25
 msgid "Switch"
-msgstr ""
+msgstr "Switch"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -29312,7 +29985,7 @@ msgstr ""
 #: C/switch.js.page:8
 msgctxt "text"
 msgid "Switch (JavaScript)"
-msgstr ""
+msgstr "Switch (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/switch.js.page:18
@@ -29883,7 +30556,7 @@ msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.Switch.ht
 #: C/switch.py.page:8
 msgctxt "text"
 msgid "Switch (Python)"
-msgstr ""
+msgstr "Switch (Python)"
 
 #. (itstool) path: page/p
 #: C/switch.py.page:26
@@ -29978,7 +30651,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkSwitch.html\">G
 #: C/switch.vala.page:8
 msgctxt "text"
 msgid "Switch (Vala)"
-msgstr ""
+msgstr "Switch (Vala)"
 
 #. (itstool) path: page/p
 #: C/switch.vala.page:29
@@ -30046,7 +30719,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Switch.html\">Gtk.Switc
 #: C/textview.c.page:8
 msgctxt "text"
 msgid "TextView (C)"
-msgstr ""
+msgstr "TextView (C)"
 
 #. (itstool) path: info/desc
 #: C/textview.c.page:18 C/textview.vala.page:18
@@ -30183,7 +30856,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkContainer.html\">
 #: C/textview.js.page:8
 msgctxt "text"
 msgid "TextView (JavaScript)"
-msgstr ""
+msgstr "TextView (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/textview.js.page:22
@@ -30193,7 +30866,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/textview.js.page:25 C/textview.py.page:30
 msgid "TextView"
-msgstr ""
+msgstr "TextView"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -30727,7 +31400,7 @@ msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.TextView.
 #: C/textview.py.page:8
 msgctxt "text"
 msgid "TextView (Python)"
-msgstr ""
+msgstr "TextView (Python)"
 
 #. (itstool) path: info/desc
 #: C/textview.py.page:27
@@ -31028,7 +31701,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkTextTag.html\">
 #: C/textview.vala.page:8
 msgctxt "text"
 msgid "TextView (Vala)"
-msgstr ""
+msgstr "TextView (Vala)"
 
 #. (itstool) path: note/p
 #: C/textview.vala.page:25
@@ -31093,7 +31766,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.WrapMode.html\">Gtk.Wra
 #: C/togglebutton.c.page:8
 msgctxt "text"
 msgid "ToggleButton (C)"
-msgstr ""
+msgstr "ToggleButton (C)"
 
 #. (itstool) path: info/desc
 #: C/togglebutton.c.page:22 C/togglebutton.py.page:19 C/togglebutton.vala.page:21
@@ -31103,7 +31776,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/togglebutton.c.page:25 C/togglebutton.js.page:21 C/togglebutton.py.page:22 C/togglebutton.vala.page:24
 msgid "ToggleButton"
-msgstr ""
+msgstr "ToggleButton"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -31214,7 +31887,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkToggleButton.html
 #: C/togglebutton.js.page:8
 msgctxt "text"
 msgid "ToggleButton (JavaScript)"
-msgstr ""
+msgstr "ToggleButton (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/togglebutton.js.page:18
@@ -31502,7 +32175,7 @@ msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.ToggleBut
 #: C/togglebutton.py.page:8
 msgctxt "text"
 msgid "ToggleButton (Python)"
-msgstr ""
+msgstr "ToggleButton (Python)"
 
 #. (itstool) path: section/code
 #: C/togglebutton.py.page:31
@@ -31593,7 +32266,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkWidget.html\">G
 #: C/togglebutton.vala.page:8
 msgctxt "text"
 msgid "ToggleButton (Vala)"
-msgstr ""
+msgstr "ToggleButton (Vala)"
 
 #. (itstool) path: page/code
 #: C/togglebutton.vala.page:28
@@ -31665,7 +32338,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.ToggleButton.html\">Gtk
 #: C/toolbar.c.page:8
 msgctxt "text"
 msgid "Toolbar (C)"
-msgstr ""
+msgstr "Toolbar (C)"
 
 #. (itstool) path: info/desc
 #: C/toolbar.c.page:20 C/toolbar.vala.page:19 C/toolbar_builder.vala.page:20
@@ -31675,7 +32348,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/toolbar.c.page:23 C/toolbar.js.page:21 C/toolbar.py.page:23 C/toolbar.vala.page:22
 msgid "Toolbar"
-msgstr ""
+msgstr "Toolbar"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -31941,7 +32614,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/GtkToolButton.html\"
 #: C/toolbar.js.page:8
 msgctxt "text"
 msgid "Toolbar (JavaScript)"
-msgstr ""
+msgstr "Toolbar (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/toolbar.js.page:18
@@ -32148,7 +32821,7 @@ msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gdk.WindowSta
 #: C/toolbar.py.page:8
 msgctxt "text"
 msgid "Toolbar (Python)"
-msgstr ""
+msgstr "Toolbar (Python)"
 
 #. (itstool) path: info/desc
 #: C/toolbar.py.page:20 C/toolbar_builder.py.page:33
@@ -32395,7 +33068,7 @@ msgstr ""
 #: C/toolbar.vala.page:8
 msgctxt "text"
 msgid "Toolbar (Vala)"
-msgstr ""
+msgstr "Toolbar (Vala)"
 
 #. (itstool) path: page/code
 #: C/toolbar.vala.page:28
@@ -32734,22 +33407,22 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:96 C/toolbar_builder.vala.page:79
 msgid "Is important"
-msgstr ""
+msgstr "Är viktig"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:97 C/toolbar_builder.vala.page:80
 msgid "Action name"
-msgstr ""
+msgstr "Åtgärdsnamn"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:99 C/toolbar_builder.vala.page:82
 msgid "Stock Id"
-msgstr ""
+msgstr "Standard-ID"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:104 C/toolbar_builder.vala.page:87
 msgid "open_button"
-msgstr ""
+msgstr "open_button"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:105 C/toolbar_builder.py.page:112 C/toolbar_builder.py.page:119
@@ -32761,73 +33434,73 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:106 C/toolbar_builder.vala.page:89
 msgid "app.open"
-msgstr ""
+msgstr "app.open"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:107 C/toolbar_builder.vala.page:90
 msgid "Open"
-msgstr ""
+msgstr "Öppna"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:108 C/toolbar_builder.vala.page:91
 msgid "gtk-open"
-msgstr ""
+msgstr "gtk-open"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:111 C/toolbar_builder.vala.page:94
 msgid "undo_button"
-msgstr ""
+msgstr "undo_button"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:113 C/toolbar_builder.vala.page:96
 msgid "win.undo"
-msgstr ""
+msgstr "win.undo"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:114 C/toolbar_builder.vala.page:97
 msgid "Undo"
-msgstr ""
+msgstr "Ångra"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:115 C/toolbar_builder.vala.page:98
 msgid "gtk-undo"
-msgstr ""
+msgstr "gtk-undo"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:118 C/toolbar_builder.vala.page:101
 msgid "fullscreen_button"
-msgstr ""
+msgstr "fullscreen_button"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:120 C/toolbar_builder.py.page:127 C/toolbar_builder.vala.page:103
 #: C/toolbar_builder.vala.page:110
 msgid "win.fullscreen"
-msgstr ""
+msgstr "win.fullscreen"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:121 C/toolbar_builder.vala.page:104
 msgid "Fullscreen"
-msgstr ""
+msgstr "Helskärmsläge"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:122 C/toolbar_builder.vala.page:105
 msgid "gtk-fullscreen"
-msgstr ""
+msgstr "gtk-fullscreen"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:125 C/toolbar_builder.vala.page:108
 msgid "leave_fullscreen_button"
-msgstr ""
+msgstr "leave_fullscreen_button"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:128 C/toolbar_builder.vala.page:111
 msgid "Leave Fullscreen"
-msgstr ""
+msgstr "Lämna helskärmsläge"
 
 #. (itstool) path: td/p
 #: C/toolbar_builder.py.page:129 C/toolbar_builder.vala.page:112
 msgid "gtk-leave-fullscreen"
-msgstr ""
+msgstr "gtk-leave-fullscreen"
 
 #. (itstool) path: item/media
 #. This is a reference to an external file such as an image or video. When
@@ -33321,7 +33994,7 @@ msgstr ""
 #: C/tooltip.c.page:8
 msgctxt "text"
 msgid "Tooltip (C)"
-msgstr ""
+msgstr "Tooltip (C)"
 
 #. (itstool) path: info/desc
 #: C/tooltip.c.page:19 C/tooltip.js.page:19 C/tooltip.py.page:20 C/tooltip.vala.page:19
@@ -33331,7 +34004,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/tooltip.c.page:22 C/tooltip.js.page:22 C/tooltip.py.page:23 C/tooltip.vala.page:22
 msgid "Tooltip"
-msgstr ""
+msgstr "Tooltip"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -33562,7 +34235,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/gtk3-Stock-Items.htm
 #: C/tooltip.js.page:8
 msgctxt "text"
 msgid "Tooltip (JavaScript)"
-msgstr ""
+msgstr "Tooltip (Javascript)"
 
 #. (itstool) path: note/p
 #: C/tooltip.js.page:25
@@ -33751,7 +34424,7 @@ msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Widget.ht
 #: C/tooltip.py.page:8
 msgctxt "text"
 msgid "Tooltip (Python)"
-msgstr ""
+msgstr "Tooltip (Python)"
 
 #. (itstool) path: note/p
 #: C/tooltip.py.page:26
@@ -33962,7 +34635,7 @@ msgstr ""
 #: C/tooltip.vala.page:8
 msgctxt "text"
 msgid "Tooltip (Vala)"
-msgstr ""
+msgstr "Tooltip (Vala)"
 
 #. (itstool) path: note/p
 #: C/tooltip.vala.page:25
@@ -35683,7 +36356,7 @@ msgstr ""
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:58
 msgid "Tutorial"
-msgstr ""
+msgstr "Handledning"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:60
@@ -35754,12 +36427,12 @@ msgstr "Vala"
 #. (itstool) path: page/title
 #: C/vala.page:21
 msgid "Tutorials, code samples and platform demos in Vala"
-msgstr ""
+msgstr "Handledningar, kodexempel och plattformsdemonstrationer i Vala"
 
 #. (itstool) path: section/title
 #: C/vala.page:26
 msgid "Code samples and tutorial"
-msgstr ""
+msgstr "Kodexempel och handledning"
 
 #. (itstool) path: info/title
 #: C/weatherApp.js.page:7
@@ -35779,6 +36452,7 @@ msgstr ""
 msgid "Weather application"
 msgstr ""
 
+# TODO: we'll
 #. (itstool) path: synopsis/p
 #: C/weatherApp.js.page:29
 msgid ""
@@ -36076,7 +36750,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/weatherAppMain.js.page:142
 msgid "Weatherapp.js"
-msgstr ""
+msgstr "Weatherapp.js"
 
 #. (itstool) path: section/p
 #: C/weatherAppMain.js.page:143
@@ -36233,13 +36907,13 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/weatherAutotools.js.page:36 C/weatherAutotools.js.page:42
 msgid "weatherapp.desktop"
-msgstr ""
+msgstr "weatherapp.desktop"
 
 #. (itstool) path: item/p
 #. (itstool) path: section/p
 #: C/weatherAutotools.js.page:37 C/weatherAutotools.js.page:57
 msgid "weatherapp.sh.in"
-msgstr ""
+msgstr "weatherapp.sh.in"
 
 #. (itstool) path: section/code
 #: C/weatherAutotools.js.page:43
@@ -36585,7 +37259,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/weatherGeonames.js.page:102
 msgid "geonames.js"
-msgstr ""
+msgstr "geonames.js"
 
 #. (itstool) path: section/p
 #: C/weatherGeonames.js.page:103
@@ -36849,17 +37523,17 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/window.js.page:18
 msgid "A basic window which can contain other widgets"
-msgstr ""
+msgstr "Ett enkelt fönster som kan innehålla andra komponenter"
 
 #. (itstool) path: td/p
 #: C/window.js.page:26
 msgid "A minimal GtkApplication"
-msgstr ""
+msgstr "En minimal GtkApplication"
 
 #. (itstool) path: td/p
 #: C/window.js.page:29
 msgid "Use <link xref=\"GtkApplicationWindow.js\">ApplicationWindow</link> if you need GMenu support."
-msgstr ""
+msgstr "Använd <link xref=\"GtkApplicationWindow.js\">ApplicationWindow</link> om du behöver GMenu-stöd."
 
 #. (itstool) path: page/code
 #: C/window.js.page:33
@@ -36911,7 +37585,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/window.js.page:35
 msgid "In this example we used the following:"
-msgstr ""
+msgstr "I detta exempel använde vi följande:"
 
 #. (itstool) path: item/p
 #: C/window.js.page:40
@@ -37557,7 +38231,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:282
 msgid "Further Examples"
-msgstr ""
+msgstr "Vidare exempel"
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:284
@@ -37577,4 +38251,3 @@ msgid ""
 "gnutls.c#L1154\"><code>GTlsConnectionGnutlsSource</code></link> synchronizes the main thread and a TLS worker "
 "thread which performs the blocking TLS operations."
 msgstr ""
-
