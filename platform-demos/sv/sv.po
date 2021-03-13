@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-demos\n"
 "POT-Creation-Date: 2021-02-19 21:52+0000\n"
-"PO-Revision-Date: 2021-03-10 20:21+0100\n"
+"PO-Revision-Date: 2021-03-13 22:36+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Svenska <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -228,7 +228,7 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktioner\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
@@ -1084,12 +1084,12 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
 "\n"
-"    // Anslut ”activate”- och ”startup”-signaler till återanropsfunktioner\n"
+"    // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "    this.application.connect('activate', this._onActivate.bind(this));\n"
 "    this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
 "\n"
-"    // Återanropsfunktion för ”activate”-signalen visar fönster när den aktiveras\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönster när den aktiveras\n"
 "    _onActivate() {\n"
 "        this._window.present();\n"
 "    }\n"
@@ -1299,12 +1299,12 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
 "\n"
-"        // Anslut ”active”- och ”startup”-signalerna till återanropsfunktionerna\n"
+"        // Anslut ”active”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
 "\n"
-"    // Återanropsfunktionen för ”activate”-signalen visar fönstret när den aktiveras\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönstret när den aktiveras\n"
 "    _onActivate() {\n"
 "        this._window.present();\n"
 "    }\n"
@@ -2251,12 +2251,12 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signalerna till återanropsfunktioner\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
 "\n"
-"    // Återanropsfunktion för ”activate”-signalen, visar fönstret när den aktiveras\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönstret när den aktiveras\n"
 "    _onActivate() {\n"
 "        this._window.present();\n"
 "    }\n"
@@ -2447,12 +2447,12 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signalerna till återanropsfunktionerna\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
 "\n"
-"    // Återanropsfunktion för ”activate”-signal, visar fönstret när aktiveras\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönstret när den aktiveras\n"
 "    _onActivate() {\n"
 "        this._window.present();\n"
 "    }\n"
@@ -2667,12 +2667,12 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signalerna till återanropsfunktionerna\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
 "\n"
-"    // Återanropsfunktion för ”activate”-signalen, visar fönstret när den aktiveras\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönstret när den aktiveras\n"
 "    _onActivate() {\n"
 "        this._window.present();\n"
 "    }\n"
@@ -2875,12 +2875,12 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signalerna till återanropsfunktionerna\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
 "\n"
-"    // Återanropsfunktion för ”activate”-signalen, visar fönstret när den aktiveras\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönstret när den aktiveras\n"
 "    _onActivate() {\n"
 "        this._window.present();\n"
 "    }\n"
@@ -3513,7 +3513,7 @@ msgstr ""
 "            flags: Gio.ApplicationFlags.FLAGS_NONE\n"
 "        });\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signalerna till återanropsfunktionerna\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
@@ -3876,8 +3876,8 @@ msgid ""
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
 "På rad 15 ansluts signalen <code>\"activate\"</code> till återanropsfunktionen <code>about_cb()</code> med "
-"<code><var>widget</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref=\"signals-"
-"callbacks.py\"/> för en utförligare förklaring."
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: section/title
 #: C/aboutdialog.py.page:41 C/button.py.page:52 C/buttonbox.js.page:35 C/buttonbox.py.page:46
@@ -4283,7 +4283,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/beginner.js.page:63 C/beginner.py.page:40 C/beginner.vala.page:67 C/c.page:127
 msgid "Multiline text editor"
-msgstr ""
+msgstr "Textredigerare med flera rader"
 
 #. (itstool) path: section/title
 #: C/beginner.js.page:65 C/beginner.py.page:42 C/beginner.vala.page:69 C/c.page:129
@@ -4293,7 +4293,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/beginner.js.page:67 C/beginner.py.page:44 C/beginner.vala.page:71 C/c.page:131
 msgid "TreeView widget"
-msgstr ""
+msgstr "TreeView-komponent"
 
 #. (itstool) path: section/title
 #. (itstool) path: steps/title
@@ -4721,12 +4721,12 @@ msgstr ""
 "            flags: Gio.ApplicationFlags.FLAGS_NONE\n"
 "        });\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signalerna till återanropsfunktionerna\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
 "\n"
-"    // Återanropsfunktion för ”activate”-signalen, visar fönster när den aktiveras\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönster när den aktiveras\n"
 "    _onActivate() {\n"
 "        this._window.present ();\n"
 "    }\n"
@@ -4781,7 +4781,7 @@ msgstr "Button (Python)"
 #. (itstool) path: page/p
 #: C/button.py.page:26 C/button.vala.page:25
 msgid "A button widget connected to a simple callback function."
-msgstr ""
+msgstr "En knappkomponent ansluten till en enkel återanropsfunktion."
 
 #. (itstool) path: section/code
 #: C/button.py.page:32
@@ -4833,7 +4833,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/button.py.page:36
 msgid "Useful methods for a Button widget"
-msgstr ""
+msgstr "Användbara metoder för en Button-komponent"
 
 #. (itstool) path: section/p
 #: C/button.py.page:37
@@ -4842,6 +4842,9 @@ msgid ""
 "<code>do_clicked()</code> using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</"
 "code>. See <link xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 16 ansluts signalen <code>\"clicked\"</code> från knappen till återanropsfunktionen <code>do_clicked()</"
+"code> med <code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link "
+"xref=\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/button.py.page:39
@@ -4909,7 +4912,7 @@ msgstr "Button (Vala)"
 #. (itstool) path: page/title
 #: C/button.vala.page:22
 msgid "Button widget"
-msgstr ""
+msgstr "Button-komponent"
 
 #. (itstool) path: page/code
 #: C/button.vala.page:27
@@ -4966,6 +4969,8 @@ msgid ""
 "In this sample we used the following: <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Button.html\">Gtk.Button</"
 "link>"
 msgstr ""
+"I detta exempel använde vi följande: <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Button.html\">Gtk.Button</"
+"link>"
 
 #. (itstool) path: info/title
 #: C/buttonbox.js.page:8
@@ -5379,7 +5384,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttonbox.py.page:36
 msgid "Useful methods for a ButtonBox widget"
-msgstr ""
+msgstr "Användbara metoder för en ButtonBox-komponent"
 
 #. (itstool) path: item/p
 #: C/buttonbox.py.page:38
@@ -5459,7 +5464,7 @@ msgstr "Plattformsdemonstrationer i C"
 #. (itstool) path: section/title
 #: C/c.page:31
 msgid "Prerequisites"
-msgstr ""
+msgstr "Förutsättningar"
 
 #. (itstool) path: section/p
 #: C/c.page:33
@@ -5468,6 +5473,10 @@ msgid ""
 "link>. You will also need GTK+ 3 including headers and pkg-config files. Linux distributions usually abstract GTK+ "
 "3 headers and pkg-config files into separate packages called <em>gtk3-devel</em>, <em>gtk3-dev</em> or similar."
 msgstr ""
+"För att kompilera dessa plattformsdemonstrationer kommer du behöva en C-kompilator, till exempel <link href="
+"\"https://gcc.gnu.org/\">gcc</link>. Du kommer också behöva GTK+ 3 med headerfiler och pkg-config-filer. "
+"Linuxdistributioner abstraherar vanligen GTK+ 3-headerfiler och pkg-config-filer till separata paket som heter "
+"<em>gtk3-devel</em>, <em>gtk3-dev</em> eller liknande."
 
 #. (itstool) path: section/title
 #: C/c.page:44
@@ -5505,6 +5514,7 @@ msgstr ""
 msgid "<link href=\"http://glade.gnome.org/\">Glade</link>: A user interface designer for GTK+ Applications."
 msgstr "<link href=\"http://glade.gnome.org/\">Glade</link>: En användargränssnittsdesigner för GTK+-program."
 
+# TODO: empathy is EOL.
 #. (itstool) path: item/p
 #: C/c.page:70
 msgid ""
@@ -5512,11 +5522,14 @@ msgid ""
 "wiki.gnome.org/Apps/Empathy\">Empathy</link>. If you run into problems while following the beginner tutorials, "
 "join #gnome on <em>irc.gnome.org</em>."
 msgstr ""
+"En IRC-klient, till exempel <link href=\"https://wiki.gnome.org/Apps/Polari\">Polari</link> eller <link href="
+"\"https://wiki.gnome.org/Apps/Empathy\">Empathy</link>. Om du stöter på problem medan du följer "
+"nybörjarhandledningarna kan du gå in i #gnome på <em>irc.gnome.org</em>."
 
 #. (itstool) path: section/title
 #: C/c.page:80
 msgid "Coding Style"
-msgstr ""
+msgstr "Kodstil"
 
 #. (itstool) path: section/p
 #: C/c.page:82
@@ -5703,13 +5716,15 @@ msgid ""
 "These are the libraries we need to import for this application to run. Remember that the line which tells GNOME "
 "that we're using Gjs always needs to go at the start."
 msgstr ""
+"Detta är biblioteken som vi behöver importera för att detta program ska köras. Kom ihåg att raden som säger till "
+"GNOME att vi använder Gjs alltid behöver vara först."
 
 #. (itstool) path: section/title
 #: C/checkbutton.js.page:41 C/comboboxtext.js.page:41 C/combobox.js.page:46 C/messagedialog.js.page:43
 #: C/radiobutton.js.page:40 C/scale.js.page:40 C/spinbutton.js.page:43 C/statusbar.js.page:40 C/switch.js.page:47
 #: C/textview.js.page:49 C/togglebutton.js.page:40 C/treeview_simple_liststore.js.page:50
 msgid "Creating the application window"
-msgstr ""
+msgstr "Skapa programfönstret"
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:42
@@ -5747,6 +5762,8 @@ msgid ""
 "www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to "
 "go in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen CheckButtonExample. Koden ovan skapar en <link href=\"http://www.roojs."
+"com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:67
@@ -5813,6 +5830,10 @@ msgid ""
 "        this._window.show_all();\n"
 "    }\n"
 msgstr ""
+"\n"
+"        // Visa fönstret och alla barnkomponenter\n"
+"        this._window.show_all();\n"
+"    }\n"
 
 #. (itstool) path: section/p
 #: C/checkbutton.js.page:102
@@ -5862,11 +5883,15 @@ msgid ""
 "let app = new CheckButtonExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new CheckButtonExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/checkbutton.js.page:126
 msgid "Finally, we create a new instance of the finished CheckButtonExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda CheckButtonExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:131
@@ -6029,7 +6054,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/checkbutton.py.page:36
 msgid "Useful methods for a CheckButton widget"
-msgstr ""
+msgstr "Användbara metoder för en CheckButton-komponent"
 
 #. (itstool) path: section/p
 #: C/checkbutton.py.page:37
@@ -6038,6 +6063,9 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 17 ansluts signalen <code>\"toggled\"</code> till återanropsfunktionen <code>toggled_cb()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/checkbutton.py.page:47 C/togglebutton.py.page:44
@@ -6132,7 +6160,7 @@ msgstr "ColorButton (Javascript)"
 #. (itstool) path: info/desc
 #: C/colorbutton.js.page:18 C/colorbutton.py.page:19 C/colorbutton.vala.page:20
 msgid "A button to launch a color selection dialog"
-msgstr ""
+msgstr "En knapp för att starta en färgvalsdialog"
 
 #. (itstool) path: page/title
 #: C/colorbutton.js.page:21 C/colorbutton.py.page:22 C/colorbutton.vala.page:23
@@ -6153,7 +6181,7 @@ msgstr "external ref='media/colorbutton.png' md5='904539d26fe367bf99f9a0961cfc9a
 #: C/colorbutton.js.page:23 C/colorbutton.py.page:24
 msgid ""
 "This ColorButton launches a color selection dialog and prints in the terminal the RGB values of the color selected."
-msgstr ""
+msgstr "Denna ColorButton startar en färgvalsdialog och skriver i terminalen RGB-värdena på färgen som väljs."
 
 #. (itstool) path: section/code
 #: C/colorbutton.js.page:29
@@ -6310,7 +6338,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/colorbutton.py.page:34
 msgid "Useful methods for a ColorButton widget"
-msgstr ""
+msgstr "Användbara metoder för en ColorButton-komponent"
 
 #. (itstool) path: section/p
 #: C/colorbutton.py.page:35
@@ -6326,6 +6354,9 @@ msgid ""
 "code> using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link "
 "xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 23 ansluts signalen <code>\"color-set\"</code> till återanropsfunktionen <code>on_color_chosen()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/colorbutton.py.page:43
@@ -6412,7 +6443,7 @@ msgstr "ComboBoxText (Javascript)"
 #. (itstool) path: info/desc
 #: C/comboboxtext.js.page:20
 msgid "A text-only drop-down menu"
-msgstr ""
+msgstr "En rullgardinsmeny med bara text"
 
 #. (itstool) path: page/title
 #: C/comboboxtext.js.page:23
@@ -6497,6 +6528,9 @@ msgid ""
 "www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to "
 "go in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen MessageDialogExample. Koden ovan skapar en <link href=\"http://www."
+"roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och "
+"fönstret i."
 
 #. (itstool) path: section/code
 #: C/comboboxtext.js.page:67
@@ -6695,11 +6729,15 @@ msgid ""
 "let app = new ComboBoxTextExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new ComboBoxTextExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/comboboxtext.js.page:167
 msgid "Finally, we create a new instance of the finished ComboBoxTextExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda ComboBoxTextExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/comboboxtext.js.page:172
@@ -6824,7 +6862,7 @@ msgstr "ComboBox (C)"
 #: C/combobox.c.page:22 C/combobox.py.page:20 C/combobox.vala.page:18 C/combobox_multicolumn.py.page:19
 #: C/combobox_multicolumn.vala.page:19
 msgid "A widget used to choose from a list of items"
-msgstr ""
+msgstr "En komponent som används för att välja från en lista objekt"
 
 #. (itstool) path: page/title
 #: C/combobox.c.page:25 C/combobox.js.page:25 C/combobox.vala.page:21
@@ -6834,7 +6872,7 @@ msgstr "ComboBox"
 #. (itstool) path: page/p
 #: C/combobox.c.page:27 C/combobox.vala.page:23
 msgid "This ComboBox prints to the terminal when you change your selection."
-msgstr ""
+msgstr "Denna ComboBox skriver till terminalen då du ändrar ditt val."
 
 #. (itstool) path: page/code
 #: C/combobox.c.page:29
@@ -6938,7 +6976,7 @@ msgstr "ComboBox (Javascript)"
 #. (itstool) path: info/desc
 #: C/combobox.js.page:22
 msgid "A customizable drop-down menu"
-msgstr ""
+msgstr "En anpassningsbar rullgardinsmeny"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -7030,6 +7068,8 @@ msgid ""
 "roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to go "
 "in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen ComboBoxExample. Koden ovan skapar en <link href=\"http://www.roojs.com/"
+"seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/combobox.js.page:71
@@ -7345,7 +7385,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/combobox.js.page:224
 msgid "Finally, we create a new instance of the finished ComboBoxExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda ComboBoxExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/combobox.js.page:229
@@ -7528,7 +7568,7 @@ msgstr "ComboBox (en kolumn)"
 #. (itstool) path: page/p
 #: C/combobox.py.page:25 C/combobox_multicolumn.py.page:24 C/combobox_multicolumn.vala.page:24
 msgid "This ComboBox prints to the terminal your selection when you change it."
-msgstr ""
+msgstr "Denna ComboBox skriver ditt val till terminalen då du ändrar det."
 
 #. (itstool) path: section/code
 #: C/combobox.py.page:31
@@ -7604,7 +7644,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/combobox.py.page:35 C/combobox_multicolumn.py.page:35
 msgid "Useful methods for a ComboBox widget"
-msgstr ""
+msgstr "Användbara metoder för en ComboBox-komponent"
 
 #. (itstool) path: section/p
 #: C/combobox.py.page:36 C/combobox_multicolumn.py.page:36
@@ -7622,6 +7662,9 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 35 ansluts signalen <code>\"changed\"</code> till återanropsfunktionen <code>on_changed()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/combobox.py.page:45 C/combobox_multicolumn.py.page:44 C/model-view-controller.py.page:190
@@ -7857,6 +7900,9 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 45 ansluts signalen <code>\"changed\"</code> till återanropsfunktionen <code>on_changed()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/combobox_multicolumn.py.page:47
@@ -8256,7 +8302,7 @@ msgstr "Dialog (Python)"
 #. (itstool) path: page/p
 #: C/dialog.py.page:25
 msgid "A dialog with the response signal connected to a callback function."
-msgstr ""
+msgstr "En dialog med ”response”-signalen ansluten till en återanropsfunktion."
 
 #. (itstool) path: section/code
 #: C/dialog.py.page:32
@@ -8332,7 +8378,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/dialog.py.page:37
 msgid "Useful methods for a Dialog widget"
-msgstr ""
+msgstr "Användbara metoder för en Dialog-komponent"
 
 #. (itstool) path: section/p
 #: C/dialog.py.page:38
@@ -8341,6 +8387,9 @@ msgid ""
 "code> using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link "
 "xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 16 ansluts signalen <code>\"clicked\"</code> till återanropsfunktionen <code>on_button_click()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/dialog.py.page:40
@@ -8372,7 +8421,7 @@ msgstr "Dialog (Vala)"
 #. (itstool) path: page/p
 #: C/dialog.vala.page:23
 msgid "A dialog with the response signal hooked up to a callback function."
-msgstr ""
+msgstr "En dialog med ”response”-signalen ansluten till en återanropsfunktion."
 
 #. (itstool) path: page/code
 #: C/dialog.vala.page:25
@@ -8509,7 +8558,7 @@ msgstr "external ref='media/entry.png' md5='8a828cffdcbaa4bad83342e109f28cc8'"
 #. (itstool) path: page/p
 #: C/entry.c.page:24 C/entry.vala.page:23
 msgid "This application greets you in the terminal."
-msgstr ""
+msgstr "Detta program hälsar dig i terminalen."
 
 #. (itstool) path: page/code
 #: C/entry.c.page:26
@@ -8591,7 +8640,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/entry.js.page:23
 msgid "This application greets you by name through a pop-up window."
-msgstr ""
+msgstr "Detta program hälsar dig med namn genom ett poppuppfönster."
 
 #. (itstool) path: page/code
 #: C/entry.js.page:25
@@ -8707,7 +8756,7 @@ msgstr "2011"
 #. (itstool) path: page/p
 #: C/entry.py.page:30
 msgid "This application greets you in the terminal with the name you provide."
-msgstr ""
+msgstr "Detta program hälsar dig i terminalen med namnet du tillhandahåller."
 
 #. (itstool) path: section/code
 #: C/entry.py.page:36
@@ -8761,7 +8810,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/entry.py.page:40
 msgid "Useful methods for an Entry widget"
-msgstr ""
+msgstr "Användbara metoder för en Entry-komponent"
 
 #. (itstool) path: section/p
 #: C/entry.py.page:41
@@ -8964,7 +9013,7 @@ msgstr "FileChooserDialog (Python)"
 #. (itstool) path: info/desc
 #: C/filechooserdialog.py.page:22
 msgid "A dialog suitable for \"Open\" and \"Save\" commands"
-msgstr ""
+msgstr "En dialog lämplig för ”Öppna”- och ”Spara”-kommandon"
 
 #. (itstool) path: page/title
 #: C/filechooserdialog.py.page:25 C/filechooserdialog.vala.page:24
@@ -9331,7 +9380,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/filechooserdialog.py.page:58
 msgid "Useful methods for a FileChooserDialog"
-msgstr ""
+msgstr "Användbara metoder för en FileChooserDialog"
 
 #. (itstool) path: section/p
 #: C/filechooserdialog.py.page:59
@@ -9425,12 +9474,12 @@ msgstr "FileChooserDialog (Vala)"
 #. (itstool) path: info/desc
 #: C/filechooserdialog.vala.page:21
 msgid "A dialog suitable for \"Open\" and \"Save\" commands."
-msgstr ""
+msgstr "En dialog lämplig för ”Öppna”- och ”Spara”-kommandon."
 
 #. (itstool) path: section/title
 #: C/filechooserdialog.vala.page:26
 msgid "Overview of the example"
-msgstr ""
+msgstr "Översikt över exemplet"
 
 #. (itstool) path: section/p
 #: C/filechooserdialog.vala.page:27
@@ -9707,7 +9756,7 @@ msgstr "external ref='media/fontchooserwidget.png' md5='9161245e307b432ae1313e9a
 #. (itstool) path: page/p
 #: C/fontchooserwidget.js.page:24 C/fontchooserwidget.py.page:26
 msgid "A FontChooserWidget with a callback function."
-msgstr ""
+msgstr "En FontChooserWidget med en återanropsfunktion."
 
 #. (itstool) path: section/code
 #: C/fontchooserwidget.js.page:30
@@ -9840,7 +9889,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/fontchooserwidget.py.page:35
 msgid "Useful methods for a FontChooserWidget"
-msgstr ""
+msgstr "Användbara metoder för en FontChooserWidget"
 
 #. (itstool) path: section/p
 #: C/fontchooserwidget.py.page:36
@@ -9849,6 +9898,9 @@ msgid ""
 "<code>font_cb()</code> using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</"
 "code>. See <link xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 16 ansluts signalen <code>\"notify::font\"</code> från komponenten till återanropsfunktionen "
+"<code>font_cb()</code> med <code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</"
+"code>. Se <link xref=\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/fontchooserwidget.py.page:38
@@ -9881,8 +9933,9 @@ msgstr "Tiffany Antopolski"
 
 #. (itstool) path: page/p
 #: C/fontchooserwidget.vala.page:24
+#, fuzzy
 msgid "A FontChooserWidget with a lambda callback function."
-msgstr ""
+msgstr "En FontChooserWidget med en lambda-återanropsfunktion."
 
 #. (itstool) path: section/code
 #: C/fontchooserwidget.vala.page:30
@@ -9936,7 +9989,7 @@ msgstr "GMenu (C)"
 #. (itstool) path: info/desc
 #: C/gmenu.c.page:18 C/gmenu.js.page:18 C/gmenu.vala.page:24
 msgid "A simple implementation of GMenuModel"
-msgstr ""
+msgstr "En enkel implementation av GMenuModel"
 
 #. (itstool) path: page/title
 #: C/gmenu.c.page:21 C/gmenu.js.page:21 C/gmenu.py.page:29 C/gmenu.vala.page:27
@@ -9956,7 +10009,7 @@ msgstr "external ref='media/gmenu.c.png' md5='f305fc3cae8d16d72b734ee53b559e33'"
 #. (itstool) path: page/p
 #: C/gmenu.c.page:23 C/gmenu.js.page:23 C/gmenu.py.page:31 C/gmenu.vala.page:32
 msgid "A GtkApplication with a simple GMenu and SimpleActions"
-msgstr ""
+msgstr "En GtkApplication med en enkel GMenu och SimpleActions"
 
 #. (itstool) path: page/code
 #: C/gmenu.c.page:26
@@ -10143,7 +10196,7 @@ msgstr "GMenu (Python)"
 #. (itstool) path: info/desc
 #: C/gmenu.py.page:26
 msgid "A simple implementation of GMenu"
-msgstr ""
+msgstr "En enkel implementation av GMenu"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -10231,20 +10284,24 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/gmenu.py.page:42
 msgid "Useful methods for a GSimpleAction and a GMenu"
-msgstr ""
+msgstr "Användbara metoder för en GSimpleAction och en GMenu"
 
 #. (itstool) path: section/p
 #: C/gmenu.py.page:44
+#, fuzzy
 msgid ""
 "In line 33 the signal <code>\"activate\"</code> from the action <code>new_action</code> (not the menu!) is "
 "connected to the callback function <code>new_cb()</code> using <code><var>action</var>.connect(<var>signal</var>, "
 "<var>callback function</var>)</code>. See <link xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 33 ansluts signalen <code>\"activate\"</code> från åtgärden <code>new_action</code> (inte menyn!) till "
+"återanropsfunktionen <code>new_cb()</code> med <code><var>åtgärd</var>.connect(<var>signal</var>, "
+"<var>återanropsfunktion</var>)</code>. Se <link xref=\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: section/p
 #: C/gmenu.py.page:46
 msgid "Useful methods for a GSimpleAction:"
-msgstr ""
+msgstr "Användbara metoder för en GSimpleAction:"
 
 #. (itstool) path: item/p
 #: C/gmenu.py.page:48
@@ -10307,7 +10364,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/gmenu.py.page:59
 msgid "Useful methods for a GMenu:"
-msgstr ""
+msgstr "Användbara metoder för en GMenu:"
 
 #. (itstool) path: item/p
 #: C/gmenu.py.page:61
@@ -10397,7 +10454,7 @@ msgstr "external ref='media/gmenu.vala.png' md5='7a9f381fc3ed5bf8d1c50d2acb09540
 #. (itstool) path: note/p
 #: C/gmenu.vala.page:30
 msgid "<em style=\"strong\">You need to be running GTK+-3.4 or later for this to work</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Du behöver köra GTK+-3.4 eller senare för att detta ska fungera</em>"
 
 #. (itstool) path: page/code
 #: C/gmenu.vala.page:34
@@ -10514,7 +10571,7 @@ msgstr "external ref='media/grid.png' md5='27d45da115401127456a3b854dcfc5be'"
 #. (itstool) path: page/p
 #: C/grid.c.page:24 C/grid.vala.page:25
 msgid "A button widget connected to a progress bar."
-msgstr ""
+msgstr "En knappkomponent ansluten till en förloppsindikator."
 
 #. (itstool) path: page/code
 #: C/grid.c.page:26
@@ -10605,11 +10662,11 @@ msgstr "Grid (Javascript)"
 #. (itstool) path: page/p
 #: C/grid.js.page:27
 msgid "A button widget connected to a progress bar, inside of a grid which handles the layout."
-msgstr ""
+msgstr "En knappkomponent ansluten till en förloppsindikator, inuti ett rutnät som hanterar layouten."
 
 #. (itstool) path: page/code
 #: C/grid.js.page:29
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "#!/usr/bin/gjs\n"
 "\n"
@@ -10681,6 +10738,75 @@ msgid ""
 "let app = new GridExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"#!/usr/bin/gjs\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"\n"
+"const Gio = imports.gi.Gio;\n"
+"const GLib = imports.gi.GLib;\n"
+"const Gtk = imports.gi.Gtk;\n"
+"\n"
+"class GridExample {\n"
+"\n"
+"    /* Skapa programmet i sig\n"
+"       Denna standardkod behövs för att bygga alla GTK+-program. */\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application ({\n"
+"            application_id: 'org.example.jsgrid',\n"
+"            flags: Gio.ApplicationFlags.FLAGS_NONE\n"
+"        });\n"
+"\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
+"\n"
+"    // Återanropsfunktion för ”activate”-signal visar fönster när den aktiveras\n"
+"    _onActivate() {\n"
+"        this._window.present();\n"
+"    }\n"
+"\n"
+"    // Återanropsfunktion för ”startup”-signal initierar menyer och bygger användargränssnittet\n"
+"    _onStartup() {\n"
+"        this._buildUI();\n"
+"    }\n"
+"\n"
+"    // Build the application's UI\n"
+"    _buildUI() {\n"
+"\n"
+"        // Skapa programfönstret\n"
+"            this._window = new Gtk.ApplicationWindow  ({ application: this.application,\n"
+"                                                         window_position: Gtk.WindowPosition.CENTER,\n"
+"                                                         title: \"Grid-exempel\"});\n"
+"\n"
+"        // Skapa rutnätet\n"
+"        this.Grid = new Gtk.Grid ();\n"
+"\n"
+"        // Skapa komponenterna i rutnätet\n"
+"        this.progressBar = new Gtk.ProgressBar ();\n"
+"        this.Button = new Gtk.Button ({ label: \"Button\" });\n"
+"        this.Button.connect (\"clicked\", this._clickHandler.bind(this));\n"
+"\n"
+"        // Assemble the grid\n"
+"        this._window.add (this.Grid);\n"
+"        this.Grid.attach (this.Button, 1, 1, 1, 1);\n"
+"        this.Grid.attach_next_to (this.progressBar, this.Button, Gtk.PositionType.BOTTOM, 1, 1);\n"
+"\n"
+"                // Show the window and all child widgets\n"
+"                this._window.show_all();\n"
+"    }\n"
+"\n"
+"    // Here's the function that says what happens when the button is clicked\n"
+"    _clickHandler() {\n"
+"        this.progressBar.pulse ();\n"
+"    }\n"
+"\n"
+"\n"
+"};\n"
+"\n"
+"// Kör programmet\n"
+"let app = new GridExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: item/p
 #: C/grid.js.page:37
@@ -10711,7 +10837,7 @@ msgstr "external ref='media/grid_simple.png' md5='c806f2e69b30373d4d2e08b41d6cc1
 #. (itstool) path: page/p
 #: C/grid.py.page:32
 msgid "Some labels in a grid."
-msgstr ""
+msgstr "Några etiketter i ett rutnät."
 
 #. (itstool) path: section/code
 #: C/grid.py.page:38
@@ -10767,7 +10893,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/grid.py.page:42
 msgid "Useful methods for a Grid widget"
-msgstr ""
+msgstr "Användbara metoder för en Grid-komponent"
 
 #. (itstool) path: item/p
 #: C/grid.py.page:45
@@ -10830,7 +10956,7 @@ msgstr "Grid (Vala)"
 #. (itstool) path: page/title
 #: C/grid.vala.page:23
 msgid "Grid widget"
-msgstr ""
+msgstr "Grid-komponent"
 
 #. (itstool) path: page/code
 #: C/grid.vala.page:27
@@ -10892,7 +11018,7 @@ msgstr "ApplicationWindow (C)"
 #. (itstool) path: info/desc
 #: C/GtkApplicationWindow.c.page:18
 msgid "A toplevel window which can contain other widgets, and support GMenu"
-msgstr ""
+msgstr "Ett toppnivåfönster som kan innehålla andra komponenter, och stöder GMenu"
 
 #. (itstool) path: page/title
 #: C/GtkApplicationWindow.c.page:21 C/GtkApplicationWindow.js.page:21 C/GtkApplicationWindow.py.page:28
@@ -10916,7 +11042,7 @@ msgstr "external ref='media/window.png' md5='eb0cde3530978619c25bddfaeb453345'"
 #. (itstool) path: page/p
 #: C/GtkApplicationWindow.c.page:23
 msgid "A minimal GtkApplication with a GtkApplicationWindow"
-msgstr ""
+msgstr "En minimal GtkApplication med ett GtkApplicationWindow"
 
 #. (itstool) path: page/code
 #: C/GtkApplicationWindow.c.page:25
@@ -10948,6 +11074,31 @@ msgid ""
 "  return status;\n"
 "}\n"
 msgstr ""
+"#include &lt;gtk/gtk.h&gt;\n"
+"\n"
+"static void\n"
+"activate (GtkApplication *app,\n"
+"          gpointer        user_data)\n"
+"{\n"
+"  GtkWidget *window;\n"
+"\n"
+"  window = gtk_application_window_new (app);\n"
+"  gtk_window_set_title (GTK_WINDOW (window), \"Hej GNOME\");\n"
+"  gtk_widget_show_all (window);\n"
+"}\n"
+"\n"
+"int\n"
+"main (int argc, char **argv)\n"
+"{\n"
+"  GtkApplication *app;\n"
+"  int status;\n"
+"\n"
+"  app = gtk_application_new (\"org.gtk.example\", G_APPLICATION_FLAGS_NONE);\n"
+"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+"  g_object_unref (app);\n"
+"  return status;\n"
+"}\n"
 
 #. (itstool) path: item/p
 #: C/GtkApplicationWindow.c.page:31
@@ -10963,7 +11114,7 @@ msgstr "ApplicationWindow (Javascript)"
 #. (itstool) path: info/desc
 #: C/GtkApplicationWindow.js.page:18 C/GtkApplicationWindow.py.page:25 C/GtkApplicationWindow.vala.page:18
 msgid "GtkWindow subclass with GtkApplication support"
-msgstr ""
+msgstr "GtkWindow-underklass med GtkApplication-stöd"
 
 #. (itstool) path: page/p
 #: C/GtkApplicationWindow.js.page:23
@@ -11085,7 +11236,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/GtkApplicationWindow.py.page:41
 msgid "Useful methods for a Gtk.ApplicationWindow widget"
-msgstr ""
+msgstr "Användbara metoder för en Gtk.ApplicationWindow-komponent"
 
 #. (itstool) path: item/p
 #: C/GtkApplicationWindow.py.page:44 C/window.py.page:54
@@ -11144,7 +11295,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Application.html.conten
 #: C/guitar-tuner.c.page:8
 msgctxt "text"
 msgid "Guitar tuner (C)"
-msgstr ""
+msgstr "Gitarrstämmare (C)"
 
 #. (itstool) path: info/desc
 #: C/guitar-tuner.c.page:11 C/guitar-tuner.py.page:11
@@ -11152,6 +11303,8 @@ msgid ""
 "Use GTK+ and GStreamer to build a simple guitar tuner application for GNOME. Shows off how to use the interface "
 "designer."
 msgstr ""
+"Använd GTK+ och GStreamer för att bygga ett enkelt gitarrstämmarprogram för GNOME. Visar hur gränssnittsdesignern "
+"används."
 
 #. (itstool) path: credit/name
 #: C/guitar-tuner.c.page:19 C/guitar-tuner.cpp.page:17 C/guitar-tuner.py.page:19 C/guitar-tuner.vala.page:18
@@ -11165,7 +11318,7 @@ msgstr "Johannes Schmid"
 #: C/guitar-tuner.c.page:29 C/guitar-tuner.cpp.page:27 C/guitar-tuner.js.page:20 C/guitar-tuner.py.page:34
 #: C/guitar-tuner.vala.page:32
 msgid "Guitar tuner"
-msgstr ""
+msgstr "Gitarrstämmare"
 
 #. (itstool) path: synopsis/p
 #: C/guitar-tuner.c.page:32 C/guitar-tuner.cpp.page:30 C/guitar-tuner.py.page:37
@@ -11177,34 +11330,36 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:34 C/guitar-tuner.cpp.page:32 C/guitar-tuner.py.page:39
 msgid "Set up a basic project in Anjuta"
-msgstr ""
+msgstr "Konfigurerar ett grundläggande projekt i Anjuta"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:35 C/guitar-tuner.cpp.page:33 C/guitar-tuner.py.page:40
+#, fuzzy
 msgid "Create a simple GUI with Anjuta's UI designer"
-msgstr ""
+msgstr "Skapar ett enkelt grafiskt användargränssnitt (GUI) med Anjutas UI-designer"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:36 C/guitar-tuner.cpp.page:34 C/guitar-tuner.py.page:41
 msgid "Use GStreamer to play sounds"
-msgstr ""
+msgstr "Använder GStreamer för att spela upp ljud"
 
 #. (itstool) path: synopsis/p
 #: C/guitar-tuner.c.page:38 C/guitar-tuner.cpp.page:36 C/guitar-tuner.py.page:43 C/guitar-tuner.vala.page:41
 #: C/image-viewer.js.page:39 C/image-viewer.py.page:39 C/image-viewer.vala.page:46 C/magic-mirror.vala.page:39
 msgid "You'll need the following to be able to follow this tutorial:"
-msgstr ""
+msgstr "Du behöver följande för att kunna följa denna handledning:"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:40 C/guitar-tuner.cpp.page:38 C/guitar-tuner.py.page:45 C/image-viewer.js.page:41
 #: C/image-viewer.py.page:41 C/magic-mirror.vala.page:41
+#, fuzzy
 msgid "An installed copy of the <link xref=\"getting-ready\">Anjuta IDE</link>"
-msgstr ""
+msgstr "En installerad kopia av den <link xref=\"getting-ready\">integrerade utvecklingsmiljön Anjuta</link>"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:41
 msgid "Basic knowledge of the C programming language"
-msgstr ""
+msgstr "Grundläggande kunskap i programmeringsspråket C"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -11222,7 +11377,7 @@ msgstr "external ref='media/guitar-tuner.png' md5='35e615e0f5e293671d00c5c414ac2
 #: C/image-viewer.cpp.page:40 C/image-viewer.js.page:50 C/image-viewer.py.page:49 C/image-viewer.vala.page:57
 #: C/magic-mirror.vala.page:50 C/message-board.c.page:46 C/photo-wall.c.page:52 C/record-collection.js.page:53
 msgid "Create a project in Anjuta"
-msgstr ""
+msgstr "Skapa ett projekt i Anjuta"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:49 C/guitar-tuner.cpp.page:47 C/guitar-tuner.py.page:54 C/guitar-tuner.vala.page:52
@@ -11232,6 +11387,8 @@ msgid ""
 "Before you start coding, you'll need to set up a new project in Anjuta. This will create all of the files you need "
 "to build and run the code later on. It's also useful for keeping everything together."
 msgstr ""
+"Innan du börjar koda kommer du behöva konfigurera ett nytt projekt i Anjuta. Detta kommer skapa alla filer som du "
+"behöver för att bygga och köra koden senare. Det är också användbart för att hålla allting samlat."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:52 C/guitar-tuner.cpp.page:50 C/guitar-tuner.py.page:57 C/image-viewer.c.page:46
@@ -11240,6 +11397,8 @@ msgstr ""
 msgid ""
 "Start Anjuta and click <guiseq><gui>File</gui><gui>New</gui><gui>Project</gui></guiseq> to open the project wizard."
 msgstr ""
+"Starta Anjuta och klicka på <guiseq><gui>Arkiv</gui><gui>Ny</gui><gui>Projekt</gui></guiseq> för att öppna "
+"projektguiden."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:55
@@ -11247,6 +11406,8 @@ msgid ""
 "Choose <gui>GTK+ (Simple)</gui> from the <gui>C</gui> tab, click <gui>Continue</gui>, and fill out your details on "
 "the next few pages. Use <file>guitar-tuner</file> as project name and directory."
 msgstr ""
+"Välj <gui>GTK+ (enkel)</gui> från fliken <gui>C</gui>, klicka på <gui>Fortsätt</gui>, och fyll i dina detaljer på "
+"de nästkommande sidorna. Använd <file>guitar-tuner</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:58
@@ -11270,12 +11431,15 @@ msgid ""
 "#include &lt;config.h&gt;\n"
 "#include &lt;gtk/gtk.h&gt;"
 msgstr ""
+"\n"
+"#include &lt;config.h&gt;\n"
+"#include &lt;gtk/gtk.h&gt;"
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.c.page:71 C/guitar-tuner.cpp.page:69 C/guitar-tuner.vala.page:74 C/image-viewer.c.page:66
 #: C/image-viewer.cpp.page:66 C/image-viewer.vala.page:113 C/magic-mirror.vala.page:78
 msgid "Build the code for the first time"
-msgstr ""
+msgstr "Bygg koden för första gången"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:72
@@ -11331,6 +11495,8 @@ msgid ""
 "This code is ready to be used, so you can compile it by clicking <guiseq><gui>Build</gui><gui>Build Project</gui></"
 "guiseq> (or press <keyseq><key>Shift</key><key>F7</key></keyseq>)."
 msgstr ""
+"Denna kod är klar att användas, så du kan kompilera den genom att klicka på <guiseq><gui>Bygg</gui><gui>Bygg "
+"projekt</gui></guiseq> (eller trycka <keyseq><key>Skift</key><key>F7</key></keyseq>)."
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:91 C/guitar-tuner.cpp.page:85 C/image-viewer.c.page:86 C/image-viewer.cpp.page:83
@@ -11342,7 +11508,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.c.page:95 C/guitar-tuner.cpp.page:89 C/guitar-tuner.py.page:96 C/guitar-tuner.vala.page:96
 msgid "Create the user interface"
-msgstr ""
+msgstr "Skapa användargränssnittet"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:96 C/guitar-tuner.cpp.page:90
@@ -11413,7 +11579,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.c.page:126 C/guitar-tuner.vala.page:203
 msgid "Creating the signal handler"
-msgstr ""
+msgstr "Skapa signalhanteraren"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:127 C/guitar-tuner.py.page:128
@@ -11519,7 +11685,7 @@ msgstr ""
 #: C/guitar-tuner.c.page:154
 msgid ""
 "Insert the following line into <file>main.c</file>, just below the <code>#include &lt;gtk/gtk.h&gt;</code> line:"
-msgstr ""
+msgstr "Infoga följande rad i <file>main.c</file>, just under raden <code>#include &lt;gtk/gtk.h&gt;</code>:"
 
 #. (itstool) path: section/code
 #: C/guitar-tuner.c.page:155
@@ -11612,7 +11778,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.c.page:201 C/guitar-tuner.py.page:191
 msgid "Stopping playback"
-msgstr ""
+msgstr "Stoppa uppspelning"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:202
@@ -11732,7 +11898,7 @@ msgstr ""
 #: C/guitar-tuner.c.page:256 C/guitar-tuner.cpp.page:255 C/guitar-tuner.vala.page:253 C/image-viewer.c.page:222
 #: C/image-viewer.cpp.page:210 C/image-viewer.vala.page:280 C/photo-wall.c.page:392
 msgid "Build and run the application"
-msgstr ""
+msgstr "Bygg och kör programmet"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:257 C/guitar-tuner.vala.page:254 C/image-viewer.c.page:223 C/image-viewer.cpp.page:211
@@ -11755,7 +11921,7 @@ msgstr ""
 #: C/image-viewer.py.page:230 C/image-viewer.vala.page:288 C/magic-mirror.vala.page:150 C/photo-wall.c.page:400
 #: C/record-collection.js.page:297
 msgid "Reference Implementation"
-msgstr ""
+msgstr "Referensimplementation"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:263
@@ -11763,20 +11929,22 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"guitar-tuner/guitar-tuner.c"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"guitar-tuner/guitar-tuner.c"
+"\">referenskod</link>."
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.c.page:267 C/guitar-tuner.cpp.page:274 C/guitar-tuner.py.page:245 C/guitar-tuner.vala.page:270
 #: C/image-viewer.c.page:233 C/image-viewer.cpp.page:221 C/image-viewer.js.page:321 C/image-viewer.py.page:235
 #: C/image-viewer.vala.page:293
 msgid "Next steps"
-msgstr ""
+msgstr "Nästa steg"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.c.page:268 C/guitar-tuner.cpp.page:275 C/guitar-tuner.py.page:246 C/guitar-tuner.vala.page:271
 #: C/image-viewer.c.page:234 C/image-viewer.cpp.page:222 C/image-viewer.js.page:322 C/image-viewer.py.page:236
 #: C/image-viewer.vala.page:294
 msgid "Here are some ideas for how you can extend this simple demonstration:"
-msgstr ""
+msgstr "Här är några idéer på hur du kan utöka denna enkla demonstration:"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.c.page:271 C/guitar-tuner.cpp.page:278 C/guitar-tuner.py.page:249 C/guitar-tuner.vala.page:274
@@ -11828,11 +11996,13 @@ msgid ""
 "Use GTKmm and GStreamermm to build a simple guitar tuner application for GNOME. Shows off how to use the interface "
 "designer."
 msgstr ""
+"Använd GTKmm och GStreamermm för att bygga ett enkelt gitarrstämmarprogram för GNOME. Visar hur "
+"gränssnittsdesignern används."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.cpp.page:39
 msgid "Basic knowledge of the C++ programming language"
-msgstr ""
+msgstr "Grundläggande kunskap i programmeringsspråket C++"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.cpp.page:53
@@ -11840,6 +12010,8 @@ msgid ""
 "Choose <gui>GTKmm (Simple)</gui> from the <gui>C++</gui> tab, click <gui>Forward</gui>, and fill out your details "
 "on the next few pages. Use <file>guitar-tuner</file> as project name and directory."
 msgstr ""
+"Välj <gui>GTKmm (enkel)</gui> från fliken <gui>C++</gui>, klicka på <gui>Framåt</gui>, och fyll i dina detaljer på "
+"de nästkommande sidorna. Använd <file>guitar-tuner</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.cpp.page:56
@@ -11863,6 +12035,9 @@ msgid ""
 "#include &lt;gtkmm.h&gt;\n"
 "#include &lt;iostream&gt;"
 msgstr ""
+"\n"
+"#include &lt;gtkmm.h&gt;\n"
+"#include &lt;iostream&gt;"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.cpp.page:70 C/image-viewer.cpp.page:67
@@ -11926,14 +12101,17 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.cpp.page:129
 msgid "Using GStreamermm"
-msgstr ""
+msgstr "Använda GStreamermm"
 
+# TODO:initialized
 #. (itstool) path: section/p
 #: C/guitar-tuner.cpp.page:130
 msgid ""
 "To use GStreamermm, it has to be initialised. We do that by adding the following line of code next to the "
 "<code>Gtk::Main kit(argc, argv);</code> line in <file>main.cc</file>:"
 msgstr ""
+"För att använda GStreamermm måste det initieras. Vi gör det genom att lägga till följande kodrad intill raden "
+"<code>Gtk::Main kit(argc, argv);</code> i <file>main.cc</file>:"
 
 #. (itstool) path: section/code
 #: C/guitar-tuner.cpp.page:132
@@ -12006,7 +12184,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/guitar-tuner.cpp.page:184
 msgid "The code has the following purpose:"
-msgstr ""
+msgstr "Koden har följande syfte:"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.cpp.page:187
@@ -12037,7 +12215,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.cpp.page:203
 msgid "Connecting the signals"
-msgstr ""
+msgstr "Ansluta signalerna"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.cpp.page:204
@@ -12139,6 +12317,8 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"guitar-tuner/guitar-tuner.cc"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"guitar-tuner/guitar-tuner."
+"cc\">referenskod</link>."
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.cpp.page:266
@@ -12158,13 +12338,14 @@ msgstr ""
 #: C/guitar-tuner.js.page:7
 msgctxt "text"
 msgid "Guitar tuner (JavaScript)"
-msgstr ""
+msgstr "Gitarrstämmare (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/guitar-tuner.js.page:17
 msgid "Use GTK+ and GStreamer to build a simple guitar tuner application for GNOME."
-msgstr ""
+msgstr "Använd GTK+ och GStreamer för att bygga ett enkelt gitarrstämmarprogram för GNOME."
 
+# TODO: GNOME 3 or higher
 #. (itstool) path: synopsis/p
 #: C/guitar-tuner.js.page:23
 msgid ""
@@ -12181,7 +12362,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/guitar-tuner.js.page:26 C/weatherAppMain.js.page:23
 msgid "<link xref=\"#script\">Script for running the application</link>"
-msgstr ""
+msgstr "<link xref=\"#script\">Skript för att köra programmet</link>"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.js.page:27 C/weatherAppMain.js.page:24
@@ -12201,32 +12382,33 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/guitar-tuner.js.page:30
 msgid "<link xref=\"#playSound\">Making the sounds with GStreamer</link>"
-msgstr ""
+msgstr "<link xref=\"#playSound\">Göra ljuden med GStreamer</link>"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.js.page:31
 msgid "<link xref=\"#connecting\">Connecting buttons to playSound</link>"
-msgstr ""
+msgstr "<link xref=\"#connecting\">Ansluta knappar till playSound</link>"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.js.page:32
 msgid "<link xref=\"#guitarjs\">The whole program</link>"
-msgstr ""
+msgstr "<link xref=\"#guitarjs\">Hela programmet</link>"
 
+# TODO: from Terminal
 #. (itstool) path: item/p
 #: C/guitar-tuner.js.page:33
 msgid "<link xref=\"#terminal\">Running the application form Terminal</link>"
-msgstr ""
+msgstr "<link xref=\"#terminal\">Köra programmet från Terminal</link>"
 
 #. (itstool) path: page/p
 #: C/guitar-tuner.js.page:36 C/weatherApp.js.page:40
 msgid "After reading this tutorial, you should see this in your screen:"
-msgstr ""
+msgstr "Efter att ha läst denna handledning bör du se detta på din skärm:"
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.js.page:48 C/hello-world.js.page:46 C/weatherAppMain.js.page:33
 msgid "Script for running the application"
-msgstr ""
+msgstr "Skript för att köra programmet"
 
 #. (itstool) path: section/code
 #: C/guitar-tuner.js.page:49 C/weatherAppMain.js.page:34
@@ -12349,7 +12531,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.js.page:103
 msgid "Making the sounds with GStreamer"
-msgstr ""
+msgstr "Göra ljuden med GStreamer"
 
 #. (itstool) path: section/code
 #: C/guitar-tuner.js.page:104
@@ -12397,7 +12579,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.js.page:127
 msgid "Connecting buttons to playSound"
-msgstr ""
+msgstr "Ansluta knappar till playSound"
 
 #. (itstool) path: section/code
 #: C/guitar-tuner.js.page:128
@@ -12423,6 +12605,25 @@ msgid ""
 "  playSound(frequencies.e);\n"
 "});"
 msgstr ""
+"\n"
+"E.connect(\"clicked\", function() {\n"
+"  playSound(frequencies.E);\n"
+"});\n"
+"A.connect(\"clicked\", function(){\n"
+"  playSound(frequencies.A);\n"
+"});\n"
+"D.connect(\"clicked\", function(){\n"
+"  playSound(frequencies.D);\n"
+"});\n"
+"G.connect(\"clicked\", function(){\n"
+"  playSound(frequencies.G);\n"
+"});\n"
+"B.connect(\"clicked\", function(){\n"
+"  playSound(frequencies.B);\n"
+"});\n"
+"e.connect(\"clicked\", function(){\n"
+"  playSound(frequencies.e);\n"
+"});"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.js.page:147
@@ -12437,7 +12638,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.js.page:157
 msgid "The whole program"
-msgstr ""
+msgstr "Hela programmet"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.js.page:158
@@ -12531,7 +12732,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.js.page:237
 msgid "Running the application form Terminal"
-msgstr ""
+msgstr "Köra programmet från Terminal"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.js.page:238
@@ -12550,17 +12751,19 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"guitar-tuner/guitar-tuner.js"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"guitar-tuner/guitar-tuner."
+"js\">referenskod</link>."
 
 #. (itstool) path: info/title
 #: C/guitar-tuner.py.page:8
 msgctxt "text"
 msgid "Guitar tuner (Python)"
-msgstr ""
+msgstr "Gitarrstämmare (Python)"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.py.page:46
 msgid "Basic knowledge of the Python programming language"
-msgstr ""
+msgstr "Grundläggande kunskap i programmeringsspråket Python"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.py.page:60
@@ -12568,6 +12771,8 @@ msgid ""
 "Choose <gui>PyGTK (automake)</gui> from the <gui>Python</gui> tab, click <gui>Continue</gui>, and fill out your "
 "details on the next few pages. Use <file>guitar-tuner</file> as project name and directory."
 msgstr ""
+"Välj <gui>PyGTK (automake)</gui> från fliken <gui>Python</gui>, klicka på <gui>Fortsätt</gui>, och fyll i dina "
+"detaljer på de nästkommande sidorna. Använd <file>guitar-tuner</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.py.page:63
@@ -12584,11 +12789,14 @@ msgid ""
 "from gi.repository import Gtk, GdkPixbuf, Gdk\n"
 "import os, sys"
 msgstr ""
+"\n"
+"from gi.repository import Gtk, GdkPixbuf, Gdk\n"
+"import os, sys"
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.py.page:72
 msgid "Run the code for the first time"
-msgstr ""
+msgstr "Kör koden för första gången"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.py.page:73
@@ -12642,7 +12850,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.py.page:127
 msgid "Write the signal handler"
-msgstr ""
+msgstr "Skriv signalhanteraren"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.py.page:129
@@ -12679,6 +12887,7 @@ msgstr ""
 msgid "from gi.repository import Gtk, Gst, GObject "
 msgstr ""
 
+# TODO:initialized
 #. (itstool) path: section/p
 #: C/guitar-tuner.py.page:155
 msgid ""
@@ -12850,7 +13059,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.py.page:235 C/image-viewer.js.page:311 C/image-viewer.py.page:225 C/record-collection.js.page:292
 msgid "Run the application"
-msgstr ""
+msgstr "Kör programmet"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.py.page:236
@@ -12865,6 +13074,8 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"guitar-tuner/guitar-tuner.py"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"guitar-tuner/guitar-tuner."
+"py\">referenskod</link>."
 
 #. (itstool) path: info/desc
 #: C/guitar-tuner.vala.page:10
@@ -12873,6 +13084,9 @@ msgid ""
 "developer.gnome.org/platform-overview/stable/gstreamer\">GStreamer</link> to build a simple guitar tuner "
 "application for GNOME. Shows off how to use the interface designer."
 msgstr ""
+"Använd <link href=\"http://developer.gnome.org/platform-overview/stable/gtk\">GTK+</link> och <link href=\"http://"
+"developer.gnome.org/platform-overview/stable/gstreamer\">GStreamer</link> för att bygga ett enkelt "
+"gitarrstämmarprogram för GNOME. Visar hur gränssnittsdesignern används."
 
 #. (itstool) path: synopsis/p
 #: C/guitar-tuner.vala.page:35
@@ -12897,21 +13111,24 @@ msgid ""
 "Use the <link href=\"http://developer.gnome.org/platform-overview/stable/gstreamer\">GStreamer</link> library to "
 "play sounds."
 msgstr ""
+"Använder <link href=\"http://developer.gnome.org/platform-overview/stable/gstreamer\">GStreamer</link>-biblioteket "
+"för att spela upp ljud."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.vala.page:43 C/image-viewer.vala.page:48
 msgid "Basic knowledge of the <link href=\"https://live.gnome.org/Vala/Tutorial\">Vala</link> programming language."
 msgstr ""
+"Grundläggande kunskap i programmeringsspråket <link href=\"https://live.gnome.org/Vala/Tutorial\">Vala</link>."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.vala.page:44 C/image-viewer.vala.page:49
 msgid "An installed copy of <app>Anjuta</app>."
-msgstr ""
+msgstr "En installerad kopia av <app>Anjuta</app>."
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.vala.page:51
 msgid "Create a project in <app>Anjuta</app>"
-msgstr ""
+msgstr "Skapa ett projekt i <app>Anjuta</app>"
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.vala.page:55 C/image-viewer.vala.page:63
@@ -12919,6 +13136,8 @@ msgid ""
 "Start <app>Anjuta</app> and click <gui>Create a new project</gui> or <guiseq><gui>File</gui><gui>New</"
 "gui><gui>Project</gui></guiseq> to open the project wizard."
 msgstr ""
+"Starta <app>Anjuta</app> och klicka på <gui>Skapa ett nytt projekt</gui> eller <guiseq><gui>Arkiv</gui><gui>Ny</"
+"gui><gui>Projekt</gui></guiseq> för att öppna projektguiden."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.vala.page:58
@@ -12926,6 +13145,8 @@ msgid ""
 "Click on the <gui>Vala</gui> tab and select <gui>GTK+ (Simple)</gui>. Click <gui>Continue</gui>, and fill out your "
 "details on the next few pages. Use <file>guitar-tuner</file> as project name and directory."
 msgstr ""
+"Klicka på fliken <gui>Vala</gui> och välj <gui>GTK+ (enkel)</gui>. Klicka på <gui>Fortsätt</gui> och fyll i dina "
+"detaljer på de nästkommande sidorna. Använd <file>guitar-tuner</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/guitar-tuner.vala.page:61
@@ -12951,6 +13172,9 @@ msgid ""
 "using GLib;\n"
 "using Gtk;"
 msgstr ""
+"\n"
+"using GLib;\n"
+"using Gtk;"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.vala.page:75
@@ -13236,7 +13460,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/guitar-tuner.vala.page:219
 msgid "Define the signal handler"
-msgstr ""
+msgstr "Definiera signalhanteraren"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.vala.page:220
@@ -13300,6 +13524,8 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"guitar-tuner/guitar-tuner.vala"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"guitar-tuner/guitar-tuner."
+"vala\">referenskod</link>."
 
 #. (itstool) path: section/title
 #: C/guitar-tuner.vala.page:264 C/magic-mirror.vala.page:157
@@ -13313,6 +13539,8 @@ msgid ""
 "gnome.org/Vala/Tutorial\">Vala Tutorial</link> and the <link href=\"http://valadoc.org/\">Vala API Documentation</"
 "link>"
 msgstr ""
+"För att lära dig mer om programmeringsspråket Vala kan du vilja ta en titt på <link href=\"http://live.gnome.org/"
+"Vala/Tutorial\">Vala-handledningen</link> och <link href=\"http://valadoc.org/\">Valas API-dokumentation</link>"
 
 #. (itstool) path: info/desc
 #: C/hellognome.js.page:17
@@ -13608,7 +13836,7 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application();\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktioner\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
@@ -13645,9 +13873,9 @@ msgid ""
 msgstr ""
 "Vad betyder det här? Tja, allt i ett GNOME-program skickar ut en signal då något viktigt händer. En knapp kan "
 "exempelvis skicka ut signalen ”clicked” när du klickar på den. Vårt jobb är att ansluta signalerna till funktioner "
-"som hanterar dem, och får de saker som vill ska hända att inträffa. Vi gör detta genom att använda varje objekts "
-"”connect”-metod, vilken tar två argument: signalen som vi vill hantera, och den bundna funktionen, vilken vi måste "
-"använda för att säga till ”connect” vilken funktion vi vill ska hantera signalen."
+"som hanterar dem, och får de saker som vi vill ska hända att inträffa. Vi gör detta genom att använda varje "
+"objekts ”connect”-metod, vilken tar två argument: signalen som vi vill hantera, och den bundna funktionen, vilken "
+"vi måste använda för att säga till ”connect” vilken funktion vi vill ska hantera signalen."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:125
@@ -13726,7 +13954,7 @@ msgstr ""
 "Det första objektet vi skapar är ett ApplicationWindow. Det behöver en titel till namnlisten, och dess "
 "”application”-egenskap måste vara programmet vi skapade ovan. Bortom det så finns det olika sätt att anpassa hur "
 "det ser ut, vilket referenssidan <link xref=\"GtkApplicationWindow.js\">ApplicationWindow</link> kommer gå in på "
-"mer detaljerat. Som du kan se här så gav vi den en standardbredd och standardhöjd (mätt i bildpunkter), och sa "
+"mer detaljerat. Som du kan se här så gav vi det en standardbredd och standardhöjd (mätt i bildpunkter), och sa "
 "till GNOME att vi vill att vårt fönster ska dyka upp i mitten på skärmen."
 
 #. (itstool) path: section/code
@@ -13757,7 +13985,7 @@ msgid ""
 "URI that we want it to load when the application starts up."
 msgstr ""
 "Kommer du ihåg hur vi importerade Webkit i början? Här skapar vi en ny instans av en Webkit-klass som kallas en "
-"WebView, vilket mer eller mindre är ett webbläsarfönster som du kan stoppa i ditt program. Efter det ger vi den "
+"WebView, vilken mer eller mindre är ett webbläsarfönster som du kan stoppa i ditt program. Efter det ger vi den "
 "URI:n som vi vill att den ska läsa in när programmet startar."
 
 #. (itstool) path: section/p
@@ -13769,6 +13997,11 @@ msgid ""
 "path and filename into a URI that the WebView's load_uri function understands. (filename_to_uri's second parameter "
 "should be null unless you know what it's used for and have a reason for changing it.)"
 msgstr ""
+"Vi <em>skulle kunna</em> bara ge den en webb-URI, som <link href=\"http://gnome.org\">http://gnome.org</link>. "
+"Istället använder vi några GLib-hjälpfunktioner för att säga till vår WebView var vår fil <file>hellognome.html</"
+"file> är. GLib.get_current_dir returnerar katalogen som vårt program körs i, och GLib.filename_to_uri omvandlar "
+"vår fils sökväg och filnamn till en URI som vår WebViews load_uri-funktion förstår. (Den andra parametern för "
+"filename_to_uri ska vara null om du inte vet vad den används för och har en anledning att ändra den.)"
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:157
@@ -13796,12 +14029,17 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:167
+#, fuzzy
 msgid ""
 "Each window can hold one, and only one, widget. Normally, we'd use a container widget like a <link xref=\"grid.js"
 "\">Grid</link> to put multiple widgets into, then use the window's add function to add the Grid to it. Here, we "
 "just need the WebView, so that's all we add to the window. After that, as the last part of the _buildUI function "
 "that creates our window, we tell the window to show itself and its contents."
 msgstr ""
+"Varje fönster kan hålla en, och endast en, komponent. Vanligen skulle vi använda en behållarkomponent som en <link "
+"xref=\"grid.js\">Grid</link> att stoppa flera komponenter i, och sedan fönstrets add-funktion för att lägga till "
+"denna Grid till det. Här behöver vi bara en WebView, så det är allt vi lägger till i fönstret. Efter det, som "
+"sista del av _buildUI-funktionen som skapar vårt fönster, säger vi till fönstret att visa sig och sitt innehåll."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:168
@@ -13829,6 +14067,7 @@ msgstr "Köra ditt GNOME-program"
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:179
+#, fuzzy
 msgid ""
 "Now that we've created our first GNOME application, it's time to test it out! You don't need to compile your app "
 "or install any special software for this; GNOME has gjs built in, to let it run GNOME Shell. Just save "
@@ -13836,6 +14075,11 @@ msgid ""
 "with the terminal. (They usually open onto your home directory, the one that's called by your username.) After "
 "that, open a terminal, go there, and type:"
 msgstr ""
+"Nu då vi skapat vårt första GNOME-program så är det dags att testa det! Du behöver inte kompilera ditt program "
+"eller installera någon speciell programvara för detta, GNOME har gjs inbyggt för att låta det köra GNOME-skalet. "
+"Spara bara <file>hellognome.html</file> och vårt faktiska program, <file>hellognome.js</file>, till en katalog som "
+"du kan komma åt med terminalen. (De öppnas vanligen till din hemkatalog, den som namngivits av ditt användarnamn.) "
+"Öppna efter det en terminal, gå dit, och skriv:"
 
 #. (itstool) path: section/screen
 #: C/hellognome.js.page:180
@@ -13865,12 +14109,17 @@ msgstr " <output style=\"prompt\">$ </output>cd <var>(katalognamn)</var> "
 
 #. (itstool) path: note/p
 #: C/hellognome.js.page:186
+#, fuzzy
 msgid ""
 "to navigate between directories inside the Terminal, in order to get to where you saved the files. There is also "
 "an extension for Nautilus, GNOME's file manager, which lets you right-click anywhere inside it to open a terminal "
 "window right there. Check the app you use to install new software (like Add/Remove Programs or the Software "
 "Center) for it."
 msgstr ""
+"för att navigera mellan kataloger i terminalen, för att komma dit du sparade filerna. Det finns också ett tillägg "
+"för GNOME:s filhanterare Nautilus som låter dig högerklicka var som helst i den för att öppna ett terminalfönster "
+"där. Se programmet som du använder för att installera ny programvara (som ”Lägg till/ta bort program” eller "
+"Programcentral) för det."
 
 #. (itstool) path: section/p
 #: C/hellognome.js.page:193
@@ -13893,6 +14142,10 @@ msgid ""
 "you'd like to see how to create a .desktop file for your application, which will let it appear in your desktop's "
 "Activities menu with all your other apps."
 msgstr ""
+"Slutligen, om du bara vill bygga GNOME-program med Javascript-bibliotek som designats för webben så kan du "
+"praktiskt taget sluta här och gå och göra det! Ta en titt på <link xref=\"beginner.js#tutorials\">de senare "
+"handledningarna</link> om du vill se hur du kan skapa en .desktop-fil för ditt program, vilken låter det dyka upp "
+"i ditt skrivbords aktivitetsmeny med alla dina andra program."
 
 #. (itstool) path: section/code
 #: C/hellognome.js.page:199
@@ -13974,7 +14227,7 @@ msgstr ""
 "    constructor() {\n"
 "        this.application = new Gtk.Application ();\n"
 "\n"
-"        // Anslut ”activate”- och ”startup”-signalerna till återanropsfunktionerna\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
 "        this.application.connect('activate', this._onActivate.bind(this));\n"
 "        this.application.connect('startup', this._onStartup.bind(this));\n"
 "    }\n"
@@ -13989,10 +14242,10 @@ msgstr ""
 "        this._buildUI();\n"
 "    }\n"
 "\n"
-"    // Build the application's UI\n"
+"    // Bygg programmets användargränssnitt\n"
 "    _buildUI() {\n"
 "\n"
-"        // Create the application window\n"
+"        // Skapa programfönstret\n"
 "        this._window = new Gtk.ApplicationWindow  ({\n"
 "            application: this.application,\n"
 "            title: \"Välkommen till GNOME\",\n"
@@ -14296,7 +14549,7 @@ msgstr ""
 "\n"
 "    //hanterare för ”activate”-signal\n"
 "    _onActivate: function() {\n"
-"        //show the window and all child widgets\n"
+"        //visa fönstret och alla barnkomponenter\n"
 "        this._window.show_all();\n"
 "    },\n"
 "\n"
@@ -14322,7 +14575,7 @@ msgid ""
 "it a new Gtk.ApplicationWindow."
 msgstr ""
 "Vi kan börja med att bygga vårt första fönster. Vi gör detta genom att skapa en variabel med namnet <var>_window</"
-"var> och tilldela den ett Gtk.ApplicationWindow."
+"var> och tilldela den ett nytt Gtk.ApplicationWindow."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:96 C/hello-world.py.page:73
@@ -14481,7 +14734,7 @@ msgstr ""
 "\n"
 "    //hanterare för ”activate”-signal\n"
 "    _onActivate() {\n"
-"        //show the window and all child widgets\n"
+"        //visa fönstret och alla barnkomponenter\n"
 "        this._window.show_all();\n"
 "    }\n"
 "\n"
@@ -14507,7 +14760,7 @@ msgid ""
 "application is stored and run:"
 msgstr ""
 "För att köra detta program, spara det först som hello-world.js. Öppna sedan Terminal, gå till mappen där ditt "
-"program lagras och kör:"
+"program lagrats och kör:"
 
 #. (itstool) path: section/screen
 #: C/hello-world.js.page:123
@@ -14932,7 +15185,7 @@ msgid ""
 msgstr ""
 "class MyWindow(Gtk.ApplicationWindow):\n"
 "\n"
-"    # constructor for a Gtk.ApplicationWindow\n"
+"    # konstruktor för ett Gtk.ApplicationWindow\n"
 "    def __init__(self, app):\n"
 "        Gtk.Window.__init__(self, title=\"Hej världen!\", application=app)\n"
 "        self.set_default_size(200, 100)\n"
@@ -15068,7 +15321,7 @@ msgstr ""
 "\n"
 "\n"
 "class MyWindow(Gtk.ApplicationWindow):\n"
-"    # constructor for a Gtk.ApplicationWindow\n"
+"    # konstruktor för ett Gtk.ApplicationWindow\n"
 "\n"
 "    def __init__(self, app):\n"
 "        Gtk.Window.__init__(self, title=\"Välkommen till GNOME\", application=app)\n"
@@ -15105,7 +15358,7 @@ msgid ""
 "application is stored and run:"
 msgstr ""
 "För att köra detta program, spara det först som hello-world.py. Öppna sedan Terminal, gå till mappen där ditt "
-"program lagras och kör:"
+"program lagrats och kör:"
 
 #. (itstool) path: section/screen
 #: C/hello-world.py.page:108
@@ -15347,7 +15600,7 @@ msgid ""
 "application is stored."
 msgstr ""
 "För att köra detta program, spara det först som hello-world.vala. Öppna sedan Terminal och gå till mappen där ditt "
-"program lagras."
+"program lagrats."
 
 #. (itstool) path: section/p
 #: C/hello-world.vala.page:82
@@ -15544,6 +15797,8 @@ msgid ""
 "If the image file isn't loaded successfully, the image will contain a \"broken image\" icon. The <file>filename."
 "png</file> needs to be in the current directory for this code to work. Use your favorite picture!"
 msgstr ""
+"Om bildfilen inte lästes in korrekt kommer bilden innehålla en ”trasig bild”-ikon. <file>filnamn.png</file> "
+"behöver vara i aktuell katalog för att denna kod ska fungera. Använd din favoritbild!"
 
 #. (itstool) path: page/code
 #: C/image.c.page:28
@@ -15587,6 +15842,43 @@ msgid ""
 "  return status;\n"
 "}\n"
 msgstr ""
+"#include &lt;gtk/gtk.h&gt;\n"
+"\n"
+"\n"
+"\n"
+"static void\n"
+"activate (GtkApplication *app,\n"
+"          gpointer        user_data)\n"
+"{\n"
+"  GtkWidget *window;\n"
+"  GtkWidget *image;\n"
+"\n"
+"  /*Skapa ett fönster med en titel och en standardstorlek*/\n"
+"  window = gtk_application_window_new (app);\n"
+"  gtk_window_set_title (GTK_WINDOW (window), \"Välkommen till GNOME\");\n"
+"  gtk_window_set_default_size (GTK_WINDOW (window), 300, 300);\n"
+"\n"
+"  image = gtk_image_new_from_file (\"gnome-image.png\");\n"
+"\n"
+"  gtk_container_add (GTK_CONTAINER (window), GTK_WIDGET (image));\n"
+"\n"
+"  gtk_widget_show_all (GTK_WIDGET (window));\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"int\n"
+"main (int argc, char **argv)\n"
+"{\n"
+"  GtkApplication *app;\n"
+"  int status;\n"
+"\n"
+"  app = gtk_application_new (\"org.gtk.example\",G_APPLICATION_FLAGS_NONE);\n"
+"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+"  g_object_unref (app);\n"
+"  return status;\n"
+"}\n"
 
 #. (itstool) path: item/p
 #: C/image.c.page:35
@@ -15689,6 +15981,8 @@ msgid ""
 "If the image file is not loaded successfully, the image will contain a \"broken image\" icon. <file>filename.png</"
 "file> needs to be in the current directory for this code to work."
 msgstr ""
+"Om bildfilen inte lästes in korrekt kommer bilden innehålla en ”trasig bild”-ikon. <file>filnamn.png</file> "
+"behöver vara i aktuell katalog för att denna kod ska fungera."
 
 #. (itstool) path: section/code
 #: C/image.py.page:43
@@ -15781,7 +16075,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image.py.page:85
 msgid "Useful methods for an Image widget"
-msgstr ""
+msgstr "Användbara metoder för en Image-komponent"
 
 #. (itstool) path: item/p
 #: C/image.py.page:89
@@ -15877,6 +16171,30 @@ msgid ""
 "\treturn new MyApplication ().run (args);\n"
 "}\n"
 msgstr ""
+"public class MyWindow : Gtk.ApplicationWindow {\n"
+"\tinternal MyWindow (MyApplication app) {\n"
+"\t\tObject (application: app, title: \"Välkommen till GNOME\");\n"
+"\n"
+"\t\tvar image = new Gtk.Image ();\n"
+"\t\timage.set_from_file (\"gnome-image.png\");\n"
+"\t\tthis.add (image);\n"
+"\t\tthis.set_default_size (300, 300);\n"
+"\t}\n"
+"}\n"
+"\n"
+"public class MyApplication : Gtk.Application {\n"
+"\tprotected override void activate () {\n"
+"\t\tnew MyWindow (this).show_all ();\n"
+"\t}\n"
+"\n"
+"\tinternal MyApplication () {\n"
+"\t\tObject (application_id: \"org.example.MyApplication\");\n"
+"\t}\n"
+"}\n"
+"\n"
+"public int main (string[] args) {\n"
+"\treturn new MyApplication ().run (args);\n"
+"}\n"
 
 #. (itstool) path: item/p
 #: C/image.vala.page:32 C/separator.vala.page:40
@@ -15897,33 +16215,33 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Image.html\">GtkImage</
 #: C/image-viewer.c.page:8
 msgctxt "text"
 msgid "Image viewer (C)"
-msgstr ""
+msgstr "Bildvisare (C)"
 
 #. (itstool) path: info/desc
 #: C/image-viewer.c.page:11
 msgid "A little bit more than a simple \"Hello world\" Gtk application."
-msgstr ""
+msgstr "Lite mer än ett enkelt ”Hej världen”-program i Gtk."
 
 #. (itstool) path: page/title
 #: C/image-viewer.c.page:29 C/image-viewer.cpp.page:27 C/image-viewer.js.page:29 C/image-viewer.py.page:29
 #: C/image-viewer.vala.page:37
 msgid "Image viewer"
-msgstr ""
+msgstr "Bildvisare"
 
 #. (itstool) path: synopsis/p
 #: C/image-viewer.c.page:32 C/image-viewer.cpp.page:30 C/message-board.c.page:29 C/record-collection.js.page:32
 msgid "In this tutorial, you will learn:"
-msgstr ""
+msgstr "I denna handledning kommer du lära dig:"
 
 #. (itstool) path: item/p
 #: C/image-viewer.c.page:34
 msgid "Some basic concepts of C/GObject programming"
-msgstr ""
+msgstr "Några grundläggande koncept i C/GObject-programmering"
 
 #. (itstool) path: item/p
 #: C/image-viewer.c.page:35
 msgid "How to write a Gtk application in C"
-msgstr ""
+msgstr "Hur du skriver ett Gtk-program i C"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -15942,6 +16260,8 @@ msgid ""
 "Choose <gui>GTK+ (Simple)</gui> from the <gui>C</gui> tab, click <gui>Continue</gui>, and fill out your details on "
 "the next few pages. Use <file>image-viewer</file> as project name and directory."
 msgstr ""
+"Välj <gui>GTK+ (enkel)</gui> från fliken <gui>C</gui>, klicka på <gui>Fortsätt</gui>, och fyll i dina detaljer på "
+"de nästkommande sidorna. Använd <file>image-viewer</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/image-viewer.c.page:52
@@ -15969,7 +16289,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image-viewer.c.page:90 C/image-viewer.cpp.page:87 C/image-viewer.vala.page:139
 msgid "Creating the user interface"
-msgstr ""
+msgstr "Skapa användargränssnittet"
 
 #. (itstool) path: section/p
 #: C/image-viewer.c.page:91
@@ -16059,7 +16379,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image-viewer.c.page:155 C/image-viewer.cpp.page:142 C/image-viewer.vala.page:210
 msgid "Showing the image"
-msgstr ""
+msgstr "Visa bilden"
 
 #. (itstool) path: section/p
 #: C/image-viewer.c.page:156
@@ -16181,6 +16501,8 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"image-viewer/image-viewer.c"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"image-viewer/image-viewer.c"
+"\">referenskod</link>."
 
 #. (itstool) path: item/p
 #: C/image-viewer.c.page:237 C/image-viewer.cpp.page:225 C/image-viewer.js.page:325 C/image-viewer.py.page:239
@@ -16221,17 +16543,17 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/image-viewer.cpp.page:9
 msgid "A little bit more than a simple \"Hello world\" GTKmm application."
-msgstr ""
+msgstr "Lite mer än ett enkelt ”Hej världen”-program med GTKmm."
 
 #. (itstool) path: item/p
 #: C/image-viewer.cpp.page:32
 msgid "Some basic concepts of C++/GObject programming"
-msgstr ""
+msgstr "Några grundläggande koncept i C++/GObject-programmering"
 
 #. (itstool) path: item/p
 #: C/image-viewer.cpp.page:33
 msgid "How to write a Gtk application in C++"
-msgstr ""
+msgstr "Hur du skriver ett Gtk-program i C++"
 
 #. (itstool) path: item/p
 #: C/image-viewer.cpp.page:47
@@ -16239,6 +16561,8 @@ msgid ""
 "Choose <gui>GTKmm (Simple)</gui> from the <gui>C++</gui> tab, click <gui>Forward</gui>, and fill out your details "
 "on the next few pages. Use <file>image-viewer</file> as project name and directory."
 msgstr ""
+"Välj <gui>GTKmm (enkel)</gui> från fliken <gui>C++</gui>, klicka på <gui>Framåt</gui>, och fyll i dina detaljer på "
+"de nästkommande sidorna. Använd <file>image-viewer</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/image-viewer.cpp.page:50
@@ -16265,6 +16589,11 @@ msgid ""
 "\n"
 "#include \"config.h\"&gt;"
 msgstr ""
+"\n"
+"#include &lt;gtkmm.h&gt;\n"
+"#include &lt;iostream&gt;\n"
+"\n"
+"#include \"config.h\"&gt;"
 
 #. (itstool) path: item/p
 #: C/image-viewer.cpp.page:70
@@ -16327,6 +16656,33 @@ msgid ""
 "\treturn 0;\n"
 "}\n"
 msgstr ""
+"\n"
+"int\n"
+"main (int argc, char *argv[])\n"
+"{\n"
+"\tGtk::Main kit(argc, argv);\n"
+"\n"
+"\tGtk::Window main_win;\n"
+"\tmain_win.set_title (\"image-viewer-cpp\");\n"
+"\n"
+"\tGtk::Box* box = Gtk::manage(new Gtk::Box());\n"
+"\tbox-&gt;set_orientation (Gtk::ORIENTATION_VERTICAL);\n"
+"\tbox-&gt;set_spacing(6);\n"
+"\tmain_win.add(*box);\n"
+"\n"
+"\timage = Gtk::manage(new Gtk::Image());\n"
+"\tbox-&gt;pack_start (*image, true, true);\n"
+"\n"
+"\tGtk::Button* button = Gtk::manage(new Gtk::Button(\"Öppna bild…\"));\n"
+"\tbutton-&gt;signal_clicked().connect (\n"
+"\t\tsigc::ptr_fun(&amp;on_open_image));\n"
+"\tbox-&gt;pack_start (*button, false, false);\n"
+"\n"
+"\tmain_win.show_all_children();\n"
+"\tkit.run(main_win);\n"
+"\n"
+"\treturn 0;\n"
+"}\n"
 
 #. (itstool) path: item/p
 #: C/image-viewer.cpp.page:121
@@ -16468,12 +16824,14 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"image-viewer/image-viewer.cc"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"image-viewer/image-viewer."
+"cc\">referenskod</link>."
 
 #. (itstool) path: info/title
 #: C/image-viewer.js.page:8
 msgctxt "text"
 msgid "Image viewer (JavaScript)"
-msgstr ""
+msgstr "Bildvisare (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/image-viewer.js.page:11
@@ -16481,6 +16839,8 @@ msgid ""
 "A little bit more than a simple \"Hello world\" application - write an image viewer in GTK+. Includes an "
 "introduction to the JavaScript language."
 msgstr ""
+"Lite mer än ett enkelt ”Hej världen”-program - skriv en bildvisare i GTK+. Inkluderar en introduktion till språket "
+"Javascript."
 
 #. (itstool) path: credit/name
 #: C/image-viewer.js.page:15 C/image-viewer.py.page:15
@@ -16493,11 +16853,13 @@ msgid ""
 "In this tutorial, we're going to write a very simple GTK application that loads and displays an image file. You "
 "will learn how to:"
 msgstr ""
+"I denna handledning kommer vi skriva ett väldigt enkelt GTK-program som läser in och visar en bildfil. Du kommer "
+"lära dig hur du:"
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:34
 msgid "Write a basic GTK user interface in JavaScript"
-msgstr ""
+msgstr "Skriver ett enkelt GTK-användargränssnitt i Javascript"
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:35 C/image-viewer.py.page:35
@@ -16512,17 +16874,18 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:37 C/image-viewer.py.page:37
 msgid "Load and display image files"
-msgstr ""
+msgstr "Läser in och visar bildfiler"
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:42
+#, fuzzy
 msgid "An installed copy of the <em>gjs</em> interpreter"
-msgstr ""
+msgstr "En installerad kopia av <em>gjs</em>-tolken"
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:43
 msgid "Basic knowledge of any object-orientated programming language"
-msgstr ""
+msgstr "Grundläggande kunskap i något objektorienterat programmeringsspråk"
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:57
@@ -16530,6 +16893,8 @@ msgid ""
 "Choose <gui>Generic Javascript</gui> from the <gui>JS</gui> tab, click <gui>Forward</gui>, and fill out your "
 "details on the next few pages. Use <file>image-viewer</file> as project name and directory."
 msgstr ""
+"Välj <gui>Allmän Javascript</gui> från fliken <gui>JS</gui>, klicka på <gui>Framåt</gui>, och fyll i dina detaljer "
+"på de nästkommande sidorna. Använd <file>image-viewer</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:60
@@ -16541,7 +16906,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image-viewer.js.page:67
 msgid "JavaScript basics: Hello World"
-msgstr ""
+msgstr "Javascript-grunder: Hej världen"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:68
@@ -16555,7 +16920,7 @@ msgstr ""
 #: C/image-viewer.js.page:69
 #, no-wrap
 msgid "print (\"Hello world!\");"
-msgstr ""
+msgstr "print (\"Hej världen!\");"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:70
@@ -16568,12 +16933,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image-viewer.js.page:74
 msgid "Classes in JavaScript"
-msgstr ""
+msgstr "Klasser i Javascript"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:75
 msgid "This is the standard way to define a class in JavaScript:"
-msgstr ""
+msgstr "Detta är standardsättet att definiera en klass i Javascript:"
 
 #. (itstool) path: section/code
 #: C/image-viewer.js.page:76
@@ -16606,7 +16971,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:98
 msgid "This defines a class called <code>MyClass</code>. Let's go through each part of the class definition:"
-msgstr ""
+msgstr "Detta definierar en klass med namnet <code>MyClass</code>. Låt oss gå igenom varje del av klassdefinitionen:"
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:101
@@ -16628,12 +16993,14 @@ msgstr ""
 msgid ""
 "The first method defined here is called <code>_init</code>, and we specify that it is a function with no arguments:"
 msgstr ""
+"Den första metoden som definieras här kallas <code>_init</code>, och vi anger att det är en funktion utan några "
+"argument:"
 
 #. (itstool) path: item/code
 #: C/image-viewer.js.page:108
 #, no-wrap
 msgid "_init: function ()"
-msgstr ""
+msgstr "_init: function ()"
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:109
@@ -16659,7 +17026,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:119
 msgid "Now that MyClass has been defined, we can play with it:"
-msgstr ""
+msgstr "Nu då MyClass har definierats så kan vi leka med den:"
 
 #. (itstool) path: section/code
 #: C/image-viewer.js.page:120
@@ -16690,12 +17057,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image-viewer.js.page:131 C/image-viewer.py.page:70
 msgid "A first Gtk application"
-msgstr ""
+msgstr "Ett första Gtk-program"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:132
 msgid "Let's see what a very basic Gtk application looks like in JavaScript:"
-msgstr ""
+msgstr "Låt oss se hur ett väldigt enkelt Gtk-program ser ut i Javascript:"
 
 #. (itstool) path: section/code
 #: C/image-viewer.js.page:133
@@ -16711,11 +17078,20 @@ msgid ""
 "\n"
 "Gtk.main ();"
 msgstr ""
+"\n"
+"const Gtk = imports.gi.Gtk;\n"
+"\n"
+"Gtk.init (null, null);\n"
+"\n"
+"var w = new Gtk.Window ({title: \"Bildvisardemonstration\"});\n"
+"w.show ();\n"
+"\n"
+"Gtk.main ();"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:142 C/image-viewer.py.page:95
 msgid "Let's take a look at what's happening:"
-msgstr ""
+msgstr "Låt oss ta en titt på vad som händer:"
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:145 C/image-viewer.py.page:98
@@ -16740,7 +17116,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:152
 msgid "The next line explicitly shows the window. In Gtk, every widget is hidden by default."
-msgstr ""
+msgstr "Nästa rad visar explicit fönstret. I Gtk är varje komponent dold som standard."
 
 #. (itstool) path: item/p
 #: C/image-viewer.js.page:153
@@ -16762,7 +17138,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image-viewer.js.page:161
 msgid "Adding classes"
-msgstr ""
+msgstr "Lägga till klasser"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:162
@@ -16810,7 +17186,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image-viewer.js.page:186 C/image-viewer.py.page:119
 msgid "Signals"
-msgstr ""
+msgstr "Signaler"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:187 C/image-viewer.py.page:120
@@ -16877,7 +17253,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/image-viewer.js.page:209
 msgid "Closing the window"
-msgstr ""
+msgstr "Stänga fönstret"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:210
@@ -17114,7 +17490,7 @@ msgstr ""
 #: C/image-viewer.js.page:258
 #, no-wrap
 msgid "const Lang = imports.lang;"
-msgstr ""
+msgstr "const Lang = imports.lang;"
 
 #. (itstool) path: section/title
 #: C/image-viewer.js.page:262 C/image-viewer.py.page:180
@@ -17214,6 +17590,8 @@ msgid ""
 "All of the code you need should now be in place, so try running the code. That should be it; a fully-functioning "
 "image viewer (and a whistlestop tour of JavaScript and Gtk) in not much time at all!"
 msgstr ""
+"All kod som du behöver bör nu vara på plats, så testa att köra koden. Det var det, en fullt fungerande bildvisare "
+"(och en snabb rundtur av Javascript och Gtk) på inte mycket tid alls!"
 
 #. (itstool) path: section/p
 #: C/image-viewer.js.page:317
@@ -17221,27 +17599,29 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"image-viewer/image-viewer.js"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"image-viewer/image-viewer."
+"js\">referenskod</link>."
 
 #. (itstool) path: info/title
 #: C/image-viewer.py.page:8
 msgctxt "text"
 msgid "Image viewer (Python)"
-msgstr ""
+msgstr "Bildvisare (Python)"
 
 #. (itstool) path: info/desc
 #: C/image-viewer.py.page:11
 msgid "A little bit more than a simple \"Hello world\" application - write an image viewer in GTK."
-msgstr ""
+msgstr "Lite mer än ett enkelt ”Hej världen”-program - skriv en bildvisare i GTK."
 
 #. (itstool) path: item/p
 #: C/image-viewer.py.page:34
 msgid "Write a basic GTK user interface in Python"
-msgstr ""
+msgstr "Skriver ett enkelt GTK-användargränssnitt i Python"
 
 #. (itstool) path: item/p
 #: C/image-viewer.py.page:42
 msgid "Basic knowledge of the python programming language"
-msgstr ""
+msgstr "Grundläggande kunskap i programmeringsspråket Python"
 
 #. (itstool) path: item/p
 #: C/image-viewer.py.page:56
@@ -17249,6 +17629,8 @@ msgid ""
 "Choose <gui>PyGTK (automake)</gui> from the <gui>Python</gui> tab, click <gui>Continue</gui>, and fill out your "
 "details on the next few pages. Use <file>image-viewer</file> as project name and directory."
 msgstr ""
+"Välj <gui>PyGTK (automake)</gui> från fliken <gui>Python</gui>, klicka på <gui>Fortsätt</gui>, och fyll i dina "
+"detaljer på de nästkommande sidorna. Använd <file>guitar-tuner</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/image-viewer.py.page:59
@@ -17501,6 +17883,8 @@ msgid ""
 "All of the code you need should now be in place, so try running the code. That should be it; a fully-functioning "
 "image viewer (and a whistlestop tour of Python and Gtk) in not much time at all!"
 msgstr ""
+"All kod som du behöver bör nu vara på plats, så testa att köra koden. Det var det, en fullt fungerande bildvisare "
+"(och en snabb rundtur av Python och Gtk) på inte mycket tid alls!"
 
 #. (itstool) path: section/p
 #: C/image-viewer.py.page:231
@@ -17508,17 +17892,19 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"image-viewer/image-viewer.py"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"image-viewer/image-viewer."
+"py\">referenskod</link>."
 
 #. (itstool) path: info/title
 #: C/image-viewer.vala.page:8
 msgctxt "text"
 msgid "Image viewer (Vala)"
-msgstr ""
+msgstr "Bildvisare (Vala)"
 
 #. (itstool) path: info/desc
 #: C/image-viewer.vala.page:11
 msgid "A little bit more than a simple \"Hello world\" GTK+ application."
-msgstr ""
+msgstr "Lite mer än ett enkelt ”Hej världen”-program i GTK+."
 
 #. (itstool) path: credit/name
 #: C/image-viewer.vala.page:23
@@ -17560,6 +17946,8 @@ msgid ""
 "From the <gui>Vala</gui> tab choose <gui>GTK+ (Simple)</gui>, click <gui>Continue</gui>, and fill out your details "
 "on the next page. Use <file>image-viewer</file> as project name and directory."
 msgstr ""
+"Välj <gui>GTK+ (enkel)</gui> från fliken <gui>Vala</gui>, klicka på <gui>Fortsätt</gui>, och fyll i dina detaljer "
+"på de nästkommande sidorna. Använd <file>image-viewer</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/image-viewer.vala.page:70
@@ -17916,6 +18304,8 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"image-viewer/image-viewer.vala"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"image-viewer/image-viewer."
+"vala\">referenskod</link>."
 
 #. (itstool) path: item/p
 #: C/image-viewer.vala.page:296
@@ -17926,7 +18316,7 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/index.page:8
 msgid "GNOME Documentation Team"
-msgstr ""
+msgstr "GNOME:s dokumentationsgrupp"
 
 #. (itstool) path: credit/years
 #: C/index.page:10
@@ -18000,7 +18390,7 @@ msgstr "Label (C)"
 #. (itstool) path: info/desc
 #: C/label.c.page:19 C/label.vala.page:18
 msgid "A widget which displays text"
-msgstr ""
+msgstr "En komponent som visar text"
 
 #. (itstool) path: page/title
 #. (itstool) path: td/p
@@ -18024,7 +18414,7 @@ msgstr "external ref='media/label.png' md5='734975c18653d88379f983e4501c3fc0'"
 #. (itstool) path: page/p
 #: C/label.c.page:27 C/label.py.page:32 C/label.vala.page:23
 msgid "A simple label"
-msgstr ""
+msgstr "En enkel etikett"
 
 #. (itstool) path: page/code
 #: C/label.c.page:32
@@ -18078,7 +18468,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/label.c.page:39
 msgid "<link href=\"http://developer.gnome.org/gtk3/3.4/GtkLabel.html\">GtkLabel</link>"
-msgstr ""
+msgstr "<link href=\"http://developer.gnome.org/gtk3/3.4/GtkLabel.html\">GtkLabel</link>"
 
 #. (itstool) path: info/title
 #: C/label.js.page:8
@@ -18089,7 +18479,7 @@ msgstr "Label (Javascript)"
 #. (itstool) path: info/desc
 #: C/label.js.page:18
 msgid "A label which can contain text"
-msgstr ""
+msgstr "En etikett som kan innehålla text"
 
 #. (itstool) path: page/p
 #: C/label.js.page:23
@@ -18231,7 +18621,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/label.py.page:82
 msgid "Useful methods for a Label widget"
-msgstr ""
+msgstr "Användbara metoder för en Label-komponent"
 
 #. (itstool) path: note/p
 #: C/label.py.page:85
@@ -18307,6 +18697,32 @@ msgid ""
 "\treturn new MyApplication ().run (args);\n"
 "}\n"
 msgstr ""
+"\n"
+"public class MyWindow : Gtk.ApplicationWindow {\n"
+"\tinternal MyWindow (MyApplication app) {\n"
+"\t\tObject (application: app, title: \"Välkommen till GNOME\");\n"
+"\n"
+"\t\tvar label = new Gtk.Label (\"Hej GNOME!\");\n"
+"\n"
+"\t\tthis.add (label);\n"
+"\t\tthis.set_default_size (200, 100);\n"
+"\t\tthis.show_all ();\n"
+"\t}\n"
+"}\n"
+"\n"
+"public class MyApplication : Gtk.Application {\n"
+"\tprotected override void activate () {\n"
+"\t\tnew MyWindow (this).show ();\n"
+"\t}\n"
+"\n"
+"\tinternal MyApplication () {\n"
+"\t\tObject (application_id: \"org.example.MyApplication\");\n"
+"\t}\n"
+"}\n"
+"\n"
+"public int main (string[] args) {\n"
+"\treturn new MyApplication ().run (args);\n"
+"}\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:3
@@ -18426,7 +18842,7 @@ msgstr "LinkButton (C)"
 #. (itstool) path: info/desc
 #: C/linkbutton.c.page:18 C/linkbutton.vala.page:18
 msgid "Create buttons bound to a URL"
-msgstr ""
+msgstr "Skapa knappar som bundits till en URL"
 
 #. (itstool) path: page/title
 #: C/linkbutton.c.page:21 C/linkbutton.js.page:21 C/linkbutton.py.page:22 C/linkbutton.vala.page:21
@@ -18446,7 +18862,7 @@ msgstr "external ref='media/linkbutton.png' md5='3712eae8953e87c65a6aa74503b8e32
 #. (itstool) path: page/p
 #: C/linkbutton.c.page:24
 msgid "This button links to the GNOME live webpage."
-msgstr ""
+msgstr "Denna knapp länkar till webbsidan GNOME live."
 
 #. (itstool) path: page/code
 #: C/linkbutton.c.page:26
@@ -18504,12 +18920,12 @@ msgstr "LinkButton (Javascript)"
 #. (itstool) path: info/desc
 #: C/linkbutton.js.page:18
 msgid "A button that links to a web page"
-msgstr ""
+msgstr "En knapp som länkar till en webbsida"
 
 #. (itstool) path: page/p
 #: C/linkbutton.js.page:23
 msgid "A button that links to live.gnome.org."
-msgstr ""
+msgstr "En knapp som länkar till live.gnome.org."
 
 #. (itstool) path: page/code
 #: C/linkbutton.js.page:25
@@ -18571,6 +18987,61 @@ msgid ""
 "let app = new LinkButtonExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"#!/usr/bin/gjs\n"
+"\n"
+"imports.gi.versions.Gtk = '3.0';\n"
+"\n"
+"const Gio = imports.gi.Gio;\n"
+"const GLib = imports.gi.GLib;\n"
+"const Gtk = imports.gi.Gtk;\n"
+"\n"
+"class LinkButtonExample {\n"
+"\n"
+"    // Skapa programmet i sig\n"
+"    constructor() {\n"
+"        this.application = new Gtk.Application({\n"
+"            application_id: 'org.example.jslinkbutton',\n"
+"            flags: Gio.ApplicationFlags.FLAGS_NONE\n"
+"         });\n"
+"\n"
+"        // Anslut ”activate”- och ”startup”-signaler till återanropsfunktionerna\n"
+"        this.application.connect('activate', this._onActivate.bind(this));\n"
+"        this.application.connect('startup', this._onStartup.bind(this));\n"
+"    }\n"
+"\n"
+"    // Återanropsfunktion för ”activate”-signal, visar fönstret när den aktiveras\n"
+"    _onActivate() {\n"
+"        this._window.present();\n"
+"    }\n"
+"\n"
+"    // Återanropsfunktion för ”startup”-signal initierar menyer och bygger användargränssnittet\n"
+"    _onStartup() {\n"
+"        this._buildUI();\n"
+"    }\n"
+"\n"
+"    // Bygg programmets användargränssnitt\n"
+"    _buildUI() {\n"
+"\n"
+"        // Skapa programfönstret\n"
+"    this._window = new Gtk.ApplicationWindow  ({ application: this.application,\n"
+"                                                 window_position: Gtk.WindowPosition.CENTER,\n"
+"                                                 title: \"GNOME LinkButton\",\n"
+"                                                 default_height: 50,\n"
+"                                                 default_width: 250 });\n"
+"\n"
+"        // Skapa LinkButton och låt den länka till live.gnome.org\n"
+"        this.LinkButton = new Gtk.LinkButton ({label: \"Länk till GNOME live!\",\n"
+"                               uri: \"http://live.gnome.org\"});\n"
+"        this._window.add (this.LinkButton);\n"
+"\n"
+"    // Visa fönstret och alla barnkomponenter\n"
+"    this._window.show_all();\n"
+"    }\n"
+"};\n"
+"\n"
+"// Kör programmet\n"
+"let app = new LinkButtonExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: item/p
 #: C/linkbutton.js.page:32
@@ -18586,12 +19057,12 @@ msgstr "LinkButton (Python)"
 #. (itstool) path: info/desc
 #: C/linkbutton.py.page:19
 msgid "A button bound to an URL"
-msgstr ""
+msgstr "En knapp som bundits till en URL"
 
 #. (itstool) path: page/p
 #: C/linkbutton.py.page:25
 msgid "A button that links to a web page."
-msgstr ""
+msgstr "En knapp som länkar till en webbsida."
 
 #. (itstool) path: section/code
 #: C/linkbutton.py.page:32
@@ -18633,11 +19104,46 @@ msgid ""
 "exit_status = app.run(sys.argv)\n"
 "sys.exit(exit_status)\n"
 msgstr ""
+"from gi.repository import Gtk\n"
+"import sys\n"
+"\n"
+"\n"
+"class MyWindow(Gtk.ApplicationWindow):\n"
+"    # ett fönster\n"
+"\n"
+"    def __init__(self, app):\n"
+"        Gtk.Window.__init__(self, title=\"GNOME LinkButton\", application=app)\n"
+"        self.set_default_size(250, 50)\n"
+"\n"
+"        # en LinkButton som pekar på angiven URI\n"
+"        button = Gtk.LinkButton(uri=\"http://live.gnome.org\")\n"
+"        # med angiven text\n"
+"        button.set_label(\"Länk till GNOME live!\")\n"
+"\n"
+"        # lägg till knappen till fönstret\n"
+"        self.add(button)\n"
+"\n"
+"\n"
+"class MyApplication(Gtk.Application):\n"
+"\n"
+"    def __init__(self):\n"
+"        Gtk.Application.__init__(self)\n"
+"\n"
+"    def do_activate(self):\n"
+"        win = MyWindow(self)\n"
+"        win.show_all()\n"
+"\n"
+"    def do_startup(self):\n"
+"        Gtk.Application.do_startup(self)\n"
+"\n"
+"app = MyApplication()\n"
+"exit_status = app.run(sys.argv)\n"
+"sys.exit(exit_status)\n"
 
 #. (itstool) path: section/title
 #: C/linkbutton.py.page:36
 msgid "Useful methods for a LinkButton widget"
-msgstr ""
+msgstr "Användbara metoder för en LinkButton-komponent"
 
 #. (itstool) path: item/p
 #: C/linkbutton.py.page:38
@@ -18674,11 +19180,11 @@ msgstr "LinkButton (Vala)"
 #. (itstool) path: page/p
 #: C/linkbutton.vala.page:23
 msgid "This button links to GNOME live."
-msgstr ""
+msgstr "Denna knapp länkar till GNOME live."
 
 #. (itstool) path: page/code
 #: C/linkbutton.vala.page:25
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "/* This is the application. */\n"
 "public class MyApplication : Gtk.Application {\n"
@@ -18702,6 +19208,27 @@ msgid ""
 "\treturn new MyApplication ().run (args);\n"
 "}\n"
 msgstr ""
+"/* Det här är programmet. */\n"
+"public class MyApplication : Gtk.Application {\n"
+"\t/* Åsidosätt ”activate”-signalen för GLib.Application. */\n"
+"\tprotected override void activate () {\n"
+"\n"
+"\t\t/* Skapa fönstret för detta program och barnkomponent och visa allting. */\n"
+"\t\tvar window = new Gtk.ApplicationWindow (this);\n"
+"\t\twindow.set_default_size (250, 50);\n"
+"\t\twindow.title = \"GNOME LinkButton\";\n"
+"\n"
+"\t\tvar linkbutton = new Gtk.LinkButton.with_label (\"http://live.gnome.org\", \"Länk till GNOME live!\");\n"
+"\n"
+"\t\twindow.add (linkbutton);\n"
+"\t\twindow.show_all ();\n"
+"\t}\n"
+"}\n"
+"\n"
+"/* main skapar och kör programmet. */\n"
+"public int main (string[] args) {\n"
+"\treturn new MyApplication ().run (args);\n"
+"}\n"
 
 #. (itstool) path: item/p
 #: C/linkbutton.vala.page:30
@@ -18712,12 +19239,12 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.LinkButton.html\">Gtk.L
 #: C/magic-mirror.vala.page:8
 msgctxt "text"
 msgid "Magic mirror (Vala)"
-msgstr ""
+msgstr "Magisk spegel (Vala)"
 
 #. (itstool) path: info/desc
 #: C/magic-mirror.vala.page:11
 msgid "Use your webcam as a mirror using the GStreamer framework and GTK+"
-msgstr ""
+msgstr "Använd din webbkamera som en spegel med GStreamer-ramverket och GTK+"
 
 #. (itstool) path: credit/name
 #: C/magic-mirror.vala.page:15
@@ -18727,7 +19254,7 @@ msgstr "Daniel G. Siegel"
 #. (itstool) path: page/title
 #: C/magic-mirror.vala.page:29
 msgid "Magic mirror"
-msgstr ""
+msgstr "Magisk spegel"
 
 #. (itstool) path: synopsis/p
 #: C/magic-mirror.vala.page:32
@@ -18736,37 +19263,41 @@ msgid ""
 "beard off or add some makeup! You only have 15 minutes left before catching the bus to work. So what can you do?</"
 "em>"
 msgstr ""
+"<em>Din spegel föll ner och gick i tusen bitar — men du behöver en spegel för att raka skägget eller sminka dig! "
+"Du har bara 15 minuter innan bussen till jobbet går. Vad ska du göra?</em>"
 
 #. (itstool) path: synopsis/p
 #: C/magic-mirror.vala.page:33
 msgid ""
 "In this tutorial, we're going to make a program which lets you use your webcam as a mirror. You will learn how to:"
 msgstr ""
+"I denna handledning kommer vi göra ett program som låter dig använda din webbkamera som en spegel. Du kommer lära "
+"dig hur du:"
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:35
 msgid "Create a GTK+ application"
-msgstr ""
+msgstr "Skapar ett GTK+-program"
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:36
 msgid "Access your webcam using GStreamer and embed the result into a window"
-msgstr ""
+msgstr "Kommer åt din webbkamera med GStreamer och bäddar in resultatet i ett fönster"
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:37
 msgid "Grab photos off your webcam"
-msgstr ""
+msgstr "Får bilder från din webbkamera"
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:42
 msgid "Installed copies of GTK, GStreamer, and a Vala compiler"
-msgstr ""
+msgstr "Installerade kopior av GTK, GStreamer och en Vala-kompilator"
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:43
 msgid "Basic knowledge of an object-oriented programming language"
-msgstr ""
+msgstr "Grundläggande kunskap i ett objektorienterat programmeringsspråk"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -18784,13 +19315,19 @@ msgid ""
 "Choose <gui>GTK+ (simple)</gui> from the <gui>Vala</gui> tab, click <gui>Forward</gui>, and fill out your details "
 "on the next few pages. Use <file>magic-mirror</file> as project name and directory."
 msgstr ""
+"Välj <gui>GTK+ (enkel)</gui> från fliken <gui>Vala</gui>, klicka på <gui>Framåt</gui>, och fyll i dina detaljer på "
+"de nästkommande sidorna. Använd <file>magic-mirror</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:60
+#, fuzzy
 msgid ""
 "Disable <gui>Use GtkBuilder for user interface</gui> as we will create the UI manually in this tutorial. Check the "
 "<link xref=\"guitar-tuner.vala\">Guitar-Tuner</link> tutorial using the interface builder."
 msgstr ""
+"Inaktivera <gui>Använd GtkBuilder för användargränssnitt</gui> då vi kommer skapa användargränssnittet manuellt i "
+"denna handledning. Se handledningen <link xref=\"guitar-tuner.vala\">Guitar-Tuner</link> för att se "
+"gränssnittsbyggaren."
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:65
@@ -18832,7 +19369,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/magic-mirror.vala.page:98
 msgid "Access the webcam video stream with GStreamer"
-msgstr ""
+msgstr "Kom åt webbkamerans videoström med GStreamer"
 
 #. (itstool) path: section/p
 #: C/magic-mirror.vala.page:99
@@ -18840,6 +19377,8 @@ msgid ""
 "The GStreamer multimedia framework is able to handle video from webcams. Let's add GStreamer to our application "
 "and so we can access the video stream."
 msgstr ""
+"GStreamer-multimediaramverket kan hantera video från webbkameror. Låt oss lägga till GStreamer till vårt program "
+"så vi kan komma åt videoströmmen."
 
 #. (itstool) path: section/code
 #: C/magic-mirror.vala.page:101
@@ -18869,12 +19408,35 @@ msgid ""
 "\t}\n"
 "}\n"
 msgstr ""
+"\n"
+"using GLib;\n"
+"using Gtk;\n"
+"\n"
+"public class Main : Object\n"
+"{\n"
+"\tprivate Gst.Element camerabin;\n"
+"\n"
+"\tpublic Main () {\n"
+"\t\tthis.camerabin = Gst.ElementFactory.make (\"camerabin\", \"camera\");\n"
+"\t\tthis.camerabin.set_state (Gst.State.PLAYING);\n"
+"\t}\n"
+"\n"
+"\tstatic int main (string[] args) {\n"
+"\t\tGtk.init (ref args);\n"
+"\t\tGst.init (ref args);\n"
+"\t\tvar app = new Main ();\n"
+"\n"
+"\t\tGtk.main ();\n"
+"\n"
+"\t\treturn 0;\n"
+"\t}\n"
+"}\n"
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:126
 msgid ""
 "First we remove the window we created before because GStreamer will take care of showing the picture on screen."
-msgstr ""
+msgstr "Först tar vi bort fönstret vi skapade tidigare, för GStreamer kommer ta hand om att visa bilden på skärmen."
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:130
@@ -18901,12 +19463,17 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/magic-mirror.vala.page:151
+#, fuzzy
 msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"magic-mirror/magic-mirror.vala"
 "\">reference code</link>. There is also a more <link href=\"magic-mirror/magic-mirror-advanced.vala\">extensive "
 "implementation</link> that embeds the window into a regular Gtk.Window which involves some advanced techniques, "
 "and adds buttons to start/stop the picture."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"magic-mirror/magic-mirror."
+"vala\">referenskod</link>. Det finns också en mer <link href=\"magic-mirror/magic-mirror-advanced.vala\">utförlig "
+"implementation</link> som bäddar in fönstret i ett vanligt Gtk.Window vilket inför några avancerade tekniker, och "
+"lägger till knappar för att starta/stoppa bilden."
 
 #. (itstool) path: section/p
 #: C/magic-mirror.vala.page:158
@@ -19780,7 +20347,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/menubar.py.page:155
 msgid "Complete Python file for this example"
-msgstr ""
+msgstr "Fullständig Python-fil för detta exempel"
 
 #. (itstool) path: section/code
 #: C/menubar.py.page:156
@@ -20007,7 +20574,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/menubar.py.page:174 C/menubar.vala.page:179
 msgid "Translatable strings"
-msgstr ""
+msgstr "Översättningsbara strängar"
 
 #. (itstool) path: section/p
 #: C/menubar.py.page:175 C/menubar.vala.page:180
@@ -20210,7 +20777,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/menubar.vala.page:157
 msgid "Complete Vala file for this example"
-msgstr ""
+msgstr "Fullständig Vala-fil för detta exempel"
 
 #. (itstool) path: section/code
 #: C/menubar.vala.page:158
@@ -20352,7 +20919,7 @@ msgstr "MenuButton"
 #. (itstool) path: info/desc
 #: C/menubutton.c.page:18 C/menubutton.js.page:18 C/menubutton.py.page:25 C/menubutton.vala.page:18
 msgid "A widget that shows a menu when clicked on"
-msgstr ""
+msgstr "En komponent som visar en meny när den klickas på"
 
 #. (itstool) path: page/title
 #: C/menubutton.c.page:21 C/menubutton.js.page:21 C/menubutton.py.page:28 C/menubutton.vala.page:21
@@ -20380,7 +20947,7 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/menubutton.c.page:25 C/menubutton.js.page:27
 msgid "You need to be running GNOME 3.6 or later for the MenuButton to work."
-msgstr ""
+msgstr "Du behöver köra GNOME 3.6 eller senare för att MenuButton ska fungera."
 
 #. (itstool) path: section/code
 #: C/menubutton.c.page:31
@@ -20627,12 +21194,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/menubutton.js.page:33 C/menubutton.vala.page:33
 msgid "<link href=\"https://developer.gnome.org/gtk3/unstable/GtkMenuButton.html\">MenuButton</link>"
-msgstr ""
+msgstr "<link href=\"https://developer.gnome.org/gtk3/unstable/GtkMenuButton.html\">MenuButton</link>"
 
 #. (itstool) path: note/p
 #: C/menubutton.py.page:32 C/menubutton.vala.page:27
 msgid "You need to be running GNOME 3.6 for the MenuButton to work."
-msgstr ""
+msgstr "Du behöver köra GNOME 3.6 för att MenuButton ska fungera."
 
 #. (itstool) path: section/code
 #: C/menubutton.py.page:38
@@ -20719,7 +21286,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/menubutton.py.page:42
 msgid "Useful methods for a MenuButton widget"
-msgstr ""
+msgstr "Användbara metoder för en MenuButton-komponent"
 
 #. (itstool) path: section/p
 #: C/menubutton.py.page:43
@@ -20728,6 +21295,9 @@ msgid ""
 "callback function <code>about_callback()</code> using <code><var>action</var>.connect(<var>signal</var>, "
 "<var>callback function</var>)</code>. See <link xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 33 ansluts signalen <code>\"activate\"</code> från åtgärden <code>about_action</code> till "
+"återanropsfunktionen <code>about_callback()</code> med <code><var>åtgärd</var>.connect(<var>signal</var>, "
+"<var>återanropsfunktion</var>)</code>. Se <link xref=\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: section/p
 #: C/menubutton.py.page:45
@@ -20846,7 +21416,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/message-board.c.page:11
 msgid "A simple program using WebKitGTK+ and the DOM."
-msgstr ""
+msgstr "Ett enkelt program som använder WebKitGTK+ och DOM."
 
 #. (itstool) path: page/title
 #: C/message-board.c.page:26
@@ -20856,12 +21426,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/message-board.c.page:31
 msgid "How to display a web page with WebKit."
-msgstr ""
+msgstr "Hur du visar en webbsida med WebKit."
 
 #. (itstool) path: item/p
 #: C/message-board.c.page:32
 msgid "How to manipulate the contents of a web page using WebKit's DOM functions."
-msgstr ""
+msgstr "Hur du manipulerar en webbsidas innehåll med WebKits DOM-funktioner."
 
 #. (itstool) path: synopsis/p
 #: C/message-board.c.page:35
@@ -20870,6 +21440,9 @@ msgid ""
 "including how to create and place widgets and how to connect callback functions to signals. See <link xref=\"image-"
 "viewer.c\"/> to learn the basics of GTK+."
 msgstr ""
+"Denna handledning antar att du är bekant med programmeringsspråket C och har en grundläggande förståelse av GTK+, "
+"inklusive hur du skapar och placerar komponenter och hur du ansluter återanropsfunktioner till signaler. Se <link "
+"xref=\"image-viewer.c\"/> för att lära dig grunderna i GTK+."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -20903,11 +21476,13 @@ msgid ""
 "In Anjuta, click <guiseq><gui>File</gui><gui>New</gui> <gui>Project</gui></guiseq> to open the new project "
 "assistant."
 msgstr ""
+"Klicka i Anjuta på <guiseq><gui>Arkiv</gui><gui>Ny</gui><gui>Projekt</gui></guiseq> för att öppna den nya "
+"projektguiden."
 
 #. (itstool) path: item/p
 #: C/message-board.c.page:61
 msgid "Select <gui>GTK+ (simple)</gui> on the <gui>C</gui> tab, and click <gui>Continue</gui>."
-msgstr ""
+msgstr "Välj <gui>GTK+ (enkel)</gui> från fliken <gui>C</gui> och klicka på <gui>Fortsätt</gui>."
 
 #. (itstool) path: item/p
 #: C/message-board.c.page:63
@@ -20915,6 +21490,8 @@ msgid ""
 "Fill out your details on the <gui>Basic information</gui> page. Use <input>message-board</input> for the project "
 "name. Click <gui>Continue</gui>."
 msgstr ""
+"Fyll i dina detaljer på sidan <gui>Grundläggande information</gui>. Använd <input>message-board</input> som "
+"projektnamn. Klicka på <gui>Fortsätt</gui>."
 
 #. (itstool) path: item/p
 #: C/message-board.c.page:66
@@ -21070,12 +21647,12 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/message-board.c.page:176
 msgid "<code>\"&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;\"</code>"
-msgstr ""
+msgstr "<code>\"&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;\"</code>"
 
 #. (itstool) path: item/p
 #: C/message-board.c.page:177
 msgid "The simplest HTML file you could possibly write."
-msgstr ""
+msgstr "Den enklaste HTML-du kan skriva."
 
 #. (itstool) path: item/title
 #: C/message-board.c.page:180
@@ -21085,7 +21662,7 @@ msgstr "<code>\"text/html\"</code>"
 #. (itstool) path: item/p
 #: C/message-board.c.page:181
 msgid "The MIME type of the content you provided. In this case, you're using plain HTML."
-msgstr ""
+msgstr "MIME-typen för innehållet du tillhandahöll. I detta fall använder du vanlig HTML."
 
 #. (itstool) path: item/title
 #: C/message-board.c.page:185
@@ -21098,11 +21675,13 @@ msgid ""
 "The character encoding of the content you provided. Although you only used ASCII characters, it's a good idea to "
 "specify UTF-8. UTF-8 is used as the default encoding throughout the GNOME platform."
 msgstr ""
+"Teckenkodningen för innehållet du tillhandahöll. Även om du bara använde ASCII-tecken så är det en god idé att "
+"ange UTF-8. UTF-8 används som standardkodning för hela GNOME-plattformen."
 
 #. (itstool) path: item/title
 #: C/message-board.c.page:191
 msgid "<code>NULL</code>"
-msgstr ""
+msgstr "<code>NULL</code>"
 
 #. (itstool) path: item/p
 #: C/message-board.c.page:192
@@ -21222,7 +21801,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/message-board.c.page:290
 msgid "Make it look better with CSS"
-msgstr ""
+msgstr "Få det att se ut bättre med CSS"
 
 #. (itstool) path: section/p
 #: C/message-board.c.page:292
@@ -21335,7 +21914,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/message-board.c.page:369
 msgid "Learn more"
-msgstr ""
+msgstr "Lär dig mer"
 
 #. (itstool) path: section/p
 #: C/message-board.c.page:371
@@ -21386,7 +21965,7 @@ msgstr "MessageDialog (C)"
 #. (itstool) path: info/desc
 #: C/messagedialog.c.page:19 C/messagedialog.py.page:19 C/messagedialog.vala.page:18
 msgid "A message window"
-msgstr ""
+msgstr "Ett meddelandefönster"
 
 #. (itstool) path: page/title
 #: C/messagedialog.c.page:22 C/messagedialog.js.page:24 C/messagedialog.py.page:22 C/messagedialog.vala.page:21
@@ -21650,6 +22229,12 @@ msgid ""
 "const Gtk = imports.gi.Gtk;\n"
 "const Lang = imports.lang;\n"
 msgstr ""
+"\n"
+"#!/usr/bin/gjs\n"
+"\n"
+"const Gio = imports.gi.Gio;\n"
+"const Gtk = imports.gi.Gtk;\n"
+"const Lang = imports.lang;\n"
 
 #. (itstool) path: section/code
 #: C/messagedialog.js.page:44
@@ -21872,12 +22457,16 @@ msgid ""
 "let app = new MessageDialogExample ();\n"
 "app.application.run (ARGV);\n"
 msgstr ""
+"\n"
+"// Kör programmet\n"
+"let app = new MessageDialogExample ();\n"
+"app.application.run (ARGV);\n"
 
 #. (itstool) path: section/p
 #: C/messagedialog.js.page:180
 msgid ""
 "Finally, we create a new instance of the finished MessageDialogExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda MessageDialogExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/messagedialog.js.page:185
@@ -22098,7 +22687,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/messagedialog.py.page:36
 msgid "Useful methods for a MessageDialog widget"
-msgstr ""
+msgstr "Användbara metoder för en MessageDialog-komponent"
 
 #. (itstool) path: section/p
 #: C/messagedialog.py.page:37
@@ -22107,6 +22696,9 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 18 ansluts signalen <code>\"activate\"</code> till återanropsfunktionen <code>message_cb()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/messagedialog.py.page:39
@@ -22297,7 +22889,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/model-view-controller.py.page:32 C/properties.py.page:32 C/signals-callbacks.py.page:32
 msgid "Overview"
-msgstr ""
+msgstr "Översikt"
 
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:34
@@ -22353,7 +22945,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:49
 msgid "Useful methods for a <code>Gtk.TreeModel</code>:"
-msgstr ""
+msgstr "Användbara metoder för en <code>Gtk.TreeModel</code>:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:51
@@ -22395,7 +22987,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:58
 msgid "Useful methods for a <code>Gtk.ListStore</code>:"
-msgstr ""
+msgstr "Användbara metoder för en <code>Gtk.ListStore</code>:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:60
@@ -22416,7 +23008,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:64
 msgid "Useful methods for a <code>Gtk.TreeStore</code>:"
-msgstr ""
+msgstr "Användbara metoder för en <code>Gtk.TreeStore</code>:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:66
@@ -22448,7 +23040,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:79
 msgid "Useful methods for a <code>Gtk.TreeView</code>:"
-msgstr ""
+msgstr "Användbara metoder för en <code>Gtk.TreeView</code>:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:81
@@ -22476,7 +23068,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:87
 msgid "Useful methods for a <code>Gtk.TreeViewColumn</code>:"
-msgstr ""
+msgstr "Användbara metoder för en <code>Gtk.TreeViewColumn</code>:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:89
@@ -22538,7 +23130,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:104
 msgid "Useful methods for a <code>Gtk.ComboBox</code>:"
-msgstr ""
+msgstr "Användbara metoder för en <code>Gtk.ComboBox</code>:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:106
@@ -22582,7 +23174,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:113
 msgid "Useful methods for a <code>Gtk.ComboBoxText</code>:"
-msgstr ""
+msgstr "Användbara metoder för en <code>Gtk.ComboBoxText</code>:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:115
@@ -22616,12 +23208,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:127
 msgid "Implementations of <code>Gtk.CellRenderer</code> and useful methods:"
-msgstr ""
+msgstr "Implementationer av <code>Gtk.CellRenderer</code> och användbara metoder:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:129
 msgid "<code>Gtk.CellRendererText</code> - renders text in a cell"
-msgstr ""
+msgstr "<code>Gtk.CellRendererText</code> - renderar text i en cell"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:130
@@ -22654,7 +23246,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:138
 msgid "<code>Gtk.CellRendererPixbuf</code> - renders an image in a cell"
-msgstr ""
+msgstr "<code>Gtk.CellRendererPixbuf</code> - renderar en bild i en cell"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:139
@@ -22707,6 +23299,9 @@ msgid ""
 "select = tree.get_selection()\n"
 "select.connect(\"changed\", on_tree_selection_changed)\n"
 msgstr ""
+"\n"
+"select = tree.get_selection()\n"
+"select.connect(\"changed\", on_tree_selection_changed)\n"
 
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:158
@@ -22727,22 +23322,22 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/model-view-controller.py.page:167
 msgid "Useful methods for a <code>Gtk.TreeSelection</code>:"
-msgstr ""
+msgstr "Användbara metoder för en <code>Gtk.TreeSelection</code>:"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:170
 msgid "<code>set_mode(type)</code> sets the type of selection, where type is one of"
-msgstr ""
+msgstr "<code>set_mode(typ)</code> ställer in markeringstypen, där typ är en av"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:172
 msgid "<code>Gtk.SelectionMode.NONE</code> - no selection is possible"
-msgstr ""
+msgstr "<code>Gtk.SelectionMode.NONE</code> - ingen markering är möjlig"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:173
 msgid "<code>Gtk.SelectionMode.SINGLE</code> - zero or one element may be selected"
-msgstr ""
+msgstr "<code>Gtk.SelectionMode.SINGLE</code> - inget eller ett element kan markeras"
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:174
@@ -22751,14 +23346,22 @@ msgid ""
 "or during a search operation, it’s possible for no element to be selected. What is really enforced is that the "
 "user can’t deselect a currently selected element except by selecting another element."
 msgstr ""
+"<code>Gtk.SelectionMode.BROWSE</code> - exakt ett element är markerat. Under vissa omständigheter, så som initialt "
+"eller under en sökoperation, så är det möjligt att inget element är markerat. Vad som verkligen upprätthålls är "
+"att användaren inte kan avmarkera ett för närvarande markerat element förutom genom att markera ett annat element."
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:175
+#, fuzzy
 msgid ""
 "<code>Gtk.SelectionMode.MULTIPLE</code> -any number of elements may be selected. Clicks toggle the state of an "
 "item. The Ctrl key may be used to enlarge the selection, and Shift key to select between the focus and the child "
 "pointed to. Some widgets may also allow Click-drag to select a range of elements."
 msgstr ""
+"<code>Gtk.SelectionMode.BROWSE</code> - ett godtyckligt antal element kan markeras. Klick växlar ett objekts "
+"tillstånd. Ctrl-tangenten kan användas för att förstora markeringen, och skift-tangenten för att växla mellan "
+"fokus och barnet som pekas på. Vissa komponenter kan också tillåta klicka-och-dra för att markera ett intervall av "
+"element."
 
 #. (itstool) path: item/p
 #: C/model-view-controller.py.page:178
@@ -22873,6 +23476,45 @@ msgid ""
 "  return status;\n"
 "}\n"
 msgstr ""
+"#include &lt;gtk/gtk.h&gt;\n"
+"\n"
+"static void\n"
+"activate (GtkApplication *app,\n"
+"          gpointer        user_data)\n"
+"{\n"
+"  GtkWidget *paned;\n"
+"  GtkWidget *window;\n"
+"  GtkWidget *image1;\n"
+"  GtkWidget *image2;\n"
+"\n"
+"  window = gtk_application_window_new (app);\n"
+"  gtk_window_set_title (GTK_WINDOW (window), \"Paned-exempel\");\n"
+"  gtk_window_set_default_size (GTK_WINDOW (window), 450, 350);\n"
+"\n"
+"  paned = gtk_paned_new (GTK_ORIENTATION_HORIZONTAL);\n"
+"  image1 = gtk_image_new_from_file (\"gnome-image.png\");\n"
+"  image2 = gtk_image_new_from_file (\"tux.png\");\n"
+"\n"
+"  gtk_paned_add1 (GTK_PANED (paned), image1);\n"
+"  gtk_paned_add2 (GTK_PANED (paned), image2);\n"
+"\n"
+"  gtk_container_add (GTK_CONTAINER (window), paned);\n"
+"\n"
+"  gtk_widget_show_all (window);\n"
+"}\n"
+"\n"
+"int\n"
+"main (int argc, char **argv)\n"
+"{\n"
+"  GtkApplication *app;\n"
+"  int status;\n"
+"\n"
+"  app = gtk_application_new (\"org.gtk.example\", G_APPLICATION_FLAGS_NONE);\n"
+"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+"  g_object_unref (app);\n"
+"  return status;\n"
+"}\n"
 
 #. (itstool) path: item/p
 #: C/paned.c.page:36 C/paned.py.page:42
@@ -23027,7 +23669,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/paned.py.page:34
 msgid "Useful methods for a Paned widget"
-msgstr ""
+msgstr "Användbara metoder för en Paned-komponent"
 
 #. (itstool) path: section/p
 #: C/paned.py.page:35
@@ -23093,12 +23735,12 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Paned.html\">GtkPaned</
 #: C/photo-wall.c.page:7
 msgctxt "text"
 msgid "Photo wall (C)"
-msgstr ""
+msgstr "Fotovägg (C)"
 
 #. (itstool) path: info/desc
 #: C/photo-wall.c.page:10
 msgid "A Clutter image viewer"
-msgstr ""
+msgstr "En bildvisare med Clutter"
 
 #. (itstool) path: credit/name
 #: C/photo-wall.c.page:14
@@ -23108,12 +23750,12 @@ msgstr "Chris Kühl"
 #. (itstool) path: page/title
 #: C/photo-wall.c.page:28
 msgid "Photo wall"
-msgstr ""
+msgstr "Fotovägg"
 
 #. (itstool) path: synopsis/p
 #: C/photo-wall.c.page:31
 msgid "For this example we will build a simple image viewer using Clutter. You will learn:"
-msgstr ""
+msgstr "För detta exempel kommer vi bygga en enkel bildvisare med Clutter. Du kommer lära dig:"
 
 #. (itstool) path: item/p
 #: C/photo-wall.c.page:33
@@ -23123,7 +23765,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/photo-wall.c.page:34
 msgid "How to place an image in a <code>ClutterActor</code>"
-msgstr ""
+msgstr "Hur du placerar en bild i en <code>ClutterActor</code>"
 
 #. (itstool) path: item/p
 #: C/photo-wall.c.page:35
@@ -23138,12 +23780,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/photo-wall.c.page:37
 msgid "How to get file names from a directory"
-msgstr ""
+msgstr "Hur du får filnamn från en katalog"
 
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:42 C/record-collection.js.page:40
 msgid "Introduction"
-msgstr ""
+msgstr "Introduktion"
 
 #. (itstool) path: section/p
 #: C/photo-wall.c.page:43
@@ -23167,6 +23809,8 @@ msgid ""
 "Choose <gui>GTK+ (simple)</gui> from the <gui>C</gui> tab, click <gui>Continue</gui>, and fill out your details on "
 "the next few pages. Use <file>photo-wall</file> as project name and directory."
 msgstr ""
+"Välj <gui>GTK+ (enkel)</gui> från fliken <gui>C</gui>, klicka på <gui>Fortsätt</gui>, och fyll i dina detaljer på "
+"de nästkommande sidorna. Använd <file>photo-wall</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/photo-wall.c.page:62
@@ -23185,12 +23829,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:80
 msgid "A look at Photo Wall"
-msgstr ""
+msgstr "En titt på fotoväggen"
 
 #. (itstool) path: section/p
 #: C/photo-wall.c.page:81
 msgid "Our image viewer presents the user with a wall of images."
-msgstr ""
+msgstr "Vår bildvisare visar en vägg av bilder för användaren."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -23208,6 +23852,8 @@ msgid ""
 "When an image is clicked, it is animated to fill the viewing area. When the image having focus is clicked it is "
 "returned to its original position using an animation with the same duration of 500 milliseconds."
 msgstr ""
+"När en bild klickas på animeras den så att den fyller visningsområdet. När bilden som har fokus klickas på så "
+"returneras den till sin ursprungliga position med en animering med samma längd, 500 millisekunder."
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -23222,7 +23868,7 @@ msgstr "external ref='media/photo-wall-focused.png' md5='9f1ceecf3a28c1e468597b0
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:91
 msgid "Initial setup"
-msgstr ""
+msgstr "Initial konfiguration"
 
 #. (itstool) path: section/p
 #: C/photo-wall.c.page:92
@@ -23408,12 +24054,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:198
 msgid "Setting up our image actors"
-msgstr ""
+msgstr "Konfigurera våra bildaktörer"
 
 #. (itstool) path: note/p
 #: C/photo-wall.c.page:199
 msgid "In Clutter, an actor is the most basic visual element. Basically, everything you see is an actor."
-msgstr ""
+msgstr "I Clutter är en aktör det mest grundläggande visuella elementet. I princip allt du ser är en aktör."
 
 #. (itstool) path: section/p
 #: C/photo-wall.c.page:200
@@ -23523,7 +24169,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:249
 msgid "Loading the images"
-msgstr ""
+msgstr "Läsa in bilderna"
 
 #. (itstool) path: section/p
 #: C/photo-wall.c.page:250
@@ -23580,7 +24226,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:285
 msgid "Set up the actors"
-msgstr ""
+msgstr "Konfigurera aktörerna"
 
 #. (itstool) path: section/p
 #: C/photo-wall.c.page:286
@@ -23631,7 +24277,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/photo-wall.c.page:315
 msgid "Reacting to the clicks"
-msgstr ""
+msgstr "Reagera på klicken"
 
 #. (itstool) path: section/code
 #: C/photo-wall.c.page:319
@@ -23812,6 +24458,8 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"photo-wall/photo-wall.c"
 "\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"photo-wall/photo-wall.c"
+"\">referenskod</link>."
 
 #. (itstool) path: info/title
 #: C/progressbar.c.page:8
@@ -24128,7 +24776,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/progressbar.py.page:46
 msgid "Useful methods for a ProgressBar widget"
-msgstr ""
+msgstr "Användbara metoder för en ProgressBar-komponent"
 
 #. (itstool) path: item/p
 #: C/progressbar.py.page:48
@@ -24225,7 +24873,7 @@ msgstr "<link href=\"http://www.valadoc.org/glib-2.0/GLib.Timeout.html\">GLib.Ti
 #: C/properties.py.page:9
 msgctxt "text"
 msgid "Properties (Python)"
-msgstr ""
+msgstr "Egenskaper (Python)"
 
 #. (itstool) path: info/desc
 #: C/properties.py.page:14
@@ -24235,7 +24883,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/properties.py.page:27
 msgid "Properties"
-msgstr ""
+msgstr "Egenskaper"
 
 #. (itstool) path: section/p
 #: C/properties.py.page:34
@@ -24254,6 +24902,8 @@ msgid ""
 "\n"
 "label = Gtk.Label(label=\"Hello World\", angle=25, halign=Gtk.Align.END)"
 msgstr ""
+"\n"
+"label = Gtk.Label(label=\"Hej världen\", angle=25, halign=Gtk.Align.END)"
 
 #. (itstool) path: section/p
 #: C/properties.py.page:44
@@ -24270,6 +24920,11 @@ msgid ""
 "label.set_angle(25)\n"
 "label.set_halign(Gtk.Align.END)"
 msgstr ""
+"\n"
+"label = Gtk.Label()\n"
+"label.set_label(\"Hej världen\")\n"
+"label.set_angle(25)\n"
+"label.set_halign(Gtk.Align.END)"
 
 #. (itstool) path: section/p
 #: C/properties.py.page:51
@@ -24458,7 +25113,7 @@ msgstr "RadioButton (Javascript)"
 #. (itstool) path: info/desc
 #: C/radiobutton.js.page:18
 msgid "Only one can be selected at a time"
-msgstr ""
+msgstr "Endast en åt gången kan väljas"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -24524,6 +25179,8 @@ msgid ""
 "www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to "
 "go in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen RadioButtonExample. Koden ovan skapar en <link href=\"http://www.roojs."
+"com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/radiobutton.js.page:68
@@ -24544,7 +25201,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/radiobutton.js.page:83
 msgid "Creating the radiobuttons"
-msgstr ""
+msgstr "Skapa radioknapparna"
 
 #. (itstool) path: section/code
 #: C/radiobutton.js.page:84
@@ -24617,7 +25274,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/radiobutton.js.page:118 C/textview.js.page:132
 msgid "Creating the rest of the user interface"
-msgstr ""
+msgstr "Skapa resten av användargränssnittet"
 
 #. (itstool) path: section/code
 #: C/radiobutton.js.page:120
@@ -24712,6 +25369,10 @@ msgid ""
 "        this._window.show_all();\n"
 "    },\n"
 msgstr ""
+"\n"
+"        // Visa fönstret och alla barnkomponenter\n"
+"        this._window.show_all();\n"
+"    },\n"
 
 #. (itstool) path: section/p
 #: C/radiobutton.js.page:176
@@ -24844,7 +25505,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/radiobutton.js.page:265 C/togglebutton.js.page:144
 msgid "Finally, we create a new instance of the finished RadioButtonExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda RadioButtonExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/radiobutton.js.page:270
@@ -25058,7 +25719,7 @@ msgstr "RadioButton (Python)"
 #. (itstool) path: info/desc
 #: C/radiobutton.py.page:20
 msgid "Mutually exclusive buttons."
-msgstr ""
+msgstr "Ömsesidigt uteslutande knappar."
 
 #. (itstool) path: page/p
 #: C/radiobutton.py.page:25
@@ -25149,7 +25810,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/radiobutton.py.page:35
 msgid "Useful methods for a RadioButton widget"
-msgstr ""
+msgstr "Användbara metoder för en RadioButton-komponent"
 
 #. (itstool) path: section/p
 #: C/radiobutton.py.page:36
@@ -25158,6 +25819,9 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 16 ansluts signalen <code>\"toggled\"</code> till återanropsfunktionen <code>toggled_cb()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: section/p
 #: C/radiobutton.py.page:38
@@ -25282,22 +25946,22 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.RadioButton.html\">Gtk.
 #: C/record-collection.js.page:8
 msgctxt "text"
 msgid "Record collection (JavaScript)"
-msgstr ""
+msgstr "Skivsamling (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/record-collection.js.page:11
 msgid "Create a small database application for ordering your music collection"
-msgstr ""
+msgstr "Skapa ett litet databasprogram för att få ordning på din musiksamling"
 
 #. (itstool) path: page/title
 #: C/record-collection.js.page:29
 msgid "Record collection"
-msgstr ""
+msgstr "Skivsamling"
 
 #. (itstool) path: item/p
 #: C/record-collection.js.page:34
 msgid "How to connect to a database using libgda"
-msgstr ""
+msgstr "Hur du ansluter till en databas med libgda"
 
 #. (itstool) path: item/p
 #: C/record-collection.js.page:35
@@ -25310,6 +25974,9 @@ msgid ""
 "This demo uses the Javascript language. We are going to demonstrate how to connect and use a database from a GTK "
 "program, by using the GDA (GNOME Data Access) library. Thus you also need this library installed."
 msgstr ""
+"Denna demonstration använder språket Javascript. Vi kommer att demonstrera hur du ansluter till och använder en "
+"databas från ett GTK-program, genom att använda biblioteket GDA (GNOME Data Access). Därmed behöver du även ha "
+"detta bibliotek installerat."
 
 #. (itstool) path: section/p
 #: C/record-collection.js.page:44
@@ -25334,6 +26001,8 @@ msgid ""
 "Choose <gui>Generic Javascript</gui> from the <gui>JS</gui> tab, click <gui>Forward</gui>, and fill-out your "
 "details on the next few pages. Use <file>record-collection</file> as project name and directory."
 msgstr ""
+"Välj <gui>Allmän Javascript</gui> från fliken <gui>JS</gui>, klicka på <gui>Framåt</gui>, och fyll i dina detaljer "
+"på de nästkommande sidorna. Använd <file>record-collection</file> som projektnamn och katalog."
 
 #. (itstool) path: item/p
 #: C/record-collection.js.page:63
@@ -25345,7 +26014,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/record-collection.js.page:69
 msgid "Program Structure"
-msgstr ""
+msgstr "Programstruktur"
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -25370,12 +26039,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/record-collection.js.page:76
 msgid "Starting the fun"
-msgstr ""
+msgstr "Starta det roliga"
 
 #. (itstool) path: section/p
 #: C/record-collection.js.page:77
 msgid "Let's start by examining the skeleton of the program:"
-msgstr ""
+msgstr "Låt oss starta genom att undersöka programmets skelett:"
 
 #. (itstool) path: section/code
 #: C/record-collection.js.page:78
@@ -25448,12 +26117,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/record-collection.js.page:105
 msgid "Lines 19‒23: Start the application."
-msgstr ""
+msgstr "Rad 19‒23: Starta programmet."
 
 #. (itstool) path: section/title
 #: C/record-collection.js.page:110
 msgid "Designing the application"
-msgstr ""
+msgstr "Designa programmet"
 
 #. (itstool) path: section/p
 #: C/record-collection.js.page:111
@@ -25546,7 +26215,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/record-collection.js.page:170
 msgid "Connecting to and initializing the database"
-msgstr ""
+msgstr "Ansluta till och initiera databasen"
 
 #. (itstool) path: section/p
 #: C/record-collection.js.page:171
@@ -25626,7 +26295,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/record-collection.js.page:209
 msgid "At this point we have the database set up, and are ready to use it."
-msgstr ""
+msgstr "Vid denna punkt har vi konfigurerat databasen, och är redo att använda den."
 
 #. (itstool) path: section/title
 #: C/record-collection.js.page:213
@@ -25846,6 +26515,7 @@ msgid ""
 "All of the code you need should now be in place, so try running the code. You now have a database for your record "
 "collection!"
 msgstr ""
+"All kod som du behöver bör nu vara på plats, så testa att köra koden. Du har nu en databas för din skivsamling!"
 
 #. (itstool) path: section/p
 #: C/record-collection.js.page:298
@@ -25853,9 +26523,12 @@ msgid ""
 "If you run into problems with the tutorial, compare your code with this <link href=\"record-collection/record-"
 "collection.js\">reference code</link>."
 msgstr ""
+"Om du stöter på problem med handledningen kan du jämföra din kod med denna <link href=\"record-collection/record-"
+"collection.js\">referenskod</link>."
 
 #. (itstool) path: page/title
 #: C/response-type.page:17
+#, fuzzy
 msgid "enum ResponseType"
 msgstr "enum ResponseType"
 
@@ -25902,7 +26575,7 @@ msgstr "ResponseType.OK = -5"
 #. (itstool) path: item/p
 #: C/response-type.page:38
 msgid "Returned by OK buttons in GTK+ dialogs"
-msgstr ""
+msgstr "Returneras av OK-knappar i GTK+-dialoger"
 
 #. (itstool) path: item/title
 #: C/response-type.page:41
@@ -25912,7 +26585,7 @@ msgstr "ResponseType.CANCEL = -6"
 #. (itstool) path: item/p
 #: C/response-type.page:42
 msgid "Returned by Cancel buttons in GTK+ dialogs"
-msgstr ""
+msgstr "Returneras av Avbryt-knappar i GTK+-dialoger"
 
 #. (itstool) path: item/title
 #: C/response-type.page:45
@@ -25922,7 +26595,7 @@ msgstr "ResponseType.CLOSE = -7"
 #. (itstool) path: item/p
 #: C/response-type.page:46
 msgid "Returned by Close buttons in GTK+ dialogs"
-msgstr ""
+msgstr "Returneras av Stäng-knappar i GTK+-dialoger"
 
 #. (itstool) path: item/title
 #: C/response-type.page:49
@@ -25932,7 +26605,7 @@ msgstr "ResponseType.YES = -8"
 #. (itstool) path: item/p
 #: C/response-type.page:50
 msgid "Returned by Yes buttons in GTK+ dialogs"
-msgstr ""
+msgstr "Returneras av Ja-knappar i GTK+-dialoger"
 
 #. (itstool) path: item/title
 #: C/response-type.page:53
@@ -25942,7 +26615,7 @@ msgstr "ResponseType.NO = -9"
 #. (itstool) path: item/p
 #: C/response-type.page:54
 msgid "Returned by No buttons in GTK+ dialogs"
-msgstr ""
+msgstr "Returneras av Nej-knappar i GTK+-dialoger"
 
 #. (itstool) path: item/title
 #: C/response-type.page:57
@@ -25952,7 +26625,7 @@ msgstr "ResponseType.APPLY = -10"
 #. (itstool) path: item/p
 #: C/response-type.page:58
 msgid "Returned by Apply buttons in GTK+ dialogs"
-msgstr ""
+msgstr "Returneras av Verkställ-knappar i GTK+-dialoger"
 
 #. (itstool) path: item/title
 #: C/response-type.page:61
@@ -25962,23 +26635,23 @@ msgstr "ResponseType.HELP = -11"
 #. (itstool) path: item/p
 #: C/response-type.page:62
 msgid "Returned by Help buttons in GTK+ dialogs"
-msgstr ""
+msgstr "Returneras av Hjälp-knappar i GTK+-dialoger"
 
 #. (itstool) path: info/title
 #: C/scale.c.page:8
 msgctxt "text"
 msgid "Scale (C)"
-msgstr ""
+msgstr "Scale (C)"
 
 #. (itstool) path: info/desc
 #: C/scale.c.page:20 C/scale.py.page:20 C/scale.vala.page:20
 msgid "A slider widget for selecting a value from a range"
-msgstr ""
+msgstr "En skjutreglagekomponent för att välja ett värde från ett intervall"
 
 #. (itstool) path: page/title
 #: C/scale.c.page:23 C/scale.js.page:21 C/scale.py.page:23 C/scale.vala.page:23
 msgid "Scale"
-msgstr ""
+msgstr "Scale"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -26185,12 +26858,12 @@ msgstr ""
 #: C/scale.js.page:8
 msgctxt "text"
 msgid "Scale (JavaScript)"
-msgstr ""
+msgstr "Scale (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/scale.js.page:18
 msgid "A slider which corresponds to a numerical value"
-msgstr ""
+msgstr "Ett skjutreglage som motsvarar ett numeriskt värde"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -26257,6 +26930,8 @@ msgid ""
 "roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to go "
 "in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen ScaleExample. Koden ovan skapar en <link href=\"http://www.roojs.com/"
+"seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/scale.js.page:67
@@ -26493,7 +27168,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/scale.js.page:199
 msgid "Finally, we create a new instance of the finished ScaleExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda ScaleExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/scale.js.page:204
@@ -26637,7 +27312,7 @@ msgstr "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.Scale.htm
 #: C/scale.py.page:8
 msgctxt "text"
 msgid "Scale (Python)"
-msgstr ""
+msgstr "Scale (Python)"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -26739,7 +27414,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/scale.py.page:35
 msgid "Useful methods for a Scale widget"
-msgstr ""
+msgstr "Användbara metoder för en Scale-komponent"
 
 #. (itstool) path: section/p
 #: C/scale.py.page:36
@@ -26759,6 +27434,9 @@ msgid ""
 "code> using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link "
 "xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 28 ansluts signalen <code>\"value-changed\"</code> till återanropsfunktionen <code>scale_moved()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/scale.py.page:39
@@ -26834,7 +27512,7 @@ msgstr ""
 #: C/scale.vala.page:8
 msgctxt "text"
 msgid "Scale (Vala)"
-msgstr ""
+msgstr "Scale (Vala)"
 
 #. (itstool) path: page/code
 #: C/scale.vala.page:27
@@ -26918,7 +27596,7 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Orientation.html\">Gtk.
 #: C/scrolledwindow.c.page:8
 msgctxt "text"
 msgid "ScrolledWindow (C)"
-msgstr ""
+msgstr "ScrolledWindow (C)"
 
 #. (itstool) path: info/desc
 #: C/scrolledwindow.c.page:20 C/scrolledwindow.js.page:18 C/scrolledwindow.py.page:19 C/scrolledwindow.vala.page:19
@@ -26928,7 +27606,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/scrolledwindow.c.page:23 C/scrolledwindow.js.page:21 C/scrolledwindow.py.page:22 C/scrolledwindow.vala.page:22
 msgid "ScrolledWindow"
-msgstr ""
+msgstr "ScrolledWindow"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -27022,7 +27700,7 @@ msgstr ""
 #: C/scrolledwindow.js.page:8
 msgctxt "text"
 msgid "ScrolledWindow (JavaScript)"
-msgstr ""
+msgstr "ScrolledWindow (Javascript)"
 
 #. (itstool) path: section/code
 #: C/scrolledwindow.js.page:29
@@ -27102,7 +27780,7 @@ msgstr ""
 #: C/scrolledwindow.py.page:8
 msgctxt "text"
 msgid "ScrolledWindow (Python)"
-msgstr ""
+msgstr "ScrolledWindow (Python)"
 
 #. (itstool) path: section/code
 #: C/scrolledwindow.py.page:30
@@ -27158,7 +27836,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/scrolledwindow.py.page:33
 msgid "Useful methods for a ScrolledWindow widget"
-msgstr ""
+msgstr "Användbara metoder för en ScrolledWindow-komponent"
 
 #. (itstool) path: item/p
 #: C/scrolledwindow.py.page:35
@@ -27204,7 +27882,7 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkScrolledWindow.
 #: C/scrolledwindow.vala.page:8
 msgctxt "text"
 msgid "ScrolledWindow (Vala)"
-msgstr ""
+msgstr "ScrolledWindow (Vala)"
 
 #. (itstool) path: page/code
 #: C/scrolledwindow.vala.page:26
@@ -27556,7 +28234,8 @@ msgstr "Göra redigering enklare"
 msgid ""
 "In gedit's <gui>Preferences</gui> dialog, click on the <gui>Editor</gui> tab. You should see something like this:"
 msgstr ""
-"Klicka på fliken <gui>Editor</gui> i gedits dialogruta <gui>Inställningar</gui>. Du bör se något i stil med detta:"
+"Klicka på fliken <gui>Redigerare</gui> i gedits dialogruta <gui>Inställningar</gui>. Du bör se något i stil med "
+"detta:"
 
 #. (itstool) path: section/media
 #. This is a reference to an external file such as an image or video. When
@@ -27592,17 +28271,17 @@ msgstr ""
 #: C/signals-callbacks.py.page:9
 msgctxt "text"
 msgid "Signals and callbacks (Python)"
-msgstr ""
+msgstr "Signaler och återanrop (Python)"
 
 #. (itstool) path: info/desc
 #: C/signals-callbacks.py.page:14
 msgid "An explanation of signals and callbacks in GTK+."
-msgstr ""
+msgstr "En förklaring av signaler och återanrop i GTK+."
 
 #. (itstool) path: page/title
 #: C/signals-callbacks.py.page:27
 msgid "Signals and callbacks"
-msgstr ""
+msgstr "Signaler och återanrop"
 
 #. (itstool) path: section/p
 #: C/signals-callbacks.py.page:34
@@ -27649,6 +28328,7 @@ msgstr ""
 #: C/signals-callbacks.py.page:47
 msgid "<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Signals</link> in GObject documentation"
 msgstr ""
+"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Signaler</link> i GObject-dokumentationen"
 
 #. (itstool) path: section/p
 #: C/signals-callbacks.py.page:48
@@ -27867,6 +28547,8 @@ msgid ""
 "roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to go "
 "in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen SpinButtonExample. Koden ovan skapar en <link href=\"http://www.roojs."
+"com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/spinbutton.js.page:70
@@ -28096,7 +28778,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/spinbutton.js.page:190
 msgid "Finally, we create a new instance of the finished SpinButtonExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda SpinButtonExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/spinbutton.js.page:195
@@ -28294,7 +28976,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/spinbutton.py.page:35
 msgid "Useful methods for a SpinButton widget"
-msgstr ""
+msgstr "Användbara metoder för en SpinButton-komponent"
 
 #. (itstool) path: section/p
 #: C/spinbutton.py.page:36
@@ -28314,6 +28996,9 @@ msgid ""
 "code> using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link "
 "xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 23 ansluts signalen <code>\"value-changed\"</code> till återanropsfunktionen <code>spin_selected()</code> "
+"med <code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/spinbutton.py.page:39
@@ -28403,7 +29088,7 @@ msgstr "Spinner (C)"
 #. (itstool) path: info/desc
 #: C/spinner.c.page:19 C/spinner.js.page:18 C/spinner.py.page:19 C/spinner.vala.page:18
 msgid "A spinner animation"
-msgstr ""
+msgstr "En animerad väntesnurra"
 
 #. (itstool) path: page/title
 #: C/spinner.c.page:22 C/spinner.js.page:21 C/spinner.py.page:22 C/spinner.vala.page:21
@@ -28423,7 +29108,7 @@ msgstr "external ref='media/spinner.png' md5='d04f2d81f1d72c6c2f97e8729947dfed'"
 #. (itstool) path: page/p
 #: C/spinner.c.page:25 C/spinner.js.page:23 C/spinner.py.page:24 C/spinner.vala.page:23
 msgid "This Spinner is stopped and started by pressing the spacebar."
-msgstr ""
+msgstr "Denna Spinner stoppas och startas genom tryck på blankstegstangenten."
 
 #. (itstool) path: page/code
 #: C/spinner.c.page:27
@@ -28779,6 +29464,57 @@ msgid ""
 "\treturn new MyApplication ().run (args);\n"
 "}\n"
 msgstr ""
+"public class MyWindow : Gtk.ApplicationWindow {\n"
+"\n"
+"\tGtk.Widget spinner;\n"
+"\n"
+"\tinternal MyWindow (MyApplication app) {\n"
+"\n"
+"\t\tObject (application: app, title: \"Spinner-exempel\");\n"
+"\n"
+"\t\tthis.set_default_size (200, 200);\n"
+"\t\tthis.border_width = 30;\n"
+"\n"
+"\t\tspinner = new Gtk.Spinner ();\n"
+"\n"
+"\t\tthis.add (spinner);\n"
+"\t\t(spinner as Gtk.Spinner).active = true;\n"
+"\t\tspinner.show ();\n"
+"\t}\n"
+"\n"
+"\tprotected override bool key_press_event (Gdk.EventKey event) {\n"
+"\n"
+"\t\t//print (Gdk.keyval_name(event.keyval) +\"\\n\");\n"
+"\t\tif (Gdk.keyval_name(event.keyval) == \"space\") {\n"
+"\n"
+"\t\t\tif ((spinner as Gtk.Spinner).active) {\n"
+"\t\t\t\t(spinner as Gtk.Spinner).stop ();\n"
+"\t\t\t\t//spinner.visible = false;\n"
+"\t\t\t}\n"
+"\t\t\telse {\n"
+"\t\t\t\t(spinner as Gtk.Spinner).start ();\n"
+"\t\t\t\t//spinner.visible = true;\n"
+"\t\t\t}\n"
+"\t\t}\n"
+"\t\treturn true;\n"
+"\t}\n"
+"}\n"
+"\n"
+"public class MyApplication : Gtk.Application {\n"
+"\n"
+"\tprotected override void activate () {\n"
+"\t\tMyWindow window = new MyWindow (this);\n"
+"\t\twindow.show ();\n"
+"\t}\n"
+"\n"
+"\tinternal MyApplication () {\n"
+"\t\tObject (application_id: \"org.example.spinner\");\n"
+"\t}\n"
+"}\n"
+"\n"
+"public int main (string[] args) {\n"
+"\treturn new MyApplication ().run (args);\n"
+"}\n"
 
 #. (itstool) path: item/p
 #: C/spinner.vala.page:30
@@ -28799,17 +29535,17 @@ msgstr "<link href=\"http://www.valadoc.org/gdk-3.0/Gdk.keyval_name.html\">Gdk.k
 #: C/statusbar.c.page:8
 msgctxt "text"
 msgid "Statusbar (C)"
-msgstr ""
+msgstr "Statusbar (C)"
 
 #. (itstool) path: info/desc
 #: C/statusbar.c.page:22 C/statusbar.py.page:20 C/statusbar.vala.page:21
 msgid "Report messages of minor importance to the user"
-msgstr ""
+msgstr "Rapportera meddelanden av mindre vikt till användaren"
 
 #. (itstool) path: page/title
 #: C/statusbar.c.page:25 C/statusbar.js.page:21 C/statusbar.py.page:23 C/statusbar.vala.page:24
 msgid "Statusbar"
-msgstr ""
+msgstr "Statusbar"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -28952,12 +29688,12 @@ msgstr ""
 #: C/statusbar.js.page:8
 msgctxt "text"
 msgid "Statusbar (JavaScript)"
-msgstr ""
+msgstr "Statusbar (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/statusbar.js.page:18
 msgid "Show notifications in a dedicated statusbar"
-msgstr ""
+msgstr "Visa aviseringar i en för det avsedd statusrad"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -29023,6 +29759,8 @@ msgid ""
 "roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to go "
 "in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen StatusbarExample. Koden ovan skapar en <link href=\"http://www.roojs."
+"com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/statusbar.js.page:68
@@ -29058,7 +29796,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/statusbar.js.page:88
 msgid "Creating the buttons"
-msgstr ""
+msgstr "Skapa knapparna"
 
 #. (itstool) path: section/code
 #: C/statusbar.js.page:89
@@ -29272,7 +30010,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/statusbar.js.page:212
 msgid "Finally, we create a new instance of the finished StatusbarExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda StatusbarExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/statusbar.js.page:217
@@ -29536,7 +30274,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/statusbar.py.page:40
 msgid "Useful methods for a Statusbar widget"
-msgstr ""
+msgstr "Användbara metoder för en Statusbar-komponent"
 
 #. (itstool) path: section/p
 #: C/statusbar.py.page:41
@@ -29545,6 +30283,9 @@ msgid ""
 "code> using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link "
 "xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 17 ansluts signalen <code>\"clicked\"</code> till återanropsfunktionen <code>button_clicked_cb()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/statusbar.py.page:43
@@ -29587,7 +30328,7 @@ msgstr "Statusbar (Vala)"
 #. (itstool) path: page/p
 #: C/statusbar.vala.page:26
 msgid "This statusbar tells you what's going on."
-msgstr ""
+msgstr "Denna statusrad säger till dig vad som händer."
 
 #. (itstool) path: page/code
 #: C/statusbar.vala.page:28
@@ -29666,27 +30407,27 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Statusbar.html\">Gtk.St
 #: C/strings.py.page:9
 msgctxt "text"
 msgid "Strings (Python)"
-msgstr ""
+msgstr "Strängar (Python)"
 
 #. (itstool) path: info/desc
 #: C/strings.py.page:14
 msgid "An explanation of how to deal with strings in Python and GTK+."
-msgstr ""
+msgstr "En förklaring hur du hanterar strängar i Python och GTK+."
 
 #. (itstool) path: page/title
 #: C/strings.py.page:27
 msgid "Strings"
-msgstr ""
+msgstr "Strängar"
 
 #. (itstool) path: note/p
 #: C/strings.py.page:31
 msgid "GNOME strongly encourages the use of Python 3 for writing applications!"
-msgstr ""
+msgstr "GNOME rekommenderar starkt att använda Python 3 för att skriva program!"
 
 #. (itstool) path: section/title
 #: C/strings.py.page:34
 msgid "Strings in Python 2"
-msgstr ""
+msgstr "Strängar i Python 2"
 
 #. (itstool) path: section/p
 #: C/strings.py.page:36
@@ -29741,7 +30482,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/strings.py.page:62
 msgid "Strings in Python 3"
-msgstr ""
+msgstr "Strängar i Python 3"
 
 #. (itstool) path: section/p
 #: C/strings.py.page:64
@@ -29779,7 +30520,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/strings.py.page:83
 msgid "Unicode in GTK+"
-msgstr ""
+msgstr "Unicode i GTK+"
 
 #. (itstool) path: section/p
 #: C/strings.py.page:85
@@ -30026,6 +30767,8 @@ msgid ""
 "<link href=\"http://en.wikipedia.org/wiki/File:Fuzzy_Freddy.jpg\">Red fox photo</link> by Rob Lee, licensed <link "
 "href=\"http://creativecommons.org/licenses/by/2.0/deed.en\">CC-By</link>"
 msgstr ""
+"<link href=\"http://en.wikipedia.org/wiki/File:Fuzzy_Freddy.jpg\">Foto av röd räv</link> av Rob Lee, licensierat "
+"<link href=\"http://creativecommons.org/licenses/by/2.0/deed.en\">CC-By</link>"
 
 #. (itstool) path: item/p
 #: C/switch.js.page:27
@@ -30034,6 +30777,9 @@ msgid ""
 "jpg\">Gentoo penguin photo</link> by Ken Funakoshi, licensed <link href=\"http://creativecommons.org/licenses/by-"
 "sa/2.0/deed.en\">CC-By-SA</link>"
 msgstr ""
+"<link href=\"http://en.wikipedia.org/wiki/File:Pygoscelis_papua_-Nagasaki_Penguin_Aquarium_-swimming_underwater-8a."
+"jpg\">Foto av åsnepingvin</link> av Ken Funakoshi, licensierat <link href=\"http://creativecommons.org/licenses/by-"
+"sa/2.0/deed.en\">CC-By-SA</link>"
 
 #. (itstool) path: item/p
 #: C/switch.js.page:28
@@ -30041,6 +30787,8 @@ msgid ""
 "<link href=\"http://www.flickr.com/photos/shekgraham/127431519/in/photostream/\">Fruit bat photo</link> by Shek "
 "Graham, licensed <link href=\"http://creativecommons.org/licenses/by/2.0/deed.en\">CC-By</link>"
 msgstr ""
+"<link href=\"http://www.flickr.com/photos/shekgraham/127431519/in/photostream/\">Foto av flyghund</link> av Shek "
+"Graham, licensierat <link href=\"http://creativecommons.org/licenses/by/2.0/deed.en\">CC-By</link>"
 
 #. (itstool) path: item/p
 #: C/switch.js.page:29
@@ -30048,6 +30796,8 @@ msgid ""
 "<link href=\"http://commons.wikimedia.org/wiki/File:Mute_Swan-Mindaugas_Urbonas.jpg\">Mute swan photo</link> by "
 "Mindaugas Urbonas, licensed <link href=\"http://creativecommons.org/licenses/by-sa/2.5/deed.en\">CC-By-SA</link>"
 msgstr ""
+"<link href=\"http://commons.wikimedia.org/wiki/File:Mute_Swan-Mindaugas_Urbonas.jpg\">Foto av knölsvan</link> av "
+"Mindaugas Urbonas, licensierat <link href=\"http://creativecommons.org/licenses/by-sa/2.5/deed.en\">CC-By-SA</link>"
 
 #. (itstool) path: note/p
 #: C/switch.js.page:31
@@ -30096,6 +30846,8 @@ msgid ""
 "roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to go "
 "in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen SwitchExample. Koden ovan skapar en <link href=\"http://www.roojs.com/"
+"seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/switch.js.page:77
@@ -30112,11 +30864,21 @@ msgid ""
 "            border_width: 20,\n"
 "            title: \"Animal Creator\"});\n"
 msgstr ""
+"\n"
+"    // Bygg programmets användargränssnitt\n"
+"    _buildUI: function() {\n"
+"\n"
+"        // Skapa programfönstret\n"
+"        this._window = new Gtk.ApplicationWindow({\n"
+"            application: this.application,\n"
+"            window_position: Gtk.WindowPosition.CENTER,\n"
+"            border_width: 20,\n"
+"            title: \"Djurskapare\"});\n"
 
 #. (itstool) path: section/title
 #: C/switch.js.page:92
 msgid "Creating the switches"
-msgstr ""
+msgstr "Skapa brytarna"
 
 #. (itstool) path: section/code
 #: C/switch.js.page:93
@@ -30126,6 +30888,9 @@ msgid ""
 "        // Create the image widget and set its default picture\n"
 "        this._image = new Gtk.Image ({file: \"redfox.png\"});\n"
 msgstr ""
+"\n"
+"        // Skapa bildkomponenten och ställ in dess standardbild\n"
+"        this._image = new Gtk.Image ({file: \"redfox.png\"});\n"
 
 #. (itstool) path: section/p
 #: C/switch.js.page:98
@@ -30265,7 +31030,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/switch.js.page:185
 msgid "Creating the AboutDialog"
-msgstr ""
+msgstr "Skapa AboutDialog"
 
 #. (itstool) path: section/code
 #: C/switch.js.page:186
@@ -30372,7 +31137,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/switch.js.page:255
 msgid "Finally, we create a new instance of the finished SwitchExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda SwitchExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/switch.js.page:260
@@ -30561,7 +31326,7 @@ msgstr "Switch (Python)"
 #. (itstool) path: page/p
 #: C/switch.py.page:26
 msgid "This Switch makes the title appears and disappear."
-msgstr ""
+msgstr "Denna Switch får titeln att visas och försvinna."
 
 #. (itstool) path: section/code
 #: C/switch.py.page:33
@@ -30632,7 +31397,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/switch.py.page:37
 msgid "Useful methods for a Switch widget"
-msgstr ""
+msgstr "Användbara metoder för en Switch-komponent"
 
 #. (itstool) path: section/p
 #: C/switch.py.page:38
@@ -30641,6 +31406,9 @@ msgid ""
 "code> using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link "
 "xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 17 ansluts signalen <code>\"notify::active\"</code> till återanropsfunktionen <code>activate_cb()</code> "
+"med <code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/switch.py.page:45
@@ -30724,35 +31492,41 @@ msgstr "TextView (C)"
 #. (itstool) path: info/desc
 #: C/textview.c.page:18 C/textview.vala.page:18
 msgid "Widget which displays a GtkTextBuffer"
-msgstr ""
+msgstr "Komponent som visar en GtkTextBuffer"
 
 #. (itstool) path: page/title
 #: C/textview.c.page:21 C/textview.vala.page:21
 msgid "TextView widget"
-msgstr ""
+msgstr "TextView-komponent"
 
 #. (itstool) path: note/p
 #: C/textview.c.page:22 C/textview.py.page:33 C/textview.vala.page:22
 msgid "If we press \"enter\", we have a new line."
-msgstr ""
+msgstr "Om vi trycker ”Retur” får vi en ny rad."
 
+# TODO: more times than there are
 #. (itstool) path: note/p
 #: C/textview.c.page:23 C/textview.vala.page:23
 msgid ""
 "If we press \"enter\" more times then there are lines in the default sized window, then a vertical scrollbar "
 "appears."
 msgstr ""
+"Om vi trycker ”Retur” fler gånger än det finns rader i fönstrets standardstorlek så visas en vertikal "
+"rullningslist."
 
 #. (itstool) path: note/p
 #: C/textview.c.page:24 C/textview.vala.page:24
 msgid "If we write a long sentence, the text will wrap breaking lines between words."
-msgstr ""
+msgstr "Om vi skriver en lång mening kommer texten radbrytas mellan ord."
 
 #. (itstool) path: note/p
 #: C/textview.c.page:25
+#, fuzzy
 msgid ""
 "If we have a loooooooooooooooooooooooooooooooooooong (that was long) word, a* horizontal scrollbar will appear."
 msgstr ""
+"Om vi har ett låååååååååååååååååååååååååååååååååångt (det var långt) ord, så* kommer en horisontell rullningslist "
+"att visas."
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -30767,7 +31541,7 @@ msgstr "external ref='media/textview.png' md5='049e859ed1af2d7c93d8cb5cfd9f7792'
 #. (itstool) path: page/p
 #: C/textview.c.page:28 C/textview.vala.page:28
 msgid "This is an example of Gtk.TextView"
-msgstr ""
+msgstr "Detta är ett exempel på Gtk.TextView"
 
 #. (itstool) path: page/code
 #: C/textview.c.page:30
@@ -30861,7 +31635,7 @@ msgstr "TextView (Javascript)"
 #. (itstool) path: info/desc
 #: C/textview.js.page:22
 msgid "A multiline text editor"
-msgstr ""
+msgstr "En textredigerare med flera rader"
 
 #. (itstool) path: page/title
 #: C/textview.js.page:25 C/textview.py.page:30
@@ -30959,6 +31733,8 @@ msgid ""
 "roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to go "
 "in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen TextViewExample. Koden ovan skapar en <link href=\"http://www.roojs.com/"
+"seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/textview.js.page:75
@@ -31223,7 +31999,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/textview.js.page:239
 msgid "Finally, we create a new instance of the finished TextViewExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda TextViewExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/textview.js.page:244
@@ -31405,33 +32181,33 @@ msgstr "TextView (Python)"
 #. (itstool) path: info/desc
 #: C/textview.py.page:27
 msgid "Widget that displays a GtkTextBuffer"
-msgstr ""
+msgstr "Komponent som visar en GtkTextBuffer"
 
 #. (itstool) path: note/p
 #: C/textview.py.page:32
 msgid "This is an example of Gtk.TextView."
-msgstr ""
+msgstr "Detta är ett exempel på Gtk.TextView."
 
 #. (itstool) path: note/p
 #: C/textview.py.page:34
 msgid ""
 "But we can also have a new line if we write a long sentence (the text will wrap breaking lines between words)."
-msgstr ""
+msgstr "Men vi kan också få en ny rad om vi skriver en lång mening (texten kommer att radbrytas mellan ord)."
 
 #. (itstool) path: note/p
 #: C/textview.py.page:35
 msgid "If we have a loooooooooooooooooooooooooooooooooooong"
-msgstr ""
+msgstr "Om vi har ett låååååååååååååååååååååååååååååååååångt"
 
 #. (itstool) path: note/p
 #: C/textview.py.page:36
 msgid "(that was long)"
-msgstr ""
+msgstr "(det var långt)"
 
 #. (itstool) path: note/p
 #: C/textview.py.page:37
 msgid "word, an horizontal scrollbar will appear."
-msgstr ""
+msgstr "ord, så kommer en horisontell rullningslist att visas."
 
 #. (itstool) path: section/code
 #: C/textview.py.page:46
@@ -31488,7 +32264,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/textview.py.page:50
 msgid "Useful methods for a TextView widget"
-msgstr ""
+msgstr "Användbara metoder för en TextView-komponent"
 
 #. (itstool) path: section/p
 #: C/textview.py.page:51
@@ -31505,7 +32281,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/textview.py.page:52
 msgid "Methods for a TextView widget:"
-msgstr ""
+msgstr "Metoder för en TextView-komponent:"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:54
@@ -31533,7 +32309,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/textview.py.page:58
 msgid "Methods for a TextBuffer widget:"
-msgstr ""
+msgstr "Metoder för en TextBuffer-komponent:"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:60
@@ -31603,52 +32379,53 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/textview.py.page:71
 msgid "The following are some of the common styles applied to text:"
-msgstr ""
+msgstr "Följande är några av de vanliga stilarna som tillämpas på text:"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:73
 msgid "Background colour (\"background\" property)"
-msgstr ""
+msgstr "Bakgrundsfärg (egenskapen ”background”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:74
 msgid "Foreground colour (\"foreground\" property)"
-msgstr ""
+msgstr "Förgrundsfärg (egenskapen ”foreground”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:75
 msgid "Underline (\"underline\" property)"
-msgstr ""
+msgstr "Understruken (egenskapen ”underline”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:76
 msgid "Bold (\"weight\" property)"
-msgstr ""
+msgstr "Fet (egenskapen ”weight”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:77
 msgid "Italics (\"style\" property)"
-msgstr ""
+msgstr "Kursiv (egenskapen ”style”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:78
 msgid "Strikethrough (\"strikethrough\" property)"
-msgstr ""
+msgstr "Genomstruken (egenskapen ”strikethrough”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:79
 msgid "Justification (\"justification\" property)"
-msgstr ""
+msgstr "Justering (egenskapen ”justification”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:80
 msgid "Size (\"size\" and \"size-points\" properties)"
-msgstr ""
+msgstr "Storlek (egenskaperna ”size” och ”size-points”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:81
+#, fuzzy
 msgid "Text wrapping (\"wrap-mode\" property)"
-msgstr ""
+msgstr "Textradbrytning (egenskapen ”wrap-mode”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:83
@@ -31656,11 +32433,13 @@ msgid ""
 "You can also delete particular tags later using <code>remove_tag()</code> or delete all tags in a given region by "
 "calling <code>remove_all_tags()</code>."
 msgstr ""
+"Du kan också ta bort specifika taggar senare med <code>remove_tag()</code> eller ta bort alla taggar i en angiven "
+"region genom att anropa <code>remove_all_tags()</code>."
 
 #. (itstool) path: section/p
 #: C/textview.py.page:85
 msgid "Methods for a TextIter widget"
-msgstr ""
+msgstr "Metoder för en TextIter-komponent"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:87
@@ -31706,7 +32485,7 @@ msgstr "TextView (Vala)"
 #. (itstool) path: note/p
 #: C/textview.vala.page:25
 msgid "If we have a loooooooooooooooooooooooooooooooooooong word, a horizontal scrollbar will appear."
-msgstr ""
+msgstr "Om vi har ett låååååååååååååååååååååååååååååååååångt ord, så kommer en horisontell rullningslist att visas."
 
 #. (itstool) path: page/code
 #: C/textview.vala.page:30
@@ -31892,7 +32671,7 @@ msgstr "ToggleButton (Javascript)"
 #. (itstool) path: info/desc
 #: C/togglebutton.js.page:18
 msgid "Stays pressed until you click it again"
-msgstr ""
+msgstr "Förblir nedtryckt tills du trycker på den igen"
 
 #. (itstool) path: page/p
 #: C/togglebutton.js.page:23
@@ -32247,7 +33026,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/togglebutton.py.page:36
 msgid "Useful methods for a ToggleButton widget"
-msgstr ""
+msgstr "Användbara metoder för en ToggleButton-komponent"
 
 #. (itstool) path: section/p
 #: C/togglebutton.py.page:37
@@ -32256,6 +33035,9 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 22 ansluts signalen <code>\"toggled\"</code> till återanropsfunktionen <code>toggled_cb()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/togglebutton.py.page:45 C/toolbar.py.page:60 C/toolbar_builder.py.page:198 C/widget_drawing.py.page:38
@@ -32619,7 +33401,7 @@ msgstr "Toolbar (Javascript)"
 #. (itstool) path: info/desc
 #: C/toolbar.js.page:18
 msgid "A bar of tools"
-msgstr ""
+msgstr "En rad med verktyg"
 
 #. (itstool) path: page/p
 #: C/toolbar.js.page:24 C/toolbar.vala.page:26
@@ -32826,12 +33608,12 @@ msgstr "Toolbar (Python)"
 #. (itstool) path: info/desc
 #: C/toolbar.py.page:20 C/toolbar_builder.py.page:33
 msgid "A bar of buttons and other widgets"
-msgstr ""
+msgstr "En rad med knappar och andra komponenter"
 
 #. (itstool) path: page/p
 #: C/toolbar.py.page:26
 msgid "An example of toolbar with buttons (from stock icons)."
-msgstr ""
+msgstr "Ett exempel på ett verktygsfält med knappar (från standardikoner)."
 
 #. (itstool) path: section/code
 #: C/toolbar.py.page:33
@@ -32981,7 +33763,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/toolbar.py.page:37
 msgid "Useful methods for a Toolbar widget"
-msgstr ""
+msgstr "Användbara metoder för en Toolbar-komponent"
 
 #. (itstool) path: section/p
 #: C/toolbar.py.page:38
@@ -32990,6 +33772,9 @@ msgid ""
 "callback function <code>undo_callback()</code> using <code><var>action</var>.connect(<var>signal</var>, "
 "<var>callback function</var>)</code>. See <link xref=\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 32 ansluts signalen <code>\"activate\"</code> från åtgärden <code>undo_action</code> till "
+"återanropsfunktionen <code>undo_callback()</code> med <code><var>åtgärd</var>.connect(<var>signal</var>, "
+"<var>återanropsfunktion</var>)</code>. Se <link xref=\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/toolbar.py.page:41
@@ -33244,7 +34029,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/toolbar_builder.py.page:44
 msgid "Creating the toolbar with Glade"
-msgstr ""
+msgstr "Skapa verktygsfältet med Glade"
 
 #. (itstool) path: section/p
 #. (itstool) path: page/p
@@ -33545,7 +34330,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:147 C/toolbar_builder.vala.page:130
 msgid "Save your work, and close Glade."
-msgstr ""
+msgstr "Spara ditt arbete och stäng Glade."
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:150 C/toolbar_builder.vala.page:133
@@ -33566,6 +34351,7 @@ msgid ""
 "  "
 msgstr ""
 
+# TODO: different than the screenshot
 #. (itstool) path: item/p
 #: C/toolbar_builder.py.page:156 C/toolbar_builder.vala.page:139
 msgid ""
@@ -33678,7 +34464,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/toolbar_builder.py.page:166 C/toolbar_builder.vala.page:144
 msgid "We now create the code below, which adds the toolbar from the file we just created."
-msgstr ""
+msgstr "Vi skapar nu koden nedan, vilken lägger till verktygsfältet från filen vi just skapade."
 
 #. (itstool) path: section/code
 #: C/toolbar_builder.py.page:167
@@ -33796,12 +34582,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/toolbar_builder.py.page:172
 msgid "Useful methods for Gtk.Builder"
-msgstr ""
+msgstr "Användbara metoder för Gtk.Builder"
 
 #. (itstool) path: section/p
 #: C/toolbar_builder.py.page:173
 msgid "For the useful methods for a Toolbar widget, see <link xref=\"toolbar.py\"/>"
-msgstr ""
+msgstr "För de användbara metoderna för en Toolbar-komponent, se <link xref=\"toolbar.py\"/>"
 
 #. (itstool) path: section/p
 #: C/toolbar_builder.py.page:175
@@ -34024,7 +34810,7 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/tooltip.c.page:26
 msgid "This example builds on the <link xref=\"toolbar.c\">Toolbar</link> example."
-msgstr ""
+msgstr "Detta exempel bygger på <link xref=\"toolbar.c\">Toolbar</link>-exemplet."
 
 #. (itstool) path: section/code
 #: C/tooltip.c.page:31
@@ -34240,7 +35026,7 @@ msgstr "Tooltip (Javascript)"
 #. (itstool) path: note/p
 #: C/tooltip.js.page:25
 msgid "This example builds on the <link xref=\"toolbar.js\">Toolbar</link> example."
-msgstr ""
+msgstr "Detta exempel bygger på <link xref=\"toolbar.js\">Toolbar</link>-exemplet."
 
 #. (itstool) path: section/code
 #: C/tooltip.js.page:30
@@ -34429,7 +35215,7 @@ msgstr "Tooltip (Python)"
 #. (itstool) path: note/p
 #: C/tooltip.py.page:26
 msgid "This example builds on the <link xref=\"toolbar.py\">Toolbar</link> example."
-msgstr ""
+msgstr "Detta exempel bygger på <link xref=\"toolbar.py\">Toolbar</link>-exemplet."
 
 #. (itstool) path: section/code
 #: C/tooltip.py.page:32
@@ -34567,7 +35353,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/tooltip.py.page:36
 msgid "Useful methods for a Tooltip widget"
-msgstr ""
+msgstr "Användbara metoder för en Tooltip-komponent"
 
 #. (itstool) path: section/p
 #: C/tooltip.py.page:38
@@ -34640,7 +35426,7 @@ msgstr "Tooltip (Vala)"
 #. (itstool) path: note/p
 #: C/tooltip.vala.page:25
 msgid "This example builds on the <link xref=\"toolbar.vala\">Toolbar</link> example."
-msgstr ""
+msgstr "Detta exempel bygger på <link xref=\"toolbar.vala\">Toolbar</link>-exemplet."
 
 #. (itstool) path: section/code
 #: C/tooltip.vala.page:31
@@ -34829,17 +35615,17 @@ msgstr ""
 #: C/treeview_advanced_liststore.py.page:8
 msgctxt "text"
 msgid "Simple Treeview with ListStore (Python)"
-msgstr ""
+msgstr "Enkel TreeView med ListStore (Python)"
 
 #. (itstool) path: info/desc
 #: C/treeview_advanced_liststore.py.page:19
 msgid "A TreeView displaying a ListStore (more complex example)"
-msgstr ""
+msgstr "En TreeView som visar en ListStore (mer komplext exempel)"
 
 #. (itstool) path: page/title
 #: C/treeview_advanced_liststore.py.page:22
 msgid "More Complex Treeview with ListStore"
-msgstr ""
+msgstr "Mer komplex TreeView med ListStore"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -35002,7 +35788,7 @@ msgstr ""
 #: C/treeview_advanced_liststore.py.page:35 C/treeview_cellrenderertoggle.py.page:35
 #: C/treeview_simple_liststore.py.page:36 C/treeview_treestore.py.page:36
 msgid "Useful methods for a TreeView widget"
-msgstr ""
+msgstr "Användbara metoder för en TreeView-komponent"
 
 #. (itstool) path: section/p
 #: C/treeview_advanced_liststore.py.page:36 C/treeview_cellrenderertoggle.py.page:36 C/treeview_treestore.py.page:37
@@ -35020,22 +35806,25 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 36 ansluts signalen <code>\"changed\"</code> till återanropsfunktionen <code>on_changed()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: info/title
 #: C/treeview_cellrenderertoggle.py.page:8 C/treeview_treestore.py.page:8
 msgctxt "text"
 msgid "TreeView with TreeStore (Python)"
-msgstr ""
+msgstr "TreeView med TreeStore (Python)"
 
 #. (itstool) path: info/desc
 #: C/treeview_cellrenderertoggle.py.page:19
 msgid "A TreeView displaying a TreeStore (more complex example, with CellRendererToggle)"
-msgstr ""
+msgstr "En TreeView som visar en TreeStore (mer komplext exempel, med CellRendererToggle)"
 
 #. (itstool) path: page/title
 #: C/treeview_cellrenderertoggle.py.page:22
 msgid "More Complex TreeView with TreeStore"
-msgstr ""
+msgstr "Mer komplex TreeView med TreeStore"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -35174,6 +35963,9 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 48 ansluts signalen <code>\"toggled\"</code> till återanropsfunktionen <code>on_toggled()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/treeview_cellrenderertoggle.py.page:46 C/treeview_treestore.py.page:46
@@ -35191,7 +35983,7 @@ msgstr ""
 #: C/treeview_simple_liststore.js.page:8
 msgctxt "text"
 msgid "TreeView with ListStore (JavaScript)"
-msgstr ""
+msgstr "TreeView med ListStore (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/treeview_simple_liststore.js.page:21
@@ -35201,7 +35993,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/treeview_simple_liststore.js.page:24
 msgid "TreeView with ListStore"
-msgstr ""
+msgstr "TreeView med ListStore"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -35317,6 +36109,8 @@ msgid ""
 "roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> for our widgets and window to go "
 "in."
 msgstr ""
+"All kod för detta exempel hamnar i klassen TreeViewExample. Koden ovan skapar en <link href=\"http://www.roojs.com/"
+"seed/gir-1.2-gtk-3.0/gjs/Gtk.Application.html\">Gtk.Application</link> att ha våra komponenter och fönstret i."
 
 #. (itstool) path: section/code
 #: C/treeview_simple_liststore.js.page:77
@@ -35361,12 +36155,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/treeview_simple_liststore.js.page:105
 msgid "The GObject data types you can use include:"
-msgstr ""
+msgstr "GObject-datatyperna du kan använda inkluderar:"
 
 #. (itstool) path: item/p
 #: C/treeview_simple_liststore.js.page:110
 msgid "<file>gtk.gdk.Pixbuf</file> -- A picture"
-msgstr ""
+msgstr "<file>gtk.gdk.Pixbuf</file> -- en bild"
 
 #. (itstool) path: section/p
 #: C/treeview_simple_liststore.js.page:112
@@ -35581,7 +36375,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/treeview_simple_liststore.js.page:202
 msgid "Building the rest of the UI"
-msgstr ""
+msgstr "Bygga resten av användargränssnittet"
 
 #. (itstool) path: section/code
 #: C/treeview_simple_liststore.js.page:203
@@ -35709,7 +36503,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/treeview_simple_liststore.js.page:263
 msgid "Finally, we create a new instance of the finished TreeViewExample class, and set the application running."
-msgstr ""
+msgstr "Slutligen skapar vi en ny instans av den slutförda TreeViewExample-klassen, och startar programmet."
 
 #. (itstool) path: section/code
 #: C/treeview_simple_liststore.js.page:268
@@ -35881,17 +36675,17 @@ msgstr ""
 #: C/treeview_simple_liststore.py.page:8
 msgctxt "text"
 msgid "Simple TreeView with ListStore (Python)"
-msgstr ""
+msgstr "Enkel TreeView med ListStore (Python)"
 
 #. (itstool) path: info/desc
 #: C/treeview_simple_liststore.py.page:20
 msgid "A TreeView displaying a ListStore (simpler example)"
-msgstr ""
+msgstr "En TreeView som visar en ListStore (enklare exempel)"
 
 #. (itstool) path: page/title
 #: C/treeview_simple_liststore.py.page:23
 msgid "Simple TreeView with ListStore"
-msgstr ""
+msgstr "Enkel TreeView med ListStore"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -36009,6 +36803,9 @@ msgid ""
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
 "\"signals-callbacks.py\"/> for a more detailed explanation."
 msgstr ""
+"På rad 44 ansluts signalen <code>\"changed\"</code> till återanropsfunktionen <code>on_changed()</code> med "
+"<code><var>komponent</var>.connect(<var>signal</var>, <var>återanropsfunktion</var>)</code>. Se <link xref="
+"\"signals-callbacks.py\"/> för en utförligare förklaring."
 
 #. (itstool) path: item/p
 #: C/treeview_simple_liststore.py.page:51
@@ -36019,7 +36816,7 @@ msgstr "<link href=\"http://developer.gnome.org/pango/stable/pango-Fonts.html\">
 #: C/treeview_simple_liststore.vala.page:8
 msgctxt "text"
 msgid "Simple Treeview with ListStore (Vala)"
-msgstr ""
+msgstr "Enkel TreeView med ListStore (Vala)"
 
 #. (itstool) path: info/desc
 #: C/treeview_simple_liststore.vala.page:20
@@ -36029,7 +36826,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/treeview_simple_liststore.vala.page:23
 msgid "Simple Treeview with ListStore"
-msgstr ""
+msgstr "Enkel TreeView med ListStore"
 
 #. (itstool) path: page/p
 #: C/treeview_simple_liststore.vala.page:25
@@ -36180,12 +36977,12 @@ msgstr "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.TreeSelection.html\">Gt
 #. (itstool) path: info/desc
 #: C/treeview_treestore.py.page:20
 msgid "A TreeView displaying a TreeStore (simpler example)"
-msgstr ""
+msgstr "En TreeView som visar en TreeStore (enklare exempel)"
 
 #. (itstool) path: page/title
 #: C/treeview_treestore.py.page:23
 msgid "Simpler TreeView with TreeStore"
-msgstr ""
+msgstr "Enklare TreeView med TreeStore"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -36200,7 +36997,7 @@ msgstr "external ref='media/treeview_treestore.png' md5='5ca87bc4acd55c527b3fb5f
 #. (itstool) path: page/p
 #: C/treeview_treestore.py.page:25
 msgid "This TreeView displays a TreeStore."
-msgstr ""
+msgstr "Denna TreeView visar en TreeStore."
 
 #. (itstool) path: section/code
 #: C/treeview_treestore.py.page:32
@@ -36275,12 +37072,14 @@ msgstr ""
 #: C/tutorial.py.page:9
 msgctxt "text"
 msgid "Tutorial for beginners (Python)"
-msgstr ""
+msgstr "Handledning för nybörjare (Python)"
 
 #. (itstool) path: info/desc
 #: C/tutorial.py.page:13
 msgid "A tutorial for beginners who want to learn how to program GUIs using GTK+ in Python."
 msgstr ""
+"En handledning för nybörjare som vill lära sig hur de kan programmera grafiska användargränssnitt med GTK+ i "
+"Python."
 
 #. (itstool) path: credit/years
 #: C/tutorial.py.page:22
@@ -36296,6 +37095,8 @@ msgstr "Jim Campbell"
 #: C/tutorial.py.page:34
 msgid "By following these tutorials you will learn the basics of GUI programming using GTK+ in Python."
 msgstr ""
+"Genom att följa dessa handledningar kommer du att lära dig grundläggande programmering av grafiska "
+"användargränssnitt med GTK+ i Python."
 
 #. (itstool) path: synopsis/p
 #: C/tutorial.py.page:36
@@ -36311,28 +37112,28 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/tutorial.py.page:42
 msgid "To run the code samples"
-msgstr ""
+msgstr "För att köra kodexemplen"
 
 #. (itstool) path: section/p
 #: C/tutorial.py.page:44
 msgid "To run the code samples in the tutorial:"
-msgstr ""
+msgstr "För att köra kodexemplen i handledningen:"
 
 #. (itstool) path: item/p
 #: C/tutorial.py.page:46
 msgid "Type or copy and paste the code into a file, and save the file with a name like <var>filename</var>.py"
-msgstr ""
+msgstr "Skriv eller kopiera och klistra in koden i en fil, och spara filen med ett namn som <var>filnamn</var>.py"
 
 #. (itstool) path: item/p
 #: C/tutorial.py.page:47
 msgid "To execute the code, type in the terminal:"
-msgstr ""
+msgstr "Skriv följande i terminalen för att köra koden:"
 
 #. (itstool) path: item/screen
 #: C/tutorial.py.page:48
 #, no-wrap
 msgid "python <var>filename</var>.py"
-msgstr ""
+msgstr "python <var>filnamn</var>.py"
 
 #. (itstool) path: section/p
 #: C/tutorial.py.page:51
@@ -36361,17 +37162,17 @@ msgstr "Handledning"
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:60
 msgid "Basic windows"
-msgstr ""
+msgstr "Enkla fönster"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:65
 msgid "Images and labels"
-msgstr ""
+msgstr "Bilder och etiketter"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:71
 msgid "Introduction to properties"
-msgstr ""
+msgstr "Introduktion till egenskaper"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:75
@@ -36381,12 +37182,12 @@ msgstr ""
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:82
 msgid "Signals, callbacks and buttons"
-msgstr ""
+msgstr "Signaler, återanrop och knappar"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:96
 msgid "Other display widgets"
-msgstr ""
+msgstr "Andra visningskomponenter"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:102
@@ -36396,17 +37197,17 @@ msgstr ""
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:108
 msgid "A widget to write and display text"
-msgstr ""
+msgstr "En komponent för att skriva och visa text"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:112
 msgid "Dialogs"
-msgstr ""
+msgstr "Dialoger"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:118
 msgid "Menus, Toolbars and Tooltips (also: using Glade and GtkBuilder)"
-msgstr ""
+msgstr "Menyer, verktygsfält och inforutor (även: användning av Glade och GtkBuilder)"
 
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:133
@@ -36416,7 +37217,7 @@ msgstr ""
 #. (itstool) path: steps/title
 #: C/tutorial.py.page:143
 msgid "Custom widget"
-msgstr ""
+msgstr "Anpassad komponent"
 
 #. (itstool) path: info/title
 #: C/vala.page:7
@@ -36438,7 +37239,7 @@ msgstr "Kodexempel och handledning"
 #: C/weatherApp.js.page:7
 msgctxt "text"
 msgid "Weather application (JavaScript)"
-msgstr ""
+msgstr "Väderprogram (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/weatherApp.js.page:22
@@ -36446,11 +37247,13 @@ msgid ""
 "How to plan an application that uses asynchronous calls. Asynchronous calls will be presented through a weather "
 "application."
 msgstr ""
+"Hur du planerar ett program som använder asynkrona anrop. Asynkrona anrop kommer presenteras genom ett "
+"väderprogram."
 
 #. (itstool) path: page/title
 #: C/weatherApp.js.page:27
 msgid "Weather application"
-msgstr ""
+msgstr "Väderprogram"
 
 # TODO: we'll
 #. (itstool) path: synopsis/p
@@ -36462,16 +37265,21 @@ msgid ""
 "examples yourself, you need an editor to write code in, Terminal and GNOME 3 or higher installed into your "
 "computer. In this guide we we'll go through the following parts:"
 msgstr ""
+"I denna guide kommer vi konstruera ett väderprogram som använder asynkrona anrop. Väderinformation i detta exempel "
+"hämtas från geonames.org och programmet använder <link href=\"http://en.wikipedia.org/wiki/"
+"List_of_airports_by_ICAO_code:_E\">ICAO-koder </link> för att skicka din väderbegäran. För att skriva alla "
+"kodexemplen själv behöver du en redigerare att skriva kod i, Terminal samt GNOME 3 eller högre installerat på din "
+"dator. I denna guide kommer vi gå igenom följande delar:"
 
 #. (itstool) path: item/p
 #: C/weatherApp.js.page:32
 msgid "<link xref=\"#planningUi\">Planning the graphical user interface</link>"
-msgstr ""
+msgstr "<link xref=\"#planningUi\">Planera det grafiska användargränssnittet</link>"
 
 #. (itstool) path: item/p
 #: C/weatherApp.js.page:33
 msgid "<link xref=\"#asynchronous\">Asynchronous calls</link>"
-msgstr ""
+msgstr "<link xref=\"#asynchronous\">Asynkrona anrop</link>"
 
 #. (itstool) path: item/p
 #: C/weatherApp.js.page:34
@@ -36481,12 +37289,12 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/weatherApp.js.page:35
 msgid "<link xref=\"#main\">Local library GeoNames</link>"
-msgstr ""
+msgstr "<link xref=\"#main\">Det lokala biblioteket GeoNames</link>"
 
 #. (itstool) path: item/p
 #: C/weatherApp.js.page:36
 msgid "<link xref=\"#main\">Autotools and Icons</link>"
-msgstr ""
+msgstr "<link xref=\"#main\">Autotools och ikoner</link>"
 
 #. (itstool) path: page/media
 #. This is a reference to an external file such as an image or video. When
@@ -36501,7 +37309,7 @@ msgstr "external ref='media/weatherAppJs.png' md5='1fe859ac4854273d72ea8fc920363
 #. (itstool) path: section/title
 #: C/weatherApp.js.page:44
 msgid "Planning the graphical user interface"
-msgstr ""
+msgstr "Planera det grafiska användargränssnittet"
 
 #. (itstool) path: section/p
 #: C/weatherApp.js.page:45
@@ -36518,7 +37326,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/weatherApp.js.page:48
 msgid "Asynchronous calls"
-msgstr ""
+msgstr "Asynkrona anrop"
 
 #. (itstool) path: section/p
 #: C/weatherApp.js.page:49
@@ -36543,7 +37351,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/weatherApp.js.page:55
 msgid "The different parts of the program"
-msgstr ""
+msgstr "Programmets olika delar"
 
 #. (itstool) path: page/title
 #: C/weatherAppMain.js.page:19
@@ -36576,7 +37384,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/weatherAppMain.js.page:29
 msgid "<link xref=\"#weatherapp.js\">weatherapp.js</link>"
-msgstr ""
+msgstr "<link xref=\"#weatherapp.js\">weatherapp.js</link>"
 
 #. (itstool) path: section/p
 #: C/weatherAppMain.js.page:36
@@ -36595,6 +37403,9 @@ msgid ""
 "var Gtk = imports.gi.Gtk;\n"
 "const WeatherService = imports.geonames;"
 msgstr ""
+"\n"
+"var Gtk = imports.gi.Gtk;\n"
+"const WeatherService = imports.geonames;"
 
 #. (itstool) path: section/p
 #: C/weatherAppMain.js.page:45
@@ -36755,7 +37566,7 @@ msgstr "Weatherapp.js"
 #. (itstool) path: section/p
 #: C/weatherAppMain.js.page:143
 msgid "Weatherapp.js file looks like this:"
-msgstr ""
+msgstr "Filen weatherapp.js ser ut så här:"
 
 #. (itstool) path: section/code
 #: C/weatherAppMain.js.page:144
@@ -36856,7 +37667,7 @@ msgstr ""
 #: C/weatherAppMain.js.page:231
 #, no-wrap
 msgid " <output style=\"prompt\">$ </output><input> GJS_PATH=`pwd` gjs weatherapp.js</input>"
-msgstr ""
+msgstr " <output style=\"prompt\">$ </output><input> GJS_PATH=`pwd` gjs weatherapp.js</input>"
 
 #. (itstool) path: section/p
 #: C/weatherAppMain.js.page:232
@@ -36868,7 +37679,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/weatherAutotools.js.page:19
 msgid "Autotools and Icons"
-msgstr ""
+msgstr "Autotools och ikoner"
 
 #. (itstool) path: synopsis/p
 #: C/weatherAutotools.js.page:21
@@ -36882,17 +37693,17 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/weatherAutotools.js.page:24
 msgid "<link xref=\"#autotools\"> Autotools</link>"
-msgstr ""
+msgstr "<link xref=\"#autotools\"> Autotools</link>"
 
 #. (itstool) path: item/p
 #: C/weatherAutotools.js.page:25
 msgid "<link xref=\"#icons\">Custom icons for your application</link>"
-msgstr ""
+msgstr "<link xref=\"#icons\">Anpassade ikoner för ditt program</link>"
 
 #. (itstool) path: section/title
 #: C/weatherAutotools.js.page:32
 msgid "Autotools and necessary files"
-msgstr ""
+msgstr "Autotools och nödvändiga filer"
 
 #. (itstool) path: section/p
 #: C/weatherAutotools.js.page:33
@@ -36949,6 +37760,10 @@ msgid ""
 "export GJS_PATH=@bindir@\n"
 "gjs @bindir@/weatherapp.js"
 msgstr ""
+"\n"
+"#!/bin/sh\n"
+"export GJS_PATH=@bindir@\n"
+"gjs @bindir@/weatherapp.js"
 
 #. (itstool) path: section/p
 #: C/weatherAutotools.js.page:62
@@ -37073,11 +37888,15 @@ msgid ""
 "# This will run autoconf, automake, etc. for us\n"
 "autoreconf --force --install"
 msgstr ""
+"\n"
+"#!/bin/sh\n"
+"# Detta kommer köra autoconf, automake o.s.v. åt oss\n"
+"autoreconf --force --install"
 
 #. (itstool) path: section/title
 #: C/weatherAutotools.js.page:145
 msgid "Custom icons for your application"
-msgstr ""
+msgstr "Anpassade ikoner för ditt program"
 
 #. (itstool) path: section/p
 #: C/weatherAutotools.js.page:146
@@ -37108,7 +37927,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/weatherGeonames.js.page:19
 msgid "Local library geoNames"
-msgstr ""
+msgstr "Det lokala biblioteket geoNames"
 
 #. (itstool) path: synopsis/p
 #: C/weatherGeonames.js.page:21
@@ -37123,7 +37942,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/weatherGeonames.js.page:24
 msgid "<link xref=\"#geonamesimports\">Local library for getting the weather</link>"
-msgstr ""
+msgstr "<link xref=\"#geonamesimports\">Lokalt bibliotek för att erhålla vädret</link>"
 
 #. (itstool) path: item/p
 #: C/weatherGeonames.js.page:25
@@ -37133,22 +37952,22 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/weatherGeonames.js.page:26
 msgid "<link xref=\"#geonamesmethods\">Methods for geoNames</link>"
-msgstr ""
+msgstr "<link xref=\"#geonamesmethods\">Metoder för geoNames</link>"
 
 #. (itstool) path: item/p
 #: C/weatherGeonames.js.page:27
 msgid "<link xref=\"#geonames.js\">geonames.js </link>"
-msgstr ""
+msgstr "<link xref=\"#geonames.js\">geonames.js </link>"
 
 #. (itstool) path: section/title
 #: C/weatherGeonames.js.page:32
 msgid "Local library for getting the weather"
-msgstr ""
+msgstr "Lokalt bibliotek för att erhålla vädret"
 
 #. (itstool) path: section/p
 #: C/weatherGeonames.js.page:33
 msgid "For this we need a new file that will be our local library."
-msgstr ""
+msgstr "För detta behöver vi en ny fil som kommer vara vårt lokala bibliotek."
 
 #. (itstool) path: section/code
 #: C/weatherGeonames.js.page:34
@@ -37174,7 +37993,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/weatherGeonames.js.page:43
 msgid "Creating function GeoNames"
-msgstr ""
+msgstr "Skapa funktionen GeoNames"
 
 #. (itstool) path: section/code
 #: C/weatherGeonames.js.page:44
@@ -37189,6 +38008,14 @@ msgid ""
 "\n"
 "}\n"
 msgstr ""
+"\n"
+"function GeoNames(station) {\n"
+"  this.station = station;\n"
+"}\n"
+"\n"
+"GeoNames.prototype = {\n"
+"\n"
+"}\n"
 
 #. (itstool) path: section/p
 #: C/weatherGeonames.js.page:53
@@ -37201,7 +38028,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/weatherGeonames.js.page:57
 msgid "Methods for GeoNames"
-msgstr ""
+msgstr "Metoder för geoNames"
 
 #. (itstool) path: section/code
 #: C/weatherGeonames.js.page:58
@@ -37350,7 +38177,7 @@ msgstr "external ref='media/widget_drawing.png' md5='d00abd8cb9e158018c57fd75b81
 #. (itstool) path: page/p
 #: C/widget_drawing.py.page:23
 msgid "Enter an angle, visualize it."
-msgstr ""
+msgstr "Ange en vinkel, visualisera den."
 
 #. (itstool) path: section/code
 #: C/widget_drawing.py.page:30
@@ -37455,22 +38282,23 @@ msgstr "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkDrawingArea.htm
 #: C/widget_drawing.py.page:40
 msgid "<link href=\"http://www.tortall.net/mu/wiki/CairoTutorial\">The Cairo Tutorial for Python Programmers</link>"
 msgstr ""
+"<link href=\"http://www.tortall.net/mu/wiki/CairoTutorial\">Cairo-handledningen för Python-programmerare</link>"
 
 #. (itstool) path: info/title
 #: C/window.c.page:8
 msgctxt "text"
 msgid "Window (C)"
-msgstr ""
+msgstr "Window (C)"
 
 #. (itstool) path: info/desc
 #: C/window.c.page:18 C/window.py.page:25 C/window.vala.page:18
 msgid "A toplevel window which can contain other widgets"
-msgstr ""
+msgstr "Ett toppnivåfönster som kan innehålla andra komponenter"
 
 #. (itstool) path: page/title
 #: C/window.c.page:21 C/window.js.page:21 C/window.py.page:28 C/window.vala.page:21
 msgid "Window"
-msgstr ""
+msgstr "Window"
 
 #. (itstool) path: page/p
 #: C/window.c.page:24
@@ -37478,6 +38306,8 @@ msgid ""
 "A minimal GtkApplication. Use <link xref=\"GtkApplicationWindow.c\">Application Window</link> if you need GMenu "
 "support."
 msgstr ""
+"En minimal GtkApplication. Använd <link xref=\"GtkApplicationWindow.c\">ApplicationWindow</link> om du behöver "
+"GMenu-stöd."
 
 #. (itstool) path: page/code
 #: C/window.c.page:28
@@ -37513,12 +38343,41 @@ msgid ""
 "  return status;\n"
 "}\n"
 msgstr ""
+"\n"
+"#include &lt;gtk/gtk.h&gt;\n"
+"\n"
+"static void\n"
+"activate (GtkApplication *app,\n"
+"          gpointer        user_data)\n"
+"{\n"
+"  GtkWidget *window;\n"
+"\n"
+"  window = gtk_window_new (GTK_WINDOW_TOPLEVEL);\n"
+"\n"
+"  gtk_window_set_application (GTK_WINDOW (window), GTK_APPLICATION (app));\n"
+"  gtk_window_set_title (GTK_WINDOW (window), \"Hej GNOME\");\n"
+"\n"
+"  gtk_widget_show_all (GTK_WIDGET (window));\n"
+"}\n"
+"\n"
+"int\n"
+"main (int argc, char **argv)\n"
+"{\n"
+"  GtkApplication *app;\n"
+"  int status;\n"
+"\n"
+"  app = gtk_application_new (\"org.gtk.example\",G_APPLICATION_FLAGS_NONE);\n"
+"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+"  g_object_unref (app);\n"
+"  return status;\n"
+"}\n"
 
 #. (itstool) path: info/title
 #: C/window.js.page:8
 msgctxt "text"
 msgid "Window (JavaScript)"
-msgstr ""
+msgstr "Window (Javascript)"
 
 #. (itstool) path: info/desc
 #: C/window.js.page:18
@@ -37596,17 +38455,17 @@ msgstr "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.Window.ht
 #: C/window.py.page:8
 msgctxt "text"
 msgid "Window (Python)"
-msgstr ""
+msgstr "Window (Python)"
 
 #. (itstool) path: td/p
 #: C/window.py.page:34
 msgid "A minimal GTK+ Application: a window with a title."
-msgstr ""
+msgstr "Ett minimalt GTK+-program: ett fönster med en titel."
 
 #. (itstool) path: td/p
 #: C/window.py.page:37
 msgid "Use <link xref=\"GtkApplicationWindow.py\"/> if you need <link xref=\"gmenu.py\"/> support."
-msgstr ""
+msgstr "Använd <link xref=\"GtkApplicationWindow.py\"/> om du behöver <link xref=\"gmenu.py\"/>-stöd."
 
 #. (itstool) path: section/code
 #: C/window.py.page:47
@@ -37636,23 +38495,23 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/window.py.page:52
 msgid "Useful methods for a Window widget"
-msgstr ""
+msgstr "Användbara metoder för en Window-komponent"
 
 #. (itstool) path: info/title
 #: C/window.vala.page:8
 msgctxt "text"
 msgid "Window (Vala)"
-msgstr ""
+msgstr "Window (Vala)"
 
 #. (itstool) path: td/p
 #: C/window.vala.page:26
 msgid "The simplest Gtk.Application"
-msgstr ""
+msgstr "Den enklaste Gtk.Application"
 
 #. (itstool) path: td/p
 #: C/window.vala.page:29
 msgid "Use <link xref=\"GtkApplicationWindow.vala\">Application Window</link> if you need GMenu support."
-msgstr ""
+msgstr "Använd <link xref=\"GtkApplicationWindow.vala\">ApplicationWindow</link> om du behöver GMenu-stöd."
 
 #. (itstool) path: page/code
 #: C/window.vala.page:33
@@ -37700,7 +38559,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/window.vala.page:39
 msgid "The widget <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.html\">Gtk.Window</link>"
-msgstr ""
+msgstr "Komponenten <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.html\">Gtk.Window</link>"
 
 #. (itstool) path: item/p
 #: C/window.vala.page:41
@@ -37737,7 +38596,7 @@ msgstr "2015"
 #. (itstool) path: info/desc
 #: C/custom-gsource.c.page:18
 msgid "Tutorial for writing a custom <code>GSource</code> implementation"
-msgstr ""
+msgstr "Handledning för att skriva en anpassad <code>GSource</code>-implementation"
 
 #. (itstool) path: page/title
 #: C/custom-gsource.c.page:23
@@ -37747,7 +38606,7 @@ msgstr ""
 #. (itstool) path: synopsis/title
 #: C/custom-gsource.c.page:26
 msgid "Summary"
-msgstr ""
+msgstr "Sammanfattning"
 
 #. (itstool) path: synopsis/p
 #: C/custom-gsource.c.page:28
@@ -37760,7 +38619,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:37
 msgid "What is <code>GSource</code>?"
-msgstr ""
+msgstr "Vad är <code>GSource</code>?"
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:39
@@ -37985,7 +38844,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:212
 msgid "Constructor"
-msgstr ""
+msgstr "Konstruktor"
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:214
