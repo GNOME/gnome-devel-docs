@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-demos\n"
-"POT-Creation-Date: 2021-03-13 21:51+0000\n"
-"PO-Revision-Date: 2021-03-26 15:34+0100\n"
+"POT-Creation-Date: 2021-03-26 14:36+0000\n"
+"PO-Revision-Date: 2021-04-12 19:00+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Svenska <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -33541,6 +33541,10 @@ msgid ""
 "the <code>str</code> type are byte representations (the encoded string). Under the hood, Python represents Unicode "
 "strings as either 16- or 32-bit integers, depending on how the Python interpreter was compiled."
 msgstr ""
+"Python 2 kommer med två olika sorters objekt som kan användas för att representera strängar, <code>str</code> och "
+"<code>unicode</code>. Instanser av <code>unicode</code> används för att uttrycka Unicode-strängar, medan instanser "
+"av typen <code>str</code> är byterepresentationer (den kodade strängen). Under huven representerar Python Unicode-"
+"strängar antingen som 16- eller 32-bitars heltal, beroende på hur Python-tolken kompilerades."
 
 #. (itstool) path: section/code
 #: C/strings.py.page:38
@@ -33551,6 +33555,10 @@ msgid ""
 "&gt;&gt;&gt; print unicode_string\n"
 "Fußbälle\n"
 msgstr ""
+"\n"
+"&gt;&gt;&gt; unicode_string = u\"Fu\\u00dfb\\u00e4lle\"\n"
+"&gt;&gt;&gt; print unicode_string\n"
+"Fußbälle\n"
 
 #. (itstool) path: section/p
 #: C/strings.py.page:44
@@ -33559,6 +33567,9 @@ msgid ""
 "a <code>str.decode()</code> method that interprets the string using the given encoding (that is, it is the inverse "
 "of the <code>unicode.encode()</code>):"
 msgstr ""
+"Unicode-strängar kan konverteras till 8-bitars strängar med <code>unicode.encode()</code>. Pythons 8-bitars "
+"strängar har en <code>str.decode()</code>-metod som tolkar strängen med given kodning (det vill säga, det är "
+"inversen av <code>unicode.encode()</code>):"
 
 #. (itstool) path: section/code
 #: C/strings.py.page:46
@@ -33575,6 +33586,16 @@ msgid ""
 "&gt;&gt;&gt; unicode_string == utf8_string.decode(\"utf-8\")\n"
 "True"
 msgstr ""
+"\n"
+"&gt;&gt;&gt; type(unicode_string)\n"
+"&lt;type 'unicode'&gt;\n"
+"&gt;&gt;&gt; unicode_string.encode(\"utf-8\")\n"
+"'Fu\\xc3\\x9fb\\xc3\\xa4lle'\n"
+"&gt;&gt;&gt; utf8_string = unicode_string.encode(\"utf-8\")\n"
+"&gt;&gt;&gt; type(utf8_string)\n"
+"&lt;type 'str'&gt;\n"
+"&gt;&gt;&gt; unicode_string == utf8_string.decode(\"utf-8\")\n"
+"True"
 
 #. (itstool) path: section/p
 #: C/strings.py.page:57
@@ -33582,6 +33603,9 @@ msgid ""
 "Unfortunately, Python 2.x allows you to mix <code>unicode</code> and <code>str</code> if the 8-bit string happened "
 "to contain only 7-bit (ASCII) bytes, but would get <sys>UnicodeDecodeError</sys> if it contained non-ASCII values."
 msgstr ""
+"Tyvärr låter Python 2.x dig mixa <code>unicode</code> och <code>str</code> om 8-bitarssträngen råkade innehålla "
+"endast 7-bitars byte (ASCII), men skulle få <sys>UnicodeDecodeError</sys> om den innehöll värden som inte var "
+"ASCII."
 
 #. (itstool) path: section/title
 #: C/strings.py.page:62
@@ -33596,6 +33620,10 @@ msgid ""
 "<code>str</code> refers to text, whereas bytes refers to data. Use <code>encode()</code> to go from <code>str</"
 "code> to <code>bytes</code>, and <code>decode()</code> to go from <code>bytes</code> to <code>str</code>."
 msgstr ""
+"Sedan Python 3.0 lagras alla strängar som Unicode i en instans av typen <code>str</code>. Kodade strängar "
+"representeras å andra sidan som binärdata i form av instanser av typen ”bytes”. Konceptuellt refererar <code>str</"
+"code> till text, medan ”bytes” refererar till data. Använd <code>encode()</code> för att gå från <code>str</code> "
+"till <code>bytes</code>, och <code>decode()</code> för att gå från <code>bytes</code> till <code>str</code>."
 
 #. (itstool) path: section/p
 #: C/strings.py.page:66
@@ -33603,6 +33631,8 @@ msgid ""
 "In addition, it is no longer possible to mix Unicode strings with encoded strings, because it will result in a "
 "<code>TypeError</code>:"
 msgstr ""
+"Vidare är det inte längre möjligt att mixa Unicode-strängar med kodade strängar, eftersom det kommer resultera i "
+"ett :exc:`TypeError`:"
 
 #. (itstool) path: section/code
 #: C/strings.py.page:68
@@ -33620,6 +33650,17 @@ msgid ""
 "&gt;&gt;&gt; text.encode(\"utf-8\") + data\n"
 "b'Fu\\xc3\\x9fb\\xc3\\xa4lle sind rund'"
 msgstr ""
+"\n"
+"&gt;&gt;&gt; text = \"Fu\\u00dfb\\u00e4lle\"\n"
+"&gt;&gt;&gt; data = b\" sind rund\"\n"
+"&gt;&gt;&gt; text + data\n"
+"Traceback (most recent call last):\n"
+"  File \"&lt;stdin&gt;\", line 1, in &lt;module&gt;\n"
+"TypeError: Can't convert 'bytes' object to str implicitly\n"
+"&gt;&gt;&gt; text + data.decode(\"utf-8\")\n"
+"'Fußbälle sind rund'\n"
+"&gt;&gt;&gt; text.encode(\"utf-8\") + data\n"
+"b'Fu\\xc3\\x9fb\\xc3\\xa4lle sind rund'"
 
 #. (itstool) path: section/title
 #: C/strings.py.page:83
@@ -33634,6 +33675,10 @@ msgid ""
 "strings as parameter, they must be UTF-8 encoded. However, for convenience PyGObject will automatically convert "
 "any unicode instance to str if supplied as argument:"
 msgstr ""
+"GTK+ använder UTF-8-kodade strängar för all text. Detta betyder att om du anropar en metod som returnerar en "
+"sträng kommer du alltid erhålla en instans av typen <code>str</code>. Detsamma gäller metoder som förväntar sig en "
+"eller flera strängar som parameter, de måste vara UTF-8-kodade. För bekvämlighet kommer dock PyGObject automatiskt "
+"konvertera alla unicode-instanser till str om de tillhandahålls som argument:"
 
 #. (itstool) path: section/code
 #: C/strings.py.page:87
@@ -33648,6 +33693,14 @@ msgid ""
 "&gt;&gt;&gt; type(txt)\n"
 "&lt;type 'str'&gt;"
 msgstr ""
+"\n"
+"&gt;&gt;&gt; from gi.repository import Gtk\n"
+"&gt;&gt;&gt; label = Gtk.Label()\n"
+"&gt;&gt;&gt; unicode_string = u\"Fu\\u00dfb\\u00e4lle\"\n"
+"&gt;&gt;&gt; label.set_text(unicode_string)\n"
+"&gt;&gt;&gt; txt = label.get_text()\n"
+"&gt;&gt;&gt; type(txt)\n"
+"&lt;type 'str'&gt;"
 
 #. (itstool) path: section/p
 #: C/strings.py.page:96
@@ -33684,6 +33737,9 @@ msgid ""
 "org/library/gettext.html\"><code>gettext</code></link>. You have to make sure that <code>gettext</code> will "
 "return UTF-8 encoded 8-bit strings for all languages."
 msgstr ""
+"Detta är särskilt viktigt om du vill internationalisera ditt program med <link href=\"http://docs.python.org/"
+"library/gettext.html\"><code>gettext</code></link>. Du måste säkerställa att <code>gettext</code> kommer returnera "
+"UTF-8-kodade 8-bitars strängar för alla språk."
 
 #. (itstool) path: section/p
 #: C/strings.py.page:105
@@ -33691,6 +33747,8 @@ msgid ""
 "In general it is recommended to not use <code>unicode</code> objects in GTK+ applications at all, and only use "
 "UTF-8 encoded <code>str</code> objects since GTK+ does not fully integrate with <code>unicode</code> objects."
 msgstr ""
+"I allmänhet rekommenderas det att inte använda <code>unicode</code>-objekt i GTK+-program överhuvudtaget och "
+"endast använda UTF-8-kodade :class:`str`-objekt då GTK+ inte är helt integrerat med <code>unicode</code>-objekt."
 
 #. (itstool) path: section/p
 #: C/strings.py.page:107
@@ -33699,6 +33757,9 @@ msgid ""
 "if you pass a string to a method or a method returns a string. Strings, or text, will always be represented as "
 "instances of <code>str</code> only."
 msgstr ""
+"Strängkodning är mer konsekvent i Python 3.x, för PyGObject kommer automatiskt koda/avkoda till/från UTF-8 om du "
+"skickar med en sträng till en metod eller om en metod returnerar en sträng. Strängar, eller text, kommer alltid "
+"endast att representeras som instanser av <code>str</code>."
 
 #. (itstool) path: section/p
 #: C/strings.py.page:114
@@ -35844,9 +35905,8 @@ msgstr "Storlek (egenskaperna ”size” och ”size-points”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:81
-#, fuzzy
 msgid "Text wrapping (\"wrap-mode\" property)"
-msgstr "Textradbrytning (egenskapen ”wrap-mode”)"
+msgstr "Radbrytning av text (egenskapen ”wrap-mode”)"
 
 #. (itstool) path: item/p
 #: C/textview.py.page:83
@@ -38385,6 +38445,8 @@ msgid ""
 "This example is similar to <link xref=\"toolbar.vala\"/>, except we use Glade to create the toolbar in an XML ui "
 "file."
 msgstr ""
+"Detta exempel liknar <link xref=\"toolbar.vala\"/>, förutom att vi använder Glade för att skapa verktygsfältet i "
+"en XML .ui-fil."
 
 #. (itstool) path: item/p
 #: C/toolbar_builder.vala.page:124
