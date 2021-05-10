@@ -5,21 +5,21 @@
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2006.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010, 2011.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2019.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-12 10:35+0000\n"
-"PO-Revision-Date: 2019-03-14 15:55+0100\n"
+"POT-Creation-Date: 2020-09-25 12:43+0000\n"
+"PO-Revision-Date: 2021-05-10 13:29+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: es <gnome-es-list@gnome.org>\n"
-"Language: es\n"
+"Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 3.31.90\n"
+"X-Generator: Gtranslator 40.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: p/link
@@ -285,7 +285,7 @@ msgstr ""
 
 #. (itstool) path: page/code
 #: C/dev-help-build.page:47
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\n"
 #| "@YELP_HELP_RULES@\n"
@@ -339,7 +339,7 @@ msgstr ""
 "\tanotherpage.page\n"
 "\n"
 "# Translated languages, blank if no translations exist\n"
-"HELP_LINGUAS = en_GB \n"
+"HELP_LINGUAS = en_GB\n"
 
 #. (itstool) path: info/desc
 #: C/dev-help.page:26
@@ -466,7 +466,7 @@ msgstr "<file>help/C/introduction.page</file>"
 
 #. (itstool) path: listing/code
 #: C/dev-help-write.page:63
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "\n"
 #| "&lt;page xmlns=\"http://projectmallard.org/1.0/\"\n"
@@ -543,13 +543,13 @@ msgstr ""
 "    &lt;link type=\"seealso\" xref=\"anotherpageid\"/&gt;\n"
 "--&gt;\n"
 "    &lt;revision pkgversion=\"3.9\" date=\"2013-06-19\" status=\"stub\"/&gt;\n"
-" \n"
+"\n"
 "    &lt;credit type=\"author\"&gt;\n"
 "      &lt;name&gt;Your Name&lt;/name&gt;\n"
 "      &lt;email its:translate=\"no\"&gt;mail@example.com&lt;/email&gt;\n"
 "      &lt;years&gt;2013&lt;/years&gt;\n"
 "    &lt;/credit&gt;\n"
-" \n"
+"\n"
 "    &lt;include href=\"legal.xml\" xmlns=\"http://www.w3.org/2001/XInclude\"/&gt;\n"
 "\n"
 "    &lt;desc&gt;Welcome to _Application name_&lt;/desc&gt;\n"
@@ -2624,15 +2624,15 @@ msgstr ""
 #| "redundant ways of providing this information instead of relying on the "
 #| "user being able to perceive a particular medium."
 msgid ""
-"Nonetheless, you should be aware of accessibility issues when when "
-"developing your applications. Although GTK interfaces provide reasonable "
-"accessibility by default, you can often improve how well your program "
-"behaves with accessibility tools by providing additional information to ATK. "
-"If you develop custom widgets, you should ensure that they expose their "
-"properties to ATK. You should also avoid using sound, graphics, or color as "
-"the sole means of conveying information to the user; have redundant ways of "
-"providing this information instead of relying on the user being able to "
-"perceive a particular medium."
+"Nonetheless, you should be aware of accessibility issues when developing "
+"your applications. Although GTK interfaces provide reasonable accessibility "
+"by default, you can often improve how well your program behaves with "
+"accessibility tools by providing additional information to ATK. If you "
+"develop custom widgets, you should ensure that they expose their properties "
+"to ATK. You should also avoid using sound, graphics, or color as the sole "
+"means of conveying information to the user; have redundant ways of providing "
+"this information instead of relying on the user being able to perceive a "
+"particular medium."
 msgstr ""
 "Sin embargo, debería ser consciente de las cuestiones de accesibilidad "
 "cuando desarrolle sus aplicaciones. Aunque las interfaces GTK+ proporcionan "
@@ -4036,10 +4036,9 @@ msgstr "Kit de herramientas de widgets para interfaces gráficas"
 
 #. (itstool) path: page/title
 #: C/tech-gtk.page:21
-#, fuzzy
 #| msgid "GTK+"
 msgid "GTK"
-msgstr "GTK+"
+msgstr "GTK"
 
 #. (itstool) path: page/p
 #: C/tech-gtk.page:23
@@ -4140,7 +4139,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-#, fuzzy
 #| msgid "<link href=\"https://www.gtk.org/\">Official web site</link>"
 msgid "<link href=\"https://www.gtk.org/\">Official website</link>"
 msgstr "<link href=\"https://www.gtk.org/\">Página web oficial</link>"
@@ -4165,7 +4163,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:54
-#, fuzzy
 #| msgid ""
 #| "<link href=\"https://gitlab.gnome.org/GNOME/gtk/\">git repository</link>"
 msgid ""
@@ -5254,7 +5251,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:40
-#, fuzzy
 #| msgid ""
 #| "<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">WebKitGTK"
 #| "+ Reference Manual</link>"
@@ -5263,11 +5259,10 @@ msgid ""
 "Reference Manual</link>"
 msgstr ""
 "<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">Manual de "
-"referencia de WebKitGTK+</link>"
+"referencia de WebKitGTK</link>"
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:41
-#, fuzzy
 #| msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK+ web site</link>"
 msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK web site</link>"
 msgstr "<link href=\"http://webkitgtk.org/\">El sitio web de WebKitGTK+</link>"
