@@ -10,13 +10,13 @@
 # Javi Ribera <javiribera@gmail.com>, 2013.
 # Alex Puchades <alex94puchades@gmail.com>, 2015.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2020.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2020-01-16 11:56+0000\n"
-"PO-Revision-Date: 2020-01-21 12:15+0100\n"
+"POT-Creation-Date: 2020-06-12 10:34+0000\n"
+"PO-Revision-Date: 2021-05-27 12:19+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 3.34.0\n"
+"X-Generator: Gtranslator 40.0\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -41,7 +41,7 @@ msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2020\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2021\n"
 "Alex Puchades <alex94puchades@gmail.com>, 2015\n"
 "Nicolás Satragno <nsatragno@gnome.org>, 2013\n"
 "Benjamín Valero Espinosa <benjavalero@gmail.com>, 2011\n"
@@ -1127,15 +1127,21 @@ msgstr "Compatibilidad"
 
 #. (itstool) path: page/p
 #: C/compatibility.page:16
+#| msgid ""
+#| "These Human Interface Guidelines are primarily targeted towards new GTK+ "
+#| "and GNOME applications, with an emphasis on GNOME 3 integration. However, "
+#| "they are also intended to be useful to cross-platform applications, as "
+#| "well as older applications, which may have been designed and implemented "
+#| "in accordance with the GNOME 2 HIG."
 msgid ""
-"These Human Interface Guidelines are primarily targeted towards new GTK+ and "
+"These Human Interface Guidelines are primarily targeted towards new GTK and "
 "GNOME applications, with an emphasis on GNOME 3 integration. However, they "
 "are also intended to be useful to cross-platform applications, as well as "
 "older applications, which may have been designed and implemented in "
 "accordance with the GNOME 2 HIG."
 msgstr ""
 "Estas Guías de interfaz humana están dirigidas principalmente a aplicaciones "
-"nuevas en GTK+ y GNOME, con énfasis en la integración con GNOME 3. Sin "
+"nuevas en GTK y GNOME, con énfasis en la integración con GNOME 3. Sin "
 "embargo, también se pretende que sea útiles en aplicaciones multi-"
 "plataforma, así como en aplicaciones antiguas que se puedan haber diseñado e "
 "implementado siguiendo las guías de GNOME 2."
@@ -1228,9 +1234,10 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/compatibility.page:38
-msgid "Guidance on new GTK+ abilities, like animations."
+#| msgid "Guidance on new GTK+ abilities, like animations."
+msgid "Guidance on new GTK abilities, like animations."
 msgstr ""
-"Orientación hacia las nuevas capacidades de GTK+, tales como las animaciones."
+"Orientación hacia las nuevas capacidades de GTK, tales como las animaciones."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:39
@@ -1243,14 +1250,18 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/compatibility.page:42
+#| msgid ""
+#| "Incorporating these elements of the guidelines can enhance your "
+#| "application without requiring a major redesign, and all GTK+ and GNOME "
+#| "applications can benefit from them."
 msgid ""
 "Incorporating these elements of the guidelines can enhance your application "
-"without requiring a major redesign, and all GTK+ and GNOME applications can "
+"without requiring a major redesign, and all GTK and GNOME applications can "
 "benefit from them."
 msgstr ""
 "La incorporación de los elementos presentes en esta guías pueden mejorar su "
 "aplicación sin necesidad de un rediseño completo, de forma que todas las "
-"aplicaciones GTK+ y GNOME pueden beneficiarse de ellas."
+"aplicaciones GTK y GNOME pueden beneficiarse de ellas."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:44
@@ -1655,11 +1666,14 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dialogs.page:31
+#| msgid ""
+#| "GTK+ provides a number of stock dialogs that can be used, such as for "
+#| "printing or color selection."
 msgid ""
-"GTK+ provides a number of stock dialogs that can be used, such as for "
+"GTK provides a number of stock dialogs that can be used, such as for "
 "printing or color selection."
 msgstr ""
-"GTK+ proporciona un número de diálogos del almacén que se pueden usar, por "
+"GTK proporciona un número de diálogos del almacén que se pueden usar, por "
 "ejemplo para la impresión o la selección de color."
 
 #. (itstool) path: page/p
@@ -1847,14 +1861,19 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/dialogs.page:85
+#| msgid ""
+#| "Many of the stock GTK+ dialogs are action dialogs. The print dialog is a "
+#| "good example: it is displayed in response to the user using the print "
+#| "action, and presents information and options for that print action. The "
+#| "two header bar buttons allow the print action to either be cancelled or "
+#| "carried out."
 msgid ""
-"Many of the stock GTK+ dialogs are action dialogs. The print dialog is a "
-"good example: it is displayed in response to the user using the print "
-"action, and presents information and options for that print action. The two "
-"header bar buttons allow the print action to either be cancelled or carried "
-"out."
+"Many of the stock GTK dialogs are action dialogs. The print dialog is a good "
+"example: it is displayed in response to the user using the print action, and "
+"presents information and options for that print action. The two header bar "
+"buttons allow the print action to either be cancelled or carried out."
 msgstr ""
-"Muchos de los diálogos existentes GTK+ son diálogo de acción. El diálogo de "
+"Muchos de los diálogos existentes GTK son diálogo de acción. El diálogo de "
 "impresión es un buen ejemplo: se muestra al usuario en respuesta mediante la "
 "acción de impresión y presenta información y las opciones para la acción de "
 "impresión. Los dos botones de la barra de cabecera permiten que la acción de "
@@ -2341,18 +2360,24 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:37
+#| msgid ""
+#| "While GTK+ does provide a specific combobox widget, it is recommended "
+#| "that drop-down lists are constructed using a combination of a button and "
+#| "a popover. This allows more comfortable scrolling for long lists, and "
+#| "allows search to be integrated into the list. Using this approach also "
+#| "allows the current selected item to always be displayed."
 msgid ""
-"While GTK+ does provide a specific combobox widget, it is recommended that "
+"While GTK does provide a specific combobox widget, it is recommended that "
 "drop-down lists are constructed using a combination of a button and a "
 "popover. This allows more comfortable scrolling for long lists, and allows "
 "search to be integrated into the list. Using this approach also allows the "
 "current selected item to always be displayed."
 msgstr ""
-"Aunque GTK+ proporciona un qidget de caja combinada específico, se "
-"recomienda que las listas desplegables se construyan usando una combinación "
-"de un botón y una ventana emergente. Esto permite un desplazamiento más "
-"cómodo en listas largas y permite integrar búsquedas en la lista. Usar este "
-"enfoque también permite mostrar siempre el elemento seleccionado."
+"Aunque GTK proporciona un widget de caja combinada específico, se recomienda "
+"que las listas desplegables se construyan usando una combinación de un botón "
+"y una ventana emergente. Esto permite un desplazamiento más cómodo en listas "
+"largas y permite integrar búsquedas en la lista. Usar este enfoque también "
+"permite mostrar siempre el elemento seleccionado."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:38
@@ -3676,12 +3701,6 @@ msgstr "Usos de iconos"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:38
-#| msgid ""
-#| "Every application should have a unique and beautiful application icon. It "
-#| "is the face of the application, and the first visual element a user sees "
-#| "when browsing for new applications. The <link xref=\"application-basics"
-#| "\">application basics page</link> includes details on what an application "
-#| "is, and when to provide an application icon."
 msgid ""
 "Application icons are the most prominent type of icons. Every application "
 "should have its own unique and beautiful application icon: it is the face of "
@@ -3842,15 +3861,21 @@ msgstr "Guías de la interfaz humana de GNOME"
 
 #. (itstool) path: page/p
 #: C/index.page:17
+#| msgid ""
+#| "Whether you are a developer or a designer, these guidelines contain "
+#| "everything you need to design effective applications using GTK+. They "
+#| "cover design principles for GNOME 3, common guidelines such as how to "
+#| "write text and use images and icons, as well as a library of design "
+#| "patterns which you can use in your application."
 msgid ""
 "Whether you are a developer or a designer, these guidelines contain "
-"everything you need to design effective applications using GTK+. They cover "
+"everything you need to design effective applications using GTK. They cover "
 "design principles for GNOME 3, common guidelines such as how to write text "
 "and use images and icons, as well as a library of design patterns which you "
 "can use in your application."
 msgstr ""
 "Si es un desarrollador o un diseñador, esta guía contiene todo lo necesario "
-"para diseñar aplicaciones efectivas usando GTK+. Cubre los principios de "
+"para diseñar aplicaciones efectivas usando GTK. Cubre los principios de "
 "diseño de GNOME 3, la guía común sobre cómo escribir texto y cómo usar "
 "imágenes e iconos, así como una biblioteca de patrones de diseño que puede "
 "usar en su aplicación."
@@ -4424,12 +4449,16 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/keyboard-input.page:33
+#| msgid ""
+#| "Keyboard interaction has three aspects in GNOME and GTK+: navigation, "
+#| "access keys, and shortcut keys. <link xref=\"search\">Search</link> is "
+#| "another, additional aspect."
 msgid ""
-"Keyboard interaction has three aspects in GNOME and GTK+: navigation, access "
+"Keyboard interaction has three aspects in GNOME and GTK: navigation, access "
 "keys, and shortcut keys. <link xref=\"search\">Search</link> is another, "
 "additional aspect."
 msgstr ""
-"La integración del teclado tiene tres aspectos en GNOME y GTK+: navegación, "
+"La integración del teclado tiene tres aspectos en GNOME y GTK: navegación, "
 "teclas de acceso y atajos del teclado. La <link xref=\"search\">Búsqueda</"
 "link> es otro aspecto adicional."
 
@@ -4449,12 +4478,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:41
+#| msgid ""
+#| "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
+#| "standard key for moving around an interface with GTK+ and GNOME."
 msgid ""
 "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
-"standard key for moving around an interface with GTK+ and GNOME."
+"standard key for moving around an interface with GTK and GNOME."
 msgstr ""
 "Siga las teclas estándar de GNOME para la navegación. <key>Tab</key> es la "
-"tecla estándar para moverse por la interfaz en GTK+ y GNOME."
+"tecla estándar para moverse por la interfaz en GTK y GNOME."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:42
@@ -8170,15 +8202,21 @@ msgstr "Entrada táctil"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:108
+#| msgid ""
+#| "Touch screens are also an increasingly common part of modern computer "
+#| "hardware, and applications created with GTK+ are likely to be used with "
+#| "hardware that incorporates a touch screen. To make the most of this "
+#| "hardware, and to conform to users’ expectations, it is therefore "
+#| "important to consider touch input as a part of application design."
 msgid ""
 "Touch screens are also an increasingly common part of modern computer "
-"hardware, and applications created with GTK+ are likely to be used with "
+"hardware, and applications created with GTK are likely to be used with "
 "hardware that incorporates a touch screen. To make the most of this "
 "hardware, and to conform to users’ expectations, it is therefore important "
 "to consider touch input as a part of application design."
 msgstr ""
 "Las pantallas táctiles también se están volviendo una parte común del "
-"hardware moderno, y las aplicaciones con GTK+ están pensadas para usarse con "
+"hardware moderno, y las aplicaciones con GTK están pensadas para usarse con "
 "hardware que incorpore una pantalla táctil. Por lo tanto, y para ajustarse a "
 "la mayor parte de este hardware y a las expectativas de los usuarios, es "
 "importante considerar la entrada táctil como parte del diseño de la "
