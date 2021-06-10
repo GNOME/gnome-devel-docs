@@ -59,7 +59,7 @@
 <item><p>In cases where it is common to use a slider, follow placement conventions. For example, in video players, it is common to situate a horizontal seek bar along the bottom of the window. Simply placing a slider in this position is enough to identify it.</p></item>
 <item><p>In other cases, label the slider with a text label above it or to its left, using <link xref="writing-style#capitalization">sentence capitalization</link>. Provide an <link xref="keyboard-input#access-keys">access key</link> in the label that allows the user to give focus directly to the slider.</p></item>
 </list></item>
-<item><p>Mark significant values along the length of the slider with text or tick marks. For example the left, right and center points on an audio balance control in Figure 6-7.</p></item>
+<item><p>Mark significant values along the length of the slider with text or tick marks. For example the left, right and center points on an audio balance control.</p></item>
 <item><p>For large ranges of integers (more than about 20), and for ranges of floating point numbers, consider providing a <link xref="text-fields">text box</link> or <link xref="spin-boxes">spin box</link> that is linked to the slider’s value. This allows the user to quickly set or fine-tune the setting more easily than they could with the slider control alone.</p></item>
 </list>
 
