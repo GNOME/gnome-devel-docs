@@ -1,14 +1,14 @@
 # Swedish translation for gnome-devel-docs.
-# Copyright © 2015-2020 gnome-devel-docs's COPYRIGHT HOLDER
+# Copyright © 2015-2021 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2018, 2019, 2020.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2018, 2019, 2020, 2021.
 # Sebastian Rasmussen <sebras@gmail.com>, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2021-03-18 21:16+0000\n"
-"PO-Revision-Date: 2021-03-27 21:35+0100\n"
+"POT-Creation-Date: 2021-06-10 20:36+0000\n"
+"PO-Revision-Date: 2021-06-11 20:36+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -10443,17 +10443,15 @@ msgstr ""
 "\">snabbtangent</link> i etiketten som låter användaren ge skjutreglaget "
 "fokus direkt."
 
-# TODO: where is Figure 6-7?
 #. (itstool) path: item/p
 #: C/sliders.page:62
 msgid ""
 "Mark significant values along the length of the slider with text or tick "
 "marks. For example the left, right and center points on an audio balance "
-"control in Figure 6-7."
+"control."
 msgstr ""
 "Markera viktiga värden längs med skjutreglaget med text eller bockar. "
-"Exempelvis punkterna vänster, höger och centrum på en ljudbalanskomponent i "
-"Figur 6-7."
+"Exempelvis punkterna vänster, höger och centrum på en ljudbalanskomponent."
 
 #. (itstool) path: item/p
 #: C/sliders.page:63
