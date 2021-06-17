@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2020-06-12 10:34+0000\n"
-"PO-Revision-Date: 2021-05-27 12:19+0200\n"
+"POT-Creation-Date: 2021-06-10 20:36+0000\n"
+"PO-Revision-Date: 2021-06-17 11:19+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -1127,12 +1127,6 @@ msgstr "Compatibilidad"
 
 #. (itstool) path: page/p
 #: C/compatibility.page:16
-#| msgid ""
-#| "These Human Interface Guidelines are primarily targeted towards new GTK+ "
-#| "and GNOME applications, with an emphasis on GNOME 3 integration. However, "
-#| "they are also intended to be useful to cross-platform applications, as "
-#| "well as older applications, which may have been designed and implemented "
-#| "in accordance with the GNOME 2 HIG."
 msgid ""
 "These Human Interface Guidelines are primarily targeted towards new GTK and "
 "GNOME applications, with an emphasis on GNOME 3 integration. However, they "
@@ -1234,7 +1228,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/compatibility.page:38
-#| msgid "Guidance on new GTK+ abilities, like animations."
 msgid "Guidance on new GTK abilities, like animations."
 msgstr ""
 "Orientación hacia las nuevas capacidades de GTK, tales como las animaciones."
@@ -1250,10 +1243,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/compatibility.page:42
-#| msgid ""
-#| "Incorporating these elements of the guidelines can enhance your "
-#| "application without requiring a major redesign, and all GTK+ and GNOME "
-#| "applications can benefit from them."
 msgid ""
 "Incorporating these elements of the guidelines can enhance your application "
 "without requiring a major redesign, and all GTK and GNOME applications can "
@@ -1666,9 +1655,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dialogs.page:31
-#| msgid ""
-#| "GTK+ provides a number of stock dialogs that can be used, such as for "
-#| "printing or color selection."
 msgid ""
 "GTK provides a number of stock dialogs that can be used, such as for "
 "printing or color selection."
@@ -1861,12 +1847,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/dialogs.page:85
-#| msgid ""
-#| "Many of the stock GTK+ dialogs are action dialogs. The print dialog is a "
-#| "good example: it is displayed in response to the user using the print "
-#| "action, and presents information and options for that print action. The "
-#| "two header bar buttons allow the print action to either be cancelled or "
-#| "carried out."
 msgid ""
 "Many of the stock GTK dialogs are action dialogs. The print dialog is a good "
 "example: it is displayed in response to the user using the print action, and "
@@ -2360,12 +2340,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:37
-#| msgid ""
-#| "While GTK+ does provide a specific combobox widget, it is recommended "
-#| "that drop-down lists are constructed using a combination of a button and "
-#| "a popover. This allows more comfortable scrolling for long lists, and "
-#| "allows search to be integrated into the list. Using this approach also "
-#| "allows the current selected item to always be displayed."
 msgid ""
 "While GTK does provide a specific combobox widget, it is recommended that "
 "drop-down lists are constructed using a combination of a button and a "
@@ -3861,12 +3835,6 @@ msgstr "Guías de la interfaz humana de GNOME"
 
 #. (itstool) path: page/p
 #: C/index.page:17
-#| msgid ""
-#| "Whether you are a developer or a designer, these guidelines contain "
-#| "everything you need to design effective applications using GTK+. They "
-#| "cover design principles for GNOME 3, common guidelines such as how to "
-#| "write text and use images and icons, as well as a library of design "
-#| "patterns which you can use in your application."
 msgid ""
 "Whether you are a developer or a designer, these guidelines contain "
 "everything you need to design effective applications using GTK. They cover "
@@ -4449,10 +4417,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/keyboard-input.page:33
-#| msgid ""
-#| "Keyboard interaction has three aspects in GNOME and GTK+: navigation, "
-#| "access keys, and shortcut keys. <link xref=\"search\">Search</link> is "
-#| "another, additional aspect."
 msgid ""
 "Keyboard interaction has three aspects in GNOME and GTK: navigation, access "
 "keys, and shortcut keys. <link xref=\"search\">Search</link> is another, "
@@ -4478,9 +4442,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:41
-#| msgid ""
-#| "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
-#| "standard key for moving around an interface with GTK+ and GNOME."
 msgid ""
 "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
 "standard key for moving around an interface with GTK and GNOME."
@@ -8202,12 +8163,6 @@ msgstr "Entrada táctil"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:108
-#| msgid ""
-#| "Touch screens are also an increasingly common part of modern computer "
-#| "hardware, and applications created with GTK+ are likely to be used with "
-#| "hardware that incorporates a touch screen. To make the most of this "
-#| "hardware, and to conform to users’ expectations, it is therefore "
-#| "important to consider touch input as a part of application design."
 msgid ""
 "Touch screens are also an increasingly common part of modern computer "
 "hardware, and applications created with GTK are likely to be used with "
@@ -10619,14 +10574,18 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/sliders.page:62
+#| msgid ""
+#| "Mark significant values along the length of the slider with text or tick "
+#| "marks. For example the left, right and center points on an audio balance "
+#| "control in Figure 6-7."
 msgid ""
 "Mark significant values along the length of the slider with text or tick "
 "marks. For example the left, right and center points on an audio balance "
-"control in Figure 6-7."
+"control."
 msgstr ""
 "Marcar valores significantes a lo largo de la longitud del deslizador con "
 "texto o marcas. Por ejemplo, puntos a la izquierda, derecha y centro en un "
-"control de balance de sonido en la Figura 6-7."
+"control de balance de sonido."
 
 #. (itstool) path: item/p
 #: C/sliders.page:63
